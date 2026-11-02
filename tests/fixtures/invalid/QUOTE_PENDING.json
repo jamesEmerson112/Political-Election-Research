@@ -1,0 +1,1 @@
+{"description":"A maintainer-verified citation without its verbatim quote (warning; error under --strict).","strict":true,"expect":["QUOTE_PENDING"],"patches":[{"file":"people/avery-sample.json","remove":["/candidate_profile/occupation/citations/0/quote"],"set":{"/candidate_profile/occupation/citations/0/verified_by":{"by":"maintainer","date":"2030-10-01"}}}]}

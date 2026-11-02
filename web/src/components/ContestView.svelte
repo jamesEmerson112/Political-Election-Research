@@ -50,12 +50,15 @@
   const legislation = (c: string): Rec[] =>
     ix.ofType("legislative_action").filter((r) => r["person"] === c).sort((a, b) => (a["date"] < b["date"] ? 1 : -1));
   const bill = (id: string): Rec | undefined => ix.b.bills.find((b) => b["id"] === id);
-  const billLabel = (id: string) => id.replace(/^(ca|us)-\d+-/, "").replace("-", " ").toUpperCase();
+  const billLabel = (id: string) =>
+    /-file-/.test(id) ? `${id.split("-file-")[0]!.toUpperCase()} File ${id.split("-file-")[1]}` : id.replace(/^(ca|us)-\d+-/, "").replace("-", " ").toUpperCase();
   const offices = (c: string): Rec[] => (profile(c)["offices_held"]?.["items"] as Rec[] | undefined) ?? [];
   const rollup = (c: string) => ix.b.rollups[contestRef]?.[c];
   const ACTION: Record<string, string> = {
     authored: "Authored",
     coauthored: "Co-authored",
+    sponsored: "Sponsored",
+    cosponsored: "Co-sponsored",
     voted_yes: "Voted yes",
     voted_no: "Voted no",
     abstained: "Abstained",
@@ -271,7 +274,7 @@
           {#each cands as c (c)}
             <td>
               {@render list(c, "offices_held", "Current office", offices(c).filter((o) => !o["end"]), (o) =>
-                `${o["office"]} · ${yearsSince(o["start"], electionDate)} (since ${String(o["start"]).slice(0, 4)})`,
+                `${o["office"]}${o["start"] || o["first_elected"] ? ` · ${yearsSince(o["start"] ?? o["first_elected"], electionDate)}${o["start"] ? ` (since ${String(o["start"]).slice(0, 4)})` : ` (first elected ${String(o["first_elected"]).slice(0, 4)})`}` : ""}`,
               )}
             </td>
           {/each}
@@ -303,7 +306,7 @@
           {#each cands as c (c)}
             <td>
               {@render list(c, "offices_held", "Previous offices", offices(c).filter((o) => o["end"]), (o) =>
-                `${o["office"]} (${String(o["start"]).slice(0, 4)}–${String(o["end"]).slice(0, 4)})`,
+                `${o["office"]} (${o["start"] ? String(o["start"]).slice(0, 4) : "?"}–${String(o["end"]).slice(0, 4)})`,
               false)}
             </td>
           {/each}
@@ -331,7 +334,7 @@
                       >
                         <strong>{billLabel(a["bill"])}</strong>{b ? ` ${b["title"]["value"]}` : ""}
                       </button>
-                      <span class="sub">{ACTION[a["action"]]} · {date(a["date"])}{b ? ` · ${String(b["status"]["value"]).replace(/_/g, " ")}` : ""}</span>
+                      <span class="sub">{ACTION[a["action"]]}{a["date"] ? ` · ${date(a["date"])}` : ""}{b ? ` · ${String(b["status"]["value"]).replace(/_/g, " ")}` : ""}</span>
                     </li>
                   {/each}
                 </ul>

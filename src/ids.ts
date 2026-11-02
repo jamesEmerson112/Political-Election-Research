@@ -134,7 +134,15 @@ export function relationshipId(rec: Rec): string {
     case "affiliation":
       return ["affiliation", t("person"), t("organization"), s(rec, "role")].join("--");
     case "legislative_action":
-      return ["legislative_action", t("person"), s(rec, "bill"), s(rec, "action"), s(rec, "date")].join("--");
+      return [
+        "legislative_action",
+        t("person"),
+        s(rec, "bill"),
+        s(rec, "action"),
+        typeof rec["date"] === "string" ? rec["date"] : "undated",
+      ].join("--");
+    case "bill_position":
+      return ["bill_position", t("actor"), s(rec, "bill"), s(rec, "position")].join("--");
     default:
       throw new Error(`Unknown relationship type: ${type}`);
   }

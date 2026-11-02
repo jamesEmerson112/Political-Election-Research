@@ -30,7 +30,8 @@ export const RULES = {
   REF_UNRESOLVED: "A reference points at a record that does not exist.",
   REF_KIND: "A reference points at the wrong kind of record (e.g. a non-committee receiving contributions).",
   MONEY_NEEDS_FILING: "A money record does not cite any official filing.",
-  QUOTE_REQUIRED: "A citation of a non-filing source has no verbatim quote.",
+  QUOTE_REQUIRED: "A citation of a non-filing source has no verbatim quote (and no maintainer verification).",
+  QUOTE_PENDING: "A maintainer-verified citation still needs its verbatim quote.",
   LOCATOR_REQUIRED: "A citation of a filing or video has no locator (schedule/line, timestamp).",
   DATE_ORDER: "A period starts after it ends.",
   DATE_FUTURE: "A date is after today.",
@@ -47,6 +48,7 @@ export type RuleCode = keyof typeof RULES;
 
 /** Rules reported as warnings unless --strict. */
 const WARNING_RULES = new Set<RuleCode>([
+  "QUOTE_PENDING",
   "FILING_SUPERSEDED",
   "CANDIDATE_PROFILE_REQUIRED",
   "ARCHIVE_REQUIRED",
@@ -211,7 +213,11 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
         if (!src) return;
         const sk = String(src["kind"]);
         if (!FILING_SOURCE_KINDS.has(sk) && !c["quote"]) {
-          add(f.rel, `${ptr}/${i}`, "QUOTE_REQUIRED", `Citation of a ${sk} needs a verbatim "quote".`);
+          if (c["verified_by"]) {
+            add(f.rel, `${ptr}/${i}`, "QUOTE_PENDING", `Verified by ${String((c["verified_by"] as Rec)["by"])}; add the verbatim "quote" before release.`);
+          } else {
+            add(f.rel, `${ptr}/${i}`, "QUOTE_REQUIRED", `Citation of a ${sk} needs a verbatim "quote".`);
+          }
         }
         if (LOCATOR_SOURCE_KINDS.has(sk) && !c["locator"]) {
           add(f.rel, `${ptr}/${i}`, "LOCATOR_REQUIRED", `Citation of a ${sk} needs a "locator".`);

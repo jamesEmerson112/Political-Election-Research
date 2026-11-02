@@ -102,7 +102,6 @@
             "additionalProperties": false,
             "required": [
               "office",
-              "start",
               "citations"
             ],
             "properties": {
@@ -114,11 +113,16 @@
                 "type": "string",
                 "minLength": 1
               },
+              "first_elected": {
+                "description": "Year (or date) first elected to this office, when that is what the source states.",
+                "$ref": "defs.schema.json#/$defs/PartialDate"
+              },
               "start": {
-                "$ref": "defs.schema.json#/$defs/Date"
+                "description": "When the term began, as precisely as the source states.",
+                "$ref": "defs.schema.json#/$defs/PartialDate"
               },
               "end": {
-                "$ref": "defs.schema.json#/$defs/Date"
+                "$ref": "defs.schema.json#/$defs/PartialDate"
               },
               "citations": {
                 "$ref": "defs.schema.json#/$defs/Citations"

@@ -36,7 +36,7 @@ CREATE TABLE bills (id TEXT PRIMARY KEY, title TEXT, summary TEXT, status TEXT, 
 CREATE TABLE dossier_sections (person TEXT, section TEXT, as_of TEXT, items INTEGER, PRIMARY KEY (person, section));
 CREATE TABLE dossier_items (person TEXT, section TEXT, id TEXT, title TEXT, kind TEXT, summary TEXT, date TEXT, as_of TEXT,
   issue TEXT, bill TEXT, response_summary TEXT, response_status TEXT, resolution_summary TEXT, PRIMARY KEY (person, section, id));
-CREATE TABLE person_offices (person TEXT, office TEXT, jurisdiction TEXT, start TEXT, "end" TEXT);
+CREATE TABLE person_offices (person TEXT, office TEXT, jurisdiction TEXT, first_elected TEXT, start TEXT, "end" TEXT);
 CREATE TABLE person_education (person TEXT, institution TEXT, degree TEXT, year INTEGER);
 CREATE TABLE organizations (id TEXT PRIMARY KEY, ref TEXT, name TEXT, org_type TEXT, jurisdiction TEXT, last_verified TEXT);
 CREATE TABLE aliases (entity TEXT, alias TEXT);
@@ -47,7 +47,7 @@ CREATE TABLE relationships (id TEXT PRIMARY KEY, type TEXT, cycle INTEGER, from_
   form TEXT, election_designation TEXT, conduit TEXT, contest TEXT, amount_cents INTEGER, period_start TEXT, period_end TEXT,
   date TEXT, jurisdiction TEXT, rescinded_date TEXT, last_verified TEXT);
 CREATE TABLE lobbying_targets (relationship TEXT, target_kind TEXT, target TEXT);
-CREATE TABLE citations (record_kind TEXT, record_id TEXT, pointer TEXT, source TEXT, quote TEXT, locator TEXT);
+CREATE TABLE citations (record_kind TEXT, record_id TEXT, pointer TEXT, source TEXT, quote TEXT, locator TEXT, verified_by TEXT, verified_date TEXT);
 CREATE TABLE search_logs (record_kind TEXT, record_id TEXT, pointer TEXT, where_searched TEXT, query TEXT, date TEXT);
 CREATE TABLE tasks (id TEXT PRIMARY KEY, ord INTEGER, contest TEXT, kind TEXT, subject TEXT, item TEXT, file TEXT, detail TEXT,
   blocked_by TEXT, leads TEXT);
@@ -154,7 +154,10 @@ function provenance(rec: unknown, kind: string, id: string, cites: Row[], logs: 
     if (Array.isArray(v)) {
       if (key === "citations") {
         v.forEach((c: Rec, i) =>
-          cites.push({ record_kind: kind, record_id: id, pointer: `${ptr}/${i}`, source: s(c["source"]), quote: s(c["quote"]), locator: s(c["locator"]) }),
+          cites.push({
+            record_kind: kind, record_id: id, pointer: `${ptr}/${i}`, source: s(c["source"]), quote: s(c["quote"]), locator: s(c["locator"]),
+            verified_by: s((c["verified_by"] as Rec | undefined)?.["by"]), verified_date: s((c["verified_by"] as Rec | undefined)?.["date"]),
+          }),
         );
         return;
       }
@@ -279,7 +282,9 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
       push("person_career", { person: ref, role: s(c["role"]), organization: s(c["organization"]), start: s(c["start"]), end: s(c["end"]) });
     }
     for (const o of (offices?.["items"] as Rec[] | undefined) ?? []) {
-      push("person_offices", { person: ref, office: s(o["office"]), jurisdiction: s(o["jurisdiction"]), start: s(o["start"]), end: s(o["end"]) });
+      push("person_offices", {
+        person: ref, office: s(o["office"]), jurisdiction: s(o["jurisdiction"]), first_elected: s(o["first_elected"]), start: s(o["start"]), end: s(o["end"]),
+      });
     }
     for (const e of (edu?.["items"] as Rec[] | undefined) ?? []) {
       push("person_education", { person: ref, institution: s(e["institution"]), degree: s(e["degree"]), year: n(e["year"]) });
@@ -341,6 +346,7 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
     behested_payment: ["payor", "payee", "official"],
     affiliation: ["person", "organization"],
     legislative_action: ["person", "bill"],
+    bill_position: ["actor", "bill"],
   };
   for (const r of b.relationships) {
     const type = String(r["type"]);
@@ -349,7 +355,7 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
     const period = ((money["period"] ?? r["period"]) as Rec | undefined) ?? {};
     push("relationships", {
       id: s(r["id"]), type, cycle: n(r["cycle"]), from_ref: s(r[from]), to_ref: s(r[to]), official: official ? s(r[official]) : null,
-      role: s(r["role"]), side: s(r["side"]), action: s(r["action"]), form: s(r["form"]), election_designation: s(r["election_designation"]),
+      role: s(r["role"]), side: s(r["side"]), action: s(r["action"] ?? r["position"]), form: s(r["form"]), election_designation: s(r["election_designation"]),
       conduit: s(r["conduit"]), contest: s(r["contest"]), amount_cents: n(money["amount_cents"] ?? r["amount_cents"]),
       period_start: s(period["start"]), period_end: s(period["end"]), date: s(r["date"]), jurisdiction: s(r["jurisdiction"]),
       rescinded_date: s((r["rescinded"] as Rec | undefined)?.["date"]), last_verified: s(r["last_verified"]),

@@ -36,6 +36,7 @@ export const RELATIONSHIP_TYPES = [
   "behested_payment",
   "affiliation",
   "legislative_action",
+  "bill_position",
 ] as const;
 export type RelationshipType = (typeof RELATIONSHIP_TYPES)[number];
 
@@ -57,7 +58,10 @@ const RULES: Array<[RegExp, (m: RegExpExecArray) => Classified]> = [
   [new RegExp(`^agenda/(${SLUG})/(${SLUG})\\.json$`), (m) => ({ kind: "agenda", expectedId: `contest:${m[1]}/${m[2]}` })],
   [new RegExp(`^leads/(${SLUG})/(${SLUG})\\.json$`), (m) => ({ kind: "leads", expectedId: `contest:${m[1]}/${m[2]}` })],
   [new RegExp(`^issues/(${SLUG})\\.json$`), (m) => ({ kind: "issue", expectedId: m[1]! })],
-  [/^bills\/((?:ca|us)-[0-9]{1,4}-[a-z]+-[0-9]+)\.json$/, (m) => ({ kind: "bill", expectedId: m[1]! })],
+  [
+    /^bills\/((?:ca|us)-[0-9]{1,4}-[a-z]+-[0-9]+|[a-z]{2,6}-file-[0-9][0-9a-z-]*)\.json$/,
+    (m) => ({ kind: "bill", expectedId: m[1]! }),
+  ],
   [new RegExp(`^dossiers/people/(${SLUG})\\.json$`), (m) => ({ kind: "dossier", expectedId: `person:${m[1]}` })],
   [new RegExp(`^people/(${SLUG})\\.json$`), (m) => ({ kind: "person", expectedId: m[1]! })],
   [new RegExp(`^organizations/(${SLUG})\\.json$`), (m) => ({ kind: "organization", expectedId: m[1]! })],

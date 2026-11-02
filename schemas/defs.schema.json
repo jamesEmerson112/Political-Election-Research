@@ -61,12 +61,12 @@
       "pattern": "^(?:person:[a-z0-9]+(?:-[a-z0-9]+)*|contest:[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*)$"
     },
     "BillRef": {
-      "description": "ca-<session start year>-<ab|sb|aca|sca|acr|scr|ajr|sjr|hr|sr>-<number> or us-<congress>-<hr|s|hjres|sjres|hconres|sconres|hres|sres>-<number>.",
+      "description": "ca-<session start year>-<ab|sb|...>-<n>, us-<congress>-<hr|s|...>-<n>, or a local legislative file: <place>-file-<number> (e.g. sf-file-251080 for San Francisco Board of Supervisors File No. 251080).",
       "type": "string",
-      "pattern": "^(?:ca-[0-9]{4}-(?:ab|sb|aca|sca|acr|scr|ajr|sjr|hr|sr)-[0-9]+|us-[0-9]{1,3}-(?:hr|s|hjres|sjres|hconres|sconres|hres|sres)-[0-9]+)$"
+      "pattern": "^(?:ca-[0-9]{4}-(?:ab|sb|aca|sca|acr|scr|ajr|sjr|hr|sr)-[0-9]+|us-[0-9]{1,3}-(?:hr|s|hjres|sjres|hconres|sconres|hres|sres)-[0-9]+|[a-z]{2,6}-file-[0-9][0-9a-z-]*)$"
     },
     "Citation": {
-      "description": "Points at a source. `quote` must be copied verbatim from the source (required for every non-filing source; checked by `npm run validate`). `locator` pins the spot: page, video timestamp, or filing schedule/line/transaction.",
+      "description": "Points at a source. `quote` must be copied verbatim from the source (required for every non-filing source). When the source could not be opened by the recording agent but a maintainer reviewed it, `verified_by` records who and when, and the quote is pending: `validate` warns [QUOTE_PENDING] and `validate --strict` (the release gate) fails until the quote is filled in. `locator` pins the spot: page, video timestamp, filing schedule/line/transaction.",
       "type": "object",
       "additionalProperties": false,
       "required": [
@@ -85,6 +85,27 @@
           "type": "string",
           "minLength": 1,
           "maxLength": 300
+        },
+        "verified_by": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "by",
+            "date"
+          ],
+          "properties": {
+            "by": {
+              "type": "string",
+              "minLength": 1
+            },
+            "date": {
+              "$ref": "#/$defs/Date"
+            },
+            "note": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
         }
       }
     },

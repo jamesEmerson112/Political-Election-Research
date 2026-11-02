@@ -11,6 +11,7 @@ export interface Citation {
   source: string;
   quote?: string;
   locator?: string;
+  verified_by?: { by: string; date: string; note?: string };
 }
 export interface SearchEntry {
   where: string;

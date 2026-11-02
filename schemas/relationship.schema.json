@@ -558,7 +558,7 @@
     },
     {
       "title": "Legislative action",
-      "description": "Something a person did on a bill: authored, co-authored, voted, or publicly supported/opposed it. Bill outcomes live on bill records (data/bills). id: legislative_action--<person>--<bill>--<action>--<date>",
+      "description": "Something a person did on a bill as a legislator or in public: authored, co-authored, sponsored, co-sponsored, voted, or publicly supported/opposed it. Bill outcomes live on bill records (data/bills). id: legislative_action--<person>--<bill>--<action>--<date or undated>",
       "type": "object",
       "additionalProperties": false,
       "required": [
@@ -567,7 +567,6 @@
         "person",
         "bill",
         "action",
-        "date",
         "cycle",
         "citations",
         "last_verified"
@@ -592,11 +591,68 @@
           "enum": [
             "authored",
             "coauthored",
+            "sponsored",
+            "cosponsored",
             "voted_yes",
             "voted_no",
             "abstained",
             "publicly_supported",
             "publicly_opposed"
+          ]
+        },
+        "date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "title": "Bill position",
+      "description": "An outside person's or organization's public position on a bill, e.g. an organizational sponsor, or a business leader publicly supporting/opposing. Distinct from endorsing a candidate and from lobbying (which needs a lobbying filing). id: bill_position--<actor>--<bill>--<position>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "actor",
+        "bill",
+        "position",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "bill_position"
+        },
+        "actor": {
+          "$ref": "defs.schema.json#/$defs/ActorRef"
+        },
+        "bill": {
+          "$ref": "defs.schema.json#/$defs/BillRef"
+        },
+        "position": {
+          "enum": [
+            "sponsor",
+            "support",
+            "oppose"
           ]
         },
         "date": {
