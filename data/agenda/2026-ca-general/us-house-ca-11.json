@@ -21,7 +21,8 @@
     "q:technology/platform-self-preferencing",
     "q:immigration/expand-skilled-work-visas",
     "q:housing/transit-oriented-upzoning",
-    "q:healthcare/single-payer"
+    "q:healthcare/single-payer",
+    "q:taxes/federal-wealth-tax"
   ],
   "seeded": {
     "date": "2026-11-02",

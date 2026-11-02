@@ -4,268 +4,106 @@
   "items": [
     {
       "person": "person:connie-chan",
-      "label": "Political party",
-      "text": "Democratic",
-      "topic": "profile.party_registration"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "Political party",
-      "text": "Democratic",
-      "topic": "profile.party_registration"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "Current office",
-      "text": "San Francisco District 1 Supervisor",
-      "topic": "profile.offices_held"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "Current office",
-      "text": "California State Senator",
-      "topic": "profile.offices_held"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "Origin",
-      "text": "Born in Hong Kong; immigrated to SF at age 13",
-      "topic": "profile.birthplace"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "Origin",
-      "text": "Grew up in New Jersey; moved to SF in 1997",
-      "topic": "profile.birthplace"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "Education",
-      "text": "Galileo High School; UC Davis",
-      "topic": "profile.education"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "Education",
-      "text": "Duke University; Harvard Law School",
-      "topic": "profile.education"
-    },
-    {
-      "person": "person:connie-chan",
       "label": "Family background",
-      "text": "Mother worked as a hospital claims processor after attending City College",
+      "text": "Her mother studied at City College and worked as a claims processor at Chinese Hospital. (source [2]: https://www.conniechansf.com/about)",
       "topic": "other"
     },
     {
       "person": "person:scott-wiener",
       "label": "Family background",
-      "text": "Parent who owned a small business; parent who taught in public school",
+      "text": "The son of a small-business owner and a teacher, Wiener attended public school. (source [3]: https://sd11.senate.ca.gov/biography)",
       "topic": "other"
     },
     {
       "person": "person:connie-chan",
-      "label": "Political experience",
-      "text": "Elected supervisor in 2020; chairs the SF Budget Committee",
-      "topic": "profile.offices_held"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "Political experience",
-      "text": "Former SF supervisor; state senator since 2016; authored numerous state laws",
-      "topic": "profile.offices_held"
+      "label": "Earlier career (roles not specified)",
+      "text": "Chan’s earlier work included Chinese-language interpretation and roles with Sophie Maxwell, Kamala Harris, and Aaron Peskin. (source [2]: https://www.conniechansf.com/about)",
+      "topic": "profile.career"
     },
     {
       "person": "person:connie-chan",
-      "label": "Major endorsements",
-      "text": "Nancy Pelosi, Adam Schiff, SF Labor Council",
-      "topic": "endorsements"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "Major endorsements",
-      "text": "Garry Tan, California Democratic Party, Rob Bonta, SF YIMBY",
-      "topic": "endorsements"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "Garry Tan / YC relationship",
-      "text": "Not endorsed by Garry Tan; publicly questions the influence of wealthy technology supporters",
-      "topic": "other"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "Garry Tan / YC relationship",
-      "text": "Personally endorsed by Garry Tan; worked with YC on technology competition legislation",
-      "topic": "other"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "SB 1047 (2024)",
-      "text": "No direct legislative role; was not serving in the state Senate",
-      "topic": "q:ai/frontier-ai-safety-disclosure"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "SB 1047 (2024)",
-      "text": "No direct legislative role; was not serving in the state Senate",
-      "topic": "legislation"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "SB 1047 (2024)",
-      "text": "Authored AI safety bill; opposed by Tan; vetoed by Gov. Newsom",
-      "topic": "q:ai/frontier-ai-safety-disclosure"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "SB 1047 (2024)",
-      "text": "Authored AI safety bill; opposed by Tan; vetoed by Gov. Newsom",
-      "topic": "legislation"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "SB 53 (2025)",
-      "text": "Criticizes the enacted AI safety law as insufficient",
-      "topic": "q:ai/frontier-ai-safety-disclosure"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "SB 53 (2025)",
-      "text": "Criticizes the enacted AI safety law as insufficient",
-      "topic": "legislation"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "SB 53 (2025)",
-      "text": "Authored the law, requiring major AI developers to disclose safety frameworks and report critical incidents",
-      "topic": "q:ai/frontier-ai-safety-disclosure"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "SB 53 (2025)",
-      "text": "Authored the law, requiring major AI developers to disclose safety frameworks and report critical incidents",
-      "topic": "legislation"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "SB 1074: BASED Act (2026)",
-      "text": "Specific public position not verified",
-      "topic": "q:technology/platform-self-preferencing"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "SB 1074: BASED Act (2026)",
-      "text": "Specific public position not verified",
-      "topic": "legislation"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "SB 1074: BASED Act (2026)",
-      "text": "Authored bill with YC as organizational sponsor to restrict anticompetitive self-preferencing by dominant platforms; stalled in committee",
-      "topic": "q:technology/platform-self-preferencing"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "SB 1074: BASED Act (2026)",
-      "text": "Authored bill with YC as organizational sponsor to restrict anticompetitive self-preferencing by dominant platforms; stalled in committee",
-      "topic": "legislation"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "AI regulation",
-      "text": "Favors preventive safeguards, independent safety reviews, and worker participation",
-      "topic": "q:ai/frontier-ai-safety-disclosure"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "AI regulation",
-      "text": "Favors safety testing, transparency, liability standards, and federal oversight",
-      "topic": "q:ai/frontier-ai-safety-disclosure"
-    },
-    {
-      "person": "person:connie-chan",
-      "hint": "support",
-      "label": "AI data centers",
-      "text": "Supports a national moratorium until comprehensive safeguards are established",
-      "topic": "q:ai/data-center-moratorium"
-    },
-    {
-      "person": "person:scott-wiener",
-      "hint": "oppose",
-      "label": "AI data centers",
-      "text": "Opposes a blanket moratorium; favors environmental rules, cost accountability, and local oversight",
-      "topic": "q:ai/data-center-moratorium"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "Technology startups",
-      "text": "Emphasizes protecting workers and communities from technology-related harms",
-      "topic": "other"
-    },
-    {
-      "person": "person:scott-wiener",
-      "label": "Technology startups",
-      "text": "Emphasizes innovation alongside safety rules, startup access to computing, and competition against dominant platforms",
-      "topic": "other"
-    },
-    {
-      "person": "person:connie-chan",
-      "hint": "support",
-      "label": "H-1B / work visas",
-      "text": "Supports expanding work visas with wage protections and easier employer changes",
-      "topic": "q:immigration/expand-skilled-work-visas"
-    },
-    {
-      "person": "person:scott-wiener",
-      "hint": "support",
-      "label": "H-1B / work visas",
-      "text": "Supports expanding work visas and green-card pathways; has specifically discussed H-1B reform and India/China backlogs",
-      "topic": "q:immigration/expand-skilled-work-visas"
-    },
-    {
-      "person": "person:connie-chan",
-      "label": "Housing",
-      "text": "Prioritizes affordable housing subsidies, rent protections, and local oversight",
+      "label": "Housing | Different approaches",
+      "text": "Emphasizes public and subsidized housing, vouchers, tenant protections, and repealing the Faircloth limit. (source [4]: https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district/)",
       "topic": "q:housing/transit-oriented-upzoning"
     },
     {
       "person": "person:scott-wiener",
-      "label": "Housing",
-      "text": "Prioritizes increasing housing supply, streamlining approval, and transit-oriented development",
+      "label": "Housing | Different approaches",
+      "text": "Emphasizes more construction, faster approvals, renter protections, and a national goal of 8 million homes. (source [4]: https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district/)",
       "topic": "q:housing/transit-oriented-upzoning"
     },
     {
       "person": "person:connie-chan",
-      "hint": "support",
-      "label": "Healthcare",
-      "text": "Supports Medicare for All and a public insurance option",
-      "topic": "q:healthcare/single-payer"
-    },
-    {
-      "person": "person:scott-wiener",
-      "hint": "support",
-      "label": "Healthcare",
-      "text": "Supports Medicare for All and expanding healthcare affordability protections",
-      "topic": "q:healthcare/single-payer"
+      "label": "AI safeguards | Different approaches",
+      "text": "Supports federal rules, worker input, creator compensation, and independent review of high-risk uses. (source [4]: https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district/)",
+      "topic": "q:ai/frontier-ai-safety-disclosure"
     },
     {
       "person": "person:connie-chan",
       "hint": "support",
-      "label": "Proposition 40: billionaire tax",
-      "text": "Supports the one-time wealth tax to fund healthcare",
+      "label": "California Proposition 40 | Different stance",
+      "text": "Supports the state billionaire-tax measure. (source [17]: https://missionlocal.org/2026/09/sf-congress-candidates-november-ballot-measures/)",
       "topic": "contest:2026-ca-general/prop-40"
     },
     {
       "person": "person:scott-wiener",
       "hint": "oppose",
-      "label": "Proposition 40: billionaire tax",
-      "text": "Opposes the one-time structure, citing concerns about recurring healthcare costs",
+      "label": "California Proposition 40 | Different stance",
+      "text": "Opposes the state billionaire-tax measure. (source [17]: https://missionlocal.org/2026/09/sf-congress-candidates-november-ballot-measures/)",
       "topic": "contest:2026-ca-general/prop-40"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Remaining evidence gaps",
+      "text": "Specific H-1B annual caps, salary floors, and outsourcing restrictions are not established for either candidate in the reviewed sources. (notes §7; no source given)",
+      "topic": "q:immigration/expand-skilled-work-visas"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Remaining evidence gaps",
+      "text": "Specific H-1B annual caps, salary floors, and outsourcing restrictions are not established for either candidate in the reviewed sources. (notes §7; no source given)",
+      "topic": "q:immigration/expand-skilled-work-visas"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Remaining evidence gaps",
+      "text": "Campaign-finance amounts and independent expenditures have not been added to this dataset. (notes §7; no source given)",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Remaining evidence gaps",
+      "text": "Campaign-finance amounts and independent expenditures have not been added to this dataset. (notes §7; no source given)",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Remaining evidence gaps",
+      "text": "Campaign-finance amounts and independent expenditures have not been added to this dataset. (notes §7; no source given)",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Remaining evidence gaps",
+      "text": "Campaign-finance amounts and independent expenditures have not been added to this dataset. (notes §7; no source given)",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Remaining evidence gaps",
+      "text": "This file does not independently estimate effects on homebuilding, rents, jobs, AI safety, or program beneficiaries. (notes §7; no source given)",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Remaining evidence gaps",
+      "text": "This file does not independently estimate effects on homebuilding, rents, jobs, AI safety, or program beneficiaries. (notes §7; no source given)",
+      "topic": "dossier.track_record"
     }
   ],
   "provided": {
     "by": "project maintainer",
     "date": "2026-11-02",
-    "note": "Comparison table (Connie Chan vs Scott Wiener) shared in the build session, transcribed verbatim. No sources were attached: every item must be confirmed in a primary source before anything is recorded."
+    "note": "From the maintainer's verified research notes (notes/2026-11-02-ca-11.md), worded as in the notes. Kept here only what could not be recorded as cited data: family background, Chan's unspecified earlier roles, housing approaches that do not address the transit-upzoning question, Chan's AI-safeguard views that do not address disclosure or incident reporting, Proposition 40 stances (the measure's contest record does not exist yet) and the notes' §7 evidence gaps. Everything else in the notes was recorded as maintainer-verified citations (verified_by), pending verbatim quotes and archive snapshots. Replaces the earlier unsourced comparison table."
   }
 }

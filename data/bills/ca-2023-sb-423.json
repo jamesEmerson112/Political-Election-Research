@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-sb-423",
+  "status": {
+    "value": "enacted",
+    "as_of": "2023-10-11",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-0c89c12612",
+        "verified_by": {
+          "by": "maintainer",
+          "date": "2026-11-02",
+          "note": "notes/2026-11-02-ca-11.md §3"
+        }
+      }
+    ]
+  },
+  "title": {
+    "value": "Housing permit streamlining (extension of SB 35 housing approval provisions)",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-0c89c12612",
+        "verified_by": {
+          "by": "maintainer",
+          "date": "2026-11-02",
+          "note": "notes/2026-11-02-ca-11.md §3 and §8 [21]"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-02"
+}

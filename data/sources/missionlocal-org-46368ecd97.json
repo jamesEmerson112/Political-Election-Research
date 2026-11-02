@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-46368ecd97",
+  "kind": "news_report",
+  "accessed": "2026-11-02",
+  "published": "2026-10-09",
+  "publisher": "Mission Local",
+  "title": "Congressional candidates’ ballot-measure positions",
+  "url": "https://missionlocal.org/2026/09/sf-congress-candidates-november-ballot-measures/",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [17]); not opened by the recording agent; archive snapshot pending."
+}

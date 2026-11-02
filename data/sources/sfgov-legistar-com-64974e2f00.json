@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-64974e2f00",
+  "kind": "legislative_record",
+  "accessed": "2026-11-02",
+  "published": "2022-06-17",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 220341 · Ellis Act evictions",
+  "url": "https://sfgov.legistar.com/LegislationDetail.aspx?GUID=1E0708D9-6FC2-4569-82E1-F6C9A08A0D67&ID=5548585",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [19]); not opened by the recording agent; archive snapshot pending."
+}

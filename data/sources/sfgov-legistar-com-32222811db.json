@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-32222811db",
+  "kind": "legislative_record",
+  "accessed": "2026-11-02",
+  "published": "2025-12-04",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 251080 · immigration legal services",
+  "url": "https://sfgov.legistar.com/LegislationDetail.aspx?GUID=B97C5304-C2C4-40D7-A364-AB7F8A86D330&ID=7720656",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [14]); not opened by the recording agent; archive snapshot pending."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "working-families-party",
+  "name": "Working Families Party",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "political_party",
+  "last_verified": "2026-11-02"
+}

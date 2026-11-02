@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-220341",
+  "status": {
+    "value": "enacted",
+    "as_of": "2022-06-17",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-64974e2f00",
+        "locator": "SF File 220341 / Ordinance 091-22",
+        "verified_by": {
+          "by": "maintainer",
+          "date": "2026-11-02",
+          "note": "notes/2026-11-02-ca-11.md §3"
+        }
+      }
+    ]
+  },
+  "title": {
+    "value": "Ellis Act evictions",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-64974e2f00",
+        "locator": "SF File 220341 / Ordinance 091-22",
+        "verified_by": {
+          "by": "maintainer",
+          "date": "2026-11-02",
+          "note": "notes/2026-11-02-ca-11.md §3"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-02"
+}

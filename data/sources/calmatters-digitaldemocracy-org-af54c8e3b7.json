@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calmatters-digitaldemocracy-org-af54c8e3b7",
+  "kind": "legislative_record",
+  "accessed": "2026-11-02",
+  "published": "2026-04-20",
+  "publisher": "CalMatters Digital Democracy",
+  "title": "SB 1074 · legislative history",
+  "url": "https://calmatters.digitaldemocracy.org/bills/ca_202520260sb1074",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [11]); not opened by the recording agent; archive snapshot pending."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-15f7125a20",
+  "kind": "news_report",
+  "accessed": "2026-11-02",
+  "publisher": "KQED",
+  "title": "District 11 candidate comparison",
+  "url": "https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district/",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [4]); not opened by the recording agent; archive snapshot pending."
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "bill_position--org.y-combinator--ca-2025-sb-1074--sponsor",
+  "type": "bill_position",
+  "actor": "org:y-combinator",
+  "bill": "ca-2025-sb-1074",
+  "cycle": 2026,
+  "position": "sponsor",
+  "citations": [
+    {
+      "source": "src:sd11-senate-ca-gov-12ae88d869",
+      "verified_by": {
+        "by": "maintainer",
+        "date": "2026-11-02",
+        "note": "notes/2026-11-02-ca-11.md §6"
+      }
+    }
+  ],
+  "last_verified": "2026-11-02"
+}

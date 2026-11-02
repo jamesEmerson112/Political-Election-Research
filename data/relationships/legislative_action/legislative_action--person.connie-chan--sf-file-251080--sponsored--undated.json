@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.connie-chan--sf-file-251080--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:connie-chan",
+  "action": "sponsored",
+  "bill": "sf-file-251080",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-32222811db",
+      "locator": "SF File 251080 / Ordinance 235-25",
+      "verified_by": {
+        "by": "maintainer",
+        "date": "2026-11-02",
+        "note": "notes/2026-11-02-ca-11.md §3"
+      }
+    }
+  ],
+  "last_verified": "2026-11-02"
+}

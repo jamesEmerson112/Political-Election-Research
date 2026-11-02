@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-cd125eb68d",
+  "kind": "candidate_questionnaire",
+  "accessed": "2026-11-02",
+  "published": "2026-10-29",
+  "publisher": "Mission Local",
+  "title": "Meet the Candidates · congressional race",
+  "url": "https://missionlocal.org/2026/10/sf-candidates-congress-scott-wiener-connie-chan/",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [5]); not opened by the recording agent; archive snapshot pending."
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sd11-senate-ca-gov-5a4f0abad2",
+  "kind": "press_release",
+  "accessed": "2026-11-02",
+  "published": "2024-09-29",
+  "publisher": "California State Senate",
+  "title": "SB 1047 · author’s response to veto",
+  "url": "https://sd11.senate.ca.gov/news/senator-wiener-responds-governor-newsom-vetoing-landmark-ai-bill",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [13]); not opened by the recording agent; archive snapshot pending."
+}

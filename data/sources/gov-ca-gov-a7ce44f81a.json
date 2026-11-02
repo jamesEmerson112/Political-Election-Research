@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gov-ca-gov-a7ce44f81a",
+  "kind": "press_release",
+  "accessed": "2026-11-02",
+  "published": "2025-09-29",
+  "publisher": "Governor of California",
+  "title": "SB 53 · signed into law",
+  "url": "https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [12]); not opened by the recording agent; archive snapshot pending."
+}
