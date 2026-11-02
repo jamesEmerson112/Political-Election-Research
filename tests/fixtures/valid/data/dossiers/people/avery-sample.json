@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../../../../schemas/dossier.schema.json",
+  "actor": "person:avery-sample",
+  "controversies": {
+    "as_of": "2030-10-01",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2030-10-01",
+        "query": "Avery Sample",
+        "where": "Example News and Example Times archives; Example Ethics Commission decisions"
+      }
+    ]
+  },
+  "promises": {
+    "as_of": "2030-10-01",
+    "items": [
+      {
+        "id": "state-widget-grant-fund",
+        "as_of": "2030-09-20",
+        "issue": "widgets",
+        "summary": "Proposes a state fund for widget manufacturing grants.",
+        "title": "State widget grant fund",
+        "citations": [
+          {
+            "source": "src:news-example-com-e70a5fe80d",
+            "quote": "\"The state should invest in widgets,\" Sample said."
+          }
+        ]
+      }
+    ]
+  },
+  "track_record": {
+    "as_of": "2030-10-01",
+    "items": [
+      {
+        "id": "exampleville-widget-incubator",
+        "kind": "program",
+        "date": "2024",
+        "summary": "Proposed the city's widget incubator program, which the council funded in 2024.",
+        "title": "Exampleville widget incubator",
+        "citations": [
+          {
+            "source": "src:averysample-example-org-ef54a1cad9",
+            "quote": "Avery created the Exampleville widget incubator, funded by the council in 2024."
+          }
+        ]
+      }
+    ]
+  }
+}

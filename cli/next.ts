@@ -27,6 +27,9 @@ const shown = tasks.slice(0, limit);
 if (args.flags.has("json")) {
   process.stdout.write(JSON.stringify({ total: tasks.length, tasks: shown }, null, 2) + "\n");
 } else {
-  for (const t of shown) console.log(`${t.id}${t.blocked_by ? `  [blocked by ${t.blocked_by}]` : ""}\n    ${t.detail}\n    -> npm run -s put -- ${t.put}   (${t.file})   guide: ${t.guide}`);
+  for (const t of shown) {
+    console.log(`${t.id}${t.blocked_by ? `  [blocked by ${t.blocked_by}]` : ""}\n    ${t.detail}\n    -> npm run -s put -- ${t.put}   (${t.file})   guide: ${t.guide}`);
+    for (const l of t.leads ?? []) console.log(`    lead (unverified): ${l}`);
+  }
   console.log(`\n${tasks.length} open task(s).`);
 }

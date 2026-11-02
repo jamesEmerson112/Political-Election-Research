@@ -15,6 +15,17 @@
   "exhausted": [
     {
       "date": "2030-10-30",
+      "task": "2030-zz-general/governor|legislation|person:jordan-example",
+      "search_log": [
+        {
+          "date": "2030-10-30",
+          "query": "Jordan Example bill",
+          "where": "Example State Legislature bill search; Example Times archive"
+        }
+      ]
+    },
+    {
+      "date": "2030-10-30",
       "task": "2030-zz-general/governor|independent_expenditures|person:jordan-example",
       "search_log": [
         {

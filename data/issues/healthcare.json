@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "healthcare",
+  "name": "Health care",
+  "description": "Health insurance coverage and costs.",
+  "questions": [
+    {
+      "id": "single-payer",
+      "added": "2026-11-02",
+      "oppose_means": "Opposes single-payer (may favor other changes, such as a public option).",
+      "support_means": "Favors adopting a single-payer national health insurance program.",
+      "text": "Should the United States adopt a single-payer national health insurance program, such as the Medicare for All proposals?"
+    }
+  ],
+  "rejected_questions": []
+}

@@ -1,0 +1,1 @@
+{"description":"A controversy cited to a single news publisher and no official record.","expect":["CONTROVERSY_SOURCING"],"patches":[{"file":"dossiers/people/jordan-example.json","set":{"/controversies/items/0/citations":[{"source":"src:news-example-com-e70a5fe80d","quote":"The union had endorsed Example in March."}]}}]}

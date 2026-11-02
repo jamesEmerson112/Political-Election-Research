@@ -45,15 +45,18 @@ Create `people/<slug>.json` with `name` as printed on the certified list. Set `p
 <a id="task-profile"></a>
 ## Task: profile
 
-Fill one `candidate_profile` field with `npm run -s put -- person --merge`. Every candidate gets the same five fields:
+Fill one `candidate_profile` field with `npm run -s put -- person --merge`. Every candidate gets the same eight fields (comparison categories 1–3: identity, occupation, qualifications):
 
 | field | best sources |
 |---|---|
 | `party_registration` | certified list (party preference) |
+| `birth_date` | official biography, as precise as it states (`1970`, `1970-05` or `1970-05-01`). Age is computed, never stored. |
+| `birthplace` | official biography: place of birth or origin as stated |
 | `occupation` | the candidate's official/campaign bio. The ballot designation is the candidate's self-description: cite it as such. |
 | `residence_city` | city only, never a street address: official bio, candidate filings |
 | `offices_held` | official government bios and rosters (legislature, congress.gov Bioguide, agency pages): office, start, end |
 | `education` | official bio; institution, degree, year when stated |
+| `career` | official bio, professional profiles cited to the candidate's own pages: role, organization, start, end |
 
 If you can't find it after checking the candidate's site, official bios and at least two news searches, record `{"status": "not_found", "as_of": ..., "search_log": [...]}`. For lists, use `{"as_of": ..., "items": [], "search_log": [...]}`.
 
@@ -76,6 +79,31 @@ Record one stance by one candidate on one agenda subject (an issue question `q:.
    - `no_public_position`: nothing found after the full search order. Give a `search_log` and no citations.
 4. `summary`: one or two plain sentences that report what was said or done. No characterizing adjectives.
 5. `as_of`: the date of the newest evidence. If the candidate's stance changed, add a **new** entry with a later `as_of`. Never overwrite history.
+
+<a id="task-legislation"></a>
+## Task: legislation
+
+Comparison category 4 (past policies). Record bills the candidate authored, co-authored, voted on, or publicly supported or opposed, as `legislative_action` relationships (`person`, `bill`, `action`, `date`).
+
+- **Where:** `leginfo.legislature.ca.gov` (author, votes), `congress.gov` and the House clerk's roll calls, city/county legislative records for local officials.
+- **Which bills (in order):** bills tied to the agenda's questions first, then bills the candidate authored that were enacted, then other bills named in the candidate's own materials. Apply the same order to every candidate.
+- For each bill, create a **bill record** (`npm run -s put -- bill`) with the official title and its outcome (`status`: enacted, vetoed, failed, ...), cited to the legislature's bill history. Outcomes feed category 9 (performance record).
+- Someone who has never held legislative office: close the task with an `exhausted` entry and a search log.
+
+<a id="task-dossier"></a>
+## Task: dossier
+
+Comparison categories 9–11, one section at a time (`npm run -s put -- dossier --merge`; items merge by `id`, a slug of the title). Every candidate gets all three sections. A section with nothing found is `{"as_of": ..., "items": [], "search_log": [...]}`.
+
+- **`track_record`** (category 9, performance record): documented *outcomes*, such as enacted legislation, programs implemented, or budgets delivered. Each item states what happened and when, cited to government records. No praise and no "successful": report the result and let the reader judge.
+- **`promises`** (category 11): specific proposals for the office sought, from the candidate's platform, website or debate statements. Record the proposal as stated, with the issue id it falls under. General values ("I'll fight for families") are not promises.
+- **`controversies`** (category 10). Strict rules, enforced by `validate`:
+  - Only **documented** matters: at least **two independent publishers** or **one official record** (court filing, ethics or audit finding, agency decision) [CONTROVERSY_SOURCING].
+  - The `title` is neutral and descriptive ("Fine for a late campaign statement", not "Filing scandal").
+  - The `summary` attributes every claim ("the commission found", "the Times reported"). Allegations are never stated as fact.
+  - The candidate's **response** is required: cite it, or record `not_found` with a search log of where you looked (campaign statements, the same outlets, social accounts).
+  - Add the **resolution** when there is one (dismissed, settled, fine paid, charges dropped).
+  - Apply the same search to every candidate: the same outlets, the same official databases, the same date range.
 
 <a id="task-endorsements"></a>
 ## Task: endorsements

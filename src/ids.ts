@@ -133,6 +133,8 @@ export function relationshipId(rec: Rec): string {
       return ["behested_payment", t("official"), t("payor"), t("payee"), s(rec, "date")].join("--");
     case "affiliation":
       return ["affiliation", t("person"), t("organization"), s(rec, "role")].join("--");
+    case "legislative_action":
+      return ["legislative_action", t("person"), s(rec, "bill"), s(rec, "action"), s(rec, "date")].join("--");
     default:
       throw new Error(`Unknown relationship type: ${type}`);
   }

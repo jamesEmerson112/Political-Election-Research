@@ -47,6 +47,20 @@ describe("next (research queue)", () => {
     expect(ids).not.toContain(blocked!.id);
   });
 
+  it("attaches unverified leads to the task they bear on", () => {
+    const files = applyPatches(validFiles(), VALID_DIR, [
+      { file: "people/avery-sample.json", remove: ["/candidate_profile/occupation"] },
+      { file: "positions/people/jordan-example.json", remove: ["/positions/1"] },
+    ]);
+    const tasks = nextTasks(datasetOf(files));
+    expect(tasks.find((t) => t.id.endsWith("|profile|person:avery-sample|occupation"))?.leads).toEqual([
+      "Job: Engineer at a widget plant",
+    ]);
+    expect(tasks.find((t) => t.id.endsWith("|position|person:jordan-example|q:widgets/subsidize-widgets"))?.leads).toEqual([
+      "Widgets: Said at a town hall they oppose subsidies",
+    ]);
+  });
+
   it("closes count tasks recorded as exhausted", () => {
     const ids = nextTasks(validDataset()).map((t) => t.id);
     expect(ids).not.toContain("2030-zz-general/governor|independent_expenditures|person:jordan-example");

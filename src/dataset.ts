@@ -29,11 +29,16 @@ export interface Dataset {
   elections: Map<string, Rec>;
   contests: Map<string, Rec>;
   agendas: Map<string, Rec>;
+  /** contest ref -> leads file (unverified hints) */
+  leads: Map<string, Rec>;
   issues: Map<string, Rec>;
   /** "issue/question" -> question object */
   questions: Map<string, Rec>;
   people: Map<string, Rec>;
   orgs: Map<string, Rec>;
+  bills: Map<string, Rec>;
+  /** person ref -> dossier */
+  dossiers: Map<string, Rec>;
   /** actor ref -> positions file */
   positions: Map<string, Rec>;
   relationships: Rec[];
@@ -92,10 +97,13 @@ export function buildDataset(dataDir: string, files: LoadedFile[]): Dataset {
     elections: new Map(),
     contests: new Map(),
     agendas: new Map(),
+    leads: new Map(),
     issues: new Map(),
     questions: new Map(),
     people: new Map(),
     orgs: new Map(),
+    bills: new Map(),
+    dossiers: new Map(),
     positions: new Map(),
     relationships: [],
     sources: new Map(),
@@ -131,6 +139,9 @@ export function buildDataset(dataDir: string, files: LoadedFile[]): Dataset {
       case "agenda":
         ds.agendas.set(id, rec);
         break;
+      case "leads":
+        ds.leads.set(id, rec);
+        break;
       case "issue":
         ds.issues.set(id, rec);
         for (const q of (rec["questions"] as Rec[]) ?? []) ds.questions.set(`${id}/${String(q["id"])}`, q);
@@ -146,6 +157,12 @@ export function buildDataset(dataDir: string, files: LoadedFile[]): Dataset {
         break;
       case "relationship":
         ds.relationships.push(rec);
+        break;
+      case "bill":
+        ds.bills.set(id, rec);
+        break;
+      case "dossier":
+        ds.dossiers.set(id, rec);
         break;
       case "source":
         ds.sources.set(id, rec);

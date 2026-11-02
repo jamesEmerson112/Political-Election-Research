@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../../../../schemas/leads.schema.json",
+  "contest": "contest:2030-zz-general/governor",
+  "items": [
+    {
+      "person": "person:avery-sample",
+      "label": "Job",
+      "text": "Engineer at a widget plant",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:jordan-example",
+      "hint": "oppose",
+      "label": "Widgets",
+      "text": "Said at a town hall they oppose subsidies",
+      "topic": "q:widgets/subsidize-widgets"
+    }
+  ],
+  "provided": {
+    "by": "fixture",
+    "date": "2030-06-01",
+    "note": "Fictional unverified hints."
+  }
+}

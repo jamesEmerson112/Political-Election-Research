@@ -20,6 +20,9 @@ export const PUT_KINDS = [
   "election",
   "issue",
   "agenda",
+  "leads",
+  "bill",
+  "dossier",
   "config",
 ] as const;
 export type PutKind = (typeof PUT_KINDS)[number];
@@ -40,8 +43,12 @@ export interface PutResult {
   message?: string;
 }
 
-/** Arrays of objects merged by a natural key instead of being replaced. */
-const MERGE_KEYS: Record<string, string> = { candidates: "person", questions: "id", exhausted: "task" };
+/**
+ * Arrays of objects merged by a natural key instead of being replaced.
+ * `items` (dossier sections) merge by id only when every incoming item has one;
+ * id-less lists (offices, education, career) are replaced as a whole.
+ */
+const MERGE_KEYS: Record<string, string> = { candidates: "person", questions: "id", exhausted: "task", items: "id" };
 
 function isObj(v: unknown): v is Rec {
   return !!v && typeof v === "object" && !Array.isArray(v);
@@ -54,7 +61,7 @@ export function deepMerge(base: unknown, patch: unknown, key = ""): unknown {
     return out;
   }
   const mk = MERGE_KEYS[key];
-  if (mk && Array.isArray(base) && Array.isArray(patch)) {
+  if (mk && Array.isArray(base) && Array.isArray(patch) && (patch as Rec[]).every((p) => isObj(p) && p[mk] !== undefined)) {
     const out = [...(base as Rec[])];
     for (const item of patch as Rec[]) {
       const i = out.findIndex((x) => isObj(x) && x[mk] === item[mk]);
@@ -85,8 +92,12 @@ function refOf(kind: PutKind, rec: Rec): string | undefined {
     case "relationship":
       return String(rec["id"]);
     case "position":
+    case "dossier":
       return String(rec["actor"]);
+    case "bill":
+      return String(rec["id"]);
     case "agenda":
+    case "leads":
       return String(rec["contest"]);
     default:
       return undefined;
@@ -115,6 +126,7 @@ function prepare(kind: PutKind, input: Rec, today: string): Rec {
       break;
     case "contest":
     case "election":
+    case "bill":
       rec["last_verified"] = today;
       break;
   }

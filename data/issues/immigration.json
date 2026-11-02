@@ -11,6 +11,13 @@
       "support_means": "Favors expanding cooperation beyond current state limits (for example, honoring more federal detainer requests).",
       "text": "Should state and local law enforcement in California be allowed to cooperate with federal immigration enforcement beyond what current state law permits?",
       "notes": "Current limits come mainly from the California Values Act (SB 54, 2017), bill ref ca-2017-sb-54."
+    },
+    {
+      "id": "expand-skilled-work-visas",
+      "added": "2026-11-02",
+      "oppose_means": "Favors keeping or lowering the number of skilled-worker visas.",
+      "support_means": "Favors raising the number of skilled-worker visas.",
+      "text": "Should the number of employment-based visas for skilled workers, such as H-1B visas, be increased?"
     }
   ],
   "rejected_questions": []

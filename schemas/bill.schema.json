@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/bill.schema.json",
+  "title": "Bill",
+  "description": "A bill that research refers to: its title and outcome, cited to the official legislative record. Optional for bills mentioned only in lobbying filings; created when a candidate's legislative action or track record cites the bill. Path: data/bills/<bill-ref>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "status", "last_verified"],
+  "properties": {
+    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
+    "id": { "$ref": "defs.schema.json#/$defs/BillRef" },
+    "title": { "$ref": "defs.schema.json#/$defs/CitedString" },
+    "summary": { "$ref": "defs.schema.json#/$defs/CitedString" },
+    "status": {
+      "description": "Where the bill ended up (or stands) as of a date, from the official record.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "as_of", "citations"],
+      "properties": {
+        "value": {
+          "enum": ["introduced", "in_committee", "passed_one_chamber", "passed_legislature", "enacted", "vetoed", "failed", "withdrawn", "other"]
+        },
+        "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
+        "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+      }
+    },
+    "last_verified": { "$ref": "defs.schema.json#/$defs/Date" }
+  }
+}

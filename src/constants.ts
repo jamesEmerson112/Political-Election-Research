@@ -23,7 +23,22 @@ export const COUNTED_COMMITTEE_ROLES = new Set(["principal_campaign", "authorize
 export const COUNTED_CONTRIBUTION_FORMS = new Set(["monetary", "in_kind"]);
 
 /** The symmetric attribute set every candidate is researched on, in task order. */
-export const PROFILE_FIELDS = ["party_registration", "occupation", "residence_city", "offices_held", "education"] as const;
+export const PROFILE_FIELDS = [
+  "party_registration",
+  "birth_date",
+  "birthplace",
+  "occupation",
+  "residence_city",
+  "offices_held",
+  "education",
+  "career",
+] as const;
+
+/** Dossier sections every candidate is researched on, in task order. */
+export const DOSSIER_SECTIONS = ["track_record", "promises", "controversies"] as const;
+
+/** Source kinds that count as an official record for controversy sourcing. */
+export const OFFICIAL_SOURCE_KINDS = new Set([...FILING_SOURCE_KINDS, "government_record", "legislative_record"]);
 
 /** Free-text keys never scanned for refs. */
 export const FREE_TEXT_KEYS = new Set([
@@ -45,6 +60,7 @@ export const FREE_TEXT_KEYS = new Set([
   "office",
   "institution",
   "degree",
+  "role",
   "url",
   "archive_url",
 ]);

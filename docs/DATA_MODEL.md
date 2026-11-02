@@ -18,6 +18,9 @@ All data is JSON under `data/`, validated against the JSON Schemas (draft 2020-1
 | `people/<slug>.json` | person | `xavier-becerra` | [person](../schemas/person.schema.json) |
 | `organizations/<slug>.json` | organization | `seiu-california` | [organization](../schemas/organization.schema.json) |
 | `positions/people/<slug>.json`, `positions/organizations/<slug>.json` | positions of one actor | `actor` ref | [positions](../schemas/positions.schema.json) |
+| `dossiers/people/<slug>.json` | track record, promises, controversies | `actor` ref | [dossier](../schemas/dossier.schema.json) |
+| `bills/<bill-ref>.json` | bill title and outcome | `ca-2025-sb-53` | [bill](../schemas/bill.schema.json) |
+| `leads/<election>/<contest>.json` | unverified hints (never cited) | `contest` ref | [leads](../schemas/leads.schema.json) |
 | `relationships/<type>/<id>.json` | relationship | deterministic | [relationship](../schemas/relationship.schema.json) |
 | `sources/<id>.json` | source | `<host>-<sha256 10>` | [source](../schemas/source.schema.json) |
 
@@ -59,7 +62,13 @@ Both can later get a certified `result`. Committees supporting or opposing a mea
 
 **Issue:** an issue area with neutrally worded `questions`, each defining what `support_means` and `oppose_means`. Rejected questions are kept with a reason.
 
-**Person:** name, aliases, external ids, links, `public_figure`, and, for candidates, the symmetric `candidate_profile`: `party_registration`, `occupation`, `residence_city` (each cited or NotFound), and `offices_held` and `education` (each `{as_of, items[], search_log?}`; an empty list requires a search log).
+**Person:** name, aliases, external ids, links, `public_figure`, and, for candidates, the symmetric `candidate_profile`: `party_registration`, `birth_date` (partial dates allowed), `birthplace`, `occupation`, `residence_city` (each cited or NotFound), and `offices_held`, `education` and `career` (each `{as_of, items[], search_log?}`; an empty list requires a search log).
+
+**Bill:** official title, optional summary, and `status` (introduced … enacted, vetoed, failed) with its as-of date, cited to the legislative record.
+
+**Dossier:** per candidate, three sections, each `{as_of, items[], search_log?}`: `track_record` (documented outcomes), `promises` (specific proposals) and `controversies` (each with citations, the candidate's `response` (cited, or NotFound), and an optional `resolution`).
+
+**Leads:** unverified notes for a contest, kept word for word with the topic they bear on (a profile field, a question, a dossier section, or a task kind). Never cited and never shown as findings.
 
 **Organization:** name as registered, `org_type` (union, corporation, nonprofit, party, candidate/ballot-measure committee, PAC, IE committee, conduit, lobbying firm, government body, tribe, other), external ids and links. No editorial sector labels.
 
@@ -76,8 +85,13 @@ Both can later get a certified `result`. Committees supporting or opposing a mea
 | `lobbying` | client, `firm?`, jurisdiction, targets {bills, agencies, officials?}, money | `lobbying--<client>--<firm or in-house>--<jurisdiction>--<start>--<end>` |
 | `behested_payment` | official, payor, payee, amount_cents, date | `behested_payment--<official>--<payor>--<payee>--<date>` |
 | `affiliation` | person, organization, role, title, period | `affiliation--<person>--<organization>--<role>` |
+| `legislative_action` | person, bill, action (authored, co-authored, voted yes/no, abstained, publicly supported/opposed), date | `legislative_action--<person>--<bill>--<action>--<date>` |
 
 **Source:** id (from the canonical URL), kind, title, publisher, url, `archive_url` (Wayback snapshot), published, accessed, and, for filings, `filing {system, filer_id, filing_id, form, period, amends, superseded}`.
+
+## SQLite export
+
+`npm run db` rebuilds `dist/research.sqlite` from the JSON files. It has one table per record type, a `citations` table that keeps every citation with the record and JSON pointer it came from, and views per candidate: `v_candidates`, `v_candidate_stances`, `v_policy_comparison` (shared, differ, incomplete), `v_candidate_legislation`, `v_candidate_endorsements`, `v_candidate_top_donors`, `v_endorser_money`, `v_citations`. The database is generated and never edited; the JSON stays the source of truth.
 
 ## Computed views (never stored)
 

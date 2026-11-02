@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/leads.schema.json",
+  "title": "Leads",
+  "description": "Unverified hints for one contest: things someone told us that research should check. Leads are NOT claims and are never cited. `npm run next` attaches each lead to the task it bears on, so the agent starts from it and must confirm it in a real source before recording anything. Path: data/leads/<election-slug>/<contest-slug>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contest",
+    "provided",
+    "items"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "defs.schema.json#/$defs/SchemaPointer"
+    },
+    "contest": {
+      "$ref": "defs.schema.json#/$defs/ContestRef"
+    },
+    "provided": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "by",
+        "date",
+        "note"
+      ],
+      "properties": {
+        "by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "person",
+          "topic",
+          "text"
+        ],
+        "properties": {
+          "person": {
+            "$ref": "defs.schema.json#/$defs/PersonRef"
+          },
+          "topic": {
+            "description": "What the lead bears on: a candidate_profile field, a dossier section, an agenda question or measure, a task kind (legislation, endorsements, committee, contributions, independent_expenditures), or other.",
+            "type": "string",
+            "pattern": "^(?:profile\\.(?:party_registration|birth_date|birthplace|occupation|residence_city|offices_held|education|career)|dossier\\.(?:track_record|promises|controversies)|q:[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*|contest:[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*|legislation|endorsements|committee|contributions|independent_expenditures|other)$"
+          },
+          "label": {
+            "description": "The row or heading the lead came from.",
+            "type": "string",
+            "minLength": 1
+          },
+          "text": {
+            "description": "The lead exactly as provided.",
+            "type": "string",
+            "minLength": 1
+          },
+          "hint": {
+            "description": "Stance the lead suggests, if it states one explicitly. A hint, never a finding.",
+            "enum": [
+              "support",
+              "oppose",
+              "mixed"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

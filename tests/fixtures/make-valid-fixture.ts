@@ -81,6 +81,30 @@ const srcDebate = p("source", {
   published: "2030-10-08",
   archive_url: W(4) + "https://video.example.com/watch?v=debate2030",
 });
+const srcTimes = p("source", {
+  url: "https://times.example.net/2030/08/candidate-profiles",
+  kind: "news_report",
+  title: "Meet the candidates for governor",
+  publisher: "Example Times",
+  published: "2030-08-20",
+  archive_url: W(6) + "https://times.example.net/2030/08/candidate-profiles",
+});
+const srcEthics = p("source", {
+  url: "https://ethics.example.gov/decisions/2028-117",
+  kind: "government_record",
+  title: "Stipulation and decision, case 2028-117",
+  publisher: "Example Ethics Commission",
+  published: "2028-12-10",
+  archive_url: W(7) + "https://ethics.example.gov/decisions/2028-117",
+});
+const srcBill = p("source", {
+  url: "https://legislature.example.gov/bills/2029/ab-123",
+  kind: "legislative_record",
+  title: "AB 123 Widget Workforce Act — bill history",
+  publisher: "Example State Legislature",
+  published: "2029-10-02",
+  archive_url: W(8) + "https://legislature.example.gov/bills/2029/ab-123",
+});
 const filing = (n: number, filer: string, form: string, kind = "campaign_finance_filing") =>
   p("source", {
     url: `https://disclosure.example.gov/filing/${filer}/${n}`,
@@ -136,6 +160,19 @@ const avery = p("person", {
   links: { campaign_site: "https://averysample.example.org" },
   candidate_profile: {
     party_registration: { value: "Example Party", citations: cite(srcList, "Avery Sample  Example Party  Widget Engineer") },
+    birth_date: { value: "1980-04-12", citations: cite(srcAveryBio, "Born April 12, 1980, in Exampleville") },
+    birthplace: { value: "Exampleville", citations: cite(srcAveryBio, "Born April 12, 1980, in Exampleville") },
+    career: {
+      as_of: "2030-10-01",
+      items: [
+        {
+          role: "Widget engineer",
+          organization: "Example Widget Works",
+          start: "2006",
+          citations: cite(srcAveryBio, "Avery has worked as a widget engineer for 20 years."),
+        },
+      ],
+    },
     occupation: { value: "Widget engineer", citations: cite(srcAveryBio, "Avery has worked as a widget engineer for 20 years.") },
     residence_city: { value: "Exampleville", citations: cite(srcAveryBio, "Avery lives in Exampleville.") },
     offices_held: {
@@ -160,6 +197,18 @@ const jordan = p("person", {
   public_figure: true,
   candidate_profile: {
     party_registration: { value: "Sample Party", citations: cite(srcList, "Jordan Example  Sample Party  Small Business Owner") },
+    birth_date: {
+      status: "not_found",
+      as_of: "2030-10-01",
+      search_log: [{ where: "Candidate website; Example Times profile; certified list", query: "Jordan Example born", date: "2030-10-01" }],
+    },
+    birthplace: { value: "Sampletown", citations: cite(srcTimes, "Example grew up in Sampletown") },
+    career: {
+      as_of: "2030-10-01",
+      items: [
+        { role: "Owner", organization: "Example Hardware", start: "2012", citations: cite(srcTimes, "has owned Example Hardware since 2012") },
+      ],
+    },
     occupation: { value: "Small business owner", citations: cite(srcList, "Jordan Example  Sample Party  Small Business Owner") },
     residence_city: {
       status: "not_found",
@@ -227,10 +276,24 @@ p("agenda", {
   seeded: { date: "2030-06-01", note: "Fictional fixture." },
   exhausted: [
     {
+      task: "2030-zz-general/governor|legislation|person:jordan-example",
+      date: "2030-10-30",
+      search_log: [{ where: "Example State Legislature bill search; Example Times archive", query: "Jordan Example bill", date: "2030-10-30" }],
+    },
+    {
       task: "2030-zz-general/governor|independent_expenditures|person:jordan-example",
       date: "2030-10-30",
       search_log: [{ where: "Example disclosure system IE search", query: "Jordan Example", date: "2030-10-30" }],
     },
+  ],
+});
+
+p("leads", {
+  contest: "contest:2030-zz-general/governor",
+  provided: { by: "fixture", date: "2030-06-01", note: "Fictional unverified hints." },
+  items: [
+    { person: avery, topic: "profile.occupation", label: "Job", text: "Engineer at a widget plant" },
+    { person: jordan, topic: "q:widgets/subsidize-widgets", label: "Widgets", text: "Said at a town hall they oppose subsidies", hint: "oppose" },
   ],
 });
 
@@ -334,6 +397,79 @@ rel({
   citations: fcite(fLobby, "Payments to lobbying firms, line 1"),
 });
 rel({ type: "behested_payment", official: avery, payor: union, payee: foodBank, amount_cents: 500_000, date: "2030-03-01", citations: fcite(fBehest, "Line 1") });
+p("bill", {
+  id: "ca-2029-ab-123",
+  title: { value: "Widget Workforce Act", citations: cite(srcBill, "AB 123 Widget Workforce Act") },
+  status: { value: "enacted", as_of: "2029-10-02", citations: cite(srcBill, "Chaptered by Secretary of State, Chapter 412, Statutes of 2029") },
+});
+rel({
+  type: "legislative_action", person: avery, bill: "ca-2029-ab-123", action: "publicly_supported", date: "2029-06-01", cycle: 2030,
+  citations: cite(srcTimes, "Sample testified in support of AB 123 in June 2029."),
+});
+p("dossier", {
+  actor: avery,
+  track_record: {
+    as_of: "2030-10-01",
+    items: [
+      {
+        id: "exampleville-widget-incubator",
+        title: "Exampleville widget incubator",
+        kind: "program",
+        summary: "Proposed the city's widget incubator program, which the council funded in 2024.",
+        date: "2024",
+        citations: cite(srcAveryBio, "Avery created the Exampleville widget incubator, funded by the council in 2024."),
+      },
+    ],
+  },
+  promises: {
+    as_of: "2030-10-01",
+    items: [
+      {
+        id: "state-widget-grant-fund",
+        title: "State widget grant fund",
+        summary: "Proposes a state fund for widget manufacturing grants.",
+        issue: "widgets",
+        as_of: "2030-09-20",
+        citations: cite(srcNews, "\"The state should invest in widgets,\" Sample said."),
+      },
+    ],
+  },
+  controversies: {
+    as_of: "2030-10-01",
+    items: [],
+    search_log: [{ where: "Example News and Example Times archives; Example Ethics Commission decisions", query: "Avery Sample", date: "2030-10-01" }],
+  },
+});
+p("dossier", {
+  actor: jordan,
+  track_record: {
+    as_of: "2030-10-01",
+    items: [],
+    search_log: [{ where: "Example Times archive; candidate website", query: "Jordan Example accomplishments", date: "2030-10-01" }],
+  },
+  promises: {
+    as_of: "2030-10-01",
+    items: [],
+    search_log: [{ where: "Candidate website; debate video", query: "Jordan Example plan proposal", date: "2030-10-01" }],
+  },
+  controversies: {
+    as_of: "2030-10-01",
+    items: [
+      {
+        id: "late-filing-fine-2028",
+        title: "Fine for a late campaign statement",
+        date: "2028-12",
+        summary: "The Example Ethics Commission fined Example's 2028 committee $500 for filing a campaign statement late.",
+        citations: cite(srcEthics, "The committee shall pay an administrative penalty of $500."),
+        response: {
+          summary: "Example's campaign said the filing was late because of a software error and paid the fine.",
+          citations: cite(srcTimes, "a software glitch delayed the filing"),
+        },
+        resolution: { summary: "The fine was paid.", date: "2028-12", citations: cite(srcEthics, "Penalty paid in full.") },
+      },
+    ],
+  },
+});
 rel({ type: "affiliation", person: jordan, organization: foodBank, role: "board_member", period: { start: "2020-01-01" }, citations: cite(srcNews, "Example sits on the food bank's board.") });
 
 console.log(`wrote ${[...readDataDir(DIR).keys()].length} files to ${DIR}`);

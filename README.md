@@ -21,6 +21,14 @@ The system is **deterministic** so that AI agents (and people) can research cand
 
 See **[AGENTS.md](AGENTS.md)** for the research loop.
 
+## The site
+
+`npm run web` starts the Svelte site, which reloads live as data changes. `npm run web:build` writes a single self-contained page to `dist/web/index.html`. Each contest is a side-by-side comparison in eleven categories (identity, occupation, qualifications, past policies, shared policies, policy differences, endorsements, campaign financing, performance record, controversies, promises). Every entry opens to its sources. A toggle switches between the real draft data and a fictional demo of a fully researched contest.
+
+## SQLite
+
+`npm run db` builds `dist/research.sqlite`, a queryable copy with per-candidate views (see [DATA_MODEL.md](docs/DATA_MODEL.md#sqlite-export)). The JSON files stay the source of truth.
+
 ## Quickstart
 
 ```bash
@@ -39,10 +47,11 @@ Requires Node 22.12 or newer.
 |---|---|
 | Format, validator, tooling, tests | done |
 | Governor (Becerra vs Hilton): agenda and 6 neutral issue questions | done |
-| Governor: cited research | **not started**. The primary sources (sos.ca.gov, CAL-ACCESS) and archive.org were not reachable from the environment the scaffold was built in. Run the agent loop where they are. |
-| Other statewide offices, 14 propositions, 52 House races | agendas to be added |
+| U.S. House CA-11 (Chan vs Wiener): agenda, AI/tech/visa/health questions, and the maintainer's comparison table as unverified leads | done |
+| Governor and CA-11: cited research | **not started**. The primary sources (sos.ca.gov, CAL-ACCESS) and archive.org were not reachable from the environment the scaffold was built in. Run the agent loop where they are. |
+| Other statewide offices, 14 propositions, other House races | agendas to be added |
 | Importers (CARS, OpenFEC, Senate LDA, FPPC 803) | planned |
-| Visualization site (stance matrix, money/endorsement network) | planned |
+| Svelte site (side-by-side comparison, influence map, research queue) and SQLite export | done |
 
 ## Repository map
 
@@ -51,7 +60,8 @@ Requires Node 22.12 or newer.
 | `data/` | the dataset ([layout](docs/DATA_MODEL.md)) |
 | `schemas/` | JSON Schemas (draft 2020-12) |
 | `src/` | library: ids, canonical form, validation rules, research queue, rollups, `put` |
-| `cli/` | `validate`, `fmt`, `put`, `id`, `next`, `coverage`, `rollup` |
+| `cli/` | `validate`, `fmt`, `put`, `id`, `next`, `coverage`, `rollup`, `db` |
+| `web/` | Svelte 5 site (reads the dataset through the same library at build time) |
 | `tests/` | vitest suite and fixtures: a complete fictional dataset plus one failing case per rule |
 | `docs/METHODOLOGY.md` | sourcing, neutrality, money and privacy rules |
 | `docs/RESEARCH_GUIDE.md` | where to look and what to record, per task |

@@ -1,0 +1,46 @@
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
+import { DatabaseSync } from "node:sqlite";
+import { afterAll, describe, expect, it } from "vitest";
+import { buildBundle } from "../src/bundle.js";
+import { writeSqlite } from "../src/sqlite.js";
+import { FIXTURE_TODAY, VALID_DIR } from "./helpers.js";
+
+const dir = fs.mkdtempSync(path.join(os.tmpdir(), "per-sqlite-"));
+const file = path.join(dir, "test.sqlite");
+afterAll(() => fs.rmSync(dir, { recursive: true, force: true }));
+
+describe("SQLite export", () => {
+  const bundle = buildBundle(VALID_DIR, { label: "fixture", fictional: true, today: FIXTURE_TODAY });
+  writeSqlite(DatabaseSync, bundle, file);
+  const db = new DatabaseSync(file, { readOnly: true });
+  const all = (sql: string) => db.prepare(sql).all() as Array<Record<string, unknown>>;
+
+  it("summarizes each candidate from the computed rollup", () => {
+    expect(all("SELECT person, on_certified_list, subjects_researched, subjects_total, receipts_cents FROM v_candidates ORDER BY person")).toEqual([
+      { person: "person:avery-sample", on_certified_list: 1, subjects_researched: 2, subjects_total: 2, receipts_cents: 7_000_000 },
+      { person: "person:jordan-example", on_certified_list: 1, subjects_researched: 2, subjects_total: 2, receipts_cents: 2_500_000 },
+    ]);
+  });
+
+  it("keeps every citation with its record and pointer, and every citation resolves", () => {
+    expect(all("SELECT COUNT(*) AS n FROM citations WHERE source NOT IN (SELECT ref FROM sources)")[0]!["n"]).toBe(0);
+    const row = all("SELECT record_kind, record_id, pointer FROM citations WHERE record_kind = 'position' AND record_id LIKE 'person:avery-sample|q:%'")[0];
+    expect(row).toEqual({ record_kind: "position", record_id: "person:avery-sample|q:widgets/subsidize-widgets|2030-09-20", pointer: "/citations/0" });
+  });
+
+  it("exposes the latest stance per candidate and subject", () => {
+    expect(all("SELECT person, stance FROM v_candidate_stances WHERE subject = 'q:widgets/subsidize-widgets' ORDER BY person")).toEqual([
+      { person: "person:avery-sample", stance: "support" },
+      { person: "person:jordan-example", stance: "no_public_position" },
+    ]);
+  });
+
+  it("splits lobbying targets into rows", () => {
+    expect(all("SELECT target_kind, target FROM lobbying_targets ORDER BY target_kind")).toEqual([
+      { target_kind: "agency", target: "Example State Assembly" },
+      { target_kind: "bill", target: "ca-2029-ab-123" },
+    ]);
+  });
+});

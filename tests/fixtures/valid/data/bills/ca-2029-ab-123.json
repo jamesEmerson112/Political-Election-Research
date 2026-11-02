@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../../../schemas/bill.schema.json",
+  "id": "ca-2029-ab-123",
+  "status": {
+    "value": "enacted",
+    "as_of": "2029-10-02",
+    "citations": [
+      {
+        "source": "src:legislature-example-gov-14695b5e7b",
+        "quote": "Chaptered by Secretary of State, Chapter 412, Statutes of 2029"
+      }
+    ]
+  },
+  "title": {
+    "value": "Widget Workforce Act",
+    "citations": [
+      {
+        "source": "src:legislature-example-gov-14695b5e7b",
+        "quote": "AB 123 Widget Workforce Act"
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

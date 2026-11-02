@@ -15,10 +15,13 @@ export const FILE_KINDS = [
   "election",
   "contest",
   "agenda",
+  "leads",
   "issue",
+  "bill",
   "person",
   "organization",
   "positions",
+  "dossier",
   "relationship",
   "source",
 ] as const;
@@ -32,6 +35,7 @@ export const RELATIONSHIP_TYPES = [
   "lobbying",
   "behested_payment",
   "affiliation",
+  "legislative_action",
 ] as const;
 export type RelationshipType = (typeof RELATIONSHIP_TYPES)[number];
 
@@ -51,7 +55,10 @@ const RULES: Array<[RegExp, (m: RegExpExecArray) => Classified]> = [
   [new RegExp(`^elections/(${SLUG})\\.json$`), (m) => ({ kind: "election", expectedId: m[1]! })],
   [new RegExp(`^contests/(${SLUG})/(${SLUG})\\.json$`), (m) => ({ kind: "contest", expectedId: `${m[1]}/${m[2]}` })],
   [new RegExp(`^agenda/(${SLUG})/(${SLUG})\\.json$`), (m) => ({ kind: "agenda", expectedId: `contest:${m[1]}/${m[2]}` })],
+  [new RegExp(`^leads/(${SLUG})/(${SLUG})\\.json$`), (m) => ({ kind: "leads", expectedId: `contest:${m[1]}/${m[2]}` })],
   [new RegExp(`^issues/(${SLUG})\\.json$`), (m) => ({ kind: "issue", expectedId: m[1]! })],
+  [/^bills\/((?:ca|us)-[0-9]{1,4}-[a-z]+-[0-9]+)\.json$/, (m) => ({ kind: "bill", expectedId: m[1]! })],
+  [new RegExp(`^dossiers/people/(${SLUG})\\.json$`), (m) => ({ kind: "dossier", expectedId: `person:${m[1]}` })],
   [new RegExp(`^people/(${SLUG})\\.json$`), (m) => ({ kind: "person", expectedId: m[1]! })],
   [new RegExp(`^organizations/(${SLUG})\\.json$`), (m) => ({ kind: "organization", expectedId: m[1]! })],
   [new RegExp(`^positions/people/(${SLUG})\\.json$`), (m) => ({ kind: "positions", expectedId: `person:${m[1]}` })],
@@ -87,8 +94,14 @@ export function pathFor(kind: FileKind, rec: Record<string, unknown>): string {
       return `contests/${String(id)}.json`;
     case "agenda":
       return `agenda/${String(rec["contest"]).replace(/^contest:/, "")}.json`;
+    case "leads":
+      return `leads/${String(rec["contest"]).replace(/^contest:/, "")}.json`;
     case "issue":
       return `issues/${String(id)}.json`;
+    case "bill":
+      return `bills/${String(id)}.json`;
+    case "dossier":
+      return `dossiers/people/${String(rec["actor"]).replace(/^person:/, "")}.json`;
     case "person":
       return `people/${String(id)}.json`;
     case "organization":

@@ -27,11 +27,12 @@ Then repeat. When `next` reports `0 open task(s)`, the contest is done. Run `npm
 
 1. **Nothing from memory.** Every value you write must come from a source you opened in this session. If you can't reach a source (blocked host, paywall, dead link), skip the task, say so in your report, and move on. Never fill the gap with what you believe is true.
 2. **Quotes are verbatim.** `quote` is copied character-for-character from the source: no fixing typos, no ellipses joining distant passages. Tools that *summarize* a page (for example, a fetcher that answers a prompt about the page) are not verbatim: ask them for the exact passage and check it. If you can't be sure the text is verbatim, don't record it.
-3. **Never infer a stance.** It doesn't matter what party, endorsers or donors a candidate has. Without explicit evidence the stance is `no_public_position` with a `search_log` of everywhere you looked.
-4. **Never hand-write ids, paths or `$schema`.** `put` computes them. Use `npm run -s id -- slug "<name>"` or `npm run -s id -- source "<url>"` to look up a ref before you write a record that points to it.
-5. **Don't change the agenda's questions or candidates mid-research.** They were fixed beforehand so every candidate is asked the same things. The only agenda edits allowed during research are `targets.finance_cutoff` (the finance-cutoff task) and `exhausted` entries (closing a count task that can't reach its target, with a search log).
-6. **Money must come from filings.** Contributions, independent expenditures, lobbying and behested payments cite a `*_filing` source with a `locator` (schedule/line). News stories about money are leads, not citations.
-7. **Archive what you cite** when you can: `https://web.archive.org/save/<url>`, then record the `https://web.archive.org/web/<14 digits>/...` snapshot as `archive_url`. If archiving is unavailable, leave it out. `validate` shows a warning, and `validate --strict` (the release gate) blocks until someone adds it.
+3. **Leads are starting points, not facts.** A task may carry `leads` (unverified notes someone gave the project). Use them to know where to look, then confirm in a primary source. Never copy a lead into a record.
+4. **Never infer a stance.** It doesn't matter what party, endorsers or donors a candidate has. Without explicit evidence the stance is `no_public_position` with a `search_log` of everywhere you looked.
+5. **Never hand-write ids, paths or `$schema`.** `put` computes them. Use `npm run -s id -- slug "<name>"` or `npm run -s id -- source "<url>"` to look up a ref before you write a record that points to it.
+6. **Don't change the agenda's questions or candidates mid-research.** They were fixed beforehand so every candidate is asked the same things. The only agenda edits allowed during research are `targets.finance_cutoff` (the finance-cutoff task) and `exhausted` entries (closing a count task that can't reach its target, with a search log).
+7. **Money must come from filings.** Contributions, independent expenditures, lobbying and behested payments cite a `*_filing` source with a `locator` (schedule/line). News stories about money are leads, not citations.
+8. **Archive what you cite** when you can: `https://web.archive.org/save/<url>`, then record the `https://web.archive.org/web/<14 digits>/...` snapshot as `archive_url`. If archiving is unavailable, leave it out. `validate` shows a warning, and `validate --strict` (the release gate) blocks until someone adds it.
 
 ## Writing records with `put`
 
@@ -43,6 +44,9 @@ Then repeat. When `next` reports `0 open task(s)`, the contest is done. Run `npm
 | `person`, `organization` | `slugify(name)` (or give `id`) | create | `--merge` deep-merges, e.g. to add one `candidate_profile` field |
 | `relationship` | type + identifying fields | create | ids like `contribution--org.x--org.y--2026--general--monetary` |
 | `position` | the actor | append | `{"actor": ..., "position": {...}}`; a new `as_of` adds history; the same `as_of` needs `--replace` |
+| `dossier` | the actor | create | `--merge` adds a section, or adds/replaces items by `id` |
+| `bill` | the bill ref you give | create | |
+| `leads` | the `contest` you give | create | unverified notes; never cited |
 | `contest`, `election`, `issue`, `agenda` | the `id` / `contest` you give | create | `--merge` merges `candidates` by person, `questions` by id, and `exhausted` by task |
 
 ### Examples (fictional)
@@ -72,4 +76,6 @@ The test fixture in [tests/fixtures/valid/data](tests/fixtures/valid/data) is a 
 | `npm run -s fmt -- [--check]` | canonical formatting |
 | `npm run -s coverage -- <contest>` | parity matrix across candidates |
 | `npm run -s rollup -- person:<slug> contest:<id> [--through DATE]` | computed funding summary |
+| `npm run -s db` | rebuild `dist/research.sqlite` (queryable copy, per-candidate views) |
+| `npm run web` / `npm run web:build` | the site, live-reloading on data changes / single-file build |
 | `npm run check` | typecheck + fmt check + validate + tests (what CI runs) |

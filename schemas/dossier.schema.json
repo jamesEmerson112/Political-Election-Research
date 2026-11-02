@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/dossier.schema.json",
+  "title": "Dossier",
+  "description": "A candidate's documented record beyond issue stances: track record (outcomes), campaign promises, and controversies with the candidate's response. Each section is researched for every candidate; an empty section needs a search log. Path: data/dossiers/people/<slug>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["actor"],
+  "properties": {
+    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
+    "actor": { "$ref": "defs.schema.json#/$defs/PersonRef" },
+    "track_record": {
+      "description": "Documented outcomes: enacted legislation, programs implemented, budgets delivered. Factual results, never praise.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["as_of", "items"],
+      "properties": {
+        "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "title", "kind", "summary", "citations"],
+            "properties": {
+              "id": { "$ref": "defs.schema.json#/$defs/Slug" },
+              "title": { "type": "string", "minLength": 1, "maxLength": 160 },
+              "kind": { "enum": ["legislation", "program", "executive_action", "budget", "other"] },
+              "summary": { "type": "string", "minLength": 1, "maxLength": 800 },
+              "date": { "$ref": "defs.schema.json#/$defs/PartialDate" },
+              "bill": { "$ref": "defs.schema.json#/$defs/BillRef" },
+              "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+            }
+          }
+        },
+        "search_log": { "$ref": "defs.schema.json#/$defs/SearchLog" }
+      },
+      "if": { "properties": { "items": { "type": "array", "maxItems": 0 } } },
+      "then": { "required": ["search_log"] }
+    },
+    "promises": {
+      "description": "Specific proposals the candidate says they will pursue in the office sought.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["as_of", "items"],
+      "properties": {
+        "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "title", "summary", "as_of", "citations"],
+            "properties": {
+              "id": { "$ref": "defs.schema.json#/$defs/Slug" },
+              "title": { "type": "string", "minLength": 1, "maxLength": 160 },
+              "summary": { "type": "string", "minLength": 1, "maxLength": 800 },
+              "issue": { "description": "Issue id (data/issues) the proposal falls under.", "$ref": "defs.schema.json#/$defs/Slug" },
+              "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
+              "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+            }
+          }
+        },
+        "search_log": { "$ref": "defs.schema.json#/$defs/SearchLog" }
+      },
+      "if": { "properties": { "items": { "type": "array", "maxItems": 0 } } },
+      "then": { "required": ["search_log"] }
+    },
+    "controversies": {
+      "description": "Documented controversies and criticisms. Each needs two independent publishers or an official record [CONTROVERSY_SOURCING], and the candidate's response (cited) or a search log showing none was found.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["as_of", "items"],
+      "properties": {
+        "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "title", "summary", "citations", "response"],
+            "properties": {
+              "id": { "$ref": "defs.schema.json#/$defs/Slug" },
+              "title": { "description": "Neutral, descriptive; no loaded words.", "type": "string", "minLength": 1, "maxLength": 160 },
+              "date": { "$ref": "defs.schema.json#/$defs/PartialDate" },
+              "summary": {
+                "description": "What is documented, attributed (\"the commission found\", \"X reported\"); allegations are never stated as fact.",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 800
+              },
+              "citations": { "$ref": "defs.schema.json#/$defs/Citations" },
+              "response": {
+                "oneOf": [{ "$ref": "defs.schema.json#/$defs/CitedSummary" }, { "$ref": "defs.schema.json#/$defs/NotFound" }]
+              },
+              "resolution": { "$ref": "defs.schema.json#/$defs/CitedSummary" }
+            }
+          }
+        },
+        "search_log": { "$ref": "defs.schema.json#/$defs/SearchLog" }
+      },
+      "if": { "properties": { "items": { "type": "array", "maxItems": 0 } } },
+      "then": { "required": ["search_log"] }
+    }
+  }
+}

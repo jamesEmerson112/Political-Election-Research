@@ -4,7 +4,7 @@
  * agent asked to "do the next task" does the same thing.
  * `coverage` renders the same diff as a parity matrix across candidates.
  */
-import { PROFILE_FIELDS } from "./constants.js";
+import { DOSSIER_SECTIONS, PROFILE_FIELDS } from "./constants.js";
 import type { Dataset, Rec } from "./dataset.js";
 import { cmp } from "./ids.js";
 import { candidateCommittees } from "./rollup.js";
@@ -16,6 +16,8 @@ export const TASK_KINDS = [
   "person",
   "profile",
   "position",
+  "legislation",
+  "dossier",
   "endorsements",
   "committee",
   "measure_committees",
@@ -43,6 +45,8 @@ export interface Task {
   detail: string;
   /** Id of a task that must be done first; blocked tasks are hidden by default. */
   blocked_by?: string;
+  /** Unverified hints from data/leads that bear on this task. Starting points only. */
+  leads?: string[];
 }
 
 /** "<contest-id>|<kind>[|<subject>[|<item>]]" — refs contain ":" so "|" separates parts. */
@@ -74,6 +78,10 @@ function donorsThrough(ds: Dataset, committees: string[], cutoff: string): numbe
     if (end === cutoff) donors.add(String(r["donor"]));
   }
   return donors.size;
+}
+
+function legislationCount(ds: Dataset, person: string): number {
+  return ds.relationships.filter((r) => r["type"] === "legislative_action" && r["person"] === person).length;
 }
 
 function ieCount(ds: Dataset, target: string, cycle: number): number {
@@ -215,6 +223,30 @@ export function nextTasks(ds: Dataset, opts: { contest?: string; includeBlocked?
         }
       }
       for (const { person } of people) {
+        if (legislationCount(ds, person) === 0) {
+          push({
+            kind: "legislation",
+            subject: person,
+            file: "relationships/legislative_action/",
+            put: "relationship",
+            detail: `Record bills ${person} authored, co-authored, voted on or publicly took a side on (plus bill records with outcomes).`,
+          });
+        }
+      }
+      for (const section of DOSSIER_SECTIONS) {
+        for (const { person, slug } of people) {
+          if (ds.dossiers.get(person)?.[section] !== undefined) continue;
+          push({
+            kind: "dossier",
+            subject: person,
+            item: section,
+            file: `dossiers/people/${slug}.json`,
+            put: "dossier --merge",
+            detail: `Research ${person}'s ${section.replace("_", " ")} (cited items, or an empty list with a search log).`,
+          });
+        }
+      }
+      for (const { person } of people) {
         const target = Number(targets["endorsements_per_candidate"]);
         const have = endorsementCount(ds, person, cycle);
         if (have < target) {
@@ -327,7 +359,28 @@ export function nextTasks(ds: Dataset, opts: { contest?: string; includeBlocked?
       }
     }
   }
+  attachLeads(ds, tasks);
   return tasks;
+}
+
+/** The leads topic a task answers: profile.<field>, the question/measure ref, or the task kind. */
+function leadTopic(t: Task): string {
+  if (t.kind === "profile") return `profile.${t.item}`;
+  if (t.kind === "position") return String(t.item);
+  if (t.kind === "dossier") return `dossier.${t.item}`;
+  return t.kind;
+}
+
+function attachLeads(ds: Dataset, tasks: Task[]): void {
+  for (const t of tasks) {
+    const file = ds.leads.get(t.contest);
+    if (!file || !t.subject) continue;
+    const topic = leadTopic(t);
+    const texts = ((file["items"] as Rec[]) ?? [])
+      .filter((l) => l["person"] === t.subject && l["topic"] === topic)
+      .map((l) => (l["label"] ? `${String(l["label"])}: ${String(l["text"])}` : String(l["text"])));
+    if (texts.length) t.leads = texts;
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -395,6 +448,24 @@ export function coverage(ds: Dataset, contestRef: string): Coverage {
     presenceRow(
       subject,
       candidates.map((c) => String(hasPosition(ds, c, subject)?.["stance"] ?? MISSING)),
+    );
+  }
+  presenceRow(
+    "legislation",
+    candidates.map((c) => {
+      const n = legislationCount(ds, c);
+      return orExhausted(n ? `${n} cited` : MISSING, "legislation", c);
+    }),
+  );
+  for (const section of DOSSIER_SECTIONS) {
+    presenceRow(
+      `dossier.${section}`,
+      candidates.map((c) => {
+        const sec = ds.dossiers.get(c)?.[section] as Rec | undefined;
+        if (!sec) return MISSING;
+        const n = (sec["items"] as unknown[]).length;
+        return n ? `${n} cited` : "none_found";
+      }),
     );
   }
   countRow(

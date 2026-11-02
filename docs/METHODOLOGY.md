@@ -18,6 +18,26 @@ Editorial choices (issues, questions, research agendas) are not claims and carry
 - **Parity check:** `npm run coverage -- <contest>` flags any row where one candidate has been researched and another has not. That includes money data pulled at different filing cutoffs, which the shared `finance_cutoff` is there to prevent.
 - **Deterministic selection:** when only the "top N" of something is recorded (endorsements, contributors), the selection rule is written down in the research guide and applied the same way to everyone.
 
+## 2a. The comparison structure
+
+Each office contest is compared side by side in eleven categories. Every category is either recorded with citations or computed from cited records:
+
+| # | Category | Stored as | Computed |
+|---|---|---|---|
+| 1 | Identity | name, party, `birth_date`, `birthplace` | age on election day |
+| 2 | Occupation | `occupation`, `offices_held` | current office, years served |
+| 3 | Qualifications | `education`, `career`, past `offices_held` | |
+| 4 | Past policies | `legislative_action` + `bill` records | |
+| 5 | Shared policies | | stances on the same side |
+| 6 | Policy differences | | stances on different sides |
+| 7 | Endorsements | `endorsement` | |
+| 8 | Campaign financing | `contribution`, `independent_expenditure`, `committee_role` | funding rollup |
+| 9 | Performance record | dossier `track_record`, bill outcomes | |
+| 10 | Controversies and criticisms | dossier `controversies` (with response) | |
+| 11 | Campaign promises | dossier `promises` | |
+
+"Shared" and "differing" are computed only from explicit, cited stances (`support`, `oppose`, `mixed`) on the same pre-fixed question. If any candidate's stance is missing, the question is shown as "not yet comparable" rather than guessed.
+
 ## 3. Stances come only from explicit evidence
 
 Each question defines what `support` and `oppose` mean. The stances are:
@@ -58,6 +78,20 @@ These are **different things** and are never blended:
 - A candidate's funding for a contest counts only committees tied to **that contest** (`ca_controlled`, `principal_campaign`, `authorized`). Officeholder accounts, leadership PACs and committees for other races are shown but not counted. Totals are always **computed** (`npm run rollup`), never typed in.
 - **Lobbying honesty:** lobbying disclosures name bills and agencies, not individual officials. "Who lobbies candidate X" is shown as two linked facts: the organization lobbied on bill B, and the candidate voted on or wrote bill B. A direct link to an official is recorded only when a filing names them.
 - **Disclosure is not wrongdoing.** Recording a contribution or lobbying relationship says only that the filing reports it. It implies nothing about motive or quid pro quo.
+
+## 5a. Controversies and criticisms
+
+This is where a research project can do the most harm, so the bar is highest:
+
+- Only documented matters: two independent publishers or an official record [CONTROVERSY_SOURCING].
+- A neutral title, and a summary that attributes every claim to its source. Allegations are never stated as fact.
+- The candidate's response is always shown: cited, or "none found" with a search log.
+- The resolution is recorded when there is one.
+- Every candidate gets the same search (the same outlets, official databases and date range), and "none found" is recorded with a search log like any other gap.
+
+## 5b. Leads are not claims
+
+Notes people give the project (a comparison table, a tip) are stored as **leads** (`data/leads/`), word for word, labeled unverified. `npm run next` attaches each lead to the research task it bears on, and the site shows leads in dashed boxes marked "Unverified lead". A lead becomes part of the dataset only when a researcher confirms it in a primary source and records it with citations. Leads are never cited.
 
 ## 6. Privacy
 

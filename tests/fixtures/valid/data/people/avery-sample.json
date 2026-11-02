@@ -4,6 +4,40 @@
   "name": "Avery Sample",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1980-04-12",
+      "citations": [
+        {
+          "source": "src:averysample-example-org-ef54a1cad9",
+          "quote": "Born April 12, 1980, in Exampleville"
+        }
+      ]
+    },
+    "birthplace": {
+      "value": "Exampleville",
+      "citations": [
+        {
+          "source": "src:averysample-example-org-ef54a1cad9",
+          "quote": "Born April 12, 1980, in Exampleville"
+        }
+      ]
+    },
+    "career": {
+      "as_of": "2030-10-01",
+      "items": [
+        {
+          "organization": "Example Widget Works",
+          "role": "Widget engineer",
+          "start": "2006",
+          "citations": [
+            {
+              "source": "src:averysample-example-org-ef54a1cad9",
+              "quote": "Avery has worked as a widget engineer for 20 years."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2030-10-01",
       "items": [

@@ -21,3 +21,4 @@ jobs:
       - run: npm run -s fmt -- --check
       - run: npm run -s validate
       - run: npm test
+      - run: npm run web:build

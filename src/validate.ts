@@ -6,7 +6,9 @@
 import { canonicalize, serialize } from "./canonical.js";
 import {
   COMMITTEE_ORG_TYPES,
+  DOSSIER_SECTIONS,
   FILING_SOURCE_KINDS,
+  OFFICIAL_SOURCE_KINDS,
   FREE_TEXT_KEYS,
   LOCATOR_SOURCE_KINDS,
   MONEY_REL_TYPES,
@@ -36,6 +38,7 @@ export const RULES = {
   POSITION_DUPLICATE: "Two positions share the same subject and as_of date.",
   PRIVACY_THRESHOLD: "A private individual is listed as a donor below the privacy threshold.",
   FILING_SUPERSEDED: "A money record only cites filings that were superseded by amendments.",
+  CONTROVERSY_SOURCING: "A controversy is not backed by two independent publishers or an official record.",
   CANDIDATE_PROFILE_REQUIRED: "A person on a contest ballot has no candidate_profile.",
   ARCHIVE_REQUIRED: "A source has no Wayback archive_url.",
   ORPHAN_SOURCE: "A source is not cited by any record.",
@@ -118,9 +121,9 @@ function checkFile(f: LoadedFile, dataDir: string, add: Add): void {
 
   const rec = data as Rec;
   const { kind, expectedId } = f.info;
-  if (kind === "agenda") {
+  if (kind === "agenda" || kind === "leads") {
     if (rec["contest"] !== expectedId) add(f.rel, "/contest", "ID_FILENAME", `Expected "${expectedId}" for this path.`);
-  } else if (kind === "positions") {
+  } else if (kind === "positions" || kind === "dossier") {
     if (rec["actor"] !== expectedId) add(f.rel, "/actor", "ID_FILENAME", `Expected "${expectedId}" for this path.`);
   } else if (kind === "relationship") {
     if (rec["type"] !== f.info.relType) {
@@ -195,8 +198,8 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
     for (const [ptr, key, v] of walk(rec)) {
       if (typeof v !== "string" || FREE_TEXT_KEYS.has(key)) continue;
       if (!REF_RE.test(v)) continue;
-      // Agendas may point at contests/people/measures that research has not created yet.
-      if (kind === "agenda" && !v.startsWith("q:")) continue;
+      // Agendas and leads may point at contests/people/measures that research has not created yet.
+      if ((kind === "agenda" || kind === "leads") && !v.startsWith("q:")) continue;
       if (v.startsWith("src:")) cited.add(v);
       if (!ds.existing.has(v)) add(f.rel, ptr, "REF_UNRESOLVED", `"${v}" does not exist.`);
     }
@@ -234,6 +237,7 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
 
     // --- kind-specific -----------------------------------------------------
     if (kind === "positions") checkPositions(ds, f.rel, rec, add);
+    if (kind === "dossier") checkDossier(ds, f.rel, rec, add);
     if (kind === "relationship") checkRelationship(ds, f.rel, rec, add, threshold, ballotPeople);
     if (kind === "contest") {
       ((rec["candidates"] as Rec[] | undefined) ?? []).forEach((cand, i) => {
@@ -270,6 +274,31 @@ function checkPositions(ds: Dataset, rel: string, rec: Rec, add: Add): void {
         add(rel, `/positions/${i}/citations/${j}`, "CITATION_AFTER_ASOF", `Source published ${String(src["published"])} after as_of ${String(p["as_of"])}.`);
       }
     });
+  });
+}
+
+function checkDossier(ds: Dataset, rel: string, rec: Rec, add: Add): void {
+  for (const section of DOSSIER_SECTIONS) {
+    const sec = rec[section] as Rec | undefined;
+    if (!sec) continue;
+    const asOf = String(sec["as_of"]);
+    for (const [ptr, list] of citationLists(sec)) {
+      list.forEach((c, j) => {
+        const src = resolve(ds, String(c["source"]));
+        if (src && typeof src["published"] === "string" && src["published"] > asOf) {
+          add(rel, `/${section}${ptr}/${j}`, "CITATION_AFTER_ASOF", `Source published ${String(src["published"])} after section as_of ${asOf}.`);
+        }
+      });
+    }
+  }
+  const items = ((rec["controversies"] as Rec | undefined)?.["items"] as Rec[] | undefined) ?? [];
+  items.forEach((item, i) => {
+    const sources = ((item["citations"] as Rec[]) ?? []).map((c) => resolve(ds, String(c["source"]))).filter((s): s is Rec => !!s);
+    const official = sources.some((s) => OFFICIAL_SOURCE_KINDS.has(String(s["kind"])));
+    const publishers = new Set(sources.map((s) => String(s["publisher"] ?? s["id"])));
+    if (!official && publishers.size < 2) {
+      add(rel, `/controversies/items/${i}/citations`, "CONTROVERSY_SOURCING", "Cite two independent publishers, or an official record (court, agency, legislature, filing).");
+    }
   });
 }
 
