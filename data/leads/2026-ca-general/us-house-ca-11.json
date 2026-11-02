@@ -99,11 +99,29 @@
       "label": "Remaining evidence gaps",
       "text": "This file does not independently estimate effects on homebuilding, rents, jobs, AI safety, or program beneficiaries. (notes §7; no source given)",
       "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Took office",
+      "text": "Took office as District 1 Supervisor on Jan 8, 2021; current term Jan 8, 2025 to Jan 8, 2029: https://sf.gov/profile/connie-chan and https://www.sfbos.org/supervisor-chan-01242021-newsletter (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Took office",
+      "text": "Sworn in as State Senator on Dec 5, 2016, the day he resigned as supervisor: https://sfbos.org/sites/default/files/r0486-16.pdf (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Previous offices",
+      "text": "San Francisco Supervisor, District 8, Jan 8, 2011 (start date secondary) to Dec 5, 2016: https://sfbos.archive.sf.gov/former-supervisor-scott-wiener (web search summary, page not opened)",
+      "topic": "profile.offices_held"
     }
   ],
   "provided": {
     "by": "project maintainer",
     "date": "2026-11-02",
-    "note": "From the maintainer's verified research notes (notes/2026-11-02-ca-11.md), worded as in the notes. Kept here only what could not be recorded as cited data: family background, Chan's unspecified earlier roles, housing approaches that do not address the transit-upzoning question, Chan's AI-safeguard views that do not address disclosure or incident reporting, Proposition 40 stances (the measure's contest record does not exist yet) and the notes' §7 evidence gaps. Everything else in the notes was recorded as maintainer-verified citations (verified_by), pending verbatim quotes and archive snapshots. Replaces the earlier unsourced comparison table."
+    "note": "From the maintainer's verified research notes (notes/2026-11-02-ca-11.md), worded as in the notes. Kept here only what could not be recorded as cited data: family background, Chan's unspecified earlier roles, housing approaches that do not address the transit-upzoning question, Chan's AI-safeguard views that do not address disclosure or incident reporting, Proposition 40 stances (the measure's contest record does not exist yet) and the notes' §7 evidence gaps. Everything else in the notes was recorded as maintainer-verified citations (verified_by), pending verbatim quotes and archive snapshots. Replaces the earlier unsourced comparison table. Later additions marked \"web search summary\" come from a research agent's web searches and still need the maintainer's check."
   }
 }

@@ -1,0 +1,107 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/governor",
+  "items": [
+    {
+      "person": "person:xavier-becerra",
+      "label": "Ballot designation",
+      "text": "\"Voting Rights Attorney\" per SoS Certified List of Candidates, Nov 3, 2026 general, dated 2026-08-27: https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf (web search summary, page not opened)",
+      "topic": "other"
+    },
+    {
+      "person": "person:xavier-becerra",
+      "label": "Occupation",
+      "text": "Campaign bio lists legal advocate, 12-term congressman, CA Attorney General, HHS Secretary; no current job title: https://www.xavierbecerra2026.com/bio/ . UCLA Voting Rights Project named him Senior Strategic Advisor (Nov 4, 2025): https://vrp.ucla.edu/ucla-vrp-appoints-becerra-and-rendon-to-leadership-team/ (web search summary, page not opened)",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:xavier-becerra",
+      "label": "Previous offices",
+      "text": "CA Assembly AD-59, 1990-1992 (Bioguide year range; exact end date conflicts: Nov 30 vs Dec 3, 1992): https://www.congress.gov/member/xavier-becerra/B000287 (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:xavier-becerra",
+      "label": "Previous offices",
+      "text": "U.S. House, Jan 3, 1993 to Jan 24, 2017 (CA-30, CA-31, CA-34): https://bioguideretro.congress.gov/Home/MemberDetails?memIndex=b000287 (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:xavier-becerra",
+      "label": "Previous offices",
+      "text": "California Attorney General, sworn in Jan 24, 2017; served to Mar 2021: https://oag.ca.gov/history/33becerra (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:xavier-becerra",
+      "label": "Previous offices",
+      "text": "U.S. Secretary of Health and Human Services, from Mar 18 or 19, 2021 (sources differ: Miller Center vs PBS/AP) to Jan 2025 (end date not stated by a primary source): https://www.millercenter.org/xavier-becerra-2021-2025 (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:xavier-becerra",
+      "label": "Education",
+      "text": "B.A. Economics, Stanford (1980); J.D., Stanford Law School (1984): https://www.hhs.gov/about/leadership/xavier-becerra.html and https://www.gpo.gov/fdsys/pkg/CDIR-1997-06-04/html/CDIR-1997-06-04-CA-H-30.htm (web search summary, page not opened)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:xavier-becerra",
+      "label": "Professional experience",
+      "text": "Admitted to CA bar 1985; staff to State Sen. Art Torres 1986; Deputy Attorney General, CA DOJ, 1987-1990: https://www.gpo.gov/fdsys/pkg/CDIR-1997-06-04/html/CDIR-1997-06-04-CA-H-30.htm (web search summary, page not opened)",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:steve-hilton",
+      "label": "Ballot designation",
+      "text": "\"Small Business Owner\" per SoS Certified List of Candidates, Nov 3, 2026 general, dated 2026-08-27: https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf (web search summary, page not opened)",
+      "topic": "other"
+    },
+    {
+      "person": "person:steve-hilton",
+      "label": "Occupation",
+      "text": "Campaign site describes him as author, broadcaster and Silicon Valley founder: https://stevehiltonforgovernor.com/meet-steve (web search summary, page not opened)",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:steve-hilton",
+      "label": "Previous offices",
+      "text": "No U.S. elected or appointed office found. UK staff post (not an office): Director of Strategy to Prime Minister David Cameron, May 2010 to 2012 (secondary): https://en.wikipedia.org/wiki/Steve_Hilton (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:steve-hilton",
+      "label": "Education",
+      "text": "Philosophy, Politics and Economics (PPE), New College, Oxford; year not found: https://www.hachettebookgroup.com/contributor/steve-hilton/ (web search summary, page not opened)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:steve-hilton",
+      "label": "Professional experience",
+      "text": "Host of Fox News' The Next Revolution from its June 4, 2017 debut to May 28, 2023: https://press.foxnews.com/2017/05/fox-news-channels-the-next-revolution-with-steve-hilton-to-debut-on-sunday-june-4th and https://www.businesswire.com/news/home/20230601006013/en (web search summary, page not opened)",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:steve-hilton",
+      "label": "Professional experience",
+      "text": "Co-founder and CEO of Crowdpac, 2014 to May 2018 (secondary; founding year given as 2013 or 2014): https://en.wikipedia.org/wiki/Steve_Hilton (web search summary, page not opened)",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:steve-hilton",
+      "label": "Professional experience",
+      "text": "Founded the policy group Golden Together, 2023 (secondary): https://semafor.com/article/06/08/2023/former-cameron-aide-fox-host-steve-hilton-launches-california-group (web search summary, page not opened)",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:steve-hilton",
+      "label": "Professional experience",
+      "text": "Author, More Human (2015): https://stevehiltonforgovernor.com/meet-steve (web search summary, page not opened)",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-02",
+    "note": "Occupation and qualifications leads found through web search summaries; no page could be opened from the research environment. Each item names its source URL for the maintainer to verify before it is recorded with citations."
+  }
+}
