@@ -1,0 +1,1 @@
+{"description":"A candidate on the ballot with no candidate_profile (warning; error under --strict).","strict":true,"expect":["CANDIDATE_PROFILE_REQUIRED"],"patches":[{"file":"people/jordan-example.json","remove":["/candidate_profile"]}]}

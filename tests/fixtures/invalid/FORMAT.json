@@ -1,0 +1,1 @@
+{"description":"A valid record that is not in canonical form (minified).","expect":["FORMAT"],"patches":[{"file":"people/pat-donor.json","minify":true}]}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "sos-example-gov-e533aedaf8",
+  "kind": "government_record",
+  "accessed": "2030-11-01",
+  "archive_url": "https://web.archive.org/web/20301001120000/https://sos.example.gov/2030-general/calendar",
+  "published": "2030-01-05",
+  "publisher": "Example Secretary of State",
+  "title": "2030 General Election Calendar",
+  "url": "https://sos.example.gov/2030-general/calendar"
+}

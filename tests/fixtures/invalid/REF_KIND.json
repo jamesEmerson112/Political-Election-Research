@@ -1,0 +1,1 @@
+{"description":"A labor union recorded as a conduit (conduits must be org_type conduit).","expect":["REF_KIND"],"patches":[{"file":"relationships/contribution/contribution--person.pat-donor--org.avery-sample-for-governor-2030--2030--primary--monetary.json","set":{"/conduit":"org:example-teachers-union"}}]}

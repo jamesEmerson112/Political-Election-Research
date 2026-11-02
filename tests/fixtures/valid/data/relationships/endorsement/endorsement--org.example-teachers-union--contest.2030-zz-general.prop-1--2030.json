@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.example-teachers-union--contest.2030-zz-general.prop-1--2030",
+  "type": "endorsement",
+  "cycle": 2030,
+  "date": "2030-07-15",
+  "endorsee": "contest:2030-zz-general/prop-1",
+  "endorser": "org:example-teachers-union",
+  "side": "support",
+  "citations": [
+    {
+      "source": "src:news-example-com-e70a5fe80d",
+      "quote": "The union supports Proposition 1."
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

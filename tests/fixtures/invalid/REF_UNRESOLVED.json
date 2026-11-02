@@ -1,0 +1,1 @@
+{"description":"A citation pointing at a source that does not exist.","expect":["REF_UNRESOLVED"],"patches":[{"file":"positions/people/avery-sample.json","set":{"/positions/1/citations/0/source":"src:news-example-com-0000000000"}}]}

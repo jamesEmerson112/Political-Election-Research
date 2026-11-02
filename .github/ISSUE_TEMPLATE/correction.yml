@@ -1,0 +1,33 @@
+name: Correction
+description: Report a factual error, a missing or wrong citation, or non-neutral wording.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Record
+      description: File path or id of the record (e.g. data/positions/people/xavier-becerra.json).
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Quote the field or claim and explain the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source showing the correct information
+      description: Link(s) to primary sources (official records, filings, the candidate's own words), with the relevant passage quoted.
+    validations:
+      required: true
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Scope
+      options:
+        - label: This is about accuracy, sourcing or neutral wording — not about which candidate is preferable.
+          required: true

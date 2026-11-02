@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.avery-sample-leadership-pac--person.avery-sample--leadership_pac--2030",
+  "type": "committee_role",
+  "subject": "person:avery-sample",
+  "committee": "org:avery-sample-leadership-pac",
+  "cycle": 2030,
+  "role": "leadership_pac",
+  "citations": [
+    {
+      "source": "src:disclosure-example-gov-9c25558aaf",
+      "locator": "Cover page"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

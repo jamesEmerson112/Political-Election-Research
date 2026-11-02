@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/source.schema.json",
+  "title": "Source",
+  "description": "One citable document. The id is derived from the canonical URL (`npm run id -- source <url>`), so two researchers citing the same page get the same source. Path: data/sources/<id>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "kind", "title", "url", "accessed"],
+  "properties": {
+    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
+    "id": {
+      "description": "<host-slug>-<first 10 hex chars of sha256(canonical url)>",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*-[0-9a-f]{10}$"
+    },
+    "kind": {
+      "enum": [
+        "campaign_finance_filing",
+        "lobbying_filing",
+        "behested_payment_filing",
+        "government_record",
+        "legislative_record",
+        "candidate_website",
+        "candidate_questionnaire",
+        "debate_transcript",
+        "video",
+        "press_release",
+        "news_report",
+        "voter_guide",
+        "social_media"
+      ]
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "publisher": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "archive_url": {
+      "description": "Wayback Machine snapshot pinned to a 14-digit timestamp, so quoted text cannot drift.",
+      "type": "string",
+      "pattern": "^https://web\\.archive\\.org/web/[0-9]{14}/"
+    },
+    "published": { "$ref": "defs.schema.json#/$defs/Date" },
+    "accessed": { "$ref": "defs.schema.json#/$defs/Date" },
+    "filing": {
+      "description": "Required for *_filing kinds: which disclosure system and which filing.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["system", "filer_id"],
+      "properties": {
+        "system": { "enum": ["cal-access", "cars", "fec", "lda", "fppc-803", "other"] },
+        "filer_id": { "type": "string", "minLength": 1 },
+        "filing_id": { "type": "string", "minLength": 1 },
+        "form": { "type": "string", "minLength": 1 },
+        "period": { "$ref": "defs.schema.json#/$defs/Period" },
+        "amends": { "$ref": "defs.schema.json#/$defs/SourceRef" },
+        "superseded": {
+          "description": "True when a later amendment replaced this filing.",
+          "type": "boolean"
+        }
+      }
+    },
+    "notes": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": {
+        "required": ["kind"],
+        "properties": {
+          "kind": { "enum": ["campaign_finance_filing", "lobbying_filing", "behested_payment_filing"] }
+        }
+      },
+      "then": { "required": ["filing"] }
+    }
+  ]
+}

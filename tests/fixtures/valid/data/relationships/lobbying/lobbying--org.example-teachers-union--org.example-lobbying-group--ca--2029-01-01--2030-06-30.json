@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "lobbying--org.example-teachers-union--org.example-lobbying-group--ca--2029-01-01--2030-06-30",
+  "type": "lobbying",
+  "client": "org:example-teachers-union",
+  "cycle": 2030,
+  "firm": "org:example-lobbying-group",
+  "jurisdiction": "ca",
+  "money": {
+    "amount_cents": 4000000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2030-06-30",
+      "start": "2029-01-01"
+    }
+  },
+  "targets": {
+    "agencies": [
+      "Example State Assembly"
+    ],
+    "bills": [
+      "ca-2029-ab-123"
+    ]
+  },
+  "citations": [
+    {
+      "source": "src:disclosure-example-gov-d643ca9351",
+      "locator": "Payments to lobbying firms, line 1"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

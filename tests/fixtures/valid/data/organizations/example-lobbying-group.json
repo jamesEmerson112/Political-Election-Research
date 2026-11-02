@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/organization.schema.json",
+  "id": "example-lobbying-group",
+  "name": "Example Lobbying Group",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "other",
+  "links": {},
+  "org_type": "lobbying_firm",
+  "last_verified": "2030-11-01"
+}

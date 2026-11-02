@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../../../../schemas/positions.schema.json",
+  "actor": "person:jordan-example",
+  "positions": [
+    {
+      "subject": "contest:2030-zz-general/prop-1",
+      "stance": "oppose",
+      "as_of": "2030-10-10",
+      "cycle": 2030,
+      "evidence_type": "debate",
+      "summary": "Said in the debate that they oppose Proposition 1.",
+      "citations": [
+        {
+          "source": "src:video-example-com-95b67e7735",
+          "quote": "Prop 1 is the wrong approach and I oppose it.",
+          "locator": "00:43:02"
+        }
+      ]
+    },
+    {
+      "subject": "q:widgets/subsidize-widgets",
+      "stance": "no_public_position",
+      "as_of": "2030-10-01",
+      "cycle": 2030,
+      "search_log": [
+        {
+          "date": "2030-10-01",
+          "query": "Jordan Example widgets",
+          "where": "Candidate website; Example News; debate transcript"
+        }
+      ]
+    }
+  ]
+}

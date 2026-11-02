@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "energy",
+  "name": "Energy and gasoline",
+  "description": "Oil production and refining, fuel prices and energy regulation.",
+  "questions": [
+    {
+      "id": "loosen-oil-production-limits",
+      "added": "2026-11-02",
+      "oppose_means": "Favors keeping or tightening state restrictions on oil drilling and refining.",
+      "support_means": "Favors easing state restrictions on oil drilling and/or refining in California.",
+      "text": "Should California loosen state limits on in-state oil drilling and refining?"
+    }
+  ],
+  "rejected_questions": []
+}

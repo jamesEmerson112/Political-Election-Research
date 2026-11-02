@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/person.schema.json",
+  "title": "Person",
+  "description": "A candidate, official, endorser or donor. Candidates (anyone listed in a contest) must carry a candidate_profile with the same fields as every other candidate. Path: data/people/<id>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "aliases", "ids", "links", "last_verified"],
+  "properties": {
+    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
+    "id": { "$ref": "defs.schema.json#/$defs/Slug" },
+    "name": { "type": "string", "minLength": 1 },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "public_figure": {
+      "description": "True for people who hold or seek public office or are otherwise public figures. Private individuals below the privacy threshold in data/config.json may not be listed as donors.",
+      "type": "boolean"
+    },
+    "ids": { "$ref": "defs.schema.json#/$defs/ExternalIds" },
+    "links": { "$ref": "defs.schema.json#/$defs/Links" },
+    "candidate_profile": { "$ref": "#/$defs/CandidateProfile" },
+    "last_verified": { "$ref": "defs.schema.json#/$defs/Date" }
+  },
+  "$defs": {
+    "CandidateProfile": {
+      "description": "The symmetric attribute set every candidate gets. A field is either cited or an explicit not_found with a search log. Missing fields show up in `npm run next` as research tasks.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "party_registration": { "$ref": "defs.schema.json#/$defs/CitedStringOrNotFound" },
+        "occupation": { "$ref": "defs.schema.json#/$defs/CitedStringOrNotFound" },
+        "residence_city": { "$ref": "defs.schema.json#/$defs/CitedStringOrNotFound" },
+        "offices_held": { "$ref": "#/$defs/OfficesHeld" },
+        "education": { "$ref": "#/$defs/Education" }
+      }
+    },
+    "OfficesHeld": {
+      "description": "Elected or appointed public offices. An empty list means none were found and requires a search_log.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["as_of", "items"],
+      "properties": {
+        "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["office", "start", "citations"],
+            "properties": {
+              "office": { "type": "string", "minLength": 1 },
+              "jurisdiction": { "type": "string", "minLength": 1 },
+              "start": { "$ref": "defs.schema.json#/$defs/Date" },
+              "end": { "$ref": "defs.schema.json#/$defs/Date" },
+              "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+            }
+          }
+        },
+        "search_log": { "$ref": "defs.schema.json#/$defs/SearchLog" }
+      },
+      "if": { "properties": { "items": { "type": "array", "maxItems": 0 } } },
+      "then": { "required": ["search_log"] }
+    },
+    "Education": {
+      "description": "Degrees. An empty list means none were found and requires a search_log.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["as_of", "items"],
+      "properties": {
+        "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["institution", "citations"],
+            "properties": {
+              "institution": { "type": "string", "minLength": 1 },
+              "degree": { "type": "string", "minLength": 1 },
+              "year": { "type": "integer", "minimum": 1900, "maximum": 2100 },
+              "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+            }
+          }
+        },
+        "search_log": { "$ref": "defs.schema.json#/$defs/SearchLog" }
+      },
+      "if": { "properties": { "items": { "type": "array", "maxItems": 0 } } },
+      "then": { "required": ["search_log"] }
+    }
+  }
+}

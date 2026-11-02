@@ -1,0 +1,1 @@
+{"description":"A contribution whose form changed but whose id was not recomputed.","expect":["ID_DETERMINISTIC"],"patches":[{"file":"relationships/contribution/contribution--org.example-teachers-union--org.avery-sample-for-governor-2030--2030--general--monetary.json","set":{"/form":"in_kind"}}]}

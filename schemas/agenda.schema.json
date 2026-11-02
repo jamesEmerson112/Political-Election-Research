@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/agenda.schema.json",
+  "title": "Research agenda",
+  "description": "What we intend to research for one contest: an editorial work list, not a factual claim, so it carries no citations. Fixed BEFORE research starts so that every candidate is asked the same questions. `npm run next` diffs the agenda against verified data to produce a deterministic task queue. References here may point at records that do not exist yet. Path: data/agenda/<election-slug>/<contest-slug>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contest",
+    "kind",
+    "candidates",
+    "questions",
+    "measures",
+    "targets",
+    "seeded"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "defs.schema.json#/$defs/SchemaPointer"
+    },
+    "contest": {
+      "$ref": "defs.schema.json#/$defs/ContestRef"
+    },
+    "kind": {
+      "enum": [
+        "office",
+        "measure"
+      ]
+    },
+    "candidates": {
+      "description": "People to research for an office contest (empty for measures). These are seeds: candidacy is only verified once the contest file cites the official certified list.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "person",
+          "name"
+        ],
+        "properties": {
+          "person": {
+            "$ref": "defs.schema.json#/$defs/PersonRef"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "questions": {
+      "description": "Issue questions every candidate is researched on.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "defs.schema.json#/$defs/QuestionRef"
+      }
+    },
+    "measures": {
+      "description": "Ballot measures every candidate is researched on (stance support/oppose/...).",
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "defs.schema.json#/$defs/ContestRef"
+      }
+    },
+    "targets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "endorsements_per_candidate",
+        "top_contributors",
+        "finance_cutoff"
+      ],
+      "properties": {
+        "endorsements_per_candidate": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "top_contributors": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "finance_cutoff": {
+          "description": "Last day of the filing period to pull money data through. The SAME cutoff applies to every candidate (parity). null = not chosen yet (`npm run next` emits a task to choose it).",
+          "oneOf": [
+            {
+              "$ref": "defs.schema.json#/$defs/Date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "seeded": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "date",
+        "note"
+      ],
+      "properties": {
+        "date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "exhausted": {
+      "description": "Count-based tasks (endorsements, contributions, independent expenditures, measure committees) that cannot reach their target because no more exist. Each entry closes one task id from `npm run next` and records where we looked.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "task",
+          "date",
+          "search_log"
+        ],
+        "properties": {
+          "task": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "$ref": "defs.schema.json#/$defs/Date"
+          },
+          "search_log": {
+            "$ref": "defs.schema.json#/$defs/SearchLog"
+          }
+        }
+      }
+    }
+  }
+}

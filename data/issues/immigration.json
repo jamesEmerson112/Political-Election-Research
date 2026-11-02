@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "immigration",
+  "name": "Immigration enforcement",
+  "description": "The relationship between state and local agencies and federal immigration enforcement.",
+  "questions": [
+    {
+      "id": "expand-cooperation-federal-enforcement",
+      "added": "2026-11-02",
+      "oppose_means": "Favors keeping or further restricting the current state limits on cooperation.",
+      "support_means": "Favors expanding cooperation beyond current state limits (for example, honoring more federal detainer requests).",
+      "text": "Should state and local law enforcement in California be allowed to cooperate with federal immigration enforcement beyond what current state law permits?",
+      "notes": "Current limits come mainly from the California Values Act (SB 54, 2017), bill ref ca-2017-sb-54."
+    }
+  ],
+  "rejected_questions": []
+}

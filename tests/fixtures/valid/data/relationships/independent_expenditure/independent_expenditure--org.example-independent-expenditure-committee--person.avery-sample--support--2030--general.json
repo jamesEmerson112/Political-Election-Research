@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.example-independent-expenditure-committee--person.avery-sample--support--2030--general",
+  "type": "independent_expenditure",
+  "cycle": 2030,
+  "election_designation": "general",
+  "money": {
+    "amount_cents": 25000000,
+    "basis": "reported_total",
+    "period": {
+      "end": "2030-10-17",
+      "start": "2030-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:example-independent-expenditure-committee",
+  "target": "person:avery-sample",
+  "citations": [
+    {
+      "source": "src:disclosure-example-gov-b875b92731",
+      "locator": "Summary page"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

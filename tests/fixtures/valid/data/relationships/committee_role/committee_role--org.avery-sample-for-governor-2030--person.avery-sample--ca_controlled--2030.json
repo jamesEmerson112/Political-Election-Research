@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.avery-sample-for-governor-2030--person.avery-sample--ca_controlled--2030",
+  "type": "committee_role",
+  "contest": "contest:2030-zz-general/governor",
+  "subject": "person:avery-sample",
+  "committee": "org:avery-sample-for-governor-2030",
+  "cycle": 2030,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:disclosure-example-gov-fb9e8be60d",
+      "locator": "Cover page"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

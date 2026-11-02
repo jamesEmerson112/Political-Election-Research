@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/organization.schema.json",
+  "id": "yes-on-prop-1-committee",
+  "name": "Yes on Prop 1 Committee",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "other",
+  "links": {},
+  "org_type": "ballot_measure_committee",
+  "last_verified": "2030-11-01"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/election.schema.json",
+  "id": "2030-zz-general",
+  "type": "general",
+  "name": "2030 Example State General Election",
+  "cycle": 2030,
+  "date": "2030-11-05",
+  "jurisdiction": "zz",
+  "citations": [
+    {
+      "source": "src:sos-example-gov-e533aedaf8",
+      "quote": "General Election: November 5, 2030"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

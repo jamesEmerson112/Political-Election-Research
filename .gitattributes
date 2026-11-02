@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Data files are byte-for-byte deterministic: always LF
+*.json text eol=lf
+*.md text eol=lf
+*.ts text eol=lf

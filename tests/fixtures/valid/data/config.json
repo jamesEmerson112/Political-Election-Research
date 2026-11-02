@@ -1,0 +1,6 @@
+{
+  "$schema": "../../../../schemas/config.schema.json",
+  "privacy": {
+    "individual_donor_min_cents": 1000000
+  }
+}

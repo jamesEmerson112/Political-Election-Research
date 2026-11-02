@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "taxes",
+  "name": "Taxes",
+  "description": "State tax rates and revenue.",
+  "questions": [
+    {
+      "id": "lower-top-income-tax-rates",
+      "added": "2026-11-02",
+      "oppose_means": "Favors keeping or raising the top state income tax rates.",
+      "support_means": "Favors lowering the top state income tax rates.",
+      "text": "Should California lower the state income tax rates paid by its highest earners?",
+      "notes": "Candidate stances on specific tax ballot measures are recorded separately as positions on the measure contest."
+    }
+  ],
+  "rejected_questions": []
+}

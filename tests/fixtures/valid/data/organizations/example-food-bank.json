@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/organization.schema.json",
+  "id": "example-food-bank",
+  "name": "Example Food Bank",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "other",
+  "links": {},
+  "org_type": "nonprofit_501c3",
+  "last_verified": "2030-11-01"
+}

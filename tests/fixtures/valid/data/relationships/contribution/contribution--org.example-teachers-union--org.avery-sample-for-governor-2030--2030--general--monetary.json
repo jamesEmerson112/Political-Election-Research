@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "contribution--org.example-teachers-union--org.avery-sample-for-governor-2030--2030--general--monetary",
+  "type": "contribution",
+  "cycle": 2030,
+  "donor": "org:example-teachers-union",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 5000000,
+    "basis": "itemized",
+    "period": {
+      "end": "2030-10-17",
+      "start": "2030-01-01"
+    }
+  },
+  "recipient": "org:avery-sample-for-governor-2030",
+  "citations": [
+    {
+      "source": "src:disclosure-example-gov-fb9e8be60d",
+      "locator": "Schedule A, line 12"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}
