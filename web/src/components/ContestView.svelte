@@ -296,7 +296,7 @@
           {#each cands as c (c)}
             <td>
               {@render list(c, "career", "Professional experience", (profile(c)["career"]?.["items"] as Rec[]) ?? [], (e) =>
-                `${e["role"]}, ${e["organization"]}${e["start"] ? ` (${e["start"]}–${e["end"] ?? ""})` : ""}`,
+                `${e["role"]}${e["organization"] ? `, ${e["organization"]}` : ""}${e["start"] ? ` (${e["start"]}–${e["end"] ?? ""})` : ""}`,
               )}
             </td>
           {/each}

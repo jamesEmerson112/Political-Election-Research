@@ -230,7 +230,6 @@
             "additionalProperties": false,
             "required": [
               "role",
-              "organization",
               "citations"
             ],
             "properties": {
@@ -240,7 +239,8 @@
               },
               "organization": {
                 "type": "string",
-                "minLength": 1
+                "minLength": 1,
+                "description": "Employer or organization, when the source names one."
               },
               "start": {
                 "$ref": "defs.schema.json#/$defs/PartialDate"
