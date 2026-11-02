@@ -273,7 +273,7 @@
           <th scope="row">Current office · years served</th>
           {#each cands as c (c)}
             <td>
-              {@render list(c, "offices_held", "Current office", offices(c).filter((o) => !o["end"]), (o) =>
+              {@render list(c, "offices_held", "Current office", offices(c).filter((o) => o["current"] ?? !o["end"]), (o) =>
                 `${o["office"]}${o["start"] || o["first_elected"] ? ` · ${yearsSince(o["start"] ?? o["first_elected"], electionDate)}${o["start"] ? ` (since ${String(o["start"]).slice(0, 4)})` : ` (first elected ${String(o["first_elected"]).slice(0, 4)})`}` : ""}`,
               )}
             </td>
@@ -305,8 +305,8 @@
           <th scope="row">Previous offices</th>
           {#each cands as c (c)}
             <td>
-              {@render list(c, "offices_held", "Previous offices", offices(c).filter((o) => o["end"]), (o) =>
-                `${o["office"]} (${o["start"] ? String(o["start"]).slice(0, 4) : "?"}–${String(o["end"]).slice(0, 4)})`,
+              {@render list(c, "offices_held", "Previous offices", offices(c).filter((o) => !(o["current"] ?? !o["end"])), (o) =>
+                `${o["office"]}${o["start"] || o["end"] ? ` (${o["start"] ? String(o["start"]).slice(0, 4) : "?"}–${o["end"] ? String(o["end"]).slice(0, 4) : "?"})` : ""}`,
               false)}
             </td>
           {/each}

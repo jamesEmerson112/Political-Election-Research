@@ -113,6 +113,10 @@
                 "type": "string",
                 "minLength": 1
               },
+              "current": {
+                "description": "Whether the person holds this office now. Needed when the source gives no dates (e.g. \"former supervisor\"). If omitted, an office with no end is treated as current.",
+                "type": "boolean"
+              },
               "first_elected": {
                 "description": "Year (or date) first elected to this office, when that is what the source states.",
                 "$ref": "defs.schema.json#/$defs/PartialDate"
