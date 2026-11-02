@@ -21,7 +21,8 @@
     "check": "npm run -s typecheck && npm run -s fmt -- --check && npm run -s validate && npm test",
     "db": "tsx cli/db.ts",
     "web": "vite --config web/vite.config.ts",
-    "web:build": "vite build --config web/vite.config.ts"
+    "web:build": "vite build --config web/vite.config.ts",
+    "import:research": "tsx cli/import-research.ts"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "7.3.1",
