@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-green-party--person.leah-lacroix--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:leah-lacroix",
+  "endorser": "org:san-francisco-green-party",
+  "citations": [
+    {
+      "source": "src:sfgreenparty-org-4187b9a835",
+      "quote": "These are the SF Green Party's final endorsements for the November 2026 election."
+    },
+    {
+      "source": "src:sfgreenparty-org-4187b9a835",
+      "quote": "College Board: Leah LaCroix and Jeremy Lee"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

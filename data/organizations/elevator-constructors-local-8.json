@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "elevator-constructors-local-8",
+  "name": "Elevator Constructors Local 8",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "labor_union",
+  "last_verified": "2026-11-03"
+}
