@@ -10,6 +10,7 @@
  *    no forecast year and is listed from FY2030-31; Prop 44's cost is quoted in words, not added up;
  *    San Francisco's ballot keeps its own answers.
  * 5c. The Overview's county group says every ballot in a county has that county's contests.
+ * 5d. The Overview links to the Las Vegas (Nevada) contests.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
  */
@@ -65,6 +66,17 @@ await go(page, "#overview");
 await page.waitForSelector(".group");
 const countyNote = await text(page.locator(".group", { has: page.locator("h2", { hasText: "County: pick your district" }) }).locator(".g-note"));
 check("5c. county contests are on every ballot in the county (not one of them)", countyNote.startsWith("Every ballot in a county") , countyNote);
+
+// 5d. Las Vegas is one click from the top of the Overview, and a Nevada ZIP code points there.
+await page.locator(".intro .jump button", { hasText: "Nevada · Las Vegas" }).click();
+await page.waitForTimeout(800);
+const nvInView = await page.evaluate(() => {
+  const el = document.getElementById("state-nv");
+  if (!el) return false;
+  const r = el.getBoundingClientRect();
+  return r.top < window.innerHeight && r.bottom > 0;
+});
+check("5d. the Overview's Nevada · Las Vegas link scrolls to the Las Vegas contests", nvInView, "");
 
 // 6. California, and San Francisco keeps its own answers.
 await go(page, "#trial");

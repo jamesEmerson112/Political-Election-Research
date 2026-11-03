@@ -102,7 +102,9 @@
       const { file } = await loadDistricts();
       const r = lookupZip(file, z);
       if (!r) {
-        error = `No California ZIP area ${z} in the 2020 census tables (PO-box-only and newer ZIP codes have none). Pick your districts instead.`;
+        error = /^8(89|9[0-8])\d\d$/.test(z)
+          ? `${z} is a Nevada ZIP code. My ballot places California contests only; the Las Vegas contests are listed under “Nevada · Las Vegas”, after California's.`
+          : `No California ZIP area ${z} in the 2020 census tables (PO-box-only and newer ZIP codes have none). Pick your districts instead.`;
         return;
       }
       const layers: Found["layers"] = {};

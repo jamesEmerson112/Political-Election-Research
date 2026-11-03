@@ -1,5 +1,7 @@
 <script lang="ts">
+  import ArrowDown from "@lucide/svelte/icons/arrow-down";
   import Search from "@lucide/svelte/icons/search";
+  import { tick } from "svelte";
   import {
     BALLOT_STATE,
     ballotStatus,
@@ -120,6 +122,17 @@
     filtered.length + toPick.reduce((n, g) => n + g.rows.length, 0) + unmatched.length + otherStates.reduce((n, s) => n + s.count, 0),
   );
   const openTasks = $derived(ix.b.tasks.filter((t) => !t.blocked_by).length);
+  /** Other states' contest counts (Nevada: Las Vegas), for the jump link under the title. */
+  const elsewhere = $derived(
+    [...new Set(rows.map((r) => r.st).filter((st) => st !== BALLOT_STATE))].sort().map((st) => ({ st, name: STATES[st] ?? st.toUpperCase(), count: rows.filter((r) => r.st === st).length })),
+  );
+  async function jumpTo(st: string) {
+    // My ballot narrows the list to California; show everything so the other state's section exists.
+    if (ballotOn) showAll = true;
+    q = "";
+    await tick();
+    document.getElementById(`state-${st}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 </script>
 
 <section class="intro">
@@ -132,6 +145,13 @@
     <span><strong>{ix.claimCount()}</strong> citations</span>
     <span><strong>{openTasks}</strong> open tasks</span>
   </p>
+  {#each elsewhere as e (e.st)}
+    <p class="jump">
+      <button type="button" class="link" onclick={() => jumpTo(e.st)}>
+        <ArrowDown size={14} aria-hidden="true" />{e.st === "nv" ? `${e.name} · Las Vegas` : e.name}: <span class="num">{e.count}</span> contests, after California's
+      </button>
+    </p>
+  {/each}
 </section>
 
 <MyBallot {choice} {showAll} onCount={onBallotCount} total={rows.length} onchange={setChoice} ontoggle={() => (showAll = !showAll)} onforget={forget} />
@@ -200,7 +220,7 @@
   {/if}
 
   {#each otherStates as s (s.st)}
-    <div class="state">
+    <div class="state" id={`state-${s.st}`}>
       <h2 class="s-head">{s.st === "nv" ? `${s.name} · Las Vegas` : s.name} <span class="g-count num">{s.count}</span></h2>
       {#if s.st === "nv"}
         <p class="g-note">
@@ -257,6 +277,22 @@
     font-size: var(--step-3);
     font-weight: 800;
     letter-spacing: -0.02em;
+  }
+  .jump {
+    margin: 0;
+    font-size: var(--step--1);
+  }
+  .jump .link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: 0;
+    padding: 0;
+    color: var(--ink-2);
+    text-decoration: underline;
+    cursor: pointer;
+    font: inherit;
   }
   .facts {
     display: flex;
