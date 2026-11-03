@@ -40,6 +40,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "California State Senator (ballot designation)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "California State Senator",
+          "locator": "PDF page 3 (list page 2 of 41), Insurance Commissioner; ballot designation printed under Ben Allen"
+        },
+        {
+          "source": "src:sd24-senate-ca-gov-f190ced18e",
+          "quote": "California State Senator Ben Allen represents the 24th Senate District, covering the Westside, Hollywood, South Bay, and Santa Monica Mountains communities of Los Angeles County."
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-03",
       "items": [
