@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "steve-hilton",
+  "name": "Steve Hilton",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q3498953",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://stevehiltonforgovernor.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
