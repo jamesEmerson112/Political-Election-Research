@@ -162,7 +162,9 @@
   {#if cov}
     {@const asym = cov.rows.filter((r) => r.asymmetric)}
     {#if asym.length}
-      <p class="chip warn">! Uneven research: {asym.map((r) => r.label).join(", ")}</p>
+      <p class="chip warn wrap">
+        ! Uneven research: {asym.map((r) => (r.label.startsWith("q:") || r.label.startsWith("contest:") ? ix.name(r.label) : r.label.replace(/[._]/g, " "))).join(" · ")}
+      </p>
     {:else}
       <p class="chip ok">✓ Every candidate researched to the same depth</p>
     {/if}

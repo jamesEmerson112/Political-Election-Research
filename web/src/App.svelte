@@ -237,6 +237,7 @@
   }
   .main {
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     gap: 36px;
     padding-block: 28px 48px;
   }
