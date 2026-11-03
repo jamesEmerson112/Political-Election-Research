@@ -42,6 +42,42 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "Efficient Market Advisors",
+          "role": "Founder",
+          "start": "2004",
+          "citations": [
+            {
+              "source": "src:herb-morgan-com-2487996aa3",
+              "quote": "Morgan founded Efficient Market Advisors in 2004."
+            },
+            {
+              "source": "src:herbmorgan-com-f8c71a090c",
+              "quote": "He founded Efficient Market Advisors (EMA), one of the nation’s earliest ETF-based investment firms, which grew to manage $1.5 billion in assets under his leadership."
+            }
+          ]
+        },
+        {
+          "end": "2026",
+          "organization": "Cantor Fitzgerald Investment Advisors",
+          "role": "Senior managing director and chief investment officer, EMA division",
+          "start": "2017-03",
+          "citations": [
+            {
+              "source": "src:herb-morgan-com-2487996aa3",
+              "quote": "Cantor Fitzgerald Investment Advisors acquired EMA’s asset-management business in March 2017 and named Morgan senior managing director and chief investment officer of its EMA division."
+            },
+            {
+              "source": "src:herb-morgan-com-2487996aa3",
+              "quote": "His campaign and fund biography describe his retirement in 2026."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
