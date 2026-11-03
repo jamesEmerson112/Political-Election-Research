@@ -39,6 +39,38 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "San Francisco City Attorney's Office",
+          "role": "Deputy City Attorney",
+          "citations": [
+            {
+              "source": "src:oag-ca-gov-77d988cc3f",
+              "quote": "Prior to serving in the Assembly, Attorney General Bonta worked as a Deputy City Attorney for the City and County of San Francisco, where he represented the City and County and its workers, and fought to protect Californians from exploitation."
+            },
+            {
+              "source": "src:gov-ca-gov-f9769bbdca",
+              "quote": "Bonta served nine years as a Deputy City Attorney in the San Francisco City Attorney’s Office, representing the city and its employees, before running for local office in Alameda County."
+            }
+          ]
+        },
+        {
+          "role": "Attorney in private practice",
+          "citations": [
+            {
+              "source": "src:oag-ca-gov-77d988cc3f",
+              "quote": "Before that he worked in private practice, where he protected Californians from racial profiling."
+            },
+            {
+              "source": "src:gov-ca-gov-f9769bbdca",
+              "quote": "After law school, Bonta moved back to California and went into private practice, working pro-bono to protect Californians from exploitation and racial profiling."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
