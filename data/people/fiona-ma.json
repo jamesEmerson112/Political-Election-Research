@@ -58,6 +58,22 @@
           "locator": "page 2, Lieutenant Governor"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "residence / lives in",
+          "where": "Treasurer's Office official biography; fionama.com/about; 2026 Official Voter Information Guide candidate statement (gives a San Francisco campaign contact/mailing address, not a stated residence); Certified List of Candidates"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Fiona Ma\" lieutenant governor \"lives in\" OR \"resident of\"",
+          "where": "Web search (news): KPBS 2026-08-31 explainer opened, no residence; calmatters.org returned 403; cal-access.sos.ca.gov (candidate filings) blocked"
+        }
+      ]
     }
   },
   "ids": [
