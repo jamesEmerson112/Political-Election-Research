@@ -21,6 +21,26 @@
           "locator": "p. 11, answer to \"How did you vote or would you have voted on Mayor Lurie’s Family Zoning Plan?\""
         }
       ]
+    },
+    {
+      "subject": "q:housing/expand-rent-control",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Says San Francisco should strengthen and expand rent control where legally possible.",
+      "citations": [
+        {
+          "source": "src:assets-nationbuilder-com-42d7d038ef",
+          "quote": "We should also strengthen and expand rent control where legally possible.",
+          "locator": "p. 13, answer to \"How would you address affordability in your District?\""
+        },
+        {
+          "source": "src:assets-nationbuilder-com-42d7d038ef",
+          "quote": "That means investing in permanently affordable housing, protecting and expanding rent control where legally possible,",
+          "locator": "p. 11, answer to \"How did you vote or would you have voted on Mayor Lurie’s Family Zoning Plan?\""
+        }
+      ]
     }
   ]
 }
