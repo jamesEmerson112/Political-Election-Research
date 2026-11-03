@@ -109,6 +109,10 @@
                 "type": "string",
                 "minLength": 1
               },
+              "office_ref": {
+                "description": "Link to the office record describing this position's scope.",
+                "$ref": "defs.schema.json#/$defs/OfficeRef"
+              },
               "jurisdiction": {
                 "type": "string",
                 "minLength": 1

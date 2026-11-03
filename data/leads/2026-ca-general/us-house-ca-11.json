@@ -596,6 +596,113 @@
       "label": "SF Democratic Party endorsement vote on Prop 40",
       "text": "SFGATE, as republished by CPA Practice Advisor in September 2026, reported that Wiener abstained when the San Francisco Democratic Party voted on endorsing the billionaire tax measure, and noted he had previously said he opposed it. (sources: CPA Practice Advisor (republishing SFGATE) https://www.cpapracticeadvisor.com/2026/09/01/pelosi-avoids-billionaire-tax-vote-as-wealth-tax-turns-toxic-in-san-francisco/189410/ [search summary, secondary])",
       "topic": "contest:2026-ca-general/prop-40"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "ICE: Feb 11, 2026 forum, defunding ICE and accountability for agents",
+      "text": "Mission Local reported that at a February 11, 2026 forum that Scott Wiener did not attend, Connie Chan and Saikat Chakrabarti agreed on defunding Immigration and Customs Enforcement and on holding ICE agents accountable if they commit crimes. The summary does not say whether Chan used the word abolish; defunding is reported, not abolition. (sources: Mission Local https://missionlocal.org/2026/02/chan-chakrabarti-immigration-debate-pelosi-congressional-seat-wiener-absent/ [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "ICE: campaign platform text, end abuses of ICE and CBP",
+      "text": "Chan's BallotReady profile, which reproduces campaign platform text, says she would stand up to the Trump administration and demand an end to immigration raids, and would push for comprehensive immigration reform, humane border security, and an end to abuses and discriminatory practices by ICE and CBP. Another search summary describes her campaign website as promising to fight abuses by ICE and CBP. In these summaries the language is about ending abuses and reform; abolition is not mentioned. (sources: BallotReady (candidate profile) https://www.ballotready.org/people/connie-chan-26f6a68e-0060-4815-b3ed-2b4b2ffe3894 [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Abolish ICE: Mission Local Aug 2026 platform sentence (attribution unresolved)",
+      "text": "A Mission Local article from August 2026 asking the CA-11 candidates how they would constrain presidential power contains a first-person pledge to push for laws that ban private prisons, abolish ICE, make the Justice Department more independent of the President, and authorize lawsuits against ICE and Border Patrol for abuses, alongside a pledge to block DHS budgets that send unchecked money to ICE and Border Patrol. Search summaries disagree on who wrote it: one attributes it to Scott Wiener, one to Connie Chan, and two say the excerpt does not name the candidate. A separate summary of the same article gives Chan's answer as a pledge to pass legislation that strengthens checks and balances, protects voting rights and uses the Congressional Review Act. Listed under Connie Chan only so a checker can resolve the attribution against the article; no stance is inferred from it. (sources: Mission Local https://missionlocal.org/2026/08/sf-congress-candidates-trump-power/ [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:connie-chan",
+      "hint": "support",
+      "label": "Equality Act: backed at Jan 7 CA-11 forum",
+      "text": "The Bay Area Reporter reported that at a January 7 forum (the snippet does not give the year; the article covers the 2026 CA-11 race) Connie Chan, Scott Wiener and Saikat Chakrabarti all backed the Equality Act and differed on tactics. Chan described herself as a straight ally, emphasized building a broad coalition of allies, and pledged to educate others on why the legislation is needed. (sources: Bay Area Reporter https://www.ebar.com/story/161941 [search summary, secondary])",
+      "topic": "q:civil-rights/lgbtq-nondiscrimination"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Abortion: campaign platform text on reproductive care access (no federal-law wording found)",
+      "text": "Chan's BallotReady profile, which reproduces campaign platform text, says she will fight for access to the full range of reproductive health care, including abortion and affordable contraception, and work to restore full federal funding for Planned Parenthood. The summaries do not mention a federal statute protecting abortion access nationwide, codifying Roe, or the Women's Health Protection Act, so no stance on this question is recorded. (sources: BallotReady (candidate profile) https://www.ballotready.org/people/connie-chan-26f6a68e-0060-4815-b3ed-2b4b2ffe3894 [search summary, secondary])",
+      "topic": "q:reproductive-rights/federal-abortion-protection"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Context (alignment only): pro-choice group outside spending",
+      "text": "J. Weekly reported that Pro-Choice Majority Action made an independent expenditure supporting Chan before the June 2, 2026 primary. Outside spending by a pro-choice group shows alignment, not a stated position on federal law. (sources: J. Weekly https://jweekly.com/2026/06/01/aipac-didnt-fund-connie-chan-heres-what-actually-happened/ [search summary, secondary])",
+      "topic": "q:reproductive-rights/federal-abortion-protection"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Voting rights: general pledge, no preclearance or John Lewis VRAA mention",
+      "text": "A search summary of the August 2026 Mission Local candidate article gives Chan's answer as a pledge to work to pass legislation that strengthens checks and balances, protects voting rights, and uses tools such as the Congressional Review Act to overturn executive actions and regulations. No statement by Chan on preclearance or the John Lewis Voting Rights Advancement Act was found. (sources: Mission Local https://missionlocal.org/2026/08/sf-congress-candidates-trump-power/ [search summary, secondary])",
+      "topic": "q:civil-rights/voting-rights-preclearance"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Abolish ICE: campaign issues page",
+      "text": "Wiener's campaign issues page on immigration states that he has supported abolishing ICE since 2018 and describes ICE as a broken agency. The page also cites SB 785 (2018), on immigration status in court proceedings. (sources: Scott Wiener for Congress (campaign site) https://www.scottwiener.com/immigration-fighting-ice [search summary, primary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Abolish ICE: State Senate press release, abolish and replace",
+      "text": "A press release on Wiener's State Senate site is titled as a call for accountability for the ICE officer who shot and killed a woman in Minnesota and for abolishing and replacing ICE. Per the search summary, the release says he called for ICE's abolition in 2018 and again the previous year, and it calls for replacing ICE with an agency committed to democracy, the Constitution and the rule of law. The snippet did not show the release date. (sources: Office of State Senator Scott Wiener https://sd11.senate.ca.gov/node/1411 [search summary, primary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Context: ICE accountability measures (alongside, not instead of, abolition)",
+      "text": "Wiener's campaign materials cite a state law he authored barring law-enforcement agents, including ICE, from wearing face coverings, and SB 747 (the No Kings Act), which would let people sue ICE and other federal agents for rights violations. Local News Matters (Bay City News) reported on September 2, 2026 that he urged Governor Newsom to sign SB 747. In his own materials these accountability measures appear alongside his stated support for abolishing and replacing ICE. (sources: Scott Wiener for Congress (campaign site) https://www.scottwiener.com/media [search summary, primary]; Local News Matters (Bay City News) https://localnewsmatters.org/2026/09/02/wiener-urges-newsom-to-sign-bill-allowing-lawsuits-against-federal-immigration-agents/ [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Abolish ICE: Mission Local Aug 2026 platform sentence (attribution unresolved)",
+      "text": "A Mission Local article from August 2026 asking the CA-11 candidates how they would constrain presidential power contains a first-person pledge to push for laws that ban private prisons, abolish ICE, make the Justice Department more independent of the President, and authorize lawsuits against ICE and Border Patrol for abuses, alongside a pledge to block DHS budgets that send unchecked money to ICE and Border Patrol. Search summaries disagree on who wrote it: one attributes it to Scott Wiener, one to Connie Chan, and two say the excerpt does not name the candidate. A separate summary of the same article gives Chan's answer as a pledge to pass legislation that strengthens checks and balances, protects voting rights and uses the Congressional Review Act. Listed under Scott Wiener only so a checker can resolve the attribution against the article; no stance is inferred from it. (sources: Mission Local https://missionlocal.org/2026/08/sf-congress-candidates-trump-power/ [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Equality Act: backed at Jan 7 CA-11 forum, filibuster change",
+      "text": "The Bay Area Reporter reported that at a January 7 forum on the 2026 CA-11 race, Wiener backed the Equality Act and called for eliminating the Senate's 60-vote threshold so the bill could pass once Democrats regain control of the Senate. (sources: Bay Area Reporter https://www.ebar.com/story/161941 [search summary, secondary])",
+      "topic": "q:civil-rights/lgbtq-nondiscrimination"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "LGBTQ federal protections: further reported statements (source per statement unclear)",
+      "text": "Search summaries say Wiener has said he would work to make LGBTQ nondiscrimination protections national if elected, and that the Supreme Court's Title VII ruling on employment should be built on by extending protections to housing and other areas of life. They also say that in 2007 he opposed a version of the federal Employment Non-Discrimination Act that dropped transgender protections. The summary did not tie each statement to a specific URL among the results listed here. (sources: LGBTQ Nation https://www.lgbtqnation.com/2026/07/scott-wiener-lgbtq-stances/ [search summary, secondary]; San Francisco Examiner https://www.sfexaminer.com/news/the-city/how-scott-wiener-lgbtq-identity-shapes-his-politics/article_f618455e-cc42-41e4-99a9-42f7097203b0.html [search summary, secondary])",
+      "topic": "q:civil-rights/lgbtq-nondiscrimination"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Context (alignment only): LGBTQ advocacy group endorsements",
+      "text": "Human Rights Campaign PAC, Equality California Equality PAC, LGBTQ+ Victory Fund and the California Legislative LGBTQ Caucus endorsed Wiener for the U.S. House, per an HRC press release. HRC is an advocacy organization; the endorsement shows alignment, not a stated position. (sources: Human Rights Campaign (advocacy) https://www.hrc.org/press-releases/human-rights-campaign-pac-equality-california-equality-pac-lgbtq-victory-fund-california-legislative-lgbtq-caucus-endorse-california-state-sen-scott-wiener-for-u-s-house [search summary, secondary])",
+      "topic": "q:civil-rights/lgbtq-nondiscrimination"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Federal abortion protection: campaign issues page",
+      "text": "Wiener's campaign issues page on reproductive health says that in Congress he would push to put abortion rights into federal statute (codify Roe) and to hold states accountable for restricting abortion. The search summary did not show whether he named the Women's Health Protection Act. (sources: Scott Wiener for Congress (campaign site) https://www.scottwiener.com/reproductive-health-freedom [search summary, primary])",
+      "topic": "q:reproductive-rights/federal-abortion-protection"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Context: prior statements on Roe and Planned Parenthood (state senator)",
+      "text": "As a state senator, Wiener spoke on the Senate floor for Senate Resolution 9, which opposed federal defunding of Planned Parenthood (date not shown in the snippet). In 2022 KTVU reported that he called the overturning of Roe v. Wade a disaster for democracy. Neither item states a position on a federal statute. (sources: Office of State Senator Scott Wiener https://sd11.senate.ca.gov/node/985 [search summary, primary]; KTVU https://ktvu.com/video/1085441 [search summary, secondary])",
+      "topic": "q:reproductive-rights/federal-abortion-protection"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Voting rights: pledge for a new Voting Rights Act (preclearance not mentioned)",
+      "text": "The San Francisco Examiner reported, in coverage of his 2025 campaign launch, that Wiener said he would advocate for a new Voting Rights Act and for independent redistricting systems nationwide if elected. The summary does not mention preclearance or the John Lewis Voting Rights Advancement Act by name, so no stance on this question is recorded. (sources: San Francisco Examiner https://www.sfexaminer.com/news/politics/state-senator-scott-wiener-outlines-vision-for-congress/article_424699d2-71c6-4fdb-857c-286ead52f9cd.html [search summary, secondary])",
+      "topic": "q:civil-rights/voting-rights-preclearance"
     }
   ],
   "provided": {

@@ -5,11 +5,11 @@
  */
 import { createHash } from "node:crypto";
 
-export const REF_KINDS = ["person", "org", "election", "contest", "q", "src"] as const;
+export const REF_KINDS = ["person", "org", "office", "election", "contest", "q", "src"] as const;
 export type RefKind = (typeof REF_KINDS)[number];
 
 const SLUG = "[a-z0-9]+(?:-[a-z0-9]+)*";
-export const REF_RE = new RegExp(`^(person|org|election|contest|q|src):(${SLUG}(?:/${SLUG})?)$`);
+export const REF_RE = new RegExp(`^(person|org|office|election|contest|q|src):(${SLUG}(?:/${SLUG})?)$`);
 
 /** "Xavier Becerra" -> "xavier-becerra"; "AT&T Inc." -> "at-and-t-inc" */
 export function slugify(input: string): string {

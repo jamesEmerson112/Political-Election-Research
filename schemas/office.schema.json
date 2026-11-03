@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/office.schema.json",
+  "title": "Office",
+  "description": "A government position described by neutral, measurable scope (never a ranking): level, body size, residents per seat, budget the body adopts or administers, term, limits, powers, salary. Candidates' offices_held items and contest agendas link here with office_ref. Path: data/offices/<id>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "level",
+    "jurisdiction",
+    "last_verified"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "defs.schema.json#/$defs/SchemaPointer"
+    },
+    "id": {
+      "$ref": "defs.schema.json#/$defs/Slug"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "enum": [
+        "local",
+        "county",
+        "state",
+        "federal"
+      ]
+    },
+    "jurisdiction": {
+      "type": "string",
+      "minLength": 1
+    },
+    "body": {
+      "description": "The body the office-holder sits on, if any (e.g. San Francisco Board of Supervisors).",
+      "type": "string",
+      "minLength": 1
+    },
+    "seats": {
+      "description": "Number of seats in the body (1 for a single executive office).",
+      "$ref": "defs.schema.json#/$defs/CitedNumber"
+    },
+    "constituents": {
+      "description": "Residents one office-holder represents; basis says how it was computed.",
+      "$ref": "defs.schema.json#/$defs/CitedNumber"
+    },
+    "term_years": {
+      "$ref": "defs.schema.json#/$defs/CitedNumber"
+    },
+    "term_limit": {
+      "$ref": "defs.schema.json#/$defs/CitedString"
+    },
+    "powers": {
+      "description": "One or two neutral sentences on what the office or body can do.",
+      "$ref": "defs.schema.json#/$defs/CitedString"
+    },
+    "budget": {
+      "description": "Budget (USD) the body adopts or the department administers; basis names the fiscal year and scope.",
+      "$ref": "defs.schema.json#/$defs/CitedNumber"
+    },
+    "salary": {
+      "description": "Annual salary (USD).",
+      "$ref": "defs.schema.json#/$defs/CitedNumber"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "last_verified": {
+      "$ref": "defs.schema.json#/$defs/Date"
+    }
+  }
+}

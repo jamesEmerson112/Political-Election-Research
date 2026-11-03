@@ -135,6 +135,10 @@
           }
         }
       }
+    },
+    "office_ref": {
+      "description": "The office this contest elects (office contests). Editorial link; may point at a record research has not created yet.",
+      "$ref": "defs.schema.json#/$defs/OfficeRef"
     }
   }
 }

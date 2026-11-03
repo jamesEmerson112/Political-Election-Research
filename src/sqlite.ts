@@ -32,6 +32,8 @@ CREATE TABLE people (id TEXT PRIMARY KEY, ref TEXT, name TEXT, public_figure INT
   occupation TEXT, occupation_status TEXT, residence_city TEXT, residence_city_status TEXT,
   offices_held_as_of TEXT, education_as_of TEXT, career_as_of TEXT);
 CREATE TABLE person_career (person TEXT, role TEXT, organization TEXT, start TEXT, "end" TEXT);
+CREATE TABLE offices (id TEXT PRIMARY KEY, ref TEXT, name TEXT, level TEXT, jurisdiction TEXT, body TEXT, seats REAL, constituents REAL,
+  term_years REAL, term_limit TEXT, powers TEXT, budget_usd REAL, budget_basis TEXT, salary_usd REAL, last_verified TEXT);
 CREATE TABLE bills (id TEXT PRIMARY KEY, title TEXT, summary TEXT, status TEXT, status_as_of TEXT, last_verified TEXT);
 CREATE TABLE dossier_sections (person TEXT, section TEXT, as_of TEXT, items INTEGER, PRIMARY KEY (person, section));
 CREATE TABLE dossier_items (person TEXT, section TEXT, id TEXT, title TEXT, kind TEXT, summary TEXT, date TEXT, as_of TEXT,
@@ -299,6 +301,17 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
     });
     entityExtras(ref, r);
     provenance(r, "organization", String(r["id"]), cites, logs);
+  }
+  const num = (v: unknown) => n((v as Rec | undefined)?.["value"]);
+  for (const r of b.offices) {
+    push("offices", {
+      id: s(r["id"]), ref: `office:${String(r["id"])}`, name: s(r["name"]), level: s(r["level"]), jurisdiction: s(r["jurisdiction"]), body: s(r["body"]),
+      seats: num(r["seats"]), constituents: num(r["constituents"]), term_years: num(r["term_years"]),
+      term_limit: s((r["term_limit"] as Rec | undefined)?.["value"]), powers: s((r["powers"] as Rec | undefined)?.["value"]),
+      budget_usd: num(r["budget"]), budget_basis: s((r["budget"] as Rec | undefined)?.["basis"]), salary_usd: num(r["salary"]),
+      last_verified: s(r["last_verified"]),
+    });
+    provenance(r, "office", String(r["id"]), cites, logs);
   }
   for (const r of b.bills) {
     const st = r["status"] as Rec;

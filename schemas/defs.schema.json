@@ -106,6 +106,29 @@
               "minLength": 1
             }
           }
+        },
+        "unverified": {
+          "description": "The recording agent saw this source only indirectly (e.g. a web search summary) and nobody has verified it. validate warns [UNVERIFIED_CITATION]; --strict fails.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "by",
+            "method",
+            "date"
+          ],
+          "properties": {
+            "by": {
+              "type": "string",
+              "minLength": 1
+            },
+            "method": {
+              "type": "string",
+              "minLength": 1
+            },
+            "date": {
+              "$ref": "#/$defs/Date"
+            }
+          }
         }
       }
     },
@@ -399,6 +422,35 @@
         },
         "date": {
           "$ref": "#/$defs/PartialDate"
+        },
+        "citations": {
+          "$ref": "#/$defs/Citations"
+        }
+      }
+    },
+    "OfficeRef": {
+      "type": "string",
+      "pattern": "^office:[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "CitedNumber": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "citations"
+      ],
+      "properties": {
+        "value": {
+          "type": "number",
+          "minimum": 0
+        },
+        "as_of": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis": {
+          "type": "string",
+          "minLength": 1
         },
         "citations": {
           "$ref": "#/$defs/Citations"

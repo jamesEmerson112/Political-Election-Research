@@ -37,6 +37,7 @@ export interface Dataset {
   people: Map<string, Rec>;
   orgs: Map<string, Rec>;
   bills: Map<string, Rec>;
+  offices: Map<string, Rec>;
   /** person ref -> dossier */
   dossiers: Map<string, Rec>;
   /** actor ref -> positions file */
@@ -83,6 +84,8 @@ export function refForPath(info: Classified): string | null {
       return `person:${info.expectedId}`;
     case "organization":
       return `org:${info.expectedId}`;
+    case "office":
+      return `office:${info.expectedId}`;
     case "source":
       return `src:${info.expectedId}`;
     default:
@@ -103,6 +106,7 @@ export function buildDataset(dataDir: string, files: LoadedFile[]): Dataset {
     people: new Map(),
     orgs: new Map(),
     bills: new Map(),
+    offices: new Map(),
     dossiers: new Map(),
     positions: new Map(),
     relationships: [],
@@ -161,6 +165,9 @@ export function buildDataset(dataDir: string, files: LoadedFile[]): Dataset {
       case "bill":
         ds.bills.set(id, rec);
         break;
+      case "office":
+        ds.offices.set(id, rec);
+        break;
       case "dossier":
         ds.dossiers.set(id, rec);
         break;
@@ -182,6 +189,8 @@ export function resolve(ds: Dataset, ref: string): Rec | undefined {
       return ds.people.get(key);
     case "org":
       return ds.orgs.get(key);
+    case "office":
+      return ds.offices.get(key);
     case "election":
       return ds.elections.get(key);
     case "contest":

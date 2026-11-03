@@ -4,49 +4,132 @@
   "title": "Contest",
   "description": "Verified facts about one contest on the ballot: an office race or a ballot measure. Supporting/opposing committees are NOT listed here; they come from committee_role relationships (single source of truth). Path: data/contests/<election-slug>/<contest-slug>.json",
   "type": "object",
-  "required": ["kind"],
-  "discriminator": { "propertyName": "kind" },
+  "required": [
+    "kind"
+  ],
+  "discriminator": {
+    "propertyName": "kind"
+  },
   "oneOf": [
     {
       "title": "Office race",
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "kind", "election", "name", "office", "level", "candidates", "last_verified"],
+      "required": [
+        "id",
+        "kind",
+        "election",
+        "name",
+        "office",
+        "level",
+        "candidates",
+        "last_verified"
+      ],
       "properties": {
-        "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
-        "id": { "$ref": "#/$defs/ContestId" },
-        "kind": { "const": "office" },
-        "election": { "$ref": "defs.schema.json#/$defs/ElectionRef" },
-        "name": { "type": "string", "minLength": 1 },
-        "office": { "type": "string", "minLength": 1 },
-        "level": { "enum": ["state", "federal", "local"] },
-        "district": { "type": "integer", "minimum": 1 },
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/ContestId"
+        },
+        "kind": {
+          "const": "office"
+        },
+        "election": {
+          "$ref": "defs.schema.json#/$defs/ElectionRef"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "office": {
+          "type": "string",
+          "minLength": 1
+        },
+        "level": {
+          "enum": [
+            "state",
+            "federal",
+            "local"
+          ]
+        },
+        "district": {
+          "type": "integer",
+          "minimum": 1
+        },
         "candidates": {
           "description": "Candidates on the ballot, from the official certified list. One citation set per entry must support every field in the entry.",
           "type": "array",
-          "items": { "$ref": "#/$defs/BallotCandidate" }
+          "items": {
+            "$ref": "#/$defs/BallotCandidate"
+          }
         },
-        "result": { "$ref": "#/$defs/OfficeResult" },
-        "last_verified": { "$ref": "defs.schema.json#/$defs/Date" }
+        "result": {
+          "$ref": "#/$defs/OfficeResult"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "office_ref": {
+          "$ref": "defs.schema.json#/$defs/OfficeRef"
+        }
       }
     },
     {
       "title": "Ballot measure",
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "kind", "election", "name", "number", "official_title", "origin", "summary", "last_verified"],
+      "required": [
+        "id",
+        "kind",
+        "election",
+        "name",
+        "number",
+        "official_title",
+        "origin",
+        "summary",
+        "last_verified"
+      ],
       "properties": {
-        "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
-        "id": { "$ref": "#/$defs/ContestId" },
-        "kind": { "const": "measure" },
-        "election": { "$ref": "defs.schema.json#/$defs/ElectionRef" },
-        "name": { "type": "string", "minLength": 1 },
-        "number": { "type": "string", "minLength": 1 },
-        "official_title": { "$ref": "defs.schema.json#/$defs/CitedString" },
-        "origin": { "enum": ["legislative", "initiative", "referendum"] },
-        "summary": { "$ref": "defs.schema.json#/$defs/CitedString" },
-        "result": { "$ref": "#/$defs/MeasureResult" },
-        "last_verified": { "$ref": "defs.schema.json#/$defs/Date" }
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/ContestId"
+        },
+        "kind": {
+          "const": "measure"
+        },
+        "election": {
+          "$ref": "defs.schema.json#/$defs/ElectionRef"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "number": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_title": {
+          "$ref": "defs.schema.json#/$defs/CitedString"
+        },
+        "origin": {
+          "enum": [
+            "legislative",
+            "initiative",
+            "referendum"
+          ]
+        },
+        "summary": {
+          "$ref": "defs.schema.json#/$defs/CitedString"
+        },
+        "result": {
+          "$ref": "#/$defs/MeasureResult"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        }
       }
     }
   ],
@@ -59,9 +142,17 @@
     "BallotCandidate": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["person", "party", "ballot_designation", "incumbent", "citations"],
+      "required": [
+        "person",
+        "party",
+        "ballot_designation",
+        "incumbent",
+        "citations"
+      ],
       "properties": {
-        "person": { "$ref": "defs.schema.json#/$defs/PersonRef" },
+        "person": {
+          "$ref": "defs.schema.json#/$defs/PersonRef"
+        },
         "party": {
           "description": "Party preference exactly as printed on the certified list.",
           "type": "string",
@@ -71,45 +162,89 @@
           "description": "Ballot designation exactly as printed on the certified list.",
           "type": "string"
         },
-        "incumbent": { "type": "boolean" },
-        "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+        "incumbent": {
+          "type": "boolean"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
       }
     },
     "OfficeResult": {
       "description": "Filled from the certified Statement of Vote after the election.",
       "type": "object",
       "additionalProperties": false,
-      "required": ["certified", "tallies", "citations"],
+      "required": [
+        "certified",
+        "tallies",
+        "citations"
+      ],
       "properties": {
-        "certified": { "type": "boolean" },
-        "certified_date": { "$ref": "defs.schema.json#/$defs/Date" },
-        "winner": { "$ref": "defs.schema.json#/$defs/PersonRef" },
+        "certified": {
+          "type": "boolean"
+        },
+        "certified_date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "winner": {
+          "$ref": "defs.schema.json#/$defs/PersonRef"
+        },
         "tallies": {
           "type": "array",
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["person", "votes"],
+            "required": [
+              "person",
+              "votes"
+            ],
             "properties": {
-              "person": { "$ref": "defs.schema.json#/$defs/PersonRef" },
-              "votes": { "type": "integer", "minimum": 0 }
+              "person": {
+                "$ref": "defs.schema.json#/$defs/PersonRef"
+              },
+              "votes": {
+                "type": "integer",
+                "minimum": 0
+              }
             }
           }
         },
-        "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
       }
     },
     "MeasureResult": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["certified", "passed", "yes_votes", "no_votes", "citations"],
+      "required": [
+        "certified",
+        "passed",
+        "yes_votes",
+        "no_votes",
+        "citations"
+      ],
       "properties": {
-        "certified": { "type": "boolean" },
-        "certified_date": { "$ref": "defs.schema.json#/$defs/Date" },
-        "passed": { "type": "boolean" },
-        "yes_votes": { "type": "integer", "minimum": 0 },
-        "no_votes": { "type": "integer", "minimum": 0 },
-        "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+        "certified": {
+          "type": "boolean"
+        },
+        "certified_date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "passed": {
+          "type": "boolean"
+        },
+        "yes_votes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "no_votes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
       }
     }
   }

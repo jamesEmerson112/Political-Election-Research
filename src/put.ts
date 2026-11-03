@@ -23,6 +23,7 @@ export const PUT_KINDS = [
   "leads",
   "bill",
   "dossier",
+  "office",
   "config",
 ] as const;
 export type PutKind = (typeof PUT_KINDS)[number];
@@ -85,6 +86,8 @@ function refOf(kind: PutKind, rec: Rec): string | undefined {
       return `person:${String(rec["id"])}`;
     case "organization":
       return `org:${String(rec["id"])}`;
+    case "office":
+      return `office:${String(rec["id"])}`;
     case "contest":
       return `contest:${String(rec["id"])}`;
     case "election":
@@ -111,6 +114,10 @@ function prepare(kind: PutKind, input: Rec, today: string): Rec {
     case "source":
       rec["id"] = sourceId(String(rec["url"]));
       rec["accessed"] ??= today;
+      break;
+    case "office":
+      rec["id"] ??= slugify(String(rec["name"] ?? ""));
+      rec["last_verified"] = today;
       break;
     case "person":
     case "organization":
