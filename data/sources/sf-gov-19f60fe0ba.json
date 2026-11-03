@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sf-gov-19f60fe0ba",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "City and County of San Francisco",
+  "title": "Assessor-Recorder",
+  "url": "https://www.sf.gov/departments--assessor-recorder"
+}

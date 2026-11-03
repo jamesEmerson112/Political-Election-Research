@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-assessor-recorder",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Assessor-Recorder",
+  "office": "Assessor-Recorder",
+  "candidates": [
+    {
+      "person": "person:joaquin-torres",
+      "ballot_designation": "Incumbent",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Assessor-Recorder 1 person(s) have filed for candidacy for this contest on the November 3, 2026 ballot. Joaquin Torres"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JOAQUÍN TORRES 郭華健 Incumbent",
+          "locator": "page 1, Assessor-Recorder, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-19f60fe0ba",
+          "quote": "Joaquín Torres serves as your elected Assessor-Recorder."
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-03"
+}
