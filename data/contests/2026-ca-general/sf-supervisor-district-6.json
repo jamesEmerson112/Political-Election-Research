@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-supervisor-district-6",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Board of Supervisors, District 6",
+  "office": "Member, Board of Supervisors",
+  "candidates": [
+    {
+      "person": "person:alex-behrend",
+      "ballot_designation": "Laborer / Community Organizer",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 6 2 people have qualified for this contest on the November 3, 2026 ballot. Alex Behrend Matt Dorsey"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ALEX BEHREND 亞歷克斯‧貝倫德 Laborer / Community Organizer",
+          "locator": "page 1, Board of Supervisors, District 6, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-48f07f5fd8",
+          "quote": "Supervisor Matt Dorsey represents District 6."
+        }
+      ]
+    },
+    {
+      "person": "person:matt-dorsey",
+      "ballot_designation": "San Francisco Supervisor",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 6 2 people have qualified for this contest on the November 3, 2026 ballot. Alex Behrend Matt Dorsey"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MATT DORSEY 麥德誠 San Francisco Supervisor",
+          "locator": "page 1, Board of Supervisors, District 6, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-48f07f5fd8",
+          "quote": "Supervisor Matt Dorsey represents District 6."
+        }
+      ]
+    }
+  ],
+  "district": 6,
+  "level": "local",
+  "office_ref": "office:san-francisco-supervisor",
+  "last_verified": "2026-11-03"
+}

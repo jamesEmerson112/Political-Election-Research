@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sf-gov-6871cf14b5",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Department of Elections",
+  "title": "Candidates - November 3, 2026, General Election",
+  "url": "https://www.sf.gov/candidates-november-3-2026-general-election"
+}

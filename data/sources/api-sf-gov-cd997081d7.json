@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sf-gov-cd997081d7",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Department of Elections",
+  "title": "Board of Supervisors and Other Local Offices Chinese-character-based Names and Ballot Designations List",
+  "url": "https://api.sf.gov/documents/63094/November_2026_Local_Office_Names_and_Ballot_Designations.pdf",
+  "notes": "Linked from the Department of Elections page \"Candidates - November 3, 2026, General Election\" (https://www.sf.gov/candidates-november-3-2026-general-election); the link redirects to https://media.api.sf.gov/documents/November_2026_Local_Office_Names_and_Ballot_Designations.pdf. Lists each local candidate's name and English, Chinese, Spanish, Filipino and Vietnamese ballot designations."
+}
