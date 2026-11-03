@@ -66,6 +66,9 @@ const COUNTYWIDE_OFFICES: Record<string, number> = {
 const COUNTYWIDE_SLUGS: Record<string, number> = {
   "sf-board-of-education": 75,
   "sf-community-college-board": 75,
+  "sf-community-college-board-partial-term": 75,
+  "sf-assessor-recorder": 75,
+  "sf-public-defender": 75,
 };
 /** Local measure slugs: <county prefix>-prop-<letter or number>. */
 const LOCAL_MEASURE_PREFIX: Record<string, number> = { sf: 75 };

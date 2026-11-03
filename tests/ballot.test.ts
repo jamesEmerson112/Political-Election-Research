@@ -76,6 +76,7 @@ describe("placeContest elsewhere", () => {
     expect(placeContest("contest:2026-ca-general/sf-prop-a", undefined, "measure")).toEqual({ scope: "district", kind: "county", n: 75 });
     expect(placeContest("contest:2026-ca-general/sf-board-of-education", "office:sfusd-board-of-education-member")).toEqual({ scope: "district", kind: "county", n: 75 });
     expect(placeContest("contest:2026-ca-general/sf-community-college-board")).toEqual({ scope: "district", kind: "county", n: 75 });
+    for (const s of ["sf-community-college-board-partial-term", "sf-assessor-recorder", "sf-public-defender"]) expect(placeContest(`contest:2026-ca-general/${s}`)).toEqual({ scope: "district", kind: "county", n: 75 });
     expect(placeContest("contest:2026-ca-general/sf-supervisor-district-6", "office:san-francisco-supervisor")).toEqual({ scope: "district", kind: "sfsup", n: 6 });
     const sfVoter = { cd: [11], county: [75], sfsup: [6] };
     expect(ballotStatus({ scope: "district", kind: "county", n: 75 }, sfVoter)).toBe("on");
