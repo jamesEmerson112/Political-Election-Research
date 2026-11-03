@@ -40,6 +40,41 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Bachelor of Arts in History, magna cum laude",
+          "institution": "Harvard University",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Ben has a Bachelor of Arts degree magna cum laude in History from Harvard University; a Master's degree in Latin American Studies from the University of Cambridge; and a Juris Doctor degree from UC Berkeley."
+            }
+          ]
+        },
+        {
+          "degree": "Master's degree in Latin American Studies",
+          "institution": "University of Cambridge",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Ben has a Bachelor of Arts degree magna cum laude in History from Harvard University; a Master's degree in Latin American Studies from the University of Cambridge; and a Juris Doctor degree from UC Berkeley."
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "UC Berkeley",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Ben has a Bachelor of Arts degree magna cum laude in History from Harvard University; a Master's degree in Latin American Studies from the University of Cambridge; and a Juris Doctor degree from UC Berkeley."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "California State Senator (ballot designation)",
       "citations": [
