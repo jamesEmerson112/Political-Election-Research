@@ -3,6 +3,28 @@
   "id": "jamo-muhammad",
   "name": "Jamo Muhammad",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "CEO of We Got Winners Big Brother Program (ballot designation: Father)",
+      "citations": [
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JAMO MUHAMMAD 傑莫‧穆罕默德 Father",
+          "locator": "p. 1, Board of Supervisors, District 10 table (English ballot designation)"
+        },
+        {
+          "source": "src:kqed-org-44d1250e32",
+          "quote": "Jamo Muhammad CEO of We Got Winners Big Brother Program",
+          "locator": "Candidates list"
+        },
+        {
+          "source": "src:sfexaminer-com-8c43ba72c0",
+          "quote": "Jamo Muhammad, “The Brother,” CEO of We Got Winners Big Brother Program",
+          "locator": "Other candidates"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,

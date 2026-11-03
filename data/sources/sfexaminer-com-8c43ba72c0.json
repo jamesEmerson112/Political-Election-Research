@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfexaminer-com-8c43ba72c0",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-06-24",
+  "publisher": "San Francisco Examiner",
+  "title": "SF's big southeast at stake in District 10 supervisor race",
+  "url": "https://www.sfexaminer.com/news/politics/sfs-big-southeast-at-stake-in-district-10-supervisor-race/article_331f15b0-5768-4fe5-be34-b21626789264.html"
+}
