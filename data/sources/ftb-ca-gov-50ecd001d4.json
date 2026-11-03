@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ftb-ca-gov-50ecd001d4",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-01-02",
+  "publisher": "California Franchise Tax Board",
+  "title": "Malia Cohen, Chair",
+  "url": "https://www.ftb.ca.gov/about-ftb/bios/Controller.html",
+  "notes": "Official board-member biography page; the page states \"Last updated: 01/02/2026\"."
+}

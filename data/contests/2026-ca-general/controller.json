@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/controller",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Controller",
+  "office": "Controller",
+  "candidates": [
+    {
+      "person": "person:malia-m-cohen",
+      "ballot_designation": "State Controller/Mother",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Controller Malia M. Cohen* Democratic State Controller/Mother",
+          "locator": "PDF page 2 (list page 1 of 41), Controller"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 2 (list page 1 of 41), key at the foot of the page; an asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:ftb-ca-gov-50ecd001d4",
+          "quote": "State Controller Malia M. Cohen was elected in November 2022"
+        }
+      ]
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "ballot_designation": "Chief Investment Officer",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Herb W Morgan Republican Chief Investment Officer",
+          "locator": "PDF page 2 (list page 1 of 41), Controller"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 2 (list page 1 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "office_ref": "office:california-controller",
+  "last_verified": "2026-11-03"
+}
