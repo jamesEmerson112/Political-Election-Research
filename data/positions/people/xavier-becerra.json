@@ -99,6 +99,24 @@
       ]
     },
     {
+      "subject": "q:immigration/expand-cooperation-federal-enforcement",
+      "stance": "oppose",
+      "as_of": "2026-10-01",
+      "cycle": 2026,
+      "evidence_type": "debate",
+      "summary": "At the Sept. 30 CNN debate, Becerra referred to California's sanctuary law and criticized Hilton for saying he would enforce Trump's laws but not the state's laws.",
+      "citations": [
+        {
+          "source": "src:ksby-com-b70ac2ad39",
+          "quote": "Becerra referenced California's sanctuary law, which prohibits local law enforcement from using resources for immigration enforcement."
+        },
+        {
+          "source": "src:ksby-com-b70ac2ad39",
+          "quote": "\"You seem to welcome immigrants who look like you but deport immigrants who look like me,\" Becerra told Hilton. \"We need a governor who will protect everyone who works hard. I don't need to be here and listen to you say you'll enforce Trump's laws but not our state laws.\""
+        }
+      ]
+    },
+    {
       "subject": "q:taxes/lower-top-income-tax-rates",
       "stance": "oppose",
       "as_of": "2026-10-01",
