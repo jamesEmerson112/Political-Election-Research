@@ -28,6 +28,31 @@
       ]
     },
     {
+      "subject": "q:transportation/bike-lanes-over-parking",
+      "stance": "mixed",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Says he would support a citywide bike lane network that also supports other ways of getting around so that it is not a zero-sum game, and lists more neighborhood parking among his priorities; he has not said whether lanes should be built where they remove parking.",
+      "citations": [
+        {
+          "source": "src:growsf-org-313c75b033",
+          "quote": "I would support a citywide network of bike lanes with the goal of respecting and supporting other transit modalities as well, so that it is not a zero-sum game.",
+          "locator": "Transit Infrastructure, answer on a citywide protected bike lane network"
+        },
+        {
+          "source": "src:growsf-org-313c75b033",
+          "quote": "I will advocate for increased neighborhood parking, make it easier to build ADUs and new housing, and help small businesses navigate City Hall so they can focus on serving our community.",
+          "locator": "District-Specific Questions, answer on making it easier for homeowners to expand"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "• More parking and getting the Municipal Transportation Agency to listen to residents and small businesses.",
+          "locator": "PDF p. 45 (printed p. 43), Alan Wong candidate statement"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-11-03",
