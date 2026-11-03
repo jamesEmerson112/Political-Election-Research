@@ -62,6 +62,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Equity Researcher (ballot designation: Health Equity Researcher)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Equity Researcher.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 35 (PDF p. 37)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "LISA P WYNN II 麗莎・P・溫恩二世 Health Equity Researcher",
+          "locator": "Community College Board Full table (English ballot designation)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
