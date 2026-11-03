@@ -8,6 +8,7 @@
   import AffectedGroups from "./AffectedGroups.svelte";
   import MeasureArguments from "./MeasureArguments.svelte";
   import MeasureDigest from "./MeasureDigest.svelte";
+  import MeasureComparison from "./MeasureComparison.svelte";
   import { contestRoute } from "../lib/data";
   import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
 
@@ -94,6 +95,13 @@
     {#each c["conflicts"] ?? [] as k (k["contest"])}
       <p class="chip wrap">Competes with <a href={`#${contestRoute(k["contest"])}`}>{label(k["contest"])}</a>: {k["rule"]}</p>
     {/each}
+  </section>
+{/if}
+
+{#if c?.["comparison"]}
+  <section class="section">
+    <div class="section-head"><h2>How it compares</h2><p>A comparison table the site's maintainer supplied. Click a number for its source.</p></div>
+    <MeasureComparison cmp={c["comparison"]} measure={ix.contestTitle(contestRef)} />
   </section>
 {/if}
 

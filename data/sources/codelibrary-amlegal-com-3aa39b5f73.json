@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "codelibrary-amlegal-com-3aa39b5f73",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "American Legal Publishing (for the City of New York)",
+  "title": "New York City Charter",
+  "url": "https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCcharter"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lwvsf-org-1e81302e14",
+  "kind": "voter_guide",
+  "accessed": "2026-11-03",
+  "publisher": "League of Women Voters of San Francisco",
+  "title": "Ballot Recommendations",
+  "url": "https://lwvsf.org/ballot-recommendations"
+}

@@ -280,6 +280,160 @@
       ]
     }
   ],
+  "comparison": {
+    "columns": [
+      "Power",
+      "SF Now (Lurie)",
+      "SF With Prop F",
+      "NYC (Mamdani)"
+    ],
+    "note": "Supplied by the maintainer on 2026-11-03. The cells have not yet been checked against these sources.",
+    "rows": [
+      {
+        "cells": [
+          "Commissions pick many bosses",
+          "Mayor picks more bosses",
+          "Mayor picks most bosses"
+        ],
+        "label": "Hire bosses"
+      },
+      {
+        "cells": [
+          "Mayor can't fire many",
+          "Mayor can fire most",
+          "Mayor can fire most"
+        ],
+        "label": "Fire bosses"
+      },
+      {
+        "cells": [
+          "Need voter approval for many changes",
+          "Mayor can merge or move departments; Board can block",
+          "Mayor can reorganize; Council can review"
+        ],
+        "label": "Change departments"
+      },
+      {
+        "cells": [
+          "Limited",
+          "Allowed",
+          "Allowed"
+        ],
+        "label": "Hire deputy mayors"
+      },
+      {
+        "cells": [
+          "Hard. Need legal reason for many",
+          "Easy. Can fire most without reason",
+          "Depends on commission"
+        ],
+        "label": "Fire commissioners"
+      },
+      {
+        "cells": [
+          "Mayor + Police Commission",
+          "Mayor only",
+          "Mayor controls police commissioner"
+        ],
+        "label": "Control police chief"
+      },
+      {
+        "cells": [
+          "Voters approve many major changes",
+          "Board has 30–60 days to block certain changes",
+          "Council reviews certain plans for 90 days"
+        ],
+        "label": "Stop mayor's plans"
+      },
+      {
+        "cells": [
+          "Stronger job protection",
+          "Weaker job protection for most commissioners",
+          "Depends on agency"
+        ],
+        "label": "Independent oversight"
+      },
+      {
+        "cells": [
+          "Mayor proposes budget",
+          "Same",
+          "Mayor proposes budget"
+        ],
+        "label": "Control budget"
+      }
+    ],
+    "sources": [
+      {
+        "verifies": "Exact ballot question and proposed mayoral powers.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "p. 101, Proposition F",
+            "unverified": {
+              "by": "maintainer",
+              "date": "2026-11-03",
+              "method": "named by the maintainer as a source for the table; the cells were not checked against it"
+            }
+          }
+        ]
+      },
+      {
+        "verifies": "Hiring, firing, deputy mayors, commission protections, and police leadership changes.",
+        "citations": [
+          {
+            "source": "src:growsf-org-c64c8291ff",
+            "unverified": {
+              "by": "maintainer",
+              "date": "2026-11-03",
+              "method": "named by the maintainer as a source for the table; the cells were not checked against it"
+            }
+          }
+        ]
+      },
+      {
+        "verifies": "NYC mayor's legal authority to appoint and remove agency heads.",
+        "citations": [
+          {
+            "source": "src:codelibrary-amlegal-com-3aa39b5f73",
+            "locator": "§ 6",
+            "unverified": {
+              "by": "maintainer",
+              "date": "2026-11-03",
+              "method": "named by the maintainer as a source for the table; the cells were not checked against it"
+            }
+          }
+        ]
+      },
+      {
+        "verifies": "NYC mayor's authority to reorganize agencies, including legal limits and Council review.",
+        "citations": [
+          {
+            "source": "src:codelibrary-amlegal-com-3aa39b5f73",
+            "locator": "§ 11",
+            "unverified": {
+              "by": "maintainer",
+              "date": "2026-11-03",
+              "method": "named by the maintainer as a source for the table; the cells were not checked against it"
+            }
+          }
+        ]
+      },
+      {
+        "verifies": "Plain-language explanation and arguments for and against.",
+        "citations": [
+          {
+            "source": "src:lwvsf-org-1e81302e14",
+            "unverified": {
+              "by": "maintainer",
+              "date": "2026-11-03",
+              "method": "named by the maintainer as a source for the table; the cells were not checked against it"
+            }
+          }
+        ]
+      }
+    ],
+    "title": "Prop F: SF Mayor vs. NYC Mayor"
+  },
   "conflicts": [
     {
       "contest": "contest:2026-ca-general/sf-prop-a",

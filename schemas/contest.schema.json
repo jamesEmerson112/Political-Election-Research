@@ -305,6 +305,96 @@
           "items": {
             "$ref": "#/$defs/Affect"
           }
+        },
+        "comparison": {
+          "description": "A side-by-side table the maintainer supplied, for example how the measure would change an office compared with today and with another city. Cells are plain text; `sources` are the documents the table rests on, each with a citation. Cells are not checked one by one: until someone does, the citations are marked unverified and the site says so.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "title",
+            "columns",
+            "rows",
+            "sources"
+          ],
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 120
+            },
+            "columns": {
+              "description": "Column headings; the first one heads the row labels.",
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 6,
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 60
+              }
+            },
+            "rows": {
+              "type": "array",
+              "minItems": 1,
+              "maxItems": 30,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "cells"
+                ],
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 80
+                  },
+                  "cells": {
+                    "description": "One cell per column after the first.",
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 200
+                    }
+                  }
+                }
+              }
+            },
+            "sources": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "verifies",
+                  "citations"
+                ],
+                "properties": {
+                  "verifies": {
+                    "description": "What the source is said to support.",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 200
+                  },
+                  "citations": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                      "$ref": "defs.schema.json#/$defs/Citation"
+                    }
+                  }
+                }
+              }
+            },
+            "note": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 300
+            }
+          }
         }
       }
     }

@@ -15,6 +15,7 @@
  * 5e. Vercel Web Analytics loads only on the public site (political-election-research.vercel.app):
  *    on the local server and on preview deployments the page loads no analytics script.
  * 5f. Proposition groups start folded on the Overview.
+ * 5g. SF Prop F shows the maintainer's comparison table, marked unverified.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
  */
@@ -92,6 +93,13 @@ await fold.click();
 await page.waitForTimeout(150);
 const opensOnClick = (await fold.getAttribute("aria-expanded")) === "true" && (await fold.locator("xpath=../..").locator(".list li").count()) > 0;
 check("5f. proposition groups start folded on the Overview and open on click", foldedFirst && opensOnClick, "");
+
+// 5g. SF Prop F shows its comparison table, labeled unverified.
+await go(page, "#c-2026-ca-general--sf-prop-f");
+await page.waitForSelector("table");
+const cmpRows = await page.locator("table tbody tr").count();
+const cmpWarn = await page.locator(".section", { hasText: "How it compares" }).locator(".chip.warn").count();
+check("5g. SF Prop F shows the comparison table, marked unverified", cmpRows === 9 && cmpWarn === 1, `${cmpRows} rows`);
 
 // 6. California, and San Francisco keeps its own answers.
 await go(page, "#trial");
