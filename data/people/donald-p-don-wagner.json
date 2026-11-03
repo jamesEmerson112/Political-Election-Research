@@ -7,6 +7,15 @@
     "Donald P. Wagner"
   ],
   "candidate_profile": {
+    "birthplace": {
+      "value": "Pittsburgh",
+      "citations": [
+        {
+          "source": "src:wagnerforcalifornia-com-e5bde30114",
+          "quote": "Born in Pittsburgh, Donald P. Wagner moved to California at age 12."
+        }
+      ]
+    },
     "occupation": {
       "value": "Orange County Supervisor",
       "citations": [
