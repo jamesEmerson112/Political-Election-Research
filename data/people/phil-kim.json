@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "phil-kim",
+  "name": "Phil Kim",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.philkim.org/",
+    "official_site": "https://www.sfusd.edu/about-sfusd/board-education/commissioner-phil-kim"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
