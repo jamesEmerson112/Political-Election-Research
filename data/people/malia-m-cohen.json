@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "malia-m-cohen",
+  "name": "Malia M. Cohen",
+  "aliases": [
+    "Malia Cohen"
+  ],
+  "ids": [
+    {
+      "id": "Q13562240",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.maliacohenforca.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
