@@ -170,7 +170,11 @@
         {DISTRICT_NAME[g.kind]}: pick your district
         <span class="g-count num">{g.rows.length}</span>
       </h2>
-      <p class="g-note">One of these is on your ballot. Your sample ballot shows which; set it under My ballot.</p>
+      <p class="g-note">
+        {g.kind === "county"
+          ? "Every ballot in a county has all of that county's contests. Set your county under My ballot."
+          : "One of these is on your ballot. Your sample ballot shows which; set it under My ballot."}
+      </p>
       <ul class="list">
         {#each g.rows as r (r.ref)}
           {@render contestRow(r)}

@@ -9,6 +9,7 @@
  * 6. California: Yes on Prop 1 makes FY2027-28's shortfall $500M–$600M larger; Yes on Prop 3 moves
  *    no forecast year and is listed from FY2030-31; Prop 44's cost is quoted in words, not added up;
  *    San Francisco's ballot keeps its own answers.
+ * 5c. The Overview's county group says every ballot in a county has that county's contests.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
  */
@@ -58,6 +59,12 @@ await page.locator('button.method[aria-label="Use my location"]').click();
 await page.waitForSelector(".found .frow", { timeout: 15000 });
 const rows = await page.locator(".found .frow").allTextContents();
 check("5a. My ballot finds districts from the device's location", rows.length > 0, rows.map((r) => r.replace(/\s+/g, " ").trim()).join(" | ").slice(0, 120));
+
+// 5c. The county group (San Francisco's local measures and school boards) says every ballot in the county has them.
+await go(page, "#overview");
+await page.waitForSelector(".group");
+const countyNote = await text(page.locator(".group", { has: page.locator("h2", { hasText: "County: pick your district" }) }).locator(".g-note"));
+check("5c. county contests are on every ballot in the county (not one of them)", countyNote.startsWith("Every ballot in a county") , countyNote);
 
 // 6. California, and San Francisco keeps its own answers.
 await go(page, "#trial");
