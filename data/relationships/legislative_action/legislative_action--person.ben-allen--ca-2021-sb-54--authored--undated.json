@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.ben-allen--ca-2021-sb-54--authored--undated",
+  "type": "legislative_action",
+  "person": "person:ben-allen",
+  "action": "authored",
+  "bill": "ca-2021-sb-54",
+  "cycle": 2022,
+  "citations": [
+    {
+      "source": "src:gov-ca-gov-f20d2b0966",
+      "quote": "said Senator Ben Allen (D-Santa Monica), author of the legislation."
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
