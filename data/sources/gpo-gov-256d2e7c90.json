@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gpo-gov-256d2e7c90",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "1997-06-04",
+  "publisher": "U.S. Government Publishing Office",
+  "title": "Congressional Directory for the 105th Congress (1997-1998), June 1997: California, 30th District (Xavier Becerra)",
+  "url": "https://www.gpo.gov/fdsys/pkg/CDIR-1997-06-04/html/CDIR-1997-06-04-CA-H-30.htm"
+}

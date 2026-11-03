@@ -3,6 +3,18 @@
   "id": "xavier-becerra",
   "name": "Xavier Becerra",
   "aliases": [],
+  "candidate_profile": {
+    "birth_date": {
+      "value": "1958-01-26",
+      "citations": [
+        {
+          "source": "src:gpo-gov-256d2e7c90",
+          "quote": "born in Sacramento, CA, on January 26, 1958",
+          "locator": "Page 48, member biography"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "H2CA30143",
