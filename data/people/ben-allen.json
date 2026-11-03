@@ -40,6 +40,81 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "UCLA Law School",
+          "role": "Lecturer",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Prior to his election to the Senate, Ben served as President of the Santa Monica-Malibu Unified School District Board of Education, lecturer at UCLA Law School, and worked as an attorney at the law firms of Bryan Cave LLP and Richardson & Patel and at the nonprofit Spark Program."
+            }
+          ]
+        },
+        {
+          "organization": "Bryan Cave LLP",
+          "role": "Attorney",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Prior to his election to the Senate, Ben served as President of the Santa Monica-Malibu Unified School District Board of Education, lecturer at UCLA Law School, and worked as an attorney at the law firms of Bryan Cave LLP and Richardson & Patel and at the nonprofit Spark Program."
+            }
+          ]
+        },
+        {
+          "organization": "Richardson & Patel",
+          "role": "Attorney",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Prior to his election to the Senate, Ben served as President of the Santa Monica-Malibu Unified School District Board of Education, lecturer at UCLA Law School, and worked as an attorney at the law firms of Bryan Cave LLP and Richardson & Patel and at the nonprofit Spark Program."
+            }
+          ]
+        },
+        {
+          "organization": "Spark Program",
+          "role": "Staff (worked at the nonprofit)",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Prior to his election to the Senate, Ben served as President of the Santa Monica-Malibu Unified School District Board of Education, lecturer at UCLA Law School, and worked as an attorney at the law firms of Bryan Cave LLP and Richardson & Patel and at the nonprofit Spark Program."
+            }
+          ]
+        },
+        {
+          "organization": "United Nations International Criminal Tribunal for Rwanda",
+          "role": "Summer judicial clerk",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "While at law school, Ben served as the voting student member of the University of California Board of Regents and was a summer judicial clerk with the United Nations International Criminal Tribunal for Rwanda."
+            }
+          ]
+        },
+        {
+          "organization": "National Democratic Institute for International Affairs (NDI)",
+          "role": "Latin American team staff",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Prior to law school, Ben worked in Washington DC for the Latin American team of the National Democratic Institute for International Affairs (NDI), and then as Communications Director for Congressman Jose Serrano (D-NY)."
+            }
+          ]
+        },
+        {
+          "organization": "Office of Congressman Jose Serrano (D-NY)",
+          "role": "Communications Director",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Prior to law school, Ben worked in Washington DC for the Latin American team of the National Democratic Institute for International Affairs (NDI), and then as Communications Director for Congressman Jose Serrano (D-NY)."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
