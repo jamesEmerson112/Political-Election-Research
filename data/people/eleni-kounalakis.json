@@ -3,6 +3,18 @@
   "id": "eleni-kounalakis",
   "name": "Eleni Kounalakis",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Eleni Kounalakis Democratic",
+          "locator": "page 2 (Official Certified List, Page 1 of 41, Treasurer)"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q5359190",
