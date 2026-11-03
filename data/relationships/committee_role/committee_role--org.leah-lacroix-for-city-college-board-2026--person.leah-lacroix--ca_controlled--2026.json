@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.leah-lacroix-for-city-college-board-2026--person.leah-lacroix--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/sf-community-college-board",
+  "subject": "person:leah-lacroix",
+  "committee": "org:leah-lacroix-for-city-college-board-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:data-sfgov-org-f81fd01891",
+      "quote": "\"fppc_id\":\"1495579\",\"filer_name\":\"Leah LaCroix for City College Board 2026\",\"filer_type\":\"Candidate or Officeholder\"",
+      "locator": "Campaign Finance - Filers dataset (4c8t-ngau), record"
+    },
+    {
+      "source": "src:data-sfgov-org-f81fd01891",
+      "quote": "\"candidate_name\":\"LaCroix, Leah\"",
+      "locator": "Campaign Finance - Filers dataset (4c8t-ngau), record"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
