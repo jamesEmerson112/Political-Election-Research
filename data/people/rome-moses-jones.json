@@ -64,6 +64,38 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Associate degree (AA), Real Estate",
+          "institution": "City College of San Francisco",
+          "year": 2024,
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "As an alumni of both City College of San Francisco (AA in Real Estate) and San Francisco State University (BA in Urban Planning & Studies)",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 32 (PDF p. 34)"
+            },
+            {
+              "source": "src:theguardsman-com-7a45204fbc",
+              "quote": "He received his associate degree in real estate at City College in 2024"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor's degree (BA), Urban Planning & Studies",
+          "institution": "San Francisco State University",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "San Francisco State University (BA in Urban Planning & Studies)",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 32 (PDF p. 34)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Non-Profit Executive (co-executive director of Bayview Association for Youth, as reported)",
       "citations": [
