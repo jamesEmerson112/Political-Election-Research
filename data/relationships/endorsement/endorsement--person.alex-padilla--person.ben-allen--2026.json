@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.alex-padilla--person.ben-allen--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:ben-allen",
+  "endorser": "person:alex-padilla",
+  "citations": [
+    {
+      "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+      "quote": "I’m honored to have the support of the Consumer Federation of California, California Professional Firefighters, Planned Parenthood, California Federation of Teachers, the Sierra Club, Senators Adam Schiff and Alex Padilla",
+      "locator": "Candidate statement, p. 89"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

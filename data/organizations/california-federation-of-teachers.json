@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "california-federation-of-teachers",
+  "name": "California Federation of Teachers",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "labor_union",
+  "last_verified": "2026-11-03"
+}
