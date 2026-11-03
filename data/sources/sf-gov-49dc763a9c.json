@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sf-gov-49dc763a9c",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Department of Elections",
+  "title": "Voting districts and representatives",
+  "url": "https://www.sf.gov/reports--november-2022--your-voting-districts-and-representatives",
+  "notes": "Department of Elections table of office-holders (columns: Office title and holder, Elected for current term, Next election). Community College Board Seats 1-3 show next election November 3, 2026; no update date is printed."
+}

@@ -1,0 +1,222 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-community-college-board",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Community College Board (4-year term)",
+  "office": "Member, Community College Board",
+  "candidates": [
+    {
+      "person": "person:elijah-ball",
+      "ballot_designation": "College Campus Planner",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board (3 seats) 8 people have qualified for this contest on the November 3, 2026 ballot. Elijah Ball Rome Moses Jones Monroe Lace Leah LaCroix Jeremy Lee Bunny McFadden Erwin Tam Lisa Wynn",
+          "locator": "Community College Board (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ELIJAH BALL 伊利亞‧鮑爾 College Campus Planner",
+          "locator": "page 1, Community College Board Full table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-49dc763a9c",
+          "quote": "Community College Board Seat 1 Anita Martinez November 8, 2022 November 3, 2026 Community College Board Seat 2 Vick Chung November 8, 2022 November 3, 2026 Community College Board Seat 3 Susan Solomon November 8, 2022 November 3, 2026",
+          "locator": "Local offices table, Community College Board Seats 1-3"
+        },
+        {
+          "source": "src:sf-gov-ce9942a56f",
+          "quote": "The San Francisco Department of Elections must extend the candidate nomination period for the Board of Education, Community College Board of Trustees, and BART Board of Directors for District 8 since incumbents did not file nomination documents for these offices for the November 3, 2026, election."
+        }
+      ]
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "ballot_designation": "Non-profit Executive",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board (3 seats) 8 people have qualified for this contest on the November 3, 2026 ballot. Elijah Ball Rome Moses Jones Monroe Lace Leah LaCroix Jeremy Lee Bunny McFadden Erwin Tam Lisa Wynn",
+          "locator": "Community College Board (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ROME MOSES JONES 羅姆‧摩西‧瓊斯 Non-profit Executive",
+          "locator": "page 1, Community College Board Full table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-49dc763a9c",
+          "quote": "Community College Board Seat 1 Anita Martinez November 8, 2022 November 3, 2026 Community College Board Seat 2 Vick Chung November 8, 2022 November 3, 2026 Community College Board Seat 3 Susan Solomon November 8, 2022 November 3, 2026",
+          "locator": "Local offices table, Community College Board Seats 1-3"
+        },
+        {
+          "source": "src:sf-gov-ce9942a56f",
+          "quote": "The San Francisco Department of Elections must extend the candidate nomination period for the Board of Education, Community College Board of Trustees, and BART Board of Directors for District 8 since incumbents did not file nomination documents for these offices for the November 3, 2026, election."
+        }
+      ]
+    },
+    {
+      "person": "person:monroe-lace",
+      "ballot_designation": "Public School Teacher",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board (3 seats) 8 people have qualified for this contest on the November 3, 2026 ballot. Elijah Ball Rome Moses Jones Monroe Lace Leah LaCroix Jeremy Lee Bunny McFadden Erwin Tam Lisa Wynn",
+          "locator": "Community College Board (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MONROE LACE 楊家輝 Public School Teacher",
+          "locator": "page 1, Community College Board Full table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-49dc763a9c",
+          "quote": "Community College Board Seat 1 Anita Martinez November 8, 2022 November 3, 2026 Community College Board Seat 2 Vick Chung November 8, 2022 November 3, 2026 Community College Board Seat 3 Susan Solomon November 8, 2022 November 3, 2026",
+          "locator": "Local offices table, Community College Board Seats 1-3"
+        },
+        {
+          "source": "src:sf-gov-ce9942a56f",
+          "quote": "The San Francisco Department of Elections must extend the candidate nomination period for the Board of Education, Community College Board of Trustees, and BART Board of Directors for District 8 since incumbents did not file nomination documents for these offices for the November 3, 2026, election."
+        }
+      ]
+    },
+    {
+      "person": "person:leah-lacroix",
+      "ballot_designation": "Administrative Analyst",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board (3 seats) 8 people have qualified for this contest on the November 3, 2026 ballot. Elijah Ball Rome Moses Jones Monroe Lace Leah LaCroix Jeremy Lee Bunny McFadden Erwin Tam Lisa Wynn",
+          "locator": "Community College Board (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "LEAH LACROIX 莉亞‧拉華克 Administrative Analyst",
+          "locator": "page 1, Community College Board Full table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-49dc763a9c",
+          "quote": "Community College Board Seat 1 Anita Martinez November 8, 2022 November 3, 2026 Community College Board Seat 2 Vick Chung November 8, 2022 November 3, 2026 Community College Board Seat 3 Susan Solomon November 8, 2022 November 3, 2026",
+          "locator": "Local offices table, Community College Board Seats 1-3"
+        },
+        {
+          "source": "src:sf-gov-ce9942a56f",
+          "quote": "The San Francisco Department of Elections must extend the candidate nomination period for the Board of Education, Community College Board of Trustees, and BART Board of Directors for District 8 since incumbents did not file nomination documents for these offices for the November 3, 2026, election."
+        }
+      ]
+    },
+    {
+      "person": "person:jeremy-lee",
+      "ballot_designation": "Asset Manager",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board (3 seats) 8 people have qualified for this contest on the November 3, 2026 ballot. Elijah Ball Rome Moses Jones Monroe Lace Leah LaCroix Jeremy Lee Bunny McFadden Erwin Tam Lisa Wynn",
+          "locator": "Community College Board (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JEREMY LEE 李銘富 Asset Manager",
+          "locator": "page 1, Community College Board Full table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-49dc763a9c",
+          "quote": "Community College Board Seat 1 Anita Martinez November 8, 2022 November 3, 2026 Community College Board Seat 2 Vick Chung November 8, 2022 November 3, 2026 Community College Board Seat 3 Susan Solomon November 8, 2022 November 3, 2026",
+          "locator": "Local offices table, Community College Board Seats 1-3"
+        },
+        {
+          "source": "src:sf-gov-ce9942a56f",
+          "quote": "The San Francisco Department of Elections must extend the candidate nomination period for the Board of Education, Community College Board of Trustees, and BART Board of Directors for District 8 since incumbents did not file nomination documents for these offices for the November 3, 2026, election."
+        }
+      ]
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "ballot_designation": "Nonprofit Manager / Writer",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board (3 seats) 8 people have qualified for this contest on the November 3, 2026 ballot. Elijah Ball Rome Moses Jones Monroe Lace Leah LaCroix Jeremy Lee Bunny McFadden Erwin Tam Lisa Wynn",
+          "locator": "Community College Board (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "BUNNY MCFADDEN 邦妮‧麥克法登 Nonprofit Manager / Writer",
+          "locator": "page 1, Community College Board Full table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-49dc763a9c",
+          "quote": "Community College Board Seat 1 Anita Martinez November 8, 2022 November 3, 2026 Community College Board Seat 2 Vick Chung November 8, 2022 November 3, 2026 Community College Board Seat 3 Susan Solomon November 8, 2022 November 3, 2026",
+          "locator": "Local offices table, Community College Board Seats 1-3"
+        },
+        {
+          "source": "src:sf-gov-ce9942a56f",
+          "quote": "The San Francisco Department of Elections must extend the candidate nomination period for the Board of Education, Community College Board of Trustees, and BART Board of Directors for District 8 since incumbents did not file nomination documents for these offices for the November 3, 2026, election."
+        }
+      ]
+    },
+    {
+      "person": "person:erwin-tam",
+      "ballot_designation": "Municipal Financial Advisor",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board (3 seats) 8 people have qualified for this contest on the November 3, 2026 ballot. Elijah Ball Rome Moses Jones Monroe Lace Leah LaCroix Jeremy Lee Bunny McFadden Erwin Tam Lisa Wynn",
+          "locator": "Community College Board (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ERWIN TAM 譚立人 Municipal Financial Advisor",
+          "locator": "page 1, Community College Board Full table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-49dc763a9c",
+          "quote": "Community College Board Seat 1 Anita Martinez November 8, 2022 November 3, 2026 Community College Board Seat 2 Vick Chung November 8, 2022 November 3, 2026 Community College Board Seat 3 Susan Solomon November 8, 2022 November 3, 2026",
+          "locator": "Local offices table, Community College Board Seats 1-3"
+        },
+        {
+          "source": "src:sf-gov-ce9942a56f",
+          "quote": "The San Francisco Department of Elections must extend the candidate nomination period for the Board of Education, Community College Board of Trustees, and BART Board of Directors for District 8 since incumbents did not file nomination documents for these offices for the November 3, 2026, election."
+        }
+      ]
+    },
+    {
+      "person": "person:lisa-p-wynn-ii",
+      "ballot_designation": "Health Equity Researcher",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board (3 seats) 8 people have qualified for this contest on the November 3, 2026 ballot. Elijah Ball Rome Moses Jones Monroe Lace Leah LaCroix Jeremy Lee Bunny McFadden Erwin Tam Lisa Wynn",
+          "locator": "Community College Board (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "LISA P WYNN II 麗莎・P・溫恩二世 Health Equity Researcher",
+          "locator": "page 1, Community College Board Full table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-49dc763a9c",
+          "quote": "Community College Board Seat 1 Anita Martinez November 8, 2022 November 3, 2026 Community College Board Seat 2 Vick Chung November 8, 2022 November 3, 2026 Community College Board Seat 3 Susan Solomon November 8, 2022 November 3, 2026",
+          "locator": "Local offices table, Community College Board Seats 1-3"
+        },
+        {
+          "source": "src:sf-gov-ce9942a56f",
+          "quote": "The San Francisco Department of Elections must extend the candidate nomination period for the Board of Education, Community College Board of Trustees, and BART Board of Directors for District 8 since incumbents did not file nomination documents for these offices for the November 3, 2026, election."
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "office_ref": "office:sfccd-board-of-trustees-member",
+  "vote_for": 3,
+  "last_verified": "2026-11-03"
+}
