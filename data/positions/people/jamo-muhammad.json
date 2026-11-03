@@ -77,6 +77,49 @@
           "where": "web search"
         }
       ]
+    },
+    {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "no_public_position",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "statement text: license plate, Flock, camera, surveillance",
+          "where": "San Francisco Department of Elections, November 3, 2026 Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 10 candidate statements (no statement from Jamo Muhammad is printed)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "questionnaire for Jamo Muhammad: listed as \"Contact information unavailable\", no questionnaire published",
+          "where": "GrowSF D10 voter guide (growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/) and growsf.org sitemap list of November 2026 questionnaires"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 10 candidates listed: Ellington, Brookter, Eppler only",
+          "where": "The San Francisco Standard, \"We asked candidates if SF should keep Flock surveillance, or tell it to Flock off\" (Sept. 8, 2026)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 10 candidates Flock",
+          "where": "Mission Local (missionlocal.org WordPress API and District 10 'Meet the candidates' articles): blocked (HTTP 403 browser check) on 2026-11-03"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 10 supervisor Q&A",
+          "where": "Potrero View District 10 supervisor Q&As (potreroview.net): blocked (HTTP 403 browser check) on 2026-11-03"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Flock candidates",
+          "where": "Axios San Francisco, 'Where San Francisco candidates stand on Flock cameras' (Oct. 14, 2026): blocked (HTTP 403) on 2026-11-03"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Jamo Muhammad\" District 10 supervisor Flock license plate cameras",
+          "where": "Web search"
+        }
+      ]
     }
   ]
 }
