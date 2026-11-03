@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:jane-kim",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "ethics-complaint-469-stevenson-street-lobbying",
+        "date": "2022-03",
+        "response": {
+          "summary": "Kim told The Standard that she did the work opposing the project on her own time, not as part of her work for TODCO, so the law did not require her to register as a lobbyist.",
+          "citations": [
+            {
+              "source": "src:sfstandard-com-98ce514c32",
+              "quote": "Kim told The Standard that her work in opposition to the project was done on her own time rather than as part of her work for TODCO, and therefore the law did not require her to register as a lobbyist."
+            }
+          ]
+        },
+        "summary": "The San Francisco Standard reported in March 2022 that the city's Ethics Commission opened a probe of former Supervisor Jane Kim after a complaint that she had not registered as a lobbyist while opposing a proposed apartment project at 469 Stevenson St., having been paid as a political organizer by the head of TODCO, which led opposition to the project. SFist also reported the complaint, filed by a YIMBY Law board member.",
+        "title": "2022 San Francisco Ethics Commission complaint over lobbying registration (469 Stevenson Street)",
+        "citations": [
+          {
+            "source": "src:sfstandard-com-98ce514c32",
+            "quote": "San Francisco’s Ethics Commission has opened a formal probe of former Supervisor Jane Kim in connection with her efforts to garner opposition to a proposed SoMa apartment building, according to a commission letter"
+          },
+          {
+            "source": "src:sfstandard-com-98ce514c32",
+            "quote": "The inquiry follows a complaint that Kim had not registered as a lobbyist, despite having been paid as a political organizer by the same person leading the campaign to block the proposed 495-unit complex: John Elberling, president of Tenants and Owners Development Corp. (TODCO), the owner of several low-income apartment buildings in the neighborhood."
+          },
+          {
+            "source": "src:sfist-com-73b6d03cb7",
+            "quote": "That 27-story residential tower slated for a Nordstom’s parking lot, which the supervisors shot down last October, has now generated a complaint with the SF Ethics Commission that the district’s former supervisor Jane Kim improperly lobbied against it."
+          }
+        ]
+      }
+    ]
+  }
+}
