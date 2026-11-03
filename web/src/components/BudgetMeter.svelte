@@ -11,6 +11,10 @@
    * bridge from the official forecast through each yes measure to the result.
    * One hue for the measures (--money), gray for the forecast and the result;
    * direction is shown by position and by words, never by arrows.
+   *
+   * `headline`: only the gap line, its fine print and the year switcher. The
+   * trial summary draws the bridge full size (with its table) and the other
+   * funds, so the meter above it doesn't draw them a second time.
    */
   let {
     result,
@@ -19,6 +23,7 @@
     budgetRec,
     fy,
     onfy,
+    headline = false,
   }: {
     result: TrialResult;
     bridge: Bridge | null;
@@ -27,6 +32,8 @@
     budgetRec: Record<string, any> | null;
     fy: string | null;
     onfy: (fy: string) => void;
+    /** Headline only (no bridge, no other-funds line): set while the trial summary, which shows both, is on screen. */
+    headline?: boolean;
   } = $props();
 
   const row = $derived(result.generalFund.find((y) => y.fy === fy) ?? result.generalFund[0] ?? null);
@@ -87,7 +94,7 @@
         {/if}
       </p>
     {/if}
-    {#if bridge && domain}<BudgetBridge {bridge} {domain} compact />{/if}
+    {#if bridge && domain && !headline}<BudgetBridge {bridge} {domain} compact />{/if}
     <p class="fine">The forecast doesn't include ballot measures; the city must adopt a balanced budget each year. The % is the change ÷ the forecast, computed here.</p>
   {:else}
     <p class="muted">No official budget forecast is recorded for this jurisdiction yet, so only the yearly amounts are added up below.</p>
@@ -96,7 +103,7 @@
       <dd class="num">{signedRange(result.perYearOnceInEffect.general_fund)} a year</dd>
     </dl>
   {/if}
-  {#if lanes.length || result.bonds.principal}
+  {#if !headline && (lanes.length || result.bonds.principal)}
     <p class="lanes">
       {#each lanes as { l, r } (l)}<span title={base?.total ? `Share of the City's whole FY${base.fy} budget, all funds (${usd(base.total)}), computed here` : undefined}
           >{LANE_LABEL[l]}

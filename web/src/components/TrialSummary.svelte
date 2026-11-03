@@ -138,7 +138,8 @@
       <figcaption class="eyebrow">General Fund bridge, FY{bridge.fy}: forecast, each Yes in ballot order, result</figcaption>
       <BudgetBridge {bridge} {domain} />
       <p class="link-note">
-        One year, step by step: its Forecast and Result are FY{bridge.fy}'s two bars in the chart below{#if onfy && n > 1}; select another year there to show it here{/if}.
+        One year, step by step: its Forecast and Result are FY{bridge.fy}'s dashed-line point and band in the chart below{#if onfy && n > 1}; select another year there to show
+          it here{/if}.
       </p>
     </figure>
     <div class="scroll-x"><table class="grid num steps">
