@@ -332,13 +332,46 @@
         "estimate": "estimated",
         "lane": "general_fund",
         "per": "year",
+        "schedule": [
+          {
+            "amount": {
+              "high_usd": 6000000,
+              "low_usd": 6000000
+            },
+            "fy": "2028-29"
+          },
+          {
+            "amount": {
+              "high_usd": 13000000,
+              "low_usd": 13000000
+            },
+            "fy": "2029-30"
+          },
+          {
+            "amount": {
+              "high_usd": 60000000,
+              "low_usd": 60000000
+            },
+            "fy": "2034-35"
+          }
+        ],
         "start_fy": "2028-29",
-        "text": "Additional General Fund costs of about $6 million in FY2028-29, growing to about $60 million annually by FY2034-35, compared with contributions under current law.",
+        "text": "Additional General Fund costs of about $6 million in FY2028-29 and $13 million in FY2029-30, growing by about $9 million a year to about $60 million a year from FY2034-35, compared with contributions under current law.",
         "citations": [
           {
             "source": "src:media-api-sf-gov-e4221ecde7",
             "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a significant impact on the cost of government of approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing over time to approximately $60 million annually by Fiscal Year 2034-35.",
             "locator": "p. 79, Controller's Statement on \"C\", opinion paragraph"
+          },
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "As compared to projected Fund contributions under current law, the proposed Charter amendment is projected to increase contributions to the fund by approximately $6 million in FY2028-29 and $13 million in FY2029-30. In subsequent years, the General Fund cost of the proposal is projected to grow by an additional $9 million annually, reaching approximately $60 million in additional growth by FY2034-35, resulting in a total expected contribution of $125 million in FY2034-35.",
+            "locator": "p. 79, Controller’s Statement on “C”, paragraph beginning “As compared to projected Fund contributions”"
+          },
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The additional $60 million under the proposed modified funding formula represents the additional money the City would be required to appropriate into the Fund in FY2034-35 and subsequent years.",
+            "locator": "p. 79, Controller’s Statement on “C”, paragraph beginning “As compared to projected Fund contributions”"
           }
         ]
       },
