@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jennifer-hawks",
+  "name": "Jennifer Hawks",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://hawksforus.com/",
+    "x": "https://x.com/VoteHawks"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}

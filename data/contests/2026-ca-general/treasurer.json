@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/treasurer",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Treasurer",
+  "office": "Treasurer",
+  "candidates": [
+    {
+      "person": "person:eleni-kounalakis",
+      "ballot_designation": "Lieutenant Governor of California",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Treasurer Eleni Kounalakis Democratic Lieutenant Governor of California",
+          "locator": "PDF page 2 (list page 1 of 41), Treasurer"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 2 (list page 1 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    },
+    {
+      "person": "person:jennifer-hawks",
+      "ballot_designation": "Retired Business Executive",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Jennifer Hawks Republican Retired Business Executive",
+          "locator": "PDF page 2 (list page 1 of 41), Treasurer"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 2 (list page 1 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "office_ref": "office:california-treasurer",
+  "last_verified": "2026-11-03"
+}

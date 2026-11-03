@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "eleni-kounalakis",
+  "name": "Eleni Kounalakis",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q5359190",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://eleniforca.com/",
+    "instagram": "https://www.instagram.com/eleniforca/",
+    "official_site": "https://ltg.ca.gov/",
+    "x": "https://x.com/eleniforca"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
