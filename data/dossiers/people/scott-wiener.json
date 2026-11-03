@@ -145,5 +145,89 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "state-transit-funding-in-the-2023-budget-agreement-and-the-2025-bay-area-transit",
+        "kind": "budget",
+        "date": "2023-06",
+        "summary": "The ballot statement PDF could not be opened; a search-engine summary of it reports a claim of billions to keep Muni, BART and Caltrain running, exact wording unseen. Record: the June 2023 state budget deal, negotiated by the governor and legislators, gave transit agencies statewide $5.1 billion over four years with accountability measures; CalMatters said the Legislature proposed $1.1 billion more after the governor’s May plan offered no transit aid, and described Wiener as leading the charge to fend off the transit fiscal cliff. The June 2025 budget authorized a $750 million Bay Area transit loan, terms unsettled in September 2025; Mission Local wrote in October 2026 that Wiener secured an emergency state loan in 2025. Final loan terms not found; no state budget document could be opened.",
+        "title": "State transit funding in the 2023 budget agreement and the 2025 Bay Area transit loan",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "Candidate statement of Scott Wiener, U.S. Representative, District 11 (claim on keeping Muni, BART and Caltrain running)",
+            "unverified": {
+              "by": "research agent",
+              "date": "2026-11-03",
+              "method": "search summary"
+            }
+          },
+          {
+            "source": "src:calmatters-org-9e408153df",
+            "quote": "Transit agencies will receive a total of $5.1 billion over four years, though the money will be subject to accountability measures and state oversight."
+          },
+          {
+            "source": "src:calmatters-org-0cebc484e8",
+            "quote": "While Newsom’s May budget proposal failed to provide any assistance for transit agencies facing a “fiscal cliff,” and delayed $2 billion in construction projects, the Legislature rejected that move and proposed an additional $1.1 billion over the next three years from the state’s cap-and-trade funds."
+          },
+          {
+            "source": "src:calmatters-org-f744f4cfcc",
+            "quote": "Sen. Scott Wiener, a Democrat from San Francisco who has been leading the charge to fend off the transit “fiscal cliff,” said the deal would cover a significant portion of transit systems’ collective operating deficit, but said the state should use more federal highway money to fund transit operations."
+          },
+          {
+            "source": "src:missionlocal-org-3e92febf03",
+            "quote": "According to state legislation passed in June, the $750 million loan is cemented into the budget, but the duration and terms of the loan are to be determined in separate “budget trailing” legislation."
+          },
+          {
+            "source": "src:calmatters-org-b7fd1bcc94",
+            "quote": "Eventually, just before adjournment, Newsom said he would “offer short-term financial assistance to support Bay Area transit agencies with hundreds of millions of dollars,” but he didn’t give an exact number."
+          },
+          {
+            "source": "src:missionlocal-org-1c75c1e7d7",
+            "quote": "In 2025, for instance, Wiener secured an emergency state loan for Muni, BART and Caltrain, intended to stabilize them until the regional transit measures passes."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-03",
+        "query": "Scott Wiener candidate statement, U.S. Representative, District 11",
+        "where": "SF Department of Elections Voter Information Pamphlet PDF (media.api.sf.gov/documents/N26_EN_VIP.pdf): host refused by the session proxy (403); the Wayback snapshot 20261031160434 listed by the archive.org availability API could not be loaded (web.archive.org connection reset)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Scott Wiener candidate statement, U.S. Representative, District 11",
+        "where": "voterguide.sfelections.org, www.sf.gov and sfelections.sfgov.org (redirects to www.sf.gov): unreachable from the research session"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Scott Wiener candidate statement \"Muni, BART\" Caltrain; \"My occupation is\" State Senator; \"Caltrain running\" OR \"BART and Caltrain\"; \"I passed\" OR \"I wrote\" OR \"I secured\" OR \"I authored\"; \"Muni, BART, and Caltrain running\"; \"capped insulin at $35 a month\"",
+        "where": "Web search (summaries), 8 queries, most restricted to media.api.sf.gov; the pamphlet text in the summaries was fragmentary"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "ballot statement; transit funding",
+        "where": "scottwiener.com (campaign site) and sd11.senate.ca.gov: unreachable from the research session"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "2023 budget transit funding; 2025 Bay Area transit loan; SB 63 (2025)",
+        "where": "leginfo.legislature.ca.gov (browser blocked at a Cloudflare challenge; curl 403), ebudget.ca.gov, dof.ca.gov, lao.ca.gov, sbud.senate.ca.gov, mtc.ca.gov, bart.gov, caltrain.com, sfmta.com: unreachable from the research session"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Wiener transit fiscal cliff; Bay Area transit loan 750 million; BART Muni loan (after 2025-09-18)",
+        "where": "CalMatters (site search through its WordPress API)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "regional transit measure BART Muni Caltrain sales tax; \"SB 63\"; state loan BART Muni Wiener; transit loan (after 2025-09-10)",
+        "where": "Mission Local (site search through its WordPress API)"
+      }
+    ]
   }
 }

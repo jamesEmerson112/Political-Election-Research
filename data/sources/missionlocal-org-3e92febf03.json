@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-3e92febf03",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2025-09-08",
+  "publisher": "Mission Local",
+  "title": "$750M loan to save Bay Area transit, nixed by Gov. Newsom, is back in play",
+  "url": "https://missionlocal.org/2025/09/sf-750-million-emergency-transit-funding-state-loan/",
+  "notes": "Article text read on 2026-11-03 through the site's WordPress REST API (post 785316). Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-1c75c1e7d7",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-31",
+  "publisher": "Mission Local",
+  "title": "Wiener vs. Chan: Two very different urbanist visions in San Francisco’s congressional race",
+  "url": "https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-housing-transit/",
+  "notes": "Article text read on 2026-11-03 through the site's WordPress REST API (post 881146). Archive snapshot pending (web.archive.org unreachable from the research session)."
+}
