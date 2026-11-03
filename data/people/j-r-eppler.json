@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "j-r-eppler",
+  "name": "J.R. Eppler",
+  "aliases": [
+    "JR Eppler"
+  ],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.jreppler.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
