@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "abundant-sf",
+  "name": "Abundant SF",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-03"
+}
