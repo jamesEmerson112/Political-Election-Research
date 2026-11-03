@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ben-allen",
+  "name": "Ben Allen",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q19816391",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.benallenca.com/",
+    "official_site": "https://sd24.senate.ca.gov/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
