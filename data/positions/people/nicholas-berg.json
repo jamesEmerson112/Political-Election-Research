@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:nicholas-berg",
+  "positions": [
+    {
+      "subject": "q:transportation/bike-lanes-over-parking",
+      "stance": "mixed",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Opposes a blanket citywide protected bike lane mandate; supports protected lanes on corridors where demand, geometry and safety data justify them, built with merchant and neighborhood input on loading, parking and access.",
+      "citations": [
+        {
+          "source": "src:growsf-org-ff90a06896",
+          "quote": "Not as a blanket citywide mandate. I support well-designed protected lanes on corridors where demand, geometry, and safety data justify them — and I want them built properly, with real merchant and neighborhood input on loading, parking, and access.",
+          "locator": "Transit Infrastructure: Should it be the policy of San Francisco to build a citywide protected bike lane network?"
+        }
+      ]
+    }
+  ]
+}
