@@ -64,5 +64,33 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "youth-commission-resolution-1112-al-01",
+        "kind": "other",
+        "date": "2011-09-19",
+        "summary": "Co-sponsored San Francisco Youth Commission Resolution 1112-AL-01 (Free Youth Transportation) on free Muni for youth and moved its adoption; the Youth Commission adopted it with 15 ayes on September 19, 2011, with no measured outcome recorded here.",
+        "title": "Youth Commission Resolution 1112-AL-01 (Free Youth Transportation)",
+        "citations": [
+          {
+            "source": "src:sfgov-org-34d8b92b89",
+            "quote": "Resolution 1112—AL 01—Free Youth Transportation (Document D) Sponsors and Presenters: Commissioners LaCroix, Yang, Liang",
+            "locator": "Item 7B"
+          },
+          {
+            "source": "src:sfgov-org-34d8b92b89",
+            "quote": "Chair LaCroix moved to support the basic motion to support this resolution, seconded by Marshall-Fricker. This motion carried with 15 ayes.",
+            "locator": "Item 7B"
+          },
+          {
+            "source": "src:sfgov-org-34d8b92b89",
+            "quote": "Monday, September 19, 2011"
+          }
+        ]
+      }
+    ]
   }
 }
