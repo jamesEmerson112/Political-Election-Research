@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jeremy-julian-greco",
+  "name": "Jeremy Julian Greco",
+  "aliases": [
+    "Jeremy Greco"
+  ],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.jeremygreco2026.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
