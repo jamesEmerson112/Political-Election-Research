@@ -17,6 +17,21 @@
 - Maintainer's verified CA-11 notes: `notes/2026-11-02-ca-11.md`.
 - Current state: 64 contest agendas, 13 offices, 809 unverified leads. Validate: 0 errors; warnings: 93 quote pending, 116 unverified citations, 65 not archived, 1 orphan source.
 
+## Priority (maintainer, 2026-11-03): San Francisco first
+- Do San Francisco-area contests and candidates first; the rest of California comes later.
+- **In progress:**
+  - CA-11 (Chan vs Wiener)
+  - SF Board of Education
+  - City College of SF Board of Trustees
+  - SF Board of Supervisors district races
+- **Next SF items:**
+  - State Assembly districts covering SF (AD-17 east, AD-19 west)
+  - SF local ballot measures
+  - Regional measures on SF ballots
+  - Any other SF-wide offices on the Nov 2026 ballot
+- **"My ballot":** SF-wide contests should show for every SF voter; supervisor races need SF supervisorial district boundaries (DataSF).
+- **Statewide offices, other House districts and propositions:** keep as is; deeper research waits until SF is covered.
+
 ## Blocker: network access
 - These hosts are blocked in this cloud environment. Allow them under environment settings → Network access, or pick a broader level.
   - **CA Secretary of State and state campaign finance:** sos.ca.gov, elections.cdn.sos.ca.gov, cal-access.sos.ca.gov, powersearch.sos.ca.gov
