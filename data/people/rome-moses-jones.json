@@ -83,6 +83,23 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Member, San Francisco Youth Commission",
+          "current": false,
+          "jurisdiction": "City and County of San Francisco",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-2826f6c594",
+              "quote": "Sf Youth Commission N/A What are the top three issues you will work on, and what is your plan for achieving your goals? What local and state commissions or policy bodies have you served on?",
+              "locator": "p. 3 (answers precede the question labels on each page)"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
