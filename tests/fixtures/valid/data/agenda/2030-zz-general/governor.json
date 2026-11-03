@@ -51,5 +51,6 @@
     "endorsements_per_candidate": 1,
     "finance_cutoff": "2030-10-17",
     "top_contributors": 2
-  }
+  },
+  "vote_for": 1
 }

@@ -57,6 +57,11 @@
           "type": "integer",
           "minimum": 1
         },
+        "vote_for": {
+          "description": "How many candidates each voter may choose, which is also how many seats this contest fills (\"Vote for 3\" on the ballot). Omitted means 1 (a single-seat contest). Taken from the official ballot or candidate list.",
+          "type": "integer",
+          "minimum": 1
+        },
         "candidates": {
           "description": "Candidates on the ballot, from the official certified list. One citation set per entry must support every field in the entry.",
           "type": "array",

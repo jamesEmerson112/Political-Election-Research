@@ -323,6 +323,7 @@ p("contest", {
   name: "Governor",
   office: "Governor",
   level: "state",
+  vote_for: 1,
   candidates: [
     { person: avery, party: "Example Party", ballot_designation: "Widget Engineer", incumbent: false, citations: cite(srcList, "Avery Sample  Example Party  Widget Engineer") },
     { person: jordan, party: "Sample Party", ballot_designation: "Small Business Owner", incumbent: false, citations: cite(srcList, "Jordan Example  Sample Party  Small Business Owner") },
@@ -476,6 +477,7 @@ p("agenda", {
   contest: "contest:2030-zz-general/governor",
   kind: "office",
   office_ref: "office:example-state-governor",
+  vote_for: 1,
   candidates: [
     { person: avery, name: "Avery Sample" },
     { person: jordan, name: "Jordan Example" },

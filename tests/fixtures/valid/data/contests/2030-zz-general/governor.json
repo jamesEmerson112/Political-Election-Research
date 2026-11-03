@@ -32,5 +32,6 @@
     }
   ],
   "level": "state",
+  "vote_for": 1,
   "last_verified": "2030-11-01"
 }
