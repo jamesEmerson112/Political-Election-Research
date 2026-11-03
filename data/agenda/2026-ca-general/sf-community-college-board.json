@@ -545,6 +545,56 @@
   ],
   "measures": [],
   "office_ref": "office:sfccd-board-of-trustees-member",
+  "promise_topics": [
+    {
+      "id": "downtown-campus",
+      "label": "Downtown campus"
+    },
+    {
+      "id": "classes-and-sections",
+      "label": "Classes and sections offered"
+    },
+    {
+      "id": "budget-planning",
+      "label": "Budget and financial planning"
+    },
+    {
+      "id": "programs-with-sfusd",
+      "label": "Programs with SFUSD"
+    },
+    {
+      "id": "career-training",
+      "label": "Career training, certificates and internships"
+    },
+    {
+      "id": "enrollment",
+      "label": "Enrollment"
+    },
+    {
+      "id": "student-transit",
+      "label": "Transit for students"
+    },
+    {
+      "id": "campus-use",
+      "label": "Use of campuses and sites"
+    },
+    {
+      "id": "student-and-employee-voice",
+      "label": "Student and employee voice in decisions"
+    },
+    {
+      "id": "student-support",
+      "label": "Student support services"
+    },
+    {
+      "id": "free-city",
+      "label": "Free City College"
+    },
+    {
+      "id": "housing",
+      "label": "Student and educator housing"
+    }
+  ],
   "questions": [],
   "seeded": {
     "date": "2026-11-03",
