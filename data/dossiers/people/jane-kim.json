@@ -34,5 +34,50 @@
         ]
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "public-disaster-insurance-for-all",
+        "as_of": "2026-11-03",
+        "summary": "Proposes a public Disaster Insurance for All program funded by premiums invested in community safety.",
+        "title": "Public \"Disaster Insurance for All\" program",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I’ll ensure our premiums are invested into making our communities safer through a public Disaster Insurance for All program.",
+            "locator": "Candidate statement, p. 89"
+          }
+        ]
+      },
+      {
+        "id": "cap-excessive-profits-price-fixing",
+        "as_of": "2026-11-03",
+        "summary": "Says she will make claims fast and fair, cap excessive profits and crack down on illegal price-fixing.",
+        "title": "Cap excessive insurer profits and act on price-fixing",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I’ll make claims fast and fair, cap excessive profits, and crack down on illegal price-fixing.",
+            "locator": "Candidate statement, p. 89"
+          }
+        ]
+      },
+      {
+        "id": "guaranteed-healthcare-every-child",
+        "as_of": "2026-11-03",
+        "issue": "healthcare",
+        "summary": "Says she will fight for guaranteed health care for every California child.",
+        "title": "Guaranteed health care for every California child",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "And I’ll fight for guaranteed healthcare for every California child.",
+            "locator": "Candidate statement, p. 89"
+          }
+        ]
+      }
+    ]
   }
 }
