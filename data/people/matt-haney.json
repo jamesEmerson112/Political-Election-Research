@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "matt-haney",
+  "name": "Matt Haney",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q47507610",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.matthaney.com/",
+    "official_site": "https://www.assembly.ca.gov/assemblymembers/17"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
