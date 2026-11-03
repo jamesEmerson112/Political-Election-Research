@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.bay-area-artists-connect--person.bunny-mcfadden--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:bunny-mcfadden",
+  "endorser": "org:bay-area-artists-connect",
+  "citations": [
+    {
+      "source": "src:bunny4thepeople-com-bc84ced259",
+      "quote": "Bay Area Artists Connect",
+      "locator": "Organizations"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
