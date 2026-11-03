@@ -2,10 +2,10 @@
   import { untrack } from "svelte";
   import type { Index } from "../lib/data";
   import { contestRoute } from "../lib/data";
-  import { budgetInput, measureInput, runTrial, type Vote } from "../lib/budgetTrial";
+  import { bridgeDomain, bridgeSteps, budgetInput, measureInput, runTrial, type Vote } from "../lib/budgetTrial";
   import { MEASURE_ICON } from "../lib/icons";
   import { MARK } from "../lib/marks";
-  import { balance, fiscalChips, measureFactChips, signedRange } from "../lib/measureChips";
+  import { fiscalChips, gapLine, measureFactChips, signedRange } from "../lib/measureChips";
   import { forgetVotes, loadVotes, saveVotes } from "../lib/trialStorage";
   import { openDetail } from "../lib/ui.svelte";
   import Badge from "./Badge.svelte";
@@ -46,15 +46,13 @@
   });
 
   const result = $derived(runTrial(measures, budget, votes));
-  /** A fixed scale (from the all-yes and all-no extremes) so the meter doesn't jump around while answering. */
-  const scaleMax = $derived.by(() => {
-    const allYes = runTrial(measures, budget, Object.fromEntries(measures.map((m) => [m.ref, "yes" as Vote])));
-    const vals = [...allYes.generalFund, ...result.generalFund].flatMap((y) => [y.baseline ?? 0, y.result?.low ?? 0, y.result?.high ?? 0]);
-    for (const m of measures) {
-      const one = runTrial(measures, budget, { [m.ref]: "yes" });
-      vals.push(...one.generalFund.flatMap((y) => [y.result?.low ?? 0, y.result?.high ?? 0]));
-    }
-    return Math.max(1, ...vals.map(Math.abs));
+  const shownFy = $derived(fy && result.years.includes(fy) ? fy : (result.years[0] ?? null));
+  const bridge = $derived(shownFy ? bridgeSteps(result, measures, shownFy) : null);
+  /** A fixed axis per fiscal year (from the all-yes and single-yes bridges) so the bridge doesn't jump around while answering. */
+  const domain = $derived(shownFy ? bridgeDomain(measures, budget, shownFy, bridge) : null);
+  const gap = $derived.by(() => {
+    const r = result.generalFund.find((y) => y.fy === shownFy);
+    return r?.result && r.baseline !== null ? gapLine(r.fy, r.baseline, r.result).text : null;
   });
   const current = $derived(step < measures.length ? measures[step]! : null);
   const rec = $derived(current ? ix.contests.get(current.ref)! : null);
@@ -109,7 +107,7 @@
     {/if}
 
     <div class="sticky">
-      <BudgetMeter {result} {budget} budgetRec={group.budget} {fy} onfy={(f) => (fy = f)} {scaleMax} />
+      <BudgetMeter {result} {bridge} {domain} budgetRec={group.budget} fy={shownFy} onfy={(f) => (fy = f)} />
     </div>
 
     <div class="progress">
@@ -148,12 +146,11 @@
           {#if step > 0}<button class="link back" onclick={() => (step -= 1)}>‹ Back</button>{/if}
         </div>
       </article>
-      {@const r = result.generalFund.find((y) => y.fy === fy) ?? result.generalFund[0]}
-      <div class="mini" aria-hidden="true">
-        {#if r}FY{r.fy} · forecast {balance({ low: r.baseline ?? 0, high: r.baseline ?? 0 })} · with your choices <strong>{r.result ? balance(r.result) : "—"}</strong>{:else}General Fund {signedRange(result.perYearOnceInEffect.general_fund)}/yr{/if}
+      <div class="mini num" aria-hidden="true">
+        {#if gap}{gap}{:else}General Fund {signedRange(result.perYearOnceInEffect.general_fund)}/yr{/if}
       </div>
     {:else}
-      <TrialSummary {result} {measures} {votes} {budget} {titles} />
+      <TrialSummary {result} {measures} {votes} {titles} {bridge} {domain} />
       <div class="answers">
         <button class="ans" onclick={() => (step = 0)}>Change answers</button>
         <button class="ans" onclick={forget}>Forget my answers</button>

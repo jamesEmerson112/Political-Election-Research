@@ -70,6 +70,8 @@ export interface Contribution {
 
 export interface TrialResult {
   years: string[];
+  /** Refs of the measures voted yes, in ballot order. */
+  yes: string[];
   generalFund: Array<{ fy: string; baseline: number | null; delta: Range; result: Range | null }>;
   /** Annual effects of the yes measures once in effect, per lane (conflicts merged). */
   perYearOnceInEffect: Record<Lane, Range>;
@@ -228,6 +230,7 @@ export function runTrial(measures: MeasureInput[], budget: BudgetInput | null, v
 
   return {
     years,
+    yes: yes.map((m) => m.ref),
     generalFund,
     perYearOnceInEffect,
     oneTime: all.filter((c) => c.per === "one_time"),
@@ -277,4 +280,172 @@ export function budgetInput(budget: Rec): BudgetInput {
 export function shareOf(usd: number, budget: BudgetInput | null): number | null {
   const gf = budget?.adoptedGeneralFund?.usd;
   return gf ? Math.abs(usd) / gf : null;
+}
+
+// ---- the bridge (waterfall) for one fiscal year ----------------------------
+
+export interface BridgeStep {
+  kind: "start" | "measure" | "end";
+  /** Measures in this step (several for competing measures, of which only one can take effect). */
+  refs: string[];
+  labels: string[];
+  /** "Forecast", "Prop J", "Prop C/E", "Result". */
+  label: string;
+  /** True for a group of competing measures shown as one step. */
+  exclusive: boolean;
+  /** Signed General Fund change of this step for the year (0 for start and end). */
+  delta: Range;
+  /** Running total (as a range) before and after this step. */
+  before: Range;
+  after: Range;
+  /**
+   * Where the drawn step starts: the forecast plus the nearer end (smaller in
+   * size) of every earlier step. The chart draws the nearer end solid and the
+   * rest of the range lighter from here, so a chain of ranges stays readable.
+   */
+  chain: number;
+}
+
+export type BridgeOmitReason = "not_in_year" | "not_estimated" | "minimal" | "one_time_only" | "other_lanes";
+
+export interface BridgeOmitted {
+  ref: string;
+  label: string;
+  reason: BridgeOmitReason;
+  /** For not_in_year: the first later fiscal year an annual General Fund estimate applies, if any. */
+  startFy: string | null;
+}
+
+export interface Bridge {
+  fy: string;
+  baseline: number;
+  /** Start, one step per yes measure (or competing group) with a General Fund amount in `fy`, in ballot order, end. */
+  steps: BridgeStep[];
+  result: Range;
+  /** Yes measures with no General Fund amount in `fy`, in ballot order, and why. */
+  omitted: BridgeOmitted[];
+}
+
+/** The end of a signed range nearer zero (drawn solid) and the farther one (drawn lighter); a range across zero has no solid part. */
+export function nearFar(r: Range): { near: number; far: number; spansZero: boolean } {
+  if (r.low >= 0) return { near: r.low, far: r.high, spansZero: false };
+  if (r.high <= 0) return { near: r.high, far: r.low, spansZero: false };
+  return { near: 0, far: 0, spansZero: true };
+}
+
+/** "Prop C/E" for competing measures; other labels are joined with "/". */
+function groupLabel(labels: string[]): string {
+  if (labels.length === 1) return labels[0]!;
+  if (labels.every((l) => l.startsWith("Prop "))) return `Prop ${labels.map((l) => l.slice(5)).join("/")}`;
+  return labels.join("/");
+}
+
+function omitReason(m: MeasureInput, gfYear: Contribution[], fy: string): BridgeOmitted {
+  const base = { ref: m.ref, label: m.label, startFy: null };
+  if (gfYear.length) {
+    const later = gfYear
+      .map((c) => c.startFy)
+      .filter((s): s is string => !!s && fyStart(s) > fyStart(fy))
+      .sort()[0];
+    return { ...base, reason: "not_in_year", startFy: later ?? null };
+  }
+  const gf = m.effects.filter((e) => e["lane"] === "general_fund");
+  const est = (e: Rec) => String(e["estimate"]);
+  if (gf.some((e) => est(e) === "not_estimated" || est(e) === "depends_on_future_decisions")) return { ...base, reason: "not_estimated" };
+  if (gf.some((e) => est(e) === "minimal")) return { ...base, reason: "minimal" };
+  if (gf.some((e) => est(e) === "estimated")) return { ...base, reason: "one_time_only" };
+  return { ...base, reason: "other_lanes" };
+}
+
+/**
+ * The bridge from the official forecast to the result for one fiscal year:
+ * one step per yes measure in ballot order (competing measures as one step
+ * spanning their possible outcomes), with signed ranges and running totals.
+ * The running total after the last step equals the year's `generalFund` result.
+ */
+export function bridgeSteps(result: TrialResult, measures: MeasureInput[], fy: string): Bridge | null {
+  const year = result.generalFund.find((y) => y.fy === fy);
+  if (!year || year.baseline === null) return null;
+  const baseline = year.baseline;
+  const yesSet = new Set(result.yes);
+  const yes = measures.filter((m) => yesSet.has(m.ref));
+  const gfYear = (ref: string) => result.contributions.filter((c) => c.ref === ref && c.lane === "general_fund" && c.per === "year");
+  const rangeOf = (m: MeasureInput) =>
+    gfYear(m.ref)
+      .filter((c) => appliesIn(c, fy))
+      .reduce((r, c) => add(r, c.range), ZERO);
+  const applies = (m: MeasureInput) => gfYear(m.ref).some((c) => appliesIn(c, fy));
+
+  const total: Range = { low: baseline, high: baseline };
+  const steps: BridgeStep[] = [{ kind: "start", refs: [], labels: [], label: "Forecast", exclusive: false, delta: ZERO, before: total, after: total, chain: baseline }];
+  const omitted: BridgeOmitted[] = [];
+  let running = total;
+  let chain = baseline;
+  // conflictGroups walks the yes measures in ballot order, so a group sits at its first member.
+  for (const g of conflictGroups(yes)) {
+    if (!g.some(applies)) {
+      for (const m of g) omitted.push(omitReason(m, gfYear(m.ref), fy));
+      continue;
+    }
+    const delta = groupRange(g, rangeOf);
+    const after = add(running, delta);
+    const labels = g.map((m) => m.label);
+    steps.push({ kind: "measure", refs: g.map((m) => m.ref), labels, label: groupLabel(labels), exclusive: g.length > 1, delta, before: running, after, chain });
+    running = after;
+    chain += nearFar(delta).near;
+  }
+  steps.push({ kind: "end", refs: [], labels: [], label: "Result", exclusive: false, delta: ZERO, before: running, after: running, chain });
+  const order = new Map(measures.map((m, i) => [m.ref, i]));
+  omitted.sort((a, b) => order.get(a.ref)! - order.get(b.ref)!);
+  return { fy, baseline, steps, result: running, omitted };
+}
+
+/** Smallest and largest value the drawn bridge reaches: the forecast, each step's start and both ends, the result. */
+export function bridgeExtent(b: Bridge): [number, number] {
+  const vals = [b.baseline, b.result.low, b.result.high];
+  for (const s of b.steps) if (s.kind === "measure") vals.push(s.chain, s.chain + s.delta.low, s.chain + s.delta.high);
+  return [Math.min(...vals), Math.max(...vals)];
+}
+
+export interface BridgeDomain {
+  lo: number;
+  hi: number;
+  /** True when the axis reaches $0; false when it is zoomed in and stops short of it. */
+  zero: boolean;
+}
+
+/**
+ * A fixed axis for one fiscal year, so the bridge doesn't jump while a visitor
+ * answers: the span of the all-yes bridge and every single-yes bridge (plus
+ * the current one), padded. It reaches $0 only when $0 is close; otherwise the
+ * axis is zoomed in and the chart must say so.
+ */
+export function bridgeDomain(measures: MeasureInput[], budget: BudgetInput | null, fy: string, current?: Bridge | null): BridgeDomain | null {
+  const ballots: Array<Record<string, Vote>> = [
+    Object.fromEntries(measures.map((m) => [m.ref, "yes" as Vote])),
+    ...measures.map((m) => ({ [m.ref]: "yes" as Vote })),
+  ];
+  const bridges = ballots.map((v) => bridgeSteps(runTrial(measures, budget, v), measures, fy));
+  if (current) bridges.push(current);
+  let lo = Infinity;
+  let hi = -Infinity;
+  for (const b of bridges) {
+    if (!b) continue;
+    const [a, z] = bridgeExtent(b);
+    lo = Math.min(lo, a);
+    hi = Math.max(hi, z);
+  }
+  if (!Number.isFinite(lo)) return null;
+  const minSpan = Math.max(1_000_000, Math.abs((lo + hi) / 2) * 0.02);
+  if (hi - lo < minSpan) {
+    const mid = (lo + hi) / 2;
+    lo = mid - minSpan / 2;
+    hi = mid + minSpan / 2;
+  }
+  const pad = (hi - lo) * 0.08;
+  lo -= pad;
+  hi += pad;
+  const near = (hi - lo) * 0.25;
+  if (lo - near <= 0 && hi + near >= 0) return { lo: Math.min(lo, 0), hi: Math.max(hi, 0), zero: true };
+  return { lo, hi, zero: false };
 }

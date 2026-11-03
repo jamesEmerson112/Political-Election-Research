@@ -1,44 +1,37 @@
 <script lang="ts">
-  import type { BudgetInput, Range, TrialResult } from "../lib/budgetTrial";
-  import { shareOf } from "../lib/budgetTrial";
+  import type { Bridge, BridgeDomain, TrialResult } from "../lib/budgetTrial";
   import { date } from "../lib/format";
-  import { balance, LANE_LABEL, signedRange, usd, usdRange } from "../lib/measureChips";
+  import { gapLine, LANE_LABEL, signedRange, usd } from "../lib/measureChips";
   import { openDetail } from "../lib/ui.svelte";
+  import BudgetBridge from "./BudgetBridge.svelte";
 
   /**
-   * The running General Fund meter: the official forecast for one fiscal year,
-   * the visitor's choices so far, and the result, all as ranges. One hue for
-   * the choices (--money), gray for the forecast; direction is shown by
-   * position (left of zero = shortfall side) and by words, never by arrows.
+   * The running General Fund meter for one fiscal year: a numbers-first line
+   * (forecast -> result, and how much larger or smaller the gap gets) and the
+   * bridge from the official forecast through each yes measure to the result.
+   * One hue for the measures (--money), gray for the forecast and the result;
+   * direction is shown by position and by words, never by arrows.
    */
   let {
     result,
-    budget,
+    bridge,
+    domain,
     budgetRec,
     fy,
     onfy,
-    scaleMax,
   }: {
     result: TrialResult;
-    budget: BudgetInput | null;
+    bridge: Bridge | null;
+    domain: BridgeDomain | null;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     budgetRec: Record<string, any> | null;
     fy: string | null;
     onfy: (fy: string) => void;
-    scaleMax: number;
   } = $props();
 
   const row = $derived(result.generalFund.find((y) => y.fy === fy) ?? result.generalFund[0] ?? null);
   const i = $derived(row ? result.years.indexOf(row.fy) : -1);
-  const W = 300;
-  const C = W / 2;
-  const x = (v: number) => C + (v / (scaleMax || 1)) * (C - 4);
-  const near = (r: Range) => (Math.abs(r.low) < Math.abs(r.high) ? r.low : r.high);
-  const share = $derived.by(() => {
-    if (!row || (row.delta.low === 0 && row.delta.high === 0)) return null;
-    const s = shareOf(Math.max(Math.abs(row.delta.low), Math.abs(row.delta.high)), budget);
-    return s === null ? null : `${(s * 100).toFixed(s < 0.001 ? 2 : 1)}%`;
-  });
+  const line = $derived(row?.result && row.baseline !== null ? gapLine(row.fy, row.baseline, row.result) : null);
   const lanes = $derived(
     (["set_aside", "dedicated", "other_agency", "bond_debt"] as const)
       .map((l) => ({ l, r: result.perYearOnceInEffect[l] }))
@@ -67,24 +60,18 @@
         <button aria-label="Later fiscal year" disabled={i >= result.years.length - 1} onclick={() => onfy(result.years[i + 1]!)}>›</button>
       </span>
     </div>
-    <dl class="lines">
-      <dt>Official forecast <button class="cite" onclick={forecastSource} aria-label="Forecast source">i</button></dt>
-      <dd class="num">{balance({ low: row.baseline ?? 0, high: row.baseline ?? 0 })}</dd>
-      <dt>Your choices so far</dt>
-      <dd class="num">{signedRange(row.delta)} a year{#if share}<span class="share"> · ≈{share} of the FY{budget?.adoptedGeneralFund?.fy} General Fund</span>{/if}</dd>
-      <dt>With your choices</dt>
-      <dd class="num strong">{row.result ? balance(row.result) : "—"}</dd>
-    </dl>
-    <svg viewBox={`0 0 ${W} 44`} preserveAspectRatio="none" class="bars" role="img" aria-label={`Forecast ${balance({ low: row.baseline ?? 0, high: row.baseline ?? 0 })}; with your choices ${row.result ? balance(row.result) : "unknown"}`}>
-      <rect class="base" x={Math.min(C, x(row.baseline ?? 0))} y="5" width={Math.abs(x(row.baseline ?? 0) - C)} height="12" rx="2" />
-      {#if row.result}
-        <rect class="range" x={Math.min(x(row.result.low), x(row.result.high))} y="25" width={Math.max(2, Math.abs(x(row.result.high) - x(row.result.low)))} height="12" rx="2" />
-        <rect class="you" x={Math.min(C, x(near(row.result)))} y="25" width={Math.abs(x(near(row.result)) - C)} height="12" rx="2" />
-      {/if}
-      <line x1={C} x2={C} y1="1" y2="43" class="zero" />
-    </svg>
-    <div class="axis"><span>← shortfall</span><span>surplus →</span></div>
-    <div class="legend"><span class="sw base"></span> Official forecast <span class="sw you"></span> With your choices <span class="sw range"></span> range</div>
+    {#if line}
+      <p class="gap num">
+        <span class="h">{line.head}:</span>
+        <span>{line.from}</span>
+        <button class="cite" onclick={forecastSource} aria-label="Forecast source">i</button>
+        <span aria-label="to">→</span>
+        <strong>{line.to}</strong>
+        <span class="chg">({line.change}{#if line.pct}, <abbr title="Computed here: the change divided by the forecast amount">{line.pct}</abbr>{/if})</span>
+      </p>
+    {/if}
+    {#if bridge && domain}<BudgetBridge {bridge} {domain} compact />{/if}
+    <p class="fine">The forecast doesn't include ballot measures; the city must adopt a balanced budget each year. The % is the change ÷ the forecast, computed here.</p>
   {:else}
     <p class="muted">No official budget forecast is recorded for this jurisdiction yet, so only the yearly amounts are added up below.</p>
     <dl class="lines">
@@ -131,6 +118,28 @@
     opacity: 0.4;
     cursor: default;
   }
+  .gap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 6px;
+    overflow-wrap: anywhere;
+  }
+  .gap .h {
+    color: var(--ink-2);
+    font-weight: 600;
+  }
+  .gap .chg {
+    color: var(--ink-2);
+  }
+  abbr {
+    text-decoration: underline dotted;
+    cursor: help;
+  }
+  .fine {
+    font-size: 0.7rem;
+    color: var(--muted);
+  }
   .lines {
     display: grid;
     grid-template-columns: minmax(0, auto) minmax(0, 1fr);
@@ -144,12 +153,6 @@
     text-align: right;
     overflow-wrap: anywhere;
   }
-  .strong {
-    font-weight: 700;
-  }
-  .share {
-    color: var(--muted);
-  }
   .cite {
     border: 1px solid var(--line-strong);
     border-radius: 50%;
@@ -159,56 +162,7 @@
     line-height: 1;
     background: var(--surface);
     cursor: pointer;
-    margin-left: 2px;
-  }
-  .bars {
-    width: 100%;
-    height: 44px;
-  }
-  .base {
-    fill: var(--muted);
-  }
-  .you {
-    fill: var(--money);
-  }
-  .range {
-    fill: var(--money);
-    opacity: 0.35;
-  }
-  .zero {
-    stroke: var(--ink-2);
-    stroke-width: 1.5;
-    vector-effect: non-scaling-stroke;
-  }
-  .axis {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.7rem;
-    color: var(--muted);
-  }
-  .legend {
-    font-size: 0.72rem;
-    color: var(--ink-2);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 4px 6px;
-  }
-  .sw {
-    display: inline-block;
-    width: 12px;
-    height: 8px;
-    border-radius: 2px;
-  }
-  .sw.base {
-    background: var(--muted);
-  }
-  .sw.you {
-    background: var(--money);
-  }
-  .sw.range {
-    background: var(--money);
-    opacity: 0.35;
+    align-self: center;
   }
   .lanes {
     display: flex;

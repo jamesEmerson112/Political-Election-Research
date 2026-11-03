@@ -57,7 +57,8 @@ The maintainer asked for the feel of the strategy game **Democracy 3**: icons, n
 - Ranges stay ranges (a lighter band for low-high); never show a midpoint as if it were an estimate.
 - Show "not estimated" and "minimal or no cost" with the same weight as numbers. List measures in ballot order, never sorted by size.
 - Keep the scale fixed while a visitor answers (computed from the all-yes and single-measure extremes), so bars don't jump.
-- Always state next to totals that the forecast excludes ballot measures and that the city must balance each budget. Building blocks: `budgetTrial.ts` (engine), `measureChips.ts`, `BudgetMeter.svelte`, `TrialSummary.svelte`.
+- The General Fund bridge (waterfall: forecast, one step per yes measure, result) may zoom its axis away from $0 so small steps stay visible, but only with a break mark and a note saying where the bars start. Lead with the numbers (`gapLine`: forecast → result, change, % of the forecast labeled as computed).
+- Always state next to totals that the forecast excludes ballot measures and that the city must balance each budget. Building blocks: `budgetTrial.ts` (engine, `bridgeSteps`, `bridgeDomain`), `measureChips.ts` (`gapLine`), `BudgetMeter.svelte`, `BudgetBridge.svelte`, `TrialSummary.svelte`.
 
 ## Color and accessibility rules
 - **Tokens only:** use the tokens in `web/src/app.css` (light, plus dark under `prefers-color-scheme` and `[data-theme]`). Text uses ink tokens (`--ink`, `--ink-2`, `--muted`), never a series color.

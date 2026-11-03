@@ -1,24 +1,36 @@
 <script lang="ts">
-  import type { BudgetInput, MeasureInput, Range, TrialResult, Vote } from "../lib/budgetTrial";
+  import type { Bridge, BridgeDomain, MeasureInput, Range, TrialResult, Vote } from "../lib/budgetTrial";
   import { LANES } from "../lib/budgetTrial";
   import { MARK } from "../lib/marks";
   import { balance, LANE_LABEL, signedRange, usd } from "../lib/measureChips";
   import { hideTip, showTip } from "../lib/ui.svelte";
+  import BudgetBridge from "./BudgetBridge.svelte";
   import StanceMark from "./StanceMark.svelte";
 
   /**
-   * The end of the trial: the General Fund per fiscal year (official forecast
-   * vs. with the visitor's choices, as a range), each measure's share in
-   * ballot order (never sorted by size), the other lanes, and everything the
-   * estimates leave out. One axis; a table view of the same numbers.
+   * The end of the trial: the bridge for the selected fiscal year (forecast,
+   * each yes measure, result) with its table, the General Fund per fiscal
+   * year (official forecast vs. with the visitor's choices, as a range), each
+   * measure's share in ballot order (never sorted by size), the other lanes,
+   * and everything the estimates leave out. One axis per chart; table views of
+   * the same numbers.
    */
   let {
     result,
     measures,
     votes,
     titles,
-  }: { result: TrialResult; measures: MeasureInput[]; votes: Record<string, Vote>; budget: BudgetInput | null; titles: Record<string, string> } =
-    $props();
+    bridge,
+    domain,
+  }: {
+    result: TrialResult;
+    measures: MeasureInput[];
+    votes: Record<string, Vote>;
+    titles: Record<string, string>;
+    bridge: Bridge | null;
+    domain: BridgeDomain | null;
+  } = $props();
+  const stepWord = (r: Range) => (r.low >= 0 ? "revenue or savings" : r.high <= 0 ? "cost" : "cost or revenue");
 
   // ---- chart geometry
   const W = 640;
@@ -64,6 +76,26 @@
     <h2>Your trial ballot: budget effects</h2>
     <p>If every choice you made became law, using the official estimates. Ranges stay ranges; nothing here says how to vote.</p>
   </div>
+
+  {#if bridge && domain}
+    <figure class="panel chart">
+      <figcaption class="eyebrow">General Fund bridge, FY{bridge.fy}: forecast, each Yes in ballot order, result</figcaption>
+      <BudgetBridge {bridge} {domain} />
+    </figure>
+    <div class="scroll-x"><table class="grid num steps">
+      <caption>The bridge as a table: General Fund, FY{bridge.fy}, a year</caption>
+      <thead><tr><th>Step</th><th>Change</th><th>Running total</th></tr></thead>
+      <tbody>
+        {#each bridge.steps as s, k (k)}
+          <tr>
+            <td>{s.kind === "start" ? "Official forecast" : s.kind === "end" ? "With your choices" : s.label}{#if s.exclusive}<span class="muted">{" "}(only one can take effect)</span>{/if}</td>
+            <td>{#if s.kind === "measure"}{signedRange(s.delta)} <span class="muted">{stepWord(s.delta)}</span>{:else if s.kind === "end"}{signedRange({ low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline })}{:else}—{/if}</td>
+            <td>{balance(s.after)}</td>
+          </tr>
+        {/each}
+      </tbody>
+    </table></div>
+  {/if}
 
   {#if n}
     <figure class="panel chart">
@@ -220,6 +252,18 @@
   }
   table.grid {
     font-size: var(--step--1);
+  }
+  caption {
+    text-align: left;
+    font-size: 0.75rem;
+    color: var(--ink-2);
+    padding: 0 0 4px;
+  }
+  @media (max-width: 560px) {
+    .steps th,
+    .steps td {
+      padding: 6px 6px;
+    }
   }
   .list {
     padding: 10px 14px;

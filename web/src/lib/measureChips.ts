@@ -3,23 +3,26 @@
  * needs, who placed it, then one chip per fiscal effect (by lane) as the
  * official statement gives it. Describes; never grades. Pure (no Svelte).
  */
-import type { Range } from "./budgetTrial";
-import type { Chip } from "./officeChips";
+// Type-only imports with .js so tests (NodeNext resolution) can typecheck this file too.
+import type { Range } from "./budgetTrial.js";
+import type { Chip } from "./officeChips.js";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Rec = Record<string, any>;
 
-const compactUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", notation: "compact", maximumFractionDigits: 1 });
+const compactUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", notation: "compact", minimumFractionDigits: 0, maximumFractionDigits: 1 });
 const centsUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
 /** $8M, $1.2B, $950K. */
 export function usd(n: number): string {
-  return compactUsd.format(Math.abs(n));
+  // Round to the dollar first: float sums like 99999999.99 would print as "$100.0M".
+  return compactUsd.format(Math.round(Math.abs(n)));
 }
 /** $8M–$12M, or $21M when low = high. Unsigned. */
 export function usdRange(low: number, high: number): string {
-  const [a, b] = [Math.abs(low), Math.abs(high)].sort((x, y) => x - y);
-  return a === b ? usd(a) : `${usd(a)}–${usd(b)}`;
+  const a = usd(Math.min(Math.abs(low), Math.abs(high)));
+  const b = usd(Math.max(Math.abs(low), Math.abs(high)));
+  return a === b ? a : `${a}–${b}`;
 }
 /** A signed change: "+$28M–$52M", "−$8M–$12M", or "−$12M to +$5M". */
 export function signedRange(r: Range): string {
@@ -34,6 +37,72 @@ export function balance(r: Range): string {
   if (r.high <= 0) return `shortfall ${usdRange(-r.high, -r.low)}`;
   if (r.low >= 0) return `surplus ${usdRange(r.low, r.high)}`;
   return `between a ${usd(-r.low)} shortfall and a ${usd(r.high)} surplus`;
+}
+
+/** The numbers-first line of the meter, in parts (for styling) and as one string. */
+export interface GapLine {
+  /** "Shortfall FY2027-28", "Surplus FY2027-28", or "FY2027-28" when the result crosses zero. */
+  head: string;
+  from: string;
+  to: string;
+  /** "+$4.1M–$4.2M" (the gap's size), or for a zero crossing the signed General Fund change. */
+  change: string;
+  /** "≈0.9% larger", computed as the change ÷ the forecast amount; null when it can't be. */
+  pct: string | null;
+  text: string;
+}
+
+const pctNum = (x: number) => {
+  const p = Math.abs(x) * 100;
+  if (p === 0) return "0";
+  if (p < 0.05) return "<0.1";
+  return p < 10 ? p.toFixed(1) : p.toFixed(0);
+};
+
+/**
+ * Forecast -> result for one fiscal year, numbers first: "Shortfall FY2027-28:
+ * $474.3M → $478.4M–$478.5M (+$4.1M–$4.2M, ≈0.9% larger)". The percentage is
+ * the change relative to the forecast amount. When the result crosses zero (or
+ * the forecast is balanced), it uses the forecast's words instead.
+ */
+export function gapLine(fy: string, baseline: number, result: Range): GapLine {
+  const delta = { low: result.low - baseline, high: result.high - baseline };
+  const sameSide = (baseline < 0 && result.high <= 0) || (baseline > 0 && result.low >= 0);
+  let head: string;
+  let from: string;
+  let to: string;
+  let change: string;
+  let pct: string | null = null;
+  if (sameSide) {
+    const s = baseline < 0 ? -1 : 1;
+    // Size of the shortfall (or surplus) and how it changes; positive = larger.
+    const size = Math.abs(baseline);
+    const a = s * delta.low;
+    const b = s * delta.high;
+    const c = { low: Math.min(a, b), high: Math.max(a, b) };
+    head = `${s < 0 ? "Shortfall" : "Surplus"} FY${fy}`;
+    from = usd(size);
+    to = usdRange(Math.abs(result.low), Math.abs(result.high));
+    if (c.low === 0 && c.high === 0) {
+      change = "no change";
+    } else if (c.low >= 0 || c.high <= 0) {
+      const word = c.low >= 0 ? "larger" : "smaller";
+      change = `${c.low >= 0 ? "+" : "−"}${usdRange(c.low, c.high)}`;
+      const p = pctNum(Math.min(Math.abs(c.low), Math.abs(c.high)) / size);
+      const q = pctNum(Math.max(Math.abs(c.low), Math.abs(c.high)) / size);
+      pct = `≈${p === q ? p : `${p}–${q}`}% ${word}`;
+    } else {
+      change = `−${usd(-c.low)} to +${usd(c.high)}`;
+      pct = `≈${pctNum(c.low / size)}% smaller to ${pctNum(c.high / size)}% larger`;
+    }
+  } else {
+    head = `FY${fy}`;
+    from = balance({ low: baseline, high: baseline });
+    to = balance(result);
+    change = `${signedRange(delta)} a year`;
+  }
+  const text = `${head}: ${from} → ${to} (${change}${pct ? `, ${pct}` : ""})`;
+  return { head, from, to, change, pct, text };
 }
 
 export const MEASURE_TYPE_LABEL: Record<string, string> = {
