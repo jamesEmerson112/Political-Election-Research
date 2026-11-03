@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cbsnews-com-2b8f66bbba",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "CBS News Los Angeles (Associated Press)",
+  "title": "Political Watchdog Recommends Fine Against Wendy Greuel Campaign Donor",
+  "url": "https://www.cbsnews.com/losangeles/news/political-watchdog-recommends-fine-against-wendy-greuel-campaign-donor"
+}

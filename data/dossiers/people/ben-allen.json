@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:ben-allen",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "fppc-stipulation-reduced-rent-2014-campaign-office",
+        "date": "2015-08",
+        "resolution": {
+          "summary": "In the stipulation the respondents agreed to the Commission imposing an administrative penalty of $4,000.",
+          "citations": [
+            {
+              "source": "src:fppc-ca-gov-b93ce06d2b",
+              "quote": "Commission imposing upon them an administrative penalty in the amount of $4,000.",
+              "locator": "p. 2"
+            }
+          ]
+        },
+        "response": {
+          "status": "not_found",
+          "as_of": "2026-11-03",
+          "search_log": [
+            {
+              "date": "2026-11-03",
+              "query": "respondent statement",
+              "where": "FPPC stipulation No. 14/1071 (no public statement in the document)"
+            },
+            {
+              "date": "2026-11-03",
+              "query": "Ben Allen response",
+              "where": "CBS Los Angeles / Associated Press report (no comment from Allen)"
+            },
+            {
+              "date": "2026-11-03",
+              "query": "FPPC Ben Allen Santa Monica campaign headquarters discounted rent fine 2015",
+              "where": "web search"
+            }
+          ]
+        },
+        "summary": "In a Fair Political Practices Commission stipulation (No. 14/1071), Ben Allen, his committee Ben Allen for State Senate 2014 and a property owner agreed that the committee had not timely disclosed in-kind contributions in the form of reduced rent for its campaign headquarters. The Associated Press, via CBS Los Angeles, reported that the FPPC recommended a $4,000 fine.",
+        "title": "FPPC stipulation over reported rent for 2014 campaign headquarters",
+        "citations": [
+          {
+            "source": "src:fppc-ca-gov-b93ce06d2b",
+            "quote": "Allen for State Senate 2014 violated the Act by failing to timely disclose receipt of in kind",
+            "locator": "Exhibit 1, p. 5"
+          },
+          {
+            "source": "src:cbsnews-com-2b8f66bbba",
+            "quote": "The FPPC also recommended a $4,000 fine against the campaign of Sen. Ben Allen, D-Santa Monica, and a Santa Monica property owner for failing to disclose that Allen received discounted rent at his Santa Monica campaign headquarters."
+          }
+        ]
+      }
+    ]
+  }
+}

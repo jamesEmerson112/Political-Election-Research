@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-98ce514c32",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2022-03-18",
+  "publisher": "The San Francisco Standard",
+  "title": "Former supervisor Jane Kim targeted in ethics complaint over Stevenson Street housing project",
+  "url": "https://sfstandard.com/2022/03/18/former-supervisor-jane-kim-targeted-in-ethics-complaint-over-controversial-stevenson-street-project/"
+}

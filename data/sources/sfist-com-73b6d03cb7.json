@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfist-com-73b6d03cb7",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2022-03-18",
+  "publisher": "SFist",
+  "title": "Former SF Supervisor Jane Kim Hit With Ethics Complaint Over Lobbying Against Controversial SoMa High Rise",
+  "url": "https://sfist.com/2022/03/18/former-supe-jane-kim-hit-with-ethics-complaint-over-lobbying-against-controversial-soma-high-rise"
+}
