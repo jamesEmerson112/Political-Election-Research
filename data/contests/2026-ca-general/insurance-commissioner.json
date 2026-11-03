@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/insurance-commissioner",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Insurance Commissioner",
+  "office": "Insurance Commissioner",
+  "candidates": [
+    {
+      "person": "person:ben-allen",
+      "ballot_designation": "California State Senator",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Insurance Commissioner Ben Allen Democratic California State Senator",
+          "locator": "PDF p. 3 (Page 2 of 41), Insurance Commissioner"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF p. 3 (Page 2 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    },
+    {
+      "person": "person:jane-kim",
+      "ballot_designation": "Attorney/Consumer Advocate",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Jane Kim Democratic Attorney/Consumer Advocate",
+          "locator": "PDF p. 3 (Page 2 of 41), Insurance Commissioner"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF p. 3 (Page 2 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "office_ref": "office:california-insurance-commissioner",
+  "last_verified": "2026-11-03"
+}
