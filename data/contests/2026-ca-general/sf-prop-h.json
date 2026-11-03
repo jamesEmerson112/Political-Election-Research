@@ -4,6 +4,86 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition H",
+  "affects": [
+    {
+      "conditional": true,
+      "effect": "pays",
+      "figure": "up to a maximum of $65 per unit per year",
+      "group": "tenants",
+      "text": "Tenants in rent-controlled units with rent set before June 1, 2027 could be charged up to 50% of the tax, at most $65 per unit per year",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Owners could pass up to 50% of the tax onto tenants in rent-controlled units where the rent was set before June 1, 2027, up to a maximum of $65 per unit per year.",
+          "locator": "p. 125, Proposition H digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "pays",
+      "figure": "$129 per year",
+      "group": "property_owners",
+      "text": "Would pay a new annual parcel tax starting at $129 (single-family), $249 (multifamily) or $799 (non-residential and mixed-use)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed tax would start at $129 per year for single-family residential parcel building areas that are up to 3,000 square feet, $249 for multifamily residential parcel building areas that are up to 5,000 square feet and $799 for non-residential parcel and mixed-use parcel building areas up to 5,000 square feet.",
+          "locator": "p. 125, Controller’s Statement on “H”"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "figure": "50% of the parcel tax for a maximum of $65 per unit annually",
+      "group": "property_owners",
+      "text": "Landlords of rent-controlled units could pass up to 50% of the parcel tax through to tenants, at most $65 per unit a year",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Landlords of rent-controlled residential units are limited in the amount of the parcel tax they can pass through to tenants to 50% of the parcel tax for a maximum of $65 per unit annually, unless the unit is exempt from the parcel tax or base rent is set on or after June 1, 2027.",
+          "locator": "p. 125, Controller’s Statement on “H”"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "Duties of the Controller's Office would change",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Note that the proposed measure would change the duties of the Controller’s Office, which has prepared this statement.",
+          "locator": "p. 125, Controller’s Statement on “H”"
+        }
+      ]
+    },
+    {
+      "effect": "receives",
+      "figure": "$177 million annually",
+      "group": "transit_riders",
+      "text": "The tax would generate about $177 million a year for Muni transit service from FY 2027-2028, increasing with inflation",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed parcel tax be approved by the voters, in my opinion, based on currently available parcel data it would generate approximately $177 million annually for Muni transit service starting in Fiscal Year (FY) 2027-2028, and would increase over time as the per parcel taxes are adjusted for inflation each year.",
+          "locator": "p. 125, Controller’s Statement on “H”"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "seniors",
+      "text": "Most homeowners aged 65 or older living in their primary home would get a discount or pay no parcel tax",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Most homeowners aged 65 or older living in their primary home would get a discount or pay no tax.",
+          "locator": "p. 124, Proposition H digest, The Proposal"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

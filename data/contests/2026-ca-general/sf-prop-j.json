@@ -4,6 +4,20 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition J",
+  "affects": [
+    {
+      "effect": "pays",
+      "group": "property_buyers_sellers",
+      "text": "Transfers of commercial, industrial and large residential property to lenders in foreclosure would be taxed on full market value from March 1, 2027",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition J would apply a transfer tax for properties such as commercial, industrial, and large residential real estate that a lender takes through foreclosure or is handed over to the lender to avoid foreclosure. Starting March 1, 2027, these properties would be taxed on their full market value.",
+          "locator": "p. 144, Proposition J digest, The Proposal"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

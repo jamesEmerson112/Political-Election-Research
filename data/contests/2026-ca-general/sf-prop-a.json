@@ -4,6 +4,58 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition A",
+  "affects": [
+    {
+      "effect": "rules_change",
+      "group": "city_employees",
+      "text": "Charter provisions that permit disciplinary action against striking employees, other than Police and Fire, would be removed",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed Charter amendment (1) modifies boards, commissions, and advisory bodies; (2) changes departmental operations and reporting requirements; (3) changes how the Board of Supervisors must approve settlements or dismissals of legal proceedings recommended by the City Attorney; (4) removes provisions allowing disciplinary action against non-Police and Fire striking employees;",
+          "locator": "p. 64, Controller’s Statement on “A”"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "Charter would be aligned with how some departments operate, some commissions eliminated or reorganized, and the Board required to amend voter-approved laws",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition A would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies. Proposition A would require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+          "locator": "p. 64, Proposition A digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "receives",
+      "figure": "$5,000 to $85,000 annually",
+      "group": "commission_members",
+      "text": "Youth Commission members could be paid if policymakers choose, as the restriction on paying them would be removed",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "For example, the proposed Charter amendment removes the restriction on compensating Youth Commission members which may lead to future costs, likely ranging from $5,000 to $85,000 annually, should policymakers seek compensation for the members.",
+          "locator": "p. 65, Controller’s Statement on “A”"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "commission_members",
+      "text": "Membership requirements and responsibilities of the remaining commissions and boards would be updated",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed amendment updates commission responsibilities and membership requirements for remaining commissions and boards but will not directly impact the total cost to government.",
+          "locator": "p. 65, Controller’s Statement on “A”"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

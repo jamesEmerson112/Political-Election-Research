@@ -4,6 +4,44 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition G",
+  "affects": [
+    {
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "The City would be required to obtain all needed approvals, including any Coastal Act permits, to reopen the roadway to private vehicles",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G would require the City to obtain all necessary approvals, including any permits required by the California Coastal Act or from other government agencies, to reopen the roadway known as the Upper Great Highway to private vehicles.",
+          "locator": "p. 108, Proposition G digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "drivers",
+      "text": "The Upper Great Highway would reopen to private vehicles from Monday 4:00 a.m. to Friday 6:00 p.m., except on weekday holidays",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+          "locator": "p. 108, Proposition G digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "park_visitors",
+      "text": "Sunset Dunes Park would be shut to park use from Monday 4:00 a.m. to Friday 6:00 p.m., except on weekday holidays",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+          "locator": "p. 108, Proposition G digest, The Proposal"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

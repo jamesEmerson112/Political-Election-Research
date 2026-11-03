@@ -4,6 +4,32 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition E",
+  "affects": [
+    {
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "City Administrator would get more authority over purchasing rules; how those rules are approved and when contracts and leases need Board approval would change",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to give the City Administrator more authority by centralizing the City’s Purchasing rules and processes, changing how the City approves Purchasing rules, changing when contracts and leases require Board approval, and extending the City Administrator’s term.",
+          "locator": "p. 95, Proposition E digest, A “YES” Vote Means"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "contractors_vendors",
+      "text": "Only the City Administrator would propose ordinances that change how the City selects contractors and enters into contracts",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Give the City Administrator exclusive authority to propose ordinances that change how the City selects contractors and enters into contracts for goods, services, construction, and grants (Purchasing).",
+          "locator": "p. 94, Proposition E digest, The Proposal"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

@@ -4,6 +4,82 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition I",
+  "affects": [
+    {
+      "effect": "receives",
+      "figure": "At least 10%",
+      "group": "tenants",
+      "text": "At least 10% of the new tax's revenue would go to tenant stabilization and homeless prevention, at least half of that to eviction defense and prevention",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "At least 10% to tenant stabilization/homeless prevention programs, with at least half to eviction defense and prevention;",
+          "locator": "p. 132, Proposition I digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "pays",
+      "group": "property_buyers_sellers",
+      "text": "Would pay the transfer tax rates set in November 2020 at lowered levels plus a new tax at near identical rates, usable only for affordable housing",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The ordinance would lower the City’s General Fund Real Property Transfer Tax rates established by Proposition I in November 2020 and subsequently establish a new Real Property Transfer Tax at near identical rates, which could only be used for specific affordable housing programs.",
+          "locator": "p. 133, Controller’s Statement on “I”"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "property_buyers_sellers",
+      "text": "The first sale of certain multifamily property within 5 years of completing new units would be exempt from the new tax",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The new transfer tax would also exempt the first sale of certain multifamily real estate if it is sold within 5 years of completion of new residential units.",
+          "locator": "p. 132, Proposition I digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "Without voter approval, the Board would be limited to amending the transfer tax for its stated purposes and no longer able to reduce, suspend or repeal it",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed ordinance would allow the Board of Supervisors to amend the Real Property Transfer Tax without voter approval only to exempt rent-restricted affordable housing or to make other changes consistent with the stated purposes of the House SF Tax. However, it would remove the existing authority of the Board of Supervisors to reduce, suspend, or repeal the Real Property Transfer Tax without voter approval.",
+          "locator": "p. 133, Controller’s Statement on “I”"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "voters_petitioners",
+      "text": "Voter approval would be required for any transfer tax change not consistent with the tax's purpose",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Board could only change the transfer tax consistent with the purpose of the tax. All other changes would require voter approval.",
+          "locator": "p. 132, Proposition I digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "receives",
+      "figure": "half of the transfer tax revenues",
+      "group": "lower_income_households",
+      "text": "Half of transfer tax revenue from sales over $10 million would be spent only on affordable housing, including social housing and housing assistance",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition I would dedicate half of the transfer tax revenues when certain real estate with a value or sales price of more than $10,000,000 changes hands, to be spent only on affordable housing, including social housing developments and housing assistance.",
+          "locator": "p. 132, Proposition I digest, The Proposal"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

@@ -4,6 +4,74 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition B",
+  "affects": [
+    {
+      "conditional": true,
+      "effect": "receives",
+      "group": "businesses",
+      "text": "Businesses in the City could get services from the MFC or public bank, including support for small business development",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The MFC and public bank would provide services to support: • affordable housing development, • affordable homeownership, • small business development, • environmental sustainability, and • environmental justice. These services would be available to individual City residents and to projects and businesses located in the City.",
+          "locator": "p. 70, Proposition B digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "Treasurer-Tax Collector would decide if funding is adequate; an MFC and an MFC Oversight Commission could then be set up",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed Charter amendment sets up the governance framework for a new MFC and Public Bank. If the Charter amendment is approved, and the Treasurer-Tax Collector determines that adequate funding exists, the MFC and an MFC Oversight Commission may be established.",
+          "locator": "p. 70, Controller’s Statement on “B”"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "receives",
+      "group": "commission_members",
+      "text": "Members of an MFC or Bank Oversight Commission could receive stipends",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Finally, the MFC and Public Bank would require an MFC Oversight Commission or Bank Oversight Commission which could cost between $550,000 to $600,000 annually for staff salaries, commissioner stipends, and operating costs.",
+          "locator": "p. 71, Controller’s Statement on “B”"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "group": "commission_members",
+      "text": "If set up, each oversight commission's members would be appointed by the Board, Mayor, Treasurer-Tax Collector, Controller and City Attorney",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The members of each oversight commission would be appointed by the Board of Supervisors, Mayor, Treasurer-Tax Collector, Controller, and City Attorney.",
+          "locator": "p. 70, Proposition B digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "receives",
+      "group": "other",
+      "label": "City residents",
+      "text": "If the City sets up the MFC or public bank, its services, such as for affordable housing and homeownership, would be available to residents",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The MFC and public bank would provide services to support: • affordable housing development, • affordable homeownership, • small business development, • environmental sustainability, and • environmental justice. These services would be available to individual City residents and to projects and businesses located in the City.",
+          "locator": "p. 70, Proposition B digest, The Proposal"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

@@ -4,6 +4,46 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition C",
+  "affects": [
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "Mayor or Board could introduce ordinances in the annual budget process to temporarily freeze or reduce the City's Fund contributions",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed Charter amendment allows the Mayor or the Board of Supervisors to introduce ordinances during the annual budget process to temporarily freeze or reduce the City’s annual contributions.",
+          "locator": "p. 79, Controller’s Statement on “C”"
+        }
+      ]
+    },
+    {
+      "effect": "receives",
+      "group": "lower_income_households",
+      "text": "Housing Trust Fund money for affordable housing would increase, its programs would expand, and its expiration date would be extended",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition C would change how the City’s annual contributions to the Housing Trust Fund (HTF) are set, increase funding and expand programs for affordable housing, and extend the Fund’s expiration date.",
+          "locator": "p. 78, Proposition C digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "figure": "from 120% to 200% of AMI",
+      "group": "lower_income_households",
+      "text": "Household income limit for downpayment assistance loans would rise from 120% to 200% of Area Median Income; the Board would be able to change it",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "raising the household income limit for downpayment assistance loans from 120% to 200% of AMI, and allow the Board of Supervisors to change that limit by ordinance;",
+          "locator": "p. 78, Proposition C digest, The Proposal"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

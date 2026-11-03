@@ -4,6 +4,33 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition D",
+  "affects": [
+    {
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "The Mayor, and four or more supervisors without a Board vote, would no longer be able to place measures on the ballot; a Board majority still would",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition D would also change the requirements to put measures on the ballot by: • Removing the ability of four or more Board members to place a measure on the ballot without a Board vote; • Removing the ability of the Mayor to independently place a measure on the ballot; The Board could still place measures on the ballot by a majority vote.",
+          "locator": "p. 84, Proposition D digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "figure": "from 2% to 8%",
+      "group": "voters_petitioners",
+      "text": "Initiatives would need signatures from 8% of registered voters, not 2%; special elections would have higher requirements; initiatives would be withdrawable",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to increase the requirements for signature initiatives from 2% to 8% of registered voters (currently from about 10,600 to about 42,500 signatures), increase the requirements for special elections, allow signature initiatives to be withdrawn, and remove the ability of a minority of Board members or the Mayor to place measures on the ballot.",
+          "locator": "p. 84, Proposition D digest, A “YES” Vote Means"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",

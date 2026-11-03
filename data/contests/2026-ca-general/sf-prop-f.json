@@ -4,6 +4,47 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition F",
+  "affects": [
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "group": "city_employees",
+      "text": "Mayor could hire deputy mayors to supervise most Charter departments, and hire some and fire most department heads without board or commission involvement",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Deputy Mayors: Hire deputy mayors to supervise most departments established by the Charter. • Department Heads: Hire some and fire most department heads without board or commission involvement.",
+          "locator": "p. 100, Proposition F digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "Mayor could restructure departments and reorient reporting relationships within the executive branch",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed Charter amendment allows the Mayor to restructure departments and reorient reporting relationships within the executive branch.",
+          "locator": "p. 101, Controller’s Statement on “F”"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "group": "commission_members",
+      "text": "Members of most boards and commissions could be removed at any time without cause by the officials who appoint them",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Commissioners: In addition to the Mayor, the Board and other officials who appoint board and commission members could remove them at any time without cause. This does not apply to the Board of Appeals, Civil Service Commission, or Ethics Commission.",
+          "locator": "p. 100, Proposition F digest, The Proposal"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",
