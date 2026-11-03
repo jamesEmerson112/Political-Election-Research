@@ -76,6 +76,37 @@
           "locator": "PDF page 2 (Page 1 of 41), Governor (party preference)"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "residence city",
+          "where": "stevehiltonforgovernor.com/meet-steve and home page (campaign; only a P.O. Box for contributions)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton address",
+          "where": "2026 General Election Official Voter Information Guide, p. 83 (no candidate statement)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton lives city",
+          "where": "The Telegraph via Yahoo (says 'lives on the West Coast'), Capitol Weekly (family moved to Silicon Valley in 2012), Santa Barbara Independent, KATV/AP"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton governor candidate home San Mateo County OR Woodside OR Atherton residence",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton for Governor 2026 Form 501",
+          "where": "cal-access.sos.ca.gov (candidate filings; blocked by bot challenge)"
+        }
+      ]
     }
   },
   "ids": [
