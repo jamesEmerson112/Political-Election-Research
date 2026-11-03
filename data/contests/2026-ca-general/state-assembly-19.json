@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/state-assembly-19",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "State Assembly Member, District 19",
+  "office": "State Assembly Member",
+  "candidates": [
+    {
+      "person": "person:catherine-stefani",
+      "ballot_designation": "Assemblymember",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "State Assembly Member District 19 Catherine Stefani* Democratic Assemblymember",
+          "locator": "PDF page 22 (list page 21 of 41), State Assembly Member District 19; the page's legend reads \"* Incumbent\""
+        },
+        {
+          "source": "src:assembly-ca-gov-ef274eac9b",
+          "quote": "Catherine Stefani District: 19 Party: Democrat",
+          "locator": "Member page header"
+        }
+      ]
+    },
+    {
+      "person": "person:philip-louis-wing",
+      "ballot_designation": "Retired Financial Advisor",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Catherine Stefani* Democratic Assemblymember Philip Louis Wing Republican Retired Financial Advisor",
+          "locator": "PDF page 22 (list page 21 of 41), State Assembly Member District 19 (no incumbent mark on this name)"
+        },
+        {
+          "source": "src:assembly-ca-gov-ef274eac9b",
+          "quote": "Catherine Stefani District: 19 Party: Democrat",
+          "locator": "Member page header: the current District 19 member is another person"
+        }
+      ]
+    }
+  ],
+  "district": 19,
+  "level": "state",
+  "office_ref": "office:california-assembly-member",
+  "last_verified": "2026-11-03"
+}

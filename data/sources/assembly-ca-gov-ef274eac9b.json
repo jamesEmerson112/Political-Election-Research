@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "assembly-ca-gov-ef274eac9b",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Assembly",
+  "title": "Assembly Member Stefani",
+  "url": "https://www.assembly.ca.gov/assemblymembers/19"
+}
