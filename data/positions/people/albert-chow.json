@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:albert-chow",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "mixed",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Says he could not support the Mayor's Family Zoning Plan because residents did not get to give input; says the Sunset must contribute housing sites and favors developing under-utilized sites and higher density along commercial corridors, while opposing what he calls wholesale bulldozing of neighborhoods for high rises.",
+      "citations": [
+        {
+          "source": "src:albertchowsf-com-2b0394c89e",
+          "quote": "That’s why I could not support the Mayor’s so-called Family Zoning Plan.",
+          "locator": "The Right Housing Solutions"
+        },
+        {
+          "source": "src:albertchowsf-com-2b0394c89e",
+          "quote": "While I believe that the Sunset must contribute sites to meet housing goals the state is requiring of us – because the alternative for our community would be worse – there is a right way and a wrong way to get there.",
+          "locator": "The Right Housing Solutions"
+        },
+        {
+          "source": "src:albertchowsf-com-2b0394c89e",
+          "quote": "To me, that means developing under-utilized sites like the former Walgreens on Noriega or building higher density along our commercial corridors without destroying neighborhood storefronts. What we should never allow is wholesale bulldozing of our neighborhoods to create a wall of high rises that turn the Sunset into Miami Beach.",
+          "locator": "The Right Housing Solutions"
+        }
+      ]
+    }
+  ]
+}
