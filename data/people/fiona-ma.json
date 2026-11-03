@@ -25,6 +25,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "New York",
+      "citations": [
+        {
+          "source": "src:fionama-com-b729616346",
+          "quote": "Born in New York, Fiona graduated from accounting major of Rochester Institute of Technology (URI)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
