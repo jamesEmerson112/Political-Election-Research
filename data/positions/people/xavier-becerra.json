@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:xavier-becerra",
+  "positions": [
+    {
+      "subject": "q:housing/transit-oriented-upzoning",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Becerra's housing platform says his administration will expand by-right approvals near jobs and transit and build on SB 79 by seeking to end exclusionary zoning around more types of transit.",
+      "citations": [
+        {
+          "source": "src:xavierbecerra2026-com-dcb4ce47e7",
+          "quote": "My administration will pursue zoning reform, expand by-right approvals near jobs and transit, and improve the laws allowing entry-level ownership options like duplexes and small condos.",
+          "locator": "Policy Agenda, Reform Zoning to Unlock Housing Supply"
+        },
+        {
+          "source": "src:xavierbecerra2026-com-dcb4ce47e7",
+          "quote": "my administration will build off the success of SB 79 by seeking to end exclusionary zoning around more types of transit and in high-opportunity areas, where children have access to the best schools.",
+          "locator": "Policy Agenda, Reform Zoning to Unlock Housing Supply"
+        }
+      ]
+    }
+  ]
+}
