@@ -530,6 +530,17 @@
           "where": "San Francisco Ethics Commission filers dataset on DataSF (data.sfgov.org/resource/4c8t-ngau): no committee for this candidate and contest, so no Form 460 contributions to record (see the committee task's exhausted entry)"
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/sf-community-college-board|contributions|person:lisa-p-wynn-ii",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "College Board 2026; Wynn",
+          "where": "San Francisco Ethics Commission filers dataset on DataSF (data.sfgov.org/resource/4c8t-ngau): no committee for this contest (only a terminated 2026 Board of Supervisors committee), so no Form 460 contributions to record (see the committee task's exhausted entry)"
+        }
+      ]
     }
   ],
   "measures": [],
