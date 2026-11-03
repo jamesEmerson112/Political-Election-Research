@@ -46,6 +46,7 @@
         "issue": "education",
         "summary": "LaCroix's questionnaire lists adding classes back to the schedule among her top three issues; her statement lists ensuring the courses students need are offered.",
         "title": "Add classes back to the schedule",
+        "topic": "classes-and-sections",
         "citations": [
           {
             "source": "src:assets-nationbuilder-com-042dbf9aad",
@@ -65,6 +66,7 @@
         "issue": "education",
         "summary": "LaCroix's questionnaire says she would advocate against cuts and push to reopen the Downtown campus.",
         "title": "Push to reopen the Downtown campus",
+        "topic": "downtown-campus",
         "citations": [
           {
             "source": "src:assets-nationbuilder-com-042dbf9aad",
@@ -79,6 +81,7 @@
         "issue": "transportation",
         "summary": "The Guardsman reported that LaCroix will work to keep Free City funded, work with SFUSD on college readiness and advocate for free transit passes for students.",
         "title": "Advocate for free transit passes for students",
+        "topic": "student-transit",
         "citations": [
           {
             "source": "src:theguardsman-com-35605ece64",
@@ -92,6 +95,7 @@
         "issue": "education",
         "summary": "The Guardsman reported that LaCroix plans to consult student leaders and the AFT 2121 and SEIU 1021 unions on big decisions.",
         "title": "Consult student leaders and unions on major decisions",
+        "topic": "student-and-employee-voice",
         "citations": [
           {
             "source": "src:theguardsman-com-35605ece64",
