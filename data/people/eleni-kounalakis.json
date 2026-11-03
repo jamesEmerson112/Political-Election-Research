@@ -26,6 +26,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Lieutenant Governor of California",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Eleni Kounalakis Democratic\nLieutenant Governor of California",
+          "locator": "page 2 (ballot designation, the candidate's self-description)"
+        },
+        {
+          "source": "src:ltg-ca-gov-d03a49d066",
+          "quote": "Ambassador Eleni Kounalakis was sworn in as the 50th Lieutenant Governor of California by Governor Gavin Newsom on January 7th, 2019."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
