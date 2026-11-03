@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "fiona-ma",
+  "name": "Fiona Ma",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q2355703",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://fionama.com/",
+    "official_site": "https://www.treasurer.ca.gov/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
