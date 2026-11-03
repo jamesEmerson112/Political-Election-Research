@@ -3,6 +3,79 @@
   "id": "richard-barrera",
   "name": "Richard Barrera",
   "aliases": [],
+  "candidate_profile": {
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "institution": "UC San Diego",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "A UC San Diego graduate with a Masters from Harvard",
+              "locator": "Candidate statement, p. 95"
+            }
+          ]
+        },
+        {
+          "degree": "Master's",
+          "institution": "Harvard",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "A UC San Diego graduate with a Masters from Harvard",
+              "locator": "Candidate statement, p. 95"
+            }
+          ]
+        }
+      ]
+    },
+    "occupation": {
+      "value": "State Superintendent Advisor (ballot designation)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Richard Barrera Non-Partisan State Superintendent Advisor"
+        }
+      ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Member and President, San Diego Unified School District Board of Education",
+          "current": true,
+          "jurisdiction": "San Diego Unified School District",
+          "start": "2008",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "An 18-year veteran of the San Diego Unified School Board (and current President)",
+              "locator": "Candidate statement, p. 95"
+            },
+            {
+              "source": "src:barreraforedu-com-f74f752c29",
+              "quote": "In 2008, Richard Barrera was an elected democrat to the Board of the San Diego Unified, California’s second largest school District."
+            }
+          ]
+        }
+      ]
+    },
+    "party_registration": {
+      "value": "Democratic (self-described; the office is nonpartisan)",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Democrat Richard Barrera led the reform effort",
+          "locator": "Candidate statement, p. 95"
+        },
+        {
+          "source": "src:barreraforedu-com-f74f752c29",
+          "quote": "In 2008, Richard Barrera was an elected democrat to the Board of the San Diego Unified"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.barreraforedu.com/"
