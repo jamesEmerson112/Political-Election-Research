@@ -62,7 +62,7 @@
 
 ### In progress (2026-11-03)
 - **Ballot arguments for Props A–J:** extraction running, then a verbatim check (`scratchpad/tools/write_sf_arguments.ts`) and import.
-- **Budget meter:** the bridge (waterfall) chart plus a numbers-first gap line. Done 2026-11-03: bars from $0 (no zoom), the shortfall drawn as a positive amount, the per-year chart as paired bars with a sentence, and the years selectable there. Still open: keyboard access to the bridge's steps (the hover tooltips are mouse-only), and statewide propositions in the trial (needs the state budget as a base).
+- **Budget meter:** the bridge (waterfall) chart plus a numbers-first gap line. Done 2026-11-03: the bridge's bars start at $0 (no zoom), with the shortfall drawn as a positive amount; both charts label $0 "Balanced: $0 shortfall"; the per-year chart is a dashed forecast line and a band (red below $0) under a computed sentence, with its years selectable; and the summary draws the bridge once (the meter keeps only its headline there). Still open: keyboard access to the bridge's steps (the hover tooltips are mouse-only), and statewide propositions in the trial (needs the state budget as a base).
 - **Tonight's impact-research run:**
   - finish the design;
   - add the impact data fields;

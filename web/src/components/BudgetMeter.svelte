@@ -78,7 +78,7 @@
           <button class="cite" onclick={forecastSource} aria-label="Forecast source">i</button>
           <span aria-label="to">→</span>
           <strong>{line.to}</strong>
-          <span class="chg">({line.change})</span>
+          <span class="chg nw">({line.change})</span>
         {:else}
           <span class="h">{line.head}</span>
           {#if line.mode === "pct"}
@@ -89,7 +89,7 @@
           <span class="dollars">
             {line.from}
             <button class="cite" onclick={forecastSource} aria-label="Forecast source">i</button>
-            {#if line.mode === "pct"}<span aria-label="to">→</span> {line.to} ({line.change}){/if}
+            {#if line.mode === "pct"}<span class="nw"><span aria-label="to">→</span> {line.to}</span> <span class="nw">({line.change})</span>{/if}
           </span>
         {/if}
       </p>
@@ -213,5 +213,9 @@
     color: var(--ink-2);
     border-top: 1px solid var(--line);
     padding-top: 6px;
+  }
+  /* Keep an amount, a range and its change whole on narrow screens (no "(−" left at a line end). */
+  .nw {
+    white-space: nowrap;
   }
 </style>
