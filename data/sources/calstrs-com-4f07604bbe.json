@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calstrs-com-4f07604bbe",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Teachers' Retirement System (CalSTRS)",
+  "title": "Malia M. Cohen",
+  "url": "https://www.calstrs.com/malia-m-cohen",
+  "notes": "Official CalSTRS board-member biography page."
+}

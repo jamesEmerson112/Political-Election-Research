@@ -18,6 +18,40 @@
           "quote": "Malia was born and raised in San Francisco and attended public schools in the City."
         }
       ]
+    },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Bachelor’s degree in Political Science",
+          "institution": "Fisk University",
+          "citations": [
+            {
+              "source": "src:ftb-ca-gov-50ecd001d4",
+              "quote": "She received her bachelor’s degree in Political Science from Fisk University and a master’s degree in Public Policy and Management from Carnegie Mellon University."
+            },
+            {
+              "source": "src:calstrs-com-4f07604bbe",
+              "quote": "She has a bachelor's degree in political science from Fisk University and a master's degree in public policy and management from Carnegie Mellon University."
+            }
+          ]
+        },
+        {
+          "degree": "Master of Science in Public Policy and Management",
+          "institution": "Carnegie Mellon University, Heinz College",
+          "year": 2008,
+          "citations": [
+            {
+              "source": "src:cmu-edu-72d7fa698d",
+              "quote": "Malia M. Cohen (HNZ 2008)"
+            },
+            {
+              "source": "src:cmu-edu-72d7fa698d",
+              "quote": "Malia completed her undergraduate studies in political science at Fisk University before pursuing a master of science in public policy and management from Carnegie Mellon’s Heinz College of Information Systems and Public Policy."
+            }
+          ]
+        }
+      ]
     }
   },
   "ids": [
