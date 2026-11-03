@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "alan-wong",
+  "name": "Alan Wong",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q137393386",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://alanwong.com/",
+    "official_site": "https://www.sf.gov/district-4-supervisor-alan-wong"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
