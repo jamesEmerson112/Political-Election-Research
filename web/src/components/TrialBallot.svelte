@@ -145,7 +145,20 @@
           <span class="muted num">{step + 1} of {measures.length}</span>
           <OfficeChips chips={measureFactChips(rec)} />
         </div>
-        <h3 bind:this={headEl} tabindex="-1">{titles[current.ref]}</h3>
+        {#snippet voteButtons(where: string)}
+          <button class="ans yes" class:on={votes[current.ref] === "yes"} aria-pressed={votes[current.ref] === "yes"} aria-label={`Yes on ${label(current.ref)}${where}`} onclick={() => answer("yes")}
+            ><StanceMark mark={MARK["support"]!} size={15} /> Yes</button
+          >
+          <button class="ans no" class:on={votes[current.ref] === "no"} aria-pressed={votes[current.ref] === "no"} aria-label={`No on ${label(current.ref)}${where}`} onclick={() => answer("no")}
+            ><StanceMark mark={MARK["oppose"]!} size={15} /> No</button
+          >
+          <button class="ans" class:on={votes[current.ref] === "skip"} aria-pressed={votes[current.ref] === "skip"} aria-label={`Skip ${label(current.ref)}${where}`} onclick={() => answer("skip")}>Skip</button>
+        {/snippet}
+        <!-- Vote right at the title too, without scrolling to the bar at the bottom. -->
+        <div class="titlerow">
+          <h3 bind:this={headEl} tabindex="-1">{titles[current.ref]}</h3>
+          <div class="answers quick">{@render voteButtons(" (top)")}</div>
+        </div>
         <p class="sum">{rec["summary"]?.["value"] ?? ""}</p>
         <div class="fiscal">
           <OfficeChips chips={fiscalChips(rec, label, budgetBase(group.budget))} />
@@ -173,9 +186,7 @@
               )}/yr{/if}
           </p>
           <div class="answers">
-            <button class="ans yes" class:on={votes[current.ref] === "yes"} onclick={() => answer("yes")}><StanceMark mark={MARK["support"]!} size={15} /> Yes</button>
-            <button class="ans no" class:on={votes[current.ref] === "no"} onclick={() => answer("no")}><StanceMark mark={MARK["oppose"]!} size={15} /> No</button>
-            <button class="ans" class:on={votes[current.ref] === "skip"} onclick={() => answer("skip")}>Skip</button>
+            {@render voteButtons("")}
             {#if step > 0}<button class="link back" onclick={back}>‹ Back</button>{/if}
           </div>
         </div>
@@ -223,6 +234,21 @@
   .gapline .pct {
     color: var(--ink);
     font-size: 1rem;
+  }
+  .titlerow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 6px 14px;
+  }
+  .titlerow h3 {
+    flex: 1 1 22rem;
+    min-width: 0;
+  }
+  .answers.quick {
+    padding-top: 0;
+    flex: 0 0 auto;
   }
   h3:focus {
     outline: none;
