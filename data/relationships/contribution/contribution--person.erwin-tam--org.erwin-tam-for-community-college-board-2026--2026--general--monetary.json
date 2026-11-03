@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.erwin-tam--org.erwin-tam-for-community-college-board-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:erwin-tam",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1000000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-28",
+      "start": "2026-01-01"
+    }
+  },
+  "recipient": "org:erwin-tam-for-community-college-board-2026",
+  "citations": [
+    {
+      "source": "src:data-sfgov-org-2be0e29923",
+      "locator": "Schedule A, transaction X3PrDRdGmm9v (2026-09-01, $10000.00)"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
