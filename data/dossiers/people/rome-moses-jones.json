@@ -46,6 +46,7 @@
         "issue": "education",
         "summary": "Jones's questionnaire says he would push for stable funding, protect Free City, and base scheduling decisions on student demand.",
         "title": "Keep a large and diverse class catalog",
+        "topic": "classes-and-sections",
         "citations": [
           {
             "source": "src:assets-nationbuilder-com-2826f6c594",
@@ -65,6 +66,7 @@
         "issue": "transportation",
         "summary": "Jones's questionnaire says he would work with the city, Muni and partners to improve transit access and expand discounted or free transit options.",
         "title": "Expand transit options for students",
+        "topic": "student-transit",
         "citations": [
           {
             "source": "src:assets-nationbuilder-com-2826f6c594",
@@ -79,6 +81,7 @@
         "issue": "education",
         "summary": "Jones's questionnaire says he would push for long-term planning that centers community use of campuses and expands partnerships.",
         "title": "Maximize the use of City College campuses",
+        "topic": "campus-use",
         "citations": [
           {
             "source": "src:assets-nationbuilder-com-2826f6c594",
@@ -93,6 +96,7 @@
         "issue": "housing",
         "summary": "The Guardsman reported that Jones said the college should pursue student and educator housing if it is an option, or partnerships with developers.",
         "title": "Pursue student and educator housing",
+        "topic": "housing",
         "citations": [
           {
             "source": "src:theguardsman-com-7a45204fbc",
