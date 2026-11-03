@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "nicholas-berg",
+  "name": "Nicholas Berg",
+  "aliases": [
+    "Nick Berg"
+  ],
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
