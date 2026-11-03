@@ -4,6 +4,26 @@
   "name": "Ellsworth \"Ell\" M. Jennison, Jr.",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "Carpenter",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My occupation is Carpenter.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 49 (PDF p. 51)"
+            },
+            {
+              "source": "src:api-sf-gov-cd997081d7",
+              "quote": "ELLSWORTH \"ELL\" M. JENNISON, JR. 小埃爾斯沃思‧「埃爾」‧M‧詹尼森 Union Carpenter",
+              "locator": "p. 1, Board of Supervisors, District 10 table (English ballot designation)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Carpenter (ballot designation: Union Carpenter)",
       "citations": [
