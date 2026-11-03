@@ -16,6 +16,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Hope, Arkansas",
+      "citations": [
+        {
+          "source": "src:sos-ca-gov-161c0c969c",
+          "quote": "Dr. Weber was born to sharecroppers in Hope, Arkansas during the segregationist Jim Crow era.",
+          "locator": "Biography"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-03",
       "items": [
