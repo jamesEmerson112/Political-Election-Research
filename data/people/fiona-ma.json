@@ -49,6 +49,118 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "California State Treasurer",
+          "current": true,
+          "first_elected": "2018",
+          "jurisdiction": "California",
+          "office_ref": "office:california-treasurer",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "Fiona Ma is California’s 34th State Treasurer. She was elected on November 6, 2018",
+              "locator": "page 1"
+            }
+          ]
+        },
+        {
+          "office": "Member, California State Board of Equalization",
+          "end": "2019-01",
+          "jurisdiction": "California",
+          "office_ref": "office:california-board-of-equalization-member",
+          "start": "2015",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "she was an elected member of the California Board of Equalization from 2015 until January 2019",
+              "locator": "page 2"
+            }
+          ]
+        },
+        {
+          "office": "Chairperson, California State Board of Equalization",
+          "current": false,
+          "jurisdiction": "California",
+          "start": "2016",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "Upon being selected Chairperson of the Board of Equalization in 2016",
+              "locator": "page 2"
+            }
+          ]
+        },
+        {
+          "office": "Member, California State Assembly",
+          "end": "2012",
+          "jurisdiction": "California",
+          "office_ref": "office:california-assembly-member",
+          "start": "2006",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "Treasurer Ma was a member of the State Assembly from 2006-2012, serving as Speaker pro Tempore from 2010 to 2012.",
+              "locator": "page 1"
+            }
+          ]
+        },
+        {
+          "office": "Speaker pro Tempore, California State Assembly",
+          "end": "2012",
+          "jurisdiction": "California",
+          "start": "2010",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "Treasurer Ma was a member of the State Assembly from 2006-2012, serving as Speaker pro Tempore from 2010 to 2012.",
+              "locator": "page 1"
+            }
+          ]
+        },
+        {
+          "office": "Assembly Majority Whip",
+          "current": false,
+          "jurisdiction": "California",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "Prior to serving as Speaker pro Tempore, she was Assembly Majority Whip",
+              "locator": "page 1"
+            }
+          ]
+        },
+        {
+          "office": "Member, San Francisco Board of Supervisors",
+          "end": "2006",
+          "jurisdiction": "San Francisco",
+          "office_ref": "office:san-francisco-supervisor",
+          "start": "2002",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "From 2002-2006, she served on the San Francisco Board of Supervisors",
+              "locator": "page 1"
+            }
+          ]
+        },
+        {
+          "office": "Member, Assessment Appeals Board of San Francisco",
+          "current": false,
+          "jurisdiction": "San Francisco",
+          "start": "1995",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "Also in 1995, she was appointed to the Assessment Appeals Board of San Francisco by the San Francisco Board of Supervisors.",
+              "locator": "page 2"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
