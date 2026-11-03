@@ -16,6 +16,7 @@
   import OfficeChips from "./OfficeChips.svelte";
   import StanceMark from "./StanceMark.svelte";
   import TrialSummary from "./TrialSummary.svelte";
+  import MeasureComparison from "./MeasureComparison.svelte";
 
   /**
    * "Try your ballot": one measure at a time (Yes / No / Skip) with a running
@@ -177,6 +178,11 @@
           <span class="eyebrow">Who it affects</span>
           <AffectedGroups affects={rec["affects"]} args={rec["arguments"]} title={name} />
         </section>
+        {#if rec["comparison"]}
+          <section class="part">
+            <MeasureComparison cmp={rec["comparison"]} measure={name} />
+          </section>
+        {/if}
         {#if rec["arguments"]?.length}
           <section class="part">
             <span class="eyebrow">Arguments, side by side</span>
