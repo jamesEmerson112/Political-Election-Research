@@ -3,6 +3,44 @@
   "actor": "person:xavier-becerra",
   "positions": [
     {
+      "subject": "q:homelessness/encampment-enforcement-funding",
+      "stance": "no_public_position",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Becerra candidate statement (none submitted)",
+          "where": "Official Voter Information Guide (vig.cdn.sos.ca.gov), candidate statements p. 83"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "encampment, enforcement, conditions on state homelessness funding",
+          "where": "xavierbecerra2026.com/priorities/homelessness/ and /priorities/housing/"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "encampments, funding conditions",
+          "where": "xavierbecerra2026.com post sitemap and news room, incl. Feb. 3, 2026 debate homelessness clip (KTVU) and Sept. 30, 2026 debate release"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Becerra encampments funding",
+          "where": "CNN debate Sept. 30, 2026 coverage: AP via Scripps News, CalMatters via Santa Barbara Independent, KSBY, ABC30, KMPH"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Becerra encampments (blocked by bot challenge, HTTP 403)",
+          "where": "calmatters.org voter guide and WordPress search"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Becerra homelessness funding cities condition clear encampments withhold state funds",
+          "where": "web search"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/transit-oriented-upzoning",
       "stance": "support",
       "as_of": "2026-11-03",
