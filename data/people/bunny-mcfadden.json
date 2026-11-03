@@ -50,6 +50,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "New Mexico (where she was raised, as reported; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:theguardsman-com-702fd04dfd",
+          "quote": "she is one of four sisters raised by a single mother who worked as a custodian at a community college in New Mexico",
+          "locator": "A Newcomer"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
