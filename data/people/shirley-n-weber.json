@@ -6,6 +6,17 @@
     "Shirley Nash Weber",
     "Shirley Weber"
   ],
+  "candidate_profile": {
+    "birth_date": {
+      "value": "1948",
+      "citations": [
+        {
+          "source": "src:exhibits-sos-ca-gov-04c8e58cea",
+          "quote": "Born in segregated, Jim Crow-era Arkansas in 1948"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q7498880",
