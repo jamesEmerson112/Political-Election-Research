@@ -28,6 +28,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Voting Rights Attorney",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Xavier Becerra Democratic Voting Rights Attorney",
+          "locator": "PDF page 2 (Page 1 of 41), Governor; ballot designation (the candidate's self-description)"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-03",
       "items": [
