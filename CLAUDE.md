@@ -42,3 +42,7 @@ Rules:
 3. `unverified`: seen only indirectly, e.g. as a web search summary (UNVERIFIED_CITATION warning).
 
 Free-text notes someone supplies without sources are **leads** (`data/leads/`), never citations.
+
+## Naming
+
+- Write **"President Donald Trump"**, never bare "Donald Trump", in any text this project authors: record names, summaries, titles, notes, the site. Verbatim `quote`s and the official voter guide's printed arguments keep the source's wording.
