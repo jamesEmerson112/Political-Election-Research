@@ -13,6 +13,7 @@ export interface Citation {
   quote?: string;
   locator?: string;
   verified_by?: { by: string; date: string; note?: string };
+  unverified?: { by: string; method: string; date: string };
 }
 export interface SearchEntry {
   where: string;
@@ -89,6 +90,7 @@ export class Index {
   readonly b: Bundle;
   readonly people = new Map<string, Rec>();
   readonly orgs = new Map<string, Rec>();
+  readonly offices = new Map<string, Rec>();
   readonly contests = new Map<string, Rec>();
   readonly elections = new Map<string, Rec>();
   readonly sources = new Map<string, Rec>();
@@ -103,6 +105,7 @@ export class Index {
     this.b = b;
     for (const r of b.people) this.people.set(`person:${r["id"]}`, r);
     for (const r of b.organizations) this.orgs.set(`org:${r["id"]}`, r);
+    for (const r of b.offices ?? []) this.offices.set(`office:${r["id"]}`, r);
     for (const r of b.contests) this.contests.set(`contest:${r["id"]}`, r);
     for (const r of b.elections) this.elections.set(`election:${r["id"]}`, r);
     for (const r of b.sources) this.sources.set(`src:${r["id"]}`, r);

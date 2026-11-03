@@ -39,6 +39,7 @@
   "measures": [
     "contest:2030-zz-general/prop-1"
   ],
+  "office_ref": "office:example-state-governor",
   "questions": [
     "q:widgets/subsidize-widgets"
   ],

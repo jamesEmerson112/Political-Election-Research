@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { openOffice, scopeOf } from "../lib/offices";
+  import { ROW_ICON } from "../lib/icons";
   import Info from "@lucide/svelte/icons/info";
   import { billLabel, buildComparison } from "../lib/compare";
   import type { Index } from "../lib/data";
@@ -28,6 +30,8 @@
     [...new Set(cands.flatMap((c) => ix.endorsementsOf(c).map((e) => String(e["endorser"]))))].filter((r) => r.startsWith("org:")),
   );
   const subjectText = (s: string) => ix.questions.get(s)?.q["text"] ?? `${ix.contestTitle(s)}: should it pass?`;
+  /** The office this contest elects (agenda or contest office_ref). */
+  const sought = $derived(scopeOf(ix, (contest?.["office_ref"] ?? agenda?.["office_ref"]) as string | undefined));
 </script>
 
 <header class="head">
@@ -48,6 +52,13 @@
     {#if leadCount}<span class="chip lead-chip num">{plural(leadCount, "unverified lead")}</span>{/if}
     {#if cutoff}<span class="chip num">$ through {date(cutoff)}</span>{/if}
   </div>
+  {#if sought}
+    <button class="sought" onclick={() => openOffice(ix, sought.ref, "Office on the ballot")}>
+      <Badge icon={ROW_ICON["scope"]} group="record" size={20} />
+      <span><strong>{sought.name}</strong> · {sought.headline}</span>
+      {#if sought.unverified}<span class="chip lead-chip">unverified</span>{/if}
+    </button>
+  {/if}
   {#if agenda}
     <details class="about">
       <summary><Info size={14} aria-hidden="true" /> About this agenda</summary>
@@ -189,6 +200,23 @@
 </section>
 
 <style>
+  .sought {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 6px 10px;
+    text-align: left;
+    cursor: pointer;
+    font-size: var(--step--1);
+    justify-self: start;
+  }
+  .sought:hover {
+    border-color: var(--line-strong);
+  }
   .head {
     display: grid;
     gap: 10px;

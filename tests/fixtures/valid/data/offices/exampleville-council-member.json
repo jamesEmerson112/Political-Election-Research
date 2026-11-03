@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../../../schemas/office.schema.json",
+  "id": "exampleville-council-member",
+  "name": "Member, Exampleville City Council",
+  "body": "Exampleville City Council",
+  "constituents": {
+    "value": 21000,
+    "as_of": "2020",
+    "basis": "2020 census population ÷ 7 districts",
+    "citations": [
+      {
+        "source": "src:exampleville-example-gov-9cccac723f",
+        "quote": "seven districts of approximately equal population"
+      }
+    ]
+  },
+  "jurisdiction": "City of Exampleville",
+  "level": "local",
+  "powers": {
+    "value": "Adopts city ordinances and the annual city budget.",
+    "citations": [
+      {
+        "source": "src:exampleville-example-gov-9cccac723f",
+        "quote": "The Council adopts ordinances and the annual budget."
+      }
+    ]
+  },
+  "seats": {
+    "value": 7,
+    "citations": [
+      {
+        "source": "src:exampleville-example-gov-9cccac723f",
+        "quote": "The Council shall consist of seven members."
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:exampleville-example-gov-9cccac723f",
+        "quote": "Members serve four-year terms."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

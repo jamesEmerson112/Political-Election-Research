@@ -8,6 +8,10 @@ export function money(cents: number | null | undefined): string {
 export function moneyCompact(cents: number | null | undefined): string {
   return usdCompact.format((cents ?? 0) / 100);
 }
+const compactFmt = new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 });
+export function compact(n: number | null | undefined): string {
+  return compactFmt.format(n ?? 0);
+}
 export function date(iso: string | null | undefined): string {
   if (!iso) return "";
   const d = new Date(`${iso}T00:00:00Z`);

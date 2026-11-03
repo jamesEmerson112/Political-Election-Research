@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../../schemas/office.schema.json",
+  "id": "example-state-governor",
+  "name": "Governor of Example State",
+  "constituents": {
+    "value": 3900000,
+    "as_of": "2020",
+    "basis": "statewide population, 2020 census",
+    "citations": [
+      {
+        "source": "src:example-gov-1826ccb77c",
+        "quote": "elected statewide"
+      }
+    ]
+  },
+  "jurisdiction": "Example State",
+  "level": "state",
+  "seats": {
+    "value": 1,
+    "citations": [
+      {
+        "source": "src:example-gov-1826ccb77c",
+        "quote": "The executive power is vested in the Governor."
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:example-gov-1826ccb77c",
+        "quote": "The Governor serves a four-year term."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

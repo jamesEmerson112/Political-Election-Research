@@ -8,11 +8,12 @@
  */
 import type { CandidateRollup, Citation, Index, Lead, Rec } from "./data";
 import { slugOf } from "./data";
-import { date, money, moneyCompact, ORG_TYPE_LABEL } from "./format";
+import { compact, date, money, moneyCompact, ORG_TYPE_LABEL } from "./format";
 import { CATEGORY, issueIcon, MEASURE_ICON, ROW_ICON, type CategoryKey, type Group, type IconComponent } from "./icons";
 import { MARK, stanceMark, type Mark } from "./marks";
 import { openDetail, type Detail } from "./ui.svelte";
 import { age, isNotFound, openField, openLeads, openPosition, openRel } from "./view";
+import { openOffice, scopeLines, scopeOf } from "./offices";
 
 export type CellState = "value" | "zero" | "not_found" | "lead" | "unresearched";
 
@@ -239,6 +240,28 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
 
   function citeOf(title: string, kicker: string, list: Citation[]): Line["cite"] {
     return list.length ? { n: list.length, run: () => openDetail({ kicker, title, citations: list }) } : undefined;
+  }
+
+  /** Scope of the candidate's current office(s), via office_ref. */
+  function officeScopeCell(c: string): Cell {
+    const current = offices(c).filter((o) => isCurrent(o) && o["office_ref"]);
+    const scopes = current.map((o) => scopeOf(ix, String(o["office_ref"]))).filter((s): s is NonNullable<typeof s> => !!s);
+    if (!scopes.length) return missing(c, "office_scope", `Office scope: ${who(c)}`);
+    const main = scopes[0]!;
+    const lines: Line[] = scopes.flatMap((s) => [
+      { text: s.name, sub: s.headline, cite: { n: scopeLines(ix, s.ref).reduce((a, l) => a + l.citations.length, 0), run: () => openOffice(ix, s.ref, who(c)) } },
+      ...scopeLines(ix, s.ref).map((l) => ({ text: `${l.label}: ${l.text}`, lead: s.unverified })),
+    ]);
+    return {
+      state: main.unverified ? "lead" : "value",
+      marks: main.unverified ? [{ mark: MARK["lead"]! }] : [],
+      num: main.residents ? `~${compact(main.residents)}` : undefined,
+      unit: main.residents ? "residents" : undefined,
+      label: [main.level, main.seatText].filter(Boolean).join(" · "),
+      lines,
+      summary: `${main.name}: ${main.headline}${main.unverified ? " (unverified)" : ""}`,
+      open: () => openOffice(ix, main.ref, who(c)),
+    };
   }
 
   /** A single cited string field. */
@@ -752,7 +775,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       key: "occupation",
       name: "Occupation",
       source: "Government records, official biography",
-      rows: [row("occupation", "occupation", "value", "Occupation", "Occupation", (c) => field(c, "occupation", "Occupation")), row("occupation", "years", "value", "Years in office", "Years in office", yearsInOffice)],
+      rows: [row("occupation", "occupation", "value", "Occupation", "Occupation", (c) => field(c, "occupation", "Occupation")), row("occupation", "years", "value", "Years in office", "Years in office", yearsInOffice), row("occupation", "scope", "value", "Office scope", "Office scope", officeScopeCell)],
     },
     {
       n: 3,

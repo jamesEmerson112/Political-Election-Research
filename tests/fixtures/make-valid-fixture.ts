@@ -126,6 +126,23 @@ const fBehest = filing(9007, "803-avery", "803", "behested_payment_filing");
 const cite = (source: string, quote: string) => [{ source, quote }];
 const fcite = (source: string, locator: string) => [{ source, locator }];
 
+const srcCharter = p("source", {
+  url: "https://exampleville.example.gov/charter",
+  kind: "government_record",
+  title: "Exampleville City Charter",
+  publisher: "City of Exampleville",
+  published: "2019-01-01",
+  archive_url: W(9) + "https://exampleville.example.gov/charter",
+});
+const srcGovOffice = p("source", {
+  url: "https://example.gov/constitution/article-5",
+  kind: "government_record",
+  title: "Example State Constitution, Article V",
+  publisher: "Example State",
+  published: "2010-01-01",
+  archive_url: W(9) + "https://example.gov/constitution/article-5",
+});
+
 // --- config, election, issues ------------------------------------------------
 p("config", { privacy: { individual_donor_min_cents: 1_000_000 } });
 p("election", {
@@ -181,6 +198,7 @@ const avery = p("person", {
       items: [
         {
           office: "Exampleville City Council",
+          office_ref: "office:exampleville-council-member",
           start: "2022-12-01",
           end: "2026-12-01",
           citations: cite(srcAveryBio, "Avery served on the Exampleville City Council from 2022 to 2026."),
@@ -241,6 +259,28 @@ const yesProp1 = org("Yes on Prop 1 Committee", "ballot_measure_committee");
 const ieCommittee = org("Example Independent Expenditure Committee", "ie_committee");
 const foodBank = org("Example Food Bank", "nonprofit_501c3");
 
+// --- offices -------------------------------------------------------------------
+p("office", {
+  id: "exampleville-council-member",
+  name: "Member, Exampleville City Council",
+  level: "local",
+  jurisdiction: "City of Exampleville",
+  body: "Exampleville City Council",
+  seats: { value: 7, citations: cite(srcCharter, "The Council shall consist of seven members.") },
+  constituents: { value: 21000, as_of: "2020", basis: "2020 census population ÷ 7 districts", citations: cite(srcCharter, "seven districts of approximately equal population") },
+  term_years: { value: 4, citations: cite(srcCharter, "Members serve four-year terms.") },
+  powers: { value: "Adopts city ordinances and the annual city budget.", citations: cite(srcCharter, "The Council adopts ordinances and the annual budget.") },
+});
+p("office", {
+  id: "example-state-governor",
+  name: "Governor of Example State",
+  level: "state",
+  jurisdiction: "Example State",
+  seats: { value: 1, citations: cite(srcGovOffice, "The executive power is vested in the Governor.") },
+  constituents: { value: 3900000, as_of: "2020", basis: "statewide population, 2020 census", citations: cite(srcGovOffice, "elected statewide") },
+  term_years: { value: 4, citations: cite(srcGovOffice, "The Governor serves a four-year term.") },
+});
+
 // --- contests & agenda ---------------------------------------------------------
 p("contest", {
   id: "2030-zz-general/governor",
@@ -267,6 +307,7 @@ p("contest", {
 p("agenda", {
   contest: "contest:2030-zz-general/governor",
   kind: "office",
+  office_ref: "office:example-state-governor",
   candidates: [
     { person: avery, name: "Avery Sample" },
     { person: jordan, name: "Jordan Example" },

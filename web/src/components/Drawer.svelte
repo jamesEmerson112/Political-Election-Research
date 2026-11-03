@@ -25,6 +25,8 @@
       <li>
         {#if c.quote}
           <blockquote>{c.quote}</blockquote>
+        {:else if c.unverified}
+          <span class="chip warn">Unverified · seen as {c.unverified.method} by {c.unverified.by}, {date(c.unverified.date)}</span>
         {:else if c.verified_by}
           <span class="chip warn">Quote pending · verified by {c.verified_by.by}, {date(c.verified_by.date)}</span>
         {/if}

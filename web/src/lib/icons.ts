@@ -43,6 +43,7 @@ import Shapes from "@lucide/svelte/icons/shapes";
 import Stethoscope from "@lucide/svelte/icons/stethoscope";
 import TrainFront from "@lucide/svelte/icons/train-front";
 import UsersRound from "@lucide/svelte/icons/users-round";
+import Users from "@lucide/svelte/icons/users";
 import Zap from "@lucide/svelte/icons/zap";
 
 export type IconComponent = Component<Record<string, unknown>>;
@@ -147,6 +148,7 @@ export const ROW_ICON: Record<string, IconComponent> = {
   education: I(GraduationCap),
   career: I(Building2),
   "past-offices": I(Landmark),
+  scope: I(Users),
   bills: I(FileText),
   endorsements: I(Megaphone),
   raised: I(Banknote),

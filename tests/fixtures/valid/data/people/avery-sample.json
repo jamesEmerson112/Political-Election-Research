@@ -68,6 +68,7 @@
         {
           "office": "Exampleville City Council",
           "end": "2026-12-01",
+          "office_ref": "office:exampleville-council-member",
           "start": "2022-12-01",
           "citations": [
             {
