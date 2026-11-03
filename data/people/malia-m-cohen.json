@@ -218,6 +218,15 @@
           "locator": "Candidate Statements, page 86 (PDF page 86), Controller"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:ftb-ca-gov-50ecd001d4",
+          "quote": "She and her husband reside in San Francisco along with their daughter."
+        }
+      ]
     }
   },
   "ids": [
