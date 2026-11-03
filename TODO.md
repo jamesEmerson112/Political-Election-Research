@@ -85,6 +85,19 @@
 - **Governor:** stance research on its 6 questions plus Prop 3.
 - **Propositions (14):** contest records, committees for and against, top funders, endorsements, candidate stances.
 - **Basic-info depth for House and statewide candidates:** education, office dates, birth details.
+- **Impact of past policies and actions (maintainer priority; overnight ultracode run):**
+  - For each candidate's track-record items (bills authored, budget actions, programs) research what measurably happened afterward.
+  - **Outcome data:** enrollment, ridership, housing permits, service levels, dollars spent.
+  - **Evaluations:** official ones (Controller/City audits, LAO, agency reports) and independent studies.
+  - **Rules:**
+    - Cite every number; keep attribution honest (shared credit, other causes, too early to measure).
+    - Describe, never grade.
+    - Same depth for both candidates.
+  - **Start with CA-11:**
+    - Chan: Free City College funding; the $1.3B reserve she cites as Budget Chair.
+    - Wiener: Muni/BART/Caltrain funding, SB 79, SB 53 and other authored bills.
+  - **Data sources:** the Legislature's bulk data (downloads.leginfo.legislature.ca.gov) has official bill history and votes.
+  - **Prep:** the method and the saved workflow are designed before the run.
 
 ## Phase 3: Features
 - **Importers:** CARS (CAL-ACCESS replacement, live mid-Nov 2026), OpenFEC, Senate LDA lobbying, FPPC Form 803 behested payments. Mark records `provenance: import` for human review.
