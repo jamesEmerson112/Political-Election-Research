@@ -48,6 +48,43 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "institution": "Barstow Community College",
+          "citations": [
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "Gloria Romero is a graduate of Barstow Community College and California State University, Long Beach. She earned her Ph.D. in psychology from the University of California, Riverside."
+            }
+          ]
+        },
+        {
+          "institution": "California State University, Long Beach",
+          "citations": [
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "Gloria Romero is a graduate of Barstow Community College and California State University, Long Beach. She earned her Ph.D. in psychology from the University of California, Riverside."
+            }
+          ]
+        },
+        {
+          "degree": "Ph.D. in psychology",
+          "institution": "University of California, Riverside",
+          "citations": [
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "Gloria Romero is a graduate of Barstow Community College and California State University, Long Beach. She earned her Ph.D. in psychology from the University of California, Riverside."
+            },
+            {
+              "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+              "quote": "Romero earned a PhD from the University of California, Riverside"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Educator/Businesswoman",
       "citations": [
