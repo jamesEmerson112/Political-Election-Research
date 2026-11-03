@@ -48,6 +48,25 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "California State University, Los Angeles",
+          "role": "Professor (named Professor Emeritus)",
+          "citations": [
+            {
+              "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+              "quote": "She went on to serve as a professor at Cal State Los Angeles, where she was named Professor Emeritus."
+            },
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "a faculty member on leave from the psychology department at California State University, Los Angeles"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
