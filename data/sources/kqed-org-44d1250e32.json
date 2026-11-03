@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-44d1250e32",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "KQED",
+  "title": "San Francisco Board of Supervisors, District 10 (KQED Voter Guide)",
+  "url": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+}
