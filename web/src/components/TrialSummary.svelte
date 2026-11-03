@@ -121,21 +121,26 @@
 
   {#if n}
     <figure class="panel chart">
-      <figcaption class="eyebrow">General Fund by fiscal year</figcaption>
-      <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="General Fund by fiscal year: the official forecast and the range with your choices. The same numbers are in the table below.">
+      <figcaption class="eyebrow">Projected General Fund shortfall, by fiscal year</figcaption>
+      <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Projected General Fund shortfall by fiscal year: the official forecast and the range with your choices. The same numbers are in the table below.">
         {#each yTicks as t (t)}
           <line class={t === 0 ? "zero" : "grid"} x1={M.l} x2={W - M.r} y1={yAt(t)} y2={yAt(t)} />
           <text class="tick" x={M.l - 6} y={yAt(t) + 4} text-anchor="end">{t === 0 ? "$0" : `${t < 0 ? "−" : ""}${usd(t)}`}</text>
           {#if base?.generalFund}<text class="tick" x={W - M.r + 6} y={yAt(t) + 4} text-anchor="start">{t === 0 ? "0%" : gfPct(t)}</text>{/if}
         {/each}
         {#if base?.generalFund}<text class="cap" x={W - 2} y="11" text-anchor="end">% of FY{base.fy} General Fund</text>{/if}
-        <text class="cap" x="2" y="11">Dollars</text>
+        <text class="cap" x="2" y="11">Dollars: $0 = balanced, below $0 = shortfall</text>
         <polygon class="band" points={band} />
         <path class="base" d={basePath} />
         {#each result.generalFund as y, i (y.fy)}
           <circle class="dot" cx={xAt(i)} cy={yAt(y.baseline ?? 0)} r="4" />
           <!-- The year's official shortfall on its point; under the band, how much your choices change it. -->
-          <text class="val" x={xAt(i)} y={yAt(Math.max(y.baseline ?? 0, y.result?.high ?? -Infinity)) - 9} text-anchor={xAnchor(i)}
+          {@const bandAbove = !!y.result && (y.result.low + y.result.high) / 2 > (y.baseline ?? 0)}
+          <text
+            class="val"
+            x={xAt(i)}
+            y={bandAbove ? yAt(Math.min(y.baseline ?? 0, y.result?.low ?? Infinity)) + 17 : yAt(Math.max(y.baseline ?? 0, y.result?.high ?? -Infinity)) - 9}
+            text-anchor={xAnchor(i)}
             >{`${balance({ low: y.baseline ?? 0, high: y.baseline ?? 0 })}${base?.generalFund && y.baseline ? ` · ${gfPct(Math.abs(y.baseline))} of GF` : ""}`}</text
           >
           {#if y.result && y.baseline}
@@ -158,7 +163,11 @@
       </svg>
       <div class="legend">
         <span class="sw base"></span> Official forecast <span class="sw band"></span> With your choices (range)
-        <span class="muted">· Above each year's name: how much your choices change that year's shortfall. The right axis is the left one as a share of the adopted General Fund, computed here.</span>
+        <span class="muted"
+          >· The line falls because the official forecast's shortfall grows each year (costs rising faster than revenue, before these measures); your choices move each year by
+          about the same amount, so the band runs alongside it. Above each year's name: how much your choices change that year's shortfall. The right axis is the left one as
+          a share of the adopted General Fund, computed here.</span
+        >
       </div>
     </figure>
 
