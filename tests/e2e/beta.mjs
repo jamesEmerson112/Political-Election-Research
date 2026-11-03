@@ -16,7 +16,7 @@
  *    on the local server and on preview deployments the page loads no analytics script.
  * 5f. Proposition groups start folded on the Overview.
  * 5g. SF Prop F shows the maintainer's comparison table, marked unverified.
- * 5h. A race with many candidates uses the full page width on desktop, and no page scrolls sideways on a phone.
+ * 5h. A race with many candidates uses the full page width on desktop, keeps its name row pinned while scrolling, and no page scrolls sideways on a phone.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
  */
@@ -109,11 +109,18 @@ await wide.setViewportSize({ width: 1440, height: 900 });
 await wide.goto(`${BASE}${ccsf}`);
 await wide.waitForSelector("table.ct");
 const wideFit = await wide.evaluate(() => { const e = document.querySelector(".scroll-x.bleed"); return !!e && e.scrollWidth <= e.clientWidth && document.documentElement.scrollWidth <= innerWidth; });
+const headTop = () => wide.evaluate(() => { scrollTo(0, 1000); return new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(() => {
+  const bar = document.querySelector(".top").getBoundingClientRect().bottom;
+  const th = (document.querySelector(".float-head th.cand") ?? document.querySelector("thead th.cand")).getBoundingClientRect().top;
+  r(Math.abs(th - bar) < 2);
+}))); });
+const wideSticky = await headTop();
 await wide.setViewportSize({ width: 390, height: 844 });
 await wide.waitForTimeout(150);
 const phoneFit = await wide.evaluate(() => document.documentElement.scrollWidth <= innerWidth);
+const phoneSticky = await headTop();
 await wide.close();
-check("5h. 8-candidate table fits at 1440px; no sideways page scroll at 390px", wideFit && phoneFit, `desktop ${wideFit}, phone ${phoneFit}`);
+check("5h. 8-candidate table fits at 1440px, names stay pinned while scrolling; no sideways page scroll at 390px", wideFit && phoneFit && wideSticky && phoneSticky, `fit ${wideFit}/${phoneFit}, pinned ${wideSticky}/${phoneSticky}`);
 
 // 6. California, and San Francisco keeps its own answers.
 await go(page, "#trial");

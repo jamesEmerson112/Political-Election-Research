@@ -11,6 +11,61 @@
 
   let { ix, contestRef, cmp }: { ix: Index; contestRef: string; cmp: Comparison } = $props();
 
+  /* Sticky name row. When the table fits the width, the wrapper stops being a scroll box and the
+     row sticks under the site's sticky header; when it doesn't (phones), the wrapper scrolls both
+     ways inside one screen height and the row sticks to its top. */
+  let wrap = $state<HTMLDivElement>();
+  let table = $state<HTMLTableElement>();
+  let fits = $state(true);
+  let headerH = $state(0);
+  $effect(() => {
+    if (!wrap || !table) return;
+    const top = document.querySelector<HTMLElement>(".top");
+    const measure = () => {
+      fits = table!.offsetWidth <= wrap!.clientWidth + 1;
+      headerH = top?.offsetHeight ?? 0;
+    };
+    const ro = new ResizeObserver(measure);
+    ro.observe(wrap);
+    if (top) ro.observe(top);
+    measure();
+    return () => ro.disconnect();
+  });
+
+  /* When the table is wider than the page it scrolls sideways, so CSS sticky can't pin its name row
+     to the window; a fixed copy is shown instead while the table passes under the site header. */
+  let float = $state<{ left: number; width: number; tableW: number; scrollLeft: number } | null>(null);
+  $effect(() => {
+    if (!wrap || !table || fits) {
+      float = null;
+      return;
+    }
+    const w = wrap;
+    const t = table;
+    let frame = 0;
+    const update = () => {
+      frame = 0;
+      const r = w.getBoundingClientRect();
+      const headH = t.tHead?.offsetHeight ?? 0;
+      const passing = r.top < headerH && r.bottom > headerH + headH;
+      const pad = parseFloat(getComputedStyle(w).paddingLeft) || 0;
+      float = passing ? { left: r.left + w.clientLeft, width: w.clientWidth, tableW: t.offsetWidth, scrollLeft: w.scrollLeft - pad } : null;
+    };
+    const schedule = () => {
+      if (!frame) frame = requestAnimationFrame(update);
+    };
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    w.addEventListener("scroll", schedule, { passive: true });
+    update();
+    return () => {
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+      w.removeEventListener("scroll", schedule);
+      if (frame) cancelAnimationFrame(frame);
+    };
+  });
+
   /** row key -> expanded. A click on any cell of a row expands the row (every candidate's cell) inline. */
   let open = $state<Record<string, boolean>>({});
   const toggle = (k: string) => (open[k] = !open[k]);
@@ -84,18 +139,12 @@
   </tr>
 {/snippet}
 
-<div class="scroll-x" class:bleed={cmp.cands.length > 4}>
-  <table class="ct" style:--n={cmp.cands.length} aria-label={`${ix.contestTitle(contestRef)}: candidates compared`}>
-    <colgroup>
-      <col class="label-col" />
-      {#each cmp.cands as c (c)}<col />{/each}
-    </colgroup>
-    <thead>
+{#snippet headRow(copy: boolean)}
       <tr>
         <td class="corner"></td>
         {#each cmp.cands as c (c)}
           {@const entry = ix.ballotEntry(contestRef, c)}
-          <th class="cand" scope="col">
+          <th class="cand" scope={copy ? undefined : "col"}>
             <span class="ini" aria-hidden="true">{initials(ix.name(c))}</span>
             <span class="cand-txt">
               <span class="cand-name">{ix.name(c)}</span>
@@ -106,6 +155,16 @@
           </th>
         {/each}
       </tr>
+{/snippet}
+
+<div class="scroll-x" class:bleed={cmp.cands.length > 4} class:fits style:--head-top={fits ? `${headerH}px` : "0px"} bind:this={wrap}>
+  <table class="ct" bind:this={table} style:--n={cmp.cands.length} aria-label={`${ix.contestTitle(contestRef)}: candidates compared`}>
+    <colgroup>
+      <col class="label-col" />
+      {#each cmp.cands as c (c)}<col />{/each}
+    </colgroup>
+    <thead>
+      {@render headRow(false)}
     </thead>
     {#each shown as cat (cat.key)}
       {@const st = categoryStyle(cat.key)}
@@ -138,6 +197,18 @@
     {/each}
   </table>
 </div>
+{#if float}
+  <!-- A copy of the name row, pinned under the site header while a wide table scrolls sideways. -->
+  <div class="float-head" aria-hidden="true" style:top={`${headerH}px`} style:left={`${float.left}px`} style:width={`${float.width}px`}>
+    <table class="ct" style:--n={cmp.cands.length} style:width={`${float.tableW}px`} style:transform={`translateX(${-float.scrollLeft}px)`}>
+      <colgroup>
+        <col class="label-col" />
+        {#each cmp.cands as c (c)}<col />{/each}
+      </colgroup>
+      <thead>{@render headRow(true)}</thead>
+    </table>
+  </div>
+{/if}
 
 <style>
   /* Races with many candidates use the full page width instead of the 1180px column
@@ -185,6 +256,28 @@
   }
   thead .corner {
     border-bottom: 2px solid var(--ink);
+  }
+  /* sticky name row; the underline is a shadow because collapsed borders don't travel with sticky cells */
+  thead th.cand,
+  thead .corner {
+    position: sticky;
+    top: var(--head-top, 0px);
+    z-index: 3;
+    background: var(--surface);
+    box-shadow: inset 0 -2px 0 var(--ink);
+  }
+  .scroll-x.fits {
+    overflow: visible;
+  }
+  .float-head {
+    position: fixed;
+    z-index: 15;
+    overflow: hidden;
+    pointer-events: none;
+  }
+  .float-head .ct {
+    min-width: 0;
+    border-bottom: 0;
   }
   .cand {
     display: table-cell;
