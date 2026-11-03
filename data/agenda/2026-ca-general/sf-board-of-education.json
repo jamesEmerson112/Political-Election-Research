@@ -53,7 +53,7 @@
   },
   "targets": {
     "endorsements_per_candidate": 5,
-    "finance_cutoff": null,
+    "finance_cutoff": "2026-10-28",
     "top_contributors": 10
   },
   "vote_for": 3
