@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:j-r-eppler",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire he called Mayor Lurie's Family Zoning Plan a step in the right direction that opens more neighborhoods, particularly in the north and west, to housing, and said it is necessary but not sufficient without permitting reform and financing.",
+      "citations": [
+        {
+          "source": "src:growsf-org-2bfee09a33",
+          "quote": "The plan is important because it modernizes outdated zoning and opens up more neighborhoods, particularly in the north and west sides of the city, to housing production, which is long overdue.",
+          "locator": "Housing: \"Do you think Mayor Lurie’s Family zoning plan is too ambitious or not ambitious enough?\""
+        },
+        {
+          "source": "src:growsf-org-2bfee09a33",
+          "quote": "So my view is this: the Family Zoning Plan is necessary, but not sufficient.",
+          "locator": "Housing: \"Do you think Mayor Lurie’s Family zoning plan is too ambitious or not ambitious enough?\""
+        }
+      ]
+    }
+  ]
+}
