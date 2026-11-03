@@ -34,6 +34,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Bachelor’s degree in accounting",
+          "institution": "Rochester Institute of Technology",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "holds a Bachelor’s Degree in Accounting from the Rochester Institute of Technology (NY), a Master’s Degree in Taxation from Golden Gate University (SF), and an MBA from Pepperdine University.",
+              "locator": "page 2"
+            }
+          ]
+        },
+        {
+          "degree": "Master’s degree in taxation",
+          "institution": "Golden Gate University",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "holds a Bachelor’s Degree in Accounting from the Rochester Institute of Technology (NY), a Master’s Degree in Taxation from Golden Gate University (SF), and an MBA from Pepperdine University.",
+              "locator": "page 2"
+            }
+          ]
+        },
+        {
+          "degree": "MBA",
+          "institution": "Pepperdine University",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "holds a Bachelor’s Degree in Accounting from the Rochester Institute of Technology (NY), a Master’s Degree in Taxation from Golden Gate University (SF), and an MBA from Pepperdine University.",
+              "locator": "page 2"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "California State Treasurer",
       "citations": [
