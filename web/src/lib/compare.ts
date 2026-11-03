@@ -518,14 +518,22 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
   }
 
   const billArea = (id: string) => String(bill(id)?.["area"] ?? "other");
-  /** The candidate's track-record STAR sentence for a bill, if recorded. */
-  const starOf = (c: string, billId: string): string | undefined =>
-    ((dossier(c)?.["track_record"]?.["items"] as Rec[] | undefined) ?? []).find((it) => it["bill"] === billId)?.["summary"] as string | undefined;
+  /** The candidate's track-record item for a bill (its summary is the STAR sentence), if recorded. */
+  const starItem = (c: string, billId: string): Rec | undefined =>
+    ((dossier(c)?.["track_record"]?.["items"] as Rec[] | undefined) ?? []).find((it) => it["bill"] === billId);
+  const starOf = (c: string, billId: string): string | undefined => starItem(c, billId)?.["summary"] as string | undefined;
+  /** Year of a past policy: the recorded outcome date, else the bill's status date, else the action date. */
+  const policyYear = (c: string, a: Rec): string => {
+    const d = (starItem(c, String(a["bill"]))?.["date"] ?? bill(String(a["bill"]))?.["status"]?.["as_of"] ?? a["date"]) as string | undefined;
+    return d ? String(d).slice(0, 4) : "";
+  };
 
   function billsCell(c: string, area?: string): Cell {
     const all = legislation(c);
     if (!all.length) return missing(c, "legislation", `Past policies: ${who(c)}`);
-    const acts = area ? all.filter((a) => billArea(String(a["bill"])) === area) : all;
+    const acts = (area ? all.filter((a) => billArea(String(a["bill"])) === area) : all)
+      .slice()
+      .sort((x, y) => policyYear(c, y).localeCompare(policyYear(c, x)) || String(x["bill"]).localeCompare(String(y["bill"])));
     if (!acts.length) {
       return {
         state: "zero",
@@ -569,7 +577,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
         return {
           icon: ACTION_ICON[String(a["action"])],
           stamp: b ? (OUTCOME[String(b["status"]["value"])] ?? "other") : "no record",
-          text: `${billLabel(a["bill"])}${b ? ` ${b["title"]["value"]}` : ""}`,
+          text: `${billLabel(a["bill"])}${b ? ` ${b["title"]["value"]}` : ""}${policyYear(c, a) ? ` (${policyYear(c, a)})` : ""}`,
           // The past policy as one STAR sentence (policy-star skill) when the track record has it; else action · date · status.
           sub:
             starOf(c, String(a["bill"])) ??
