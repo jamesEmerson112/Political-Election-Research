@@ -60,6 +60,26 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "College campus planner",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "As a campus planner who works with colleges across the country",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 32 (PDF p. 34)"
+            },
+            {
+              "source": "src:growsf-org-b605efb9fd",
+              "quote": "Professionally, I'm a college campus planner with experience working with more than a dozen colleges and universities across the country.",
+              "locator": "Personal: What is your professional background?"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
