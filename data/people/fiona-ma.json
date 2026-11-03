@@ -4,6 +4,27 @@
   "name": "Fiona Ma",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "birth date / born",
+          "where": "Treasurer's Office official biography PDF (treasurer.ca.gov); campaign site fionama.com/about and fionama.com/?p=477; 2026 Official Voter Information Guide candidate statement; Certified List of Candidates"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Fiona Ma\" born; calmatters lieutenant governor 2026 Fiona Ma Gloria Romero age",
+          "where": "Web search (news): KPBS 2026-08-31 explainer opened, no birth date; calmatters.org voter guide and race story returned 403"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Fiona Ma",
+          "where": "Wikipedia (reference work) states a birth date; its cited primary source (2007 Assembly member bio) is reachable only through web.archive.org, which is blocked here"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
