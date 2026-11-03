@@ -1,12 +1,55 @@
 <script lang="ts">
   import Search from "@lucide/svelte/icons/search";
+  import {
+    ballotStatus,
+    DISTRICT_NAME,
+    forgetChoice,
+    isEmptyChoice,
+    loadChoice,
+    normalizeChoice,
+    parseChoice,
+    placeContest,
+    saveChoice,
+    serializeChoice,
+    type Choice,
+    type DistrictKind,
+  } from "../lib/ballot";
   import { contestRoute, officeOf, slugOf, type Index } from "../lib/data";
   import { plural } from "../lib/format";
-  import { OFFICE_ORDER, OFFICE_TYPE } from "../lib/icons";
+  import { BALLOT_ICON, OFFICE_ORDER, OFFICE_TYPE } from "../lib/icons";
   import Badge from "./Badge.svelte";
+  import MyBallot from "./MyBallot.svelte";
 
-  let { ix }: { ix: Index } = $props();
+  let { ix, query = "" }: { ix: Index; query?: string } = $props();
   let q = $state("");
+
+  // "My ballot": districts from the URL hash (a shared link) win over the ones saved on this device.
+  let choice = $state<Choice>({});
+  let showAll = $state(false);
+  $effect(() => {
+    const fromHash = parseChoice(query);
+    choice = isEmptyChoice(fromHash) ? loadChoice() : fromHash;
+  });
+  function setHash(qs: string) {
+    try {
+      history.replaceState(null, "", qs ? `#overview?${qs}` : "#overview");
+    } catch {
+      /* sandboxed page: the hash just isn't updated */
+    }
+  }
+  function setChoice(c: Choice) {
+    choice = normalizeChoice(c);
+    showAll = false;
+    saveChoice(choice);
+    setHash(serializeChoice(choice));
+  }
+  function forget() {
+    forgetChoice();
+    choice = {};
+    showAll = false;
+    setHash("");
+  }
+  const ballotOn = $derived(!isEmptyChoice(choice) && !showAll);
 
   /** Every contest, once, with what the index needs; grouped by office type, districts in numeric order. */
   const rows = $derived(
@@ -22,21 +65,39 @@
       const title = ix.contestTitle(ref);
       const district = /-(\d+)$/.exec(slugOf(ref))?.[1];
       const hay = [title, slugOf(ref), ...names, district ? `ca-${district} ca ${district} district ${district}` : ""].join(" ").toLowerCase();
-      return { ref, kind, office, names, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay };
+      const officeRef = (ix.contests.get(ref)?.["office_ref"] ?? ix.agendas.get(ref)?.["office_ref"]) as string | undefined;
+      const place = placeContest(ref, officeRef, kind);
+      return { ref, kind, office, names, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
     }),
   );
-  const filtered = $derived.by(() => {
+  type Row = (typeof rows)[number];
+  const onBallotCount = $derived(rows.filter((r) => ballotStatus(r.place, choice) === "on").length);
+  const textFiltered = $derived.by(() => {
     const terms = q.toLowerCase().trim().split(/\s+/).filter(Boolean);
     return terms.length ? rows.filter((r) => terms.every((t) => r.hay.includes(t))) : rows;
   });
+  const status = (r: Row) => (ballotOn ? ballotStatus(r.place, choice) : "on");
+  /** Rows in the normal office groups: every contest, or only this voter's. */
+  const filtered = $derived(textFiltered.filter((r) => status(r) === "on"));
+  const sortRows = (rs: Row[]) =>
+    rs.sort((a, b) => a.office.sort[0] - b.office.sort[0] || a.office.sort[1].localeCompare(b.office.sort[1]));
   const groups = $derived(
     OFFICE_ORDER.map((type) => ({
       type,
-      rows: filtered
-        .filter((r) => r.office.type === type)
-        .sort((a, b) => a.office.sort[0] - b.office.sort[0] || a.office.sort[1].localeCompare(b.office.sort[1])),
+      rows: sortRows(filtered.filter((r) => r.office.type === type)),
     })).filter((g) => g.rows.length),
   );
+  /** District contests of a kind the voter hasn't set (e.g. Board of Equalization), by kind. */
+  const toPick = $derived.by(() => {
+    const by = new Map<DistrictKind, Row[]>();
+    for (const r of textFiltered) {
+      if (status(r) !== "pick" || r.place.scope !== "district") continue;
+      by.set(r.place.kind, [...(by.get(r.place.kind) ?? []), r]);
+    }
+    return [...by.entries()].map(([kind, rs]) => ({ kind, rows: sortRows(rs) }));
+  });
+  const unmatched = $derived(sortRows(textFiltered.filter((r) => status(r) === "unmatched")));
+  const shown = $derived(filtered.length + toPick.reduce((n, g) => n + g.rows.length, 0) + unmatched.length);
   const openTasks = $derived(ix.b.tasks.filter((t) => !t.blocked_by).length);
 </script>
 
@@ -52,12 +113,14 @@
   </p>
 </section>
 
+<MyBallot {choice} {showAll} onCount={onBallotCount} total={rows.length} onchange={setChoice} ontoggle={() => (showAll = !showAll)} onforget={forget} />
+
 <section class="section">
   <div class="filter">
     <label for="contest-filter" class="sr">Filter contests</label>
     <Search size={16} aria-hidden="true" />
     <input id="contest-filter" type="search" placeholder="Filter by candidate, office or district (e.g. CA-27)" bind:value={q} autocomplete="off" />
-    <span class="muted num" aria-live="polite">{filtered.length} of {rows.length}</span>
+    <span class="muted num" aria-live="polite">{shown} of {rows.length}</span>
   </div>
 
   {#each groups as g (g.type)}
@@ -69,32 +132,70 @@
       </h2>
       <ul class="list">
         {#each g.rows as r (r.ref)}
-          <li>
-            <a class="crow" href={`#${contestRoute(r.ref)}`}>
-              <Badge icon={OFFICE_TYPE[r.office.type].icon} group="record" size={26} />
-              <span class="c-main">
-                <span class="c-title">{r.title}</span>
-                <span class="c-who">{r.names.length ? r.names.join(" · ") : r.kind === "measure" ? "Ballot measure" : "Candidates not set"}</span>
-              </span>
-              <span class="c-meta num">
-                {#if r.hasAgenda}
-                  <span class="meter" role="img" aria-label={`${r.pct}% researched`}><span style:width={`${r.pct}%`}></span></span>
-                  <span class="pct">{r.pct}%</span>
-                {/if}
-                <span class="tasks" title={`${plural(r.tasks, "open task")}${r.leads ? `, ${plural(r.leads, "unverified lead")}` : ""}`}>
-                  {r.tasks}<span class="unit">{r.tasks === 1 ? "task" : "tasks"}</span>
-                </span>
-                {#if !r.verified}<span class="unv" title="Candidates not yet verified against the official list">unverified</span>{/if}
-              </span>
-            </a>
-          </li>
+          {@render contestRow(r)}
         {/each}
       </ul>
     </div>
   {:else}
-    <p class="empty">No contest matches “{q}”.</p>
+    {#if !toPick.length && !unmatched.length}
+      <p class="empty">{q ? `No contest matches “${q}”.` : "No contest on this ballot yet."}</p>
+    {/if}
   {/each}
+
+  {#each toPick as g (g.kind)}
+    <div class="group">
+      <h2 class="g-head">
+        <Badge icon={BALLOT_ICON.pick} group="record" size={22} />
+        {DISTRICT_NAME[g.kind]}: pick your district
+        <span class="g-count num">{g.rows.length}</span>
+      </h2>
+      <p class="g-note">One of these is on your ballot. Your sample ballot shows which; set it under My ballot.</p>
+      <ul class="list">
+        {#each g.rows as r (r.ref)}
+          {@render contestRow(r)}
+        {/each}
+      </ul>
+    </div>
+  {/each}
+
+  {#if unmatched.length}
+    <div class="group small">
+      <h2 class="g-head">
+        <Badge icon={OFFICE_TYPE.other.icon} group="record" size={22} />
+        Not matched to a district
+        <span class="g-count num">{unmatched.length}</span>
+      </h2>
+      <p class="g-note">These contests couldn't be placed on a California ballot, so they are listed here rather than hidden.</p>
+      <ul class="list">
+        {#each unmatched as r (r.ref)}
+          {@render contestRow(r)}
+        {/each}
+      </ul>
+    </div>
+  {/if}
 </section>
+
+{#snippet contestRow(r: Row)}
+  <li>
+    <a class="crow" href={`#${contestRoute(r.ref)}`} title={r.place.scope === "unmatched" ? r.place.reason : undefined}>
+      <Badge icon={OFFICE_TYPE[r.office.type].icon} group="record" size={26} />
+      <span class="c-main">
+        <span class="c-title">{r.title}</span>
+        <span class="c-who">{r.names.length ? r.names.join(" · ") : r.kind === "measure" ? "Ballot measure" : "Candidates not set"}</span>
+      </span>
+      <span class="c-meta num">
+        {#if r.hasAgenda}
+          <span class="meter" role="img" aria-label={`${r.pct}% researched`}><span style:width={`${r.pct}%`}></span></span>
+          <span class="pct">{r.pct}%</span>
+        {/if}
+        <span class="tasks" title={`${plural(r.tasks, "open task")}${r.leads ? `, ${plural(r.leads, "unverified lead")}` : ""}`}>
+          {r.tasks}<span class="unit">{r.tasks === 1 ? "task" : "tasks"}</span>
+        </span>
+        {#if !r.verified}<span class="unv" title="Candidates not yet verified against the official list">unverified</span>{/if}
+      </span>
+    </a>
+  </li>
+{/snippet}
 
 <style>
   .intro {
@@ -161,6 +262,13 @@
     font-size: var(--step-0);
     font-weight: 800;
     padding-top: 10px;
+  }
+  .g-note {
+    font-size: var(--step--1);
+    color: var(--ink-2);
+  }
+  .group.small .g-head {
+    font-size: var(--step--1);
   }
   .g-count {
     color: var(--muted);

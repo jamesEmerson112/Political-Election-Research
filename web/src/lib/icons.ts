@@ -186,3 +186,24 @@ export const OFFICE_TYPE: Record<OfficeType, { label: string; icon: IconComponen
   measure: { label: "Ballot measures", icon: I(ScrollText) },
 };
 export const OFFICE_ORDER: OfficeType[] = ["statewide", "boe", "house", "legislature", "other", "measure"];
+
+/** "My ballot" panel (Overview). Neutral glyphs; badges use the record color. */
+import BallotInfo from "@lucide/svelte/icons/info";
+import BallotList from "@lucide/svelte/icons/list";
+import BallotListChecks from "@lucide/svelte/icons/list-checks";
+import BallotLocateFixed from "@lucide/svelte/icons/locate-fixed";
+import BallotMailbox from "@lucide/svelte/icons/mailbox";
+import BallotMapPinCheck from "@lucide/svelte/icons/map-pin-check";
+import BallotPencil from "@lucide/svelte/icons/pencil";
+import BallotX from "@lucide/svelte/icons/x";
+export const BALLOT_ICON = {
+  panel: I(MapPin),
+  set: I(BallotMapPinCheck),
+  pick: I(BallotListChecks),
+  zip: I(BallotMailbox),
+  locate: I(BallotLocateFixed),
+  all: I(BallotList),
+  change: I(BallotPencil),
+  forget: I(BallotX),
+  info: I(BallotInfo),
+};

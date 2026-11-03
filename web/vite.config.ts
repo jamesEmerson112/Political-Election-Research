@@ -45,4 +45,6 @@ export default defineConfig({
   root: WEB_ROOT,
   plugins: [datasets(), svelte({ preprocess: vitePreprocess(), configFile: false }), viteSingleFile()],
   build: { outDir: path.join(REPO_ROOT, "dist", "web"), emptyOutDir: true },
+  // geo/ (district outlines for My ballot) lives outside the web root.
+  server: { fs: { allow: [REPO_ROOT] } },
 });

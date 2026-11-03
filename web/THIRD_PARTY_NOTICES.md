@@ -53,3 +53,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## U.S. Census Bureau district boundaries and ZIP tables (`geo/ca-2026-districts.json`)
+
+- Publisher: U.S. Census Bureau (TIGER/Line 2026 shapefiles, block equivalency files, 2020 ZCTA relationship file).
+- Used for: the "My ballot" ZIP and location lookup. The data is simplified and re-encoded by `npm run import:districts`; it is bundled into the page and never sent anywhere.
+- License: public domain, as a work of the U.S. federal government (17 U.S.C. § 105). Provenance, file hashes and verification: `geo/README.md` and `geo/manifest.json`.

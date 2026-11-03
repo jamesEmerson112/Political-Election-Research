@@ -18,9 +18,12 @@
   const bundle = $derived(datasetKey === "demo" ? demo : draft);
   const ix = $derived(new Index(bundle));
   const contestRefs = $derived(ix.contestRefs());
-  const routeContest = $derived(contestRefs.find((r) => contestRoute(r) === route));
+  /** "overview?cd=11&boe=2" -> path "overview", query "cd=11&boe=2" (the Overview's My ballot districts). */
+  const routePath = $derived(route.split("?")[0] ?? "");
+  const routeQuery = $derived(route.includes("?") ? route.slice(route.indexOf("?") + 1) : "");
+  const routeContest = $derived(contestRefs.find((r) => contestRoute(r) === routePath));
   const view = $derived(
-    routeContest ? "contest" : ["issues", "sources", "queue"].includes(route) ? route : "overview",
+    routeContest ? "contest" : ["issues", "sources", "queue"].includes(routePath) ? routePath : "overview",
   );
 
   function readRoute(): string {
@@ -113,7 +116,7 @@
     {:else if view === "queue"}
       <QueueView {ix} />
     {:else}
-      <Overview {ix} />
+      <Overview {ix} query={routeQuery} />
     {/if}
   {/key}
 </main>
