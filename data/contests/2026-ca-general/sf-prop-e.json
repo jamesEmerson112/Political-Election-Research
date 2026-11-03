@@ -1,0 +1,182 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-e",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition E",
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 95, Proposition E digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition E would: • Rules Regulating Purchasing: Give the City Administrator exclusive authority to propose ordinances that change how the City selects contractors and enters into contracts for goods, services, construction, and grants (Purchasing). The Board and Mayor may not amend the ordinances, but they can: • Approve or reject the ordinances within 60 days, or • If no action is taken within 60 days, the ordinances would be approved. Proposition E does not change the current Board authority for Purchasing ordinances that mainly address wages, workplace health and safety, utilization of local business, or labor agreements. • Board Approval of Various Agreements: Increase the dollar amount requiring Board approval to: • Contracts and leases that bring in $4,500,000 or more in revenue to the City, • Contracts that cost the City $25,000,000 or more. Starting in 2032, the City’s Controller would adjust these dollar amounts every five years for inflation. Proposition E would require Board approval for major amendments to these agreements. • City Administrator’s Term: Increase the City Administrator’s term from five to ten years. • City Administrator’s Authority: The City Administrator would set Purchasing rules and processes for all goods, services, construction, and grants that all City departments must follow, except as limited by other laws. Most departments would now be subject to the City Administrator’s authority regarding technology policies and the disposal of City personal property. These rules would override those departments’ conflicting rules and policies.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition E would: • Rules Regulating Purchasing: Give the City Administrator exclusive authority to propose ordinances that change how the City selects contractors and enters into contracts for goods, services, construction, and grants (Purchasing). The Board and Mayor may not amend the ordinances, but they can: • Approve or reject the ordinances within 60 days, or • If no action is taken within 60 days, the ordinances would be approved. Proposition E does not change the current Board authority for Purchasing ordinances that mainly address wages, workplace health and safety, utilization of local business, or labor agreements. • Board Approval of Various Agreements: Increase the dollar amount requiring Board approval to: • Contracts and leases that bring in $4,500,000 or more in revenue to the City, • Contracts that cost the City $25,000,000 or more. Starting in 2032, the City’s Controller would adjust these dollar amounts every five years for inflation. Proposition E would require Board approval for major amendments to these agreements. • City Administrator’s Term: Increase the City Administrator’s term from five to ten years. • City Administrator’s Authority: The City Administrator would set Purchasing rules and processes for all goods, services, construction, and grants that all City departments must follow, except as limited by other laws.",
+          "locator": "p. 94, Proposition E digest, The Proposal (continues on p. 95)"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The City Administrator’s Office is responsible for most of the City’s purchasing. However, authority for the City’s purchasing and technology is shared among the City Administrator’s Office, the Board of Supervisors, the Mayor, and some City departments. • Rules Regulating Purchasing: The Board of Supervisors (Board) may adopt ordinances that set the rules about how the City selects contractors and enters into contracts for goods, services, construction, and grants (referred to below as Purchasing). • Board Approval of Various Agreements: With some exceptions, the City’s Charter requires the Board to approve: • Contracts and leases that bring in $1,000,000 or more in revenue to the City, and • Contracts that cost the City $10,000,000 or more. The Board must also approve certain amendments to these agreements. • City Administrator’s Term: The Mayor appoints the City Administrator to a five-year term, subject to Board approval. • City Administrator’s Authority: The City Administrator sets Purchasing rules and processes governing goods and services except for some goods and services of the Municipal Transportation Agency, Public Utilities Commission, Port Commission, and some arts departments. The City Administrator also oversees technology policies and manages disposal of City personal property for most departments.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The City Administrator’s Office is responsible for most of the City’s purchasing. However, authority for the City’s purchasing and technology is shared among the City Administrator’s Office, the Board of Supervisors, the Mayor, and some City departments. • Rules Regulating Purchasing: The Board of Supervisors (Board) may adopt ordinances that set the rules about how the City selects contractors and enters into contracts for goods, services, construction, and grants (referred to below as Purchasing). • Board Approval of Various Agreements: With some exceptions, the City’s Charter requires the Board to approve: • Contracts and leases that bring in $1,000,000 or more in revenue to the City, and • Contracts that cost the City $10,000,000 or more. The Board must also approve certain amendments to these agreements. • City Administrator’s Term: The Mayor appoints the City Administrator to a five-year term, subject to Board approval. • City Administrator’s Authority: The City Administrator sets Purchasing rules and processes governing goods and services except for some goods and services of the Municipal Transportation Agency, Public Utilities Commission, Port Commission, and some arts departments. The City Administrator also oversees technology policies and manages disposal of City personal property for most departments.",
+          "locator": "p. 94, Proposition E digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to give the City Administrator more authority by centralizing the City’s Purchasing rules and processes, changing how the City approves Purchasing rules, changing when contracts and leases require Board approval, and extending the City Administrator’s term.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to give the City Administrator more authority by centralizing the City’s Purchasing rules and processes, changing how the City approves Purchasing rules, changing when contracts and leases require Board approval, and extending the City Administrator’s term.",
+          "locator": "p. 95, Proposition E digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "board-contract-review-time",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller states higher Board approval thresholds may reduce time the Board and department staff spend on contract review, at a level that cannot be determined.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "These changes may reduce the amount of time the Board of Supervisors spend reviewing contracts and the time department staff spend preparing for the Board of Supervisors’ review, freeing the Board of Supervisors, their staff, and department staff to work on other government functions, although at a level that cannot be determined at this time.",
+            "locator": "p. 95, Controller's Statement on Proposition E, paragraph on Board approval thresholds"
+          }
+        ]
+      },
+      {
+        "id": "cost-of-government-minimal",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller states the amendment would have a minimal impact on the cost of government, at a level that cannot be determined at this time.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government, although at a level that cannot be determined at this time.",
+            "locator": "p. 95, Controller's Statement on Proposition E, opinion paragraph"
+          }
+        ]
+      },
+      {
+        "id": "staffing-changes-unspecified",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller states the amendment may result in changed staffing but does not specify organizational or staffing changes.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The amendment may result in changed staffing but does not specify organizational or staffing changes within the City.",
+            "locator": "p. 95, Controller's Statement on Proposition E, paragraph on City Administrator contracting authority"
+          }
+        ]
+      },
+      {
+        "id": "unified-procurement-reduced-costs",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller states a more unified procurement approach may result in reduced purchasing costs and staff time savings in the long run; no amount is given.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed amendment establishes a more unified City procurement approach, which may result in reduced costs for the purchase of goods or services and staff time savings in the long run.",
+            "locator": "p. 95, Controller's Statement on Proposition E, paragraph on City Administrator contracting authority"
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government, although at a level that cannot be determined at this time.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government, although at a level that cannot be determined at this time.",
+          "locator": "p. 95, Controller's Statement on Proposition E, opinion paragraph"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter",
+        "locator": "p. 94, Proposition E ballot question"
+      }
+    ]
+  },
+  "number": "E",
+  "official_title": {
+    "value": "City Administrator’s Authority and Changes to City Contracting",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "City Administrator’s Authority and Changes to City Contracting",
+        "locator": "p. 94, Proposition E title"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 23, 2026, the Department of Elections certified that the initiative petition calling for Proposition E to be placed on the ballot had a sufficient number of valid signatures to qualify the measure for the ballot.",
+        "locator": "p. 95, How \"E\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City amend the Charter to give the City Administrator more authority by centralizing the City’s purchasing rules and processes, changing how the City approves purchasing rules, changing when contracts and leases require Board of Supervisors approval, and extending the City Administrator’s term?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to give the City Administrator more authority by centralizing the City’s purchasing rules and processes, changing how the City approves purchasing rules, changing when contracts and leases require Board of Supervisors approval, and extending the City Administrator’s term?",
+        "locator": "p. 94, Proposition E ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 94, Proposition E ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

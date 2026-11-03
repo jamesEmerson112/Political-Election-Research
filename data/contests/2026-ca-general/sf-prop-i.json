@@ -1,0 +1,204 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-i",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition I",
+  "conflicts": [
+    {
+      "contest": "contest:2026-ca-general/sf-prop-j",
+      "rule": "Proposition I's legal text says that if it and another measure on the transfer tax or affordable housing funding both pass, Proposition I prevails where they conflict, regardless of vote counts. The clause names no measure; J is matched by its title.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Section 11. Competing Measures. In the event that this Measure and another local measure relating to the real estate transfer tax or affordable housing funding appear on the same ballot, the People of the City and County of San Francisco declare their intent that if both measures are approved, this Measure shall prevail over the other measure to the extent they are in conflict to the maximum extent permitted by law, regardless of the number of votes cast for each measure.",
+          "locator": "p. 239, Legal Text – Proposition I, Section 11"
+        }
+      ]
+    },
+    {
+      "contest": "contest:2026-ca-general/sf-prop-c",
+      "rule": "Proposition I's legal text says that if it and another measure on the transfer tax or affordable housing funding both pass, Proposition I prevails where they conflict, regardless of vote counts. The clause names no measure; C is matched by its title.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Section 11. Competing Measures. In the event that this Measure and another local measure relating to the real estate transfer tax or affordable housing funding appear on the same ballot, the People of the City and County of San Francisco declare their intent that if both measures are approved, this Measure shall prevail over the other measure to the extent they are in conflict to the maximum extent permitted by law, regardless of the number of votes cast for each measure.",
+          "locator": "p. 239, Legal Text – Proposition I, Section 11"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 133, Proposition I digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition I would dedicate half of the transfer tax revenues when certain real estate with a value or sales price of more than $10,000,000 changes hands, to be spent only on affordable housing, including social housing developments and housing assistance. Specifically, the measure would: Transfer Tax For properties with a sales price or value between $10,000,000 and under $25,000,000: • Reduce the current transfer tax from 5.5% to 2.75% • Impose a new transfer tax of 2.75% For properties with a sales price or value at $25,000,000 or more: • Reduce the transfer tax from 6% to 3% • Impose a new transfer tax of 3% This measure will not increase the tax rate on the transfer of any property above what is charged today. The same exemptions and tax reductions from the current transfer tax would still apply to the new transfer tax. The new transfer tax would also exempt the first sale of certain multifamily real estate if it is sold within 5 years of completion of new residential units. Tax Revenue Spending The City could spend revenue from the new transfer tax only on: • At least 60% for affordable housing production, with at least half to social housing developments; • At least 25% towards the acquisition or rehabilitation of affordable housing, with at least 60% to acquisition of existing housing units; and • At least 10% to tenant stabilization/homeless prevention programs, with at least half to eviction defense and prevention; The Board could only change the transfer tax consistent with the purpose of the tax. All other changes would require voter approval. Proposition I would approve an unlimited number of new affordable housing units for low-income households funded by revenue from the new transfer tax. Proposition I would require the City to submit annual reports to the Board and Mayor on the use of the new tax revenue. Proposition I would increase the City’s spending limit for four years.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition I would dedicate half of the transfer tax revenues when certain real estate with a value or sales price of more than $10,000,000 changes hands, to be spent only on affordable housing, including social housing developments and housing assistance.",
+          "locator": "p. 132, Proposition I digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The City collects a transfer tax when most real estate changes hands. The tax rates depend on the property’s sales price or value and the two highest tax rates are: • 5.5% for properties between $10,000,000 and under $25,000,000, and • 6% for properties at $25,000,000 or more. Some real estate transfers are exempt from the tax or are subject to reduced rates. Revenues generated from the transfer tax may be spent for any governmental purpose. The Board of Supervisors (Board) may amend, reduce, suspend, or repeal the transfer tax without voter approval. Voters must approve any increase of the transfer tax. State law limits the total revenue, including tax revenue, the City may spend each year. The voters may approve increases to this limit for up to four years.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The City collects a transfer tax when most real estate changes hands. The tax rates depend on the property’s sales price or value and the two highest tax rates are: • 5.5% for properties between $10,000,000 and under $25,000,000, and • 6% for properties at $25,000,000 or more. Some real estate transfers are exempt from the tax or are subject to reduced rates.",
+          "locator": "p. 132, Proposition I digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to dedicate half of the transfer tax revenues when certain real estate with a value or sales price of more than $10,000,000 changes hands, to be spent only on affordable housing, including social housing developments and housing assistance.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to dedicate half of the transfer tax revenues when certain real estate with a value or sales price of more than $10,000,000 changes hands, to be spent only on affordable housing, including social housing developments and housing assistance.",
+          "locator": "p. 133, Proposition I digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "general-fund-revenue-shift",
+        "amount": {
+          "high_usd": 120000000,
+          "low_usd": 120000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Moves about $120 million per year of existing transfer tax revenue out of the General Fund, increasing the projected General Fund deficit by that amount.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "the ordinance would also shift $120 million per year of existing revenue from the more flexible General Fund to a special revenue fund dedicated to affordable housing programming and support. Because the ordinance would remove existing revenue from the General Fund, it would increase the City’s projected General Fund deficit by $120 million annually.",
+            "locator": "p. 133, Controller's Statement on \"I\""
+          }
+        ]
+      },
+      {
+        "id": "house-sf-fund-revenue",
+        "amount": {
+          "high_usd": 120000000,
+          "low_usd": 120000000
+        },
+        "direction": "revenue",
+        "estimate": "estimated",
+        "lane": "dedicated",
+        "per": "year",
+        "text": "The $120 million per year moved from the General Fund goes to a special revenue fund (the House SF Fund) restricted to affordable housing programs.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "the ordinance would also shift $120 million per year of existing revenue from the more flexible General Fund to a special revenue fund dedicated to affordable housing programming and support.",
+            "locator": "p. 133, Controller's Statement on \"I\""
+          }
+        ]
+      },
+      {
+        "id": "house-sf-tax-exemption-revenue-decrease",
+        "amount": {
+          "high_usd": 1000000,
+          "low_usd": 1000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "dedicated",
+        "per": "year",
+        "start_fy": "2027-28",
+        "text": "A new House SF Tax exemption for certain recently built multi-family properties lowers collected revenue by about $1 million per year (overall City revenue decrease of about $1 million).",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The ordinance also includes a new exemption from the House SF Tax for certain recently constructed multi-family housing properties, reducing the collected revenue by approximately $1 million annually, so the proposed House SF Fund would generate approximately $119 million annually.",
+            "locator": "p. 133, Controller's Statement on \"I\""
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed ordinance be approved by the voters, in my opinion, it would represent a moderate annual decrease of approximately $1 million to the City’s overall revenues starting in Fiscal Year (FY) 2027-28. However, the ordinance would also shift $120 million per year of existing revenue from the more flexible General Fund to a special revenue fund dedicated to affordable housing programming and support. Because the ordinance would remove existing revenue from the General Fund, it would increase the City’s projected General Fund deficit by $120 million annually.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed ordinance be approved by the voters, in my opinion, it would represent a moderate annual decrease of approximately $1 million to the City’s overall revenues starting in Fiscal Year (FY) 2027-28. However, the ordinance would also shift $120 million per year of existing revenue from the more flexible General Fund to a special revenue fund dedicated to affordable housing programming and support. Because the ordinance would remove existing revenue from the General Fund, it would increase the City’s projected General Fund deficit by $120 million annually.",
+          "locator": "p. 133, Controller's Statement on \"I\""
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "tax",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Changes to Real Property Transfer Tax",
+        "locator": "p. 132, Proposition I title"
+      }
+    ]
+  },
+  "number": "I",
+  "official_title": {
+    "value": "Changes to Real Property Transfer Tax",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Changes to Real Property Transfer Tax",
+        "locator": "p. 132, Proposition I title"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 23, 2026, the Department of Elections certified that the initiative petition calling for Proposition I to be placed on the ballot had a sufficient number of valid signatures to qualify the measure for the ballot.",
+        "locator": "p. 133, How \"I\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City permanently dedicate half of the transfer tax revenues collected when certain real estate with a value or sales price of more than $10,000,000 changes hands, which will continue to be taxed at rates of 5.5% to 6%, to be spent only on affordable housing, including social housing developments and housing assistance, and exempt certain sales from the dedicated portion of the tax, for an estimated annual revenue decrease of approximately $1 million?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City permanently dedicate half of the transfer tax revenues collected when certain real estate with a value or sales price of more than $10,000,000 changes hands, which will continue to be taxed at rates of 5.5% to 6%, to be spent only on affordable housing, including social housing developments and housing assistance, and exempt certain sales from the dedicated portion of the tax, for an estimated annual revenue decrease of approximately $1 million?",
+        "locator": "p. 132, Proposition I ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 132, Proposition I ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

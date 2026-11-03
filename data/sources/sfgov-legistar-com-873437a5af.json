@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-873437a5af",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2026-07-30",
+  "publisher": "City and County of San Francisco, Office of the Controller / Clerk of the Board of Supervisors",
+  "title": "Budget and Appropriation Ordinance, Fiscal Year Ending June 30, 2027 and Fiscal Year Ending June 30, 2028 (File No. 260596, Ordinance No. 140-26; File 260596 attachment \"Leg Final\")",
+  "url": "https://sfgov.legistar.com/View.ashx?M=F&ID=15741187&GUID=A27E08F6-DFE0-4916-A33C-EB90419718DA",
+  "notes": "Opened and quoted by a research agent on 2026-11-03 (sf-measures-fanout workflow); quotes checked against the document text."
+}

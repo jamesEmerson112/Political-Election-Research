@@ -1,0 +1,155 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-j",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition J",
+  "conflicts": [
+    {
+      "contest": "contest:2026-ca-general/sf-prop-i",
+      "rule": "Proposition I's legal text says that if it and another measure relating to the real estate transfer tax are both approved, Proposition I prevails where they conflict, regardless of the number of votes for each.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "In the event that this Measure and another local measure relating to the real estate transfer tax or affordable housing funding appear on the same ballot, the People of the City and County of San Francisco declare their intent that if both measures are approved, this Measure shall prevail over the other measure to the extent they are in conflict to the maximum extent permitted by law, regardless of the number of votes cast for each measure.",
+          "locator": "p. 239, Legal Text – Proposition I, Section 11 (Competing Measures)"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 144, Proposition J digest, A “NO” Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition J would apply a transfer tax for properties such as commercial, industrial, and large residential real estate that a lender takes through foreclosure or is handed over to the lender to avoid foreclosure. Starting March 1, 2027, these properties would be taxed on their full market value. The tax break would still apply to the transfer of: 1. single-family residences, 2. multi-family residential buildings with fewer than five units, and 3. mixed-use properties with fewer than five residential units and only one floor of non-residential space. Proposition J would increase the City’s spending limit for four years.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition J would apply a transfer tax for properties such as commercial, industrial, and large residential real estate that a lender takes through foreclosure or is handed over to the lender to avoid foreclosure. Starting March 1, 2027, these properties would be taxed on their full market value. The tax break would still apply to the transfer of: 1. single-family residences, 2. multi-family residential buildings with fewer than five units, and 3. mixed-use properties with fewer than five residential units and only one floor of non-residential space. Proposition J would increase the City’s spending limit for four years.",
+          "locator": "p. 144, Proposition J digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "San Francisco charges a tax when most real estate property in the City changes hands. The amount of the tax depends on the property’s sales price or value. When a lender takes over a property through foreclosure, or when an owner hands over a property to the lender to avoid foreclosure, there is a tax break. The lender pays tax only on the difference between what the property sold for and what is still owed to the lender, including interest and foreclosure costs. State law limits the total revenue, including tax revenue, the City may spend each year. The voters may approve increases to this limit for up to four years.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco charges a tax when most real estate property in the City changes hands. The amount of the tax depends on the property’s sales price or value. When a lender takes over a property through foreclosure, or when an owner hands over a property to the lender to avoid foreclosure, there is a tax break. The lender pays tax only on the difference between what the property sold for and what is still owed to the lender, including interest and foreclosure costs. State law limits the total revenue, including tax revenue, the City may spend each year. The voters may approve increases to this limit for up to four years.",
+          "locator": "p. 144, Proposition J digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to apply a transfer tax for properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to apply a transfer tax for properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure.",
+          "locator": "p. 144, Proposition J digest, A “YES” Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "transfer-tax-revenue",
+        "amount": {
+          "high_usd": 150000000,
+          "low_usd": 100000000
+        },
+        "direction": "revenue",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Controller estimates Real Property Transfer Tax revenue could increase by an average of $100 million to $150 million a year over the first five years; amounts would vary year to year.",
+        "years": 5,
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The measure could bring an average of $100 million to $150 million annually over the first five years.",
+            "locator": "p. 144, Controller’s Statement on “J”, opinion paragraph"
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed initiative ordinance be approved by the voters, in my opinion, it would significantly increase the City’s Real Property Transfer Tax revenues although the amount generated each year would be unpredictable and likely to change significantly year-to-year. The measure could bring an average of $100 million to $150 million annually over the first five years. The total revenue in any given year will be highly dependent on the number of foreclosures and real estate conditions. It is likely that revenue increases would be highest in the near term then decline significantly over time.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed initiative ordinance be approved by the voters, in my opinion, it would significantly increase the City’s Real Property Transfer Tax revenues although the amount generated each year would be unpredictable and likely to change significantly year-to-year. The measure could bring an average of $100 million to $150 million annually over the first five years. The total revenue in any given year will be highly dependent on the number of foreclosures and real estate conditions. It is likely that revenue increases would be highest in the near term then decline significantly over time.",
+          "locator": "p. 144, Controller’s Statement on “J”, opinion paragraph"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "tax",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City permanently apply a transfer tax",
+        "locator": "p. 144, Proposition J ballot question"
+      }
+    ]
+  },
+  "number": "J",
+  "official_title": {
+    "value": "Removal of Foreclosure Exemption for Real Property Transfer Tax",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "J – Removal of Foreclosure Exemption for Real Property Transfer Tax",
+        "locator": "p. 144, Proposition J title"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 28, 2026, the Board of Supervisors voted 10 to 0, with one Supervisor excused, to place Proposition J on the ballot.",
+        "locator": "p. 145, How “J” Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City permanently apply a transfer tax of between 0.5% and 6% of a property’s fair market value, on the transfer of properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure or to avoid foreclosure, for estimated annual revenue of $100 million to $150 million?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City permanently apply a transfer tax of between 0.5% and 6% of a property’s fair market value, on the transfer of properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure or to avoid foreclosure, for estimated annual revenue of $100 million to $150 million?",
+        "locator": "p. 144, Proposition J ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 144, Proposition J vote requirement"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

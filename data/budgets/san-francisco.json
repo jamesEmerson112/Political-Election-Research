@@ -1,0 +1,81 @@
+{
+  "$schema": "../../schemas/budget.schema.json",
+  "id": "san-francisco",
+  "name": "City and County of San Francisco budget",
+  "adopted": [
+    {
+      "basis": "FY 2026-27 (year ending June 30, 2027), City and County of San Francisco Budget and Appropriation Ordinance as enacted (File 260596, Ordinance 140-26, enacted 7/30/2026). Consolidated Schedule of Sources and Uses: 'Sources of Funds Total' (equal to 'Uses of Funds Total'), all funds = General Fund + Self Supporting, net of $1,540,146,504 interdepartmental recoveries (gross expenditures before recoveries are $17,347,076,734). General Fund column includes $297,199,449 transfers in and $1,417,724,952 transfers out to other funds.",
+      "fy": "2026-27",
+      "general_fund_usd": 7598833795,
+      "total_usd": 16851826113,
+      "citations": [
+        {
+          "source": "src:sfgov-legistar-com-873437a5af",
+          "quote": "Sources of Funds FY 2026-27 FY 2027-28 General Fund Self Supporting Total General Fund Self Supporting Total Prior Year Fund Balance 42,402,668 567,965,006 610,367,674 458,349,416 357,265,341 815,614,757 Prior Year Reserves 117,602,320 2,835,013 120,437,333 73,520,816 2,389,055 75,909,871 Regular Revenues 7,141,629,358 8,979,391,748 16,121,021,106 7,091,581,878 9,235,737,602 16,327,319,480 Transfers Into the General Fund 297,199,449 (297,199,449) 266,569,368 (266,569,368) Sources of Funds Total 7,598,833,795 9,252,992,318 16,851,826,113 7,890,021,478 9,328,822,630 17,218,844,108",
+          "locator": "Consolidated Schedule of Sources and Uses, printed page 11 (PDF page 13 of 278), row 'Sources of Funds Total', FY 2026-27 columns General Fund and Total"
+        }
+      ]
+    },
+    {
+      "basis": "FY 2027-28 (year ending June 30, 2028), second year of the same two-year Budget and Appropriation Ordinance (File 260596, Ordinance 140-26, enacted 7/30/2026). Consolidated Schedule of Sources and Uses: 'Sources of Funds Total' (equal to 'Uses of Funds Total'), all funds = General Fund + Self Supporting, net of $1,627,751,752 interdepartmental recoveries (gross expenditures before recoveries are $17,881,221,594). General Fund column includes $266,569,368 transfers in and $1,514,289,389 transfers out to other funds.",
+      "fy": "2027-28",
+      "general_fund_usd": 7890021478,
+      "total_usd": 17218844108,
+      "citations": [
+        {
+          "source": "src:sfgov-legistar-com-873437a5af",
+          "quote": "Sources of Funds FY 2026-27 FY 2027-28 General Fund Self Supporting Total General Fund Self Supporting Total Prior Year Fund Balance 42,402,668 567,965,006 610,367,674 458,349,416 357,265,341 815,614,757 Prior Year Reserves 117,602,320 2,835,013 120,437,333 73,520,816 2,389,055 75,909,871 Regular Revenues 7,141,629,358 8,979,391,748 16,121,021,106 7,091,581,878 9,235,737,602 16,327,319,480 Transfers Into the General Fund 297,199,449 (297,199,449) 266,569,368 (266,569,368) Sources of Funds Total 7,598,833,795 9,252,992,318 16,851,826,113 7,890,021,478 9,328,822,630 17,218,844,108",
+          "locator": "Consolidated Schedule of Sources and Uses, printed page 11 (PDF page 13 of 278), row 'Sources of Funds Total', FY 2027-28 columns General Fund and Total"
+        }
+      ]
+    }
+  ],
+  "forecast": {
+    "published": "2026-03-31",
+    "publisher": "City and County of San Francisco: Controller (Greg Wagner), Mayor's Budget Director (Sophia Kittler), Board of Supervisors Budget & Legislative Analyst (Dan Goncher)",
+    "title": "Budget Outlook Update (March Five-Year Update)",
+    "years": [
+      {
+        "amount_usd": 474300000,
+        "basis": "Cumulative projected General Fund shortfall for FY2027-28 (base case) in the March 31, 2026 Budget Outlook Update, made before the FY2026-27 and FY2027-28 budget was adopted; the adopted budget had to close the near-term gaps.",
+        "direction": "shortfall",
+        "fy": "2027-28",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-fbc91147b9",
+            "quote": "Projected Surplus/(Shortfall) vs. Prior Year (168.5) (168.5) (305.8) (267.4) (346.8) Annual Projected Surplus/(Shortfall) (168.5) (168.5) (474.3) (741.7) (1,088.6) Two-Year Surplus/(Shortfall) (642.8)",
+            "locator": "Appendix A (Updated Base Case – General Fund-Supported Sources & Uses FY 2027-30 – INCREMENTAL CHANGE, $ in millions), page 10, column 'Projection 2027-28' (the first value in each row is the 'Change from AAO Budget 2026-27' column)"
+          }
+        ]
+      },
+      {
+        "amount_usd": 741700000,
+        "basis": "Cumulative projected General Fund shortfall for FY2028-29 (base case) in the March 31, 2026 Budget Outlook Update, made before the FY2026-27 and FY2027-28 budget was adopted; the adopted budget had to close the near-term gaps.",
+        "direction": "shortfall",
+        "fy": "2028-29",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-fbc91147b9",
+            "quote": "Projected Surplus/(Shortfall) vs. Prior Year (168.5) (168.5) (305.8) (267.4) (346.8) Annual Projected Surplus/(Shortfall) (168.5) (168.5) (474.3) (741.7) (1,088.6) Two-Year Surplus/(Shortfall) (642.8)",
+            "locator": "Appendix A, page 10, column 'Projection 2028-29'"
+          }
+        ]
+      },
+      {
+        "amount_usd": 1088600000,
+        "basis": "Cumulative projected General Fund shortfall for FY2029-30 (base case) in the March 31, 2026 Budget Outlook Update, made before the FY2026-27 and FY2027-28 budget was adopted; the adopted budget had to close the near-term gaps.",
+        "direction": "shortfall",
+        "fy": "2029-30",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-fbc91147b9",
+            "quote": "Projected Surplus/(Shortfall) vs. Prior Year (168.5) (168.5) (305.8) (267.4) (346.8) Annual Projected Surplus/(Shortfall) (168.5) (168.5) (474.3) (741.7) (1,088.6) Two-Year Surplus/(Shortfall) (642.8)",
+            "locator": "Appendix A, page 10, column 'Projection 2029-30'; Executive Summary page 1: 'Long term structural shortfalls remain, growing to $1,088.6 million by FY 2029-30, which is $79.9 million less than the December 2025 projection.'"
+          }
+        ]
+      }
+    ]
+  },
+  "jurisdiction": "City and County of San Francisco",
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,210 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-h",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition H",
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 125, Proposition H digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Starting July 1, 2027, and continuing until June 30, 2042, Proposition H would fund Muni service through a new annual parcel tax on real estate in San Francisco. The tax would be adjusted annually for inflation. The proposed 2027 tax rates would be: • Single-Family Residential Parcels: • A base tax of $129. • For buildings with more than 3,000 square feet of building area: • $0.42 per square foot between 3,001 and 5,000, and • $1.99 per square foot over 5,000. • Multifamily Residential Parcels: • A base tax of $249. • For buildings with more than 5,000 square feet of building area: • $0.195 per square foot over 5,000. • This tax is capped at $50,000 per parcel. • Non-Residential Parcels: • A base tax of $799. • For buildings with more than 5,000 square feet of building area: • $0.76 per square foot between 5,001 and 50,000, • $0.84 per square foot between 50,001 and 250,000, and • $0.99 per square foot over 250,000. • This tax is capped at $400,000 per parcel. • Mixed-Use Parcels: • A base tax of $799. • For buildings with more than 5,000 square feet of building area: • A combination of the marginal rates for residential and non-residential parcels above. • This tax is capped at $400,000 per parcel. • Parcels with No Buildings: • No base tax. • $392 for land area over 2,000 square feet. The tax would not apply to: 1. Properties or portions of properties not required to pay standard property taxes; and 2. Single Room Occupancy (SRO) units and their shared facilities such as kitchens or bathrooms. Most homeowners aged 65 or older living in their primary home would get a discount or pay no tax. Revenues from the tax would only be used for Muni service and administering the tax. In addition to the annual required audit by an independent auditor, an annual report and efficiency review would be required. This measure would increase the City’s spending limit for four years. Owners could pass up to 50% of the tax onto tenants in rent-controlled units where the rent was set before June 1, 2027, up to a maximum of $65 per unit per year.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Starting July 1, 2027, and continuing until June 30, 2042, Proposition H would fund Muni service through a new annual parcel tax on real estate in San Francisco. The tax would be adjusted annually for inflation. The proposed 2027 tax rates would be: • Single-Family Residential Parcels: • A base tax of $129. • For buildings with more than 3,000 square feet of building area: • $0.42 per square foot between 3,001 and 5,000, and • $1.99 per square foot over 5,000. • Multifamily Residential Parcels: • A base tax of $249. • For buildings with more than 5,000 square feet of building area: • $0.195 per square foot over 5,000. • This tax is capped at $50,000 per parcel. • Non-Residential Parcels: • A base tax of $799. • For buildings with more than 5,000 square feet of building area: • $0.76 per square foot between 5,001 and 50,000, • $0.84 per square foot between 50,001 and 250,000, and • $0.99 per square foot over 250,000. • This tax is capped at $400,000 per parcel. • Mixed-Use Parcels: • A base tax of $799. • For buildings with more than 5,000 square feet of building area: • A combination of the marginal rates for residential and non-residential parcels above. • This tax is capped at $400,000 per parcel. • Parcels with No Buildings: • No base tax. • $392 for land area over 2,000 square feet.",
+          "locator": "p. 124, Proposition H digest, The Proposal (continues on p. 125)"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The Municipal Railway (Muni) provides public transit in San Francisco, including bus, light rail, streetcar, and cable car. Muni provides over 500,000 rides per weekday. Muni service is funded by transit fares and local, state and federal sources, but not through a parcel tax. State law limits the total revenue, including tax revenue, that the City may spend each year. The voters may approve increases to this limit for up to four years. Owners of rent-controlled residential property in the City are generally limited in what costs they can pass onto their tenants.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Municipal Railway (Muni) provides public transit in San Francisco, including bus, light rail, streetcar, and cable car. Muni provides over 500,000 rides per weekday. Muni service is funded by transit fares and local, state and federal sources, but not through a parcel tax. State law limits the total revenue, including tax revenue, that the City may spend each year. The voters may approve increases to this limit for up to four years. Owners of rent-controlled residential property in the City are generally limited in what costs they can pass onto their tenants.",
+          "locator": "p. 124, Proposition H digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want the City to fund Muni service through a new annual parcel tax on real estate.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want the City to fund Muni service through a new annual parcel tax on real estate.",
+          "locator": "p. 125, Proposition H digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "additional-implementation-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Additional costs may include the financial efficiency review, community outreach and education, and other administrative costs; no amount is given.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Additional costs may include the financial efficiency review, ongoing community outreach and education costs, and other administrative costs to implement the tax.",
+            "locator": "p. 125, Controller's Statement on \"H\""
+          }
+        ]
+      },
+      {
+        "id": "administration-ongoing-cost",
+        "amount": {
+          "high_usd": 6000000,
+          "low_usd": 4000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Administering the parcel tax would cost about $4 million to $6 million a year in ongoing costs, likely decreasing over time.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "would increase the cost of government by approximately $2 million to $3 million in one-time startup costs, then approximately $4 million to $6 million annually, likely decreasing over time.",
+            "locator": "p. 125, Controller's Statement on \"H\""
+          }
+        ]
+      },
+      {
+        "id": "administration-startup-cost",
+        "amount": {
+          "high_usd": 3000000,
+          "low_usd": 2000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "text": "Administering the parcel tax would have about $2 million to $3 million in one-time startup costs.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The cost to government to administer this parcel tax could range from approximately $2 million to $3 million in one-time startup costs, and from approximately $4 million to $6 million annually in ongoing costs.",
+            "locator": "p. 125, Controller's Statement on \"H\""
+          }
+        ]
+      },
+      {
+        "id": "parcel-tax-revenue",
+        "amount": {
+          "high_usd": 177000000,
+          "low_usd": 177000000
+        },
+        "direction": "revenue",
+        "estimate": "estimated",
+        "lane": "dedicated",
+        "per": "year",
+        "start_fy": "2027-28",
+        "text": "Parcel tax would generate about $177 million a year for Muni service starting FY 2027-28, rising with annual inflation adjustments; revenue goes to the Stronger Muni Fund.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Should the proposed parcel tax be approved by the voters, in my opinion, based on currently available parcel data it would generate approximately $177 million annually for Muni transit service starting in Fiscal Year (FY) 2027-2028, and would increase over time as the per parcel taxes are adjusted for inflation each year.",
+            "locator": "p. 125, Controller's Statement on \"H\""
+          }
+        ]
+      },
+      {
+        "id": "sfmta-operational-decisions",
+        "direction": "cost",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "total",
+        "text": "Total administrative cost would depend on future operational and staffing decisions by the SFMTA.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The total cost would be dependent on future operational and staffing decisions made by the SFMTA.",
+            "locator": "p. 125, Controller's Statement on \"H\""
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed parcel tax be approved by the voters, in my opinion, based on currently available parcel data it would generate approximately $177 million annually for Muni transit service starting in Fiscal Year (FY) 2027-2028, and would increase over time as the per parcel taxes are adjusted for inflation each year. The cost to government to administer this parcel tax could range from approximately $2 million to $3 million in one-time startup costs, and from approximately $4 million to $6 million annually in ongoing costs.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed parcel tax be approved by the voters, in my opinion, based on currently available parcel data it would generate approximately $177 million annually for Muni transit service starting in Fiscal Year (FY) 2027-2028, and would increase over time as the per parcel taxes are adjusted for inflation each year. The cost to government to administer this parcel tax could range from approximately $2 million to $3 million in one-time startup costs, and from approximately $4 million to $6 million annually in ongoing costs.",
+          "locator": "p. 125, Controller's Statement on \"H\""
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "tax",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City fund Muni service through a new annual parcel tax on real estate",
+        "locator": "p. 124, Proposition H ballot question"
+      }
+    ]
+  },
+  "number": "H",
+  "official_title": {
+    "value": "Parcel Tax to Fund Muni Operations",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Parcel Tax to Fund Muni Operations",
+        "locator": "p. 124, Proposition H title"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On June 12, 2026, the Department of Elections certified that the initiative petition calling for Proposition H to be placed on the ballot had a sufficient number of valid signatures to qualify the measure for the ballot.",
+        "locator": "p. 125, How \"H\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City fund Muni service through a new annual parcel tax on real estate at rates ranging from $129 per parcel up to a maximum of $400,000 per parcel, depending on the type of property and its size and adjusted annually for inflation, for estimated revenue of $177 million a year for 15 years?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City fund Muni service through a new annual parcel tax on real estate at rates ranging from $129 per parcel up to a maximum of $400,000 per parcel, depending on the type of property and its size and adjusted annually for inflation, for estimated revenue of $177 million a year for 15 years?",
+        "locator": "p. 124, Proposition H ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 124, Proposition H ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

@@ -27,6 +27,13 @@
   - SF Board of Supervisors district races
 - **Done (2026-11-03):** SF measures model, fiscal statements and budget baseline (`budget` records), the "Try your ballot" trial with a budget meter (works on the fictional demo).
 - **SF measures data (waiting on hosts):** allow `www.sf.gov`, `media.api.sf.gov`, `sfcontroller.org`, `openbook.sfgov.org`, `data.sfgov.org`, then research every SF Prop (facts, digest, Controller's statement, conflicts) and `data/budgets/san-francisco.json` (adopted FY2026-27/27-28 from Legistar File 260596; the latest Joint Report / Five-Year Plan forecast). See RESEARCH_GUIDE `task-measure-fiscal`.
+- **Money each candidate introduced to the budget (maintainer: important):**
+  - Per candidate, track the dollars in the past policies they introduced, sponsored or moved: appropriations, budget add-backs, bonds and taxes they placed.
+  - Each amount is cited, with its fiscal year, kind (one-time / annual) and fund, shown as a total row in Past policies (lane by lane, never blended).
+  - Data: an amount field on track-record items.
+  - CA-11 so far, from cited records:
+    - Chan: File 251080 $3.5M (FY2025-26), File 261148 $1.765M (pending), Free City College +$2.8M/yr (FY2026-27, FY2027-28).
+    - Wiener: none recorded yet.
 - **Next SF items:**
   - State Assembly districts covering SF (AD-17 east, AD-19 west)
   - SF local ballot measures

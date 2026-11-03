@@ -1,0 +1,197 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-d",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition D",
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 84, Proposition D digest, A “NO” Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition D would amend the Charter to increase the requirements to put measures on the ballot by: • Increasing the number of signatures required to place a signature initiative on the ballot from 2% to 8% (currently from about 10,600 to about 42,500 signatures) of the registered voters in San Francisco. • Increasing the number of signatures required to call a special election on an ordinance from 10% of the votes cast for Mayor in the last election to 10% of the registered voters in San Francisco. Currently, this is about 53,100 signatures. Proposition D would allow signature initiatives to be withdrawn up to 102 days before the election. Proposition D would also change the requirements to put measures on the ballot by: • Removing the ability of four or more Board members to place a measure on the ballot without a Board vote; • Removing the ability of the Mayor to independently place a measure on the ballot; The Board could still place measures on the ballot by a majority vote.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition D would amend the Charter to increase the requirements to put measures on the ballot by:",
+          "locator": "p. 84, Proposition D digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The San Francisco Board of Supervisors (Board) has 11 members. A measure can be either an ordinance to change the law or a declaration of policy. Under the City Charter, measures can be placed on the ballot in several ways, including: • By a majority vote of the Board; • By four or more Board members without a Board vote; • By the Mayor without a Board vote; or • By a signature initiative (petition) signed by at least 2% of the registered voters in San Francisco, currently about 10,600 signatures. Currently San Francisco has over 530,000 registered voters. Signature initiatives usually appear on the ballot at the next regularly scheduled election. Signature initiatives may call for an earlier “special” election on an ordinance if the petition is signed by at least 10% of the votes cast for all candidates for Mayor in the last election. Currently, this is about 39,000 signatures. Once a signature initiative is submitted to the Department of Elections, it cannot be withdrawn.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The San Francisco Board of Supervisors (Board) has 11 members. A measure can be either an ordinance to change the law or a declaration of policy. Under the City Charter, measures can be placed on the ballot in several ways, including: • By a majority vote of the Board; • By four or more Board members without a Board vote; • By the Mayor without a Board vote; or • By a signature initiative (petition) signed by at least 2% of the registered voters in San Francisco, currently about 10,600 signatures. Currently San Francisco has over 530,000 registered voters. Signature initiatives usually appear on the ballot at the next regularly scheduled election. Signature initiatives may call for an earlier “special” election on an ordinance if the petition is signed by at least 10% of the votes cast for all candidates for Mayor in the last election. Currently, this is about 39,000 signatures. Once a signature initiative is submitted to the Department of Elections, it cannot be withdrawn.",
+          "locator": "p. 84, Proposition D digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to increase the requirements for signature initiatives from 2% to 8% of registered voters (currently from about 10,600 to about 42,500 signatures), increase the requirements for special elections, allow signature initiatives to be withdrawn, and remove the ability of a minority of Board members or the Mayor to place measures on the ballot.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to increase the requirements for signature initiatives from 2% to 8% of registered voters (currently from about 10,600 to about 42,500 signatures), increase the requirements for special elections, allow signature initiatives to be withdrawn, and remove the ability of a minority of Board members or the Mayor to place measures on the ballot.",
+          "locator": "p. 84, Proposition D digest, A “YES” Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "elections-department-workload",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Department of Elections workload may fall with fewer ballot ordinances, or rise from validating more signatures and removing withdrawn measures.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed Charter amendment may impact the Department of Elections’ workload. It may result in a reduction in ballot ordinances which would reduce the associated workload for the Department of Elections— freeing staff to work on other government functions. Conversely, the Department of Elections may see an increase in workload to validate more voter signatures for a measure to qualify for the ballot and to remove qualified measures at the proponents’ request.",
+            "locator": "p. 85, Controller's Statement on “D”, fifth paragraph"
+          }
+        ]
+      },
+      {
+        "id": "fewer-special-elections",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The higher threshold may reduce special elections called, a savings for the Department of Elections; a citywide special election costs at least an estimated $5 million.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed increase in the voter signature threshold may also reduce the number of special elections called which would result in cost savings for the Department of Elections. The estimated minimum cost for a citywide special election is $5 million with a one-card ballot and less than 50-page VIP.",
+            "locator": "p. 85, Controller's Statement on “D”, fourth paragraph"
+          }
+        ]
+      },
+      {
+        "id": "fewer-vip-pages",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Fewer initiatives may qualify, which may reduce printed pages in the voter pamphlet; each page averages $11,400 to prepare, print and distribute.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Since the proposed Charter amendment raises the voter signature threshold, fewer initiatives may qualify for the ballot which may reduce the volume of printed pages included in the voter information pamphlet (VIP). On average, each page in the VIP costs $11,400 to prepare, print, and distribute to all registered voters.",
+            "locator": "p. 85, Controller's Statement on “D”, fourth paragraph"
+          }
+        ]
+      },
+      {
+        "id": "likely-cost-reduction-undetermined",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller says the amendment is likely to reduce costs at levels that cannot be determined at this time.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed amendment is likely to reduce costs at levels that cannot be determined at this time.",
+            "locator": "p. 85, Controller's Statement on “D”, fourth paragraph"
+          }
+        ]
+      },
+      {
+        "id": "minimal-impact-cost-of-government",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller says the Charter amendment would have a minimal impact on the cost of government.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government.",
+            "locator": "p. 85, Controller's Statement on “D”, opinion"
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government.",
+          "locator": "p. 85, Controller's Statement on “D”"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter",
+        "locator": "p. 84, Proposition D ballot question"
+      }
+    ]
+  },
+  "number": "D",
+  "official_title": {
+    "value": "Changes to Ballot Measure Process",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "D – Changes to Ballot Measure Process",
+        "locator": "p. 84, Proposition D title"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 23, 2026, the Department of Elections certified that the initiative petition calling for Proposition D to be placed on the ballot had a sufficient number of valid signatures to qualify the measure for the ballot.",
+        "locator": "p. 85, How “D” Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City amend the Charter to increase the requirements for signature initiatives from 2% to 8% of registered voters in San Francisco (currently from about 10,600 to about 42,500 signatures), increase the requirements for calling special elections, allow signature initiatives to be withdrawn before an election, and remove the ability of a minority of Board of Supervisors members or the Mayor to place measures on the ballot?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to increase the requirements for signature initiatives from 2% to 8% of registered voters in San Francisco (currently from about 10,600 to about 42,500 signatures), increase the requirements for calling special elections, allow signature initiatives to be withdrawn before an election, and remove the ability of a minority of Board of Supervisors members or the Mayor to place measures on the ballot?",
+        "locator": "p. 84, Proposition D ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 84, Proposition D"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,235 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-a",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition A",
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 64, Proposition A digest, A NO Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition A would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies. Proposition A would require the Board of Supervisors to amend voter-approved laws to enact some of these changes. Proposition A would: • change the language of the Charter to reflect how some City departments currently operate in order to clarify responsibilities and update rules, procedures, and reporting requirements. • change some processes. For example: allowing legal settlements to be approved by resolution instead of by ordinance. • require a task force to meet every ten years to recommend changes to commissions. • eliminate or reorganize certain commissions and advisory bodies by, for example: eliminating some commissions and advisory bodies, combining and renaming some advisory bodies, and moving some commissions and advisory bodies from the Charter into the Municipal Code.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition A would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies. Proposition A would require the Board of Supervisors to amend voter-approved laws to enact some of these changes. Proposition A would: • change the language of the Charter to reflect how some City departments currently operate in order to clarify responsibilities and update rules, procedures, and reporting requirements. • change some processes. For example: allowing legal settlements to be approved by resolution instead of by ordinance. • require a task force to meet every ten years to recommend changes to commissions. • eliminate or reorganize certain commissions and advisory bodies by, for example: eliminating some commissions and advisory bodies, combining and renaming some advisory bodies, and moving some commissions and advisory bodies from the Charter into the Municipal Code.",
+          "locator": "p. 64, Proposition A digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The Charter is the City’s constitution and establishes the organization, powers, and responsibilities for many City departments. The Charter and other voter-approved laws also create many City commissions and advisory bodies and describe their powers, duties, membership and removal rules, and reporting requirements. Over time, some of these laws have become obsolete. The Charter and most laws passed by the voters can only be changed with voter approval.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Charter is the City’s constitution and establishes the organization, powers, and responsibilities for many City departments. The Charter and other voter-approved laws also create many City commissions and advisory bodies and describe their powers, duties, membership and removal rules, and reporting requirements. Over time, some of these laws have become obsolete. The Charter and most laws passed by the voters can only be changed with voter approval.",
+          "locator": "p. 64, Proposition A digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+          "locator": "p. 64, Proposition A digest, A YES Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "budget-process-decisions",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Additional costs and savings depend on decisions the Mayor and Board of Supervisors make through the normal budget process.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Additional costs and savings are dependent on the decisions that the Mayor and Board of Supervisors make through the normal budget process.",
+            "locator": "p. 64, Controller's Statement on A, first paragraph"
+          }
+        ]
+      },
+      {
+        "id": "commission-eliminations",
+        "amount": {
+          "high_usd": 450000,
+          "low_usd": 365000
+        },
+        "direction": "savings",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Saves $365,000 to $450,000 a year in the cost of government (the Controller's estimate).",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually.",
+            "locator": "p. 64, Controller's Statement on A, first paragraph"
+          }
+        ]
+      },
+      {
+        "id": "commission-staff-time",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Staff time needed to support commissions and boards may decrease, freeing staff for other government functions, at a level that cannot be determined.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The amount of staff time needed to support commissions and boards may decrease—freeing staff to work on other government functions, although at a level that cannot be determined at this time.",
+            "locator": "p. 65, Controller's Statement on A (continued), paragraph on remaining commissions and boards"
+          }
+        ]
+      },
+      {
+        "id": "executive-secretary-requirement",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Savings from removing the requirement that commissions hire an executive secretary cannot be determined, as bodies may opt not to fill the position.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The amount of cost savings attributed to removing the requirement of hiring an executive secretary for commissions cannot be determined at this time as bodies may opt not to fill the position.",
+            "locator": "p. 65, Controller's Statement on A (continued), paragraph on costs and savings dependent on budget decisions"
+          }
+        ]
+      },
+      {
+        "id": "remaining-commissions-updates",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Updating responsibilities and membership requirements of remaining commissions and boards will not directly affect the total cost of government.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed amendment updates commission responsibilities and membership requirements for remaining commissions and boards but will not directly impact the total cost to government.",
+            "locator": "p. 65, Controller's Statement on A (continued), paragraph on remaining commissions and boards"
+          }
+        ]
+      },
+      {
+        "id": "task-force-every-ten-years",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Convening the Commission Streamlining Task Force every ten years would require staff time; the statement gives no dollar figure (the 2025 task force used about 5,900 staff hours).",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Convening the Commission Streamlining Task Force (CSTF) every ten years would require staff to implement and administer the CSTF, including conducting analyses, writing public reports, and holding public meetings. The proposed Charter amendment removes the existing requirements for the Budget and Legislative Analyst to prepare a report and the City Attorney to prepare a draft Charter amendment implementing the CTSF’s recommendations from CSTF’s mandate. For context, convening the CSTF in 2025 required approximately 5,900 hours of staff time.",
+            "locator": "p. 65, Controller's Statement on A (continued), Commission Streamlining Task Force sentences"
+          }
+        ]
+      },
+      {
+        "id": "youth-commission-compensation",
+        "amount": {
+          "high_usd": 85000,
+          "low_usd": 5000
+        },
+        "direction": "cost",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Removing the restriction on compensating Youth Commission members may lead to costs of $5,000 to $85,000 a year if policymakers choose to pay them.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "For example, the proposed Charter amendment removes the restriction on compensating Youth Commission members which may lead to future costs, likely ranging from $5,000 to $85,000 annually, should policymakers seek compensation for the members.",
+            "locator": "p. 65, Controller's Statement on A (continued), paragraph on costs and savings dependent on budget decisions"
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually. Additional costs and savings are dependent on the decisions that the Mayor and Board of Supervisors make through the normal budget process.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually. Additional costs and savings are dependent on the decisions that the Mayor and Board of Supervisors make through the normal budget process.",
+          "locator": "p. 64, Controller's Statement on A, first paragraph"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter",
+        "locator": "p. 64, Proposition A ballot question"
+      }
+    ]
+  },
+  "number": "A",
+  "official_title": {
+    "value": "Charter Changes Affecting Various City Departments and Commissions",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Charter Changes Affecting Various City Departments and Commissions",
+        "locator": "p. 64, Proposition A heading"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 14, 2026, the Board of Supervisors voted 9 to 2 to place Proposition A on the ballot.",
+        "locator": "p. 65, Proposition A, How A Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes?",
+        "locator": "p. 64, Proposition A ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 64, Proposition A, below the ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,184 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-f",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition F",
+  "conflicts": [
+    {
+      "contest": "contest:2026-ca-general/sf-prop-a",
+      "rule": "Proposition A's legal text says that if both A and F are enacted, their changes to Charter Section 15.105 are read together, and in case of an actual conflict in Section 15.105, Proposition F (\"Strengthening Executive Branch Accountability\") prevails.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "In case of an actual conflict in Section 15.105, the measure titled “Strengthening Executive Branch Accountability” shall prevail.",
+          "locator": "p. 181, Legal Text – Proposition A, Section 2(2)(b)"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 101, Proposition F digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition F would amend the Charter to allow the Mayor to do the following: • Transfer of Functions: Transfer responsibilities between most departments or combine departments under a single department head, regardless of whether the Department was established by ordinance or Charter and as long as the Board does not object. The Mayor cannot eliminate any responsibilities established by Charter. The Mayor could also assign the oversight of these transferred responsibilities to that department’s commission. The Mayor cannot transfer responsibilities of these departments: • City Administrator, Controller, Board of Appeals, Port, Airport, Asian Art Museum, Fine Arts Museums, San Francisco Municipal Transportation Agency, Public Utilities Commission, Civil Service Commission, Department of Human Resources, Retirement Board, Health Service System, Department of Elections, Ethics Commission, or departments headed by other elected officials. The responsibilities of the Department of Police Accountability cannot be transferred to the Police Department, and the responsibilities of the Sheriff’s Inspector General cannot be transferred to the Sheriff. • Deputy Mayors: Hire deputy mayors to supervise most departments established by the Charter. • Department Heads: Hire some and fire most department heads without board or commission involvement. The Mayor cannot hire or fire certain department heads that are exempt (see List of Exemptions in Words You Need To Know). • Commissioners: In addition to the Mayor, the Board and other officials who appoint board and commission members could remove them at any time without cause. This does not apply to the Board of Appeals, Civil Service Commission, or Ethics Commission. The Mayor cannot eliminate any board or commission established by the Charter.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition F would amend the Charter to allow the Mayor to do the following: • Transfer of Functions: Transfer responsibilities between most departments or combine departments under a single department head, regardless of whether the Department was established by ordinance or Charter and as long as the Board does not object. The Mayor cannot eliminate any responsibilities established by Charter. The Mayor could also assign the oversight of these transferred responsibilities to that department’s commission. The Mayor cannot transfer responsibilities of these departments: • City Administrator, Controller, Board of Appeals, Port, Airport, Asian Art Museum, Fine Arts Museums, San Francisco Municipal Transportation Agency, Public Utilities Commission, Civil Service Commission, Department of Human Resources, Retirement Board, Health Service System, Department of Elections, Ethics Commission, or departments headed by other elected officials. The responsibilities of the Department of Police Accountability cannot be transferred to the Police Department, and the responsibilities of the Sheriff’s Inspector General cannot be transferred to the Sheriff. • Deputy Mayors: Hire deputy mayors to supervise most departments established by the Charter. • Department Heads: Hire some and fire most department heads without board or commission involvement. The Mayor cannot hire or fire certain department heads that are exempt (see List of Exemptions in Words You Need To Know).",
+          "locator": "p. 100, Proposition F digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The Mayor is the chief executive officer of the City. The Mayor directly supervises nearly 50 City departments, which are established by Charter or ordinance. Most City departments are established by Charter. • Transfer of Functions: The Mayor can transfer responsibilities between departments established by ordinance, as long as the Board of Supervisors (Board) does not object. The Mayor cannot transfer responsibilities for departments established by the Charter. • Deputy Mayors: The Mayor cannot hire deputy mayors to supervise most departments established by the Charter. • Department Heads: In most cases, the Mayor must select a department head from candidates recommended by the board or commission that oversees that department. Usually, the board or commission can fire the department head, but the Mayor cannot. • Commissioners: In addition to the Mayor, the Board and other officials appoint members to City boards and commissions. Appointed members can usually only be suspended or removed if the member engaged in official misconduct or committed certain felonies.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Mayor is the chief executive officer of the City. The Mayor directly supervises nearly 50 City departments, which are established by Charter or ordinance. Most City departments are established by Charter. • Transfer of Functions: The Mayor can transfer responsibilities between departments established by ordinance, as long as the Board of Supervisors (Board) does not object. The Mayor cannot transfer responsibilities for departments established by the Charter. • Deputy Mayors: The Mayor cannot hire deputy mayors to supervise most departments established by the Charter. • Department Heads: In most cases, the Mayor must select a department head from candidates recommended by the board or commission that oversees that department. Usually, the board or commission can fire the department head, but the Mayor cannot. • Commissioners: In addition to the Mayor, the Board and other officials appoint members to City boards and commissions. Appointed members can usually only be suspended or removed if the member engaged in official misconduct or committed certain felonies.",
+          "locator": "p. 100, Proposition F digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to expand the Mayor’s authority to transfer responsibilities, hire deputy mayors, hire some and fire most department heads, and allow City officials to remove members of boards or commissions without cause.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to expand the Mayor’s authority to transfer responsibilities, hire deputy mayors, hire some and fire most department heads, and allow City officials to remove members of boards or commissions without cause.",
+          "locator": "p. 101, Proposition F digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "department-restructuring-costs-or-savings",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller states costs or savings from restructuring departments cannot be determined without knowing which departments would be involved and how they would be restructured.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The potential costs or savings incurred for such changes cannot be determined without knowing which departments would be involved and how the departments would be restructured.",
+            "locator": "p. 101, Controller's Statement on \"F\""
+          }
+        ]
+      },
+      {
+        "id": "deputy-mayor-annual-cost",
+        "amount": {
+          "high_usd": 250000,
+          "low_usd": 250000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller states the average annual cost for a deputy mayor would be approximately $250,000; the number of deputy mayors is not stated.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed Charter amendment authorizes the Mayor to utilize deputy mayors. The average annual cost for a deputy mayor would be approximately $250,000.",
+            "locator": "p. 101, Controller's Statement on \"F\""
+          }
+        ]
+      },
+      {
+        "id": "minimal-cost-of-government",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The Controller states the amendment would have a minimal impact on the cost of government, at a level that cannot be determined at this time.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "it would have a minimal impact on the cost of government, although at a level that cannot be determined at this time.",
+            "locator": "p. 101, Controller's Statement on \"F\""
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government, although at a level that cannot be determined at this time.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government, although at a level that cannot be determined at this time.",
+          "locator": "p. 101, Controller's Statement on \"F\""
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter",
+        "locator": "p. 100, Proposition F ballot question"
+      }
+    ]
+  },
+  "number": "F",
+  "official_title": {
+    "value": "Changes to Executive Branch Management",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "F – Changes to Executive Branch Management",
+        "locator": "p. 100, Proposition F title"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 23, 2026, the Department of Elections certified that the initiative petition calling for Proposition F to be placed on the ballot had a sufficient number of valid signatures to qualify the measure for the ballot.",
+        "locator": "p. 101, How \"F\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City amend the Charter to expand the Mayor’s authority to transfer responsibilities between departments, hire deputy mayors, and hire some and fire most department heads; and to allow City officials to remove members of boards and commissions without cause?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to expand the Mayor’s authority to transfer responsibilities between departments, hire deputy mayors, and hire some and fire most department heads; and to allow City officials to remove members of boards and commissions without cause?",
+        "locator": "p. 100, Proposition F ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 100, Proposition F"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

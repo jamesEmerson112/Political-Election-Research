@@ -1,0 +1,172 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-c",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition C",
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 78, Proposition C digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition C would change how the City’s annual contributions to the Housing Trust Fund (HTF) are set, increase funding and expand programs for affordable housing, and extend the Fund’s expiration date. • Starting in 2028, the City’s annual contribution would grow based on the greater of either: • any increases in local property tax revenue, or • the percentage increase in the unrestricted General Fund from the prior year. The City would increase its contributions to the HTF until the annual contribution meets or exceeds $125 million. After that, annual increases are capped at 3% based on increases in the General Fund. The City could pause contributions when a projected City deficit exceeds $250 million. This threshold would be adjusted each year based on changes in the General Fund. The City could also reduce contributions by up to 10% during years when the City may use its Rainy Day Reserve. • Expand affordable housing programs by: • increasing funding to create and preserve more affordable housing; • raising the household income limit for downpayment assistance loans from 120% to 200% of AMI, and allow the Board of Supervisors to change that limit by ordinance; • replacing the grant program for specific types of neighborhood improvements by authorized spending on affordable housing-related infrastructure such as sidewalks, streets, and utilities; • extending the Fund’s expiration date from 2043 to 2058.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition C would change how the City’s annual contributions to the Housing Trust Fund (HTF) are set, increase funding and expand programs for affordable housing, and extend the Fund’s expiration date. • Starting in 2028, the City’s annual contribution would grow based on the greater of either: • any increases in local property tax revenue, or • the percentage increase in the unrestricted General Fund from the prior year. The City would increase its contributions to the HTF until the annual contribution meets or exceeds $125 million. After that, annual increases are capped at 3% based on increases in the General Fund. The City could pause contributions when a projected City deficit exceeds $250 million. This threshold would be adjusted each year based on changes in the General Fund. The City could also reduce contributions by up to 10% during years when the City may use its Rainy Day Reserve. • Expand affordable housing programs by: • increasing funding to create and preserve more affordable housing; • raising the household income limit for downpayment assistance loans from 120% to 200% of AMI, and allow the Board of Supervisors to change that limit by ordinance; • replacing the grant program for specific types of neighborhood improvements by authorized spending on affordable housing-related infrastructure such as sidewalks, streets, and utilities; • extending the Fund’s expiration date from 2043 to 2058.",
+          "locator": "p. 78, Proposition C digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The City has a Housing Trust Fund (HTF) to support the creation or preservation of affordable housing and affordable home ownership. Every year, the City provides funding to the HTF, and the annual contribution is adjusted up or down based on changes in the City’s unrestricted General Fund revenue. Last year, the City contributed $50.8 million to the HTF. The City may use HTF funds for: • building, purchasing, and improving affordable housing; • downpayment assistance loans for households earning up to 120% of Area Median Income (AMI) and for emergency first responders; • assistance to households earning up to 120% of AMI to improve their housing and avoid housing loss; • grant programs for specific types of neighborhood improvements; and • administrative costs. The Housing Trust Fund that supports these programs is set to expire in 2043.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The City has a Housing Trust Fund (HTF) to support the creation or preservation of affordable housing and affordable home ownership. Every year, the City provides funding to the HTF, and the annual contribution is adjusted up or down based on changes in the City’s unrestricted General Fund revenue. Last year, the City contributed $50.8 million to the HTF. The City may use HTF funds for: • building, purchasing, and improving affordable housing; • downpayment assistance loans for households earning up to 120% of Area Median Income (AMI) and for emergency first responders; • assistance to households earning up to 120% of AMI to improve their housing and avoid housing loss; • grant programs for specific types of neighborhood improvements; and • administrative costs. The Housing Trust Fund that supports these programs is set to expire in 2043.",
+          "locator": "p. 78, Proposition C digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to amend the Charter to change how the City’s annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to amend the Charter to change how the City’s annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058.",
+          "locator": "p. 78, Proposition C digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "general-fund-housing-trust-fund-contribution-increase",
+        "amount": {
+          "high_usd": 60000000,
+          "low_usd": 6000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "start_fy": "2028-29",
+        "text": "Additional General Fund costs of about $6 million in FY2028-29, growing to about $60 million annually by FY2034-35, compared with contributions under current law.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a significant impact on the cost of government of approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing over time to approximately $60 million annually by Fiscal Year 2034-35.",
+            "locator": "p. 79, Controller's Statement on \"C\", opinion paragraph"
+          }
+        ]
+      },
+      {
+        "id": "spending-mandate-extension-reallocation",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "set_aside",
+        "per": "year",
+        "text": "Extends the Housing Trust Fund General Fund spending mandate from 2043 to 2058, reallocating funds that would otherwise be available in the General Fund.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Extending the life of the Housing Trust Fund and increasing contributions as projected would reallocate funds that would otherwise be available in the General Fund.",
+            "locator": "p. 79, Controller's Statement on \"C\", second paragraph"
+          }
+        ]
+      },
+      {
+        "id": "temporary-freeze-or-reduction",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Projected costs do not assume temporary freezes or reductions of the annual contribution, which the Mayor or Board of Supervisors may introduce by ordinance in deficit or Rainy Day Reserve years.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The projected costs above do not assume temporary freezes or reductions in the City’s annual contribution to the Fund.",
+            "locator": "p. 79, Controller's Statement on \"C\", third paragraph"
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a significant impact on the cost of government of approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing over time to approximately $60 million annually by Fiscal Year 2034-35.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a significant impact on the cost of government of approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing over time to approximately $60 million annually by Fiscal Year 2034-35.",
+          "locator": "p. 79, Controller's Statement on \"C\", opinion paragraph"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter",
+        "locator": "p. 78, Proposition C ballot question"
+      }
+    ]
+  },
+  "number": "C",
+  "official_title": {
+    "value": "Contributions to the Housing Trust Fund",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Contributions to the Housing Trust Fund",
+        "locator": "p. 78, Proposition C title"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 14, 2026, the Board of Supervisors voted 11 to 0 to place Proposition C on the ballot.",
+        "locator": "p. 79, How \"C\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City amend the Charter to change how the City’s annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to change how the City’s annual contributions to the Housing Trust Fund are set, increase funding and expand programs for affordable housing, and extend the Fund to 2058?",
+        "locator": "p. 78, Proposition C ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 78, Proposition C vote requirement"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

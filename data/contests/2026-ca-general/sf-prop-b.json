@@ -1,0 +1,265 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-b",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition B",
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want to authorize the City to establish a municipal finance corporation and a public bank.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to authorize the City to establish a municipal finance corporation and a public bank.",
+          "locator": "p. 70, Proposition B digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition B would amend the City Charter to authorize the City to establish a municipal finance corporation if the City has sufficient funding and resources. After three years of operation, the municipal finance corporation may become a public bank. The MFC would make loans but would not take deposits. If the MFC becomes a public bank, the public bank would make loans and also take deposits. The MFC and public bank would provide services to support: • affordable housing development, • affordable homeownership, • small business development, • environmental sustainability, and • environmental justice. These services would be available to individual City residents and to projects and businesses located in the City. Under Proposition B, the MFC and public bank would each be governed by a board of directors. Each board would be appointed and overseen by its own oversight commission. The members of each oversight commission would be appointed by the Board of Supervisors, Mayor, Treasurer-Tax Collector, Controller, and City Attorney.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition B would amend the City Charter to authorize the City to establish a municipal finance corporation if the City has sufficient funding and resources. After three years of operation, the municipal finance corporation may become a public bank. The MFC would make loans but would not take deposits. If the MFC becomes a public bank, the public bank would make loans and also take deposits. The MFC and public bank would provide services to support: • affordable housing development, • affordable homeownership, • small business development, • environmental sustainability, and • environmental justice. These services would be available to individual City residents and to projects and businesses located in the City. Under Proposition B, the MFC and public bank would each be governed by a board of directors. Each board would be appointed and overseen by its own oversight commission. The members of each oversight commission would be appointed by the Board of Supervisors, Mayor, Treasurer-Tax Collector, Controller, and City Attorney.",
+          "locator": "p. 70, Proposition B digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "A municipal finance corporation (MFC) is a government-owned non-profit corporation that makes loans but does not take deposits. A public bank is a government-owned non-profit corporation that both makes loans and takes deposits. There is no local law authorizing the City to create a municipal finance corporation or a public bank.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "A municipal finance corporation (MFC) is a government-owned non-profit corporation that makes loans but does not take deposits. A public bank is a government-owned non-profit corporation that both makes loans and takes deposits. There is no local law authorizing the City to create a municipal finance corporation or a public bank.",
+          "locator": "p. 70, Proposition B digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to authorize the City to establish a municipal finance corporation and a public bank.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to authorize the City to establish a municipal finance corporation and a public bank.",
+          "locator": "p. 70, Proposition B digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "capitalization-depends-on-future-decisions",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Capitalization and funding amounts depend on future decisions by the MFC Board of Directors and by the Mayor and Board of Supervisors; costs may be higher or lower than the 2023 RWG estimates.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The capitalization and funding costs are choices dependent on future decisions by the MFC Board of Directors and future policy and budget decisions by the Mayor and the Board of Supervisors. The costs associated with establishing an MFC may be significantly higher or lower than the 2023 RWG estimates.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"In 2022\""
+          }
+        ]
+      },
+      {
+        "id": "mfc-and-public-bank-eight-year-total",
+        "amount": {
+          "high_usd": 460000000,
+          "low_usd": 310000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "total",
+        "text": "If the City establishes an MFC and then a Public Bank: about $310 million to $460 million over eight years (2023 RWG estimates); could be higher or lower with interest rates and economic conditions.",
+        "years": 8,
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "However, if the City moves forward with establishing a MFC and subsequently a Public Bank, as authorized by the proposed Charter amendment, the costs would be significant, ranging from approximately $310 million to $460 million over an eight-year period, according to 2023 Reinvestment Working Group (RWG) estimates, which could be significantly higher or lower depending on interest rates and changing economic conditions.",
+            "locator": "p. 70, Controller's Statement on \"B\", paragraph 1"
+          }
+        ]
+      },
+      {
+        "id": "mfc-capitalization-and-funding",
+        "amount": {
+          "high_usd": 90000000,
+          "low_usd": 90000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "total",
+        "text": "MFC capitalization and funding (2023 RWG): about $26 million in year one rising to $30 million a year by year three, $90 million over three years; levels explored ranged from $45 million to $242 million.",
+        "years": 3,
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "According to a 2023 report of the RWG, costs to capitalize and fund the MFC could cost approximately $26 million in the first year and increase to $30 million annually by the third year for a total of $90 million for the first three years of the MFC. The RWG explored a variety of capitalization and funding levels including cumulative totals of $45 million to $242 million over the first three years. Capitalization and funding costs could be financed by City grants and forgivable loans which are unlikely to be repaid.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"In 2022\""
+          }
+        ]
+      },
+      {
+        "id": "mfc-setup",
+        "amount": {
+          "high_usd": 4000000,
+          "low_usd": 4000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "If an MFC is set up: about $4 million a year for about one year or longer (staff, legal and professional services, technology, administration), excluding capitalization.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The funding required to set up an MFC could cost approximately $4 million annually for approximately one year or longer, depending on when the MFC is set up, excluding capitalization costs. These costs include the cost to hire staff, staff salaries, legal services, supporting professional services, technology procurement and administrative operations.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph on MFC setup funding"
+          }
+        ]
+      },
+      {
+        "id": "no-direct-cost-of-government",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Would not directly affect the cost of government, because the amendment does not require the City to create an MFC or Public Bank.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank.",
+            "locator": "p. 70, Controller's Statement on \"B\", paragraph 1"
+          }
+        ]
+      },
+      {
+        "id": "oversight-commission",
+        "amount": {
+          "high_usd": 600000,
+          "low_usd": 550000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "MFC or Bank Oversight Commission: $550,000 to $600,000 a year for staff salaries, commissioner stipends and operating costs.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Finally, the MFC and Public Bank would require an MFC Oversight Commission or Bank Oversight Commission which could cost between $550,000 to $600,000 annually for staff salaries, commissioner stipends, and operating costs.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"Finally\""
+          }
+        ]
+      },
+      {
+        "id": "public-bank-operations",
+        "amount": {
+          "high_usd": 220000000,
+          "low_usd": 220000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "total",
+        "text": "If the MFC becomes a Public Bank: about $80 million in year 4, then about $30 million to $40 million a year, about $220 million over years 4 to 8; Bank income may reduce the City funding needed.",
+        "years": 5,
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "In the event the MFC becomes financially sustainable and receives regulatory approval to operate as a depository bank, it may become a Public Bank. The cost to operate a Public Bank would be approximately $80 million in year 4, decreasing to approximately $30 to $40 million annually for a total of approximately $220 million over years four through eight. These costs include capital funds and operating costs, including staff salaries, office leases, technology, and administrative costs. The Public Bank may use its income to fund its operating costs if available, requiring less funding appropriated by the City.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"In the event the MFC becomes financially sustainable and receives\""
+          }
+        ]
+      },
+      {
+        "id": "unforeseen-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Possible unforeseen costs to the City if the Public Bank is not financially sustainable; not estimated. The statement notes a high degree of uncertainty in the cost of an MFC or Public Bank.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "There is a high degree of uncertainty in the cost to government of establishing an MFC or Public Bank. There may be significant unforeseen costs to the City in the event the Public Bank is not financially sustainable.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"Finally\""
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank. However, if the City moves forward with establishing a MFC and subsequently a Public Bank, as authorized by the proposed Charter amendment, the costs would be significant, ranging from approximately $310 million to $460 million over an eight-year period, according to 2023 Reinvestment Working Group (RWG) estimates, which could be significantly higher or lower depending on interest rates and changing economic conditions.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank. However, if the City moves forward with establishing a MFC and subsequently a Public Bank, as authorized by the proposed Charter amendment, the costs would be significant, ranging from approximately $310 million to $460 million over an eight-year period, according to 2023 Reinvestment Working Group (RWG) estimates, which could be significantly higher or lower depending on interest rates and changing economic conditions.",
+          "locator": "p. 70, Controller's Statement on \"B\", first paragraph"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to authorize the City to establish a municipal finance corporation and a public bank?",
+        "locator": "p. 70, Proposition B ballot question"
+      }
+    ]
+  },
+  "number": "B",
+  "official_title": {
+    "value": "Establishing a Municipal Finance Corporation and a Public Bank",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Establishing a Municipal Finance Corporation and a Public Bank",
+        "locator": "p. 70, Proposition B title"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 7, 2026, the Board of Supervisors voted 9 to 2 to place Proposition B on the ballot.",
+        "locator": "p. 71, How \"B\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City amend the Charter to authorize the City to establish a municipal finance corporation and a public bank?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to authorize the City to establish a municipal finance corporation and a public bank?",
+        "locator": "p. 70, Proposition B ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 70, Proposition B, below the ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

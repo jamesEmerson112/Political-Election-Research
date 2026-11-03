@@ -1,0 +1,220 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-g",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition G",
+  "digest": {
+    "no_means": {
+      "value": "If you vote “no,” you do not want the City to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want the City to make these changes.",
+          "locator": "p. 108, Proposition G digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time. The Upper Great Highway will remain open to emergency vehicles, official government vehicles, intra-park transit shuttle buses, and similar authorized vehicles. Proposition G would require the City to obtain all necessary approvals, including any permits required by the California Coastal Act or from other government agencies, to reopen the roadway known as the Upper Great Highway to private vehicles.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time. The Upper Great Highway will remain open to emergency vehicles, official government vehicles, intra-park transit shuttle buses, and similar authorized vehicles. Proposition G would require the City to obtain all necessary approvals, including any permits required by the California Coastal Act or from other government agencies, to reopen the roadway known as the Upper Great Highway to private vehicles.",
+          "locator": "p. 108, Proposition G digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "Sunset Dunes Park is an open recreational space that replaced the Great Highway between Lincoln Way and Sloat Boulevard (Upper Great Highway) and is closed to private vehicles at all times. Sunset Dunes Park (former Upper Great Highway) is open to emergency vehicles, official government vehicles, intra-park transit shuttle buses, and similar authorized vehicles.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Sunset Dunes Park is an open recreational space that replaced the Great Highway between Lincoln Way and Sloat Boulevard (Upper Great Highway) and is closed to private vehicles at all times. Sunset Dunes Park (former Upper Great Highway) is open to emergency vehicles, official government vehicles, intra-park transit shuttle buses, and similar authorized vehicles.",
+          "locator": "p. 108, Proposition G digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+          "locator": "p. 108, Proposition G digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-11-03",
+    "effects": [
+      {
+        "id": "annual-operating-costs",
+        "amount": {
+          "high_usd": 1900000,
+          "low_usd": 500000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Annual cost increases of $500,000 to $1.9 million for signal maintenance, roadway maintenance and replacement, and sand removal and dune reshaping.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Depending on future operational decisions made by City departments, the proposed Ordinance could result in annual cost increases ranging from $500,000 to $1.9 million.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "coastal-development-permit-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "text": "A required coastal development permit may bring additional requirements that may increase costs at a level that cannot be determined.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Applying for the coastal development permit may prompt additional requirements, including studies or permit conditions, that may increase the cost of government, although at a level that cannot be determined at this time.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "depends-on-budget-decisions",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The cost depends on budget decisions by the Mayor and Board of Supervisors and operational decisions by departments.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "is dependent on decisions that the Mayor and Board of Supervisors make through the budget process and operational decisions made by departments, as an ordinance cannot bind future Mayors and Boards of Supervisors to provide funding for this or any other purpose.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "ocean-beach-project-redesign-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "text": "Signals at Upper Great Highway and Sloat Boulevard would change the Ocean Beach Climate Change Adaptation Project and could add redesign costs; no amount is given.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Installation of signals at the intersection of the Upper Great Highway and Sloat Boulevard would result in changes to the Ocean Beach Climate Change Adaptation Project, which could result in additional project costs for redesigning elements of the planned plaza.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "one-time-capital-costs",
+        "amount": {
+          "high_usd": 9800000,
+          "low_usd": 9800000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "text": "One-time capital project costs of about $9.8 million (removing park elements, restoring roadway, traffic signals at 8 intersections, restriping and signage).",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Additionally, the proposed Ordinance would likely result in increased, one-time capital project costs of approximately $9.8 million.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "weekday-park-staffing-reduction",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Decreased weekday park staffing and maintenance needs would reduce costs; no savings amount is given.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed Ordinance would also result in decreased staffing needs and maintenance of Sunset Dunes Park as a park during weekdays, reducing costs and freeing staff to work on other functions.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      }
+    ],
+    "statement_by": "Deputy City Controller ChiaYu Ma",
+    "summary": {
+      "summary": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
+          "locator": "p. 108, Controller's Statement on \"G\", opinion paragraph"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "ordinance",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "The proposed initiative ordinance would amend the Park Code to restrict private vehicles on the Upper Great Highway between Lincoln Way and Sloat Boulevard from Friday at 6:00 PM until Monday at 4:00 AM and on holidays.",
+        "locator": "p. 109, Controller's Statement on \"G\""
+      }
+    ]
+  },
+  "number": "G",
+  "official_title": {
+    "value": "Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park",
+        "locator": "p. 108, Proposition G title"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 23, 2026, the Department of Elections certified that the initiative petition calling for Proposition G to be placed on the ballot had a sufficient number of valid signatures to qualify the measure for the ballot.",
+        "locator": "p. 109, How \"G\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time?",
+        "locator": "p. 108, Proposition G ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 108, Proposition G ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}
