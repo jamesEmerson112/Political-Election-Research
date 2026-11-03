@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "autumn-brown-garibay",
+  "name": "Autumn Brown Garibay",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.autumnforschoolboard.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
