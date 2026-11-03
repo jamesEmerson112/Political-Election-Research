@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { demo, draft } from "virtual:datasets";
+  import { build, demo, draft } from "virtual:datasets";
+  import AboutView from "./components/AboutView.svelte";
   import ContestView from "./components/ContestView.svelte";
   import Drawer from "./components/Drawer.svelte";
   import IssuesView from "./components/IssuesView.svelte";
@@ -30,7 +31,7 @@
   const routeQuery = $derived(route.includes("?") ? route.slice(route.indexOf("?") + 1) : "");
   const routeContest = $derived(contestRefs.find((r) => contestRoute(r) === routePath));
   const view = $derived(
-    routeContest ? "contest" : ["issues", "sources", "queue", "measures", "trial"].includes(routePath) ? routePath : "overview",
+    routeContest ? "contest" : ["issues", "sources", "queue", "measures", "trial", "about"].includes(routePath) ? routePath : "overview",
   );
 
   function readRoute(): string {
@@ -53,7 +54,7 @@
     return () => window.removeEventListener("hashchange", onHash);
   });
 
-  const v = $derived(bundle.validation);
+  const REPO = "https://github.com/jamesEmerson112/Political-Election-Research";
 </script>
 
 <header class="top" bind:clientHeight={topH}>
@@ -63,21 +64,8 @@
       <span class="brand-sub">California · cited candidate research</span>
     </a>
     <div class="controls">
-      <div class="seg" role="group" aria-label="Dataset">
-        <button id="ds-draft" class:on={datasetKey === "draft"} aria-pressed={datasetKey === "draft"} onclick={() => choose("draft")}>
-          Draft data
-        </button>
-        <button id="ds-demo" class:on={datasetKey === "demo"} aria-pressed={datasetKey === "demo"} onclick={() => choose("demo")}>
-          Fictional demo
-        </button>
-      </div>
-      {#if v.errors > 0}
-        <span class="chip bad" title="npm run validate">✕ {plural(v.errors, "validation error")}</span>
-      {:else if v.warnings > 0}
-        <span class="chip warn" title="npm run validate">! {plural(v.warnings, "warning")}</span>
-      {:else}
-        <span class="chip ok" title="npm run validate">✓ Validates</span>
-      {/if}
+      {#if bundle.validation.errors > 0}<a class="chip bad" href="#about">✕ {plural(bundle.validation.errors, "validation error")}</a>{/if}
+      <a class="beta" href="#about" title="What this beta covers, its open checks, and privacy">Beta</a>
     </div>
   </div>
   <nav class="wrap nav" aria-label="Sections">
@@ -90,6 +78,7 @@
     <a href="#issues" class:active={view === "issues"}>Issues</a>
     <a href="#sources" class:active={view === "sources"}>Sources</a>
     <a href="#queue" class:active={view === "queue"}>Research queue</a>
+    <a href="#about" class:active={view === "about"}>About</a>
   </nav>
 </header>
 
@@ -97,7 +86,7 @@
   <div class="banner demo">
     <div class="wrap">
       <strong>Fictional demo.</strong> Every person, organization, number and quote on this view is made up (jurisdiction “ZZ”, example.org
-      sources). It shows what a fully researched contest looks like.
+      sources). It shows what a fully researched contest looks like. <button class="link" onclick={() => choose("draft")}>Back to the real data</button>
     </div>
   </div>
 {:else if ix.claimCount() === 0}
@@ -128,6 +117,8 @@
       <SourcesView {ix} />
     {:else if view === "queue"}
       <QueueView {ix} />
+    {:else if view === "about"}
+      <AboutView {ix} dataset={datasetKey} onchoose={choose} />
     {:else}
       <Overview {ix} query={routeQuery} />
     {/if}
@@ -135,9 +126,12 @@
 </main>
 
 <footer class="wrap foot">
-  <p>
-    Every claim cites a registered source with a verbatim quote or a filing locator. Data validated {bundle.today} ·
-    {bundle.label} · <span class="mono">npm run validate</span>
+  <p>Every claim cites a registered source with a verbatim quote or a filing locator. Data checked {bundle.today}.</p>
+  <p class="links">
+    <a href="#about">About this beta</a>
+    <a href={`${REPO}/issues/new?template=correction.yml`} rel="noopener">Report an error</a>
+    <a href={REPO} rel="noopener">Source on GitHub</a>
+    <span class="mono">{build.sha ?? "local build"}</span>
   </p>
 </footer>
 
@@ -180,26 +174,25 @@
     align-items: center;
     gap: 10px;
   }
-  .seg {
+  .beta {
     display: inline-flex;
+    align-items: center;
     border: 1px solid var(--line-strong);
     border-radius: 999px;
-    padding: 2px;
+    padding: 2px 10px;
+    font-size: var(--step--1);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink);
     background: var(--paper);
   }
-  .seg button {
-    border: 0;
-    background: transparent;
-    padding: 4px 12px;
-    border-radius: 999px;
-    font-size: var(--step--1);
-    font-weight: 600;
-    color: var(--ink-2);
-    cursor: pointer;
+  .beta:hover {
+    border-color: var(--ink);
   }
-  .seg button.on {
-    background: var(--ink);
-    color: var(--surface);
+  a.chip {
+    text-decoration: none;
   }
   .nav {
     display: flex;
@@ -258,9 +251,19 @@
     padding-block: 28px 48px;
   }
   .foot {
+    display: grid;
+    gap: 6px;
     padding-block: 18px 40px;
     color: var(--muted);
     font-size: var(--step--1);
     border-top: 1px solid var(--line);
+  }
+  .foot .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 16px;
+  }
+  .foot a {
+    color: var(--ink-2);
   }
 </style>

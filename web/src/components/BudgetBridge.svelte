@@ -187,9 +187,13 @@
           {/if}
         {/each}
         {#each bridge.steps as s, k (k)}
-          <!-- svelte-ignore a11y_no_static_element_interactions -->
+          <!-- Each row is a tab stop: focus shows the same tooltip as hovering (Escape hides it), and the label reads it out. -->
+          <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
           <rect
             class="hit"
+            role="img"
+            tabindex="0"
+            aria-label={tipLines(s).join(". ")}
             x="0"
             y={top(k)}
             width={w}
@@ -201,6 +205,17 @@
             onmouseleave={() => {
               hover = null;
               hideTip();
+            }}
+            onfocus={(e) => {
+              hover = k;
+              showTip(e, tipLines(s));
+            }}
+            onblur={() => {
+              hover = null;
+              hideTip();
+            }}
+            onkeydown={(e) => {
+              if (e.key === "Escape") hideTip();
             }}
           />
         {/each}
@@ -283,6 +298,13 @@
   }
   .hit {
     fill: transparent;
+  }
+  .hit:focus {
+    outline: none;
+  }
+  .hit:focus-visible {
+    stroke: var(--ink);
+    stroke-width: 1.5;
   }
   .halo {
     paint-order: stroke;

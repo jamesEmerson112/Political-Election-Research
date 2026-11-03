@@ -1,3 +1,4 @@
+import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { svelte, vitePreprocess } from "@sveltejs/vite-plugin-svelte";
@@ -10,6 +11,17 @@ import { todayString } from "../src/validate.ts";
 const WEB_ROOT = path.dirname(fileURLToPath(import.meta.url));
 const FIXTURE_DIR = path.join(REPO_ROOT, "tests", "fixtures", "valid", "data");
 const FIXTURE_TODAY = "2030-11-01";
+
+/** The commit this build is from: Vercel's build variable, else git, else null (shown on the About page). */
+function buildSha(): string | null {
+  const env = process.env["VERCEL_GIT_COMMIT_SHA"];
+  if (env) return env.slice(0, 7);
+  try {
+    return execFileSync("git", ["rev-parse", "--short=7", "HEAD"], { cwd: REPO_ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }).trim() || null;
+  } catch {
+    return null;
+  }
+}
 
 /**
  * `virtual:datasets` — the draft dataset (data/) and the fictional demo
@@ -27,7 +39,8 @@ function datasets(): Plugin {
       if (moduleId !== resolved) return undefined;
       const draft = buildBundle(DEFAULT_DATA_DIR, { label: "Draft data", fictional: false, today: todayString() });
       const demo = buildBundle(FIXTURE_DIR, { label: "Fictional demo", fictional: true, today: FIXTURE_TODAY });
-      return `export const draft = ${JSON.stringify(draft)};\nexport const demo = ${JSON.stringify(demo)};\n`;
+      const build = { sha: buildSha(), date: todayString() };
+      return `export const draft = ${JSON.stringify(draft)};\nexport const demo = ${JSON.stringify(demo)};\nexport const build = ${JSON.stringify(build)};\n`;
     },
     configureServer(server) {
       server.watcher.add(watched);
