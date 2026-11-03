@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "stephen-sherrill",
+  "name": "Stephen Sherrill",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q131467292",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.votestephensherrill.com/",
+    "official_site": "https://www.sf.gov/district-2-supervisor-stephen-sherrill"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
