@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "reina-tello",
+  "name": "Reina Tello",
+  "aliases": [
+    "Reina Loli-Tello"
+  ],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.reinaforschoolboard.org/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
