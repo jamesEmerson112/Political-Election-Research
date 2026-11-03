@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "richard-barrera",
+  "name": "Richard Barrera",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.barreraforedu.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
