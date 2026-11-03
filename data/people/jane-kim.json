@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jane-kim",
+  "name": "Jane Kim",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q6152446",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.janekim.org/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
