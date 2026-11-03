@@ -96,8 +96,8 @@
     s.kind === "start"
       ? balance({ low: bridge.baseline, high: bridge.baseline })
       : s.kind === "end"
-        ? (gapShare(bridge.baseline, totalDelta) ?? signedRange(bridge.result))
-        : (gapShare(bridge.baseline, s.delta) ?? signedRange(s.delta));
+        ? (gapShare(bridge.baseline, totalDelta, "money") ?? signedRange(bridge.result))
+        : (gapShare(bridge.baseline, s.delta, "money") ?? signedRange(s.delta));
 
   const direction = (r: Range) =>
     r.low >= 0 ? "Revenue or savings: moves toward surplus (right)" : r.high <= 0 ? "Cost: moves toward shortfall (left)" : "Cost or revenue, depending on the outcome";
@@ -105,10 +105,10 @@
     if (s.kind === "start") return [`Official forecast, FY${bridge.fy}`, balance(s.after), "Doesn't include ballot measures"];
     if (s.kind === "end") {
       const d = { low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline };
-      const g = gapShare(bridge.baseline, d);
+      const g = gapShare(bridge.baseline, d, "money");
       return [`With your choices, FY${bridge.fy}`, balance(bridge.result), `Change from the forecast: ${signedRange(d)} a year`, ...(g ? [`Gap ${g} (share computed here)`] : [])];
     }
-    const g = gapShare(bridge.baseline, s.delta);
+    const g = gapShare(bridge.baseline, s.delta, "money");
     return [
       s.label,
       ...(g ? [`Gap ${g} (share of the forecast gap, computed here)`] : []),

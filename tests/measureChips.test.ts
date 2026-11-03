@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { budgetBase, fiscalChips, gapShare, pct, pctRange } from "../web/src/lib/measureChips.js";
+import { budgetBase, fiscalChips, gapShare, pct, pctRange, usd } from "../web/src/lib/measureChips.js";
 
 const M = 1_000_000;
 
@@ -40,5 +40,19 @@ describe("percent first: how big an amount is", () => {
     expect(gapShare(-474.3 * M, { low: 0.365 * M, high: 0.45 * M })).toBe("≈0.1% smaller");
     expect(gapShare(-474.3 * M, { low: -12 * M, high: 5 * M })).toBe("≈1.1% smaller to 2.5% larger");
     expect(gapShare(0, { low: -1, high: -1 })).toBeNull();
+  });
+});
+
+describe("readable totals and ranges", () => {
+  it("keeps nearby billions apart (two decimals) and millions as before", () => {
+    expect([1.25e9, 1.2e9, 1.15e9, 1.1e9, 1.05e9].map((v) => usd(v))).toEqual(["$1.25B", "$1.2B", "$1.15B", "$1.1B", "$1.05B"]);
+    expect(usd(1088.6e6)).toBe("$1.09B");
+    expect(usd(474.3e6)).toBe("$474.3M");
+  });
+
+  it("orders a mixed range like the money range beside it", () => {
+    // General Fund change −$30.5M (cost) to +$21.7M (revenue) on a $1,088.6M shortfall.
+    expect(gapShare(-1088.6 * M, { low: -30.5 * M, high: 21.7 * M }, "money")).toBe("≈2.8% larger to 2.0% smaller");
+    expect(gapShare(-1088.6 * M, { low: -30.5 * M, high: 21.7 * M })).toBe("≈2.0% smaller to 2.8% larger");
   });
 });

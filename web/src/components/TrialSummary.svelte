@@ -93,9 +93,9 @@
           <tr>
             <td>{s.kind === "start" ? "Official forecast" : s.kind === "end" ? "With your choices" : s.label}{#if s.exclusive}<span class="muted">{" "}(only one can take effect)</span>{/if}</td>
             <td
-              >{#if s.kind === "measure"}<strong>{gapShare(bridge.baseline, s.delta) ?? ""}</strong> {signedRange(s.delta)}
+              >{#if s.kind === "measure"}<strong>{gapShare(bridge.baseline, s.delta, "money") ?? ""}</strong> {signedRange(s.delta)}
                 <span class="muted">{stepWord(s.delta)}</span>{:else if s.kind === "end"}{@const d = { low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline }}<strong
-                  >{gapShare(bridge.baseline, d) ?? ""}</strong
+                  >{gapShare(bridge.baseline, d, "money") ?? ""}</strong
                 >
                 {signedRange(d)}{:else}—{/if}</td
             >

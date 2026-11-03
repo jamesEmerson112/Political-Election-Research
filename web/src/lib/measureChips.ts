@@ -13,10 +13,14 @@ type Rec = Record<string, any>;
 const compactUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", notation: "compact", minimumFractionDigits: 0, maximumFractionDigits: 1 });
 const centsUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
-/** $8M, $1.2B, $950K. */
+/** Billions get two decimals, so nearby amounts stay apart ($1.05B vs $1.1B, not "$1.1B" twice). */
+const compactUsdB = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", notation: "compact", minimumFractionDigits: 0, maximumFractionDigits: 2 });
+
+/** $8M, $1.25B, $950K. */
 export function usd(n: number): string {
   // Round to the dollar first: float sums like 99999999.99 would print as "$100.0M".
-  return compactUsd.format(Math.round(Math.abs(n)));
+  const v = Math.round(Math.abs(n));
+  return (v >= 1e9 ? compactUsdB : compactUsd).format(v);
 }
 /** $8M–$12M, or $21M when low = high. Unsigned. */
 export function usdRange(low: number, high: number): string {
@@ -72,7 +76,12 @@ const approx = (p: string, q: string = p) => `${p.startsWith("<") ? "" : "≈"}$
  * words: "≈25% larger", "<0.1% smaller", "≈4.5% smaller to 6.8% larger"; "no
  * change"; null when the forecast is balanced (no gap to compare with).
  */
-export function gapShare(baseline: number, delta: Range): string | null {
+/**
+ * `order`: "gap" (default) runs from the smaller-gap end to the larger-gap end, matching a gap-size change
+ * ("−$21M to +$32M" in the gap line); "money" runs from the General Fund change's low end (cost) to its high
+ * end (revenue), matching a signed money range next to it ("−$30.5M to +$21.7M" → "≈2.8% larger to 2.0% smaller").
+ */
+export function gapShare(baseline: number, delta: Range, order: "gap" | "money" = "gap"): string | null {
   if (baseline === 0) return null;
   const s = baseline < 0 ? -1 : 1;
   const size = Math.abs(baseline);
@@ -84,6 +93,10 @@ export function gapShare(baseline: number, delta: Range): string | null {
     const p = pctNum(Math.min(Math.abs(c.low), Math.abs(c.high)) / size);
     const q = pctNum(Math.max(Math.abs(c.low), Math.abs(c.high)) / size);
     return `${approx(p, q)}% ${c.low >= 0 ? "larger" : "smaller"}`;
+  }
+  if (order === "money") {
+    const word = (d: number) => (s * d >= 0 ? "larger" : "smaller");
+    return `${approx(pctNum(delta.low / size))}% ${word(delta.low)} to ${pctNum(delta.high / size)}% ${word(delta.high)}`;
   }
   return `${approx(pctNum(c.low / size))}% smaller to ${pctNum(c.high / size)}% larger`;
 }
