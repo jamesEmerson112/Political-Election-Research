@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "alida-fisher",
+  "name": "Alida Fisher",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.alidafisher.com/",
+    "official_site": "https://www.sfusd.edu/about-sfusd/board-education/commissioner-alida-fisher"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
