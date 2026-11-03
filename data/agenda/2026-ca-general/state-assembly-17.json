@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/state-assembly-17",
+  "candidates": [
+    {
+      "person": "person:matt-haney",
+      "name": "Matt Haney"
+    },
+    {
+      "person": "person:manuel-noris-barrera",
+      "name": "Manuel Noris-Barrera"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:california-assembly-member",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Seeded 2026-11-03 from official documents opened in this session. On San Francisco ballots: the San Francisco Department of Elections' Voter Information Pamphlet for the November 3, 2026 Consolidated General Election (https://media.api.sf.gov/documents/N26_EN_VIP.pdf, src:media-api-sf-gov-e4221ecde7) lists \"State Assembly Member, District 17 or District 19\" among the voter-nominated offices on the ballot (p. 4), and its ballot worksheet lists \"State Assembly Member, District 17 or 19\" under \"VOTER-NOMINATED OFFICES (Vote for One)\" (p. 246). Candidates and names as printed: the Secretary of State's Certified List of Candidates for the November 3, 2026, General Election (dated August 27, 2026; https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf, src:elections-cdn-sos-ca-gov-ca15f305b3), under \"State Assembly Member District 17\" (Page 20 of 41): Matt Haney (marked * Incumbent; Democratic; designation \"Assemblymember\") and Manuel Noris-Barrera (Republican; \"No Ballot Designation\"). The Department of Elections' page Candidates - November 3, 2026, General Election (https://www.sf.gov/candidates-november-3-2026-general-election, src:sf-gov-6871cf14b5) lists the same two names under \"State Assembly, District 17\" (\"2 people have qualified for this contest on the November 3, 2026 ballot.\"). Which parts of San Francisco lie in District 17 was not looked up. No stance questions are set yet."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

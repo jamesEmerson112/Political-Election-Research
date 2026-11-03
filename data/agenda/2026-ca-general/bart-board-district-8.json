@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/bart-board-district-8",
+  "candidates": [
+    {
+      "person": "person:sara-barz",
+      "name": "Sara Barz"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Seeded 2026-11-03 from official documents opened in this session. On San Francisco ballots: the San Francisco Department of Elections' Voter Information Pamphlet for the November 3, 2026 Consolidated General Election (https://media.api.sf.gov/documents/N26_EN_VIP.pdf, src:media-api-sf-gov-e4221ecde7) lists \"BART Director, District 8*\" under \"District Offices\" (p. 4), with the footnote \"*Voters residing in BART District 7 or District 9 will not have this contest on their ballot because they will elect their representatives in the November 2028 Election.\"; its ballot worksheet lists \"BART Director, District 8*\" under \"DISTRICT (Vote for One)\" (p. 247). Candidate: the Department of Elections' page Candidates - November 3, 2026, General Election (https://www.sf.gov/candidates-november-3-2026-general-election, src:sf-gov-6871cf14b5) lists one name under \"BART Board, District 8\" (\"1 person has qualified for this contest on the November 3, 2026 ballot.\"): Sara Barz. The Department's Board of Supervisors and Other Local Offices Chinese-character-based Names and Ballot Designations List (https://api.sf.gov/documents/63094/November_2026_Local_Office_Names_and_Ballot_Designations.pdf, src:api-sf-gov-cd997081d7) prints SARA BARZ with the ballot designation \"Transportation Planning Manager\" under \"BART Director, District 8\"; the candidate's statement is on p. 37 of the pamphlet. The Candidates page also lists \"Write-In Candidates\" with \"0 people have filed for candidacy for this contest on the November 3, 2026 ballot.\" No office record for a BART Director exists in data/offices, so office_ref is not set. No stance questions are set yet."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}
