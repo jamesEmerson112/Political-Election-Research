@@ -24,6 +24,21 @@
         }
       ]
     },
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Herb W Morgan Republican",
+          "locator": "PDF page 2 (list page 1 of 41), Controller: party preference"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Herb W Morgan | REPUBLICAN",
+          "locator": "Candidate Statements, page 86 (PDF page 86), Controller"
+        }
+      ]
+    },
     "residence_city": {
       "value": "San Diego",
       "citations": [
