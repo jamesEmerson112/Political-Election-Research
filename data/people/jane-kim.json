@@ -40,6 +40,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "New York City (where she grew up; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:7x7-com-a003d3c33b",
+          "quote": "Kim’s approachability stems from growing up in a Korean-immigrant family in NYC’s subsidized housing program."
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-03",
       "items": [
