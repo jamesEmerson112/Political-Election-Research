@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "monthanus-ratanapakdee",
+  "name": "Monthanus Ratanapakdee",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.ratanapakdeesf.org/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
