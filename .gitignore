@@ -7,3 +7,6 @@ coverage/
 
 # Agent worktrees (local only)
 .claude/worktrees/
+
+# Research agents' private data copies (tools/research/run.mts)
+/.rd-*

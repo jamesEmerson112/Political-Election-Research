@@ -20,7 +20,13 @@ git add -A && git commit -m "research(<contest>): <task id>"   # 7. one task per
 Then repeat. When `next` reports `0 open task(s)`, the contest is done. Run `npm run -s coverage -- <contest>` to check that all candidates were researched to the same depth.
 
 - Filter the queue with `--contest 2026-ca-general/governor` or `--subject person:<slug>`.
-- **Several agents at once:** give each agent one `--subject` (one candidate). Positions and person files are per actor, so agents never write to the same file. Shared files (sources, organizations) are content-addressed, so the same source always lands at the same path with the same bytes.
+- **Several agents at once:** agents never write `data/` directly. Each works one *work package* in a private copy and logs every write. Judges drop what they can't confirm, and one integrator replays the kept writes into `data/`, one commit per task. Shared records (contest files, organizations, bills, sources) are written by several packages, so direct parallel writes would collide; the replay reuses a record another package already created.
+  1. `npx tsx tools/research/run.mts packages --layer <L0|L1|L2|L3|L4> --contests <id,...> --root <dir>` creates the run directories. Each has `pkg.json` with its tasks and a private copy of `data/` at `.rd-<package>` (git-ignored).
+  2. Agents read pages only with `node tools/research/fetch-text.mjs <url>`, which caches the text so quotes and checks see the same bytes. They write only with `npx tsx tools/research/run.mts put <run> '<task id>' <kind|src> [--merge] --file rec.json`, and use `next`/`validate` with `--data <the copy>`.
+  3. `npx tsx tools/research/run.mts check <run>...` confirms every quote is in its source's text. Judges write `verdicts-<lens>.json` (writes to drop).
+  4. `npx tsx tools/research/run.mts integrate <run>... --trailers <file>` replays the kept writes: validate after each task, then one commit `research(<contest>): <task id>`, or revert that task and report why.
+
+  `.claude/workflows/research-layer.js` runs steps 2–3 for a whole layer (research agents, then judges per contest chunk).
 - `--all` also shows *blocked* tasks (for example, a stance on a ballot measure whose contest record does not exist yet). Do the `blocked_by` task first.
 
 ## Hard rules
