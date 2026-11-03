@@ -612,6 +612,7 @@ rel({
 rel({ type: "behested_payment", official: avery, payor: union, payee: foodBank, amount_cents: 500_000, date: "2030-03-01", citations: fcite(fBehest, "Line 1") });
 p("bill", {
   id: "ca-2029-ab-123",
+  area: "economy",
   title: { value: "Widget Workforce Act", citations: cite(srcBill, "AB 123 Widget Workforce Act") },
   status: { value: "enacted", as_of: "2029-10-02", citations: cite(srcBill, "Chaptered by Secretary of State, Chapter 412, Statutes of 2029") },
 });

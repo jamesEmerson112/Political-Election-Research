@@ -243,3 +243,13 @@ export const BALLOT_ICON = {
   forget: I(BallotX),
   info: I(BallotInfo),
 };
+
+/** Policy area -> glyph (past policies grouped by area). Unknown areas use the bill glyph. */
+export const AREA_ICON: Record<string, IconComponent> = {
+  civil_rights: I(Scale),
+  tech: I(Cpu),
+  economy: I(Banknote),
+  housing: I(House),
+  government: I(Landmark),
+  other: I(Shapes),
+};

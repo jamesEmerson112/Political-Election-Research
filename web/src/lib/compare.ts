@@ -9,7 +9,7 @@
 import type { CandidateRollup, Citation, Index, Lead, Rec } from "./data";
 import { slugOf } from "./data";
 import { date, money, moneyCompact, ORG_TYPE_LABEL } from "./format";
-import { CATEGORY, issueIcon, MEASURE_ICON, ROW_ICON, type CategoryKey, type Group, type IconComponent } from "./icons";
+import { AREA_ICON, CATEGORY, type CategoryKey, type Group, type IconComponent, MEASURE_ICON, ROW_ICON, issueIcon } from "./icons";
 import { MARK, stanceMark, type Mark } from "./marks";
 import { openDetail, type Detail } from "./ui.svelte";
 import { age, isNotFound, openField, openLeads, openPosition, openRel } from "./view";
@@ -498,9 +498,24 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
     };
   }
 
-  function billsCell(c: string): Cell {
-    const acts = legislation(c);
-    if (!acts.length) return missing(c, "legislation", `Past policies: ${who(c)}`);
+  const billArea = (id: string) => String(bill(id)?.["area"] ?? "other");
+
+  function billsCell(c: string, area?: string): Cell {
+    const all = legislation(c);
+    if (!all.length) return missing(c, "legislation", `Past policies: ${who(c)}`);
+    const acts = area ? all.filter((a) => billArea(String(a["bill"])) === area) : all;
+    if (!acts.length) {
+      return {
+        state: "zero",
+        marks: [{ mark: MARK["none_found"]! }],
+        num: "0",
+        unit: "bills",
+        label: "none recorded here",
+        lines: [{ text: "No recorded bills in this area." }],
+        summary: "No recorded bills in this area",
+        open: () => {},
+      };
+    }
     const bills = [...new Set(acts.map((a) => String(a["bill"])))];
     const outcomes = new Map<string, number>();
     for (const id of bills) {
@@ -854,6 +869,23 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
     return { title: `${AREA_LABEL[area] ?? area} · ${parts.join(" · ")}`, rows: items.map((x) => stanceRow(x.s)) };
   }).filter((x): x is { title: string; rows: Row[] } => !!x);
 
+  /** Past policies by the bill's policy area: areas where every candidate has bills first, then "only one". */
+  const billAreas = AREA_ORDER.filter((area) => cands.some((c) => legislation(c).some((a) => billArea(String(a["bill"])) === area)));
+  const hasIn = (c: string, area: string) => legislation(c).some((a) => billArea(String(a["bill"])) === area);
+  const pastSections = billAreas
+    .map((area) => {
+      const with_ = cands.filter((c) => hasIn(c, area));
+      const shared = cands.length > 1 && with_.length === cands.length;
+      const tail = shared ? (cands.length === 2 ? "both have bills" : "all have bills") : `only ${with_.map(who).join(", ")}`;
+      return {
+        shared,
+        title: `${AREA_LABEL[area] ?? area} · ${tail}`,
+        rows: [row("past_policies", `bills-${area}`, "bills", `Bills: ${AREA_LABEL[area] ?? area}`, AREA_LABEL[area] ?? area, (c) => billsCell(c, area), AREA_ICON[area] ? { icon: AREA_ICON[area] } : {})],
+      };
+    })
+    .sort((a, b) => Number(b.shared) - Number(a.shared))
+    .map(({ title, rows }) => ({ title, rows }));
+
   const firstWords = (s: string, n = 3) => s.split(/\s+/).slice(0, n).join(" ");
 
   const categories: Category[] = [
@@ -926,8 +958,9 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       n: 4,
       key: "past_policies",
       name: "Past policies",
-      source: "Legislative records",
-      rows: [row("past_policies", "bills", "bills", "Bills", "Bills", billsCell)],
+      source: "Legislative records, by policy area: areas where both have bills first, then areas only one has",
+      rows: [row("past_policies", "bills", "bills", "Bills", "Bills", (c) => billsCell(c))],
+      ...(pastSections.length ? { sections: pastSections, count: pastSections.length } : {}),
     },
     {
       n: "5–6",

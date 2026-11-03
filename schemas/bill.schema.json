@@ -58,6 +58,21 @@
     },
     "last_verified": {
       "$ref": "defs.schema.json#/$defs/Date"
+    },
+    "area": {
+      "description": "Editorial policy area, the same list as issue questions use, so the site can group past policies the way it groups stances.",
+      "enum": [
+        "civil_rights",
+        "tech",
+        "economy",
+        "housing",
+        "health",
+        "energy_environment",
+        "transportation",
+        "public_safety",
+        "government",
+        "other"
+      ]
     }
   }
 }
