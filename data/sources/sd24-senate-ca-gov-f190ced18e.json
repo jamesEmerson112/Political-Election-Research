@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sd24-senate-ca-gov-f190ced18e",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Senate",
+  "title": "Biography | Senator Ben Allen",
+  "url": "https://sd24.senate.ca.gov/biography"
+}

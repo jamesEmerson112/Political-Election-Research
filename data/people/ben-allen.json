@@ -3,6 +3,48 @@
   "id": "ben-allen",
   "name": "Ben Allen",
   "aliases": [],
+  "candidate_profile": {
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "California State Senator (Senate District 24)",
+          "current": true,
+          "first_elected": "2014",
+          "jurisdiction": "California",
+          "office_ref": "office:california-state-senator",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "California State Senator Ben Allen represents the 24th Senate District, covering the Westside, Hollywood, South Bay, and Santa Monica Mountains communities of Los Angeles County. Ben was first elected in 2014 and is now serving his third term in the State Senate."
+            }
+          ]
+        },
+        {
+          "office": "President, Santa Monica-Malibu Unified School District Board of Education",
+          "current": false,
+          "jurisdiction": "Santa Monica-Malibu Unified School District",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "Prior to his election to the Senate, Ben served as President of the Santa Monica-Malibu Unified School District Board of Education, lecturer at UCLA Law School, and worked as an attorney at the law firms of Bryan Cave LLP and Richardson & Patel and at the nonprofit Spark Program."
+            }
+          ]
+        },
+        {
+          "office": "Student Regent (voting student member), University of California Board of Regents",
+          "current": false,
+          "jurisdiction": "University of California",
+          "citations": [
+            {
+              "source": "src:sd24-senate-ca-gov-f190ced18e",
+              "quote": "While at law school, Ben served as the voting student member of the University of California Board of Regents and was a summer judicial clerk with the United Nations International Criminal Tribunal for Rwanda."
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q19816391",
