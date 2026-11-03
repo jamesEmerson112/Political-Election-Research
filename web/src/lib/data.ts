@@ -230,6 +230,15 @@ export class Index {
       }));
   }
 
+  /** Statewide propositions with records for one state's election ("ca"), in number order. */
+  stateMeasures(state = "ca"): string[] {
+    const num = (ref: string) => Number(String(this.contests.get(ref)?.["number"] ?? "").replace(/\D/g, "")) || 0;
+    return [...this.contests.entries()]
+      .filter(([ref, c]) => c["kind"] === "measure" && stateOf(ref) === state && ((c["jurisdiction"] as Rec | undefined)?.["level"] === "state" || /^prop-\d+$/.test(slugOf(ref).split("/").pop() ?? "")))
+      .map(([ref]) => ref)
+      .sort((a, b) => num(a) - num(b) || a.localeCompare(b));
+  }
+
   /** The adopted budget recorded for a local measure's jurisdiction (what its dollars are compared with), if any. */
   budgetFor(ref: string): Rec | null {
     const name = (this.contests.get(ref)?.["jurisdiction"] as Rec | undefined)?.["name"];

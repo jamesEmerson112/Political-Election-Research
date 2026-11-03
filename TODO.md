@@ -83,6 +83,20 @@
 - **Docs:** update the README status table.
 - **CI:** confirm the GitHub check is green after today's pushes.
 
+## California statewide propositions (2026-11-03)
+- **In progress:** the 14 propositions on the November 3, 2026 ballot (Props 1–5 and 37–45, per the Secretary of State's qualified list), from the official Voter Information Guide: title, summary, who placed it, what a YES and a NO vote mean, the Legislative Analyst's fiscal estimate (word for word) and every argument and rebuttal with its signers.
+- **Note on the guide's PDF:** its fonts drop the fi/fl/ff ligatures when text is extracted ("inflation" comes out "infation"). Every passage is matched against the Secretary of State's web version of the same guide (voterguide.sos.ca.gov/propositions/N/), and the correctly spelled web text is stored.
+- **Next:**
+  - "Who it affects" for the state propositions (two independent passes, as for San Francisco).
+  - Fiscal effects by lane where the Analyst gives numbers (e.g. "$500 million to $600 million annually for about 25 years"); word-only estimates ("tens of millions to low hundreds of millions") stay as text.
+  - A state budget base for percentages: the Analyst writes "This year, the state plans to spend about $250 billion from the General Fund" (Prop 2 analysis); record the enacted budget from the Department of Finance.
+  - "Try your ballot" for state propositions (needs the state budget base and a multi-year outlook).
+  - The Analyst's "Background" and "Proposal" as the digest's "the way it is now" and "the proposal" (long; would need "Read more").
+
+## Nevada state ballot questions (placeholders)
+- State Question 6 (constitutional amendment, abortion rights) and State Question 7 (constitutional amendment, voter identification) are placeholder agendas, cited to Clark County's ballot-question list. Both are second votes (Nevada initiative constitutional amendments must pass at two general elections; the printed fiscal notes name November 2024 and November 2026).
+- **Next:** record each question's text, explanation, arguments for and against, and fiscal note from Clark County's sample ballot or "All Ballot Questions" PDF (the Nevada Secretary of State's site blocks automated access), then show them with the digest and arguments like the California propositions.
+
 ## Las Vegas, Nevada (placeholders, 2026-11-03)
 - **In place:** the election `2026-nv-general` and 47 placeholder agendas (no candidates, questions or positions) for the contests on City of Las Vegas ballots, each citing the Clark County Election Department list it appears on; the Overview's "Nevada · Las Vegas" section.
 - **Next, before research:** seed each agenda's candidates from the certified list (Clark County's "All Contests and Candidates in the November 3 2026, General Election" PDF), then fix each contest's question set (AGENTS rule 6), then run `npm run -s next -- --contest 2026-nv-general/<contest>`.

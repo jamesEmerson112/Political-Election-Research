@@ -4,16 +4,28 @@
   import { balance, usd } from "../lib/measureChips";
   import MeasureCard from "./MeasureCard.svelte";
 
-  /** Local ballot measures by jurisdiction, with the budget context and a way into the trial ballot. */
+  /** Ballot measures: California's statewide propositions, then local measures by jurisdiction (with the budget context and a way into the trial ballot). */
   let { ix, onDemo }: { ix: Index; onDemo?: () => void } = $props();
   const groups = $derived(ix.localMeasureGroups());
+  const statewide = $derived(ix.stateMeasures("ca"));
 </script>
 
 <section class="section">
   <div class="section-head">
-    <h2>Local ballot measures</h2>
-    <p>Each measure's legal form, the vote it needs, and its official fiscal statement, before the words. Open a measure for the digest and sources.</p>
+    <h2>Ballot measures</h2>
+    <p>Each measure's legal form, the vote it needs, and its official fiscal statement, before the words. Open a measure for the digest, arguments and sources.</p>
   </div>
+  {#if statewide.length}
+    <div class="group">
+      <div class="ghead">
+        <h3>California · Statewide propositions</h3>
+        <span class="ctx num">{statewide.length} on every California ballot · fiscal estimates by the Legislative Analyst</span>
+      </div>
+      <div class="cards">
+        {#each statewide as ref (ref)}<MeasureCard {ix} contestRef={ref} />{/each}
+      </div>
+    </div>
+  {/if}
   {#if !groups.length}
     <div class="empty">
       No local measures recorded yet. San Francisco's measures (with the City Controller's fiscal statements) are being researched.

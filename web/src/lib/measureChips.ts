@@ -273,5 +273,7 @@ export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r,
     });
   }
   for (const k of (c["conflicts"] as Rec[] | undefined) ?? []) out.push({ icon: "conflict", text: `Competes with ${labelOf(String(k["contest"]))}`, title: String(k["rule"]) });
+  // A statement with only a written estimate (e.g. the Legislative Analyst's words, no amounts by lane): its text is shown beside the chips.
+  if (!out.length && (fiscal["summary"] as Rec | undefined)?.["summary"]) return out;
   return out.length ? out : [{ icon: "none", text: "No fiscal effect recorded", muted: true }];
 }
