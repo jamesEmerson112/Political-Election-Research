@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:leah-lacroix",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "add-classes-back",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "LaCroix's questionnaire lists adding classes back to the schedule among her top three issues; her statement lists ensuring the courses students need are offered.",
+        "title": "Add classes back to the schedule",
+        "citations": [
+          {
+            "source": "src:assets-nationbuilder-com-042dbf9aad",
+            "quote": "Secondly, adding classes back to the schedule.",
+            "locator": "p. 3, top three issues"
+          },
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Re-establish trust in the college by ensuring the courses students need are offered",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board, printed p. 33 (PDF p. 35)"
+          }
+        ]
+      },
+      {
+        "id": "reopen-downtown-campus",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "LaCroix's questionnaire says she would advocate against cuts and push to reopen the Downtown campus.",
+        "title": "Push to reopen the Downtown campus",
+        "citations": [
+          {
+            "source": "src:assets-nationbuilder-com-042dbf9aad",
+            "quote": "Whether it be fiercely advocating against cuts or pushing to reopen the downtown campus, I will be on the front-line demanding answers.",
+            "locator": "p. 3, top three issues"
+          }
+        ]
+      },
+      {
+        "id": "free-transit-passes-for-students",
+        "as_of": "2026-09-08",
+        "issue": "transportation",
+        "summary": "The Guardsman reported that LaCroix will work to keep Free City funded, work with SFUSD on college readiness and advocate for free transit passes for students.",
+        "title": "Advocate for free transit passes for students",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-35605ece64",
+            "quote": "She will ensure the Free City College program stays funded, seek to work with the San Francisco Unified School District to get students college-ready and advocate for free transit passes for students."
+          }
+        ]
+      },
+      {
+        "id": "consult-students-and-unions",
+        "as_of": "2026-09-08",
+        "issue": "education",
+        "summary": "The Guardsman reported that LaCroix plans to consult student leaders and the AFT 2121 and SEIU 1021 unions on big decisions.",
+        "title": "Consult student leaders and unions on major decisions",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-35605ece64",
+            "quote": "As trustee, she plans to consult student leaders and both faculty and staff unions, AFT 2121 and SEIU 1021, on big decisions."
+          }
+        ]
+      }
+    ]
+  }
+}
