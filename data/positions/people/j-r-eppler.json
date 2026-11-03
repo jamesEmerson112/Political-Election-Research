@@ -89,6 +89,31 @@
           "locator": "answer to \"Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?\" (Substance Abuse section)"
         }
       ]
+    },
+    {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "oppose",
+      "as_of": "2026-09-08",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "Told The Standard that Flock cannot be trusted to protect San Franciscans' data and that San Francisco should move on from it. He said that if the city keeps using license-plate readers, it should choose a new vendor through a competitive process with shorter retention periods and penalties for misuse.",
+      "citations": [
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "“the issue here is whether Flock can be trusted to protect San Franciscans’ data. It cannot.”",
+          "locator": "JR Eppler section"
+        },
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "Eppler said if San Francisco continues using license-plate readers, it should find a new vendor through a competitive process requiring shorter retention periods, enhanced barriers against unauthorized access, and meaningful penalties for misuse.",
+          "locator": "JR Eppler section"
+        },
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "“Public safety does not require blind trust in a private surveillance company. Flock failed the test, and San Francisco should move on.”",
+          "locator": "JR Eppler section"
+        }
+      ]
     }
   ]
 }
