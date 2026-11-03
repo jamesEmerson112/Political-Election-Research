@@ -50,6 +50,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "San Francisco (origin as he states it: a fourth-generation San Franciscan; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:growsf-org-5d3937fc51",
+          "quote": "San Francisco has always been home. I went to preschool, elementary school, middle school, and high school in the City.",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        },
+        {
+          "source": "src:growsf-org-5d3937fc51",
+          "quote": "As a fourth-generation San Franciscan",
+          "locator": "Personal: Why do you want to run for public office?"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
