@@ -12,6 +12,29 @@
       "name": "Michael E. Gates"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/attorney-general|legislation|person:michael-e-gates",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Michael E. Gates",
+          "where": "Official Voter Information Guide 2026, candidate statement p. 88 (trial attorney, prosecutor, U.S. Department of Justice, Huntington Beach City Attorney; no legislative office)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "biography",
+          "where": "gates4ag.com/about (campaign biography: private practice, elected City Attorney of Huntington Beach 2014, U.S. DOJ Civil Rights Division 2025; no legislative office)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Michael Gates career",
+          "where": "LAist, \"Huntington Beach's popular — and controversial — Michael Gates quits Justice Department\" (career summary; no legislative office)"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:california-attorney-general",
   "questions": [],
