@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:bunny-mcfadden",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "protect-free-city",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "McFadden's site lists protecting Free City as a campaign platform.",
+        "title": "Protect Free City",
+        "citations": [
+          {
+            "source": "src:bunny4thepeople-com-913bfeba7b",
+            "quote": "I will protect Free City with everything I have in me.",
+            "locator": "Campaign Platforms: Protect Free City"
+          }
+        ]
+      },
+      {
+        "id": "prioritize-enrollment-growth",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "McFadden's site says she will prioritize decisions that increase enrollment.",
+        "title": "Prioritize decisions that increase enrollment",
+        "citations": [
+          {
+            "source": "src:bunny4thepeople-com-913bfeba7b",
+            "quote": "And of course, I’ll prioritize decisions that increase enrollment, because that’s going to be key to building back the College our wonderful city deserves."
+          }
+        ]
+      },
+      {
+        "id": "support-student-organizing",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "McFadden's site says the college needs to support student organizing and leadership development.",
+        "title": "Support student organizing and leadership development",
+        "citations": [
+          {
+            "source": "src:bunny4thepeople-com-913bfeba7b",
+            "quote": "In addition, we need to make sure we are supporting student organizing and leadership development!",
+            "locator": "Campaign Platforms: Invest in Students"
+          }
+        ]
+      },
+      {
+        "id": "wraparound-services",
+        "as_of": "2026-09-22",
+        "issue": "education",
+        "summary": "The Guardsman reported that McFadden said every student needs wraparound services.",
+        "title": "Wraparound services for students",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-702fd04dfd",
+            "quote": "we need wrap-around services for every student"
+          }
+        ]
+      }
+    ]
+  }
+}
