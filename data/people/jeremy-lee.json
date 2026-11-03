@@ -50,6 +50,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "San Francisco (born at Children's Hospital on California Street, as reported)",
+      "citations": [
+        {
+          "source": "src:theguardsman-com-ecc0861a4b",
+          "quote": "Lee was born at Children's Hospital on California Street. His family later moved to South San Francisco, where he later graduated from El Camino High School.",
+          "locator": "Making of a Candidate"
+        },
+        {
+          "source": "src:jeremyleesf-com-e26bd18ff7",
+          "quote": "Jeremy Lee is a third-generation San Franciscan"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
