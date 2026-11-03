@@ -3,6 +3,44 @@
   "actor": "person:steve-hilton",
   "positions": [
     {
+      "subject": "q:homelessness/encampment-enforcement-funding",
+      "stance": "no_public_position",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Hilton candidate statement (none submitted)",
+          "where": "Official Voter Information Guide (vig.cdn.sos.ca.gov), candidate statements p. 83"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "conditioning state homelessness funds on local encampment enforcement (plan sets deadlines, state steps in, camping bans; no funding condition stated)",
+          "where": "stevehiltonforgovernor.com/policies/off-the-streets-and-back-on-track, /policies/stop-funding-addiction, /policies/clean-streets-california"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "funding, withhold, condition",
+          "where": "10news.com report on Hilton homelessness plan"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Hilton encampments funding",
+          "where": "CNN debate Sept. 30, 2026 coverage: AP via Scripps News, CalMatters via Santa Barbara Independent, KSBY, ABC30"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Hilton encampments (blocked by bot challenge, HTTP 403)",
+          "where": "calmatters.org voter guide and WordPress search"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Hilton homelessness funding cities condition clear encampments withhold state funds",
+          "where": "web search"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/transit-oriented-upzoning",
       "stance": "no_public_position",
       "as_of": "2026-11-03",
