@@ -242,5 +242,103 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "free-city-college-funding-in-the-fy2026-27-and-fy2027-28-city-budget",
+        "kind": "budget",
+        "date": "2026-07-30",
+        "summary": "The ballot statement PDF could not be opened; a search-engine summary of it reports that a District 11 statement credits its author, the budget chair, with fully funding Free City College. Record: DCYF's reduction list for the mayor's proposal shows the City College Enrollment Assistance Fund line at $9,300,000 in FY2025–26 and $6,482,137 proposed for FY2026–27; Mission Local reported the proposal kept tuition aid and cut cash grants for low-income students. The Board's spending plan, item 1, \"Full funding for Free City College\", added $2.8 million in each of FY2026–27 and FY2027–28. The Budget and Appropriations Committee, on a motion by Chair Chan, recommended the amended budget 5–0 on June 25, 2026; the Board passed it 11–0 on July 28 and the mayor approved it July 30 (File 260596).",
+        "title": "Free City College funding in the FY2026–27 and FY2027–28 city budget",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "Candidate statement of Connie Chan, U.S. Representative, District 11 (claim: fully funded Free City College)",
+            "unverified": {
+              "by": "research agent",
+              "date": "2026-11-03",
+              "method": "search summary"
+            }
+          },
+          {
+            "source": "src:sfgov-legistar-com-2a50d9d402",
+            "quote": "Full funding for Free City College",
+            "locator": "p. 1, Item # 1, Dept CHF: FY27 GFS 2,800,000; FY28 GFS 2,800,000; GFS all years 5,600,000"
+          },
+          {
+            "source": "src:sfgov-legistar-com-6f14dea55f",
+            "quote": "FCC Cut per MBO",
+            "locator": "p. 20, row \"CH City College Enroll Asst Fu\": FY 2025-26 Original 9,300,000; FY 2026-27 Mayor 6,482,137; FY 2027-28 Mayor 6,850,000; FY27 MYR - FY26 Org (2,817,863)"
+          },
+          {
+            "source": "src:missionlocal-org-ef3f69ab5d",
+            "quote": "While Lurie’s budget maintains aid for covering tuition, it cuts cash grants for low-income students."
+          },
+          {
+            "source": "src:missionlocal-org-b6f0105b95",
+            "quote": "The supes restored funding for Free City College, HIV prevention services, and support for seniors, among other changes to proposed cuts."
+          },
+          {
+            "source": "src:sfgov-legistar-com-2d1fcb294a",
+            "quote": "Chair Chan, seconded by Vice Chair Dorsey, moved that this Ordinance be RECOMMENDED AS AMENDED to the Board of Supervisors meeting of July 14, 2026.",
+            "locator": "Action: RECOMMENDED AS AMENDED; Votes (5:0)"
+          },
+          {
+            "source": "src:sfgov-legistar-com-532c2c45a5",
+            "quote": "FINALLY PASSED by the following vote:",
+            "locator": "Votes (11:0); Connie Chan: Aye"
+          },
+          {
+            "source": "src:sfgov-legistar-com-0855478d5e",
+            "quote": "Budget and Appropriation Ordinance appropriating all estimated receipts and all estimated expenditures for Departments of the City and County of San Francisco as of June 1, 2026, for the Fiscal Years (FYs) ending June 30, 2027, and June 30, 2028.",
+            "locator": "File #: 260596; Enactment #: 140-26; Enactment date: 7/30/2026; History: 7/30/2026 Mayor APPROVED"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan candidate statement, U.S. Representative, District 11",
+        "where": "SF Department of Elections Voter Information Pamphlet PDF (media.api.sf.gov/documents/N26_EN_VIP.pdf): host refused by the session proxy (403); the Wayback snapshot 20261031160434 listed by the archive.org availability API could not be loaded (web.archive.org connection reset)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan candidate statement, U.S. Representative, District 11",
+        "where": "voterguide.sfelections.org, www.sf.gov and sfelections.sfgov.org (redirects to www.sf.gov): unreachable from the research session"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan candidate statement \"fully funded Free City College\"; \"Working People's Plan\"; \"My occupation is\" Budget Chair; \"Free City College a reality\"; \"As Budget Chair\" OR \"I passed\" OR \"I secured\" OR \"I restored\"",
+        "where": "Web search (summaries), 8 queries, most restricted to media.api.sf.gov; the pamphlet text in the summaries was fragmentary"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "ballot statement; Free City College",
+        "where": "conniechansf.com (campaign site): unreachable from the research session"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "appropriating all estimated receipts (2026); Free City College",
+        "where": "sfgov.legistar.com legislation search; File 260596 attachments (Board spending plans of 6/25/2026 and 7/14/2026, DCYF presentation of 6/11/2026) and action details"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Free City College; City College",
+        "where": "sfgov.legistar.com: Board spending plans attached to File 250589 (FY2025-26/2026-27) and File 240595 (FY2024-25/2025-26); no Free City College line found"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "\"Free City College\"",
+        "where": "Mission Local (site search through its WordPress API)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Free City College funding 2026 budget",
+        "where": "sfbos.org, sfcontroller.org, ccsf.edu, sfstandard.com, sfchronicle.com: unreachable from the research session"
+      }
+    ]
   }
 }

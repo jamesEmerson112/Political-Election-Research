@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-6f14dea55f",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-06-11",
+  "publisher": "San Francisco Department of Children, Youth and Families",
+  "title": "San Francisco Department of Children, Youth and Families · FY2026-27 and FY2027-28 Budget, Budget and Appropriations Committee meeting of June 11, 2026 (File 260596 attachment \"DCYF Presentation-CutList 061126\")",
+  "url": "https://sfgov.legistar.com/View.ashx?M=F&ID=15561809&GUID=4B08962A-2539-4CEB-92B7-DFDEDCF4248C",
+  "notes": "PDF attachment to SF File 260596, opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

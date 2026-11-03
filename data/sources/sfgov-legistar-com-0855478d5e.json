@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-0855478d5e",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2026-07-30",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 260596 · Budget and Appropriation Ordinance for Departments - FYs 2026-2027 and 2027-2028",
+  "url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=8060298&GUID=BE438692-C8D2-45AF-9B5A-1C8FF488A48E",
+  "notes": "Opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}
