@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "joaquin-torres",
+  "name": "Joaquín Torres",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://joaquintorressf.com/",
+    "official_site": "https://www.sf.gov/departments--assessor-recorder"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
