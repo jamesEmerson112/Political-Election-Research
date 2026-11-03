@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-democratic-party--person.richard-barrera--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-02",
+  "endorsee": "person:richard-barrera",
+  "endorser": "org:california-democratic-party",
+  "citations": [
+    {
+      "source": "src:cadem-org-aeb4feb5a7",
+      "quote": "Insurance Commissioner: Ben Allen | Superintendent of Public Instruction: Richard Barrera",
+      "locator": "p. 1, Statewide"
+    },
+    {
+      "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+      "quote": "He is endorsed by Planned Parenthood, California Professional Firefighters, School Police Officers, and the California Democratic Party.",
+      "locator": "Candidate statement, p. 95"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
