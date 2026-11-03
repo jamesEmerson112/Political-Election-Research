@@ -53,5 +53,32 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "sb-54-plastic-pollution-producer-responsibility",
+        "kind": "legislation",
+        "bill": "ca-2021-sb-54",
+        "date": "2022-06-30",
+        "summary": "Authored SB 54, which places plastic packaging waste costs on producers; the Governor signed it on June 30, 2022, requiring all packaging in the state to be recyclable or compostable by 2032 and a 25 percent cut in plastic packaging within 10 years.",
+        "title": "SB 54: plastic packaging producer responsibility law",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-f20d2b0966",
+            "quote": "said Senator Ben Allen (D-Santa Monica), author of the legislation."
+          },
+          {
+            "source": "src:gov-ca-gov-f20d2b0966",
+            "quote": "Governor Gavin Newsom signed SB 54, requiring all packaging in the state to be recyclable or compostable by 2032, cutting plastic packaging by 25 percent in 10 years and requiring 65 percent of all single-use plastic packaging to be recycled in the same timeframe."
+          },
+          {
+            "source": "src:sd24-senate-ca-gov-4c66851363",
+            "quote": "Authored by Senator Ben Allen (D – Santa Monica), Senate Bill 54 places the responsibility for costs on the producers rather than the local communities who pay for waste management and recycling."
+          }
+        ]
+      }
+    ]
   }
 }
