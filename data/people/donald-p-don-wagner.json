@@ -16,6 +16,32 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "bachelor's degree",
+          "institution": "University of California, Los Angeles",
+          "citations": [
+            {
+              "source": "src:bos3-oc-gov-efb729411c",
+              "quote": "He holds a bachelor's degree from the University of California, Los Angeles, earning a Juris Doctorate in 1987 from the University of California, Hastings College of Law; he joined the California Bar that same year."
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctorate",
+          "institution": "University of California, Hastings College of Law",
+          "year": 1987,
+          "citations": [
+            {
+              "source": "src:bos3-oc-gov-efb729411c",
+              "quote": "He holds a bachelor's degree from the University of California, Los Angeles, earning a Juris Doctorate in 1987 from the University of California, Hastings College of Law; he joined the California Bar that same year."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Orange County Supervisor",
       "citations": [
