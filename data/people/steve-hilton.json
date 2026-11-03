@@ -67,6 +67,32 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "elected or appointed office",
+          "where": "stevehiltonforgovernor.com/meet-steve (campaign bio: 'Steve is not a career politician'; served as senior advisor to Prime Minister David Cameron, a staff post)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton office held",
+          "where": "KATV/AP, June 9, 2026 (states he 'has never held elected office')"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton public office",
+          "where": "Capitol Weekly, Spectrum News 1, The Telegraph via Yahoo, Commonwealth Club"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton qualifications",
+          "where": "2026 General Election Official Voter Information Guide, p. 83 (no candidate statement)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
