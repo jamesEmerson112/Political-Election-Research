@@ -13,7 +13,7 @@
   /** row key -> expanded. A click on any cell of a row expands the row (every candidate's cell) inline. */
   let open = $state<Record<string, boolean>>({});
   const toggle = (k: string) => (open[k] = !open[k]);
-  const rowsOf = (cat: Category) => [...cat.rows, ...(cat.extra?.rows ?? [])];
+  const rowsOf = (cat: Category) => [...cat.rows, ...(cat.sections ?? []).flatMap((x) => x.rows)];
   const catOpen = (cat: Category) => rowsOf(cat).length > 0 && rowsOf(cat).every((r) => open[r.key]);
   function toggleCat(cat: Category) {
     const to = !catOpen(cat);
@@ -122,13 +122,13 @@
           </th>
         </tr>
         {#each cat.rows as r (r.key)}{@render rowView(r)}{/each}
-        {#if !cat.rows.length && cat.empty}
+        {#if !rowsOf(cat).length && cat.empty}
           <tr><td class="empty-row" colspan={cmp.cands.length + 1}>{cat.empty}</td></tr>
         {/if}
-        {#if cat.extra}
-          <tr class="subcat"><th colspan={cmp.cands.length + 1} scope="colgroup">{cat.extra.title}</th></tr>
-          {#each cat.extra.rows as r (r.key)}{@render rowView(r)}{/each}
-        {/if}
+        {#each cat.sections ?? [] as sec (sec.title)}
+          <tr class="subcat"><th colspan={cmp.cands.length + 1} scope="colgroup">{sec.title}</th></tr>
+          {#each sec.rows as r (r.key)}{@render rowView(r)}{/each}
+        {/each}
         {#if noQuestions && cat.key === "past_policies"}
           <tr><td class="empty-row" colspan={cmp.cands.length + 1}>No stance questions set yet for this contest.</td></tr>
         {/if}

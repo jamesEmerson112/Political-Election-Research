@@ -19,7 +19,7 @@
 
   let open = $state<Record<string, boolean>>({});
   const toggle = (k: string) => (open[k] = !open[k]);
-  const rowsOf = (cat: Category) => [...cat.rows, ...(cat.extra?.rows ?? [])];
+  const rowsOf = (cat: Category) => [...cat.rows, ...(cat.sections ?? []).flatMap((x) => x.rows)];
   const catOpen = (cat: Category) => rowsOf(cat).length > 0 && rowsOf(cat).every((r) => open[r.key]);
   function toggleCat(cat: Category) {
     const to = !catOpen(cat);
@@ -160,11 +160,11 @@
       </h3>
       {#if allOpen}<p class="cat-src">{cat.source}</p>{/if}
       {#each cat.rows as r (r.key)}{@render rowView(r)}{/each}
-      {#if !cat.rows.length && cat.empty}<p class="empty-row">{cat.empty}</p>{/if}
-      {#if cat.extra}
-        <h4 class="subcat">{cat.extra.title}</h4>
-        {#each cat.extra.rows as r (r.key)}{@render rowView(r)}{/each}
-      {/if}
+      {#if !rowsOf(cat).length && cat.empty}<p class="empty-row">{cat.empty}</p>{/if}
+      {#each cat.sections ?? [] as sec (sec.title)}
+        <h4 class="subcat">{sec.title}</h4>
+        {#each sec.rows as r (r.key)}{@render rowView(r)}{/each}
+      {/each}
     </section>
     {#if noQuestions && cat.key === "past_policies"}
       <section class="cat" aria-label="Stances">

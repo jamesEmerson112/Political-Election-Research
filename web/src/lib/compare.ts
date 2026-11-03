@@ -67,7 +67,8 @@ export interface Row {
 }
 
 export interface Category {
-  n: number;
+  /** Category number in the maintainer's 11-category structure ("5–6" for the merged policy category). */
+  n: number | string;
   key: CategoryKey;
   name: string;
   source: string;
@@ -75,7 +76,8 @@ export interface Category {
   /** Headline count for the category bar (e.g. how many questions are shared). */
   count?: number;
   empty?: string;
-  extra?: { title: string; rows: Row[] };
+  /** Titled sub-groups after `rows` (e.g. policy areas, "Not yet comparable"). */
+  sections?: Array<{ title: string; rows: Row[] }>;
 }
 
 export interface Comparison {
@@ -141,7 +143,7 @@ export function billLabel(id: string): string {
 
 /** "frontier-ai-safety-disclosure" -> "Frontier AI safety disclosure". */
 export function humanizeId(id: string): string {
-  const small = new Set(["ai", "us", "ca", "h1b"]);
+  const small = new Set(["ai", "us", "ca", "h1b", "ice", "lgbtq", "sb", "ab", "fec", "irs"]);
   return id
     .split("-")
     .map((w, i) => (small.has(w) ? w.toUpperCase() : i === 0 ? w.charAt(0).toUpperCase() + w.slice(1) : w))
@@ -701,6 +703,35 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
   const differ = compared.filter((x) => x.kind === "differ").map((x) => stanceRow(x.s));
   const incomplete = compared.filter((x) => x.kind === "incomplete").map((x) => stanceRow(x.s));
 
+  /**
+   * Policy rows grouped by the question's policy area (maintainer decision:
+   * areas such as Civil rights and Tech), ballot measures last. Inside an
+   * area: shared, then different, then not yet comparable; agenda order within each.
+   */
+  const AREA_ORDER = ["civil_rights", "tech", "economy", "housing", "health", "energy_environment", "transportation", "public_safety", "government", "other", "measure"];
+  const AREA_LABEL: Record<string, string> = {
+    civil_rights: "Civil rights",
+    tech: "Tech",
+    economy: "Economy",
+    housing: "Housing",
+    health: "Health",
+    energy_environment: "Energy & environment",
+    transportation: "Transportation",
+    public_safety: "Public safety",
+    government: "Government",
+    other: "Other policies",
+    measure: "Ballot measures",
+  };
+  const KIND_ORDER: Record<string, number> = { shared: 0, differ: 1, incomplete: 2 };
+  const areaOf = (s: string) => (ix.questions.has(s) ? String(ix.questions.get(s)!.q["area"] ?? "other") : "measure");
+  const policySections = AREA_ORDER.map((area) => {
+    const items = compared.filter((x) => areaOf(x.s) === area).sort((a, b) => KIND_ORDER[a.kind]! - KIND_ORDER[b.kind]!);
+    if (!items.length) return null;
+    const n = (k: string) => items.filter((x) => x.kind === k).length;
+    const parts = [n("shared") && `${n("shared")} shared`, n("differ") && `${n("differ")} different`, n("incomplete") && `${n("incomplete")} not yet comparable`].filter(Boolean);
+    return { title: `${AREA_LABEL[area] ?? area} · ${parts.join(" · ")}`, rows: items.map((x) => stanceRow(x.s)) };
+  }).filter((x): x is { title: string; rows: Row[] } => !!x);
+
   const firstWords = (s: string, n = 3) => s.split(/\s+/).slice(0, n).join(" ");
 
   const categories: Category[] = [
@@ -773,23 +804,14 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       rows: [row("past_policies", "bills", "bills", "Bills", "Bills", billsCell)],
     },
     {
-      n: 5,
+      n: "5–6",
       key: "shared",
-      name: "Shared policies",
-      source: "Computed from cited stances: every candidate takes the same side",
-      rows: shared,
-      count: shared.length,
-      empty: "No question where every candidate has a cited stance on the same side yet.",
-    },
-    {
-      n: 6,
-      key: "differ",
-      name: "Policy differences",
-      source: "Computed from cited stances: platforms, interviews, voting records",
-      rows: differ,
-      count: differ.length,
-      empty: "No question where cited stances differ yet.",
-      extra: incomplete.length ? { title: `Not yet comparable · ${incomplete.length}`, rows: incomplete } : undefined,
+      name: "Policies: shared and different",
+      source: "By policy area. ▲|▲ = same side, ▲|▼ = different sides; computed from cited stances (platforms, interviews, voting records)",
+      rows: [],
+      count: compared.length,
+      empty: "No stance questions yet.",
+      sections: policySections,
     },
     {
       n: 7,
@@ -853,7 +875,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
   }
   if (otherRows.length) {
     const last = categories[categories.length - 1]!;
-    last.extra = { title: "Other unverified leads", rows: otherRows };
+    last.sections = [...(last.sections ?? []), { title: "Other unverified leads", rows: otherRows }];
   }
 
   return { cands, categories, counts: { shared: shared.length, differ: differ.length, incomplete: incomplete.length } };
