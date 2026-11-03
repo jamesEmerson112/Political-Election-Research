@@ -62,6 +62,42 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Associate degrees in science (A.S., with honors) and liberal arts (the statement gives 2024; The Guardsman reports 2025)",
+          "institution": "City College of San Francisco",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My A.S with honors CCSF 2024",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 35 (PDF p. 37)"
+            },
+            {
+              "source": "src:theguardsman-com-013dc55584",
+              "quote": "earning associate degrees in science and liberal arts during 2025"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor's degree, Interdisciplinary Studies",
+          "institution": "California Institute of Integral Studies",
+          "year": 2026,
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My BS with CIIS Interdisciplinary Studies",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 35 (PDF p. 37)"
+            },
+            {
+              "source": "src:theguardsman-com-013dc55584",
+              "quote": "She graduated from the California Institute of Integral Studies in May 2026 with a bachelor’s degree in interdisciplinary studies."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Equity Researcher (ballot designation: Health Equity Researcher)",
       "citations": [
