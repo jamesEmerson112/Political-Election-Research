@@ -3,6 +3,48 @@
   "id": "sonja-shaw",
   "name": "Sonja Shaw",
   "aliases": [],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "Chino, California (described as a \"Chino native\"; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:shawforca-com-9920e5b14c",
+          "quote": "A Chino native who overcame a challenging childhood, she was content as a soccer mom, cheering on her two daughters from the sideline."
+        }
+      ]
+    },
+    "occupation": {
+      "value": "School District President (ballot designation)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Sonja Shaw Non-Partisan School District President"
+        }
+      ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "President, Chino Valley Unified School District Board of Education",
+          "current": true,
+          "jurisdiction": "Chino Valley Unified School District",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:shawforca-com-9920e5b14c",
+              "quote": "Elected Chino Valley Unified School Board President in 2022"
+            },
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "I was elected President of the Chino Valley Unified School Board because parents demanded change.",
+              "locator": "Candidate statement, p. 95"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.shawforca.com/"
