@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "elections-cdn-sos-ca-gov-4359dacf2b",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Secretary of State",
+  "title": "2024 State Senate notice (Secretary of State)",
+  "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2024-primary/2024-state-senate.pdf",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified. elections.cdn.sos.ca.gov is refused by the egress proxy."
+}

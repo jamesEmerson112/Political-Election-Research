@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sos-ca-gov-a12cecda6f",
+  "kind": "press_release",
+  "accessed": "2026-11-03",
+  "published": "2021-01-29",
+  "publisher": "California Secretary of State",
+  "title": "SW21:001 Governor Newsom Swears in Dr. Shirley N. Weber as California Secretary of State",
+  "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2021-news-releases-and-advisories/sw21001",
+  "notes": "Opened (playwright) on 2026-11-03; quotes re-checked against the page text."
+}

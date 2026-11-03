@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sos-ca-gov-f785417994",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Secretary of State",
+  "title": "Summary of Qualifications and Requirements for the Office of State Senator (20 Districts, Even-Numbered) and Member of the Assembly (80 Districts)",
+  "url": "https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/statewide-direct-primary-election-june-3-2014/qualifications-running-office/summary-qualifications-and-requirements-office-state-senator-20-districts-even-numbered-and-member-assembly-80-districts",
+  "notes": "Opened (curl+playwright) on 2026-11-03; quotes re-checked against the page text. June 3, 2014 primary election; no publication date shown on the page."
+}

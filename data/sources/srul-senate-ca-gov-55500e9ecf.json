@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "srul-senate-ca-gov-55500e9ecf",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Senate, Rules Committee",
+  "title": "Senate Rules Committee: hearings",
+  "url": "https://srul.senate.ca.gov/committeehome",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-legislature-ca-gov-3839fb0b49",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Legislative Information (Legislative Counsel)",
+  "title": "California Government Code, Division 4, Title 1, Chapter 4, Article 2 (incl. §§ 1774, 1775)",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV&division=4.&title=1.&chapter=4.&article=2.",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified."
+}

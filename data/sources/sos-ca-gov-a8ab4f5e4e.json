@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sos-ca-gov-a8ab4f5e4e",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Secretary of State",
+  "title": "Qualifications for Running for Office in 2026",
+  "url": "https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/primary-election-june-2-2026/qualifications",
+  "notes": "Opened (curl+playwright) on 2026-11-03; quotes re-checked against the page text."
+}

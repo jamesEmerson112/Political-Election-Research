@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "senate-ca-gov-4039b77e40",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Senate",
+  "title": "The California Senate (pamphlet)",
+  "url": "https://www.senate.ca.gov/sites/senate.ca.gov/files/california_senate_pamphlet.pdf",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified. Search summary says the pamphlet is older and names a former President pro Tempore."
+}

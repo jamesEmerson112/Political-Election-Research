@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sos-ca-gov-d667529c9c",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Secretary of State",
+  "title": "General Election - Candidate Qualifications and Requirements, November 7, 2000",
+  "url": "https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/general-election-november-7-2000/candidate-qualifications-and-requirements",
+  "notes": "Opened (playwright) on 2026-11-03; quotes re-checked against the page text."
+}

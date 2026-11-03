@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "senate-ca-gov-38852af9c1",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Senate",
+  "title": "Standing Rules of the Senate, 2017-18 Regular Session (S.R. 4)",
+  "url": "https://www.senate.ca.gov/sites/senate.ca.gov/files/2017-18_s.r._4_standing_rules_of_the_senate_032218.pdf",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified."
+}
