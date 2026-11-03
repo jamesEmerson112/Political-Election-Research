@@ -69,6 +69,10 @@ The test fixture in [tests/fixtures/valid/data](tests/fixtures/valid/data) is a 
 
 Anything a reader sees in `web/` follows the visual language in [.claude/skills/versus-ui/SKILL.md](.claude/skills/versus-ui/SKILL.md): Democracy 3-inspired, Lucide icons only, ▲/▼ for for/against in teal/orange, badges colored by category, numbers first, text on click, describe and never grade.
 
+## Past policies: one STAR sentence
+
+Track-record items and past policies are written as one neutral STAR sentence (action verb + what/how + context + measurable result, every part cited): see [.claude/skills/policy-star/SKILL.md](.claude/skills/policy-star/SKILL.md).
+
 ## Commands
 
 | command | purpose |
