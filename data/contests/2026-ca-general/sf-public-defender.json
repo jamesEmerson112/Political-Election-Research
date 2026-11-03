@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-public-defender",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Public Defender",
+  "office": "Public Defender",
+  "candidates": [
+    {
+      "person": "person:mano-raju",
+      "ballot_designation": "Public Defender",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MANO RAJU 力儲文 Public Defender",
+          "locator": "page 1, Public Defender, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Public Defender\n\n1 person(s) have filed for candidacy for this contest on the November 3, 2026 ballot.\n\nManohar Raju"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "MANO RAJU\nCandidate for Public Defender",
+          "locator": "PDF page 41 (printed page 39), Candidate Statements"
+        },
+        {
+          "source": "src:sfpublicdefender-org-813588632b",
+          "quote": "Mano Raju serves as San Francisco’s elected Public Defender"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-03"
+}

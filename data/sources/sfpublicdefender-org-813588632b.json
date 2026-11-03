@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfpublicdefender-org-813588632b",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Public Defender's Office",
+  "title": "Mano Raju - San Francisco Public Defender",
+  "url": "https://sfpublicdefender.org/personnel/mano-raju/",
+  "notes": "Official site of the San Francisco Public Defender's Office; https://www.sf.gov/departments--public-defender redirects to sfpublicdefender.org."
+}
