@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/us-house-ca-11",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "United States Representative, District 11",
+  "office": "United States Representative",
+  "candidates": [
+    {
+      "person": "person:connie-chan",
+      "ballot_designation": "San Francisco Supervisor",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "United States Representative District 11 Connie Chan Democratic San Francisco Supervisor",
+          "locator": "PDF page 6 (list page 5 of 41), United States Representative District 11"
+        },
+        {
+          "source": "src:clerk-house-gov-9e535f7f71",
+          "quote": "Nancy Pelosi California (CA) – 11th, Democrat",
+          "locator": "Member profile header: the current holder of California's 11th district seat is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:scott-wiener",
+      "ballot_designation": "State Senator",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "United States Representative District 11 Connie Chan Democratic San Francisco Supervisor Scott Wiener Democratic State Senator",
+          "locator": "PDF page 6 (list page 5 of 41), United States Representative District 11"
+        },
+        {
+          "source": "src:clerk-house-gov-9e535f7f71",
+          "quote": "Nancy Pelosi California (CA) – 11th, Democrat",
+          "locator": "Member profile header: the current holder of California's 11th district seat is another person"
+        }
+      ]
+    }
+  ],
+  "district": 11,
+  "level": "federal",
+  "office_ref": "office:us-representative-california",
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-house-gov-9e535f7f71",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Office of the Clerk, U.S. House of Representatives",
+  "title": "Office of the Clerk, U.S. House of Representatives - Nancy Pelosi",
+  "url": "https://clerk.house.gov/Members/P000197",
+  "notes": "Member profile page in the Clerk's official roster, opened (Chromium via tools/research/fetch-text.mjs) on 2026-11-03; it shows who currently holds California's 11th district seat. No publication date on the page. Not archived: web.archive.org was unreachable from the research environment."
+}
