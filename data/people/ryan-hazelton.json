@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "ryan-hazelton",
+  "name": "Ryan Hazelton",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.ryanforsfschools.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
