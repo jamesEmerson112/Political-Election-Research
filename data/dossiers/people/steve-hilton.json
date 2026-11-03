@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:steve-hilton",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "no-state-income-tax-on-first-150000",
+        "as_of": "2026-11-03",
+        "issue": "taxes",
+        "summary": "Proposes no state income tax on the first $150,000 of income and a single 8% rate on income above that.",
+        "title": "No state income tax on the first $150,000",
+        "citations": [
+          {
+            "source": "src:stevehiltonforgovernor-com-0e84368b67",
+            "quote": "NO STATE INCOME TAX ON YOUR FIRST $150,000"
+          },
+          {
+            "source": "src:stevehiltonforgovernor-com-0e84368b67",
+            "quote": "Income above $150,000 would be taxed at a simple 8% rate."
+          }
+        ]
+      },
+      {
+        "id": "suspend-refinery-regulations-3-gas",
+        "as_of": "2026-11-03",
+        "issue": "energy",
+        "summary": "Proposes suspending the Low Carbon Fuel Standard, reformulation requirements and other refinery regulations, and steps to increase California oil production.",
+        "title": "Suspend fuel and refinery regulations ($3 gas plan)",
+        "citations": [
+          {
+            "source": "src:stevehiltonforgovernor-com-0e096d80cd",
+            "quote": "Suspend the Low Carbon Fuel Standard (LCFS), reformulation requirements, and other extreme and unnecessary refinery regulations: These compliance costs add roughly 40 cents per gallon."
+          },
+          {
+            "source": "src:stevehiltonforgovernor-com-0e096d80cd",
+            "quote": "Additional deregulation measures, including immediate steps to increase California oil production and the suspension of enforcement of SBX1-2 and ABX2-1, could reduce prices even further, by up to 25¢ per gallon."
+          }
+        ]
+      },
+      {
+        "id": "cancel-state-funding-high-speed-rail",
+        "as_of": "2026-11-03",
+        "issue": "transportation",
+        "summary": "Proposes canceling state funding for high-speed rail as part of a plan to cut state spending below $300 billion.",
+        "title": "Cancel state funding for high-speed rail",
+        "citations": [
+          {
+            "source": "src:stevehiltonforgovernor-com-07e808baa6",
+            "quote": "Cancel state funding for high-speed rail."
+          }
+        ]
+      }
+    ]
+  }
+}
