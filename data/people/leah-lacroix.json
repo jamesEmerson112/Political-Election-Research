@@ -96,6 +96,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Administrative Analyst",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Administrative Analyst.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 33 (PDF p. 35)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "LEAH LACROIX 莉亞‧拉華克 Administrative Analyst",
+          "locator": "Community College Board Full table (English ballot designation)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
