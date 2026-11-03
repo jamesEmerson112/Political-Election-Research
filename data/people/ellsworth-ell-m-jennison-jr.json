@@ -23,6 +23,26 @@
           "locator": "Candidates list"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "I MOVED TO SAN FRANCISCO IN 1977. I MADE THIS MY HOME BECAUSE OF THE BEAUTY OF THE CITY AND THE PEOPLE.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 49 (PDF p. 51)"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "I HAVE LIVED ON A HOUSEBOAT ON INDIA BASIN IN THE HUNTERS POINT NEIGHBORHOOD SINCE 1980.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 49 (PDF p. 51)"
+        },
+        {
+          "source": "src:kqed-org-44d1250e32",
+          "quote": "Between Potrero Hill and the Bayview, he’s lived in the district for 48 years",
+          "locator": "Positions on Key Issues, Jennison"
+        }
+      ]
     }
   },
   "ids": [],
