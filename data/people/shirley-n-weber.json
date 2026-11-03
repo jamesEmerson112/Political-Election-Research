@@ -26,6 +26,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "California Secretary of State",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Shirley N. Weber* Democratic\nCalifornia Secretary of State",
+          "locator": "page 2, ballot designation"
+        },
+        {
+          "source": "src:sos-ca-gov-161c0c969c",
+          "quote": "Voters elected her for a full term on November 8, 2022.",
+          "locator": "Biography"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-03",
       "items": [
