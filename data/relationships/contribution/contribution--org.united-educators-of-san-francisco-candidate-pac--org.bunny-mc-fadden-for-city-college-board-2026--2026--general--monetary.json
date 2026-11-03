@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.united-educators-of-san-francisco-candidate-pac--org.bunny-mc-fadden-for-city-college-board-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:united-educators-of-san-francisco-candidate-pac",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 50000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-28",
+      "start": "2026-01-01"
+    }
+  },
+  "recipient": "org:bunny-mc-fadden-for-city-college-board-2026",
+  "citations": [
+    {
+      "source": "src:data-sfgov-org-e3714bfb00",
+      "locator": "Schedule A, transaction MQj4xIIecL57 (2026-09-24, $500.00)"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

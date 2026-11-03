@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.bunny-mcfadden--org.bunny-mc-fadden-for-city-college-board-2026--2026--general--loan",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:bunny-mcfadden",
+  "election_designation": "general",
+  "form": "loan",
+  "money": {
+    "amount_cents": 54520,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-28",
+      "start": "2026-01-01"
+    }
+  },
+  "recipient": "org:bunny-mc-fadden-for-city-college-board-2026",
+  "citations": [
+    {
+      "source": "src:data-sfgov-org-648e3460ca",
+      "locator": "Schedule B Part 1, transaction pEKYfUyelk9X (date not given, $500.00)"
+    },
+    {
+      "source": "src:data-sfgov-org-648e3460ca",
+      "locator": "Schedule B Part 1, transaction AREADx5WOxAm (date not given, $45.20)"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
