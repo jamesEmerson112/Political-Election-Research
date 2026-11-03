@@ -3,6 +3,26 @@
   "actor": "person:jeremy-julian-greco",
   "positions": [
     {
+      "subject": "q:government/expand-mayoral-authority",
+      "stance": "oppose",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Says he will vote no on the Mayor's charter amendments because they concentrate too much power in the Mayor's Office, and that he does not believe any mayor should get more authority to hire and fire department heads and commissioners.",
+      "citations": [
+        {
+          "source": "src:assets-nationbuilder-com-42d7d038ef",
+          "quote": "I will be voting no on the Mayor's Clean Up City Hall charter amendments because I believe they concentrate too much power in the Mayor's Office and make it harder for everyday San Franciscans to have a voice in their government.",
+          "locator": "p. 12, answer to \"How will you vote on the Mayor's Clean Up City Hall ballot measures on the November ballot?\""
+        },
+        {
+          "source": "src:assets-nationbuilder-com-42d7d038ef",
+          "quote": "I support making City Hall work better, but I don't believe the answer is giving any mayor more authority to hire and fire department heads and commissioners with less independent oversight.",
+          "locator": "p. 12, answer to \"How will you vote on the Mayor's Clean Up City Hall ballot measures on the November ballot?\""
+        }
+      ]
+    },
+    {
       "subject": "q:housing/citywide-rezoning",
       "stance": "mixed",
       "as_of": "2026-11-03",
