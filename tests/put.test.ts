@@ -64,6 +64,36 @@ describe("put", () => {
     expect(rec.aliases).toEqual(["P. Donor"]);
   });
 
+  it("keeps a person's ids and aliases when a merge patch leaves them out", () => {
+    const files = validFiles();
+    const withIds = apply(files, put(files, "person", { id: "pat-donor", aliases: ["P. Donor"], ids: [{ system: "wikidata", id: "Q1" }] }, opts("merge")));
+    const res = put(withIds, "person", { id: "pat-donor", links: { official_site: "https://example.org/pat" } }, opts("merge"));
+    const rec = JSON.parse(res.content!);
+    expect(rec.aliases).toEqual(["P. Donor"]);
+    expect(rec.ids).toEqual([{ system: "wikidata", id: "Q1" }]);
+    expect(rec.links.official_site).toBe("https://example.org/pat");
+  });
+
+  it("merges a question's facets by id, so two researchers' facets add up", () => {
+    const files = validFiles();
+    const issue = JSON.parse(files.get("issues/widgets.json")!);
+    const q = issue.questions[0];
+    const before = (q.facets ?? []).map((f: { id: string }) => f.id);
+    const a = apply(files, put(files, "issue", { id: "widgets", questions: [{ id: q.id, facets: [{ id: "facet-a", label: "Facet A" }] }] }, opts("merge")));
+    const b = put(a, "issue", { id: "widgets", questions: [{ id: q.id, facets: [{ id: "facet-b", label: "Facet B" }] }] }, opts("merge"));
+    const ids = JSON.parse(b.content!).questions[0].facets.map((f: { id: string }) => f.id);
+    expect(ids).toEqual([...before, "facet-a", "facet-b"]);
+  });
+
+  it("accepts a nonpartisan ballot entry with no party", () => {
+    const files = validFiles();
+    const contest = JSON.parse(files.get("contests/2030-zz-general/governor.json")!);
+    const { party: _p, ...entry } = contest.candidates[0];
+    const res = put(files, "contest", { ...contest, candidates: [entry, ...contest.candidates.slice(1)] }, opts("replace"));
+    expect(res.action).toBe("updated");
+    expect(validateFiles(apply(files, res), { dataDir: VALID_DIR, today: FIXTURE_TODAY }).errors).toBe(0);
+  });
+
   it("merges contest candidates by person instead of replacing the list", () => {
     const files = validFiles();
     const res = put(

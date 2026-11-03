@@ -55,7 +55,7 @@ Sources: only the measure's official digest and fiscal statement in the voter pa
 
 Add the candidate to the contest's `candidates` with `npm run -s put -- contest --merge` (the merge goes by `person`).
 
-- `party` and `ballot_designation`: **exactly as printed** on the certified list, including capitalization. An empty designation is recorded as `""`.
+- `party` and `ballot_designation`: **exactly as printed** on the certified list, including capitalization. An empty designation is recorded as `""`. For a nonpartisan office whose list prints no party (San Francisco's local races, for example), leave `party` out; never write a party the list doesn't print.
 - `incumbent`: true only if the certified list or an official roster shows they currently hold this office. Cite that source as well.
 - The entry's single `citations` list must support every field in the entry.
 

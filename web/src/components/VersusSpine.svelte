@@ -153,7 +153,7 @@
         <span class="who-txt">
           <span class="who-name">{names[i]}</span>
           <span class="who-sub">
-            {#if entry}{entry["party"]}{entry["ballot_designation"] ? ` · ${entry["ballot_designation"]}` : ""}{:else}Ballot not verified{/if}
+            {#if entry}{[entry["party"], entry["ballot_designation"]].filter(Boolean).join(" · ")}{:else}Ballot not verified{/if}
           </span>
         </span>
       </div>

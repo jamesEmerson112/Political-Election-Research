@@ -320,7 +320,6 @@
       "additionalProperties": false,
       "required": [
         "person",
-        "party",
         "ballot_designation",
         "incumbent",
         "citations"
@@ -330,7 +329,7 @@
           "$ref": "defs.schema.json#/$defs/PersonRef"
         },
         "party": {
-          "description": "Party preference exactly as printed on the certified list.",
+          "description": "Party preference exactly as printed on the certified list. Left out for a nonpartisan office whose list prints no party.",
           "type": "string",
           "minLength": 1
         },

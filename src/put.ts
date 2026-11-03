@@ -48,9 +48,10 @@ export interface PutResult {
 /**
  * Arrays of objects merged by a natural key instead of being replaced.
  * `items` (dossier sections) merge by id only when every incoming item has one;
- * id-less lists (offices, education, career) are replaced as a whole.
+ * id-less lists (offices, education, career) are replaced as a whole. `facets` (a question's
+ * answer elements) merge by id, so stance facets added by different researchers add up.
  */
-const MERGE_KEYS: Record<string, string> = { candidates: "person", questions: "id", exhausted: "task", items: "id", connections: "type" };
+const MERGE_KEYS: Record<string, string> = { candidates: "person", questions: "id", exhausted: "task", items: "id", connections: "type", facets: "id" };
 
 function isObj(v: unknown): v is Rec {
   return !!v && typeof v === "object" && !Array.isArray(v);
@@ -108,7 +109,9 @@ function refOf(kind: PutKind, rec: Rec): string | undefined {
   }
 }
 
-function prepare(kind: PutKind, input: Rec, today: string): Rec {
+/** `defaults` is false for a merge into an existing file: an absent aliases/ids/links then
+ * keeps what the file has instead of being reset to empty. */
+function prepare(kind: PutKind, input: Rec, today: string, defaults = true): Rec {
   const rec: Rec = { ...input };
   delete rec["$schema"];
   switch (kind) {
@@ -123,9 +126,11 @@ function prepare(kind: PutKind, input: Rec, today: string): Rec {
     case "person":
     case "organization":
       rec["id"] ??= slugify(String(rec["name"] ?? ""));
-      rec["aliases"] ??= [];
-      rec["ids"] ??= [];
-      rec["links"] ??= {};
+      if (defaults) {
+        rec["aliases"] ??= [];
+        rec["ids"] ??= [];
+        rec["links"] ??= {};
+      }
       rec["last_verified"] = today;
       break;
     case "relationship":
@@ -176,7 +181,7 @@ export function put(files: FileMap, kind: PutKind, input: Rec, opts: PutOptions)
   const existing = JSON.parse(existingText) as Rec;
   if (opts.mode === "replace") return finish(kind, rec, existingText, rel, opts, "updated");
   if (opts.mode === "merge") {
-    const merged = deepMerge(existing, rec) as Rec;
+    const merged = deepMerge(existing, prepare(kind, input, opts.today, false)) as Rec;
     if (kind === "relationship") merged["id"] = relationshipId(merged);
     return finish(kind, merged, existingText, rel, opts, "updated");
   }
