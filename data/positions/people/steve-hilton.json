@@ -3,6 +3,26 @@
   "actor": "person:steve-hilton",
   "positions": [
     {
+      "subject": "q:energy/loosen-oil-production-limits",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Hilton's $3 gas plan proposes suspending the Low Carbon Fuel Standard, reformulation requirements and other refinery regulations, taking steps to increase California oil production, and suspending enforcement of SBX1-2 and ABX2-1.",
+      "citations": [
+        {
+          "source": "src:stevehiltonforgovernor-com-0e096d80cd",
+          "quote": "Suspend the Low Carbon Fuel Standard (LCFS), reformulation requirements, and other extreme and unnecessary refinery regulations: These compliance costs add roughly 40 cents per gallon.",
+          "locator": "Steve Hilton's Plan: $3 Gas"
+        },
+        {
+          "source": "src:stevehiltonforgovernor-com-0e096d80cd",
+          "quote": "Additional deregulation measures, including immediate steps to increase California oil production and the suspension of enforcement of SBX1-2 and ABX2-1, could reduce prices even further, by up to 25¢ per gallon.",
+          "locator": "Steve Hilton's Plan: $3 Gas"
+        }
+      ]
+    },
+    {
       "subject": "q:homelessness/encampment-enforcement-funding",
       "stance": "no_public_position",
       "as_of": "2026-11-03",
