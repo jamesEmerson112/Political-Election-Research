@@ -4,6 +4,7 @@ import { afterEach, describe, expect, it } from "vitest";
 import { DEFAULT_DATA_DIR, REPO_ROOT } from "../src/paths.js";
 import {
   ballotStatus,
+  districtLabel,
   choiceSummary,
   forgetChoice,
   isEmptyChoice,
@@ -29,7 +30,7 @@ describe("placeContest on the real 2026 agendas", () => {
   const all = agendas(path.join(DEFAULT_DATA_DIR, "agenda", "2026-ca-general"));
   const placed = all.map((a) => ({ a, p: placeContest(a.contest, a.office_ref, a.kind) }));
 
-  it("places every contest: 8 statewide, 4 BOE, 52 House", () => {
+  it("places every contest: 8 statewide, 4 BOE, 52 House, SF supervisor districts", () => {
     expect(placed.filter(({ p }) => p.scope === "unmatched")).toEqual([]);
     expect(placed.filter(({ p }) => p.scope === "statewide")).toHaveLength(8);
     const nums = (kind: string) =>
@@ -40,6 +41,7 @@ describe("placeContest on the real 2026 agendas", () => {
         .sort((x, y) => x - y);
     expect(nums("boe")).toEqual([1, 2, 3, 4]);
     expect(nums("cd")).toEqual(Array.from({ length: 52 }, (_, i) => i + 1));
+    expect(nums("sfsup")).toEqual([2, 4, 6, 8, 10]);
   });
 
   it("uses the number in the contest id", () => {
@@ -70,12 +72,25 @@ describe("placeContest elsewhere", () => {
     expect(placeContest("contest:2026-ca-general/san-francisco-measure-a", undefined, "measure").scope).toBe("unmatched");
   });
 
+  it("places San Francisco local contests by county (FIPS 75) and supervisor district", () => {
+    expect(placeContest("contest:2026-ca-general/sf-prop-a", undefined, "measure")).toEqual({ scope: "district", kind: "county", n: 75 });
+    expect(placeContest("contest:2026-ca-general/sf-board-of-education", "office:sfusd-board-of-education-member")).toEqual({ scope: "district", kind: "county", n: 75 });
+    expect(placeContest("contest:2026-ca-general/sf-community-college-board")).toEqual({ scope: "district", kind: "county", n: 75 });
+    expect(placeContest("contest:2026-ca-general/sf-supervisor-district-6", "office:san-francisco-supervisor")).toEqual({ scope: "district", kind: "sfsup", n: 6 });
+    const sfVoter = { cd: [11], county: [75], sfsup: [6] };
+    expect(ballotStatus({ scope: "district", kind: "county", n: 75 }, sfVoter)).toBe("on");
+    expect(ballotStatus({ scope: "district", kind: "sfsup", n: 8 }, sfVoter)).toBe("off");
+    expect(ballotStatus({ scope: "district", kind: "county", n: 75 }, { cd: [11] })).toBe("pick");
+    expect(districtLabel("county", 75)).toBe("San Francisco");
+    expect(districtLabel("sfsup", 6)).toBe("SF D6");
+  });
+
   it("refuses what it can't place with confidence", () => {
     const reason = (ref: string, office?: string) => {
       const p = placeContest(ref, office);
       return p.scope === "unmatched" ? p.reason : p.scope;
     };
-    expect(reason("contest:2026-ca-general/san-francisco-supervisor-5", "office:san-francisco-supervisor")).toBe("Office not placed on the ballot yet");
+    expect(reason("contest:2026-ca-general/san-francisco-supervisor-5", "office:san-francisco-supervisor")).toBe("No district number in the contest id");
     expect(reason("contest:2026-ca-general/us-house-ca-53")).toBe("District number out of range");
     expect(reason("contest:2026-ca-general/us-house-nv-3")).toBe("Office not placed on the ballot yet");
     expect(reason("contest:2026-ca-general/us-house-ca-11", "office:california-state-senator")).toBe("Contest id and office disagree");

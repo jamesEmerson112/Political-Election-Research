@@ -4,32 +4,43 @@
  * - Everyone votes on the statewide offices and statewide propositions.
  * - District contests depend on the districts of the voter's registered home
  *   address: U.S. House (cd), Board of Equalization (boe), State Senate (sd),
- *   State Assembly (ad). The kinds are generic so more district types (and
- *   local contests) can be added here later.
+ *   State Assembly (ad).
+ * - Local contests: county-wide ones (local measures, school and college
+ *   boards) use the county's FIPS code as the district number (kind "county";
+ *   San Francisco = 75), and San Francisco supervisor races use kind "sfsup"
+ *   (districts 1-11). Both are picked by hand until boundary data exists.
  *
  * Pure functions plus a try/catch-wrapped localStorage helper. Only district
  * numbers are ever stored, never an address, ZIP code or coordinates.
  */
 
-export type DistrictKind = "cd" | "boe" | "sd" | "ad";
-export const DISTRICT_KINDS: DistrictKind[] = ["cd", "boe", "sd", "ad"];
+export type DistrictKind = "cd" | "boe" | "sd" | "ad" | "county" | "sfsup";
+export const DISTRICT_KINDS: DistrictKind[] = ["cd", "boe", "sd", "ad", "county", "sfsup"];
+
+/** County FIPS codes (state 06) of the counties whose local contests this site covers. */
+export const COUNTY_FIPS: Record<string, number> = { "san-francisco": 75 };
+export const COUNTY_NAME: Record<number, string> = { 75: "San Francisco" };
 
 /** The state whose ballot this logic describes. */
 export const BALLOT_STATE = "ca";
 
 /** Number of districts per kind (California). */
-export const DISTRICT_COUNT: Record<DistrictKind, number> = { cd: 52, boe: 4, sd: 40, ad: 80 };
+export const DISTRICT_COUNT: Record<DistrictKind, number> = { cd: 52, boe: 4, sd: 40, ad: 80, county: 115, sfsup: 11 };
 
 export const DISTRICT_NAME: Record<DistrictKind, string> = {
   cd: "U.S. House",
   boe: "Board of Equalization",
   sd: "State Senate",
   ad: "State Assembly",
+  county: "County",
+  sfsup: "SF Supervisor district",
 };
 
 /** Short label for one district: CA-11, BOE 2, SD 11, AD 17. */
 export function districtLabel(kind: DistrictKind, n: number): string {
   if (kind === "cd") return `CA-${n}`;
+  if (kind === "county") return COUNTY_NAME[n] ?? `County ${n}`;
+  if (kind === "sfsup") return `SF D${n}`;
   return `${kind.toUpperCase()} ${n}`;
 }
 
@@ -44,7 +55,20 @@ const DISTRICT_OFFICES: Record<string, DistrictKind> = {
   "california-board-of-equalization-member": "boe",
   "california-state-senator": "sd",
   "california-assembly-member": "ad",
+  "san-francisco-supervisor": "sfsup",
 };
+
+/** County-wide local offices -> county FIPS code. */
+const COUNTYWIDE_OFFICES: Record<string, number> = {
+  "sfusd-board-of-education-member": 75,
+  "sfccd-board-of-trustees-member": 75,
+};
+const COUNTYWIDE_SLUGS: Record<string, number> = {
+  "sf-board-of-education": 75,
+  "sf-community-college-board": 75,
+};
+/** Local measure slugs: <county prefix>-prop-<letter or number>. */
+const LOCAL_MEASURE_PREFIX: Record<string, number> = { sf: 75 };
 
 /** Offices every California voter elects. */
 const STATEWIDE_OFFICES = new Set([
@@ -78,6 +102,7 @@ function districtFromSlug(slug: string, state: string): { kind: DistrictKind; n:
     [/^board-of-equalization-(\d+)$/, "boe"],
     [/^(?:state-senate|senate)-(\d+)$/, "sd"],
     [/^(?:state-assembly|assembly)-(\d+)$/, "ad"],
+    [/^sf-supervisor-district-(\d+)$/, "sfsup"],
   ];
   for (const [re, kind] of rules) {
     const m = re.exec(slug);
@@ -97,12 +122,17 @@ export function placeContest(contestRef: string, officeRef?: string | null, kind
   const state = election.split("-")[1] ?? "";
   if (state !== BALLOT_STATE) return { scope: "unmatched", reason: "Not a California contest" };
 
-  if (kind === "measure" || /^prop-\d+$/.test(slug)) {
-    return /^prop-\d+$/.test(slug) ? { scope: "statewide" } : { scope: "unmatched", reason: "Local measures aren't placed yet" };
+  if (kind === "measure" || /^prop-\d+$/.test(slug) || /-prop-[a-z0-9]+$/.test(slug)) {
+    if (/^prop-\d+$/.test(slug)) return { scope: "statewide" };
+    const local = /^([a-z]+)-prop-[a-z0-9]+$/.exec(slug);
+    const county = local ? LOCAL_MEASURE_PREFIX[local[1]!] : undefined;
+    return county ? { scope: "district", kind: "county", n: county } : { scope: "unmatched", reason: "Local measures aren't placed yet" };
   }
 
   const fromSlug = districtFromSlug(slug, state);
   const office = officeRef?.startsWith("office:") ? officeRef.slice("office:".length) : (officeRef ?? undefined);
+  const countywide = (office ? COUNTYWIDE_OFFICES[office] : undefined) ?? COUNTYWIDE_SLUGS[slug];
+  if (countywide) return { scope: "district", kind: "county", n: countywide };
   const officeKind: DistrictKind | "statewide" | undefined = office
     ? (DISTRICT_OFFICES[office] ?? (STATEWIDE_OFFICES.has(office) ? "statewide" : undefined))
     : undefined;
