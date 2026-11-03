@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "alex-behrend",
+  "name": "Alex Behrend",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://alexforalld6.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
