@@ -1,0 +1,108 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/exampleville-prop-d",
+  "kind": "measure",
+  "election": "election:2030-zz-general",
+  "name": "Exampleville Proposition D",
+  "digest": {
+    "no_means": {
+      "value": "You do not want this to be City policy.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"NO\" Vote Means: You do not want this to be City policy."
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "You want this to be City policy.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"YES\" Vote Means: You want this to be City policy."
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2030-08-20",
+    "effects": [
+      {
+        "id": "no-cost",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Would not affect the cost of government.",
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "Would not affect the cost of government."
+          }
+        ]
+      }
+    ],
+    "statement_by": "Exampleville Controller",
+    "summary": {
+      "summary": "Proposition D would not affect the cost of government.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Proposition D would not affect the cost of government."
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City of Exampleville",
+    "level": "city"
+  },
+  "measure_type": {
+    "value": "declaration_of_policy",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition D: Policy on Street Names"
+      }
+    ]
+  },
+  "number": "D",
+  "official_title": {
+    "value": "Policy on Street Names",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition D: Policy on Street Names"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "executive",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "The Mayor placed Proposition D on the ballot."
+      }
+    ]
+  },
+  "summary": {
+    "value": "States a city policy on naming streets.",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Shall it be City policy to name new streets after local historians?"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition D requires a majority of the votes cast to pass."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

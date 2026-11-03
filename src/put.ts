@@ -24,6 +24,7 @@ export const PUT_KINDS = [
   "bill",
   "dossier",
   "office",
+  "budget",
   "config",
 ] as const;
 export type PutKind = (typeof PUT_KINDS)[number];
@@ -134,6 +135,7 @@ function prepare(kind: PutKind, input: Rec, today: string): Rec {
     case "contest":
     case "election":
     case "bill":
+    case "budget":
       rec["last_verified"] = today;
       break;
   }

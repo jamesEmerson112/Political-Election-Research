@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/budget.schema.json",
+  "title": "Budget",
+  "description": "A government's adopted budget and its official multi-year forecast, as published (e.g. the SF Budget and Appropriation Ordinance and the Controller/Mayor/Budget and Legislative Analyst forecast). Used as the baseline for ballot-measure fiscal effects. Path: data/budgets/<id>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "jurisdiction",
+    "adopted",
+    "last_verified"
+  ],
+  "properties": {
+    "$schema": {
+      "$ref": "defs.schema.json#/$defs/SchemaPointer"
+    },
+    "id": {
+      "$ref": "defs.schema.json#/$defs/Slug"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "jurisdiction": {
+      "type": "string",
+      "minLength": 1
+    },
+    "adopted": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "fy",
+          "basis",
+          "citations"
+        ],
+        "properties": {
+          "fy": {
+            "$ref": "defs.schema.json#/$defs/FiscalYear"
+          },
+          "total_usd": {
+            "description": "All funds.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "general_fund_usd": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "basis": {
+            "description": "What the figure covers and which document adopted it.",
+            "type": "string",
+            "minLength": 1
+          },
+          "citations": {
+            "$ref": "defs.schema.json#/$defs/Citations"
+          }
+        }
+      }
+    },
+    "forecast": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "publisher",
+        "published",
+        "years"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "published": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "years": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fy",
+              "direction",
+              "amount_usd",
+              "citations"
+            ],
+            "properties": {
+              "fy": {
+                "$ref": "defs.schema.json#/$defs/FiscalYear"
+              },
+              "direction": {
+                "description": "The forecast's own term: a projected shortfall (gap to close), surplus, or balance.",
+                "enum": [
+                  "shortfall",
+                  "surplus",
+                  "balanced"
+                ]
+              },
+              "amount_usd": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "basis": {
+                "type": "string",
+                "minLength": 1
+              },
+              "citations": {
+                "$ref": "defs.schema.json#/$defs/Citations"
+              }
+            }
+          }
+        }
+      }
+    },
+    "last_verified": {
+      "$ref": "defs.schema.json#/$defs/Date"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

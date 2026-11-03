@@ -1,0 +1,132 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/exampleville-prop-b",
+  "kind": "measure",
+  "election": "election:2030-zz-general",
+  "name": "Exampleville Proposition B",
+  "digest": {
+    "no_means": {
+      "value": "You do not want to change the business tax rate.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"NO\" Vote Means: You do not want to change the business tax rate."
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "You want to raise the business tax rate for the largest businesses.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"YES\" Vote Means: You want to raise the business tax rate for the largest businesses."
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2030-08-20",
+    "effects": [
+      {
+        "id": "setup-cost",
+        "amount": {
+          "high_usd": 1200000,
+          "low_usd": 1200000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "start_fy": "2031-32",
+        "text": "One-time cost of $1.2 million to set up the tax.",
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "One-time cost of $1.2 million to set up the tax."
+          }
+        ]
+      },
+      {
+        "id": "tax-revenue",
+        "amount": {
+          "high_usd": 55000000,
+          "low_usd": 40000000
+        },
+        "direction": "revenue",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "start_fy": "2031-32",
+        "text": "Raises $40 to $55 million a year for the General Fund.",
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "Raises $40 to $55 million a year for the General Fund."
+          }
+        ]
+      }
+    ],
+    "statement_by": "Exampleville Controller",
+    "summary": {
+      "summary": "The tax would raise $40 to $55 million a year for the General Fund, with a one-time cost of $1.2 million to set it up.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The tax would raise $40 to $55 million a year for the General Fund, with a one-time cost of $1.2 million to set it up."
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City of Exampleville",
+    "level": "city"
+  },
+  "measure_type": {
+    "value": "tax",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition B: Business Tax Increase"
+      }
+    ]
+  },
+  "number": "B",
+  "official_title": {
+    "value": "Business Tax Increase",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition B: Business Tax Increase"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition B was placed on the ballot by petition signatures."
+      }
+    ]
+  },
+  "summary": {
+    "value": "Raises the business tax rate for the largest businesses.",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Shall the City raise the business tax rate for businesses with more than $50 million in receipts?"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition B requires a majority of the votes cast to pass."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

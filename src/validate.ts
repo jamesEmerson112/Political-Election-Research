@@ -39,6 +39,8 @@ export const RULES = {
   CITATION_AFTER_ASOF: "A position cites a source published after the position's as_of date.",
   POSITION_DUPLICATE: "Two positions share the same subject and as_of date.",
   POINT_FACET: "A stance point names a facet the question does not define (add it to the question's facets).",
+  FISCAL_RANGE: "A fiscal estimate's low end is above its high end.",
+  FISCAL_SOURCE: "A measure's fiscal effect cites no official source (government or legislative record, or the official voter guide).",
   PRIVACY_THRESHOLD: "A private individual is listed as a donor below the privacy threshold.",
   FILING_SUPERSEDED: "A money record only cites filings that were superseded by amendments.",
   CONTROVERSY_SOURCING: "A controversy is not backed by two independent publishers or an official record.",
@@ -50,6 +52,7 @@ export type RuleCode = keyof typeof RULES;
 
 /** Rules reported as warnings unless --strict. */
 const WARNING_RULES = new Set<RuleCode>([
+  "FISCAL_SOURCE",
   "QUOTE_PENDING",
   "UNVERIFIED_CITATION",
   "FILING_SUPERSEDED",
@@ -251,6 +254,7 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
     if (kind === "dossier") checkDossier(ds, f.rel, rec, add);
     if (kind === "relationship") checkRelationship(ds, f.rel, rec, add, threshold, ballotPeople);
     if (kind === "contest") {
+      checkFiscal(ds, f.rel, rec, add);
       ((rec["candidates"] as Rec[] | undefined) ?? []).forEach((cand, i) => {
         const p = resolve(ds, String(cand["person"]));
         if (p && !p["candidate_profile"]) {
@@ -266,6 +270,26 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
   for (const [id] of ds.sources) {
     if (!cited.has(`src:${id}`)) add(`sources/${id}.json`, "/", "ORPHAN_SOURCE", "No record cites this source.");
   }
+}
+
+/** Ballot-measure fiscal effects: ranges in order, and backed by an official statement. */
+function checkFiscal(ds: Dataset, rel: string, rec: Rec, add: Add): void {
+  const fiscal = rec["fiscal"] as Rec | undefined;
+  if (!fiscal) return;
+  const official = (list: unknown, ptr: string) => {
+    const kinds = ((list as Rec[] | undefined) ?? []).map((c) => resolve(ds, String(c["source"]))?.["kind"] as string | undefined);
+    if (!kinds.some((k) => k !== undefined && (OFFICIAL_SOURCE_KINDS.has(k) || k === "voter_guide"))) {
+      add(rel, ptr, "FISCAL_SOURCE", "Cite the official fiscal statement (e.g. the Controller's statement in the official voter guide).");
+    }
+  };
+  ((fiscal["effects"] as Rec[] | undefined) ?? []).forEach((e, i) => {
+    const a = e["amount"] as Rec | undefined;
+    if (a && Number(a["low_usd"]) > Number(a["high_usd"])) {
+      add(rel, `/fiscal/effects/${i}/amount`, "FISCAL_RANGE", `low_usd ${String(a["low_usd"])} is above high_usd ${String(a["high_usd"])}.`);
+    }
+    official(e["citations"], `/fiscal/effects/${i}/citations`);
+  });
+  if (fiscal["bond"]) official((fiscal["bond"] as Rec)["citations"], "/fiscal/bond/citations");
 }
 
 function checkPositions(ds: Dataset, rel: string, rec: Rec, add: Add): void {

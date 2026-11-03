@@ -1,0 +1,108 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/exampleville-prop-f",
+  "kind": "measure",
+  "election": "election:2030-zz-general",
+  "name": "Exampleville Proposition F",
+  "digest": {
+    "no_means": {
+      "value": "You want to keep them separate.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"NO\" Vote Means: You want to keep them separate."
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "You want to merge the planning and building commissions.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"YES\" Vote Means: You want to merge the planning and building commissions."
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2030-08-20",
+    "effects": [
+      {
+        "id": "merger",
+        "direction": "cost",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Cost depends on decisions the City makes when it merges the commissions.",
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "Cost depends on decisions the City makes when it merges the commissions."
+          }
+        ]
+      }
+    ],
+    "statement_by": "Exampleville Controller",
+    "summary": {
+      "summary": "The cost would depend on decisions the City makes when it merges the commissions.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The cost would depend on decisions the City makes when it merges the commissions."
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City of Exampleville",
+    "level": "city"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition F: Commission Restructuring"
+      }
+    ]
+  },
+  "number": "F",
+  "official_title": {
+    "value": "Commission Restructuring",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition F: Commission Restructuring"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "The City Council voted 4 to 3 to place Proposition F on the ballot."
+      }
+    ]
+  },
+  "summary": {
+    "value": "Merges several city commissions.",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Shall the City merge its planning and building commissions?"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition F requires a majority of the votes cast to pass."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

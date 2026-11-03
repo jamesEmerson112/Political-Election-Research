@@ -37,6 +37,7 @@ export interface Dataset {
   people: Map<string, Rec>;
   orgs: Map<string, Rec>;
   bills: Map<string, Rec>;
+  budgets: Map<string, Rec>;
   offices: Map<string, Rec>;
   /** person ref -> dossier */
   dossiers: Map<string, Rec>;
@@ -106,6 +107,7 @@ export function buildDataset(dataDir: string, files: LoadedFile[]): Dataset {
     people: new Map(),
     orgs: new Map(),
     bills: new Map(),
+    budgets: new Map(),
     offices: new Map(),
     dossiers: new Map(),
     positions: new Map(),
@@ -164,6 +166,9 @@ export function buildDataset(dataDir: string, files: LoadedFile[]): Dataset {
         break;
       case "bill":
         ds.bills.set(id, rec);
+        break;
+      case "budget":
+        ds.budgets.set(id, rec);
         break;
       case "office":
         ds.offices.set(id, rec);

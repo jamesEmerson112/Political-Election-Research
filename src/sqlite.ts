@@ -18,7 +18,17 @@ CREATE TABLE sources (id TEXT PRIMARY KEY, ref TEXT, kind TEXT, title TEXT, publ
   published TEXT, accessed TEXT, filing_system TEXT, filer_id TEXT, filing_id TEXT, form TEXT, superseded INTEGER);
 CREATE TABLE elections (id TEXT PRIMARY KEY, ref TEXT, name TEXT, date TEXT, type TEXT, jurisdiction TEXT, cycle INTEGER, last_verified TEXT);
 CREATE TABLE contests (id TEXT PRIMARY KEY, ref TEXT, kind TEXT, election TEXT, name TEXT, office TEXT, level TEXT, district INTEGER,
-  number TEXT, official_title TEXT, origin TEXT, summary TEXT, last_verified TEXT);
+  number TEXT, official_title TEXT, origin TEXT, summary TEXT, jurisdiction_level TEXT, jurisdiction_name TEXT, measure_type TEXT,
+  vote_threshold TEXT, placed_by TEXT, fiscal_statement_by TEXT, fiscal_as_of TEXT, last_verified TEXT);
+CREATE TABLE measure_fiscal_effects (contest TEXT, id TEXT, lane TEXT, direction TEXT, low_usd INTEGER, high_usd INTEGER, per TEXT,
+  start_fy TEXT, years INTEGER, estimate TEXT, text TEXT, PRIMARY KEY (contest, id));
+CREATE TABLE measure_bonds (contest TEXT PRIMARY KEY, principal_usd INTEGER, debt_service_total_usd INTEGER, term_years INTEGER,
+  annual_cost_per_100k_assessed_usd REAL);
+CREATE TABLE measure_conflicts (contest TEXT, other TEXT, rule TEXT, PRIMARY KEY (contest, other));
+CREATE TABLE budgets (id TEXT PRIMARY KEY, name TEXT, jurisdiction TEXT, forecast_title TEXT, forecast_publisher TEXT, forecast_published TEXT,
+  last_verified TEXT);
+CREATE TABLE budget_years (budget TEXT, kind TEXT, fy TEXT, total_usd INTEGER, general_fund_usd INTEGER, direction TEXT, amount_usd INTEGER,
+  basis TEXT, PRIMARY KEY (budget, kind, fy));
 CREATE TABLE contest_candidates (contest TEXT, person TEXT, party TEXT, ballot_designation TEXT, incumbent INTEGER, PRIMARY KEY (contest, person));
 CREATE TABLE agendas (contest TEXT PRIMARY KEY, kind TEXT, endorsements_target INTEGER, top_contributors INTEGER, finance_cutoff TEXT,
   seeded_date TEXT, seeded_note TEXT);
@@ -217,8 +227,29 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
       id: s(r["id"]), ref: `contest:${String(r["id"])}`, kind: s(r["kind"]), election: s(r["election"]), name: s(r["name"]),
       office: s(r["office"]), level: s(r["level"]), district: n(r["district"]), number: s(r["number"]),
       official_title: s((r["official_title"] as Rec | undefined)?.["value"]), origin: s(r["origin"]),
-      summary: s((r["summary"] as Rec | undefined)?.["value"]), last_verified: s(r["last_verified"]),
+      summary: s((r["summary"] as Rec | undefined)?.["value"]),
+      jurisdiction_level: s((r["jurisdiction"] as Rec | undefined)?.["level"]), jurisdiction_name: s((r["jurisdiction"] as Rec | undefined)?.["name"]),
+      measure_type: s((r["measure_type"] as Rec | undefined)?.["value"]), vote_threshold: s((r["vote_threshold"] as Rec | undefined)?.["value"]),
+      placed_by: s((r["placed_by"] as Rec | undefined)?.["value"]), fiscal_statement_by: s((r["fiscal"] as Rec | undefined)?.["statement_by"]),
+      fiscal_as_of: s((r["fiscal"] as Rec | undefined)?.["as_of"]), last_verified: s(r["last_verified"]),
     });
+    const ref = `contest:${String(r["id"])}`;
+    const fiscal = r["fiscal"] as Rec | undefined;
+    for (const e of (fiscal?.["effects"] as Rec[] | undefined) ?? []) {
+      const amt = e["amount"] as Rec | undefined;
+      push("measure_fiscal_effects", {
+        contest: ref, id: s(e["id"]), lane: s(e["lane"]), direction: s(e["direction"]), low_usd: n(amt?.["low_usd"]), high_usd: n(amt?.["high_usd"]),
+        per: s(e["per"]), start_fy: s(e["start_fy"]), years: n(e["years"]), estimate: s(e["estimate"]), text: s(e["text"]),
+      });
+    }
+    const bond = fiscal?.["bond"] as Rec | undefined;
+    if (bond) {
+      push("measure_bonds", {
+        contest: ref, principal_usd: n(bond["principal_usd"]), debt_service_total_usd: n(bond["debt_service_total_usd"]),
+        term_years: n(bond["term_years"]), annual_cost_per_100k_assessed_usd: n(bond["annual_cost_per_100k_assessed_usd"]),
+      });
+    }
+    for (const c of (r["conflicts"] as Rec[] | undefined) ?? []) push("measure_conflicts", { contest: ref, other: s(c["contest"]), rule: s(c["rule"]) });
     for (const c of (r["candidates"] as Rec[] | undefined) ?? []) {
       push("contest_candidates", {
         contest: `contest:${String(r["id"])}`, person: s(c["person"]), party: s(c["party"]),
@@ -322,6 +353,26 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
       });
     }
     provenance(r, "office", String(r["id"]), cites, logs);
+  }
+  for (const r of b.budgets) {
+    const fc = r["forecast"] as Rec | undefined;
+    push("budgets", {
+      id: s(r["id"]), name: s(r["name"]), jurisdiction: s(r["jurisdiction"]), forecast_title: s(fc?.["title"]),
+      forecast_publisher: s(fc?.["publisher"]), forecast_published: s(fc?.["published"]), last_verified: s(r["last_verified"]),
+    });
+    for (const y of (r["adopted"] as Rec[] | undefined) ?? []) {
+      push("budget_years", {
+        budget: s(r["id"]), kind: "adopted", fy: s(y["fy"]), total_usd: n(y["total_usd"]), general_fund_usd: n(y["general_fund_usd"]),
+        direction: null, amount_usd: null, basis: s(y["basis"]),
+      });
+    }
+    for (const y of (fc?.["years"] as Rec[] | undefined) ?? []) {
+      push("budget_years", {
+        budget: s(r["id"]), kind: "forecast", fy: s(y["fy"]), total_usd: null, general_fund_usd: null, direction: s(y["direction"]),
+        amount_usd: n(y["amount_usd"]), basis: s(y["basis"]),
+      });
+    }
+    provenance(r, "budget", String(r["id"]), cites, logs);
   }
   for (const r of b.bills) {
     const st = r["status"] as Rec;

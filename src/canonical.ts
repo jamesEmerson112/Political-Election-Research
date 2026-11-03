@@ -69,6 +69,16 @@ export function canonicalize(kind: FileKind, rec: Record<string, unknown>, schem
       Array.isArray(p["points"]) ? { ...p, points: [...(p["points"] as Record<string, unknown>[])].sort((a, b) => cmp(String(a["facet"]), String(b["facet"]))) } : p,
     );
   }
+  if (kind === "contest" && copy["fiscal"] && Array.isArray((copy["fiscal"] as Record<string, unknown>)["effects"])) {
+    const fiscal = copy["fiscal"] as Record<string, unknown>;
+    copy["fiscal"] = { ...fiscal, effects: [...(fiscal["effects"] as Record<string, unknown>[])].sort((a, b) => cmp(String(a["id"]), String(b["id"]))) };
+  }
+  if (kind === "budget") {
+    const byFy = (a: Record<string, unknown>, b: Record<string, unknown>) => cmp(String(a["fy"]), String(b["fy"]));
+    if (Array.isArray(copy["adopted"])) copy["adopted"] = [...(copy["adopted"] as Record<string, unknown>[])].sort(byFy);
+    const fc = copy["forecast"] as Record<string, unknown> | undefined;
+    if (fc && Array.isArray(fc["years"])) copy["forecast"] = { ...fc, years: [...(fc["years"] as Record<string, unknown>[])].sort(byFy) };
+  }
   if (kind === "office" && Array.isArray(copy["connections"])) {
     const rank = (c: Record<string, unknown>) => CONNECTION_ORDER.indexOf(String(c["type"]));
     copy["connections"] = [...(copy["connections"] as Record<string, unknown>[])].sort((a, b) => rank(a) - rank(b));

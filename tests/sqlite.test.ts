@@ -56,6 +56,23 @@ describe("SQLite export", () => {
     expect(pointers.map((r) => r["pointer"])).toEqual(["/connections/0/citations/0", "/connections/1/citations/0"]);
   });
 
+  it("lists ballot-measure fiscal effects, bonds, conflicts and the budget baseline", () => {
+    const c = all("SELECT measure_type, vote_threshold, placed_by, jurisdiction_name FROM contests WHERE id = '2030-zz-general/exampleville-prop-a'")[0];
+    expect(c).toEqual({ measure_type: "bond", vote_threshold: "two_thirds", placed_by: "governing_body", jurisdiction_name: "City of Exampleville" });
+    expect(all("SELECT id, lane, direction, low_usd, high_usd, per FROM measure_fiscal_effects WHERE contest = 'contest:2030-zz-general/exampleville-prop-b' ORDER BY id")).toEqual([
+      { id: "setup-cost", lane: "general_fund", direction: "cost", low_usd: 1200000, high_usd: 1200000, per: "one_time" },
+      { id: "tax-revenue", lane: "general_fund", direction: "revenue", low_usd: 40000000, high_usd: 55000000, per: "year" },
+    ]);
+    expect(all("SELECT principal_usd, annual_cost_per_100k_assessed_usd FROM measure_bonds")).toEqual([{ principal_usd: 300000000, annual_cost_per_100k_assessed_usd: 9.5 }]);
+    expect(all("SELECT COUNT(*) AS n FROM measure_conflicts")[0]!["n"]).toBe(2);
+    expect(all("SELECT kind, fy, general_fund_usd, direction, amount_usd FROM budget_years WHERE budget = 'exampleville' ORDER BY kind, fy")).toEqual([
+      { kind: "adopted", fy: "2030-31", general_fund_usd: 1100000000, direction: null, amount_usd: null },
+      { kind: "forecast", fy: "2031-32", general_fund_usd: null, direction: "shortfall", amount_usd: 60000000 },
+      { kind: "forecast", fy: "2032-33", general_fund_usd: null, direction: "shortfall", amount_usd: 95000000 },
+      { kind: "forecast", fy: "2033-34", general_fund_usd: null, direction: "shortfall", amount_usd: 130000000 },
+    ]);
+  });
+
   it("splits lobbying targets into rows", () => {
     expect(all("SELECT target_kind, target FROM lobbying_targets ORDER BY target_kind")).toEqual([
       { target_kind: "agency", target: "Example State Assembly" },

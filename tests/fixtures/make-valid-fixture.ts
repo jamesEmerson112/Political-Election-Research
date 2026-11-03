@@ -134,6 +134,30 @@ const srcCharter = p("source", {
   published: "2019-01-01",
   archive_url: W(9) + "https://exampleville.example.gov/charter",
 });
+const srcPamphlet = p("source", {
+  url: "https://elections.exampleville.example.gov/2030-voter-guide.pdf",
+  kind: "voter_guide",
+  title: "Exampleville Voter Information Pamphlet, November 2030",
+  publisher: "Exampleville Department of Elections",
+  published: "2030-09-15",
+  archive_url: W(15) + "https://elections.exampleville.example.gov/2030-voter-guide.pdf",
+});
+const srcBudgetOrd = p("source", {
+  url: "https://council.exampleville.example.gov/files/budget-2030-31",
+  kind: "government_record",
+  title: "Budget and Appropriation Ordinance, FY2030-31",
+  publisher: "City of Exampleville",
+  published: "2030-07-20",
+  archive_url: W(16) + "https://council.exampleville.example.gov/files/budget-2030-31",
+});
+const srcForecast = p("source", {
+  url: "https://controller.exampleville.example.gov/five-year-plan-2030",
+  kind: "government_record",
+  title: "Five-Year Financial Plan Update, March 2030",
+  publisher: "Exampleville Controller",
+  published: "2030-03-14",
+  archive_url: W(17) + "https://controller.exampleville.example.gov/five-year-plan-2030",
+});
 const srcGovOffice = p("source", {
   url: "https://example.gov/constitution/article-5",
   kind: "government_record",
@@ -313,6 +337,140 @@ p("contest", {
   official_title: { value: "Widget Investment Act", citations: cite(srcMeasures, "Proposition 1 — Widget Investment Act") },
   origin: "initiative",
   summary: { value: "Creates a state fund for widget manufacturing grants.", citations: cite(srcMeasures, "Creates a state fund for widget manufacturing grants.") },
+});
+
+// --- local measures and the city budget (Exampleville): the trial-ballot demo ---------
+const city = { level: "city", name: "City of Exampleville" };
+const vip = (q: string) => cite(srcPamphlet, q);
+const local = (letter: string, rec: Rec) =>
+  p("contest", {
+    id: `2030-zz-general/exampleville-prop-${letter.toLowerCase()}`,
+    kind: "measure",
+    election: "election:2030-zz-general",
+    name: `Exampleville Proposition ${letter}`,
+    number: letter,
+    jurisdiction: city,
+    ...rec,
+  });
+const digest = (yes: string, no: string) => ({
+  yes_means: { value: yes, citations: vip(`A "YES" Vote Means: ${yes}`) },
+  no_means: { value: no, citations: vip(`A "NO" Vote Means: ${no}`) },
+});
+const controller = (summary: string, effects: Rec[], extra: Rec = {}) => ({
+  statement_by: "Exampleville Controller",
+  as_of: "2030-08-20",
+  summary: { summary, citations: vip(summary) },
+  effects,
+  ...extra,
+});
+const effect = (e: Rec) => ({ ...e, citations: vip(String(e["text"])) });
+
+local("A", {
+  official_title: { value: "Affordable Housing Bond", citations: vip("Proposition A: Affordable Housing Bond") },
+  origin: "legislative",
+  summary: { value: "Authorizes $300 million in bonds to build affordable housing.", citations: vip("Shall the City issue $300 million in general obligation bonds to build affordable housing?") },
+  measure_type: { value: "bond", citations: vip("Proposition A: Affordable Housing Bond") },
+  vote_threshold: { value: "two_thirds", citations: vip("Proposition A requires two-thirds of the votes cast to pass.") },
+  placed_by: { value: "governing_body", citations: vip("The City Council voted 6 to 1 to place Proposition A on the ballot.") },
+  digest: digest("You want the City to issue $300 million in bonds for affordable housing.", "You do not want the City to issue these bonds."),
+  fiscal: controller(
+    "Should the bonds be issued, debt service would be about $21 million a year for 20 years, paid from property taxes.",
+    [effect({ id: "debt-service", lane: "bond_debt", direction: "cost", amount: { low_usd: 21000000, high_usd: 21000000 }, per: "year", start_fy: "2031-32", years: 20, estimate: "estimated", text: "Debt service of about $21 million a year for 20 years, paid from property taxes." })],
+    { bond: { principal_usd: 300000000, debt_service_total_usd: 420000000, term_years: 20, annual_cost_per_100k_assessed_usd: 9.5, citations: vip("The average annual property tax for a property assessed at $100,000 would be about $9.50.") } },
+  ),
+});
+local("B", {
+  official_title: { value: "Business Tax Increase", citations: vip("Proposition B: Business Tax Increase") },
+  origin: "initiative",
+  summary: { value: "Raises the business tax rate for the largest businesses.", citations: vip("Shall the City raise the business tax rate for businesses with more than $50 million in receipts?") },
+  measure_type: { value: "tax", citations: vip("Proposition B: Business Tax Increase") },
+  vote_threshold: { value: "majority", citations: vip("Proposition B requires a majority of the votes cast to pass.") },
+  placed_by: { value: "petition", citations: vip("Proposition B was placed on the ballot by petition signatures.") },
+  digest: digest("You want to raise the business tax rate for the largest businesses.", "You do not want to change the business tax rate."),
+  fiscal: controller("The tax would raise $40 to $55 million a year for the General Fund, with a one-time cost of $1.2 million to set it up.", [
+    effect({ id: "tax-revenue", lane: "general_fund", direction: "revenue", amount: { low_usd: 40000000, high_usd: 55000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Raises $40 to $55 million a year for the General Fund." }),
+    effect({ id: "setup-cost", lane: "general_fund", direction: "cost", amount: { low_usd: 1200000, high_usd: 1200000 }, per: "one_time", start_fy: "2031-32", estimate: "estimated", text: "One-time cost of $1.2 million to set up the tax." }),
+  ]),
+});
+local("C", {
+  official_title: { value: "Parks Funding Requirement", citations: vip("Proposition C: Parks Funding Requirement") },
+  origin: "legislative",
+  summary: { value: "Requires a minimum yearly amount for parks.", citations: vip("Shall the City be required to spend at least $40 million a year on parks?") },
+  measure_type: { value: "charter_amendment", citations: vip("Proposition C: Parks Funding Requirement") },
+  vote_threshold: { value: "majority", citations: vip("Proposition C requires a majority of the votes cast to pass.") },
+  placed_by: { value: "governing_body", citations: vip("The City Council voted 5 to 2 to place Proposition C on the ballot.") },
+  digest: digest("You want the City to spend at least $40 million a year on parks.", "You do not want to set a minimum for parks spending."),
+  conflicts: [{ contest: "contest:2030-zz-general/exampleville-prop-e", rule: "If both pass, the one with more yes votes takes effect.", citations: vip("If Propositions C and E are both approved, the one with more yes votes takes effect.") }],
+  fiscal: controller("The requirement would increase General Fund costs by $8 to $12 million a year.", [
+    effect({ id: "parks-minimum", lane: "general_fund", direction: "cost", amount: { low_usd: 8000000, high_usd: 12000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Increases General Fund costs by $8 to $12 million a year." }),
+  ]),
+});
+local("D", {
+  official_title: { value: "Policy on Street Names", citations: vip("Proposition D: Policy on Street Names") },
+  origin: "legislative",
+  summary: { value: "States a city policy on naming streets.", citations: vip("Shall it be City policy to name new streets after local historians?") },
+  measure_type: { value: "declaration_of_policy", citations: vip("Proposition D: Policy on Street Names") },
+  vote_threshold: { value: "majority", citations: vip("Proposition D requires a majority of the votes cast to pass.") },
+  placed_by: { value: "executive", citations: vip("The Mayor placed Proposition D on the ballot.") },
+  digest: digest("You want this to be City policy.", "You do not want this to be City policy."),
+  fiscal: controller("Proposition D would not affect the cost of government.", [
+    effect({ id: "no-cost", lane: "general_fund", direction: "none", per: "year", estimate: "minimal", text: "Would not affect the cost of government." }),
+  ]),
+});
+local("E", {
+  official_title: { value: "Parks Funding, Smaller Requirement", citations: vip("Proposition E: Parks Funding, Smaller Requirement") },
+  origin: "initiative",
+  summary: { value: "Requires a smaller minimum yearly amount for parks.", citations: vip("Shall the City be required to spend at least $35 million a year on parks?") },
+  measure_type: { value: "ordinance", citations: vip("Proposition E: Parks Funding, Smaller Requirement") },
+  vote_threshold: { value: "majority", citations: vip("Proposition E requires a majority of the votes cast to pass.") },
+  placed_by: { value: "petition", citations: vip("Proposition E was placed on the ballot by petition signatures.") },
+  digest: digest("You want the City to spend at least $35 million a year on parks.", "You do not want to set this minimum."),
+  conflicts: [{ contest: "contest:2030-zz-general/exampleville-prop-c", rule: "If both pass, the one with more yes votes takes effect.", citations: vip("If Propositions C and E are both approved, the one with more yes votes takes effect.") }],
+  fiscal: controller("The requirement would increase General Fund costs by $3 to $5 million a year.", [
+    effect({ id: "parks-minimum", lane: "general_fund", direction: "cost", amount: { low_usd: 3000000, high_usd: 5000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Increases General Fund costs by $3 to $5 million a year." }),
+  ]),
+});
+local("F", {
+  official_title: { value: "Commission Restructuring", citations: vip("Proposition F: Commission Restructuring") },
+  origin: "legislative",
+  summary: { value: "Merges several city commissions.", citations: vip("Shall the City merge its planning and building commissions?") },
+  measure_type: { value: "charter_amendment", citations: vip("Proposition F: Commission Restructuring") },
+  vote_threshold: { value: "majority", citations: vip("Proposition F requires a majority of the votes cast to pass.") },
+  placed_by: { value: "governing_body", citations: vip("The City Council voted 4 to 3 to place Proposition F on the ballot.") },
+  digest: digest("You want to merge the planning and building commissions.", "You want to keep them separate."),
+  fiscal: controller("The cost would depend on decisions the City makes when it merges the commissions.", [
+    effect({ id: "merger", lane: "general_fund", direction: "cost", per: "year", estimate: "depends_on_future_decisions", text: "Cost depends on decisions the City makes when it merges the commissions." }),
+  ]),
+});
+local("G", {
+  official_title: { value: "Library Minimum", citations: vip("Proposition G: Library Minimum") },
+  origin: "legislative",
+  summary: { value: "Reserves part of existing General Fund spending for libraries.", citations: vip("Shall the City reserve at least $5 million a year of its General Fund for libraries?") },
+  measure_type: { value: "charter_amendment", citations: vip("Proposition G: Library Minimum") },
+  vote_threshold: { value: "majority", citations: vip("Proposition G requires a majority of the votes cast to pass.") },
+  placed_by: { value: "governing_body", citations: vip("The City Council voted 7 to 0 to place Proposition G on the ballot.") },
+  digest: digest("You want at least $5 million a year of General Fund spending reserved for libraries.", "You do not want this reserve."),
+  fiscal: controller("Proposition G would not change total spending; it would reserve at least $5 million a year of existing General Fund spending for libraries.", [
+    effect({ id: "library-reserve", lane: "set_aside", direction: "cost", amount: { low_usd: 5000000, high_usd: 5000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Reserves at least $5 million a year of existing General Fund spending for libraries; total spending doesn't change." }),
+  ]),
+});
+p("budget", {
+  id: "exampleville",
+  name: "City of Exampleville budget",
+  jurisdiction: "City of Exampleville",
+  adopted: [
+    { fy: "2030-31", total_usd: 2400000000, general_fund_usd: 1100000000, basis: "Budget and Appropriation Ordinance, FY2030-31: all funds and General Fund.", citations: cite(srcBudgetOrd, "Total budget: $2.4 billion, of which $1.1 billion is General Fund.") },
+  ],
+  forecast: {
+    title: "Five-Year Financial Plan Update",
+    publisher: "Exampleville Controller",
+    published: "2030-03-14",
+    years: [
+      { fy: "2031-32", direction: "shortfall", amount_usd: 60000000, citations: cite(srcForecast, "a projected shortfall of $60 million in FY2031-32") },
+      { fy: "2032-33", direction: "shortfall", amount_usd: 95000000, citations: cite(srcForecast, "$95 million in FY2032-33") },
+      { fy: "2033-34", direction: "shortfall", amount_usd: 130000000, citations: cite(srcForecast, "$130 million in FY2033-34") },
+    ],
+  },
 });
 p("agenda", {
   contest: "contest:2030-zz-general/governor",

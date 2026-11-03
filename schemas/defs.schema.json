@@ -462,6 +462,30 @@
           "$ref": "#/$defs/Citations"
         }
       }
+    },
+    "FiscalYear": {
+      "description": "A fiscal year written as its first calendar year and the last two digits of the second, e.g. 2027-28.",
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}$"
+    },
+    "UsdRange": {
+      "description": "A dollar estimate as a range (low = high for a point estimate). Unsigned: the direction (cost or revenue) is recorded next to it.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "low_usd",
+        "high_usd"
+      ],
+      "properties": {
+        "low_usd": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "high_usd": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
     }
   }
 }

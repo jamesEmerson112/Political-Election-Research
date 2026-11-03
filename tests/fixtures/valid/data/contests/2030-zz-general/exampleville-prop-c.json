@@ -1,0 +1,125 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/exampleville-prop-c",
+  "kind": "measure",
+  "election": "election:2030-zz-general",
+  "name": "Exampleville Proposition C",
+  "conflicts": [
+    {
+      "contest": "contest:2030-zz-general/exampleville-prop-e",
+      "rule": "If both pass, the one with more yes votes takes effect.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "If Propositions C and E are both approved, the one with more yes votes takes effect."
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "no_means": {
+      "value": "You do not want to set a minimum for parks spending.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"NO\" Vote Means: You do not want to set a minimum for parks spending."
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "You want the City to spend at least $40 million a year on parks.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"YES\" Vote Means: You want the City to spend at least $40 million a year on parks."
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2030-08-20",
+    "effects": [
+      {
+        "id": "parks-minimum",
+        "amount": {
+          "high_usd": 12000000,
+          "low_usd": 8000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "start_fy": "2031-32",
+        "text": "Increases General Fund costs by $8 to $12 million a year.",
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "Increases General Fund costs by $8 to $12 million a year."
+          }
+        ]
+      }
+    ],
+    "statement_by": "Exampleville Controller",
+    "summary": {
+      "summary": "The requirement would increase General Fund costs by $8 to $12 million a year.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The requirement would increase General Fund costs by $8 to $12 million a year."
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City of Exampleville",
+    "level": "city"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition C: Parks Funding Requirement"
+      }
+    ]
+  },
+  "number": "C",
+  "official_title": {
+    "value": "Parks Funding Requirement",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition C: Parks Funding Requirement"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "The City Council voted 5 to 2 to place Proposition C on the ballot."
+      }
+    ]
+  },
+  "summary": {
+    "value": "Requires a minimum yearly amount for parks.",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Shall the City be required to spend at least $40 million a year on parks?"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition C requires a majority of the votes cast to pass."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

@@ -1,0 +1,1 @@
+{"description":"A fiscal estimate whose low end is above its high end.","expect":["FISCAL_RANGE"],"patches":[{"file":"contests/2030-zz-general/exampleville-prop-c.json","set":{"/fiscal/effects/0/amount":{"low_usd":12000000,"high_usd":8000000}}}]}

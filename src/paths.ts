@@ -21,6 +21,7 @@ export const FILE_KINDS = [
   "person",
   "organization",
   "office",
+  "budget",
   "positions",
   "dossier",
   "relationship",
@@ -67,6 +68,7 @@ const RULES: Array<[RegExp, (m: RegExpExecArray) => Classified]> = [
   [new RegExp(`^people/(${SLUG})\\.json$`), (m) => ({ kind: "person", expectedId: m[1]! })],
   [new RegExp(`^organizations/(${SLUG})\\.json$`), (m) => ({ kind: "organization", expectedId: m[1]! })],
   [new RegExp(`^offices/(${SLUG})\\.json$`), (m) => ({ kind: "office", expectedId: m[1]! })],
+  [new RegExp(`^budgets/(${SLUG})\\.json$`), (m) => ({ kind: "budget", expectedId: m[1]! })],
   [new RegExp(`^positions/people/(${SLUG})\\.json$`), (m) => ({ kind: "positions", expectedId: `person:${m[1]}` })],
   [
     new RegExp(`^positions/organizations/(${SLUG})\\.json$`),
@@ -114,6 +116,8 @@ export function pathFor(kind: FileKind, rec: Record<string, unknown>): string {
       return `organizations/${String(id)}.json`;
     case "office":
       return `offices/${String(id)}.json`;
+    case "budget":
+      return `budgets/${String(id)}.json`;
     case "positions": {
       const actor = String(rec["actor"]);
       const [k, slug] = actor.split(":");

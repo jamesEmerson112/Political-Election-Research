@@ -1,0 +1,126 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/exampleville-prop-a",
+  "kind": "measure",
+  "election": "election:2030-zz-general",
+  "name": "Exampleville Proposition A",
+  "digest": {
+    "no_means": {
+      "value": "You do not want the City to issue these bonds.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"NO\" Vote Means: You do not want the City to issue these bonds."
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "You want the City to issue $300 million in bonds for affordable housing.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"YES\" Vote Means: You want the City to issue $300 million in bonds for affordable housing."
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2030-08-20",
+    "bond": {
+      "annual_cost_per_100k_assessed_usd": 9.5,
+      "debt_service_total_usd": 420000000,
+      "principal_usd": 300000000,
+      "term_years": 20,
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The average annual property tax for a property assessed at $100,000 would be about $9.50."
+        }
+      ]
+    },
+    "effects": [
+      {
+        "id": "debt-service",
+        "amount": {
+          "high_usd": 21000000,
+          "low_usd": 21000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "bond_debt",
+        "per": "year",
+        "start_fy": "2031-32",
+        "text": "Debt service of about $21 million a year for 20 years, paid from property taxes.",
+        "years": 20,
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "Debt service of about $21 million a year for 20 years, paid from property taxes."
+          }
+        ]
+      }
+    ],
+    "statement_by": "Exampleville Controller",
+    "summary": {
+      "summary": "Should the bonds be issued, debt service would be about $21 million a year for 20 years, paid from property taxes.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Should the bonds be issued, debt service would be about $21 million a year for 20 years, paid from property taxes."
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City of Exampleville",
+    "level": "city"
+  },
+  "measure_type": {
+    "value": "bond",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition A: Affordable Housing Bond"
+      }
+    ]
+  },
+  "number": "A",
+  "official_title": {
+    "value": "Affordable Housing Bond",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition A: Affordable Housing Bond"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "The City Council voted 6 to 1 to place Proposition A on the ballot."
+      }
+    ]
+  },
+  "summary": {
+    "value": "Authorizes $300 million in bonds to build affordable housing.",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Shall the City issue $300 million in general obligation bonds to build affordable housing?"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "two_thirds",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition A requires two-thirds of the votes cast to pass."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

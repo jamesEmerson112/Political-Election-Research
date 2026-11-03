@@ -24,6 +24,7 @@ export interface Bundle {
   people: Rec[];
   organizations: Rec[];
   bills: Rec[];
+  budgets: Rec[];
   offices: Rec[];
   dossiers: Rec[];
   positions: Rec[];
@@ -74,6 +75,7 @@ export function buildBundle(dataDir: string, opts: { label: string; fictional: b
     people: values(ds.people),
     organizations: values(ds.orgs),
     bills: values(ds.bills),
+    budgets: values(ds.budgets),
     offices: values(ds.offices),
     dossiers: values(ds.dossiers),
     positions: values(ds.positions),
