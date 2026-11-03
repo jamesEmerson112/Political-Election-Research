@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:rome-moses-jones",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "keep-diverse-class-catalog",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Jones's questionnaire says he would push for stable funding, protect Free City, and base scheduling decisions on student demand.",
+        "title": "Keep a large and diverse class catalog",
+        "citations": [
+          {
+            "source": "src:assets-nationbuilder-com-2826f6c594",
+            "quote": "First, I will work to keep a large and diverse class catalog.",
+            "locator": "p. 3, top three issues"
+          },
+          {
+            "source": "src:assets-nationbuilder-com-2826f6c594",
+            "quote": "My plan is to push for stable funding, protect Free City, and make sure scheduling decisions are based on student demand rather than cuts or short-term enrollment swings.",
+            "locator": "p. 3, top three issues"
+          }
+        ]
+      },
+      {
+        "id": "student-transit-access",
+        "as_of": "2026-11-03",
+        "issue": "transportation",
+        "summary": "Jones's questionnaire says he would work with the city, Muni and partners to improve transit access and expand discounted or free transit options.",
+        "title": "Expand transit options for students",
+        "citations": [
+          {
+            "source": "src:assets-nationbuilder-com-2826f6c594",
+            "quote": "I will work with the city, Muni, and community partners to improve transit access, expand discounted or free transit options, and ensure classes are offered at times that match transit realities.",
+            "locator": "p. 3, top three issues"
+          }
+        ]
+      },
+      {
+        "id": "maximize-campus-use",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Jones's questionnaire says he would push for long-term planning that centers community use of campuses and expands partnerships.",
+        "title": "Maximize the use of City College campuses",
+        "citations": [
+          {
+            "source": "src:assets-nationbuilder-com-2826f6c594",
+            "quote": "Third, I will focus on maximizing the use of our campuses.",
+            "locator": "p. 3, top three issues"
+          }
+        ]
+      },
+      {
+        "id": "student-educator-housing",
+        "as_of": "2026-09-08",
+        "issue": "housing",
+        "summary": "The Guardsman reported that Jones said the college should pursue student and educator housing if it is an option, or partnerships with developers.",
+        "title": "Pursue student and educator housing",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-7a45204fbc",
+            "quote": "“If providing student housing and educator housing is an option, we need to pursue that option,” Jones said."
+          }
+        ]
+      }
+    ]
+  }
+}
