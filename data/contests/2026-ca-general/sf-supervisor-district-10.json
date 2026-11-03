@@ -1,0 +1,214 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-supervisor-district-10",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Board of Supervisors, District 10",
+  "office": "Member, Board of Supervisors",
+  "candidates": [
+    {
+      "person": "person:pearci-pj-bastiany-iii",
+      "ballot_designation": "MPA Graduate Student",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "PEARCI \"PJ\" BASTIANY III 皮爾斯‧「PJ」‧巴斯蒂亞尼三世 MPA Graduate Student",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:dionjay-dj-brookter",
+      "ballot_designation": "Community Organizer",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "DIONJAY (DJ) BROOKTER 迪昂傑‧（DJ）‧布魯克特 Community Organizer",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:deandra-bryant",
+      "ballot_designation": "Housing Advocate",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "DEANDRA BRYANT 蒂安德拉‧布萊恩特 Housing Advocate",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:theo-ellington",
+      "ballot_designation": "Public Policy Director",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "THEO ELLINGTON 艾霖敦 Public Policy Director",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:j-r-eppler",
+      "ballot_designation": "Small Business Attorney",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "J.R. EPPLER J.R.‧埃普勒 Small Business Attorney",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:ellsworth-ell-m-jennison-jr",
+      "ballot_designation": "Union Carpenter",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ELLSWORTH \"ELL\" M. JENNISON, JR. 小埃爾斯沃思‧「埃爾」‧M‧詹尼森 Union Carpenter",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "ballot_designation": "Small Business Consultant",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MIKE TROUBLE LIN 林育仁 Small Business Consultant",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "ballot_designation": "Father",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JAMO MUHAMMAD 傑莫‧穆罕默德 Father",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "ballot_designation": "Nurse / Legal Representative",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JESSICA PESSECOW 潔西卡‧佩塞考 Nurse / Legal Representative",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    },
+    {
+      "person": "person:shawn-m-richard",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 10 10 people have qualified for this contest on the November 3, 2026 ballot. Pearci \"PJ\" Bastiany III Dionjay (DJ) Brookter Deandra Bryant Theo Ellington J.R. Eppler Ellsworth \"Ell\" M. Jennison, Jr. Mike Trouble Lin Jamo Muhammad Jessica Pessecow Shawn M. Richard"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "SHAWN M. RICHARD 肖恩‧M‧理查德 none",
+          "locator": "page 1, Board of Supervisors, District 10, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-a18d638e93",
+          "quote": "Supervisor Shamann Walton represents District 10."
+        }
+      ]
+    }
+  ],
+  "district": 10,
+  "level": "local",
+  "office_ref": "office:san-francisco-supervisor",
+  "last_verified": "2026-11-03"
+}
