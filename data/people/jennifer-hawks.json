@@ -96,6 +96,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Retired Business Executive",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Jennifer Hawks Republican\nRetired Business Executive",
+          "locator": "page 2 (ballot designation, the candidate's self-description)"
+        },
+        {
+          "source": "src:hawksforus-com-720238af69",
+          "quote": "Jennifer Hawks is a retired business executive, a mother, and the Republican nominee for California State Treasurer."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
