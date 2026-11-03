@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "gloria-romero",
+  "name": "Gloria Romero",
+  "aliases": [
+    "Gloria J. Romero"
+  ],
+  "ids": [
+    {
+      "id": "Q5571451",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.gloriaromero4ltgov.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
