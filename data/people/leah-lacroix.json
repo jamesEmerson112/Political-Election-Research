@@ -96,6 +96,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "Administrative Analyst",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My occupation is Administrative Analyst.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 33 (PDF p. 35)"
+            }
+          ]
+        },
+        {
+          "organization": "Port of San Francisco",
+          "role": "Assistant Commission Affairs Manager; later Social Media and Content Development Analyst",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-35605ece64",
+              "quote": "She also worked as the Assistant Commission Affairs Manager and later the Social Media and Content Development Analyst for the Port of San Francisco"
+            }
+          ]
+        },
+        {
+          "organization": "Mama G’s Street Dinners",
+          "role": "Board of directors member",
+          "citations": [
+            {
+              "source": "src:ourcitycollege-com-7a3a0d072c",
+              "quote": "She currently serves on the board of directors for Mama G’s Street Dinners in the Tenderloin."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [],
