@@ -57,8 +57,11 @@ LAYER_GUIDE.R = `LAYER R (retry). These tasks stayed open after an earlier pass.
 const LENS = {
   fidelity: `FIDELITY: (a) the recorded value is stated by its quoted passage(s), with nothing added: names, titles, dates and numbers exact; no inference; nothing that could only come from memory. (b) It is about the right person, office and place (watch same-name people). (c) not_found, empty lists, exhausted entries and no_public_position carry a search_log covering the places the guide requires. (d) Money records cite *_filing sources with schedule/line locators, and the amounts match the filing text. (e) Sources are the right kind: official records first; Wikipedia or Ballotpedia never cited for a fact.`,
   inference: `INFERENCE: (a) every stance (support, oppose, mixed) is explicit in the quoted evidence and matches the question's support_means / oppose_means in data/issues/<issue>.json, never inferred from party, endorsers, donors or general values; (b) declined_to_answer cites the unanswered ask; (c) no_public_position lists the full search order; (d) endorsements: the endorser endorsed this candidate for this 2026 race, cited to the endorser's announcement or the candidate's page; (e) summaries report what was said, with no characterizing adjectives.`,
+  stance: '',
   neutrality: `NEUTRALITY: (a) track_record items are one neutral STAR sentence each (.claude/skills/policy-star/SKILL.md), every part cited, outcomes reported without praise; (b) promises are specific proposals as stated, not general values; (c) controversies meet the sourcing rule (two independent publishers or one official record), attribute every claim, include the candidate's response or a not_found search log, and have neutral titles; (d) no ranking or evaluative words (powerful, minor, successful, failed, important...).`,
 }
+
+LENS.stance = `${LENS.fidelity}\n   ALSO ${LENS.inference}`
 
 function researchPrompt(p) {
   return `You are a research agent for the Political-Election-Research dataset (repository ${REPO}). You work on ONE work package, in a PRIVATE copy of the data. Today is ${TODAY}, Election Day: voters are reading this site today, so be accurate and steady.
