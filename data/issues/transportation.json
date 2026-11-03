@@ -2,7 +2,7 @@
   "$schema": "../../schemas/issue.schema.json",
   "id": "transportation",
   "name": "Transportation",
-  "description": "State transportation projects and funding.",
+  "description": "Transportation projects, services and funding.",
   "questions": [
     {
       "id": "high-speed-rail-funding",
@@ -11,6 +11,24 @@
       "oppose_means": "Favors stopping or redirecting state funding for high-speed rail.",
       "support_means": "Favors continued state funding for high-speed rail construction.",
       "text": "Should the state continue funding construction of the California High-Speed Rail project?"
+    },
+    {
+      "id": "local-tax-for-muni",
+      "added": "2026-11-03",
+      "area": "transportation",
+      "oppose_means": "Opposes a new or higher local tax for Muni.",
+      "support_means": "Favors a new or higher local tax for Muni.",
+      "text": "Should San Francisco raise local taxes to fund Muni service?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "bike-lanes-over-parking",
+      "added": "2026-11-03",
+      "area": "transportation",
+      "oppose_means": "Favors keeping the parking.",
+      "support_means": "Favors the lanes even with parking loss.",
+      "text": "Should the city build or expand protected bike lanes even where that removes street parking?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
     }
   ],
   "rejected_questions": []

@@ -1,0 +1,72 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "education",
+  "name": "Education",
+  "description": "Public schools: enrollment, school sites, budgets, curriculum and labor agreements.",
+  "questions": [
+    {
+      "id": "sfusd-proximity-assignment",
+      "added": "2026-11-03",
+      "area": "other",
+      "oppose_means": "Favors keeping citywide choice (the lottery).",
+      "support_means": "Favors proximity or neighborhood assignment.",
+      "text": "Should SFUSD replace its elementary enrollment lottery with assignment that gives priority to the school nearest a student's home?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "sfusd-close-or-merge-schools",
+      "added": "2026-11-03",
+      "area": "other",
+      "oppose_means": "Opposes closures or mergers.",
+      "support_means": "Favors closures or mergers, such as those planned for 2029-30.",
+      "text": "Should SFUSD close or merge schools to reduce excess capacity?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "sfusd-spend-reserves",
+      "added": "2026-11-03",
+      "area": "other",
+      "oppose_means": "Favors keeping reserves above the minimum.",
+      "support_means": "Favors drawing reserves down.",
+      "text": "Should SFUSD spend reserves above the state-required minimum on current programs and staff?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "sfusd-8th-grade-algebra",
+      "added": "2026-11-03",
+      "area": "other",
+      "oppose_means": "Favors starting Algebra 1 in 9th grade for all students.",
+      "support_means": "Favors 8th-grade Algebra 1.",
+      "text": "Should SFUSD keep offering Algebra 1 in 8th grade to students who are ready?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "sfusd-limit-screens-and-ai",
+      "added": "2026-11-03",
+      "area": "other",
+      "oppose_means": "Opposes strict limits.",
+      "support_means": "Favors strict limits.",
+      "text": "Should SFUSD set strict limits on students' screen time and use of AI tools in class?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "sfusd-raise-educator-pay",
+      "added": "2026-11-03",
+      "area": "other",
+      "oppose_means": "Favors holding pay to avoid the cuts.",
+      "support_means": "Favors raises with offsetting cuts.",
+      "text": "In its next labor agreements (current ones expire June 30, 2027), should SFUSD raise educator pay even if that requires reductions elsewhere in the budget?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "sfusd-renew-parcel-tax",
+      "added": "2026-11-03",
+      "area": "other",
+      "oppose_means": "Opposes renewal or replacement.",
+      "support_means": "Favors renewal or replacement.",
+      "text": "Should SFUSD seek voter approval to renew or replace the Prop G parcel tax before it expires?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    }
+  ],
+  "rejected_questions": []
+}

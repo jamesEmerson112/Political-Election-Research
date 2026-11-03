@@ -11,6 +11,24 @@
       "oppose_means": "Favors leaving housing density near transit to local zoning decisions.",
       "support_means": "Favors state rules that permit denser housing near transit regardless of local zoning.",
       "text": "Should state law allow taller, denser housing near major transit stops even where local zoning does not?"
+    },
+    {
+      "id": "citywide-rezoning",
+      "added": "2026-11-03",
+      "area": "housing",
+      "oppose_means": "Favors keeping existing height and density limits.",
+      "support_means": "Favors allowing added height and density citywide, including on western and northern corridors.",
+      "text": "Should San Francisco allow taller, denser housing in neighborhoods where zoning now limits height and density, as in the 2025 citywide rezoning plan?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "expand-rent-control",
+      "added": "2026-11-03",
+      "area": "housing",
+      "oppose_means": "Favors keeping current coverage.",
+      "support_means": "Favors covering more units.",
+      "text": "Should San Francisco extend rent control to more rental units, as far as state law allows?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
     }
   ],
   "rejected_questions": []

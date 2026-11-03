@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "public-safety",
+  "name": "Public safety",
+  "description": "Policing, surveillance technology and public-safety programs.",
+  "questions": [
+    {
+      "id": "police-license-plate-cameras",
+      "added": "2026-11-03",
+      "area": "public_safety",
+      "oppose_means": "Favors ending use or not renewing the contract.",
+      "support_means": "Favors continued or expanded use.",
+      "text": "Should SFPD keep using automated license-plate reader cameras such as Flock?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    }
+  ],
+  "rejected_questions": []
+}

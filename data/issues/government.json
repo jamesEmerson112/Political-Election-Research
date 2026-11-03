@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "government",
+  "name": "Government",
+  "description": "How government is run: executive authority, commissions and election rules.",
+  "questions": [
+    {
+      "id": "expand-mayoral-authority",
+      "added": "2026-11-03",
+      "area": "government",
+      "oppose_means": "Favors keeping the current authority of commissions and the Board.",
+      "support_means": "Favors more mayoral authority.",
+      "text": "Should the mayor have more direct authority over city departments and commissions?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    },
+    {
+      "id": "limit-outside-election-spending",
+      "added": "2026-11-03",
+      "area": "government",
+      "oppose_means": "Favors current rules.",
+      "support_means": "Favors new limits.",
+      "text": "Should San Francisco adopt new limits on outside (independent-expenditure) spending in city elections, as far as the law allows?",
+      "notes": "Drafted from Mission Local's weekly candidate questions; approved by the maintainer on 2026-11-03."
+    }
+  ],
+  "rejected_questions": []
+}
