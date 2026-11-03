@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:xavier-becerra",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "housing-emergency-executive-order",
+        "as_of": "2026-11-03",
+        "issue": "housing",
+        "summary": "Proposes an executive order on his first day declaring the housing shortage a state of emergency and directing state agencies to treat housing production and affordability as the top priority.",
+        "title": "Housing emergency executive order",
+        "citations": [
+          {
+            "source": "src:xavierbecerra2026-com-e1e3f4235a",
+            "quote": "On my first day as Governor, I will issue an executive order declaring California’s housing shortage a state of emergency and directing every state agency to treat housing production and affordability as the paramount priority."
+          }
+        ]
+      },
+      {
+        "id": "implement-proposition-1-treatment-beds",
+        "as_of": "2026-11-03",
+        "issue": "homelessness",
+        "summary": "Proposes implementing every reform Proposition 1 authorizes and building thousands of treatment beds.",
+        "title": "Implement Proposition 1 and build treatment beds",
+        "citations": [
+          {
+            "source": "src:xavierbecerra2026-com-e1e3f4235a",
+            "quote": "I will implement every reform it authorizes, build thousands of treatment beds, and cut whatever red tape stands between the voters’ verdict and results on the ground."
+          }
+        ]
+      },
+      {
+        "id": "universal-single-payer-health-care",
+        "as_of": "2026-11-03",
+        "issue": "healthcare",
+        "summary": "Proposes strengthening Medi-Cal and building toward a universal single-payer system.",
+        "title": "Universal single-payer health care",
+        "citations": [
+          {
+            "source": "src:xavierbecerra2026-com-8e355fad07",
+            "quote": "Health care is a human right, and as California’s Health Care Governor I will deliver affordable care without debt or delays, strengthen Medi-Cal, close racial and economic gaps, and build toward a universal single-payer system that puts people before profits."
+          }
+        ]
+      }
+    ]
+  }
+}
