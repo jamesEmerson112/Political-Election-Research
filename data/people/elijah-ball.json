@@ -50,6 +50,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Bakersfield (where he grew up, as he states; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:growsf-org-b605efb9fd",
+          "quote": "Growing up openly gay in a conservative town (Bakersfield), San Francisco was a beacon for me",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
