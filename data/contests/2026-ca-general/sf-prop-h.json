@@ -4,6 +4,323 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition H",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Mayor Daniel Lurie",
+        "Speaker Emerita Nancy Pelosi",
+        "San Francisco Democratic Party",
+        "Senator Scott Wiener",
+        "Assemblymember Catherine Stefani",
+        "Assemblymember Matt Haney",
+        "Supervisors:",
+        "Rafael Mandelman",
+        "Connie Chan",
+        "Steven Sherrill",
+        "Danny Sauter",
+        "Alan Wong",
+        "Bilal Mahmood",
+        "Matt Dorsey",
+        "Myrna Melgar",
+        "Jackie Fielder",
+        "Shamann Walton",
+        "Chyanne Chen",
+        "Former Controller Ben Rosenfield",
+        "SF Tenants Union",
+        "SF Labor Council",
+        "SF Chamber of Commerce",
+        "SF Council of District Merchants",
+        "Firefighters Local 798",
+        "Transit Workers Union 250A",
+        "Teamsters Local 665",
+        "Chinatown Transportation Research and Improvement Project"
+      ],
+      "heading": "VOTE YES ON H FOR STRONGER MUNI.",
+      "side": "yes",
+      "text": "MUNI IS A LIFELINE FOR WORKERS, SENIORS, STUDENTS “Muni is essential for our seniors, many of whom don’t drive, and need Muni to get groceries, go to appointments and move independently.” – Anni Chung, Self-Help for the Elderly “Working people depend on affordable, reliable, and safe Muni every day—to get to work, take their kids to school, and keep San Francisco moving.” - Olga Miranda, President, SEIU Local 87 MUNI POWERS OUR ECONOMY. “40% of San Franciscans who work downtown take Muni. Public transit is one of the smartest investments we can make in our local economy. Without H, Muni service will be severely reduced, killing the engine of our economic recovery and causing future cuts to emergency response, parks, and other city services.” – former Controller Ben Rosenfield MORE ACCOUNTABLE MUNI. Muni eliminated 500 vacant positions, trimmed management and doubled fare inspectors. Muni customer satisfaction recently hit a 25 year high due to safer and more reliable service. MUNI FACES DEEP SERVICE CUTS. For years, one-time federal and state Covid relief kept Muni running. That money is gone. Despite strong actions to save $137 million dollars annually, without Prop H, service could be cut by 30%, at least 20 bus routes eliminated, and far worse traffic in our neighborhoods. H ONLY FUNDS MUNI SERVICE. “Strong oversight and independent audits ensures every dollar goes to safe, reliable and affordable Muni service that can never be redirected.” – Mayor Daniel Lurie San Franciscans from every corner of the city have united to vote Yes on H. The Labor Council and Chamber of Commerce. The San Francisco Apartment Association and Tenants Union. Small business owners and transit advocates. Mayor Lurie and the entire Board of Supervisors.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "MUNI IS A LIFELINE FOR WORKERS, SENIORS, STUDENTS “Muni is essential for our seniors, many of whom don’t drive, and need Muni to get groceries, go to appointments and move independently.” – Anni Chung, Self-Help for the Elderly “Working people depend on affordable, reliable, and safe Muni every day—to get to work, take their kids to school, and keep San Francisco moving.” - Olga Miranda, President, SEIU Local 87 MUNI POWERS OUR ECONOMY. “40% of San Franciscans who work downtown take Muni. Public transit is one of the smartest investments we can make in our local economy. Without H, Muni service will be severely reduced, killing the engine of our economic recovery and causing future cuts to emergency response, parks, and other city services.” – former Controller Ben Rosenfield MORE ACCOUNTABLE MUNI. Muni eliminated 500 vacant positions, trimmed management and doubled fare inspectors. Muni customer satisfaction recently hit a 25 year high due to safer and more reliable service. MUNI FACES DEEP SERVICE CUTS. For years, one-time federal and state Covid relief kept Muni running. That money is gone. Despite strong actions to save $137 million dollars annually, without Prop H, service could be cut by 30%, at least 20 bus routes eliminated, and far worse traffic in our neighborhoods. H ONLY FUNDS MUNI SERVICE. “Strong oversight and independent audits ensures every dollar goes to safe, reliable and affordable Muni service that can never be redirected.” – Mayor Daniel Lurie San",
+          "locator": "p. 126, Proponent's Argument in Favor of Proposition H (left column)"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "The San Francisco Republican Party"
+      ],
+      "side": "no",
+      "text": "Everyone wants safe, reliable Muni. The question is whether a 15-year tax with no strings attached will deliver it. The Yes campaign warns of devastating service cuts if Prop H fails. But that dodges the real question: Why guarantee SFMTA a new tax revenue stream without requiring it to meet a single efficiency or performance target? Supporters boast that Muni has eliminated vacant positions, trimmed management and found $137 million in annual savings. Great. That proves reform is possible. Prop H should require more reform, not guarantee new revenue regardless of results. They also promise “strong oversight and independent audits.” But oversight is not accountability. Prop H requires an efficiency review, but does not require SFMTA to implement its recommendations. There are no binding efficiency targets, performance benchmarks, or requirements that future tax dollars depend on results. And who pays? Prop H taxes property based on square footage, not value. A modest home can owe nearly the same tax as a far more valuable home of similar size. Renters aren’t spared, either, since landlords can pass through part of the tax. Muni is too important to keep funding the same way and hoping for different results. Before approving a 15-year tax, voters must demand binding reforms, measurable performance standards, and real accountability. Vote NO on Prop H.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Everyone wants safe, reliable Muni. The question is whether a 15-year tax with no strings attached will deliver it. The Yes campaign warns of devastating service cuts if Prop H fails. But that dodges the real question: Why guarantee SFMTA a new tax revenue stream without requiring it to meet a single efficiency or performance target? Supporters boast that Muni has eliminated vacant positions, trimmed management and found $137 million in annual savings. Great. That proves reform is possible. Prop H should require more reform, not guarantee new revenue regardless of results. They also promise “strong oversight and independent audits.” But oversight is not accountability. Prop H requires an efficiency review, but does not require SFMTA to implement its recommendations. There are no binding efficiency targets, performance benchmarks, or requirements that future tax dollars depend on results. And who pays? Prop H taxes property based on square footage, not value. A modest home can owe nearly the same tax as a far more valuable home of similar size. Renters aren’t spared, either, since landlords can pass through part of the tax. Muni is too important to keep funding the same way and hoping for different results. Before approving a 15-year tax, voters must demand binding reforms, measurable performance standards, and real accountability. Vote NO on Prop H.",
+          "locator": "p. 126, Rebuttal to Proponent's Argument in Favor of Proposition H (right column)"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "The San Francisco Republican Party"
+      ],
+      "side": "no",
+      "text": "San Franciscans are being asked to fund Muni’s $300 million deficit for 15 years with no strings attached. False threats. Nobody wants longer wait times or service cuts, but a new tax isn’t the only option. Nothing in this proposition requires SFMTA to cut costs, hit efficiency targets, or act on a spending review as a condition of receiving this money. No sunset tied to results. The tax runs through 2042 regardless of whether ridership, fares, or costs ever normalize. A toothless review, collected after the money’s already in hand. The measure calls for an “efficiency review,” but not until April 2028, nine months after the tax kicks in. Even then, the review only has to report its findings to SFMTA’s own board. Nothing requires the agency to act on a single recommendation, and nothing ties future funding to whether it does. A flat tax, not a fair one. The tax is based on square footage, not property value. A modest home and a far more valuable one of similar size nearby will pay nearly the same amount. Renters aren’t spared either, since landlords can pass through the tax increase to tenants. A 15-year tax with no results-based sunset, no binding reforms, and no independent check on whether the money is spent well isn’t the accountability that SFMTA needs. It’s a blank check. Vote No on H.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Franciscans are being asked to fund Muni’s $300 million deficit for 15 years with no strings attached. False threats. Nobody wants longer wait times or service cuts, but a new tax isn’t the only option. Nothing in this proposition requires SFMTA to cut costs, hit efficiency targets, or act on a spending review as a condition of receiving this money. No sunset tied to results. The tax runs through 2042 regardless of whether ridership, fares, or costs ever normalize. A toothless review, collected after the money’s already in hand. The measure calls for an “efficiency review,” but not until April 2028, nine months after the tax kicks in. Even then, the review only has to report its findings to SFMTA’s own board. Nothing requires the agency to act on a single recommendation, and nothing ties future funding to whether it does. A flat tax, not a fair one. The tax is based on square footage, not property value. A modest home and a far more valuable one of similar size nearby will pay nearly the same amount. Renters aren’t spared either, since landlords can pass through the tax increase to tenants. A 15-year tax with no results-based sunset, no binding reforms, and no independent check on whether the money is spent well isn’t the accountability that SFMTA needs. It’s a blank check. Vote No on H.",
+          "locator": "p. 127, Opponent's Argument Against Proposition H (left column)"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Mayor Daniel Lurie",
+        "Rodney Fong, SF Chamber of Commerce",
+        "Tony Delorio, Teamsters Local 665",
+        "Kat Siegal, Transit Advocate"
+      ],
+      "side": "yes",
+      "text": "Trump’s Federal spending cuts have devastated transportation systems across the country. Given these cuts and the loss of other funding, Muni faces 30% service cuts and the elimination of at least 20 bus routes. That’s just a fact. Mayor Lurie has taken bold action to make Muni more efficient BEFORE ever proposing H for the ballot. With new leadership, the agency eliminated 500 vacant positions, cut management, and froze non-operator hiring, saving $140 million. Muni doubled fare inspectors and reduced fare evasion by 30%. Wait times and reliability have improved, and Muni’s favorability is at an all time high. The tax isn’t flat. The San Francisco Republican Party is wrong. H is the first fair, tiered parcel tax in San Francisco history. 95% of homeowners pay the lowest amount. Large commercial buildings and mansions pay the most. 70% of the revenue comes from the city’s largest properties. Rent-controlled units are protected and won’t pay more than $65 a year. Strong oversight. H requires independent audits and mandates citizen oversight for the life of the tax. And not one penny can be spent on anything other than Muni operations. World-class public transportation requires investment. “Investing in Muni is just smart economics. The economic activity Muni generates funds emergency response, parks, and libraries.” - Former Controller Ben Rosenfield. We owe it to the next generation of San Franciscans to make sure that Muni remains the system we all love. Vote Yes on H.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Trump’s Federal spending cuts have devastated transportation systems across the country. Given these cuts and the loss of other funding, Muni faces 30% service cuts and the elimination of at least 20 bus routes. That’s just a fact. Mayor Lurie has taken bold action to make Muni more efficient BEFORE ever proposing H for the ballot. With new leadership, the agency eliminated 500 vacant positions, cut management, and froze non-operator hiring, saving $140 million. Muni doubled fare inspectors and reduced fare evasion by 30%. Wait times and reliability have improved, and Muni’s favorability is at an all time high. The tax isn’t flat. The San Francisco Republican Party is wrong. H is the first fair, tiered parcel tax in San Francisco history. 95% of homeowners pay the lowest amount. Large commercial buildings and mansions pay the most. 70% of the revenue comes from the city’s largest properties. Rent-controlled units are protected and won’t pay more than $65 a year. Strong oversight. H requires independent audits and mandates citizen oversight for the life of the tax. And not one penny can be spent on anything other than Muni operations. World-class public transportation requires investment. “Investing in Muni is just smart economics. The economic activity Muni generates funds emergency response, parks, and libraries.” - Former Controller Ben Rosenfield. We owe it to the next generation of San Franciscans to make sure that Muni remains the system we all love. Vote Yes on H.",
+          "locator": "p. 127, Rebuttal to Opponent's Argument Against Proposition H (right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-01",
+      "kind": "paid",
+      "authors": [
+        "Sean Elsbernd President/CEO SPUR (www.spur.org)"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: SPUR.",
+      "heading": "Save Muni. Protect San Francisco’s Future.",
+      "side": "yes",
+      "text": "Muni carries more than 520,000 riders every weekday — seniors, students, workers, and people with disabilities who depend on reliable transit. Without new revenue, Muni faces a $307 million deficit by 2027, growing to $398 million by 2030, meaning up to 20 routes eliminated and service cut in half. For more than a century, SPUR has championed public transit as essential to San Francisco’s success, from early advocacy for the Municipal Railway itself through decades of ballot campaigns to keep Muni funded, reliable, and accountable. This measure continues that legacy. It raises roughly $177 million a year through a fair, tiered parcel tax. Ninety‑five percent of single‑family homeowners pay just $129 a year. Rent‑controlled tenants pay no more than $65 a year, and landlords cannot pass on more. Seniors are exempt on their primary homes; larger properties pay proportionally more. Muni has earned this investment, already saving $250 million since 2019 through efficiency improvements, with rider satisfaction at a decades‑high 78%. This measure funds operations only — the buses and trains San Franciscans rely on every day. This measure has broad, unified support from the Mayor, the Board of Supervisors, labor, business, and transit and housing advocates alike, with no formal opposition. Combined with the regional Connect Bay Area measure, it’s the difference between a Muni that works and a Muni in crisis. Vote YES.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Muni carries more than 520,000 riders every weekday — seniors, students, workers, and people with disabilities who depend on reliable transit. Without new revenue, Muni faces a $307 million deficit by 2027, growing to $398 million by 2030, meaning up to 20 routes eliminated and service cut in half. For more than a century, SPUR has championed public transit as essential to San Francisco’s success, from early advocacy for the Municipal Railway itself through decades of ballot campaigns to keep Muni funded, reliable, and accountable. This measure continues that legacy. It raises roughly $177 million a year through a fair, tiered parcel tax. Ninety‑five percent of single‑family homeowners pay just $129 a year. Rent‑controlled tenants pay no more than $65 a year, and landlords cannot pass on more. Seniors are exempt on their primary homes; larger properties pay proportionally more. Muni has earned this investment, already saving $250 million since 2019 through efficiency improvements, with rider satisfaction at a decades‑high 78%. This measure funds operations only — the buses and trains San Franciscans rely on every day. This measure has broad, unified support from the Mayor, the Board of Supervisors, labor, business, and transit and housing advocates alike, with no formal opposition. Combined with the regional Connect Bay Area measure, it’s the difference between a Muni that works and a Muni in crisis. Vote YES.",
+          "locator": "p. 128, Paid Arguments in Favor of Proposition H, argument 1 of 10 (left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-02",
+      "kind": "paid",
+      "authors": [
+        "Democratic Socialists of America - San Francisco"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Scott Feeney, Seamus McNulty, Aditya Bhumbla.",
+      "side": "yes",
+      "text": "Muni is an absolutely essential service for San Francisco’s working class and powered by the working class. In one of the wealthiest cities in the country, flooded with billions of dollars of investment into companies whose employees depend on public transit, it is shameful that the rich won’t pay their fair share and are placing our transit system in jeopardy. A popular proposal, 2024’s Prop L, would have preserved Muni funding by requiring ride‑hail companies like Uber, Lyft and Waymo to redistribute a small portion of their earnings to keep buses running in a city that has allowed them to thrive. Fifty‑six percent of San Francisco voters approved, but it wasn’t enough to overcome a well‑funded corporate lobbying campaign and backroom deals at City Hall. They put us in this position. DSA SF believes a better world is possible and a better way of funding transit is necessary. We were part of the coalition which overcame corporate opposition to ensure the Stronger Muni for All measure is a progressive parcel tax. We secured changes to the tax so that downtown landlords pay closer to their fair share, local unions remain strong, and working people pay less. But we are nowhere near the finish line. We recommend San Franciscans vote yes on this measure. DSA SF stands in solidarity with Muni operators and riders by keeping Muni running and resolving the current funding emergency, but small and reactive reforms like these can’t deliver the affordable, expansive, and financially sustainable public transit system that San Francisco’s working class deserves. For that, we need to think bigger, and we need to win working class power in order to bring those ideas to life. Join us and get organized.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Muni is an absolutely essential service for San Francisco’s working class and powered by the working class. In one of the wealthiest cities in the country, flooded with billions of dollars of investment into companies whose employees depend on public transit, it is shameful that the rich won’t pay their fair share and are placing our transit system in jeopardy. A popular proposal, 2024’s Prop L, would have preserved Muni funding by requiring ride‑hail companies like Uber, Lyft and Waymo to redistribute a small portion of their earnings to keep buses running in a city that has allowed them to thrive. Fifty‑six percent of San Francisco voters approved, but it wasn’t enough to overcome a well‑funded corporate lobbying campaign and backroom deals at City Hall. They put us in this position. DSA SF believes a better world is possible and a better way of funding transit is necessary. We were part of the coalition which overcame corporate opposition to ensure the Stronger Muni for All measure is a progressive parcel tax. We secured changes to the tax so that downtown landlords pay closer to their fair share, local unions remain strong, and working people pay less. But we are nowhere near the finish line. We recommend San Franciscans vote yes on this measure. DSA SF stands in solidarity with Muni operators and riders by keeping Muni running and resolving the current funding emergency, but small and reactive reforms like these can’t deliver the affordable, expansive, and financially",
+          "locator": "p. 128, Paid Arguments in Favor of Proposition H, argument 2 of 10 (left column continuing to right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-03",
+      "kind": "paid",
+      "authors": [
+        "SF League of Conservation Voters",
+        "Sierra Club"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: San Francisco League of Conservation Voters.",
+      "heading": "CLIMATE AND ENVIRONMENTAL GROUPS SAY YES TO FUNDING PUBLIC TRANSIT.",
+      "side": "yes",
+      "text": "Public transit is climate action. Every rider on a Muni bus or train means lower emissions, less congestion, cleaner air. If San Francisco is serious about its climate goals, we cannot let our transit system collapse. Transit cuts set back years of climate progress. Sustainable growth depends on reliable transit. Prop H keeps San Francisco’s buses and trains running so people can choose transit over cars — protecting our climate goals and our quality of life. Vote Yes on H for a cleaner, more sustainable San Francisco.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Public transit is climate action. Every rider on a Muni bus or train means lower emissions, less congestion, cleaner air. If San Francisco is serious about its climate goals, we cannot let our transit system collapse. Transit cuts set back years of climate progress. Sustainable growth depends on reliable transit. Prop H keeps San Francisco’s buses and trains running so people can choose transit over cars — protecting our climate goals and our quality of life. Vote Yes on H for a cleaner, more sustainable San Francisco.",
+          "locator": "p. 128, Paid Arguments in Favor of Proposition H, argument 3 of 10 (right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-04",
+      "kind": "paid",
+      "authors": [
+        "Senior and Disability Action",
+        "Self-Help for the Elderly CEO Anni Chung*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: 1. Senior and Disability Action, 2. Stronger Muni for All, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Open AI, 2. Anthropic, 3. Ripple Labs.",
+      "heading": "SENIORS AND PEOPLE WITH DISABILITIES URGE SUPPORT FOR MUNI AND PROP H.",
+      "side": "yes",
+      "text": "For seniors and people with disabilities, Muni isn’t a convenience — it’s independence. It’s the ride to a doctor’s appointment, the trip to the pharmacy, the way to see friends and stay connected to community. For those who don’t or can’t drive, Muni is often the only way to get around the city we call home. Without Prop H, Muni service will be cut and accessible transit options will shrink even further for the people who depend on them most. Isolation is one of the greatest threats facing seniors and people with disabilities. Reliable transit prevents it. Don’t let service cuts cut us off from our city. Vote Yes on H.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "For seniors and people with disabilities, Muni isn’t a convenience — it’s independence. It’s the ride to a doctor’s appointment, the trip to the pharmacy, the way to see friends and stay connected to community. For those who don’t or can’t drive, Muni is often the only way to get around the city we call home. Without Prop H, Muni service will be cut and accessible transit options will shrink even further for the people who depend on them most. Isolation is one of the greatest threats facing seniors and people with disabilities. Reliable transit prevents it. Don’t let service cuts cut us off from our city. Vote Yes on H.",
+          "locator": "pp. 128-129, Paid Arguments in Favor of Proposition H, argument 4 of 10 (p. 128 right column; body, signers and funding continue p. 129 left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-05",
+      "kind": "paid",
+      "authors": [
+        "California Young Democrats",
+        "SF Young Democrats President Andrea Gallardo*",
+        "SF State College Democrats President Chase Preston*",
+        "SFUSD School Board President Phil Kim*",
+        "SF City College Board Trustee Ruth Ferguson*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Stronger Muni for All, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Open AI, 2. Anthropic, 3. Ripple Labs.",
+      "heading": "YOUTH, STUDENTS, AND THEIR ADVOCATES SAY YES TO PROP H.",
+      "side": "yes",
+      "text": "Muni is how students across San Francisco get to class, campus, jobs, and each other. From middle schoolers to college students, young San Franciscans depend on Muni more than almost anyone. That access is at risk. Young people are the future of this city, and reliable transit is how they build independence, education, and careers. We can’t afford to lose the routes that get them there. Students, young Democrats, and youth leaders across San Francisco are united: Vote Yes on H for stronger Muni, for our schools, and for our future.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Muni is how students across San Francisco get to class, campus, jobs, and each other. From middle schoolers to college students, young San Franciscans depend on Muni more than almost anyone. That access is at risk. Young people are the future of this city, and reliable transit is how they build independence, education, and careers. We can’t afford to lose the routes that get them there. Students, young Democrats, and youth leaders across San Francisco are united: Vote Yes on H for stronger Muni, for our schools, and for our future.",
+          "locator": "p. 129, Paid Arguments in Favor of Proposition H, argument 5 of 10 (left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-06",
+      "kind": "paid",
+      "authors": [
+        "Chinatown Transportation Research and Improvement Project",
+        "Rose Pak Asian American Club",
+        "Chinatown Community Development Center",
+        "Anni Chung, Self-Help for the Elderly*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Stronger Muni for All, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Open AI, 2. Anthropic, 3. Ripple Labs.",
+      "heading": "CHINATOWN LEADERS SAY YES TO SAVING MUNI WITH PROP H.",
+      "side": "yes",
+      "text": "Muni is a lifeline for Chinatown and every immigrant family in San Francisco. Many of our seniors don’t drive. They depend on the 30, the 45, and other Muni lines to reach doctors, grocery stores, and family. When Muni service is cut, our elders are left stranded. Chinatown’s merchants, workers, and families all rely on reliable, affordable transit every single day. Chinatown has fought for decades for transit that serves our community with dignity. Prop H protects that progress. Vote Yes on H for our seniors. Vote Yes on H for our families. Vote Yes on H for Chinatown.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Muni is a lifeline for Chinatown and every immigrant family in San Francisco. Many of our seniors don’t drive. They depend on the 30, the 45, and other Muni lines to reach doctors, grocery stores, and family. When Muni service is cut, our elders are left stranded. Chinatown’s merchants, workers, and families all rely on reliable, affordable transit every single day. Chinatown has fought for decades for transit that serves our community with dignity. Prop H protects that progress. Vote Yes on H for our seniors. Vote Yes on H for our families. Vote Yes on H for Chinatown.",
+          "locator": "p. 129, Paid Arguments in Favor of Proposition H, argument 6 of 10 (left column continuing to right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-07",
+      "kind": "paid",
+      "authors": [
+        "SF Transit Riders",
+        "Streets for All SF",
+        "SF Bicycle Coalition",
+        "Walk San Francisco"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Stronger Muni for All, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Open AI, 2. Anthropic, 3. Ripple Labs.",
+      "heading": "ADVOCATES FOR SAFE, SUSTAINABLE CITIES AND STREETS AGREE PROP H IS VITAL.",
+      "side": "yes",
+      "text": "A well-funded transit system is core infrastructure for everyone who walks, bikes, and rolls on San Francisco streets. Without Prop H, Muni funding will be cut. Fewer buses means more congestion. San Francisco cannot meet its Vision Zero goals while gutting the transit system that keeps traffic off our streets. Prop H protects the service that keeps San Francisco moving safely. Safe streets and strong transit go hand in hand. We can’t build the walkable, bikeable, liveable city we’re working toward if Muni service collapses around us. Join transit riders, cyclists, pedestrian safety, and housing advocates across San Francisco. Vote Yes on H for a safe and sustainable San Francisco. Vote Yes on H for stronger Muni.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "A well-funded transit system is core infrastructure for everyone who walks, bikes, and rolls on San Francisco streets. Without Prop H, Muni funding will be cut. Fewer buses means more congestion. San Francisco cannot meet its Vision Zero goals while gutting the transit system that keeps traffic off our streets. Prop H protects the service that keeps San Francisco moving safely. Safe streets and strong transit go hand in hand. We can’t build the walkable, bikeable, liveable city we’re working toward if Muni service collapses around us. Join transit riders, cyclists, pedestrian safety, and housing advocates across San Francisco. Vote Yes on H for a safe and sustainable San Francisco. Vote Yes on H for stronger Muni.",
+          "locator": "p. 129, Paid Arguments in Favor of Proposition H, argument 7 of 10 (right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-08",
+      "kind": "paid",
+      "authors": [
+        "Transit Workers Union - 250A",
+        "SF Labor Council",
+        "Teamsters Local 665",
+        "Firefighters 798",
+        "SEIU Local 87",
+        "SF Building Trades",
+        "Carpenters Local 22 Senior Field Representative Dan Calamuci*",
+        "Operating Engineers Local 3 District Representative Charles Lavery*",
+        "Laborers Local 261 SF Liaison Anthony Travis Jr.*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Stronger Muni for All, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Open AI, 2. Anthropic, 3. Ripple Labs.",
+      "heading": "LABOR LEADERS UNITE TO URGE YES ON PROP H.",
+      "side": "yes",
+      "text": "Working people built this city, and Muni is how we get to work. From transit operators to teamsters, carpenters, firefighters, laborers, and engineers, San Francisco’s workforce depends on affordable, reliable transit to reach the job sites, offices, and worksites that keep our city running. Muni workers themselves know what’s at stake — service cuts mean layoffs, longer routes, and a transit system stretched too thin to serve the people who need it most. Prop H protects both riders and the workforce that keeps San Francisco moving. San Francisco’s labor movement stands united: Vote Yes on H.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Working people built this city, and Muni is how we get to work. From transit operators to teamsters, carpenters, firefighters, laborers, and engineers, San Francisco’s workforce depends on affordable, reliable transit to reach the job sites, offices, and worksites that keep our city running. Muni workers themselves know what’s at stake — service cuts mean layoffs, longer routes, and a transit system stretched too thin to serve the people who need it most. Prop H protects both riders and the workforce that keeps San Francisco moving. San Francisco’s labor movement stands united: Vote Yes on H.",
+          "locator": "p. 130, Paid Arguments in Favor of Proposition H, argument 8 of 10 (left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-09",
+      "kind": "paid",
+      "authors": [
+        "Council of District Merchant Associations",
+        "Noe Valley Merchants and Professionals Association",
+        "SF Chamber of Commerce"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Stronger Muni for All, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Open AI, 2. Anthropic, 3. Ripple Labs.",
+      "heading": "BUSINESS LEADERS SUPPORT PROP H TO DRIVE OUR ECONOMIC RECOVERY",
+      "side": "yes",
+      "text": "San Francisco’s economy runs on Muni. Forty percent of San Franciscans who work downtown ride Muni to their jobs, and small businesses across the city depend on customers, employees, and deliveries moving reliably through our streets. A weaker Muni means a weaker economy — for big employers and corner stores alike. Prop H protects the transit service our commercial corridors depend on, and it comes with real accountability. Independent audits ensure every dollar funds Muni service directly and can never be redirected. Muni has already demonstrated fiscal discipline, eliminating vacant positions and saving $137 million in personnel costs. From neighborhood merchants to major employers, San Francisco’s business community knows that a functioning transit system is essential to a functioning economy. Investing in Muni is investing in our recovery. Vote Yes on H for a stronger economy and a stronger Muni.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco’s economy runs on Muni. Forty percent of San Franciscans who work downtown ride Muni to their jobs, and small businesses across the city depend on customers, employees, and deliveries moving reliably through our streets. A weaker Muni means a weaker economy — for big employers and corner stores alike. Prop H protects the transit service our commercial corridors depend on, and it comes with real accountability. Independent audits ensure every dollar funds Muni service directly and can never be redirected. Muni has already demonstrated fiscal discipline, eliminating vacant positions and saving $137 million in personnel costs. From neighborhood merchants to major employers, San Francisco’s business community knows that a functioning transit system is essential to a functioning economy. Investing in Muni is investing in our recovery. Vote Yes on H for a stronger economy and a stronger Muni.",
+          "locator": "p. 130, Paid Arguments in Favor of Proposition H, argument 9 of 10 (left column continuing to right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-10",
+      "kind": "paid",
+      "authors": [
+        "United Democratic Club",
+        "Westside Family Democratic Club",
+        "Richmond District Democratic Club"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Stronger Muni for All, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Open AI, 2. Anthropic, 3. Ripple Labs.",
+      "heading": "DEMOCRATIC CLUBS ACROSS SAN FRANCISCO SUPPORT YES ON PROP H.",
+      "side": "yes",
+      "text": "San Francisco Democrats have always fought for a city that works for everyone. A transit system every resident can rely on is a critical part of that vision. Muni is core to the kind of affordable, equitable city we believe in. Prop H protects Muni service with a fair, tiered tax where those that can afford to pay more will. And it has accountability built in with independent audits ensuring every dollar goes directly to Muni service. Investing in public transit is investing in climate action, economic opportunity, and equity for every neighborhood in San Francisco. Democratic clubs across the city are united behind Prop H because a stronger Muni means a stronger, fairer San Francisco.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco Democrats have always fought for a city that works for everyone. A transit system every resident can rely on is a critical part of that vision. Muni is core to the kind of affordable, equitable city we believe in. Prop H protects Muni service with a fair, tiered tax where those that can afford to pay more will. And it has accountability built in with independent audits ensuring every dollar goes directly to Muni service. Investing in public transit is investing in climate action, economic opportunity, and equity for every neighborhood in San Francisco. Democratic clubs across the city are united behind Prop H because a stronger Muni means a stronger, fairer San Francisco.",
+          "locator": "p. 130, Paid Arguments in Favor of Proposition H, argument 10 of 10 (right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-01",
+      "kind": "paid",
+      "authors": [
+        "Business League"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Business League.",
+      "heading": "VOTE NO ON PROPOSITION H",
+      "side": "no",
+      "text": "We support Muni. We want safe, reliable public transportation. But another long‑term parcel tax is not the solution to SFMTA’s financial problems. Proposition H would create a 15‑year parcel tax, beginning in 2027, with rates adjusted annually for inflation. According to SFMTA, approximately $150 million each year would go toward reducing its existing deficit, while about $10 million would support service‑quality improvements. That raises an important question: If this new tax does not solve SFMTA’s underlying structural deficit, what happens when the next funding gap comes? San Francisco homeowners, property owners, small businesses, working families, and renters are already struggling with one of the highest costs of living and doing business in the country. Another long‑term tax adds more financial pressure to our city. Before asking San Franciscans to pay more for the next 15 years, SFMTA should demonstrate fiscal responsibility, measurable results, transparency, and sustainable solutions to its operational and financial problems. We support Muni. But supporting Muni does not mean automatically supporting another tax. Fix the underlying problems before asking San Franciscans to pay more. VOTE NO ON PROPOSITION H.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "We support Muni. We want safe, reliable public transportation. But another long‑term parcel tax is not the solution to SFMTA’s financial problems. Proposition H would create a 15‑year parcel tax, beginning in 2027, with rates adjusted annually for inflation. According to SFMTA, approximately $150 million each year would go toward reducing its existing deficit, while about $10 million would support service‑quality improvements. That raises an important question: If this new tax does not solve SFMTA’s underlying structural deficit, what happens when the next funding gap comes? San Francisco homeowners, property owners, small businesses, working families, and renters are already struggling with one of the highest costs of living and doing business in the country. Another long‑term tax adds more financial pressure to our city. Before asking San Franciscans to pay more for the next 15 years, SFMTA should demonstrate fiscal responsibility, measurable results, transparency, and sustainable solutions to its operational and financial problems. We support Muni. But supporting Muni does not mean automatically supporting another tax. Fix the underlying problems before asking San Franciscans to pay more. VOTE NO ON PROPOSITION H.",
+          "locator": "pp. 130-131, Paid Arguments Against Proposition H, argument 1 of 1 (p. 130 right column; continues p. 131 left column)"
+        }
+      ]
+    }
+  ],
   "digest": {
     "no_means": {
       "value": "If you vote “no,” you do not want to make these changes.",

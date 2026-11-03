@@ -4,6 +4,91 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition J",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Mayor Daniel Lurie",
+        "State Senator Scott Wiener",
+        "Assemblymember Matt Haney",
+        "Assemblymember Catherine Stefani",
+        "SEIU 1021",
+        "SEIU 2015",
+        "Teamsters 665",
+        "Board President Rafael Mandelman",
+        "Supervisor Bilal Mahmood",
+        "Supervisor Myrna Melgar",
+        "Supervisor Danny Sauter",
+        "Supervisor Alan Wong",
+        "Supervisor Matt Dorsey",
+        "Supervisor Chyanne Chen",
+        "San Francisco Democratic Party",
+        "Saikat Chakrabarti"
+      ],
+      "heading": "Vote YES on Proposition J",
+      "side": "yes",
+      "text": "PROP J ENDS THE UNFAIR TAX BREAK FOR CORPORATE LENDERS Right now, corporate lenders are taking advantage of a tax break that was meant for struggling homeowners. And it’s draining the fund we use to pay for our firefighters, street cleaners, and public health workers. In 1984, to protect San Francisco families who were financially struggling, the city created a tax break for homeowners who couldn’t pay their mortgage and would lose their homes to foreclosure. But the same tax break is also being given to financial institutions and corporate lenders when they acquire office towers, mega apartment complexes, and industrial buildings through foreclosure. That’s not fair, and it’s costing San Francisco hundreds of millions of dollars. Written by Supervisor Bilal Mahmood and Mayor Daniel Lurie, Proposition J will raise between $100 million and 150 million every year for our general fund. It keeps the tax break for homeowners and small residential buildings, but makes sure that corporate lenders can’t take advantage of this tax relief meant for struggling San Francisco families. Our city is dealing with a budget shortfall, and we are facing cuts to city services. Prop J helps close that gap by ending a giveaway to corporate lenders that are foreclosing on our residents. PROPOSITION J is endorsed by:",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "PROP J ENDS THE UNFAIR TAX BREAK FOR CORPORATE LENDERS Right now, corporate lenders are taking advantage of a tax break that was meant for struggling homeowners. And it’s draining the fund we use to pay for our firefighters, street cleaners, and public health workers. In 1984, to protect San Francisco families who were financially struggling, the city created a tax break for homeowners who couldn’t pay their mortgage and would lose their homes to foreclosure. But the same tax break is also being given to financial institutions and corporate lenders when they acquire office towers, mega apartment complexes, and industrial buildings through foreclosure. That’s not fair, and it’s costing San Francisco hundreds of millions of dollars. Written by Supervisor Bilal Mahmood and Mayor Daniel Lurie, Proposition J will raise between $100 million and 150 million every year for our general fund. It keeps the tax break for homeowners and small residential buildings, but makes sure that corporate lenders can’t take advantage of this tax relief meant for struggling San Francisco families. Our city is dealing with a budget shortfall, and we are facing cuts to city services. Prop J helps close that gap by ending a giveaway to corporate lenders that are foreclosing on our residents. PROPOSITION J is endorsed by:",
+          "locator": "p. 146, Proponent's Argument in Favor of Proposition J (left column)"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Quentin L Kopp",
+        "San Francisco Taxpayers Association"
+      ],
+      "side": "no",
+      "text": "Vote NO on Proposition J Proposition J is not about “fairness” or protecting struggling families—it is a misguided tax hike that will worsen San Francisco’s economic crisis and housing shortage. The proponents claim this measure closes an “unfair tax break” and will generate up to $150 million for our general fund. What they fail to mention is that this money has no strings attached. It flows directly into the City’s general fund, acting as a blank check for politicians rather than legally guaranteeing a single cent for the “firefighters, street cleaners, and public health workers” they mention. Furthermore, penalizing lenders who take over distressed “office towers, mega apartment complexes, and industrial buildings” through foreclosure will have catastrophic downstream effects. San Francisco is already suffering from record-high commercial vacancies. By increasing the financial burden on institutions trying to stabilize and resell these failing properties, Prop J will stall recovery efforts. Instead of revitalizing our downtown and neighborhoods, distressed properties will sit abandoned, deepening the budget shortfall as overall property values and tax revenues plummet. The original 1984 tax rules were designed to keep the real estate market functioning during crises. Changing these rules now will deter the investment San Francisco desperately needs. When lenders face higher operational costs, those costs are inevitably passed down to everyday San Franciscans through higher interest rates, stricter lending requirements, and reduced access to capital for local projects. Don’t give City Hall another blank check while stalling our economic recovery. Vote NO on Proposition J.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Vote NO on Proposition J Proposition J is not about “fairness” or protecting struggling families—it is a misguided tax hike that will worsen San Francisco’s economic crisis and housing shortage. The proponents claim this measure closes an “unfair tax break” and will generate up to $150 million for our general fund. What they fail to mention is that this money has no strings attached. It flows directly into the City’s general fund, acting as a blank check for politicians rather than legally guaranteeing a single cent for the “firefighters, street cleaners, and public health workers” they mention. Furthermore, penalizing lenders who take over distressed “office towers, mega apartment complexes, and industrial buildings” through foreclosure will have catastrophic downstream effects. San Francisco is already suffering from record-high commercial vacancies. By increasing the financial burden on institutions trying to stabilize and resell these failing properties, Prop J will stall recovery efforts. Instead of revitalizing our downtown and neighborhoods, distressed properties will sit abandoned, deepening the budget shortfall as overall property values and tax revenues plummet. The original 1984 tax rules were designed to keep the real estate market functioning during crises. Changing these rules now will deter the investment San Francisco desperately needs. When lenders face higher operational costs, those costs are inevitably passed down to everyday San Franciscans through",
+          "locator": "p. 146, Rebuttal to Proponent's Argument in Favor of Proposition J (right column)"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Judge Quentin L Kopp",
+        "San Francisco Taxpayers Association"
+      ],
+      "side": "no",
+      "text": "Vote NO on eliminating the real property transfer tax foreclosure exemption. This measure imposes heavy tax penalties on property foreclosures and deeds-in-lieu, severely crippling San Francisco’s economic recovery and housing market by creating a punitive, unpredictable environment for commercial and residential lending. 1. Disproportionately Harms San Francisco’s Credit and Lending Environment No other major city in California imposes transfer taxes on distressed lenders taking back collateral. By penalizing banks, community lenders, and credit unions when a borrower defaults, this measure makes lending in San Francisco significantly riskier and more expensive than anywhere else in the state. Lenders will respond by raising interest rates, demanding higher down payments, or avoiding San Francisco real estate entirely. 2. Stifles Housing Production and Downtown Recovery San Francisco urgently needs investment to build multi-family housing and revitalize downtown commercial space. Chilling the credit market directly undermines housing development, deters adaptive reuse projects, and makes it harder for property owners to restructure debt during economic downturns. 3. Forces Destructive Fire Sales and Abandonment When distressed properties face massive tax bills just to clear bad debt, lenders and property owners will be forced into drawn-out legal battles or distressed fire sales. This depresses neighborhood property values and leaves vacant buildings blighting local corridors. San Francisco cannot afford policies that scare away capital, freeze lending, and penalize financial resolution. Protect local economic stability and housing credit. Vote NO on Measure J.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Vote NO on eliminating the real property transfer tax foreclosure exemption. This measure imposes heavy tax penalties on property foreclosures and deeds-in-lieu, severely crippling San Francisco’s economic recovery and housing market by creating a punitive, unpredictable environment for commercial and residential lending. 1. Disproportionately Harms San Francisco’s Credit and Lending Environment No other major city in California imposes transfer taxes on distressed lenders taking back collateral. By penalizing banks, community lenders, and credit unions when a borrower defaults, this measure makes lending in San Francisco significantly riskier and more expensive than anywhere else in the state. Lenders will respond by raising interest rates, demanding higher down payments, or avoiding San Francisco real estate entirely. 2. Stifles Housing Production and Downtown Recovery San Francisco urgently needs investment to build multi-family housing and revitalize downtown commercial space. Chilling the credit market directly undermines housing development, deters adaptive reuse projects, and makes it harder for property owners to restructure debt during economic downturns. 3. Forces Destructive Fire Sales and Abandonment When distressed properties face massive tax bills just to clear bad debt, lenders and property owners will be forced into drawn-out legal battles or distressed fire sales. This depresses neighborhood property values and leaves vacant buildings blighting local",
+          "locator": "p. 147, Opponent's Argument Against Proposition J (left column)"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Supervisor Bilal Mahmood"
+      ],
+      "heading": "YES ON J — TAX CORPORATE LENDERS WHEN THEY FORECLOSE ON BUILDINGS",
+      "side": "yes",
+      "text": "Prop J doesn’t touch families losing their homes. It only removes the tax break for corporate lenders that foreclose on office towers, mega apartment complexes, and industrial buildings. Homeowners and small residential buildings keep the exemption. That’s written into the measure. WONT HARM THE MARKET: This tax break was created in 1984 to protect struggling families, not to subsidize lenders. Investment firms and corporate lenders that foreclose on large commercial properties are sophisticated players who already price risk into every deal. A modest transfer tax on a handful of major transactions a year isn’t going to freeze lending citywide. It just closes a loophole those lenders were never supposed to use. WONT HURT HOUSING PRODUCTION: The foreclosure tax will apply to office towers, industrial buildings, and mega-complexes that already exist, not new housing construction. Prop J doesn’t tax builders. It taxes lenders. That won’t affect how new housing gets built. PROTECTS CITY SERVICES: Prop J’s opponents are asking San Franciscans to keep giving a tax break to the very institutions that already benefit most from foreclosure, at the expense of the fund that pays for firefighters, street cleaners, and public health workers. The choice is simple. Keep an unfair corporate tax break meant for families. Or put millions of dollars back into our fund for city services. Vote YES on Prop J.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Prop J doesn’t touch families losing their homes. It only removes the tax break for corporate lenders that foreclose on office towers, mega apartment complexes, and industrial buildings. Homeowners and small residential buildings keep the exemption. That’s written into the measure. WONT HARM THE MARKET: This tax break was created in 1984 to protect struggling families, not to subsidize lenders. Investment firms and corporate lenders that foreclose on large commercial properties are sophisticated players who already price risk into every deal. A modest transfer tax on a handful of major transactions a year isn’t going to freeze lending citywide. It just closes a loophole those lenders were never supposed to use. WONT HURT HOUSING PRODUCTION: The foreclosure tax will apply to office towers, industrial buildings, and mega-complexes that already exist, not new housing construction. Prop J doesn’t tax builders. It taxes lenders. That won’t affect how new housing gets built. PROTECTS CITY SERVICES: Prop J’s opponents are asking San Franciscans to keep giving a tax break to the very institutions that already benefit most from foreclosure, at the expense of the fund that pays for firefighters, street cleaners, and public health workers. The choice is simple. Keep an unfair corporate tax break meant for families. Or put millions of dollars back into our fund for city services. Vote YES on Prop J.",
+          "locator": "p. 147, Rebuttal to Opponent's Argument Against Proposition J (right column)"
+        }
+      ]
+    }
+  ],
   "conflicts": [
     {
       "contest": "contest:2026-ca-general/sf-prop-i",

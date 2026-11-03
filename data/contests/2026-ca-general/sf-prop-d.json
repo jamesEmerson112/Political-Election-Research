@@ -4,6 +4,539 @@
   "kind": "measure",
   "election": "election:2026-ca-general",
   "name": "San Francisco Proposition D",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Mayor Daniel Lurie",
+        "Board of Supervisors President Rafael Mandelman",
+        "Speaker Emerita Nancy Pelosi",
+        "Nancy Tung, San Francisco Democratic Party",
+        "Former SF Ethics Chair Ben Hur",
+        "Former Deputy City Attorney Jim Lazarus",
+        "SFSU Associate Professor of Political Science Jason McDaniel",
+        "Former City Controller Ben Rosenfield",
+        "Former Fire Chief Joanne Hayes-White",
+        "Dan Calamuci, Carpenters Local 22*",
+        "Anthony Travis Jr., Laborers Local 261*",
+        "Charles Lavery, Operating Engineers Local 3*",
+        "Teamsters Local 665",
+        "Council of District Merchant Associations",
+        "Chinatown History and Culture Association"
+      ],
+      "side": "yes",
+      "text": "Clean Up City Hall is a package of Props A, D, E and F to improve neighborhood services, speed up permitting and reduce wasteful spending so we can invest in our great city. PROPOSITION D GIVES MORE VOTERS A VOICE ON WHAT APPEARS ON BALLOTS. Currently a minority of supervisors, just 2% of voters or the mayor acting alone, can throw anything on the ballot without public input, transparency or proven community support. “Even well-intentioned ideas can include mistakes and unintended consequences.” - Ben Hur, former SF Ethics Chair. San Francisco is the only city in California that allows these low thresholds — and that’s why we have the longest and most confusing ballots in the state. PROP D REQUIRES MORE TRANSPARENCY, COMPROMISE & COMMUNITY INPUT. Proposition D requires a public vote of the majority of supervisors or signatures from 8% of voters. It removes the mayor’s sole authority to place measures on the ballot to ensure a fair balance of power. The signature requirement remains below the state standard of 10% and neighboring cities like Oakland. THE RESULT OF THESE MODEST REFORMS WILL BE MORE OPEN DEBATE AND CITIZEN PARTICIPATION BEFORE MEASURES ARE ON THE BALLOT. San Francisco works best when we work in coalitions together. Please join the citywide coalition to make the system accountable to all!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Clean Up City Hall is a package of Props A, D, E and F to improve neighborhood services, speed up permitting and reduce wasteful spending so we can invest in our great city. PROPOSITION D GIVES MORE VOTERS A VOICE ON WHAT APPEARS ON BALLOTS. Currently a minority of supervisors, just 2% of voters or the mayor acting alone, can throw anything on the ballot without public input, transparency or proven community support. “Even well-intentioned ideas can include mistakes and unintended consequences.” - Ben Hur, former SF Ethics Chair. San Francisco is the only city in California that allows these low thresholds — and that’s why we have the longest and most confusing ballots in the state. PROP D REQUIRES MORE TRANSPARENCY, COMPROMISE & COMMUNITY INPUT. Proposition D requires a public vote of the majority of supervisors or signatures from 8% of voters. It removes the mayor’s sole authority to place measures on the ballot to ensure a fair balance of power. The signature requirement remains below the state standard of 10% and neighboring cities like Oakland. THE RESULT OF THESE MODEST REFORMS WILL BE MORE OPEN DEBATE AND CITIZEN PARTICIPATION BEFORE MEASURES ARE ON THE BALLOT. San Francisco works best when we work in coalitions together. Please join the citywide coalition to make the system accountable to all!",
+          "locator": "p. 86, Proponent's Argument in Favor of Proposition D"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "San Francisco Labor Council",
+        "San Francisco Senior & Disability Action",
+        "United Educators of San Francisco",
+        "San Francisco Women’s Political Committee",
+        "San Francisco Tenants Union",
+        "Indivisible SF",
+        "Coleman Advocates for Children & Youth",
+        "San Francisco Rising Action Fund"
+      ],
+      "heading": "No on D: It silences San Francisco voters",
+      "side": "no",
+      "text": "Proponents call it “modest reform.” A fourfold increase is not modest. It’s extreme. Quadrupling signature requirements from 10,600 to 42,500 will require hiring paid signature firms to qualify and cost one million dollars or more. That extreme cost will price out neighborhood groups, unions and community advocates from participating in the initiative process. Proponents have raised $8.6 million, collected from a small number of billionaires and venture capitalists. They can afford the higher costs. But the rest of us can’t. Ending citizen initiatives won’t move San Francisco forwards. Instead, it takes us back to 1898, when San Francisco became one of the first California cities to win this right. If this passes, San Francisco will have the highest signature requirement of any California county. Higher than Los Angeles and San Jose. Over three times higher than statewide measures which require 2.4%. Proponents want you to believe that raising the threshold from 2% to 8% is modest. But that’s like raising your rent from $2000 to $8000. It’s extreme – and extremely harmful. Don’t be fooled. Don’t rob our right to vote. Vote NO on D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proponents call it “modest reform.” A fourfold increase is not modest. It’s extreme. Quadrupling signature requirements from 10,600 to 42,500 will require hiring paid signature firms to qualify and cost one million dollars or more. That extreme cost will price out neighborhood groups, unions and community advocates from participating in the initiative process. Proponents have raised $8.6 million, collected from a small number of billionaires and venture capitalists. They can afford the higher costs. But the rest of us can’t. Ending citizen initiatives won’t move San Francisco forwards. Instead, it takes us back to 1898, when San Francisco became one of the first California cities to win this right. If this passes, San Francisco will have the highest signature requirement of any California county. Higher than Los Angeles and San Jose. Over three times higher than statewide measures which require 2.4%. Proponents want you to believe that raising the threshold from 2% to 8% is modest. But that’s like raising your rent from $2000 to $8000. It’s extreme – and extremely harmful. Don’t be fooled. Don’t rob our right to vote. Vote NO on D.",
+          "locator": "p. 86, Rebuttal to Proponent's Argument in Favor of Proposition D"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "San Francisco Labor Council",
+        "San Francisco Senior & Disability Action",
+        "United Educators of San Francisco",
+        "San Francisco Women’s Political Committee",
+        "San Francisco Tenants Union",
+        "Indivisible SF",
+        "Community Tenants Association",
+        "Coleman Advocates for Children & Youth",
+        "San Francisco Rising Action Fund"
+      ],
+      "heading": "NO ON D: DON’T ROB OUR RIGHT TO VOTE.",
+      "side": "no",
+      "text": "Don’t be fooled. This isn’t about streamlining or state standards. Prop D takes away rights San Franciscans have held for 125 years: to put citizen initiatives on the ballot. Robbing it away. San Francisco was the first California city to have this right. Now, wealthy tech billionaires are spending millions to take it away. They would quadruple the signatures required from 10,600 to 42,500, a limit so high only the very wealthy can reach it. Follow the money. Wealthy interests can afford to pay one million dollars to collect 42,500 signatures. Neighborhood groups, labor unions and community advocates will be priced out. We’ll lose our voice in the democratic process. 10,600 signatures is tough and fair. Since 1932, around 10,600 signatures have been required to qualify a measure. It’s not easy: citizen-initiatives are only 15% of all ballot measures. But when City Hall ignores us, citizens have the power to act. A check and balance. 42,500 signatures is out of reach. It will be impossible for citizen-led, grassroots organizations to qualify a measure. After 125 years, it will silence the voices of some San Franciscans forever. Citizens’ initiatives make a difference. They have increased the minimum wage, ensured large corporations pay their fair share of taxes, provided legal aid for renters facing eviction, banned corrupt contributions to politicians, passed Sunshine laws, established rent control, and funded schools, childcare and affordable housing. After 125 years of direct democracy, don’t let them rob it away. Vote NO on D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Don’t be fooled. This isn’t about streamlining or state standards. Prop D takes away rights San Franciscans have held for 125 years: to put citizen initiatives on the ballot. Robbing it away. San Francisco was the first California city to have this right. Now, wealthy tech billionaires are spending millions to take it away. They would quadruple the signatures required from 10,600 to 42,500, a limit so high only the very wealthy can reach it. Follow the money. Wealthy interests can afford to pay one million dollars to collect 42,500 signatures. Neighborhood groups, labor unions and community advocates will be priced out. We’ll lose our voice in the democratic process. 10,600 signatures is tough and fair. Since 1932, around 10,600 signatures have been required to qualify a measure. It’s not easy: citizen-initiatives are only 15% of all ballot measures. But when City Hall ignores us, citizens have the power to act. A check and balance. 42,500 signatures is out of reach. It will be impossible for citizen-led, grassroots organizations to qualify a measure. After 125 years, it will silence the voices of some San Franciscans forever. Citizens’ initiatives make a difference. They have increased the minimum wage, ensured large corporations pay their fair share of taxes, provided legal aid for renters facing eviction, banned corrupt contributions to politicians, passed Sunshine laws, established rent control, and funded schools, childcare and affordable housing. After 125 years of",
+          "locator": "p. 87, Opponent's Argument Against Proposition D"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Mayor Daniel Lurie",
+        "Board of Supervisors President Rafael Mandelman",
+        "Former Controller Ben Rosenfield"
+      ],
+      "heading": "D ENDS THE INSIDER MONOPOLY ON POWER AT THE BALLOT",
+      "side": "yes",
+      "text": "The insiders are misleading voters because their monopoly on power is being challenged. They think the system works great. San Franciscans know the system is broken: keeping us in a constant state of confusion, dividing neighbors, and producing bad outcomes. D is a set of modest reforms requiring transparency, compromise, and community input before issues get on the ballot so that voters can weigh in on well thought-out measures. None of these reforms add a financial cost. D REBALANCES POWER TO VOTERS Currently a minority of supervisors, just 2% of voters, or the mayor acting alone can throw anything on the ballot without public input, transparency, or proven community support. Political insiders exploit these rules regularly. That is why San Francisco has the longest and most confusing ballots in the state. D REQUIRES TRANSPARENCY, COMPROMISE AND COMMUNITY INPUT. With D, placing a measure on the ballot requires a public vote of a majority of the Supervisors or a modest amount of signatures. D also removes the mayor’s sole authority to place measures on the ballot, ensuring a fair balance of power. Opponents claim today’s rules date to 1932. The Controller’s report confirms the current threshold was set in 2022, requiring approximately 9,000 fewer signatures than before. San Francisco will still have one of the lowest signature thresholds in California, including other large cities like Oakland, San Diego, and Long Beach.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The insiders are misleading voters because their monopoly on power is being challenged. They think the system works great. San Franciscans know the system is broken: keeping us in a constant state of confusion, dividing neighbors, and producing bad outcomes. D is a set of modest reforms requiring transparency, compromise, and community input before issues get on the ballot so that voters can weigh in on well thought-out measures. None of these reforms add a financial cost. D REBALANCES POWER TO VOTERS Currently a minority of supervisors, just 2% of voters, or the mayor acting alone can throw anything on the ballot without public input, transparency, or proven community support. Political insiders exploit these rules regularly. That is why San Francisco has the longest and most confusing ballots in the state. D REQUIRES TRANSPARENCY, COMPROMISE AND COMMUNITY INPUT. With D, placing a measure on the ballot requires a public vote of a majority of the Supervisors or a modest amount of signatures. D also removes the mayor’s sole authority to place measures on the ballot, ensuring a fair balance of power. Opponents claim today’s rules date to 1932. The Controller’s report confirms the current threshold was set in 2022, requiring approximately 9,000 fewer signatures than before. San Francisco will still have one of the lowest signature thresholds in California, including other large cities like Oakland, San Diego, and Long Beach.",
+          "locator": "p. 87, Rebuttal to Opponent's Argument Against Proposition D"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-01",
+      "kind": "paid",
+      "authors": [
+        "Sean Elsbernd President/CEO SPUR (www.spur.org)"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: SPUR.",
+      "heading": "Fewer Measures. Better Decisions.",
+      "side": "yes",
+      "text": "San Francisco voters face some of the longest, most complicated ballots in California — 15 local measures in November 2024 alone, compared to 3 in Oakland and 1 in San José. Since 1996, San Franciscans have voted on 418 local measures, nearly half placed on the ballot without the ordinary legislative process of public hearings and Board approval. This reform comes straight from SPUR’s Charter for Change (2026), building on recommendations SPUR first raised in Designed to Serve (2024) and on SPUR’s long history of advocating for smarter, more deliberate lawmaking in San Francisco, including its sponsorship of 2007’s ballot-sunshine reforms. The measure ends the practice of the Mayor or just four Supervisors placing measures directly on the ballot without majority Board support — a power no other major California city grants. It raises the citizen signature threshold from 2% to 8% of registered voters, still lower than Oakland, San Diego, Sacramento, and most California cities. And it lets initiative sponsors withdraw measures before an election, opening the door to negotiated solutions instead of costly campaigns. Complex policy deserves public hearings and negotiation, not an up-or-down vote squeezed between a dozen other measures. This measure lets City Hall do its job, reserving the ballot for issues that truly need a public vote. Vote YES.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco voters face some of the longest, most complicated ballots in California — 15 local measures in November 2024 alone, compared to 3 in Oakland and 1 in San José. Since 1996, San Franciscans have voted on 418 local measures, nearly half placed on the ballot without the ordinary legislative process of public hearings and Board approval. This reform comes straight from SPUR’s Charter for Change (2026), building on recommendations SPUR first raised in Designed to Serve (2024) and on SPUR’s long history of advocating for smarter, more deliberate lawmaking in San Francisco, including its sponsorship of 2007’s ballot-sunshine reforms. The measure ends the practice of the Mayor or just four Supervisors placing measures directly on the ballot without majority Board support — a power no other major California city grants. It raises the citizen signature threshold from 2% to 8% of registered voters, still lower than Oakland, San Diego, Sacramento, and most California cities. And it lets initiative sponsors withdraw measures before an election, opening the door to negotiated solutions instead of costly campaigns. Complex policy deserves public hearings and negotiation, not an up-or-down vote squeezed between a dozen other measures. This measure lets City Hall do its job, reserving the ballot for issues that truly need a public vote. Vote YES.",
+          "locator": "p. 88, Paid Arguments in Favor of Proposition D (1 of 5)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-02",
+      "kind": "paid",
+      "authors": [
+        "Former Controller Ben Rosenfield",
+        "Former Sheriff Vicki Hennessy",
+        "Former Director of SF Planning John Rahaim",
+        "Former Deputy City Attorney James Lazarus",
+        "Former Fire Chief Joanne Hayes-White"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Clean Up City Hall, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Michael Moritz, 2. John Pritzker, 3. Chris Larsen.",
+      "heading": "GOOD GOVERNANCE LEADERS AGREE PROP D WILL IMPROVE VOTER TRUST.",
+      "side": "yes",
+      "text": "A healthy democracy depends on a ballot voters can trust — one with proposals made with real community support, not political maneuvering. San Francisco’s current system falls far short. It requires 80% fewer signatures than the state standard, meaning a small minority of politicians and private interests can flood the ballot with contradictory measures designed to confuse voters and settle political scores. We’ve seen how this plays out: instead of building coalitions and answering hard questions publicly, insiders can target a handful of supervisors to get a measure on the ballot. Prop D protects the ballot from manipulation. It requires a majority of the Board of Supervisors or signatures from 8% of voters — much closer to the state’s 10% standard — and removes the mayor’s power to unilaterally place measures on the ballot, which no other California cities had to start with. It also lets proponents withdraw measures, allowing space to reach agreements or correct for flaws or unintended consequences instead of leaving voters to clean up the mess. This is a structural fix for a structural problem: a process that currently rewards insider access instead of genuine coalition-building and public vetting. Good government and a functioning democracy means a ballot voters can trust. Prop D gets us there.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "A healthy democracy depends on a ballot voters can trust — one with proposals made with real community support, not political maneuvering. San Francisco’s current system falls far short. It requires 80% fewer signatures than the state standard, meaning a small minority of politicians and private interests can flood the ballot with contradictory measures designed to confuse voters and settle political scores. We’ve seen how this plays out: instead of building coalitions and answering hard questions publicly, insiders can target a handful of supervisors to get a measure on the ballot. Prop D protects the ballot from manipulation. It requires a majority of the Board of Supervisors or signatures from 8% of voters — much closer to the state’s 10% standard — and removes the mayor’s power to unilaterally place measures on the ballot, which no other California cities had to start with. It also lets proponents withdraw measures, allowing space to reach agreements or correct for flaws or unintended consequences instead of leaving voters to clean up the mess. This is a structural fix for a structural problem: a process that currently rewards insider access instead of genuine coalition-building and public vetting. Good government and a functioning democracy means a ballot voters can trust. Prop D gets us there.",
+          "locator": "p. 88, Paid Arguments in Favor of Proposition D (2 of 5)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-03",
+      "kind": "paid",
+      "authors": [
+        "Teamsters Local 665",
+        "Carpenters Local 22 Senior Field Representative Dan Calamuci*",
+        "Operating Engineers Local 3 District Representative Charles Lavery*",
+        "Laborers Local 261 SF Liaison Anthony Travis Jr.*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Clean Up City Hall, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Michael Moritz, 2. John Pritzker, 3. Chris Larsen.",
+      "heading": "LABOR LEADERS SAY YES ON D FOR BETTER RESULTS AT THE BALLOT.",
+      "side": "yes",
+      "text": "Working people don’t have lobbyists on retainer — we build power through coalitions, organizing, and showing up. San Francisco’s ballot process currently rewards the opposite. It makes it easy for a small group of politicians to put divisive, intentionally confusing measures forward without building real public support. Under the current system, private interests can skip community organizing altogether and just lobby a few supervisors to put measures before voters. Those with the most access use that shortcut instead of doing the work of earning broad support, the way labor always has. Prop D levels the playing field. A ballot process that rewards coalition-building over insider access is a ballot process that works better for working people and the organizations that represent us. Labor believes in earning support the real way. Vote Yes on Prop D for a fair, transparent democracy.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Working people don’t have lobbyists on retainer — we build power through coalitions, organizing, and showing up. San Francisco’s ballot process currently rewards the opposite. It makes it easy for a small group of politicians to put divisive, intentionally confusing measures forward without building real public support. Under the current system, private interests can skip community organizing altogether and just lobby a few supervisors to put measures before voters. Those with the most access use that shortcut instead of doing the work of earning broad support, the way labor always has. Prop D levels the playing field. A ballot process that rewards coalition-building over insider access is a ballot process that works better for working people and the organizations that represent us. Labor believes in earning support the real way. Vote Yes on Prop D for a fair, transparent democracy.",
+          "locator": "pp. 88-89, Paid Arguments in Favor of Proposition D (3 of 5)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-04",
+      "kind": "paid",
+      "authors": [
+        "Council of District Merchants Associations",
+        "SF Chamber of Commerce",
+        "Noe Valley Merchants and Professionals Association",
+        "Hotel Council"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Clean Up City Hall, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Michael Moritz, 2. John Pritzker, 3. Chris Larsen.",
+      "heading": "SMALL AND BIG BUSINESSES URGE BUILDING CONSENSUS MEASURES THROUGH PROP D.",
+      "side": "yes",
+      "text": "San Francisco’s ballot has become a magnet for divisive, contradictory measures — and businesses trying to plan, invest, and operate here bear the cost of that unstable operating environment. The current rules make it far too easy to flood the ballot with measures that cancel each other out or exist mainly to settle political scores. A more honest, transparent ballot process means fewer contradictory measures, less wasted money, and a more predictable policy environment for the businesses that call San Francisco home. San Francisco’s business community supports a ballot process built on real coalition-building, not insider access: Vote Yes on Prop D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco’s ballot has become a magnet for divisive, contradictory measures — and businesses trying to plan, invest, and operate here bear the cost of that unstable operating environment. The current rules make it far too easy to flood the ballot with measures that cancel each other out or exist mainly to settle political scores. A more honest, transparent ballot process means fewer contradictory measures, less wasted money, and a more predictable policy environment for the businesses that call San Francisco home. San Francisco’s business community supports a ballot process built on real coalition-building, not insider access: Vote Yes on Prop D.",
+          "locator": "p. 89, Paid Arguments in Favor of Proposition D (4 of 5)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-05",
+      "kind": "paid",
+      "authors": [
+        "Chinatown History and Culture Association",
+        "Eva Lee, SF Chinatown Merchants Association*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Clean Up City Hall, Mayor Lurie’s Ballot Measure Committee. The three largest contributors to the true source recipient committee: 1. Michael Moritz, 2. John Pritzker, 3. Chris Larsen.",
+      "heading": "CHINATOWN LEADERS URGE YES ON D FOR A BETTER DEMOCRACY.",
+      "side": "yes",
+      "text": "Chinatown and immigrant communities have long known that the loudest, best-connected voices too often win at City Hall — including on the ballot itself. San Francisco requires far fewer signatures than the state standard, making it easy for insiders to flood the ballot with measures that are intentionally written to confuse and divide in ways that voters, especially those navigating language barriers, should not have to grapple with. An honest, vetted ballot process means fewer confusing measures and a system that rewards communities who organize and build coalitions instead of those with insider access. Chinatown deserves a ballot voters can actually trust and understand. Vote Yes on Prop D for a fairer, more transparent process.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Chinatown and immigrant communities have long known that the loudest, best-connected voices too often win at City Hall — including on the ballot itself. San Francisco requires far fewer signatures than the state standard, making it easy for insiders to flood the ballot with measures that are intentionally written to confuse and divide in ways that voters, especially those navigating language barriers, should not have to grapple with. An honest, vetted ballot process means fewer confusing measures and a system that rewards communities who organize and build coalitions instead of those with insider access. Chinatown deserves a ballot voters can actually trust and understand. Vote Yes on Prop D for a fairer, more transparent process.",
+          "locator": "p. 89, Paid Arguments in Favor of Proposition D (5 of 5)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-01",
+      "kind": "paid",
+      "authors": [
+        "Patrick Monette-Shaw Columnist, Westside Observer*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Patrick Monette-Shaw.",
+      "heading": "Billionaires Buying Election Ballot Measures",
+      "side": "no",
+      "text": "“Proposition D” contains two poison pills: One eliminates four City Supervisors — a minority of the Board — from placing a measure on the ballot, increasing the requirement to six or more. That silences dissenting Supervisors, requiring majority unanimity. That’s undemocratic to voters and Supervisors not bought off by billionaires. The second raises the number of signatures required to qualify a citizen petition ballot initiative, from 2% to 8% of registered voters, a 300% increase, requiring 31,316 additional signatures to qualify, a potential $574,987 cost increase to $766,649, beyond San Francisco voter initiatives’ means. Through 7/15/2026, an Ethics Commission campaign finance dashboard (https://campaign.sfethics.org/elections/2026-11-03/committees/CA1489257.html) disclosed Mayor Lurie’s controlled ballot measure recipient committee “Clean Up City Hall” received $8.95 million from seven billionaires, centimillionaires, and multimillionaires, including Michael Moritz ($2M), Chris Larsen ($1M), Larsen’s wife Lyna Lam ($1M), and John Pritzker ($1M), among others. Of 21 donations, the smallest was $10,000, with zero $100-or-less small-dollar donations. They spent $4.9 million through 7/15/2026 collecting 245,744 signatures to qualify placing Propositions “D,” “E,” and “F” on the ballot, at approximately $18.35 per signature. The campaign finance pre-election report due 9/24/2026 will document additional revenue and expenditures. Billionaires are probably raising more money to buy passage of Lurie’s three signature ballot measures. Before voting, check their updated finance reports at https://netfile.com/public/sfo/campaign/filingsByFiler/216006060-Clean%20Up%20City%20Hall,%20Mayor%20Lurie’s%20Ballot%20Measure%20Committee. The $9 million raised through 7/15/2026 may double, to buy passage of “Proposition D”! City Supervisors are still considering raising paid ballot argument filing fees, and stopping publication of ballot measure legal text in voter guides, weakening voter education (see https://www.westsideobserver.net/26/7-lurie-voter-guide-overhaul-stalls.php). Our ballot measure process isn’t broken, doesn’t need fixing! Reign in Lurie’s billionaire club; kick outside billionaire money out of politics! Stop this insanity: Vote “No” on Propositions “A,” “D,” “E,” and “F”!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "“Proposition D” contains two poison pills: One eliminates four City Supervisors — a minority of the Board — from placing a measure on the ballot, increasing the requirement to six or more. That silences dissenting Supervisors, requiring majority unanimity. That’s undemocratic to voters and Supervisors not bought off by billionaires. The second raises the number of signatures required to qualify a citizen petition ballot initiative, from 2% to 8% of registered voters, a 300% increase, requiring 31,316 additional signatures to qualify, a potential $574,987 cost increase to $766,649, beyond San Francisco voter initiatives’ means. Through 7/15/2026, an Ethics Commission campaign finance dashboard (https://campaign.sfethics.org/elections/2026-11-03/committees/CA1489257.html) disclosed Mayor Lurie’s controlled ballot measure recipient committee “Clean Up City Hall” received $8.95 million from seven billionaires, centimillionaires, and multimillionaires, including Michael Moritz ($2M), Chris Larsen ($1M), Larsen’s wife Lyna Lam ($1M), and John Pritzker ($1M), among others. Of 21 donations, the smallest was $10,000, with zero $100-or-less small-dollar donations. They spent $4.9 million through 7/15/2026 collecting 245,744 signatures to qualify placing Propositions “D,” “E,” and “F” on the ballot, at approximately $18.35 per signature. The campaign finance pre-election report due 9/24/2026 will document additional revenue and expenditures. Billionaires are probably raising more money",
+          "locator": "pp. 89-90, Paid Arguments Against Proposition D (1 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-02",
+      "kind": "paid",
+      "authors": [
+        "San Francisco Labor Council",
+        "United Educators of San Francisco",
+        "Service Employees International Union 1021",
+        "Service Employees International Union 2015"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Prop D silences the voices of working people, not corporations. Vote NO!",
+      "side": "no",
+      "text": "If Prop D passes, big corporations will still be able to place anti-worker measures on the ballot, but working people will be shut out of the process. In 2003, workers collected 9,735 signatures to put Prop L on the ballot to raise San Francisco’s minimum wage. It was passed by 60% of San Francisco voters and was life changing for working families in the city. Prop D is funded almost entirely by billionaires and venture capitalists who want to make it harder for working people to pass laws that make corporations pay their fair share. Support San Francisco working families. Vote No on D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If Prop D passes, big corporations will still be able to place anti-worker measures on the ballot, but working people will be shut out of the process. In 2003, workers collected 9,735 signatures to put Prop L on the ballot to raise San Francisco’s minimum wage. It was passed by 60% of San Francisco voters and was life changing for working families in the city. Prop D is funded almost entirely by billionaires and venture capitalists who want to make it harder for working people to pass laws that make corporations pay their fair share. Support San Francisco working families. Vote No on D.",
+          "locator": "p. 90, Paid Arguments Against Proposition D (2 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-03",
+      "kind": "paid",
+      "authors": [
+        "San Francisco Women’s Political Committee",
+        "San Francisco Women’s Housing Coalition"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Women’s groups of San Francisco say No on D",
+      "side": "no",
+      "text": "The burden of fighting for our communities almost always lands with us, and we will not stand by while a right that San Franciscans have had almost as long as women have had the right to vote is taken away. Prop D raises the threshold for citizen’s initiative HIGHER than the State of California’s threshold, and would require over 42,000 signatures. No on Prop D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The burden of fighting for our communities almost always lands with us, and we will not stand by while a right that San Franciscans have had almost as long as women have had the right to vote is taken away. Prop D raises the threshold for citizen’s initiative HIGHER than the State of California’s threshold, and would require over 42,000 signatures. No on Prop D.",
+          "locator": "p. 90, Paid Arguments Against Proposition D (3 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-04",
+      "kind": "paid",
+      "authors": [
+        "Small Business Forward",
+        "Ritual Coffee",
+        "Lynne Angel, Owner, El Rio*",
+        "Justin Dolezaal, Co-Owner, Bar Part Time*",
+        "Nicholas Parker, Owner, Mercury Cafe*",
+        "Diane Ramirez, Owner, Bangin Hair Salon*",
+        "Sean Mabry, Co-Owner, Mothership*",
+        "Yolanda Porrata, Owner, Vera Skin Studio*",
+        "Isabella Hill, Co-Owner, Happy House*",
+        "Julian Ensworth, Managing Partner, Horsies Bar*",
+        "Jasjit Ahluwalia, Owner, The Laundry Corner*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Your neighborhood businesses say No on D",
+      "side": "no",
+      "text": "Simply put, Prop D is a power grab by big businesses and tech billionaires. If Prop D passes, they will have no problem spending $1,000,000 or more to gather signatures and change laws they disagree with. But for small businesses like us, doing that is impossible. We, like so many San Franciscans, rely on grassroots activism to stay in business and continue to serve the city we love. Stand up for small business. Say NO to Prop D!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Simply put, Prop D is a power grab by big businesses and tech billionaires. If Prop D passes, they will have no problem spending $1,000,000 or more to gather signatures and change laws they disagree with. But for small businesses like us, doing that is impossible. We, like so many San Franciscans, rely on grassroots activism to stay in business and continue to serve the city we love. Stand up for small business. Say NO to Prop D!",
+          "locator": "p. 90, Paid Arguments Against Proposition D (4 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-05",
+      "kind": "paid",
+      "authors": [
+        "Westside Forward",
+        "Castro LGBTQ Cultural District",
+        "Haight Ashbury Neighborhood Council",
+        "Richmond District Democratic Club",
+        "Telegraph Hill Dwellers",
+        "Neighborhoods United San Francisco",
+        "Albert Chow, Owner, Great Wall Hardware",
+        "AjaiNicole Duncan, Co-President Harvey Milk LGBTQ Democratic Club*",
+        "Leah LaCroix, President, District 11 Democratic Club*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "42,500 signatures: easy for wealthy interests, impossible for your neighborhood",
+      "side": "no",
+      "text": "If Prop D passes, it will require 42,500 signatures to place an ordinance on the ballot, four times higher than the 10,600 required today. Wealthy interests can use paid signature companies at a cost of $20 per signature or more – nearly $1 million. Neighbors and ordinary citizens would need up to 10,000 volunteer hours to collect the same amount. Prop D won’t stop ballot bloat – it will just let those who can write big checks put their measures on the ballot, while regular San Franciscans are left out. Protect access for everyone, and vote NO on D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If Prop D passes, it will require 42,500 signatures to place an ordinance on the ballot, four times higher than the 10,600 required today. Wealthy interests can use paid signature companies at a cost of $20 per signature or more – nearly $1 million. Neighbors and ordinary citizens would need up to 10,000 volunteer hours to collect the same amount. Prop D won’t stop ballot bloat – it will just let those who can write big checks put their measures on the ballot, while regular San Franciscans are left out. Protect access for everyone, and vote NO on D.",
+          "locator": "pp. 90-91, Paid Arguments Against Proposition D (5 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-06",
+      "kind": "paid",
+      "authors": [
+        "San Francisco Tenants Union",
+        "San Francisco Anti-Displacement Coalition",
+        "Affordable Housing Alliance"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Don’t make renters pay more! Vote NO on D",
+      "side": "no",
+      "text": "Big real estate interests are funding Prop D because it will prevent renters from passing laws to protect us from unfair evictions, excessive rent hikes and unscrupulous landlords. In 2018, voters passed Prop F to provide free legal representation for evicted tenants, leading to a drastic reduction in evictions of low-income seniors and others who couldn’t afford their own attorney. This required 9,485 signatures to get on the ballot and was passed by an overwhelming majority of voters. Wealthy interests are spending millions to pass Prop D to make the threshold an impossible 42,500 signatures and stop measures that protect renters. Vote No on D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Big real estate interests are funding Prop D because it will prevent renters from passing laws to protect us from unfair evictions, excessive rent hikes and unscrupulous landlords. In 2018, voters passed Prop F to provide free legal representation for evicted tenants, leading to a drastic reduction in evictions of low-income seniors and others who couldn’t afford their own attorney. This required 9,485 signatures to get on the ballot and was passed by an overwhelming majority of voters. Wealthy interests are spending millions to pass Prop D to make the threshold an impossible 42,500 signatures and stop measures that protect renters. Vote No on D.",
+          "locator": "p. 91, Paid Arguments Against Proposition D (6 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-07",
+      "kind": "paid",
+      "authors": [
+        "United Educators of San Francisco",
+        "Coleman Advocates for Children & Youth",
+        "MyPath",
+        "Ryan Hazelton, Chair, San Francisco Childcare Planning & Advisory Council*",
+        "Dawn Stueckle, Executive Director of Sunset Youth Services*",
+        "Matt Alexander, Member, Board of Education*",
+        "Susan Solomon, City College Trustee*",
+        "Vick Chung, City College Trustee*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Our children depend on funding that Prop D would have made impossible.",
+      "side": "no",
+      "text": "Prop D will make it much harder to fund our schools and take care of our children. In 2018, San Franciscans gathered signatures to place two key measures on the ballot: Prop C, which taxes large commercial landlords to fund childcare and early education; and Prop G, which funds teacher salaries and school programs. Both required 9,485 signatures and were passed by voters. Under Prop D, the same measures would require 42,500 signatures, meaning it would be impossible for parents and teachers. For our kids, vote No on D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Prop D will make it much harder to fund our schools and take care of our children. In 2018, San Franciscans gathered signatures to place two key measures on the ballot: Prop C, which taxes large commercial landlords to fund childcare and early education; and Prop G, which funds teacher salaries and school programs. Both required 9,485 signatures and were passed by voters. Under Prop D, the same measures would require 42,500 signatures, meaning it would be impossible for parents and teachers. For our kids, vote No on D.",
+          "locator": "p. 91, Paid Arguments Against Proposition D (7 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-08",
+      "kind": "paid",
+      "authors": [
+        "Chinese for Affirmative Action",
+        "Gordon Mar, Former Supervisor",
+        "Sandra Lee Fewer, Former Supervisor*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Wealthy interests can buy their way onto the ballot. Our community can’t.",
+      "side": "no",
+      "text": "When City Hall or tech billionaires pass laws that unfairly impact our communities, we know how to stand up and fight back. But a crucial tool in that fight is our right to put measures on the ballot. By drastically increasing signature requirements from 10,600 to 42,500, Prop D will make it impossible for grassroots, volunteer-led campaigns to put their own laws on the ballot. Prop D will silence the voice of the Chinese community and insult the work of thousands of volunteers who have stood up for our families and neighborhoods. Vote No on D!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "When City Hall or tech billionaires pass laws that unfairly impact our communities, we know how to stand up and fight back. But a crucial tool in that fight is our right to put measures on the ballot. By drastically increasing signature requirements from 10,600 to 42,500, Prop D will make it impossible for grassroots, volunteer-led campaigns to put their own laws on the ballot. Prop D will silence the voice of the Chinese community and insult the work of thousands of volunteers who have stood up for our families and neighborhoods. Vote No on D!",
+          "locator": "p. 91, Paid Arguments Against Proposition D (8 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-09",
+      "kind": "paid",
+      "authors": [
+        "SF Latino Task Force",
+        "People Organizing to Demand Environmental and Economic Rights (PODER)",
+        "Jackie Fielder, D9 Supervisor*",
+        "David Campos, Vice Chair CA Democratic Party*",
+        "John Avalos, Former D11 Supervisor*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "The Latino community is united: Prop D is bad policy",
+      "side": "no",
+      "text": "Our community is no stranger to grassroots organizing. We have marched in the streets, marched across the state, and fought tooth and nail to gain and protect our rights. Prop D is a disgusting anti-grassroots, anti-worker, anti-community measure that is being funded by the tech billionaires making San Francisco unaffordable for everyone. Reject the billionaire takeover. Vote NO on Prop D!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Our community is no stranger to grassroots organizing. We have marched in the streets, marched across the state, and fought tooth and nail to gain and protect our rights. Prop D is a disgusting anti-grassroots, anti-worker, anti-community measure that is being funded by the tech billionaires making San Francisco unaffordable for everyone. Reject the billionaire takeover. Vote NO on Prop D!",
+          "locator": "p. 92, Paid Arguments Against Proposition D (9 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-10",
+      "kind": "paid",
+      "authors": [
+        "Coleman Advocates for Children & Youth",
+        "Shamman Walton, D10 Supervisor",
+        "Sophie Maxwell, Former D10 Supervisor",
+        "Archbishop Franzo King",
+        "Dion-Jay “DJ” Brookter",
+        "Dontaye Ball",
+        "Leah LaCroix"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Protect the rights of Black voters in San Francisco and vote No on D",
+      "side": "no",
+      "text": "We know all too well what it’s like to be systematically disenfranchised. So take it from us: that is exactly what is happening with Prop D. This measure raises the number of signatures needed to place something on the ballot from ~10,500 to OVER 42,000! San Franciscans have had equal access to the ballot since 1932, and now tech billionaires are trying to raise the threshold out of reach for normal people while preserving the right for themselves. Do not disenfranchise SF voters. Vote NO on D.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "We know all too well what it’s like to be systematically disenfranchised. So take it from us: that is exactly what is happening with Prop D. This measure raises the number of signatures needed to place something on the ballot from ~10,500 to OVER 42,000! San Franciscans have had equal access to the ballot since 1932, and now tech billionaires are trying to raise the threshold out of reach for normal people while preserving the right for themselves. Do not disenfranchise SF voters. Vote NO on D.",
+          "locator": "p. 92, Paid Arguments Against Proposition D (10 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-11",
+      "kind": "paid",
+      "authors": [
+        "Art Agnos, Former Mayor",
+        "Tom Ammiano, Former Assemblymember",
+        "Judge Ellen Chaitin (ret)",
+        "Judge Lillian Sing (ret)",
+        "Paul Melbostad, Former SF Ethics Commission President*",
+        "Esther Marks, Former President, SF League of Women Voters*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Prop D takes away our tool to fight corruption in City Hall. No on D!",
+      "side": "no",
+      "text": "Prop D will take away an important tool for citizen-led reform, and give only the very wealthiest individuals and corporations the right to place measures on the ballot. Vote No on D. For decades, businesses with lucrative city contracts were allowed to contribute to the campaigns of politicians who approved those contracts. This conflict of interest benefited the contractors and the politicians, but taxpayers and citizens paid the cost. Then a group of citizens put Prop J on the ballot in 2000 to force reform at City Hall – needing 9,735 signatures to qualify. If Prop D passes, the next reform initiative would need 42,500 signatures – nearly impossible without spending $1 million or more.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Prop D will take away an important tool for citizen-led reform, and give only the very wealthiest individuals and corporations the right to place measures on the ballot. Vote No on D. For decades, businesses with lucrative city contracts were allowed to contribute to the campaigns of politicians who approved those contracts. This conflict of interest benefited the contractors and the politicians, but taxpayers and citizens paid the cost. Then a group of citizens put Prop J on the ballot in 2000 to force reform at City Hall – needing 9,735 signatures to qualify. If Prop D passes, the next reform initiative would need 42,500 signatures – nearly impossible without spending $1 million or more.",
+          "locator": "p. 92, Paid Arguments Against Proposition D (11 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-12",
+      "kind": "paid",
+      "authors": [
+        "Council of Community Housing Organizations",
+        "San Francisco Women’s Housing Coalition",
+        "Tenants Owners Developers Corporation",
+        "Race and Equity in All Planning Coalition (REP-SF)"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "Prop D will make it harder to build affordable housing",
+      "side": "no",
+      "text": "San Francisco is less affordable than ever, and families across the city are being priced out. The need for affordable housing has never been greater. Direct democracy allows each and every one of us to put forward proposals to address the problems facing our city, but Prop D would raise the signature threshold from 10,600 to 42,500. That doesn’t hurt wealthy developers and corporate interests, but it makes it nearly impossible for everyday San Franciscans to make our voices heard. We have had that right since 1932, but Prop D takes it away. Vote No on D",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco is less affordable than ever, and families across the city are being priced out. The need for affordable housing has never been greater. Direct democracy allows each and every one of us to put forward proposals to address the problems facing our city, but Prop D would raise the signature threshold from 10,600 to 42,500. That doesn’t hurt wealthy developers and corporate interests, but it makes it nearly impossible for everyday San Franciscans to make our voices heard. We have had that right since 1932, but Prop D takes it away. Vote No on D",
+          "locator": "pp. 92-93, Paid Arguments Against Proposition D (12 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-13",
+      "kind": "paid",
+      "authors": [
+        "Supervisor Myrna Melgar",
+        "Supervisor Jackie Fielder",
+        "Supervisor Shamman Walton",
+        "CA Democratic Party Vice Chair* David Campos",
+        "Former Supervisor Gordon Mar",
+        "Former Supervisor Sandra Lee Fewer",
+        "Former Supervisor Hillary Ronen",
+        "Former Supervisor Sophie Maxwell",
+        "Former Supervisor John Avalos"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Fair Access, No on D. The two contributors to the true source recipient committee: Dale Carlson, San Francisco Labor Council Labor & Neighbor Member Education/Political Issues Committee Sponsored by the SFLC.",
+      "heading": "42,500 signatures is easy for wealthy interests, impossible for everyone else. Vote No on D",
+      "side": "no",
+      "text": "Prop D is a dangerous measure that uses positive language — “streamlining, simplifying” — to obscure its true function: raising the signature threshold for citizen initiatives from 10,600 to 42,500, nearly quadrupling the effort and expense required to qualify a measure for the ballot. Deep-pocketed special interests who can afford professional signature-gathering firms will still be able to place initiatives on the ballot — even frivolous ones — while grassroots campaigns, labor unions, and community groups are locked out entirely. Since 1932, San Francisco has required an average of 10,000 signatures, giving citizens access to the ballot. Don’t let them take this vital safeguard away. No on D!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Prop D is a dangerous measure that uses positive language — “streamlining, simplifying” — to obscure its true function: raising the signature threshold for citizen initiatives from 10,600 to 42,500, nearly quadrupling the effort and expense required to qualify a measure for the ballot. Deep-pocketed special interests who can afford professional signature-gathering firms will still be able to place initiatives on the ballot — even frivolous ones — while grassroots campaigns, labor unions, and community groups are locked out entirely. Since 1932, San Francisco has required an average of 10,000 signatures, giving citizens access to the ballot. Don’t let them take this vital safeguard away. No on D!",
+          "locator": "p. 93, Paid Arguments Against Proposition D (13 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-14",
+      "kind": "paid",
+      "authors": [
+        "Robert W. Cherny, Professor emeritus of History San Francisco State University*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Robert Cherny.",
+      "heading": "PRESERVE CITIZEN DEMOCRACY-VOTE NO ON PROPOSITION",
+      "side": "no",
+      "text": "Is our initiative process “broken” because it allows citizens to persuade 10,600 voters (2% of registered voters) to petition for a ballot proposition? Should we “fix” this by requiring more nearly 42,500 signatures (8% of registered voters)? This increase will, undoubtedly, result in fewer citizen led initiatives. But corporations or dark-money PACs, who hire people to harvest signatures for their propositions, won’t be stopped. Do we really want to discourage citizen groups from even trying? Some say that our initiative process is “broken” because we allow ordinary citizens to vote on matters that may, to outsiders, seem trivial, such as closing a highway. The alternative view is that San Francisco is so democratic that we allow ordinary citizens to override bureaucrats on such matters of direct concern to the public. More than a hundred years ago, John Dewey famously said, “the cure for the ills of democracy is more democracy.” This proposal, however, argues that the solution is less democracy, less citizen involvement. I encourage you to vote NO.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Is our initiative process “broken” because it allows citizens to persuade 10,600 voters (2% of registered voters) to petition for a ballot proposition? Should we “fix” this by requiring more nearly 42,500 signatures (8% of registered voters)? This increase will, undoubtedly, result in fewer citizen led initiatives. But corporations or dark-money PACs, who hire people to harvest signatures for their propositions, won’t be stopped. Do we really want to discourage citizen groups from even trying? Some say that our initiative process is “broken” because we allow ordinary citizens to vote on matters that may, to outsiders, seem trivial, such as closing a highway. The alternative view is that San Francisco is so democratic that we allow ordinary citizens to override bureaucrats on such matters of direct concern to the public. More than a hundred years ago, John Dewey famously said, “the cure for the ills of democracy is more democracy.” This proposal, however, argues that the solution is less democracy, less citizen involvement. I encourage you to vote NO.",
+          "locator": "p. 93, Paid Arguments Against Proposition D (14 of 15)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-15",
+      "kind": "paid",
+      "authors": [
+        "Doug Engmann",
+        "Sue Hestor",
+        "Calvin Welch",
+        "Dale Carlson"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Dale Carlson.",
+      "heading": "Keep Resident Control of our Government - Vote No on D",
+      "side": "no",
+      "text": "The Mayor has allied with billionaires to weaken our voices in our own government by proposing a quadrupling of resident signatures needed to place measures on the ballot. Citizen initiatives have saved our parks and neighborhoods, funded affordable housing and provided critical services to our neighbors. Reducing resident voices in our government would tip our politics into a playground for billionaires, increasing their power while reducing ours. Vote NO on D",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Mayor has allied with billionaires to weaken our voices in our own government by proposing a quadrupling of resident signatures needed to place measures on the ballot. Citizen initiatives have saved our parks and neighborhoods, funded affordable housing and provided critical services to our neighbors. Reducing resident voices in our government would tip our politics into a playground for billionaires, increasing their power while reducing ours. Vote NO on D",
+          "locator": "p. 93, Paid Arguments Against Proposition D (15 of 15)"
+        }
+      ]
+    }
+  ],
   "digest": {
     "no_means": {
       "value": "If you vote “no,” you do not want to make these changes.",
