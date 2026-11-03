@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "semafor-com-0fd2212c19",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2023-06-08",
+  "publisher": "Semafor",
+  "title": "Former Cameron aide, Fox Host Steve Hilton launches California group",
+  "url": "https://semafor.com/article/06/08/2023/former-cameron-aide-fox-host-steve-hilton-launches-california-group"
+}

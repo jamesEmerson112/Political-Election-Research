@@ -39,6 +39,96 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "Good Business",
+          "role": "Co-founder",
+          "citations": [
+            {
+              "source": "src:press-foxnews-com-74e9400c63",
+              "quote": "Before his work in politics, Hilton co-founded Good Business, a consulting firm, and the award-winning London Restaurant, The Good Cook."
+            }
+          ]
+        },
+        {
+          "role": "Head of strategy for David Cameron, before the 2010 UK general election",
+          "citations": [
+            {
+              "source": "src:press-foxnews-com-74e9400c63",
+              "quote": "Hilton previously served as senior advisor to former United Kingdom Prime Minister David Cameron and, prior to the 2010 general election, was Cameron’s head of strategy."
+            }
+          ]
+        },
+        {
+          "role": "Senior advisor to UK Prime Minister David Cameron",
+          "citations": [
+            {
+              "source": "src:press-foxnews-com-74e9400c63",
+              "quote": "Hilton previously served as senior advisor to former United Kingdom Prime Minister David Cameron and, prior to the 2010 general election, was Cameron’s head of strategy."
+            },
+            {
+              "source": "src:stevehiltonforgovernor-com-9ce210b9d3",
+              "quote": "He served as a senior advisor to Prime Minister David Cameron before moving to California, where he taught at Stanford, built businesses, hosted The Next Revolution on Fox News, and launched Golden Together."
+            }
+          ]
+        },
+        {
+          "organization": "Stanford University",
+          "role": "Taught at the Institute of Design (d.school)",
+          "citations": [
+            {
+              "source": "src:press-foxnews-com-74e9400c63",
+              "quote": "Additionally, he taught at Stanford University’s Institute of Design (d.school) and is the author of the UK Sunday Times bestseller “More Human: Designing a World Where People Come First.”"
+            }
+          ]
+        },
+        {
+          "organization": "Crowdpac",
+          "role": "Co-founder",
+          "citations": [
+            {
+              "source": "src:press-foxnews-com-74e9400c63",
+              "quote": "He co-founded Crowdpac, an independent and non-partisan Silicon Valley political crowdfunding start-up, to help citizens engage in politics."
+            }
+          ]
+        },
+        {
+          "organization": "FOX News Channel",
+          "role": "Contributor",
+          "start": "2016",
+          "citations": [
+            {
+              "source": "src:press-foxnews-com-74e9400c63",
+              "quote": "Hilton joined FNC as a contributor in 2016 to offer political and tech expertise and analysis across FNC and FOX Business Network’s (FBN) daytime and primetime programs."
+            }
+          ]
+        },
+        {
+          "organization": "FOX News Channel",
+          "role": "Host, The Next Revolution with Steve Hilton",
+          "start": "2017-06",
+          "citations": [
+            {
+              "source": "src:press-foxnews-com-74e9400c63",
+              "quote": "FOX News Channel (FNC) will debut The Next Revolution with Steve Hilton (TNR) on Sunday, June 4th at 9PM/ET."
+            }
+          ]
+        },
+        {
+          "organization": "Golden Together",
+          "role": "Founder",
+          "start": "2023-06",
+          "citations": [
+            {
+              "source": "src:semafor-com-0fd2212c19",
+              "quote": "Steve Hilton, the former David Cameron adviser and very recently former Fox News host tells Semafor exclusively that he is launching a new, bipartisan non-profit called Golden Together later today."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [

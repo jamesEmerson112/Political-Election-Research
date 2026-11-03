@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "press-foxnews-com-74e9400c63",
+  "kind": "press_release",
+  "accessed": "2026-11-03",
+  "publisher": "FOX News Channel",
+  "title": "FOX News Channel's The Next Revolution with Steve Hilton to Debut on Sunday, June 4th",
+  "url": "https://press.foxnews.com/2017/05/fox-news-channels-the-next-revolution-with-steve-hilton-to-debut-on-sunday-june-4th"
+}
