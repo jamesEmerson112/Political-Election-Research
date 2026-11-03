@@ -140,6 +140,28 @@
           "locator": "The Problem"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/high-speed-rail-funding",
+      "stance": "oppose",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Hilton's spending plan says he will cancel state funding for high-speed rail, and at the Sept. 30 debate he named canceling high-speed rail as a source for his tax cuts.",
+      "citations": [
+        {
+          "source": "src:stevehiltonforgovernor-com-07e808baa6",
+          "quote": "Cancel state funding for high-speed rail."
+        },
+        {
+          "source": "src:stevehiltonforgovernor-com-d45d99a4ab",
+          "quote": "announced a unified commitment to stop future taxpayer-funded payments for California's High-Speed Rail project unless the state can prove the current project complies with Proposition 1A — the measure approved by voters in 2008."
+        },
+        {
+          "source": "src:abc30-com-97010d0fae",
+          "quote": "\"The quickest way to get more money in people's pockets is for the government to take less out. That's what I'm going to be doing, and it's not coming from the budgets he describes. You know what it's coming from? Canceling high-speed rail,\" Hilton said."
+        }
+      ]
     }
   ]
 }

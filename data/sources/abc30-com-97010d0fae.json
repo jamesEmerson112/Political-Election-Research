@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "abc30-com-97010d0fae",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-01",
+  "publisher": "ABC30 Fresno (KFSN)",
+  "title": "Xavier Becerra, Steve Hilton clash over key issues in California gubernatorial debate",
+  "url": "https://abc30.com/post/xavier-becerra-steve-hilton-clash-key-issues-california-gubernatorial-debate/19894941/"
+}
