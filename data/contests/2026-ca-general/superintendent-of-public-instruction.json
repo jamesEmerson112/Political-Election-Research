@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/superintendent-of-public-instruction",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Superintendent of Public Instruction",
+  "office": "Superintendent of Public Instruction",
+  "candidates": [
+    {
+      "person": "person:richard-barrera",
+      "ballot_designation": "State Superintendent Advisor",
+      "incumbent": false,
+      "party": "Non-Partisan",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Superintendent of Public Instruction Richard Barrera Non-Partisan State Superintendent Advisor",
+          "locator": "PDF page 3 (list page 2 of 41), Superintendent of Public Instruction"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    },
+    {
+      "person": "person:sonja-shaw",
+      "ballot_designation": "School District President",
+      "incumbent": false,
+      "party": "Non-Partisan",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Sonja Shaw Non-Partisan School District President",
+          "locator": "PDF page 3 (list page 2 of 41), Superintendent of Public Instruction"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "office_ref": "office:california-superintendent-of-public-instruction",
+  "last_verified": "2026-11-03"
+}
