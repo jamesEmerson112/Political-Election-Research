@@ -14,6 +14,7 @@
  * 5d. The Overview links to the Las Vegas (Nevada) contests.
  * 5e. Vercel Web Analytics loads only on the public site (political-election-research.vercel.app):
  *    on the local server and on preview deployments the page loads no analytics script.
+ * 5f. Proposition groups start folded on the Overview.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
  */
@@ -81,6 +82,16 @@ const nvInView = await page.evaluate(() => {
   return r.top < window.innerHeight && r.bottom > 0;
 });
 check("5d. the Overview's Nevada · Las Vegas link scrolls to the Las Vegas contests", nvInView, "");
+
+// 5f. On the Overview, proposition groups start folded; one click opens them.
+await go(page, "#overview");
+await page.waitForSelector(".group");
+const fold = page.locator("button.fold", { hasText: "State propositions" });
+const foldedFirst = (await fold.getAttribute("aria-expanded")) === "false" && (await fold.locator("xpath=../..").locator(".list").count()) === 0;
+await fold.click();
+await page.waitForTimeout(150);
+const opensOnClick = (await fold.getAttribute("aria-expanded")) === "true" && (await fold.locator("xpath=../..").locator(".list li").count()) > 0;
+check("5f. proposition groups start folded on the Overview and open on click", foldedFirst && opensOnClick, "");
 
 // 6. California, and San Francisco keeps its own answers.
 await go(page, "#trial");

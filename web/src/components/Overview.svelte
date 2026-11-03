@@ -1,5 +1,6 @@
 <script lang="ts">
   import ArrowDown from "@lucide/svelte/icons/arrow-down";
+  import ChevronDown from "@lucide/svelte/icons/chevron-down";
   import Search from "@lucide/svelte/icons/search";
   import { tick } from "svelte";
   import {
@@ -126,6 +127,10 @@
   const elsewhere = $derived(
     [...new Set(rows.map((r) => r.st).filter((st) => st !== BALLOT_STATE))].sort().map((st) => ({ st, name: STATES[st] ?? st.toUpperCase(), count: rows.filter((r) => r.st === st).length })),
   );
+  /** Propositions and measures start folded (the Overview is mostly read for candidates); a filter opens them. */
+  const FOLDED_TYPES = new Set<OfficeType>(["measure", "local_measure"]);
+  let unfolded = $state<Record<string, boolean>>({});
+  const isOpen = (key: string, type: OfficeType) => !FOLDED_TYPES.has(type) || q.trim() !== "" || unfolded[key] === true;
   async function jumpTo(st: string) {
     // My ballot narrows the list to California; show everything so the other state's section exists.
     if (ballotOn) showAll = true;
@@ -165,17 +170,29 @@
   </div>
 
   {#each groups as g (g.type)}
+    {@const open = isOpen(g.type, g.type)}
     <div class="group">
       <h2 class="g-head">
-        <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
-        {OFFICE_TYPE[g.type].label}
-        <span class="g-count num">{g.rows.length}</span>
+        {#if FOLDED_TYPES.has(g.type)}
+          <button type="button" class="fold" aria-expanded={open} onclick={() => (unfolded[g.type] = !open)}>
+            <ChevronDown size={16} aria-hidden="true" class={open ? "chev" : "chev shut"} />
+            <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
+            {OFFICE_TYPE[g.type].label}
+            <span class="g-count num">{g.rows.length}</span>
+          </button>
+        {:else}
+          <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
+          {OFFICE_TYPE[g.type].label}
+          <span class="g-count num">{g.rows.length}</span>
+        {/if}
       </h2>
-      <ul class="list">
-        {#each g.rows as r (r.ref)}
-          {@render contestRow(r)}
-        {/each}
-      </ul>
+      {#if open}
+        <ul class="list">
+          {#each g.rows as r (r.ref)}
+            {@render contestRow(r)}
+          {/each}
+        </ul>
+      {/if}
     </div>
   {:else}
     {#if !toPick.length && !unmatched.length}
@@ -229,17 +246,30 @@
         </p>
       {/if}
       {#each s.groups as g (g.type)}
+        {@const key = `${s.st}:${g.type}`}
+        {@const open = isOpen(key, g.type)}
         <div class="group">
           <h3 class="g-head">
-            <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
-            {groupLabel(s.st, g.type)}
-            <span class="g-count num">{g.rows.length}</span>
+            {#if FOLDED_TYPES.has(g.type)}
+              <button type="button" class="fold" aria-expanded={open} onclick={() => (unfolded[key] = !open)}>
+                <ChevronDown size={16} aria-hidden="true" class={open ? "chev" : "chev shut"} />
+                <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
+                {groupLabel(s.st, g.type)}
+                <span class="g-count num">{g.rows.length}</span>
+              </button>
+            {:else}
+              <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
+              {groupLabel(s.st, g.type)}
+              <span class="g-count num">{g.rows.length}</span>
+            {/if}
           </h3>
-          <ul class="list">
-            {#each g.rows as r (r.ref)}
-              {@render contestRow(r)}
-            {/each}
-          </ul>
+          {#if open}
+            <ul class="list">
+              {#each g.rows as r (r.ref)}
+                {@render contestRow(r)}
+              {/each}
+            </ul>
+          {/if}
         </div>
       {/each}
     </div>
@@ -341,6 +371,23 @@
   .group {
     display: grid;
     gap: 6px;
+  }
+  .fold {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+  }
+  .fold :global(.chev) {
+    transition: transform 0.15s;
+  }
+  .fold :global(.chev.shut) {
+    transform: rotate(-90deg);
   }
   .g-head {
     display: flex;
