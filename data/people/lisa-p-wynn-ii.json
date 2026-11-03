@@ -62,6 +62,31 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "Equity researcher",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My occupation is Equity Researcher.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 35 (PDF p. 37)"
+            }
+          ]
+        },
+        {
+          "organization": "United in Love",
+          "role": "Founder",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-013dc55584",
+              "quote": "A year later, she founded United in Love, a nonprofit aimed at reducing stigma around mental health services"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
