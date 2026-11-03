@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "bunny-mc-fadden-for-city-college-board-2026",
+  "name": "Bunny Mc Fadden for City College Board 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1495068",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-03"
+}
