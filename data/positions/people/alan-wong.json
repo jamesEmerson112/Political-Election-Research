@@ -26,6 +26,31 @@
           "locator": "p. 72, legislative history, December 09, 2025 final passage"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Is listed as a signer of the proponents' argument in favor of Proposition H, the November 2026 measure for a new annual parcel tax to fund Muni service, in the official Voter Information Pamphlet.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Proposal: Starting July 1, 2027, and continuing until June 30, 2042, Proposition H would fund Muni service through a new annual parcel tax on real estate in San Francisco.",
+          "locator": "PDF p. 126 (printed p. 124), Proposition H digest, The Proposal"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "VOTE YES ON H FOR STRONGER MUNI.",
+          "locator": "PDF p. 128 (printed p. 126), Proponent's Argument in Favor of Proposition H"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Supervisors: Rafael Mandelman Connie Chan Steven Sherrill Danny Sauter Alan Wong",
+          "locator": "PDF p. 128 (printed p. 126), signers of the Proponent's Argument in Favor of Proposition H"
+        }
+      ]
     }
   ]
 }
