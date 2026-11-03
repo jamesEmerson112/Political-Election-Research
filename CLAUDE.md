@@ -1,5 +1,16 @@
 @AGENTS.md
 
+## Commits: the maintainer is the author
+
+Cloud sessions start with git's identity set to Claude. Before the first commit in a session, set this repository's identity to the maintainer's GitHub identity (the one the initial commit uses; GitHub's no-reply address, so no personal email goes into the public history):
+
+```bash
+git config user.name "jamesEmerson112"
+git config user.email "36806380+jamesEmerson112@users.noreply.github.com"
+```
+
+Keep the `Co-Authored-By:` trailer at the end of every commit message, so Claude stays credited as co-author.
+
 ## Offices: describe scope, never rank
 
 The maintainer wants readers to understand the "weight" of a government position: what a San Francisco Supervisor does compared with a State Senator or a U.S. Representative. This project expresses weight only as **neutral, measurable scope**, recorded in `data/offices/<id>.json` (schema `schemas/office.schema.json`):
