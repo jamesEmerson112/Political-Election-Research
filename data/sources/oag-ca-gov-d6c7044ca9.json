@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "oag-ca-gov-d6c7044ca9",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "State of California Department of Justice, Office of the Attorney General",
+  "title": "Xavier Becerra, 33rd Attorney General",
+  "url": "https://oag.ca.gov/history/33becerra"
+}

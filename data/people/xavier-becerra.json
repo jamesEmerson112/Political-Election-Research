@@ -13,6 +13,20 @@
           "locator": "Page 48, member biography"
         }
       ]
+    },
+    "birthplace": {
+      "value": "Sacramento, California",
+      "citations": [
+        {
+          "source": "src:oag-ca-gov-d6c7044ca9",
+          "quote": "Born in Sacramento, California, Attorney General Becerra is the son of working-class parents"
+        },
+        {
+          "source": "src:gpo-gov-256d2e7c90",
+          "quote": "born in Sacramento, CA, on January 26, 1958",
+          "locator": "Page 48, member biography"
+        }
+      ]
     }
   },
   "ids": [
