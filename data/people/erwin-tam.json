@@ -65,6 +65,25 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Municipal Financial Advisor (The Guardsman reported in October 2026 that he is director of finance for the California Housing Finance Agency)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Municipal Financial Advisor.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 35 (PDF p. 37)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ERWIN TAM 譚立人 Municipal Financial Advisor",
+          "locator": "Community College Board Full table (English ballot designation)"
+        },
+        {
+          "source": "src:theguardsman-com-db1686e37e",
+          "quote": "Currently, Tam is the director of finance for the California Housing Finance Agency"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
