@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-sb-647",
+  "status": {
+    "value": "enacted",
+    "as_of": "2019-09-30",
+    "citations": [
+      {
+        "source": "src:oag-ca-gov-ae38a0f115",
+        "quote": "California Attorney General Xavier Becerra and Senator Holly Mitchell (D-Los Angeles) today applauded Governor Gavin Newsom for signing into law SB 647, a bill that protects consumers by updating California’s metal-containing jewelry laws to better reflect current science and international standards on the toxicity of lead and cadmium in jewelry."
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "SB 647: updates California's metal-containing jewelry laws on lead and cadmium",
+    "citations": [
+      {
+        "source": "src:oag-ca-gov-ae38a0f115",
+        "quote": "California Attorney General Xavier Becerra and Senator Holly Mitchell (D-Los Angeles) today applauded Governor Gavin Newsom for signing into law SB 647, a bill that protects consumers by updating California’s metal-containing jewelry laws to better reflect current science and international standards on the toxicity of lead and cadmium in jewelry."
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

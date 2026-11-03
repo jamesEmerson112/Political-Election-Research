@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.xavier-becerra--ca-2019-ab-1313--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:xavier-becerra",
+  "action": "sponsored",
+  "bill": "ca-2019-ab-1313",
+  "cycle": 2019,
+  "citations": [
+    {
+      "source": "src:oag-ca-gov-00f221347b",
+      "quote": "California Attorney General Xavier Becerra and Assemblymember Luz Rivas (D-Arleta) today announced AB 1313, their bill to help mitigate the student debt crisis, was signed into law."
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

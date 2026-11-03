@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.xavier-becerra--ca-2019-sb-647--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:xavier-becerra",
+  "action": "sponsored",
+  "bill": "ca-2019-sb-647",
+  "cycle": 2019,
+  "citations": [
+    {
+      "source": "src:oag-ca-gov-ae38a0f115",
+      "quote": "Attorney General Becerra and Senator Mitchell’s Bill Tightening Restrictions on Toxic Metals in Jewelry Signed into Law"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

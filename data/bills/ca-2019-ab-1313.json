@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-ab-1313",
+  "status": {
+    "value": "enacted",
+    "as_of": "2019-10-04",
+    "citations": [
+      {
+        "source": "src:oag-ca-gov-00f221347b",
+        "quote": "California Attorney General Xavier Becerra and Assemblymember Luz Rivas (D-Arleta) today announced AB 1313, their bill to help mitigate the student debt crisis, was signed into law."
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "AB 1313: prohibits postsecondary schools from withholding transcripts from students who owe a debt",
+    "citations": [
+      {
+        "source": "src:oag-ca-gov-00f221347b",
+        "quote": "California Attorney General Xavier Becerra and Assemblymember Luz Rivas (D-Arleta) today announced AB 1313, their bill to help mitigate the student debt crisis, was signed into law."
+      },
+      {
+        "source": "src:oag-ca-gov-00f221347b",
+        "quote": "The bill prohibits postsecondary schools from withholding transcripts from students who owe a debt"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}
