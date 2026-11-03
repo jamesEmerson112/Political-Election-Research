@@ -1,0 +1,1 @@
+{"description":"A 'who it affects' line that grades the outcome ('help') instead of saying what the group receives (warning; error under --strict).","strict":true,"expect":["AFFECT_WORDING"],"patches":[{"file":"contests/2030-zz-general/exampleville-prop-a.json","set":{"/affects/1/text":"Would help households find affordable homes."}}]}

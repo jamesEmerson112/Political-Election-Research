@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { untrack } from "svelte";
+  import { tick, untrack } from "svelte";
   import type { Index } from "../lib/data";
   import { contestRoute } from "../lib/data";
   import { bridgeDomain, bridgeSteps, budgetInput, measureInput, runTrial, type Vote } from "../lib/budgetTrial";
@@ -8,8 +8,11 @@
   import { fiscalChips, gapLine, measureFactChips, signedRange } from "../lib/measureChips";
   import { forgetVotes, loadVotes, saveVotes } from "../lib/trialStorage";
   import { openDetail } from "../lib/ui.svelte";
+  import AffectedGroups from "./AffectedGroups.svelte";
   import Badge from "./Badge.svelte";
   import BudgetMeter from "./BudgetMeter.svelte";
+  import MeasureArguments from "./MeasureArguments.svelte";
+  import MeasureDigest from "./MeasureDigest.svelte";
   import OfficeChips from "./OfficeChips.svelte";
   import StanceMark from "./StanceMark.svelte";
   import TrialSummary from "./TrialSummary.svelte";
@@ -59,11 +62,24 @@
   const answered = $derived(measures.filter((m) => votes[m.ref]).length);
   const label = (ref: string) => `Prop ${String(ix.contests.get(ref)?.["number"] ?? ix.contestTitle(ref))}`;
 
+  let meterEl = $state<HTMLElement | null>(null);
+  let headEl = $state<HTMLElement | null>(null);
+  /** After a vote: back to the meter (so the change is visible), with the next card right below it; focus its heading. */
+  async function toMeter() {
+    await tick();
+    meterEl?.scrollIntoView({ behavior: "smooth", block: "start" });
+    headEl?.focus({ preventScroll: true });
+  }
   function answer(v: Vote) {
     if (!current) return;
     votes = { ...votes, [current.ref]: v };
     saveVotes(ballotKey, votes);
     step = Math.min(step + 1, measures.length);
+    void toMeter();
+  }
+  function back() {
+    step = Math.max(step - 1, 0);
+    void toMeter();
   }
   function forget() {
     forgetVotes(ballotKey);
@@ -106,7 +122,7 @@
       </div>
     {/if}
 
-    <div class="sticky">
+    <div class="meter-wrap" bind:this={meterEl}>
       <BudgetMeter {result} {bridge} {domain} budgetRec={group.budget} fy={shownFy} onfy={(f) => (fy = f)} />
     </div>
 
@@ -121,36 +137,49 @@
     </div>
 
     {#if current && rec}
-      <article class="card panel" aria-live="polite">
+      {@const name = `${label(current.ref)}: ${titles[current.ref] ?? ""}`}
+      <article class="card panel">
         <div class="top">
           <Badge icon={MEASURE_ICON} group="record" size={28} />
           <strong class="letter">{label(current.ref)}</strong>
           <span class="muted num">{step + 1} of {measures.length}</span>
           <OfficeChips chips={measureFactChips(rec)} />
         </div>
-        <h3>{titles[current.ref]}</h3>
+        <h3 bind:this={headEl} tabindex="-1">{titles[current.ref]}</h3>
         <p class="sum">{rec["summary"]?.["value"] ?? ""}</p>
-        {#if rec["digest"]}
-          <p class="means"><StanceMark mark={MARK["support"]!} /> <span><strong>Yes</strong> means: {rec["digest"]["yes_means"]["value"]}</span></p>
-          <p class="means"><StanceMark mark={MARK["oppose"]!} /> <span><strong>No</strong> means: {rec["digest"]["no_means"]["value"]}</span></p>
-        {/if}
         <div class="fiscal">
           <OfficeChips chips={fiscalChips(rec, label)} />
           {#if rec["fiscal"]}<button class="link" onclick={statement}>{rec["fiscal"]["statement_by"]}'s statement ›</button>{/if}
           <a class="link" href={`#${contestRoute(current.ref)}`}>Measure page ›</a>
         </div>
-        <div class="answers">
-          <button class="ans yes" class:on={votes[current.ref] === "yes"} onclick={() => answer("yes")}><StanceMark mark={MARK["support"]!} size={15} /> Yes</button>
-          <button class="ans no" class:on={votes[current.ref] === "no"} onclick={() => answer("no")}><StanceMark mark={MARK["oppose"]!} size={15} /> No</button>
-          <button class="ans" class:on={votes[current.ref] === "skip"} onclick={() => answer("skip")}>Skip</button>
-          {#if step > 0}<button class="link back" onclick={() => (step -= 1)}>‹ Back</button>{/if}
+        {#if rec["digest"]}
+          <section class="part"><MeasureDigest digest={rec["digest"]} clamp /></section>
+        {/if}
+        <section class="part">
+          <span class="eyebrow">Who it affects</span>
+          <AffectedGroups affects={rec["affects"]} args={rec["arguments"]} title={name} />
+        </section>
+        {#if rec["arguments"]?.length}
+          <section class="part">
+            <span class="eyebrow">Arguments, side by side</span>
+            <MeasureArguments args={rec["arguments"]} title={name} compact />
+          </section>
+        {/if}
+        <!-- Sticks to the bottom of the screen while the card is in view: the live budget change, then the vote. -->
+        <div class="votebar">
+          <p class="gapline num" aria-hidden="true">
+            {#if gap?.mode === "pct"}{gap.head} <strong class="pct">{gap.pct}</strong> · {gap.from} → {gap.to}{:else if gap}{gap.text}{:else}General Fund {signedRange(
+                result.perYearOnceInEffect.general_fund,
+              )}/yr{/if}
+          </p>
+          <div class="answers">
+            <button class="ans yes" class:on={votes[current.ref] === "yes"} onclick={() => answer("yes")}><StanceMark mark={MARK["support"]!} size={15} /> Yes</button>
+            <button class="ans no" class:on={votes[current.ref] === "no"} onclick={() => answer("no")}><StanceMark mark={MARK["oppose"]!} size={15} /> No</button>
+            <button class="ans" class:on={votes[current.ref] === "skip"} onclick={() => answer("skip")}>Skip</button>
+            {#if step > 0}<button class="link back" onclick={back}>‹ Back</button>{/if}
+          </div>
         </div>
       </article>
-      <div class="mini num" aria-hidden="true">
-        {#if gap?.mode === "pct"}{gap.head} <strong class="pct">{gap.pct}</strong> · {gap.from} → {gap.to}{:else if gap}{gap.text}{:else}General Fund {signedRange(
-            result.perYearOnceInEffect.general_fund,
-          )}/yr{/if}
-      </div>
     {:else}
       <TrialSummary {result} {measures} {votes} {titles} {bridge} {domain} />
       <div class="answers">
@@ -162,38 +191,45 @@
 </section>
 
 <style>
-  .sticky {
+  /* The meter scrolls with the page (a tall sticky meter left little room to read the card); after each vote the page returns to it. */
+  .meter-wrap {
+    scroll-margin-top: calc(var(--top-h, 0px) + 8px);
+  }
+  .part {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+    border-top: 1px solid var(--line);
+    padding-top: 10px;
+  }
+  /* The vote bar sticks to the bottom of the screen while the card is in view. */
+  .votebar {
     position: sticky;
-    top: var(--top-h, 0px);
+    bottom: 0;
     z-index: 2;
-    background: var(--paper);
-    padding-bottom: 4px;
+    display: grid;
+    gap: 4px;
+    margin: 4px -16px -14px;
+    padding: 8px 16px 10px;
+    background: var(--surface);
+    border-top: 1px solid var(--line-strong);
+    border-radius: 0 0 var(--radius) var(--radius);
   }
-  .mini {
-    display: none;
+  .gapline {
+    font-size: var(--step--1);
+    color: var(--ink-2);
+    overflow-wrap: anywhere;
   }
-  .mini .pct {
+  .gapline .pct {
     color: var(--ink);
     font-size: 1rem;
   }
-  @media (max-width: 700px) {
-    /* The header is tall on phones: the full meter scrolls with the page and a one-line summary sticks to the bottom. */
-    .sticky {
-      position: static;
-    }
-    .mini {
-      display: block;
-      position: sticky;
-      bottom: 0;
-      z-index: 2;
-      margin: 0 -16px;
-      padding: 8px 16px;
-      background: var(--surface);
-      border-top: 1px solid var(--line-strong);
-      font-size: var(--step--1);
-      color: var(--ink-2);
-      overflow-wrap: anywhere;
-    }
+  h3:focus {
+    outline: none;
+  }
+  h3:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
   }
   .seg {
     display: flex;
@@ -267,13 +303,6 @@
   }
   .sum {
     color: var(--ink-2);
-  }
-  .means {
-    display: flex;
-    gap: 6px;
-    align-items: baseline;
-    font-size: var(--step--1);
-    overflow-wrap: anywhere;
   }
   .fiscal {
     display: flex;

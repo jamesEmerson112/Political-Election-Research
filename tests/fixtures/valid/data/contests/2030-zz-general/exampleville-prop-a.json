@@ -4,6 +4,31 @@
   "kind": "measure",
   "election": "election:2030-zz-general",
   "name": "Exampleville Proposition A",
+  "affects": [
+    {
+      "effect": "pays",
+      "figure": "about $9.50",
+      "group": "property_owners",
+      "text": "Would pay property tax toward the bonds, per $100,000 of assessed value.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The average annual property tax for a property assessed at $100,000 would be about $9.50."
+        }
+      ]
+    },
+    {
+      "effect": "receives",
+      "group": "lower_income_households",
+      "text": "Affordable homes would be built and repaired with the bond money.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes"
+        }
+      ]
+    }
+  ],
   "arguments": [
     {
       "id": "proponent",
@@ -90,6 +115,24 @@
         {
           "source": "src:elections-exampleville-example-gov-10650ea718",
           "quote": "A \"NO\" Vote Means: You do not want the City to issue these bonds."
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The Proposal: Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The City has no bond money set aside for affordable housing.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The Way It Is Now: The City has no bond money set aside for affordable housing."
         }
       ]
     },

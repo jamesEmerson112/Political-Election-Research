@@ -4,6 +4,20 @@
   "kind": "measure",
   "election": "election:2030-zz-general",
   "name": "Exampleville Proposition C",
+  "affects": [
+    {
+      "effect": "receives",
+      "figure": "at least $40 million a year",
+      "group": "park_visitors",
+      "text": "Parks would get a yearly minimum amount of City spending.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Shall the City be required to spend at least $40 million a year on parks?"
+        }
+      ]
+    }
+  ],
   "conflicts": [
     {
       "contest": "contest:2030-zz-general/exampleville-prop-e",

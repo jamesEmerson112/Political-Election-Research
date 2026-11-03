@@ -73,6 +73,29 @@ describe("SQLite export", () => {
     ]);
   });
 
+  it("lists who a measure affects, its ballot arguments in printed order, and their signers", () => {
+    expect(all("SELECT grp, effect, conditional, figure FROM measure_affects WHERE contest = 'contest:2030-zz-general/exampleville-prop-a' ORDER BY grp")).toEqual([
+      { grp: "lower_income_households", effect: "receives", conditional: 0, figure: null },
+      { grp: "property_owners", effect: "pays", conditional: 0, figure: "about $9.50" },
+    ]);
+    expect(all("SELECT id, position, side, kind FROM measure_arguments WHERE contest = 'contest:2030-zz-general/exampleville-prop-a' ORDER BY position")).toEqual([
+      { id: "proponent", position: 1, side: "yes", kind: "proponent" },
+      { id: "rebuttal-to-proponent", position: 2, side: "no", kind: "rebuttal_to_proponent" },
+      { id: "opponent", position: 3, side: "no", kind: "opponent" },
+      { id: "rebuttal-to-opponent", position: 4, side: "yes", kind: "rebuttal_to_opponent" },
+      { id: "paid-yes-01", position: 5, side: "yes", kind: "paid" },
+    ]);
+    // Who signed each side, across every argument (the site's "signed for / against" counts).
+    expect(
+      all(
+        "SELECT a.side, COUNT(DISTINCT s.signer) AS n FROM measure_argument_signers s JOIN measure_arguments a ON a.contest = s.contest AND a.id = s.argument WHERE s.contest = 'contest:2030-zz-general/exampleville-prop-a' GROUP BY a.side ORDER BY a.side",
+      ),
+    ).toEqual([
+      { side: "no", n: 1 },
+      { side: "yes", n: 2 },
+    ]);
+  });
+
   it("splits lobbying targets into rows", () => {
     expect(all("SELECT target_kind, target FROM lobbying_targets ORDER BY target_kind")).toEqual([
       { target_kind: "agency", target: "Example State Assembly" },

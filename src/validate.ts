@@ -41,6 +41,10 @@ export const RULES = {
   POINT_FACET: "A stance point names a facet the question does not define (add it to the question's facets).",
   FISCAL_RANGE: "A fiscal estimate's low end is above its high end.",
   FISCAL_SOURCE: "A measure's fiscal effect cites no official source (government or legislative record, or the official voter guide).",
+  AFFECT_FIGURE: "A measure's 'who it affects' figure is not copied from any of its citation quotes.",
+  AFFECT_DUPLICATE: "A measure lists the same group and effect twice in 'who it affects'.",
+  AFFECT_SOURCE: "A measure's 'who it affects' entry cites no official source (the voter guide's digest or Controller's statement, or another official record).",
+  AFFECT_WORDING: "A 'who it affects' line uses a judgment word (benefit, help, hurt, harm, burden, unfair, win, lose); say what the text says the group pays, receives or has change.",
   PRIVACY_THRESHOLD: "A private individual is listed as a donor below the privacy threshold.",
   FILING_SUPERSEDED: "A money record only cites filings that were superseded by amendments.",
   CONTROVERSY_SOURCING: "A controversy is not backed by two independent publishers or an official record.",
@@ -53,6 +57,8 @@ export type RuleCode = keyof typeof RULES;
 /** Rules reported as warnings unless --strict. */
 const WARNING_RULES = new Set<RuleCode>([
   "FISCAL_SOURCE",
+  "AFFECT_SOURCE",
+  "AFFECT_WORDING",
   "QUOTE_PENDING",
   "UNVERIFIED_CITATION",
   "FILING_SUPERSEDED",
@@ -255,6 +261,7 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
     if (kind === "relationship") checkRelationship(ds, f.rel, rec, add, threshold, ballotPeople);
     if (kind === "contest") {
       checkFiscal(ds, f.rel, rec, add);
+      checkAffects(ds, f.rel, rec, add);
       ((rec["candidates"] as Rec[] | undefined) ?? []).forEach((cand, i) => {
         const p = resolve(ds, String(cand["person"]));
         if (p && !p["candidate_profile"]) {
@@ -290,6 +297,35 @@ function checkFiscal(ds: Dataset, rel: string, rec: Rec, add: Add): void {
     official(e["citations"], `/fiscal/effects/${i}/citations`);
   });
   if (fiscal["bond"]) official((fiscal["bond"] as Rec)["citations"], "/fiscal/bond/citations");
+}
+
+/** Words that grade a group's outcome; "who it affects" states what the text says instead. */
+const AFFECT_JUDGMENT =
+  /\b(benefit|benefits|beneficial|help|helps|helped|helping|hurt|hurts|harm|harms|harmed|harmful|burden|burdens|burdened|unfair|unfairly|win|wins|winner|winners|lose|loses|loser|losers)\b/i;
+
+/** Ballot-measure "who it affects": one entry per group and effect, figures copied from quotes, official sources, neutral words. */
+function checkAffects(ds: Dataset, rel: string, rec: Rec, add: Add): void {
+  const seen = new Set<string>();
+  ((rec["affects"] as Rec[] | undefined) ?? []).forEach((a, i) => {
+    const ptr = `/affects/${i}`;
+    const key = `${String(a["group"])}/${String(a["label"] ?? "")}/${String(a["effect"])}`;
+    if (seen.has(key)) add(rel, ptr, "AFFECT_DUPLICATE", `${String(a["group"])} · ${String(a["effect"])} is listed twice.`);
+    seen.add(key);
+    const cites = (a["citations"] as Rec[] | undefined) ?? [];
+    const figure = a["figure"] as string | undefined;
+    if (figure !== undefined) {
+      const norm = (s: string) => s.replace(/\s+/g, " ").trim();
+      if (!cites.some((c) => typeof c["quote"] === "string" && norm(c["quote"]).includes(norm(figure)))) {
+        add(rel, `${ptr}/figure`, "AFFECT_FIGURE", `"${figure}" does not appear in any of this entry's citation quotes.`);
+      }
+    }
+    const kinds = cites.map((c) => resolve(ds, String(c["source"]))?.["kind"] as string | undefined);
+    if (!kinds.some((k) => k !== undefined && (OFFICIAL_SOURCE_KINDS.has(k) || k === "voter_guide"))) {
+      add(rel, `${ptr}/citations`, "AFFECT_SOURCE", "Cite the official voter guide's digest or Controller's statement (or another official record).");
+    }
+    const m = AFFECT_JUDGMENT.exec(String(a["text"] ?? ""));
+    if (m) add(rel, `${ptr}/text`, "AFFECT_WORDING", `"${m[0]}" grades the outcome; state what the group pays, receives or has change.`);
+  });
 }
 
 function checkPositions(ds: Dataset, rel: string, rec: Rec, add: Add): void {

@@ -4,6 +4,20 @@
   "kind": "measure",
   "election": "election:2030-zz-general",
   "name": "Exampleville Proposition B",
+  "affects": [
+    {
+      "effect": "pays",
+      "figure": "more than $50 million in receipts",
+      "group": "businesses",
+      "text": "Businesses above the receipts threshold would pay a higher business tax rate.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Shall the City raise the business tax rate for businesses with more than $50 million in receipts?"
+        }
+      ]
+    }
+  ],
   "digest": {
     "no_means": {
       "value": "You do not want to change the business tax rate.",

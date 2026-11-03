@@ -56,6 +56,16 @@ import UsersRound from "@lucide/svelte/icons/users-round";
 import Users from "@lucide/svelte/icons/users";
 import Vote from "@lucide/svelte/icons/vote";
 import Zap from "@lucide/svelte/icons/zap";
+import Bus from "@lucide/svelte/icons/bus";
+import Car from "@lucide/svelte/icons/car";
+import Handshake from "@lucide/svelte/icons/handshake";
+import HardHat from "@lucide/svelte/icons/hard-hat";
+import KeyRound from "@lucide/svelte/icons/key-round";
+import PersonStanding from "@lucide/svelte/icons/person-standing";
+import Store from "@lucide/svelte/icons/store";
+import Tent from "@lucide/svelte/icons/tent";
+import Trees from "@lucide/svelte/icons/trees";
+import Wallet from "@lucide/svelte/icons/wallet";
 import type { ChipIcon } from "./officeChips";
 
 export type IconComponent = Component<Record<string, unknown>>;
@@ -279,3 +289,30 @@ export const RECORD_KIND_ICON: Record<string, IconComponent> = {
 
 /** Controversies: a neutral "reported" glyph, never a warning sign. */
 export const CONTROVERSY_ICON: IconComponent = I(MessagesSquare);
+
+/**
+ * Ballot measures, "who it affects": one glyph per group in the fixed list
+ * (contest.schema.json $defs.Affect). Badges use the people color; what the
+ * group pays or receives is said in words, never by arrows or colors.
+ */
+export const AFFECT_ICON: Record<string, IconComponent> = {
+  tenants: I(KeyRound),
+  property_owners: I(House),
+  property_buyers_sellers: I(Handshake),
+  businesses: I(Store),
+  workers_unions: I(HardHat),
+  city_employees: I(IdCard),
+  city_departments: I(Building2),
+  commission_members: I(UsersRound),
+  voters_petitioners: I(Vote),
+  transit_riders: I(Bus),
+  drivers: I(Car),
+  park_visitors: I(Trees),
+  people_experiencing_homelessness: I(Tent),
+  lower_income_households: I(Wallet),
+  families_students: I(GraduationCap),
+  seniors: I(PersonStanding),
+  contractors_vendors: I(Briefcase),
+  other: I(Users),
+};
+export const FALLBACK_AFFECT_ICON: IconComponent = I(Users);

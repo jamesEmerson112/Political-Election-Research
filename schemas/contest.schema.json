@@ -292,6 +292,13 @@
           "items": {
             "$ref": "#/$defs/BallotArgument"
           }
+        },
+        "affects": {
+          "description": "Who the measure affects, as the official impartial texts state it (the voter guide's digest and the Controller's statement): each group from a fixed list, with what the text says it pays, receives, or has change in its rules. Never who benefits or is harmed.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Affect"
+          }
         }
       }
     }
@@ -617,6 +624,94 @@
           "$ref": "defs.schema.json#/$defs/Citations"
         }
       }
+    },
+    "Affect": {
+      "description": "One group the official text says a measure affects, and how. Fixed group list so every measure uses the same groups; words, not judgments.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "group",
+        "effect",
+        "text",
+        "citations"
+      ],
+      "properties": {
+        "group": {
+          "enum": [
+            "tenants",
+            "property_owners",
+            "property_buyers_sellers",
+            "businesses",
+            "workers_unions",
+            "city_employees",
+            "city_departments",
+            "commission_members",
+            "voters_petitioners",
+            "transit_riders",
+            "drivers",
+            "park_visitors",
+            "people_experiencing_homelessness",
+            "lower_income_households",
+            "families_students",
+            "seniors",
+            "contractors_vendors",
+            "other"
+          ]
+        },
+        "label": {
+          "description": "Required when group is \"other\": a short name for the group.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "effect": {
+          "description": "pays (a tax, fee, charge or cost), receives (money, a service, housing, loans or assistance), rules_change (requirements, powers, rights, eligibility, procedures or access), other.",
+          "enum": [
+            "pays",
+            "receives",
+            "rules_change",
+            "other"
+          ]
+        },
+        "conditional": {
+          "description": "true when the text says could, may, might, if, or would be allowed to (an option, not a certainty).",
+          "type": "boolean"
+        },
+        "figure": {
+          "description": "An amount, rate or count the text states for this group, copied character-for-character from a citation quote (validate: AFFECT_FIGURE).",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60
+        },
+        "text": {
+          "description": "One neutral line in plain words (validate: AFFECT_WORDING).",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "group"
+            ],
+            "properties": {
+              "group": {
+                "const": "other"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "label"
+            ]
+          }
+        }
+      ]
     }
   }
 }

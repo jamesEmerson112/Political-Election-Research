@@ -5,10 +5,10 @@
   import { openPosition, openRel } from "../lib/view";
   import StanceChip from "./StanceChip.svelte";
   import OfficeChips from "./OfficeChips.svelte";
+  import AffectedGroups from "./AffectedGroups.svelte";
   import MeasureArguments from "./MeasureArguments.svelte";
-  import StanceMark from "./StanceMark.svelte";
+  import MeasureDigest from "./MeasureDigest.svelte";
   import { contestRoute } from "../lib/data";
-  import { MARK } from "../lib/marks";
   import { fiscalChips, measureFactChips } from "../lib/measureChips";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
@@ -57,16 +57,12 @@
   <section class="section">
     <div class="section-head"><h2>What it does, and what it costs</h2><p>The official digest and fiscal statement, as published. Click a number for its source.</p></div>
     {#if c["digest"]}
-      <div class="panel box">
-        {#each [["way_it_is_now", "The way it is now"], ["proposal", "The proposal"]] as [k, t] (k)}
-          {#if c["digest"][k]}
-            <p><strong>{t}:</strong> {c["digest"][k]["value"]} <button class="cite" onclick={() => openDetail({ kicker: "Official digest", title: t, citations: cites(c["digest"][k]) })}>{cites(c["digest"][k]).length}</button></p>
-          {/if}
-        {/each}
-        <p class="means"><StanceMark mark={MARK["support"]!} /> <span><strong>A yes vote means:</strong> {c["digest"]["yes_means"]["value"]}</span></p>
-        <p class="means"><StanceMark mark={MARK["oppose"]!} /> <span><strong>A no vote means:</strong> {c["digest"]["no_means"]["value"]}</span></p>
-      </div>
+      <div class="panel box"><MeasureDigest digest={c["digest"]} /></div>
     {/if}
+    <div class="panel box">
+      <span class="eyebrow">Who it affects</span>
+      <AffectedGroups affects={c["affects"]} args={c["arguments"]} title={ix.contestTitle(contestRef)} />
+    </div>
     {#if c["fiscal"]}
       {@const f = c["fiscal"]}
       <div class="panel box">

@@ -56,6 +56,8 @@
   - Prop G: a possible missing effect (Upper Great Highway signal replacement).
   - Prop J: the statement doesn't name the General Fund (classified as general_fund by rule).
   - Prop I: the House SF Fund is about $119M net vs $120M recorded.
+  - Prop B: sf.gov's "Qualified Ballot Measures" page lists an **Amended Controller's Statement** (on api.sf.gov, blocked). Confirm the pamphlet prints the amended version; our fiscal effects come from the pamphlet.
+- **Official per-measure documents (all public):** https://www.sf.gov/qualified-ballot-measures lists each measure's legal text, legislative digest, Controller's statement and each argument as separate PDFs on `api.sf.gov`. Allowing that host would let us cross-check the pamphlet text against them and cite each document directly.
 
 ### In progress (2026-11-03)
 - **Ballot arguments for Props A–J:** extraction running, then a verbatim check (`scratchpad/tools/write_sf_arguments.ts`) and import.
@@ -110,7 +112,8 @@
   - **Federal filings:** fec.gov, api.open.fec.gov, lda.senate.gov
   - **FPPC:** fppc.ca.gov
   - **Archiving:** web.archive.org (archive.org's availability API answers; saving and opening snapshots does not)
-  - **SF government:** sfgov.legistar.com, sfbos.org, sf.gov, media.api.sf.gov
+  - **SF government:** sfgov.legistar.com, sfbos.org, sf.gov, media.api.sf.gov now open (checked 2026-11-03). Still blocked: `api.sf.gov` (per-measure official PDFs, the audio pamphlet, the ballot-arguments guide), `sfethics.org` / `campaign.sfethics.org` and `netfile.com` / `public.netfile.com` (filings of committees that paid for ballot arguments), `digitalsf.org` (SF Public Library's archive of voter pamphlets: a lasting copy while web.archive.org is blocked), `data.sf.gov`, `sfplanning.org`, `www.sfcontroller.org` (sfcontroller.org redirects to sf.gov, which opens)
+  - **State voter guide:** `voterguide.sos.ca.gov` (for state propositions)
   - **Legislature and governor:** www.senate.ca.gov (and its subdomains), assembly.ca.gov, gov.ca.gov; leginfo.legislature.ca.gov answers with a Cloudflare challenge that needs challenges.cloudflare.com
   - **Primary texts behind CivLab's office data:** codelibrary.amlegal.com (SF Charter), constitution.congress.gov (U.S. Const. art. I), www.house.gov
   - **News, guides and reference:** kqed.org, missionlocal.org, growsf.org, calmatters.org, ballotpedia.org (graph.civlab.org works now)

@@ -4,13 +4,22 @@
   import StanceMark from "./StanceMark.svelte";
 
   /**
-   * The official voter guide's arguments, side by side: Yes | No.
-   * Printed as submitted by their authors (opinions, not facts), verbatim.
-   * Same visual weight for both sides; counts first, full text on click.
+   * The official voter guide's arguments, side by side: For | Against, at every
+   * width. Printed as submitted by their authors (opinions, not facts), verbatim.
+   * Same visual weight for both sides; counts first, full text on click. On a
+   * phone a tap opens the full text in the drawer instead of a narrow column.
+   * `compact` (trial card): paid arguments fold under their counts.
    */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   type Arg = Record<string, any>;
-  let { args, title }: { args: Arg[]; title: string } = $props();
+  let { args, title, compact = false }: { args: Arg[]; title: string; compact?: boolean } = $props();
+  /** Narrow screens: two columns are too tight to read a whole argument in place. */
+  function tap(e: MouseEvent, a: Arg) {
+    if (typeof matchMedia === "function" && matchMedia("(max-width: 560px)").matches) {
+      e.preventDefault();
+      open(a);
+    }
+  }
 
   const LABEL: Record<string, string> = {
     proponent: "Proponent's argument",
@@ -42,8 +51,8 @@
 
 {#snippet card(a: Arg)}
   <details class="arg panel">
-    <summary>
-      <span class="kind">{a["side"] === "yes" ? "For" : "Against"} · {LABEL[a["kind"]] ?? a["kind"]}</span>
+    <summary onclick={(e) => tap(e, a)}>
+      <span class="kind"><StanceMark mark={MARK[a["side"] === "yes" ? "support" : "oppose"]!} size={11} /> {LABEL[a["kind"]] ?? a["kind"]}</span>
       {#if a["heading"]}<strong class="head">{a["heading"]}</strong>{/if}
       <span class="lead">{a["text"]}</span>
       <span class="by">{a["authors"]?.slice(0, 3).join("; ")}{a["authors"]?.length > 3 ? ` and ${a["authors"].length - 3} more` : ""}</span>
@@ -66,7 +75,7 @@
     </div>
   {/if}
 {/each}
-{#if paidYes.length || paidNo.length}
+{#snippet paid()}
   <div class="cols">
     <div class="col">
       <span class="count num">{paidYes.length} paid argument{paidYes.length === 1 ? "" : "s"} for</span>
@@ -77,6 +86,18 @@
       {#each paidNo as a (a["id"])}{@render card(a)}{/each}
     </div>
   </div>
+{/snippet}
+{#if paidYes.length || paidNo.length}
+  {#if compact}
+    <details class="fold">
+      <summary class="num">Paid arguments: {paidYes.length} for · {paidNo.length} against</summary>
+      {@render paid()}
+    </details>
+  {:else}
+    {@render paid()}
+  {/if}
+{:else if compact}
+  <p class="none">No paid arguments were submitted.</p>
 {/if}
 <p class="note">Printed in the official voter guide as submitted, unedited (typos included). Arguments are their authors' opinions; this site doesn't check them.</p>
 
@@ -163,11 +184,31 @@
     cursor: pointer;
     font-size: var(--step--1);
   }
+  .fold > summary {
+    cursor: pointer;
+    font-size: var(--step--1);
+    font-weight: 600;
+    color: var(--ink-2);
+    padding: 4px 0;
+  }
+  .fold[open] > summary {
+    margin-bottom: 8px;
+  }
+  /* Phones keep both sides next to each other (the maintainer's choice); a tap opens the full text in the drawer. */
   @media (max-width: 560px) {
     .cols {
-      grid-template-columns: minmax(0, 1fr);
+      gap: 6px;
     }
-    .head-row {
+    .arg {
+      padding: 6px 8px;
+    }
+    .lead {
+      -webkit-line-clamp: 4;
+      line-clamp: 4;
+    }
+    .link,
+    .full,
+    .funds {
       display: none;
     }
   }

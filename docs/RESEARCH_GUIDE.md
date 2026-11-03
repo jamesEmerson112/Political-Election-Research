@@ -38,6 +38,18 @@ Create `contests/<election>/<contest>.json`.
 4. The baseline (`npm run -s put -- budget`): the adopted budget (Budget and Appropriation Ordinance) and the latest official multi-year forecast (Controller / Mayor's Budget Office / Budget and Legislative Analyst Joint Report or Five-Year Financial Plan), quoting each fiscal year's projected shortfall or surplus.
 5. `validate`: FISCAL_RANGE (low above high) is an error; FISCAL_SOURCE (no official source) is a warning, and an error under `--strict`.
 
+<a id="task-measure-affects"></a>
+### Measure: who it affects
+
+Sources: only the measure's official digest and fiscal statement in the voter pamphlet (never the arguments, news or campaign material).
+
+1. For each group the text names (or unmistakably describes, such as "Muni service" for Muni riders), add one `affects` entry with a `group` from the fixed list (`other` needs a `label`) and an `effect`: `pays` (a tax, fee, charge, pass-through or cost), `receives` (money, a service, housing, loans or assistance), `rules_change` (requirements, powers, rights, eligibility, procedures, access) or `other`.
+2. Set `conditional: true` when the text says could, may, might, if, or would be allowed to.
+3. Add a `figure` only when the quote states an amount, rate or count for that group, copied character for character (AFFECT_FIGURE checks it is in the quote).
+4. Write one neutral `text` line in plain words. Never benefit, help, hurt, harm, burden, unfair, win or lose (AFFECT_WORDING).
+5. Quote the sentence(s) verbatim with a page locator. One entry per group and effect (AFFECT_DUPLICATE). Don't record the City's own General Fund revenue or cost as a group; that is the fiscal statement's job.
+6. Double-check: a second researcher derives the list independently from the same text; keep what both found and resolve the rest against the quote.
+
 <a id="task-candidacy"></a>
 ## Task: candidacy
 

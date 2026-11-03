@@ -73,6 +73,14 @@ export function canonicalize(kind: FileKind, rec: Record<string, unknown>, schem
     const fiscal = copy["fiscal"] as Record<string, unknown>;
     copy["fiscal"] = { ...fiscal, effects: [...(fiscal["effects"] as Record<string, unknown>[])].sort((a, b) => cmp(String(a["id"]), String(b["id"]))) };
   }
+  if (kind === "contest" && Array.isArray(copy["affects"])) {
+    // Fixed group order, then effect order, so two agents recording the same groups write the same bytes.
+    const g = (a: Record<string, unknown>) => AFFECT_GROUPS.indexOf(String(a["group"]));
+    const e = (a: Record<string, unknown>) => AFFECT_EFFECTS.indexOf(String(a["effect"]));
+    copy["affects"] = [...(copy["affects"] as Record<string, unknown>[])].sort(
+      (a, b) => g(a) - g(b) || e(a) - e(b) || cmp(String(a["label"] ?? ""), String(b["label"] ?? "")),
+    );
+  }
   if (kind === "budget") {
     const byFy = (a: Record<string, unknown>, b: Record<string, unknown>) => cmp(String(a["fy"]), String(b["fy"]));
     if (Array.isArray(copy["adopted"])) copy["adopted"] = [...(copy["adopted"] as Record<string, unknown>[])].sort(byFy);
@@ -88,6 +96,29 @@ export function canonicalize(kind: FileKind, rec: Record<string, unknown>, schem
 
 /** Office connections are kept in this order (schema enum order). */
 export const CONNECTION_ORDER = ["elected_by", "elects", "appoints", "confirms", "oversees", "advised_by"];
+
+/** Measure "who it affects" groups and effects, in schema enum order (contest.schema.json $defs.Affect). */
+export const AFFECT_GROUPS = [
+  "tenants",
+  "property_owners",
+  "property_buyers_sellers",
+  "businesses",
+  "workers_unions",
+  "city_employees",
+  "city_departments",
+  "commission_members",
+  "voters_petitioners",
+  "transit_riders",
+  "drivers",
+  "park_visitors",
+  "people_experiencing_homelessness",
+  "lower_income_households",
+  "families_students",
+  "seniors",
+  "contractors_vendors",
+  "other",
+];
+export const AFFECT_EFFECTS = ["pays", "receives", "rules_change", "other"];
 
 export function serialize(v: unknown): string {
   return JSON.stringify(v, null, 2) + "\n";

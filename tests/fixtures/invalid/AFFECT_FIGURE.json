@@ -1,0 +1,1 @@
+{"description":"A 'who it affects' figure that is not copied from the entry's quote.","expect":["AFFECT_FIGURE"],"patches":[{"file":"contests/2030-zz-general/exampleville-prop-a.json","set":{"/affects/0/figure":"about $12.00"}}]}

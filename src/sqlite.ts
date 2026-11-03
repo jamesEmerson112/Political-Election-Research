@@ -25,6 +25,11 @@ CREATE TABLE measure_fiscal_effects (contest TEXT, id TEXT, lane TEXT, direction
 CREATE TABLE measure_bonds (contest TEXT PRIMARY KEY, principal_usd INTEGER, debt_service_total_usd INTEGER, term_years INTEGER,
   annual_cost_per_100k_assessed_usd REAL);
 CREATE TABLE measure_conflicts (contest TEXT, other TEXT, rule TEXT, PRIMARY KEY (contest, other));
+CREATE TABLE measure_affects (contest TEXT, grp TEXT, label TEXT, effect TEXT, conditional INTEGER, figure TEXT, text TEXT,
+  PRIMARY KEY (contest, grp, label, effect));
+CREATE TABLE measure_arguments (contest TEXT, id TEXT, position INTEGER, side TEXT, kind TEXT, heading TEXT, funds_source TEXT, text TEXT,
+  PRIMARY KEY (contest, id));
+CREATE TABLE measure_argument_signers (contest TEXT, argument TEXT, position INTEGER, signer TEXT, PRIMARY KEY (contest, argument, position));
 CREATE TABLE budgets (id TEXT PRIMARY KEY, name TEXT, jurisdiction TEXT, forecast_title TEXT, forecast_publisher TEXT, forecast_published TEXT,
   last_verified TEXT);
 CREATE TABLE budget_years (budget TEXT, kind TEXT, fy TEXT, total_usd INTEGER, general_fund_usd INTEGER, direction TEXT, amount_usd INTEGER,
@@ -250,6 +255,22 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
       });
     }
     for (const c of (r["conflicts"] as Rec[] | undefined) ?? []) push("measure_conflicts", { contest: ref, other: s(c["contest"]), rule: s(c["rule"]) });
+    for (const a of (r["affects"] as Rec[] | undefined) ?? []) {
+      push("measure_affects", {
+        contest: ref, grp: s(a["group"]), label: s(a["label"]) ?? "", effect: s(a["effect"]), conditional: a["conditional"] === true ? 1 : 0,
+        figure: s(a["figure"]), text: s(a["text"]),
+      });
+    }
+    ((r["arguments"] as Rec[] | undefined) ?? []).forEach((a, i) => {
+      // Printed order is kept as `position`; signers in printed order too.
+      push("measure_arguments", {
+        contest: ref, id: s(a["id"]), position: i + 1, side: s(a["side"]), kind: s(a["kind"]), heading: s(a["heading"]),
+        funds_source: s(a["funds_source"]), text: s(a["text"]),
+      });
+      ((a["authors"] as string[] | undefined) ?? []).forEach((who, j) =>
+        push("measure_argument_signers", { contest: ref, argument: s(a["id"]), position: j + 1, signer: who }),
+      );
+    });
     for (const c of (r["candidates"] as Rec[] | undefined) ?? []) {
       push("contest_candidates", {
         contest: `contest:${String(r["id"])}`, person: s(c["person"]), party: s(c["party"]),

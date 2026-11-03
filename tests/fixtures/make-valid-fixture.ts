@@ -373,7 +373,29 @@ local("A", {
   measure_type: { value: "bond", citations: vip("Proposition A: Affordable Housing Bond") },
   vote_threshold: { value: "two_thirds", citations: vip("Proposition A requires two-thirds of the votes cast to pass.") },
   placed_by: { value: "governing_body", citations: vip("The City Council voted 6 to 1 to place Proposition A on the ballot.") },
-  digest: digest("You want the City to issue $300 million in bonds for affordable housing.", "You do not want the City to issue these bonds."),
+  digest: {
+    way_it_is_now: { value: "The City has no bond money set aside for affordable housing.", citations: vip("The Way It Is Now: The City has no bond money set aside for affordable housing.") },
+    proposal: {
+      value: "Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes",
+      citations: vip("The Proposal: Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes"),
+    },
+    ...digest("You want the City to issue $300 million in bonds for affordable housing.", "You do not want the City to issue these bonds."),
+  },
+  affects: [
+    {
+      group: "property_owners",
+      effect: "pays",
+      figure: "about $9.50",
+      text: "Would pay property tax toward the bonds, per $100,000 of assessed value.",
+      citations: vip("The average annual property tax for a property assessed at $100,000 would be about $9.50."),
+    },
+    {
+      group: "lower_income_households",
+      effect: "receives",
+      text: "Affordable homes would be built and repaired with the bond money.",
+      citations: vip("Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes"),
+    },
+  ],
   arguments: [
     { id: "proponent", side: "yes", kind: "proponent", text: "Vote yes to build homes people can afford.", authors: ["Example Housing Coalition"], citations: vip("Vote yes to build homes people can afford.") },
     { id: "rebuttal-to-proponent", side: "no", kind: "rebuttal_to_proponent", text: "The bond adds debt without a plan.", authors: ["Example Taxpayers Group"], citations: vip("The bond adds debt without a plan.") },
@@ -395,6 +417,15 @@ local("B", {
   vote_threshold: { value: "majority", citations: vip("Proposition B requires a majority of the votes cast to pass.") },
   placed_by: { value: "petition", citations: vip("Proposition B was placed on the ballot by petition signatures.") },
   digest: digest("You want to raise the business tax rate for the largest businesses.", "You do not want to change the business tax rate."),
+  affects: [
+    {
+      group: "businesses",
+      effect: "pays",
+      figure: "more than $50 million in receipts",
+      text: "Businesses above the receipts threshold would pay a higher business tax rate.",
+      citations: vip("Shall the City raise the business tax rate for businesses with more than $50 million in receipts?"),
+    },
+  ],
   fiscal: controller("The tax would raise $40 to $55 million a year for the General Fund, with a one-time cost of $1.2 million to set it up.", [
     effect({ id: "tax-revenue", lane: "general_fund", direction: "revenue", amount: { low_usd: 40000000, high_usd: 55000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Raises $40 to $55 million a year for the General Fund." }),
     effect({ id: "setup-cost", lane: "general_fund", direction: "cost", amount: { low_usd: 1200000, high_usd: 1200000 }, per: "one_time", start_fy: "2031-32", estimate: "estimated", text: "One-time cost of $1.2 million to set up the tax." }),
@@ -408,6 +439,15 @@ local("C", {
   vote_threshold: { value: "majority", citations: vip("Proposition C requires a majority of the votes cast to pass.") },
   placed_by: { value: "governing_body", citations: vip("The City Council voted 5 to 2 to place Proposition C on the ballot.") },
   digest: digest("You want the City to spend at least $40 million a year on parks.", "You do not want to set a minimum for parks spending."),
+  affects: [
+    {
+      group: "park_visitors",
+      effect: "receives",
+      figure: "at least $40 million a year",
+      text: "Parks would get a yearly minimum amount of City spending.",
+      citations: vip("Shall the City be required to spend at least $40 million a year on parks?"),
+    },
+  ],
   conflicts: [{ contest: "contest:2030-zz-general/exampleville-prop-e", exclusive: true, rule: "If both pass, the one with more yes votes takes effect.", citations: vip("If Propositions C and E are both approved, the one with more yes votes takes effect.") }],
   fiscal: controller("The requirement would increase General Fund costs by $8 to $12 million a year.", [
     effect({ id: "parks-minimum", lane: "general_fund", direction: "cost", amount: { low_usd: 8000000, high_usd: 12000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Increases General Fund costs by $8 to $12 million a year." }),
