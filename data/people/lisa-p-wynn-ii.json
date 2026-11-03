@@ -122,6 +122,15 @@
           "where": "Web search (news): candidate name with City College board / trustee"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:theguardsman-com-6321c29353",
+          "quote": "Eight San Franciscans, who all want to work on behalf of the college's students, are vying for the roles of City College's board of trustees on Election Day this year."
+        }
+      ]
     }
   },
   "ids": [],
