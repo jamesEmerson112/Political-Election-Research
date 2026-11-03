@@ -24,7 +24,8 @@
     "web:build": "vite build --config web/vite.config.ts",
     "import:research": "tsx cli/import-research.ts",
     "import:offices": "tsx cli/import-offices.ts",
-    "import:civlab": "tsx cli/import-civlab.ts"
+    "import:civlab": "tsx cli/import-civlab.ts",
+    "import:districts": "tsx cli/import-districts.ts"
   },
   "devDependencies": {
     "@lucide/svelte": "1.59.0",
@@ -34,6 +35,7 @@
     "ajv-formats": "3.0.1",
     "fast-glob": "3.3.3",
     "svelte": "5.57.3",
+    "topojson-server": "3.0.1",
     "tsx": "4.23.15",
     "typescript": "7.0.2",
     "vite": "8.3.5",

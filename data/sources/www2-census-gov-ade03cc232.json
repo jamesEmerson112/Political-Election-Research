@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "www2-census-gov-ade03cc232",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-10-07",
+  "publisher": "U.S. Census Bureau",
+  "title": "120th Congressional District Block Equivalency Files (cd120.zip)",
+  "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2027/120-congressional-district-befs/cd120.zip",
+  "notes": "Assigns every 2020 census block to its 120th Congress district, as specified to the Census Bureau by each state (California: CD120_06.txt). Used by npm run import:districts for the ZIP lookup and to check the district shapes; see geo/README.md."
+}

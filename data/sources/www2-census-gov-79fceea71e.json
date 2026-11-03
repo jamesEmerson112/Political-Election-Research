@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "www2-census-gov-79fceea71e",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-10-06",
+  "publisher": "U.S. Census Bureau",
+  "title": "TIGER/Line Shapefile, 2026, California, 120th Congressional Districts (tl_2026_06_cd120)",
+  "url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_06_cd120.zip",
+  "notes": "Congressional district shapes for the 120th Congress (elected November 3, 2026). For California these are the districts adopted by AB 604 and approved by Proposition 50 (November 2025), not the 2021 Citizens Redistricting Commission map. Converted for the site by npm run import:districts; see geo/README.md."
+}
