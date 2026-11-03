@@ -39,6 +39,26 @@
           "where": "web search (SF Standard, SF Chronicle, Vote411, Voter's Edge, Potrero View, The Voice SF)"
         }
       ]
+    },
+    {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "mixed",
+      "as_of": "2026-09-08",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "Told The Standard he supports license-plate readers among the safety tools neighbors ask for. The Standard reported that his support for renewing SFPD's Flock contract would be contingent on strict retention limits, independent audits, public transparency reports and a bar on sharing data with federal immigration enforcement.",
+      "citations": [
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "Ellington told The Standard he “supports the safety tools neighbors ask for at every door,” including community policing, cameras, and license-plate readers to help solve break-ins and illegal dumping.",
+          "locator": "Theo Ellington section"
+        },
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "His support for renewing Flock’s contract would be contingent on “strict retention limits, independent audits, public transparency reports, and an absolute bar on sharing data with federal immigration enforcement.”",
+          "locator": "Theo Ellington section"
+        }
+      ]
     }
   ]
 }

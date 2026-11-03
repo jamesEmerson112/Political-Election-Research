@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-b1f97547d1",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-09-08",
+  "publisher": "The San Francisco Standard",
+  "title": "We asked candidates if SF should keep Flock surveillance, or tell it to Flock off",
+  "url": "https://sfstandard.com/2026/09/08/asked-candidates-if-sf-should-keep-flock-surveillance-tell-flock/"
+}
