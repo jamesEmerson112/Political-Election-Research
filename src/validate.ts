@@ -40,6 +40,8 @@ export const RULES = {
   POSITION_DUPLICATE: "Two positions share the same subject and as_of date.",
   POINT_FACET: "A stance point names a facet the question does not define (add it to the question's facets).",
   FISCAL_RANGE: "A fiscal estimate's low end is above its high end.",
+  FISCAL_SCHEDULE:
+    "A fiscal effect's per-year schedule must be on a per-year estimated effect, start at its start_fy, list each fiscal year once, keep every amount inside the effect's range, and use amounts printed in its citation quotes.",
   FISCAL_SOURCE: "A measure's fiscal effect cites no official source (government or legislative record, or the official voter guide).",
   AFFECT_FIGURE: "A measure's 'who it affects' figure is not copied from any of its citation quotes.",
   AFFECT_DUPLICATE: "A measure lists the same group and effect twice in 'who it affects'.",
@@ -295,8 +297,42 @@ function checkFiscal(ds: Dataset, rel: string, rec: Rec, add: Add): void {
       add(rel, `/fiscal/effects/${i}/amount`, "FISCAL_RANGE", `low_usd ${String(a["low_usd"])} is above high_usd ${String(a["high_usd"])}.`);
     }
     official(e["citations"], `/fiscal/effects/${i}/citations`);
+    checkSchedule(rel, `/fiscal/effects/${i}`, e, add);
   });
   if (fiscal["bond"]) official((fiscal["bond"] as Rec)["citations"], "/fiscal/bond/citations");
+}
+
+/** True when a dollar amount is printed in one of the quotes: "$6 million", "$40 to $55 million", "$1.2 billion" or "$500,000". */
+export function moneyInQuotes(usd: number, quotes: string[]): boolean {
+  const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const num = (n: number) => String(Number(n.toFixed(3)));
+  const tries: RegExp[] = [new RegExp(`\\$\\s?${esc(usd.toLocaleString("en-US"))}(?![\\d,])`)];
+  if (usd >= 1e9) tries.push(new RegExp(`\\$\\s?${esc(num(usd / 1e9))}(?![\\d.,])[^.;]*?\\bbillion`, "i"));
+  if (usd >= 1e6) tries.push(new RegExp(`\\$\\s?${esc(num(usd / 1e6))}(?![\\d.,])[^.;]*?\\bmillion`, "i"));
+  return quotes.some((q) => tries.some((re) => re.test(q.replace(/\s+/g, " "))));
+}
+
+/** A per-year schedule (amounts for particular fiscal years) must fit its effect and be printed in its quotes. */
+function checkSchedule(rel: string, ptr: string, e: Rec, add: Add): void {
+  const schedule = e["schedule"] as Rec[] | undefined;
+  if (!schedule) return;
+  const say = (msg: string) => add(rel, `${ptr}/schedule`, "FISCAL_SCHEDULE", msg);
+  if (e["per"] !== "year" || e["estimate"] !== "estimated" || !e["amount"]) say("A schedule belongs on a per-year effect with an estimated amount.");
+  const fys = schedule.map((x) => String(x["fy"]));
+  if (new Set(fys).size !== fys.length) say(`A fiscal year is listed more than once (${fys.join(", ")}).`);
+  if (e["start_fy"] && fys[0] !== e["start_fy"]) say(`The schedule starts at FY${fys[0]}, not at start_fy FY${String(e["start_fy"])}.`);
+  const a = e["amount"] as Rec | undefined;
+  const quotes = ((e["citations"] as Rec[] | undefined) ?? []).map((c) => String(c["quote"] ?? ""));
+  for (const x of schedule) {
+    const r = x["amount"] as Rec;
+    const lo = Number(r["low_usd"]);
+    const hi = Number(r["high_usd"]);
+    if (lo > hi) say(`FY${String(x["fy"])}: low_usd ${lo} is above high_usd ${hi}.`);
+    if (a && (lo < Number(a["low_usd"]) || hi > Number(a["high_usd"]))) {
+      say(`FY${String(x["fy"])}: ${lo}–${hi} is outside the effect's amount ${String(a["low_usd"])}–${String(a["high_usd"])}.`);
+    }
+    for (const v of new Set([lo, hi])) if (!moneyInQuotes(v, quotes)) say(`FY${String(x["fy"])}: $${v.toLocaleString("en-US")} is not printed in this effect's citation quotes.`);
+  }
 }
 
 /** Words that grade a group's outcome; "who it affects" states what the text says instead. */

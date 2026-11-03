@@ -70,6 +70,15 @@
         "estimate": "estimated",
         "lane": "general_fund",
         "per": "year",
+        "schedule": [
+          {
+            "amount": {
+              "high_usd": 55000000,
+              "low_usd": 40000000
+            },
+            "fy": "2031-32"
+          }
+        ],
         "start_fy": "2031-32",
         "text": "Raises $40 to $55 million a year for the General Fund.",
         "citations": [

@@ -22,6 +22,7 @@ CREATE TABLE contests (id TEXT PRIMARY KEY, ref TEXT, kind TEXT, election TEXT, 
   vote_threshold TEXT, placed_by TEXT, fiscal_statement_by TEXT, fiscal_as_of TEXT, last_verified TEXT);
 CREATE TABLE measure_fiscal_effects (contest TEXT, id TEXT, lane TEXT, direction TEXT, low_usd INTEGER, high_usd INTEGER, per TEXT,
   start_fy TEXT, years INTEGER, estimate TEXT, text TEXT, PRIMARY KEY (contest, id));
+CREATE TABLE measure_fiscal_schedule (contest TEXT, effect TEXT, fy TEXT, low_usd INTEGER, high_usd INTEGER, PRIMARY KEY (contest, effect, fy));
 CREATE TABLE measure_bonds (contest TEXT PRIMARY KEY, principal_usd INTEGER, debt_service_total_usd INTEGER, term_years INTEGER,
   annual_cost_per_100k_assessed_usd REAL);
 CREATE TABLE measure_conflicts (contest TEXT, other TEXT, rule TEXT, PRIMARY KEY (contest, other));
@@ -246,6 +247,10 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
         contest: ref, id: s(e["id"]), lane: s(e["lane"]), direction: s(e["direction"]), low_usd: n(amt?.["low_usd"]), high_usd: n(amt?.["high_usd"]),
         per: s(e["per"]), start_fy: s(e["start_fy"]), years: n(e["years"]), estimate: s(e["estimate"]), text: s(e["text"]),
       });
+      for (const x of (e["schedule"] as Rec[] | undefined) ?? []) {
+        const xa = x["amount"] as Rec;
+        push("measure_fiscal_schedule", { contest: ref, effect: s(e["id"]), fy: s(x["fy"]), low_usd: n(xa["low_usd"]), high_usd: n(xa["high_usd"]) });
+      }
     }
     const bond = fiscal?.["bond"] as Rec | undefined;
     if (bond) {

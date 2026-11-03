@@ -156,6 +156,45 @@ describe("budget trial engine", () => {
   });
 });
 
+describe("per-year amounts (effect.schedule)", () => {
+  // Like SF Prop C: about $6M in the first year and $13M in the second, about $60M a year from a later year on.
+  const growing = measure("g", [
+    {
+      id: "grow",
+      direction: "cost",
+      amount: { low_usd: 6 * M, high_usd: 60 * M },
+      start_fy: "2031-32",
+      schedule: [
+        { fy: "2031-32", amount: { low_usd: 6 * M, high_usd: 6 * M } },
+        { fy: "2032-33", amount: { low_usd: 13 * M, high_usd: 13 * M } },
+        { fy: "2035-36", amount: { low_usd: 60 * M, high_usd: 60 * M } },
+      ],
+    },
+  ]);
+  const long = budgetInput({
+    forecast: {
+      years: ["2030-31", "2031-32", "2032-33", "2033-34", "2035-36", "2036-37"].map((fy) => ({ fy, direction: "shortfall", amount_usd: 100 * M })),
+    },
+  });
+  const r = runTrial([growing], long, { g: "yes" });
+  const d = (fy: string) => gf(r, fy).delta;
+
+  it("uses a listed year's own amount, not the whole range", () => {
+    expect(d("2031-32")).toEqual({ low: -6 * M, high: -6 * M });
+    expect(d("2032-33")).toEqual({ low: -13 * M, high: -13 * M });
+    expect(d("2035-36")).toEqual({ low: -60 * M, high: -60 * M });
+  });
+  it("uses the range between two listed years for a year between them, keeps the last amount after, and nothing before the start", () => {
+    expect(d("2033-34")).toEqual({ low: -60 * M, high: -13 * M });
+    expect(d("2036-37")).toEqual({ low: -60 * M, high: -60 * M });
+    expect(d("2030-31")).toEqual({ low: 0, high: 0 });
+  });
+  it("puts the same per-year amount in the bridge, and keeps the whole range as the measure's span", () => {
+    expect(bridgeSteps(r, [growing], "2031-32")!.result).toEqual({ low: -106 * M, high: -106 * M });
+    expect(r.perYearOnceInEffect.general_fund).toEqual({ low: -60 * M, high: -6 * M });
+  });
+});
+
 describe("budget trial on the fictional Exampleville ballot", () => {
   const dir = path.join(__dirname, "fixtures", "valid", "data");
   const read = (rel: string) => JSON.parse(fs.readFileSync(path.join(dir, rel), "utf8")) as Record<string, unknown>;

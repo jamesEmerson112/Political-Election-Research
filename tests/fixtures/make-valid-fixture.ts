@@ -427,7 +427,8 @@ local("B", {
     },
   ],
   fiscal: controller("The tax would raise $40 to $55 million a year for the General Fund, with a one-time cost of $1.2 million to set it up.", [
-    effect({ id: "tax-revenue", lane: "general_fund", direction: "revenue", amount: { low_usd: 40000000, high_usd: 55000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Raises $40 to $55 million a year for the General Fund." }),
+    // A per-year schedule (here one listed year, the whole range): a listed year uses its own amount, later years keep the last.
+    effect({ id: "tax-revenue", lane: "general_fund", direction: "revenue", amount: { low_usd: 40000000, high_usd: 55000000 }, schedule: [{ fy: "2031-32", amount: { low_usd: 40000000, high_usd: 55000000 } }], per: "year", start_fy: "2031-32", estimate: "estimated", text: "Raises $40 to $55 million a year for the General Fund." }),
     effect({ id: "setup-cost", lane: "general_fund", direction: "cost", amount: { low_usd: 1200000, high_usd: 1200000 }, per: "one_time", start_fy: "2031-32", estimate: "estimated", text: "One-time cost of $1.2 million to set up the tax." }),
   ]),
 });

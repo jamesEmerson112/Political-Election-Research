@@ -61,7 +61,10 @@ export interface Contribution {
   effectId: string;
   lane: Lane;
   per: "year" | "one_time" | "total";
+  /** The whole effect's range (every year it lasts); a year's own amount is `rangeIn(c, fy)`. */
   range: Range;
+  /** Signed amounts for particular fiscal years, in order, when the statement gives them (effect.schedule). */
+  schedule: Array<{ fy: string; range: Range }> | null;
   startFy: string | null;
   years: number | null;
   startAssumed: boolean;
@@ -92,15 +95,37 @@ export interface TrialResult {
 const SIGN: Record<string, number> = { cost: -1, revenue: 1, savings: 1, none: 0 };
 const fyStart = (fy: string) => Number(fy.slice(0, 4));
 
+/** An unsigned amount ({low_usd, high_usd}) as a signed range for a direction. */
+function signedAmount(a: Rec, direction: unknown): Range {
+  const s = SIGN[String(direction)] ?? 0;
+  const x = s * Number(a["low_usd"]);
+  const y = s * Number(a["high_usd"]);
+  return { low: Math.min(x, y) || 0, high: Math.max(x, y) || 0 };
+}
+
 /** Signed range for one effect, or null if it isn't an estimated amount. */
 function signed(e: Rec): Range | null {
   if (e["estimate"] !== "estimated") return null;
   const a = e["amount"] as Rec | undefined;
-  if (!a) return null;
-  const s = SIGN[String(e["direction"])] ?? 0;
-  const x = s * Number(a["low_usd"]);
-  const y = s * Number(a["high_usd"]);
-  return { low: Math.min(x, y) || 0, high: Math.max(x, y) || 0 };
+  return a ? signedAmount(a, e["direction"]) : null;
+}
+
+/**
+ * A per-year contribution's amount in one fiscal year. Without a schedule it is the whole range. With one: a listed
+ * year uses its own amount; a year between two listed years uses the range between them (the statement gives no
+ * figure for it); a later year keeps the last amount. Whether the effect applies at all that year is `appliesIn`.
+ */
+export function rangeIn(c: Contribution, fy: string): Range {
+  if (!c.schedule?.length) return c.range;
+  const y = fyStart(fy);
+  let before: Range | null = null;
+  for (const x of c.schedule) {
+    const xy = fyStart(x.fy);
+    if (xy === y) return x.range;
+    if (xy > y) return before ? { low: Math.min(before.low, x.range.low), high: Math.max(before.high, x.range.high) } : x.range;
+    before = x.range;
+  }
+  return before ?? c.range;
 }
 
 function contributions(m: MeasureInput, firstFy: string | null): Contribution[] {
@@ -117,6 +142,10 @@ function contributions(m: MeasureInput, firstFy: string | null): Contribution[] 
       lane: String(e["lane"]) as Lane,
       per,
       range,
+      schedule:
+        per === "year" && Array.isArray(e["schedule"])
+          ? (e["schedule"] as Rec[]).map((x) => ({ fy: String(x["fy"]), range: signedAmount(x["amount"] as Rec, e["direction"]) })).sort((a, b) => fyStart(a.fy) - fyStart(b.fy))
+          : null,
       startFy: stated ?? (per === "year" ? firstFy : null),
       years: typeof e["years"] === "number" ? (e["years"] as number) : null,
       startAssumed: per === "year" && !stated,
@@ -202,7 +231,7 @@ export function runTrial(measures: MeasureInput[], budget: BudgetInput | null, v
         perMeasure
           .get(m.ref)!
           .filter((c) => c.lane === lane && c.per === "year" && (fy === null || appliesIn(c, fy)))
-          .reduce((r, c) => add(r, c.range), ZERO);
+          .reduce((r, c) => add(r, fy === null ? c.range : rangeIn(c, fy)), ZERO);
       return add(acc, groupRange(g, rangeOf));
     }, ZERO);
 
@@ -373,7 +402,7 @@ export function bridgeSteps(result: TrialResult, measures: MeasureInput[], fy: s
   const rangeOf = (m: MeasureInput) =>
     gfYear(m.ref)
       .filter((c) => appliesIn(c, fy))
-      .reduce((r, c) => add(r, c.range), ZERO);
+      .reduce((r, c) => add(r, rangeIn(c, fy)), ZERO);
   const applies = (m: MeasureInput) => gfYear(m.ref).some((c) => appliesIn(c, fy));
 
   const total: Range = { low: baseline, high: baseline };

@@ -63,6 +63,9 @@ describe("SQLite export", () => {
       { id: "setup-cost", lane: "general_fund", direction: "cost", low_usd: 1200000, high_usd: 1200000, per: "one_time" },
       { id: "tax-revenue", lane: "general_fund", direction: "revenue", low_usd: 40000000, high_usd: 55000000, per: "year" },
     ]);
+    expect(all("SELECT effect, fy, low_usd, high_usd FROM measure_fiscal_schedule WHERE contest = 'contest:2030-zz-general/exampleville-prop-b'")).toEqual([
+      { effect: "tax-revenue", fy: "2031-32", low_usd: 40000000, high_usd: 55000000 },
+    ]);
     expect(all("SELECT principal_usd, annual_cost_per_100k_assessed_usd FROM measure_bonds")).toEqual([{ principal_usd: 300000000, annual_cost_per_100k_assessed_usd: 9.5 }]);
     expect(all("SELECT COUNT(*) AS n FROM measure_conflicts")[0]!["n"]).toBe(2);
     expect(all("SELECT kind, fy, general_fund_usd, direction, amount_usd FROM budget_years WHERE budget = 'exampleville' ORDER BY kind, fy")).toEqual([

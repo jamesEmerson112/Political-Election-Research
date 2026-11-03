@@ -71,7 +71,13 @@ export function canonicalize(kind: FileKind, rec: Record<string, unknown>, schem
   }
   if (kind === "contest" && copy["fiscal"] && Array.isArray((copy["fiscal"] as Record<string, unknown>)["effects"])) {
     const fiscal = copy["fiscal"] as Record<string, unknown>;
-    copy["fiscal"] = { ...fiscal, effects: [...(fiscal["effects"] as Record<string, unknown>[])].sort((a, b) => cmp(String(a["id"]), String(b["id"]))) };
+    // Effects by id; a per-year schedule in fiscal-year order.
+    const withSchedule = (e: Record<string, unknown>) =>
+      Array.isArray(e["schedule"]) ? { ...e, schedule: [...(e["schedule"] as Record<string, unknown>[])].sort((a, b) => cmp(String(a["fy"]), String(b["fy"]))) } : e;
+    copy["fiscal"] = {
+      ...fiscal,
+      effects: [...(fiscal["effects"] as Record<string, unknown>[])].map(withSchedule).sort((a, b) => cmp(String(a["id"]), String(b["id"]))),
+    };
   }
   if (kind === "contest" && Array.isArray(copy["affects"])) {
     // Fixed group order, then effect order, so two agents recording the same groups write the same bytes.

@@ -500,6 +500,27 @@
           "type": "integer",
           "minimum": 1
         },
+        "schedule": {
+          "description": "Amounts for particular fiscal years, when the statement gives them (e.g. about $6 million in FY2028-29 and $13 million in FY2029-30, about $60 million a year from FY2034-35). A listed year uses its own amount; a year between two listed years uses the range between them; later years keep the last amount. Only on a per-year estimated effect, starting at start_fy, each amount inside `amount` and printed in a citation quote (rule FISCAL_SCHEDULE).",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fy",
+              "amount"
+            ],
+            "properties": {
+              "fy": {
+                "$ref": "defs.schema.json#/$defs/FiscalYear"
+              },
+              "amount": {
+                "$ref": "defs.schema.json#/$defs/UsdRange"
+              }
+            }
+          }
+        },
         "estimate": {
           "enum": [
             "estimated",
