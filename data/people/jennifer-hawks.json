@@ -96,6 +96,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "end": "2021",
+          "organization": "Sacred Heart Schools, Atherton",
+          "role": "Office manager and executive assistant",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-fe39f90c7b",
+              "quote": "She worked in banking at the start of her career and helped manage finances as an office manager and executive assistant, including — for 20 years, until she retired in 2021 — at Sacred Heart Schools in Atherton."
+            }
+          ]
+        },
+        {
+          "role": "Banking (early career)",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-fe39f90c7b",
+              "quote": "She worked in banking at the start of her career"
+            }
+          ]
+        },
+        {
+          "organization": "Palo Alto Republican Women",
+          "role": "President",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-fe39f90c7b",
+              "quote": "She’s the president of Palo Alto Republican Women and is involved with the California Federation of Republican Women."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [],

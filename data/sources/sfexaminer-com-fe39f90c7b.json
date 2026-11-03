@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfexaminer-com-fe39f90c7b",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-06-23",
+  "publisher": "San Francisco Examiner",
+  "title": "GOP treasurer candidate touts outsider status",
+  "url": "https://www.sfexaminer.com/news/politics/gop-treasurer-candidate-plays-up-outsider-status/article_39da5c3b-feb2-46fa-97ad-881f696a62f9.html"
+}
