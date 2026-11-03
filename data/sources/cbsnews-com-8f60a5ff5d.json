@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cbsnews-com-8f60a5ff5d",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "CBS News San Francisco",
+  "title": "City College of San Francisco trustees skip meetings, get paid anyway (headline taken from the URL)",
+  "url": "https://cbsnews.com/sanfrancisco/news/city-college-of-san-francisco-trustees-skip-meetings-get-paid-anyway",
+  "notes": "Seen by a research agent only as a web search summary on 2026-11-03 (cbsnews.com could not be opened from this session). The summary: a 2012 report that the elected trustees collect monthly $500 stipends even when they skip meetings. Not verified."
+}

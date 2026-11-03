@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/sf-community-college-board",
+  "candidates": [
+    {
+      "person": "person:elijah-ball",
+      "name": "Elijah Ball"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "name": "Rome Moses Jones"
+    },
+    {
+      "person": "person:monroe-lace",
+      "name": "Monroe Lace"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "name": "Leah LaCroix"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "name": "Jeremy Lee"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "name": "Bunny McFadden"
+    },
+    {
+      "person": "person:erwin-tam",
+      "name": "Erwin Tam"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "name": "Lisa Palagi Wynn II"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:sfccd-board-of-trustees-member",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Seeded 2026-11-03. Candidates for the four-year seats: the eight names a search summary of the Department of Elections' November 3, 2026 Voter Information Pamphlet listed, spelled as that summary gave them. The pamphlet, the official candidate list (sf.gov, media.api.sf.gov) and ccsf.edu could not be opened from this session (hosts blocked), so names and candidacy are unverified until the contest file cites the Department's certified list. The Guardsman and GoodParty.org (search summaries) use Lisa Wynn for Lisa Palagi Wynn II; The Guardsman counts eight candidates in one place and nine, with the partial-term candidate, in another. Ballot designations were not found. vote_for 3: the official seat count was seen only in search summaries (the pamphlet: voters elect three trustees to four-year terms and one trustee to the remainder of an unexpired term; the candidate report: Community College Board, 3 seats; the Future Elections page: Community College Board, 4 seats, read here as the three four-year seats plus the partial term); the GrowSF guide (search summary) also says to vote for up to 3. The partial-term seat (the unexpired term ending January 8, 2029, per one search summary; Ruth Ferguson, an appointed trustee, is its only candidate per search summaries) is a separate contest and is not part of this agenda. Incumbents: none of the eight. Per a search summary, the Department extended the nomination period to August 12 because incumbents did not file; none of the eight is among the trustees on CivLab's board page (opened). A search result about a Jill Yee candidacy (Wind Newspaper, date not shown) was seen, but she is not among the pamphlet names in the search summary; unresolved. Electorate: citywide, all San Francisco voters. No stance questions set yet: a draft set awaits maintainer approval. Basic candidate information is in data/leads."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  },
+  "vote_for": 3
+}

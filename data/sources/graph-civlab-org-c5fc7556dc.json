@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "graph-civlab-org-c5fc7556dc",
+  "kind": "reference_work",
+  "accessed": "2026-11-03",
+  "publisher": "CivLab",
+  "title": "CivLab · City College of SF Board of Trustees",
+  "url": "https://graph.civlab.org/sf/elected/sfccd-city-college-of-sf-board-of-trustees",
+  "notes": "Opened on 2026-11-03: page text and the page data embedded in it (__NEXT_DATA__). Secondary source (reference work). CivLab links the San Francisco Charter (codelibrary.amlegal.com) as the legal source and ccsf.edu as the official site."
+}

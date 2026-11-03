@@ -1,0 +1,121 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "sfccd-board-of-trustees-member",
+  "name": "Member, Board of Trustees, San Francisco Community College District",
+  "body": "Board of Trustees, San Francisco Community College District (City College of San Francisco)",
+  "constituents": {
+    "value": 826079,
+    "as_of": "2025-07-01",
+    "basis": "Census Bureau Vintage 2025 estimate for San Francisco County, July 1, 2025; trustees are elected by the district's voters citywide, so each represents every resident",
+    "citations": [
+      {
+        "source": "src:www2-census-gov-8ef0ec61e4",
+        "quote": "California,San Francisco County,878550,875139,816169,813266,816926,820945,826079",
+        "locator": "Row SUMLEV 050, STATE 06, COUNTY 075; the last value quoted is POPESTIMATE2025 (July 1, 2025)"
+      },
+      {
+        "source": "src:ccsf-edu-48be5b3432",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:graph-civlab-org-c5fc7556dc",
+        "quote": "Registered voters of the City & County of San Francisco.",
+        "locator": "Page data (__NEXT_DATA__): node ccsf-electorate (People of San Francisco), description; its elects edge to sfccd-city-college-of-sf-board-of-trustees (a40cd56c) has seatsAppointed 7"
+      }
+    ]
+  },
+  "jurisdiction": "San Francisco Community College District",
+  "level": "local",
+  "links": {
+    "civlab": "https://graph.civlab.org/sf/elected/sfccd-city-college-of-sf-board-of-trustees"
+  },
+  "powers": {
+    "value": "The Board of Trustees governs City College of San Francisco: it sets district policy and oversees the district's finances, including adopting its annual budget.",
+    "citations": [
+      {
+        "source": "src:graph-civlab-org-c5fc7556dc",
+        "quote": "Governs City College of San Francisco; sets policy and oversees finances."
+      },
+      {
+        "source": "src:ccsf-edu-b6e16f6796",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 6000,
+    "as_of": "2022",
+    "basis": "$6,000 a year in a 2022 candidate-recruitment listing; 2012 news reports gave $500 a month; no 2025-26 figure found",
+    "citations": [
+      {
+        "source": "src:abayld-runforoffice-org-41fd509a29",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:cbsnews-com-8f60a5ff5d",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 7,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:ccsf-edu-71d6c2cdc2",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:ccsf-edu-48be5b3432",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:ccsf-edu-48be5b3432",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "Election: seven trustees are elected by the voters of the San Francisco Community College District (citywide) to staggered four-year terms in even-numbered years, as provided in the City Charter (BP 1.01, search summary); the board also has a non-voting student trustee (FY27 adopted budget document, search summary). On November 3, 2026 voters elect three trustees to four-year terms and one trustee to the remainder of an unexpired term (Voter Information Pamphlet, search summary). Term limits: none found either way in the sources searched; the Charter text (codelibrary.amlegal.com) could not be opened. Budget: not recorded; the FY27 tentative and adopted budget documents on ccsf.edu were seen only in search summaries that showed no total. Salary: $6,000 a year in a 2022 candidate-recruitment listing and $500 a month in 2012 news reports (search summaries); no current figure was found, and whether state stipend bills (AB 1390, AB 2528) changed CCSF trustee pay was not confirmed. CivLab (opened 2026-11-03) maps the board with 7 seats, links the San Francisco Charter as its legal source, and listed six named trustees plus an unnamed seat 7. CivLab's budget figure on this page ($16.85 billion) is the citywide total and is not used here. Hosts that could not be opened from this session: ccsf.edu, sf.gov, media.api.sf.gov, codelibrary.amlegal.com, www.census.gov, cbsnews.com, web.archive.org (so no archive snapshots)."
+}
