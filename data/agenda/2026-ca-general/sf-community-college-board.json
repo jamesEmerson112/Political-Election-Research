@@ -406,6 +406,32 @@
           "where": "Profile research for offices_held (statement, candidate sites, questionnaires, Guardsman): no city, state or federal legislative office found"
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/sf-community-college-board|committee|person:rome-moses-jones",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "College Board 2026",
+          "where": "San Francisco Ethics Commission filers dataset on DataSF (data.sfgov.org/resource/4c8t-ngau): no filer for this candidate"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Jones",
+          "where": "San Francisco Ethics Commission filers dataset on DataSF (data.sfgov.org/resource/4c8t-ngau): no results"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses",
+          "where": "San Francisco Ethics Commission filers dataset on DataSF (data.sfgov.org/resource/4c8t-ngau): no results"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones committee",
+          "where": "Candidate statement and League questionnaire: no committee named; SFist (Oct. 8, 2026) reported, citing KALW, that he had not filed the paperwork required to collect contributions (lead only)"
+        }
+      ]
     }
   ],
   "measures": [],
