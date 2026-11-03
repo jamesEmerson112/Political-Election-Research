@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "scrippsnews-com-5878c038d1",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-01",
+  "publisher": "Scripps News",
+  "title": "California governor rivals clash over costs, homelessness, and Trump in debate",
+  "url": "https://www.scrippsnews.com/politics/america-votes/california-governor-rivals-clash-over-costs-homelessness-and-trump-in-only-debate"
+}

@@ -104,6 +104,24 @@
       ]
     },
     {
+      "subject": "q:immigration/expand-cooperation-federal-enforcement",
+      "stance": "declined_to_answer",
+      "as_of": "2026-10-01",
+      "cycle": 2026,
+      "evidence_type": "debate",
+      "summary": "Asked at the Sept. 30 CNN debate whether he would help carry out mass deportations despite state limits on cooperation, Hilton did not say whether he would change the sanctuary law; he said his goal is to lower the temperature and pledged to prioritize removing dangerous criminals.",
+      "citations": [
+        {
+          "source": "src:independent-com-30408281c5",
+          "quote": "On Wednesday night, he dodged questions on whether he would undo the state’s sanctuary law limiting police cooperation with immigration agents and direct California officers to assist in Trump’s campaign."
+        },
+        {
+          "source": "src:scrippsnews-com-5878c038d1",
+          "quote": "Asked whether he would assist in helping the Trump administration carry out mass deportations despite state laws that limit cooperation with federal law enforcement, Hilton noted his own background as a child of European immigrants and said his goal is “to lower the temperature on this whole question.” He pledged to protect “legal immigrant communities\" and prioritizing removing “dangerous criminals.”"
+        }
+      ]
+    },
+    {
       "subject": "q:taxes/lower-top-income-tax-rates",
       "stance": "support",
       "as_of": "2026-11-03",
