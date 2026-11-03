@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-20",
+  "candidates": [
+    {
+      "person": "person:vince-fong",
+      "name": "Vince Fong"
+    },
+    {
+      "person": "person:sandra-van-scotter",
+      "name": "Sandra Van Scotter"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: SoS unofficial primary returns: Fong 68.4%, Sandra Van Scotter (D) 28.6%, Ben Dewell (NPP) 1.8%, Jeremy Fox (NPP) 1.2%. Fong: Wikipedia gives his birth as October 24, 1979, in Bakersfield (not a primary source). Ballotpedia labels the seat CA-30 in one place, which appears to be a typo. Fong's Assembly district numbers were not retrieved. Van Scotter: the KGET questionnaire gives her age as 56 and hometown as Chicago. A Kern County candidate list of uncertain date (possibly an earlier election) shows the description Disability Community Advocate; it is not confirmed as her November 2026 designation. Van Scotter education not found."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

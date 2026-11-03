@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-15",
+  "candidates": [
+    {
+      "person": "person:kevin-mullin",
+      "name": "Kevin Mullin"
+    },
+    {
+      "person": "person:charles-hoelter",
+      "name": "Charles Hoelter"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Primary result per early unofficial counts: Mullin about 61%, Hoelter second (about a quarter of the vote); certified totals not seen. Mullin birth: a bioguide-style listing (not the bioguide page itself) says born in San Mateo County, June 15, 1970; Voteview gives 1970; not recorded as facts because no primary source was seen. Mullin's Assembly leadership title and start year differ between sources (Assistant Speaker pro Tem 2012-2015 vs Speaker pro Tem from 2014). Hoelter's occupation wording differs (retired UPS supervisor vs retired training supervisor); either may relate to his ballot designation, which was not found. Hoelter education not found. Ballot designations not found."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

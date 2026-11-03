@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-19",
+  "items": [
+    {
+      "person": "person:jimmy-panetta",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/19 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-19 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Jimmy_Panetta [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jimmy-panetta",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/19 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-19 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Jimmy_Panetta [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jimmy-panetta",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/19 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-19 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Jimmy_Panetta [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jimmy-panetta",
+      "label": "U.S. House",
+      "text": "U.S. Representative since January 3, 2017; elected in 2016 in the 20th District and represented the 20th District from 2017 to 2023; represents the 19th District since redistricting. (sources: Wikipedia https://en.wikipedia.org/wiki/Jimmy_Panetta [search summary, secondary]; Office of Rep. Jimmy Panetta (house.gov) https://panetta.house.gov/sites/evo-subsites/panetta.house.gov/files/documents/2023%20Congressman%20Jimmy%20Panetta%20Biography.pdf [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jimmy-panetta",
+      "label": "Prosecutor",
+      "text": "Prosecutor in Alameda County and Monterey County; Vote Smart lists Alameda County, 1996 to 2010, and Monterey County, 2010 to 2016. (sources: Office of Rep. Jimmy Panetta (house.gov) https://panetta.house.gov/sites/evo-subsites/panetta.house.gov/files/documents/2023%20Congressman%20Jimmy%20Panetta%20Biography.pdf [search summary, primary]; Vote Smart https://justfacts.votesmart.org/candidate/biography/169078/ [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:jimmy-panetta",
+      "label": "Military service",
+      "text": "Officer in the U.S. Navy Reserve; deployed to Afghanistan (one profile gives service dates of 2007 to 2009). (sources: VoteVets https://votevets.org/candidates/congressman-jimmy-panetta [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Jimmy_Panetta [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:jimmy-panetta",
+      "label": "Education",
+      "text": "Attended Monterey Peninsula College; undergraduate degree in international relations, University of California, Davis; J.D., Santa Clara University, 1996. (sources: Office of Rep. Jimmy Panetta (house.gov) https://panetta.house.gov/sites/evo-subsites/panetta.house.gov/files/documents/2023%20Congressman%20Jimmy%20Panetta%20Biography.pdf [search summary, primary]; Jimmy Panetta campaign https://www.jimmypanetta.com/meet-jimmy [search summary, primary]; Santa Clara Magazine https://magazine.scu.edu/classnote/jimmy-panetta/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:peter-coe-verbica",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/19 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-19 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Jimmy_Panetta [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:peter-coe-verbica",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/19 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-19 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Jimmy_Panetta [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:peter-coe-verbica",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/19 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-19 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Jimmy_Panetta [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:peter-coe-verbica",
+      "label": "Occupation",
+      "text": "Managing Director and Principal of Silicon Private Wealth; Certified Financial Planner. (sources: Verbica campaign release (PR Newswire via StreetInsider) https://www.streetinsider.com/PRNewswire/Verbica+Challenges+Panetta+to+a+Televised+Debate+on+the+Issues/26693755.html [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:peter-coe-verbica",
+      "label": "Teaching",
+      "text": "Adjunct associate professor, San Jose State University, 2014 to 2019 (per one candidate profile). (sources: iVoterGuide https://ivoterguide.com/candidate/90414 [search summary, secondary]; JoinCalifornia https://www.joincalifornia.com/candidate/14919 [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:peter-coe-verbica",
+      "label": "Education",
+      "text": "J.D.; the institution is not stated in the sources found. (sources: Verbica campaign release (PR Newswire via StreetInsider) https://www.streetinsider.com/PRNewswire/Verbica+Challenges+Panetta+to+a+Televised+Debate+on+the+Issues/26693755.html [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:peter-coe-verbica",
+      "label": "Prior candidacy and party roles",
+      "text": "Candidate for the California State Board of Equalization, District 2, in 2022, where he advanced to the general election; past chair of the Santa Cruz County Republican Central Committee. (sources: iVoterGuide https://ivoterguide.com/candidate/90414 [search summary, secondary]; JoinCalifornia https://www.joincalifornia.com/candidate/14919 [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

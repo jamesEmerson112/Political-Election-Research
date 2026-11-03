@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-14",
+  "items": [
+    {
+      "person": "person:aisha-wahab",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; Pleasanton Weekly https://www.pleasantonweekly.com/regional-politics/2026/06/08/hernandez-strengthens-second-place-hold-in-bid-for-runoff-with-wahab-for-congressional-district-14/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/alameda/congress-14th-district [search summary, secondary]; VoteSee https://www.votesee.org/ballot/california/district-14 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:aisha-wahab",
+      "label": "Party",
+      "text": "Democratic (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; Pleasanton Weekly https://www.pleasantonweekly.com/regional-politics/2026/06/08/hernandez-strengthens-second-place-hold-in-bid-for-runoff-with-wahab-for-congressional-district-14/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/alameda/congress-14th-district [search summary, secondary]; VoteSee https://www.votesee.org/ballot/california/district-14 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:aisha-wahab",
+      "label": "Incumbent",
+      "text": "Yes (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; Pleasanton Weekly https://www.pleasantonweekly.com/regional-politics/2026/06/08/hernandez-strengthens-second-place-hold-in-bid-for-runoff-with-wahab-for-congressional-district-14/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/alameda/congress-14th-district [search summary, secondary]; VoteSee https://www.votesee.org/ballot/california/district-14 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:aisha-wahab",
+      "label": "U.S. House (special election)",
+      "text": "Won the August 18, 2026 special general election for California's 14th Congressional District to fill the remainder of the term of Eric Swalwell, who resigned effective April 14, 2026; the AP called the race on August 20, 2026. Unofficial Secretary of State returns showed 53.1% to 46.9% over Melissa Hernandez. (sources: KTVU https://www.ktvu.com/news/aisha-wahab-wins-california-district-14-special-election [search summary, secondary]; NBC Bay Area https://www.nbcbayarea.com/news/local/aisha-wahab-california-congressional-district-14/4130964/ [search summary, secondary]; California Secretary of State https://electionresults.sos.ca.gov/special/us-rep/district/14 [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/2026_California%27s_14th_congressional_district_special_election [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:aisha-wahab",
+      "label": "California State Senate",
+      "text": "Member of the California State Senate, 10th District, from December 5, 2022; Wikipedia lists the tenure as ending September 1, 2026. Appointed Senate assistant majority leader in 2025. (sources: Wikipedia https://en.wikipedia.org/wiki/Aisha_Wahab [search summary, secondary]; Ballotpedia https://ballotpedia.org/Aisha_Wahab [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:aisha-wahab",
+      "label": "Hayward City Council",
+      "text": "Elected to an at-large seat on the Hayward City Council in November 2018 and served 2018 to 2022; mayor pro tempore in 2020. (sources: Wikipedia https://en.wikipedia.org/wiki/Aisha_Wahab [search summary, secondary]; California State University, East Bay https://csueastbay.edu/news-center/2019/03/one-of-the-first.html [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:aisha-wahab",
+      "label": "Education",
+      "text": "B.A., San Jose State University (JoinCalifornia lists Political Science, 2010); M.B.A., California State University, East Bay; doctorate from the University of Southern California (Wikipedia lists a Doctor of Social Work; JoinCalifornia lists a Ph.D., 2024). (sources: Wikipedia https://en.wikipedia.org/wiki/Aisha_Wahab [search summary, secondary]; JoinCalifornia https://joincalifornia.com/candidate/14990 [search summary, secondary]; California State University, East Bay https://csueastbay.edu/news-center/2019/03/one-of-the-first.html [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:melissa-hernandez",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; Pleasanton Weekly https://www.pleasantonweekly.com/regional-politics/2026/06/08/hernandez-strengthens-second-place-hold-in-bid-for-runoff-with-wahab-for-congressional-district-14/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/alameda/congress-14th-district [search summary, secondary]; VoteSee https://www.votesee.org/ballot/california/district-14 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:melissa-hernandez",
+      "label": "Party",
+      "text": "Democratic (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; Pleasanton Weekly https://www.pleasantonweekly.com/regional-politics/2026/06/08/hernandez-strengthens-second-place-hold-in-bid-for-runoff-with-wahab-for-congressional-district-14/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/alameda/congress-14th-district [search summary, secondary]; VoteSee https://www.votesee.org/ballot/california/district-14 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:melissa-hernandez",
+      "label": "Incumbent",
+      "text": "No (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; Pleasanton Weekly https://www.pleasantonweekly.com/regional-politics/2026/06/08/hernandez-strengthens-second-place-hold-in-bid-for-runoff-with-wahab-for-congressional-district-14/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/alameda/congress-14th-district [search summary, secondary]; VoteSee https://www.votesee.org/ballot/california/district-14 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:melissa-hernandez",
+      "label": "BART Board of Directors",
+      "text": "Member of the BART Board of Directors, District 5: appointed in May 2024 to fill a vacancy and elected in November 2024. Elected board president for 2026. (sources: Bay Area Rapid Transit (BART) https://www.bart.gov/node/11700 [search summary, primary]; Bay Area Rapid Transit (BART) https://www.bart.gov/node/44806 [search summary, primary]; Pleasanton Weekly https://www.pleasantonweekly.com/transportation/2024/05/23/dublin-mayor-chosen-to-fill-tri-valley-bart-board-vacancy/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:melissa-hernandez",
+      "label": "City of Dublin",
+      "text": "Elected to the Dublin City Council in 2016; vice mayor 2018 to 2019; elected mayor of Dublin in 2020 and served until June 2024, when she left the post after joining the BART board. (sources: Bay Area Rapid Transit (BART) https://www.bart.gov/node/11700 [search summary, primary]; Local News Matters https://localnewsmatters.org/2020/11/06/hernandez-garners-more-than-half-the-vote-in-dublin-mayors-race/ [search summary, secondary]; Patch https://patch.com/california/dublin/new-mayor-sworn-dublin-after-hernandez-joins-bart-board [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:melissa-hernandez",
+      "label": "Regional transportation boards",
+      "text": "Has served on the Alameda County Transportation Commission and has chaired the Livermore Amador Valley Transit Authority and a Tri-Valley/San Joaquin Valley regional transit authority. (sources: Bay Area Rapid Transit (BART) https://www.bart.gov/node/11700 [search summary, primary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:melissa-hernandez",
+      "label": "Education",
+      "text": "Degree in political science and public administration (one profile: Political Science, Public Affairs and Administration) from California State University, East Bay; graduation year not stated. (sources: Ava Community Energy https://avaenergy.org/from-the-ceos-desk/faces-of-ebce-board-member-melissa-hernandez-of-dublin/ [search summary, secondary]; BOLD PAC https://www.boldpac.com/candidates/melissa-hernandez [search summary, secondary])",
+      "topic": "profile.education"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

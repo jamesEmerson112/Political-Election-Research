@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-17",
+  "items": [
+    {
+      "person": "person:ro-khanna",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/17 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-17-results [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-ritesh-tandon-advances-to-the-general-election-for-u-s-house-in-californias-17th/article_1b9d3981-6498-5932-9d9c-0e5089289467.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ro-khanna",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/17 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-17-results [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-ritesh-tandon-advances-to-the-general-election-for-u-s-house-in-californias-17th/article_1b9d3981-6498-5932-9d9c-0e5089289467.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ro-khanna",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/17 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-17-results [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-ritesh-tandon-advances-to-the-general-election-for-u-s-house-in-californias-17th/article_1b9d3981-6498-5932-9d9c-0e5089289467.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ro-khanna",
+      "label": "U.S. House",
+      "text": "U.S. Representative for California's 17th Congressional District since January 3, 2017. (sources: Wikipedia https://en.wikipedia.org/wiki/Ro_Khanna [search summary, secondary]; The Lobby News (bioguide-style text) https://thelobbynews.com/congress/legislators/ro-khanna/K000389 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:ro-khanna",
+      "label": "U.S. Department of Commerce",
+      "text": "Deputy Assistant Secretary, U.S. Department of Commerce, August 2009 to August 2011. (sources: Wikipedia https://en.wikipedia.org/wiki/Ro_Khanna [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:ro-khanna",
+      "label": "State board",
+      "text": "Member of the California workforce development board, 2012 to 2016; unsuccessful candidate for the U.S. House in 2014. (sources: The Lobby News (bioguide-style text) https://thelobbynews.com/congress/legislators/ro-khanna/K000389 [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:ro-khanna",
+      "label": "Education",
+      "text": "Bachelor's degree, University of Chicago, 1998; J.D., Yale Law School, 2001. (sources: The Lobby News (bioguide-style text) https://thelobbynews.com/congress/legislators/ro-khanna/K000389 [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Ro_Khanna [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:ritesh-tandon",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/17 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-17-results [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-ritesh-tandon-advances-to-the-general-election-for-u-s-house-in-californias-17th/article_1b9d3981-6498-5932-9d9c-0e5089289467.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ritesh-tandon",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/17 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-17-results [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-ritesh-tandon-advances-to-the-general-election-for-u-s-house-in-californias-17th/article_1b9d3981-6498-5932-9d9c-0e5089289467.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ritesh-tandon",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/17 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-17-results [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-ritesh-tandon-advances-to-the-general-election-for-u-s-house-in-californias-17th/article_1b9d3981-6498-5932-9d9c-0e5089289467.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ritesh-tandon",
+      "label": "Occupation",
+      "text": "Engineer and businessman based in San Jose; has worked for Jabra and Cisco. (sources: San Jose Spotlight https://sanjosespotlight.com/exclusive-qa-u-s-house-district-17-candidate-ritesh-tandon/ [search summary, secondary]; Milpitas Beat https://milpitasbeat.com/congressional-candidate-ritesh-tandon-will-work-more-for-the-people-if-elected/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:ritesh-tandon",
+      "label": "Prior candidacies",
+      "text": "Republican nominee against Ro Khanna in the 2020 general election (28.7%) and the 2022 general election. (sources: Ballotpedia https://ballotpedia.org/Ro_Khanna [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-24",
+  "items": [
+    {
+      "person": "person:salud-carbajal",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/24 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-24 [search summary, secondary]; KEYT https://keyt.com/news/2026/06/02/24th-district-race-has-three-candidates-trying-to-unseat-carbajal/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:salud-carbajal",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/24 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-24 [search summary, secondary]; KEYT https://keyt.com/news/2026/06/02/24th-district-race-has-three-candidates-trying-to-unseat-carbajal/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:salud-carbajal",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/24 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-24 [search summary, secondary]; KEYT https://keyt.com/news/2026/06/02/24th-district-race-has-three-candidates-trying-to-unseat-carbajal/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:salud-carbajal",
+      "label": "U.S. House",
+      "text": "U.S. Representative for California's 24th District since 2017. (sources: Voteview (UCLA) https://voteview.com/person/21709/salud-carbajal [search summary, secondary]; Office of Rep. Salud Carbajal (house.gov) https://carbajal.house.gov/biography [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:salud-carbajal",
+      "label": "Santa Barbara County Board of Supervisors",
+      "text": "Member of the Santa Barbara County Board of Supervisors; re-elected in 2008 and 2012. (sources: Wikipedia https://en.wikipedia.org/wiki/Salud_Carbajal [search summary, secondary]; Santa Barbara Independent https://www.independent.com/2015/04/09/supervisor-salud-carbajal-announces-run-congress/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:salud-carbajal",
+      "label": "Military and early career",
+      "text": "Served in the U.S. Marine Corps Reserve; staff, Santa Barbara County public health department. (sources: Legilist (bioguide-style text) https://legilist.com/legislator/C001112 [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:salud-carbajal",
+      "label": "Education",
+      "text": "B.A., University of California, Santa Barbara, 1990; M.A., Fielding Graduate University, 1994. (sources: Legilist (bioguide-style text) https://legilist.com/legislator/C001112 [search summary, secondary]; UCSB Alumni Association https://www.alumni.ucsb.edu/coastlines/winter-2018/the-three-gauchos-on-the-hill [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:bob-smith",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/24 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-24 [search summary, secondary]; KEYT https://keyt.com/news/2026/06/02/24th-district-race-has-three-candidates-trying-to-unseat-carbajal/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:bob-smith",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/24 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-24 [search summary, secondary]; KEYT https://keyt.com/news/2026/06/02/24th-district-race-has-three-candidates-trying-to-unseat-carbajal/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:bob-smith",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/24 [search summary, primary]; Ballot Explained https://ballotexplained.com/races/california/district-24 [search summary, secondary]; KEYT https://keyt.com/news/2026/06/02/24th-district-race-has-three-candidates-trying-to-unseat-carbajal/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:bob-smith",
+      "label": "Occupation",
+      "text": "Senior systems engineer (KEYT also uses the title Senior Engineering Fellow) at a defense contractor. (sources: KEYT https://keyt.com/news/2026/06/02/24th-district-race-has-three-candidates-trying-to-unseat-carbajal/ [search summary, secondary]; KEYT https://keyt.com/news/local-politics/2025/04/14/bob-smith-of-carpinteria-announces-candidacy-for-24th-congressional-district-monday/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:bob-smith",
+      "label": "Military service",
+      "text": "U.S. Navy, about 26 years: enlisted, commissioned through the Seaman to Admiral program, and retired as a commander in 2024. (sources: Bob Smith campaign https://bobsmithforcongress.com/about/ [search summary, primary]; KEYT https://keyt.com/news/local-politics/2025/04/14/bob-smith-of-carpinteria-announces-candidacy-for-24th-congressional-district-monday/ [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:bob-smith",
+      "label": "Education",
+      "text": "B.S. and M.S. degrees in engineering technology and systems engineering; institutions not stated in the sources found. (sources: Bob Smith campaign https://bobsmithforcongress.com/about/ [search summary, primary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:bob-smith",
+      "label": "Prior offices",
+      "text": "Has not held elected office; resident of Carpinteria. (sources: KEYT https://keyt.com/news/2026/06/02/24th-district-race-has-three-candidates-trying-to-unseat-carbajal/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

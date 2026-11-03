@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-15",
+  "items": [
+    {
+      "person": "person:kevin-mullin",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; The Almanac https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ [search summary, secondary]; Joplin Globe https://www.joplinglobe.com/region/republican-charles-hoelter-advances-to-the-general-election-for-u-s-house-in-californias-15th/article_aa86a5ae-58b7-58d0-852d-4a3640fa720c.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kevin-mullin",
+      "label": "Party",
+      "text": "Democratic (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; The Almanac https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ [search summary, secondary]; Joplin Globe https://www.joplinglobe.com/region/republican-charles-hoelter-advances-to-the-general-election-for-u-s-house-in-californias-15th/article_aa86a5ae-58b7-58d0-852d-4a3640fa720c.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:kevin-mullin",
+      "label": "Incumbent",
+      "text": "Yes (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; The Almanac https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ [search summary, secondary]; Joplin Globe https://www.joplinglobe.com/region/republican-charles-hoelter-advances-to-the-general-election-for-u-s-house-in-californias-15th/article_aa86a5ae-58b7-58d0-852d-4a3640fa720c.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kevin-mullin",
+      "label": "U.S. House",
+      "text": "U.S. Representative for California's 15th Congressional District since 2023. (sources: Office of Rep. Kevin Mullin (house.gov) https://kevinmullin.house.gov/about [search summary, primary]; Voteview (UCLA) https://voteview.com/person/22354 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:kevin-mullin",
+      "label": "California State Assembly",
+      "text": "Member of the California State Assembly, 22nd District. Vote Smart lists him as Assistant Speaker pro Tempore, 2012 to 2015; a news report states he served as Speaker pro Tempore from 2014. (sources: Vote Smart https://justfacts.votesmart.org/candidate/biography/105586 [search summary, secondary]; San Mateo Daily Journal https://www.smdailyjournal.com/news/local/south-san-francisco-assemblymember-seeks-congress-seat/article_8519a342-bc71-11ec-8b31-17b96f2a2572.html [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:kevin-mullin",
+      "label": "South San Francisco City Council",
+      "text": "Member of the South San Francisco City Council, 2007 to 2012; mayor in 2011 per his official site (another profile gives 2010 to 2011). (sources: Office of Rep. Kevin Mullin (house.gov) https://kevinmullin.house.gov/about [search summary, primary]; Secular Coalition for America https://secular.org/profile/rep-kevin-mullin/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:kevin-mullin",
+      "label": "Education",
+      "text": "B.A., Communications, University of San Francisco (Vote Smart: 1988 to 1992); master's degree from San Francisco State University (Vote Smart: M.P.A., 1996 to 1998). (sources: Office of Rep. Kevin Mullin (house.gov) https://kevinmullin.house.gov/about [search summary, primary]; Vote Smart https://justfacts.votesmart.org/candidate/biography/105586 [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:charles-hoelter",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; The Almanac https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ [search summary, secondary]; Joplin Globe https://www.joplinglobe.com/region/republican-charles-hoelter-advances-to-the-general-election-for-u-s-house-in-californias-15th/article_aa86a5ae-58b7-58d0-852d-4a3640fa720c.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:charles-hoelter",
+      "label": "Party",
+      "text": "Republican (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; The Almanac https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ [search summary, secondary]; Joplin Globe https://www.joplinglobe.com/region/republican-charles-hoelter-advances-to-the-general-election-for-u-s-house-in-californias-15th/article_aa86a5ae-58b7-58d0-852d-4a3640fa720c.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:charles-hoelter",
+      "label": "Incumbent",
+      "text": "No (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; The Almanac https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ [search summary, secondary]; Joplin Globe https://www.joplinglobe.com/region/republican-charles-hoelter-advances-to-the-general-election-for-u-s-house-in-californias-15th/article_aa86a5ae-58b7-58d0-852d-4a3640fa720c.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:charles-hoelter",
+      "label": "Occupation",
+      "text": "Described by Redwood City Pulse as a retired UPS supervisor and by Prediction Edge as a retired training supervisor; resident of San Mateo County for over three decades. (sources: Redwood City Pulse https://www.rwcpulse.com/redwood-city/2026/05/13/five-candidates-up-to-bat-for-congressional-d-15/ [search summary, secondary]; Prediction Edge https://www.predictionedge.com/elections/profile/charles-hoelter/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:charles-hoelter",
+      "label": "Prior offices",
+      "text": "No prior elected office found; The Almanac described him as a first-time candidate. (sources: The Almanac https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ [search summary, secondary]; iVoterGuide https://ivoterguide.com/candidate/92381/race/30366/election/1454 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

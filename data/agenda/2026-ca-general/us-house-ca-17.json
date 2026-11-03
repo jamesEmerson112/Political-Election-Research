@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-17",
+  "candidates": [
+    {
+      "person": "person:ro-khanna",
+      "name": "Ro Khanna"
+    },
+    {
+      "person": "person:ritesh-tandon",
+      "name": "Ritesh Tandon"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: SoS unofficial primary returns: Khanna 62.3%, Ritesh Tandon (R) 14.8%, Jennie Ha Phan (R) 10.7%. The AP and NBC report that Khanna and Tandon advanced. Khanna birth (September 13, 1976, Philadelphia) is from Wikipedia, not a primary source, so it is not recorded as a fact. The education and board details come from a reproduction of bioguide-style text that was cut off; verify against bioguide.congress.gov. Tandon: JoinCalifornia gives his birth as July 10, 1972, in India (not a primary source); no education found. Ballot designations not found."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

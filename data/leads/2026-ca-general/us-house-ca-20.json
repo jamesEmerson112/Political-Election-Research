@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-20",
+  "items": [
+    {
+      "person": "person:vince-fong",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/20 [search summary, primary]; The Sun-Gazette https://thesungazette.com/article/news/2026/10/07/fong-van-scotter-vie-for-californias-20th-district/ [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-20-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:vince-fong",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/20 [search summary, primary]; The Sun-Gazette https://thesungazette.com/article/news/2026/10/07/fong-van-scotter-vie-for-californias-20th-district/ [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-20-results [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:vince-fong",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/20 [search summary, primary]; The Sun-Gazette https://thesungazette.com/article/news/2026/10/07/fong-van-scotter-vie-for-californias-20th-district/ [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-20-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:vince-fong",
+      "label": "U.S. House",
+      "text": "U.S. Representative for California's 20th District; won the May 21, 2024 special election to succeed Kevin McCarthy and was sworn in June 3, 2024. (sources: Wikipedia https://en.wikipedia.org/wiki/Vince_Fong [search summary, secondary]; Ballotpedia https://ballotpedia.org/Vince_Fong [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:vince-fong",
+      "label": "California State Assembly",
+      "text": "Member of the California State Assembly, December 5, 2016 to May 24, 2024. (sources: Wikipedia https://en.wikipedia.org/wiki/Vince_Fong [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:vince-fong",
+      "label": "Congressional staff",
+      "text": "Staff member for Rep. Bill Thomas, working on international trade policy; district director for Rep. Kevin McCarthy for about a decade. (sources: Vince Fong campaign https://vincefong.com/about/ [search summary, primary]; Roll Call https://rollcall.com/2025/01/29/from-staffer-to-member-vince-fong-road-to-congress/ [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:vince-fong",
+      "label": "Education",
+      "text": "Bachelor's degree, UCLA; master's degree (Vote Smart: M.P.A., 2001 to 2003), Princeton University. (sources: Wikipedia https://en.wikipedia.org/wiki/Vince_Fong [search summary, secondary]; Vote Smart https://votesmart.org/candidate/biography/169357 [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:sandra-van-scotter",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/20 [search summary, primary]; The Sun-Gazette https://thesungazette.com/article/news/2026/10/07/fong-van-scotter-vie-for-californias-20th-district/ [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-20-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sandra-van-scotter",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/20 [search summary, primary]; The Sun-Gazette https://thesungazette.com/article/news/2026/10/07/fong-van-scotter-vie-for-californias-20th-district/ [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-20-results [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:sandra-van-scotter",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/20 [search summary, primary]; The Sun-Gazette https://thesungazette.com/article/news/2026/10/07/fong-van-scotter-vie-for-californias-20th-district/ [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-20-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sandra-van-scotter",
+      "label": "Career",
+      "text": "BallotReady lists cardiac testing at Ridgecrest Regional Hospital (2017 to 2021) and work as a registered respiratory therapist at Northwestern Memorial Hospital (2011 to 2014). (sources: BallotReady https://www.ballotready.org/people/sandra-van-scotter [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:sandra-van-scotter",
+      "label": "Occupation",
+      "text": "Described in local coverage as an advocate for disability rights and veterans' issues; resident of Ridgecrest. (sources: Tehachapi News https://www.tehachapinews.com/lifestyle/tmdc-endorses-van-scotter-for-20th-congressional-district/article_a90a48e7-1fe0-454b-9019-72a3c8efb5ef.html [search summary, secondary]; The Loop (Tehachapi) https://www.theloopnewspaper.com/story/2026/04/11/local-news/sandra-van-scotter-offers-campaign-update/14745.html [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:sandra-van-scotter",
+      "label": "Party registration history",
+      "text": "In a KGET questionnaire she lists registration as Democrat since 2025, No Party Preference in California 2014 to 2025, and Democrat in Illinois 2008 to 2014. (sources: KGET https://www.kget.com/news/politics/your-local-elections/2026-candidate-questionnaire-california-congressional-district-20/amp/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

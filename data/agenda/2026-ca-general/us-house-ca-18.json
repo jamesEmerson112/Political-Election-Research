@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-18",
+  "candidates": [
+    {
+      "person": "person:zoe-lofgren",
+      "name": "Zoe Lofgren"
+    },
+    {
+      "person": "person:shane-lewis",
+      "name": "Shane Lewis"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: SoS unofficial primary returns: Lofgren 54.9%, Shane Lewis (R) 29.3%, Luis Arreguin (D) 12.9%, Chris Demers (NPP) 2.9%. The AP reports that Lewis advanced. Ballotpedia pages disagree on the primary field. Lofgren's start year on the county board differs between sources (1980 or 1981). The BenitoLink Q&A gives Lewis's age as 54 and says he has lived in Santa Clara County for 30 years. Lewis education not found. Voteview gives Lofgren's birth year as 1947 (not a primary source). Ballot designations not found."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

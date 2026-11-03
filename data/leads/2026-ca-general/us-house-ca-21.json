@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-21",
+  "items": [
+    {
+      "person": "person:jim-costa",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/21 [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Mid Valley Times https://midvalleytimes.com/article/news/2026/10/08/costa-kirkland-face-off-for-congressional-district-21/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-kyle-kirkland-advances-to-the-general-election-for-u-s-house-in-californias-21st/article_c1d0f779-43fe-51b4-8dd0-d94dfcfe14ff.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jim-costa",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/21 [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Mid Valley Times https://midvalleytimes.com/article/news/2026/10/08/costa-kirkland-face-off-for-congressional-district-21/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-kyle-kirkland-advances-to-the-general-election-for-u-s-house-in-californias-21st/article_c1d0f779-43fe-51b4-8dd0-d94dfcfe14ff.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jim-costa",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/21 [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Mid Valley Times https://midvalleytimes.com/article/news/2026/10/08/costa-kirkland-face-off-for-congressional-district-21/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-kyle-kirkland-advances-to-the-general-election-for-u-s-house-in-californias-21st/article_c1d0f779-43fe-51b4-8dd0-d94dfcfe14ff.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jim-costa",
+      "label": "U.S. House",
+      "text": "U.S. Representative since 2005; currently represents California's 21st District. (sources: Office of Rep. Jim Costa (house.gov) https://costa.house.gov/about/full-biography [search summary, primary]; Voteview (UCLA) https://voteview.com/person/20501/jim-costa [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jim-costa",
+      "label": "California Legislature",
+      "text": "Served 24 years in the California State Legislature; elected to the State Assembly in 1978. (sources: Office of Rep. Jim Costa (house.gov) https://costa.house.gov/about/full-biography [search summary, primary]; JoinCalifornia https://www.joincalifornia.com/candidate/3946 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jim-costa",
+      "label": "Education",
+      "text": "Bachelor's degree in political science, California State University, Fresno. (sources: KMPH https://kmph.com/news/us-representative-district-16/jim-costa-democrat [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Jim_Costa [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:kyle-kirkland",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/21 [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Mid Valley Times https://midvalleytimes.com/article/news/2026/10/08/costa-kirkland-face-off-for-congressional-district-21/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-kyle-kirkland-advances-to-the-general-election-for-u-s-house-in-californias-21st/article_c1d0f779-43fe-51b4-8dd0-d94dfcfe14ff.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kyle-kirkland",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/21 [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Mid Valley Times https://midvalleytimes.com/article/news/2026/10/08/costa-kirkland-face-off-for-congressional-district-21/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-kyle-kirkland-advances-to-the-general-election-for-u-s-house-in-californias-21st/article_c1d0f779-43fe-51b4-8dd0-d94dfcfe14ff.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:kyle-kirkland",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/21 [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Mid Valley Times https://midvalleytimes.com/article/news/2026/10/08/costa-kirkland-face-off-for-congressional-district-21/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-kyle-kirkland-advances-to-the-general-election-for-u-s-house-in-californias-21st/article_c1d0f779-43fe-51b4-8dd0-d94dfcfe14ff.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kyle-kirkland",
+      "label": "Occupation",
+      "text": "Owner of Club One Casino in Fresno; president of the California Gaming Association; founder of the Kirkland Foundation; former chairman of Steinway Musical Instruments. (sources: San Joaquin Valley Sun https://sjvsun.com/?p=101910 [search summary, secondary]; The Business Journal https://thebusinessjournal.com/kirkland-announces-run-for-congress [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:kyle-kirkland",
+      "label": "Education",
+      "text": "A.B., Harvard University, 1984; M.B.A., Stanford University, 1988 (single source). (sources: iVoterGuide https://ivoterguide.com/candidate/78525/race/25582/election/1385 [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:kyle-kirkland",
+      "label": "Prior candidacy",
+      "text": "Candidate in the 2024 special election for California's 20th District after Kevin McCarthy's resignation; did not advance past the primary. (sources: GV Wire https://gvwire.com/2023/12/13/fresno-casino-owner-former-navy-combat-pilot-enter-race-for-mccarthys-seat/ [search summary, secondary]; Mid Valley Times https://midvalleytimes.com/article/news/2026/10/08/costa-kirkland-face-off-for-congressional-district-21/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kyle-kirkland",
+      "label": "Party registration",
+      "text": "The SoS party preference history lists Republican from 2023 to 2026; news coverage reports that he declined to state a party for some years before re-registering as a Republican. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/pph.pdf [search summary, primary]; San Joaquin Valley Sun https://sjvsun.com/?p=101910 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}
