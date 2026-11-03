@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "shirley-n-weber",
+  "name": "Shirley N. Weber",
+  "aliases": [
+    "Shirley Nash Weber",
+    "Shirley Weber"
+  ],
+  "ids": [
+    {
+      "id": "Q7498880",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.drshirleyweber.com/",
+    "official_site": "https://www.sos.ca.gov/administration/about"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
