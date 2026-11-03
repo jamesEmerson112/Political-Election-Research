@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { budgetInput, measureInput, runTrial, shareOf, type MeasureInput, type Vote } from "../web/src/lib/budgetTrial";
+import { budgetInput, measureInput, runTrial, shareOf, type MeasureInput, type Vote } from "../web/src/lib/budgetTrial.js";
 
 const M = 1_000_000;
 const effect = (e: Record<string, unknown>) => ({ id: "e", lane: "general_fund", per: "year", estimate: "estimated", text: "x", citations: [], ...e });
