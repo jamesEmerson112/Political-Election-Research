@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.malia-cohen--person.jane-kim--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:jane-kim",
+  "endorser": "person:malia-cohen",
+  "citations": [
+    {
+      "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+      "quote": "I’m proudly supported by United States Senator Bernie Sanders, Lt. Governor Eleni Kounalakis, Controller Malia Cohen, Dolores Huerta, California Teachers Association, California Nurses Association",
+      "locator": "Candidate statement, p. 89"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

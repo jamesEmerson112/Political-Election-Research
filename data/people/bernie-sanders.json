@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "bernie-sanders",
+  "name": "Bernie Sanders",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-03"
+}
