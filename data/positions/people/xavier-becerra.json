@@ -3,6 +3,44 @@
   "actor": "person:xavier-becerra",
   "positions": [
     {
+      "subject": "q:energy/loosen-oil-production-limits",
+      "stance": "no_public_position",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Becerra candidate statement (none submitted)",
+          "where": "Official Voter Information Guide (vig.cdn.sos.ca.gov), candidate statements p. 83"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "oil drilling, refineries, SB 237, in-state production",
+          "where": "xavierbecerra2026.com/priorities/energy-utilities/ and /priorities/economy-and-affordability/"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "oil, refinery, drilling (WordPress search API returned HTTP 401)",
+          "where": "xavierbecerra2026.com post sitemap and news room"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Becerra oil drilling (reported only as criticizing Hilton and Trump on offshore drilling)",
+          "where": "CNN debate Sept. 30, 2026 coverage: CalMatters via Santa Barbara Independent, KSBY, ABC30"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Becerra oil (blocked by bot challenge, HTTP 403)",
+          "where": "calmatters.org voter guide, explainer embed and WordPress search"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Xavier Becerra oil drilling refineries gas prices position 2026 SB 237",
+          "where": "web search"
+        }
+      ]
+    },
+    {
       "subject": "q:homelessness/encampment-enforcement-funding",
       "stance": "no_public_position",
       "as_of": "2026-11-03",
