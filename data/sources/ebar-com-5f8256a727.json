@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ebar-com-5f8256a727",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-09-09",
+  "publisher": "Bay Area Reporter",
+  "title": "Editorial: An LGBTQ slate for City College board",
+  "url": "https://www.ebar.com/story/170122"
+}

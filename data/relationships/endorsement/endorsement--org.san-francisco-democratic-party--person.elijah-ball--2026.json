@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-democratic-party--person.elijah-ball--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:elijah-ball",
+  "endorser": "org:san-francisco-democratic-party",
+  "citations": [
+    {
+      "source": "src:elijahforcitycollege-com-304dca1314",
+      "quote": "San Francisco Democratic Party",
+      "locator": "Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

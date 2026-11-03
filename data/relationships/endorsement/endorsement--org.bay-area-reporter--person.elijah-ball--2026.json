@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.bay-area-reporter--person.elijah-ball--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:elijah-ball",
+  "endorser": "org:bay-area-reporter",
+  "citations": [
+    {
+      "source": "src:ebar-com-5f8256a727",
+      "quote": "we’re recommending three candidates who are running as a slate."
+    },
+    {
+      "source": "src:ebar-com-5f8256a727",
+      "quote": "Overall, we’re impressed with Ball and think his background will be an asset to the college board.",
+      "locator": "Elijah Ball"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

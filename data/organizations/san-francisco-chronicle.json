@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "san-francisco-chronicle",
+  "name": "San Francisco Chronicle",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "corporation",
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-chronicle--person.elijah-ball--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:elijah-ball",
+  "endorser": "org:san-francisco-chronicle",
+  "citations": [
+    {
+      "source": "src:elijahforcitycollege-com-304dca1314",
+      "quote": "San Francisco Chronicle",
+      "locator": "Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfist-com-a47dc6aba9",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-08",
+  "publisher": "SFist",
+  "title": "City College Board Race Pits Union-Backed Slate Against Billionaire-Funded Group",
+  "url": "https://sfist.com/2026/10/08/city-college-board-race-pits-union-backed-slate-against-billionaire-funded-group/"
+}
