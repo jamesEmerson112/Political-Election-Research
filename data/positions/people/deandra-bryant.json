@@ -16,6 +16,39 @@
           "locator": "p. 8, answer to \"How did you vote or would you have voted on Mayor Lurie’s Family Zoning Plan?\""
         }
       ]
+    },
+    {
+      "subject": "q:housing/expand-rent-control",
+      "stance": "no_public_position",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "rent control; the Nov 2024 Prop 33 (Costa-Hawkins repeal) vote item shows only the Yes/No options in the PDF text, so her answer cannot be read",
+          "where": "SF League of Pissed Off Voters 2026 questionnaire, Deandra Bryant (assets.nationbuilder.com PDF)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "rent control, rent cap, Costa-Hawkins",
+          "where": "GrowSF questionnaire, Deandra Bryant (growsf.org/voter-guide/questionnaires/november-2026/deandra-bryant/)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "candidate statement: zoning, height, density, rent control",
+          "where": "SF Voter Information Pamphlet, Nov. 3, 2026, District 10 candidate statements (media.api.sf.gov N26_EN_VIP.pdf, pp. 47-51)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 10 candidates rezoning rent control",
+          "where": "missionlocal.org Meet the District 10 candidates series (WordPress API search and slug lookups for meet-the-district-10-candidates-upzoning-third-street, meet-the-candidates-san-franciscos-district-10-supervisor-race, district-10-meet-the-candidates-top-priority): bot challenge, unreadable"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 10 supervisor candidates rent control Family Zoning",
+          "where": "web search (SF Standard, SF Chronicle, Vote411, Voter's Edge, Potrero View, The Voice SF)"
+        }
+      ]
     }
   ]
 }
