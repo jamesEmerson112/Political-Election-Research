@@ -3,6 +3,9 @@
   import { date, money, ROLE_LABEL } from "../lib/format";
   import { hideTip, showTip } from "../lib/ui.svelte";
   import { openRel } from "../lib/view";
+  import { MARK } from "../lib/marks";
+  import MarkShape from "./MarkShape.svelte";
+  import StanceMark from "./StanceMark.svelte";
 
   let { ix, contestRef, candidates }: { ix: Index; contestRef: string; candidates: string[] } = $props();
   let picked = $state<string | null>(null);
@@ -22,6 +25,8 @@
     tip: string[];
     title: string;
     facts: Array<[string, string]>;
+    /** For / against mark at the edge midpoint (outside spending). */
+    mid?: { x: number; y: number };
   }
 
   const graph = $derived.by(() => {
@@ -89,8 +94,10 @@
     for (const r of ies) {
       const side = String(r["side"]);
       const amount = money(r["money"]["amount_cents"]);
+      const y1 = leftY.get(String(r["spender"]))!;
       edges.push({
-        d: curve(XL, leftY.get(String(r["spender"]))!, XC, yC),
+        mid: { x: (XL + XC) / 2, y: (y1 + yC) / 2 },
+        d: curve(XL, y1, XC, yC),
         kind: side === "support" ? "ie-support" : "ie-oppose",
         rel: r,
         title: `${ix.name(r["spender"])}: outside spending ${side === "support" ? "supporting" : "opposing"} ${ix.name(cand)}`,
@@ -136,8 +143,8 @@
   <div class="legend">
     <span><i class="ln money"></i>Contribution</span>
     <span><i class="ln endorse"></i>Endorsement</span>
-    <span><i class="ln support"></i>Outside spending, supporting</span>
-    <span><i class="ln oppose"></i>Outside spending, opposing</span>
+    <span><i class="ln support"></i><StanceMark mark={MARK["ie_support"]!} size={11} /> Outside spending for</span>
+    <span><i class="ln oppose"></i><StanceMark mark={MARK["ie_oppose"]!} size={11} /> Outside spending against</span>
     <span><i class="ln role"></i>Committee counted for this race</span>
     <span><i class="ln uncounted"></i>Committee not counted</span>
   </div>
@@ -149,6 +156,11 @@
       {#each graph.edges as e, i (i)}
         <g class="edge {e.kind}">
           <path d={e.d} class="stroke" fill="none" />
+          {#if e.mid}
+            <g transform={`translate(${e.mid.x},${e.mid.y})`}>
+              <MarkShape mark={e.kind === "ie-support" ? MARK["ie_support"]! : MARK["ie_oppose"]!} s={7} />
+            </g>
+          {/if}
           <path
             d={e.d}
             class="hit"

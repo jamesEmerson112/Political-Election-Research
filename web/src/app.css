@@ -19,6 +19,21 @@
   --support-wash: #dff3ea;
   --oppose-wash: #fbe7de;
 
+  /* badge circles, colored by CATEGORY (never by stance; white glyph on top).
+     --cat-people passes validate_palette.js --pairs all with --support,
+     --oppose and --money in both themes; no further hue does, so issues and
+     record use ink / gray circles. */
+  --cat-issue: #454b51;
+  --cat-people: #c2509a;
+  --cat-record: #7a807c;
+  --on-badge: #ffffff;
+  /* bill outcome stamps: one ordinal ink ramp (validate_palette.js --ordinal),
+     always paired with a distinct stamp shape and a text label */
+  --outcome-enacted: #2f3439;
+  --outcome-vetoed: #5c6268;
+  --outcome-stalled: #878c91;
+  --outcome-pending: #aeb2b6;
+
   /* status (reserved; always paired with an icon + label) */
   --warning: #b07800;
   --warning-wash: #fdf1d6;
@@ -54,6 +69,13 @@
     --money: #3987e5;
     --support-wash: #15322a;
     --oppose-wash: #3a2219;
+    --cat-issue: #646b72;
+    --cat-people: #d266b0;
+    --cat-record: #8c8f88;
+    --outcome-enacted: #e6e5e0;
+    --outcome-vetoed: #b9bab2;
+    --outcome-stalled: #8d8e88;
+    --outcome-pending: #64655f;
     --warning: #fab219;
     --warning-wash: #33290f;
     --critical: #e66767;
@@ -76,6 +98,13 @@
   --money: #3987e5;
   --support-wash: #15322a;
   --oppose-wash: #3a2219;
+  --cat-issue: #646b72;
+  --cat-people: #d266b0;
+  --cat-record: #8c8f88;
+  --outcome-enacted: #e6e5e0;
+  --outcome-vetoed: #b9bab2;
+  --outcome-stalled: #8d8e88;
+  --outcome-pending: #64655f;
   --warning: #fab219;
   --warning-wash: #33290f;
   --critical: #e66767;

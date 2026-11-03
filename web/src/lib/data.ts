@@ -1,6 +1,7 @@
 import type { Bundle } from "../../../src/bundle";
 import type { Coverage, Task } from "../../../src/research";
 import type { CandidateRollup } from "../../../src/rollup";
+import type { OfficeType } from "./icons";
 
 export type { Bundle, Coverage, Task, CandidateRollup };
 // Records are schema-validated JSON; the UI reads them loosely.
@@ -37,12 +38,41 @@ export function titleFromSlug(contestSlug: string): string {
   const s = contestSlug.split("/").pop() ?? contestSlug;
   const house = /^us-house-([a-z]{2})-(\d+)$/.exec(s);
   if (house) return `U.S. House, ${house[1]!.toUpperCase()}-${house[2]}`;
+  const boe = /^board-of-equalization-(\d+)$/.exec(s);
+  if (boe) return `Board of Equalization, District ${boe[1]}`;
   const prop = /^prop-(\d+)$/.exec(s);
   if (prop) return `Proposition ${prop[1]}`;
+  const small = new Set(["of", "and", "for", "the", "on"]);
   return s
     .split("-")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .map((w, i) => (i > 0 && small.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1)))
     .join(" ");
+}
+
+/** Statewide offices in California ballot order; others sort after them alphabetically. */
+const STATEWIDE_ORDER = [
+  "governor",
+  "lieutenant-governor",
+  "secretary-of-state",
+  "controller",
+  "treasurer",
+  "attorney-general",
+  "insurance-commissioner",
+  "superintendent-of-public-instruction",
+];
+
+/** Contest index group + a sort key (numeric district order: CA-2 before CA-10). */
+export function officeOf(contestRef: string, kind: "office" | "measure"): { type: OfficeType; sort: [number, string] } {
+  const s = slugOf(contestRef).split("/").pop() ?? "";
+  const num = (m: RegExpExecArray | null) => (m ? Number(m[m.length - 1]) : 0);
+  if (kind === "measure" || /^prop-\d+$/.test(s)) return { type: "measure", sort: [num(/^prop-(\d+)$/.exec(s)), s] };
+  if (/^us-house-[a-z]{2}-\d+$/.test(s)) return { type: "house", sort: [num(/-(\d+)$/.exec(s)), s] };
+  if (/^board-of-equalization-\d+$/.test(s)) return { type: "boe", sort: [num(/-(\d+)$/.exec(s)), s] };
+  if (/^(state-senate|state-assembly|assembly|senate)-\d+$/.test(s)) return { type: "legislature", sort: [num(/-(\d+)$/.exec(s)), s] };
+  const i = STATEWIDE_ORDER.indexOf(s);
+  if (i >= 0) return { type: "statewide", sort: [i, s] };
+  if (!/\d/.test(s)) return { type: "statewide", sort: [STATEWIDE_ORDER.length, s] };
+  return { type: "other", sort: [0, s] };
 }
 
 export function electionFromSlug(slug: string): string {

@@ -72,9 +72,9 @@
   </div>
   <nav class="wrap nav" aria-label="Sections">
     <a href="#overview" class:active={view === "overview"}>Overview</a>
-    {#each contestRefs as ref (ref)}
-      <a href={`#${contestRoute(ref)}`} class:active={routeContest === ref}>{ix.contestTitle(ref)}</a>
-    {/each}
+    {#if routeContest}
+      <a class="cur" href={`#${contestRoute(routeContest)}`} class:active={true} aria-current="page">{ix.contestTitle(routeContest)}</a>
+    {/if}
     <a href="#issues" class:active={view === "issues"}>Issues</a>
     <a href="#sources" class:active={view === "sources"}>Sources</a>
     <a href="#queue" class:active={view === "queue"}>Research queue</a>
@@ -205,6 +205,12 @@
   .nav a.active {
     color: var(--ink);
     border-bottom-color: var(--ink);
+  }
+  .nav a.cur {
+    max-width: 22ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .banner {
     border-bottom: 1px solid var(--line);
