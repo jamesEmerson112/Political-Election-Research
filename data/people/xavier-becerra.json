@@ -123,6 +123,47 @@
           "locator": "PDF page 2 (Page 1 of 41), Governor (party preference)"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "residence city",
+          "where": "xavierbecerra2026.com/bio (campaign bio; says the family raised their daughters in Los Angeles, no current residence)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "residence city",
+          "where": "oag.ca.gov/history/33becerra (official AG bio)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "residence city",
+          "where": "Congressional Directory, 105th Congress (June 1997) lists 'of Los Angeles, CA' (1997, not current)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Xavier Becerra address",
+          "where": "2026 General Election Official Voter Information Guide, p. 83 (no candidate statement)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Xavier Becerra lives home city",
+          "where": "KSAT/AP (June 5, 2026), CBS Sacramento (April 2, 2025)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Xavier Becerra governor candidate lives in Sacramento home 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Becerra for Governor 2026 Form 501",
+          "where": "cal-access.sos.ca.gov (candidate filings; blocked by bot challenge)"
+        }
+      ]
     }
   },
   "ids": [
