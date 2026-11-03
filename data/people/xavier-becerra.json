@@ -28,6 +28,62 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "end": "1985",
+          "organization": "Legal Assistance Corporation of Central Massachusetts",
+          "role": "Staff attorney (\"Reggie Fellow\")",
+          "start": "1984",
+          "citations": [
+            {
+              "source": "src:gpo-gov-256d2e7c90",
+              "quote": "staff attorney, ``Reggie Fellow'', Legal Assistance Corporation of Central Massachusetts, 1984-85",
+              "locator": "Page 48, member biography"
+            }
+          ]
+        },
+        {
+          "end": "1986",
+          "organization": "California State Legislature",
+          "role": "Administrative assistant for State Senator Art Torres",
+          "start": "1986",
+          "citations": [
+            {
+              "source": "src:gpo-gov-256d2e7c90",
+              "quote": "administrative assistant for State Senator Art Torres, California State Legislature, 1986",
+              "locator": "Page 48, member biography"
+            }
+          ]
+        },
+        {
+          "end": "1990",
+          "organization": "Office of the Attorney General, State of California",
+          "role": "Deputy Attorney General",
+          "start": "1987",
+          "citations": [
+            {
+              "source": "src:gpo-gov-256d2e7c90",
+              "quote": "Deputy Attorney General, Office of the Attorney General, State of California, 1987-90",
+              "locator": "Page 48, member biography"
+            }
+          ]
+        },
+        {
+          "organization": "UCLA Voting Rights Project",
+          "role": "Senior strategic advisor",
+          "start": "2025-03",
+          "citations": [
+            {
+              "source": "src:vrp-ucla-edu-f373c370aa",
+              "quote": "Xavier Becerra, former U.S. Secretary of Health and Human Services and California Attorney General, joins as senior strategic advisor.",
+              "locator": "Release dated March 27, 2025"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
