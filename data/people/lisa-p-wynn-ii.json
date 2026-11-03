@@ -53,6 +53,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:theguardsman-com-013dc55584",
+          "quote": "Born in San Francisco, she spent part of her childhood in Samoa."
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
