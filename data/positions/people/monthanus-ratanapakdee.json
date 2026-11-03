@@ -3,6 +3,49 @@
   "actor": "person:monthanus-ratanapakdee",
   "positions": [
     {
+      "subject": "q:transportation/bike-lanes-over-parking",
+      "stance": "no_public_position",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Muni; tax; transit funding; bike; parking",
+          "where": "Campaign site ratanapakdeesf.org home, Priorities (Transportation & Infrastructure section) and Meet Monthanus pages"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Muni funding; protected bike lanes",
+          "where": "GrowSF questionnaires: june-2026/monthanus-ratanapakdee (no questionnaire sent: contact unavailable) and november-2026/monthanus-ratanapakdee (HTTP 404)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Monthanus Ratanapakdee; Muni; tax; Prop H; bike; parking",
+          "where": "San Francisco Department of Elections, November 2026 Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), District 2 candidate statements pp. 40-41 and Prop H / RTM argument signers"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "district 2 candidates; sherrill; sf-district-2-candidates-brooke-sherrill-bike-lanes (answered HTTP 403 bot check, not readable)",
+          "where": "Mission Local WordPress API (missionlocal.org/wp-json/wp/v2/posts) for District 2 candidate questions"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Monthanus Ratanapakdee District 2 supervisor 2026 Muni tax Prop H bike lanes parking questionnaire",
+          "where": "Web search for District 2 candidate questionnaires, forums and news (SF Chronicle, SF Standard, Mission Local, GrowSF, League of Women Voters SF)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Ratanapakdee",
+          "where": "VOTE411 site search (vote411.org)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 2 contest page",
+          "where": "Voter's Edge (votersedge.org; redirects to a page saying the guide has ended)"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "no_public_position",
       "as_of": "2026-11-03",
