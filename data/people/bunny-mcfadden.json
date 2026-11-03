@@ -60,6 +60,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Educator / Journalist (ballot designation: Nonprofit Manager / Writer)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Educator / Journalist.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 34 (PDF p. 36)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "BUNNY MCFADDEN 邦妮‧麥克法登 Nonprofit Manager / Writer",
+          "locator": "Community College Board Full table (English ballot designation)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
