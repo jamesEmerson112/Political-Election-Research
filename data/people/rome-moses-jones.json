@@ -64,6 +64,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "Bayview Association for Youth",
+          "role": "Co-executive director",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-7a45204fbc",
+              "quote": "Rome Moses Jones, co-executive director of nonprofit organization Bayview Association for Youth"
+            }
+          ]
+        },
+        {
+          "organization": "Pinpoint Building Group",
+          "role": "Real estate agent",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-7a45204fbc",
+              "quote": "a real estate agent at Pinpoint Building Group"
+            }
+          ]
+        },
+        {
+          "role": "Success coach, mentor and college ambassador (nonprofit service)",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My professional work has been rooted in non profit service, where I have supported students as a success coach, mentor, and college ambassador.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 32 (PDF p. 34)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
