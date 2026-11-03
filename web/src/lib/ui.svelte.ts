@@ -11,6 +11,10 @@ export interface Detail {
   leads?: Lead[];
   /** Earlier dated entries (positions history). */
   history?: Array<{ label: string; text: string; citations: Citation[] }>;
+  /** Titled groups, each with its own citations (office connections). */
+  groups?: { title: string; items: Array<{ label: string; text: string; list?: string[]; citations: Citation[] }> };
+  /** External pages (legal basis, official site, CivLab). */
+  links?: Array<{ label: string; href: string; sub?: string }>;
   note?: string;
 }
 

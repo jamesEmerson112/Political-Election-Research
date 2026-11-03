@@ -6,6 +6,7 @@
   import { MARK } from "../lib/marks";
   import Badge from "./Badge.svelte";
   import CellDetail from "./CellDetail.svelte";
+  import OfficeChips from "./OfficeChips.svelte";
   import StanceMark from "./StanceMark.svelte";
 
   let { ix, contestRef, cmp }: { ix: Index; contestRef: string; cmp: Comparison } = $props();
@@ -47,6 +48,7 @@
   {#if cell.stamps?.length}
     <span class="stamps">{#each cell.stamps as s (s)}<span class="stamp">{s}</span>{/each}</span>
   {/if}
+  {#if cell.chips?.length}<OfficeChips chips={cell.chips} inButton />{/if}
 {/snippet}
 
 {#snippet rowView(r: Row)}

@@ -8,12 +8,13 @@
  */
 import type { CandidateRollup, Citation, Index, Lead, Rec } from "./data";
 import { slugOf } from "./data";
-import { compact, date, money, moneyCompact, ORG_TYPE_LABEL } from "./format";
+import { date, money, moneyCompact, ORG_TYPE_LABEL } from "./format";
 import { CATEGORY, issueIcon, MEASURE_ICON, ROW_ICON, type CategoryKey, type Group, type IconComponent } from "./icons";
 import { MARK, stanceMark, type Mark } from "./marks";
 import { openDetail, type Detail } from "./ui.svelte";
 import { age, isNotFound, openField, openLeads, openPosition, openRel } from "./view";
-import { openOffice, scopeLines, scopeOf } from "./offices";
+import { officeChips, type Chip } from "./officeChips";
+import { connectionLines, officeLinks, openOffice, scopeLines, scopeOf } from "./offices";
 
 export type CellState = "value" | "zero" | "not_found" | "lead" | "unresearched";
 
@@ -31,6 +32,8 @@ export interface Line {
   group?: string;
   /** A stance point (sub-bullet). */
   point?: boolean;
+  /** External links shown after the text (open in a new tab). */
+  links?: Array<{ label: string; href: string }>;
 }
 
 export interface Cell {
@@ -47,6 +50,8 @@ export interface Cell {
   dots?: number;
   /** Bills: one stamp per bill, by outcome. */
   bills?: Array<{ outcome: string; text: string }>;
+  /** Office scope: icon chips (glyphs in icons.ts CHIP_ICON); the row expands for detail. */
+  chips?: Chip[];
   lines: Line[];
   /** One plain sentence for tooltips and aria-labels. */
   summary: string;
@@ -248,24 +253,50 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
     return list.length ? { n: list.length, run: () => openDetail({ kicker, title, citations: list }) } : undefined;
   }
 
-  /** Scope of the candidate's current office(s), via office_ref. */
+  /** The office this contest elects (agenda or contest office_ref). */
+  const seekingRef = String(agenda?.["office_ref"] ?? ix.contests.get(contestRef)?.["office_ref"] ?? "") || undefined;
+
+  /**
+   * Scope of the candidate's current office(s), via office_ref: chips for
+   * the office sought and the office held (seats, district, appointments,
+   * confirmations, budget, CivLab link); the expanded row and the drawer
+   * list every fact and connection with its citations.
+   */
   function officeScopeCell(c: string): Cell {
     const current = offices(c).filter((o) => isCurrent(o) && o["office_ref"]);
     const scopes = current.map((o) => scopeOf(ix, String(o["office_ref"]))).filter((s): s is NonNullable<typeof s> => !!s);
     if (!scopes.length) return missing(c, "office_scope", `Office scope: ${who(c)}`);
     const main = scopes[0]!;
-    const lines: Line[] = scopes.flatMap((s) => [
-      { text: s.name, sub: s.headline, cite: { n: scopeLines(ix, s.ref).reduce((a, l) => a + l.citations.length, 0), run: () => openOffice(ix, s.ref, who(c)) } },
-      ...scopeLines(ix, s.ref).map((l) => ({ text: `${l.label}: ${l.text}`, lead: s.unverified })),
-    ]);
+    const held = current.find((o) => o["office_ref"] === main.ref)!;
+    const record = ix.offices.get(main.ref)!;
+    const chips = officeChips({
+      held: record,
+      heldText: String(held["office"] ?? ""),
+      heldCitations: cites(held) as unknown as Rec[],
+      seeking: seekingRef ? ix.offices.get(seekingRef) : undefined,
+    });
+    const lines: Line[] = scopes.flatMap((s) => {
+      const conns = connectionLines(ix, s.ref);
+      const links = officeLinks(ix, s.ref);
+      return [
+        { text: s.name, sub: s.headline, cite: { n: scopeLines(ix, s.ref).reduce((a, l) => a + l.citations.length, 0), run: () => openOffice(ix, s.ref, who(c)) } },
+        ...scopeLines(ix, s.ref).map((l) => ({ text: `${l.label}: ${l.text}`, lead: s.unverified })),
+        ...conns.map((x) => ({
+          text: x.text,
+          lead: x.unverified,
+          cite: citeOf(`${x.label}: ${s.name}`, who(c), x.citations),
+        })),
+        ...(links.length ? [{ text: "", links: links.map((l) => ({ label: l.label, href: l.href })) }] : []),
+      ];
+    });
+    const body = String(record["body"] ?? main.name);
     return {
-      state: main.unverified ? "lead" : "value",
-      marks: main.unverified ? [{ mark: MARK["lead"]! }] : [],
-      num: main.residents ? `~${compact(main.residents)}` : undefined,
-      unit: main.residents ? "residents" : undefined,
-      label: [main.level, main.seatText, main.residents ? `~${compact(main.residents)} residents` : null].filter(Boolean).join(" · "),
+      state: "value",
+      marks: [],
+      label: `${main.level} · ${body}`,
+      chips,
       lines,
-      summary: `${main.name}: ${main.headline}${main.unverified ? " (unverified)" : ""}`,
+      summary: `${main.name}: ${chips.map((x) => x.text).join("; ")}${main.unverified ? " (some figures unverified)" : ""}`,
       open: () => openOffice(ix, main.ref, who(c)),
     };
   }
@@ -843,7 +874,11 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       key: "occupation",
       name: "Occupation",
       source: "Government records, official biography",
-      rows: [row("occupation", "occupation", "value", "Occupation", "Occupation", (c) => field(c, "occupation", "Occupation")), row("occupation", "years", "value", "Years in office", "Years in office", yearsInOffice), row("occupation", "scope", "value", "Office scope", "Office scope", officeScopeCell)],
+      rows: [
+        row("occupation", "occupation", "value", "Occupation", "Occupation", (c) => field(c, "occupation", "Occupation")),
+        row("occupation", "scope", "value", "Office scope", "Office scope", officeScopeCell),
+        row("occupation", "years", "value", "Years in office", "Years in office", yearsInOffice),
+      ],
     },
     {
       n: 3,

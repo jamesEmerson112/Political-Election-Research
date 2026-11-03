@@ -6,6 +6,8 @@
   let { ix }: { ix: Index } = $props();
   const d = $derived(ui.detail);
   let panel = $state<HTMLElement | null>(null);
+  /** Longer target lists start collapsed. */
+  const LIST_OPEN = 6;
 
   $effect(() => {
     if (d && panel) panel.focus();
@@ -26,9 +28,9 @@
         {#if c.quote}
           <blockquote>{c.quote}</blockquote>
         {:else if c.unverified}
-          <span class="chip warn">Unverified · seen as {c.unverified.method} by {c.unverified.by}, {date(c.unverified.date)}</span>
+          <span class="chip warn wrap">Unverified · seen as {c.unverified.method} by {c.unverified.by}, {date(c.unverified.date)}</span>
         {:else if c.verified_by}
-          <span class="chip warn">Quote pending · verified by {c.verified_by.by}, {date(c.verified_by.date)}</span>
+          <span class="chip warn wrap">Quote pending · verified by {c.verified_by.by}, {date(c.verified_by.date)}</span>
         {/if}
         {#if s}
           <div class="src">
@@ -84,6 +86,34 @@
       {/if}
       {#if d.note}<p class="note">{d.note}</p>{/if}
 
+      {#if d.groups}
+        <h3>{d.groups.title}</h3>
+        {#each d.groups.items as g, i (i)}
+          <section class="group">
+            <div class="eyebrow">{g.label}</div>
+            <p class="g-text">{g.text}</p>
+            {#if g.list?.length && g.list.length > LIST_OPEN}
+              <details class="targets">
+                <summary>{g.list.length} named</summary>
+                <ul>{#each g.list as t (t)}<li>{t}</li>{/each}</ul>
+              </details>
+            {:else if g.list?.length}
+              <ul class="targets">{#each g.list as t (t)}<li>{t}</li>{/each}</ul>
+            {/if}
+            {#if g.citations.length}{@render citations(g.citations)}{/if}
+          </section>
+        {/each}
+      {/if}
+
+      {#if d.links?.length}
+        <h3>Links</h3>
+        <ul class="links">
+          {#each d.links as l (l.href)}
+            <li><a href={l.href} target="_blank" rel="noopener noreferrer">{l.label} ↗</a>{#if l.sub}<span class="meta">{l.sub}</span>{/if}</li>
+          {/each}
+        </ul>
+      {/if}
+
       {#if d.citations?.length}
         <h3>Citations</h3>
         {@render citations(d.citations)}
@@ -113,7 +143,7 @@
             <li>
               {#if l.label}<span class="eyebrow">{l.label}</span>{/if}
               <span>{l.text}</span>
-              {#if l.hint}<span class="chip warn">Suggests: {l.hint}</span>{/if}
+              {#if l.hint}<span class="chip warn wrap">Suggests: {l.hint}</span>{/if}
             </li>
           {/each}
         </ul>
@@ -179,6 +209,7 @@
     overflow-y: auto;
     padding: 16px 20px 32px;
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     gap: 14px;
     align-content: start;
   }
@@ -199,7 +230,7 @@
   }
   .facts {
     display: grid;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: max-content minmax(0, 1fr);
     gap: 6px 14px;
     margin: 0;
     font-size: var(--step--1);
@@ -233,6 +264,8 @@
     gap: 2px;
     font-size: var(--step--1);
     justify-items: start;
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
   .src > a:first-child {
     font-weight: 600;
@@ -255,6 +288,49 @@
     border-radius: var(--radius);
     padding: 10px 12px;
     font-size: var(--step--1);
+  }
+  .group {
+    display: grid;
+    gap: 6px;
+    border-top: 1px solid var(--line);
+    padding-top: 10px;
+    min-width: 0;
+  }
+  .g-text {
+    font-size: var(--step-0);
+  }
+  .targets {
+    font-size: var(--step--1);
+    color: var(--ink-2);
+  }
+  ul.targets,
+  .targets ul {
+    margin: 4px 0 0;
+    padding-left: 1.2em;
+    display: grid;
+    gap: 2px;
+  }
+  .targets summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+  .links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 6px;
+    font-size: var(--step--1);
+  }
+  .links li {
+    display: grid;
+    gap: 1px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .links a {
+    font-weight: 600;
   }
   .hist {
     display: grid;

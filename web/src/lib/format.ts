@@ -51,6 +51,7 @@ export const SOURCE_KIND_LABEL: Record<string, string> = {
   news_report: "News report",
   voter_guide: "Voter guide",
   social_media: "Social media",
+  reference_work: "Reference work (secondary)",
 };
 
 export const ORG_TYPE_LABEL: Record<string, string> = {

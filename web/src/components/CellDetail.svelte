@@ -30,6 +30,11 @@
         {/if}
         {#if l.more}<button class="more-btn" onclick={l.more.run}>{l.more.label} ›</button>{/if}
         {#if l.sub}<span class="s">{l.sub}</span>{/if}
+        {#if l.links?.length}
+          <span class="links">
+            {#each l.links as k (k.href)}<a href={k.href} target="_blank" rel="noopener noreferrer">{k.label} ↗</a>{/each}
+          </span>
+        {/if}
       {/if}
     </div>
   {/each}
@@ -138,6 +143,13 @@
   }
   .line > .more-btn:first-child {
     margin-left: 0;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
   }
   .leadbox {
     display: grid;

@@ -8,6 +8,7 @@
   import BillStamp from "./BillStamp.svelte";
   import CellDetail from "./CellDetail.svelte";
   import Equal from "@lucide/svelte/icons/equal";
+  import OfficeChips from "./OfficeChips.svelte";
   import StanceMark from "./StanceMark.svelte";
 
   /**
@@ -87,9 +88,12 @@
       {#if cell.num}
         <span class="ln"><span class="big">{cell.num}</span>{#if cell.unit}<span class="unit">{cell.unit}</span>{/if}</span>
         {#if cell.label}<span class="ln"><span class="lbl sub">{cell.label}</span></span>{/if}
+      {:else if cell.label && cell.chips?.length}
+        <span class="ln"><span class="lbl sub">{cell.label}</span></span>
       {:else if cell.label}
         <span class="ln"><span class="lbl strong">{cell.label}</span></span>
       {/if}
+      {#if cell.chips?.length}<OfficeChips chips={cell.chips} align={i === 0 ? "end" : "start"} inButton />{/if}
     {/if}
   </span>
 {/snippet}

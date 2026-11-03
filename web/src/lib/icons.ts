@@ -18,12 +18,14 @@ import Briefcase from "@lucide/svelte/icons/briefcase";
 import Building2 from "@lucide/svelte/icons/building-2";
 import Calendar from "@lucide/svelte/icons/calendar";
 import CalendarClock from "@lucide/svelte/icons/calendar-clock";
+import CircleDashed from "@lucide/svelte/icons/circle-dashed";
 import ClipboardList from "@lucide/svelte/icons/clipboard-list";
 import Cog from "@lucide/svelte/icons/cog";
 import Cpu from "@lucide/svelte/icons/cpu";
 import Earth from "@lucide/svelte/icons/earth";
 import Equal from "@lucide/svelte/icons/equal";
 import EqualNot from "@lucide/svelte/icons/equal-not";
+import ExternalLink from "@lucide/svelte/icons/external-link";
 import FileText from "@lucide/svelte/icons/file-text";
 import GraduationCap from "@lucide/svelte/icons/graduation-cap";
 import HandCoins from "@lucide/svelte/icons/hand-coins";
@@ -35,16 +37,21 @@ import MapPin from "@lucide/svelte/icons/map-pin";
 import MapPinHouse from "@lucide/svelte/icons/map-pin-house";
 import Megaphone from "@lucide/svelte/icons/megaphone";
 import MessagesSquare from "@lucide/svelte/icons/messages-square";
+import MoveRight from "@lucide/svelte/icons/move-right";
 import NotebookPen from "@lucide/svelte/icons/notebook-pen";
 import Percent from "@lucide/svelte/icons/percent";
 import Scale from "@lucide/svelte/icons/scale";
 import ScrollText from "@lucide/svelte/icons/scroll-text";
 import Shapes from "@lucide/svelte/icons/shapes";
+import Stamp from "@lucide/svelte/icons/stamp";
 import Stethoscope from "@lucide/svelte/icons/stethoscope";
 import TrainFront from "@lucide/svelte/icons/train-front";
+import UserPlus from "@lucide/svelte/icons/user-plus";
 import UsersRound from "@lucide/svelte/icons/users-round";
 import Users from "@lucide/svelte/icons/users";
+import Vote from "@lucide/svelte/icons/vote";
 import Zap from "@lucide/svelte/icons/zap";
+import type { ChipIcon } from "./officeChips";
 
 export type IconComponent = Component<Record<string, unknown>>;
 const I = (c: unknown) => c as IconComponent;
@@ -173,6 +180,21 @@ export const BILL_OUTCOME: Record<string, { shape: StampShape; color: string; la
   pending: { shape: "dashed", color: "var(--outcome-pending)", label: "Pending" },
   other: { shape: "dot", color: "var(--outcome-stalled)", label: "Other" },
   "no record": { shape: "dot", color: "var(--outcome-pending)", label: "No bill record yet" },
+};
+
+/**
+ * Office scope chips (Occupation category) -> glyph. Plain verbs and counts;
+ * never ▲ / ▼, which mean support / oppose.
+ */
+export const CHIP_ICON: Record<ChipIcon, IconComponent> = {
+  seeking: I(MoveRight),
+  seats: I(Users),
+  elected_by: I(Vote),
+  appoints: I(UserPlus),
+  confirms: I(Stamp),
+  budget: I(Landmark),
+  link: I(ExternalLink),
+  none: I(CircleDashed),
 };
 
 /** Office type (contest index groups, in display order) -> glyph. Badges use the neutral record color. */
