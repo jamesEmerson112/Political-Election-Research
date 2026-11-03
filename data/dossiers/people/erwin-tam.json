@@ -46,6 +46,7 @@
         "issue": "education",
         "summary": "The Bay Area Reporter reported that Tam would ask the chancellor and vice chancellor of finance to expand multi-year projections from three years to five.",
         "title": "Ask for five-year budget projections",
+        "topic": "budget-planning",
         "citations": [
           {
             "source": "src:ebar-com-5f8256a727",
@@ -60,6 +61,7 @@
         "issue": "education",
         "summary": "The Guardsman reported that Tam wants to empower the Participatory Governance Council to collaborate on a financial plan.",
         "title": "Have the Participatory Governance Council collaborate on a financial plan",
+        "topic": "budget-planning",
         "citations": [
           {
             "source": "src:theguardsman-com-db1686e37e",
@@ -73,6 +75,7 @@
         "issue": "education",
         "summary": "The Guardsman reported that Tam hopes to strengthen Free City and dual enrollment by re-establishing a joint committee of the trustees, the SFUSD board and the Board of Supervisors.",
         "title": "Re-establish the joint committee with SFUSD and the Board of Supervisors",
+        "topic": "programs-with-sfusd",
         "citations": [
           {
             "source": "src:theguardsman-com-db1686e37e",
@@ -86,6 +89,7 @@
         "issue": "education",
         "summary": "The Guardsman reported that Tam does not support selling the Downtown Center.",
         "title": "Keep the Downtown Center rather than sell it",
+        "topic": "downtown-campus",
         "citations": [
           {
             "source": "src:theguardsman-com-db1686e37e",
