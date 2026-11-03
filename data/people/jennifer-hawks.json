@@ -3,6 +3,18 @@
   "id": "jennifer-hawks",
   "name": "Jennifer Hawks",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Jennifer Hawks Republican",
+          "locator": "page 2 (Official Certified List, Page 1 of 41, Treasurer)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://hawksforus.com/",
