@@ -50,6 +50,52 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Jennifer Hawks biography",
+          "where": "Campaign site hawksforus.com (home, /about/, /press-releases/)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jennifer Hawks",
+          "where": "Official Voter Information Guide, Nov. 3, 2026, candidate statement (p. 87)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jennifer Hawks",
+          "where": "Secretary of State certified list of candidates, Nov. 3, 2026"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jennifer Hawks background",
+          "where": "San Francisco Examiner interview, June 23, 2026"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jennifer Hawks",
+          "where": "KPBS/CalMatters treasurer candidate guide; LAist/CalMatters general and primary treasurer guides; Stateside candidate profile PDF; iVoterGuide candidate profile"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jennifer Hawks treasurer candidate Republican Palo Alto resident",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jennifer Hawks",
+          "where": "calmatters.org/california-voter-guide-2026/treasurer/ (HTTP 403, could not be read)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jennifer Hawks born hometown",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
