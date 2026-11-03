@@ -111,6 +111,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Member, San Francisco Youth Commission",
+          "current": false,
+          "jurisdiction": "City and County of San Francisco",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-35605ece64",
+              "quote": "She served as an elected committee member of the San Francisco Democratic County Central Committee from 2016-24 and, prior to that, served on the San Francisco Youth Commission."
+            },
+            {
+              "source": "src:ourcitycollege-com-7a3a0d072c",
+              "quote": "As a Youth Commissioner, Leah championed Free Muni for Youth and worked to ensure it was permanently funded."
+            }
+          ]
+        },
+        {
+          "office": "Elected member, San Francisco Democratic County Central Committee (party committee)",
+          "end": "2024",
+          "jurisdiction": "San Francisco",
+          "start": "2016",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-35605ece64",
+              "quote": "She served as an elected committee member of the San Francisco Democratic County Central Committee from 2016-24"
+            },
+            {
+              "source": "src:ourcitycollege-com-7a3a0d072c",
+              "quote": "Leah was elected to the local Democratic Party from 2016-24, serving as First Vice Chair and Parliamentarian."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
