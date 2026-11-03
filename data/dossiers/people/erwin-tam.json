@@ -1,0 +1,62 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:erwin-tam",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "five-year-multi-year-projections",
+        "as_of": "2026-09-09",
+        "issue": "education",
+        "summary": "The Bay Area Reporter reported that Tam would ask the chancellor and vice chancellor of finance to expand multi-year projections from three years to five.",
+        "title": "Ask for five-year budget projections",
+        "citations": [
+          {
+            "source": "src:ebar-com-5f8256a727",
+            "quote": "He would ask the chancellor and vice chancellor of finance and administration to expand the multi-year projections from three years to five in order to allow for adequate planning.",
+            "locator": "Erwin Tam"
+          }
+        ]
+      },
+      {
+        "id": "participatory-governance-financial-plan",
+        "as_of": "2026-10-08",
+        "issue": "education",
+        "summary": "The Guardsman reported that Tam wants to empower the Participatory Governance Council to collaborate on a financial plan.",
+        "title": "Have the Participatory Governance Council collaborate on a financial plan",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-db1686e37e",
+            "quote": "Tam wants to raise awareness about the details of City College’s multiyear projection and empower the Participatory Governance Council to collaborate on a financial plan."
+          }
+        ]
+      },
+      {
+        "id": "re-establish-joint-committee",
+        "as_of": "2026-10-08",
+        "issue": "education",
+        "summary": "The Guardsman reported that Tam hopes to strengthen Free City and dual enrollment by re-establishing a joint committee of the trustees, the SFUSD board and the Board of Supervisors.",
+        "title": "Re-establish the joint committee with SFUSD and the Board of Supervisors",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-db1686e37e",
+            "quote": "re-establishing the joint committee between the Board of Trustees, the San Francisco Unified School District’s board of education, and the city’s board of supervisors"
+          }
+        ]
+      },
+      {
+        "id": "keep-downtown-center",
+        "as_of": "2026-10-08",
+        "issue": "education",
+        "summary": "The Guardsman reported that Tam does not support selling the Downtown Center.",
+        "title": "Keep the Downtown Center rather than sell it",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-db1686e37e",
+            "quote": "He does not support selling the Downtown Center"
+          }
+        ]
+      }
+    ]
+  }
+}
