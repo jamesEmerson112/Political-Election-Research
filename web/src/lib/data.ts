@@ -69,6 +69,9 @@ export function titleFromSlug(contestSlug: string): string {
     [/^state-board-of-education-(\d+)$/, "State Board of Education, District $1"],
     [/^supreme-court-seat-([a-z])$/, "Supreme Court, Seat $1"],
     [/^court-of-appeals-dept-(\d+)$/, "Court of Appeals, Department $1"],
+    [/^district-court-dept-(\d+)$/, "District Court, Department $1"],
+    [/^district-court-family-dept-([a-z])$/, "District Court Family Division, Department $1"],
+    [/^las-vegas-municipal-court-dept-(\d+)$/, "Las Vegas Municipal Court, Department $1"],
     [/^question-(\d+)$/, "Question $1"],
     [/^clark-county-commission-([a-z])$/, "Clark County Commission, District $1"],
     [/^clark-county-question-(\d+)$/, "Clark County Question $1"],
@@ -105,6 +108,13 @@ export function officeOf(contestRef: string, kind: "office" | "measure"): { type
   const num = (m: RegExpExecArray | null) => (m ? Number(m[m.length - 1]) : 0);
   if (/^[a-z]+-prop-[a-z0-9]+$/.test(s) || /^(clark-county|las-vegas)-question-\d+$/.test(s)) return { type: "local_measure", sort: [num(/-(\d+)$/.exec(s)), s] };
   if (kind === "measure" || /^prop-\d+$/.test(s) || /^question-\d+$/.test(s)) return { type: "measure", sort: [num(/^(?:prop|question)-(\d+)$/.exec(s)), s] };
+  // Judges (Nevada): supreme court, court of appeals, district court (then its family division), municipal court; numeric and letter order.
+  const court = /^(supreme-court-seat|court-of-appeals-dept|district-court-dept|district-court-family-dept|las-vegas-municipal-court-dept)-([a-z0-9]+)$/.exec(s);
+  if (court) {
+    const rank = ["supreme-court-seat", "court-of-appeals-dept", "district-court-dept", "district-court-family-dept", "las-vegas-municipal-court-dept"].indexOf(court[1]!);
+    const n = /^\d+$/.test(court[2]!) ? Number(court[2]) : court[2]!.charCodeAt(0) - 96;
+    return { type: "courts", sort: [rank * 1000 + n, s] };
+  }
   if (LOCAL_PREFIX.test(s)) return { type: "local", sort: [num(/-(\d+)$/.exec(s)), s] };
   if (/^us-house-[a-z]{2}-\d+$/.test(s)) return { type: "house", sort: [num(/-(\d+)$/.exec(s)), s] };
   if (/^board-of-equalization-\d+$/.test(s)) return { type: "boe", sort: [num(/-(\d+)$/.exec(s)), s] };

@@ -222,18 +222,19 @@ export const CHIP_ICON: Record<ChipIcon, IconComponent> = {
 };
 
 /** Office type (contest index groups, in display order) -> glyph. Badges use the neutral record color. */
-export type OfficeType = "statewide" | "boe" | "house" | "legislature" | "local" | "other" | "measure" | "local_measure";
+export type OfficeType = "statewide" | "boe" | "house" | "legislature" | "local" | "courts" | "other" | "measure" | "local_measure";
 export const OFFICE_TYPE: Record<OfficeType, { label: string; icon: IconComponent }> = {
   statewide: { label: "Statewide", icon: I(Landmark) },
   boe: { label: "Board of Equalization", icon: I(Scale) },
   house: { label: "U.S. House", icon: I(MapIcon) },
   legislature: { label: "State Legislature", icon: I(Building2) },
   local: { label: "Local offices", icon: I(Building2) },
+  courts: { label: "Courts", icon: I(Gavel) },
   other: { label: "Other offices", icon: I(Shapes) },
   measure: { label: "State propositions", icon: I(ScrollText) },
   local_measure: { label: "Local measures", icon: I(ScrollText) },
 };
-export const OFFICE_ORDER: OfficeType[] = ["statewide", "boe", "house", "legislature", "local", "other", "measure", "local_measure"];
+export const OFFICE_ORDER: OfficeType[] = ["statewide", "boe", "house", "legislature", "local", "courts", "other", "measure", "local_measure"];
 
 /** "My ballot" panel (Overview). Neutral glyphs; badges use the record color. */
 import BallotInfo from "@lucide/svelte/icons/info";
