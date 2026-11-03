@@ -26,7 +26,17 @@ Create `contests/<election>/<contest>.json`.
 
 - **Office races:** use the SoS **Certified List of Candidates** for the election (a PDF under `elections.cdn.sos.ca.gov/statewide-elections/<cycle>-<type>/`). Add every agenda candidate who appears on it (see *candidacy*). Set `level`: governor and other statewide offices are `state`; US House is `federal` with `district`.
 - **Ballot measures:** use the SoS qualified-measures list and the **Official Voter Information Guide** (`voterguide.sos.ca.gov`). Record `number`, `official_title` and `summary` (both cited, quoting the official text), and `origin` (legislative / initiative / referendum).
-- Contest ids: `governor`, `lieutenant-governor`, `attorney-general`, `us-house-ca-<n>`, `prop-<n>`.
+- Contest ids: `governor`, `lieutenant-governor`, `attorney-general`, `us-house-ca-<n>`, `prop-<n>`; local measures `<place>-prop-<letter>` (e.g. `sf-prop-a`).
+- **Local measures** (see *measure fiscal* below): set `jurisdiction`, and record `measure_type`, `vote_threshold`, `placed_by` and the `digest` from the local voter pamphlet, each quoted.
+
+<a id="task-measure-fiscal"></a>
+### Measure fiscal statement and budget baseline
+
+1. Open the official fiscal statement (SF: the Controller's statement printed with each measure in the Voter Information Pamphlet, `media.api.sf.gov`; Board-placed measures also have a Legistar file on `sfgov.legistar.com`). Register it as a source (`voter_guide` or `government_record`).
+2. Write one `fiscal.effects` entry per effect the statement names, with a verbatim quote: `lane` (what happens to the General Fund decides it), `direction`, `amount` as given (a range stays a range; dollars, unsigned), `per`, `start_fy` / `years` only if stated, `estimate` (`estimated`, `minimal`, `not_estimated`, `depends_on_future_decisions`), and one neutral `text` line. Bonds also get `fiscal.bond` (principal, debt service, cost per $100k of assessed value).
+3. Record competing measures in `conflicts` with the rule as printed.
+4. The baseline (`npm run -s put -- budget`): the adopted budget (Budget and Appropriation Ordinance) and the latest official multi-year forecast (Controller / Mayor's Budget Office / Budget and Legislative Analyst Joint Report or Five-Year Financial Plan), quoting each fiscal year's projected shortfall or surplus.
+5. `validate`: FISCAL_RANGE (low above high) is an error; FISCAL_SOURCE (no official source) is a warning, and an error under `--strict`.
 
 <a id="task-candidacy"></a>
 ## Task: candidacy

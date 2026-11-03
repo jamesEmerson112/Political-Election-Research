@@ -93,6 +93,16 @@ This is where a research project can do the most harm, so the bar is highest:
 
 Notes people give the project (a comparison table, a tip) are stored as **leads** (`data/leads/`), word for word, labeled unverified. `npm run next` attaches each lead to the research task it bears on, and the site shows leads in dashed boxes marked "Unverified lead". A lead becomes part of the dataset only when a researcher confirms it in a primary source and records it with citations. Leads are never cited.
 
+## 5c. Ballot measures and budgets
+
+Every measure sounds good on its own; voters rarely see the costs and revenues of all of them added up against a budget that may already be forecast to fall short. The site shows that sum, without grading any measure.
+
+- **Official estimates only, as given.** A measure's fiscal effects come from its official fiscal statement (in San Francisco, the City Controller's statement in the Voter Information Pamphlet; for state measures, the Legislative Analyst). Ranges stay ranges. An effect the statement doesn't estimate is recorded as `not_estimated` or `depends_on_future_decisions`, and the site shows it with the same weight as a number. News stories and campaign claims about cost are leads, never fiscal effects (rule FISCAL_SOURCE).
+- **Lanes, never one blended number.** `general_fund` (the city's discretionary budget, the headline), `set_aside` (required minimum spending that doesn't change the General Fund total), `dedicated` (special taxes and funds), `bond_debt` (borrowing repaid by property owners) and `other_agency`. The lane follows what the statement says happens to the General Fund.
+- **The baseline is the official forecast** (`data/budgets/<id>.json`): the adopted budget, and the projected shortfall or surplus per fiscal year from the official multi-year forecast, quoted. The forecast doesn't include ballot measures. The city must adopt a balanced budget each year, so a projected shortfall is the gap the Mayor and Board must close with cuts, new revenue or reserves; the site says so next to every total.
+- **Adding up (the trial ballot):** a yes applies a measure's effects; no and skip mean the status quo. Annual effects apply from their stated start year (if none is stated, from the first forecast year, flagged). One-time effects and multi-year totals are listed, never added to annual sums. When a visitor says yes to competing measures (only one can take effect), the total uses the range spanning them. Measures are listed in ballot order, never by size.
+- **No grading.** No "affordable", no good/bad colors, no arrows for budget change (▲/▼ only mean the visitor's yes/no). Costs and revenues share one hue; direction is shown by position and words. Answers stay in the visitor's browser; there is no tally.
+
 ## 6. Privacy
 
 Private individuals are listed as donors only when their total to one recipient is at or above the threshold in `data/config.json` (default $10,000) [PRIVACY_THRESHOLD]. Candidates, officeholders and other public figures (`public_figure: true`) are exempt. We never record street addresses, only cities, and only for candidates.

@@ -25,6 +25,8 @@
   - SF Board of Education
   - City College of SF Board of Trustees
   - SF Board of Supervisors district races
+- **Done (2026-11-03):** SF measures model, fiscal statements and budget baseline (`budget` records), the "Try your ballot" trial with a budget meter (works on the fictional demo).
+- **SF measures data (waiting on hosts):** allow `www.sf.gov`, `media.api.sf.gov`, `sfcontroller.org`, `openbook.sfgov.org`, `data.sfgov.org`, then research every SF Prop (facts, digest, Controller's statement, conflicts) and `data/budgets/san-francisco.json` (adopted FY2026-27/27-28 from Legistar File 260596; the latest Joint Report / Five-Year Plan forecast). See RESEARCH_GUIDE `task-measure-fiscal`.
 - **Next SF items:**
   - State Assembly districts covering SF (AD-17 east, AD-19 west)
   - SF local ballot measures

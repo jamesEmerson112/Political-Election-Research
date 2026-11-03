@@ -52,6 +52,13 @@ The maintainer asked for the feel of the strategy game **Democracy 3**: icons, n
   - not researched → dashed mark
   - Never hide gaps: show "Not researched" / "None found" explicitly.
 
+## Budget meters (ballot measures, the trial ballot)
+- One hue for measure effects (`--money`); the official forecast in `--muted`. Direction (cost / revenue) is shown by position left or right of a zero line and by words, never by ▲/▼ and never by teal/orange.
+- Ranges stay ranges (a lighter band for low-high); never show a midpoint as if it were an estimate.
+- Show "not estimated" and "minimal or no cost" with the same weight as numbers. List measures in ballot order, never sorted by size.
+- Keep the scale fixed while a visitor answers (computed from the all-yes and single-measure extremes), so bars don't jump.
+- Always state next to totals that the forecast excludes ballot measures and that the city must balance each budget. Building blocks: `budgetTrial.ts` (engine), `measureChips.ts`, `BudgetMeter.svelte`, `TrialSummary.svelte`.
+
 ## Color and accessibility rules
 - **Tokens only:** use the tokens in `web/src/app.css` (light, plus dark under `prefers-color-scheme` and `[data-theme]`). Text uses ink tokens (`--ink`, `--ink-2`, `--muted`), never a series color.
 - **Validate new colors:** a new hue must pass the dataviz validator (`validate_palette.js --pairs all`) against `--support`, `--oppose`, `--money` and `--cat-people` in both themes. `app.css` notes that no further badge hue passes, so prefer ink/gray.

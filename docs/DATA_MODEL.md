@@ -54,9 +54,11 @@ Inside relationship ids, refs are written with `.` instead of `:` and `/` (`cont
 
 **Contest:** verified facts about one item on the ballot. Two kinds:
 - `office`: the office, level, district, and `candidates` as printed on the certified list (person, party, ballot designation, incumbent, cited).
-- `measure`: number, official title, origin, summary (cited).
+- `measure`: number, official title, origin, summary (cited). Optional: `jurisdiction` {level, name} (local measures share the consolidated election's id, e.g. `2026-ca-general/sf-prop-a`); `measure_type`, `vote_threshold`, `placed_by` (cited enums); `digest` (the official plain-language digest: way it is now, proposal, yes means, no means); `conflicts` with competing measures; and `fiscal`, the official fiscal statement as `effects` (lane, direction, unsigned USD range, per year / one-time / total, start fiscal year, duration, estimate status) plus `bond` details. See METHODOLOGY 5c.
 
 Both can later get a certified `result`. Committees supporting or opposing a measure are **not** listed in the contest; they come from `committee_role` relationships, so that fact is stored in one place only.
+
+**Budget** (`data/budgets/<id>.json`): a government's adopted budget per fiscal year (total and General Fund) and its official multi-year forecast (shortfall / surplus / balanced per fiscal year), each cited. It is the baseline the trial ballot adds measure effects to.
 
 **Research agenda:** the editorial work list for a contest. It holds the candidates to research, the questions and measures to ask every candidate about, targets (endorsements per candidate, top contributors, one shared `finance_cutoff`), and `exhausted` entries that close count tasks. Its references may point at records research has not created yet. `npm run next` compares the agenda with the verified data to compute the work queue.
 
