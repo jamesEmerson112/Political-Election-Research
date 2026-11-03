@@ -2,8 +2,9 @@
  * Browser checks for the public beta, on the built site served with vercel.json's headers
  * (tests/e2e/server.mjs), or on a deployed site: BASE_URL=https://<deployment>/ node tests/e2e/beta.mjs
  *
- * 4. The security headers are sent, and a full visit runs with no console errors and no
- *    security-policy violations.
+ * 4. The security headers are sent (the page may connect to its own site only: connect-src 'self',
+ *    for Vercel Web Analytics), and a full visit runs with no console errors and no security-policy
+ *    violations.
  * 5. Privacy: during My ballot by (mocked) device location and a San Francisco and a California
  *    trial, the page requests nothing but itself and Google Fonts.
  * 6. California: Yes on Prop 1 makes FY2027-28's shortfall $500M–$600M larger; Yes on Prop 3 moves
@@ -11,6 +12,8 @@
  *    San Francisco's ballot keeps its own answers.
  * 5c. The Overview's county group says every ballot in a county has that county's contests.
  * 5d. The Overview links to the Las Vegas (Nevada) contests.
+ * 5e. Vercel Web Analytics loads only on the public site (political-election-research.vercel.app):
+ *    on the local server and on preview deployments the page loads no analytics script.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
  */
@@ -49,10 +52,11 @@ page.on("console", (m) => m.type() === "error" && errors.push(m.text()));
 const resp = await page.goto(`${BASE}#overview`);
 const h = resp.headers();
 const csp = h["content-security-policy"] ?? "";
+const directive = (name) => csp.split(";").map((d) => d.trim()).find((d) => d.split(/\s+/)[0] === name) ?? "";
 check(
   "4a. security headers are sent",
-  csp.includes("connect-src 'none'") && csp.includes("frame-ancestors 'none'") && h["x-content-type-options"] === "nosniff" && h["referrer-policy"] === "no-referrer" && (h["permissions-policy"] ?? "").includes("geolocation=(self)"),
-  `csp: ${csp.slice(0, 90)}…`,
+  directive("connect-src") === "connect-src 'self'" && directive("frame-ancestors") === "frame-ancestors 'none'" && h["x-content-type-options"] === "nosniff" && h["referrer-policy"] === "no-referrer" && (h["permissions-policy"] ?? "").includes("geolocation=(self)"),
+  `${directive("connect-src")} · csp: ${csp.slice(0, 90)}…`,
 );
 
 // 5 (part). My ballot by device location: matched in the page, nothing sent.
@@ -133,6 +137,16 @@ const tip = (await page.locator(".tip").count()) ? await text(page.locator(".tip
 await page.keyboard.press("Escape");
 await page.waitForTimeout(50);
 check("7b. a bridge row shows its tooltip on keyboard focus; Escape hides it", tip.startsWith("Official forecast") && (await page.locator(".tip").count()) === 0, tip.slice(0, 60));
+
+// 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
+const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
+const vaScript = await page.evaluate(() => document.querySelector('script[data-sdkn^="@vercel/analytics"]')?.getAttribute("src") ?? "");
+const vaRequests = requests.filter((u) => /\/_vercel\/insights\/|vercel-scripts\.com|vercel-insights\.com/.test(u));
+check(
+  onPublicSite ? "5e. the public site loads Vercel Web Analytics from its own address" : "5e. no analytics script here (Vercel Web Analytics runs only on the public site)",
+  onPublicSite ? vaScript === "/_vercel/insights/script.js" && vaRequests.length > 0 : !vaScript && !vaRequests.length,
+  vaScript || vaRequests.join(" ") || "no analytics script, no analytics requests",
+);
 
 // 4b and 5: no errors, no policy violations, nothing requested beyond the site and its fonts.
 const violations = await page.evaluate(() => window.__csp);

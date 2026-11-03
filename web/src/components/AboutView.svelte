@@ -87,14 +87,25 @@
     <div class="panel box">
       <span class="eyebrow">Privacy</span>
       <ul>
-        <li>No accounts, no cookies, no analytics.</li>
+        <li>No accounts and no cookies.</li>
         <li>
           Your trial-ballot answers and the district numbers you pick for My ballot stay in this browser; "Forget my answers" and "Forget" clear them.
         </li>
         <li>If you use your device's location to find your districts, it is matched in this browser; coordinates are never stored or sent.</li>
         <li>
-          Nothing you enter is sent anywhere: the page has no code that sends data, and the public site's security policy blocks it from sending data to
-          other servers. Its fonts load from Google Fonts.
+          Page views on the public site are counted with Vercel Web Analytics. Each one reports the page's address without anything after “#” or “?”, so
+          your answers, your districts and your device's location are never in it.
+        </li>
+        <li>
+          <a href="https://vercel.com/docs/analytics#how-visitors-are-determined" rel="noopener">According to Vercel</a>, Web Analytics stores only
+          anonymized data and uses no cookies; it tells visitors apart by a hash of the request that resets every day.
+          <a href="https://vercel.com/docs/analytics/privacy-policy#data-point-information" rel="noopener">Vercel's list</a> of what it may record with a
+          page view includes the time, the page's address, the page that linked you here (if your browser shares it), the country, region and city of
+          your connection, and your browser, operating system and device type.
+        </li>
+        <li>
+          Nothing you enter is sent anywhere: apart from the page view, the page has no code that sends data, and the public site's security policy blocks
+          it from sending data to other servers. Its fonts load from Google Fonts.
         </li>
       </ul>
     </div>

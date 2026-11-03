@@ -1,6 +1,6 @@
 # Third-party notices
 
-The web site (`web/`) bundles icon glyphs from the project below. Its license text is reproduced in full.
+The web site (`web/`) bundles icon glyphs and the Web Analytics loader from the projects below. Their license texts are reproduced in full.
 
 ## Lucide (`@lucide/svelte` 1.59.0)
 
@@ -34,6 +34,36 @@ airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circl
 The MIT License (MIT) (for the icons listed above)
 
 Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## Vercel Web Analytics loader (`@vercel/analytics` 2.0.1)
+
+- Project: https://github.com/vercel/analytics (package `packages/web`); documentation: https://vercel.com/docs/analytics
+- Used for: `inject()`, which adds Vercel's Web Analytics script to the public site only (`web/src/main.ts`, `web/src/lib/analytics.ts`). The script itself (`/_vercel/insights/script.js`) is served by Vercel at run time; it is not bundled or in this repository.
+- License: MIT. The text follows, copied verbatim from the package's `LICENSE` file.
+
+```text
+The MIT License (MIT)
+
+Copyright (c) 2026 Vercel, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

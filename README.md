@@ -29,11 +29,14 @@ See **[AGENTS.md](AGENTS.md)** for the research loop.
 
 ## Deploy (Vercel)
 
-The site is one static file, so any static host works. [`vercel.json`](vercel.json) sets up Vercel: install with `npm ci`, build with `npm run web:build`, serve `dist/web`, and send the response headers. The security policy stops the page from sending data to any server (`connect-src 'none'`), allows its fonts from Google Fonts, allows location for this site only, and sends no referrer. Routes live in the URL hash, so no rewrites are needed, and nothing a visitor enters reaches the server.
+The site is one static file, so any static host works. [`vercel.json`](vercel.json) sets up Vercel: install with `npm ci`, build with `npm run web:build`, serve `dist/web`, and send the response headers. The security policy lets the page send data only to its own site (`connect-src 'self'`, for page views) and not to any other server, allows its fonts from Google Fonts, allows location for this site only, and sends no referrer. Routes live in the URL hash, so no rewrites are needed, and nothing a visitor enters reaches the server.
 
-1. At [vercel.com/new](https://vercel.com/new), import this repository. Vercel reads `vercel.json`, so there's nothing else to set.
-2. Production deploys from `main`; every other branch gets a preview deployment.
-3. Check a deployment from any machine with Playwright:
+**Page views** are counted with [Vercel Web Analytics](https://vercel.com/docs/analytics) (`@vercel/analytics`, started in `web/src/main.ts`), on https://political-election-research.vercel.app only: not on preview deployments, `npm run web`, the browser checks' local server or the claude.ai preview. Vercel's script loads from the site itself (`/_vercel/insights/script.js`) and posts each page view back to it (`/_vercel/insights/view`). The page passes it a `beforeSend` hook ([`web/src/lib/analytics.ts`](web/src/lib/analytics.ts)) that cuts the reported address at the first `#` or `?`, so every page view is reported as `/`: the hash (routes, the districts My ballot puts there) never leaves the browser, and trial-ballot answers and the device's location are never in the address at all. According to Vercel, Web Analytics [stores only anonymized data and uses no cookies](https://vercel.com/docs/analytics#how-visitors-are-determined); its [privacy page](https://vercel.com/docs/analytics/privacy-policy#data-point-information) lists what it may record with each page view, such as the time, page, referrer, country, region and city, operating system, browser and device type.
+
+1. At [vercel.com/new](https://vercel.com/new), import this repository. Vercel reads `vercel.json`.
+2. In the Vercel dashboard, open **Analytics** for the project and click **Enable**. Vercel adds the `/_vercel/insights/*` routes with the next deployment; until then the script returns 404 and no page views are counted.
+3. Production deploys from `main`; every other branch gets a preview deployment.
+4. Check a deployment from any machine with Playwright:
    ```bash
    BASE_URL=https://<deployment>/ node tests/e2e/beta.mjs
    ```
