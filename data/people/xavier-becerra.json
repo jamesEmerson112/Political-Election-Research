@@ -27,6 +27,82 @@
           "locator": "Page 48, member biography"
         }
       ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Member of the California State Assembly, 59th District",
+          "current": false,
+          "end": "1992",
+          "jurisdiction": "California",
+          "office_ref": "office:california-assembly-member",
+          "start": "1990",
+          "citations": [
+            {
+              "source": "src:gpo-gov-256d2e7c90",
+              "quote": "Assemblyman, California State Legislature, 1990-92",
+              "locator": "Page 48, member biography"
+            },
+            {
+              "source": "src:oag-ca-gov-d6c7044ca9",
+              "quote": "Attorney General Becerra served one term in the California Legislature as the representative of the 59th Assembly District in Los Angeles County."
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative from California",
+          "current": false,
+          "first_elected": "1992-11-03",
+          "jurisdiction": "United States",
+          "office_ref": "office:us-representative-california",
+          "citations": [
+            {
+              "source": "src:gpo-gov-256d2e7c90",
+              "quote": "elected on November 3, 1992 to the 103rd Congress; reelected to each succeeding Congress.",
+              "locator": "Page 48, member biography"
+            },
+            {
+              "source": "src:oag-ca-gov-d6c7044ca9",
+              "quote": "Attorney General Becerra previously served 12 terms in Congress as a member of the U.S. House of Representatives."
+            }
+          ]
+        },
+        {
+          "office": "Attorney General of California",
+          "current": false,
+          "end": "2021-03",
+          "jurisdiction": "California",
+          "office_ref": "office:california-attorney-general",
+          "start": "2017-01-24",
+          "citations": [
+            {
+              "source": "src:oag-ca-gov-d6c7044ca9",
+              "quote": "On January 24, 2017, Xavier Becerra was sworn in as the 33rd Attorney General of the State of California"
+            },
+            {
+              "source": "src:oag-ca-gov-d6c7044ca9",
+              "quote": "Xavier Becerra Jan. 2017 - Mar. 2021",
+              "locator": "History of the AG list"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Secretary of Health and Human Services",
+          "current": false,
+          "jurisdiction": "United States",
+          "citations": [
+            {
+              "source": "src:vrp-ucla-edu-f373c370aa",
+              "quote": "Xavier Becerra, former U.S. Secretary of Health and Human Services and California Attorney General, joins as senior strategic advisor."
+            },
+            {
+              "source": "src:xavierbecerra2026-com-969ac40ceb",
+              "quote": "Becerra has spent 35 years serving California– from the State Assembly to the U.S. Congress, as California’s Attorney General, and the United States Secretary of Health and Human Services."
+            }
+          ]
+        }
+      ]
     }
   },
   "ids": [
