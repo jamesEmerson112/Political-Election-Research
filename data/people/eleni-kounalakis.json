@@ -26,6 +26,32 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "institution": "Dartmouth College",
+          "year": 1989,
+          "citations": [
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "Eleni Kounalakis graduated from Dartmouth College in 1989"
+            }
+          ]
+        },
+        {
+          "degree": "MBA",
+          "institution": "University of California, Berkeley, Haas School of Business",
+          "year": 1992,
+          "citations": [
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "earned her Masters in Business Administration (MBA) from U.C. Berkeley’s Haas School of Business in 1992"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Lieutenant Governor of California",
       "citations": [
