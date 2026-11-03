@@ -82,6 +82,26 @@
           "where": "web search"
         }
       ]
+    },
+    {
+      "subject": "q:taxes/lower-top-income-tax-rates",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Hilton's platform proposes no state income tax on the first $150,000 of income and a single 8% rate on income above $150,000.",
+      "citations": [
+        {
+          "source": "src:stevehiltonforgovernor-com-0e84368b67",
+          "quote": "Income above $150,000 would be taxed at a simple 8% rate.",
+          "locator": "The Hilton Plan"
+        },
+        {
+          "source": "src:stevehiltonforgovernor-com-0e84368b67",
+          "quote": "California has the highest income tax rate in the nation. The highest statewide sales tax rate. The highest gas tax.",
+          "locator": "The Problem"
+        }
+      ]
     }
   ]
 }
