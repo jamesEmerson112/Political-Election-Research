@@ -9,7 +9,7 @@
   import MeasureArguments from "./MeasureArguments.svelte";
   import MeasureDigest from "./MeasureDigest.svelte";
   import { contestRoute } from "../lib/data";
-  import { fiscalChips, measureFactChips } from "../lib/measureChips";
+  import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
   const c = $derived(ix.contests.get(contestRef));
@@ -67,7 +67,7 @@
       {@const f = c["fiscal"]}
       <div class="panel box">
         <span class="eyebrow">{f["statement_by"]} · fiscal statement</span>
-        <OfficeChips chips={fiscalChips(c, label)} />
+        <OfficeChips chips={fiscalChips(c, label, budgetBase(ix.budgetFor(contestRef)))} />
         {#if f["summary"]}
           <p>{f["summary"]["summary"]} <button class="cite" onclick={() => openDetail({ kicker: `${f["statement_by"]} · fiscal statement`, title: ix.contestTitle(contestRef), citations: cites(f["summary"]) })}>{cites(f["summary"]).length}</button></p>
         {/if}

@@ -1,6 +1,7 @@
 <script lang="ts">
   import Search from "@lucide/svelte/icons/search";
   import {
+    BALLOT_STATE,
     ballotStatus,
     DISTRICT_NAME,
     forgetChoice,
@@ -14,9 +15,9 @@
     type Choice,
     type DistrictKind,
   } from "../lib/ballot";
-  import { contestRoute, officeOf, slugOf, type Index } from "../lib/data";
+  import { contestRoute, officeOf, slugOf, stateOf, STATES, type Index } from "../lib/data";
   import { plural } from "../lib/format";
-  import { BALLOT_ICON, OFFICE_ORDER, OFFICE_TYPE } from "../lib/icons";
+  import { BALLOT_ICON, OFFICE_ORDER, OFFICE_TYPE, type OfficeType } from "../lib/icons";
   import Badge from "./Badge.svelte";
   import MyBallot from "./MyBallot.svelte";
 
@@ -63,13 +64,31 @@
       const tasks = ix.tasksFor(ref).filter((t) => !t.blocked_by).length;
       const leads = ix.leads.get(ref)?.length ?? 0;
       const title = ix.contestTitle(ref);
+      const st = stateOf(ref);
       const district = /-(\d+)$/.exec(slugOf(ref))?.[1];
-      const hay = [title, slugOf(ref), ...names, district ? `ca-${district} ca ${district} district ${district}` : ""].join(" ").toLowerCase();
+      const hay = [title, slugOf(ref), STATES[st] ?? st, ...names, district ? `${st}-${district} ${st} ${district} district ${district}` : ""].join(" ").toLowerCase();
       const officeRef = (ix.contests.get(ref)?.["office_ref"] ?? ix.agendas.get(ref)?.["office_ref"]) as string | undefined;
       const place = placeContest(ref, officeRef, kind);
-      return { ref, kind, office, names, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
+      return { ref, st, kind, office, names, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
     }),
   );
+  /** Other states' contests (Nevada: Las Vegas placeholders) get their own section; "My ballot" places California contests only. */
+  const otherStates = $derived.by(() => {
+    if (ballotOn) return [];
+    const by = new Map<string, Row[]>();
+    for (const r of textFiltered) if (r.st !== BALLOT_STATE) by.set(r.st, [...(by.get(r.st) ?? []), r]);
+    return [...by.entries()]
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([st, rs]) => ({
+        st,
+        name: STATES[st] ?? st.toUpperCase(),
+        count: rs.length,
+        groups: OFFICE_ORDER.map((type) => ({ type, rows: sortRows(rs.filter((r) => r.office.type === type)) })).filter((g) => g.rows.length),
+      }));
+  });
+  /** Group labels where another state's words differ (Nevada calls its measures "ballot questions"). */
+  const groupLabel = (st: string, type: OfficeType) =>
+    st === "nv" && type === "measure" ? "State ballot questions" : st === "nv" && type === "local_measure" ? "Local ballot questions" : OFFICE_TYPE[type].label;
   type Row = (typeof rows)[number];
   const onBallotCount = $derived(rows.filter((r) => ballotStatus(r.place, choice) === "on").length);
   const textFiltered = $derived.by(() => {
@@ -77,8 +96,8 @@
     return terms.length ? rows.filter((r) => terms.every((t) => r.hay.includes(t))) : rows;
   });
   const status = (r: Row) => (ballotOn ? ballotStatus(r.place, choice) : "on");
-  /** Rows in the normal office groups: every contest, or only this voter's. */
-  const filtered = $derived(textFiltered.filter((r) => status(r) === "on"));
+  /** Rows in the normal office groups: every California contest, or only this voter's. */
+  const filtered = $derived(textFiltered.filter((r) => r.st === BALLOT_STATE && status(r) === "on"));
   const sortRows = (rs: Row[]) =>
     rs.sort((a, b) => a.office.sort[0] - b.office.sort[0] || a.office.sort[1].localeCompare(b.office.sort[1]));
   const groups = $derived(
@@ -96,8 +115,10 @@
     }
     return [...by.entries()].map(([kind, rs]) => ({ kind, rows: sortRows(rs) }));
   });
-  const unmatched = $derived(sortRows(textFiltered.filter((r) => status(r) === "unmatched")));
-  const shown = $derived(filtered.length + toPick.reduce((n, g) => n + g.rows.length, 0) + unmatched.length);
+  const unmatched = $derived(sortRows(textFiltered.filter((r) => r.st === BALLOT_STATE && status(r) === "unmatched")));
+  const shown = $derived(
+    filtered.length + toPick.reduce((n, g) => n + g.rows.length, 0) + unmatched.length + otherStates.reduce((n, s) => n + s.count, 0),
+  );
   const openTasks = $derived(ix.b.tasks.filter((t) => !t.blocked_by).length);
 </script>
 
@@ -173,6 +194,32 @@
       </ul>
     </div>
   {/if}
+
+  {#each otherStates as s (s.st)}
+    <div class="state">
+      <h2 class="s-head">{s.name}{#if s.st === "nv"} · Las Vegas{/if} <span class="g-count num">{s.count}</span></h2>
+      {#if s.st === "nv"}
+        <p class="g-note">
+          Placeholders: the contests on City of Las Vegas ballots for November 3, 2026, from the official Clark County and Nevada lists. Not researched yet: no
+          candidates, questions or positions. Each one is in the research queue.
+        </p>
+      {/if}
+      {#each s.groups as g (g.type)}
+        <div class="group">
+          <h3 class="g-head">
+            <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
+            {groupLabel(s.st, g.type)}
+            <span class="g-count num">{g.rows.length}</span>
+          </h3>
+          <ul class="list">
+            {#each g.rows as r (r.ref)}
+              {@render contestRow(r)}
+            {/each}
+          </ul>
+        </div>
+      {/each}
+    </div>
+  {/each}
 </section>
 
 {#snippet contestRow(r: Row)}
@@ -266,6 +313,21 @@
   .g-note {
     font-size: var(--step--1);
     color: var(--ink-2);
+  }
+  /* Another state's contests (Nevada: Las Vegas placeholders), below California's. */
+  .state {
+    display: grid;
+    gap: 8px;
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top: 2px solid var(--line-strong);
+  }
+  .s-head {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-size: var(--step-1);
+    font-weight: 800;
   }
   .group.small .g-head {
     font-size: var(--step--1);

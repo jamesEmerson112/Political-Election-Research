@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Bridge, BridgeDomain, BridgeOmitted, BridgeStep, Range } from "../lib/budgetTrial";
   import { nearFar } from "../lib/budgetTrial";
-  import { balance, signedRange, usd } from "../lib/measureChips";
+  import { balance, gapShare, signedRange, usd } from "../lib/measureChips";
   import { hideTip, showTip } from "../lib/ui.svelte";
 
   /**
@@ -25,7 +25,7 @@
   const labelH = $derived(stacked ? font + 4 : 0);
   const barH = $derived(compact ? 10 : 14);
   const pitch = $derived(stacked ? labelH + barH + 7 : compact ? 16 : 24);
-  const labelW = $derived(stacked ? 0 : Math.min(compact ? 180 : 210, Math.round(w * 0.46)));
+  const labelW = $derived(stacked ? 0 : Math.min(compact ? 200 : 230, Math.round(w * 0.46)));
   const x0 = $derived(stacked ? 2 : labelW + 6);
   const x1 = $derived(Math.max(x0 + 40, w - 10));
   const n = $derived(bridge.steps.length);
@@ -55,7 +55,6 @@
     return out;
   });
   const tickAnchor = (t: number) => (x(t) > w - 24 ? "end" : stacked && x(t) < x0 + 20 ? "start" : "middle");
-  const signedTotal = (v: number) => (v === 0 ? "$0" : `${v < 0 ? "−" : "+"}${usd(v)}`);
   const tickLabel = (v: number) => (v === 0 ? "$0" : `${v < 0 ? "−" : ""}${usd(v)}`);
 
   interface Seg {
@@ -91,7 +90,14 @@
   const segsOf = (s: BridgeStep) => (s.kind === "start" ? totalSegs(s.after) : s.kind === "end" ? totalSegs(bridge.result) : stepSegs(s));
   /** Where the next step starts (the connector's x). */
   const nextChain = (s: BridgeStep) => (s.kind === "measure" ? s.chain + nearFar(s.delta).near : s.chain);
-  const valueText = (s: BridgeStep) => (s.kind === "start" ? signedTotal(bridge.baseline) : s.kind === "end" ? signedRange(bridge.result) : signedRange(s.delta));
+  /** Percent first (the maintainer's choice): each step and the result as a share of the forecast gap; the forecast itself in dollars, the base of those shares. Dollars for every step are in the tooltip and the summary table. */
+  const totalDelta = $derived({ low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline });
+  const valueText = (s: BridgeStep) =>
+    s.kind === "start"
+      ? balance({ low: bridge.baseline, high: bridge.baseline })
+      : s.kind === "end"
+        ? (gapShare(bridge.baseline, totalDelta) ?? signedRange(bridge.result))
+        : (gapShare(bridge.baseline, s.delta) ?? signedRange(s.delta));
 
   const direction = (r: Range) =>
     r.low >= 0 ? "Revenue or savings: moves toward surplus (right)" : r.high <= 0 ? "Cost: moves toward shortfall (left)" : "Cost or revenue, depending on the outcome";
@@ -99,10 +105,13 @@
     if (s.kind === "start") return [`Official forecast, FY${bridge.fy}`, balance(s.after), "Doesn't include ballot measures"];
     if (s.kind === "end") {
       const d = { low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline };
-      return [`With your choices, FY${bridge.fy}`, balance(bridge.result), `Change from the forecast: ${signedRange(d)} a year`];
+      const g = gapShare(bridge.baseline, d);
+      return [`With your choices, FY${bridge.fy}`, balance(bridge.result), `Change from the forecast: ${signedRange(d)} a year`, ...(g ? [`Gap ${g} (share computed here)`] : [])];
     }
+    const g = gapShare(bridge.baseline, s.delta);
     return [
       s.label,
+      ...(g ? [`Gap ${g} (share of the forecast gap, computed here)`] : []),
       `${signedRange(s.delta)} a year to the General Fund in FY${bridge.fy}`,
       direction(s.delta),
       ...(s.exclusive ? [`Only one of ${s.labels.join(", ")} can take effect; the step spans the possible outcomes`] : []),
@@ -135,7 +144,8 @@
   });
   const exclusive = $derived(bridge.steps.filter((s) => s.exclusive));
   const aria = $derived(
-    `General Fund bridge for FY${bridge.fy}: ` + bridge.steps.map((s) => `${s.label} ${s.kind === "measure" ? signedRange(s.delta) : balance(s.after)}`).join("; "),
+    `General Fund bridge for FY${bridge.fy}: ` +
+      bridge.steps.map((s) => `${s.label} ${s.kind === "measure" ? `${valueText(s)} (${signedRange(s.delta)})` : balance(s.after)}`).join("; "),
   );
 </script>
 

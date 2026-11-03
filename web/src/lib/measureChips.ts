@@ -68,6 +68,27 @@ const pctNum = (x: number) => {
 const approx = (p: string, q: string = p) => `${p.startsWith("<") ? "" : "≈"}${p === q ? p : `${p}–${q}`}`;
 
 /**
+ * A change to the General Fund as a share of the forecast gap, in the forecast's
+ * words: "≈25% larger", "<0.1% smaller", "≈4.5% smaller to 6.8% larger"; "no
+ * change"; null when the forecast is balanced (no gap to compare with).
+ */
+export function gapShare(baseline: number, delta: Range): string | null {
+  if (baseline === 0) return null;
+  const s = baseline < 0 ? -1 : 1;
+  const size = Math.abs(baseline);
+  const a = s * delta.low;
+  const b = s * delta.high;
+  const c = { low: Math.min(a, b), high: Math.max(a, b) };
+  if (c.low === 0 && c.high === 0) return "no change";
+  if (c.low >= 0 || c.high <= 0) {
+    const p = pctNum(Math.min(Math.abs(c.low), Math.abs(c.high)) / size);
+    const q = pctNum(Math.max(Math.abs(c.low), Math.abs(c.high)) / size);
+    return `${approx(p, q)}% ${c.low >= 0 ? "larger" : "smaller"}`;
+  }
+  return `${approx(pctNum(c.low / size))}% smaller to ${pctNum(c.high / size)}% larger`;
+}
+
+/**
  * Forecast -> result for one fiscal year, the % change first: "Shortfall
  * FY2027-28 ≈0.9% larger: $474.3M → $478.4M–$478.5M (+$4.1M–$4.2M)". The
  * percentage is the change relative to the forecast amount, computed here.
@@ -147,6 +168,43 @@ export const LANE_LABEL: Record<string, string> = {
 };
 const PER: Record<string, string> = { year: "/yr", one_time: " once", total: " total" };
 const WORD: Record<string, string> = { cost: "cost", revenue: "revenue", savings: "savings", none: "" };
+/** Short lane names inside a chip, after the percentage. */
+const LANE_SHORT: Record<string, string> = { general_fund: "", set_aside: "set-aside", dedicated: "dedicated", bond_debt: "bond", other_agency: "other agency" };
+
+/**
+ * What a measure's dollars are compared with, so readers see how big they are:
+ * the jurisdiction's first adopted fiscal year (the current budget).
+ */
+export interface BudgetBase {
+  fy: string;
+  /** Adopted General Fund, USD. */
+  generalFund: number | null;
+  /** Adopted budget, all funds, USD. */
+  total: number | null;
+}
+export function budgetBase(budget: Rec | null | undefined): BudgetBase | null {
+  const adopted = [...((budget?.["adopted"] as Rec[] | undefined) ?? [])].sort((a, b) => String(a["fy"]).localeCompare(String(b["fy"])));
+  const a = adopted[0];
+  if (!a) return null;
+  const n = (v: unknown) => (typeof v === "number" && v > 0 ? v : null);
+  return { fy: String(a["fy"]), generalFund: n(a["general_fund_usd"]), total: n(a["total_usd"]) };
+}
+
+/** A share in percent, rounded so small amounts stay visible: "≈12%", "≈1.6%", "≈0.06%", "<0.01%". */
+export function pct(share: number): string {
+  const p = Math.abs(share) * 100;
+  if (p === 0) return "0%";
+  if (p < 0.01) return "<0.01%";
+  if (p < 1) return `≈${String(Number(p.toFixed(2)))}%`;
+  if (p < 10) return `≈${p.toFixed(1)}%`;
+  return `≈${Math.round(p)}%`;
+}
+/** A range of amounts as a share of `base`: "≈0.06–0.08%", or one value when both ends round the same. */
+export function pctRange(low: number, high: number, base: number): string {
+  const a = pct(Math.min(Math.abs(low), Math.abs(high)) / base);
+  const b = pct(Math.max(Math.abs(low), Math.abs(high)) / base);
+  return a === b ? a : `${a.replace(/%$/, "")}–${b.replace(/^[≈<]/, "")}`;
+}
 
 const unverifiedOnly = (cites: Rec[] | undefined) => !!cites?.length && cites.every((c) => c["unverified"]);
 
@@ -163,10 +221,25 @@ export function measureFactChips(c: Rec): Chip[] {
 }
 
 /** One chip per fiscal effect, plus the bond, plus competing measures. */
-export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r): Chip[] {
+/**
+ * One chip per fiscal effect. With a `base` (the jurisdiction's adopted budget) the
+ * chip leads with the share, so readers see how big an amount is: General Fund
+ * effects as a share of the General Fund ("≈1.6% of GF · cost $120M/yr"), other
+ * lanes and bonds as a share of the whole budget ("≈1.0% of all funds · …").
+ * The shares are computed here and say so on hover.
+ */
+export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r, base: BudgetBase | null = null): Chip[] {
   const fiscal = c["fiscal"] as Rec | undefined;
   if (!fiscal) return [{ icon: "none", text: "Fiscal effect not researched", muted: true }];
   const out: Chip[] = [];
+  const share = (lane: string) =>
+    lane === "general_fund"
+      ? base?.generalFund
+        ? { of: base.generalFund, name: "GF", long: `the FY${base.fy} General Fund (${usd(base.generalFund)})` }
+        : null
+      : base?.total
+        ? { of: base.total, name: "all funds", long: `the City's whole FY${base.fy} budget, all funds (${usd(base.total)})` }
+        : null;
   for (const e of (fiscal["effects"] as Rec[] | undefined) ?? []) {
     const lane = String(e["lane"]);
     const icon = (LANE_LABEL[lane] ? lane : "none") as Chip["icon"];
@@ -178,13 +251,26 @@ export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r)
     else if (e["amount"]) {
       const a = e["amount"] as Rec;
       const word = WORD[String(e["direction"])] ?? "";
-      out.push({ icon, text: `${prefix} ${word} ${usdRange(a["low_usd"], a["high_usd"])}${PER[String(e["per"])] ?? ""}`.replace(/\s+/g, " "), lead, title: String(e["text"]) });
+      const dollars = `${usdRange(a["low_usd"], a["high_usd"])}${PER[String(e["per"])] ?? ""}`;
+      const s = share(lane);
+      if (s) {
+        const p = pctRange(a["low_usd"], a["high_usd"], s.of);
+        const text = `${p} of ${s.name} · ${[LANE_SHORT[lane], word].filter(Boolean).join(" ")} ${dollars}`.replace(/\s+/g, " ");
+        out.push({ icon, text, lead, title: `${p} of ${s.long}, computed here. ${String(e["text"])}` });
+      } else out.push({ icon, text: `${prefix} ${word} ${dollars}`.replace(/\s+/g, " "), lead, title: String(e["text"]) });
     }
   }
   const bond = fiscal["bond"] as Rec | undefined;
   if (bond) {
     const per = typeof bond["annual_cost_per_100k_assessed_usd"] === "number" ? ` · ~${centsUsd.format(bond["annual_cost_per_100k_assessed_usd"])}/yr per $100k assessed` : "";
-    out.push({ icon: "bond_debt", text: `Bond ${usd(bond["principal_usd"])}${per}`, lead: unverifiedOnly(bond["citations"]) });
+    const s = share("bond_debt");
+    const p = s ? `${pct(Number(bond["principal_usd"]) / s.of)} of ${s.name} · ` : "";
+    out.push({
+      icon: "bond_debt",
+      text: `${p}Bond ${usd(bond["principal_usd"])}${per}`,
+      lead: unverifiedOnly(bond["citations"]),
+      ...(s ? { title: `Bond principal as a share of ${s.long}, computed here.` } : {}),
+    });
   }
   for (const k of (c["conflicts"] as Rec[] | undefined) ?? []) out.push({ icon: "conflict", text: `Competes with ${labelOf(String(k["contest"]))}`, title: String(k["rule"]) });
   return out.length ? out : [{ icon: "none", text: "No fiscal effect recorded", muted: true }];

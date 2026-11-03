@@ -2,7 +2,7 @@
   import type { Bridge, BridgeDomain, MeasureInput, Range, TrialResult, Vote } from "../lib/budgetTrial";
   import { LANES } from "../lib/budgetTrial";
   import { MARK } from "../lib/marks";
-  import { balance, LANE_LABEL, signedRange, usd } from "../lib/measureChips";
+  import { balance, gapLine, gapShare, LANE_LABEL, pct, pctRange, signedRange, usd, type BudgetBase } from "../lib/measureChips";
   import { hideTip, showTip } from "../lib/ui.svelte";
   import BudgetBridge from "./BudgetBridge.svelte";
   import StanceMark from "./StanceMark.svelte";
@@ -22,6 +22,7 @@
     titles,
     bridge,
     domain,
+    base = null,
   }: {
     result: TrialResult;
     measures: MeasureInput[];
@@ -29,6 +30,8 @@
     titles: Record<string, string>;
     bridge: Bridge | null;
     domain: BridgeDomain | null;
+    /** The adopted budget the amounts are compared with (percent first, dollars after). */
+    base?: BudgetBase | null;
   } = $props();
   const stepWord = (r: Range) => (r.low >= 0 ? "revenue or savings" : r.high <= 0 ? "cost" : "cost or revenue");
 
@@ -84,12 +87,18 @@
     </figure>
     <div class="scroll-x"><table class="grid num steps">
       <caption>The bridge as a table: General Fund, FY{bridge.fy}, a year</caption>
-      <thead><tr><th>Step</th><th>Change</th><th>Running total</th></tr></thead>
+      <thead><tr><th>Step</th><th>Change (share of the forecast gap, then dollars)</th><th>Running total</th></tr></thead>
       <tbody>
         {#each bridge.steps as s, k (k)}
           <tr>
             <td>{s.kind === "start" ? "Official forecast" : s.kind === "end" ? "With your choices" : s.label}{#if s.exclusive}<span class="muted">{" "}(only one can take effect)</span>{/if}</td>
-            <td>{#if s.kind === "measure"}{signedRange(s.delta)} <span class="muted">{stepWord(s.delta)}</span>{:else if s.kind === "end"}{signedRange({ low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline })}{:else}—{/if}</td>
+            <td
+              >{#if s.kind === "measure"}<strong>{gapShare(bridge.baseline, s.delta) ?? ""}</strong> {signedRange(s.delta)}
+                <span class="muted">{stepWord(s.delta)}</span>{:else if s.kind === "end"}{@const d = { low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline }}<strong
+                  >{gapShare(bridge.baseline, d) ?? ""}</strong
+                >
+                {signedRange(d)}{:else}—{/if}</td
+            >
             <td>{balance(s.after)}</td>
           </tr>
         {/each}
@@ -126,10 +135,13 @@
     </figure>
 
     <div class="scroll-x"><table class="grid num">
-      <thead><tr><th>FY</th><th>Forecast</th><th>Your choices</th><th>Result</th></tr></thead>
+      <thead><tr><th>FY</th><th>Gap</th><th>Forecast</th><th>Your choices</th><th>Result</th></tr></thead>
       <tbody>
         {#each result.generalFund as y (y.fy)}
-          <tr><td>FY{y.fy}</td><td>{balance({ low: y.baseline ?? 0, high: y.baseline ?? 0 })}</td><td>{signedRange(y.delta)}</td><td>{y.result ? balance(y.result) : "—"}</td></tr>
+          <tr
+            ><td>FY{y.fy}</td><td><strong>{y.result && y.baseline !== null ? (gapLine(y.fy, y.baseline, y.result).pct ?? "no change") : "—"}</strong></td><td
+              >{balance({ low: y.baseline ?? 0, high: y.baseline ?? 0 })}</td
+            ><td>{signedRange(y.delta)}</td><td>{y.result ? balance(y.result) : "—"}</td></tr>
         {/each}
       </tbody>
     </table></div>
@@ -148,8 +160,12 @@
         <span class="eff num">
           {#if v === "yes"}
             {@const g = gfOf(m.ref)}
-            {#if g.low !== 0 || g.high !== 0}<span>General Fund {signedRange(g)}/yr</span>{/if}
-            {#each otherOf(m.ref) as o (o.l)}<span>{LANE_LABEL[o.l]} {signedRange(o.r)}/yr</span>{/each}
+            {#if g.low !== 0 || g.high !== 0}<span
+                >General Fund {#if base?.generalFund}<strong>{pctRange(g.low, g.high, base.generalFund)}</strong> ({signedRange(g)}/yr){:else}{signedRange(g)}/yr{/if}</span
+              >{/if}
+            {#each otherOf(m.ref) as o (o.l)}<span
+                >{LANE_LABEL[o.l]} {#if base?.total}<strong>{pctRange(o.r.low, o.r.high, base.total)} of all funds</strong> ({signedRange(o.r)}/yr){:else}{signedRange(o.r)}/yr{/if}</span
+              >{/each}
             {#if result.notEstimated.some((x) => x.ref === m.ref)}<span class="muted">not estimated</span>{/if}
             {#if result.minimal.some((x) => x.ref === m.ref)}<span class="muted">minimal or no cost</span>{/if}
           {:else}
@@ -165,11 +181,16 @@
     <ul>
       {#each LANES.filter((l) => l !== "general_fund") as l (l)}
         {@const r = result.perYearOnceInEffect[l]}
-        {#if r.low !== 0 || r.high !== 0}<li><strong>{LANE_LABEL[l]}:</strong> {signedRange(r)} a year once in effect</li>{/if}
+        {#if r.low !== 0 || r.high !== 0}<li>
+            <strong>{LANE_LABEL[l]}:</strong>
+            {#if base?.total}<strong>{pctRange(r.low, r.high, base.total)} of all funds</strong> ({signedRange(r)} a year once in effect){:else}{signedRange(r)} a year once in effect{/if}
+          </li>{/if}
       {/each}
       {#if result.bonds.principal}
         <li>
-          <strong>Bonds:</strong> {usd(result.bonds.principal)} authorized{#if result.bonds.debtServiceTotal}, about {usd(result.bonds.debtServiceTotal)} in total
+          <strong>Bonds:</strong> {#if base?.total}<strong>{pct(result.bonds.principal / base.total)} of all funds</strong> ({usd(result.bonds.principal)}){:else}{usd(
+            result.bonds.principal,
+          )}{/if} authorized{#if result.bonds.debtServiceTotal}, about {usd(result.bonds.debtServiceTotal)} in total
             debt service{/if}{#if result.bonds.perHundredK}; about ${result.bonds.perHundredK.toFixed(2)} a year per $100,000 of assessed value{/if}, paid
           from property taxes ({result.bonds.labels.join(", ")})
         </li>
@@ -183,6 +204,8 @@
     </ul>
     <p class="note">
       The city adopts a balanced budget each year; a projected shortfall is the gap the Mayor and Board must close with cuts, new revenue or reserves.
+      Percentages are computed here, to show how big each amount is: a step as a share of the forecast gap; General Fund amounts as a share of the adopted
+      FY{base?.fy ?? ""} General Fund; other funds and bonds as a share of the whole adopted budget, all funds.
       The forecast doesn't include these measures. Amounts are the official estimates as published; this page only adds them up.
     </p>
   </div>

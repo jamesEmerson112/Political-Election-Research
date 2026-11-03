@@ -28,7 +28,16 @@ export interface Lead {
   hint?: "support" | "oppose" | "mixed";
 }
 
-const STATES: Record<string, string> = { ca: "California" };
+export const STATES: Record<string, string> = { ca: "California", nv: "Nevada" };
+
+/** Two-letter state code of a contest ref or slug (from its election id, e.g. 2026-nv-general -> "nv"). */
+export function stateOf(ref: string): string {
+  const election = slugOf(ref).split("/")[0] ?? "";
+  return election.split("-")[1] ?? "";
+}
+
+/** Local-government prefixes in contest slugs (San Francisco; Clark County, Las Vegas and its school district). */
+const LOCAL_PREFIX = /^(sf|clark-county|las-vegas|ccsd)-/;
 
 export function slugOf(ref: string): string {
   return ref.slice(ref.indexOf(":") + 1);
@@ -51,6 +60,26 @@ export function titleFromSlug(contestSlug: string): string {
   const sup = /^sf-supervisor-district-(\d+)$/.exec(s);
   if (sup) return `SF Supervisor, District ${sup[1]}`;
   if (s.startsWith("sf-")) return `SF ${titleFromSlug(s.slice(3))}`;
+  // Nevada placeholders (Las Vegas ballots): fixed slug patterns, see docs/RESEARCH_GUIDE.md.
+  if (s === "us-senate") return "U.S. Senate";
+  const districted: Array<[RegExp, string]> = [
+    [/^state-senate-(\d+)$/, "State Senate, District $1"],
+    [/^assembly-(\d+)$/, "Assembly, District $1"],
+    [/^board-of-regents-(\d+)$/, "Board of Regents, District $1"],
+    [/^state-board-of-education-(\d+)$/, "State Board of Education, District $1"],
+    [/^supreme-court-seat-([a-z])$/, "Supreme Court, Seat $1"],
+    [/^court-of-appeals-dept-(\d+)$/, "Court of Appeals, Department $1"],
+    [/^question-(\d+)$/, "Question $1"],
+    [/^clark-county-commission-([a-z])$/, "Clark County Commission, District $1"],
+    [/^clark-county-question-(\d+)$/, "Clark County Question $1"],
+    [/^ccsd-trustee-([a-z])$/, "CCSD Trustee, District $1"],
+    [/^las-vegas-council-ward-(\d+)$/, "Las Vegas City Council, Ward $1"],
+    [/^las-vegas-question-(\d+)$/, "Las Vegas Question $1"],
+  ];
+  for (const [re, title] of districted) {
+    const m = re.exec(s);
+    if (m) return title.replace("$1", /^[a-z]$/.test(m[1]!) ? m[1]!.toUpperCase() : m[1]!);
+  }
   const small = new Set(["of", "and", "for", "the", "on"]);
   return s
     .split("-")
@@ -74,9 +103,9 @@ const STATEWIDE_ORDER = [
 export function officeOf(contestRef: string, kind: "office" | "measure"): { type: OfficeType; sort: [number, string] } {
   const s = slugOf(contestRef).split("/").pop() ?? "";
   const num = (m: RegExpExecArray | null) => (m ? Number(m[m.length - 1]) : 0);
-  if (/^[a-z]+-prop-[a-z0-9]+$/.test(s)) return { type: "local_measure", sort: [0, s] };
-  if (kind === "measure" || /^prop-\d+$/.test(s)) return { type: "measure", sort: [num(/^prop-(\d+)$/.exec(s)), s] };
-  if (s.startsWith("sf-")) return { type: "local", sort: [num(/-(\d+)$/.exec(s)), s] };
+  if (/^[a-z]+-prop-[a-z0-9]+$/.test(s) || /^(clark-county|las-vegas)-question-\d+$/.test(s)) return { type: "local_measure", sort: [num(/-(\d+)$/.exec(s)), s] };
+  if (kind === "measure" || /^prop-\d+$/.test(s) || /^question-\d+$/.test(s)) return { type: "measure", sort: [num(/^(?:prop|question)-(\d+)$/.exec(s)), s] };
+  if (LOCAL_PREFIX.test(s)) return { type: "local", sort: [num(/-(\d+)$/.exec(s)), s] };
   if (/^us-house-[a-z]{2}-\d+$/.test(s)) return { type: "house", sort: [num(/-(\d+)$/.exec(s)), s] };
   if (/^board-of-equalization-\d+$/.test(s)) return { type: "boe", sort: [num(/-(\d+)$/.exec(s)), s] };
   if (/^(state-senate|state-assembly|assembly|senate)-\d+$/.test(s)) return { type: "legislature", sort: [num(/-(\d+)$/.exec(s)), s] };
@@ -199,6 +228,12 @@ export class Index {
         refs: refs.sort((a, b) => num(a).localeCompare(num(b), "en", { numeric: true }) || a.localeCompare(b)),
         budget: [...this.budgets.values()].find((bu) => bu["jurisdiction"] === jurisdiction) ?? null,
       }));
+  }
+
+  /** The adopted budget recorded for a local measure's jurisdiction (what its dollars are compared with), if any. */
+  budgetFor(ref: string): Rec | null {
+    const name = (this.contests.get(ref)?.["jurisdiction"] as Rec | undefined)?.["name"];
+    return name ? ([...this.budgets.values()].find((b) => b["jurisdiction"] === name) ?? null) : null;
   }
 
   kindOf(ref: string): "office" | "measure" {

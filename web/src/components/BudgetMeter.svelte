@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Bridge, BridgeDomain, TrialResult } from "../lib/budgetTrial";
   import { date } from "../lib/format";
-  import { gapLine, LANE_LABEL, signedRange, usd } from "../lib/measureChips";
+  import { budgetBase, gapLine, LANE_LABEL, pct, pctRange, signedRange, usd } from "../lib/measureChips";
   import { openDetail } from "../lib/ui.svelte";
   import BudgetBridge from "./BudgetBridge.svelte";
 
@@ -32,6 +32,8 @@
   const row = $derived(result.generalFund.find((y) => y.fy === fy) ?? result.generalFund[0] ?? null);
   const i = $derived(row ? result.years.indexOf(row.fy) : -1);
   const line = $derived(row?.result && row.baseline !== null ? gapLine(row.fy, row.baseline, row.result) : null);
+  /** The adopted budget the other lanes are compared with (percent first, dollars after). */
+  const base = $derived(budgetBase(budgetRec));
   const lanes = $derived(
     (["set_aside", "dedicated", "other_agency", "bond_debt"] as const)
       .map((l) => ({ l, r: result.perYearOnceInEffect[l] }))
@@ -96,8 +98,16 @@
   {/if}
   {#if lanes.length || result.bonds.principal}
     <p class="lanes">
-      {#each lanes as { l, r } (l)}<span>{LANE_LABEL[l]} {signedRange(r)}/yr</span>{/each}
-      {#if result.bonds.principal}<span>Bonds {usd(result.bonds.principal)}{#if result.bonds.perHundredK} · ~${result.bonds.perHundredK.toFixed(2)}/yr per $100k assessed{/if}</span>{/if}
+      {#each lanes as { l, r } (l)}<span title={base?.total ? `Share of the City's whole FY${base.fy} budget, all funds (${usd(base.total)}), computed here` : undefined}
+          >{LANE_LABEL[l]}
+          {#if base?.total}<strong>{pctRange(r.low, r.high, base.total)} of all funds</strong> ({signedRange(r)}/yr){:else}{signedRange(r)}/yr{/if}</span
+        >{/each}
+      {#if result.bonds.principal}<span
+          >Bonds {#if base?.total}<strong>{pct(result.bonds.principal / base.total)} of all funds</strong> ({usd(result.bonds.principal)}){:else}{usd(
+              result.bonds.principal,
+            )}{/if}{#if result.bonds.perHundredK}
+            · ~${result.bonds.perHundredK.toFixed(2)}/yr per $100k assessed{/if}</span
+        >{/if}
     </p>
   {/if}
 </div>

@@ -2,7 +2,7 @@
   import type { Index } from "../lib/data";
   import { contestRoute } from "../lib/data";
   import { MEASURE_ICON } from "../lib/icons";
-  import { fiscalChips, measureFactChips } from "../lib/measureChips";
+  import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
   import Badge from "./Badge.svelte";
   import OfficeChips from "./OfficeChips.svelte";
 
@@ -20,7 +20,7 @@
   </span>
   <span class="title">{c["official_title"]?.["value"] ?? ix.contestTitle(contestRef)}</span>
   <span class="sum">{c["summary"]?.["value"] ?? ""}</span>
-  <OfficeChips chips={fiscalChips(c, label)} />
+  <OfficeChips chips={fiscalChips(c, label, budgetBase(ix.budgetFor(contestRef)))} />
 </a>
 
 <style>

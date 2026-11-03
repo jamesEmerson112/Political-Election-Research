@@ -5,7 +5,7 @@
   import { bridgeDomain, bridgeSteps, budgetInput, measureInput, runTrial, type Vote } from "../lib/budgetTrial";
   import { MEASURE_ICON } from "../lib/icons";
   import { MARK } from "../lib/marks";
-  import { fiscalChips, gapLine, measureFactChips, signedRange } from "../lib/measureChips";
+  import { budgetBase, fiscalChips, gapLine, measureFactChips, signedRange } from "../lib/measureChips";
   import { forgetVotes, loadVotes, saveVotes } from "../lib/trialStorage";
   import { openDetail } from "../lib/ui.svelte";
   import AffectedGroups from "./AffectedGroups.svelte";
@@ -148,7 +148,7 @@
         <h3 bind:this={headEl} tabindex="-1">{titles[current.ref]}</h3>
         <p class="sum">{rec["summary"]?.["value"] ?? ""}</p>
         <div class="fiscal">
-          <OfficeChips chips={fiscalChips(rec, label)} />
+          <OfficeChips chips={fiscalChips(rec, label, budgetBase(group.budget))} />
           {#if rec["fiscal"]}<button class="link" onclick={statement}>{rec["fiscal"]["statement_by"]}'s statement ›</button>{/if}
           <a class="link" href={`#${contestRoute(current.ref)}`}>Measure page ›</a>
         </div>
@@ -181,7 +181,7 @@
         </div>
       </article>
     {:else}
-      <TrialSummary {result} {measures} {votes} {titles} {bridge} {domain} />
+      <TrialSummary {result} {measures} {votes} {titles} {bridge} {domain} base={budgetBase(group.budget)} />
       <div class="answers">
         <button class="ans" onclick={() => (step = 0)}>Change answers</button>
         <button class="ans" onclick={forget}>Forget my answers</button>
