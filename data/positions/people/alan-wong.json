@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:alan-wong",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2025-12-09",
+      "cycle": 2026,
+      "evidence_type": "vote",
+      "summary": "Voted yes when the Board of Supervisors passed the Family Zoning Plan zoning map ordinance (File No. 250700) on first reading on December 2, 2025, 7 to 4; he was recorded as excused at final passage on December 9, 2025.",
+      "citations": [
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "[Zoning Map - Family Zoning Plan]",
+          "locator": "p. 1, ordinance heading"
+        },
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "December 02, 2025 Board of Supervisors - PASSED ON FIRST READING Ayes: 7 - Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill and Wong Noes: 4 - Chan, Chen, Fielder and Walton",
+          "locator": "p. 72, legislative history"
+        },
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "Excused: 1 - Wong",
+          "locator": "p. 72, legislative history, December 09, 2025 final passage"
+        }
+      ]
+    }
+  ]
+}
