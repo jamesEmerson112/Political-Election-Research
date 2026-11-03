@@ -44,5 +44,46 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "ab-1313-college-transcript-withholding-ban",
+        "kind": "legislation",
+        "bill": "ca-2019-ab-1313",
+        "date": "2019-10-04",
+        "summary": "Sponsored AB 1313 as Attorney General with Assemblymember Luz Rivas, extending to postsecondary schools the state's ban on withholding transcripts from students who owe a debt; it was signed into law in October 2019.",
+        "title": "AB 1313: ban on colleges withholding transcripts over student debt",
+        "citations": [
+          {
+            "source": "src:oag-ca-gov-00f221347b",
+            "quote": "California Attorney General Xavier Becerra and Assemblymember Luz Rivas (D-Arleta) today announced AB 1313, their bill to help mitigate the student debt crisis, was signed into law."
+          },
+          {
+            "source": "src:oag-ca-gov-00f221347b",
+            "quote": "The bill prohibits postsecondary schools from withholding transcripts from students who owe a debt"
+          }
+        ]
+      },
+      {
+        "id": "sb-647-lead-and-cadmium-in-jewelry",
+        "kind": "legislation",
+        "bill": "ca-2019-sb-647",
+        "date": "2019-09-30",
+        "summary": "Backed SB 647 as Attorney General with Senator Holly Mitchell, updating California's lead and cadmium limits for jewelry; it passed with unanimous bipartisan support and was signed into law in September 2019.",
+        "title": "SB 647: lead and cadmium limits in jewelry",
+        "citations": [
+          {
+            "source": "src:oag-ca-gov-ae38a0f115",
+            "quote": "California Attorney General Xavier Becerra and Senator Holly Mitchell (D-Los Angeles) today applauded Governor Gavin Newsom for signing into law SB 647, a bill that protects consumers by updating California’s metal-containing jewelry laws to better reflect current science and international standards on the toxicity of lead and cadmium in jewelry."
+          },
+          {
+            "source": "src:oag-ca-gov-ae38a0f115",
+            "quote": "SB 647, introduced by Senator Mitchell on February 22, 2019, received unanimous bipartisan support."
+          }
+        ]
+      }
+    ]
   }
 }
