@@ -52,5 +52,26 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-03",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-03",
+        "query": "Steve Hilton",
+        "where": "Official Voter Information Guide 2026 (vig.cdn.sos.ca.gov) and California certified list of candidates: no elected office held"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "record, results",
+        "where": "stevehiltonforgovernor.com/meet-steve and /policies (campaign biography and plans; no documented government outcome)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Steve Hilton senior advisor David Cameron head of strategy",
+        "where": "FOX News Channel press release (2017) and Semafor (2023-06-08) career summaries: roles described, no documented program or budget outcome"
+      }
+    ]
   }
 }
