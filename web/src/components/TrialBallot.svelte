@@ -122,7 +122,7 @@
       </div>
     {/if}
 
-    <!-- While voting, the meter draws the bridge; in the summary it keeps its headline and year switcher, and the summary draws the bridge, once. -->
+    <!-- While voting, the meter draws the bridge; in the summary it keeps its year buttons and headline, and the summary draws the bridge, once. -->
     <div class="meter-wrap" bind:this={meterEl}>
       <BudgetMeter {result} {bridge} {domain} budgetRec={group.budget} fy={shownFy} onfy={(f) => (fy = f)} headline={!(current && rec)} />
     </div>

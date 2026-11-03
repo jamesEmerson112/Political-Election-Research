@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { untrack } from "svelte";
   import type { Bridge, BridgeDomain, TrialResult } from "../lib/budgetTrial";
   import { date } from "../lib/format";
   import { budgetBase, gapLine, LANE_LABEL, pct, pctRange, signedRange, usd } from "../lib/measureChips";
@@ -12,7 +13,7 @@
    * One hue for the measures (--money), gray for the forecast and the result;
    * direction is shown by position and by words, never by arrows.
    *
-   * `headline`: only the gap line, its fine print and the year switcher. The
+   * `headline`: only the year buttons, the gap line and its fine print. The
    * trial summary draws the bridge full size (with its table) and the other
    * funds, so the meter above it doesn't draw them a second time.
    */
@@ -37,8 +38,39 @@
   } = $props();
 
   const row = $derived(result.generalFund.find((y) => y.fy === fy) ?? result.generalFund[0] ?? null);
-  const i = $derived(row ? result.years.indexOf(row.fy) : -1);
   const line = $derived(row?.result && row.baseline !== null ? gapLine(row.fy, row.baseline, row.result) : null);
+
+  /**
+   * Every forecast year at once, each with its change: a vote can move later years only (a measure that starts in
+   * FY2028-29 leaves FY2027-28 as it was), so the meter must never show one year alone. Selecting a year shows it
+   * below and in the bridge.
+   */
+  const years = $derived(
+    result.generalFund.map((y) => {
+      const g = y.result && y.baseline !== null ? gapLine(y.fy, y.baseline, y.result) : null;
+      return {
+        fy: y.fy,
+        text: !g ? "no forecast" : g.mode === "pct" ? (g.pct ?? "") : g.mode === "none" ? "no change" : "crosses $0",
+        key: y.result ? `${y.result.low}:${y.result.high}` : "",
+      };
+    }),
+  );
+  /** Years whose numbers the last vote changed: highlighted for a moment, and announced ("changed"). */
+  let changed = $state<Set<string>>(new Set());
+  let prev = new Map<string, string>();
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  $effect(() => {
+    const now = new Map(years.map((y) => [y.fy, y.key]));
+    untrack(() => {
+      const moved = [...now].filter(([fy, k]) => prev.has(fy) && prev.get(fy) !== k).map(([fy]) => fy);
+      prev = now;
+      if (!moved.length) return;
+      changed = new Set(moved);
+      clearTimeout(timer);
+      timer = setTimeout(() => (changed = new Set()), 2400);
+    });
+  });
+  $effect(() => () => clearTimeout(timer));
   /** The adopted budget the other lanes are compared with (percent first, dollars after). */
   const base = $derived(budgetBase(budgetRec));
   const lanes = $derived(
@@ -63,11 +95,13 @@
   {#if row}
     <div class="head">
       <span class="eyebrow">General Fund</span>
-      <span class="fy">
-        <button aria-label="Earlier fiscal year" disabled={i <= 0} onclick={() => onfy(result.years[i - 1]!)}>‹</button>
-        <span class="num">FY{row.fy}</span>
-        <button aria-label="Later fiscal year" disabled={i >= result.years.length - 1} onclick={() => onfy(result.years[i + 1]!)}>›</button>
-      </span>
+      <div class="years" role="group" aria-label="Fiscal year">
+        {#each years as y (y.fy)}
+          <button class="yr" class:on={y.fy === row.fy} class:changed={changed.has(y.fy)} aria-pressed={y.fy === row.fy} onclick={() => onfy(y.fy)}
+            ><span class="yfy num">FY{y.fy}</span><span class="ych">{y.text}</span>{#if changed.has(y.fy)}<span class="sr">changed</span>{/if}</button
+          >
+        {/each}
+      </div>
     </div>
     {#if line}
       <!-- The % change leads; the dollars follow in plain text. -->
@@ -132,23 +166,65 @@
     align-items: center;
     gap: 8px;
   }
-  .fy {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    font-weight: 600;
+  .head {
+    flex-wrap: wrap;
   }
-  .fy button {
+  .years {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .yr {
+    display: grid;
+    gap: 1px;
+    text-align: left;
+    min-width: 0;
+    padding: 4px 9px;
     border: 1px solid var(--line-strong);
     background: var(--surface);
+    color: var(--ink-2);
     border-radius: 6px;
-    width: 26px;
-    height: 24px;
     cursor: pointer;
+    font: inherit;
+    transition: background-color 0.4s, border-color 0.4s;
   }
-  .fy button:disabled {
-    opacity: 0.4;
-    cursor: default;
+  .yr .yfy {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  .yr .ych {
+    font-size: 0.75rem;
+  }
+  .yr.on {
+    border-color: var(--ink);
+    color: var(--ink);
+    box-shadow: inset 0 0 0 1px var(--ink);
+  }
+  /* The last vote changed this year's numbers. */
+  .yr.changed {
+    background: var(--wash);
+    border-color: var(--money);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .yr {
+      transition: none;
+    }
+  }
+  .sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  /* Phones: the years share the row evenly, below the label. */
+  @media (max-width: 560px) {
+    .years {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+    }
   }
   .gap {
     display: flex;
