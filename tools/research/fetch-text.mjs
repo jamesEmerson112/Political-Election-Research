@@ -14,6 +14,8 @@
  *   never part of a quote).
  * - HTML: rendered in Chromium (Playwright) and read as document.body.innerText, which also
  *   gets past "checking your browser" pages; if Chromium fails, the served HTML's text.
+ * - WordPress REST API replies (e.g. https://missionlocal.org/wp-json/wp/v2/posts?search=...): each post's
+ *   title and article text; each post is also cached under its public article URL, so cite the article.
  * - Anything else textual (JSON, XML, CSV, plain text): as served.
  *
  * Cache: <repo>/.cache/research/<sha256(url)>.{txt,json} (git-ignored); RESEARCH_CACHE overrides.
@@ -69,6 +71,13 @@ function htmlToText(html) {
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#39;|&apos;/g, "'")
+    .replace(/&rsquo;/g, "\u2019")
+    .replace(/&lsquo;/g, "\u2018")
+    .replace(/&rdquo;/g, "\u201D")
+    .replace(/&ldquo;/g, "\u201C")
+    .replace(/&ndash;/g, "\u2013")
+    .replace(/&mdash;/g, "\u2014")
+    .replace(/&hellip;/g, "\u2026")
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
     .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/[ \t]+\n/g, "\n")
@@ -81,6 +90,10 @@ async function render(url, waitMs) {
   try {
     const ctx = await browser.newContext({ userAgent: UA });
     const page = await ctx.newPage();
+    let docStatus = 0;
+    page.on("response", (r) => {
+      if (r.request().isNavigationRequest() && r.frame() === page.mainFrame()) docStatus = r.status();
+    });
     const resp = await page.goto(url, { timeout: 60000, waitUntil: "domcontentloaded" });
     await page.waitForLoadState("networkidle", { timeout: waitMs }).catch(() => {});
     for (let i = 0; i < 6; i++) {
@@ -89,18 +102,86 @@ async function render(url, waitMs) {
       await page.waitForTimeout(5000);
     }
     const text = await page.evaluate(() => document.body?.innerText ?? "");
-    return { text, title: await page.title(), status: resp?.status() ?? 0, finalUrl: page.url() };
+    // The last main-frame document decides: a challenge page that reloads into the real page is not blocked.
+    return { text, title: await page.title(), status: docStatus || resp?.status() || 0, finalUrl: page.url() };
   } finally {
     await browser.close();
   }
 }
+
+/** WordPress REST API replies (wp-json/wp/v2/posts...): one post or a list of posts. */
+function wordpress(body) {
+  let j;
+  try {
+    j = JSON.parse(body);
+  } catch {
+    return null;
+  }
+  const list = Array.isArray(j) ? j : [j];
+  if (!list.length || !list.every((p) => p && typeof p === "object" && p.link && p.content && typeof p.content.rendered === "string")) return null;
+  const posts = list.map((p) => {
+    const title = htmlToText(String(p.title?.rendered ?? "")).trim();
+    const text = `${title}\n${p.date ? `Published ${p.date}\n` : ""}\n${htmlToText(p.content.rendered).trim()}`;
+    return { link: String(p.link), title, text };
+  });
+  const text = posts.map((p) => `[[post ${p.link}]]\n${p.text}`).join("\n\n");
+  return { posts, text, title: posts.length === 1 ? posts[0].title : `${posts.length} posts` };
+}
+
+function aliasTo(link, text, title, via) {
+  fs.mkdirSync(CACHE, { recursive: true });
+  const key = keyOf(link);
+  const prev = readMeta(path.join(CACHE, `${key}.json`));
+  if (prev && !prev.blocked && prev.type !== "wordpress") return;
+  const txt = path.join(CACHE, `${key}.txt`);
+  writeAtomic(txt, text);
+  writeAtomic(path.join(CACHE, `${key}.json`), JSON.stringify({ url: link, final_url: link, status: 200, type: "wordpress", file: txt, chars: text.length, title, fetched_at: new Date().toISOString(), via }));
+}
+
+const BLOCKED_RETRY_MS = 30 * 60 * 1000;
+function readMeta(meta) {
+  try {
+    return JSON.parse(fs.readFileSync(meta, "utf8"));
+  } catch {
+    return undefined;
+  }
+}
+/** A cached entry is used unless it recorded a block more than 30 minutes ago (blocks can be transient). */
+const usable = (m) => m && fs.existsSync(m.file) && (!m.blocked || Date.now() - Date.parse(m.fetched_at) < BLOCKED_RETRY_MS);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 export async function fetchText(url, { refresh = false, waitMs = 4000 } = {}) {
   fs.mkdirSync(CACHE, { recursive: true });
   const key = keyOf(url);
   const txt = path.join(CACHE, `${key}.txt`);
   const meta = path.join(CACHE, `${key}.json`);
-  if (!refresh && fs.existsSync(txt) && fs.existsSync(meta)) return { ...JSON.parse(fs.readFileSync(meta, "utf8")), cached: true };
+  if (!refresh && usable(readMeta(meta))) return { ...readMeta(meta), cached: true };
+  // One fetch per URL at a time: others wait for its result instead of fetching (and maybe
+  // getting a different page) themselves.
+  const lockFile = path.join(CACHE, `${key}.lock`);
+  for (let waited = 0; ; waited += 2000) {
+    try {
+      fs.writeFileSync(lockFile, String(process.pid), { flag: "wx" });
+      break;
+    } catch {
+      const age = Date.now() - (fs.statSync(lockFile, { throwIfNoEntry: false })?.mtimeMs ?? 0);
+      if (age > 5 * 60 * 1000) {
+        fs.rmSync(lockFile, { force: true });
+        continue;
+      }
+      await sleep(2000);
+      if (!refresh && usable(readMeta(meta))) return { ...readMeta(meta), cached: true };
+      if (waited > 180000) throw new Error(`timed out waiting for another fetch of ${url}`);
+    }
+  }
+  try {
+    return await fetchLocked(url, key, txt, meta, waitMs);
+  } finally {
+    fs.rmSync(lockFile, { force: true });
+  }
+}
+
+async function fetchLocked(url, key, txt, meta, waitMs) {
 
   const raw = path.join(os.tmpdir(), `fetch-${key}-${process.pid}`);
   const got = curl(url, raw);
@@ -114,7 +195,12 @@ export async function fetchText(url, { refresh = false, waitMs = 4000 } = {}) {
   try {
     if (head.startsWith("%PDF") || /pdf/i.test(got.contentType)) {
       type = "pdf";
-      text = pdfText(raw);
+      try {
+        text = pdfText(raw);
+      } catch (e) {
+        text = "";
+        note = `${e.message.split("\n")[0]} (download incomplete or not a PDF)`;
+      }
     } else if (/html|xml\+xhtml/i.test(got.contentType) || /^\s*</.test(head) || !got.contentType) {
       type = "html";
       try {
@@ -129,13 +215,24 @@ export async function fetchText(url, { refresh = false, waitMs = 4000 } = {}) {
         title = (/<title[^>]*>([\s\S]*?)<\/title>/i.exec(html)?.[1] ?? "").trim();
         text = htmlToText(html);
       }
+    } else if (/json/i.test(got.contentType)) {
+      const body = fs.existsSync(raw) ? fs.readFileSync(raw, "utf8") : "";
+      const wp = wordpress(body);
+      if (wp) {
+        type = "wordpress";
+        text = wp.text;
+        title = wp.title;
+        // Each post's text is also cached under its public article URL, so a source can cite
+        // the article (what readers open) while quotes are checked against the same text.
+        for (const post of wp.posts) aliasTo(post.link, post.text, post.title, url);
+      } else text = body;
     } else {
       text = fs.existsSync(raw) ? fs.readFileSync(raw, "utf8") : "";
     }
   } finally {
     fs.rmSync(raw, { force: true });
   }
-  const blocked = status >= 400 || status === 0 || (text.trim().length < 400 && CHALLENGE.test(`${title} ${text}`));
+  const blocked = !text.trim() || status >= 400 || status === 0 || (text.trim().length < 400 && CHALLENGE.test(`${title} ${text}`));
   const out = {
     url,
     final_url: finalUrl,
@@ -148,6 +245,8 @@ export async function fetchText(url, { refresh = false, waitMs = 4000 } = {}) {
     ...(blocked ? { blocked: true } : {}),
     ...(note ? { note } : {}),
   };
+  const before = readMeta(meta);
+  if (blocked && before && !before.blocked && fs.existsSync(before.file)) return { ...before, cached: true, note: `a new fetch was blocked (${status}); kept the earlier text` };
   writeAtomic(txt, text);
   writeAtomic(meta, JSON.stringify(out));
   return { ...out, cached: false };

@@ -18,6 +18,13 @@ if (!kind || !PUT_KINDS.includes(kind)) {
   process.exit(2);
 }
 const dir = dataDir(args);
+// While research agents work in private copies (<repo>/.rd-*), a put without --data must not
+// reach the live data/: agents write through tools/research/run.mts put. The integrator and
+// maintainers can set RESEARCH_WRITE_DATA=1.
+if (!args.flags.has("data") && !process.env["RESEARCH_WRITE_DATA"] && fs.readdirSync(path.join(dir, "..")).some((f) => f.startsWith(".rd-"))) {
+  console.error("Refusing to write data/ while a research run is active (.rd-* copies exist). Agents: use npx tsx tools/research/run.mts put <run> <task id> <kind>. Maintainers: set RESEARCH_WRITE_DATA=1.");
+  process.exit(2);
+}
 const file = flagStr(args, "file");
 const raw = file ? fs.readFileSync(file, "utf8") : await readStdin();
 let input: Record<string, unknown>;
