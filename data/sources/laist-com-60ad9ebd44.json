@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "laist-com-60ad9ebd44",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2024-05-16",
+  "publisher": "LAist",
+  "title": "Court Finds Huntington Beach Violated State Housing Mandate",
+  "url": "https://laist.com/news/court-finds-huntington-beach-violated-state-housing-mandate"
+}

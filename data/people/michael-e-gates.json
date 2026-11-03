@@ -5,6 +5,101 @@
   "aliases": [
     "Michael Gates"
   ],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "California (described as a \"lifelong Californian\"; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:gates4ag-com-4f0ca1717c",
+          "quote": "As a lifelong Californian, he has deep roots in this state and a strong commitment to family, hard work, and public service."
+        }
+      ]
+    },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "Orange County law firm (not named)",
+          "role": "Litigator and trial attorney; partner",
+          "citations": [
+            {
+              "source": "src:gates4ag-com-4f0ca1717c",
+              "quote": "Michael began his legal career in private practice as a litigator and trial attorney defending high profile cases for police and medical doctors in malpractice cases in court, eventually becoming a partner at an Orange County law firm."
+            }
+          ]
+        }
+      ]
+    },
+    "occupation": {
+      "value": "Deputy United States Attorney (ballot designation)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Michael E. Gates Republican Deputy United States Attorney"
+        }
+      ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "City Attorney of Huntington Beach (elected)",
+          "current": false,
+          "jurisdiction": "City of Huntington Beach",
+          "start": "2014",
+          "citations": [
+            {
+              "source": "src:gates4ag-com-4f0ca1717c",
+              "quote": "in 2014, Michael left a successful private practice to serve the public as the elected City Attorney of Huntington Beach, a position he held for ten years"
+            },
+            {
+              "source": "src:laist-com-10d14c3eef",
+              "quote": "he was first elected city attorney in 2014 and has won reelection twice since then"
+            }
+          ]
+        },
+        {
+          "office": "Deputy Assistant Attorney General, Civil Rights Division, U.S. Department of Justice",
+          "current": false,
+          "jurisdiction": "United States",
+          "start": "2025",
+          "citations": [
+            {
+              "source": "src:gates4ag-com-4f0ca1717c",
+              "quote": "In 2025, Michael was appointed Deputy Assistant Attorney General in the Civil Rights Division of the U.S. Department of Justice"
+            },
+            {
+              "source": "src:laist-com-10d14c3eef",
+              "quote": "Michael Gates served 10 months in the Trump Administration as a deputy assistant attorney general in the DOJ’s Civil Rights Division."
+            }
+          ]
+        }
+      ]
+    },
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Michael E. Gates Republican"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Michael E. Gates | REPUBLICAN",
+          "locator": "Candidate statement, p. 88"
+        }
+      ]
+    },
+    "residence_city": {
+      "value": "Huntington Beach",
+      "citations": [
+        {
+          "source": "src:gates4ag-com-4f0ca1717c",
+          "quote": "Michael and his wife live in Huntington Beach"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.gates4ag.com/"

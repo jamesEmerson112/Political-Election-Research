@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "laist-com-10d14c3eef",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "LAist",
+  "title": "Huntington Beach's popular — and controversial — Michael Gates quits Justice Department",
+  "url": "https://laist.com/news/politics/huntington-beachs-michael-gates-quits-justice-department"
+}

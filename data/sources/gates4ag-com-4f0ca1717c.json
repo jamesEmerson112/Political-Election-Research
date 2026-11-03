@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gates4ag-com-4f0ca1717c",
+  "kind": "candidate_website",
+  "accessed": "2026-11-03",
+  "publisher": "Michael Gates for Attorney General",
+  "title": "About Michael Gates",
+  "url": "https://gates4ag.com/about"
+}
