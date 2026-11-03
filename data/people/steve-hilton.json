@@ -12,6 +12,24 @@
           "quote": "Steve Hilton was born in London, the son of Hungarian immigrants who fled communism in search of freedom and opportunity."
         }
       ]
+    },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "institution": "New College, Oxford",
+          "citations": [
+            {
+              "source": "src:yahoo-com-b2313efa1b",
+              "quote": "Born in London and educated at New College Oxford"
+            },
+            {
+              "source": "src:stevehiltonforgovernor-com-9ce210b9d3",
+              "quote": "He came from a working-class background, made it to Oxford, and built a career in business and government."
+            }
+          ]
+        }
+      ]
     }
   },
   "ids": [

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "yahoo-com-b2313efa1b",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2025-04-22",
+  "publisher": "Yahoo News (The Telegraph)",
+  "title": "'The timing is perfect': How former No 10 guru Steve Hilton could become California's next governor",
+  "url": "https://www.yahoo.com/news/timing-perfect-former-no-10-204008108.html"
+}
