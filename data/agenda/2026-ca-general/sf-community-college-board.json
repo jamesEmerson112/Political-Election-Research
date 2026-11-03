@@ -432,6 +432,27 @@
           "where": "Candidate statement and League questionnaire: no committee named; SFist (Oct. 8, 2026) reported, citing KALW, that he had not filed the paperwork required to collect contributions (lead only)"
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/sf-community-college-board|committee|person:lisa-p-wynn-ii",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "College Board 2026",
+          "where": "San Francisco Ethics Commission filers dataset on DataSF (data.sfgov.org/resource/4c8t-ngau): no filer for this candidate"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Wynn",
+          "where": "San Francisco Ethics Commission filers dataset on DataSF (data.sfgov.org/resource/4c8t-ngau): only 'Lisa Wynn for Board of Supervisors 2026' (status TERMINATED, FPPC id pending), a committee for a different office, so not linked to this contest"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Lisa Wynn committee",
+          "where": "Candidate statement: no committee named; SFist (Oct. 8, 2026) reported, citing KALW, that she had not reported any campaign contributions (lead only)"
+        }
+      ]
     }
   ],
   "measures": [],
