@@ -77,6 +77,27 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Commissioner (and chair), San Francisco Behavioral Health Commission",
+          "current": false,
+          "jurisdiction": "City and County of San Francisco",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My 4 years serving as a Behavior Health Commissioner for SF.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 35 (PDF p. 37)"
+            },
+            {
+              "source": "src:theguardsman-com-013dc55584",
+              "quote": "Wynn served as chair of the San Francisco Behavioral Health Commission"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
