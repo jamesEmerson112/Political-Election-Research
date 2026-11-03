@@ -40,6 +40,22 @@ describe("SQLite export", () => {
     ]);
   });
 
+  it("lists office connections, links and legal basis", () => {
+    expect(all("SELECT office, type, count, bodies, text, targets FROM office_connections ORDER BY office, type")).toEqual([
+      { office: "office:exampleville-council-member", type: "appoints", count: 12, bodies: 3, text: "Appoints 12 seats on 3 boards and commissions", targets: null },
+      { office: "office:exampleville-council-member", type: "elected_by", count: 7, bodies: null, text: "Elected from 7 districts (7 seats)", targets: null },
+    ]);
+    expect(all("SELECT legal_basis_url, official_site, civlab FROM offices WHERE id = 'exampleville-council-member'")).toEqual([
+      {
+        legal_basis_url: "https://exampleville.example.gov/charter",
+        official_site: "https://exampleville.example.gov/council",
+        civlab: "https://graph.civlab.org/zz/elected/zz-exampleville-city-council",
+      },
+    ]);
+    const pointers = all("SELECT pointer FROM citations WHERE record_kind = 'office' AND record_id = 'exampleville-council-member' AND pointer LIKE '/connections/%' ORDER BY pointer");
+    expect(pointers.map((r) => r["pointer"])).toEqual(["/connections/0/citations/0", "/connections/1/citations/0"]);
+  });
+
   it("splits lobbying targets into rows", () => {
     expect(all("SELECT target_kind, target FROM lobbying_targets ORDER BY target_kind")).toEqual([
       { target_kind: "agency", target: "Example State Assembly" },

@@ -27,6 +27,7 @@ export interface CivlabNode {
   name?: string;
   type?: string;
   description?: string;
+  aliases?: string[] | null;
   seatsCount?: number | null;
   legalSourceUrl?: string | null;
   officialUrl?: string | null;
@@ -42,7 +43,7 @@ export interface CivlabEdge {
 export interface CivlabGraph {
   nodes: Record<string, CivlabNode>;
   edges: CivlabEdge[] | Record<string, CivlabEdge>;
-  budget?: { totalSpendingBudget?: number | null; departments?: Record<string, { currentBudget?: { fiscalYear?: number } }> };
+  budget?: { totalSpendingBudget?: number | null; departments?: Record<string, { currentBudget?: { fiscalYear?: number | null } | null }> };
 }
 
 const CIVLAB_URL = /^https:\/\/graph\.civlab\.org\/([a-z0-9-]+)\/([a-z-]+)\/([a-z0-9_-]+)\/?$/;
@@ -52,7 +53,9 @@ export function parseCivlabUrl(url: string): { gov: string; section: string; slu
   return m ? { gov: m[1]!, section: m[2]!, slug: m[3]! } : null;
 }
 
-/** The buildId-addressed data URL that a CivLab gov page preloads. */
+const isCivlabUrl = (url: unknown): boolean => typeof url === "string" && /^https?:\/\/graph\.civlab\.org\//.test(url);
+
+/** The Next.js build id a CivLab gov page preloads its graph data under. */
 export function buildIdFromHtml(html: string, gov: string): string | null {
   const m = new RegExp(`/_next/data/([^/"]+)/graph/${gov}\\.json`).exec(html) ?? /"buildId":"([^"]+)"/.exec(html);
   return m ? m[1]! : null;
@@ -64,7 +67,7 @@ export function graphDataUrl(gov: string, buildId: string): string {
 
 /** Accepts the raw Next.js data payload or the bare graph. */
 export function graphFromPayload(payload: unknown): CivlabGraph {
-  const p = payload as Rec;
+  const p = (payload ?? {}) as Rec;
   const g = ((p["pageProps"] as Rec | undefined)?.["data"] ?? p) as CivlabGraph;
   if (!g || typeof g !== "object" || !g.nodes || !g.edges) throw new Error("not a CivLab graph payload (expected pageProps.data.nodes/edges)");
   return g;
@@ -72,16 +75,44 @@ export function graphFromPayload(payload: unknown): CivlabGraph {
 
 const edgesOf = (g: CivlabGraph): CivlabEdge[] => (Array.isArray(g.edges) ? g.edges : Object.values(g.edges));
 
-function sentences(text: string): string[] {
-  return (text.match(/[^.!?]+[.!?]+/g) ?? [text]).map((s) => s.trim()).filter(Boolean);
+/** Abbreviations that end in a period without ending a sentence ("U.S.", "Art.", "Sec."). */
+const ABBREV = /(?:\b[A-Z]\.|\b(?:art|arts|sec|secs|cl|ch|no|nos|st|mr|mrs|ms|dr|jr|sr|vs|etc|inc|co|corp|dept|gov|e\.g|i\.e)\.)$/i;
+
+/**
+ * Sentences of a description, each an exact substring (so it can be quoted
+ * verbatim). Splits after . ! ? when the next word starts a new sentence,
+ * but not after abbreviations such as "U.S." or "Art.".
+ */
+export function sentences(text: string): string[] {
+  const out: string[] = [];
+  const end = /[.!?]+["'”’)\]]*(?=\s+["“(]?[A-Z0-9])/g;
+  let start = 0;
+  for (let m = end.exec(text); m; m = end.exec(text)) {
+    const stop = m.index + m[0].length;
+    if (ABBREV.test(text.slice(start, m.index + 1))) continue;
+    out.push(text.slice(start, stop).trim());
+    start = stop;
+  }
+  out.push(text.slice(start).trim());
+  return out.filter(Boolean);
 }
 
-const VERB: Record<string, RegExp> = {
-  confirms: /\bconfirms?\b[^,.;]*/i,
-  oversees: /\boversees?\b[^,.;]*/i,
+const VERB: Record<"confirms" | "oversees", RegExp> = {
+  confirms: /\bconfirms?\b[^,;:]*/i,
+  oversees: /\boversees?\b[^,;:]*/i,
 };
 
-/** Name of the body an edge lands on, for grouping appointments by body. */
+/**
+ * The clause of one sentence that starts with the verb, up to the next , ; or :
+ * or the end of the sentence, e.g. "confirms mayoral appointments". Periods
+ * inside the clause ("U.S.") are kept; only the closing punctuation is dropped.
+ */
+export function verbClause(sentence: string, type: "confirms" | "oversees"): string | null {
+  const m = VERB[type].exec(sentence);
+  return m ? m[0].trim().replace(/[.!?]+["'”’)\]]*$/, "").trim() || null : null;
+}
+
+/** Name of the body an appointment edge lands on, for grouping seats by body. */
 function bodyName(g: CivlabGraph, e: CivlabEdge): string {
   const m = e.metadata ?? {};
   for (const k of ["advisory_entity", "commission", "commission_name"]) {
@@ -97,6 +128,29 @@ const nameOf = (g: CivlabGraph, id: string) => g.nodes[id]?.name ?? id;
 const seats = (es: CivlabEdge[]) => es.reduce((a, e) => a + (typeof e.seatsAppointed === "number" ? e.seatsAppointed : 0), 0);
 const uniq = (xs: string[]) => [...new Set(xs)].sort(cmp);
 const plural = (n: number, one: string, many = `${one}s`) => `${n} ${n === 1 ? one : many}`;
+const withThe = (name: string) => (/^(the|a|an)\s/i.test(name) ? name : `the ${name}`);
+const listJoin = (xs: string[]) => (xs.length <= 1 ? (xs[0] ?? "") : `${xs.slice(0, -1).join(", ")} and ${xs[xs.length - 1]}`);
+const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
+/**
+ * Name of a connected position for a text line. CivLab names some heads
+ * "<Title> of The <Body>" even when the title already names the body
+ * ("Speaker of the House of The House of Representatives"); that repeated
+ * body reference is dropped. `targets` keep CivLab's own names.
+ */
+export function displayName(g: CivlabGraph, nodeId: string, targetId: string): string {
+  const name = nameOf(g, targetId);
+  const node = g.nodes[nodeId];
+  const refs = [node?.name, ...(node?.aliases ?? [])].filter((x): x is string => !!x);
+  for (const r of refs) {
+    const suffix = ` of ${r}`;
+    if (!name.toLowerCase().endsWith(suffix.toLowerCase())) continue;
+    const rest = name.slice(0, -suffix.length);
+    if (refs.some((x) => x !== r && new RegExp(`\\b${escapeRe(x)}$`, "i").test(rest))) return rest;
+  }
+  return name;
+}
 
 export interface CivlabFacts {
   connections: Rec[];
@@ -105,11 +159,12 @@ export interface CivlabFacts {
   seatsCount?: number;
   /** Term length stated in the description ("elected to two-year terms"). */
   term?: { years: number; quote: string };
-  /** Description sentences about powers/authority, for an office without `powers`. */
-  powers?: string;
+  /** Description sentences about powers or authority, each quotable on its own. */
+  powers?: string[];
 }
 
-const WORD_NUM: Record<string, number> = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, eight: 8 };
+const WORD_NUM: Record<string, number> = { one: 1, two: 2, three: 3, four: 4, five: 5, six: 6, seven: 7, eight: 8, nine: 9, ten: 10 };
+const TERM = /\b(?:elected to|serves?|serving)\s+(?:staggered\s+)?(\w+)-year\s+terms?\b/i;
 
 /**
  * Connections for one node. `computed(locator)` and `quoted(sentence)` build
@@ -123,8 +178,7 @@ export function civlabFacts(g: CivlabGraph, gov: string, nodeId: string, compute
   const inn = es.filter((e) => e.toId === nodeId);
   const loc = (what: string) => `graph/${gov}.json · ${what}`;
   const conns: Rec[] = [];
-  const desc = node.description ?? "";
-  const sents = sentences(desc);
+  const sents = sentences(node.description ?? "");
 
   const electedBy = inn.filter((e) => e.type === "elects");
   if (electedBy.length) {
@@ -134,50 +188,63 @@ export function civlabFacts(g: CivlabGraph, gov: string, nodeId: string, compute
       type: "elected_by",
       ...(n ? { count: n } : {}),
       targets: from,
-      text: `Elected by ${from.join(", ")}${n ? `: ${plural(n, "seat")}` : ""}`,
-      citations: [computed(loc(`${plural(electedBy.length, "elects edge")} to ${nodeId}`))],
+      text: `Elected by ${listJoin(from.map(withThe))}${n ? ` (${plural(n, "seat")})` : ""}`,
+      citations: [computed(loc(`${plural(electedBy.length, "elects edge")} to ${nodeId}, seats from seatsAppointed`))],
     });
   }
 
   const elects = out.filter((e) => e.type === "elects");
   if (elects.length) {
     const to = uniq(elects.map((e) => nameOf(g, e.toId)));
-    conns.push({ type: "elects", targets: to, text: `Elects the ${to.join(", ")}`, citations: [computed(loc(`${plural(elects.length, "elects edge")} from ${nodeId}`))] });
+    const shown = uniq(elects.map((e) => displayName(g, nodeId, e.toId)));
+    conns.push({
+      type: "elects",
+      ...(to.length > 1 ? { count: to.length } : {}),
+      targets: to,
+      text: `Elects ${listJoin(shown.map(withThe))}`,
+      citations: [computed(loc(`${plural(elects.length, "elects edge")} from ${nodeId}`))],
+    });
   }
 
   const appoints = out.filter((e) => e.type === "appoints");
   if (appoints.length) {
     const n = seats(appoints);
     const bodies = uniq(appoints.map((e) => bodyName(g, e)));
+    const where = bodies.length === 1 ? withThe(bodies[0]!) : `${bodies.length} boards, commissions and other posts`;
     conns.push({
       type: "appoints",
       ...(n ? { count: n } : {}),
       bodies: bodies.length,
       targets: bodies,
-      text: `Appoints ${n ? `${plural(n, "seat")} on ` : "members of "}${plural(bodies.length, "board, commission or position", "boards, commissions and positions")}`,
-      citations: [computed(loc(`${plural(appoints.length, "appoints edge")} from ${nodeId}, seats summed from seatsAppointed`))],
+      text: n ? `Appoints ${plural(n, "seat")} on ${where}` : `Appoints members of ${where}`,
+      citations: [computed(loc(`${plural(appoints.length, "appoints edge")} from ${nodeId}; seats summed from seatsAppointed; bodies grouped by metadata.advisory_entity / commission, else the target node`))],
     });
   }
 
   for (const type of ["confirms", "oversees"] as const) {
     const edges = out.filter((e) => e.type === type);
-    const sentence = sents.find((s) => VERB[type]!.test(s));
-    const phrase = sentence ? VERB[type]!.exec(sentence)![0].trim() : null;
-    if (!edges.length && !phrase) continue;
+    const sentence = sents.find((s) => verbClause(s, type) !== null);
+    const clause = sentence ? verbClause(sentence, type) : null;
+    if (!edges.length && !clause) continue;
     const to = uniq(edges.map((e) => nameOf(g, e.toId)));
     const citations: Rec[] = [];
     if (sentence) citations.push(quoted(sentence));
     if (edges.length) citations.push(computed(loc(`${plural(edges.length, `${type} edge`)} from ${nodeId}`)));
-    const text = phrase
-      ? phrase.charAt(0).toUpperCase() + phrase.slice(1)
-      : `${type === "confirms" ? "Confirms" : "Oversees"} ${plural(to.length, "position or body", "positions or bodies")}`;
+    const verb = type === "confirms" ? "Confirms" : "Oversees";
+    const text = clause ? capitalize(clause) : to.length <= 3 ? `${verb} ${listJoin(to.map(withThe))}` : `${verb} ${plural(to.length, "position or body", "positions and bodies")}`;
     conns.push({ type, ...(edges.length ? { count: edges.length, targets: to } : {}), text, citations });
   }
 
   const advisedBy = inn.filter((e) => e.type === "advises");
   if (advisedBy.length) {
     const from = uniq(advisedBy.map((e) => nameOf(g, e.fromId)));
-    conns.push({ type: "advised_by", count: from.length, targets: from, text: `Advised by ${plural(from.length, "body", "bodies")}`, citations: [computed(loc(`${plural(advisedBy.length, "advises edge")} to ${nodeId}`))] });
+    conns.push({
+      type: "advised_by",
+      count: from.length,
+      targets: from,
+      text: from.length === 1 ? `Advised by ${withThe(from[0]!)}` : `Advised by ${from.length} bodies`,
+      citations: [computed(loc(`${plural(advisedBy.length, "advises edge")} to ${nodeId}`))],
+    });
   }
 
   conns.sort((a, b) => CONNECTION_ORDER.indexOf(String(a["type"])) - CONNECTION_ORDER.indexOf(String(b["type"])));
@@ -186,14 +253,14 @@ export function civlabFacts(g: CivlabGraph, gov: string, nodeId: string, compute
   if (node.legalSourceUrl) facts.legalUrl = node.legalSourceUrl;
   if (node.officialUrl) facts.officialUrl = node.officialUrl;
   if (typeof node.seatsCount === "number" && node.seatsCount > 0) facts.seatsCount = node.seatsCount;
-  const termSentence = sents.find((s) => /elected to (?:staggered )?(\w+)-year terms?/i.test(s));
+  const termSentence = sents.find((s) => TERM.test(s));
   if (termSentence) {
-    const w = /elected to (?:staggered )?(\w+)-year terms?/i.exec(termSentence)![1]!.toLowerCase();
+    const w = TERM.exec(termSentence)![1]!.toLowerCase();
     const years = WORD_NUM[w] ?? Number(w);
-    if (Number.isFinite(years) && years > 0) facts.term = { years, quote: termSentence };
+    if (Number.isInteger(years) && years > 0) facts.term = { years, quote: termSentence };
   }
-  const powers = sents.filter((s) => /\b(power|authority)\b/i.test(s));
-  if (powers.length) facts.powers = powers.join(" ");
+  const powers = sents.filter((s) => /\b(powers?|authority)\b/i.test(s));
+  if (powers.length) facts.powers = powers;
   return facts;
 }
 
@@ -203,11 +270,27 @@ export interface CivlabImport {
   report: string[];
 }
 
+/** Fiscal year(s) of CivLab's department budgets, e.g. "FY2027". */
+function budgetYears(g: CivlabGraph): string {
+  const ys = uniq(
+    Object.values(g.budget?.departments ?? {})
+      .map((d) => d?.currentBudget?.fiscalYear)
+      .filter((y): y is number => typeof y === "number")
+      .map(String),
+  );
+  return ys.length ? ys.map((y) => `FY${y}`).join("/") : "FY?";
+}
+
 /**
  * Apply CivLab facts to every office with links.civlab whose gov graph is in
- * `graphs`. Connections of the types CivLab provides are replaced; other
- * types (from other research) are kept. Existing values are never
- * overwritten: mismatches are reported for a human to decide.
+ * `graphs`. Existing values are never overwritten; mismatches are reported
+ * for a human to decide. Connections:
+ * - a connection from other research (no CivLab citation) is kept as is,
+ *   even when CivLab has the same type (the CivLab text is reported);
+ * - a connection from an earlier CivLab import is recomputed, keeping any
+ *   non-CivLab citations someone added; one CivLab no longer supports is
+ *   dropped (or, if it has other citations, kept without the CivLab ones);
+ * - types CivLab provides that the office lacks are added.
  */
 export function importCivlab(files: FileMap, graphs: Record<string, CivlabGraph>, opts: { dataDir: string; today: string }): CivlabImport {
   const working = new Map(files);
@@ -222,6 +305,11 @@ export function importCivlab(files: FileMap, graphs: Record<string, CivlabGraph>
     }
     return res;
   };
+  const isCivlabRef = (ref: unknown): boolean => {
+    const text = typeof ref === "string" && ref.startsWith("src:") ? working.get(`sources/${ref.slice(4)}.json`) : undefined;
+    return !!text && isCivlabUrl((JSON.parse(text) as Rec)["url"]);
+  };
+  const citesOf = (v: unknown): Rec[] => ((v as Rec | undefined)?.["citations"] as Rec[] | undefined) ?? [];
 
   const offices = [...working.keys()].filter((f) => /^offices\/[^/]+\.json$/.test(f)).sort(cmp);
   for (const file of offices) {
@@ -259,19 +347,43 @@ export function importCivlab(files: FileMap, graphs: Record<string, CivlabGraph>
         { dataDir: opts.dataDir, mode: "create", today: opts.today },
       ),
     );
-    const source = src.ref!;
+    if (!src.ref) {
+      report.push(`${file}: could not register the CivLab source: ${src.message ?? JSON.stringify(src.problems)}`);
+      continue;
+    }
+    const source = src.ref;
     const computed = (locator: string): Rec => ({ source, locator, unverified: { by: "import:civlab", method: "computed from CivLab graph data", date: opts.today } });
     const quoted = (quote: string): Rec => ({ source, quote, locator: "node description" });
     const facts = civlabFacts(g, parsed.gov, parsed.slug, computed, quoted);
-
     const next: Rec = { ...office };
-    const provided = new Set(facts.connections.map((c) => String(c["type"])));
-    const kept = ((office["connections"] as Rec[] | undefined) ?? []).filter((c) => !provided.has(String(c["type"])));
-    const connections = [...kept, ...facts.connections];
+
+    // Connections.
+    const fresh = new Map(facts.connections.map((c) => [String(c["type"]), c]));
+    const connections: Rec[] = [];
+    for (const old of (office["connections"] as Rec[] | undefined) ?? []) {
+      const type = String(old["type"]);
+      const ours = citesOf(old).filter((c) => !isCivlabRef(c["source"]));
+      const civ = fresh.get(type);
+      fresh.delete(type);
+      if (ours.length === citesOf(old).length) {
+        connections.push(old);
+        if (civ && civ["text"] !== old["text"]) report.push(`${file}: connections.${type} kept ours ("${String(old["text"])}"); CivLab: "${String(civ["text"])}"`);
+      } else if (civ) {
+        connections.push({ ...civ, citations: [...citesOf(civ), ...ours] });
+      } else if (ours.length) {
+        connections.push({ ...old, citations: ours });
+        report.push(`${file}: connections.${type} is no longer in CivLab; kept with its other citations`);
+      } else {
+        report.push(`${file}: connections.${type} is no longer in CivLab; dropped`);
+      }
+    }
+    connections.push(...fresh.values());
     if (connections.length) next["connections"] = connections;
+    else delete next["connections"];
 
     const links = { ...((office["links"] as Rec | undefined) ?? {}) };
     if (facts.officialUrl && !links["official_site"]) links["official_site"] = facts.officialUrl;
+    else if (facts.officialUrl && links["official_site"] !== facts.officialUrl) report.push(`${file}: links.official_site differs from CivLab (${facts.officialUrl}); kept ours`);
     next["links"] = links;
 
     if (facts.legalUrl) {
@@ -289,18 +401,23 @@ export function importCivlab(files: FileMap, graphs: Record<string, CivlabGraph>
       const t = office["term_years"] as Rec | undefined;
       const cite = quoted(facts.term.quote);
       if (!t) next["term_years"] = { value: facts.term.years, citations: [cite] };
-      else if (t["value"] === facts.term.years) next["term_years"] = { ...t, citations: withCitation(t["citations"] as Rec[], cite) };
+      else if (t["value"] === facts.term.years) next["term_years"] = { ...t, citations: withCitation(citesOf(t), cite) };
       else report.push(`${file}: term_years ${String(t["value"])} vs CivLab "${facts.term.quote}"; kept ours`);
     }
 
     if (facts.powers) {
-      if (!office["powers"]) next["powers"] = { value: facts.powers, citations: [quoted(facts.powers)] };
-      else report.push(`${file}: has powers; CivLab says "${facts.powers}" (review by hand)`);
+      const p = office["powers"] as Rec | undefined;
+      const quotes = facts.powers.map(quoted);
+      if (!p) next["powers"] = { value: facts.powers.join(" "), citations: quotes };
+      else if (!quotes.every((q) => citesOf(p).some((c) => c["source"] === q["source"] && c["quote"] === q["quote"]))) {
+        report.push(`${file}: has powers; CivLab says "${facts.powers.join(" ")}" (review by hand)`);
+      }
     }
 
-    if (parsed.gov === "sf" && g.budget?.totalSpendingBudget) {
-      const fy = Object.values(g.budget.departments ?? {}).map((d) => d.currentBudget?.fiscalYear).find((y) => typeof y === "number");
-      report.push(`${file}: CivLab city budget ${g.budget.totalSpendingBudget} (FY${fy ?? "?"}); budget is a human call (does this body adopt it?)`);
+    if (g.budget?.totalSpendingBudget) {
+      report.push(
+        `${file}: CivLab ${parsed.gov} totalSpendingBudget ${g.budget.totalSpendingBudget} (${budgetYears(g)}); not written: whether this body adopts that budget is a human call`,
+      );
     }
 
     apply(put(working, "office", next, { dataDir: opts.dataDir, mode: "replace", today: opts.today }));
@@ -308,8 +425,7 @@ export function importCivlab(files: FileMap, graphs: Record<string, CivlabGraph>
   return { writes, results, report };
 }
 
-function withCitation(list: Rec[] | undefined, c: Rec): Rec[] {
-  const xs = [...(list ?? [])];
+function withCitation(list: Rec[], c: Rec): Rec[] {
   const same = (a: Rec) => a["source"] === c["source"] && a["quote"] === c["quote"];
-  return xs.some(same) ? xs : [...xs, c];
+  return list.some(same) ? list : [...list, c];
 }

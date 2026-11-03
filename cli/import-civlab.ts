@@ -21,7 +21,13 @@ const curl = (url: string) => execFileSync("curl", ["-sS", "--fail", "-m", "60",
 const args = parseArgs();
 const dir = dataDir(args);
 const files = readDataDir(dir);
-const given = new Map(args.positional.map((p) => p.split("=", 2) as [string, string]));
+const given = new Map(
+  args.positional.map((p) => {
+    const i = p.indexOf("=");
+    if (i < 1) throw new Error(`expected <gov>=<graph.json>, got "${p}"`);
+    return [p.slice(0, i), p.slice(i + 1)] as [string, string];
+  }),
+);
 
 const needed = new Set<string>();
 for (const [rel, content] of files) {

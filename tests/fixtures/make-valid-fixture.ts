@@ -278,7 +278,7 @@ p("office", {
   legal_basis: { url: "https://exampleville.example.gov/charter", label: "Exampleville City Charter", citations: cite(srcCharter, "The Council shall consist of seven members.") },
   connections: [
     { type: "appoints", count: 12, bodies: 3, text: "Appoints 12 seats on 3 boards and commissions", citations: cite(srcCharter, "The Council appoints the members of the Planning, Library and Parks boards.") },
-    { type: "elected_by", count: 7, text: "Elected by district: 7 seats", citations: cite(srcCharter, "seven districts of approximately equal population") },
+    { type: "elected_by", count: 7, text: "Elected from 7 districts (7 seats)", citations: cite(srcCharter, "seven districts of approximately equal population") },
   ],
 });
 p("office", {

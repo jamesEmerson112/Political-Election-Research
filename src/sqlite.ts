@@ -33,7 +33,9 @@ CREATE TABLE people (id TEXT PRIMARY KEY, ref TEXT, name TEXT, public_figure INT
   offices_held_as_of TEXT, education_as_of TEXT, career_as_of TEXT);
 CREATE TABLE person_career (person TEXT, role TEXT, organization TEXT, start TEXT, "end" TEXT);
 CREATE TABLE offices (id TEXT PRIMARY KEY, ref TEXT, name TEXT, level TEXT, jurisdiction TEXT, body TEXT, seats REAL, constituents REAL,
-  term_years REAL, term_limit TEXT, powers TEXT, budget_usd REAL, budget_basis TEXT, salary_usd REAL, last_verified TEXT);
+  term_years REAL, term_limit TEXT, powers TEXT, budget_usd REAL, budget_basis TEXT, salary_usd REAL, legal_basis_url TEXT, official_site TEXT,
+  civlab TEXT, last_verified TEXT);
+CREATE TABLE office_connections (office TEXT, type TEXT, count INTEGER, bodies INTEGER, text TEXT, targets TEXT, PRIMARY KEY (office, type));
 CREATE TABLE bills (id TEXT PRIMARY KEY, title TEXT, summary TEXT, status TEXT, status_as_of TEXT, last_verified TEXT);
 CREATE TABLE dossier_sections (person TEXT, section TEXT, as_of TEXT, items INTEGER, PRIMARY KEY (person, section));
 CREATE TABLE dossier_items (person TEXT, section TEXT, id TEXT, title TEXT, kind TEXT, summary TEXT, date TEXT, as_of TEXT,
@@ -309,8 +311,16 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
       seats: num(r["seats"]), constituents: num(r["constituents"]), term_years: num(r["term_years"]),
       term_limit: s((r["term_limit"] as Rec | undefined)?.["value"]), powers: s((r["powers"] as Rec | undefined)?.["value"]),
       budget_usd: num(r["budget"]), budget_basis: s((r["budget"] as Rec | undefined)?.["basis"]), salary_usd: num(r["salary"]),
-      last_verified: s(r["last_verified"]),
+      legal_basis_url: s((r["legal_basis"] as Rec | undefined)?.["url"]), official_site: s((r["links"] as Rec | undefined)?.["official_site"]),
+      civlab: s((r["links"] as Rec | undefined)?.["civlab"]), last_verified: s(r["last_verified"]),
     });
+    for (const c of (r["connections"] as Rec[] | undefined) ?? []) {
+      const targets = c["targets"] as string[] | undefined;
+      push("office_connections", {
+        office: `office:${String(r["id"])}`, type: s(c["type"]), count: n(c["count"]), bodies: n(c["bodies"]), text: s(c["text"]),
+        targets: targets?.length ? JSON.stringify(targets) : null,
+      });
+    }
     provenance(r, "office", String(r["id"]), cites, logs);
   }
   for (const r of b.bills) {
