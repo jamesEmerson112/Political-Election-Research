@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nbcbayarea-com-e96bf44e5d",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2025-11-19",
+  "publisher": "NBC Bay Area",
+  "title": "Legal concerns over Rob Bonta’s campaign spending",
+  "url": "https://nbcbayarea.com/news/california/california-attorney-general-rob-bonta-campaign-spending/3983667"
+}

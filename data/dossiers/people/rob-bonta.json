@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:rob-bonta",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "campaign-funds-for-legal-fees-federal-investigation",
+        "date": "2025-11",
+        "response": {
+          "summary": "Bonta told KQED that federal investigators contacted him as someone who might have relevant information, that he hired lawyers to guide him through their requests, and that he was not a target of the investigation.",
+          "citations": [
+            {
+              "source": "src:kqed-org-ed17c225a3",
+              "quote": "“Having never done this before, I wanted to make sure I had an attorney who could guide me through the process and ensure that I provided everything that could be helpful.”"
+            },
+            {
+              "source": "src:kqed-org-ed17c225a3",
+              "quote": "“I got a very clear opposite sense that they are absolutely not investigating me and that I am not a target,” he added."
+            }
+          ]
+        },
+        "summary": "KQED reported that Bonta's campaign paid over $468,000 to the law firm Wilson Sonsini Goodrich & Rosati in 2025 as he answered questions in the federal investigation involving former Oakland Mayor Sheng Thao; KQED said Bonta is not accused of wrongdoing. NBC Bay Area reported that critics questioned whether the spending was a permitted use of campaign funds.",
+        "title": "Campaign funds spent on lawyers during a federal investigation (2025)",
+        "citations": [
+          {
+            "source": "src:kqed-org-ed17c225a3",
+            "quote": "His campaign finance filings this year have raised eyebrows for the large sums he is spending on legal fees: over $468,000 to the law firm Wilson Sonsini Goodrich & Rosati."
+          },
+          {
+            "source": "src:kqed-org-ed17c225a3",
+            "quote": "Bonta is not accused of any wrongdoing, but questions about his connection to the East Bay recycling executives at the center of the scandal have swirled alongside speculation about his political future."
+          },
+          {
+            "source": "src:nbcbayarea-com-e96bf44e5d",
+            "quote": "But critics have questions about the nearly $500,000 figure and whether it was legal for Bonta to have used campaign funds for this kind of legal service."
+          }
+        ]
+      }
+    ]
+  }
+}

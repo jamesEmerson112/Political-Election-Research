@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-ed17c225a3",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2025-11-20",
+  "publisher": "KQED",
+  "title": "California AG Rob Bonta Won’t Rule Out a Run for Governor Amid Campaign Fund Questions",
+  "url": "https://www.kqed.org/news/12065004/california-ag-rob-bonta-wont-rule-out-a-run-for-governor-amid-campaign-fund-questions"
+}
