@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "gary-mccoy",
+  "name": "Gary McCoy",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.garymccoysf.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}

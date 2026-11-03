@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "emanuel-manny-yekutiel",
+  "name": "Emanuel \"Manny\" Yekutiel",
+  "aliases": [
+    "Manny Yekutiel"
+  ],
+  "ids": [
+    {
+      "id": "Q135675299",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.mannyforsf.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-supervisor-district-8",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Board of Supervisors, District 8",
+  "office": "Member, Board of Supervisors",
+  "candidates": [
+    {
+      "person": "person:gary-mccoy",
+      "ballot_designation": "Healthcare Policy Advocate",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 8 4 people have qualified for this contest on the November 3, 2026 ballot. Gary McCoy Michael T. Nguyen Darshini Patel Emanuel \"Manny\" Yekutiel"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "GARY MCCOY 麥佳禮 Healthcare Policy Advocate",
+          "locator": "page 1, Board of Supervisors, District 8, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-45afbc5803",
+          "quote": "Supervisor Rafael Mandelman represents District 8."
+        }
+      ]
+    },
+    {
+      "person": "person:michael-t-nguyen",
+      "ballot_designation": "Attorney / Drag Producer",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 8 4 people have qualified for this contest on the November 3, 2026 ballot. Gary McCoy Michael T. Nguyen Darshini Patel Emanuel \"Manny\" Yekutiel"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MICHAEL T. NGUYEN 阮忠誠 Attorney / Drag Producer",
+          "locator": "page 1, Board of Supervisors, District 8, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-45afbc5803",
+          "quote": "Supervisor Rafael Mandelman represents District 8."
+        }
+      ]
+    },
+    {
+      "person": "person:darshini-patel",
+      "ballot_designation": "Community Advocate",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 8 4 people have qualified for this contest on the November 3, 2026 ballot. Gary McCoy Michael T. Nguyen Darshini Patel Emanuel \"Manny\" Yekutiel"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "DARSHINI PATEL 達希妮‧帕特爾 Community Advocate",
+          "locator": "page 1, Board of Supervisors, District 8, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-45afbc5803",
+          "quote": "Supervisor Rafael Mandelman represents District 8."
+        }
+      ]
+    },
+    {
+      "person": "person:emanuel-manny-yekutiel",
+      "ballot_designation": "Small Business Owner",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 8 4 people have qualified for this contest on the November 3, 2026 ballot. Gary McCoy Michael T. Nguyen Darshini Patel Emanuel \"Manny\" Yekutiel"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "EMANUEL \"MANNY\" YEKUTIEL 伊曼紐爾‧「曼尼」‧耶庫蒂爾 Small Business Owner",
+          "locator": "page 1, Board of Supervisors, District 8, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-45afbc5803",
+          "quote": "Supervisor Rafael Mandelman represents District 8."
+        }
+      ]
+    }
+  ],
+  "district": 8,
+  "level": "local",
+  "office_ref": "office:san-francisco-supervisor",
+  "last_verified": "2026-11-03"
+}
