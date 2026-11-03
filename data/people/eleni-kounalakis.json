@@ -40,6 +40,66 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Lieutenant Governor of California",
+          "current": true,
+          "jurisdiction": "California",
+          "office_ref": "office:california-lieutenant-governor",
+          "start": "2019-01-07",
+          "citations": [
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "Ambassador Eleni Kounalakis was sworn in as the 50th Lieutenant Governor of California by Governor Gavin Newsom on January 7th, 2019."
+            },
+            {
+              "source": "src:ltg-ca-gov-55e0183a6a",
+              "quote": "Eleni Kounalakis today took the oath of office, administered by Governor Newsom, to serve a second term as California Lieutenant Governor."
+            }
+          ]
+        },
+        {
+          "office": "U.S. Ambassador to Hungary",
+          "end": "2013-07-20",
+          "jurisdiction": "United States",
+          "start": "2009-12-29",
+          "citations": [
+            {
+              "source": "src:history-state-gov-4fe3646869",
+              "quote": "Ambassador Extraordinary and Plenipotentiary (Hungary)\nAppointed: December 29, 2009\nPresentation of Credentials: January 11, 2010\nTermination of Mission: Left post on July 20, 2013"
+            },
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "From 2010 to 2013, Kounalakis served as President Obama’s Ambassador to the Republic of Hungary."
+            }
+          ]
+        },
+        {
+          "office": "Chair, California Advisory Council for International Trade and Investment",
+          "jurisdiction": "California",
+          "start": "2014",
+          "citations": [
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "Governor Jerry Brown appointed Kounalakis to chair the California Advisory Council for International Trade and Investment in 2014."
+            }
+          ]
+        },
+        {
+          "office": "Member, First 5 California Commission",
+          "current": false,
+          "jurisdiction": "California",
+          "citations": [
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "Kounalakis served as a member of California’s First 5 Commission and the California Blue Ribbon Commission on Autism."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
