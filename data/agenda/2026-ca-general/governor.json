@@ -12,6 +12,39 @@
       "name": "Steve Hilton"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/governor|endorsements|person:steve-hilton",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "endorsements page",
+          "where": "stevehiltonforgovernor.com/endorsements (redirects to the campaign home page; no endorsements list)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Governor",
+          "where": "cagop.org/endorsements/ (California Republican Party) (party endorsement recorded)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Governor",
+          "where": "cadem.org endorsements (parity check of party category)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton governor endorsed by Trump; Steve Hilton endorsements congressmen Assembly Republican leader",
+          "where": "web search (Trump endorsement (KQED, 2026-04-06) recorded)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"endorses Steve Hilton\" OR \"endorsed Steve Hilton\" Issa Kiley McClintock Calvert Assembly",
+          "where": "web search (stevehiltonforgovernor.com/congressman-mcclintock-endorses-steve-hilton now redirects to the home page, so the announcement could not be read; no other official endorsement found)"
+        }
+      ]
+    }
+  ],
   "measures": [
     "contest:2026-ca-general/prop-3"
   ],

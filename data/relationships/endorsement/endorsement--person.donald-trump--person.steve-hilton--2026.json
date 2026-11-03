@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.donald-trump--person.steve-hilton--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-04-06",
+  "endorsee": "person:steve-hilton",
+  "endorser": "person:donald-trump",
+  "citations": [
+    {
+      "source": "src:kqed-org-a63fd543a9",
+      "quote": "President Donald Trump has endorsed Steve Hilton for California governor, a move that could possibly consolidate Republican voters ahead of the still wide-open primary election in June."
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

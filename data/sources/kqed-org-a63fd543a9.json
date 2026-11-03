@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-a63fd543a9",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-04-06",
+  "publisher": "KQED",
+  "title": "Trump Endorses Steve Hilton for California Governor, Giving GOP a Front-Runner",
+  "url": "https://www.kqed.org/news/12078793/trump-endorses-steve-hilton-for-california-governor-giving-gop-a-front-runner"
+}

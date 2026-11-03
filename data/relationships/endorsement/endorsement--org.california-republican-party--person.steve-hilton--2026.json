@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-republican-party--person.steve-hilton--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:steve-hilton",
+  "endorser": "org:california-republican-party",
+  "citations": [
+    {
+      "source": "src:cagop-org-2ab566d531",
+      "quote": "GOVERNOR: STEVE HILTON",
+      "locator": "2026 CRP Endorsements, Statewide"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

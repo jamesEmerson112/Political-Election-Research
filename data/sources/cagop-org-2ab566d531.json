@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cagop-org-2ab566d531",
+  "kind": "voter_guide",
+  "accessed": "2026-11-03",
+  "publisher": "California Republican Party",
+  "title": "2026 CRP Endorsements",
+  "url": "https://cagop.org/endorsements/"
+}
