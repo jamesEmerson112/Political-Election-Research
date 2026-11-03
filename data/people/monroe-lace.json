@@ -96,6 +96,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Associate degree (AA), History",
+          "institution": "Diablo Valley College",
+          "citations": [
+            {
+              "source": "src:growsf-org-72f4a77118",
+              "quote": "I hold an AA in History from Diablo Valley College, a BA in History from UCLA, and an MA in Educational Administration and Leadership from San Francisco State University.",
+              "locator": "Personal: What is your professional background?"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor's degree (BA), History",
+          "institution": "University of California, Los Angeles",
+          "citations": [
+            {
+              "source": "src:growsf-org-72f4a77118",
+              "quote": "a BA in History from UCLA",
+              "locator": "Personal: What is your professional background?"
+            }
+          ]
+        },
+        {
+          "degree": "Master's degree (MA), Educational Administration and Leadership",
+          "institution": "San Francisco State University",
+          "citations": [
+            {
+              "source": "src:growsf-org-72f4a77118",
+              "quote": "an MA in Educational Administration and Leadership from San Francisco State University",
+              "locator": "Personal: What is your professional background?"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Public School Teacher",
       "citations": [
