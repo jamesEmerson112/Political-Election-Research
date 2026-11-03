@@ -49,6 +49,81 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "Civil rights attorney and consumer advocate",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "I’m a civil rights attorney and consumer advocate, and I know how to take on big challenges and win.",
+              "locator": "page 89, Candidate Statements, Insurance Commissioner"
+            }
+          ]
+        },
+        {
+          "organization": "Chinatown Community Development Center",
+          "role": "Youth organizer",
+          "citations": [
+            {
+              "source": "src:7x7-com-a003d3c33b",
+              "quote": "During her six-year stint as a youth organizer for the Chinatown Community Development Center, Kim helped Asian-immigrant students organize graffiti clean-ups and healthier school lunches."
+            }
+          ]
+        },
+        {
+          "organization": "Bernie 2020",
+          "role": "California Political Director",
+          "citations": [
+            {
+              "source": "src:janekim-org-5432902a1f",
+              "quote": "After leaving office, Jane served as the California Political Director for Bernie 2020 and as a Senior Fellow at both the Sanders Institute and the Young Elected Officials Network, a program of People for the American Way."
+            }
+          ]
+        },
+        {
+          "organization": "Sanders Institute",
+          "role": "Senior Fellow",
+          "citations": [
+            {
+              "source": "src:janekim-org-5432902a1f",
+              "quote": "After leaving office, Jane served as the California Political Director for Bernie 2020 and as a Senior Fellow at both the Sanders Institute and the Young Elected Officials Network, a program of People for the American Way."
+            }
+          ]
+        },
+        {
+          "organization": "Young Elected Officials Network (People for the American Way)",
+          "role": "Senior Fellow",
+          "citations": [
+            {
+              "source": "src:janekim-org-5432902a1f",
+              "quote": "After leaving office, Jane served as the California Political Director for Bernie 2020 and as a Senior Fellow at both the Sanders Institute and the Young Elected Officials Network, a program of People for the American Way."
+            }
+          ]
+        },
+        {
+          "organization": "Working Families Party",
+          "role": "California Director",
+          "citations": [
+            {
+              "source": "src:janekim-org-5432902a1f",
+              "quote": "Over the last four years, Jane Kim served as the California Director for the Working Families Party where she recruited and trained the next generation of leaders ready to fight for working families."
+            }
+          ]
+        },
+        {
+          "organization": "Close the Gap California",
+          "role": "Member, Board of Directors",
+          "citations": [
+            {
+              "source": "src:janekim-org-5432902a1f",
+              "quote": "Jane also sought to achieve gender balance in the California Legislature as a member of the Board of Directors for Close the Gap California – a statewide initiative to achieve gender balance in the California Legislature."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
