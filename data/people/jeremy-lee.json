@@ -64,6 +64,55 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "Chinatown Community Development Center",
+          "role": "Asset Manager",
+          "citations": [
+            {
+              "source": "src:jeremyleesf-com-e26bd18ff7",
+              "quote": "For nearly a decade, Jeremy has worked at Chinatown Community Development Center"
+            },
+            {
+              "source": "src:jeremyleesf-com-e26bd18ff7",
+              "quote": "As an Asset Manager, his work focuses on the long-term financial health and regulatory compliance of affordable housing"
+            }
+          ]
+        },
+        {
+          "organization": "Rose Pak Asian American Club",
+          "role": "President",
+          "citations": [
+            {
+              "source": "src:jeremyleesf-com-e26bd18ff7",
+              "quote": "President of the Rose Pak Asian American Club"
+            }
+          ]
+        },
+        {
+          "organization": "San Francisco Board of Supervisors",
+          "role": "Intern, office of then-Supervisor Jane Kim",
+          "citations": [
+            {
+              "source": "src:jeremyleesf-com-e26bd18ff7",
+              "quote": "In 2016, Jeremy campaigned for Proposition W and later interned in then-Supervisor Jane Kim’s office during the effort to implement Free City."
+            }
+          ]
+        },
+        {
+          "role": "Campaign staff, Jane Kim for Mayor 2018 and Chyanne Chen for Supervisor 2024",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-d51d87bb3e",
+              "quote": "Jane Kim for Mayor 2018 (staff), Labor and Working Families DCCC Slate 2024 (candidate), Chyanne Chen for Supervisor 2024 (staff)",
+              "locator": "p. 4, What campaigns have you worked on?"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
