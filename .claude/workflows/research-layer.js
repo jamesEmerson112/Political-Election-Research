@@ -1,7 +1,7 @@
 export const meta = {
   name: 'research-layer',
   description: 'Research one layer of work packages in private data copies, then verify each contest chunk with adversarial judges; nothing is written to data/',
-  whenToUse: 'After `npx tsx tools/research/run.mts packages ...` has created run directories. Pass args {packages: <its summary>, layer, hosts: {reachable, blocked}, today}. Afterwards integrate with `run.mts integrate` (one commit per task), then npm run check.',
+  whenToUse: 'After `npx tsx tools/research/run.mts packages ...` has created run directories. Pass args {packages: <its summary>, layer, hosts: {reachable, blocked}, today} (judgeOnly: true re-runs only the judges). Afterwards integrate with `run.mts integrate` (one commit per task), then npm run check.',
   phases: [
     { title: 'Research', detail: 'one agent per work package, in its private data copy; every write logged' },
     { title: 'Verify', detail: 'quote check, then adversarial judges per contest chunk (one per lens); verdict files' },
@@ -10,7 +10,9 @@ export const meta = {
 
 const A = args || {}
 const REPO = A.repo || '/home/user/Political-Election-Research'
-const PKGS = A.packages || []
+// Packages may be compact: {id, layer, contest, judge_group, lenses, tasks} plus run_dir, or {root} for all.
+const rootOf = (p) => String(p.root || A.root || '').replace(/^R\//, `${A.runs}/`)
+const PKGS = (A.packages || []).map((p) => ({ ...p, run_dir: p.run_dir || `${rootOf(p)}/${p.id}`, data_dir: p.data_dir || `${REPO}/.rd-${p.id}`, lenses: p.lenses || ['fidelity'] }))
 const TODAY = A.today || 'today'
 const HOSTS = A.hosts || { reachable: [], blocked: [] }
 if (!PKGS.length) return { error: 'args.packages is empty' }
@@ -64,6 +66,8 @@ function researchPrompt(p) {
 YOUR PACKAGE: ${p.id} (layer ${p.layer}; contest ${p.contest}; subjects: ${(p.subjects || []).join(', ') || 'the contest'}; ${p.tasks} task(s))
 - Tasks, in order: ${p.run_dir}/pkg.json, field "tasks" (id, kind, detail, guide anchor in docs/RESEARCH_GUIDE.md, and sometimes "leads": unverified hints about where to look, never facts to copy). A "brief" field, if present, has notes from an earlier pass.
 - Your private data copy: ${p.data_dir} (pass it as --data to every repository command).
+
+Everything you need is in this prompt, AGENTS.md, docs/RESEARCH_GUIDE.md, the schemas and your pkg.json: don't spend time on git history, the site code or the harness code.
 
 HOW TO WORK (run commands from ${REPO}; use absolute paths):
 1. Read AGENTS.md ("Hard rules"), the top of docs/RESEARCH_GUIDE.md and the guide section for each task kind you have. Schemas are in ${REPO}/schemas/.
@@ -121,7 +125,7 @@ log(`${PKGS.length} package(s) in ${groups.length} judge group(s); layer ${A.lay
 
 const results = await pipeline(
   groups,
-  (g) => parallel(g.pkgs.map((p) => () => agent(researchPrompt(p), { label: `research:${p.id}`, phase: 'Research', schema: REPORT }))),
+  (g) => (A.judgeOnly ? Promise.resolve(g.pkgs.map(() => null)) : parallel(g.pkgs.map((p) => () => agent(researchPrompt(p), { label: `research:${p.id}`, phase: 'Research', schema: REPORT })))),
   (reports, g) =>
     parallel(g.lenses.map((lens) => () => agent(judgePrompt(g, lens), { label: `judge:${lens}:${g.key}`, phase: 'Verify', schema: VERDICT }))).then((vs) => ({
       group: g.key,
