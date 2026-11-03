@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.growsf--person.erwin-tam--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:erwin-tam",
+  "endorser": "org:growsf",
+  "citations": [
+    {
+      "source": "src:growsf-org-c877e294fe",
+      "quote": "We recommend voting for Elijah Ball, Monroe Lace, and Erwin Tam for Community College Board."
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

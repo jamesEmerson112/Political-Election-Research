@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.jaime-huling--person.erwin-tam--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:erwin-tam",
+  "endorser": "person:jaime-huling",
+  "citations": [
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "School Board: Jaime Huling Former College Board President Alex Randolph Erwin Tam",
+      "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board, Erwin Tam statement, printed p. 35 (PDF p. 37), Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

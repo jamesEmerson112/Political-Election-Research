@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.ruth-ferguson--person.erwin-tam--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:erwin-tam",
+  "endorser": "person:ruth-ferguson",
+  "citations": [
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "College Board: Heather McCarty, Ruth Ferguson, Luis Zamora",
+      "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board, Erwin Tam statement, printed p. 35 (PDF p. 37), Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

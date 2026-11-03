@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.abundant-sf--person.erwin-tam--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:erwin-tam",
+  "endorser": "org:abundant-sf",
+  "citations": [
+    {
+      "source": "src:sfist-com-a47dc6aba9",
+      "quote": "On the other side are Elijah Ball, Erwin Tam, Monroe Lace, and Ruth Ferguson, who have the backing of GrowSF and Abundant SF"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
