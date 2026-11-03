@@ -66,11 +66,94 @@
       "description": "Annual salary (USD).",
       "$ref": "defs.schema.json#/$defs/CitedNumber"
     },
+    "links": {
+      "description": "Official site of the office or body, and its node on the CivLab government graph (graph.civlab.org), when CivLab maps it. `npm run import:civlab` reads links.civlab.",
+      "$ref": "defs.schema.json#/$defs/Links"
+    },
+    "legal_basis": {
+      "description": "Where the office is established (constitution article, charter section, statute).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "citations"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      }
+    },
+    "connections": {
+      "description": "How the office connects to others, as neutral counts and verbs (never a ranking): who elects it, what it elects, appoints, confirms or oversees, and which bodies advise it. At most one entry per type; put --merge merges by type.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Connection"
+      }
+    },
     "notes": {
       "type": "string"
     },
     "last_verified": {
       "$ref": "defs.schema.json#/$defs/Date"
+    }
+  },
+  "$defs": {
+    "Connection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "text",
+        "citations"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "elected_by",
+            "elects",
+            "appoints",
+            "confirms",
+            "oversees",
+            "advised_by"
+          ]
+        },
+        "count": {
+          "description": "Seats or positions involved (e.g. seats it appoints), when the source gives or lets us count them.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "bodies": {
+          "description": "Number of distinct bodies involved (e.g. boards and commissions it appoints members to).",
+          "type": "integer",
+          "minimum": 0
+        },
+        "targets": {
+          "description": "Names of the offices or bodies on the other end, as the source names them.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "text": {
+          "description": "One neutral line, e.g. 'Appoints 403 seats on 74 boards and commissions'.",
+          "type": "string",
+          "minLength": 1
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      }
     }
   }
 }

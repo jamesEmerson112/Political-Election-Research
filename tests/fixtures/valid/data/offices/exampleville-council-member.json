@@ -3,6 +3,31 @@
   "id": "exampleville-council-member",
   "name": "Member, Exampleville City Council",
   "body": "Exampleville City Council",
+  "connections": [
+    {
+      "type": "elected_by",
+      "count": 7,
+      "text": "Elected by district: 7 seats",
+      "citations": [
+        {
+          "source": "src:exampleville-example-gov-9cccac723f",
+          "quote": "seven districts of approximately equal population"
+        }
+      ]
+    },
+    {
+      "type": "appoints",
+      "bodies": 3,
+      "count": 12,
+      "text": "Appoints 12 seats on 3 boards and commissions",
+      "citations": [
+        {
+          "source": "src:exampleville-example-gov-9cccac723f",
+          "quote": "The Council appoints the members of the Planning, Library and Parks boards."
+        }
+      ]
+    }
+  ],
   "constituents": {
     "value": 21000,
     "as_of": "2020",
@@ -15,7 +40,21 @@
     ]
   },
   "jurisdiction": "City of Exampleville",
+  "legal_basis": {
+    "label": "Exampleville City Charter",
+    "url": "https://exampleville.example.gov/charter",
+    "citations": [
+      {
+        "source": "src:exampleville-example-gov-9cccac723f",
+        "quote": "The Council shall consist of seven members."
+      }
+    ]
+  },
   "level": "local",
+  "links": {
+    "civlab": "https://graph.civlab.org/zz/elected/zz-exampleville-city-council",
+    "official_site": "https://exampleville.example.gov/council"
+  },
   "powers": {
     "value": "Adopts city ordinances and the annual city budget.",
     "citations": [

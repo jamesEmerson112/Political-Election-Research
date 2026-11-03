@@ -49,7 +49,7 @@ export interface PutResult {
  * `items` (dossier sections) merge by id only when every incoming item has one;
  * id-less lists (offices, education, career) are replaced as a whole.
  */
-const MERGE_KEYS: Record<string, string> = { candidates: "person", questions: "id", exhausted: "task", items: "id" };
+const MERGE_KEYS: Record<string, string> = { candidates: "person", questions: "id", exhausted: "task", items: "id", connections: "type" };
 
 function isObj(v: unknown): v is Rec {
   return !!v && typeof v === "object" && !Array.isArray(v);

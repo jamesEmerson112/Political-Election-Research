@@ -372,6 +372,12 @@
         "youtube": {
           "type": "string",
           "format": "uri"
+        },
+        "civlab": {
+          "description": "Node page on the CivLab government graph, e.g. https://graph.civlab.org/sf/elected/ccsf-board-of-supervisors",
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://graph\\.civlab\\.org/"
         }
       }
     },

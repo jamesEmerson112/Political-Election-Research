@@ -270,6 +270,12 @@ p("office", {
   constituents: { value: 21000, as_of: "2020", basis: "2020 census population ÷ 7 districts", citations: cite(srcCharter, "seven districts of approximately equal population") },
   term_years: { value: 4, citations: cite(srcCharter, "Members serve four-year terms.") },
   powers: { value: "Adopts city ordinances and the annual city budget.", citations: cite(srcCharter, "The Council adopts ordinances and the annual budget.") },
+  links: { official_site: "https://exampleville.example.gov/council", civlab: "https://graph.civlab.org/zz/elected/zz-exampleville-city-council" },
+  legal_basis: { url: "https://exampleville.example.gov/charter", label: "Exampleville City Charter", citations: cite(srcCharter, "The Council shall consist of seven members.") },
+  connections: [
+    { type: "appoints", count: 12, bodies: 3, text: "Appoints 12 seats on 3 boards and commissions", citations: cite(srcCharter, "The Council appoints the members of the Planning, Library and Parks boards.") },
+    { type: "elected_by", count: 7, text: "Elected by district: 7 seats", citations: cite(srcCharter, "seven districts of approximately equal population") },
+  ],
 });
 p("office", {
   id: "example-state-governor",

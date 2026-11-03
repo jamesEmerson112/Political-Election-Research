@@ -65,8 +65,15 @@ export function canonicalize(kind: FileKind, rec: Record<string, unknown>, schem
       (a, b) => cmp(String(a["subject"]), String(b["subject"])) || cmp(String(a["as_of"]), String(b["as_of"])),
     );
   }
+  if (kind === "office" && Array.isArray(copy["connections"])) {
+    const rank = (c: Record<string, unknown>) => CONNECTION_ORDER.indexOf(String(c["type"]));
+    copy["connections"] = [...(copy["connections"] as Record<string, unknown>[])].sort((a, b) => rank(a) - rank(b));
+  }
   return sortKeysDeep(copy);
 }
+
+/** Office connections are kept in this order (schema enum order). */
+export const CONNECTION_ORDER = ["elected_by", "elects", "appoints", "confirms", "oversees", "advised_by"];
 
 export function serialize(v: unknown): string {
   return JSON.stringify(v, null, 2) + "\n";
