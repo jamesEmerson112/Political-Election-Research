@@ -76,6 +76,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "Voters would continue to be asked who should fill the vacancy as part of recall elections.",
       "citations": [
@@ -99,7 +100,63 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "net-effect-unknown",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and county elections costs and says how they 'would be shared by state and county governments would depend on future decisions by the Legislature'; its Background says county elections officials administer most elections. Not tied to the General Fund.",
+        "per": "one_time",
+        "text": "The LAO says the net fiscal effect is unknown; it depends on how often recalls occur and which offices are recalled, and such costs or savings would be rare.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Net fiscal effect unknown. Possible state and local government savings or costs of millions of dollars to administer recall elections. These costs or savings would be rare, and depend on the office recalled and how often recalls occur.",
+            "locator": "p. 34, Proposition 5, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Net Effect Depends on Circumstances of Future Recall Efforts. The net fiscal effect is unknown because it depends on future recall elections. Proposition 5 could lead to savings or costs potentially in the range of millions of dollars to administer recall elections. How these savings or costs would be shared by state and county governments would depend on future decisions by the Legislature.",
+            "locator": "p. 37, Proposition 5, Analysis by the Legislative Analyst, Fiscal Effects, “Net Effect Depends on Circumstances of Future Recall Efforts”"
+          }
+        ]
+      },
+      {
+        "id": "no-replacement-question-savings",
+        "direction": "savings",
+        "estimate": "in_words",
+        "lane": "other_agency",
+        "note": "The LAO combines state and county elections costs and says how they 'would be shared by state and county governments would depend on future decisions by the Legislature'; its Background says county elections officials administer most elections. Not tied to the General Fund.",
+        "per": "one_time",
+        "text": "Possible savings from removing the replacement-candidate question from recall ballots and voting materials; could be millions of dollars per election.",
+        "words": "millions of dollars per election",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Potential Savings. Proposition 5 could result in lower costs by removing the second question from the ballot. These savings would occur when a Governor is recalled in the latter part of the term and for other offices where vacancies are filled by appointment. There would be savings because ballots and voting materials would no longer include information about replacement candidates. The amount of savings would depend on how many candidates there would have been on the ballot if the second question remained but could be millions of dollars per election.",
+            "locator": "p. 37, Proposition 5, Analysis by the Legislative Analyst, Fiscal Effects, “Potential Savings”"
+          }
+        ]
+      },
+      {
+        "id": "standalone-special-election-costs",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "other_agency",
+        "note": "The LAO combines state and county elections costs and says how they 'would be shared by state and county governments would depend on future decisions by the Legislature'; its Background says county elections officials administer most elections. Not tied to the General Fund.",
+        "per": "one_time",
+        "text": "Possible higher costs when a separate special election is needed to fill an office vacated by recall; a standalone special election could cost state and local elections officials millions of dollars.",
+        "words": "millions of dollars per election",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Potential Costs. Proposition 5 could result in higher costs associated with future recall elections if a special election is necessary to fill the vacant office after a recall. For example, a legislative office made vacant after a recall typically would be filled through a special election. If that special election could not be consolidated with a scheduled election, elections officials would need to run a standalone special election. The cost to state and local elections officials to administer such a special election could be millions of dollars per election.",
+            "locator": "pp. 36-37, Proposition 5, Analysis by the Legislative Analyst, Fiscal Effects, “Potential Costs”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Net fiscal effect unknown. Possible state and local government savings or costs of millions of dollars to administer recall elections. These costs or savings would be rare, and depend on the office recalled and how often recalls occur.",

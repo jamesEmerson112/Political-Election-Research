@@ -81,6 +81,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "State and most local governments would remain unable to create public campaign finance programs for public office candidates.",
       "citations": [
@@ -104,7 +105,46 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "fppc-guidance-costs",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "general_fund",
+        "note": "The LAO calls these state costs and sizes them against 'the state's total General Fund budget'; it does not say which fund pays the Fair Political Practices Commission.",
+        "per": "year",
+        "text": "Ongoing state costs of a few hundred thousand dollars each year for the Fair Political Practices Commission to answer questions about public campaign finance programs.",
+        "words": "a few hundred thousand dollars each year",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Ongoing costs to the state of a few hundred thousand dollars each year for the Fair Political Practices Commission to answer questions from state and local governments about public campaign finance programs.",
+            "locator": "p. 30, Proposition 4, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As a result, state costs would be a few hundred thousand dollars each year. This amount is much less than one-tenth of 1 percent (0.1 percent) of the state’s total General Fund budget.",
+            "locator": "p. 31, Proposition 4, Analysis by the Legislative Analyst, Fiscal Effects, “Minor State Costs to Support State and Local Governments Considering Public Campaign Finance Programs”"
+          }
+        ]
+      },
+      {
+        "id": "possible-public-financing-programs",
+        "direction": "cost",
+        "estimate": "depends_on_future_decisions",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments: the measure 'allows state and local governments to create such programs', and costs would fall on whichever governments create them. None is tied to the General Fund.",
+        "per": "total",
+        "text": "Creates no program itself; if state or local governments create public campaign finance programs, costs could be significant for them and depend on which governments act and how programs are designed.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Costs of Possible Public Campaign Finance Programs Depend on Future Decisions. Proposition 4 does not create a public campaign finance program. However, it allows state and local governments to create such programs in the future. The cost of these programs could be significant for governments that choose to create them. The total cost would depend on which governments created such programs and how those programs were designed.",
+            "locator": "p. 31, Proposition 4, Analysis by the Legislative Analyst, Fiscal Effects, “Costs of Possible Public Campaign Finance Programs Depend on Future Decisions”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Ongoing costs to the state of a few hundred thousand dollars each year for the Fair Political Practices Commission to answer questions from state and local governments about public campaign finance programs.",

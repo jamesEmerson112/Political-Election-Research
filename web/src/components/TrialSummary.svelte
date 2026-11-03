@@ -57,7 +57,8 @@
   const H = $derived(narrow ? 240 : 280);
   const ml = $derived(narrow ? 50 : 64);
   const mr = $derived(base?.generalFund ? (narrow ? 50 : 62) : 14);
-  const gw = $derived((cw - ml - mr) / Math.max(1, n));
+  /** Width per year (never negative, also while the panel is still being measured). */
+  const gw = $derived(Math.max(0, (cw - ml - mr) / Math.max(1, n)));
   /** Point labels and each year's change fit when the years are far enough apart; otherwise they are in the sentence, the tooltip and the table. */
   const labels = $derived(gw >= 150);
   const mt = 8;
@@ -188,7 +189,7 @@
               <clipPath id={`${uid}-above`}><rect x="0" y="0" width={cw} height={Math.max(0, yAt(0))} /></clipPath>
             </defs>
             {#each years as y, i (y.fy)}
-              {#if y.fy === selFy && n > 1}<rect class="sel" x={cx(i) - gw / 2 + 3} y="1" width={gw - 6} height={H - 2} rx="6" />{/if}
+              {#if y.fy === selFy && n > 1}<rect class="sel" x={cx(i) - gw / 2 + 3} y="1" width={Math.max(0, gw - 6)} height={H - 2} rx="6" />{/if}
             {/each}
             {#each yTicks as t (t)}
               <line class={t === 0 ? "zero" : "grid"} x1={ml} x2={cw - mr} y1={yAt(t)} y2={yAt(t)} />

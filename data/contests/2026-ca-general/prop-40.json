@@ -103,6 +103,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "The state would not collect a one-time tax from billionaires equal to 5 percent of their wealth.",
       "citations": [
@@ -126,7 +127,78 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "income-tax-revenue-decrease",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Possible ongoing decrease of less than $1 billion per year in state income tax revenue if billionaires respond to the wealth tax, for example by leaving California.",
+        "words": "less than $1 billion per year",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possible ongoing decrease of less than $1 billion per year in state income tax revenue collected from billionaires.",
+            "locator": "p. 54, Proposition 40, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact (second bullet)"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Billionaires may respond to a new wealth tax in ways that reduce their income tax payments. For example, some billionaires may decide to leave California. The income taxes they currently pay to the state also would go away. These responses probably would reduce state revenues by less than $1 billion per year. This could mean less money for the state’s General Fund, which is the account that pays for most public services, including education, health care, and prisons.",
+            "locator": "p. 55, Proposition 40, Analysis by the Legislative Analyst, Fiscal Effects, “Possible Ongoing Decrease in State Income Tax Revenues”"
+          }
+        ]
+      },
+      {
+        "id": "wealth-tax-administration",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "dedicated",
+        "note": "The LAO says these costs 'would be paid from the new wealth tax revenues'.",
+        "per": "year",
+        "text": "State costs to determine and collect the wealth tax could be tens of millions of dollars per year for several years, paid from the new wealth tax revenues.",
+        "words": "tens of millions of dollars per year for several years",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "State Costs to Administer the Wealth Tax. The state would have costs to determine how much wealth tax is owed and to collect tax payments. These costs could be tens of millions of dollars per year for several years. These costs would be paid from the new wealth tax revenues.",
+            "locator": "p. 55, Proposition 40, Analysis by the Legislative Analyst, Fiscal Effects, “State Costs to Administer the Wealth Tax”"
+          }
+        ]
+      },
+      {
+        "id": "wealth-tax-revenue",
+        "direction": "revenue",
+        "estimate": "in_words",
+        "lane": "dedicated",
+        "note": "The analysis names no fund but restricts the money: 90 percent must be spent on health care services and the rest on education, food assistance and administration of the tax. The LAO does not call it General Fund revenue.",
+        "per": "total",
+        "text": "Temporary state revenue from a one-time tax of 5% of billionaires' net worth, due in 2027 (payments may be spread over five years); probably tens of billions of dollars over several years.",
+        "words": "tens of billions of dollars spread over several years",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Temporary state revenue increase from a new wealth tax on billionaires. These wealth tax revenues probably would add up to tens of billions of dollars spread over several years.",
+            "locator": "p. 54, Proposition 40, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Temporary State Revenue Increase From Wealth Tax. The state probably would collect tens of billions of dollars from the wealth tax. This temporary increase in state tax collections would be spread across several years. Exactly when and how much the state would collect is very hard to predict for many reasons.",
+            "locator": "p. 55, Proposition 40, Analysis by the Legislative Analyst, Fiscal Effects, “Temporary State Revenue Increase From Wealth Tax”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Ninety percent of the money would have to be spent on health care services for the public. The rest would have to be spent on education, food assistance, and administration of the wealth tax.",
+            "locator": "p. 55, Proposition 40, Analysis by the Legislative Analyst, Proposal, “Most of the Money Must Be Spent on Health Care”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Under Proposition 40, billionaires who were residents of California on January 1, 2026 would have to pay a one-time state tax equal to 5 percent of their net worth. The tax would be due in 2027. Taxpayers would have the option to spread the payments over five years but would have to pay more to do so.",
+            "locator": "p. 54, Proposition 40, Analysis by the Legislative Analyst, Proposal, “Establishes One-Time Wealth Tax on Billionaires”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Temporary state revenue increase from a new wealth tax on billionaires. These wealth tax revenues probably would add up to tens of billions of dollars spread over several years. • Possible ongoing decrease of less than $1 billion per year in state income tax revenue collected from billionaires.",

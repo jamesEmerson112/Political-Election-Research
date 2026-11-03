@@ -88,6 +88,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "The California State Auditor’s responsibility to review government programs would not change. The state spending limit requirements would not change.",
       "citations": [
@@ -111,7 +112,104 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "audit-recommendation-savings",
+        "direction": "savings",
+        "estimate": "depends_on_future_decisions",
+        "lane": "dedicated",
+        "note": "Savings would arise in the audited programs, which receive special-tax funds; the analysis names no fund.",
+        "per": "year",
+        "text": "Possible savings or improved services if policymakers implement the State Auditor's recommendations and they prove effective; any savings depend on future decisions and are not known.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possible savings associated with implementing recommendations from the audits.",
+            "locator": "p. 58, Proposition 41, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 41 could result in savings or improved services if policymakers implement the State Auditor’s recommendations and those recommendations prove effective. Any resulting savings would depend on future decisions and are not known.",
+            "locator": "p. 59, Proposition 41, Analysis by the Legislative Analyst, Fiscal Effects, “Possible Savings if State Auditor Recommendations Are Implemented”"
+          }
+        ]
+      },
+      {
+        "id": "net-effect-unknown",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "note": "The LAO's net statement covers all of the measure's effects (General Fund, special-tax revenues and possible savings); it is not specific to one fund.",
+        "per": "year",
+        "text": "The LAO says the net fiscal effect is unknown because it depends on future decisions by voters, the Legislature and other policymakers.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Unknown net fiscal effect.",
+            "locator": "p. 58, Proposition 41, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Net Effect Not Known. The net fiscal effect of Proposition 41 is unknown as it depends on future decisions by voters, the Legislature, and other policymakers.",
+            "locator": "p. 59, Proposition 41, Analysis by the Legislative Analyst, Fiscal Effects, “Net Effect Not Known”"
+          }
+        ]
+      },
+      {
+        "id": "state-auditor-costs-general-fund",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "text": "One-time audit costs for special-tax initiatives that do not reach the ballot or are rejected by voters would be paid from the state's General Fund; the LAO does not size this part separately.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "One-time audit costs associated with special taxes that do not ultimately appear on the ballot or are rejected by voters would be paid from the state’s General Fund.",
+            "locator": "p. 59, Proposition 41, Analysis by the Legislative Analyst, Fiscal Effects, “Increased State Auditor Costs, Mostly Paid by New Revenues”"
+          }
+        ]
+      },
+      {
+        "id": "state-auditor-costs-special-tax-funded",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "dedicated",
+        "note": "Paid from the revenues collected by the special taxes being audited (no fund is named). The part paid from the General Fund is a separate entry.",
+        "per": "year",
+        "text": "Increased State Auditor costs for new one-time and ongoing audits of special-tax programs, likely in the low millions of dollars per year and growing over time, mostly paid from those taxes' revenues.",
+        "words": "low millions of dollars per year",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Increased costs for the California State Auditor to implement new one-time and ongoing audit requirements of programs funded by special taxes. These costs would be mostly paid from the new revenues collected from the special taxes.",
+            "locator": "p. 58, Proposition 41, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "These costs likely would be in the range of the low millions of dollars per year but would grow over time. The one-time and ongoing audit costs associated with special taxes approved by voters or the Legislature would be paid from the revenues collected by the special taxes.",
+            "locator": "p. 59, Proposition 41, Analysis by the Legislative Analyst, Fiscal Effects, “Increased State Auditor Costs, Mostly Paid by New Revenues”"
+          }
+        ]
+      },
+      {
+        "id": "voter-guide-printing-mailing",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "general_fund",
+        "note": "The LAO calls these state printing and mailing costs; the analysis does not name the fund that pays them.",
+        "per": "one_time",
+        "text": "Auditor summaries could add several pages to the state Voter Information Guide, raising state printing and mailing costs by a few hundred thousand dollars per qualified initiative.",
+        "words": "a few hundred thousand dollars per qualified initiative",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Higher Costs to Print and Mail VIG. Proposition 41 would require a summary of the State Auditor’s review to appear in the VIG when a voter initiative with a special tax appears on the ballot. These audit summaries could add several pages to the VIG, which would increase state printing and mailing costs by a few hundred thousand dollars per qualified initiative.",
+            "locator": "p. 59, Proposition 41, Analysis by the Legislative Analyst, Fiscal Effects, “Higher Costs to Print and Mail VIG”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Unknown net fiscal effect. Increased costs for the California State Auditor to implement new one-time and ongoing audit requirements of programs funded by special taxes. These costs would be mostly paid from the new revenues collected from the special taxes. Possible savings associated with implementing recommendations from the audits.",

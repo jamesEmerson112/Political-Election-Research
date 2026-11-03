@@ -26,6 +26,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "The state could not borrow $11.25 billion to support veterans and affordable housing.",
       "citations": [
@@ -49,7 +50,75 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "bond-program-administration",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "dedicated",
+        "note": "Paid from 'a portion of the bond funds' (no fund is named), not as a separate General Fund cost in the LAO's text.",
+        "per": "total",
+        "text": "State entities would have increased costs to administer the housing programs; a portion of the bond funds would cover them. No amount is given.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Administrative Costs. A number of state entities would experience increased costs to administer the various housing programs. A portion of the bond funds would cover these costs.",
+            "locator": "p. 17, Proposition 1, Analysis by the Legislative Analyst, Fiscal Effects, “Administrative Costs”"
+          }
+        ]
+      },
+      {
+        "id": "housing-bond-repayment",
+        "amount": {
+          "high_usd": 600000000,
+          "low_usd": 500000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "State General Fund cost of $500 million to $600 million annually for about 25 years to repay the $10 billion housing bond.",
+        "years": 25,
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Increased state cost of $500 million to $600 million annually for about 25 years to repay the housing bond.",
+            "locator": "p. 14, Proposition 1, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Increased State Cost to Repay the $10 Billion Bond for Housing Programs. The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years.",
+            "locator": "p. 17, Proposition 1, Analysis by the Legislative Analyst, Fiscal Effects, “Increased State Cost to Repay the $10 Billion Bond for Housing Programs”"
+          }
+        ]
+      },
+      {
+        "id": "veterans-home-loan-bond-no-direct-cost",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "note": "No General Fund cost stated: the analysis says the $1.25 billion veterans bond 'would be repaid by veterans’ payments on their home loans', unlike the $10 billion bond 'repaid by the General Fund'.",
+        "per": "year",
+        "text": "No direct state cost for the $1.25 billion veterans home loan bond; veterans' monthly loan payments would repay it.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "No Direct State Cost for Veterans Housing Program. Veterans participating in the home loan program would make monthly payments to the state, allowing the state to repay the bonds. These payments have always covered the amount owed on the bonds, meaning the program has always operated at no direct cost to the state.",
+            "locator": "p. 17, Proposition 1, Analysis by the Legislative Analyst, Fiscal Effects, “No Direct State Cost for Veterans Housing Program”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "This amount consists of (1) a $10 billion bond for a variety of state housing programs that would be repaid by the General Fund and (2) a $1.25 billion bond that would be repaid by veterans’ payments on their home loans.",
+            "locator": "p. 15, Proposition 1, Analysis by the Legislative Analyst, Proposal, “New General Obligation Bond for Housing”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 1 includes $1.25 billion for a veterans housing program. This borrowing would not result in estimated state cost.",
+            "locator": "p. 14, Proposition 1, Official Title and Summary, “State Bond Cost Estimate” box, footnote a (an image on the web guide; text from the PDF)"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Increased state cost of $500 million to $600 million annually for about 25 years to repay the housing bond.",

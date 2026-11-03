@@ -82,6 +82,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "Certain local government taxes could continue to be approved by voters with a majority vote.",
       "citations": [
@@ -105,7 +106,33 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "possibly-lower-local-tax-revenues",
+        "direction": "cost",
+        "estimate": "depends_on_future_decisions",
+        "lane": "other_agency",
+        "per": "year",
+        "text": "Requiring a two-thirds vote for new, increased or extended local special taxes proposed by voters could make local tax revenues lower than otherwise; the impact is unknown.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possibility that local government tax revenues will not go up as much in the future due to a higher vote threshold for certain taxes.",
+            "locator": "p. 66, Proposition 43, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possibility for Lower Local Government Tax Revenues in the Future. Proposition 43 makes it harder for local governments to pass certain taxes. As a result, local governments’ tax revenues could be lower in the future than they otherwise would be. The actual revenue impact is unknown and would depend on future decisions by local governments and voters.",
+            "locator": "p. 67, Proposition 43, Analysis by the Legislative Analyst, Fiscal Effects, “Possibility for Lower Local Government Tax Revenues in the Future”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Under Proposition 43, beginning on January 1, 2027, any new, increased, or extended local special taxes proposed by voters would require a two-thirds vote.",
+            "locator": "p. 67, Proposition 43, Analysis by the Legislative Analyst, Proposal, “Requires Certain Local Taxes Receive Two-Thirds Approval by Voters”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Possibility that local government tax revenues will not go up as much in the future due to a higher vote threshold for certain taxes.",

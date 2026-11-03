@@ -389,3 +389,40 @@ describe("gap line, percent first", () => {
     );
   });
 });
+
+describe("California's propositions against the state budget (data/)", () => {
+  const dir = path.join(__dirname, "..", "data");
+  const read = (rel: string) => JSON.parse(fs.readFileSync(path.join(dir, rel), "utf8")) as Record<string, unknown>;
+  const state = budgetInput(read("budgets/california.json"));
+  const prop = (n: string) => measureInput(read(`contests/2026-ca-general/prop-${n}.json`));
+  const ms = ["1", "3", "38", "44"].map(prop);
+  const yes = (...labels: string[]) => Object.fromEntries(ms.filter((m) => labels.includes(m.label)).map((m) => [m.ref, "yes" as Vote]));
+
+  it("uses the Department of Finance's operating deficits, each year on its own", () => {
+    expect(state.forecast).toEqual([
+      { fy: "2027-28", signed: -10_485 * M },
+      { fy: "2028-29", signed: -8_643 * M },
+      { fy: "2029-30", signed: -8_430 * M },
+    ]);
+    expect(state.adoptedGeneralFund).toEqual({ fy: "2026-27", usd: 251_477_209_000 });
+  });
+
+  it("adds Props 1 and 38's bond repayment ($500–600 million a year each) from the first forecast year, flagged", () => {
+    const r = runTrial(ms, state, yes("Prop 1", "Prop 38"));
+    expect(gf(r, "2027-28").delta).toEqual({ low: -1_200 * M, high: -1_000 * M });
+    expect(r.startAssumed).toEqual(["Prop 1", "Prop 38"]);
+  });
+
+  it("moves no forecast year for Prop 3: the rates it keeps run through 2030 under current law", () => {
+    const r = runTrial(ms, state, yes("Prop 3"));
+    for (const y of r.generalFund) expect(y.delta).toEqual({ low: 0, high: 0 });
+    expect(r.afterForecast.map((x) => [x.label, x.startFy])).toEqual([["Prop 3", "2030-31"]]);
+    expect(r.inWords.map((x) => x.label)).toEqual(["Prop 3"]);
+  });
+
+  it("quotes Prop 44's enforcement costs in the Legislative Analyst's words and adds nothing", () => {
+    const r = runTrial(ms, state, yes("Prop 44"));
+    for (const y of r.generalFund) expect(y.delta).toEqual({ low: 0, high: 0 });
+    expect(r.inWords.map((x) => x.words)).toEqual(["low tens of millions of dollars per year"]);
+  });
+});

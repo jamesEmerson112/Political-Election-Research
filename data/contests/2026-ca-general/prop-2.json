@@ -81,6 +81,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "Rules for building state budget reserves and paying down extra state debts would not change.",
       "citations": [
@@ -104,7 +105,70 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "extended-extra-debt-payments",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "note": "The analysis does not name the fund that makes the extra debt payments; it says they equal the amount initially deposited into the rainy day fund each year, and the Background describes that deposit as a share of General Fund tax revenues.",
+        "per": "year",
+        "text": "Extends required extra debt payments from 2030 through 2040, so the state might make more debt payments than without Proposition 2. No amount is given.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possibly More Debt Payments. By requiring the state to make extra debt payments through 2040, the state might make more debt payments than it would without Proposition 2.",
+            "locator": "p. 23, Proposition 2, Analysis by the Legislative Analyst, Fiscal Effects, “Possibly More Debt Payments”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 2 also requires the state to make extra debt payments through 2040 (instead of through 2030).",
+            "locator": "p. 22, Proposition 2, Analysis by the Legislative Analyst, Proposal, “Extend and Expand Extra Debt Payments”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The amount of these extra debt payments is the same as the amount initially deposited into the rainy day fund each year.",
+            "locator": "p. 22, Proposition 2, Analysis by the Legislative Analyst, Background, “State Constitution Requires the State to Make Extra Debt Payments Toward Pension and Health Benefits”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Extra Debt Payments Optional After 2030. The requirement for extra debt payments ends in 2030.",
+            "locator": "p. 22, Proposition 2, Analysis by the Legislative Analyst, Background, “Extra Debt Payments Optional After 2030”"
+          }
+        ]
+      },
+      {
+        "id": "higher-rainy-day-reserves",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "dedicated",
+        "note": "The rainy day fund is the Budget Stabilization Account, a state reserve named in the analysis. Its Background says deposits are a share of General Fund tax revenues; the LAO states no General Fund cost or size for the larger deposits.",
+        "per": "year",
+        "text": "Requires deposits into the rainy day fund until it reaches 20% of General Fund taxes (now 10%), and larger deposits when investment-gain revenues surge; reserves would be higher. No amount is given.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "State budget reserves would be higher.",
+            "locator": "p. 20, Proposition 2, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Budget Reserves Would Be Higher. By continuing to require deposits into the rainy day fund until the balance reaches 20 percent of General Fund taxes, the state would save more over time. In addition, by depositing more money when revenues are surging, the state likely would save more in the rainy day fund in certain years. More reserves would make balancing the budget somewhat easier when revenues decline.",
+            "locator": "p. 23, Proposition 2, Analysis by the Legislative Analyst, Fiscal Effects, “Budget Reserves Would Be Higher”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Save More in the Rainy Day Fund. Proposition 2 requires the state to make deposits into the rainy day fund until it reaches 20 percent of General Fund taxes (instead of 10 percent of General Fund taxes). In addition, the state would make even larger deposits in years when revenues from taxes on investment gains are very high, like when the stock market is booming.",
+            "locator": "p. 22, Proposition 2, Analysis by the Legislative Analyst, Proposal, “Save More in the Rainy Day Fund”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The State Constitution requires the state to deposit 0.75 percent of General Fund tax revenues in the state’s main rainy day fund, which is called the Budget Stabilization Account, each year.",
+            "locator": "p. 21, Proposition 2, Analysis by the Legislative Analyst, Background, “State Constitution Requires the State to Save Money in the ‘Rainy Day Fund.’”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• State budget reserves would be higher.",

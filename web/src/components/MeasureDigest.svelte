@@ -4,16 +4,17 @@
   import StanceMark from "./StanceMark.svelte";
 
   /**
-   * The official digest, as printed in the voter guide ("Digest by the Ballot
-   * Simplification Council"): the way it is now, the proposal, and what a YES or
-   * a NO vote means. Every part keeps its source count. `clamp` (trial card): the
+   * The official digest, as printed in the voter guide under the heading it
+   * prints (`digest.label`: "Digest by the Ballot Simplification Council" in San
+   * Francisco, "What your vote means" in California's guide): the way it is now,
+   * the proposal, and what a YES or a NO vote means. Every part keeps its source count. `clamp` (trial card): the
    * two long parts show four lines first, with "Read more".
    */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   type Rec = Record<string, any>;
   let { digest, clamp = false }: { digest: Rec; clamp?: boolean } = $props();
 
-  const LABEL = "Digest by the Ballot Simplification Council";
+  const LABEL = $derived(String(digest["label"] ?? "Official digest"));
   const PARTS = [
     ["way_it_is_now", "The way it is now"],
     ["proposal", "The proposal"],

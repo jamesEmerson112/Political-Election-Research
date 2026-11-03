@@ -232,7 +232,7 @@
           }
         },
         "digest": {
-          "description": "The official plain-language digest (e.g. the SF Ballot Simplification Committee's), each part verbatim in its citations.",
+          "description": "The official plain-language digest (e.g. the SF Ballot Simplification Council's), each part verbatim in its citations; `label` is the heading the guide prints over it.",
           "type": "object",
           "additionalProperties": false,
           "required": [
@@ -240,6 +240,12 @@
             "no_means"
           ],
           "properties": {
+            "label": {
+              "description": "The heading the voter guide prints over this digest, e.g. 'Digest by the Ballot Simplification Council' (San Francisco) or 'What your vote means' (California's Quick Reference Guide).",
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 80
+            },
             "way_it_is_now": {
               "$ref": "defs.schema.json#/$defs/CitedString"
             },

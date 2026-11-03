@@ -81,6 +81,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "The new requirement on health care clinic spending would not go into effect.",
       "citations": [
@@ -104,7 +105,46 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "clinic-enforcement-costs",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "dedicated",
+        "note": "The proposition directs the state to cover these costs with fees charged to affected clinics; no fund is named.",
+        "per": "year",
+        "text": "State enforcement costs in the low tens of millions of dollars per year, covered by fees charged to the affected private nonprofit clinics.",
+        "words": "low tens of millions of dollars per year",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Increased state costs in the low tens of millions of dollars per year to enforce the new requirements on certain private nonprofit health care clinics, covered by fees charged to the affected clinics.",
+            "locator": "p. 70, Proposition 44, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Creates State Enforcement Costs. Under Proposition 44, the state would enforce the new requirements on private nonprofit safety net clinics. This includes reviewing financial reports and investigating affected entities. State enforcement costs would be in the low tens of millions of dollars per year. The proposition directs the state to cover the costs by charging fees on affected clinics.",
+            "locator": "p. 71, Proposition 44, Analysis by the Legislative Analyst, Fiscal Effects, “Creates State Enforcement Costs”"
+          }
+        ]
+      },
+      {
+        "id": "other-uncertain-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments; its example of higher state costs is Medi-Cal, and clinic closures would affect state and local costs. Nothing is tied to the General Fund in the analysis.",
+        "per": "year",
+        "text": "Other uncertain state and local costs, depending on how the Attorney General defines health care expenses and whether clinics meet the minimum (e.g., more Medi-Cal services, or clinic closures).",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Could Have Other Uncertain Costs. Proposition 44 could create other costs for the state and local governments. These costs are uncertain. They depend on (1) how the state Attorney General would define health care-related expenses and (2) whether affected clinics would meet the spending minimum. For example, affected clinics might spend more on direct health care services to comply with the requirement, which could increase state costs. This is because some of these services would be for patients in Medi-Cal, the state’s program that provides health care coverage for low-income Californians. Some clinics that could not meet the minimum spending requirement might close instead. This would create other uncertain effects on state and local costs.",
+            "locator": "p. 71, Proposition 44, Analysis by the Legislative Analyst, Fiscal Effects, “Could Have Other Uncertain Costs”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Increased state costs in the low tens of millions of dollars per year to enforce the new requirements on certain private nonprofit health care clinics, covered by fees charged to the affected clinics.",

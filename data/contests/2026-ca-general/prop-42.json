@@ -91,6 +91,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "The state would continue to have the option to establish new taxes on the ownership of financial assets or other personal property.",
       "citations": [
@@ -114,7 +115,39 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "possibly-lower-future-tax-revenues",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "note": "The LAO says the measure restricts 'the options the state has to raise taxes'; the analysis does not name a fund or mention the General Fund.",
+        "per": "year",
+        "text": "Limits on new state taxes on financial assets and other personal property, and on certain retroactive taxes, could reduce future state tax revenues; when and by how much is unclear.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possibility that tax revenues will not go up as much in the future.",
+            "locator": "p. 62, Proposition 42, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possibility That Tax Revenues Will Be Lower in the Future. Proposition 42 restricts the options the state has to raise taxes in the future. This could make it somewhat harder for the state to raise taxes. This could reduce future tax revenues. When and by how much future revenues would be reduced is unclear.",
+            "locator": "p. 63, Proposition 42, Analysis by the Legislative Analyst, Fiscal Effects, “Possibility That Tax Revenues Will Be Lower in the Future”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Under Proposition 42, new taxes on the ownership of financial assets or other personal property would not be allowed.",
+            "locator": "p. 62, Proposition 42, Analysis by the Legislative Analyst, Proposal, “Prohibits New Taxes on Financial Assets or Other Personal Property”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 42 limits the situations that a ballot measure or the Legislature can raise any tax retroactively.",
+            "locator": "p. 62, Proposition 42, Analysis by the Legislative Analyst, Proposal, “Limits Retroactive Taxes”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Possibility that tax revenues will not go up as much in the future.",

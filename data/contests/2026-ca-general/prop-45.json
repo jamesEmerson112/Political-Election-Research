@@ -83,6 +83,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "Public and private projects would continue to use existing project review and court challenge procedures.",
       "citations": [
@@ -106,7 +107,115 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "environmental-impact-response-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund.",
+        "per": "year",
+        "text": "If projects with negative environmental impacts are approved that otherwise would not have been, government agencies could face higher costs to respond to those impacts.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Negative Environmental Impacts. To the degree that Proposition 45’s changes to project review and court challenge procedures lead to approval of projects with negative environmental impacts that would not have otherwise occurred, government agencies could face higher costs to respond to those impacts.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “Negative Environmental Impacts”"
+          }
+        ]
+      },
+      {
+        "id": "faster-public-projects-lower-costs",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund.",
+        "per": "year",
+        "text": "To the degree eligible public projects are built more quickly, state and local governments likely would have lower project costs.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "To the degree that Proposition 45’s changes to project review and court challenge procedures lead to eligible public projects being constructed more quickly, state and local governments likely would have lower project costs.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “More Projects and Faster Timing”"
+          }
+        ]
+      },
+      {
+        "id": "fewer-lawsuits-lower-costs",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund.",
+        "per": "year",
+        "text": "After the initial period some costs could continue and others likely would decline; fewer CEQA lawsuits could reduce costs for agencies and state courts in the long term.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "After this initial period, while some costs could continue, others likely would decline over time. For example, the changes to how courts can review CEQA lawsuits could mean fewer people will sue in the future, which could reduce costs for agencies and state courts in the long term.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “Initial Costs for State and Local Governments”"
+          }
+        ]
+      },
+      {
+        "id": "initial-implementation-costs",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund. Fees from project applicants and people filing lawsuits would cover some costs.",
+        "per": "year",
+        "text": "Initial state and local costs, including state courts, likely in the high tens of millions of dollars annually and potentially exceeding $100 million annually in the first several years; fees would partly cover them.",
+        "words": "high tens of millions of dollars annually—potentially exceeding $100 million annually",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Initial costs for state and local governments, likely in the high tens of millions of dollars annually—potentially exceeding $100 million annually—to implement new project review and court challenge procedures for eligible projects. Fees paid by project applicants and people filing lawsuits would partly cover these costs.",
+            "locator": "p. 74, Proposition 45, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Initial Costs for State and Local Governments. During the first several years, Proposition 45 likely would increase costs for the state and local governments, including state courts. These costs likely would be in the high tens of millions of dollars annually, potentially exceeding $100 million annually.",
+            "locator": "pp. 76-77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “Initial Costs for State and Local Governments”"
+          }
+        ]
+      },
+      {
+        "id": "longer-term-overall-effect",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund.",
+        "per": "year",
+        "text": "In the longer term, uncertain but potentially more significant positive or negative fiscal effects for state and local governments, depending on how many eligible projects get built and their environmental impacts.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "In the longer term, uncertain, but potentially more significant positive or negative fiscal effects for state and local governments. The overall effect depends, in part, on how the new procedures change the number of eligible projects that get built and whether those projects have different environmental impacts.",
+            "locator": "p. 74, Proposition 45, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact (second bullet)"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The overall fiscal effect of these changes—positive or negative—is uncertain but could be more substantial than the near-term effects.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “In the Longer Term, Uncertain but Potentially More Significant Fiscal Effects”"
+          }
+        ]
+      },
+      {
+        "id": "more-projects-tax-revenue",
+        "direction": "revenue",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund. The example given is property taxes.",
+        "per": "year",
+        "text": "If more projects are completed overall, tax revenues such as property taxes could increase.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Additionally, if the proposition’s changes result in more projects being completed overall, it could lead to an increase in tax revenues, such as from property taxes.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “More Projects and Faster Timing”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Initial costs for state and local governments, likely in the high tens of millions of dollars annually—potentially exceeding $100 million annually—to implement new project review and court challenge procedures for eligible projects. Fees paid by project applicants and people filing lawsuits would partly cover these costs. • In the longer term, uncertain, but potentially more significant positive or negative fiscal effects for state and local governments. The overall effect depends, in part, on how the new procedures change the number of eligible projects that get built and whether those projects have different environmental impacts.",

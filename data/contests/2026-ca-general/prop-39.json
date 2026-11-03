@@ -79,6 +79,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "A voter’s identity would continue to be established with the voter’s signature.",
       "citations": [
@@ -102,7 +103,51 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "fewer-registered-voters-savings",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local government costs and does not split them or tie them to the General Fund (it compares the total with the state's General Fund budget: 'less than one-quarter of 1 percent'). County elections officials administer most elections; the state would issue the voter ID card.",
+        "per": "year",
+        "text": "Possible savings from fewer people registered to vote; the LAO says these savings likely would not exceed the measure's costs.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "There also could be some amount of savings. These savings would be due to fewer people registered to vote—for example, due to the removal of ineligible voters or eligible voters lacking government-issued identification. These savings likely would not exceed the costs of the measure.",
+            "locator": "p. 51, Proposition 39, Analysis by the Legislative Analyst, Fiscal Effects, “State and Local Costs Depend on Future Decisions”"
+          }
+        ]
+      },
+      {
+        "id": "voting-requirements-implementation",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local government costs and does not split them or tie them to the General Fund (it compares the total with the state's General Fund budget: 'less than one-quarter of 1 percent'). County elections officials administer most elections; the state would issue the voter ID card.",
+        "per": "year",
+        "text": "State and local costs of tens of millions to low hundreds of millions of dollars each year to implement new voting requirements; the exact cost depends on future decisions.",
+        "words": "between tens of millions of dollars and low hundreds of millions of dollars each year",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "State and local government costs of between tens of millions of dollars and low hundreds of millions of dollars each year to implement new voting requirements. Costs depend on future decisions by the Legislature, state departments, local governments, and voters.",
+            "locator": "p. 48, Proposition 39, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "State and Local Costs Depend on Future Decisions. Proposition 39 would increase state and local government costs each year by tens of millions of dollars to low hundreds of millions of dollars. These costs represent less than one-quarter of 1 percent (0.25 percent) of the state’s total General Fund budget.",
+            "locator": "p. 51, Proposition 39, Analysis by the Legislative Analyst, Fiscal Effects, “State and Local Costs Depend on Future Decisions”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "County elections officials administer most elections in California.",
+            "locator": "p. 48, Proposition 39, Analysis by the Legislative Analyst, Background, “Elections Administration”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• State and local government costs of between tens of millions of dollars and low hundreds of millions of dollars each year to implement new voting requirements. Costs depend on future decisions by the Legislature, state departments, local governments, and voters.",

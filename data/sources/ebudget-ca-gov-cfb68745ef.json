@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ebudget-ca-gov-cfb68745ef",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Department of Finance",
+  "title": "General Fund Multiyear Forecast, 2026 Budget Act",
+  "url": "https://ebudget.ca.gov/reference/MultiYearProjection.pdf",
+  "notes": "No printed date: PDF created 2026-06-26; server Last-Modified 2026-07-15. Linked from dof.ca.gov as the 'Multi-Year General Fund Budget Projection report'."
+}

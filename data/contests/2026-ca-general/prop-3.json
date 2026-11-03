@@ -82,6 +82,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "An income tax increase on high-income earners in place since 2012 would expire in 2031.",
       "citations": [
@@ -105,7 +106,81 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "income-tax-revenue-maintained",
+        "amount": {
+          "high_usd": 15000000000,
+          "low_usd": 5000000000
+        },
+        "direction": "revenue",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "note": "The guide gives calendar years: the rates run through 2030 and would expire in 2031; FY2030-31 is the first fiscal year with 2031 in it. The LAO calls it state income tax revenue; its Background says the income tax 'pays for most spending from the state’s main operating account, the General Fund.'",
+        "per": "year",
+        "start_fy": "2030-31",
+        "text": "Keeps $5 billion to $15 billion a year of state income tax revenue by making temporary high-income tax rates permanent instead of letting them expire in 2031; the amount varies year to year.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Maintains $5 billion to $15 billion of annual state income tax revenue by making a temporary tax increase on high-income earners permanent instead of letting it expire in 2031.",
+            "locator": "p. 26, Proposition 3, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 3 Would Bring in Between $5 Billion and $15 Billion Each Year. The amount of money brought in by Proposition 3 will go up and down a lot from year to year. This is because much of the revenue comes from taxing income that is closely tied to the stock market, which is always changing. In a weak year, the proposition might bring in around $5 billion in revenue to the state. In a strong year, the proposition might bring in $15 billion in revenue to the state. In most years, revenue would be in between these amounts.",
+            "locator": "p. 27, Proposition 3, Analysis by the Legislative Analyst, Fiscal Effects, “Proposition 3 Would Bring in Between $5 Billion and $15 Billion Each Year”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The income tax is the state’s largest tax. It pays for most spending from the state’s main operating account, the General Fund.",
+            "locator": "p. 26, Proposition 3, Analysis by the Legislative Analyst, Background, “Most State Money Comes From the Income Tax”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "In 2016, voters approved Proposition 55 to extend these higher rates until 2030.",
+            "locator": "p. 26, Proposition 3, Analysis by the Legislative Analyst, Background, “Prior Voter-Approved Tax Increases”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 3 makes the higher income tax rates established by Proposition 30 permanent instead of letting them expire in 2031.",
+            "locator": "p. 27, Proposition 3, Analysis by the Legislative Analyst, Proposal"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Personal Income Tax Rates Under Proposition 3",
+            "locator": "p. 27, Proposition 3, Analysis by the Legislative Analyst, Figure 1 title (an image on the web guide; text from the PDF)"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Now Through 2030",
+            "locator": "p. 27, Proposition 3, Figure 1 'Personal Income Tax Rates Under Proposition 3', column heading (PDF text)"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "After 2030, if This Proposal Is…",
+            "locator": "p. 27, Proposition 3, Figure 1, column heading over 'Approved' and 'Rejected' (PDF text)"
+          }
+        ]
+      },
+      {
+        "id": "revenue-allocation-schools-and-programs",
+        "direction": "none",
+        "estimate": "in_words",
+        "lane": "set_aside",
+        "note": "Describes how the same revenue would be used, not additional money: roughly 40 percent to schools and community colleges (the Background notes the Constitution sets a minimum spending level for them), the rest to other state programs, part to reserves.",
+        "per": "year",
+        "text": "Roughly 40 percent of the revenue would go to schools and community colleges and the rest to other state programs, with part set aside in budget reserves.",
+        "words": "Roughly 40 percent of the funding would go to schools and community colleges",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Funding for Education and Other Programs. Proposition 3 results in funding for education and other programs. Roughly 40 percent of the funding would go to schools and community colleges. The rest would go to other state programs. Part of this amount would be set aside in budget reserves the state could use to fund these programs when revenues decline.",
+            "locator": "p. 27, Proposition 3, Analysis by the Legislative Analyst, Fiscal Effects, “Funding for Education and Other Programs”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Maintains $5 billion to $15 billion of annual state income tax revenue by making a temporary tax increase on high-income earners permanent instead of letting it expire in 2031.",

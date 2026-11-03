@@ -75,6 +75,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "The state could not borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
       "citations": [
@@ -98,7 +99,90 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "indirect-health-program-costs",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "note": "State health programs such as Medi-Cal; the analysis says the General Fund pays for most public services including health care, but does not say which fund would carry these indirect effects.",
+        "per": "year",
+        "text": "Possible indirect effects on state health program costs such as Medi-Cal: new treatments could raise or lower the average cost of patient care, so the overall effect is uncertain.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Potential Indirect Fiscal Effects. Proposition 38 likely would have some indirect fiscal effects, particularly on costs for state health programs (such as Medi-Cal, which pays for health care for low-income Californians). For example, if the funded research leads to new medical treatments, the average cost of patient care could either increase or decrease. As a result, the overall effect on program costs is uncertain.",
+            "locator": "p. 45, Proposition 38, Analysis by the Legislative Analyst, Fiscal Effects, “Potential Indirect Fiscal Effects”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "A general obligation bond is typically repaid from the state General Fund. (The General Fund is the account the state uses to pay for most public services, including education, health care, and prisons.)",
+            "locator": "p. 44, Proposition 38, Analysis by the Legislative Analyst, Background, “Medical R&D Is Funded in Various Ways”"
+          }
+        ]
+      },
+      {
+        "id": "research-bond-repayment",
+        "amount": {
+          "high_usd": 600000000,
+          "low_usd": 500000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "State General Fund cost of $500 million to $600 million annually for about 20 years to repay the $8.4 billion medical research bond.",
+        "years": 20,
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Increased state cost of $500 million to $600 million annually for about 20 years to repay the medical research bond.",
+            "locator": "p. 44, Proposition 38, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 20 years.",
+            "locator": "p. 45, Proposition 38, Analysis by the Legislative Analyst, Fiscal Effects, “Increased State Cost of $500 Million to $600 Million Annually for About 20 Years to Repay the Bond”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 38 allows the state to issue an $8.4 billion general obligation bond for research in immunology and immunotherapy.",
+            "locator": "p. 44, Proposition 38, Analysis by the Legislative Analyst, Proposal, “New Bond for Specified Medical Research”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Payments on the bond would come from the state General Fund.",
+            "locator": "p. 45, Proposition 38, Analysis by the Legislative Analyst, Proposal, “New Bond for Specified Medical Research”"
+          }
+        ]
+      },
+      {
+        "id": "research-discovery-revenue",
+        "direction": "revenue",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "note": "The Proposal says this revenue 'must first go into the state General Fund until it repays the cost of the research bond'.",
+        "per": "total",
+        "text": "Possible state revenue from discoveries the bond funds (10% of revenue generated goes to the state); the amount is uncertain but could be significant, and offsetting the bond cost could take decades.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The state could recover part or all of this cost in subsequent decades if the funded research leads to discoveries that generate revenue.",
+            "locator": "p. 44, Proposition 38, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Potential State Revenue From Research Discoveries. The state could receive revenue from research funded by Proposition 38. The amount of revenue is uncertain but could be significant. It would depend on how many research projects lead to marketable treatments and how much money any given treatment generates. The timing of these revenues and how long it would take to offset the state’s bond cost is also uncertain, but could take decades.",
+            "locator": "p. 45, Proposition 38, Analysis by the Legislative Analyst, Fiscal Effects, “Potential State Revenue From Research Discoveries”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Ten percent of any revenue generated must be given to the state. This revenue must first go into the state General Fund until it repays the cost of the research bond (the amount borrowed plus the interest).",
+            "locator": "p. 45, Proposition 38, Analysis by the Legislative Analyst, Proposal, “Requires 10 Percent of Revenue From Discoveries First Be Used to Repay the State”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• Increased state cost of $500 million to $600 million annually for about 20 years to repay the medical research bond. The state could recover part or all of this cost in subsequent decades if the funded research leads to discoveries that generate revenue.",

@@ -25,6 +25,7 @@
     }
   ],
   "digest": {
+    "label": "What your vote means",
     "no_means": {
       "value": "The state would not be required to create a new homebuying assistance program.",
       "citations": [
@@ -48,7 +49,60 @@
   },
   "fiscal": {
     "as_of": "2026-08-10",
-    "effects": [],
+    "effects": [
+      {
+        "id": "no-direct-state-or-local-costs",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "note": "The LAO combines state and local governments ('No direct state or local costs'). Its Background contrasts general obligation bonds, usually repaid from the General Fund, with revenue bonds repaid by users; Proposition 37's bonds are revenue bonds repaid by homebuyers.",
+        "per": "year",
+        "text": "No direct state or local costs: homebuyers' loan payments would repay the CalHFA revenue bonds (up to $25 billion).",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "No direct state or local costs.",
+            "locator": "p. 40, Proposition 37, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "No Direct State or Local Costs. Because Proposition 37 uses the payments from homebuyers to repay bond investors, it would not result in direct state or local costs.",
+            "locator": "p. 41, Proposition 37, Analysis by the Legislative Analyst, Fiscal Effects, “No Direct State or Local Costs”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The state usually repays general obligation bonds using the state General Fund.",
+            "locator": "p. 40, Proposition 37, Analysis by the Legislative Analyst, Background, “State Revenue Bonds”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "In contrast, revenue bonds are repaid using revenue from fees or other payments by the users of the project (such as from bridge tolls).",
+            "locator": "p. 40, Proposition 37, Analysis by the Legislative Analyst, Background, “State Revenue Bonds”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 37 allows CalHFA to sell up to $25 billion in revenue bonds.",
+            "locator": "p. 41, Proposition 37, Analysis by the Legislative Analyst, Proposal, “Revenue Bond to Pay for a New Down Payment Assistance Program”"
+          }
+        ]
+      },
+      {
+        "id": "program-scope-unknown",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "dedicated",
+        "note": "Concerns the CalHFA revenue-bond loan program, which homebuyers' payments repay; the analysis names no fund and gives no budget effect.",
+        "per": "total",
+        "text": "Unknown factors could affect the program's scope and impact: investor demand for the bonds, loan costs compared with other down payment assistance, and effects on home building and buying.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Other Potential Effects. A number of factors, which are unknown at this time, could affect Proposition 37’s scope and impact. These include (1) the extent to which investors want to buy the bond, (2) how much the loans available under this proposed program cost homebuyers compared with other down payment assistance options, and (3) whether the program results in increased home construction and homebuying.",
+            "locator": "p. 41, Proposition 37, Analysis by the Legislative Analyst, Fiscal Effects, “Other Potential Effects”"
+          }
+        ]
+      }
+    ],
     "statement_by": "Legislative Analyst",
     "summary": {
       "summary": "• No direct state or local costs.",
