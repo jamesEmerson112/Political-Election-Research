@@ -1,0 +1,39 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 jamesEmerson112
+
+The data and written content of Political Election Research are licensed
+under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+License:    https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+This file is a notice. The legal code at the link above is the license's full
+text.
+
+What it covers
+
+- data/: the dataset.
+- docs/ and notes/.
+- The project's other written content, such as README.md, AGENTS.md and
+  CONTRIBUTING.md.
+
+What it does not cover
+
+- Code. src/, cli/, web/, tests/, schemas/, scripts and configuration files
+  are under the MIT License: see LICENSE.
+- Quoted source material. The verbatim quotes, titles and excerpts from voter
+  guides, government records, news reports, filings and other sources belong
+  to their owners and are reproduced here as citations. They keep their
+  owners' terms. CC BY 4.0 covers this project's own compilation, structure
+  and writing, not the quoted texts.
+- Third-party assets used by the site (icons, district geometry, fonts). They
+  keep their own licenses and credits: see web/THIRD_PARTY_NOTICES.md.
+
+How to credit
+
+Give appropriate credit, provide a link to the license, and indicate if
+changes were made. For example:
+
+  Political Election Research (jamesEmerson112), CC BY 4.0,
+  https://github.com/jamesEmerson112/Political-Election-Research

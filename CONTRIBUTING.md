@@ -15,3 +15,7 @@ Agendas and issue questions are editorial decisions that affect every candidate,
 ## Changing the schema or the tooling
 
 Add or adjust a rule? Add a failing fixture in `tests/fixtures/invalid/<RULE>.json`. The test suite checks that every rule has one and that each fixture triggers exactly its rule. When the fictional fixture needs to change, edit `tests/fixtures/make-valid-fixture.ts` and regenerate it with `npx tsx tests/fixtures/make-valid-fixture.ts`.
+
+## License of contributions
+
+Code contributions are licensed under the MIT License ([LICENSE](LICENSE)); data and documentation contributions under CC BY 4.0 ([LICENSE-DATA](LICENSE-DATA)). Quoted source material keeps its owners' terms.

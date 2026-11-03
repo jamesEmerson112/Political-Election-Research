@@ -103,8 +103,12 @@
       <span class="eyebrow">Corrections and source</span>
       <p><a href={`${REPO}/issues/new?template=correction.yml`} rel="noopener">Report an error</a> (a GitHub form; it needs a free GitHub account).</p>
       <p>
-        Data and code: <a href={REPO} rel="noopener">GitHub</a>, MIT license. How the research is done:
+        Data and code: <a href={REPO} rel="noopener">GitHub</a>. How the research is done:
         <a href={`${REPO}/blob/main/docs/METHODOLOGY.md`} rel="noopener">methodology</a>.
+      </p>
+      <p>
+        Code: <a href={`${REPO}/blob/main/LICENSE`} rel="noopener">MIT</a>. Data and docs:
+        <a href={`${REPO}/blob/main/LICENSE-DATA`} rel="noopener">CC BY 4.0</a> (credit the project); quoted sources keep their owners' terms.
       </p>
       <p class="muted mono">Build {build.sha ?? "local"} · {build.date}</p>
     </div>

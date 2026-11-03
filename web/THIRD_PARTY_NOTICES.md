@@ -59,3 +59,9 @@ SOFTWARE.
 - Publisher: U.S. Census Bureau (TIGER/Line 2026 shapefiles, block equivalency files, 2020 ZCTA relationship file).
 - Used for: the "My ballot" ZIP and location lookup. The data is simplified and re-encoded by `npm run import:districts`; it is bundled into the page and never sent anywhere.
 - License: public domain, as a work of the U.S. federal government (17 U.S.C. § 105). Provenance, file hashes and verification: `geo/README.md` and `geo/manifest.json`.
+
+## Fonts from Google Fonts: Public Sans, Source Serif 4, IBM Plex Mono (loaded, not bundled)
+
+- Used for: interface text (Public Sans), quotes (Source Serif 4) and monospaced text (IBM Plex Mono); see `web/src/app.css`.
+- The site loads these fonts from Google Fonts (`fonts.googleapis.com`, `fonts.gstatic.com`; see `web/index.html`). It does not bundle them, and the font files are not in this repository.
+- License: each is under the SIL Open Font License, Version 1.1, as its license file in the Google Fonts repository states: [Public Sans](https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/OFL.txt), [Source Serif 4](https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/OFL.txt), [IBM Plex Mono](https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt).

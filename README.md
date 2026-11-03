@@ -94,4 +94,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Found an error? Open a **Correction** is
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+- **Code** (`src/`, `cli/`, `web/`, `tests/`, `schemas/`, scripts and configuration): MIT. See [LICENSE](LICENSE).
+- **Data and docs** (`data/`, `docs/`, `notes/`, this README and the other written content): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE-DATA](LICENSE-DATA). Credit it as: Political Election Research (jamesEmerson112), CC BY 4.0, https://github.com/jamesEmerson112/Political-Election-Research
+- **Quoted sources** keep their owners' terms. The quotes, titles and excerpts from voter guides, government records, news reports and filings are reproduced as citations; CC BY 4.0 covers the project's own compilation, structure and writing, not the quoted texts.
+- **Third-party assets** used by the site (icons, district geometry, fonts): see [web/THIRD_PARTY_NOTICES.md](web/THIRD_PARTY_NOTICES.md).
