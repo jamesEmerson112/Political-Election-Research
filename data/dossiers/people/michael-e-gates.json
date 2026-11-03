@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:michael-e-gates",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "huntington-beach-state-housing-law-litigation",
+        "date": "2024-05",
+        "response": {
+          "summary": "Gates said the city would appeal and that the state was ignoring environmental law to force high-density housing.",
+          "citations": [
+            {
+              "source": "src:laist-com-60ad9ebd44",
+              "quote": "However, Huntington Beach City Attorney Michael Gates said they will mount an appeal."
+            },
+            {
+              "source": "src:courthousenews-com-eacd05915d",
+              "quote": "“The state is proudly trampling CEQA, and saying the environment doesn’t matter, and all that matters is high-density housing along the coast,” Gates said."
+            }
+          ]
+        },
+        "summary": "LAist and Courthouse News reported that in May 2024 a San Diego Superior Court judge ruled that Huntington Beach, whose city attorney was Gates, violated California's Housing Element Law after the state sued the city for refusing to plan for its required housing; Gates argued the state was disregarding the California Environmental Quality Act.",
+        "title": "Huntington Beach's dispute with the state over housing law, led as city attorney (2023–2024)",
+        "citations": [
+          {
+            "source": "src:laist-com-60ad9ebd44",
+            "quote": "A San Diego Superior Court judge has ruled that the city of Huntington Beach violated California’s Housing Element Law."
+          },
+          {
+            "source": "src:courthousenews-com-eacd05915d",
+            "quote": "California sued Surf City for refusing to adopt a state law intended to boost affordable housing as rent and home prices perpetually increase."
+          }
+        ]
+      }
+    ]
+  },
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "fully-enforce-proposition-36",
+        "as_of": "2026-11-03",
+        "issue": "public-safety",
+        "summary": "Says he will fully enforce Proposition 36, the 2024 measure on repeat theft and drug offenses.",
+        "title": "Fully enforce Proposition 36",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Californians voted for Prop. 36 overwhelmingly to restore accountability for repeat theft and drug offenses. I will fully enforce it",
+            "locator": "Candidate statement, p. 88"
+          }
+        ]
+      },
+      {
+        "id": "prosecute-drug-traffickers",
+        "as_of": "2026-11-03",
+        "issue": "public-safety",
+        "summary": "Says he will prosecute drug traffickers, protect victims and help people off the streets and into treatment.",
+        "title": "Prosecute drug traffickers",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I will fully enforce it and will prosecute the traffickers poisoning our communities, protect victims, help people off the streets and into treatment",
+            "locator": "Candidate statement, p. 88"
+          }
+        ]
+      }
+    ]
+  }
+}

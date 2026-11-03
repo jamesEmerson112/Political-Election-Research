@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "courthousenews-com-eacd05915d",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "Courthouse News Service",
+  "title": "Huntington Beach must comply with California housing requirements, judge rules",
+  "url": "https://www.courthousenews.com/huntington-beach-must-comply-with-california-housing-requirements-judge-rules/"
+}
