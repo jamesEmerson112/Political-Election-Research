@@ -1,0 +1,74 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-supervisor-district-4",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Board of Supervisors, District 4",
+  "office": "Member, Board of Supervisors",
+  "candidates": [
+    {
+      "person": "person:albert-chow",
+      "ballot_designation": "Hardware Store Owner",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 4 3 people have qualified for this contest on the November 3, 2026 ballot. Albert Chow Jeremy Julian Greco Alan Wong"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ALBERT CHOW 周紹鋆 Hardware Store Owner",
+          "locator": "page 1, Board of Supervisors, District 4, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-0568db3522",
+          "quote": "Supervisor Alan Wong represents District 4."
+        }
+      ]
+    },
+    {
+      "person": "person:jeremy-julian-greco",
+      "ballot_designation": "Campus Coordinator / Monologist",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 4 3 people have qualified for this contest on the November 3, 2026 ballot. Albert Chow Jeremy Julian Greco Alan Wong"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JEREMY JULIAN GRECO 傑瑞米‧朱利安‧格雷科 Campus Coordinator / Monologist",
+          "locator": "page 1, Board of Supervisors, District 4, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-0568db3522",
+          "quote": "Supervisor Alan Wong represents District 4."
+        }
+      ]
+    },
+    {
+      "person": "person:alan-wong",
+      "ballot_designation": "Appointed Member, Board of Supervisors",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 4 3 people have qualified for this contest on the November 3, 2026 ballot. Albert Chow Jeremy Julian Greco Alan Wong"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ALAN WONG 王兆倫 Appointed Member, Board of Supervisors",
+          "locator": "page 1, Board of Supervisors, District 4, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-0568db3522",
+          "quote": "Supervisor Alan Wong represents District 4."
+        }
+      ]
+    }
+  ],
+  "district": 4,
+  "level": "local",
+  "office_ref": "office:san-francisco-supervisor",
+  "last_verified": "2026-11-03"
+}
