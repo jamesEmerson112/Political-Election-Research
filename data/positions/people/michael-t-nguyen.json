@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:michael-t-nguyen",
+  "positions": [
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Nguyen's campaign site says he supports both Proposition H and the Regional Transit Measure on the November 2026 ballot to fund Muni. At an Aug. 12, 2026 forum he said he supports both measures and also said residents are repeatedly asked to pay more.",
+      "citations": [
+        {
+          "source": "src:michaelnguyen4sf-com-bf56c82bac",
+          "quote": "That takes real operating dollars, which is why I support both Prop H and the Regional Transit Measure this November, to save Muni for everyone who depends on it.",
+          "locator": "Public Transit section"
+        },
+        {
+          "source": "src:ebar-com-6afcceb1dd",
+          "quote": "Moderator Patrick Hoge of the San Francisco Examiner asked if the candidates supported the regional sales tax and the parcel tax measures that are on the November ballot specifically to pay for transportation; and if they passed, which Muni services should be expanded."
+        },
+        {
+          "source": "src:ebar-com-6afcceb1dd",
+          "quote": "Gay candidate Michael Trung Nguyen supports both measures, but expressed frustration that, “Now and every couple of years we’re being nickel and dimed as homeowners, as renters, as small business owners” to pay for more."
+        }
+      ]
+    }
+  ]
+}
