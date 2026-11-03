@@ -3,6 +3,18 @@
   "id": "fiona-ma",
   "name": "Fiona Ma",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Fiona Ma Democratic State Treasurer/CPA",
+          "locator": "page 2, Lieutenant Governor"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q2355703",
