@@ -34,6 +34,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "California State Treasurer",
+      "citations": [
+        {
+          "source": "src:treasurer-ca-gov-d9893dda29",
+          "quote": "Fiona Ma is California’s 34th State Treasurer.",
+          "locator": "page 1"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Fiona Ma Democratic State Treasurer/CPA",
+          "locator": "page 2, Lieutenant Governor (ballot designation, the candidate's self-description)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

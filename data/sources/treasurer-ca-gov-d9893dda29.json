@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "treasurer-ca-gov-d9893dda29",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Treasurer's Office",
+  "title": "Fiona Ma biography",
+  "url": "https://www.treasurer.ca.gov/sites/default/files/2025-12/fiona-ma-bio.pdf"
+}
