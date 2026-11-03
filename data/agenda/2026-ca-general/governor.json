@@ -43,6 +43,27 @@
           "where": "web search (stevehiltonforgovernor.com/congressman-mcclintock-endorses-steve-hilton now redirects to the home page, so the announcement could not be read; no other official endorsement found)"
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/governor|legislation|person:steve-hilton",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton",
+          "where": "Official Voter Information Guide 2026 (vig.cdn.sos.ca.gov), candidate entry; California certified list of candidates (elections.cdn.sos.ca.gov): no elected or legislative office listed"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "biography",
+          "where": "stevehiltonforgovernor.com/meet-steve (campaign biography: senior advisor to Prime Minister David Cameron, Stanford, businesses, Fox News, Golden Together; no legislative office)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton career",
+          "where": "FOX News Channel press release (2017) career summary; Semafor (2023-06-08)"
+        }
+      ]
     }
   ],
   "measures": [
