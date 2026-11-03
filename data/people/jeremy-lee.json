@@ -64,6 +64,25 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Asset Manager, Chinatown Community Development Center",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Asset Manager.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 34 (PDF p. 36)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JEREMY LEE 李銘富 Asset Manager",
+          "locator": "Community College Board Full table (English ballot designation)"
+        },
+        {
+          "source": "src:jeremyleesf-com-e26bd18ff7",
+          "quote": "Jeremy Lee is a third-generation San Franciscan, Asset Manager at Chinatown Community Development Center, and President of the Rose Pak Asian American Club."
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
