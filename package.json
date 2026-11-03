@@ -23,7 +23,8 @@
     "web": "vite --config web/vite.config.ts",
     "web:build": "vite build --config web/vite.config.ts",
     "import:research": "tsx cli/import-research.ts",
-    "import:offices": "tsx cli/import-offices.ts"
+    "import:offices": "tsx cli/import-offices.ts",
+    "import:civlab": "tsx cli/import-civlab.ts"
   },
   "devDependencies": {
     "@lucide/svelte": "1.59.0",

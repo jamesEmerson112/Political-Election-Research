@@ -22,7 +22,7 @@ export function parseArgs(argv = process.argv.slice(2)): Args {
   return { positional, flags };
 }
 
-const VALUE_FLAGS = new Set(["data", "contest", "subject", "file", "today", "through", "top", "limit", "out"]);
+const VALUE_FLAGS = new Set(["data", "contest", "subject", "file", "today", "through", "top", "limit", "out", "save"]);
 
 export function dataDir(args: Args): string {
   const d = args.flags.get("data");
