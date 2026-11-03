@@ -3,6 +3,20 @@
   "actor": "person:xavier-becerra",
   "positions": [
     {
+      "subject": "contest:2026-ca-general/prop-3",
+      "stance": "support",
+      "as_of": "2026-07-31",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Becerra's campaign announced on July 31, 2026 that he endorses Yes on Proposition 3.",
+      "citations": [
+        {
+          "source": "src:xavierbecerra2026-com-b5976f2d59",
+          "quote": "YES on Prop 3: The California Children’s Education and Health Care Protection Act of 2026"
+        }
+      ]
+    },
+    {
       "subject": "q:energy/loosen-oil-production-limits",
       "stance": "no_public_position",
       "as_of": "2026-11-03",
