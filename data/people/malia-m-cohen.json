@@ -5,6 +5,21 @@
   "aliases": [
     "Malia Cohen"
   ],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "San Francisco, California",
+      "citations": [
+        {
+          "source": "src:ftb-ca-gov-50ecd001d4",
+          "quote": "Controller Cohen was born and raised in San Francisco and attended public schools."
+        },
+        {
+          "source": "src:maliacohenforca-com-5cef0562c6",
+          "quote": "Malia was born and raised in San Francisco and attended public schools in the City."
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q13562240",
