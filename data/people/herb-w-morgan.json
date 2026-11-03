@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "herb-w-morgan",
+  "name": "Herb W Morgan",
+  "aliases": [
+    "Herb Morgan"
+  ],
+  "ids": [
+    {
+      "id": "Q141894504",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.herbmorgan.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
