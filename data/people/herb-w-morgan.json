@@ -60,6 +60,26 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Trustee and twice-elected Board Chair, San Diego City Employees' Retirement System (SDCERS) Board (appointed by the Mayor)",
+          "current": false,
+          "jurisdiction": "City of San Diego",
+          "citations": [
+            {
+              "source": "src:herbmorgan-com-f8c71a090c",
+              "quote": "Appointed by Mayor Jerry Sanders to the San Diego City Employees' Retirement System (SDCERS) Board, Herb collaborated closely with fellow trustees to overhaul financial reporting and restore robust corporate governance. He was subsequently elected Board Chair twice by his peer trustees."
+            },
+            {
+              "source": "src:herb-morgan-com-2487996aa3",
+              "quote": "Morgan’s campaign biography says San Diego Mayor Jerry Sanders appointed him to the San Diego City Employees’ Retirement System board and that fellow trustees twice elected him chair."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
