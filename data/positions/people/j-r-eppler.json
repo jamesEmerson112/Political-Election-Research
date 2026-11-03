@@ -64,6 +64,31 @@
           "where": "web search (SF Standard, SF Chronicle, Vote411, Voter's Edge, Potrero View, The Voice SF)"
         }
       ]
+    },
+    {
+      "subject": "q:public-health/end-drug-use-supply-distribution",
+      "stance": "mixed",
+      "as_of": "2026-03-12",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said pipes and foil can play a role in protecting public health and that he would change the city's policies to tie distribution to services. He said programs that are not reducing harm or are contributing to disorder should be adjusted or discontinued.",
+      "citations": [
+        {
+          "source": "src:growsf-org-2bfee09a33",
+          "quote": "I would support changing the City’s harm reduction policies to ensure they are more tightly connected to services and held accountable for their impact on surrounding communities.",
+          "locator": "answer to \"Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?\" (Substance Abuse section)"
+        },
+        {
+          "source": "src:growsf-org-2bfee09a33",
+          "quote": "Harm reduction tools like pipes and foil can play a role in protecting public health by preventing injuries and the spread of disease.",
+          "locator": "answer to \"Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?\" (Substance Abuse section)"
+        },
+        {
+          "source": "src:growsf-org-2bfee09a33",
+          "quote": "Programs should be regularly evaluated, and if they are not reducing harm or are contributing to disorder, they should be adjusted or discontinued.",
+          "locator": "answer to \"Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?\" (Substance Abuse section)"
+        }
+      ]
     }
   ]
 }
