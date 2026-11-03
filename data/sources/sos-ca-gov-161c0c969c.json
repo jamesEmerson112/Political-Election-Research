@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sos-ca-gov-161c0c969c",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Secretary of State",
+  "title": "About Shirley N. Weber, Ph.D.",
+  "url": "https://www.sos.ca.gov/administration/about",
+  "notes": "Official biography page of the sitting Secretary of State on sos.ca.gov; opened with tools/research/fetch-text.mjs on 2026-11-03. No publication date shown on the page. Not archived: web.archive.org was unreachable from the research environment."
+}
