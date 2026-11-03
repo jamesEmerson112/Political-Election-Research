@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "pearci-pj-bastiany-iii",
+  "name": "Pearci \"PJ\" Bastiany III",
+  "aliases": [
+    "Pearci “PJ” Bastiany"
+  ],
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
