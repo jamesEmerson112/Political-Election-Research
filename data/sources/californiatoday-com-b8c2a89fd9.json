@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "californiatoday-com-b8c2a89fd9",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-11-03",
+  "publisher": "California Today",
+  "title": "2026 California Governor Race breakdown: Becerra vs. Hilton on taxes, housing and homelessness, and the 14 propositions",
+  "url": "https://californiatoday.com/guides/elections/2026-california-governor-race-becerra-vs-hilton/"
+}

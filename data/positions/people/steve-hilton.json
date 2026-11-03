@@ -3,6 +3,24 @@
   "actor": "person:steve-hilton",
   "positions": [
     {
+      "subject": "contest:2026-ca-general/prop-3",
+      "stance": "oppose",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "California Today reported that Hilton posted his completed ballot on X on Oct. 19, 2026, marking no on Proposition 3.",
+      "citations": [
+        {
+          "source": "src:californiatoday-com-b8c2a89fd9",
+          "quote": "Hilton posted his completed ballot on X on the evening of October 19. He marked no on 1, 2, 3, 4, 5, 37, 40 and 44 and yes on 38, 39, 41, 42 and 43."
+        },
+        {
+          "source": "src:californiatoday-com-b8c2a89fd9",
+          "quote": "Proposition 3, the \"millionaire tax\": Becerra yes, Hilton no."
+        }
+      ]
+    },
+    {
       "subject": "q:energy/loosen-oil-production-limits",
       "stance": "support",
       "as_of": "2026-11-03",
