@@ -8,7 +8,7 @@
  * one task at a time: validate, then one commit per task. Agents never touch data/.
  *
  *   npx tsx tools/research/run.mts packages --layer <L0|L1|L2|L3|L4|R> --contests <id,...> --root <dir>
- *                                            [--lenses a,b] [--max-tasks 24] [--kinds k1,k2]
+ *                                            [--lenses a,b] [--max-tasks 24] [--kinds k1,k2] [--brief "<notes>"]
  *   npx tsx tools/research/run.mts packages --custom <file.json> --root <dir>
  *   npx tsx tools/research/run.mts put <run> <task id> <kind|src> [--merge|--replace] [--file rec.json]
  *   npx tsx tools/research/run.mts check <run>... [--json]
@@ -112,7 +112,7 @@ function positionals(): string[] {
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]!;
     if (a.startsWith("--")) {
-      if (["layer", "contests", "root", "lenses", "max-tasks", "kinds", "custom", "file", "trailers", "roots"].includes(a.slice(2))) i++;
+      if (["layer", "contests", "root", "lenses", "max-tasks", "kinds", "custom", "file", "trailers", "roots", "brief"].includes(a.slice(2))) i++;
       continue;
     }
     out.push(a);
@@ -259,7 +259,8 @@ function cmdPackages() {
       cur.n++;
       cur.tasks += g.tasks.length;
       const tasks: PkgTask[] = g.tasks.map((t) => ({ ...t }) as unknown as PkgTask);
-      out.push(makeRun(root, { id, layer, contest: g.contest, subjects: g.subjects, judge_group: `${layer}-${String(gi).padStart(3, "0")}--${flat(g.contest)}`, lenses, tasks }, head));
+      const brief = flag("brief");
+      out.push(makeRun(root, { id, layer, contest: g.contest, subjects: g.subjects, judge_group: `${layer}-${String(gi).padStart(3, "0")}--${flat(g.contest)}`, lenses, tasks, ...(brief ? { brief } : {}) }, head));
     }
     if (dropped) console.error(`${dropped} blocked task(s) left out (their blocker is not in the same package).`);
   }
