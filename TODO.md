@@ -16,7 +16,69 @@
   - `npm run web`
 - Batch formats: `docs/RESEARCH_BATCH_FORMAT.md`, `docs/OFFICE_BATCH_FORMAT.md`.
 - Maintainer's verified CA-11 notes: `notes/2026-11-02-ca-11.md`.
-- Current state: 64 contest agendas, 13 offices (3 with connections: SF Supervisor and U.S. Rep from CivLab, State Senator from primary sources), 809 unverified leads. Validate: 0 errors; warnings: 93 quote pending, 144 unverified citations, 83 not archived, 1 orphan source.
+- Current state (2026-11-03 evening): 71 contest agendas (64 statewide/House + SF Board of Education, City College board, Supervisor D2/4/6/8/10), 10 SF measure records (Props A–J) and the SF budget, 15 offices, 1,163 unverified leads, 124 sources. Validate: 0 errors; warnings: 167 unverified citations, 124 not archived, 99 quote pending, 5 orphan sources.
+
+## Revisit (list from 2026-11-03 evening)
+
+### Decisions for the maintainer
+- **Draft question sets for the SF races:**
+  - Board of Education (7), City College (6) and Supervisors (8).
+  - They are in the agents' reports, not on the agendas yet; stance research waits for approval.
+- **Bill policy areas:** immigration legal services → Civil rights; Alexandria Theater Special Use District → Other. Confirm both.
+- **Promises with no matching issue:** childcare, paid family leave, free community college, the stock-trading ban, campaign-finance reform. Add Education and Government issue groups?
+- **SB 1074:** "BASED Act" appears in no official record; rename to the official subject ("self-preferencing conduct")?
+- **STAR sentence length:** past-policy sentences run 45–67 words. Keep, or move votes and dates into the expanded view?
+- **City College:** add the separate partial-term contest (Ruth Ferguson)?
+- **Measure conflicts:** A/F and I/C/J were treated as partial ("both take effect; one prevails where provisions conflict"). Confirm.
+- **Budget forecast:**
+  - FY2026-27 was dropped.
+  - The March 2026 Budget Outlook Update (cumulative shortfalls, made before the budget was adopted) is used for FY2027-28 to FY2029-30. Confirm the framing.
+- **Money each candidate introduced:** keep "voted for" separate from "introduced / sponsored"?
+- **Budget chart option 3:** General Fund by service area, from the adopted ordinance (not started).
+
+### Data to verify
+- **CA-11 ballot statements** (the pamphlet is now downloaded): check word for word "fully funded Free City College", the Muni/BART/Caltrain claim, and who wrote the "$35 insulin" line.
+- **SF local candidates** (Board of Education, City College, Supervisors; 39 in all):
+  - check against the official list on sf.gov (now reachable);
+  - resolve name variants;
+  - add ballot designations.
+- **Verification pass on the warnings:**
+  - 167 unverified citations (office facts, CivLab counts, State Senate);
+  - 99 citations that still need an exact quote (the maintainer's CA-11 notes);
+  - 1,163 unverified leads.
+- **Archives:** 124 sources lack Wayback snapshots (web.archive.org is blocked); `validate --strict` fails until they're added.
+- **State Senate:**
+  - term-limit date conflict (after June 7, 2011 vs after June 2012);
+  - salary figure is the 2013-14 rate;
+  - senate.ca.gov is reachable now.
+- **Primary legal texts still blocked:** SF Charter (codelibrary.amlegal.com), constitution.congress.gov, www.house.gov.
+- **SF measures:**
+  - Prop G: a possible missing effect (Upper Great Highway signal replacement).
+  - Prop J: the statement doesn't name the General Fund (classified as general_fund by rule).
+  - Prop I: the House SF Fund is about $119M net vs $120M recorded.
+
+### In progress (2026-11-03)
+- **Ballot arguments for Props A–J:** extraction running, then a verbatim check (`scratchpad/tools/write_sf_arguments.ts`) and import.
+- **Budget meter:** the bridge (waterfall) chart plus a numbers-first gap line.
+- **Tonight's impact-research run:**
+  - finish the design;
+  - add the impact data fields;
+  - save the overnight workflow under `.claude/workflows/` before bedtime.
+
+### Features not finished
+- **"My ballot":**
+  - SF supervisor districts by ZIP or location (DataSF is now reachable);
+  - a county layer;
+  - BOE location lookup stays pick-only until wedrawthelines.ca.gov is allowed.
+- **Supervisor races:** a `voting_method` field (ranked choice), and showing `vote_for` (seats) in the site and SQLite.
+- **Election results (today is election day):** add certified results, and a "measures that passed" mode for the trial ballot.
+
+### Housekeeping
+- **Site size:** the single-file site is over 3.1 MB, and the arguments will add more. Load contests on demand.
+- **Hosting:** move to GitHub Pages so "Use my location" works (the private preview can't grant location) and the site has a shareable URL.
+- **Disk:** delete the 10 old agent worktrees in `.claude/worktrees` (3.1 GB, including the 1.5 GB geo cache).
+- **Docs:** update the README status table.
+- **CI:** confirm the GitHub check is green after today's pushes.
 
 ## Priority (maintainer, 2026-11-03): San Francisco first
 - Do San Francisco-area contests and candidates first; the rest of California comes later.
