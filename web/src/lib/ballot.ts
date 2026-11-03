@@ -124,6 +124,8 @@ export function placeContest(contestRef: string, officeRef?: string | null, kind
   const [election = "", slug = ""] = id.split("/");
   const state = election.split("-")[1] ?? "";
   if (state !== BALLOT_STATE) return { scope: "unmatched", reason: "Not a California contest" };
+  // Special districts (BART) have no district layer here yet; the voter's sample ballot shows theirs.
+  if (/^bart-board-district-\d+$/.test(slug)) return { scope: "unmatched", reason: "BART districts aren't placed yet" };
 
   if (kind === "measure" || /^prop-\d+$/.test(slug) || /-prop-[a-z0-9]+$/.test(slug)) {
     if (/^prop-\d+$/.test(slug)) return { scope: "statewide" };

@@ -30,8 +30,9 @@ describe("placeContest on the real 2026 agendas", () => {
   const all = agendas(path.join(DEFAULT_DATA_DIR, "agenda", "2026-ca-general"));
   const placed = all.map((a) => ({ a, p: placeContest(a.contest, a.office_ref, a.kind) }));
 
-  it("places every contest: 8 statewide, 4 BOE, 52 House, SF supervisor districts", () => {
-    expect(placed.filter(({ p }) => p.scope === "unmatched")).toEqual([]);
+  it("places every contest: 8 statewide, 4 BOE, 52 House, SF supervisor and Assembly districts", () => {
+    // Only special districts (BART) are left for the voter's sample ballot.
+    expect(placed.filter(({ a, p }) => p.scope === "unmatched" && !/\/bart-board-district-\d+$/.test(a.contest))).toEqual([]);
     expect(placed.filter(({ p }) => p.scope === "statewide")).toHaveLength(8);
     const nums = (kind: string) =>
       placed
@@ -42,12 +43,14 @@ describe("placeContest on the real 2026 agendas", () => {
     expect(nums("boe")).toEqual([1, 2, 3, 4]);
     expect(nums("cd")).toEqual(Array.from({ length: 52 }, (_, i) => i + 1));
     expect(nums("sfsup")).toEqual([2, 4, 6, 8, 10]);
+    expect(nums("ad")).toEqual([17, 19]);
+    expect(placeContest("contest:2026-ca-general/bart-board-district-8")).toEqual({ scope: "unmatched", reason: "BART districts aren't placed yet" });
   });
 
   it("uses the number in the contest id", () => {
     for (const { a, p } of placed) {
       const m = /-(\d+)$/.exec(a.contest);
-      if (m) expect(p).toMatchObject({ scope: "district", n: Number(m[1]) });
+      if (m && !/\/bart-board-district-/.test(a.contest)) expect(p).toMatchObject({ scope: "district", n: Number(m[1]) });
     }
   });
 });
