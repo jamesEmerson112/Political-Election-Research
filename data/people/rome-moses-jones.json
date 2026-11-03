@@ -3,6 +3,54 @@
   "id": "rome-moses-jones",
   "name": "Rome Moses Jones",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones party registration",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Community College Board, printed p. 32"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones party registration",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones party registration",
+          "where": "No campaign website found (none in the VIP statement or League questionnaire, which lists the website as N/A)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones party registration",
+          "where": "GrowSF Community College Board guide (growsf.org): 'Contact information unavailable', no questionnaire"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones party registration",
+          "where": "SF League of Pissed Off Voters questionnaire, Rome Jones (assets.nationbuilder.com)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones party registration",
+          "where": "The Guardsman candidate profile of Rome Moses Jones (Sep. 8, 2026)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones party registration",
+          "where": "Bay Area Reporter editorial 'An LGBTQ slate for City College board' (ebar.com/story/170122, Sep. 9, 2026)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Rome Moses Jones\" City College board",
+          "where": "Web search (news): candidate name with City College board / trustee"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
