@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mano-raju",
+  "name": "Mano Raju",
+  "aliases": [
+    "Manohar Raju"
+  ],
+  "ids": [
+    {
+      "id": "Q111457810",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "official_site": "https://sfpublicdefender.org/personnel/mano-raju/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
