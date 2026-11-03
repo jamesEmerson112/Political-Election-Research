@@ -8,7 +8,7 @@
  * one task at a time: validate, then one commit per task. Agents never touch data/.
  *
  *   npx tsx tools/research/run.mts packages --layer <L0|L1|L2|L3|L4|R> --contests <id,...> --root <dir>
- *                                            [--lenses a,b] [--max-tasks 24] [--kinds k1,k2] [--brief "<notes>"]
+ *                                            [--lenses a,b] [--max-tasks 24] [--kinds k1,k2] [--brief "<notes>"] [--per-package N]
  *   npx tsx tools/research/run.mts packages --custom <file.json> --root <dir>
  *   npx tsx tools/research/run.mts put <run> <task id> <kind|src> [--merge|--replace] [--file rec.json]
  *   npx tsx tools/research/run.mts check <run>... [--json]
@@ -112,7 +112,7 @@ function positionals(): string[] {
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]!;
     if (a.startsWith("--")) {
-      if (["layer", "contests", "root", "lenses", "max-tasks", "kinds", "custom", "file", "trailers", "roots", "brief"].includes(a.slice(2))) i++;
+      if (["layer", "contests", "root", "lenses", "max-tasks", "kinds", "custom", "file", "trailers", "roots", "brief", "per-package"].includes(a.slice(2))) i++;
       continue;
     }
     out.push(a);
@@ -203,6 +203,7 @@ function cmdPackages() {
     const kinds = new Set(flag("kinds")?.split(",") ?? LAYER_KINDS[layer] ?? die(`unknown layer ${layer}`));
     const lenses = flag("lenses")?.split(",") ?? DEFAULT_LENSES[layer]!;
     const maxTasks = Number(flag("max-tasks") ?? 24);
+    const perPackage = Math.max(1, Number(flag("per-package") ?? 1));
     const res = validateFiles(readDataDir(DATA), { dataDir: DATA });
     if (res.errors) die(`data/ has ${res.errors} validation error(s)`);
     const hasPerson = (s?: string) => !s || !s.startsWith("person:") || res.dataset.people.has(s.slice("person:".length));
@@ -235,6 +236,10 @@ function cmdPackages() {
         } else if (kind === "dossier" && t.item === "controversies") {
           const chunk = Math.floor(people.indexOf(t.subject!) / 4);
           add(`${layer}--${flat(cid)}--controversies-${chunk + 1}`, contest, t, people.slice(chunk * 4, chunk * 4 + 4));
+        } else if (t.subject && perPackage > 1) {
+          // Several candidates per package (fewer agents): chunks in agenda order.
+          const chunk = Math.floor(people.indexOf(t.subject) / perPackage);
+          add(`${layer}--${flat(cid)}--people-${chunk + 1}`, contest, t, people.slice(chunk * perPackage, chunk * perPackage + perPackage));
         } else if (t.subject) add(`${layer}--${flat(cid)}--${flat(t.subject)}`, contest, t, [t.subject]);
         else add(`${layer}--${flat(cid)}`, contest, t, people);
       }
