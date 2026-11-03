@@ -769,7 +769,10 @@ function cmdVerdicts() {
       continue;
     }
     for (const r of res.runs) {
-      const run = roots.map((root) => path.join(root, r.package)).find((d) => fs.existsSync(path.join(d, "pkg.json")));
+      // The same package id can exist under several roots (a re-packaged copy); prefer the one with writes.
+      const candidates = roots.map((root) => path.join(root, r.package)).filter((d) => fs.existsSync(path.join(d, "pkg.json")));
+      const run = candidates.find((d) => loadLog(d).length > 0) ?? candidates[0];
+      if (candidates.length > 1) problems.push(`${label}: ${r.package} exists under ${candidates.length} roots; used ${run}`);
       if (!run) {
         problems.push(`${label}: no run directory for ${r.package}`);
         continue;
