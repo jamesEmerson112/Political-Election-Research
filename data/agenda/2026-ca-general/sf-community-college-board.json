@@ -36,6 +36,49 @@
       "name": "Lisa P Wynn II"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/sf-community-college-board|endorsements|person:rome-moses-jones",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones endorsements",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet, Rome Moses Jones candidate statement, printed p. 32: no endorsements listed"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "endorsements",
+          "where": "SF League of Pissed Off Voters questionnaire, Rome Jones: answer to 'What three endorsements are you most proud of?' is 'I do not have any yet'"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones campaign website endorsements",
+          "where": "No campaign website found (League questionnaire lists website as N/A)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones",
+          "where": "GrowSF Community College Board guide: recommends other candidates; Jones listed with 'Contact information unavailable'"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "College Board endorsements",
+          "where": "SF Green Party November 2026 final endorsements (sfgreenparty.org); San Francisco Democratic Party endorsements page (sfdemocrats.org, Nov. 2026 guide URL not reachable)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Rome Moses Jones endorsement",
+          "where": "Bay Area Reporter editorial (ebar.com/story/170122); SFist Oct. 8, 2026 race article; The Guardsman Sep. 8, 2026 profile"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Rome Moses Jones\" City College board",
+          "where": "Web search (news)"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:sfccd-board-of-trustees-member",
   "questions": [],
