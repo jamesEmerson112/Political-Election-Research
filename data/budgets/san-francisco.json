@@ -31,6 +31,7 @@
     }
   ],
   "forecast": {
+    "cumulative": true,
     "published": "2026-03-31",
     "publisher": "City and County of San Francisco: Controller (Greg Wagner), Mayor's Budget Director (Sophia Kittler), Board of Supervisors Budget & Legislative Analyst (Dan Goncher)",
     "title": "Budget Outlook Update (March Five-Year Update)",
