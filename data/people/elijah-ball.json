@@ -60,6 +60,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "College Campus Planner",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is College Campus Planner.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 32 (PDF p. 34)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ELIJAH BALL 伊利亞‧鮑爾 College Campus Planner",
+          "locator": "Community College Board Full table (English ballot designation)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
