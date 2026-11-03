@@ -40,6 +40,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Grew up in California Senate District 24 (place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:sd24-senate-ca-gov-f190ced18e",
+          "quote": "Ben grew up in the 24th Senate District and attended public schools, graduating from Santa Monica High School in 1996."
+        }
+      ]
+    },
     "career": {
       "as_of": "2026-11-03",
       "items": [
