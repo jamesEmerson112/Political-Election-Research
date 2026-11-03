@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "theguardsman-com-f75849fe7a",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-09-22",
+  "publisher": "The Guardsman",
+  "title": "'Live within their means': Trustee candidate Monroe Lace pledges to be fiscal watchdog",
+  "url": "https://www.theguardsman.com/city-college-needs-to-live-within-their-means-fiscal-watchdog-trustee-candidate-monroe-lace/"
+}

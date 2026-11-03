@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "theguardsman-com-013dc55584",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-20",
+  "publisher": "The Guardsman",
+  "title": "Trustee Candidate Lisa Wynn Calls for Career Pathways, Budget Accountability at City College",
+  "url": "https://www.theguardsman.com/trustee-candidate-lisa-wynn-calls-for-career-pathways-budget-accountability-at-city-college/"
+}

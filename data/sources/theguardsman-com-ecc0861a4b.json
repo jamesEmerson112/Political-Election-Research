@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "theguardsman-com-ecc0861a4b",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-09-11",
+  "publisher": "The Guardsman",
+  "title": "A Housing Advocate's Bid to Keep City College Free",
+  "url": "https://www.theguardsman.com/bot2026-candidate-jeremy-lee/"
+}

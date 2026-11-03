@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "theguardsman-com-db1686e37e",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-08",
+  "publisher": "The Guardsman",
+  "title": "Trustee Candidate Erwin Tam Is Ready to Crunch the Numbers",
+  "url": "https://www.theguardsman.com/trustee-candidate-erwin-tam-is-ready-to-crunch-the-numbers/"
+}
