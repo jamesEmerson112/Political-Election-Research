@@ -65,6 +65,26 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Degree in economics and environmental science",
+          "institution": "University of California, Berkeley",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-db1686e37e",
+              "quote": "Tam’s father attended City College for two years before transferring to University of California, Berkeley, where the younger Tam also graduated with a degree in economics and environmental science."
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "That let them put me through Berkeley",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 35 (PDF p. 37)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Municipal Financial Advisor (The Guardsman reported in October 2026 that he is director of finance for the California Housing Finance Agency)",
       "citations": [
