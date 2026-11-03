@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-republican-party--person.michael-e-gates--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:michael-e-gates",
+  "endorser": "org:california-republican-party",
+  "citations": [
+    {
+      "source": "src:cagop-org-2ab566d531",
+      "quote": "ATTORNEY GENERAL: MICHAEL GATES",
+      "locator": "2026 CRP Endorsements, Statewide"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
