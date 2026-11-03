@@ -138,6 +138,21 @@
           ]
         }
       ]
+    },
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Malia M. Cohen* Democratic",
+          "locator": "PDF page 2 (list page 1 of 41), Controller: party preference"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Malia M. Cohen | DEMOCRATIC",
+          "locator": "Candidate Statements, page 86 (PDF page 86), Controller"
+        }
+      ]
     }
   },
   "ids": [
