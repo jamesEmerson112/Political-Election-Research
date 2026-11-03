@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "data-sfgov-org-e3714bfb00",
+  "kind": "campaign_finance_filing",
+  "accessed": "2026-11-03",
+  "filing": {
+    "filer_id": "1495068",
+    "filing_id": "217693151",
+    "form": "460",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-20"
+    },
+    "system": "other"
+  },
+  "published": "2026-10-21",
+  "publisher": "San Francisco Ethics Commission (Campaign Finance - Transactions, DataSF pitq-e56w)",
+  "title": "Form 460, Bunny Mc Fadden for City College Board 2026, 2026-09-20 to 2026-10-17 (FiledOriginal, filing 217693151)",
+  "url": "https://data.sfgov.org/resource/pitq-e56w.json?filing_id_number=217693151&$limit=1000",
+  "notes": "Itemized transactions of this filing as published by the San Francisco Ethics Commission on DataSF; filer_nid 217230804."
+}

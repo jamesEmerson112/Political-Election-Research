@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "data-sfgov-org-32b147362d",
+  "kind": "campaign_finance_filing",
+  "accessed": "2026-11-03",
+  "filing": {
+    "filer_id": "1495277",
+    "filing_id": "217517872",
+    "form": "460",
+    "period": {
+      "end": "2026-09-19",
+      "start": "2026-01-01"
+    },
+    "system": "other"
+  },
+  "published": "2026-09-24",
+  "publisher": "San Francisco Ethics Commission (Campaign Finance - Transactions, DataSF pitq-e56w)",
+  "title": "Form 460, Jeremy Lee for City College Board 2026, 2026-01-01 to 2026-09-19 (FiledOriginal, filing 217517872)",
+  "url": "https://data.sfgov.org/resource/pitq-e56w.json?filing_id_number=217517872&$limit=1000",
+  "notes": "Itemized transactions of this filing as published by the San Francisco Ethics Commission on DataSF; filer_nid 217234321."
+}

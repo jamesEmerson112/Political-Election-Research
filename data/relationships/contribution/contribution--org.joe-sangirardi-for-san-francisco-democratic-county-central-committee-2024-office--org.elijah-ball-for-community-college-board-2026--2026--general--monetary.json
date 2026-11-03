@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.joe-sangirardi-for-san-francisco-democratic-county-central-committee-2024-office--org.elijah-ball-for-community-college-board-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:joe-sangirardi-for-san-francisco-democratic-county-central-committee-2024-office",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 50000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-28",
+      "start": "2026-01-01"
+    }
+  },
+  "recipient": "org:elijah-ball-for-community-college-board-2026",
+  "citations": [
+    {
+      "source": "src:data-sfgov-org-38d52058ed",
+      "locator": "Schedule A, transaction FwFJyl4nLDzQ (2026-08-30, $500.00)"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
