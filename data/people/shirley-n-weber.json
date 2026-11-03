@@ -15,6 +15,56 @@
           "quote": "Born in segregated, Jim Crow-era Arkansas in 1948"
         }
       ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "California Secretary of State",
+          "current": true,
+          "jurisdiction": "California",
+          "office_ref": "office:california-secretary-of-state",
+          "start": "2021-01-29",
+          "citations": [
+            {
+              "source": "src:sos-ca-gov-161c0c969c",
+              "quote": "Shirley Nash Weber, Ph.D., was nominated to serve as California Secretary of State by Governor Gavin Newsom on December 22, 2020 and sworn into office on January 29, 2021. Voters elected her for a full term on November 8, 2022.",
+              "locator": "Biography"
+            }
+          ]
+        },
+        {
+          "office": "Member, California State Assembly, 79th District",
+          "current": false,
+          "first_elected": "2012",
+          "jurisdiction": "California Assembly District 79",
+          "office_ref": "office:california-assembly-member",
+          "citations": [
+            {
+              "source": "src:exhibits-sos-ca-gov-04c8e58cea",
+              "quote": "In 2012, Dr. Weber was elected to the California State Assembly, representing Assembly District 79."
+            },
+            {
+              "source": "src:sos-ca-gov-161c0c969c",
+              "quote": "Before her appointment, Dr. Weber served four terms as an Assemblymember representing California's 79th Assembly District",
+              "locator": "Biography"
+            }
+          ]
+        },
+        {
+          "office": "Member, San Diego Board of Education",
+          "current": false,
+          "end": "1996",
+          "jurisdiction": "San Diego Unified School District",
+          "start": "1988",
+          "citations": [
+            {
+              "source": "src:gov-ca-gov-aeea7b4fd9",
+              "quote": "She served as a member of the San Diego Board of Education from 1988 to 1996, including a stint as president."
+            }
+          ]
+        }
+      ]
     }
   },
   "ids": [
