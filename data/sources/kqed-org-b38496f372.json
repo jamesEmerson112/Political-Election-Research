@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-b38496f372",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2023-09-06",
+  "publisher": "KQED",
+  "title": "Judge Halts Southern California School District's Transgender Outing Policy",
+  "url": "https://www.kqed.org/news/11960202/judge-halts-district-policy-that-notified-parents-when-kids-change-pronouns"
+}

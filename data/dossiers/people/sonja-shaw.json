@@ -1,0 +1,99 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:sonja-shaw",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "chino-valley-gender-identity-disclosure-policy-lawsuit",
+        "date": "2023-08",
+        "resolution": {
+          "date": "2024-09-11",
+          "summary": "The district voted to rescind the policy on March 7, 2024; in September 2024 the court permanently enjoined it and declared it violated the state constitution's equal protection clause, according to the Attorney General's office.",
+          "citations": [
+            {
+              "source": "src:oag-ca-gov-d333bf9678",
+              "quote": "While the District voted to rescind the forced outing policy on March 7, 2024, in response to the San Bernardino County Superior Court’s preliminary injunction order"
+            },
+            {
+              "source": "src:oag-ca-gov-d333bf9678",
+              "quote": "Declares that the Board’s forced outing policy violated the Equal Protection Clause of California's Constitution, Education Code section 220, and Government section 11135 by discriminating against transgender and gender nonconforming students, a ruling consistent with the previously obtained preliminary injunction."
+            }
+          ]
+        },
+        "response": {
+          "summary": "Shaw told KQED she was disappointed by the 2023 ruling, and said parents feel state officials are limiting their involvement in their children's education.",
+          "citations": [
+            {
+              "source": "src:kqed-org-b38496f372",
+              "quote": "Sonja Shaw, president of the Chino Valley Unified Board of Education, said she was disappointed by the ruling but hopes the case will bring attention to the issue."
+            },
+            {
+              "source": "src:kqed-org-b38496f372",
+              "quote": "“I don’t understand why they are so gung ho on this issue, but everything else we have to inform the parents about,” Shaw said. “There is obviously an issue and parents are concerned.”"
+            }
+          ]
+        },
+        "summary": "KQED reported that the Chino Valley Unified board, of which Shaw is president, adopted a policy in 2023 requiring schools to tell parents when students change pronouns or use facilities of another gender. The Attorney General sued in August 2023; the San Bernardino Superior Court issued a preliminary injunction in October 2023, the district rescinded the policy in March 2024, and the court granted a permanent injunction and declaratory relief in September 2024, the Attorney General's office said.",
+        "title": "Chino Valley Unified gender identity disclosure policy and state lawsuit (2023–2024)",
+        "citations": [
+          {
+            "source": "src:kqed-org-b38496f372",
+            "quote": "San Bernardino County Superior Court Judge Thomas S. Garza ruled after California Attorney General Rob Bonta sued the Chino Valley Unified School District for adopting a policy requiring schools to tell parents when their children change their pronouns or use a bathroom of a gender other than the one listed on their official paperwork."
+          },
+          {
+            "source": "src:oag-ca-gov-d333bf9678",
+            "quote": "In August 2023, Attorney General Bonta announced a lawsuit challenging the enforcement of Policy 5020.1, asserting it violated several state protections safeguarding students’ civil and constitutional rights."
+          }
+        ]
+      }
+    ]
+  },
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "restore-academic-standards-reading-writing-math",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Plans to restore high academic standards in reading, writing and math.",
+        "title": "Restore high academic standards in reading, writing and math",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "My plan is simple: restore high academic standards in reading, writing, and math; protect Title IX, ensuring fairness and safety for girls; cut wasteful bureaucracy; and demand fiscal transparency to ensure money reaches classrooms where it belongs",
+            "locator": "Candidate statement, p. 95"
+          }
+        ]
+      },
+      {
+        "id": "title-ix-girls-sports-and-private-spaces",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Plans to “protect Title IX, ensuring fairness and safety for girls,” including in sports and locker rooms.",
+        "title": "Title IX: girls' sports and private spaces",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "My plan is simple: restore high academic standards in reading, writing, and math; protect Title IX, ensuring fairness and safety for girls; cut wasteful bureaucracy; and demand fiscal transparency to ensure money reaches classrooms where it belongs",
+            "locator": "Candidate statement, p. 95"
+          }
+        ]
+      },
+      {
+        "id": "cut-bureaucracy-fiscal-transparency",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Plans to cut bureaucracy and demand fiscal transparency so money reaches classrooms.",
+        "title": "Cut bureaucracy and require fiscal transparency",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "My plan is simple: restore high academic standards in reading, writing, and math; protect Title IX, ensuring fairness and safety for girls; cut wasteful bureaucracy; and demand fiscal transparency to ensure money reaches classrooms where it belongs",
+            "locator": "Candidate statement, p. 95"
+          }
+        ]
+      }
+    ]
+  }
+}
