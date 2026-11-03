@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "votedarshini-com-5d8ff2361a",
+  "kind": "candidate_website",
+  "accessed": "2026-11-03",
+  "publisher": "Darshini Patel for Supervisor 2026",
+  "title": "Propositions Nov 2026 | Darshini for District 8",
+  "url": "https://votedarshini.com/platform/local-propositions"
+}

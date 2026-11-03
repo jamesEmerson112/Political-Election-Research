@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:darshini-patel",
+  "positions": [
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Patel's campaign site lists her vote as Yes on Proposition H, the parcel tax to fund Muni operations, and says she will campaign for the Muni funding measures on the November 2026 ballot.",
+      "citations": [
+        {
+          "source": "src:votedarshini-com-5d8ff2361a",
+          "quote": "Proposition H:\nParcel Tax to Fund Public Muni Operations\nYES",
+          "locator": "San Francisco propositions list"
+        },
+        {
+          "source": "src:votedarshini-com-4a3a35b113",
+          "quote": "Muni needs more money and better accountability. A $307 million fiscal cliff threatens routes across the city, and ballot measures this November will determine whether service survives. I'll campaign for that funding, because losing service is not an option.",
+          "locator": "Save Muni and Demand the Receipts"
+        }
+      ]
+    }
+  ]
+}
