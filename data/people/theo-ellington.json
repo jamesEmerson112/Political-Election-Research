@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "theo-ellington",
+  "name": "Theo Ellington",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.theoellington.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
