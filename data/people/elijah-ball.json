@@ -60,6 +60,33 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Bachelor's degree, Urban Studies and Planning and Geography",
+          "institution": "San Francisco State University",
+          "citations": [
+            {
+              "source": "src:growsf-org-b605efb9fd",
+              "quote": "I earned a bachelor's degree in Urban Studies and Planning and Geography from San Francisco State University and a Master of Landscape Architecture from Cornell University",
+              "locator": "Personal: What is your professional background?"
+            }
+          ]
+        },
+        {
+          "degree": "Master of Landscape Architecture",
+          "institution": "Cornell University",
+          "citations": [
+            {
+              "source": "src:growsf-org-b605efb9fd",
+              "quote": "a Master of Landscape Architecture from Cornell University",
+              "locator": "Personal: What is your professional background?"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "College Campus Planner",
       "citations": [
