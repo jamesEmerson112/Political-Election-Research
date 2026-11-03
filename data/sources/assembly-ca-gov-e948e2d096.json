@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "assembly-ca-gov-e948e2d096",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Assembly",
+  "title": "Assembly Member Haney",
+  "url": "https://www.assembly.ca.gov/assemblymembers/17"
+}

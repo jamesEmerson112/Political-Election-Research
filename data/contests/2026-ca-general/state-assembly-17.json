@@ -1,0 +1,60 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/state-assembly-17",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "State Assembly Member, District 17",
+  "office": "State Assembly Member",
+  "candidates": [
+    {
+      "person": "person:matt-haney",
+      "ballot_designation": "Assemblymember",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "State Assembly Member District 17 Matt Haney* Democratic Assemblymember",
+          "locator": "PDF page 21 (list page 20 of 41), State Assembly Member District 17"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 21 (list page 20 of 41), key at the foot of the page; an asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:assembly-ca-gov-e948e2d096",
+          "quote": "Matt Haney District: 17 Party: Democrat",
+          "locator": "Member page header for Assembly District 17"
+        }
+      ]
+    },
+    {
+      "person": "person:manuel-noris-barrera",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Manuel Noris-Barrera Republican No Ballot Designation",
+          "locator": "PDF page 21 (list page 20 of 41), State Assembly Member District 17; the list prints \"No Ballot Designation\", recorded as an empty designation"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 21 (list page 20 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:assembly-ca-gov-e948e2d096",
+          "quote": "Matt Haney District: 17 Party: Democrat",
+          "locator": "Member page header: the current holder of Assembly District 17 is another person"
+        }
+      ]
+    }
+  ],
+  "district": 17,
+  "level": "state",
+  "office_ref": "office:california-assembly-member",
+  "last_verified": "2026-11-03"
+}
