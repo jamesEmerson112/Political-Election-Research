@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:jessica-pessecow",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "no_public_position",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "candidate statement: zoning, height, density, rent control",
+          "where": "SF Voter Information Pamphlet, Nov. 3, 2026, District 10 candidate statements (media.api.sf.gov N26_EN_VIP.pdf, pp. 47-51)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 10 candidate questionnaires",
+          "where": "GrowSF District 10 contest page and questionnaire list (growsf.org)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow campaign site",
+          "where": "campaign website: none found (person record, leads, sf.gov candidate list, web search)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "housing, zoning, rent control",
+          "where": "gov-central-jpessecow.replit.app (site named in her voter pamphlet statement)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 10 candidates rezoning rent control",
+          "where": "missionlocal.org Meet the District 10 candidates series (WordPress API search and slug lookups for meet-the-district-10-candidates-upzoning-third-street, meet-the-candidates-san-franciscos-district-10-supervisor-race, district-10-meet-the-candidates-top-priority): bot challenge, unreadable"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "District 10 questionnaire",
+          "where": "SF League of Pissed Off Voters questionnaires (theleaguesf.org: bot challenge; only Deandra Bryant's D10 PDF was found)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow District 10 supervisor Family Zoning plan, height, density, rezoning",
+          "where": "web search"
+        }
+      ]
+    }
+  ]
+}
