@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "graph-civlab-org-85504bf276",
+  "kind": "reference_work",
+  "accessed": "2026-11-03",
+  "publisher": "CivLab",
+  "title": "CivLab · Board of Education",
+  "url": "https://graph.civlab.org/sf/elected/sfusd-board-of-education",
+  "notes": "Opened on 2026-11-03: page text and the page data embedded in it (__NEXT_DATA__). Secondary source (reference work). CivLab links the San Francisco Charter (codelibrary.amlegal.com) as the legal source and sfusd.edu as the official site."
+}

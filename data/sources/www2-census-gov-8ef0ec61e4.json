@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "www2-census-gov-8ef0ec61e4",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "U.S. Census Bureau",
+  "title": "Annual county resident population estimates, 2020-2025 (co-est2025-alldata.csv)",
+  "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv",
+  "notes": "Opened (downloaded) on 2026-11-03 from the Census Bureau's population estimates datasets directory (popest/datasets/2020-2025/counties/totals). The San Francisco County row (SUMLEV 050, STATE 06, COUNTY 075) gives ESTIMATESBASE2020 878,550 and POPESTIMATE2020 through POPESTIMATE2025; POPESTIMATE2025 (July 1, 2025) is 826,079."
+}

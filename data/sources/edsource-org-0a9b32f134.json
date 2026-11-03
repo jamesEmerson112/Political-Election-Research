@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "edsource-org-0a9b32f134",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "EdSource",
+  "title": "California school board compensation, 2025 (headline not seen)",
+  "url": "https://edsource.org/2025/california-school-board-compensation/741189",
+  "notes": "Seen by a research agent only as a web search summary on 2026-11-03 (edsource.org could not be opened from this session). The summary: compensation in the San Francisco Unified School District, currently $500 monthly for board members, is governed by the city and county. Not verified."
+}

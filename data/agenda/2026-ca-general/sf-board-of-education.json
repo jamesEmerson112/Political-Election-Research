@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/sf-board-of-education",
+  "candidates": [
+    {
+      "person": "person:autumn-brown-garibay",
+      "name": "Autumn Brown Garibay"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "name": "Virginia Cheung"
+    },
+    {
+      "person": "person:alida-fisher",
+      "name": "Alida Fisher"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "name": "Ryan Hazelton"
+    },
+    {
+      "person": "person:phil-kim",
+      "name": "Phil Kim"
+    },
+    {
+      "person": "person:laurance-lee",
+      "name": "Laurance Lee"
+    },
+    {
+      "person": "person:reina-tello",
+      "name": "Reina Tello"
+    },
+    {
+      "person": "person:tim-tung",
+      "name": "Tim Tung"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:sfusd-board-of-education-member",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Seeded 2026-11-03. Candidates: the eight people Mission Local lists as appearing on the November 3, 2026 ballot (its 2026-10-30 Meet the Candidates post and its 2026 school board race page, both opened). The official candidate list (sf.gov) and Voter Information Pamphlet (media.api.sf.gov) could not be opened from this session (hosts blocked), so names follow Mission Local's spelling and candidacy is unverified until the contest file cites the Department of Elections' certified list. A search summary of the pamphlet gave the same eight names, while calling it nine candidates. An August 7 Mission Local post (opened) counted 12 school board candidates at that time; its October posts say they cover all eight candidates who will appear on the ballot. Ballot designations were not found. vote_for 3: the official seat count was seen only in search summaries (the Department of Elections' November 3, 2026 election page and candidate report: Board of Education, 3 seats); Mission Local (opened) also says three seats are open on the seven-member board. Incumbents running, per Mission Local: Phil Kim and Alida Fisher; Lisa Weissman-Ward did not run again. Electorate: citywide, all San Francisco voters; registered non-citizen parents, legal guardians and caregivers may also vote in this contest (Mission Local 2026 elections page, opened; Department of Elections election plan, search summary). No stance questions set yet: a draft set awaits maintainer approval. Basic candidate information is in data/leads."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  },
+  "vote_for": 3
+}

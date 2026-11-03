@@ -1,0 +1,127 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "sfusd-board-of-education-member",
+  "name": "Member, San Francisco Board of Education",
+  "body": "San Francisco Board of Education",
+  "budget": {
+    "value": 1360000000,
+    "basis": "FY 2026-27 · SFUSD budget the Board adopted on a 4-3 vote in June 2026, as reported; whether it is all funds was not confirmed, and the general-fund figure was not found",
+    "citations": [
+      {
+        "source": "src:sfstandard-com-e4114bb013",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:sfusd-edu-ba732317be",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "constituents": {
+    "value": 826079,
+    "as_of": "2025-07-01",
+    "basis": "Census Bureau Vintage 2025 estimate for San Francisco County, July 1, 2025; members are elected at large, citywide, so each represents every resident",
+    "citations": [
+      {
+        "source": "src:www2-census-gov-8ef0ec61e4",
+        "quote": "California,San Francisco County,878550,875139,816169,813266,816926,820945,826079",
+        "locator": "Row SUMLEV 050, STATE 06, COUNTY 075; the last value quoted is POPESTIMATE2025 (July 1, 2025)"
+      },
+      {
+        "source": "src:sfusd-edu-b6854ca3f0",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:graph-civlab-org-85504bf276",
+        "quote": "Registered voters of the City & County of San Francisco.",
+        "locator": "Page data (__NEXT_DATA__): node ccsf-electorate (People of San Francisco), description; its elects edge to sfusd-board-of-education (d93fc7f8) has seatsAppointed 7"
+      }
+    ]
+  },
+  "jurisdiction": "San Francisco Unified School District",
+  "level": "local",
+  "links": {
+    "civlab": "https://graph.civlab.org/sf/elected/sfusd-board-of-education"
+  },
+  "powers": {
+    "value": "The Board sets the school district's educational goals, approves its curriculum and budget, and appoints the superintendent.",
+    "citations": [
+      {
+        "source": "src:graph-civlab-org-85504bf276",
+        "quote": "Sets SFUSD educational goals, approves curriculum and budget, and appoints a superintendent."
+      },
+      {
+        "source": "src:sfusd-edu-ba732317be",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 6000,
+    "as_of": "2025",
+    "basis": "$500 a month, as reported by EdSource in 2025",
+    "citations": [
+      {
+        "source": "src:edsource-org-0a9b32f134",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 7,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:sfusd-edu-b6854ca3f0",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:missionlocal-org-4fcbc34f00",
+        "quote": "The seven-person San Francisco Unified School District school board has two incumbents"
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:sfusd-edu-b6854ca3f0",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:missionlocal-org-4fcbc34f00",
+        "quote": "Those elected will serve a four-year term until the next midterm election, in 2030."
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "Election: members are elected at large (citywide) to four-year terms (sfusd.edu, search summary); elections are staggered, so three or four seats are on each ballot (search summary), and three of the seven seats are on the November 3, 2026 ballot (Mission Local, opened). Registered non-citizen parents, legal guardians and caregivers may also vote in Board of Education contests (Department of Elections election plan, search summary). Term limits: none found either way in the sources searched; the Charter's Board of Education article (codelibrary.amlegal.com) could not be opened. Budget: $1.36 billion is the reported total for 2026-27 (SF Standard, search summary); the SFUSD press release (search summary) says the Board adopted a balanced budget on a 4-3 vote; the adopted budget book on sfusd.edu could not be opened. Salary: $500 a month per EdSource (2025, search summary), which reports SFUSD board pay is governed by the City and County; no SFUSD or City pay document was reached. CivLab (opened 2026-11-03) maps the Board with 7 seats and links the San Francisco Charter as its legal source; its member list showed six named members and an unnamed seat 1 (Phil Kim, appointed in 2024 per Mission Local, was not listed). CivLab's budget figure on this page ($16.85 billion) is the citywide total, not SFUSD's, and is not used here. Hosts that could not be opened from this session: sfusd.edu, sf.gov, media.api.sf.gov, codelibrary.amlegal.com, www.census.gov, sfstandard.com, edsource.org, web.archive.org (so no archive snapshots)."
+}

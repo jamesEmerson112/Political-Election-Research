@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-4fcbc34f00",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-30",
+  "publisher": "Mission Local",
+  "title": "Meet the school board candidates: Who else are you voting for?",
+  "url": "https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/",
+  "notes": "Opened on 2026-11-03 through the publisher's WordPress REST API (missionlocal.org/wp-json/wp/v2/posts?slug=san-francisco-meet-the-candidates-school-board-voting), which returns the article's HTML."
+}

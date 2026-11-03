@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfusd-edu-b6854ca3f0",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Unified School District",
+  "title": "Board of Education",
+  "url": "https://sfusd.edu/board-education",
+  "notes": "Seen by a research agent only as a web search summary on 2026-11-03 (sfusd.edu could not be opened from this session). The summary attributed to SFUSD: the board is comprised of seven members, elected at large to serve four-year terms. Not verified."
+}
