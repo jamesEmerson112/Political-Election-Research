@@ -28,6 +28,43 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "B.A., Economics",
+          "institution": "Stanford University",
+          "year": 1980,
+          "citations": [
+            {
+              "source": "src:gpo-gov-256d2e7c90",
+              "quote": "B.A., Stanford University, 1980",
+              "locator": "Page 48, member biography"
+            },
+            {
+              "source": "src:oag-ca-gov-d6c7044ca9",
+              "quote": "earning his Bachelor of Arts in Economics from Stanford University"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "Stanford Law School",
+          "year": 1984,
+          "citations": [
+            {
+              "source": "src:gpo-gov-256d2e7c90",
+              "quote": "J.D., Stanford Law School, 1984",
+              "locator": "Page 48, member biography"
+            },
+            {
+              "source": "src:oag-ca-gov-d6c7044ca9",
+              "quote": "He earned his Juris Doctorate from Stanford Law School."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Voting Rights Attorney",
       "citations": [
