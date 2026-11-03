@@ -83,6 +83,13 @@
 - **Docs:** update the README status table.
 - **CI:** confirm the GitHub check is green after today's pushes.
 
+## Las Vegas, Nevada (placeholders, 2026-11-03)
+- **In place:** the election `2026-nv-general` and 47 placeholder agendas (no candidates, questions or positions) for the contests on City of Las Vegas ballots, each citing the Clark County Election Department list it appears on; the Overview's "Nevada · Las Vegas" section.
+- **Next, before research:** seed each agenda's candidates from the certified list (Clark County's "All Contests and Candidates in the November 3 2026, General Election" PDF), then fix each contest's question set (AGENTS rule 6), then run `npm run -s next -- --contest 2026-nv-general/<contest>`.
+- **Not listed yet:** the Eighth Judicial District Court (Departments 1–32) and Family Division (Departments A–Z): 58 judge seats, all on the ballot (Notice of General Election, PDF pp. 7–12), many with one candidate. Decide whether to add them as contests.
+- **Blocked:** the Nevada Secretary of State (`www.nvsos.gov`, `silverstateelection.nv.gov`) answers automated requests with a bot check (Incapsula), so statewide contests and questions rest on Clark County's documents for now.
+- **"My ballot"** places California contests only; Nevada contests are listed while no California location is set.
+
 ## Priority (maintainer, 2026-11-03): San Francisco first
 - Do San Francisco-area contests and candidates first; the rest of California comes later.
 - **In progress:**
