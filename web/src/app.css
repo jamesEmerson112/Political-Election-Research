@@ -18,6 +18,12 @@
   --money: #2a78d6;
   --support-wash: #dff3ea;
   --oppose-wash: #fbe7de;
+  /* the General Fund below $0 (a shortfall), by sign, in the per-year chart
+     only (maintainer's choice: red reads as "in the red"). Light passes
+     validate_palette.js --pairs all with the hues above; dark passes against
+     --muted, its only neighbor in that chart, but sits close to --oppose, so
+     never use it next to ▲/▼ or --oppose, and always with its legend. */
+  --shortfall: #b8322a;
 
   /* badge circles, colored by CATEGORY (never by stance; white glyph on top).
      --cat-people passes validate_palette.js --pairs all with --support,
@@ -69,6 +75,7 @@
     --money: #3987e5;
     --support-wash: #15322a;
     --oppose-wash: #3a2219;
+    --shortfall: #f0585a;
     --cat-issue: #646b72;
     --cat-people: #d266b0;
     --cat-record: #8c8f88;
@@ -98,6 +105,7 @@
   --money: #3987e5;
   --support-wash: #15322a;
   --oppose-wash: #3a2219;
+  --shortfall: #f0585a;
   --cat-issue: #646b72;
   --cat-people: #d266b0;
   --cat-record: #8c8f88;

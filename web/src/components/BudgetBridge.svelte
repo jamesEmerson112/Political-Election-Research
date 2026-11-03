@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Bridge, BridgeDomain, BridgeOmitted, BridgeStep, Range } from "../lib/budgetTrial";
   import { nearFar } from "../lib/budgetTrial";
-  import { balance, gapShare, signedRange, usd } from "../lib/measureChips";
+  import { balance, gapShare, signedRange, usd, usdRange } from "../lib/measureChips";
   import { hideTip, showTip } from "../lib/ui.svelte";
 
   /**
@@ -33,7 +33,10 @@
   const x0 = $derived(stacked ? 2 : labelW + 6);
   const x1 = $derived(Math.max(x0 + 40, w - 10));
   const n = $derived(bridge.steps.length);
-  const rowsH = $derived(n * pitch);
+  /** A row above the bars labels the $0 line: where a bar would have to reach for a balanced General Fund (no shortfall). */
+  const markH = $derived(font + 8);
+  const top = (k: number) => markH + k * pitch;
+  const rowsH = $derived(markH + n * pitch);
   const H = $derived(rowsH + 18);
   /** A clean tick step for the width. */
   const step = $derived.by(() => {
@@ -50,7 +53,7 @@
   const pHi = $derived(Math.ceil(-domain.lo / (step / 5)) * (step / 5));
   /** x of a General Fund balance v (negative = shortfall): a larger shortfall sits further right. */
   const x = (v: number) => x0 + ((-v - pLo) / (pHi - pLo || 1)) * (x1 - x0);
-  const rowY = (k: number) => k * pitch + (stacked ? labelH : (pitch - barH) / 2);
+  const rowY = (k: number) => top(k) + (stacked ? labelH : (pitch - barH) / 2);
   /** Ticks in plotted units: p > 0 is a shortfall of p, p < 0 a surplus of -p (the side labels say which). */
   const ticks = $derived.by(() => {
     const out: number[] = [];
@@ -60,6 +63,8 @@
   const tickX = (p: number) => x(-p);
   const tickAnchor = (p: number) => (tickX(p) > w - 24 ? "end" : stacked && tickX(p) < x0 + 20 ? "start" : "middle");
   const tickLabel = (p: number) => (p === 0 ? "$0" : usd(p));
+  /** The Balanced label sits beside the $0 line, on the side with room. */
+  const markEnd = $derived(x(0) > x1 - 150);
 
   interface Seg {
     a: number;
@@ -110,7 +115,8 @@
     if (s.kind === "end") {
       const d = { low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline };
       const g = gapShare(bridge.baseline, d, "money");
-      return [`With your choices, FY${bridge.fy}`, balance(bridge.result), `Change from the forecast: ${signedRange(d)} a year`, ...(g ? [`Gap ${g} (share computed here)`] : [])];
+      const toZero = bridge.result.high < 0 ? [`Still to close for a balanced General Fund ($0): ${usdRange(-bridge.result.high, -bridge.result.low)}`] : [];
+      return [`With your choices, FY${bridge.fy}`, balance(bridge.result), `Change from the forecast: ${signedRange(d)} a year`, ...(g ? [`Gap ${g} (share computed here)`] : []), ...toZero];
     }
     const g = gapShare(bridge.baseline, s.delta, "money");
     return [
@@ -155,11 +161,12 @@
     {#if w > 0}
       <svg width={w} height={H} viewBox={`0 0 ${w} ${H}`} role="img" aria-label={aria} style:font-size={`${font}px`}>
         {#each ticks as t (t)}
-          <line class="grid" x1={tickX(t)} x2={tickX(t)} y1="0" y2={rowsH} />
+          <line class="grid" x1={tickX(t)} x2={tickX(t)} y1={markH} y2={rowsH} />
           <text class="tick" x={tickX(t)} y={rowsH + 13} text-anchor={tickAnchor(t)}>{tickLabel(t)}</text>
         {/each}
-        <line class="zero" x1={x(0)} x2={x(0)} y1="0" y2={rowsH} />
-        {#if hover !== null}<rect class="hl" x="0" y={hover * pitch} width={w} height={pitch} rx="3" />{/if}
+        <line class="zero" x1={x(0)} x2={x(0)} y1="2" y2={rowsH} />
+        <text class="mark" x={x(0) + (markEnd ? -5 : 5)} y={font + 1} text-anchor={markEnd ? "end" : "start"}>Balanced: $0 shortfall</text>
+        {#if hover !== null}<rect class="hl" x="0" y={top(hover)} width={w} height={pitch} rx="3" />{/if}
         {#each bridge.steps as s, k (k)}
           {@const y = rowY(k)}
           {#each segsOf(s) as seg, j (j)}
@@ -172,7 +179,7 @@
         {/each}
         {#each bridge.steps as s, k (k)}
           {#if stacked}
-            <text class="halo" x="0" y={k * pitch + font}><tspan class="name">{s.label}</tspan><tspan class="val" dx="6">{valueText(s)}</tspan></text>
+            <text class="halo" x="0" y={top(k) + font}><tspan class="name">{s.label}</tspan><tspan class="val" dx="6">{valueText(s)}</tspan></text>
           {:else}
             <text class="name" x="0" y={rowY(k) + barH / 2} dominant-baseline="central">{s.label}</text>
             <text class="val" x={labelW} y={rowY(k) + barH / 2} dominant-baseline="central" text-anchor="end">{valueText(s)}</text>
@@ -183,7 +190,7 @@
           <rect
             class="hit"
             x="0"
-            y={k * pitch}
+            y={top(k)}
             width={w}
             height={pitch}
             onmousemove={(e) => {
@@ -247,8 +254,13 @@
     stroke-width: 1;
   }
   .zero {
-    stroke: var(--ink-2);
-    stroke-width: 1;
+    stroke: var(--ink);
+    stroke-width: 1.5;
+  }
+  .mark {
+    fill: var(--ink-2);
+    font-weight: 600;
+    font-size: 0.92em;
   }
   .money {
     fill: var(--money);

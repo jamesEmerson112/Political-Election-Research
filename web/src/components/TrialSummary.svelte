@@ -42,80 +42,64 @@
   } = $props();
   const stepWord = (r: Range) => (r.low >= 0 ? "revenue or savings" : r.high <= 0 ? "cost" : "cost or revenue");
 
-  // ---- the shortfall per fiscal year: two bars a year from $0 (the official forecast, then with your choices), a larger shortfall taller
+  // ---- the General Fund per fiscal year, as its balance ($0 = balanced, below $0 = a shortfall):
+  //      the official forecast (dashed line) and the range with your choices (band, red below $0)
   const years = $derived(result.generalFund);
   const n = $derived(years.length);
   const selFy = $derived(bridge?.fy ?? null);
   const note = $derived(yearsNote(years, cumulative));
+  const uid = $props.id();
   let cw = $state(0);
   const narrow = $derived(cw < 560);
-  const H = $derived(narrow ? 220 : 260);
-  const ml = $derived(narrow ? 50 : 62);
-  const mr = $derived(base?.generalFund ? (narrow ? 44 : 54) : 12);
+  const H = $derived(narrow ? 240 : 280);
+  const ml = $derived(narrow ? 50 : 64);
+  const mr = $derived(base?.generalFund ? (narrow ? 50 : 62) : 14);
   const gw = $derived((cw - ml - mr) / Math.max(1, n));
-  /** Each year's change and amounts sit above its bars when there is room; otherwise they are in the sentence, the tooltip and the table. */
+  /** Point labels and each year's change fit when the years are far enough apart; otherwise they are in the sentence, the tooltip and the table. */
   const labels = $derived(gw >= 150);
-  const mt = $derived(labels ? 50 : 14);
-  const mb = 26;
-  /** Plotted value: the shortfall, the negative of the General Fund balance (a surplus would go below $0). */
-  const sf = (v: number) => -v;
-  const ps = $derived(years.flatMap((y) => [y.baseline ?? 0, y.result?.low ?? 0, y.result?.high ?? 0]).map(sf).concat([0]));
-  const pMin = $derived(Math.min(...ps));
-  const pMax = $derived(Math.max(...ps));
+  const mt = 8;
+  const mb = $derived(labels ? 50 : 26);
+  const ys = $derived(years.flatMap((y) => [y.baseline ?? 0, y.result?.low ?? 0, y.result?.high ?? 0]).concat([0]));
+  const yMin = $derived(Math.min(...ys));
+  const yMax = $derived(Math.max(...ys));
+  const pad = $derived((yMax - yMin || 1) * 0.12);
+  const lo = $derived(yMin - pad);
+  const hi = $derived(yMax + pad);
+  const cx = (i: number) => ml + gw * (i + 0.5);
+  const yAt = (v: number) => mt + ((hi - v) / (hi - lo || 1)) * (H - mt - mb);
   /** Round gridlines (dollars on the left; the same lines as a share of the adopted General Fund on the right). */
   const yStep = $derived.by(() => {
-    const raw = (pMax - pMin) / (narrow ? 4 : 5);
+    const raw = (hi - lo) / 4;
     const mag = 10 ** Math.floor(Math.log10(raw || 1));
     return ([1, 2, 2.5, 5, 10].map((m) => m * mag).find((st) => st >= raw) ?? 10 * mag) || 1;
   });
-  const lo = $derived(Math.floor(pMin / yStep) * yStep);
-  const hi = $derived(Math.max(yStep, Math.ceil((pMax + (pMax - pMin) * 0.03) / yStep) * yStep));
-  const yAt = (p: number) => mt + ((hi - p) / (hi - lo || 1)) * (H - mt - mb);
   const yTicks = $derived.by(() => {
     const out: number[] = [];
-    for (let p = lo; p <= hi + 1e-6; p += yStep) out.push(Math.round(p) || 0);
+    for (let v = Math.ceil(lo / yStep) * yStep; v <= hi + 1e-6; v += yStep) out.push(Math.round(v) || 0);
     return out;
   });
-  const cx = (i: number) => ml + gw * (i + 0.5);
-  const bw = $derived(Math.max(10, Math.min(46, gw * 0.3)));
-  const gfShare = (p: number) => (base?.generalFund ? `${((Math.abs(p) / base.generalFund) * 100).toFixed(1)}%` : "");
-  interface Bar {
-    x: number;
-    y: number;
-    h: number;
-    light: boolean;
-  }
-  /** A bar from a to b (plotted units), at least 2px tall. */
-  const bar = (x: number, a: number, b: number, light = false): Bar => {
-    const ya = yAt(a);
-    const yb = yAt(b);
-    return { x, y: Math.min(ya, yb) - (Math.abs(yb - ya) < 2 ? 1 : 0), h: Math.max(2, Math.abs(yb - ya)), light };
-  };
-  /** The forecast bar (left) and the with-your-choices bar (right, 2px apart): solid from $0 to the nearer end of the range, lighter for the rest, as in the bridge. */
-  function barsOf(y: YearRow, i: number): { forecast: Bar | null; mine: Bar[] } {
-    if (y.baseline === null) return { forecast: null, mine: [] };
-    const forecast = bar(cx(i) - 1 - bw, 0, sf(y.baseline));
-    if (!y.result) return { forecast, mine: [] };
-    const a = sf(y.result.high);
-    const b = sf(y.result.low);
-    const xr = cx(i) + 1;
-    if (a < 0 && b > 0) return { forecast, mine: [bar(xr, a, b, true)] };
-    const [near, far] = Math.abs(a) <= Math.abs(b) ? [a, b] : [b, a];
-    return { forecast, mine: far === near ? [bar(xr, 0, near)] : [bar(xr, 0, near), bar(xr, near, far, true)] };
-  }
+  const gfPct = (v: number) => (base?.generalFund ? `${v < 0 ? "−" : ""}${((Math.abs(v) / base.generalFund) * 100).toFixed(1)}%` : "");
+  const basePath = $derived(years.map((y, i) => `${i ? "L" : "M"}${cx(i)},${yAt(y.baseline ?? 0)}`).join(" "));
+  /** The band through each year's range; a single year gets a short bar so it stays visible. */
+  const band = $derived.by(() => {
+    const half = n === 1 ? 12 : 0;
+    const top = years.flatMap((y, i) => (half ? [`${cx(i) - half},${yAt(y.result?.high ?? 0)}`, `${cx(i) + half},${yAt(y.result?.high ?? 0)}`] : [`${cx(i)},${yAt(y.result?.high ?? 0)}`]));
+    const bottom = years.flatMap((y, i) => (half ? [`${cx(i) - half},${yAt(y.result?.low ?? 0)}`, `${cx(i) + half},${yAt(y.result?.low ?? 0)}`] : [`${cx(i)},${yAt(y.result?.low ?? 0)}`]));
+    return [...top, ...bottom.reverse()].join(" ");
+  });
+  /** Any part of the band above $0 (a surplus) is drawn in --money instead of red. */
+  const surplus = $derived(years.some((y) => (y.result?.high ?? 0) > 0));
   const side = (v: number) => (v < 0 ? "Shortfall" : "Surplus");
   const changeText = (y: YearRow) => (y.result && y.baseline ? (gapShare(y.baseline, y.delta, "money") ?? "") : "");
-  const amountsText = (y: YearRow) => {
-    if (!y.result || y.baseline === null) return "";
-    const same = (y.baseline < 0 && y.result.high <= 0) || (y.baseline > 0 && y.result.low >= 0);
-    return same ? `${usd(y.baseline)} → ${usdRange(y.result.low, y.result.high)}` : "";
-  };
+  const pointText = (y: YearRow) =>
+    y.baseline === null ? "" : `${balance({ low: y.baseline, high: y.baseline })}${base?.generalFund && y.baseline ? ` · ${gfPct(Math.abs(y.baseline))} of GF` : ""}`;
   const tipLines = (y: YearRow) => [
     `FY${y.fy}${y.fy === selFy ? " · in the bridge above" : ""}`,
-    `Official forecast: ${y.baseline === null ? "—" : balance({ low: y.baseline, high: y.baseline })}${y.baseline && base?.generalFund ? ` (${gfShare(y.baseline)} of the General Fund)` : ""}`,
+    `Official forecast: ${y.baseline === null ? "—" : balance({ low: y.baseline, high: y.baseline })}${y.baseline && base?.generalFund ? ` (${gfPct(Math.abs(y.baseline))} of the General Fund)` : ""}`,
     `Your choices: ${signedRange(y.delta)} a year`,
     `With your choices: ${y.result ? balance(y.result) : "—"}`,
     ...(changeText(y) && y.baseline ? [`${side(y.baseline)} ${changeText(y)} (share computed here)`] : []),
+    ...(y.result && y.result.high < 0 ? [`Still to close for a balanced General Fund ($0): ${usdRange(-y.result.high, -y.result.low)}`] : []),
   ];
   const yearLabel = (y: YearRow) =>
     `FY${y.fy}: official forecast ${y.baseline === null ? "not given" : balance({ low: y.baseline, high: y.baseline })}; with your choices ${y.result ? balance(y.result) : "not given"}`;
@@ -183,7 +167,7 @@
       <figcaption class="eyebrow">Projected General Fund shortfall, by fiscal year</figcaption>
       {#if note}<p class="lead">{note}</p>{/if}
       <div class="caps">
-        <span>Shortfall in dollars ($0 = balanced{pMin < 0 ? "; below $0 = surplus" : ""})</span>
+        <span>Dollars: $0 = balanced, below $0 = shortfall</span>
         {#if base?.generalFund}<span>% of the FY{base.fy} General Fund</span>{/if}
       </div>
       <div class="yplot" bind:clientWidth={cw}>
@@ -193,24 +177,38 @@
             height={H}
             viewBox={`0 0 ${cw} ${H}`}
             role="img"
-            aria-label="Projected General Fund shortfall by fiscal year: the official forecast next to the range with your choices, as bars from $0. The same numbers are in the table below."
+            aria-label="Projected General Fund by fiscal year: the official forecast and the range with your choices, below $0 where there is a shortfall. The same numbers are in the table below."
           >
+            <defs>
+              <clipPath id={`${uid}-below`}><rect x="0" y={yAt(0)} width={cw} height={Math.max(0, H - yAt(0))} /></clipPath>
+              <clipPath id={`${uid}-above`}><rect x="0" y="0" width={cw} height={Math.max(0, yAt(0))} /></clipPath>
+            </defs>
             {#each years as y, i (y.fy)}
               {#if y.fy === selFy && n > 1}<rect class="sel" x={cx(i) - gw / 2 + 3} y="1" width={gw - 6} height={H - 2} rx="6" />{/if}
             {/each}
             {#each yTicks as t (t)}
               <line class={t === 0 ? "zero" : "grid"} x1={ml} x2={cw - mr} y1={yAt(t)} y2={yAt(t)} />
-              <text class="tick" x={ml - 6} y={yAt(t) + 4} text-anchor="end">{t === 0 ? "$0" : usd(t)}</text>
-              {#if base?.generalFund}<text class="tick" x={cw - mr + 6} y={yAt(t) + 4}>{t === 0 ? "0%" : gfShare(t)}</text>{/if}
+              <text class="tick" x={ml - 6} y={yAt(t) + 4} text-anchor="end">{t === 0 ? "$0" : `${t < 0 ? "−" : ""}${usd(t)}`}</text>
+              {#if base?.generalFund}<text class="tick" x={cw - mr + 6} y={yAt(t) + 4}>{t === 0 ? "0%" : gfPct(t)}</text>{/if}
             {/each}
+            <!-- The mark: a year whose band reached this line would have no shortfall. -->
+            <text class="mark" x={ml + 4} y={yAt(0) - 6}>Balanced: $0 shortfall</text>
+            <polygon class="band short" points={band} clip-path={`url(#${uid}-below)`} />
+            {#if surplus}<polygon class="band surp" points={band} clip-path={`url(#${uid}-above)`} />{/if}
+            <path class="base" d={basePath} />
             {#each years as y, i (y.fy)}
-              {@const b = barsOf(y, i)}
-              {#if b.forecast}<rect class="fc" x={b.forecast.x} y={b.forecast.y} width={bw} height={b.forecast.h} rx="2" />{/if}
-              {#each b.mine as m, j (j)}<rect class="mine" class:light={m.light} x={m.x} y={m.y} width={bw} height={m.h} rx="2" />{/each}
-              {#if labels}
-                <text class="chg" x={cx(i)} y="17" text-anchor="middle">{changeText(y)}</text>
-                <text class="amt" x={cx(i)} y="33" text-anchor="middle">{amountsText(y)}</text>
+              {#if y.baseline !== null}<circle class="dot" cx={cx(i)} cy={yAt(y.baseline)} r="4" />{/if}
+              {#if labels && y.baseline !== null}
+                <!-- The year's official forecast on its point, on the side away from the band. -->
+                {@const bandAbove = !!y.result && (y.result.low + y.result.high) / 2 > y.baseline}
+                <text
+                  class="val"
+                  x={cx(i)}
+                  y={bandAbove ? yAt(Math.min(y.baseline, y.result?.low ?? Infinity)) + 25 : yAt(Math.max(y.baseline, y.result?.high ?? -Infinity)) - 13}
+                  text-anchor="middle">{pointText(y)}</text
+                >
               {/if}
+              {#if labels && changeText(y)}<text class="chg" x={cx(i)} y={H - 26} text-anchor="middle">{changeText(y)}</text>{/if}
               <text class="tick" class:on={y.fy === selFy && n > 1} x={cx(i)} y={H - 8} text-anchor="middle">FY{y.fy}</text>
             {/each}
             {#each years as y, i (y.fy)}
@@ -241,13 +239,16 @@
         {/if}
       </div>
       <div class="legend">
-        <span><span class="sw fc"></span>Official forecast, before these measures</span>
-        <span><span class="sw mine"></span><span class="sw mine light"></span>With your choices (lighter: the rest of the range)</span>
+        <span><span class="sw base"></span>Official forecast, before these measures</span>
+        <span><span class="sw short"></span>With your choices (range){surplus ? ", below $0" : ""}</span>
+        {#if surplus}<span><span class="sw surp"></span>With your choices, above $0 (a surplus)</span>{/if}
       </div>
       <p class="fine">
-        Taller = a larger shortfall.{#if labels}{" "}Above each year: how much your choices change that year's shortfall, then forecast → with your choices.{/if}{#if base?.generalFund}{" "}The
-          right axis is the left one as a share of the adopted FY{base.fy} General Fund, computed here.{/if}{#if onfy && selFy && n > 1}{" "}Shaded: FY{selFy}, the year in the
-          bridge above; select a year to show it there.{/if}
+        Red marks a shortfall: below $0, General Fund costs would exceed its revenue. It shows the sign of the balance, not a judgment of your choices. The line at $0 is
+        balanced: a year whose band reached it would have no shortfall. The slope comes from the official forecast; what your choices change is the distance between the
+        dashed line and the band.{#if labels}{" "}Above each year's name: how much your choices change that year's shortfall.{/if}{#if base?.generalFund}{" "}The right axis is
+          the left one as a share of the adopted FY{base.fy} General Fund, computed here.{/if}{#if onfy && selFy && n > 1}{" "}Shaded: FY{selFy}, the year in the bridge
+          above; select a year to show it there.{/if}
       </p>
     </figure>
 
@@ -368,7 +369,7 @@
     overflow: visible;
   }
   .zero {
-    stroke: var(--ink-2);
+    stroke: var(--ink);
     stroke-width: 1.5;
   }
   .tick {
@@ -388,24 +389,47 @@
     fill: var(--ink);
     opacity: 0.06;
   }
-  .fc {
-    fill: var(--muted);
+  .band {
+    stroke-width: 1.5;
   }
-  .mine {
+  .band.short {
+    fill: var(--shortfall);
+    fill-opacity: 0.32;
+    stroke: var(--shortfall);
+  }
+  .band.surp {
     fill: var(--money);
+    fill-opacity: 0.32;
+    stroke: var(--money);
   }
-  .light {
-    opacity: 0.38;
+  .base {
+    fill: none;
+    stroke: var(--muted);
+    stroke-width: 2;
+    stroke-dasharray: 5 4;
+  }
+  .dot {
+    fill: var(--muted);
+    stroke: var(--surface);
+    stroke-width: 2;
+  }
+  .mark {
+    font-size: 11px;
+    font-weight: 600;
+    fill: var(--ink-2);
+  }
+  .val {
+    font-size: 11px;
+    font-weight: 600;
+    fill: var(--ink);
+    paint-order: stroke;
+    stroke: var(--surface);
+    stroke-width: 3px;
   }
   .chg {
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 700;
     fill: var(--ink);
-  }
-  .amt {
-    font-size: 11px;
-    fill: var(--ink-2);
-    font-variant-numeric: tabular-nums;
   }
   .hit {
     fill: transparent;
@@ -435,14 +459,17 @@
     align-items: center;
     gap: 5px;
   }
-  .sw.fc {
-    background: var(--muted);
+  .sw.base {
+    border-top: 2px dashed var(--muted);
+    height: 0;
   }
-  .sw.mine {
-    background: var(--money);
+  .sw.short {
+    background: color-mix(in srgb, var(--shortfall) 35%, transparent);
+    border: 1.5px solid var(--shortfall);
   }
-  .sw.light {
-    opacity: 0.38;
+  .sw.surp {
+    background: color-mix(in srgb, var(--money) 35%, transparent);
+    border: 1.5px solid var(--money);
   }
   table.grid {
     font-size: var(--step--1);
