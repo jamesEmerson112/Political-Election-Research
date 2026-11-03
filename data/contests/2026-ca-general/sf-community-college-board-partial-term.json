@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-community-college-board-partial-term",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Community College Board, Partial Term",
+  "office": "Trustee, Community College Board",
+  "candidates": [
+    {
+      "person": "person:ruth-ferguson",
+      "ballot_designation": "Appointed Trustee, Community College",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Community College Board Partial Term 1 person has qualified for this contest on the November 3, 2026 ballot. Ruth Ferguson",
+          "locator": "Community College Board Partial Term list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "RUTH FERGUSON 露芙‧費格遜 Appointed Trustee, Community College",
+          "locator": "Community College Board Partial table, English Ballot Designation column"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Trustee, Community College Board Remainder of the current term ending January 8, 2029 (Vote for One)",
+          "locator": "PDF page 249, ballot worksheet, School section"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "RUTH FERGUSON Candidate for Community College Board (remainder of the current term ending January 8, 2029)",
+          "locator": "PDF page 38 (printed page 36), candidate statement"
+        },
+        {
+          "source": "src:sf-gov-2d182e4fa5",
+          "quote": "Mayor Daniel Lurie today appointed Ruth Ferguson to the City College of San Francisco Board of Trustees.",
+          "locator": "first paragraph, dated January 5, 2026"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "office_ref": "office:sfccd-board-of-trustees-member",
+  "vote_for": 1,
+  "last_verified": "2026-11-03"
+}

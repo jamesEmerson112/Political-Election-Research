@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sf-gov-2d182e4fa5",
+  "kind": "press_release",
+  "accessed": "2026-11-03",
+  "published": "2026-01-05",
+  "publisher": "Office of the Mayor, City and County of San Francisco",
+  "title": "Mayor Lurie Appoints Ruth Ferguson to City College of San Francisco Board of Trustees",
+  "url": "https://www.sf.gov/news-mayor-lurie-appoints-ruth-ferguson-to-city-college-of-san-francisco-board-of-trustees"
+}
