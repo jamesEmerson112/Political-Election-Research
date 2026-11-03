@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.working-families-party--person.jeremy-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:jeremy-lee",
+  "endorser": "org:working-families-party",
+  "citations": [
+    {
+      "source": "src:jeremyleesf-com-f229c7af92",
+      "quote": "California Working Families Party",
+      "locator": "Organizations"
+    },
+    {
+      "source": "src:sfist-com-a47dc6aba9",
+      "quote": "The labor-backed candidates have also received endorsements from the California Working Families Party and Supervisor Connie Chan."
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.bernal-heights-democratic-club--person.jeremy-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:jeremy-lee",
+  "endorser": "org:bernal-heights-democratic-club",
+  "citations": [
+    {
+      "source": "src:jeremyleesf-com-f229c7af92",
+      "quote": "Bernal Heights Democratic Club",
+      "locator": "Organizations"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

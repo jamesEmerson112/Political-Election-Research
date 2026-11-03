@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.aft-2121--person.jeremy-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:jeremy-lee",
+  "endorser": "org:aft-2121",
+  "citations": [
+    {
+      "source": "src:jeremyleesf-com-f229c7af92",
+      "quote": "AFT 2121",
+      "locator": "Organizations"
+    },
+    {
+      "source": "src:sfist-com-a47dc6aba9",
+      "quote": "The City College faculty union, AFT 2121, is backing Bunny McFadden, Leah LaCroix, and Jeremy Lee"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
