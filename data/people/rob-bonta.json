@@ -39,6 +39,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "California Attorney General",
+      "citations": [
+        {
+          "source": "src:oag-ca-gov-77d988cc3f",
+          "quote": "Rob Bonta is using his role as Attorney General of the State of California to make life better for everyone in the Golden State."
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Rob Bonta* Democratic California Attorney General",
+          "locator": "Page 2 of 41 (PDF page 3), Attorney General: ballot designation, the candidate's self-description"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
