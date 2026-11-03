@@ -30,6 +30,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Quezon City, Philippines",
+      "citations": [
+        {
+          "source": "src:oag-ca-gov-77d988cc3f",
+          "quote": "Born in Quezon City, Philippines, Bonta immigrated to California with his family as an infant."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

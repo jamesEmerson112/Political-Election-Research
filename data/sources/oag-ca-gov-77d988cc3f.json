@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "oag-ca-gov-77d988cc3f",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "State of California Department of Justice, Office of the Attorney General",
+  "title": "Attorney General Rob Bonta",
+  "url": "https://oag.ca.gov/about"
+}
