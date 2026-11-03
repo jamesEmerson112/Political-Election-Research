@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "latimes-com-4d35824f04",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-01",
+  "publisher": "Los Angeles Times",
+  "title": "Your guide to the California controller race: Incumbent Cohen vs. challenger Morgan",
+  "url": "https://www.latimes.com/california/story/2026-10-01/2026-california-election-controller-cohen-morgan-voter-guide"
+}

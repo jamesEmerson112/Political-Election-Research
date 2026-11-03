@@ -23,6 +23,15 @@
           "quote": "His campaign and fund biography describe his retirement in 2026."
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Diego",
+      "citations": [
+        {
+          "source": "src:latimes-com-4d35824f04",
+          "quote": "Her challenger is Herb Morgan, a Republican from San Diego who promises a more aggressive approach to the job."
+        }
+      ]
     }
   },
   "ids": [
