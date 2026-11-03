@@ -6,6 +6,22 @@
     "Don Wagner",
     "Donald P. Wagner"
   ],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Orange County Supervisor",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Donald P. (Don) Wagner Republican\nOrange County Supervisor",
+          "locator": "page 2, ballot designation"
+        },
+        {
+          "source": "src:bos3-oc-gov-efb729411c",
+          "quote": "Orange County Supervisor Donald P. Wagner was first elected to the Board of Supervisors in a special election in 2019 and was re-elected to full terms in 2020 and 2024."
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q5294972",

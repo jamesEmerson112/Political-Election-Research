@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "bos3-oc-gov-efb729411c",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "County of Orange, Third District Supervisor",
+  "title": "MEET YOUR SUPERVISOR | Third District Supervisor",
+  "url": "https://bos3.oc.gov/supervisor"
+}
