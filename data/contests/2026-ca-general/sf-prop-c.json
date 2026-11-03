@@ -320,7 +320,7 @@
     }
   },
   "fiscal": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-08-10",
     "effects": [
       {
         "id": "general-fund-housing-trust-fund-contribution-increase",
@@ -381,6 +381,11 @@
           "source": "src:media-api-sf-gov-e4221ecde7",
           "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a significant impact on the cost of government of approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing over time to approximately $60 million annually by Fiscal Year 2034-35.",
           "locator": "p. 79, Controller's Statement on \"C\", opinion paragraph"
+        },
+        {
+          "source": "src:api-sf-gov-7085890a3e",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a significant impact on the cost of government of approximately $6 million in additional General Fund costs starting in Fiscal Year 2028-29, growing over time to approximately $60 million annually by Fiscal Year 2034-35.",
+          "locator": "p. 1, letter dated August 10, 2026"
         }
       ]
     }

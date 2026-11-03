@@ -56,8 +56,9 @@
   - Prop G: a possible missing effect (Upper Great Highway signal replacement).
   - Prop J: the statement doesn't name the General Fund (classified as general_fund by rule).
   - Prop I: the House SF Fund is about $119M net vs $120M recorded.
-  - Prop B: sf.gov's "Qualified Ballot Measures" page lists an **Amended Controller's Statement** (on api.sf.gov, blocked). Confirm the pamphlet prints the amended version; our fiscal effects come from the pamphlet.
-- **Official per-measure documents (all public):** https://www.sf.gov/qualified-ballot-measures lists each measure's legal text, legislative digest, Controller's statement and each argument as separate PDFs on `api.sf.gov`. Allowing that host would let us cross-check the pamphlet text against them and cite each document directly.
+  - Prop B: resolved 2026-11-03. The pamphlet prints the **amended** Controller's statement (August 20, 2026). The amendment changed one sentence ("Under the RWG modeling, … would be financed" became "Capitalization and funding costs could be financed"); every figure is the same.
+  - Optional cross-check: the standalone argument PDFs on sf.gov's Qualified Ballot Measures page against the pamphlet text. Prop D has a filed challenge to its rebuttal to the opponent's argument (with the Department's response), and Prop H's rebuttal to the proponent is posted as "Corrected".
+- **Official per-measure documents (all public):** https://www.sf.gov/qualified-ballot-measures lists each measure's legal text, legislative digest, Controller's statement and each argument as separate PDFs on `api.sf.gov` (reachable since 2026-11-03). Each measure's Controller's statement is now cited directly, with its date as `fiscal.as_of`.
 
 ### In progress (2026-11-03)
 - **Ballot arguments for Props A–J:** extraction running, then a verbatim check (`scratchpad/tools/write_sf_arguments.ts`) and import.

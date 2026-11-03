@@ -607,7 +607,7 @@
     }
   },
   "fiscal": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-08-10",
     "effects": [
       {
         "id": "elections-department-workload",
@@ -693,6 +693,11 @@
           "source": "src:media-api-sf-gov-e4221ecde7",
           "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government.",
           "locator": "p. 85, Controller's Statement on “D”"
+        },
+        {
+          "source": "src:api-sf-gov-3040d0bf33",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a minimal impact on the cost of government.",
+          "locator": "p. 1, letter dated August 10, 2026"
         }
       ]
     }

@@ -510,7 +510,7 @@
     }
   },
   "fiscal": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-08-20",
     "effects": [
       {
         "id": "capitalization-depends-on-future-decisions",
@@ -664,6 +664,11 @@
           "source": "src:media-api-sf-gov-e4221ecde7",
           "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank. However, if the City moves forward with establishing a MFC and subsequently a Public Bank, as authorized by the proposed Charter amendment, the costs would be significant, ranging from approximately $310 million to $460 million over an eight-year period, according to 2023 Reinvestment Working Group (RWG) estimates, which could be significantly higher or lower depending on interest rates and changing economic conditions.",
           "locator": "p. 70, Controller's Statement on \"B\", first paragraph"
+        },
+        {
+          "source": "src:api-sf-gov-18a3320f8b",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank.",
+          "locator": "p. 1, letter dated August 20, 2026"
         }
       ]
     }

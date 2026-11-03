@@ -776,7 +776,7 @@
     }
   },
   "fiscal": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-08-10",
     "effects": [
       {
         "id": "annual-operating-costs",
@@ -885,6 +885,11 @@
           "source": "src:media-api-sf-gov-e4221ecde7",
           "quote": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
           "locator": "p. 108, Controller's Statement on \"G\", opinion paragraph"
+        },
+        {
+          "source": "src:api-sf-gov-d36b7ad9b8",
+          "quote": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
+          "locator": "p. 1, letter dated August 10, 2026"
         }
       ]
     }

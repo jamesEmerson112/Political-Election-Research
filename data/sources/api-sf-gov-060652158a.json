@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sf-gov-060652158a",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "Office of the Controller, City and County of San Francisco",
+  "title": "Controller's Statement: Proposition A",
+  "url": "https://api.sf.gov/documents/61762/Proposition_A__Charter_Changes_Affecting_Various_City_Departments_and_Commissi_R9PDkP0.pdf"
+}

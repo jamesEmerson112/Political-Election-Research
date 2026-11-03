@@ -770,7 +770,7 @@
     }
   },
   "fiscal": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-08-10",
     "effects": [
       {
         "id": "general-fund-revenue-shift",
@@ -839,6 +839,11 @@
           "source": "src:media-api-sf-gov-e4221ecde7",
           "quote": "Should the proposed ordinance be approved by the voters, in my opinion, it would represent a moderate annual decrease of approximately $1 million to the City’s overall revenues starting in Fiscal Year (FY) 2027-28. However, the ordinance would also shift $120 million per year of existing revenue from the more flexible General Fund to a special revenue fund dedicated to affordable housing programming and support. Because the ordinance would remove existing revenue from the General Fund, it would increase the City’s projected General Fund deficit by $120 million annually.",
           "locator": "p. 133, Controller's Statement on \"I\""
+        },
+        {
+          "source": "src:api-sf-gov-f252d90077",
+          "quote": "Should the proposed ordinance be approved by the voters, in my opinion, it would represent a moderate annual decrease of approximately $1 million to the City’s overall revenues starting in Fiscal Year (FY) 2027-28.",
+          "locator": "p. 1, letter dated August 10, 2026"
         }
       ]
     }

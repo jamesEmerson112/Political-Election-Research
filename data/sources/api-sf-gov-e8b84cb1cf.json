@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sf-gov-e8b84cb1cf",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "Office of the Controller, City and County of San Francisco",
+  "title": "Controller's Statement: Proposition E",
+  "url": "https://api.sf.gov/documents/61757/Proposition_E__City_Administrators_Authority_and_Changes_to_City_Contracting_-_Signed.pdf"
+}

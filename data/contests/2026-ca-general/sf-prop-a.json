@@ -196,7 +196,7 @@
     }
   },
   "fiscal": {
-    "as_of": "2026-11-03",
+    "as_of": "2026-08-10",
     "effects": [
       {
         "id": "budget-process-decisions",
@@ -320,6 +320,11 @@
           "source": "src:media-api-sf-gov-e4221ecde7",
           "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually. Additional costs and savings are dependent on the decisions that the Mayor and Board of Supervisors make through the normal budget process.",
           "locator": "p. 64, Controller's Statement on A, first paragraph"
+        },
+        {
+          "source": "src:api-sf-gov-060652158a",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually.",
+          "locator": "p. 1, letter dated August 10, 2026"
         }
       ]
     }
