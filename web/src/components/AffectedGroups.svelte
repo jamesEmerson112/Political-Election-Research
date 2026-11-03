@@ -57,7 +57,7 @@
         {#each r.items as a (`${a["group"]}/${a["label"] ?? ""}`)}
           <button class="grp" onclick={() => openAffect(a)}>
             <Badge icon={AFFECT_ICON[String(a["group"])] ?? FALLBACK_AFFECT_ICON} group="people" size={22} />
-            <span class="name">{affectLabel(a)}{#if a["conditional"]}<span class="may"> (may)</span>{/if}</span>
+            <span class="name">{affectLabel(a)}{#if a["conditional"]}<span class="may">(may)</span>{/if}</span>
             {#if a["figure"]}<span class="fig num">{a["figure"]}</span>{/if}
           </button>
         {/each}
@@ -126,17 +126,24 @@
   .sig {
     padding-left: 8px;
   }
+  .grp {
+    flex-wrap: wrap;
+    row-gap: 2px;
+  }
   .name {
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
   }
   .may {
     color: var(--muted);
+    margin-left: 3px;
+    white-space: nowrap;
   }
   .fig {
     border-left: 1px solid var(--line);
     padding-left: 6px;
     color: var(--ink-2);
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
+    min-width: 0;
   }
   .none,
   .note {
