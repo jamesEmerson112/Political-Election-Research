@@ -49,6 +49,19 @@
           "locator": "page 2 (Official Certified List, Page 1 of 41, Treasurer)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:ltg-ca-gov-55e0183a6a",
+          "quote": "She lives in San Francisco with her husband, journalist Markos Kounalakis,"
+        },
+        {
+          "source": "src:ltg-ca-gov-f5974248c3",
+          "quote": "She lives in San Francisco with her husband, journalist Markos Kounalakis, and their two sons, Neo and Eon."
+        }
+      ]
     }
   },
   "ids": [
