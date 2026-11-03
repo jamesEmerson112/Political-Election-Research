@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:stephen-sherrill",
+  "positions": [
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "His campaign site recommends Yes on Proposition H, a parcel tax to fund Muni operations, and Yes on the Regional Transit Measure, saying the two together cover Muni's deficit.",
+      "citations": [
+        {
+          "source": "src:votestephensherrill-com-27598940ba",
+          "quote": "yes on Prop h",
+          "locator": "How I'm Voting, San Francisco's local ballot measures, Prop H"
+        },
+        {
+          "source": "src:votestephensherrill-com-27598940ba",
+          "quote": "Even if you never ride Muni, you need it running. A 40% service cut means even more cars on already packed streets. Prop H covers about half of Muni’s $300M+ deficit. This is existential.",
+          "locator": "How I'm Voting, Prop H"
+        },
+        {
+          "source": "src:votestephensherrill-com-27598940ba",
+          "quote": "This covers the other half of Muni’s deficit and keeps BART and Caltrain running. Without BART, downtown (and our tax base) would likely crater. This one’s existential too.",
+          "locator": "How I'm Voting, Regional Transit Measure"
+        }
+      ]
+    }
+  ]
+}
