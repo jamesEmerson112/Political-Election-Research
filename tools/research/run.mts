@@ -770,7 +770,18 @@ function cmdVerdicts() {
       }
       const log = loadLog(run);
       const last = log.length ? log[log.length - 1]!.seq : 0;
-      const drops = (r.drops ?? []).map((d) => ({ seq: Number(d.seq), reason: String(d.reason ?? "") }));
+      let drops = (r.drops ?? []).map((d) => ({ seq: Number(d.seq), reason: String(d.reason ?? "") }));
+      // A second judge of the same log adds its drops to the first one's (any judge's drop wins).
+      const prevFile = path.join(run, `verdicts-${lens}.json`);
+      if (fs.existsSync(prevFile)) {
+        try {
+          const prev = readJson<Verdict>(prevFile);
+          if (prev.package === r.package && prev.reviewed_through_seq === last && Array.isArray(prev.drops))
+            for (const d of prev.drops) if (!drops.some((x) => x.seq === d.seq)) drops = [...drops, d];
+        } catch {
+          /* replaced below */
+        }
+      }
       const bad = drops.filter((d) => !log.some((e) => e.seq === d.seq));
       if (bad.length) problems.push(`${label}: ${r.package} drops unknown seq(s) ${bad.map((d) => d.seq).join(", ")}`);
       fs.writeFileSync(path.join(run, `verdicts-${lens}.json`), JSON.stringify({ package: r.package, lens, reviewed_through_seq: last, drops, from: "workflow journal" }, null, 2) + "\n");
