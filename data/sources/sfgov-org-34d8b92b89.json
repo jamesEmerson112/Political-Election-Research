@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-org-34d8b92b89",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Youth Commission",
+  "title": "Youth Commission - Full Commission, September 19, 2011 - Minutes",
+  "url": "https://sfgov.org/youthcommission/ftp/meetingarchive/youth_commission_full/index.aspx-page=12232.html"
+}

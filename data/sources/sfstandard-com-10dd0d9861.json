@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-10dd0d9861",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2022-04-10",
+  "publisher": "The San Francisco Standard",
+  "title": "Chaos again engulfs effort to draw new district lines after 2 a.m. walkout",
+  "url": "https://sfstandard.com/2022/04/10/chaos-again-engulfs-effort-to-draw-new-district-lines-after-2-am-walkout/"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "48hills-org-f4041074fb",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2022-04-12",
+  "publisher": "48 Hills",
+  "title": "Task force members say Mayor's Office was calling the shots on redistricting",
+  "url": "https://48hills.org/2022/04/task-force-members-say-mayors-office-was-calling-the-shots-on-redistricting"
+}
