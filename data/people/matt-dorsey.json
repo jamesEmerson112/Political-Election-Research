@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "matt-dorsey",
+  "name": "Matt Dorsey",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q112131397",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.mattdorsey.org/",
+    "official_site": "https://www.sf.gov/district-6-supervisor-matt-dorsey"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
