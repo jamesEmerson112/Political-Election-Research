@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:elijah-ball",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "five-year-financial-outlook",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Ball's questionnaire says decisions should rest on a five-year outlook covering enrollment, staffing, salaries and other costs.",
+        "title": "Base budget decisions on a five-year outlook",
+        "citations": [
+          {
+            "source": "src:growsf-org-b605efb9fd",
+            "quote": "Strengthen City College’s long-term finances: Decisions should be based on a five-year outlook that carefully considers enrollment, staffing, salaries, and other costs…not just the next one or two years.",
+            "locator": "Your Goals: goals for your term"
+          }
+        ]
+      },
+      {
+        "id": "track-2024-enrollment-plan",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Ball's questionnaire says he would track the 2024 Strategic Enrollment Management Plan's results in recruitment, retention, partnerships and completion.",
+        "title": "Track results of the 2024 Strategic Enrollment Management Plan",
+        "citations": [
+          {
+            "source": "src:growsf-org-b605efb9fd",
+            "quote": "Improve enrollment and student completions: I would track the results of the 2024 Strategic Enrollment Management Plan (SEMP) in recruitment, retention, partnerships, and completion.",
+            "locator": "Your Goals: goals for your term"
+          }
+        ]
+      },
+      {
+        "id": "downtown-campus-partnerships",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Ball's questionnaire says he would encourage exploring public-private partnerships for the Downtown Campus that could generate revenue and support students.",
+        "title": "Explore public-private partnerships for the closed Downtown Campus",
+        "citations": [
+          {
+            "source": "src:growsf-org-b605efb9fd",
+            "quote": "Create a new future for the Downtown Campus that closed this year: I would encourage the exploration of public - private partnerships that could generate revenue, support students, and reconnect the campus with the surrounding community.",
+            "locator": "Your Goals: goals for your term"
+          }
+        ]
+      },
+      {
+        "id": "annual-counseling-policy-5-10",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Ball's questionnaire says he would reform Board Policy 5.10 on Matriculation so annual counseling or education-plan reviews are standard for degree, certificate and transfer students.",
+        "title": "Make annual counseling reviews standard under Board Policy 5.10",
+        "citations": [
+          {
+            "source": "src:growsf-org-b605efb9fd",
+            "quote": "I would reform Board Policy 5.10 on Matriculation to make annual counseling or education-plan reviews standard for students pursuing a degree, certificate, or transfer.",
+            "locator": "Your Goals: policy you would like to reform"
+          }
+        ]
+      }
+    ]
+  }
+}
