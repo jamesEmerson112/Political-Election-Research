@@ -21,6 +21,8 @@ export interface BatchFact {
   topic: string;
   label?: string;
   text: string;
+  /** Stance the source states explicitly (stance topics only). A hint, never a finding. */
+  hint?: "support" | "oppose" | "mixed" | null;
   sources?: BatchSource[];
 }
 export interface BatchCandidate {
@@ -67,7 +69,9 @@ function leadsFor(c: BatchContest): Rec[] {
   for (const cand of c.candidates) {
     const person = `person:${slugify(cand.name)}`;
     const listSrc = cite(c.candidate_list_sources);
-    items.push({ person, topic: "other", label: "On the ballot", text: `Listed as a candidate for this contest.${listSrc}` });
+    if (c.candidate_list_sources?.length) {
+      items.push({ person, topic: "other", label: "On the ballot", text: `Listed as a candidate for this contest.${listSrc}` });
+    }
     if (cand.party) {
       items.push({ person, topic: "profile.party_registration", label: "Party", text: `${cand.party}${listSrc}` });
     }
@@ -79,7 +83,9 @@ function leadsFor(c: BatchContest): Rec[] {
     }
     for (const f of cand.facts ?? []) {
       const topic = TOPIC_RE.test(f.topic) ? f.topic : "other";
-      items.push({ person, topic, label: f.label ?? f.topic, text: `${f.text}${cite(f.sources)}` });
+      const lead: Rec = { person, topic, label: f.label ?? f.topic, text: `${f.text}${cite(f.sources)}` };
+      if (f.hint && (topic.startsWith("q:") || topic.startsWith("contest:"))) lead["hint"] = f.hint;
+      items.push(lead);
     }
   }
   return items;

@@ -54,6 +54,8 @@ Rules for the fields:
   - `profile.education`
   - `profile.career`
   - `other`
+- `facts[].hint` (optional): `"support" | "oppose" | "mixed"`, only for question (`q:...`) or measure (`contest:...`) topics and only when the source states the stance explicitly.
+- `facts[].topic` may also be `dossier.track_record`, `dossier.promises`, `dossier.controversies`, `legislation`, `endorsements`, `committee`, `contributions`, `independent_expenditures`, an agenda question ref `q:<issue>/<question>`, or a measure ref `contest:<election>/<measure>`.
 - `seen`: `"search summary"` (WebSearch snippet) or `"fetched page"` (only if WebFetch actually opened the page).
 - `tier`: `"primary"` (SoS, county elections, government bios, congress.gov, the candidate's own site, official ballot pamphlets) or `"secondary"` (news, Ballotpedia, Wikipedia).
 - Search summaries are paraphrases. Never put quotation marks around text unless you read it verbatim on a fetched page.
