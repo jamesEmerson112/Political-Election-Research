@@ -6,5 +6,5 @@
   "publisher": "San Francisco Unified School District",
   "title": "Board of Education",
   "url": "https://sfusd.edu/board-education",
-  "notes": "Seen by a research agent only as a web search summary on 2026-11-03 (sfusd.edu could not be opened from this session). The summary attributed to SFUSD: the board is comprised of seven members, elected at large to serve four-year terms. Not verified."
+  "notes": "Opened by a research agent on 2026-11-03 with fetch-text (redirects to https://www.sfusd.edu/about-sfusd/board-education; page says it was last updated on July 14, 2026). It lists the Board Members (Board President Phil Kim, Board Vice President Jaime Huling, Commissioners Matt Alexander, Alida Fisher, Parag Gupta, Supryia Ray and Lisa Weissman-Ward) and says the board is comprised of seven members, elected at large to serve four-year terms. An earlier note recorded it as seen only in a search summary."
 }

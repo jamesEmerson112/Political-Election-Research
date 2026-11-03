@@ -1,0 +1,190 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-board-of-education",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Board of Education",
+  "office": "Member, Board of Education",
+  "candidates": [
+    {
+      "person": "person:autumn-brown-garibay",
+      "ballot_designation": "Public School Parent",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Education (3 seats) 8 people have filed for candidacy for this contest on the November 3, 2026 ballot. Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton Phil Kim Laurance Lee Reina Tello Tim Tung",
+          "locator": "Board of Education (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "AUTUMN BROWN GARIBAY 奧頓‧布朗‧加里貝 Public School Parent",
+          "locator": "page 1, Board of Education table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sfusd-edu-b6854ca3f0",
+          "quote": "Board President Phil Kim Board Vice President Jaime Huling Commissioner Matt Alexander Commissioner Alida Fisher Commissioner Parag Gupta Commissioner Supryia Ray Commissioner Lisa Weissman-Ward",
+          "locator": "Board Members section"
+        }
+      ]
+    },
+    {
+      "person": "person:virginia-cheung",
+      "ballot_designation": "Nonprofit Executive / Mother",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Education (3 seats) 8 people have filed for candidacy for this contest on the November 3, 2026 ballot. Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton Phil Kim Laurance Lee Reina Tello Tim Tung",
+          "locator": "Board of Education (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "VIRGINIA CHEUNG 張麗娜 Nonprofit Executive / Mother",
+          "locator": "page 1, Board of Education table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sfusd-edu-b6854ca3f0",
+          "quote": "Board President Phil Kim Board Vice President Jaime Huling Commissioner Matt Alexander Commissioner Alida Fisher Commissioner Parag Gupta Commissioner Supryia Ray Commissioner Lisa Weissman-Ward",
+          "locator": "Board Members section"
+        }
+      ]
+    },
+    {
+      "person": "person:alida-fisher",
+      "ballot_designation": "School Board Member",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Education (3 seats) 8 people have filed for candidacy for this contest on the November 3, 2026 ballot. Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton Phil Kim Laurance Lee Reina Tello Tim Tung",
+          "locator": "Board of Education (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ALIDA FISHER 阿莉達 斐義莎 School Board Member",
+          "locator": "page 1, Board of Education table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sfusd-edu-b6854ca3f0",
+          "quote": "Board President Phil Kim Board Vice President Jaime Huling Commissioner Matt Alexander Commissioner Alida Fisher Commissioner Parag Gupta Commissioner Supryia Ray Commissioner Lisa Weissman-Ward",
+          "locator": "Board Members section"
+        }
+      ]
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "ballot_designation": "Children's Nonprofit Director",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Education (3 seats) 8 people have filed for candidacy for this contest on the November 3, 2026 ballot. Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton Phil Kim Laurance Lee Reina Tello Tim Tung",
+          "locator": "Board of Education (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "RYAN HAZELTON 萊恩‧海澤爾頓 Children's Nonprofit Director",
+          "locator": "page 1, Board of Education table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sfusd-edu-b6854ca3f0",
+          "quote": "Board President Phil Kim Board Vice President Jaime Huling Commissioner Matt Alexander Commissioner Alida Fisher Commissioner Parag Gupta Commissioner Supryia Ray Commissioner Lisa Weissman-Ward",
+          "locator": "Board Members section"
+        }
+      ]
+    },
+    {
+      "person": "person:phil-kim",
+      "ballot_designation": "School Board President",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Education (3 seats) 8 people have filed for candidacy for this contest on the November 3, 2026 ballot. Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton Phil Kim Laurance Lee Reina Tello Tim Tung",
+          "locator": "Board of Education (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "PHIL KIM 菲爾金 School Board President",
+          "locator": "page 1, Board of Education table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sfusd-edu-b6854ca3f0",
+          "quote": "Board President Phil Kim Board Vice President Jaime Huling Commissioner Matt Alexander Commissioner Alida Fisher Commissioner Parag Gupta Commissioner Supryia Ray Commissioner Lisa Weissman-Ward",
+          "locator": "Board Members section"
+        }
+      ]
+    },
+    {
+      "person": "person:laurance-lee",
+      "ballot_designation": "General Contractor",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Education (3 seats) 8 people have filed for candidacy for this contest on the November 3, 2026 ballot. Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton Phil Kim Laurance Lee Reina Tello Tim Tung",
+          "locator": "Board of Education (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "LAURANCE LEE 林灼世 General Contractor",
+          "locator": "page 1, Board of Education table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sfusd-edu-b6854ca3f0",
+          "quote": "Board President Phil Kim Board Vice President Jaime Huling Commissioner Matt Alexander Commissioner Alida Fisher Commissioner Parag Gupta Commissioner Supryia Ray Commissioner Lisa Weissman-Ward",
+          "locator": "Board Members section"
+        }
+      ]
+    },
+    {
+      "person": "person:reina-tello",
+      "ballot_designation": "Community Organizer / Parent",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Education (3 seats) 8 people have filed for candidacy for this contest on the November 3, 2026 ballot. Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton Phil Kim Laurance Lee Reina Tello Tim Tung",
+          "locator": "Board of Education (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "REINA TELLO 蕾娜‧特略 Community Organizer / Parent",
+          "locator": "page 1, Board of Education table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sfusd-edu-b6854ca3f0",
+          "quote": "Board President Phil Kim Board Vice President Jaime Huling Commissioner Matt Alexander Commissioner Alida Fisher Commissioner Parag Gupta Commissioner Supryia Ray Commissioner Lisa Weissman-Ward",
+          "locator": "Board Members section"
+        }
+      ]
+    },
+    {
+      "person": "person:tim-tung",
+      "ballot_designation": "Public Finance Analyst",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Education (3 seats) 8 people have filed for candidacy for this contest on the November 3, 2026 ballot. Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton Phil Kim Laurance Lee Reina Tello Tim Tung",
+          "locator": "Board of Education (3 seats) list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "TIM TUNG 湯泰利 Public Finance Analyst",
+          "locator": "page 1, Board of Education table, English Ballot Designation column"
+        },
+        {
+          "source": "src:sfusd-edu-b6854ca3f0",
+          "quote": "Board President Phil Kim Board Vice President Jaime Huling Commissioner Matt Alexander Commissioner Alida Fisher Commissioner Parag Gupta Commissioner Supryia Ray Commissioner Lisa Weissman-Ward",
+          "locator": "Board Members section"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "office_ref": "office:sfusd-board-of-education-member",
+  "vote_for": 3,
+  "last_verified": "2026-11-03"
+}
