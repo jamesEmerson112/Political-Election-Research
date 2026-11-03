@@ -3,6 +3,54 @@
   "id": "monroe-lace",
   "name": "Monroe Lace",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Monroe Lace party registration",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Community College Board, printed p. 33"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Monroe Lace party registration",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Monroe Lace party registration",
+          "where": "Campaign site monroelace.org (home page; /about and /endorsements not separate pages)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Monroe Lace party registration",
+          "where": "GrowSF Community College Board guide and Monroe Lace questionnaire (growsf.org)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Monroe Lace party registration",
+          "where": "SF League of Pissed Off Voters questionnaires (theleaguesf.org returned 403; no Monroe Lace questionnaire PDF found)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Monroe Lace party registration",
+          "where": "The Guardsman candidate profile of Monroe Lace (Sep. 22, 2026)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Monroe Lace party registration",
+          "where": "Bay Area Reporter editorial 'An LGBTQ slate for City College board' (ebar.com/story/170122, Sep. 9, 2026)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Monroe Lace\" City College board",
+          "where": "Web search (news): candidate name with City College board / trustee"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.monroelace.org/"
