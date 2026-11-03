@@ -6,6 +6,42 @@
     "Herb Morgan"
   ],
   "candidate_profile": {
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "born / place of birth (page says only that he arrived in California on his first birthday in 1967)",
+          "where": "Campaign site herbmorgan.com (home and Meet Herb Morgan pages)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "born / place of birth",
+          "where": "Campaign site herb-morgan.com (home and About Herb pages)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "birthplace",
+          "where": "2026 Official Voter Information Guide, Controller candidate statement (p. 86)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Morgan born / native",
+          "where": "Los Angeles Times controller race guide (2026-10-01)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Morgan born / native",
+          "where": "KCRA CA Politics 360 interview article (2026-07)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Morgan born",
+          "where": "San Francisco Chronicle 2026 voter guide"
+        }
+      ]
+    },
     "occupation": {
       "value": "Chief investment officer (campaign biography says he retired from the role in 2026)",
       "citations": [
