@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "herbmorgan-com-f8c71a090c",
+  "kind": "candidate_website",
+  "accessed": "2026-11-03",
+  "publisher": "Herb Morgan for State Controller 2026",
+  "title": "Meet Herb Morgan",
+  "url": "https://www.herbmorgan.com/about-herb-morgan"
+}

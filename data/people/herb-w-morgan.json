@@ -5,6 +5,26 @@
   "aliases": [
     "Herb Morgan"
   ],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Chief investment officer (campaign biography says he retired from the role in 2026)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Chief Investment Officer",
+          "locator": "PDF page 2 (list page 1 of 41), Controller: ballot designation (listed under \"Herb W Morgan Republican\"), the candidate's self-description"
+        },
+        {
+          "source": "src:herbmorgan-com-f8c71a090c",
+          "quote": "In 2017, EMA was acquired by a major Wall Street firm, where Herb recently retired as their Chief Investment Officer for almost 10 years."
+        },
+        {
+          "source": "src:herb-morgan-com-2487996aa3",
+          "quote": "His campaign and fund biography describe his retirement in 2026."
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q141894504",

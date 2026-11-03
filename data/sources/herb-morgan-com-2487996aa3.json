@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "herb-morgan-com-2487996aa3",
+  "kind": "candidate_website",
+  "accessed": "2026-11-03",
+  "published": "2026-10-18",
+  "publisher": "Herb Morgan for State Controller 2026",
+  "title": "Herb Morgan's financial career and public service",
+  "url": "https://herb-morgan.com/about-herb/",
+  "notes": "Page footer: \"Paid for by Herb Morgan for State Controller 2026 | FPPC #1480103\"; page states \"Updated October 18, 2026\"."
+}
