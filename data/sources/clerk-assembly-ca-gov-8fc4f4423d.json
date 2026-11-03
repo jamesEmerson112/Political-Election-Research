@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-assembly-ca-gov-8fc4f4423d",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2012-12-03",
+  "publisher": "California State Assembly",
+  "title": "Assembly Daily Journal, Monday, December 3, 2012 (2013–14 Regular Session, first session day)",
+  "url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/adj120312.pdf"
+}

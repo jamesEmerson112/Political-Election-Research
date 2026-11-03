@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-assembly-ca-gov-ca0d549a7e",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2021-04-26",
+  "publisher": "California State Assembly",
+  "title": "Assembly Daily Journal, April 26, 2021",
+  "url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/adj042621.pdf"
+}

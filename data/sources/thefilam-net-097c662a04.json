@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thefilam-net-097c662a04",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2021-05-19",
+  "publisher": "The FilAm",
+  "title": "On Global Filipinos: California Attorney General Rob Bonta: ‘For the people not the powerful’",
+  "url": "https://thefilam.net/archives/34250",
+  "notes": "Column (“On Global Filipinos”) by Loida Nicolas Lewis."
+}

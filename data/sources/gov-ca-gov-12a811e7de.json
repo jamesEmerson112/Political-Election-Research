@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gov-ca-gov-12a811e7de",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2021-04-26",
+  "publisher": "Governor of California",
+  "title": "Special Election Proclamation, 18th Assembly District",
+  "url": "https://www.gov.ca.gov/wp-content/uploads/2021/04/4.26.21-Special-Election-AD-18.pdf"
+}

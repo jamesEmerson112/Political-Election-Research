@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "smdp-com-e4f1ed6463",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2021-03-25",
+  "publisher": "Santa Monica Daily Press (Associated Press)",
+  "title": "Newsom taps Asian lawmaker as California attorney general",
+  "url": "https://www.smdp.com/newsom-taps-asian-lawmaker-as-california-attorney-general/",
+  "notes": "Associated Press story by Kathleen Ronayne and Olga R. Rodriguez, republished by the Santa Monica Daily Press."
+}

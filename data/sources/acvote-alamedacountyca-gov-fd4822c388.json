@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "acvote-alamedacountyca-gov-fd4822c388",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2010-11-19",
+  "publisher": "Alameda County Registrar of Voters",
+  "title": "Cumulative Totals, Official Results, Alameda County General Election, November 2, 2010",
+  "url": "https://acvote.alamedacountyca.gov/acvote-assets/pdf/elections/2010/11022010/results/november-2-2010-summary-results-report.pdf"
+}

@@ -53,6 +53,103 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Attorney General of California",
+          "current": true,
+          "jurisdiction": "State of California",
+          "office_ref": "office:california-attorney-general",
+          "start": "2021-04-23",
+          "citations": [
+            {
+              "source": "src:oag-ca-gov-77d988cc3f",
+              "quote": "Bonta was sworn in on April 23, 2021, becoming the first person of Filipino descent to serve as California Attorney General."
+            },
+            {
+              "source": "src:gov-ca-gov-92b6799399",
+              "quote": "SACRAMENTO – Governor Gavin Newsom today swore in Assemblymember Rob Bonta as California’s 34th Attorney General."
+            },
+            {
+              "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+              "quote": "Rob Bonta* Democratic California Attorney General",
+              "locator": "Page 2 of 41 (PDF page 3), Attorney General; the page footnote reads \"* Incumbent\""
+            }
+          ]
+        },
+        {
+          "office": "Member of the California State Assembly, 18th District",
+          "current": false,
+          "end": "2021",
+          "first_elected": "2012",
+          "jurisdiction": "Assembly District 18",
+          "office_ref": "office:california-assembly-member",
+          "start": "2012-12-03",
+          "citations": [
+            {
+              "source": "src:gov-ca-gov-f9769bbdca",
+              "quote": "Assemblymember Rob Bonta was elected to the California State Assembly’s 18th District in 2012, where he represents the cities of Oakland, Alameda and San Leandro."
+            },
+            {
+              "source": "src:clerk-assembly-ca-gov-8fc4f4423d",
+              "quote": "the persons whose names are hereinafter set forth have received the plurality of votes in their respective State Assembly districts at the November 6, 2012, General Election.",
+              "locator": "Journal p. 4, Certificate of Election from the Secretary of State"
+            },
+            {
+              "source": "src:clerk-assembly-ca-gov-8fc4f4423d",
+              "quote": "Rob Bonta...........................Eighteenth ........................................Alameda",
+              "locator": "Journal p. 4, Certificate of Election: Member-elect, District, County or Counties"
+            },
+            {
+              "source": "src:clerk-assembly-ca-gov-8fc4f4423d",
+              "quote": "the following Assembly Members-elect presented their certificates of election, and duly qualified by taking and subscribing to the following oath administered by the Honorable Mary Lou Villar de Longoria, Judge, Los Angeles Superior Court.",
+              "locator": "Journal p. 6, Members Sworn In (Monday, December 3, 2012)"
+            },
+            {
+              "source": "src:clerk-assembly-ca-gov-8fc4f4423d",
+              "quote": "Raul Bocanegra, Susan A. Bonilla, Rob Bonta, Steven Bradford,",
+              "locator": "Journal p. 6, Members Sworn In: names listed after the oath for the Office of Member of the Assembly"
+            },
+            {
+              "source": "src:gov-ca-gov-12a811e7de",
+              "quote": "I, GAVIN NEWSOM, Governor of the State of California, do hereby proclaim and order that a special election shall be held on the 31st day of August 2021, within the 18th Assembly District of the State, to fill the vacancy in the office of State Assembly Member from that district resulting from the resignation of Assembly Member Rob Bonta.",
+              "locator": "Proclamation signed April 26, 2021"
+            },
+            {
+              "source": "src:clerk-assembly-ca-gov-ca0d549a7e",
+              "quote": "The Committee on Rules grants permission to invoke Assembly Rule 47.1 as it relates to the following Assembly Bills by former Assembly Member Bonta to allow the Assembly Members listed below to author the bills:",
+              "locator": "Journal p. 1175, Communications: Rules Committee letter dated April 23, 2021"
+            }
+          ]
+        },
+        {
+          "office": "Member, Alameda City Council",
+          "current": false,
+          "first_elected": "2010",
+          "jurisdiction": "City of Alameda",
+          "citations": [
+            {
+              "source": "src:robbonta-com-60d0649e9f",
+              "quote": "He served as a member of the Alameda City Council and spent nearly a decade as a State Assemblymember in the California legislature, where he introduced and passed legislation on everything from health care to civil rights to fair housing."
+            },
+            {
+              "source": "src:smdp-com-e4f1ed6463",
+              "quote": "Before joining the Legislature he was deputy city attorney in San Francisco and a member of the Alameda City Council."
+            },
+            {
+              "source": "src:thefilam-net-097c662a04",
+              "quote": "By 2010, he ran and was elected to Alameda City Council."
+            },
+            {
+              "source": "src:acvote-alamedacountyca-gov-fd4822c388",
+              "quote": "9,164 20.51% NP - ROB BONTA",
+              "locator": "Page 5 of 11, contest \"Members, City Council - Alameda\" (48 of 48 precincts); in this text each vote count and percentage precede the candidate's name"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
