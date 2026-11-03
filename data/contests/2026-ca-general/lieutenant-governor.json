@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/lieutenant-governor",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Lieutenant Governor",
+  "office": "Lieutenant Governor",
+  "candidates": [
+    {
+      "person": "person:fiona-ma",
+      "ballot_designation": "State Treasurer/CPA",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Lieutenant Governor Fiona Ma Democratic State Treasurer/CPA",
+          "locator": "PDF p. 2 (Page 1 of 41), Lieutenant Governor"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF p. 2 (Page 1 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    },
+    {
+      "person": "person:gloria-romero",
+      "ballot_designation": "Educator/Businesswoman",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Lieutenant Governor Fiona Ma Democratic State Treasurer/CPA Gloria Romero Republican Educator/Businesswoman",
+          "locator": "PDF p. 2 (Page 1 of 41), Lieutenant Governor"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF p. 2 (Page 1 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "office_ref": "office:california-lieutenant-governor",
+  "last_verified": "2026-11-03"
+}
