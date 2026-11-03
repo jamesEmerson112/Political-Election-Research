@@ -4,6 +4,11 @@
   import { openDetail } from "../lib/ui.svelte";
   import { openPosition, openRel } from "../lib/view";
   import StanceChip from "./StanceChip.svelte";
+  import OfficeChips from "./OfficeChips.svelte";
+  import StanceMark from "./StanceMark.svelte";
+  import { contestRoute } from "../lib/data";
+  import { MARK } from "../lib/marks";
+  import { fiscalChips, measureFactChips } from "../lib/measureChips";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
   const c = $derived(ix.contests.get(contestRef));
@@ -14,6 +19,8 @@
     [...ix.agendas.entries()].filter(([, a]) => (a["measures"] as string[]).includes(contestRef)).map(([ref]) => ref),
   );
   const funders = (committee: string) => ix.ofType("contribution").filter((r) => r["recipient"] === committee);
+  const label = (ref: string) => `Prop ${String(ix.contests.get(ref)?.["number"] ?? ix.contestTitle(ref))}`;
+  const cites = (v: unknown) => ((v as { citations?: unknown[] } | undefined)?.citations ?? []) as never[];
 </script>
 
 <header class="head">
@@ -32,11 +39,54 @@
         {c["summary"]["citations"].length}
       </button>
     </p>
-    <p class="muted">Placed on the ballot by {c["origin"]}.</p>
+    {#if c["jurisdiction"] || c["measure_type"]}
+      <p class="facts">
+        {#if c["jurisdiction"]}<span class="muted">{c["jurisdiction"]["name"]}</span>{/if}
+        <OfficeChips chips={measureFactChips(c)} />
+      </p>
+    {:else}
+      <p class="muted">Placed on the ballot by {c["origin"]}.</p>
+    {/if}
   {:else}
     <p class="chip warn">! Not yet verified against the official measure list</p>
   {/if}
 </header>
+
+{#if c?.["digest"] || c?.["fiscal"] || c?.["conflicts"]}
+  <section class="section">
+    <div class="section-head"><h2>What it does, and what it costs</h2><p>The official digest and fiscal statement, as published. Click a number for its source.</p></div>
+    {#if c["digest"]}
+      <div class="panel box">
+        {#each [["way_it_is_now", "The way it is now"], ["proposal", "The proposal"]] as [k, t] (k)}
+          {#if c["digest"][k]}
+            <p><strong>{t}:</strong> {c["digest"][k]["value"]} <button class="cite" onclick={() => openDetail({ kicker: "Official digest", title: t, citations: cites(c["digest"][k]) })}>{cites(c["digest"][k]).length}</button></p>
+          {/if}
+        {/each}
+        <p class="means"><StanceMark mark={MARK["support"]!} /> <span><strong>A yes vote means:</strong> {c["digest"]["yes_means"]["value"]}</span></p>
+        <p class="means"><StanceMark mark={MARK["oppose"]!} /> <span><strong>A no vote means:</strong> {c["digest"]["no_means"]["value"]}</span></p>
+      </div>
+    {/if}
+    {#if c["fiscal"]}
+      {@const f = c["fiscal"]}
+      <div class="panel box">
+        <span class="eyebrow">{f["statement_by"]} · fiscal statement</span>
+        <OfficeChips chips={fiscalChips(c, label)} />
+        {#if f["summary"]}
+          <p>{f["summary"]["summary"]} <button class="cite" onclick={() => openDetail({ kicker: `${f["statement_by"]} · fiscal statement`, title: ix.contestTitle(contestRef), citations: cites(f["summary"]) })}>{cites(f["summary"]).length}</button></p>
+        {/if}
+        <ul>
+          {#each f["effects"] as e (e["id"])}
+            <li>{e["text"]} <button class="cite" onclick={() => openDetail({ kicker: `${f["statement_by"]} · fiscal statement`, title: e["text"], citations: cites(e) })}>{cites(e).length}</button></li>
+          {/each}
+        </ul>
+        <a href="#trial">Add it to your trial ballot ›</a>
+      </div>
+    {/if}
+    {#each c["conflicts"] ?? [] as k (k["contest"])}
+      <p class="chip wrap">Competes with <a href={`#${contestRoute(k["contest"])}`}>{label(k["contest"])}</a>: {k["rule"]}</p>
+    {/each}
+  </section>
+{/if}
 
 <section class="section">
   <div class="section-head"><h2>Committees and their funders</h2><p>Committees formed to support or oppose this measure, from filings.</p></div>

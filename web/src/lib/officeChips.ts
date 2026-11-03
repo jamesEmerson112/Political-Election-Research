@@ -11,7 +11,25 @@
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Rec = Record<string, any>;
 
-export type ChipIcon = "seeking" | "seats" | "elected_by" | "appoints" | "confirms" | "budget" | "link" | "none";
+export type ChipIcon =
+  | "seeking"
+  | "seats"
+  | "elected_by"
+  | "appoints"
+  | "confirms"
+  | "budget"
+  | "link"
+  | "none"
+  // ballot measures (measureChips.ts)
+  | "measure_type"
+  | "threshold"
+  | "placed_by"
+  | "general_fund"
+  | "set_aside"
+  | "dedicated"
+  | "bond_debt"
+  | "other_agency"
+  | "conflict";
 
 export interface Chip {
   icon: ChipIcon;

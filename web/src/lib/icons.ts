@@ -26,6 +26,9 @@ import Earth from "@lucide/svelte/icons/earth";
 import Equal from "@lucide/svelte/icons/equal";
 import EqualNot from "@lucide/svelte/icons/equal-not";
 import ExternalLink from "@lucide/svelte/icons/external-link";
+import Gavel from "@lucide/svelte/icons/gavel";
+import GitCompareArrows from "@lucide/svelte/icons/git-compare-arrows";
+import PiggyBank from "@lucide/svelte/icons/piggy-bank";
 import FileText from "@lucide/svelte/icons/file-text";
 import GraduationCap from "@lucide/svelte/icons/graduation-cap";
 import HandCoins from "@lucide/svelte/icons/hand-coins";
@@ -195,19 +198,30 @@ export const CHIP_ICON: Record<ChipIcon, IconComponent> = {
   budget: I(Landmark),
   link: I(ExternalLink),
   none: I(CircleDashed),
+  measure_type: I(ScrollText),
+  threshold: I(Percent),
+  placed_by: I(Gavel),
+  general_fund: I(Landmark),
+  set_aside: I(PiggyBank),
+  dedicated: I(HandCoins),
+  bond_debt: I(Banknote),
+  other_agency: I(Building2),
+  conflict: I(GitCompareArrows),
 };
 
 /** Office type (contest index groups, in display order) -> glyph. Badges use the neutral record color. */
-export type OfficeType = "statewide" | "boe" | "house" | "legislature" | "other" | "measure";
+export type OfficeType = "statewide" | "boe" | "house" | "legislature" | "local" | "other" | "measure" | "local_measure";
 export const OFFICE_TYPE: Record<OfficeType, { label: string; icon: IconComponent }> = {
   statewide: { label: "Statewide", icon: I(Landmark) },
   boe: { label: "Board of Equalization", icon: I(Scale) },
   house: { label: "U.S. House", icon: I(MapIcon) },
   legislature: { label: "State Legislature", icon: I(Building2) },
+  local: { label: "Local offices", icon: I(Building2) },
   other: { label: "Other offices", icon: I(Shapes) },
-  measure: { label: "Ballot measures", icon: I(ScrollText) },
+  measure: { label: "State propositions", icon: I(ScrollText) },
+  local_measure: { label: "Local measures", icon: I(ScrollText) },
 };
-export const OFFICE_ORDER: OfficeType[] = ["statewide", "boe", "house", "legislature", "other", "measure"];
+export const OFFICE_ORDER: OfficeType[] = ["statewide", "boe", "house", "legislature", "local", "other", "measure", "local_measure"];
 
 /** "My ballot" panel (Overview). Neutral glyphs; badges use the record color. */
 import BallotInfo from "@lucide/svelte/icons/info";

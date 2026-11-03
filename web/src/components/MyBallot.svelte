@@ -1,5 +1,6 @@
 <script lang="ts">
   import {
+    COUNTY_FIPS,
     choiceSummary,
     DISTRICT_COUNT,
     DISTRICT_NAME,
@@ -59,15 +60,27 @@
   // ---- (a) pick districts directly
   let pickCd = $state(0);
   let pickBoe = $state(0);
+  let pickSf = $state(false);
+  let pickSup = $state(0);
+  const SF = COUNTY_FIPS["san-francisco"]!;
   $effect(() => {
     // Mirror the current choice into the picker when it opens.
     if (method === "pick") {
       pickCd = choice.cd?.length === 1 ? choice.cd[0]! : 0;
       pickBoe = choice.boe?.length === 1 ? choice.boe[0]! : 0;
+      pickSf = !!choice.county?.includes(SF);
+      pickSup = choice.sfsup?.length === 1 ? choice.sfsup[0]! : 0;
     }
   });
   function applyPick() {
-    onchange(normalizeChoice({ cd: pickCd ? [pickCd] : [], boe: pickBoe ? [pickBoe] : [] }));
+    onchange(
+      normalizeChoice({
+        cd: pickCd ? [pickCd] : [],
+        boe: pickBoe ? [pickBoe] : [],
+        county: pickSf ? [SF] : [],
+        sfsup: pickSf && pickSup ? [pickSup] : [],
+      }),
+    );
     found = null;
     method = null;
     changing = false;
@@ -189,6 +202,9 @@
       const l = f.layers[k];
       next[k] = l?.length ? l.map((d) => d.n) : k === "boe" ? (choice.boe ?? []) : [];
     }
+    // County and supervisor district aren't in the boundary data yet: keep what was picked.
+    next.county = choice.county ?? [];
+    next.sfsup = choice.sfsup ?? [];
     onchange(normalizeChoice(next));
   }
 
@@ -234,8 +250,9 @@
         : senateOff.length
           ? null
           : "State Senate (even-numbered districts only in 2026)",
-      "county, city, school and special-district contests",
-      "local measures",
+      ...(choice.county?.includes(COUNTY_FIPS["san-francisco"]!)
+        ? [choice.sfsup?.length ? null : "your Supervisor race (pick your district)", "other local contests, e.g. special districts"]
+        : ["county, city, school and special-district contests", "local measures"]),
     ]
       .filter(Boolean)
       .join("; "),
@@ -323,7 +340,23 @@
           {/each}
         </div>
       </div>
-      <button class="apply" onclick={applyPick} disabled={!pickCd && !pickBoe}><PickIcon size={15} aria-hidden="true" /> Show my contests</button>
+      <div class="field">
+        <span id="sf-pick">San Francisco</span>
+        <div class="seg" role="group" aria-labelledby="sf-pick">
+          <button class:on={pickSf} aria-pressed={pickSf} onclick={() => (pickSf = !pickSf)}>I vote in San Francisco</button>
+        </div>
+      </div>
+      {#if pickSf}
+        <div class="field">
+          <span id="sup-pick">Supervisor district <small>(2, 4, 6, 8 and 10 are on the 2026 ballot)</small></span>
+          <div class="seg" role="group" aria-labelledby="sup-pick">
+            {#each Array.from({ length: DISTRICT_COUNT.sfsup }, (_, i) => i + 1) as n (n)}
+              <button class:on={pickSup === n} aria-pressed={pickSup === n} onclick={() => (pickSup = pickSup === n ? 0 : n)}>{n}</button>
+            {/each}
+          </div>
+        </div>
+      {/if}
+      <button class="apply" onclick={applyPick} disabled={!pickCd && !pickBoe && !pickSf}><PickIcon size={15} aria-hidden="true" /> Show my contests</button>
       <p class="hint">
         Your county's sample ballot lists your contests;
         <a href={OFFICIAL_LINKS.voterStatus.url} target="_blank" rel="noopener noreferrer">{OFFICIAL_LINKS.voterStatus.label}</a> shows your registration.
@@ -524,6 +557,7 @@
   }
   .seg {
     display: inline-flex;
+    flex-wrap: wrap;
     gap: 4px;
   }
   .seg button {

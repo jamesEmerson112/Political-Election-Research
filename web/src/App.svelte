@@ -3,6 +3,8 @@
   import ContestView from "./components/ContestView.svelte";
   import Drawer from "./components/Drawer.svelte";
   import IssuesView from "./components/IssuesView.svelte";
+  import MeasuresView from "./components/MeasuresView.svelte";
+  import TrialBallot from "./components/TrialBallot.svelte";
   import MeasureView from "./components/MeasureView.svelte";
   import Overview from "./components/Overview.svelte";
   import QueueView from "./components/QueueView.svelte";
@@ -17,13 +19,18 @@
 
   const bundle = $derived(datasetKey === "demo" ? demo : draft);
   const ix = $derived(new Index(bundle));
+  /** Height of the sticky header, for things that stick below it (the trial ballot's meter). */
+  let topH = $state(0);
+  $effect(() => {
+    document.documentElement.style.setProperty("--top-h", `${topH}px`);
+  });
   const contestRefs = $derived(ix.contestRefs());
   /** "overview?cd=11&boe=2" -> path "overview", query "cd=11&boe=2" (the Overview's My ballot districts). */
   const routePath = $derived(route.split("?")[0] ?? "");
   const routeQuery = $derived(route.includes("?") ? route.slice(route.indexOf("?") + 1) : "");
   const routeContest = $derived(contestRefs.find((r) => contestRoute(r) === routePath));
   const view = $derived(
-    routeContest ? "contest" : ["issues", "sources", "queue"].includes(routePath) ? routePath : "overview",
+    routeContest ? "contest" : ["issues", "sources", "queue", "measures", "trial"].includes(routePath) ? routePath : "overview",
   );
 
   function readRoute(): string {
@@ -49,7 +56,7 @@
   const v = $derived(bundle.validation);
 </script>
 
-<header class="top">
+<header class="top" bind:clientHeight={topH}>
   <div class="wrap top-row">
     <a class="brand" href="#overview">
       <span class="brand-name">Political Election Research</span>
@@ -78,6 +85,8 @@
     {#if routeContest}
       <a class="cur" href={`#${contestRoute(routeContest)}`} class:active={true} aria-current="page">{ix.contestTitle(routeContest)}</a>
     {/if}
+    <a href="#measures" class:active={view === "measures"}>Measures</a>
+    <a href="#trial" class:active={view === "trial"}>Try your ballot</a>
     <a href="#issues" class:active={view === "issues"}>Issues</a>
     <a href="#sources" class:active={view === "sources"}>Sources</a>
     <a href="#queue" class:active={view === "queue"}>Research queue</a>
@@ -109,6 +118,10 @@
       {:else}
         <ContestView {ix} contestRef={routeContest} />
       {/if}
+    {:else if view === "measures"}
+      <MeasuresView {ix} onDemo={() => choose("demo")} />
+    {:else if view === "trial"}
+      <TrialBallot {ix} onDemo={() => choose("demo")} />
     {:else if view === "issues"}
       <IssuesView {ix} />
     {:else if view === "sources"}

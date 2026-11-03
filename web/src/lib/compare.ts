@@ -785,7 +785,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
   const subjectIcon = (s: string) => (ix.questions.has(s) ? issueIcon(ix.questions.get(s)!.issue["id"]) : MEASURE_ICON);
   /** 1–3 words: the tail of the question id ("expand-skilled-work-visas" -> "Skilled work visas"); measures -> "Prop 40". */
   const subjectShort = (s: string) => {
-    if (!ix.questions.has(s)) return ix.contestTitle(s).replace(/^Proposition /, "Prop ");
+    if (!ix.questions.has(s)) return ix.contestTitle(s).replace(/^(.*?)\s*Proposition /, (_, place: string) => (place ? `${place} Prop ` : "Prop "));
     const words = humanizeId(s.split("/").pop()!).split(" ");
     const tail = words.slice(-3).join(" ");
     return tail.charAt(0).toUpperCase() + tail.slice(1);
