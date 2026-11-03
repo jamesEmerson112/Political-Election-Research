@@ -77,6 +77,42 @@
           "where": "Web search (news)"
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/sf-community-college-board|endorsements|person:lisa-p-wynn-ii",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Lisa Wynn endorsements",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet, Lisa Palagi Wynn II candidate statement, printed p. 35: no endorsements listed"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Lisa Wynn campaign website endorsements",
+          "where": "No campaign website found; GoodParty.org profile returned HTTP 429"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Lisa P Wynn II",
+          "where": "GrowSF Community College Board guide: questionnaire not completed; recommends other candidates"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "College Board endorsements",
+          "where": "SF Green Party November 2026 final endorsements (sfgreenparty.org); San Francisco Democratic Party endorsements page (sfdemocrats.org, Nov. 2026 guide URL not reachable)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Lisa Wynn endorsement",
+          "where": "Bay Area Reporter editorial (ebar.com/story/170122); SFist Oct. 8, 2026 race article; The Guardsman Oct. 20, 2026 profile"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Lisa Wynn\" City College San Francisco trustee candidate 2026",
+          "where": "Web search (news)"
+        }
+      ]
     }
   ],
   "measures": [],
