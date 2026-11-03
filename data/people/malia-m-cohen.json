@@ -6,6 +6,52 @@
     "Malia Cohen"
   ],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "birth date / year of birth",
+          "where": "Franchise Tax Board official biography (ftb.ca.gov/about-ftb/bios/Controller.html)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "birth date / year of birth",
+          "where": "CalSTRS board-member biography (calstrs.com/malia-m-cohen)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "birth date (page blocked by a bot challenge, HTTP 403)",
+          "where": "State Controller official biography (sco.ca.gov/eo_about_bio.html)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "birth date / age",
+          "where": "Campaign site maliacohenforca.com (home, Meet Malia, Accomplishments pages)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "birth date / age",
+          "where": "2026 Official Voter Information Guide, Controller candidate statement (p. 86)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Cohen age / born",
+          "where": "Los Angeles Times controller race guide (2026-10-01)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Cohen age / born",
+          "where": "San Francisco Chronicle 2026 voter guide"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "birth date / year of birth",
+          "where": "Carnegie Mellon University alumni award biography"
+        }
+      ]
+    },
     "birthplace": {
       "value": "San Francisco, California",
       "citations": [
