@@ -109,6 +109,42 @@
           "locator": "page 89, Candidate Statements, Insurance Commissioner"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "lives in / resides / home",
+          "where": "https://www.janekim.org/ and https://www.janekim.org/MeetJane (campaign site)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jane Kim residence",
+          "where": "Official Voter Information Guide 2026 general, candidate statement p.89 (lists only a campaign mailing address, 371 Lakeport Blvd. #391, Lakeport; not a residence)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jane Kim biography",
+          "where": "https://www.sfbos.org/kim (archive 404)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Jane Kim\" 2026 insurance commissioner \"San Francisco resident\" OR \"Kim, who lives\"",
+          "where": "web search (news)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Jane Kim\" insurance commissioner lives Lake County OR \"lives in\"",
+          "where": "web search (news)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "lives / resident",
+          "where": "https://sfstandard.com/2026/04/20/jane-kim-insurance-commissioner/, https://www.kqed.org/science/2001142/..., https://capitolweekly.net/meet-the-insurance-commissioner-candidates-jane-kim/"
+        }
+      ]
     }
   },
   "ids": [
