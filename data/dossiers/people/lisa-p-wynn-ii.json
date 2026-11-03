@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:lisa-p-wynn-ii",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "internships-for-25-percent",
+        "as_of": "2026-10-20",
+        "issue": "education",
+        "summary": "The Guardsman reported that Wynn wants at least 25% of students to have access to internships.",
+        "title": "Internship access for at least 25% of students",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-013dc55584",
+            "quote": "wants at least 25% of students access to internships"
+          }
+        ]
+      },
+      {
+        "id": "more-certificate-programs",
+        "as_of": "2026-10-20",
+        "issue": "education",
+        "summary": "The Guardsman reported that Wynn wants more certificate programs and specialized training.",
+        "title": "More certificate programs and specialized training",
+        "citations": [
+          {
+            "source": "src:theguardsman-com-013dc55584",
+            "quote": "Wynn wants more certificate programs and specialized training is another priority"
+          }
+        ]
+      }
+    ]
+  }
+}
