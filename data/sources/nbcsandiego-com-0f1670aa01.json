@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nbcsandiego-com-0f1670aa01",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "NBC 7 San Diego",
+  "title": "Attorney: No Conflict for Labor Leader Trustee",
+  "url": "https://www.nbcsandiego.com/news/local/attorney-no-conflict-for-labor-leader-trustee/1970607/"
+}

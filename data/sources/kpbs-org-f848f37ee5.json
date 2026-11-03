@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kpbs-org-f848f37ee5",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2013-05-23",
+  "publisher": "KPBS",
+  "title": "Barrera Will Lead Labor Council, Remain On School Board",
+  "url": "https://www.kpbs.org/news/2013/may/23/barrera-will-lead-labor-council-remain-school-boar/"
+}

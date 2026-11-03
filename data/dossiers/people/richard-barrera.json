@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:richard-barrera",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "labor-council-role-conflict-of-interest-question",
+        "date": "2013-05",
+        "resolution": {
+          "date": "2015-12",
+          "summary": "He kept both positions and stepped down from the Labor Council in December 2015, KPBS reported.",
+          "citations": [
+            {
+              "source": "src:kpbs-org-c031e2c7fa",
+              "quote": "He was allowed to keep both positions."
+            },
+            {
+              "source": "src:kpbs-org-c031e2c7fa",
+              "quote": "Richard Barrera is stepping down as the head of the San Diego and Imperial Counties Labor Council, the umbrella organization that represents the region's unions."
+            }
+          ]
+        },
+        "response": {
+          "summary": "Barrera said school board members commonly hold other jobs, that his Labor Council pay did not depend on member unions' raises, and that he would recuse himself from votes on matters the Labor Council took a position on.",
+          "citations": [
+            {
+              "source": "src:nbcsandiego-com-0f1670aa01",
+              "quote": "\"We are pretty much defined as a citizen's board,\" said Barrera about the school board. \"So, obviously, people are going to have other jobs."
+            },
+            {
+              "source": "src:kpbs-org-f848f37ee5",
+              "quote": "Barrera plans to recuse himself from voting on school board matters the Labor Council takes a position on, but said he sees the work he'll do with the council as aligned with his work on the school board."
+            }
+          ]
+        },
+        "summary": "KPBS reported that Barrera's 2013 selection to lead the San Diego and Imperial Counties Labor Council while remaining a San Diego Unified trustee was criticized as a perceived conflict, since most district spending is on personnel. NBC 7 San Diego reported that the district's outside counsel advised that he had no conflict of interest but should refrain from decisions on which the Labor Council had taken a position.",
+        "title": "Conflict-of-interest questions over leading the Labor Council while a school trustee (2013–2015)",
+        "citations": [
+          {
+            "source": "src:kpbs-org-c031e2c7fa",
+            "quote": "His selection was criticized because of a perceived conflict between his roles as a union leader and SDUSD trustee, since the vast majority of district finances involve personnel costs."
+          },
+          {
+            "source": "src:nbcsandiego-com-0f1670aa01",
+            "quote": "Outside Counsel Mark Bresee says trustee Richard Barrera has no conflict-of-interest serving on both the school board, and as the chief of the Labor Council."
+          },
+          {
+            "source": "src:nbcsandiego-com-0f1670aa01",
+            "quote": "Barrera should refrain from participating in decisions on which the Labor Council has advocated a specific position, the lawyer also wrote."
+          }
+        ]
+      }
+    ]
+  },
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "bring-san-diego-unified-reforms-statewide",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Says he will work to bring the reforms he led at San Diego Unified to every school in California.",
+        "title": "Bring San Diego Unified's reforms to every school",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As State Superintendent, Barrera will roll up his sleeves and work with the same energy and zeal to bring those reforms to every school in California.",
+            "locator": "Candidate statement, p. 95"
+          }
+        ]
+      },
+      {
+        "id": "protect-public-education-from-federal-attacks",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Says he will protect California from what his statement calls “Trump/MAGA attacks on public education.”",
+        "title": "Oppose federal actions against California public education",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "He will protect California from Trump/MAGA attacks on public education.",
+            "locator": "Candidate statement, p. 95"
+          }
+        ]
+      }
+    ]
+  }
+}
