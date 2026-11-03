@@ -3,6 +3,76 @@
   "id": "sfccd-board-of-trustees-member",
   "name": "Member, Board of Trustees, San Francisco Community College District",
   "body": "Board of Trustees, San Francisco Community College District (City College of San Francisco)",
+  "connections": [
+    {
+      "type": "elected_by",
+      "count": 7,
+      "targets": [
+        "People of San Francisco"
+      ],
+      "text": "Elected by the People of San Francisco (7 seats)",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-c5fc7556dc",
+          "locator": "graph/sf.json · 1 elects edge to sfccd-city-college-of-sf-board-of-trustees, seats from seatsAppointed",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    },
+    {
+      "type": "elects",
+      "targets": [
+        "City College of SF Board of Trustees President"
+      ],
+      "text": "Elects the City College of SF Board of Trustees President",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-c5fc7556dc",
+          "locator": "graph/sf.json · 1 elects edge from sfccd-city-college-of-sf-board-of-trustees",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    },
+    {
+      "type": "appoints",
+      "bodies": 1,
+      "count": 3,
+      "targets": [
+        "Free City College Oversight Committee"
+      ],
+      "text": "Appoints 3 seats on the Free City College Oversight Committee",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-c5fc7556dc",
+          "locator": "graph/sf.json · 1 appoints edge from sfccd-city-college-of-sf-board-of-trustees; seats summed from seatsAppointed; bodies grouped by metadata.advisory_entity / commission, else the target node",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    },
+    {
+      "type": "oversees",
+      "text": "Oversees finances",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-c5fc7556dc",
+          "quote": "Governs City College of San Francisco; sets policy and oversees finances.",
+          "locator": "node description"
+        }
+      ]
+    }
+  ],
   "constituents": {
     "value": 826079,
     "as_of": "2025-07-01",
@@ -29,9 +99,24 @@
     ]
   },
   "jurisdiction": "San Francisco Community College District",
+  "legal_basis": {
+    "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_charter/0-0-0-569",
+    "citations": [
+      {
+        "source": "src:graph-civlab-org-c5fc7556dc",
+        "locator": "graph/sf.json · sfccd-city-college-of-sf-board-of-trustees.legalSourceUrl",
+        "unverified": {
+          "by": "import:civlab",
+          "date": "2026-11-03",
+          "method": "computed from CivLab graph data"
+        }
+      }
+    ]
+  },
   "level": "local",
   "links": {
-    "civlab": "https://graph.civlab.org/sf/elected/sfccd-city-college-of-sf-board-of-trustees"
+    "civlab": "https://graph.civlab.org/sf/elected/sfccd-city-college-of-sf-board-of-trustees",
+    "official_site": "https://www.ccsf.edu/about-ccsf/board-trustees"
   },
   "powers": {
     "value": "The Board of Trustees governs City College of San Francisco: it sets district policy and oversees the district's finances, including adopting its annual budget.",

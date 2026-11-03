@@ -25,6 +25,73 @@
       }
     ]
   },
+  "connections": [
+    {
+      "type": "elected_by",
+      "count": 7,
+      "targets": [
+        "People of San Francisco"
+      ],
+      "text": "Elected by the People of San Francisco (7 seats)",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-85504bf276",
+          "locator": "graph/sf.json · 1 elects edge to sfusd-board-of-education, seats from seatsAppointed",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    },
+    {
+      "type": "elects",
+      "targets": [
+        "Board of Education President"
+      ],
+      "text": "Elects the Board of Education President",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-85504bf276",
+          "locator": "graph/sf.json · 1 elects edge from sfusd-board-of-education",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    },
+    {
+      "type": "appoints",
+      "bodies": 9,
+      "count": 21,
+      "targets": [
+        "Cannabis Oversight Committee",
+        "Child Care Planning and Advisory Council",
+        "Community Corrections Partnership",
+        "Elections Commission",
+        "Family Violence Council",
+        "Food Security Task Force",
+        "Free City College Oversight Committee",
+        "Juvenile Justice Coordinating Council",
+        "Sugary Drinks Distributor Tax Advisory Committee"
+      ],
+      "text": "Appoints 21 seats on 9 boards, commissions and other posts",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-85504bf276",
+          "locator": "graph/sf.json · 9 appoints edges from sfusd-board-of-education; seats summed from seatsAppointed; bodies grouped by metadata.advisory_entity / commission, else the target node",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    }
+  ],
   "constituents": {
     "value": 826079,
     "as_of": "2025-07-01",
@@ -51,9 +118,24 @@
     ]
   },
   "jurisdiction": "San Francisco Unified School District",
+  "legal_basis": {
+    "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_charter/0-0-0-566",
+    "citations": [
+      {
+        "source": "src:graph-civlab-org-85504bf276",
+        "locator": "graph/sf.json · sfusd-board-of-education.legalSourceUrl",
+        "unverified": {
+          "by": "import:civlab",
+          "date": "2026-11-03",
+          "method": "computed from CivLab graph data"
+        }
+      }
+    ]
+  },
   "level": "local",
   "links": {
-    "civlab": "https://graph.civlab.org/sf/elected/sfusd-board-of-education"
+    "civlab": "https://graph.civlab.org/sf/elected/sfusd-board-of-education",
+    "official_site": "https://www.sfusd.edu/about-sfusd/board-education"
   },
   "powers": {
     "value": "The Board sets the school district's educational goals, approves its curriculum and budget, and appoints the superintendent.",
