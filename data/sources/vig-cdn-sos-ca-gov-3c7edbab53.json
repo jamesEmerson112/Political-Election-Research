@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "vig-cdn-sos-ca-gov-3c7edbab53",
+  "kind": "voter_guide",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "California Secretary of State",
+  "title": "2026 General Election Official Voter Information Guide",
+  "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/complete-vig.pdf"
+}

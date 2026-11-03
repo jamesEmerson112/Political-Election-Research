@@ -1,0 +1,167 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/prop-44",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "Proposition 44",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Shawna Brown, Initiative Proponent",
+        "Brisa J. Barrera, Community Clinic Worker"
+      ],
+      "heading": "VOTE YES ON PROP. 44 TO PUT PATIENTS FIRST AND HOLD CLINICS ACCOUNTABLE.",
+      "side": "yes",
+      "text": "California’s community health clinics receive billions of taxpayer dollars to provide care for people who need it most. Yet some clinics spend less than half of their funding on patient care and services, while large portions of their revenue go to bloated CEO salaries and other wasteful spending. As a result, patients wait months for appointments and healthcare workers struggle with staffing shortages, outdated equipment, and limited resources. WHY PROP. 44 IS NEEDED Community health clinics receive taxpayer funding for one purpose: to provide primary care, mental health services, dental care, prenatal care, vaccinations, and other essential services to millions of children, seniors, working families, and Californians with disabilities. Without access to these clinics, many patients would not get the care they urgently need. But some clinic CEOs are misusing taxpayer dollars by diverting millions to inflated executive salaries and other non-essentials. With massive federal healthcare cuts expected to eliminate billions in funding for California’s healthcare system, community clinics will be among the hardest hit. Clinics may be forced to reduce services, lay off staff, or even close their doors. That means every healthcare dollar matters more than ever. California taxpayers can’t afford to waste resources that should be helping patients receive timely, high-quality care. PROP. 44 DIRECTS HEALTHCARE DOLLARS TO PATIENT CARE Proposition 44 is simple. It requires community health clinics to spend at least 90% of their revenue on their non-profit mission—patient care and the services that make care possible. That could include medical visits, mental health care, dental care, medications, medical equipment, transportation, language interpretation, care coordination, outreach, and other services that serve the clinics’ charitable healthcare mission. What doesn’t count towards the 90%: excessive CEO pay, lavish events, bloated overhead, and other spending that takes resources away from the clinic’s core mission of caring for patients. PROP. 44 HOLDS CLINICS ACCOUNTABLE Proposition 44 will increase transparency by requiring clinics to publicly report how healthcare dollars are spent, so patients and taxpayers can hold them accountable. Currently, there are hundreds of millions of dollars in the clinic system that are not being spent on the core mission of patient care. Prop. 44 will make sure those healthcare dollars go where they can do the most good. This measure does not cut clinic funding or reduce services patients rely on. Clinics that meet the standard keep every dollar, and even clinics that fall short can recover any penalties by coming into compliance. Unrecovered penalties, if any, are redirected to recruiting, training, and retaining the healthcare workers our clinics desperately need. Every dollar stays in the healthcare system—prioritized for patient care instead of excessive overhead. Join healthcare workers, patients, and Californians who believe accountability strengthens our healthcare system. VOTE YES ON PROP. 44 TO PUT PATIENTS FIRST.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "California’s community health clinics receive billions of taxpayer dollars to provide care for people who need it most. Yet some clinics spend less than half of their funding on patient care and services, while large portions of their revenue go to bloated CEO salaries and other wasteful spending. As a result, patients wait months for appointments and healthcare workers struggle with staffing shortages, outdated equipment, and limited resources. WHY PROP. 44 IS NEEDED Community health clinics receive taxpayer funding for one purpose: to provide primary care, mental health services, dental care, prenatal care, vaccinations, and other essential services to millions of children, seniors, working families, and Californians with disabilities. Without access to these clinics, many patients would not get the care they urgently need. But some clinic CEOs are misusing taxpayer dollars by diverting millions to inflated executive salaries and other non-essentials. With massive federal healthcare cuts expected to eliminate billions in funding for California’s healthcare system, community clinics will be among the hardest hit. Clinics may be forced to reduce services, lay off staff, or even close their doors. That means every healthcare dollar matters more than ever. California taxpayers can’t afford to waste resources that should be helping patients receive timely, high-quality care. PROP. 44 DIRECTS HEALTHCARE DOLLARS TO PATIENT CARE Proposition 44 is simple. It requires community",
+          "locator": "p. 72, Argument in Favor of Proposition 44"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Brent K Sugimoto, MD, FAAFP, President-Elect California Academy of Family Physicians",
+        "Kelly McCue, MD, Immediate Past Chair American College of Obstetricians & Gynecologists District IX",
+        "Susanne J. Spano, MD, FACEP, President American College of Emergency Physicians, California Chapter"
+      ],
+      "heading": "PROP. 44 IS A DANGEROUS SPECIAL INTEREST MEASURE THAT THREATENS CARE FOR MILLIONS",
+      "side": "no",
+      "text": "Make no mistake: Prop. 44 is not about resources for patient care. Prop. 44 is a dangerous measure written and funded entirely by one special interest that threatens access to care for millions. Prop. 44 imposes unworkable restrictions that actually prevent community clinics from providing the care patients need. NURSES, DOCTORS AND PATIENT ADVOCATES ALL AGREE: PROP. 44 WILL HURT PATIENTS. Prop. 44 will: • Cut billions from health clinics every year. • Force clinics to shut down and cut services. • Eliminate care for millions. • Send more patients to hospital ERs—increasing wait times for all families. PROP. 44 IS UNNECESSARY. COMMUNITY CLINICS ARE STRICTLY REGULATED. Community clinics are heavily regulated, with strict rules requiring resources be spent on patient care and serving their communities. Federal and state laws require regular audits and public reporting of clinic spending. Every community clinic is not-for-profit—led by a board that includes patients—requiring funds to be spent on patient care and community benefits—not corporate profits. SPECIAL INTERESTS PUSHING PROP. 44 ARE USING PATIENTS AS PAWNS Prop. 44 is a shameful power play by one special interest abusing the ballot measure process to gain political leverage over health clinics. This same special interest has spent $140 million pushing dozens of harmful ballot measures against hospitals, clinics and physicians, including three unsuccessful dialysis propositions that voters overwhelmingly rejected. JOIN PATIENTS, NURSES, DOCTORS, AND COMMUNITY LEADERS: NO ON PROP. 44. Prop. 44 is opposed by: • American Academy of Pediatrics CA • California School Nurses Organization • California Medical Association • American College of Obstetricians & Gynecologists District IX • Planned Parenthood Affiliates of CA • American College of Emergency Physicians CA • California Academy of Family Physicians www.NoProp44.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Make no mistake: Prop. 44 is not about resources for patient care. Prop. 44 is a dangerous measure written and funded entirely by one special interest that threatens access to care for millions. Prop. 44 imposes unworkable restrictions that actually prevent community clinics from providing the care patients need. NURSES, DOCTORS AND PATIENT ADVOCATES ALL AGREE: PROP. 44 WILL HURT PATIENTS. Prop. 44 will: • Cut billions from health clinics every year. • Force clinics to shut down and cut services. • Eliminate care for millions. • Send more patients to hospital ERs—increasing wait times for all families. PROP. 44 IS UNNECESSARY. COMMUNITY CLINICS ARE STRICTLY REGULATED. Community clinics are heavily regulated, with strict rules requiring resources be spent on patient care and serving their communities. Federal and state laws require regular audits and public reporting of clinic spending. Every community clinic is not-for-profit—led by a board that includes patients—requiring funds to be spent on patient care and community benefits—not corporate profits. SPECIAL INTERESTS PUSHING PROP. 44 ARE USING PATIENTS AS PAWNS Prop. 44 is a shameful power play by one special interest abusing the ballot measure process to gain political leverage over health clinics. This same special interest has spent $140 million pushing dozens of harmful ballot measures against hospitals, clinics and physicians, including three unsuccessful dialysis propositions that voters overwhelmingly rejected. JOIN",
+          "locator": "p. 72, Rebuttal to Argument in Favor of Proposition 44"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Eric Ball, MD, FAAP, President American Academy of Pediatrics, California",
+        "Katie Nilsson, RN, President California School Nurses Organization",
+        "René Bravo, M.D., President California Medical Association"
+      ],
+      "heading": "VOTE NO ON PROP. 44: STOP THE ATTACK ON PATIENTS & COMMUNITY HEALTH CLINICS",
+      "side": "no",
+      "text": "Prop. 44 is a dangerous, poorly drafted measure that would threaten care for millions of California patients. Prop. 44 imposes deeply flawed and unworkable restrictions that prevent community clinics from providing the care patients need. Economic and health experts warn Prop. 44 will: • Cut $1.7 billion from health clinics in the first year alone. • Cause 88% of all clinics in the state to operate at a loss. • Force thousands of clinics throughout the state to cut back patient services or shut down entirely. • Eliminate care for millions of Californians. • Send more patients to hospital emergency rooms—increasing wait times for all families. PROP. 44 ARBITRARILY RESTRICTS SPENDING ON VITAL PATIENT SERVICES Prop. 44 is so poorly written that it restricts clinics from spending resources on essential staff and services, including nurse managers, physician leaders, translation services, insurance assistance and community education. It even restricts clinics from funding mammogram, X-ray and CT machines, information technology and expanding or upgrading clinics. PROP. 44 DECIMATES THE HEALTH CARE SYSTEM AND HURTS ALL PATIENTS Community health clinics provide primary care, prenatal care, urgent care, mental and behavioral health services, telehealth, and dental services. They operate school-based health clinics that care for hundreds of thousands of children. Community clinics serve 1 in 4 Medi-Cal patients, the uninsured, working families, seniors, veterans, and children. In many rural and medically underserved communities, community health clinics are the only source of care within hundreds of miles. Prop. 44 will make our bad healthcare problems even worse—increasing patient wait times and eliminating the only source of care for many patients. PROP. 44 IS UNNECESSARY. COMMUNITY CLINICS ARE STRICTLY REGULATED. Community clinics are already heavily regulated by the federal and state governments, with strict funding rules on patient care and essential services, and regular mandatory public audits. All clinics are overseen by patient board members, to ensure care is focused on community needs. And clinics are non-profits legally required to focus resources on patient services and community benefits. PROP. 44 OPPOSED BY PATIENTS, NURSES, DOCTORS AND COMMUNITY LEADERS “Prop. 44 will eliminate the only source of care in many communities. Please vote NO.”—Kim Yu, MD, FAAFP, President, California Academy of Family Physicians “Community clinics are a lifeline for my family and millions across California. Please, protect patients like me. Reject Prop. 44.”—Carmen Huertero, Clinic Patient, San Marcos, CA “Prop. 44 threatens women’s access to healthcare at a time when it’s already under attack. Vote No.”—Jodi Hicks, President & CEO, Planned Parenthood Affiliates of California \"By shutting down clinics, Prop. 44 will force millions of patients into already overcrowded emergency rooms—increasing wait times for everyone.”—Susanne J Spano, MD, FACEP, President, American College of Emergency Physicians, California “Prop. 44 threatens to shut down hundreds of school-based clinics that provide primary care, vaccinations, health screenings and mental health services for tens of thousands of children. Vote NO.”—Katie Nilsson, RN, President, California School Nurses Organization Prop. 44 Opposed By: • American Academy of Pediatrics, California • California School Nurses Organization • California Medical Association • California Primary Care Association, representing thousands of community health centers and clinics • American College of Obstetricians & Gynecologists District IX • Planned Parenthood Affiliates of California • National Association of Social Workers, California Chapter • American College of Emergency Physicians, California • California Academy of Family Physicians www.NoProp44.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Prop. 44 is a dangerous, poorly drafted measure that would threaten care for millions of California patients. Prop. 44 imposes deeply flawed and unworkable restrictions that prevent community clinics from providing the care patients need. Economic and health experts warn Prop. 44 will: • Cut $1.7 billion from health clinics in the first year alone. • Cause 88% of all clinics in the state to operate at a loss. • Force thousands of clinics throughout the state to cut back patient services or shut down entirely. • Eliminate care for millions of Californians. • Send more patients to hospital emergency rooms—increasing wait times for all families. PROP. 44 ARBITRARILY RESTRICTS SPENDING ON VITAL PATIENT SERVICES Prop. 44 is so poorly written that it restricts clinics from spending resources on essential staff and services, including nurse managers, physician leaders, translation services, insurance assistance and community education. It even restricts clinics from funding mammogram, X-ray and CT machines, information technology and expanding or upgrading clinics. PROP. 44 DECIMATES THE HEALTH CARE SYSTEM AND HURTS ALL PATIENTS Community health clinics provide primary care, prenatal care, urgent care, mental and behavioral health services, telehealth, and dental services. They operate school-based health clinics that care for hundreds of thousands of children. Community clinics serve 1 in 4 Medi-Cal patients, the uninsured, working families, seniors, veterans, and children. In",
+          "locator": "p. 73, Argument Against Proposition 44"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Shawna Brown, Initiative Proponent",
+        "Brisa J. Barrera, Community Clinic Worker"
+      ],
+      "heading": "DON’T BE FOOLED BY SCARE TACTICS.",
+      "side": "yes",
+      "text": "Highly paid clinic executives want you to believe this measure will close clinics, eliminate services, and hurt patients. Those claims are false. PROP. 44 PROTECTS PATIENT CARE—IT DOESN'T CUT IT. Proposition 44 simply requires that 90% of clinic revenue be spent on clinics’ non-profit mission: patient care and services that support care. This CAN INCLUDE: Transportation, language interpretation, care coordination, community outreach, nurse managers and clinical staff, medical equipment and information technology, and mental health, dental, and preventative care. The opposition falsely claims these services would be cut, but Prop. 44 is designed to protect spending that serves patients. PROP. 44 PREVENTS PRECIOUS RESOURCES FROM BEING DIVERTED AWAY FROM PATIENT CARE Prop. 44 seeks to reduce spending on: Excessive CEO pay, lavish events, expensive consultants, and unnecessary administrative spending. That means healthcare dollars would go where they belong: Caring for patients. WHY ARE CLINIC EXECUTIVES FIGHTING ACCOUNTABILITY? The campaign against Prop. 44 is funded by the same highly paid clinic executives who benefit from the current system. If today’s oversight were enough, some clinics wouldn’t be spending less than half of their funding on patient care and services. The real threat to clinics isn’t accountability, it’s devastating federal healthcare cuts. Patients can’t afford to see precious funding spent on excessive CEO compensation and other non-essentials while they wait months for appointments and healthcare workers struggle with understaffing and limited resources. PUT PATIENTS FIRST, NOT CLINIC CEOS. Vote YES on Proposition 44.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Highly paid clinic executives want you to believe this measure will close clinics, eliminate services, and hurt patients. Those claims are false. PROP. 44 PROTECTS PATIENT CARE—IT DOESN'T CUT IT. Proposition 44 simply requires that 90% of clinic revenue be spent on clinics’ non-profit mission: patient care and services that support care. This CAN INCLUDE: Transportation, language interpretation, care coordination, community outreach, nurse managers and clinical staff, medical equipment and information technology, and mental health, dental, and preventative care. The opposition falsely claims these services would be cut, but Prop. 44 is designed to protect spending that serves patients. PROP. 44 PREVENTS PRECIOUS RESOURCES FROM BEING DIVERTED AWAY FROM PATIENT CARE Prop. 44 seeks to reduce spending on: Excessive CEO pay, lavish events, expensive consultants, and unnecessary administrative spending. That means healthcare dollars would go where they belong: Caring for patients. WHY ARE CLINIC EXECUTIVES FIGHTING ACCOUNTABILITY? The campaign against Prop. 44 is funded by the same highly paid clinic executives who benefit from the current system. If today’s oversight were enough, some clinics wouldn’t be spending less than half of their funding on patient care and services. The real threat to clinics isn’t accountability, it’s devastating federal healthcare cuts. Patients can’t afford to see precious funding spent on excessive CEO compensation and other non-essentials while they",
+          "locator": "p. 73, Rebuttal to Argument Against Proposition 44"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "no_means": {
+      "value": "The new requirement on health care clinic spending would not go into effect.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "The new requirement on health care clinic spending would not go into effect.",
+          "locator": "p. 11, Quick Reference Guide, Prop. 44, WHAT YOUR VOTE MEANS, NO"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "Certain private nonprofit health care clinics would have to spend at least 90 percent of their revenue each year on providing health care services.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Certain private nonprofit health care clinics would have to spend at least 90 percent of their revenue each year on providing health care services.",
+          "locator": "p. 11, Quick Reference Guide, Prop. 44, WHAT YOUR VOTE MEANS, YES"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [],
+    "statement_by": "Legislative Analyst",
+    "summary": {
+      "summary": "• Increased state costs in the low tens of millions of dollars per year to enforce the new requirements on certain private nonprofit health care clinics, covered by fees charged to the affected clinics.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "• Increased state costs in the low tens of millions of dollars per year to enforce the new requirements on certain private nonprofit health care clinics, covered by fees charged to the affected clinics.",
+          "locator": "p. 70, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "State of California",
+    "level": "state"
+  },
+  "measure_type": {
+    "value": "statute",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "REQUIRES COMMUNITY HEALTH CLINICS SPEND 90% OF REVENUE ON PROGRAM SERVICES. INITIATIVE STATUTE.",
+        "locator": "p. 70, Official Title and Summary (prepared by the Attorney General)"
+      }
+    ]
+  },
+  "number": "44",
+  "official_title": {
+    "value": "REQUIRES COMMUNITY HEALTH CLINICS SPEND 90% OF REVENUE ON PROGRAM SERVICES. INITIATIVE STATUTE.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "REQUIRES COMMUNITY HEALTH CLINICS SPEND 90% OF REVENUE ON PROGRAM SERVICES. INITIATIVE STATUTE.",
+        "locator": "p. 70, Official Title and Summary (prepared by the Attorney General)"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Put on the Ballot by Petition Signatures",
+        "locator": "p. 11, Quick Reference Guide, Prop. 44, SUMMARY"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on “program services” advancing their charitable purpose, including but not limited to patient services.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on “program services” advancing their charitable purpose, including but not limited to patient services.",
+        "locator": "p. 11, Quick Reference Guide, Prop. 44, SUMMARY"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

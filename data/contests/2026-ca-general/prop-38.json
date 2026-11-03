@@ -1,0 +1,161 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/prop-38",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "Proposition 38",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Susan Disney Lord, Board Chair Alzheimer’s Los Angeles",
+        "Eugene P. Brandon, Ph.D., Board of Trustees ALS Association",
+        "Dr. Brian Shuch, M.D., Board of Directors Member Kidney Cancer Association"
+      ],
+      "side": "yes",
+      "text": "PATIENT ADVOCATES, DOCTORS, NURSES AND MEDICAL RESEARCHERS URGE YES ON PROP. 38 Leading patient advocates including the Alzheimer’s Association, Michael J. Fox Foundation, American Nurses Association\\California, ALS Association, National Multiple Sclerosis Society and Prostate Cancer Foundation all urge YES on PROP. 38 because it could save your life and the life of someone you love. “I was just weeks away from losing my life when a breakthrough immunotherapy gave me a second chance. Vote YES on PROP. 38 because every family facing a devastating diagnosis deserves this same hope.” —Laurie Adami, Cancer Survivor and Patient Advocate, Los Angeles YES ON PROP. 38—TO CURE AND PREVENT DISEASES THROUGH LIFE-SAVING IMMUNOLOGY RESEARCH PROP. 38 accelerates development of breakthrough treatments and cures for the diseases that impact nearly every family. At least half of all funds are specifically dedicated to cancer, heart disease and Alzheimer’s research. “Immunology harnesses the body’s immune system to detect and stop diseases. Today, breakthrough immunotherapies are already curing cancers like melanoma, lung cancer and leukemia. Promising research is underway to prevent diseases including Parkinson’s, heart disease, diabetes and more.” —Mark Davis, Ph.D., Member of the National Academy of Sciences and the National Academy of Medicine “One in nine people over 65 are living with Alzheimer’s, but there are currently no effective cures. YES on PROP. 38 provides real promise to find treatments and cures for the millions of patients and their families living with Alzheimer’s and dementia.” —Susan Disney Lord, Board Chair of Alzheimer’s Los Angeles HELPS OFFSET FEDERAL FUNDING CUTS TO MEDICAL RESEARCH Massive federal funding cuts and uncertainty are disrupting vitally needed medical research at nonprofit research institutes and universities, delaying progress toward life-saving cures. PROP. 38 creates a stable source of funding for breakthrough immunology research. All funds are dedicated exclusively to California-based nonprofit universities and research institutes—helping California lead the nation in medical innovation, fostering collaboration among top scientists and universities, and creating tens of thousands of good-paying jobs. “Immunotherapy is transforming the future of cancer care. PROP. 38 will help accelerate life-saving cures while strengthening California’s role as a global leader in medical innovation.” —Gina Carithers, President and CEO, Prostate Cancer Foundation LOWERS HEALTHCARE COSTS FOR CALIFORNIANS Any cure or immunotherapy developed through PROP. 38 must be provided to California patients at a 20% DISCOUNT. Preventing and curing the most pressing diseases will also reduce long-term healthcare expenses and save the state and families tens of billions of dollars in avoided medical expenses. STRONG ACCOUNTABILITY & TAXPAYER PROTECTIONS PROP. 38 is designed to pay for itself WITH NO NET COST TO THE STATE OR TAXPAYERS. Ten percent of revenue from the licensing of successful immunotherapies must be returned to California to offset the costs of the bond, including interest. PROP. 38 also includes strict accountability requirements, including: • 2% Cap on State Administrative Expenses • Public Disclosure of Spending • Independent Financial Audits • For-profit corporations are not eligible for grant funding YES ON PROP. 38: SUPPORTED BY DOCTORS, NURSES AND PATIENT ADVOCATES • ALS Association • Alzheimer’s Association • American Nurses Association\\California • Blood Cancer United • California Colorectal Cancer Coalition • Liver Coalition • Michael J. Fox Foundation • National Multiple Sclerosis Society • Parkinson Association of Northern California ... and many more. YES on PROP. 38 could save your life and someone you love. Please, vote Yes. www.YesOn38.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "PATIENT ADVOCATES, DOCTORS, NURSES AND MEDICAL RESEARCHERS URGE YES ON PROP. 38 Leading patient advocates including the Alzheimer’s Association, Michael J. Fox Foundation, American Nurses Association\\California, ALS Association, National Multiple Sclerosis Society and Prostate Cancer Foundation all urge YES on PROP. 38 because it could save your life and the life of someone you love. “I was just weeks away from losing my life when a breakthrough immunotherapy gave me a second chance. Vote YES on PROP. 38 because every family facing a devastating diagnosis deserves this same hope.” —Laurie Adami, Cancer Survivor and Patient Advocate, Los Angeles YES ON PROP. 38—TO CURE AND PREVENT DISEASES THROUGH LIFE-SAVING IMMUNOLOGY RESEARCH PROP. 38 accelerates development of breakthrough treatments and cures for the diseases that impact nearly every family. At least half of all funds are specifically dedicated to cancer, heart disease and Alzheimer’s research. “Immunology harnesses the body’s immune system to detect and stop diseases. Today, breakthrough immunotherapies are already curing cancers like melanoma, lung cancer and leukemia. Promising research is underway to prevent diseases including Parkinson’s, heart disease, diabetes and more.” —Mark Davis, Ph.D., Member of the National Academy of Sciences and the National Academy of Medicine “One in nine people over 65 are living with Alzheimer’s, but there are currently no effective cures. YES on PROP. 38 provides real promise to find",
+          "locator": "p. 46, Argument in Favor of Proposition 38"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Robert M Kaplan, Ph.D."
+      ],
+      "side": "no",
+      "text": "California should continue supporting biomedical research. Everyone hopes for new treatments for heart disease, cancer, Alzheimer’s disease, and other serious illnesses. I do too. But Proposition 38 is the wrong way to achieve that goal. The claim that Proposition 38 will pay for itself is speculative. Audits, public disclosure, and limits on administrative costs promote accountability, but they cannot guarantee that research investments will generate enough economic returns to offset billions of dollars in bond repayments. California faces a continuing structural budget deficit. Proposition 38 would require approximately $8.4 billion in bond repayments. According to the nonpartisan Legislative Analyst’s Office, taxpayers would be committed to roughly $500 million in annual debt payments for the next 25 years. That long-term obligation would further reduce the state’s fiscal flexibility to respond to changing priorities. Meanwhile, recent actions by the Trump administration have placed funding for essential California public health programs at risk, including disease surveillance, emergency preparedness, HIV prevention, vaccination infrastructure, laboratory capacity, and community prevention. These challenges extend well beyond biomedical research. If California chooses to replace declining federal support, elected officials should be able to consider all health priorities together. Proposition 38 instead earmarks billions of borrowed dollars for one scientific field, regardless of future needs or discoveries. Research priorities should be guided through the normal budget process—not by ballot measures that lock taxpayers into decades of debt. Vote No on Proposition 38.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "California should continue supporting biomedical research. Everyone hopes for new treatments for heart disease, cancer, Alzheimer’s disease, and other serious illnesses. I do too. But Proposition 38 is the wrong way to achieve that goal. The claim that Proposition 38 will pay for itself is speculative. Audits, public disclosure, and limits on administrative costs promote accountability, but they cannot guarantee that research investments will generate enough economic returns to offset billions of dollars in bond repayments. California faces a continuing structural budget deficit. Proposition 38 would require approximately $8.4 billion in bond repayments. According to the nonpartisan Legislative Analyst’s Office, taxpayers would be committed to roughly $500 million in annual debt payments for the next 25 years. That long-term obligation would further reduce the state’s fiscal flexibility to respond to changing priorities. Meanwhile, recent actions by the Trump administration have placed funding for essential California public health programs at risk, including disease surveillance, emergency preparedness, HIV prevention, vaccination infrastructure, laboratory capacity, and community prevention. These challenges extend well beyond biomedical research. If California chooses to replace declining federal support, elected officials should be able to consider all health priorities together. Proposition 38 instead earmarks billions of borrowed dollars for one scientific field,",
+          "locator": "p. 46, Rebuttal to Argument in Favor of Proposition 38"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Robert M Kaplan, Ph.D."
+      ],
+      "side": "no",
+      "text": "California recognizes that continued investment in science is essential. But this proposition is not the best way to achieve that goal. The measure would authorize approximately $8.4 billion in state borrowing to support immunology and immunotherapy research through a new University of California institute. Although the objective is appealing, the financing and policy framework are flawed. First, the proposition continues the use of ballot initiatives to direct research funding toward selected topics. California has already created separate funding programs for stem cell research and precision medicine. This measure would add another highly focused program. Research priorities should be established through scientific review and public health planning—not by election campaigns. Cancer, Alzheimer’s disease, and heart disease deserve attention, but so do mental illness, kidney disease, eye diseases, and many other conditions. Ballot-box science inevitably favors the most visible topics rather than the greatest scientific opportunities or public health needs. Second, borrowing is an inappropriate way to finance scientific research. According to the Legislative Analyst’s Office, the bonds authorized by this measure would obligate taxpayers to $500 million in annual debt payments for about 25 years. Bonds are commonly used for highways, schools, and other long-lived infrastructure with predictable benefits. Scientific research is different. Discoveries often require decades before they improve patient care, and many promising lines of investigation never produce marketable treatments. Third, the proposition assumes that successful discoveries will generate revenues to offset state costs. In reality, universities rarely commercialize new therapies on their own. Publicly funded research lays the scientific foundation, but private companies typically invest the far greater resources required for product development, clinical testing, manufacturing, and regulatory approval. The public benefits are real, but they generally do not flow back to the state treasury. Finally, the proposition requires certain therapies developed with state support to be sold in California at discounted prices. While this may sound attractive, it could incentivize companies to prioritize selling these products in other states where the prices are not controlled. California should continue to support biomedical research. But research funding should be strategic, flexible, and fiscally responsible. Decisions about scientific priorities should be based on expert evaluation of emerging scientific opportunities and public health needs, not on a series of expensive ballot measures financed through long-term debt. California has better options. For example, Senator Scott Wiener has proposed creating a state-funded research agency modeled on the National Institutes of Health and the National Science Foundation. Rather than directing resources to specific areas of science, such an institution could establish priorities through expert scientific review and adapt its investments as new opportunities emerge. Although the legislation has not advanced, it received support from the University of California, the United Auto Workers, and the Union of American Physicians and Dentists. Similar legislation is likely to be considered in the future. A “No” vote does not reject science. It rejects an inefficient financing mechanism and a fragmented approach to setting research priorities. California can and should support medical research through more coordinated, sustainable policies.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "California recognizes that continued investment in science is essential. But this proposition is not the best way to achieve that goal. The measure would authorize approximately $8.4 billion in state borrowing to support immunology and immunotherapy research through a new University of California institute. Although the objective is appealing, the financing and policy framework are flawed. First, the proposition continues the use of ballot initiatives to direct research funding toward selected topics. California has already created separate funding programs for stem cell research and precision medicine. This measure would add another highly focused program. Research priorities should be established through scientific review and public health planning—not by election campaigns. Cancer, Alzheimer’s disease, and heart disease deserve attention, but so do mental illness, kidney disease, eye diseases, and many other conditions. Ballot-box science inevitably favors the most visible topics rather than the greatest scientific opportunities or public health needs. Second, borrowing is an inappropriate way to finance scientific research. According to the Legislative Analyst’s Office, the bonds authorized by this measure would obligate taxpayers to $500 million in annual debt payments for about 25 years. Bonds are commonly used for highways, schools, and other long-lived infrastructure with predictable benefits. Scientific research is different. Discoveries often require decades before",
+          "locator": "p. 47, Argument Against Proposition 38"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Andrew Dale, Cancer Survivor Santa Monica",
+        "Anne M. Holloway, Board Member The Michael J. Fox Foundation for Parkinson’s Research",
+        "Chris Tarver, R.N., President American Nurses Association\\California"
+      ],
+      "side": "yes",
+      "text": "YES ON PROP. 38 IS VITALLY NEEDED FOR LIFE-SAVING IMMUNOLOGY MEDICAL RESEARCH Today, breakthrough immunotherapies are already curing cancers like melanoma, lung cancer and leukemia. Promising research is underway to cure and prevent diseases including Alzheimer’s, heart disease, Parkinson’s, ALS and more. MASSIVE FEDERAL FUNDING CUTS ARE THREATENING PROGRESS TOWARD LIFE-SAVING CURES YES on 38 will ensure California universities and nonprofit research institutions can continue vitally needed immunology research to cure and prevent the most debilitating diseases. “Immunology saved my life—I now live cancer-free, and it could save millions of other lives too.” —Andrew Dale, Immunotherapy Patient and Cancer Survivor YES ON 38 IS DESIGNED TO PAY FOR ITSELF—WITH NO COST TO TAXPAYERS Ten percent (10%) of revenue from licensing immunotherapies must be returned to California to offset bond costs. These requirements are locked into this measure. YES ON 38 MANDATES STRONG ACCOUNTABILITY & TRANSPARENCY • 2% Cap on State Administrative Expenses • Public Disclosure of Spending • Independent Financial Audits YES ON 38 LOWERS HEALTHCARE COSTS Immunotherapies developed through Prop. 38 must be provided to California patients at 20% discount. Preventing and curing diseases will also save families and the state billions of dollars in long-term healthcare expenses. DOCTORS, NURSES AND PATIENT ADVOCATES URGE YES ON 38 • Alzheimer’s Association • American Nurses Association\\California • ALS Association • Kidney Cancer Association • Melanoma Research Alliance • National Multiple Sclerosis Society • The Michael J. Fox Foundation for Parkinson’s Research ... and many more. Support Life-Saving Cures. Please Vote YES on 38. www.YESon38.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "YES ON PROP. 38 IS VITALLY NEEDED FOR LIFE-SAVING IMMUNOLOGY MEDICAL RESEARCH Today, breakthrough immunotherapies are already curing cancers like melanoma, lung cancer and leukemia. Promising research is underway to cure and prevent diseases including Alzheimer’s, heart disease, Parkinson’s, ALS and more. MASSIVE FEDERAL FUNDING CUTS ARE THREATENING PROGRESS TOWARD LIFE-SAVING CURES YES on 38 will ensure California universities and nonprofit research institutions can continue vitally needed immunology research to cure and prevent the most debilitating diseases. “Immunology saved my life—I now live cancer-free, and it could save millions of other lives too.” —Andrew Dale, Immunotherapy Patient and Cancer Survivor YES ON 38 IS DESIGNED TO PAY FOR ITSELF—WITH NO COST TO TAXPAYERS Ten percent (10%) of revenue from licensing immunotherapies must be returned to California to offset bond costs. These requirements are locked into this measure. YES ON 38 MANDATES STRONG ACCOUNTABILITY & TRANSPARENCY • 2% Cap on State Administrative Expenses • Public Disclosure of Spending • Independent Financial Audits YES ON 38 LOWERS HEALTHCARE COSTS Immunotherapies developed through Prop. 38 must be provided to California patients at 20% discount. Preventing and curing diseases will also save families and the state billions of dollars in long-term healthcare expenses. DOCTORS, NURSES AND PATIENT ADVOCATES URGE YES ON 38 • Alzheimer’s Association • American Nurses Association\\California • ALS",
+          "locator": "p. 47, Rebuttal to Argument Against Proposition 38"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "no_means": {
+      "value": "The state could not borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "The state could not borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+          "locator": "p. 8, Quick Reference Guide, Prop 38, What Your Vote Means: NO"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "The state could borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "The state could borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+          "locator": "p. 8, Quick Reference Guide, Prop 38, What Your Vote Means: YES"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [],
+    "statement_by": "Legislative Analyst",
+    "summary": {
+      "summary": "• Increased state cost of $500 million to $600 million annually for about 20 years to repay the medical research bond. The state could recover part or all of this cost in subsequent decades if the funded research leads to discoveries that generate revenue.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "• Increased state cost of $500 million to $600 million annually for about 20 years to repay the medical research bond. The state could recover part or all of this cost in subsequent decades if the funded research leads to discoveries that generate revenue.",
+          "locator": "p. 44, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "State of California",
+    "level": "state"
+  },
+  "measure_type": {
+    "value": "bond",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "AUTHORIZES BONDS FOR IMMUNOLOGY MEDICAL RESEARCH. INITIATIVE STATUTE.",
+        "locator": "p. 44, Official Title and Summary"
+      }
+    ]
+  },
+  "number": "38",
+  "official_title": {
+    "value": "AUTHORIZES BONDS FOR IMMUNOLOGY MEDICAL RESEARCH. INITIATIVE STATUTE.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "AUTHORIZES BONDS FOR IMMUNOLOGY MEDICAL RESEARCH. INITIATIVE STATUTE.",
+        "locator": "p. 44, Official Title and Summary"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Put on the Ballot by Petition Signatures",
+        "locator": "p. 8, Quick Reference Guide, Prop 38, Summary"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Authorizes $8.4 billion in general obligation bonds for immunology and immunotherapy research, half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
+    "citations": [
+      {
+        "source": "src:voterguide-sos-ca-gov-4817836934",
+        "quote": "Authorizes $8.4 billion in general obligation bonds for immunology and immunotherapy research, half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
+        "locator": "web guide, index.htm"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

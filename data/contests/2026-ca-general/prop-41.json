@@ -1,0 +1,174 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/prop-41",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "Proposition 41",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Denise LeDuc Froemming, CPA, President California Society of Certified Public Accountants (CalCPAs)",
+        "Tom Hayes, Fmr. California State Auditor",
+        "Robert Gutierrez, President California Taxpayers Association (CalTax)"
+      ],
+      "side": "yes",
+      "text": "CALIFORNIANS DESERVE BETTER RESULTS FOR OUR TAX DOLLARS Prop. 41 requires the State Auditor to conduct independent public audits of programs funded by proposed new taxes in order to increase transparency and accountability and drive better outcomes. Californians pay some of the highest taxes in the country—on top of our high cost of living. This year alone, California’s state government will spend more than $350 billion—a 79% increase in spending since 2019. Billions of our tax dollars have flowed into state programs like homelessness efforts, with too little to show for it. We deserve better education, health care, infrastructure and other services in return for the hard-earned money we pay to the state. Prop. 41 requires more accountability, transparency and trackable progress of programs funded by our taxes, so that we stop funding failure and start funding successful outcomes. Here’s how Prop. 41 works. PUBLIC AUDITS TO PROVIDE ACCOUNTABILITY, TRANSPARENCY AND OVERSIGHT Prop. 41 requires the independent State Auditor to conduct performance and financial audits of the programs funded by new tax measures, with the results posted publicly. The audits must: • Track all program spending and assess whether it’s achieving its intended outcomes; • Determine whether programs have sufficient oversight and accountability; • Identify areas of waste, fraud and abuse; • Recommend how future waste and fraud can be avoided and programs made more effective. Prop. 41 requires audits both before taxes are voted on to provide transparency to voters, and ongoing audits of programs funded by approved taxes to ensure accountability. PROP. 41: INDEPENDENT, PUBLIC INFORMATION FOR VOTERS ON PROPOSED TAXES Before we vote on new taxes to fund programs, voters should have access to independent information about how those programs are being managed and whether they actually need more funding. Under Prop. 41, the Auditor’s findings must be posted publicly and in the Voter Information Guide—so voters can make informed decisions about new taxes without having to rely on information from special interests or politicians. “This commonsense, long overdue reform will finally instill some transparency and accountability in state spending—ensuring Californians get better government services for the taxes we pay. It provides an independent, public report card for government spending, so government programs work better for everyone.”—Pat Fong Kushida, President/CEO of the CalAsian Chamber of Commerce PROP. 41: A BETTER DEAL FOR TAXPAYERS Prop. 41 doesn’t raise taxes—it protects taxpayers’ interests: • Reduces the waste and fraud that have cost California taxpayers billions of dollars in recent years; • Requires all taxes to comply with the state’s voter-approved spending limit—including its requirement that excess revenues get refunded to taxpayers. Prop. 41 ensures taxpayers get better results—not just a bigger tax bill. “Every tax dollar we waste is a dollar that could actually help someone. Californians already pay the highest state income and sales taxes in the country—we need better transparency and accountability to make sure our tax dollars produce results. Prop. 41 delivers.”—Steve Westly, former Controller of California. Please join good government groups, small business owners, accountants, taxpayers and public transparency advocates in voting Yes on 41. For more information, visit: www.ResultsCA.org",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "CALIFORNIANS DESERVE BETTER RESULTS FOR OUR TAX DOLLARS Prop. 41 requires the State Auditor to conduct independent public audits of programs funded by proposed new taxes in order to increase transparency and accountability and drive better outcomes. Californians pay some of the highest taxes in the country—on top of our high cost of living. This year alone, California’s state government will spend more than $350 billion—a 79% increase in spending since 2019. Billions of our tax dollars have flowed into state programs like homelessness efforts, with too little to show for it. We deserve better education, health care, infrastructure and other services in return for the hard-earned money we pay to the state. Prop. 41 requires more accountability, transparency and trackable progress of programs funded by our taxes, so that we stop funding failure and start funding successful outcomes. Here’s how Prop. 41 works. PUBLIC AUDITS TO PROVIDE ACCOUNTABILITY, TRANSPARENCY AND OVERSIGHT Prop. 41 requires the independent State Auditor to conduct performance and financial audits of the programs funded by new tax measures, with the results posted publicly. The audits must: • Track all program spending and assess whether it’s achieving its intended outcomes; • Determine whether programs have sufficient oversight and accountability; • Identify areas of waste, fraud and abuse; • Recommend how future waste and fraud can be avoided and programs made more effective. Prop. 41 requires audits both",
+          "locator": "p. 60, Argument in Favor of Proposition 41"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Suzanne Jimenez, Chief of Staff SEIU-United Healthcare Workers West"
+      ],
+      "side": "no",
+      "text": "THIS IS A BILLIONAIRE-FUNDED SMOKE SCREEN Don’t be fooled—Prop. 41 is not really about audits. This is all a trick so approximately 200 billionaires can keep avoiding paying their own taxes while YOU get stuck with the bill. PROP. 41 WOULD CANCEL OUT THE BILLIONAIRE TAX Prop. 41 is a billionaire-funded scheme designed specifically to undo the California Billionaire Tax, Prop. 40. Prop. 41 was put on the ballot because billionaires don’t want to pay their fair share. They’d rather millions of working people lose healthcare than pay a modest, one-time tax on their extreme wealth. To add insult to injury, Prop. 41 isn’t just a scheme, it’s an expensive one—it would cost the state time and money. SOME OF DONALD TRUMP’S DONORS FUNDED THIS The billionaires behind this don’t care about accountability for taxpayers. They’ve been getting out of paying their own taxes for years through loopholes and tax breaks. This sham initiative was created to trick voters like you into making a billionaire tax impossible to enforce. IF YOU CARE ABOUT FUNDING FOR HEALTHCARE, PUBLIC EDUCATION, AND FOOD ASSISTANCE, VOTE NO ON PROP. 41 Donald Trump slashed funding for our essential services so billionaires could hoard even more wealth. Passing the California Billionaire Tax is the only way to replace the money Trump took from us, so we’re not stuck with shuttered hospitals and skyrocketing healthcare costs. To save lives and keep healthcare costs down for Californians, reject the billionaires’ lies. Vote NO on Prop. 41.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "THIS IS A BILLIONAIRE-FUNDED SMOKE SCREEN Don’t be fooled—Prop. 41 is not really about audits. This is all a trick so approximately 200 billionaires can keep avoiding paying their own taxes while YOU get stuck with the bill. PROP. 41 WOULD CANCEL OUT THE BILLIONAIRE TAX Prop. 41 is a billionaire-funded scheme designed specifically to undo the California Billionaire Tax, Prop. 40. Prop. 41 was put on the ballot because billionaires don’t want to pay their fair share. They’d rather millions of working people lose healthcare than pay a modest, one-time tax on their extreme wealth. To add insult to injury, Prop. 41 isn’t just a scheme, it’s an expensive one—it would cost the state time and money. SOME OF DONALD TRUMP’S DONORS FUNDED THIS The billionaires behind this don’t care about accountability for taxpayers. They’ve been getting out of paying their own taxes for years through loopholes and tax breaks. This sham initiative was created to trick voters like you into making a billionaire tax impossible to enforce. IF YOU CARE ABOUT FUNDING FOR HEALTHCARE, PUBLIC EDUCATION, AND FOOD ASSISTANCE, VOTE NO ON PROP. 41 Donald Trump slashed funding for our essential services so billionaires could hoard even more wealth. Passing the California Billionaire Tax is the only way to replace the money Trump took from us, so we’re not stuck with shuttered hospitals and skyrocketing healthcare costs. To save lives and keep healthcare costs down for Californians, reject the billionaires’ lies.",
+          "locator": "p. 60, Rebuttal to Argument in Favor of Proposition 41"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Suzanne Jimenez, Chief of Staff SEIU-United Healthcare Workers West"
+      ],
+      "side": "no",
+      "text": "VOTE NO ON PROP. 41. This is a billionaire-funded initiative designed specifically to undo the California Billionaire Tax, Prop. 40. PROP. 41 WOULD CANCEL OUT THE BILLIONAIRE TAX Prop. 41 was put on the ballot for one reason—because billionaires don’t want to pay their fair share. This initiative was created to trick voters like you into making a billionaire tax impossible to enforce. That’s why you must vote NO. Don’t fall for the billionaires’ lies. Prop. 41 isn’t about auditing new taxes. It’s about defeating one specific tax that billionaires want to avoid, because they’d rather millions of working people lose healthcare than pay a modest, one-time tax on their extreme wealth. PROP. 41 WAS FUNDED BY BILLIONAIRES WHO WANT YOU TO PAY MORE FOR HEALTHCARE One of Prop. 41’s main funders is Google founder and Trump donor Sergey Brin, whose wealth has DOUBLED to nearly $300 billion since Trump’s election. Now he’s spent over $57 million to fund sham measures like Prop. 41 that attempt to cancel out a billionaire tax. U.S. Senator Bernie Sanders called this arrogant move by Brin “unacceptable.” Donald Trump took money out of working peoples’ pockets and gave it to billionaires like Brin through massive tax breaks. Now, the billionaires backing Prop. 41 want YOU to pay more for your healthcare. VOTE NO ON PROP. 41 IF YOU SUPPORT THE BILLIONAIRE TAX We have a chance to make billionaires pay their fair share to keep hospitals open and healthcare affordable for California’s working families. Vote NO on Prop. 41.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "VOTE NO ON PROP. 41. This is a billionaire-funded initiative designed specifically to undo the California Billionaire Tax, Prop. 40. PROP. 41 WOULD CANCEL OUT THE BILLIONAIRE TAX Prop. 41 was put on the ballot for one reason—because billionaires don’t want to pay their fair share. This initiative was created to trick voters like you into making a billionaire tax impossible to enforce. That’s why you must vote NO. Don’t fall for the billionaires’ lies. Prop. 41 isn’t about auditing new taxes. It’s about defeating one specific tax that billionaires want to avoid, because they’d rather millions of working people lose healthcare than pay a modest, one-time tax on their extreme wealth. PROP. 41 WAS FUNDED BY BILLIONAIRES WHO WANT YOU TO PAY MORE FOR HEALTHCARE One of Prop. 41’s main funders is Google founder and Trump donor Sergey Brin, whose wealth has DOUBLED to nearly $300 billion since Trump’s election. Now he’s spent over $57 million to fund sham measures like Prop. 41 that attempt to cancel out a billionaire tax. U.S. Senator Bernie Sanders called this arrogant move by Brin “unacceptable.” Donald Trump took money out of working peoples’ pockets and gave it to billionaires like Brin through massive tax breaks. Now, the billionaires backing Prop. 41 want YOU to pay more for your healthcare. VOTE NO ON PROP. 41 IF YOU SUPPORT THE BILLIONAIRE TAX We have a chance to make billionaires pay their fair share to keep hospitals open and healthcare affordable for California’s working",
+          "locator": "p. 61, Argument Against Proposition 41"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Pat Fong Kushida, President California Asian Pacific Chamber of Commerce (CalAsian Chamber)",
+        "Steve Westly, Fmr. California State Controller",
+        "Robert Gutierrez, President California Taxpayers Association (CalTax)"
+      ],
+      "side": "yes",
+      "text": "When state government programs don’t deliver, it hurts the people who rely on those services and the taxpayers who fund them. Prop. 41 requires the independent State Auditor to conduct performance and financial audits of the programs to be funded by new taxes—to help make programs more effective and efficient. Ask yourself: why would a single, solitary Sacramento special interest oppose transparency and accountability? YES ON 41: TAXPAYERS DESERVE BETTER RESULTS Some facts: • Our state budget is a record high $352 billion this year. • State spending is up 79% since 2019. • We’ve spent billions on programs like homelessness—with too little to show for it. With some of the highest taxes in the nation and a rising cost of living, we can’t afford to fund failure. Every dollar wasted is one that could go to help someone. Prop. 41 requires transparency and trackable progress of programs, to help improve education, health care and other public services Californians rely on. PROP. 41: PUBLIC AUDITS TO IMPROVE ACCOUNTABILITY “Independent performance audits give voters objective, credible information about public resources, strengthening accountability and public trust.” Denise LeDuc Froemming, President, California Society of Certified Public Accountants Under Prop. 41, the independent State Auditor publicly reviews the programs that new taxes would fund, exposes any waste or mismanagement, and recommends program improvements. The audit findings are published in the Voter Information Guide before you vote—with ongoing audits if a tax is approved. VOTERS DESERVE MORE TRANSPARENCY—even if special interests don’t like it. Vote Yes on Prop. 41. More transparency, more accountability, better results for our tax dollars.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "When state government programs don’t deliver, it hurts the people who rely on those services and the taxpayers who fund them. Prop. 41 requires the independent State Auditor to conduct performance and financial audits of the programs to be funded by new taxes—to help make programs more effective and efficient. Ask yourself: why would a single, solitary Sacramento special interest oppose transparency and accountability? YES ON 41: TAXPAYERS DESERVE BETTER RESULTS Some facts: • Our state budget is a record high $352 billion this year. • State spending is up 79% since 2019. • We’ve spent billions on programs like homelessness—with too little to show for it. With some of the highest taxes in the nation and a rising cost of living, we can’t afford to fund failure. Every dollar wasted is one that could go to help someone. Prop. 41 requires transparency and trackable progress of programs, to help improve education, health care and other public services Californians rely on. PROP. 41: PUBLIC AUDITS TO IMPROVE ACCOUNTABILITY “Independent performance audits give voters objective, credible information about public resources, strengthening accountability and public trust.” Denise LeDuc Froemming, President, California Society of Certified Public Accountants Under Prop. 41, the independent State Auditor publicly reviews the programs that new taxes would fund, exposes any waste or mismanagement, and recommends program improvements. The audit findings are published in the Voter Information",
+          "locator": "p. 61, Rebuttal to Argument Against Proposition 41"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "contest": "contest:2026-ca-general/prop-40",
+      "rule": "If Proposition 41 receives more yes votes than Proposition 40, courts could find that 41 conflicts with 40, and Proposition 40 could be stopped from becoming law even if a majority of voters approve it.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "If Proposition 41 receives more “yes” votes than Proposition 40 on this same ballot, then Proposition 40 could be stopped from becoming law even if it gets yes votes from a majority of voters. This is because the courts could find that Proposition 41 conflicts with Proposition 40.",
+          "locator": "p. 59, Analysis by the Legislative Analyst, Potential Interactions With Other Propositions"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "no_means": {
+      "value": "The California State Auditor’s responsibility to review government programs would not change. The state spending limit requirements would not change.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "The California State Auditor’s responsibility to review government programs would not change. The state spending limit requirements would not change.",
+          "locator": "p. 9, Quick Reference Guide, Prop 41, What Your Vote Means: NO"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "When special taxes are proposed by voter initiatives, the California State Auditor would review programs funded by the tax before the initiative appears on the ballot. The California State Auditor also would regularly review programs funded by special taxes approved by voters or the Legislature. In addition, the state might not be able to exclude any new special tax spending from its spending limit.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "When special taxes are proposed by voter initiatives, the California State Auditor would review programs funded by the tax before the initiative appears on the ballot. The California State Auditor also would regularly review programs funded by special taxes approved by voters or the Legislature. In addition, the state might not be able to exclude any new special tax spending from its spending limit.",
+          "locator": "p. 9, Quick Reference Guide, Prop 41, What Your Vote Means: YES"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [],
+    "statement_by": "Legislative Analyst",
+    "summary": {
+      "summary": "• Unknown net fiscal effect. Increased costs for the California State Auditor to implement new one-time and ongoing audit requirements of programs funded by special taxes. These costs would be mostly paid from the new revenues collected from the special taxes. Possible savings associated with implementing recommendations from the audits.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "• Unknown net fiscal effect. Increased costs for the California State Auditor to implement new one-time and ongoing audit requirements of programs funded by special taxes. These costs would be mostly paid from the new revenues collected from the special taxes. Possible savings associated with implementing recommendations from the audits.",
+          "locator": "p. 58, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "State of California",
+    "level": "state"
+  },
+  "measure_type": {
+    "value": "constitutional_amendment",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "PROHIBITS NEW STATE TAXES THAT EXCLUDE REVENUES FROM STATE SPENDING LIMIT. REQUIRES AUDITS FOR NEW STATE SPECIAL TAXES. INITIATIVE CONSTITUTIONAL AMENDMENT.",
+        "locator": "p. 58, Official Title and Summary"
+      }
+    ]
+  },
+  "number": "41",
+  "official_title": {
+    "value": "PROHIBITS NEW STATE TAXES THAT EXCLUDE REVENUES FROM STATE SPENDING LIMIT. REQUIRES AUDITS FOR NEW STATE SPECIAL TAXES. INITIATIVE CONSTITUTIONAL AMENDMENT.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "PROHIBITS NEW STATE TAXES THAT EXCLUDE REVENUES FROM STATE SPENDING LIMIT. REQUIRES AUDITS FOR NEW STATE SPECIAL TAXES. INITIATIVE CONSTITUTIONAL AMENDMENT.",
+        "locator": "p. 58, Official Title and Summary"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Put on the Ballot by Petition Signatures",
+        "locator": "p. 9, Quick Reference Guide, Prop 41, Summary"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Nullifies state taxes enacted after January 1, 2026 that exempt their revenues from voter-approved state spending limit. Requires pre-election and recurring audits of programs funded by new special taxes.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Nullifies state taxes enacted after January 1, 2026 that exempt their revenues from voter-approved state spending limit. Requires pre-election and recurring audits of programs funded by new special taxes.",
+        "locator": "p. 9, Quick Reference Guide, Prop 41, Summary"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

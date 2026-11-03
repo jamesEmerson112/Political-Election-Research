@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "voterguide-sos-ca-gov-d899ee45d9",
+  "kind": "voter_guide",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "California Secretary of State",
+  "title": "Official Voter Information Guide, Proposition 5: Quick Reference",
+  "url": "https://voterguide.sos.ca.gov/propositions/5/index.htm"
+}
