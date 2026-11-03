@@ -50,6 +50,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Bayview-Hunters Point, San Francisco (where he grew up, as reported; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:theguardsman-com-7a45204fbc",
+          "quote": "grew up in “an underserved” community in the Bayview-Hunters Point"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "the foundations I gained as a lifelong SFUSD student",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 32 (PDF p. 34)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
