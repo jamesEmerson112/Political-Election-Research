@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-69fbeed9a2",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2025-05-13",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 241198 · Board of Supervisors final passage of May 13, 2025",
+  "url": "https://sfgov.legistar.com/HistoryDetail.aspx?ID=33445556&GUID=94278E19-05CE-4DE1-8E81-9CFE92D821CE",
+  "notes": "Legistar action-details page, opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

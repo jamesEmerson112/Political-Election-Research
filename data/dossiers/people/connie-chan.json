@@ -250,17 +250,18 @@
         "id": "free-city-college-funding-in-the-fy2026-27-and-fy2027-28-city-budget",
         "kind": "budget",
         "date": "2026-07-30",
-        "summary": "The ballot statement PDF could not be opened; a search-engine summary of it reports that a District 11 statement credits its author, the budget chair, with fully funding Free City College. Record: DCYF's reduction list for the mayor's proposal shows the City College Enrollment Assistance Fund line at $9,300,000 in FY2025–26 and $6,482,137 proposed for FY2026–27; Mission Local reported the proposal kept tuition aid and cut cash grants for low-income students. The Board's spending plan, item 1, \"Full funding for Free City College\", added $2.8 million in each of FY2026–27 and FY2027–28. The Budget and Appropriations Committee, on a motion by Chair Chan, recommended the amended budget 5–0 on June 25, 2026; the Board passed it 11–0 on July 28 and the mayor approved it July 30 (File 260596).",
+        "summary": "Chaired the Budget and Appropriations Committee that, on her motion, recommended 5–0 the FY2026–27 and FY2027–28 city budget (File 260596) with $2.8M a year for Free City College, after the Mayor's proposal cut the City College Enrollment Assistance Fund line from $9.3M (FY2025–26) to $6.48M; the Board passed it 11–0 and the Mayor approved it 2026-07-30; no measured outcome recorded as of 2026-11-03.",
         "title": "Free City College funding in the FY2026–27 and FY2027–28 city budget",
         "citations": [
           {
-            "source": "src:media-api-sf-gov-e4221ecde7",
-            "locator": "Candidate statement of Connie Chan, U.S. Representative, District 11 (claim: fully funded Free City College)",
-            "unverified": {
-              "by": "research agent",
-              "date": "2026-11-03",
-              "method": "search summary"
-            }
+            "source": "src:sfgov-legistar-com-2d1fcb294a",
+            "quote": "Chair Chan, seconded by Vice Chair Dorsey, moved that this Ordinance be RECOMMENDED AS AMENDED to the Board of Supervisors meeting of July 14, 2026.",
+            "locator": "Action: RECOMMENDED AS AMENDED; Votes (5:0)"
+          },
+          {
+            "source": "src:sfgov-legistar-com-28ffc706a7",
+            "quote": "Full funding for Free City College",
+            "locator": "Board of Supervisors Spending Plan, Item # 1, Dept CHF: FY27 GFS 2,800,000; FY28 GFS 2,800,000; GFS all years 5,600,000"
           },
           {
             "source": "src:sfgov-legistar-com-2a50d9d402",
@@ -281,11 +282,6 @@
             "quote": "The supes restored funding for Free City College, HIV prevention services, and support for seniors, among other changes to proposed cuts."
           },
           {
-            "source": "src:sfgov-legistar-com-2d1fcb294a",
-            "quote": "Chair Chan, seconded by Vice Chair Dorsey, moved that this Ordinance be RECOMMENDED AS AMENDED to the Board of Supervisors meeting of July 14, 2026.",
-            "locator": "Action: RECOMMENDED AS AMENDED; Votes (5:0)"
-          },
-          {
             "source": "src:sfgov-legistar-com-532c2c45a5",
             "quote": "FINALLY PASSED by the following vote:",
             "locator": "Votes (11:0); Connie Chan: Aye"
@@ -294,6 +290,90 @@
             "source": "src:sfgov-legistar-com-0855478d5e",
             "quote": "Budget and Appropriation Ordinance appropriating all estimated receipts and all estimated expenditures for Departments of the City and County of San Francisco as of June 1, 2026, for the Fiscal Years (FYs) ending June 30, 2027, and June 30, 2028.",
             "locator": "File #: 260596; Enactment #: 140-26; Enactment date: 7/30/2026; History: 7/30/2026 Mayor APPROVED"
+          }
+        ]
+      },
+      {
+        "id": "sf-file-220341-ellis-act-evictions",
+        "kind": "legislation",
+        "bill": "sf-file-220341",
+        "date": "2022-06-17",
+        "summary": "Co-sponsored File 220341 with four other supervisors, increasing the relocation payments owners must pay tenants evicted under the Ellis Act, among other Ellis Act changes; the Board passed it 10–0 and the Mayor approved it 2022-06-17 (Ordinance 091-22); no measured outcome recorded as of 2026-11-03.",
+        "title": "Ellis Act evictions: relocation payments (SF File 220341)",
+        "citations": [
+          {
+            "source": "src:sfgov-legistar-com-64974e2f00",
+            "quote": "to increase the relocation payments that owners must pay to tenants when evicting under the Ellis Act",
+            "locator": "File #: 220341; Title; Sponsors: Myrna Melgar, Dean Preston, Aaron Peskin, Connie Chan, Rafael Mandelman; Enactment #: 091-22; History: 6/17/2022 Mayor APPROVED"
+          },
+          {
+            "source": "src:sfgov-legistar-com-827f594e43",
+            "quote": "FINALLY PASSED",
+            "locator": "Action: FINALLY PASSED; Result: Pass; Consent Votes (10:0); Connie Chan: Aye; Rafael Mandelman: Absent"
+          }
+        ]
+      },
+      {
+        "id": "sf-file-241198-alexandria-theater-special-use-district",
+        "kind": "legislation",
+        "bill": "sf-file-241198",
+        "date": "2025-05-16",
+        "summary": "Sponsored File 241198, creating the Alexandria Theater Special Use District at Geary Boulevard and 18th Avenue to allow a density bonus and modified zoning controls for a residential project; the Board passed it 10–0 and the Mayor approved it 2025-05-16 (Ordinance 073-25); no measured outcome recorded as of 2026-11-03.",
+        "title": "Alexandria Theater Special Use District (SF File 241198)",
+        "citations": [
+          {
+            "source": "src:sfgov-legistar-com-bca93e3e7d",
+            "quote": "to establish the Alexandria Theater Special Use District (SUD), at the northwest corner of Geary Boulevard and 18th Avenue, allowing a density bonus and modifications to existing zoning controls for a residential project in the SUD, subject to specified conditions",
+            "locator": "File #: 241198; Title; Sponsors: Connie Chan; Enactment #: 073-25; History: 5/16/2025 Mayor APPROVED"
+          },
+          {
+            "source": "src:sfgov-legistar-com-69fbeed9a2",
+            "quote": "FINALLY PASSED",
+            "locator": "Action: FINALLY PASSED; Result: Pass; Consent Votes (10:0); Connie Chan: Aye; Rafael Mandelman: Excused"
+          }
+        ]
+      },
+      {
+        "id": "sf-file-251080-immigration-legal-services",
+        "kind": "legislation",
+        "bill": "sf-file-251080",
+        "date": "2025-12-04",
+        "summary": "Sponsored File 251080 with eight other supervisors, appropriating $3.5M from the General Reserve to the Mayor's Office of Housing and Community Development for immigration legal defense and community response services in FY2025–26, announced hours after the President withdrew a threatened surge of federal agents; the Board passed it 11–0 and the Mayor approved it 2025-12-04 (Ordinance 235-25); no measured outcome recorded as of 2026-11-03.",
+        "title": "Immigration legal services appropriation, $3.5M (SF File 251080)",
+        "citations": [
+          {
+            "source": "src:sfgov-legistar-com-32222811db",
+            "quote": "Ordinance appropriating $3,500,000 from the General Reserve to the Mayor’s Office of Housing and Community Development to expand access to existing coordinated services for immigration legal defense and community response services to the immigrant community in Fiscal Year (FY) 2025-2026.",
+            "locator": "File #: 251080; Title; Sponsors: Connie Chan, Jackie Fielder, Bilal Mahmood, Chyanne Chen, Shamann Walton, Myrna Melgar, Matt Dorsey, Danny Sauter, Rafael Mandelman; Enactment #: 235-25; History: 12/4/2025 Mayor APPROVED"
+          },
+          {
+            "source": "src:missionlocal-org-c2f7a2dc4c",
+            "quote": "Hours after President Donald Trump withdrew a threat to send a “surge” of federal agents to San Francisco, Supervisor Connie Chan announced the city would direct an additional $3.5 million to immigrant services."
+          },
+          {
+            "source": "src:sfgov-legistar-com-91ae5cc3af",
+            "quote": "Chair Chan moved that this Ordinance be RECOMMENDED AS AMENDED. The motion carried by the following vote:",
+            "locator": "Budget and Finance Committee, 11/12/2025; Votes (3:0)"
+          },
+          {
+            "source": "src:sfgov-legistar-com-ba9d137fd5",
+            "quote": "FINALLY PASSED",
+            "locator": "Action: FINALLY PASSED; Result: Pass; Consent Votes (11:0); Connie Chan: Aye"
+          }
+        ]
+      },
+      {
+        "id": "sf-file-261148-immigration-legal-services",
+        "kind": "legislation",
+        "bill": "sf-file-261148",
+        "date": "2026-10-20",
+        "summary": "Co-sponsored File 261148 with ten other supervisors, appropriating $1,765,000 from the General Reserve to the Mayor's Office of Housing and Community Development for immigration legal defense and community response services in FY2026–27; introduced 2026-10-20 and scheduled for a Budget and Finance Committee hearing, with no final action; no measured outcome recorded as of 2026-11-03.",
+        "title": "Immigration legal services appropriation, $1.765M (SF File 261148)",
+        "citations": [
+          {
+            "source": "src:sfgov-legistar-com-3ac42b6319",
+            "quote": "Ordinance appropriating $1,765,000 from the General Reserve to the Mayor’s Office of Housing and Community Development to expand access to coordinated services for immigration legal defense and community response services to the immigrant community in Fiscal Year (FY) 2026-2027",
+            "locator": "File #: 261148; Title; Status: Scheduled for Committee Hearing; Introduced: 10/20/2026; In control: Budget and Finance Committee; Sponsors: Jackie Fielder, Connie Chan, Shamann Walton, Myrna Melgar, Chyanne Chen, Bilal Mahmood, Rafael Mandelman, Danny Sauter, Matt Dorsey, Stephen Sherrill, Alan Wong"
           }
         ]
       }

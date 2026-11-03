@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-ba9d137fd5",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2025-12-02",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 251080 · Board of Supervisors final passage of December 2, 2025",
+  "url": "https://sfgov.legistar.com/HistoryDetail.aspx?ID=35509867&GUID=B16362C4-C88B-43BB-A5D2-256BBA77B8E0",
+  "notes": "Legistar action-details page, opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

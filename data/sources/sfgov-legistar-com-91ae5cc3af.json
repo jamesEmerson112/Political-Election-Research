@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-91ae5cc3af",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2025-11-12",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 251080 · Budget and Finance Committee action of November 12, 2025 (recommended as amended)",
+  "url": "https://sfgov.legistar.com/HistoryDetail.aspx?ID=35394363&GUID=A1354B17-6888-4B9E-8286-6729C727052C",
+  "notes": "Legistar action-details page, opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}
