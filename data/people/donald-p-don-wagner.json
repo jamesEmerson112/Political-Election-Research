@@ -30,6 +30,70 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Member, Orange County Board of Supervisors, Third District",
+          "current": true,
+          "first_elected": "2019",
+          "jurisdiction": "Orange County",
+          "citations": [
+            {
+              "source": "src:bos3-oc-gov-efb729411c",
+              "quote": "Orange County Supervisor Donald P. Wagner was first elected to the Board of Supervisors in a special election in 2019 and was re-elected to full terms in 2020 and 2024."
+            }
+          ]
+        },
+        {
+          "office": "Mayor of Irvine",
+          "current": false,
+          "end": "2019",
+          "jurisdiction": "City of Irvine",
+          "start": "2016",
+          "citations": [
+            {
+              "source": "src:wagnerforcalifornia-com-e5bde30114",
+              "quote": "In 2016, he became Mayor of Irvine."
+            },
+            {
+              "source": "src:wagnerforcalifornia-com-e5bde30114",
+              "quote": "Don served as Mayor until 2019, when he was elected to the OC Board of Supervisors"
+            }
+          ]
+        },
+        {
+          "office": "Member, California State Assembly",
+          "current": false,
+          "end": "2016",
+          "jurisdiction": "California",
+          "office_ref": "office:california-assembly-member",
+          "start": "2010",
+          "citations": [
+            {
+              "source": "src:wagnerforcalifornia-com-e5bde30114",
+              "quote": "From 2010 to 2016, Don served in the California State Assembly"
+            }
+          ]
+        },
+        {
+          "office": "Trustee, South Orange County Community College District",
+          "current": false,
+          "first_elected": "1998",
+          "jurisdiction": "South Orange County Community College District",
+          "citations": [
+            {
+              "source": "src:wagnerforcalifornia-com-e5bde30114",
+              "quote": "n 1998, he was elected to the South County Community College District Board of Trustees, serving six of his twelve years as Board President"
+            },
+            {
+              "source": "src:bos3-oc-gov-efb729411c",
+              "quote": "Supervisor Wagner is a former South Orange County Community College District Trustee for three consecutive terms"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
