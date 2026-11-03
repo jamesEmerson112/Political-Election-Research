@@ -65,6 +65,10 @@ echo '{"actor":"person:avery-sample","position":{"subject":"q:housing/transit-or
 
 The test fixture in [tests/fixtures/valid/data](tests/fixtures/valid/data) is a complete, entirely fictional dataset with one example of every record type. It was generated through `put` by [tests/fixtures/make-valid-fixture.ts](tests/fixtures/make-valid-fixture.ts).
 
+## Site and UI changes
+
+Anything a reader sees in `web/` follows the visual language in [.claude/skills/versus-ui/SKILL.md](.claude/skills/versus-ui/SKILL.md): Democracy 3-inspired, Lucide icons only, ▲/▼ for for/against in teal/orange, badges colored by category, numbers first, text on click, describe and never grade.
+
 ## Commands
 
 | command | purpose |
