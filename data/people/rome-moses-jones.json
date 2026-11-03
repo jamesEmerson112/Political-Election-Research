@@ -64,6 +64,25 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Non-Profit Executive (co-executive director of Bayview Association for Youth, as reported)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Non-Profit Executive.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 32 (PDF p. 34)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ROME MOSES JONES 羅姆‧摩西‧瓊斯 Non-profit Executive",
+          "locator": "Community College Board Full table (English ballot designation)"
+        },
+        {
+          "source": "src:theguardsman-com-7a45204fbc",
+          "quote": "Rome Moses Jones, co-executive director of nonprofit organization Bayview Association for Youth and a real estate agent at Pinpoint Building Group"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
