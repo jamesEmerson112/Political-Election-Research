@@ -57,6 +57,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Small Business Owner",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Steve Hilton Republican Small Business Owner",
+          "locator": "PDF page 2 (Page 1 of 41), Governor; ballot designation (the candidate's self-description)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
