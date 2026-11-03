@@ -22,7 +22,11 @@
     "q:immigration/expand-skilled-work-visas",
     "q:housing/transit-oriented-upzoning",
     "q:healthcare/single-payer",
-    "q:taxes/federal-wealth-tax"
+    "q:taxes/federal-wealth-tax",
+    "q:immigration/abolish-ice",
+    "q:civil-rights/lgbtq-nondiscrimination",
+    "q:reproductive-rights/federal-abortion-protection",
+    "q:civil-rights/voting-rights-preclearance"
   ],
   "seeded": {
     "date": "2026-11-02",
@@ -30,7 +34,7 @@
   },
   "targets": {
     "endorsements_per_candidate": 5,
-    "finance_cutoff": null,
+    "finance_cutoff": "2026-10-14",
     "top_contributors": 10
   }
 }

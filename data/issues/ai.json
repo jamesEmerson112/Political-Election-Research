@@ -7,6 +7,7 @@
     {
       "id": "frontier-ai-safety-disclosure",
       "added": "2026-11-02",
+      "area": "tech",
       "oppose_means": "Opposes making such disclosures and incident reports a legal requirement.",
       "support_means": "Favors legally required safety disclosures and incident reporting for developers of the most powerful AI models.",
       "text": "Should developers of the most powerful AI models be legally required to disclose their safety practices and report serious safety incidents to the government?",
@@ -15,6 +16,7 @@
     {
       "id": "data-center-moratorium",
       "added": "2026-11-02",
+      "area": "tech",
       "oppose_means": "Opposes such a moratorium (may still favor other rules for data centers).",
       "support_means": "Favors pausing new AI data center construction until further safeguards exist.",
       "text": "Should there be a moratorium on building new AI data centers until additional safeguards are in place?"

@@ -7,6 +7,7 @@
     {
       "id": "subsidize-widgets",
       "added": "2030-06-01",
+      "area": "economy",
       "oppose_means": "Opposes state subsidies for widget manufacturing.",
       "support_means": "Favors state subsidies for widget manufacturing.",
       "text": "Should the state subsidize widget manufacturing?"

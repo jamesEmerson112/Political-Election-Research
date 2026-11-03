@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "civil-rights",
+  "name": "Civil rights",
+  "description": "Federal protections against discrimination and for voting rights.",
+  "questions": [
+    {
+      "id": "lgbtq-nondiscrimination",
+      "added": "2026-11-03",
+      "area": "civil_rights",
+      "oppose_means": "Opposes such a federal law.",
+      "support_means": "Favors a federal law prohibiting discrimination based on sexual orientation and gender identity in those areas.",
+      "text": "Should federal law prohibit discrimination based on sexual orientation and gender identity in employment, housing, public accommodations and other areas, as proposed in the Equality Act?"
+    },
+    {
+      "id": "voting-rights-preclearance",
+      "added": "2026-11-03",
+      "area": "civil_rights",
+      "oppose_means": "Opposes restoring federal preclearance review.",
+      "support_means": "Favors restoring federal preclearance review of voting-rule changes.",
+      "text": "Should Congress restore federal preclearance review of changes to state and local voting rules, as proposed in the John Lewis Voting Rights Advancement Act?"
+    }
+  ],
+  "rejected_questions": []
+}

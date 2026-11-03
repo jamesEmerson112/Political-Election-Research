@@ -7,6 +7,7 @@
     {
       "id": "lower-top-income-tax-rates",
       "added": "2026-11-02",
+      "area": "economy",
       "oppose_means": "Favors keeping or raising the top state income tax rates.",
       "support_means": "Favors lowering the top state income tax rates.",
       "text": "Should California lower the state income tax rates paid by its highest earners?",
@@ -15,6 +16,7 @@
     {
       "id": "federal-wealth-tax",
       "added": "2026-11-02",
+      "area": "civil_rights",
       "oppose_means": "Opposes a federal tax on very large fortunes (may still favor other tax changes for high earners or corporations).",
       "support_means": "Favors a federal tax on very large fortunes, such as wealth above a high threshold.",
       "text": "Should the federal government levy an annual tax on very large fortunes (a wealth tax)?",

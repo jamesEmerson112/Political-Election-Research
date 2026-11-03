@@ -145,6 +145,7 @@ p("issue", {
     {
       id: "subsidize-widgets",
       text: "Should the state subsidize widget manufacturing?",
+      area: "economy",
       support_means: "Favors state subsidies for widget manufacturing.",
       oppose_means: "Opposes state subsidies for widget manufacturing.",
       added: "2030-06-01",

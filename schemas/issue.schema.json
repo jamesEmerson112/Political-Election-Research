@@ -5,25 +5,78 @@
   "description": "An issue area and its neutrally worded questions. Editorial, so no citations. Questions are phrased so support/oppose is unambiguous; rejected questions are logged for transparency. Path: data/issues/<id>.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "name", "description", "questions", "rejected_questions"],
+  "required": [
+    "id",
+    "name",
+    "description",
+    "questions",
+    "rejected_questions"
+  ],
   "properties": {
-    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
-    "id": { "$ref": "defs.schema.json#/$defs/Slug" },
-    "name": { "type": "string", "minLength": 1 },
-    "description": { "type": "string", "minLength": 1 },
+    "$schema": {
+      "$ref": "defs.schema.json#/$defs/SchemaPointer"
+    },
+    "id": {
+      "$ref": "defs.schema.json#/$defs/Slug"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
     "questions": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "text", "support_means", "oppose_means", "added"],
+        "required": [
+          "id",
+          "text",
+          "area",
+          "support_means",
+          "oppose_means",
+          "added"
+        ],
         "properties": {
-          "id": { "$ref": "defs.schema.json#/$defs/Slug" },
-          "text": { "type": "string", "minLength": 1 },
-          "support_means": { "type": "string", "minLength": 1 },
-          "oppose_means": { "type": "string", "minLength": 1 },
-          "notes": { "type": "string" },
-          "added": { "$ref": "defs.schema.json#/$defs/Date" }
+          "id": {
+            "$ref": "defs.schema.json#/$defs/Slug"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "area": {
+            "description": "Policy area the comparison groups this question under. Set per question (not per issue) because one issue can span areas, e.g. immigration enforcement (civil rights) vs. skilled-worker visas (tech).",
+            "enum": [
+              "civil_rights",
+              "tech",
+              "economy",
+              "housing",
+              "health",
+              "energy_environment",
+              "transportation",
+              "public_safety",
+              "government",
+              "other"
+            ]
+          },
+          "support_means": {
+            "type": "string",
+            "minLength": 1
+          },
+          "oppose_means": {
+            "type": "string",
+            "minLength": 1
+          },
+          "notes": {
+            "type": "string"
+          },
+          "added": {
+            "$ref": "defs.schema.json#/$defs/Date"
+          }
         }
       }
     },
@@ -32,11 +85,23 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["text", "reason", "date"],
+        "required": [
+          "text",
+          "reason",
+          "date"
+        ],
         "properties": {
-          "text": { "type": "string", "minLength": 1 },
-          "reason": { "type": "string", "minLength": 1 },
-          "date": { "$ref": "defs.schema.json#/$defs/Date" }
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "$ref": "defs.schema.json#/$defs/Date"
+          }
         }
       }
     }

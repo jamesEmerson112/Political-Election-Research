@@ -7,6 +7,7 @@
     {
       "id": "encampment-enforcement-funding",
       "added": "2026-11-02",
+      "area": "housing",
       "oppose_means": "Opposes making state homelessness funds conditional on encampment enforcement.",
       "support_means": "Favors tying state homelessness funds to local enforcement of encampment limits.",
       "text": "Should state homelessness funding for local governments be conditioned on enforcing limits on encampments?"
