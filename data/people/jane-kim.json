@@ -49,6 +49,31 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "B.A.",
+          "institution": "Stanford University",
+          "citations": [
+            {
+              "source": "src:janekim-org-5432902a1f",
+              "quote": "She received her B.A. from Stanford University and her J.D. from the U.C. Berkeley School of Law."
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "U.C. Berkeley School of Law",
+          "citations": [
+            {
+              "source": "src:janekim-org-5432902a1f",
+              "quote": "She received her B.A. from Stanford University and her J.D. from the U.C. Berkeley School of Law."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney/Consumer Advocate (ballot designation)",
       "citations": [
