@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cadem-org-aeb4feb5a7",
+  "kind": "voter_guide",
+  "accessed": "2026-11-03",
+  "publisher": "California Democratic Party",
+  "title": "2026 General Election Endorsements",
+  "url": "https://cadem.org/wp-content/uploads/2026/08/8.5.26-FINAL-2026-General-Election-Endorsements.pdf"
+}

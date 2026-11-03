@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.nanette-barragan--person.xavier-becerra--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:xavier-becerra",
+  "endorser": "person:nanette-barragan",
+  "citations": [
+    {
+      "source": "src:xavierbecerra2026-com-5fe2ea14bf",
+      "quote": "Rep. Nanette Barragan",
+      "locator": "Endorsements page, Federal Electeds"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
