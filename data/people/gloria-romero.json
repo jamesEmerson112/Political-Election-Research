@@ -48,6 +48,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Educator/Businesswoman",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Gloria Romero Republican Educator/Businesswoman",
+          "locator": "page 2, Lieutenant Governor (ballot designation, the candidate's self-description)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
