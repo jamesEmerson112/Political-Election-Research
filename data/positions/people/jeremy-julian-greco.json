@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:jeremy-julian-greco",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "mixed",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Says he would not have supported the Mayor's Family Zoning Plan as written because it did not protect two-unit buildings, many of them rent-controlled; says he supports building more housing and focusing new housing along commercial corridors.",
+      "citations": [
+        {
+          "source": "src:assets-nationbuilder-com-42d7d038ef",
+          "quote": "For that reason, I would not have supported Mayor Lurie's Family Zoning Plan as written. While I support building more homes, I was concerned that the plan did not protect two-unit buildings.",
+          "locator": "p. 11, answer to \"How did you vote or would you have voted on Mayor Lurie’s Family Zoning Plan?\""
+        },
+        {
+          "source": "src:assets-nationbuilder-com-42d7d038ef",
+          "quote": "I support focusing new housing along commercial corridors, where it can strengthen neighborhood business districts and make better use of existing infrastructure.",
+          "locator": "p. 11, answer to \"How did you vote or would you have voted on Mayor Lurie’s Family Zoning Plan?\""
+        }
+      ]
+    }
+  ]
+}
