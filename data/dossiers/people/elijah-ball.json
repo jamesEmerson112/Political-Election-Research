@@ -46,6 +46,7 @@
         "issue": "education",
         "summary": "Ball's questionnaire says decisions should rest on a five-year outlook covering enrollment, staffing, salaries and other costs.",
         "title": "Base budget decisions on a five-year outlook",
+        "topic": "budget-planning",
         "citations": [
           {
             "source": "src:growsf-org-b605efb9fd",
@@ -60,6 +61,7 @@
         "issue": "education",
         "summary": "Ball's questionnaire says he would track the 2024 Strategic Enrollment Management Plan's results in recruitment, retention, partnerships and completion.",
         "title": "Track results of the 2024 Strategic Enrollment Management Plan",
+        "topic": "enrollment",
         "citations": [
           {
             "source": "src:growsf-org-b605efb9fd",
@@ -74,6 +76,7 @@
         "issue": "education",
         "summary": "Ball's questionnaire says he would encourage exploring public-private partnerships for the Downtown Campus that could generate revenue and support students.",
         "title": "Explore public-private partnerships for the closed Downtown Campus",
+        "topic": "downtown-campus",
         "citations": [
           {
             "source": "src:growsf-org-b605efb9fd",
@@ -88,6 +91,7 @@
         "issue": "education",
         "summary": "Ball's questionnaire says he would reform Board Policy 5.10 on Matriculation so annual counseling or education-plan reviews are standard for degree, certificate and transfer students.",
         "title": "Make annual counseling reviews standard under Board Policy 5.10",
+        "topic": "student-support",
         "citations": [
           {
             "source": "src:growsf-org-b605efb9fd",
