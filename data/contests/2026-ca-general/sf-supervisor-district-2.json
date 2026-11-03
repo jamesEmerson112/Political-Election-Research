@@ -1,0 +1,94 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-supervisor-district-2",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Board of Supervisors, District 2",
+  "office": "Member, Board of Supervisors",
+  "candidates": [
+    {
+      "person": "person:nicholas-berg",
+      "ballot_designation": "Property Management Executive",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 2 4 people have qualified for this contest on the November 3, 2026 ballot. Nicholas Berg Guy McCoy Monthanus Ratanapakdee Stephen Sherrill"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "NICHOLAS BERG 盧柏格 Property Management Executive",
+          "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-8377a893c4",
+          "quote": "Supervisor Stephen Sherrill represents District 2."
+        }
+      ]
+    },
+    {
+      "person": "person:guy-mccoy",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 2 4 people have qualified for this contest on the November 3, 2026 ballot. Nicholas Berg Guy McCoy Monthanus Ratanapakdee Stephen Sherrill"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "GUY MCCOY 蓋伊‧麥考伊 none",
+          "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-8377a893c4",
+          "quote": "Supervisor Stephen Sherrill represents District 2."
+        }
+      ]
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "ballot_designation": "Community Advocate / Mother",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 2 4 people have qualified for this contest on the November 3, 2026 ballot. Nicholas Berg Guy McCoy Monthanus Ratanapakdee Stephen Sherrill"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MONTHANUS RATANAPAKDEE 蒙塔努斯‧拉塔納帕迪 Community Advocate / Mother",
+          "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-8377a893c4",
+          "quote": "Supervisor Stephen Sherrill represents District 2."
+        }
+      ]
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "ballot_designation": "Appointed Member, Board of Supervisors",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "Board of Supervisors, District 2 4 people have qualified for this contest on the November 3, 2026 ballot. Nicholas Berg Guy McCoy Monthanus Ratanapakdee Stephen Sherrill"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "STEPHEN SHERRILL 史蒂芬‧謝里爾 Appointed Member, Board of Supervisors",
+          "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+        },
+        {
+          "source": "src:sf-gov-8377a893c4",
+          "quote": "Supervisor Stephen Sherrill represents District 2."
+        }
+      ]
+    }
+  ],
+  "district": 2,
+  "level": "local",
+  "office_ref": "office:san-francisco-supervisor",
+  "last_verified": "2026-11-03"
+}
