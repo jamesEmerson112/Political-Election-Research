@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:steve-hilton",
+  "positions": [
+    {
+      "subject": "q:housing/transit-oriented-upzoning",
+      "stance": "no_public_position",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Hilton candidate statement (none submitted)",
+          "where": "Official Voter Information Guide (vig.cdn.sos.ca.gov complete-vig.pdf), candidate statements p. 83"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "SB 79, transit, density, zoning, upzoning",
+          "where": "stevehiltonforgovernor.com /plan and /policies (all policy pages, incl. Bring Back the Starter Home, Stop the Hidden Tax on New Homes, Ten New Cities, Newsom's VMT Bombshell)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "SB 79, transit-oriented housing",
+          "where": "stevehiltonforgovernor.com news releases"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Hilton housing near transit, SB 79, local zoning",
+          "where": "CNN debate Sept. 30, 2026 coverage: CalMatters via Santa Barbara Independent, AP via Scripps News, KSBY, ABC30, KMPH, SF Standard"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Hilton SB 79 (blocked by bot challenge, HTTP 403)",
+          "where": "calmatters.org voter guide and WordPress search"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Hilton SB 79 (HTTP 403)",
+          "where": "mv-voice.com (CalMatters republish on SB 79 signing)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Hilton\" \"SB 79\"; Steve Hilton SB 79 transit housing density local control",
+          "where": "web search"
+        }
+      ]
+    }
+  ]
+}
