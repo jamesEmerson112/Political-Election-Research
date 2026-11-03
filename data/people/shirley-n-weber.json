@@ -65,6 +65,16 @@
           ]
         }
       ]
+    },
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Shirley N. Weber* Democratic",
+          "locator": "page 2, Secretary of State"
+        }
+      ]
     }
   },
   "ids": [
