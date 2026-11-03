@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "monroe-lace",
+  "name": "Monroe Lace",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.monroelace.org/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
