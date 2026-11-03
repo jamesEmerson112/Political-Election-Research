@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sf-gov-f411b416ef",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "City and County of San Francisco",
+  "title": "Board of Supervisors",
+  "url": "https://sf.gov/sfbos",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

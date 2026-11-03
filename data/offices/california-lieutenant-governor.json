@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "california-lieutenant-governor",
+  "name": "Lieutenant Governor of California",
+  "body": "Office of the Lieutenant Governor",
+  "constituents": {
+    "value": 39538223,
+    "as_of": "2020",
+    "basis": "2020 Census resident population of California (whole state)",
+    "citations": [
+      {
+        "source": "src:census-gov-6a5736c7c5",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "State of California",
+  "level": "state",
+  "powers": {
+    "value": "First in line to succeed the Governor and acts as Governor when the Governor is out of state. The Senate President pro Tem acts as Lieutenant Governor when the Lieutenant Governor is unavailable.",
+    "citations": [
+      {
+        "source": "src:calbudgetcenter-org-401729cda8",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 184447,
+    "as_of": "2025-12-01",
+    "citations": [
+      {
+        "source": "src:calhr-ca-gov-23db8b4c75",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 1,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "Two four-year terms",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "Not verified in this session: the roles of President of the Senate (with a tie-breaking vote), UC Regent and CSU Trustee, and State Lands Commission member. The office's budget was not found. graph.civlab.org: not reachable."
+}

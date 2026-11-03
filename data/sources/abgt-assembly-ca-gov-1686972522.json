@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "abgt-assembly-ca-gov-1686972522",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Legislative Analyst's Office (via Assembly Budget Committee)",
+  "title": "Tax agency oversight handout",
+  "url": "https://abgt.assembly.ca.gov/sites/abgt.assembly.ca.gov/files/March%2022%20LAO%20Tax%20Agency%20Oversight%20Handout.pdf",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

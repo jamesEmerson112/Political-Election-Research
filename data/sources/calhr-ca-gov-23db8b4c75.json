@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calhr-ca-gov-23db8b4c75",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "CalHR / California Citizens Compensation Commission",
+  "title": "California Citizens Compensation Commission Salaries",
+  "url": "https://www.calhr.ca.gov/california-citizens-compensation-commission/cccc-salaries",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

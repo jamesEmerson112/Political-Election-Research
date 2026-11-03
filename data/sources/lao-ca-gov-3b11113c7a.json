@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lao-ca-gov-3b11113c7a",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Legislative Analyst's Office",
+  "title": "Proposition 25 (November 2010) analysis",
+  "url": "https://lao.ca.gov/ballot/2010/25_11_2010.aspx",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

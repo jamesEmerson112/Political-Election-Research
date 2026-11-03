@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "us-representative-california",
+  "name": "U.S. Representative from California",
+  "body": "U.S. House of Representatives",
+  "budget": {
+    "value": 7000000000000,
+    "basis": "FY2025 (federal, Oct 2024 - Sep 2025) · Total federal outlays (about $7.0T), shaped by laws that Congress (House and Senate together) passes; only part is set through annual appropriations, and the rest is mandatory spending under standing law",
+    "citations": [
+      {
+        "source": "src:cbo-gov-7b70453933",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:americanactionforum-org-4efce37aa3",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "constituents": {
+    "value": 761091,
+    "as_of": "2020",
+    "basis": "California 2020 apportionment population (39,576,757, which includes overseas federal personnel) divided by its 52 House seats. The Citizens Redistricting Commission's ideal congressional district population was 760,066 (39,523,437 / 52).",
+    "citations": [
+      {
+        "source": "src:thegreenpapers-com-4c36e3423b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:census-gov-91dcbd2c97",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:catalog-data-gov-43b4f59a84",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "United States (California congressional district)",
+  "level": "federal",
+  "salary": {
+    "value": 174000,
+    "as_of": "2025",
+    "citations": [
+      {
+        "source": "src:everycrsreport-com-462c14c957",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:opb-org-c049b7fad5",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 435,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:thegreenpapers-com-4c36e3423b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:census-gov-91dcbd2c97",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "California has 52 of the 435 seats after the 2020 apportionment, down from 53. GAPS: the 2-year term (U.S. Const. art. I, sec. 2), the absence of term limits (U.S. Term Limits v. Thornton, 1995) and a powers sentence were not confirmed by any source seen in this session, so they are omitted from facts. Suggested unsourced powers text for a human to verify: 'Representatives vote on federal legislation; revenue bills must originate in the House, and the House and Senate together pass the appropriations that fund federal agencies.' Salary: $174,000 since January 2009, with the 2025 rate frozen by appropriations law (CRS). I found no 2026 source. The Speaker's rate is $223,500. CONFLICT: a garbled census.gov table snippet placed 761,091 next to another state's rows; 39,576,757 / 52 = 761,091 matches California. 2026 MAP: Proposition 50 (approved Nov. 2025) replaced the CRC congressional map with a Legislature-drawn map for the 2026-2030 elections. Per Mission Local, CA-11 covers most of San Francisco, while the Excelsior, Portola, Visitacion Valley and Ingleside are in a neighboring district. I found no population figure for the Prop 50 districts. The budget figure is government-wide, not an amount a single Representative controls. graph.civlab.org: not reachable. Secondary coverage (IBTimes) says CivLab's 'US Gov Graph' maps federal departments, agencies and officeholders (482 organizations), but nothing about House districts was seen."
+}

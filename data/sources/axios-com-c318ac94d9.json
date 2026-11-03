@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "axios-com-c318ac94d9",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "Axios San Francisco",
+  "title": "Lurie rolls out sweeping cuts in proposed $15.9 billion budget",
+  "url": "https://www.axios.com/local/san-francisco/2025/05/30/lurie-unveils-cuts-san-francisco-budget-2025",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

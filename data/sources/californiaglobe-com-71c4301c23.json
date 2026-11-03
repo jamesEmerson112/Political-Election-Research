@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "californiaglobe-com-71c4301c23",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "California Globe",
+  "title": "Constitutional rules for the California state budget",
+  "url": "https://californiaglobe.com/fr/constitutional-rules-for-the-california-state-budget/",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

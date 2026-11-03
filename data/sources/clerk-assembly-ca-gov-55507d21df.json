@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-assembly-ca-gov-55507d21df",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Chief Clerk of the California State Assembly",
+  "title": "California, the Golden State: vital statistics",
+  "url": "https://clerk.assembly.ca.gov/vital-statistics",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

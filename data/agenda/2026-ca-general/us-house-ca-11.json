@@ -15,6 +15,7 @@
   "measures": [
     "contest:2026-ca-general/prop-40"
   ],
+  "office_ref": "office:us-representative-california",
   "questions": [
     "q:ai/frontier-ai-safety-disclosure",
     "q:ai/data-center-moratorium",

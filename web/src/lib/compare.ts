@@ -257,7 +257,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       marks: main.unverified ? [{ mark: MARK["lead"]! }] : [],
       num: main.residents ? `~${compact(main.residents)}` : undefined,
       unit: main.residents ? "residents" : undefined,
-      label: [main.level, main.seatText].filter(Boolean).join(" · "),
+      label: [main.level, main.seatText, main.residents ? `~${compact(main.residents)} residents` : null].filter(Boolean).join(" · "),
       lines,
       summary: `${main.name}: ${main.headline}${main.unverified ? " (unverified)" : ""}`,
       open: () => openOffice(ix, main.ref, who(c)),
@@ -421,9 +421,24 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
     if (!v) return missing(c, "profile.offices_held", `Offices held: ${who(c)}`);
     const items = offices(c);
     if (items.length === 0) return noneFound(c, "Offices held", v);
-    const spans = items.map(yearsSpan);
-    const known = spans.filter((x): x is number => x !== null);
-    const total = known.reduce((a, b) => a + b, 0);
+    // Union of the year spans, so overlapping roles (e.g. a committee chair
+    // held inside a seat) are not counted twice. Undated items can't count.
+    const ivs = items
+      .map((o) => {
+        const s = (o["start"] ?? o["first_elected"]) as string | undefined;
+        const e = (o["end"] as string | undefined) ?? (isCurrent(o) ? electionDate : undefined);
+        return s && e ? [Number(String(s).slice(0, 4)), Number(String(e).slice(0, 4))] : null;
+      })
+      .filter((x): x is number[] => !!x && x[1]! >= x[0]!)
+      .sort((a, b) => a[0]! - b[0]!);
+    const merged: number[][] = [];
+    for (const [a, b] of ivs) {
+      const last = merged[merged.length - 1];
+      if (last && a! <= last[1]!) last[1] = Math.max(last[1]!, b!);
+      else merged.push([a!, b!]);
+    }
+    const known = merged;
+    const total = merged.reduce((acc, [a, b]) => acc + (b! - a!), 0);
     const current = items.filter(isCurrent);
     return {
       state: "value",

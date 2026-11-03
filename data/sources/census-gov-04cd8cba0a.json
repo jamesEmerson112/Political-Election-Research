@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "census-gov-04cd8cba0a",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "U.S. Census Bureau",
+  "title": "QuickFacts: San Francisco County, California",
+  "url": "https://www.census.gov/quickfacts/fact/table/sanfranciscocountycalifornia",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

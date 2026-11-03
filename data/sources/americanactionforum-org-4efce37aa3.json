@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "americanactionforum-org-4efce37aa3",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "American Action Forum",
+  "title": "CBO: FY 2025 budget deficit totaled $1.8 trillion",
+  "url": "https://www.americanactionforum.org/insight/cbo-fy-2025-budget-deficit-totaled-1-8-trillion/",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

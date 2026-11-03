@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "catalog-data-gov-43b4f59a84",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Data.gov (State of California dataset)",
+  "title": "California US Congressional Districts Map 2020",
+  "url": "https://catalog.data.gov/dataset/california-us-congressional-districts-map-2020",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

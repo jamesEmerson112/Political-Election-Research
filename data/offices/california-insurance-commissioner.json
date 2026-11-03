@@ -1,0 +1,92 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "california-insurance-commissioner",
+  "name": "Insurance Commissioner of California",
+  "body": "California Department of Insurance",
+  "constituents": {
+    "value": 39538223,
+    "as_of": "2020",
+    "basis": "2020 Census resident population of California (whole state)",
+    "citations": [
+      {
+        "source": "src:census-gov-6a5736c7c5",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "State of California",
+  "level": "state",
+  "powers": {
+    "value": "Leads the California Department of Insurance, which oversees the insurance industry and is charged with protecting insurance consumers.",
+    "citations": [
+      {
+        "source": "src:calbudgetcenter-org-401729cda8",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 196743,
+    "as_of": "2025-12-01",
+    "citations": [
+      {
+        "source": "src:calhr-ca-gov-23db8b4c75",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 1,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "Two four-year terms",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "The term limit comes from the Assembly Clerk's general statement covering all statewide officers; the specific statute (Insurance Code sec. 12900) was not seen. The department-wide budget was not found. The 2026-27 Governor's Budget (ebudget 0845, primary) shows program 0520 (Regulation of Insurance Companies and Insurance Producers) at about $125.5M and 470 positions in 2025-26. That is one program, not the whole department, and it is funded by insurer fees in the Insurance Fund. Prior salary rate was $193,835 (Dec. 2, 2024). An undated 'salary reduction' line of $139,189 appeared in a CalHR snippet; ignore it unless verified. graph.civlab.org: not reachable."
+}

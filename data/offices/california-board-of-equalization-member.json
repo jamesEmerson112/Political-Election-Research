@@ -1,0 +1,116 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "california-board-of-equalization-member",
+  "name": "Member, California State Board of Equalization",
+  "body": "California State Board of Equalization",
+  "constituents": {
+    "value": 9880859,
+    "as_of": "2020",
+    "basis": "Citizens Redistricting Commission ideal BOE district population: 2020 redistricting total of 39,523,437 divided by 4 districts (the fifth member, the Controller, is elected statewide)",
+    "citations": [
+      {
+        "source": "src:wedrawthelines-ca-gov-026273f97b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "State of California (one of four BOE districts)",
+  "level": "state",
+  "powers": {
+    "value": "Since the 2017 Taxpayer Transparency and Fairness Act, the Board keeps its constitutional duties, chiefly oversight of property tax assessment (including state assessment of privately held public utilities) and the alcoholic beverage and insurer taxes. Most other tax administration moved to the Department of Tax and Fee Administration and the Office of Tax Appeals.",
+    "citations": [
+      {
+        "source": "src:lao-ca-gov-2d5acfeb28",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:sgf-senate-ca-gov-21035e2283",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:abgt-assembly-ca-gov-1686972522",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 184447,
+    "as_of": "2025-12-01",
+    "citations": [
+      {
+        "source": "src:calhr-ca-gov-23db8b4c75",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 5,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:lao-ca-gov-2d5acfeb28",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:sgf-senate-ca-gov-21035e2283",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "Two four-year terms",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "The board has five members: four elected by district plus the State Controller, elected statewide. Per a 2022 LAO handout, CDTFA handles much of the day-to-day alcohol and insurer tax work under interagency agreements. The current BOE budget was not found. The only figures seen were from 2016-17, before the split (about $617M and 4,716 positions), and are not comparable, so they are left out. Prior salary rate was $181,721 (Dec. 2, 2024). Art. XIII, sec. 17 text was not seen. graph.civlab.org: not reachable."
+}

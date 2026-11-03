@@ -36,4 +36,4 @@ if (!args.flags.has("dry-run") && failed === 0) {
 } else {
   console.log(failed ? `\n${failed} rejected; nothing written.` : `\nDry run: ${writes.size} file(s) would be written.`);
 }
-process.exit(failed ? 1 : 0);
+process.exitCode = failed ? 1 : 0;

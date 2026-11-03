@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "census-gov-91dcbd2c97",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "U.S. Census Bureau",
+  "title": "Apportionment data (text tables)",
+  "url": "https://www.census.gov/data/tables/time-series/dec/apportionment-data-text.html",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

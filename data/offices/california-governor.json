@@ -1,0 +1,130 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "california-governor",
+  "name": "Governor of California",
+  "body": "Office of the Governor",
+  "budget": {
+    "value": 351700000000,
+    "basis": "2026-27 · Total state budget, all funds, that the Governor proposed and signed (Budget Act of 2026, June 29, 2026). The Legislature adopts it. This is not the Governor's office's own operating budget, which was not found.",
+    "citations": [
+      {
+        "source": "src:src-senate-ca-gov-0f3e64187b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:ebudget-ca-gov-50240d9b1a",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "constituents": {
+    "value": 39538223,
+    "as_of": "2020",
+    "basis": "2020 Census resident population of California (whole state)",
+    "citations": [
+      {
+        "source": "src:census-gov-6a5736c7c5",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "State of California",
+  "level": "state",
+  "powers": {
+    "value": "Holds the state's supreme executive power and sees that the law is faithfully executed (Cal. Const. art. V, sec. 1). Proposes the state budget by January 10 and may reduce or eliminate individual appropriations by line-item veto (art. IV, sec. 10(e)), which the Legislature can override by a two-thirds vote.",
+    "citations": [
+      {
+        "source": "src:californiaglobe-com-60d9505c3c",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:californiaglobe-com-de1c66f55d",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:lao-ca-gov-3b11113c7a",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 245929,
+    "as_of": "2025-12-01",
+    "citations": [
+      {
+        "source": "src:calhr-ca-gov-23db8b4c75",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 1,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "Two four-year terms",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "Judicial appointment power was not verified. The Governor's office's own department budget was not found. A California Globe tag page (July 2026) reports that the Governor declined a raise; unverified. graph.civlab.org: not reachable."
+}

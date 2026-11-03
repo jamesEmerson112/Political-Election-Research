@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "california-assembly-member",
+  "name": "Member, California State Assembly",
+  "body": "California State Assembly",
+  "budget": {
+    "value": 351700000000,
+    "basis": "2026-27 · Total state budget, all funds ($251.5B General Fund), in the Budget Act of 2026, which the Legislature (Assembly and Senate together) passed and the Governor signed June 29, 2026",
+    "citations": [
+      {
+        "source": "src:src-senate-ca-gov-0f3e64187b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:sbud-senate-ca-gov-6e9d456b34",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "constituents": {
+    "value": 494043,
+    "as_of": "2020",
+    "basis": "Citizens Redistricting Commission ideal Assembly district population: 2020 redistricting total of 39,523,437 divided by 80 districts.",
+    "citations": [
+      {
+        "source": "src:wedrawthelines-ca-gov-026273f97b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "State of California",
+  "level": "state",
+  "powers": {
+    "value": "Assembly members introduce and vote on state laws and on the annual budget bill. The Legislature must pass the budget bill by June 15 and can do so by majority vote (Proposition 25, 2010); tax increases still need a two-thirds vote.",
+    "citations": [
+      {
+        "source": "src:lao-ca-gov-3b11113c7a",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:californiaglobe-com-71c4301c23",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 134694,
+    "as_of": "2025-12-01",
+    "citations": [
+      {
+        "source": "src:calhr-ca-gov-23db8b4c75",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:assembly-ca-gov-dc86b58c8b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 80,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:wedrawthelines-ca-gov-026273f97b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:my-lwv-org-8b9a607592",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "12 years total in the Legislature, in any combination of Assembly and Senate terms (Proposition 28, 2012), for members first elected after June 7, 2011. The earlier Proposition 140 (1990) limit was 6 years in the Assembly.",
+    "citations": [
+      {
+        "source": "src:lao-ca-gov-74453867db",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:vigarchive-sos-ca-gov-f98aa13683",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 2,
+    "citations": [
+      {
+        "source": "src:lao-ca-gov-74453867db",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:vigarchive-sos-ca-gov-f98aa13683",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "The Commission nests two Assembly districts in each Senate district where possible. Assembly Speaker pay is $154,896 (Dec. 1, 2025). The salary conflict ('All Other Legislators $95,291' row) and the term-length sourcing caveat are the same as in the State Senator entry. graph.civlab.org: not reachable; no data seen."
+}

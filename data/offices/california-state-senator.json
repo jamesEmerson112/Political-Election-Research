@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "california-state-senator",
+  "name": "California State Senator",
+  "body": "California State Senate",
+  "budget": {
+    "value": 351700000000,
+    "basis": "2026-27 · Total state budget, all funds ($251.5B General Fund), in the Budget Act of 2026, which the Legislature (Senate and Assembly together) passed and the Governor signed June 29, 2026",
+    "citations": [
+      {
+        "source": "src:src-senate-ca-gov-0f3e64187b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:sbud-senate-ca-gov-6e9d456b34",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "constituents": {
+    "value": 988086,
+    "as_of": "2020",
+    "basis": "Citizens Redistricting Commission ideal Senate district population: 2020 redistricting total of 39,523,437 (Census count with 14,786 federal prisoners removed) divided by 40 districts.",
+    "citations": [
+      {
+        "source": "src:wedrawthelines-ca-gov-026273f97b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "State of California",
+  "level": "state",
+  "powers": {
+    "value": "Senators introduce and vote on state laws and on the annual budget bill. The Legislature must pass the budget bill by June 15 and can do so by majority vote (Proposition 25, 2010); tax increases still need a two-thirds vote.",
+    "citations": [
+      {
+        "source": "src:lao-ca-gov-3b11113c7a",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:californiaglobe-com-71c4301c23",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 134694,
+    "as_of": "2025-12-01",
+    "citations": [
+      {
+        "source": "src:calhr-ca-gov-23db8b4c75",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:assembly-ca-gov-dc86b58c8b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 40,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:wedrawthelines-ca-gov-026273f97b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:my-lwv-org-8b9a607592",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "12 years total in the Legislature, in any combination of Senate and Assembly terms (Proposition 28, 2012), for members first elected after June 7, 2011. The earlier Proposition 140 (1990) limit was 8 years in the Senate and 6 in the Assembly.",
+    "citations": [
+      {
+        "source": "src:lao-ca-gov-74453867db",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:vigarchive-sos-ca-gov-f98aa13683",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:lao-ca-gov-74453867db",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:vigarchive-sos-ca-gov-f98aa13683",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "The budget figure is the whole state budget, because the Legislature as a body adopts it. Leadership pay effective Dec. 1, 2025: Senate President pro Tem and Minority Floor Leader $154,896; Majority Floor Leader and second-ranking Minority Leader $144,796. CONFLICT: one search summary of the CalHR page also showed an 'All Other Legislators $95,291' line, which matches the 2013-14 base pay and is probably a historical row; confirm on CalHR. A California Globe tag page (dated July 31, 2026) reports that the Commission approved 4.2% raises for 2026, which would likely take effect in December 2026; unverified. Budget conflict: one news report gives a $251.1B General Fund. The term-length figure (Senate 4 years, Assembly 2) came from a search summary that credited a 2024 commentary rather than the LAO page; verify against Cal. Const. art. IV, sec. 2(a). graph.civlab.org: not reachable; no data seen."
+}

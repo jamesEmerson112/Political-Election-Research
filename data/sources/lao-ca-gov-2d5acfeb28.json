@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lao-ca-gov-2d5acfeb28",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Legislative Analyst's Office",
+  "title": "The New Tax Departments (April 2018)",
+  "url": "https://lao.ca.gov/reports/2018/3796/new-tax-departments-040418.pdf",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

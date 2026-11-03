@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "media-api-sf-gov-0ccf7b032a",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "City and County of San Francisco",
+  "title": "Charter Amendment: Term Limits (Feb. 12, 2026)",
+  "url": "https://media.api.sf.gov/documents/20260212_CharterAmendment_Term_Limits.pdf",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

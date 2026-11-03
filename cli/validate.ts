@@ -15,4 +15,4 @@ if (args.flags.has("json")) {
   for (const p of res.problems) console.log(formatProblem(p));
   console.log(`\n${res.dataset.files.length} files checked: ${res.errors} error(s), ${res.warnings} warning(s).`);
 }
-process.exit(res.errors > 0 ? 1 : 0);
+process.exitCode = res.errors > 0 ? 1 : 0;

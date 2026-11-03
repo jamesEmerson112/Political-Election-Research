@@ -36,4 +36,4 @@ if (res.content !== undefined) {
 }
 const { content: _content, ...report } = res;
 process.stdout.write(JSON.stringify(report, null, 2) + "\n");
-process.exit(res.action === "rejected" ? 1 : 0);
+process.exitCode = res.action === "rejected" ? 1 : 0;

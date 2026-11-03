@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ebudget-ca-gov-b32a7ac05e",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Department of Finance",
+  "title": "2025-26 Governor's Budget: 0820 Department of Justice",
+  "url": "https://ebudget.ca.gov/2025-26/pdf/GovernorsBudget/0010/0820.pdf",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

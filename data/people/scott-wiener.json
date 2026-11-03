@@ -129,6 +129,7 @@
           "office": "California State Senator, District 11",
           "current": true,
           "first_elected": "2016",
+          "office_ref": "office:california-state-senator",
           "citations": [
             {
               "source": "src:sd11-senate-ca-gov-defa21acba",
@@ -143,6 +144,7 @@
         {
           "office": "San Francisco Supervisor",
           "current": false,
+          "office_ref": "office:san-francisco-supervisor",
           "citations": [
             {
               "source": "src:sd11-senate-ca-gov-defa21acba",

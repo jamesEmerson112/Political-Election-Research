@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "localnewsmatters-org-42fb834bad",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "Local News Matters (Bay City News)",
+  "title": "SF lifetime term limits measure B leading",
+  "url": "https://localnewsmatters.org/2026/06/03/sf-lifetime-term-limits-measure-b-leading/",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

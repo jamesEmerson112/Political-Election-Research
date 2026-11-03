@@ -35,4 +35,4 @@ for (const [rel, text] of readDataDir(dir)) {
   }
 }
 console.log(check ? `${changed} file(s) need formatting.` : `${changed} file(s) formatted.`);
-process.exit((check && changed > 0) || skipped > 0 ? 1 : 0);
+process.exitCode = (check && changed > 0) || skipped > 0 ? 1 : 0;

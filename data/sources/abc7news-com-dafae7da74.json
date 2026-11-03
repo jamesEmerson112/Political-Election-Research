@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "abc7news-com-dafae7da74",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "ABC7 News",
+  "title": "San Francisco Mayor Daniel Lurie signs $15.9 billion city budget for next 2 fiscal years",
+  "url": "https://abc7news.com/amp/post/san-francisco-budget-mayor-daniel-lurie-signed-159-billion-dollars/17280139/",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

@@ -113,6 +113,7 @@
           "office": "San Francisco District 1 Supervisor",
           "current": true,
           "first_elected": "2020",
+          "office_ref": "office:san-francisco-supervisor",
           "citations": [
             {
               "source": "src:conniechansf-com-59f51a6a55",

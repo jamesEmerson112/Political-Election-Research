@@ -15,6 +15,7 @@
   "measures": [
     "contest:2026-ca-general/prop-3"
   ],
+  "office_ref": "office:california-governor",
   "questions": [
     "q:housing/transit-oriented-upzoning",
     "q:homelessness/encampment-enforcement-funding",

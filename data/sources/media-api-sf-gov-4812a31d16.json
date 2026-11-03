@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "media-api-sf-gov-4812a31d16",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Civil Service Commission",
+  "title": "May 18, 2026, Items 11-13: Board of Supervisors and elected officials salary presentation",
+  "url": "https://media.api.sf.gov/documents/05-18-26_Items_11_thru_13_BOS__ELECTED_OFFICIALS_Presentation.pdf",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

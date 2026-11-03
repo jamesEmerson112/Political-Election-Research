@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "my-lwv-org-8b9a607592",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "League of Women Voters (repost of CRC press release)",
+  "title": "Commission Completes and Approves Final Maps for State Districts",
+  "url": "https://my.lwv.org/node/43765",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}
