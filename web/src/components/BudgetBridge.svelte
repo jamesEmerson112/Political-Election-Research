@@ -135,6 +135,7 @@
 
   const REASON: Record<BridgeOmitted["reason"], string> = {
     not_in_year: "",
+    in_words: "sized in words only",
     not_estimated: "not estimated",
     minimal: "minimal or no cost",
     one_time_only: "one-time or multi-year only",

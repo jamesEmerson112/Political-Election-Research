@@ -14,7 +14,11 @@
  *   start they count from the first forecast year and are flagged.
  * - One-time effects and multi-year totals are listed, never added to
  *   annual sums. "minimal" counts as 0 (listed); "not_estimated" and
- *   "depends_on_future_decisions" are listed and never added.
+ *   "depends_on_future_decisions" are listed and never added. "in_words"
+ *   (sized only in the statement's words) is listed with those words and
+ *   never converted to a number or added.
+ * - Annual effects that start after the forecast's last year add nothing to
+ *   the forecast years; they are listed (afterForecast).
  * - Exclusive conflicts ("the one with more yes votes takes effect"): when
  *   several get a yes, the result spans every outcome that can actually
  *   happen (each maximal set of yes measures with no exclusive conflict).
@@ -82,7 +86,11 @@ export interface TrialResult {
   totals: Contribution[];
   bonds: { principal: number; debtServiceTotal: number; perHundredK: number; labels: string[] };
   notEstimated: Array<{ ref: string; label: string; estimate: string; text: string }>;
+  /** Effects the statement sizes only in words ("low tens of millions"): listed with those words, never added. */
+  inWords: Array<{ ref: string; label: string; lane: Lane; words: string; text: string }>;
   minimal: Array<{ ref: string; label: string; text: string }>;
+  /** Annual effects that start after the forecast's last year, so they add nothing to the years shown. */
+  afterForecast: Array<{ ref: string; label: string; lane: Lane; startFy: string; text: string }>;
   conflicts: Array<{ refs: string[]; labels: string[] }>;
   /** Yes measures that conflict in part: both take effect, estimates may overlap. */
   overlaps: Array<{ refs: string[]; labels: string[] }>;
@@ -221,6 +229,7 @@ function groupRange(group: MeasureInput[], rangeOf: (m: MeasureInput) => Range):
 export function runTrial(measures: MeasureInput[], budget: BudgetInput | null, votes: Record<string, Vote>): TrialResult {
   const years = budget?.forecast.map((y) => y.fy) ?? [];
   const firstFy = years[0] ?? null;
+  const lastFy = years[years.length - 1] ?? null;
   const yes = measures.filter((m) => votes[m.ref] === "yes");
   const perMeasure = new Map(yes.map((m) => [m.ref, contributions(m, firstFy)]));
   const groups = conflictGroups(yes);
@@ -266,7 +275,17 @@ export function runTrial(measures: MeasureInput[], budget: BudgetInput | null, v
     totals: all.filter((c) => c.per === "total"),
     bonds,
     notEstimated: listed(["not_estimated", "depends_on_future_decisions"]),
+    inWords: yes.flatMap((m) =>
+      m.effects
+        .filter((e) => e["estimate"] === "in_words")
+        .map((e) => ({ ref: m.ref, label: m.label, lane: String(e["lane"]) as Lane, words: String(e["words"] ?? ""), text: String(e["text"] ?? "") })),
+    ),
     minimal: listed(["minimal"]).map(({ ref, label, text }) => ({ ref, label, text })),
+    afterForecast: lastFy
+      ? all
+          .filter((c) => c.per === "year" && c.startFy !== null && fyStart(c.startFy) > fyStart(lastFy))
+          .map((c) => ({ ref: c.ref, label: c.label, lane: c.lane, startFy: c.startFy!, text: c.text }))
+      : [],
     conflicts: groups.filter((g) => g.length > 1).map((g) => ({ refs: g.map((m) => m.ref), labels: g.map((m) => m.label) })),
     overlaps: yes.flatMap((m) =>
       (m.overlaps ?? [])
@@ -335,7 +354,7 @@ export interface BridgeStep {
   chain: number;
 }
 
-export type BridgeOmitReason = "not_in_year" | "not_estimated" | "minimal" | "one_time_only" | "other_lanes";
+export type BridgeOmitReason = "not_in_year" | "in_words" | "not_estimated" | "minimal" | "one_time_only" | "other_lanes";
 
 export interface BridgeOmitted {
   ref: string;
@@ -380,6 +399,7 @@ function omitReason(m: MeasureInput, gfYear: Contribution[], fy: string): Bridge
   }
   const gf = m.effects.filter((e) => e["lane"] === "general_fund");
   const est = (e: Rec) => String(e["estimate"]);
+  if (gf.some((e) => est(e) === "in_words")) return { ...base, reason: "in_words" };
   if (gf.some((e) => est(e) === "not_estimated" || est(e) === "depends_on_future_decisions")) return { ...base, reason: "not_estimated" };
   if (gf.some((e) => est(e) === "minimal")) return { ...base, reason: "minimal" };
   if (gf.some((e) => est(e) === "estimated")) return { ...base, reason: "one_time_only" };

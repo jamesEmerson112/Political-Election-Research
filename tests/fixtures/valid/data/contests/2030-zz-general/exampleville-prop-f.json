@@ -28,6 +28,22 @@
     "as_of": "2030-08-20",
     "effects": [
       {
+        "id": "commission-staff",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "general_fund",
+        "note": "The statement doesn't name a fund; the City's own departments staff the commission, so it is recorded in the General Fund lane.",
+        "per": "year",
+        "text": "Staffing the merged commission would cost in the low hundreds of thousands of dollars a year.",
+        "words": "low hundreds of thousands of dollars a year",
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "Staffing the merged commission would cost in the low hundreds of thousands of dollars a year."
+          }
+        ]
+      },
+      {
         "id": "merger",
         "direction": "cost",
         "estimate": "depends_on_future_decisions",

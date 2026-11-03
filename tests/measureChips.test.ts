@@ -16,8 +16,33 @@ describe("percent first: how big an amount is", () => {
 
   it("compares with the first adopted fiscal year (the current budget)", () => {
     const b = budgetBase({ adopted: [{ fy: "2027-28", general_fund_usd: 2, total_usd: 4 }, { fy: "2026-27", general_fund_usd: 1, total_usd: 3 }] });
-    expect(b).toEqual({ fy: "2026-27", generalFund: 1, total: 3 });
+    expect(b).toEqual({ fy: "2026-27", generalFund: 1, total: 3, totalLabel: "all funds", totalName: "all funds" });
     expect(budgetBase(null)).toBeNull();
+  });
+
+  it("names the total the way the budget record does (state funds, federal funds not included)", () => {
+    const b = budgetBase({ adopted: [{ fy: "2026-27", general_fund_usd: 251_477 * M, total_usd: 351_710 * M, total_label: "state funds; federal funds not included" }] })!;
+    expect([b.totalLabel, b.totalName]).toEqual(["state funds; federal funds not included", "state funds"]);
+    const c = { fiscal: { effects: [{ id: "x", lane: "other_agency", direction: "cost", amount: { low_usd: 351.71 * M, high_usd: 351.71 * M }, per: "year", estimate: "estimated", text: "t", citations: [] }] } };
+    const chip = fiscalChips(c, (r) => r, b)[0]!;
+    expect(chip.text).toBe("≈0.1% of state funds · other agency cost $351.7M/yr");
+    expect(chip.title).toMatch(/the whole FY2026-27 budget, state funds; federal funds not included \(\$351\.71B\)/);
+  });
+
+  it("quotes an amount sized only in words, and never turns it into a number or a share", () => {
+    const c = {
+      fiscal: {
+        effects: [
+          { id: "w", lane: "general_fund", direction: "cost", per: "year", estimate: "in_words", words: "a few hundred thousand dollars each year", text: "Costs of a few hundred thousand dollars each year.", citations: [] },
+          { id: "d", lane: "dedicated", direction: "none", per: "total", estimate: "in_words", words: "tens of billions of dollars", text: "Tens of billions of dollars.", citations: [] },
+        ],
+      },
+    };
+    const base = { fy: "2026-27", generalFund: 251_477 * M, total: 351_710 * M, totalLabel: "all funds", totalName: "all funds" };
+    const chips = fiscalChips(c, (r) => r, base);
+    expect(chips.map((x) => x.text)).toEqual(["GF cost: “a few hundred thousand dollars each year”", "Dedicated fund: “tens of billions of dollars”"]);
+    expect(chips[0]!.title).toMatch(/own words; not converted to a number or added up/);
+    expect(chips.some((x) => /%/.test(x.text))).toBe(false);
   });
 
   it("leads fiscal chips with the share: General Fund of the General Fund, other lanes of all funds", () => {
@@ -29,7 +54,7 @@ describe("percent first: how big an amount is", () => {
         ],
       },
     };
-    const base = { fy: "2026-27", generalFund: 7598.833795 * M, total: 16851.826113 * M };
+    const base = { fy: "2026-27", generalFund: 7598.833795 * M, total: 16851.826113 * M, totalLabel: "all funds", totalName: "all funds" };
     expect(fiscalChips(c, (r) => r, base).map((x) => x.text)).toEqual(["≈1.6% of GF · cost $120M/yr", "≈1.1% of all funds · dedicated revenue $177M/yr"]);
     // Without a budget to compare with, dollars only, as before.
     expect(fiscalChips(c).map((x) => x.text)).toEqual(["GF cost $120M/yr", "Dedicated fund revenue $177M/yr"]);

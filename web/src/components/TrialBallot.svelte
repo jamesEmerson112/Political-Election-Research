@@ -18,16 +18,20 @@
   import TrialSummary from "./TrialSummary.svelte";
 
   /**
-   * "Try your ballot": one local measure at a time (Yes / No / Skip) with a
-   * running General Fund meter, then a summary. Answers stay in this browser.
+   * "Try your ballot": one measure at a time (Yes / No / Skip) with a running
+   * General Fund meter, then a summary. San Francisco's measures and California's
+   * propositions are separate ballots, each against its own government's budget.
+   * Answers stay in this browser.
    */
   let { ix, onDemo }: { ix: Index; onDemo?: () => void } = $props();
 
-  const groups = $derived(ix.localMeasureGroups());
+  const groups = $derived(ix.trialGroups());
   let pick = $state<string | null>(null);
   const group = $derived(groups.find((g) => g.jurisdiction === pick) ?? groups.find((g) => g.budget) ?? groups[0] ?? null);
   const measures = $derived(group ? group.refs.map((r) => measureInput(ix.contests.get(r)!)) : []);
   const budget = $derived(group?.budget ? budgetInput(group.budget) : null);
+  /** Whose budget it is, for the wording. */
+  const gov = $derived<"city" | "state">(group?.level === "state" ? "state" : "city");
   const ballotKey = $derived(group ? String(group.budget?.["id"] ?? group.jurisdiction) : "");
   const titles = $derived(Object.fromEntries((group?.refs ?? []).map((r) => [r, String(ix.contests.get(r)?.["official_title"]?.["value"] ?? "")])));
 
@@ -103,7 +107,7 @@
   <div class="section-head">
     <h2>Try your ballot</h2>
     <p>
-      Vote on each local measure and watch the official estimates add up against the budget forecast. This adds up the official fiscal statements for the
+      Vote on each measure and watch the official estimates add up against that government's budget forecast. This adds up the official fiscal statements for the
       choices you try; it doesn't recommend how to vote. Your answers stay in this browser.
     </p>
   </div>
@@ -124,7 +128,7 @@
 
     <!-- While voting, the meter draws the bridge; in the summary it keeps its year buttons and headline, and the summary draws the bridge, once. -->
     <div class="meter-wrap" bind:this={meterEl}>
-      <BudgetMeter {result} {bridge} {domain} budgetRec={group.budget} fy={shownFy} onfy={(f) => (fy = f)} headline={!(current && rec)} />
+      <BudgetMeter {result} {bridge} {domain} budgetRec={group.budget} fy={shownFy} onfy={(f) => (fy = f)} headline={!(current && rec)} {gov} />
     </div>
 
     <div class="progress">
@@ -203,6 +207,7 @@
         base={budgetBase(group.budget)}
         cumulative={group.budget?.["forecast"]?.["cumulative"] === true}
         onfy={(f) => (fy = f)}
+        {gov}
       />
       <div class="answers">
         <button class="ans" onclick={() => (step = 0)}>Change answers</button>

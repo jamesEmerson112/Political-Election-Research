@@ -66,6 +66,11 @@ describe("SQLite export", () => {
     expect(all("SELECT effect, fy, low_usd, high_usd FROM measure_fiscal_schedule WHERE contest = 'contest:2030-zz-general/exampleville-prop-b'")).toEqual([
       { effect: "tax-revenue", fy: "2031-32", low_usd: 40000000, high_usd: 55000000 },
     ]);
+    // Sized only in words: no amount, the statement's words kept, and the recorder's note.
+    const words = all("SELECT estimate, low_usd, words, note FROM measure_fiscal_effects WHERE contest = 'contest:2030-zz-general/exampleville-prop-f' AND id = 'commission-staff'")[0];
+    expect(words).toMatchObject({ estimate: "in_words", low_usd: null, words: "low hundreds of thousands of dollars a year" });
+    expect(String(words?.["note"])).toMatch(/General Fund lane/);
+    expect(all("SELECT total_label FROM budget_years WHERE budget = 'exampleville' AND kind = 'adopted'")).toEqual([{ total_label: null }]);
     expect(all("SELECT principal_usd, annual_cost_per_100k_assessed_usd FROM measure_bonds")).toEqual([{ principal_usd: 300000000, annual_cost_per_100k_assessed_usd: 9.5 }]);
     expect(all("SELECT COUNT(*) AS n FROM measure_conflicts")[0]!["n"]).toBe(2);
     expect(all("SELECT kind, fy, general_fund_usd, direction, amount_usd FROM budget_years WHERE budget = 'exampleville' ORDER BY kind, fy")).toEqual([

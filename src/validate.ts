@@ -42,6 +42,7 @@ export const RULES = {
   FISCAL_RANGE: "A fiscal estimate's low end is above its high end.",
   FISCAL_SCHEDULE:
     "A fiscal effect's per-year schedule must be on a per-year estimated effect, start at its start_fy, list each fiscal year once, keep every amount inside the effect's range, and use amounts printed in its citation quotes.",
+  FISCAL_WORDS: "A fiscal effect sized only in words must copy its words verbatim from one of its citation quotes.",
   FISCAL_SOURCE: "A measure's fiscal effect cites no official source (government or legislative record, or the official voter guide).",
   AFFECT_FIGURE: "A measure's 'who it affects' figure is not copied from any of its citation quotes.",
   AFFECT_DUPLICATE: "A measure lists the same group and effect twice in 'who it affects'.",
@@ -281,7 +282,7 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
   }
 }
 
-/** Ballot-measure fiscal effects: ranges in order, and backed by an official statement. */
+/** Ballot-measure fiscal effects: ranges in order, words copied from the quotes, and backed by an official statement. */
 function checkFiscal(ds: Dataset, rel: string, rec: Rec, add: Add): void {
   const fiscal = rec["fiscal"] as Rec | undefined;
   if (!fiscal) return;
@@ -298,6 +299,14 @@ function checkFiscal(ds: Dataset, rel: string, rec: Rec, add: Add): void {
     }
     official(e["citations"], `/fiscal/effects/${i}/citations`);
     checkSchedule(rel, `/fiscal/effects/${i}`, e, add);
+    const words = e["words"] as string | undefined;
+    if (words !== undefined) {
+      const norm = (t: string) => t.replace(/\s+/g, " ").trim();
+      const quotes = ((e["citations"] as Rec[] | undefined) ?? []).map((c) => norm(String(c["quote"] ?? "")));
+      if (!quotes.some((q) => q.includes(norm(words)))) {
+        add(rel, `/fiscal/effects/${i}/words`, "FISCAL_WORDS", `"${words}" does not appear in any of this effect's citation quotes.`);
+      }
+    }
   });
   if (fiscal["bond"]) official((fiscal["bond"] as Rec)["citations"], "/fiscal/bond/citations");
 }

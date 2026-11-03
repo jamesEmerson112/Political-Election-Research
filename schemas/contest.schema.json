@@ -449,7 +449,7 @@
       }
     },
     "FiscalEffect": {
-      "description": "One budget effect. lane: which money it touches (general_fund = the city's discretionary budget; set_aside = required minimum spending that doesn't change the General Fund total; dedicated = a special tax or fund; bond_debt = borrowing repaid by property tax; other_agency = another government's budget). direction gives the sign; amounts are unsigned.",
+      "description": "One budget effect. lane: which money it touches (general_fund = the government's discretionary budget; set_aside = required minimum spending that doesn't change the General Fund total; dedicated = a special tax, fee or fund; bond_debt = borrowing repaid by property tax; other_agency = another government's budget). direction gives the sign; amounts are unsigned. estimate: estimated (a dollar amount or range), in_words (sized only in words, kept verbatim in `words` and never converted to a number), minimal, not_estimated, depends_on_future_decisions.",
       "type": "object",
       "additionalProperties": false,
       "required": [
@@ -524,10 +524,23 @@
         "estimate": {
           "enum": [
             "estimated",
+            "in_words",
             "minimal",
             "not_estimated",
             "depends_on_future_decisions"
           ]
+        },
+        "words": {
+          "description": "For estimate in_words: the statement's own size phrase, copied verbatim from a citation quote (rule FISCAL_WORDS), e.g. 'low tens of millions of dollars per year'. Never converted to a number or added up.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "note": {
+          "description": "How the recorder mapped the statement to this record where the quotes don't say it outright (e.g. why this lane, or how a calendar year became start_fy). Shown as a recorder's note, never as the source's words.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300
         },
         "text": {
           "description": "One neutral line, e.g. 'Increases General Fund costs by $8–12 million a year'.",
@@ -555,6 +568,44 @@
             "required": [
               "amount"
             ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "estimate"
+            ],
+            "properties": {
+              "estimate": {
+                "const": "in_words"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "words"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "amount"
+                  ]
+                },
+                {
+                  "required": [
+                    "schedule"
+                  ]
+                }
+              ]
+            }
+          },
+          "else": {
+            "not": {
+              "required": [
+                "words"
+              ]
+            }
           }
         }
       ]

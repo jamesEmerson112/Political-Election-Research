@@ -21,7 +21,7 @@ CREATE TABLE contests (id TEXT PRIMARY KEY, ref TEXT, kind TEXT, election TEXT, 
   number TEXT, official_title TEXT, origin TEXT, summary TEXT, jurisdiction_level TEXT, jurisdiction_name TEXT, measure_type TEXT,
   vote_threshold TEXT, placed_by TEXT, fiscal_statement_by TEXT, fiscal_as_of TEXT, last_verified TEXT);
 CREATE TABLE measure_fiscal_effects (contest TEXT, id TEXT, lane TEXT, direction TEXT, low_usd INTEGER, high_usd INTEGER, per TEXT,
-  start_fy TEXT, years INTEGER, estimate TEXT, text TEXT, PRIMARY KEY (contest, id));
+  start_fy TEXT, years INTEGER, estimate TEXT, words TEXT, note TEXT, text TEXT, PRIMARY KEY (contest, id));
 CREATE TABLE measure_fiscal_schedule (contest TEXT, effect TEXT, fy TEXT, low_usd INTEGER, high_usd INTEGER, PRIMARY KEY (contest, effect, fy));
 CREATE TABLE measure_bonds (contest TEXT PRIMARY KEY, principal_usd INTEGER, debt_service_total_usd INTEGER, term_years INTEGER,
   annual_cost_per_100k_assessed_usd REAL);
@@ -33,8 +33,8 @@ CREATE TABLE measure_arguments (contest TEXT, id TEXT, position INTEGER, side TE
 CREATE TABLE measure_argument_signers (contest TEXT, argument TEXT, position INTEGER, signer TEXT, PRIMARY KEY (contest, argument, position));
 CREATE TABLE budgets (id TEXT PRIMARY KEY, name TEXT, jurisdiction TEXT, forecast_title TEXT, forecast_publisher TEXT, forecast_published TEXT,
   last_verified TEXT);
-CREATE TABLE budget_years (budget TEXT, kind TEXT, fy TEXT, total_usd INTEGER, general_fund_usd INTEGER, direction TEXT, amount_usd INTEGER,
-  basis TEXT, PRIMARY KEY (budget, kind, fy));
+CREATE TABLE budget_years (budget TEXT, kind TEXT, fy TEXT, total_usd INTEGER, total_label TEXT, general_fund_usd INTEGER, direction TEXT,
+  amount_usd INTEGER, basis TEXT, PRIMARY KEY (budget, kind, fy));
 CREATE TABLE contest_candidates (contest TEXT, person TEXT, party TEXT, ballot_designation TEXT, incumbent INTEGER, PRIMARY KEY (contest, person));
 CREATE TABLE agendas (contest TEXT PRIMARY KEY, kind TEXT, endorsements_target INTEGER, top_contributors INTEGER, finance_cutoff TEXT,
   seeded_date TEXT, seeded_note TEXT);
@@ -245,7 +245,8 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
       const amt = e["amount"] as Rec | undefined;
       push("measure_fiscal_effects", {
         contest: ref, id: s(e["id"]), lane: s(e["lane"]), direction: s(e["direction"]), low_usd: n(amt?.["low_usd"]), high_usd: n(amt?.["high_usd"]),
-        per: s(e["per"]), start_fy: s(e["start_fy"]), years: n(e["years"]), estimate: s(e["estimate"]), text: s(e["text"]),
+        per: s(e["per"]), start_fy: s(e["start_fy"]), years: n(e["years"]), estimate: s(e["estimate"]), words: s(e["words"]), note: s(e["note"]),
+        text: s(e["text"]),
       });
       for (const x of (e["schedule"] as Rec[] | undefined) ?? []) {
         const xa = x["amount"] as Rec;
@@ -388,13 +389,13 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
     });
     for (const y of (r["adopted"] as Rec[] | undefined) ?? []) {
       push("budget_years", {
-        budget: s(r["id"]), kind: "adopted", fy: s(y["fy"]), total_usd: n(y["total_usd"]), general_fund_usd: n(y["general_fund_usd"]),
-        direction: null, amount_usd: null, basis: s(y["basis"]),
+        budget: s(r["id"]), kind: "adopted", fy: s(y["fy"]), total_usd: n(y["total_usd"]), total_label: s(y["total_label"]),
+        general_fund_usd: n(y["general_fund_usd"]), direction: null, amount_usd: null, basis: s(y["basis"]),
       });
     }
     for (const y of (fc?.["years"] as Rec[] | undefined) ?? []) {
       push("budget_years", {
-        budget: s(r["id"]), kind: "forecast", fy: s(y["fy"]), total_usd: null, general_fund_usd: null, direction: s(y["direction"]),
+        budget: s(r["id"]), kind: "forecast", fy: s(y["fy"]), total_usd: null, total_label: null, general_fund_usd: null, direction: s(y["direction"]),
         amount_usd: n(y["amount_usd"]), basis: s(y["basis"]),
       });
     }

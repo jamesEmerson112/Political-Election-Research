@@ -97,6 +97,36 @@ describe("budget trial engine", () => {
     ]);
   });
 
+  it("lists effects sized only in words with those words, and never adds them", () => {
+    const m = measure("w", [
+      { id: "low", direction: "cost", estimate: "in_words", words: "low tens of millions of dollars per year", text: "Costs in the low tens of millions of dollars per year." },
+      { id: "fees", lane: "dedicated", direction: "cost", estimate: "in_words", words: "a few hundred thousand dollars", text: "A few hundred thousand dollars, paid from fees." },
+    ]);
+    const r = runTrial([m], budget, { w: "yes" });
+    for (const y of r.generalFund) expect(y.delta).toEqual({ low: 0, high: 0 });
+    expect(r.perYearOnceInEffect.dedicated).toEqual({ low: 0, high: 0 });
+    expect(r.inWords.map((n) => [n.lane, n.words])).toEqual([
+      ["general_fund", "low tens of millions of dollars per year"],
+      ["dedicated", "a few hundred thousand dollars"],
+    ]);
+    expect(r.notEstimated).toEqual([]);
+    expect(r.contributions).toEqual([]);
+    // not voted yes: not listed
+    expect(runTrial([m], budget, { w: "no" }).inWords).toEqual([]);
+  });
+
+  it("lists an annual effect that starts after the forecast's last year, and adds nothing for it", () => {
+    const m = measure("k", [{ id: "kept", direction: "revenue", amount: { low_usd: 5_000 * M, high_usd: 15_000 * M }, start_fy: "2034-35", text: "Keeps $5 billion to $15 billion a year." }]);
+    const r = runTrial([m], budget, { k: "yes" });
+    for (const y of r.generalFund) expect(y.delta).toEqual({ low: 0, high: 0 });
+    expect(r.afterForecast).toEqual([{ ref: "k", label: "K", lane: "general_fund", startFy: "2034-35", text: "Keeps $5 billion to $15 billion a year." }]);
+    expect(r.startAssumed).toEqual([]);
+    // the bridge says when it starts
+    expect(bridgeSteps(r, [m], "2031-32")!.omitted.map((o) => [o.label, o.reason, o.startFy])).toEqual([["K", "not_in_year", "2034-35"]]);
+    // an effect inside the forecast is not listed
+    expect(runTrial([tax], budget, { b: "yes" }).afterForecast).toEqual([]);
+  });
+
   it("keeps set-asides, dedicated funds, other agencies and bonds out of the General Fund headline", () => {
     const m = measure("x", [
       { id: "lib", lane: "set_aside", direction: "cost", amount: { low_usd: 5 * M, high_usd: 5 * M }, start_fy: "2031-32" },
@@ -216,6 +246,7 @@ describe("budget trial on the fictional Exampleville ballot", () => {
     expect(gf(r, "2031-32").result).toEqual({ low: -32 * M, high: -8 * M });
     expect(r.oneTime.map((c) => c.label)).toEqual(["Prop B"]);
     expect(r.notEstimated.map((n) => n.label)).toEqual(["Prop F"]);
+    expect(r.inWords.map((n) => [n.label, n.words])).toEqual([["Prop F", "low hundreds of thousands of dollars a year"]]);
     expect(r.minimal.map((n) => n.label)).toEqual(["Prop D"]);
     expect(r.perYearOnceInEffect.set_aside).toEqual({ low: -5 * M, high: -5 * M });
     expect(r.bonds.principal).toBe(300 * M);
@@ -231,7 +262,7 @@ describe("budget trial on the fictional Exampleville ballot", () => {
     expect(b.omitted.map((o) => [o.label, o.reason])).toEqual([
       ["Prop A", "other_lanes"],
       ["Prop D", "minimal"],
-      ["Prop F", "not_estimated"],
+      ["Prop F", "in_words"],
       ["Prop G", "other_lanes"],
     ]);
   });
@@ -279,10 +310,11 @@ describe("bridge (waterfall) for one fiscal year", () => {
     const later = cost("l", 2, 2, { start_fy: "2032-33" });
     const minimal = measure("m", [{ id: "x", direction: "none", estimate: "minimal" }]);
     const unknown = measure("u", [{ id: "x", direction: "cost", estimate: "not_estimated" }]);
+    const words = measure("w", [{ id: "x", direction: "cost", estimate: "in_words", words: "millions of dollars" }]);
     const once = measure("o", [{ id: "x", direction: "cost", per: "one_time", amount: { low_usd: 1 * M, high_usd: 1 * M } }]);
     const other = measure("s", [{ id: "x", lane: "set_aside", direction: "cost", amount: { low_usd: 5 * M, high_usd: 5 * M } }]);
     const no = cost("n", 9, 9);
-    const ms = [later, minimal, unknown, tax, once, other, no];
+    const ms = [later, minimal, unknown, words, tax, once, other, no];
     const votes = Object.fromEntries(ms.filter((m) => m !== no).map((m) => [m.ref, "yes" as Vote]));
     const b = steps(runTrial(ms, budget, votes), ms);
     expect(b.steps.map((s) => s.label)).toEqual(["Forecast", "B", "Result"]);
@@ -290,6 +322,7 @@ describe("bridge (waterfall) for one fiscal year", () => {
       ["L", "not_in_year", "2032-33"],
       ["M", "minimal", null],
       ["U", "not_estimated", null],
+      ["W", "in_words", null],
       ["O", "one_time_only", null],
       ["S", "other_lanes", null],
     ]);

@@ -489,6 +489,16 @@ local("F", {
   digest: digest("You want to merge the planning and building commissions.", "You want to keep them separate."),
   fiscal: controller("The cost would depend on decisions the City makes when it merges the commissions.", [
     effect({ id: "merger", lane: "general_fund", direction: "cost", per: "year", estimate: "depends_on_future_decisions", text: "Cost depends on decisions the City makes when it merges the commissions." }),
+    effect({
+      id: "commission-staff",
+      lane: "general_fund",
+      direction: "cost",
+      per: "year",
+      estimate: "in_words",
+      words: "low hundreds of thousands of dollars a year",
+      note: "The statement doesn't name a fund; the City's own departments staff the commission, so it is recorded in the General Fund lane.",
+      text: "Staffing the merged commission would cost in the low hundreds of thousands of dollars a year.",
+    }),
   ]),
 });
 local("G", {

@@ -26,6 +26,7 @@
     base = null,
     cumulative = false,
     onfy,
+    gov = "city",
   }: {
     result: TrialResult;
     measures: MeasureInput[];
@@ -39,6 +40,8 @@
     cumulative?: boolean;
     /** Show another fiscal year in the bridge (the per-year chart's years are selectable). */
     onfy?: (fy: string) => void;
+    /** Whose budget it is, for the wording: "city" (San Francisco) or "state" (California). */
+    gov?: "city" | "state";
   } = $props();
   const stepWord = (r: Range) => (r.low >= 0 ? "revenue or savings" : r.high <= 0 ? "cost" : "cost or revenue");
 
@@ -126,11 +129,11 @@
   </div>
 
   <p class="gf">
-    <strong>The General Fund</strong> is the city's main account and its most flexible money, not tied to one purpose{#if base?.generalFund && base?.total}: {usd(
+    <strong>The General Fund</strong> is the {gov}'s main account and its most flexible money, not tied to one purpose{#if base?.generalFund && base?.total}: {usd(
         base.generalFund,
-      )} of the {usd(base.total)} adopted for FY{base.fy}, all funds{/if}. <strong>A shortfall</strong> is the official forecast's gap for a coming year: how much General
-    Fund costs would exceed its revenue if nothing changed. The city must adopt a balanced budget every year, so each gap is closed before the year starts, with cuts, new
-    revenue or reserves; the forecast doesn't say which.
+      )} of the {usd(base.total)} adopted for FY{base.fy}, {base.totalLabel}{/if}. <strong>A shortfall</strong> is the official forecast's gap for a coming year: how much
+    General Fund costs would exceed its revenue if nothing changed. The {gov} must adopt a balanced budget every year, so each gap is closed before the year starts, with cuts,
+    new revenue or reserves; the forecast doesn't say which.
   </p>
 
   {#if bridge && domain}
@@ -283,8 +286,10 @@
                 >General Fund {#if base?.generalFund}<strong>{pctRange(g.low, g.high, base.generalFund)}</strong> ({signedRange(g)}/yr){:else}{signedRange(g)}/yr{/if}</span
               >{/if}
             {#each otherOf(m.ref) as o (o.l)}<span
-                >{LANE_LABEL[o.l]} {#if base?.total}<strong>{pctRange(o.r.low, o.r.high, base.total)} of all funds</strong> ({signedRange(o.r)}/yr){:else}{signedRange(o.r)}/yr{/if}</span
+                >{LANE_LABEL[o.l]} {#if base?.total}<strong>{pctRange(o.r.low, o.r.high, base.total)} of {base.totalName}</strong> ({signedRange(o.r)}/yr){:else}{signedRange(o.r)}/yr{/if}</span
               >{/each}
+            {#each result.afterForecast.filter((x) => x.ref === m.ref) as x (x.startFy + x.text)}<span class="muted">from FY{x.startFy}, after the forecast</span>{/each}
+            {#if result.inWords.some((x) => x.ref === m.ref)}<span class="muted">sized in words</span>{/if}
             {#if result.notEstimated.some((x) => x.ref === m.ref)}<span class="muted">not estimated</span>{/if}
             {#if result.minimal.some((x) => x.ref === m.ref)}<span class="muted">minimal or no cost</span>{/if}
           {:else}
@@ -302,12 +307,12 @@
         {@const r = result.perYearOnceInEffect[l]}
         {#if r.low !== 0 || r.high !== 0}<li>
             <strong>{LANE_LABEL[l]}:</strong>
-            {#if base?.total}<strong>{pctRange(r.low, r.high, base.total)} of all funds</strong> ({signedRange(r)} a year once in effect){:else}{signedRange(r)} a year once in effect{/if}
+            {#if base?.total}<strong>{pctRange(r.low, r.high, base.total)} of {base.totalName}</strong> ({signedRange(r)} a year once in effect){:else}{signedRange(r)} a year once in effect{/if}
           </li>{/if}
       {/each}
       {#if result.bonds.principal}
         <li>
-          <strong>Bonds:</strong> {#if base?.total}<strong>{pct(result.bonds.principal / base.total)} of all funds</strong> ({usd(result.bonds.principal)}){:else}{usd(
+          <strong>Bonds:</strong> {#if base?.total}<strong>{pct(result.bonds.principal / base.total)} of {base.totalName}</strong> ({usd(result.bonds.principal)}){:else}{usd(
             result.bonds.principal,
           )}{/if} authorized{#if result.bonds.debtServiceTotal}, about {usd(result.bonds.debtServiceTotal)} in total
             debt service{/if}{#if result.bonds.perHundredK}; about ${result.bonds.perHundredK.toFixed(2)} a year per $100,000 of assessed value{/if}, paid
@@ -316,6 +321,12 @@
       {/if}
       {#each result.oneTime as c (c.ref + c.effectId)}<li><strong>One-time ({c.label}):</strong> {signedRange(c.range)}{c.startFy ? ` in FY${c.startFy}` : ""}</li>{/each}
       {#each result.totals as c (c.ref + c.effectId)}<li><strong>Total over {c.years ?? "several"} years ({c.label}):</strong> {signedRange(c.range)}</li>{/each}
+      {#each result.afterForecast as x (x.ref + x.startFy + x.text)}<li>
+          <strong>Starts after the forecast ({x.label}, from FY{x.startFy}):</strong> {x.text} It adds nothing to the years shown{#if result.years.length}, FY{result.years[0]} to FY{result.years[
+              result.years.length - 1
+            ]}{/if}.
+        </li>{/each}
+      {#each result.inWords as x (x.ref + x.text)}<li><strong>Sized in words, not added up ({x.label}):</strong> “{x.words}”. {x.text}</li>{/each}
       {#each result.notEstimated as x (x.ref + x.text)}<li><strong>Not estimated ({x.label}):</strong> {x.text}</li>{/each}
       {#each result.conflicts as k (k.refs.join())}<li><strong>Only some can take effect:</strong> {k.labels.join(", ")} compete; the totals span the possible outcomes.</li>{/each}
       {#each result.overlaps as k (k.refs.join())}<li><strong>Partly overlapping:</strong> {k.labels.join(" and ")} both take effect, and one prevails where they conflict; their estimates are added, and may overlap.</li>{/each}
@@ -323,7 +334,8 @@
     </ul>
     <p class="note">
       Percentages are computed here, to show how big each amount is: a step as a share of the forecast gap; General Fund amounts as a share of the adopted
-      FY{base?.fy ?? ""} General Fund; other funds and bonds as a share of the whole adopted budget, all funds.
+      FY{base?.fy ?? ""} General Fund; other funds and bonds as a share of the whole adopted budget, {base?.totalLabel ?? "all funds"}. Amounts the statement gives only in words are
+      quoted, never turned into numbers.
       The forecast doesn't include these measures. Amounts are the official estimates as published; this page only adds them up.
     </p>
   </div>

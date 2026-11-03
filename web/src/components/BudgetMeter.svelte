@@ -2,7 +2,7 @@
   import { untrack } from "svelte";
   import type { Bridge, BridgeDomain, TrialResult } from "../lib/budgetTrial";
   import { date } from "../lib/format";
-  import { budgetBase, gapLine, LANE_LABEL, pct, pctRange, signedRange, usd } from "../lib/measureChips";
+  import { budgetBase, gapLine, LANE_LABEL, pct, pctRange, signedRange, totalLong, usd } from "../lib/measureChips";
   import { openDetail } from "../lib/ui.svelte";
   import BudgetBridge from "./BudgetBridge.svelte";
 
@@ -25,6 +25,7 @@
     fy,
     onfy,
     headline = false,
+    gov = "city",
   }: {
     result: TrialResult;
     bridge: Bridge | null;
@@ -35,6 +36,8 @@
     onfy: (fy: string) => void;
     /** Headline only (no bridge, no other-funds line): set while the trial summary, which shows both, is on screen. */
     headline?: boolean;
+    /** Whose budget it is, for the wording: "city" (San Francisco) or "state" (California). */
+    gov?: "city" | "state";
   } = $props();
 
   const row = $derived(result.generalFund.find((y) => y.fy === fy) ?? result.generalFund[0] ?? null);
@@ -86,7 +89,7 @@
       title: `${budgetRec?.["forecast"]?.["title"] ?? "Forecast"}: FY${row?.fy}`,
       text: `Projected ${y.direction} of ${usd(y.amount_usd)}.${y.basis ? ` ${y.basis}` : ""}`,
       citations: y.citations,
-      note: "The city adopts a balanced budget each year; a projected shortfall is the gap the Mayor and Board must close with cuts, new revenue or reserves. The forecast doesn't include these measures.",
+      note: `The ${gov} must adopt a balanced budget each year; a projected shortfall is a gap it must close with cuts, new revenue or reserves. The forecast doesn't include these measures.`,
     });
   }
 </script>
@@ -129,7 +132,7 @@
       </p>
     {/if}
     {#if bridge && domain && !headline}<BudgetBridge {bridge} {domain} compact />{/if}
-    <p class="fine">The forecast doesn't include ballot measures; the city must adopt a balanced budget each year. The % is the change ÷ the forecast, computed here.</p>
+    <p class="fine">The forecast doesn't include ballot measures; the {gov} must adopt a balanced budget each year. The % is the change ÷ the forecast, computed here.</p>
   {:else}
     <p class="muted">No official budget forecast is recorded for this jurisdiction yet, so only the yearly amounts are added up below.</p>
     <dl class="lines">
@@ -139,12 +142,12 @@
   {/if}
   {#if !headline && (lanes.length || result.bonds.principal)}
     <p class="lanes">
-      {#each lanes as { l, r } (l)}<span title={base?.total ? `Share of the City's whole FY${base.fy} budget, all funds (${usd(base.total)}), computed here` : undefined}
+      {#each lanes as { l, r } (l)}<span title={base?.total ? `Share of ${totalLong(base)}, computed here` : undefined}
           >{LANE_LABEL[l]}
-          {#if base?.total}<strong>{pctRange(r.low, r.high, base.total)} of all funds</strong> ({signedRange(r)}/yr){:else}{signedRange(r)}/yr{/if}</span
+          {#if base?.total}<strong>{pctRange(r.low, r.high, base.total)} of {base.totalName}</strong> ({signedRange(r)}/yr){:else}{signedRange(r)}/yr{/if}</span
         >{/each}
       {#if result.bonds.principal}<span
-          >Bonds {#if base?.total}<strong>{pct(result.bonds.principal / base.total)} of all funds</strong> ({usd(result.bonds.principal)}){:else}{usd(
+          >Bonds {#if base?.total}<strong>{pct(result.bonds.principal / base.total)} of {base.totalName}</strong> ({usd(result.bonds.principal)}){:else}{usd(
               result.bonds.principal,
             )}{/if}{#if result.bonds.perHundredK}
             · ~${result.bonds.perHundredK.toFixed(2)}/yr per $100k assessed{/if}</span

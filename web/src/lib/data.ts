@@ -240,6 +240,24 @@ export class Index {
       }));
   }
 
+  /**
+   * The ballots "Try your ballot" offers: each local jurisdiction's measures with
+   * its budget (as localMeasureGroups), then California's statewide propositions
+   * with the state budget. Local groups come first, so San Francisco stays the default.
+   */
+  trialGroups(): Array<{ jurisdiction: string; level: "local" | "state"; refs: string[]; budget: Rec | null }> {
+    const groups: Array<{ jurisdiction: string; level: "local" | "state"; refs: string[]; budget: Rec | null }> = this.localMeasureGroups().map((g) => ({
+      ...g,
+      level: "local" as const,
+    }));
+    const state = this.stateMeasures("ca");
+    if (state.length) {
+      const name = String((this.contests.get(state[0]!)?.["jurisdiction"] as Rec | undefined)?.["name"] ?? "State of California");
+      groups.push({ jurisdiction: name, level: "state", refs: state, budget: [...this.budgets.values()].find((b) => b["jurisdiction"] === name) ?? null });
+    }
+    return groups;
+  }
+
   /** Statewide propositions with records for one state's election ("ca"), in number order. */
   stateMeasures(state = "ca"): string[] {
     const num = (ref: string) => Number(String(this.contests.get(ref)?.["number"] ?? "").replace(/\D/g, "")) || 0;

@@ -73,7 +73,19 @@
         {/if}
         <ul>
           {#each f["effects"] as e (e["id"])}
-            <li>{e["text"]} <button class="cite" onclick={() => openDetail({ kicker: `${f["statement_by"]} · fiscal statement`, title: e["text"], citations: cites(e) })}>{cites(e).length}</button></li>
+            <li>
+              {e["text"]}{#if e["estimate"] === "in_words"} <span class="muted">(sized in words; not added up)</span>{/if}
+              <button
+                class="cite"
+                onclick={() =>
+                  openDetail({
+                    kicker: `${f["statement_by"]} · fiscal statement`,
+                    title: e["text"],
+                    citations: cites(e),
+                    note: e["note"] ? `Recorder's note (how this record reads the statement): ${e["note"]}` : undefined,
+                  })}>{cites(e).length}</button
+              >
+            </li>
           {/each}
         </ul>
         <a href="#trial">Add it to your trial ballot ›</a>

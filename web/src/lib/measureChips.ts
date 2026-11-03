@@ -249,15 +249,25 @@ export interface BudgetBase {
   fy: string;
   /** Adopted General Fund, USD. */
   generalFund: number | null;
-  /** Adopted budget, all funds, USD. */
+  /** Adopted budget total, USD (all funds unless totalLabel says otherwise). */
   total: number | null;
+  /** What `total` covers, as the record says ("all funds" when it doesn't): "state funds; federal funds not included". */
+  totalLabel: string;
+  /** The short name for chips: the label up to its first ";" ("all funds", "state funds"). */
+  totalName: string;
 }
 export function budgetBase(budget: Rec | null | undefined): BudgetBase | null {
   const adopted = [...((budget?.["adopted"] as Rec[] | undefined) ?? [])].sort((a, b) => String(a["fy"]).localeCompare(String(b["fy"])));
   const a = adopted[0];
   if (!a) return null;
   const n = (v: unknown) => (typeof v === "number" && v > 0 ? v : null);
-  return { fy: String(a["fy"]), generalFund: n(a["general_fund_usd"]), total: n(a["total_usd"]) };
+  const totalLabel = typeof a["total_label"] === "string" && a["total_label"] ? a["total_label"] : "all funds";
+  return { fy: String(a["fy"]), generalFund: n(a["general_fund_usd"]), total: n(a["total_usd"]), totalLabel, totalName: totalLabel.split(";")[0]!.trim() };
+}
+
+/** "the whole FY2026-27 budget, all funds ($16.85B)": what a share of the total is a share of. */
+export function totalLong(base: BudgetBase): string {
+  return `the whole FY${base.fy} budget, ${base.totalLabel}${base.total ? ` (${usd(base.total)})` : ""}`;
 }
 
 /** A share in percent, rounded so small amounts stay visible: "≈12%", "≈1.6%", "≈0.06%", "<0.01%". */
@@ -308,7 +318,7 @@ export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r,
         ? { of: base.generalFund, name: "GF", long: `the FY${base.fy} General Fund (${usd(base.generalFund)})` }
         : null
       : base?.total
-        ? { of: base.total, name: "all funds", long: `the City's whole FY${base.fy} budget, all funds (${usd(base.total)})` }
+        ? { of: base.total, name: base.totalName, long: totalLong(base) }
         : null;
   for (const e of (fiscal["effects"] as Rec[] | undefined) ?? []) {
     const lane = String(e["lane"]);
@@ -318,6 +328,15 @@ export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r,
     if (e["estimate"] === "minimal") out.push({ icon, text: `${prefix}: minimal or no cost`, lead, title: String(e["text"]) });
     else if (e["estimate"] === "not_estimated") out.push({ icon: "none", text: `${prefix}: not estimated`, lead, title: String(e["text"]) });
     else if (e["estimate"] === "depends_on_future_decisions") out.push({ icon: "none", text: `${prefix}: depends on future decisions`, lead, title: String(e["text"]) });
+    else if (e["estimate"] === "in_words") {
+      const word = WORD[String(e["direction"])] ?? "";
+      out.push({
+        icon,
+        text: `${[prefix, word].filter(Boolean).join(" ")}: “${String(e["words"] ?? "")}”`,
+        lead,
+        title: `${String(e["text"])} In the statement's own words; not converted to a number or added up.`,
+      });
+    }
     else if (e["amount"]) {
       const a = e["amount"] as Rec;
       const word = WORD[String(e["direction"])] ?? "";
