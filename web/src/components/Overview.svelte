@@ -197,10 +197,10 @@
 
   {#each otherStates as s (s.st)}
     <div class="state">
-      <h2 class="s-head">{s.name}{#if s.st === "nv"} · Las Vegas{/if} <span class="g-count num">{s.count}</span></h2>
+      <h2 class="s-head">{s.st === "nv" ? `${s.name} · Las Vegas` : s.name} <span class="g-count num">{s.count}</span></h2>
       {#if s.st === "nv"}
         <p class="g-note">
-          Placeholders: the contests on City of Las Vegas ballots for November 3, 2026, from the official Clark County and Nevada lists. Not researched yet: no
+          Placeholders: the contests on City of Las Vegas ballots for November 3, 2026, from the Clark County Election Department's official lists. Not researched yet: no
           candidates, questions or positions. Each one is in the research queue.
         </p>
       {/if}
