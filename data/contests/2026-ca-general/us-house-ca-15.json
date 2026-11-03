@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/us-house-ca-15",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "United States Representative, District 15",
+  "office": "United States Representative",
+  "candidates": [
+    {
+      "person": "person:kevin-mullin",
+      "ballot_designation": "U.S. Representative",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "United States Representative District 15\nKevin Mullin Democratic\nU.S. Representative",
+          "locator": "PDF page 7 (list page 6 of 41), United States Representative District 15"
+        },
+        {
+          "source": "src:clerk-house-gov-2d67759ca4",
+          "quote": "California (CA) – 15th, Democrat",
+          "locator": "Member profile header for Kevin Mullin"
+        }
+      ]
+    },
+    {
+      "person": "person:charles-hoelter",
+      "ballot_designation": "Retired Training Supervisor",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Charles Hoelter Republican\nRetired Training Supervisor",
+          "locator": "PDF page 7 (list page 6 of 41), United States Representative District 15"
+        },
+        {
+          "source": "src:clerk-house-gov-2d67759ca4",
+          "quote": "California (CA) – 15th, Democrat",
+          "locator": "Member profile header: the current holder of California's 15th district seat is Kevin Mullin, another person"
+        }
+      ]
+    }
+  ],
+  "district": 15,
+  "level": "federal",
+  "office_ref": "office:us-representative-california",
+  "last_verified": "2026-11-03"
+}
