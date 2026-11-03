@@ -60,6 +60,51 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "High school English teacher (New Mexico)",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-702fd04dfd",
+              "quote": "A former high school English teacher in New Mexico",
+              "locator": "A Newcomer"
+            }
+          ]
+        },
+        {
+          "role": "Community college teacher",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I graduated high-school early thanks to community college, and later taught at one",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 34 (PDF p. 36)"
+            }
+          ]
+        },
+        {
+          "organization": "Yerba Buena Gardens",
+          "role": "Works at Yerba Buena Gardens (role not stated)",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-702fd04dfd",
+              "quote": "Now, McFadden works at Yerba Buena Gardens"
+            }
+          ]
+        },
+        {
+          "role": "PTA board member; member of the South of Market Childcare board",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "been a PTA board member and member of the South of Market Childcare board",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 34 (PDF p. 36)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
