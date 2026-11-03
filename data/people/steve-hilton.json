@@ -30,6 +30,16 @@
           ]
         }
       ]
+    },
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Steve Hilton Republican",
+          "locator": "PDF page 2 (Page 1 of 41), Governor (party preference)"
+        }
+      ]
     }
   },
   "ids": [
