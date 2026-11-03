@@ -46,6 +46,7 @@
         "issue": "education",
         "summary": "McFadden's site lists protecting Free City as a campaign platform.",
         "title": "Protect Free City",
+        "topic": "free-city",
         "citations": [
           {
             "source": "src:bunny4thepeople-com-913bfeba7b",
@@ -60,6 +61,7 @@
         "issue": "education",
         "summary": "McFadden's site says she will prioritize decisions that increase enrollment.",
         "title": "Prioritize decisions that increase enrollment",
+        "topic": "enrollment",
         "citations": [
           {
             "source": "src:bunny4thepeople-com-913bfeba7b",
@@ -73,6 +75,7 @@
         "issue": "education",
         "summary": "McFadden's site says the college needs to support student organizing and leadership development.",
         "title": "Support student organizing and leadership development",
+        "topic": "student-and-employee-voice",
         "citations": [
           {
             "source": "src:bunny4thepeople-com-913bfeba7b",
@@ -87,6 +90,7 @@
         "issue": "education",
         "summary": "The Guardsman reported that McFadden said every student needs wraparound services.",
         "title": "Wraparound services for students",
+        "topic": "student-support",
         "citations": [
           {
             "source": "src:theguardsman-com-702fd04dfd",
