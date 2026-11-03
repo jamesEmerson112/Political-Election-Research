@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "graph-civlab-org-f53b597122",
+  "kind": "reference_work",
+  "accessed": "2026-11-03",
+  "publisher": "CivLab",
+  "title": "CivLab · Board of Supervisors",
+  "url": "https://graph.civlab.org/sf/elected/ccsf-board-of-supervisors",
+  "notes": "CivLab government graph (graph.civlab.org, by Michael Adams). Secondary source: its legalSourceUrl points to the primary text. No license or terms were found; only counts, body names and short quotes are recorded."
+}
