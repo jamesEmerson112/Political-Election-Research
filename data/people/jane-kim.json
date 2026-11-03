@@ -34,6 +34,21 @@
           ]
         }
       ]
+    },
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Jane Kim Democratic",
+          "locator": "PDF page 3 (list page 2 of 41), Insurance Commissioner"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Jane Kim | DEMOCRATIC",
+          "locator": "page 89, Candidate Statements, Insurance Commissioner"
+        }
+      ]
     }
   },
   "ids": [
