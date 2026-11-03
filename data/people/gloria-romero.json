@@ -6,6 +6,27 @@
     "Gloria J. Romero"
   ],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "birth date / born",
+          "where": "Campaign site gloriaromero4ltgov.com (home; /about returns 404); 2026 Official Voter Information Guide candidate statement; Certified List of Candidates; Cal State LA 2002 news release"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Gloria Romero\" born 1955 Barstow lieutenant governor; calmatters lieutenant governor 2026 age",
+          "where": "Web search (news): KPBS 2026-08-31 explainer and LA Magazine candidacy story opened, no birth date; gvwire.com returned 403; calmatters.org returned 403"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Gloria Romero (politician)",
+          "where": "Wikipedia (reference work) states a birth date without a primary source that could be opened"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
