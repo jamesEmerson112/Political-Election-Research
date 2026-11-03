@@ -71,15 +71,80 @@
       "as_of": "2026-11-02",
       "cycle": 2026,
       "evidence_type": "questionnaire",
+      "points": [
+        {
+          "facet": "expand-green-card-pathways",
+          "text": "Supports expanding green-card pathways.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "We also must expand pathways to obtain a green card.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "expand-work-visas",
+          "text": "Supports expanding work visas (“Yes to both”).",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "Yes to both. People from around the world come here to work and make our country better and stronger. We need a stronger pathway for them to do so.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "per-country-backlog",
+          "text": "Calls for relief for the green-card backlog affecting applicants born in India and China (June primary questionnaire).",
+          "citations": [
+            {
+              "source": "src:growsf-org-ba3bb29f66",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §4"
+              }
+            }
+          ]
+        },
+        {
+          "facet": "processing-reform",
+          "text": "Calls for H-1B and O-1 visa processing reform (June primary questionnaire).",
+          "citations": [
+            {
+              "source": "src:growsf-org-ba3bb29f66",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §4"
+              }
+            }
+          ]
+        },
+        {
+          "facet": "shorten-green-card-waits",
+          "text": "Calls green-card waits of years or decades a broken system that needs reform.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "For so many people, they face wait times of years or decades to obtain a green card. That’s ridiculous, and we need to reform this broken system.",
+              "locator": "Work visas answer"
+            }
+          ]
+        }
+      ],
       "summary": "Supports expanding work visas and green cards; specifies H-1B/O-1 processing reform and relief for the green-card backlog affecting applicants born in India and China.",
       "citations": [
         {
           "source": "src:missionlocal-org-cd125eb68d",
-          "verified_by": {
-            "by": "maintainer",
-            "date": "2026-11-02",
-            "note": "notes/2026-11-02-ca-11.md §4"
-          }
+          "quote": "Yes to both. People from around the world come here to work and make our country better and stronger. We need a stronger pathway for them to do so.",
+          "locator": "Work visas answer"
+        },
+        {
+          "source": "src:missionlocal-org-cd125eb68d",
+          "quote": "We also must expand pathways to obtain a green card.",
+          "locator": "Work visas answer"
         },
         {
           "source": "src:growsf-org-ba3bb29f66",

@@ -38,6 +38,7 @@ export const RULES = {
   DATE_FUTURE: "A date is after today.",
   CITATION_AFTER_ASOF: "A position cites a source published after the position's as_of date.",
   POSITION_DUPLICATE: "Two positions share the same subject and as_of date.",
+  POINT_FACET: "A stance point names a facet the question does not define (add it to the question's facets).",
   PRIVACY_THRESHOLD: "A private individual is listed as a donor below the privacy threshold.",
   FILING_SUPERSEDED: "A money record only cites filings that were superseded by amendments.",
   CONTROVERSY_SOURCING: "A controversy is not backed by two independent publishers or an official record.",
@@ -277,6 +278,14 @@ function checkPositions(ds: Dataset, rel: string, rec: Rec, add: Add): void {
     if (subject.startsWith("contest:")) {
       const c = resolve(ds, subject);
       if (c && c["kind"] !== "measure") add(rel, `/positions/${i}/subject`, "REF_KIND", "Position subjects must be questions or ballot measures.");
+    }
+    const points = (p["points"] as Rec[] | undefined) ?? [];
+    if (points.length) {
+      const q = subject.startsWith("q:") ? (resolve(ds, subject) as Rec | undefined) : undefined;
+      const facets = new Set(((q?.["facets"] as Rec[] | undefined) ?? []).map((f) => String(f["id"])));
+      points.forEach((pt, k) => {
+        if (!facets.has(String(pt["facet"]))) add(rel, `/positions/${i}/points/${k}/facet`, "POINT_FACET", `Facet "${String(pt["facet"])}" is not defined on ${subject}.`);
+      });
     }
     ((p["citations"] as Rec[] | undefined) ?? []).forEach((c, j) => {
       const src = resolve(ds, String(c["source"]));

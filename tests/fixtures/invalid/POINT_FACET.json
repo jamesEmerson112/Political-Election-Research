@@ -1,0 +1,1 @@
+{"description":"A stance point names a facet the question does not define.","expect":["POINT_FACET"],"patches":[{"file":"positions/people/avery-sample.json","set":{"/positions/1/points/0/facet":"not-a-facet"}}]}

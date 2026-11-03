@@ -7,6 +7,7 @@
   import Badge from "./Badge.svelte";
   import BillStamp from "./BillStamp.svelte";
   import CellDetail from "./CellDetail.svelte";
+  import Equal from "@lucide/svelte/icons/equal";
   import StanceMark from "./StanceMark.svelte";
 
   /**
@@ -112,6 +113,12 @@
             {#if r.defs}
               <p class="def"><StanceMark mark={MARK["support"]!} size={11} /> {r.defs[0]}</p>
               <p class="def"><StanceMark mark={MARK["oppose"]!} size={11} /> {r.defs[1]}</p>
+            {/if}
+            {#if r.shared?.length}
+              <div class="both">
+                <span class="both-tag"><Equal size={12} aria-hidden="true" /> Both say</span>
+                {#each r.shared as sp (sp.label)}<button class="both-pt" onclick={sp.run}>{sp.label}</button>{/each}
+              </div>
             {/if}
           </div>
         {/if}
@@ -632,5 +639,41 @@
     .cat-name {
       font-size: 0.72rem;
     }
+  }
+  .both {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--line);
+  }
+  .both-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--ink-2);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .both-pt {
+    font: inherit;
+    font-size: var(--step--1);
+    color: var(--ink);
+    background: var(--wash);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 2px 10px;
+    cursor: pointer;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    text-align: left;
+  }
+  .both-pt:hover,
+  .both-pt:focus-visible {
+    border-color: var(--ink-2);
   }
 </style>

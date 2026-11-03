@@ -79,6 +79,7 @@ Record one stance by one candidate on one agenda subject (an issue question `q:.
    - `no_public_position`: nothing found after the full search order. Give a `search_log` and no citations.
 4. `summary`: one or two plain sentences that report what was said or done. No characterizing adjectives.
 5. `as_of`: the date of the newest evidence. If the candidate's stance changed, add a **new** entry with a later `as_of`. Never overwrite history.
+6. `points` (optional, recommended when two candidates take the same side): the specifics of the answer, one per element, each with its own citation. For example, "Freedom to change employers" or "H-1B / O-1 processing reform". Each point's `facet` must be one of the question's `facets` (`{id, label}` in the issue file; validate rule `POINT_FACET`). Add a facet to the question when a candidate states an element that isn't listed yet; facets describe answers and never change the question. Use the same facet for the same element across candidates. The site then lists it once under "Both say" and shows the rest as "Only <candidate>".
 
 <a id="task-legislation"></a>
 ## Task: legislation

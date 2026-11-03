@@ -17,6 +17,40 @@
       "id": "expand-skilled-work-visas",
       "added": "2026-11-02",
       "area": "tech",
+      "facets": [
+        {
+          "id": "expand-work-visas",
+          "label": "Expand work visas"
+        },
+        {
+          "id": "expand-green-card-pathways",
+          "label": "Expand green-card pathways"
+        },
+        {
+          "id": "shorten-green-card-waits",
+          "label": "Shorter green-card waits / clear backlogs"
+        },
+        {
+          "id": "labor-standards",
+          "label": "Fair wages and labor protections for visa holders"
+        },
+        {
+          "id": "employer-mobility",
+          "label": "Freedom to change employers"
+        },
+        {
+          "id": "path-to-citizenship",
+          "label": "Clear road to citizenship"
+        },
+        {
+          "id": "processing-reform",
+          "label": "H-1B / O-1 processing reform"
+        },
+        {
+          "id": "per-country-backlog",
+          "label": "Backlog for applicants born in India and China"
+        }
+      ],
       "oppose_means": "Favors keeping or lowering the number of skilled-worker visas.",
       "support_means": "Favors raising the number of skilled-worker visas.",
       "text": "Should the number of employment-based visas for skilled workers, such as H-1B visas, be increased?"

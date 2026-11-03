@@ -17,7 +17,8 @@
     </div>
   {/if}
   {#each lines as l, i (i)}
-    <div class="line" class:strike={l.strike} class:barline={l.bar !== undefined}>
+    {#if l.group && l.group !== lines[i - 1]?.group}<span class="grp">{l.group}</span>{/if}
+    <div class="line" class:strike={l.strike} class:barline={l.bar !== undefined} class:point={l.point}>
       {#if l.bar !== undefined}
         <span class="bar-label">{l.text}</span>
         <span class="bar"><span style:width={`${Math.round(l.bar * 100)}%`}></span></span>
@@ -45,6 +46,28 @@
   .line {
     line-height: 1.4;
     overflow-wrap: anywhere;
+  }
+  .grp {
+    margin-top: 4px;
+    color: var(--ink-2);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .point {
+    position: relative;
+    padding-left: 14px;
+  }
+  .point::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 0.6em;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--ink-2);
   }
   .t {
     color: var(--ink);

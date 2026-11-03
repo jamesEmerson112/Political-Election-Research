@@ -27,6 +27,10 @@ export interface Line {
   lead?: boolean;
   strike?: boolean;
   bar?: number;
+  /** Heading shown above this line when it differs from the previous line's (e.g. "Only Wiener"). */
+  group?: string;
+  /** A stance point (sub-bullet). */
+  point?: boolean;
 }
 
 export interface Cell {
@@ -64,6 +68,8 @@ export interface Row {
   /** Full question text, support/oppose definitions (stance rows). */
   question?: string;
   defs?: [string, string];
+  /** Stance points every candidate states (by facet); each opens both candidates' wording and citations. */
+  shared?: Array<{ label: string; run: () => void }>;
   cells: Cell[];
 }
 
@@ -515,6 +521,21 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
     };
   }
 
+  /** The question's facets, in the order the question lists them. */
+  const facetsOf = (s: string): Array<{ id: string; label: string }> =>
+    ((ix.questions.get(s)?.q["facets"] as Rec[] | undefined) ?? []).map((f) => ({ id: String(f["id"]), label: String(f["label"]) }));
+  const pointsOf = (c: string, s: string): Rec[] => (ix.latest(c, s)?.["points"] as Rec[] | undefined) ?? [];
+  /** Facets every candidate in the contest states (needs two or more candidates). */
+  const sharedFacets = (s: string): Set<string> => {
+    if (cands.length < 2) return new Set();
+    const sets = cands.map((c) => new Set(pointsOf(c, s).map((p) => String(p["facet"]))));
+    return new Set([...sets[0]!].filter((f) => sets.every((x) => x.has(f))));
+  };
+  const facetOrder = (s: string) => {
+    const order = facetsOf(s).map((f) => f.id);
+    return (a: Rec, b: Rec) => order.indexOf(String(a["facet"])) - order.indexOf(String(b["facet"]));
+  };
+
   function stanceCell(c: string, s: string): Cell {
     const p = ix.latest(c, s);
     const ls = leads(c, s);
@@ -527,6 +548,21 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
           ? `No public position found as of ${date(p["as_of"])}.`
           : `${m.label} as of ${date(p["as_of"])}.`;
       const list = cites(p);
+      const shared = sharedFacets(s);
+      const labels = new Map(facetsOf(s).map((f) => [f.id, f.label]));
+      const only: Line[] = pointsOf(c, s)
+        .filter((pt) => !shared.has(String(pt["facet"])))
+        .sort(facetOrder(s))
+        .map((pt) => {
+          const pc = cites(pt);
+          const label = labels.get(String(pt["facet"])) ?? String(pt["facet"]);
+          return {
+            text: String(pt["text"]),
+            point: true,
+            group: cands.length > 1 ? `Only ${who(c)}` : "Specifics",
+            cite: pc.length ? { n: pc.length, run: () => openDetail({ kicker: `${who(c)} · ${label}`, title: subjectText(s), text: String(pt["text"]), citations: pc }) } : undefined,
+          };
+        });
       return {
         state: "value",
         marks: [{ mark: m }],
@@ -537,6 +573,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
             cite: list.length ? { n: list.length, run: open } : undefined,
             more: p["search_log"] ? { label: "Where we looked", run: open } : undefined,
           },
+          ...only,
         ],
         summary: text,
         open,
@@ -724,10 +761,26 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
   };
   const stanceRow = (s: string): Row => {
     const q = ix.questions.get(s)?.q;
+    const both = sharedFacets(s);
+    const shared = facetsOf(s)
+      .filter((f) => both.has(f.id))
+      .map((f) => ({
+        label: f.label,
+        run: () => {
+          const per = cands.map((c) => ({ c, pt: pointsOf(c, s).find((p) => p["facet"] === f.id)! }));
+          openDetail({
+            kicker: `All candidates · ${f.label}`,
+            title: subjectText(s),
+            facts: per.map(({ c, pt }) => [ix.name(c), String(pt["text"])] as [string, string]),
+            citations: per.flatMap(({ pt }) => cites(pt)),
+          });
+        },
+      }));
     return row("shared", s, "stance", subjectRowLabel(s), subjectShort(s), (c) => stanceCell(c, s), {
       icon: subjectIcon(s),
       group: "issue",
       question: subjectText(s),
+      ...(shared.length ? { shared } : {}),
       defs: q ? [String(q["support_means"]), String(q["oppose_means"])] : ["Votes or campaigns for the measure.", "Votes or campaigns against the measure."],
     });
   };

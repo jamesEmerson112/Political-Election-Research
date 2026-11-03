@@ -64,6 +64,10 @@ export function canonicalize(kind: FileKind, rec: Record<string, unknown>, schem
     copy["positions"] = [...(copy["positions"] as Record<string, unknown>[])].sort(
       (a, b) => cmp(String(a["subject"]), String(b["subject"])) || cmp(String(a["as_of"]), String(b["as_of"])),
     );
+    // Points in facet order (stable for equal facets), so two agents writing the same points get the same bytes.
+    copy["positions"] = (copy["positions"] as Record<string, unknown>[]).map((p) =>
+      Array.isArray(p["points"]) ? { ...p, points: [...(p["points"] as Record<string, unknown>[])].sort((a, b) => cmp(String(a["facet"]), String(b["facet"]))) } : p,
+    );
   }
   if (kind === "office" && Array.isArray(copy["connections"])) {
     const rank = (c: Record<string, unknown>) => CONNECTION_ORDER.indexOf(String(c["type"]));

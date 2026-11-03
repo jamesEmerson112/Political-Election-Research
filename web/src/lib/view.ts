@@ -62,6 +62,8 @@ export function openPosition(ix: Index, actor: string, subject: string, contestR
     facts.push(["Opposes means", String(q.q["oppose_means"])]);
   }
   if (cur) {
+    const labels = new Map(((q?.q["facets"] as Rec[] | undefined) ?? []).map((f) => [String(f["id"]), String(f["label"])]));
+    for (const pt of (cur["points"] as Rec[] | undefined) ?? []) facts.push([labels.get(String(pt["facet"])) ?? String(pt["facet"]), String(pt["text"])]);
     if (cur["evidence_type"]) facts.push(["Evidence", String(cur["evidence_type"]).replace(/_/g, " ")]);
     if (cur["bill"]) facts.push(["Bill", String(cur["bill"]).toUpperCase()]);
     facts.push(["As of", date(cur["as_of"])]);

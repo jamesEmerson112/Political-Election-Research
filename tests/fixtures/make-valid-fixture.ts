@@ -166,6 +166,10 @@ p("issue", {
       support_means: "Favors state subsidies for widget manufacturing.",
       oppose_means: "Opposes state subsidies for widget manufacturing.",
       added: "2030-06-01",
+      facets: [
+        { id: "grant-program", label: "Grant program for manufacturers" },
+        { id: "local-hiring", label: "Local hiring conditions" },
+      ],
     },
   ],
   rejected_questions: [{ text: "Are widgets good?", reason: "Not a policy question; no clear support/oppose meaning.", date: "2030-06-01" }],
@@ -357,6 +361,7 @@ p("position", {
       cycle: 2030,
       as_of: "2030-09-20",
       citations: cite(srcNews, "\"The state should invest in widgets,\" Sample said."),
+      points: [{ facet: "grant-program", text: "Proposes state grants for widget manufacturing.", citations: cite(srcNews, "\"The state should invest in widgets,\" Sample said.") }],
     },
     {
       subject: "contest:2030-zz-general/prop-1",

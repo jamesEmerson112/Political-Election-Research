@@ -26,8 +26,11 @@ describe("SQLite export", () => {
 
   it("keeps every citation with its record and pointer, and every citation resolves", () => {
     expect(all("SELECT COUNT(*) AS n FROM citations WHERE source NOT IN (SELECT ref FROM sources)")[0]!["n"]).toBe(0);
-    const row = all("SELECT record_kind, record_id, pointer FROM citations WHERE record_kind = 'position' AND record_id LIKE 'person:avery-sample|q:%'")[0];
-    expect(row).toEqual({ record_kind: "position", record_id: "person:avery-sample|q:widgets/subsidize-widgets|2030-09-20", pointer: "/citations/0" });
+    const rows = all("SELECT record_kind, record_id, pointer FROM citations WHERE record_kind = 'position' AND record_id LIKE 'person:avery-sample|q:%' ORDER BY pointer");
+    expect(rows).toEqual([
+      { record_kind: "position", record_id: "person:avery-sample|q:widgets/subsidize-widgets|2030-09-20", pointer: "/citations/0" },
+      { record_kind: "position", record_id: "person:avery-sample|q:widgets/subsidize-widgets|2030-09-20", pointer: "/points/0/citations/0" },
+    ]);
   });
 
   it("exposes the latest stance per candidate and subject", () => {

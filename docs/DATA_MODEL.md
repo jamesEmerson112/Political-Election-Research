@@ -60,7 +60,7 @@ Both can later get a certified `result`. Committees supporting or opposing a mea
 
 **Research agenda:** the editorial work list for a contest. It holds the candidates to research, the questions and measures to ask every candidate about, targets (endorsements per candidate, top contributors, one shared `finance_cutoff`), and `exhausted` entries that close count tasks. Its references may point at records research has not created yet. `npm run next` compares the agenda with the verified data to compute the work queue.
 
-**Issue:** an issue area with neutrally worded `questions`, each defining what `support_means` and `oppose_means`. Rejected questions are kept with a reason.
+**Issue:** an issue area with neutrally worded `questions`, each defining what `support_means` and `oppose_means`. Rejected questions are kept with a reason. A question may list `facets` (`{id, label}`): named elements an answer can include, used by position `points`.
 
 **Person:** name, aliases, external ids, links, `public_figure`, and, for candidates, the symmetric `candidate_profile`: `party_registration`, `birth_date` (partial dates allowed), `birthplace`, `occupation`, `residence_city` (each cited or NotFound), and `offices_held`, `education` and `career` (each `{as_of, items[], search_log?}`; an empty list requires a search log).
 
@@ -72,7 +72,7 @@ Both can later get a certified `result`. Committees supporting or opposing a mea
 
 **Organization:** name as registered, `org_type` (union, corporation, nonprofit, party, candidate/ballot-measure committee, PAC, IE committee, conduit, lobbying firm, government body, tribe, other), external ids and links. No editorial sector labels.
 
-**Positions:** one file per actor, listing stances on question or measure subjects. Each entry has `stance`, `summary`, `evidence_type`, optional `bill`, `cycle`, `as_of`, and `citations`, or a `search_log` for `no_public_position`. Entries are keyed by (subject, as_of), so changes over time are kept as history.
+**Positions:** one file per actor, listing stances on question or measure subjects. Each entry has `stance`, `summary`, `evidence_type`, optional `bill`, `cycle`, `as_of`, and `citations`, or a `search_log` for `no_public_position`. Optional `points` (`{facet, text, citations}`) record the specifics of a stance; `facet` must be one of the question's facets, so candidates' specifics line up (shared vs. only one). Entries are keyed by (subject, as_of), so changes over time are kept as history.
 
 **Relationships:** cited, typed edges, each with `cycle` and `last_verified`:
 

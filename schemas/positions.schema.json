@@ -48,6 +48,20 @@
           ]
         },
         "bill": { "$ref": "defs.schema.json#/$defs/BillRef" },
+        "points": {
+          "description": "Specific elements of the stance, each cited. `facet` names one of the question's facets, so the same element lines up across candidates (shared vs. only one).",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["facet", "text", "citations"],
+            "properties": {
+              "facet": { "$ref": "defs.schema.json#/$defs/Slug" },
+              "text": { "description": "Short neutral paraphrase of what the actor said on this element.", "type": "string", "minLength": 1, "maxLength": 240 },
+              "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+            }
+          }
+        },
         "cycle": { "$ref": "defs.schema.json#/$defs/Cycle" },
         "as_of": {
           "description": "Date the stance is current as of. Every cited source must be published on or before this date.",

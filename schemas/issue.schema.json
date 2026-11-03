@@ -76,6 +76,28 @@
           },
           "added": {
             "$ref": "defs.schema.json#/$defs/Date"
+          },
+          "facets": {
+            "description": "Named elements an answer can include (e.g. 'Freedom to change employers'), so the site can show which specifics candidates share and which only one states. Facets describe answers; adding one does not change the question. Positions refer to them from `points`.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "id",
+                "label"
+              ],
+              "properties": {
+                "id": {
+                  "$ref": "defs.schema.json#/$defs/Slug"
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 80
+                }
+              }
+            }
           }
         }
       }
