@@ -2,6 +2,7 @@
 
 ## Where things are (resume here)
 - Branch: `claude/practical-curie-2m7we8` (all work pushed; CI runs typecheck, fmt, validate, tests, web build).
+- **Public beta:** https://political-election-research.vercel.app/ (Vercel project `political-election-research`, preset "Other"; production deploys from `main`, so changes go live through a PR into `main`; every other branch gets a preview deployment). Check it with `BASE_URL=https://political-election-research.vercel.app/ node tests/e2e/beta.mjs` (and `trial-ballot.mjs`): 18/18 passed on 2026-11-03 (build 763be63).
 - Live preview (private): https://claude.ai/artifact/H8hJQpAzVSF6yTugX4gcgv. Republish = `npm run web:build`, then `python3 web/to-artifact.py dist/web/index.html <out.html>` and publish to the same artifact.
 - Agent loop: `AGENTS.md`. Office-scope rules and citation statuses: `CLAUDE.md`.
 - Key commands:
@@ -29,7 +30,7 @@
 - About page (what's in it, the open checks, privacy, Report an error, build), the Beta badge, keyboard access to the bridge's tooltips.
 - `vercel.json` (build and security headers) and `npm run e2e` with 18 browser checks served under those headers, including that nothing leaves the browser.
 
-**Deploy:** the maintainer imports the repo at vercel.com/new once and merges the beta PR into `main`; production deploys from `main`. Then check the live site with `BASE_URL=https://<deployment>/ node tests/e2e/beta.mjs`.
+**Deployed** 2026-11-03: PR #1 merged into `main`; https://political-election-research.vercel.app/ serves the beta with `vercel.json`'s headers (brotli, about 650 KB transferred), and all 18 browser checks pass against it.
 
 **Next: research (the maintainer decides how to run it after the deploy)**
 - San Francisco first, then Las Vegas (Nevada's Secretary of State site refuses automated access from the cloud sessions).

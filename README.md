@@ -6,6 +6,8 @@ An open, **cited**, machine-checkable dataset on California elections. For each 
 - who endorses them;
 - who funds them **and their endorsers**: contributions, independent expenditures, lobbying and behested payments, each traced to official filings.
 
+**Live beta:** https://political-election-research.vercel.app/
+
 **The promise: every claim has a citation.** A citation names a registered source, quotes it verbatim (or gives the schedule/line of a filing), and points to an archived snapshot. Research gaps are recorded explicitly with a log of where we looked. Nothing is inferred and nothing comes from memory.
 
 The first target is the **California general election of November 3, 2026**: Governor, the other statewide offices, the 52 US House seats, and the statewide propositions. The data is tagged by election cycle so it remains a lasting archive and can be reused for later elections.
