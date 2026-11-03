@@ -1,6 +1,81 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:jeremy-lee",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "2022-redistricting-task-force-walkout-and-public-comment",
+        "date": "2022-04-10",
+        "response": {
+          "summary": "In his 2026 League of Pissed Off Voters questionnaire, Lee wrote that during redistricting he pushed back against the mayor-aligned majority and put his reputation at stake to bring attention to communities in District 10; 48hills reported that he later apologized for one reference in his public comment.",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-d51d87bb3e",
+              "quote": "During redistricting, long-standing communities of interest came under attack. I pushed back against the mayor-aligned majority and fought for marginalized communities. I put my reputation at stake in order to bring attention to the destruction of historic Black and Pacific Islander communities in District 10.",
+              "locator": "p. 3, What communities do you represent"
+            },
+            {
+              "source": "src:48hills-org-f4041074fb",
+              "quote": "in a crude and gross reference for which he later apologized"
+            }
+          ]
+        },
+        "summary": "The San Francisco Standard reported that Lee was one of four Redistricting Task Force members who walked out of the meeting at about 2 a.m. on April 10, 2022, over the draft map. 48hills reported that he then called in to public comment, told colleagues \"You all disgust me,\" and named people he said the Task Force was listening to, a reference for which 48hills says he later apologized.",
+        "title": "Walkout and public comment during the 2022 Redistricting Task Force map vote",
+        "citations": [
+          {
+            "source": "src:sfstandard-com-10dd0d9861",
+            "quote": "tensions boiled over at around 2 a.m. when four members—José María (Chema) Hernandez Gil, Jeremy Lee, J. Michelle Pierce, and Raynell Cooper—walked out of the meeting."
+          },
+          {
+            "source": "src:48hills-org-f4041074fb",
+            "quote": "And early Sunday morning, April 10, when the Task Force moved forward with its draft final map, Member Jeremy Lee, who had just walked out in protest, called in to public comment."
+          },
+          {
+            "source": "src:48hills-org-f4041074fb",
+            "quote": "“You all disgust me,” he said, calling his colleagues “spineless.”"
+          },
+          {
+            "source": "src:48hills-org-f4041074fb",
+            "quote": "Then, in a crude and gross reference for which he later apologized, he named the people who he said the Task Force was listening to behind the scenes"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-03",
+        "query": "Jeremy Lee controversy, complaint, lawsuit",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Community College Board, printed p. 34"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Jeremy Lee controversy, complaint, lawsuit",
+        "where": "Campaign site jeremyleesf.com (About, Priorities pages)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Jeremy Lee controversy, complaint, lawsuit",
+        "where": "League of Pissed Off Voters questionnaire"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Jeremy Lee controversy, complaint, lawsuit",
+        "where": "The Guardsman Ballot Beat 2026 candidate coverage (theguardsman.com)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Jeremy Lee controversy, complaint, lawsuit",
+        "where": "Bay Area Reporter editorial (ebar.com/story/170122) and SFist race article of Oct. 8, 2026"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "\"Jeremy Lee\" San Francisco redistricting task force ethics complaint OR lawsuit OR controversy",
+        "where": "Web search (news), results reviewed for any matter documented by two independent outlets or an official record"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-03",
     "items": [
