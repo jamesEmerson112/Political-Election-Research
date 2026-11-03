@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "denis-bilodeau",
+  "name": "Denis Bilodeau",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://bilodeauforboe.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/board-of-equalization-4",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Board of Equalization Member District 4",
+  "office": "Board of Equalization Member",
+  "candidates": [
+    {
+      "person": "person:tom-umberg",
+      "ballot_designation": "Small Businessman/Senator",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Board of Equalization Member District 4\nTom Umberg Democratic\nSmall Businessman/Senator",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 4"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; on page 4 no asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:boe-ca-gov-a224b791e9",
+          "quote": "Mike Schaefer\nFourth District",
+          "locator": "homepage, California State Board of Equalization's Board Members"
+        }
+      ]
+    },
+    {
+      "person": "person:denis-bilodeau",
+      "ballot_designation": "Councilmember/Civil Engineer",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Denis Bilodeau Republican\nCouncilmember/Civil Engineer",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 4"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; on page 4 no asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:boe-ca-gov-a224b791e9",
+          "quote": "Mike Schaefer\nFourth District",
+          "locator": "homepage, California State Board of Equalization's Board Members"
+        }
+      ]
+    }
+  ],
+  "district": 4,
+  "level": "state",
+  "office_ref": "office:california-board-of-equalization-member",
+  "vote_for": 1,
+  "last_verified": "2026-11-03"
+}

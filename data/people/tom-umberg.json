@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "tom-umberg",
+  "name": "Tom Umberg",
+  "aliases": [
+    "Thomas J. Umberg"
+  ],
+  "ids": [
+    {
+      "id": "Q7817900",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.tomumberg.com/",
+    "facebook": "https://www.facebook.com/Umberg4BOE/",
+    "official_site": "https://sd34.senate.ca.gov/",
+    "x": "https://x.com/TomUmbergCA"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
