@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/governor",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Governor",
+  "office": "Governor",
+  "candidates": [
+    {
+      "person": "person:xavier-becerra",
+      "ballot_designation": "Voting Rights Attorney",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Governor Xavier Becerra Democratic Voting Rights Attorney",
+          "locator": "PDF page 2 (Page 1 of 41), Governor"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 2 (Page 1 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    },
+    {
+      "person": "person:steve-hilton",
+      "ballot_designation": "Small Business Owner",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Steve Hilton Republican Small Business Owner",
+          "locator": "PDF page 2 (Page 1 of 41), Governor"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 2 (Page 1 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "office_ref": "office:california-governor",
+  "last_verified": "2026-11-03"
+}
