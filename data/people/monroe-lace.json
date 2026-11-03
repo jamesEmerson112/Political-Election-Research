@@ -96,6 +96,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Public School Teacher",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Public School Teacher.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 33 (PDF p. 35)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MONROE LACE 楊家輝 Public School Teacher",
+          "locator": "Community College Board Full table (English ballot designation)"
+        },
+        {
+          "source": "src:growsf-org-72f4a77118",
+          "quote": "I am a teacher at a Title I school.",
+          "locator": "Personal: What is your professional background?"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
