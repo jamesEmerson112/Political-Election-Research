@@ -16,6 +16,62 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "Business lawyer",
+          "start": "1987",
+          "citations": [
+            {
+              "source": "src:wagnerforcalifornia-com-e5bde30114",
+              "quote": "In 1987, Don began his legal career as a business lawyer, founding Wagner, Lautsch LLP in 1993, specializing in business and real estate."
+            }
+          ]
+        },
+        {
+          "organization": "Wagner, Lautsch LLP",
+          "role": "Founder",
+          "start": "1993",
+          "citations": [
+            {
+              "source": "src:wagnerforcalifornia-com-e5bde30114",
+              "quote": "In 1987, Don began his legal career as a business lawyer, founding Wagner, Lautsch LLP in 1993, specializing in business and real estate."
+            }
+          ]
+        },
+        {
+          "organization": "Superior Court of Orange County",
+          "role": "Judge Pro Tempore",
+          "citations": [
+            {
+              "source": "src:bos3-oc-gov-efb729411c",
+              "quote": "He is an active participant in Orange County business and legal communities with prior service on several committees and advisory boards for the Orange County Bar Association, including a Judge Pro Tempore in the Superior Court of Orange County."
+            }
+          ]
+        },
+        {
+          "organization": "Orange County Chapter of the Federalist Society",
+          "role": "Founder and first president",
+          "citations": [
+            {
+              "source": "src:bos3-oc-gov-efb729411c",
+              "quote": "He is also the founder and first president of the Orange County Chapter of the Federalist Society"
+            }
+          ]
+        },
+        {
+          "organization": "American Lung Association of Orange County",
+          "role": "Past president",
+          "citations": [
+            {
+              "source": "src:bos3-oc-gov-efb729411c",
+              "quote": "serving as the past president of the American Lung Association of Orange County"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
