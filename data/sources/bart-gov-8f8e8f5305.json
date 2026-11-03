@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "bart-gov-8f8e8f5305",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Bay Area Rapid Transit District",
+  "title": "Board of Directors",
+  "url": "https://www.bart.gov/about/bod"
+}

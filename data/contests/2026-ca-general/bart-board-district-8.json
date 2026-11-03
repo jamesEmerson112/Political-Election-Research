@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/bart-board-district-8",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "BART Board of Directors, District 8",
+  "office": "BART Director",
+  "candidates": [
+    {
+      "person": "person:sara-barz",
+      "ballot_designation": "Transportation Planning Manager",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:sf-gov-6871cf14b5",
+          "quote": "BART Board, District 8\n\n1 person has qualified for this contest on the November 3, 2026 ballot.\n\nSara Barz",
+          "locator": "BART Board, District 8 list"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "SARA BARZ 莎拉‧巴爾茲 Transportation Planning Manager",
+          "locator": "page 1, BART Director, District 8 table, English Ballot Designation column"
+        },
+        {
+          "source": "src:bart-gov-8f8e8f5305",
+          "quote": "Janice Li, Director\nStations Included: Balboa Park, Embarcadero (shared with District 9), Glen Park (shared with District 9), Montgomery (shared with District 9), Powell Street (shared with District 9)\nCounties Included: San Francisco",
+          "locator": "Board Members and District Information, District #8"
+        }
+      ]
+    }
+  ],
+  "district": 8,
+  "level": "local",
+  "last_verified": "2026-11-03"
+}
