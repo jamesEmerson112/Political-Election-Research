@@ -96,6 +96,36 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "Public school teacher",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "today I teach in San Francisco’s public schools.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 33 (PDF p. 35)"
+            },
+            {
+              "source": "src:theguardsman-com-f75849fe7a",
+              "quote": "After making history as the first transgender person to be crowned Miss San Francisco in 2023 and becoming a teacher the following year"
+            }
+          ]
+        },
+        {
+          "role": "Miss San Francisco (titleholder)",
+          "start": "2023",
+          "citations": [
+            {
+              "source": "src:monroelace-org-d19b30d924",
+              "quote": "In 2023, I won the title of Miss San Francisco.",
+              "locator": "Experience"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
