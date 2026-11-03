@@ -117,6 +117,19 @@
       "label": "Previous offices",
       "text": "San Francisco Supervisor, District 8, Jan 8, 2011 (start date secondary) to Dec 5, 2016: https://sfbos.archive.sf.gov/former-supervisor-scott-wiener (web search summary, page not opened)",
       "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:connie-chan",
+      "hint": "support",
+      "label": "Work visas (Mission Local survey)",
+      "text": "Backs expanding work visas with fair wages, strong labor protections and the freedom to change employers; frames the question as whether policy serves workers and families rather than corporations. (sources: Mission Local https://missionlocal.org/2026/10/congressional-candidates-work-visas-green-card/ [search summary, secondary]; October 2026 candidate survey)",
+      "topic": "q:immigration/expand-skilled-work-visas"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Work visas (Mission Local survey)",
+      "text": "Calls multi-year or multi-decade green-card waits ridiculous; says the system needs reform and that pathways to a green card must expand. His answer on work visas was cut off in the search summary. (sources: Mission Local https://missionlocal.org/2026/10/congressional-candidates-work-visas-green-card/ [search summary, secondary]; October 2026 candidate survey)",
+      "topic": "q:immigration/expand-skilled-work-visas"
     }
   ],
   "provided": {
