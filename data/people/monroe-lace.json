@@ -116,6 +116,22 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Commissioner, San Francisco Human Rights Commission (appointed by Mayor Daniel Lurie)",
+          "jurisdiction": "City and County of San Francisco",
+          "citations": [
+            {
+              "source": "src:monroelace-org-d19b30d924",
+              "quote": "Mayor Daniel Lurie then appointed me to San Francisco's Human Rights Commission.",
+              "locator": "Experience"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
