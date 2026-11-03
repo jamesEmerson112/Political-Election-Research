@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kmph-com-a7129061f4",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-05-23",
+  "publisher": "KMPH FOX26",
+  "title": "Becerra says he’d scrap current high-speed rail configuration to finish on time and budget",
+  "url": "https://kmph.com/news/local-politics/becerra-says-hed-scrap-current-high-speed-rail-configuration-and-finish-on-time-and-budget"
+}

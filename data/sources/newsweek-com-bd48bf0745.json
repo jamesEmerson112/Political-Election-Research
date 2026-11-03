@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "newsweek-com-bd48bf0745",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-05-25",
+  "publisher": "Newsweek",
+  "title": "California Governor Hopeful Vows Change of Course For High-Speed Rail",
+  "url": "https://www.newsweek.com/california-governor-hopeful-vows-change-course-high-speed-rail-11990230"
+}

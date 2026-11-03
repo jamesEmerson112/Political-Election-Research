@@ -137,6 +137,24 @@
           "quote": "\"Absolutely he's wrong; he would damage the state even harder for working families,\" Becerra said, arguing the tax cuts would primarily benefit wealthy Californians while reducing funding for schools and healthcare."
         }
       ]
+    },
+    {
+      "subject": "q:transportation/high-speed-rail-funding",
+      "stance": "support",
+      "as_of": "2026-05-25",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "At a May 2026 campaign stop in Fresno, Becerra said he would scrap the current high-speed rail configuration and make sure the project is finished on budget and on time.",
+      "citations": [
+        {
+          "source": "src:kmph-com-a7129061f4",
+          "quote": "“I’m going to scrap the current configuration, and I’m going to make sure we finish,” Becerra said. “But we’ve got to do it on budget and on time.”"
+        },
+        {
+          "source": "src:newsweek-com-bd48bf0745",
+          "quote": "Jonathan Underland, a spokesperson on the Becerra campaign, told Newsweek: \"Nearly 80 miles of guideway are complete. The bridges, viaducts, and overpasses are built. The infrastructure is in the ground, and the track is coming. Secretary Becerra is now focused on making sure nothing slows what comes next—cutting through every bottleneck, every broken approval chain, every delay that has held this project back.\""
+        }
+      ]
     }
   ]
 }
