@@ -3,6 +3,54 @@
   "id": "jeremy-lee",
   "name": "Jeremy Lee",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Jeremy Lee party registration",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Community College Board, printed p. 34"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jeremy Lee party registration",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jeremy Lee party registration",
+          "where": "Campaign site jeremyleesf.com (home, About, Priorities, Endorsements, News & Media pages)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jeremy Lee party registration",
+          "where": "GrowSF Community College Board guide (growsf.org): questionnaire not completed"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jeremy Lee party registration",
+          "where": "SF League of Pissed Off Voters questionnaire, Jeremy Lee (assets.nationbuilder.com)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jeremy Lee party registration",
+          "where": "The Guardsman candidate profile of Jeremy Lee (Sep. 11, 2026)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jeremy Lee party registration",
+          "where": "Bay Area Reporter editorial 'An LGBTQ slate for City College board' (ebar.com/story/170122, Sep. 9, 2026)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Jeremy Lee\" City College board",
+          "where": "Web search (news): candidate name with City College board / trustee"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://jeremyleesf.com/"
