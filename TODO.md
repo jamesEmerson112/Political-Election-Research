@@ -11,11 +11,12 @@
   - `npm run -s coverage -- <contest>`
   - `npm run -s import:research -- <batch.json>`
   - `npm run -s import:offices -- <offices.json>`
+  - `npm run -s import:civlab -- [--save <dir outside the repo>]` (offices with `links.civlab`; SF and U.S. only)
   - `npm run -s db`
   - `npm run web`
 - Batch formats: `docs/RESEARCH_BATCH_FORMAT.md`, `docs/OFFICE_BATCH_FORMAT.md`.
 - Maintainer's verified CA-11 notes: `notes/2026-11-02-ca-11.md`.
-- Current state: 64 contest agendas, 13 offices, 809 unverified leads. Validate: 0 errors; warnings: 93 quote pending, 116 unverified citations, 65 not archived, 1 orphan source.
+- Current state: 64 contest agendas, 13 offices (3 with connections: SF Supervisor and U.S. Rep from CivLab, State Senator from primary sources), 809 unverified leads. Validate: 0 errors; warnings: 93 quote pending, 144 unverified citations, 83 not archived, 1 orphan source.
 
 ## Priority (maintainer, 2026-11-03): San Francisco first
 - Do San Francisco-area contests and candidates first; the rest of California comes later.
@@ -34,21 +35,22 @@
 
 ## Blocker: network access
 - These hosts are blocked in this cloud environment. Allow them under environment settings → Network access, or pick a broader level.
-  - **CA Secretary of State and state campaign finance:** sos.ca.gov, elections.cdn.sos.ca.gov, cal-access.sos.ca.gov, powersearch.sos.ca.gov
+  - **CA Secretary of State and state campaign finance:** elections.cdn.sos.ca.gov, admin.cdn.sos.ca.gov, cal-access.sos.ca.gov, powersearch.sos.ca.gov (www.sos.ca.gov pages open now)
   - **Federal filings:** fec.gov, api.open.fec.gov, lda.senate.gov
   - **FPPC:** fppc.ca.gov
-  - **Archiving:** archive.org, web.archive.org
+  - **Archiving:** web.archive.org (archive.org's availability API answers; saving and opening snapshots does not)
   - **SF government:** sfgov.legistar.com, sfbos.org, sf.gov, media.api.sf.gov
-  - **Legislature and governor:** senate.ca.gov, assembly.ca.gov, leginfo.legislature.ca.gov, gov.ca.gov
-  - **News, guides and reference:** kqed.org, missionlocal.org, growsf.org, calmatters.org, ballotpedia.org, graph.civlab.org
+  - **Legislature and governor:** www.senate.ca.gov (and its subdomains), assembly.ca.gov, gov.ca.gov; leginfo.legislature.ca.gov answers with a Cloudflare challenge that needs challenges.cloudflare.com
+  - **Primary texts behind CivLab's office data:** codelibrary.amlegal.com (SF Charter), constitution.congress.gov (U.S. Const. art. I), www.house.gov
+  - **News, guides and reference:** kqed.org, missionlocal.org, growsf.org, calmatters.org, ballotpedia.org (graph.civlab.org works now)
   - **Candidate websites**
 - Web search is capped at about 200 searches per turn, shared by all agents. Run research in batches of ≤40 searches per agent.
 
 ## Phase 1: Verification (biggest gap)
 - Verify the 809 unverified leads. Each confirmed one becomes a cited record: a verbatim quote, or `verified_by` maintainer.
 - Fill in 93 pending quotes (maintainer-verified CA-11 citations).
-- Verify 116 unverified office citations (seen only as search summaries).
-- Archive all 65 sources (Wayback snapshots); `validate --strict` must pass before release.
+- Verify 144 unverified office citations (search summaries, and counts computed from CivLab graph data).
+- Archive all 83 sources (Wayback snapshots); `validate --strict` must pass before release. archive.org lists earlier snapshots of two CivLab pages (graph.civlab.org/sf, 2026-10-07; the House node, 2026-09-18) that could not be opened to compare.
 - Create contest records for all 64 contests from the SoS Certified List (party and ballot designation exactly as printed).
 
 ## Decisions / checks for the maintainer
@@ -88,10 +90,13 @@
   - Missing designations: Lieber, Pimentel.
   - Thin bios: Board of Equalization and several others.
 - **Offices**
-  - U.S. Rep 2-year term and no term limits are not sourced.
+  - U.S. Rep: the 2-year term and the powers sentence now come from verbatim quotes of CivLab's House description (secondary); verify against U.S. Const. art. I. "No term limits" is still unsourced.
   - 761K residents per seat is a computed figure (2020 population ÷ 52); Prop 50 district populations unknown.
   - Most state department budgets not found.
-  - SF FY26-27 budget $16.9B is unverified.
+  - SF budget is now FY 2026-27 $16,851,826,113, CivLab's citywide total, which corroborates the $16.9B report; still unverified (computed from CivLab data). Check it against the adopted appropriation ordinance.
+  - CivLab counts (SF Board: 11 seats, appoints 403 seats on 74 boards, commissions and other posts, advised by 5 bodies; House: 435 seats, elects the Speaker) are unverified until checked against the SF Charter and U.S. Const. art. I.
+  - CivLab's SF description also says the Board "holds the authority to reject appointments and propose city policies"; our `powers` text is kept. Decide whether to add it.
+  - State Senator: term-limit date conflict (record: first elected after June 7, 2011; SOS 2014 page: after June 2012), to resolve against Cal. Const. art. IV, sec. 2(a)(4). Appointments are not counted (the Senate's list of state boards, 3.14.25, is on www.senate.ca.gov). No vote threshold found for ordinary confirmations.
   - SF term limits: does November Prop A undo June Prop B?
 
 ## Phase 2: Research backlog

@@ -64,6 +64,8 @@ Both can later get a certified `result`. Committees supporting or opposing a mea
 
 **Person:** name, aliases, external ids, links, `public_figure`, and, for candidates, the symmetric `candidate_profile`: `party_registration`, `birth_date` (partial dates allowed), `birthplace`, `occupation`, `residence_city` (each cited or NotFound), and `offices_held`, `education` and `career` (each `{as_of, items[], search_log?}`; an empty list requires a search log).
 
+**Office:** a government position described by neutral scope, never rank: `level`, `body`, `seats`, `constituents` (residents per office-holder, with a `basis`), `budget` (what the body adopts or the department administers, with a `basis`), `term_years`, `term_limit`, `powers`, `salary` (each cited), plus `legal_basis` (`url`, `label`, citations), `links` (`official_site`, `civlab`) and `connections` (one per type: `elected_by`, `elects`, `appoints`, `confirms`, `oversees`, `advised_by`; each a neutral `text` with optional `count`, `bodies`, `targets`, and citations). Candidates' `offices_held` items and contest agendas point here with `office_ref`.
+
 **Bill:** official title, optional summary, and `status` (introduced … enacted, vetoed, failed) with its as-of date, cited to the legislative record.
 
 **Dossier:** per candidate, three sections, each `{as_of, items[], search_log?}`: `track_record` (documented outcomes), `promises` (specific proposals) and `controversies` (each with citations, the candidate's `response` (cited, or NotFound), and an optional `resolution`).

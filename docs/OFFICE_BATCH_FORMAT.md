@@ -19,7 +19,7 @@ ONE JSON file: an array with one object per office (a government position).
       "budget":       { "value": 15900000000, "fiscal_year": "2025-26", "scope": "Annual budget the body adopts", "sources": [ ... ] },
       "salary":       { "value": 160000, "as_of": "2026", "sources": [ ... ] }
     },
-    "notes": "Conflicts between sources, gaps, what graph.civlab.org showed for this office."
+    "notes": "Conflicts between sources, gaps, and anything about connections that did not fit a field."
   }
 ]
 ```
@@ -35,3 +35,24 @@ Field rules:
   - **Primary:** official government sites (sfbos.org, sf.gov, senate.ca.gov, assembly.ca.gov, house.gov, census.gov, ca.gov, the state constitution, the City Charter, calhr.ca.gov for salaries).
   - **Secondary:** everything else, including graph.civlab.org.
 - Neutral wording only. Describe scope; never rank importance ("powerful", "minor" and similar are not allowed).
+
+## Connections, legal basis and links
+
+`import:offices` reads only `facts`. Connections, the legal basis and links are added afterwards with `npm run -s put -- office --merge` (connections merge by `type`; register each source first with `put source`):
+
+```json
+{
+  "id": "california-state-senator",
+  "links": { "official_site": "https://www.senate.ca.gov/" },
+  "legal_basis": { "url": "https://…/article-IV", "label": "California Constitution, Article IV", "citations": [ … ] },
+  "connections": [
+    { "type": "elected_by", "count": 40, "text": "Elected from 40 districts to 4-year terms", "citations": [ … ] },
+    { "type": "confirms", "text": "Votes on confirmation of the Governor's appointments", "citations": [ … ] }
+  ]
+}
+```
+
+- `type`: one of `elected_by`, `elects`, `appoints`, `confirms`, `oversees`, `advised_by`; at most one entry per type.
+- `text`: one neutral line, a verb plus counts. `count` (seats or positions), `bodies` (distinct bodies) and `targets` (names as the source gives them) are optional; leave out a count you could not establish.
+- Citations follow the usual statuses: a verbatim `quote` from a page you opened, otherwise `unverified` with the method (e.g. "search summary"). A search tool's summary text is never a quote.
+- Offices that CivLab maps (San Francisco and U.S. federal only): set `links.civlab` and run `npm run -s import:civlab` instead of writing connections by hand (see `CLAUDE.md`).

@@ -13,12 +13,16 @@ The maintainer wants readers to understand the "weight" of a government position
 | `term_years`, `term_limit` | term length and limits |
 | `powers` | one or two neutral sentences on what the office can do |
 | `salary` | annual salary in USD |
+| `connections` | how the office connects to others, at most one entry per `type`: `elected_by`, `elects`, `appoints`, `confirms`, `oversees`, `advised_by`. Each has a neutral one-line `text` (a verb and counts, e.g. "Appoints 403 seats on 74 boards, commissions and other posts"), optional `count` / `bodies` / `targets`, and `citations`. `put office --merge` merges them by `type`. |
+| `legal_basis` | where the office is established (`url`, optional `label`, `citations`): constitution article, charter section, statute |
+| `links.official_site`, `links.civlab` | the body's official site, and its node page on the CivLab government graph when CivLab maps it |
 
 Rules:
 - **No ranking words:** "powerful", "minor", "junior", "senior", "important" and similar are not allowed. Show the numbers side by side and let readers judge.
 - **Link** each candidate's `offices_held` item to its office with `office_ref: "office:<id>"`, and each contest's agenda to the office it elects. The site shows the scope next to the title (e.g. "Local · 1 of 11 seats · ~79k residents").
 - **Sources:** primary sources first (state constitution, city charter, official legislature and city sites, census.gov, budget documents, CalHR / compensation commissions). Secondary sources are leads to primary ones, not substitutes: https://graph.civlab.org/ (Michael Adams), Ballotpedia and Wikipedia are `reference_work` sources.
 - **Research batches** come in through `npm run import:offices` (format: `docs/OFFICE_BATCH_FORMAT.md`). Facts seen only in search summaries get citations marked `unverified`. `validate` warns about them (UNVERIFIED_CITATION) and `validate --strict` blocks a release until someone verifies them.
+- **CivLab** (graph.civlab.org) maps only two governments: San Francisco (`/sf`) and the U.S. federal government (`/us`). It has no California state graph. For an office with `links.civlab`, `npm run -s import:civlab -- [sf=<graph.json> us=<graph.json>] [--save <dir>] [--dry-run]` computes `connections`, and fills `legal_basis`, `links.official_site`, `term_years` and `powers` only where they are missing. It never overwrites a value or a connection from other research; it prints mismatches and the SF citywide budget for a human to decide. CivLab is a `reference_work`: its counts are cited `unverified` (method "computed from CivLab graph data", with a locator) until someone checks them against the charter or constitution it links, and phrases from its descriptions are verbatim `quote`s. No license was found, so never commit its raw graph JSON (keep `--save` output outside the repo).
 
 ## Citation statuses (strongest first)
 
