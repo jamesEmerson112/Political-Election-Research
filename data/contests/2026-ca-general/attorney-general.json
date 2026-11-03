@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/attorney-general",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Attorney General",
+  "office": "Attorney General",
+  "candidates": [
+    {
+      "person": "person:rob-bonta",
+      "ballot_designation": "California Attorney General",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Attorney General Rob Bonta* Democratic California Attorney General",
+          "locator": "PDF page 3 (list page 2 of 41), Attorney General"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; an asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:oag-ca-gov-77d988cc3f",
+          "quote": "Rob Bonta is using his role as Attorney General of the State of California to make life better for everyone in the Golden State."
+        }
+      ]
+    },
+    {
+      "person": "person:michael-e-gates",
+      "ballot_designation": "Deputy United States Attorney",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Attorney General Rob Bonta* Democratic California Attorney General Michael E. Gates Republican Deputy United States Attorney",
+          "locator": "PDF page 3 (list page 2 of 41), Attorney General"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:oag-ca-gov-77d988cc3f",
+          "quote": "Rob Bonta is using his role as Attorney General of the State of California to make life better for everyone in the Golden State."
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "office_ref": "office:california-attorney-general",
+  "last_verified": "2026-11-03"
+}
