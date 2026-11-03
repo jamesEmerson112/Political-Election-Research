@@ -4,6 +4,27 @@
   "name": "Jamo Muhammad",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "We Got Winners Big Brother Program",
+          "role": "CEO",
+          "citations": [
+            {
+              "source": "src:kqed-org-44d1250e32",
+              "quote": "Jamo Muhammad CEO of We Got Winners Big Brother Program",
+              "locator": "Candidates list"
+            },
+            {
+              "source": "src:sfexaminer-com-8c43ba72c0",
+              "quote": "Jamo Muhammad, “The Brother,” CEO of We Got Winners Big Brother Program",
+              "locator": "Other candidates"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "CEO of We Got Winners Big Brother Program (ballot designation: Father)",
       "citations": [
