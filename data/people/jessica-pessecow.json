@@ -171,6 +171,72 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow education school degree nursing",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 10"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow education school degree nursing",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow education school degree nursing",
+          "where": "SF.gov candidates page for the November 3, 2026 election (sf.gov/candidates-november-3-2026-general-election): names only"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow",
+          "where": "San Francisco Ethics Commission filer data on data.sf.gov (dataset 4c8t-ngau, committees and filers)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Pessecow biography",
+          "where": "Candidate's own site named in her VIP statement (gov-central-jpessecow.replit.app): civic-resource site, no biography"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow education school degree nursing",
+          "where": "KQED voter guide, San Francisco Board of Supervisors District 10 (kqed.org/voterguide/sanfrancisco/supervisor-10th-district)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow",
+          "where": "SF Examiner, June 24, 2026 and Oct. 1, 2026 District 10 race articles (sfexaminer.com): occupation only"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow",
+          "where": "SF Chronicle 2026 voter guide, Oct. 22, 2026 District 10 endorsement editorial, Oct. 24, 2026 basketball article, and Chronicle site search"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow",
+          "where": "GrowSF November 2026 voter guide, District 10 supervisor (growsf.org): ballot designation only"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow",
+          "where": "Ballotpedia (reference work, used only for leads): no biography"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Jessica Pessecow",
+          "where": "Mission Local (missionlocal.org WordPress API and Oct. 2026 'Meet the Candidates' article) and Potrero View (potreroview.net): HTTP 403, could not be read"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Jessica Pessecow\" San Francisco District 10 supervisor",
+          "where": "Web search (news)"
+        }
+      ]
+    },
     "occupation": {
       "value": "Legal Representative / Nurse / Founder / Brand Ambassador / Volunteer (ballot designation: Nurse / Legal Representative)",
       "citations": [
