@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-384ac2c752",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Clark County Election Department",
+  "title": "All Ballot Questions, General Election, November 3, 2026, Including Boulder City Questions",
+  "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:e74294d7-218d-41cc-995f-0e16bc0a9e1f/original/as/all-quests-26g.pdf"
+}

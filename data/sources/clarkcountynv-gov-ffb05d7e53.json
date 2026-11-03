@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-ffb05d7e53",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Clark County Election Department",
+  "title": "Notice of General Election",
+  "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:dde8b423-5fd3-4635-a9e5-653e57b5491d/original/as/Notice-Gen-Election-26G.pdf"
+}
