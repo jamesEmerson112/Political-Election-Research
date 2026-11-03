@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "xavier-becerra",
+  "name": "Xavier Becerra",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H2CA30143",
+      "system": "fec_candidate"
+    },
+    {
+      "id": "Q1855840",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.xavierbecerra2026.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
