@@ -38,5 +38,49 @@
         ]
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "challenge-federal-government-actions",
+        "as_of": "2026-11-03",
+        "issue": "government",
+        "summary": "Says he will keep working to stop what his campaign calls “unlawful power grabs by the federal government.”",
+        "title": "Continue legal challenges to federal government actions",
+        "citations": [
+          {
+            "source": "src:robbonta-com-50509a6790",
+            "quote": "The fight is far from over — but together we’ll keep standing up to stop unlawful power grabs by the federal government, defend our immigrant communities, protect reproductive freedom, hold greedy corporations accountable, keep our communities safe from gun violence and fentanyl trafficking, safeguard our environment, and so much more."
+          }
+        ]
+      },
+      {
+        "id": "defend-immigrant-communities",
+        "as_of": "2026-11-03",
+        "issue": "immigration",
+        "summary": "Says he will continue to defend immigrant communities.",
+        "title": "Defend immigrant communities",
+        "citations": [
+          {
+            "source": "src:robbonta-com-50509a6790",
+            "quote": "The fight is far from over — but together we’ll keep standing up to stop unlawful power grabs by the federal government, defend our immigrant communities, protect reproductive freedom, hold greedy corporations accountable, keep our communities safe from gun violence and fentanyl trafficking, safeguard our environment, and so much more."
+          }
+        ]
+      },
+      {
+        "id": "protect-reproductive-freedom",
+        "as_of": "2026-11-03",
+        "issue": "reproductive-rights",
+        "summary": "Says he will continue to protect reproductive freedom.",
+        "title": "Protect reproductive freedom",
+        "citations": [
+          {
+            "source": "src:robbonta-com-50509a6790",
+            "quote": "The fight is far from over — but together we’ll keep standing up to stop unlawful power grabs by the federal government, defend our immigrant communities, protect reproductive freedom, hold greedy corporations accountable, keep our communities safe from gun violence and fentanyl trafficking, safeguard our environment, and so much more."
+          }
+        ]
+      }
+    ]
   }
 }
