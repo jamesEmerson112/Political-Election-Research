@@ -14,9 +14,33 @@
   - `npm run -s import:civlab -- [--save <dir outside the repo>]` (offices with `links.civlab`; SF and U.S. only)
   - `npm run -s db`
   - `npm run web`
+  - `npm run e2e` (builds the site, then runs the "Try your ballot" browser checks in `tests/e2e/trial-ballot.mjs`; needs Playwright with Chromium, so it isn't part of `npm run check`)
 - Batch formats: `docs/RESEARCH_BATCH_FORMAT.md`, `docs/OFFICE_BATCH_FORMAT.md`.
 - Maintainer's verified CA-11 notes: `notes/2026-11-02-ca-11.md`.
-- Current state (2026-11-03 evening): 71 contest agendas (64 statewide/House + SF Board of Education, City College board, Supervisor D2/4/6/8/10), 10 SF measure records (Props A–J) and the SF budget, 15 offices, 1,163 unverified leads, 124 sources. Validate: 0 errors; warnings: 167 unverified citations, 124 not archived, 99 quote pending, 5 orphan sources.
+- Current state (2026-11-03, late):
+  - **Agendas:** 71 California and 107 Nevada (placeholders: Las Vegas ballots, including 60 judge seats).
+  - **Records:** 24 measures (SF Props A–J with digest, fiscal effects, who it affects and all 161 arguments; California Props 1–5 and 37–45 from the official guide), the SF budget and forecast, 15 offices, 145 sources, 71 lead files.
+  - **Validate:** 0 errors; 418 warnings: 167 unverified citations, 145 not archived, 99 quote pending, 7 orphan sources.
+  - **Site:** a 4.4 MB single file.
+
+## Beta readiness (2026-11-03)
+**Blocks a beta release**
+- **`validate --strict` (the release gate) fails** on the 418 warnings above:
+  - Archive snapshots for 145 sources. web.archive.org refuses connections from the cloud sessions, so archive from another machine or allow the host.
+  - A verification pass on the 167 unverified citations and the 99 pending quotes.
+  - Remove or cite the 7 orphan sources.
+- **State propositions in "Try your ballot"** (in progress), so a San Francisco voter can try both ballots:
+  - a California budget baseline;
+  - the Legislative Analyst's dollar amounts for Props 1, 3 and 38 (and any others the guide states in dollars);
+  - a new `in_words` estimate for amounts the LAO gives only in words ("low tens of millions"), quoted and never added up.
+- **Results:** today is election day. Add certified results, and a "measures that passed" mode for the trial ballot.
+- **Open maintainer decisions:** see "Decisions for the maintainer" below (SF question sets, bill policy areas, measure conflicts, budget framing).
+
+**Should do before beta**
+- **Site size:** load contests on demand. The single file is 4.4 MB.
+- **Accessibility:** the bridge's per-step tooltips are mouse-only (keyboard access is still open), and the dark-mode shortfall red sits close to the dark orange ▼ (accepted for now: separate charts, with a legend).
+- **"My ballot":** places California contests only. Nevada is placeholders (no candidates). The Nevada Secretary of State's site blocks automated access.
+- **CI:** run `npm run e2e` in CI if Chromium can be installed there.
 
 ## Revisit (list from 2026-11-03 evening)
 
@@ -62,7 +86,7 @@
 
 ### In progress (2026-11-03)
 - **Ballot arguments for Props A–J:** extraction running, then a verbatim check (`scratchpad/tools/write_sf_arguments.ts`) and import.
-- **Budget meter:** the bridge (waterfall) chart plus a numbers-first gap line. Done 2026-11-03: the bridge's bars start at $0 (no zoom), with the shortfall drawn as a positive amount; both charts label $0 "Balanced: $0 shortfall"; the per-year chart is a dashed forecast line and a band (red below $0) under a computed sentence, with its years selectable; and the summary draws the bridge once (the meter keeps only its headline there). Still open: keyboard access to the bridge's steps (the hover tooltips are mouse-only), and statewide propositions in the trial (needs the state budget as a base).
+- **Budget meter:** the bridge (waterfall) chart plus a numbers-first gap line. Done 2026-11-03: the bridge's bars start at $0 (no zoom), with the shortfall drawn as a positive amount; both charts label $0 "Balanced: $0 shortfall"; the per-year chart is a dashed forecast line and a band (red below $0) under a computed sentence, with its years selectable; and the summary draws the bridge once (the meter keeps only its headline there). The meter shows every forecast year as a button, and highlights the years a vote changed. Effects can carry per-year amounts (`schedule`; Prop C uses the Controller's $6M / $13M / $60M). Still open: keyboard access to the bridge's steps (the hover tooltips are mouse-only), and statewide propositions in the trial (needs the state budget as a base).
 - **Tonight's impact-research run:**
   - finish the design;
   - add the impact data fields;

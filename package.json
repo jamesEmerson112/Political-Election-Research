@@ -19,6 +19,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "check": "npm run -s typecheck && npm run -s fmt -- --check && npm run -s validate && npm test",
+    "e2e": "npm run -s web:build && node tests/e2e/trial-ballot.mjs",
     "db": "tsx cli/db.ts",
     "web": "vite --config web/vite.config.ts",
     "web:build": "vite build --config web/vite.config.ts",
