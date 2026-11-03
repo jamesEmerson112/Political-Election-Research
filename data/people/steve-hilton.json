@@ -4,6 +4,32 @@
   "name": "Steve Hilton",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "birth date",
+          "where": "stevehiltonforgovernor.com/meet-steve (campaign bio)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton candidate statement (none submitted)",
+          "where": "2026 General Election Official Voter Information Guide, p. 83"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton born date birthday",
+          "where": "Capitol Weekly, Spectrum News 1 (City News Service), KATV/AP, The Telegraph via Yahoo, Commonwealth Club event page"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Steve Hilton born 1969 London governor candidate profile",
+          "where": "web search"
+        }
+      ]
+    },
     "birthplace": {
       "value": "London",
       "citations": [
