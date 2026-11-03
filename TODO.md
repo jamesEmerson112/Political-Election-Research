@@ -32,10 +32,23 @@
 
 **Deployed** 2026-11-03: PR #1 merged into `main`; https://political-election-research.vercel.app/ serves the beta with `vercel.json`'s headers (brotli, about 650 KB transferred), and all 18 browser checks pass against it.
 
-**Next: research (the maintainer decides how to run it after the deploy)**
-- San Francisco first, then Las Vegas (Nevada's Secretary of State site refuses automated access from the cloud sessions).
-- The research queue: 1,725 open tasks (`npm run next`).
-- The `validate --strict` gate for 1.0, now 424 warnings:
+**Next: the mass research** (maintainer, 2026-11-03: San Francisco first, then Las Vegas; how to run it is the maintainer's call: the Workflow tool needs their explicit opt-in)
+- **Queue on 2026-11-03** (`npm run next`): 1,725 open tasks (3,039 counting blocked ones).
+
+  | scope | contests | candidates | open tasks |
+  |---|---|---|---|
+  | SF ballot: statewide offices (8 offices, Board of Equalization 1–4) | 12 | 24 | 237 |
+  | SF ballot: U.S. House CA-11 and CA-15 | 2 | 4 | 42 |
+  | SF ballot: Board of Education, City College, Supervisors D2/4/6/8/10 | 7 | 39 | 326 |
+  | Other U.S. House races | 50 | 100 | 900 |
+  | Nevada (Las Vegas): placeholder agendas, no candidates yet | 107 | 0 | 220 |
+- **SF local stances wait for questions:** the draft question sets (SFUSD 7, City College 6, Supervisors 8) are in `notes/2026-11-03-sf-draft-questions.md`, not approved, so the queue has no position tasks for those races. Everything else (person, profile, legislation, dossier, endorsements, committees, finance cutoff, independent expenditures) can start.
+- **Las Vegas:** the agendas need certified candidate lists first (the contest task). The Nevada Secretary of State's site answers with a bot block page ("Request unsuccessful. Incapsula…"), so use Clark County Election Department documents (clarkcountynv.gov is reachable).
+- **Hosts on 2026-11-03:**
+  - reachable: sos.ca.gov, cal-access.sos.ca.gov, powersearch.sos.ca.gov, fec.gov (website; the OpenFEC API needs a key), sf.gov, campaign.sfethics.org, netfile.com, clerk.house.gov, missionlocal.org, clarkcountynv.gov, lasvegasnevada.gov, leg.state.nv.us;
+  - blocked: web.archive.org, leginfo.legislature.ca.gov, ballotpedia.org, congress.gov, sfelections.org (403), nvsos.gov (bot block).
+- **Going live:** each batch is committed on the branch (one task per commit, AGENTS.md), then a PR into `main`; the merge deploys. Check with `BASE_URL=https://political-election-research.vercel.app/ node tests/e2e/beta.mjs`.
+- **The `validate --strict` gate for 1.0**, now 424 warnings:
   - Archive snapshots for 151 sources. web.archive.org refuses connections from the cloud sessions, so archive from another machine or allow the host.
   - A verification pass on the 167 unverified citations and the 99 pending quotes.
   - Remove or cite the 7 orphan sources.
