@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "data-sfgov-org-9adad8a2ba",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Ethics Commission (via DataSF)",
+  "title": "Campaign Finance - Filers (DataSF dataset 4c8t-ngau, San Francisco Ethics Commission), search 'Monroe Lace'",
+  "url": "https://data.sfgov.org/resource/4c8t-ngau.json?$q=Monroe%20Lace&$limit=20",
+  "notes": "API query of the Ethics Commission filer list; records carry data_loaded_at 2026-11-03."
+}

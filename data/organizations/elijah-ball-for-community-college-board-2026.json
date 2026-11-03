@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "elijah-ball-for-community-college-board-2026",
+  "name": "Elijah Ball for Community College Board 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1492919",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-03"
+}
