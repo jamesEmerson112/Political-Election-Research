@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:monroe-lace",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "expand-bridge-to-success",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Lace's questionnaire says she would support expanding Bridge to Success so every interested SFUSD senior can take part.",
+        "title": "Expand Bridge to Success to every interested SFUSD senior",
+        "citations": [
+          {
+            "source": "src:growsf-org-72f4a77118",
+            "quote": "As a trustee, I would support expanding Bridge to Success so that every interested SFUSD senior can participate.",
+            "locator": "The Issues: SFUSD pipeline"
+          }
+        ]
+      },
+      {
+        "id": "restore-site-based-credit-recovery",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Lace's questionnaire says she would support restoring site-based credit recovery classes at SFUSD high schools.",
+        "title": "Restore credit recovery at SFUSD high schools",
+        "citations": [
+          {
+            "source": "src:growsf-org-72f4a77118",
+            "quote": "As trustee, I would support restoring site-based credit recovery at SFUSD high schools.",
+            "locator": "The Issues: SFUSD pipeline"
+          }
+        ]
+      },
+      {
+        "id": "expand-cte-programs",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Lace's questionnaire says she would ask the Chancellor to evaluate demand and costs, then support a plan to launch and expand financially responsible CTE programs.",
+        "title": "Launch and expand career technical education programs",
+        "citations": [
+          {
+            "source": "src:growsf-org-72f4a77118",
+            "quote": "I would then support an implementation plan to launch and expand CTE programs that are financially responsible.",
+            "locator": "The Issues: career technical education"
+          }
+        ]
+      }
+    ]
+  }
+}
