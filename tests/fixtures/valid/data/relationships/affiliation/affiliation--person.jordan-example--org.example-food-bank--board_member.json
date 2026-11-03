@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "affiliation--person.jordan-example--org.example-food-bank--board_member",
+  "type": "affiliation",
+  "person": "person:jordan-example",
+  "cycle": 2030,
+  "organization": "org:example-food-bank",
+  "period": {
+    "start": "2020-01-01"
+  },
+  "role": "board_member",
+  "citations": [
+    {
+      "source": "src:news-example-com-e70a5fe80d",
+      "quote": "Example sits on the food bank's board."
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

@@ -1,0 +1,1 @@
+{"description":"A money period that starts after it ends.","expect":["DATE_ORDER"],"patches":[{"file":"relationships/contribution/contribution--org.example-teachers-union--org.avery-sample-for-governor-2030--2030--general--monetary.json","set":{"/money/period/start":"2030-12-01"}}]}

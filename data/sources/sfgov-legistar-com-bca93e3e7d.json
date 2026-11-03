@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-bca93e3e7d",
+  "kind": "legislative_record",
+  "accessed": "2026-11-02",
+  "published": "2025-05-16",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 241198 · Alexandria Theater Special Use District",
+  "url": "https://sfgov.legistar.com/LegislationDetail.aspx?From=RSS&GUID=7D3D8515-3BB5-4D5C-885F-F200C72CBE16&ID=7051616",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [18]); not opened by the recording agent; archive snapshot pending."
+}

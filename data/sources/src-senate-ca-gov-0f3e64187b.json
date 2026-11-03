@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "src-senate-ca-gov-0f3e64187b",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Senate (src.senate.ca.gov)",
+  "title": "2026-27 Enacted Budget: Initial Summary",
+  "url": "https://src.senate.ca.gov/content/2026-27-enacted-budget-initial-summary",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

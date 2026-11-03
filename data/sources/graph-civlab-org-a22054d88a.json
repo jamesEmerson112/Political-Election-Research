@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "graph-civlab-org-a22054d88a",
+  "kind": "reference_work",
+  "accessed": "2026-11-03",
+  "publisher": "CivLab",
+  "title": "CivLab · SF Gov Graph",
+  "url": "https://graph.civlab.org/sf",
+  "notes": "CivLab government graph for San Francisco (graph.civlab.org, by Michael Adams). The page shows 'Total Budget' $16.85B for 2026-2027; the exact figure is the graph data's budget.totalSpendingBudget. Secondary source; no license or terms were found, so only the total is recorded."
+}

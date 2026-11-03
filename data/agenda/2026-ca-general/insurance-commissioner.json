@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/insurance-commissioner",
+  "candidates": [
+    {
+      "person": "person:jane-kim",
+      "name": "Jane Kim"
+    },
+    {
+      "person": "person:ben-allen",
+      "name": "Ben Allen"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:california-insurance-commissioner",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Open seat: incumbent Ricardo Lara is term-limited. Both candidates are Democrats. A search summary of the SoS Statement of Vote gives primary results of Kim 2,328,836 (27.4%) and Allen 1,649,501 (19.4%). Kim's designation (Attorney/Consumer Advocate) comes from a single search summary of the certified list; an earlier summary said her entry did not appear in the excerpt, so verify. Allen's designation (California State Senator) appeared in summaries of both the certified list and the contact list. Garbled extraction also surfaced a Republican name, Alejandro Galicia, near this office; it appears to be an artifact and not a general-election candidate. Gap: the search budget ran out before the candidates' education, office dates (Kim's supervisor and school board years, Allen's Senate years) or other biographical details could be researched."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

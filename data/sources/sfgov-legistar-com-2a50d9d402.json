@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-2a50d9d402",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2026-07-14",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Board of Supervisors Spending Plan Fiscal Years 2026-27 and 2027-28 (File 260596 attachment \"BOS Spending Plan 071426\", amended 7/14/2026)",
+  "url": "https://sfgov.legistar.com/View.ashx?M=F&ID=15691647&GUID=A44D2A75-D02D-4AF5-B434-34C2F92AB0F7",
+  "notes": "PDF attachment to SF File 260596, opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

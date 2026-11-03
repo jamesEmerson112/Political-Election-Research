@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-532c2c45a5",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2026-07-28",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 260596 · Board of Supervisors final passage of July 28, 2026",
+  "url": "https://sfgov.legistar.com/HistoryDetail.aspx?ID=37267795&GUID=C73CF13D-964B-4819-AE3E-5CB8B4B6A0B7",
+  "notes": "Legistar action-details page, opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

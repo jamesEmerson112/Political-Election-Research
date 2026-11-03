@@ -1,0 +1,1 @@
+{"description":"A per-year schedule amount outside the effect's range and not printed in its quote.","expect":["FISCAL_SCHEDULE"],"patches":[{"file":"contests/2030-zz-general/exampleville-prop-b.json","set":{"/fiscal/effects/1/schedule":[{"fy":"2031-32","amount":{"low_usd":70000000,"high_usd":70000000}}]}}]}

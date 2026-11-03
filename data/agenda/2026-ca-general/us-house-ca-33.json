@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-33",
+  "candidates": [
+    {
+      "person": "person:pete-aguilar",
+      "name": "Pete Aguilar"
+    },
+    {
+      "person": "person:stephanie-m-vargas",
+      "name": "Stephanie M. Vargas"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:us-representative-california",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: The ABC7 table (updated July 14, 2026) shows Aguilar 54% (64,068) and Vargas 18% (20,952). A voter guide also listed Eugene Weems (R) in the primary. The AP item for Aguilar was undated; the one for Vargas fits 2026. Name form: AP uses Stephanie Vargas, iVoterGuide uses Stephanie M. Vargas; the ballot form is unverified. Aguilar has an official biography at aguilar.house.gov/about/full-biography, but it was not read; offices with dates, education, and birth details are gaps because the web-search budget ran out. Incumbent means the current member for district number 33; Prop 50 redrew the boundaries."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

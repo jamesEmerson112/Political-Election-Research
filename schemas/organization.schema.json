@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/organization.schema.json",
+  "title": "Organization",
+  "description": "Any non-person actor: union, company, nonprofit, party, campaign committee, PAC, lobbying firm, government body. No editorial sector labels in Phase 1. Path: data/organizations/<id>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "aliases", "org_type", "ids", "links", "last_verified"],
+  "properties": {
+    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
+    "id": { "$ref": "defs.schema.json#/$defs/Slug" },
+    "name": {
+      "description": "Name exactly as registered/filed where one exists.",
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "org_type": {
+      "description": "Committee types (candidate_committee, ballot_measure_committee, general_purpose_pac, ie_committee, political_party) can receive contributions and make independent expenditures.",
+      "enum": [
+        "labor_union",
+        "corporation",
+        "trade_association",
+        "nonprofit_501c3",
+        "nonprofit_501c4",
+        "political_party",
+        "candidate_committee",
+        "ballot_measure_committee",
+        "general_purpose_pac",
+        "ie_committee",
+        "conduit",
+        "lobbying_firm",
+        "government_body",
+        "tribe",
+        "other"
+      ]
+    },
+    "jurisdiction": { "enum": ["ca", "federal", "local", "other"] },
+    "description": { "$ref": "defs.schema.json#/$defs/CitedString" },
+    "ids": { "$ref": "defs.schema.json#/$defs/ExternalIds" },
+    "links": { "$ref": "defs.schema.json#/$defs/Links" },
+    "last_verified": { "$ref": "defs.schema.json#/$defs/Date" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "senate-ca-gov-0a7cbe5ff1",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Senate",
+  "title": "Standing Rules of the Senate, 2015-16 (as amended by SR 8 and SR 24)",
+  "url": "https://www.senate.ca.gov/sites/senate.ca.gov/files/2015-16_senate_standing_rules-as_amended_by_sr_8_and_sr_24.pdf",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified."
+}

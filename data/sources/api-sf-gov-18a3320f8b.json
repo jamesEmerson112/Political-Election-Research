@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sf-gov-18a3320f8b",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-20",
+  "publisher": "Office of the Controller, City and County of San Francisco",
+  "title": "Amended Controller's Statement: Proposition B",
+  "url": "https://api.sf.gov/documents/62384/Proposition_B__Establishing_a_Municipal_Finance_Corporation_and_a_Public_Bank__eb1cXQz.pdf"
+}

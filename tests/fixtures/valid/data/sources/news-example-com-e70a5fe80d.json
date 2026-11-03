@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "news-example-com-e70a5fe80d",
+  "kind": "news_report",
+  "accessed": "2030-11-01",
+  "archive_url": "https://web.archive.org/web/20301003120000/https://news.example.com/2030/09/widgets-debate",
+  "published": "2030-09-15",
+  "publisher": "Example News",
+  "title": "Candidates split on widget subsidies",
+  "url": "https://news.example.com/2030/09/widgets-debate?utm_source=feed"
+}

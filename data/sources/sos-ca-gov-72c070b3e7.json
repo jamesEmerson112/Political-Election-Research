@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sos-ca-gov-72c070b3e7",
+  "kind": "press_release",
+  "accessed": "2026-11-03",
+  "published": "2021-01-18",
+  "publisher": "California Secretary of State",
+  "title": "AP21:003 Alex Padilla Resigns as California Secretary of State; James Schwab to Serve as Interim Secretary",
+  "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2021-news-releases-and-advisories/ap21003",
+  "notes": "Opened (playwright) on 2026-11-03; quotes re-checked against the page text."
+}

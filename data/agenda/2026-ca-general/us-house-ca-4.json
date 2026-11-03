@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-4",
+  "candidates": [
+    {
+      "person": "person:mike-thompson",
+      "name": "Mike Thompson"
+    },
+    {
+      "person": "person:eric-jones",
+      "name": "Eric Jones"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:us-representative-california",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Two Democrats advanced. Primary: Thompson 41.0%, Jones 22.2% (NBC table); Republican Ray Riehle placed third (KQED). Thompson's birth (Jan. 24, 1951, St. Helena) appears only in secondary sources in this pass, so it is omitted. His Army service dates conflict (1969-72 vs 1967-73), and his master's is listed as M.A. in some sources and M.P.A. in others. Jones: the major (Economics and International Studies) is from a Prediction Edge profile only and is not included. The American Dream Institute's founding year is given as both 2024 and 2025. His age is reported as 34 or 35. He moved to Napa in 2021, per news."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

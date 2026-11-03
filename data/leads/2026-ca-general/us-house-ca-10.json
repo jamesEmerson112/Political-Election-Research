@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-10",
+  "items": [
+    {
+      "person": "person:mark-desaulnier",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Joplin Globe) https://www.joplinglobe.com/region/democrat-mark-desaulnier-advances-to-the-general-election-for-u-s-house-in-californias-10th/article_7238a3fc-dc90-51ea-9b87-c3379ef0c9cf.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mark-desaulnier",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Joplin Globe) https://www.joplinglobe.com/region/democrat-mark-desaulnier-advances-to-the-general-election-for-u-s-house-in-californias-10th/article_7238a3fc-dc90-51ea-9b87-c3379ef0c9cf.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mark-desaulnier",
+      "label": "Ballot designation",
+      "text": "\"United States Congressman\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Joplin Globe) https://www.joplinglobe.com/region/democrat-mark-desaulnier-advances-to-the-general-election-for-u-s-house-in-californias-10th/article_7238a3fc-dc90-51ea-9b87-c3379ef0c9cf.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mark-desaulnier",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Joplin Globe) https://www.joplinglobe.com/region/democrat-mark-desaulnier-advances-to-the-general-election-for-u-s-house-in-californias-10th/article_7238a3fc-dc90-51ea-9b87-c3379ef0c9cf.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mark-desaulnier",
+      "label": "U.S. Representative",
+      "text": "Incumbent U.S. Representative for California's 10th District. (sources: Ballotpedia https://ballotpedia.org/Mark_DeSaulnier [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jeff-frese",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Joplin Globe) https://www.joplinglobe.com/region/democrat-mark-desaulnier-advances-to-the-general-election-for-u-s-house-in-californias-10th/article_7238a3fc-dc90-51ea-9b87-c3379ef0c9cf.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeff-frese",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Joplin Globe) https://www.joplinglobe.com/region/democrat-mark-desaulnier-advances-to-the-general-election-for-u-s-house-in-californias-10th/article_7238a3fc-dc90-51ea-9b87-c3379ef0c9cf.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jeff-frese",
+      "label": "Ballot designation",
+      "text": "\"Small Business Owner\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Joplin Globe) https://www.joplinglobe.com/region/democrat-mark-desaulnier-advances-to-the-general-election-for-u-s-house-in-californias-10th/article_7238a3fc-dc90-51ea-9b87-c3379ef0c9cf.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeff-frese",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Joplin Globe) https://www.joplinglobe.com/region/democrat-mark-desaulnier-advances-to-the-general-election-for-u-s-house-in-californias-10th/article_7238a3fc-dc90-51ea-9b87-c3379ef0c9cf.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeff-frese",
+      "label": "Occupation",
+      "text": "Ballot designation: Small Business Owner. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

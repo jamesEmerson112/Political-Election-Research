@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "californiaglobe-com-60d9505c3c",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "California Globe",
+  "title": "The California Governor's supreme executive power",
+  "url": "https://californiaglobe.com/fr/the-california-governors-supreme-executive-power/",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

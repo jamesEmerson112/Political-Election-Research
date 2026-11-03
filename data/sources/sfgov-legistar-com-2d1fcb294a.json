@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-2d1fcb294a",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2026-06-25",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 260596 · Budget and Appropriations Committee action of June 25, 2026 (recommended as amended)",
+  "url": "https://sfgov.legistar.com/HistoryDetail.aspx?ID=37117709&GUID=D621FA95-F6CE-48B9-B93D-BD89E6ECB82A",
+  "notes": "Legistar action-details page, opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

@@ -1,0 +1,390 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-a",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition A",
+  "affects": [
+    {
+      "effect": "rules_change",
+      "group": "city_employees",
+      "text": "Charter provisions that permit disciplinary action against striking employees, other than Police and Fire, would be removed",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed Charter amendment (1) modifies boards, commissions, and advisory bodies; (2) changes departmental operations and reporting requirements; (3) changes how the Board of Supervisors must approve settlements or dismissals of legal proceedings recommended by the City Attorney; (4) removes provisions allowing disciplinary action against non-Police and Fire striking employees;",
+          "locator": "p. 64, Controller’s Statement on “A”"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "Charter would be aligned with how some departments operate, some commissions eliminated or reorganized, and the Board required to amend voter-approved laws",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition A would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies. Proposition A would require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+          "locator": "p. 64, Proposition A digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "receives",
+      "figure": "$5,000 to $85,000 annually",
+      "group": "commission_members",
+      "text": "Youth Commission members could be paid if policymakers choose; the Controller puts the City's total cost at $5,000 to $85,000 a year",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "For example, the proposed Charter amendment removes the restriction on compensating Youth Commission members which may lead to future costs, likely ranging from $5,000 to $85,000 annually, should policymakers seek compensation for the members.",
+          "locator": "p. 65, Controller’s Statement on “A”"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "commission_members",
+      "text": "Membership requirements and responsibilities of the remaining commissions and boards would be updated",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed amendment updates commission responsibilities and membership requirements for remaining commissions and boards but will not directly impact the total cost to government.",
+          "locator": "p. 65, Controller’s Statement on “A”"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Mayor Daniel Lurie",
+        "Board of Supervisors President Rafael Mandelman",
+        "Supervisor Alan Wong",
+        "Supervisor Bilal Mahmood",
+        "Supervisor Chyanne Chen",
+        "Supervisor Danny Sauter",
+        "Supervisor Matt Dorsey",
+        "Supervisor Myrna Melgar",
+        "Supervisor Steven Sherrill",
+        "State Senator Scott Wiener",
+        "Assemblywoman Catherine Stefani",
+        "Assemblyman Matt Haney"
+      ],
+      "heading": "MAYOR LURIE & SUPERMAJORITY OF SUPERVISORS SAY YES ON PROP A TO CLEAN UP OUR OUTDATED CHARTER.",
+      "side": "yes",
+      "text": "About every 30 years, City Hall sets aside its differences to clean up old, broken, and conflicting parts of our city’s governing document called the city charter. Department heads, commissions, and the public suggest changes through a transparent, months-long process. The mayor and a supermajority of the Board of Supervisors agreed on 110 small fixes that will help city government serve you better. The fixes fall into four categories: OUTDATED TECHNOLOGY New technology can make old laws pointless. For example, the current system still requires the city to employ a bookbinder and to publish laws in daily print editions of the Chronicle that no longer exist. WASTEFUL DUPLICATION Sometimes two city departments are required to do the exact same job. For example, multiple departments being required to create the same report, forcing employees into busy work that wastes time and money. ZOMBIE COMMISSIONS Our bureaucracy has 60 advisory bodies and commissions that can’t be updated without a vote at the ballot. After decades the charter can end up with zombie commissions that serve no purpose. For example, the Sanitation and Streets Commission oversees a department that doesn’t exist, and the charter still references a Parking Authority that voters removed a decade ago. CONFUSING OR BADLY WORDED LAWS Lawmakers sometimes make typos and mistakes when writing legislation, leaving behind laws that are confusing or just don’t make sense. Prop A cleans up some of the worst examples. VOTE YES ON PROP A THE CITYWIDE GOOD GOVERNMENT CONSENSUS MEASURE",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "About every 30 years, City Hall sets aside its differences to clean up old, broken, and conflicting parts of our city’s governing document called the city charter. Department heads, commissions, and the public suggest changes through a transparent, months-long process. The mayor and a supermajority of the Board of Supervisors agreed on 110 small fixes that will help city government serve you better. The fixes fall into four categories: OUTDATED TECHNOLOGY New technology can make old laws pointless. For example, the current system still requires the city to employ a bookbinder and to publish laws in daily print editions of the Chronicle that no longer exist. WASTEFUL DUPLICATION Sometimes two city departments are required to do the exact same job. For example, multiple departments being required to create the same report, forcing employees into busy work that wastes time and money. ZOMBIE COMMISSIONS Our bureaucracy has 60 advisory bodies and commissions that can’t be updated without a vote at the ballot. After decades the charter can end up with zombie commissions that serve no purpose. For example, the Sanitation and Streets Commission oversees a department that doesn’t exist, and the charter still references a Parking Authority that voters removed a decade ago. CONFUSING OR BADLY WORDED LAWS Lawmakers sometimes make typos and mistakes when writing legislation, leaving behind laws that are confusing or just don’t make sense. Prop A cleans up some of the worst examples. VOTE",
+          "locator": "p. 66, Proponent's Argument in Favor of Proposition A"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Coalition on Homelessness"
+      ],
+      "side": "no",
+      "text": "A love letter to San Francisco What makes San Francisco special? Is it the views, the hills, the parks, the food, the victorians? A big part of what is special about San Francisco is San Franciscans. We are active and informed. We stand up for what we believe in! We get involved in the things we are passionate about. We believe in flourishing democracies. Prop A is taking a lot of that away. A healthy democracy requires a balance of power. A healthy government has plenty of citizen participation. Debate leads us to the best answers. These are all reasons to vote No on A. Our current city government as represented by our elected officials is primarily monolithic, representing monied and corporate interests, whether couched in suave niceties or smug indifference. They are trying to take away much of what makes San Francisco special. They all go along with each other, no matter how bad the idea is, as long as Trump’s billionaires benefit. When you boil it down, today’s San Francisco needs to protect people power more than ever. Reject the power grab. No SF Kings. Vote No on A and while you’re at it, Vote No on D E and F.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "A love letter to San Francisco What makes San Francisco special? Is it the views, the hills, the parks, the food, the victorians? A big part of what is special about San Francisco is San Franciscans. We are active and informed. We stand up for what we believe in! We get involved in the things we are passionate about. We believe in flourishing democracies. Prop A is taking a lot of that away. A healthy democracy requires a balance of power. A healthy government has plenty of citizen participation. Debate leads us to the best answers. These are all reasons to vote No on A. Our current city government as represented by our elected officials is primarily monolithic, representing monied and corporate interests, whether couched in suave niceties or smug indifference. They are trying to take away much of what makes San Francisco special. They all go along with each other, no matter how bad the idea is, as long as Trump’s billionaires benefit. When you boil it down, today’s San Francisco needs to protect people power more than ever. Reject the power grab. No SF Kings. Vote No on A and while you’re at it, Vote No on D E and F.",
+          "locator": "p. 66, Rebuttal to Proponent's Argument in Favor of Proposition A"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Coalition on Homelessness"
+      ],
+      "side": "no",
+      "text": "The charter should be improved, but not at the expense of transparency, and checks on government power. There are grievous mistakes in Prop A that threaten participatory democracy by removing commissions put in place by voters. Take independent oversight for November 2018 Proposition C. The measure allows the Board of Supervisors to remove independent oversight with a majority vote. Prop C, “Our City, Our Home”, is a deeply vetted people’s initiative placed on the ballot by Coalition on Homelessness alongside over 700 housed/unhoused volunteers and supported by 215,491 voters. It is a tax on mega corporations to fund homeless solutions. Due to careful planning by the oversight body, the fund has housed over 8,400 people, including 2,800 children, thousands prevented from becoming homeless, and receiving behavioral health treatment services. Rising rents up and down the west coast have skyrocketed homelessness. Unlike west coast cities without a local revenue measure, SF has seen a steady decline in street homelessness. Portland saw an enourmous 67% increase and San Diego a 26% increase in 2024. SF was poised to see exploding homelessness due to the pandemic, but planning by the oversight body staved that off. While Prop C has been wildly successful, progress is at risk. Rising rents create a dire need for using funds to permanently solve and prevent homelessness. The oversight body is charged with digging into data and centering unhoused people’s needs including hidden needs of homeless children. Each year they struggle against Mayoral Administrations who favor ruling by sound bites, and shiny failed quick fixes over data driven proven solutions. Prop A attempts to silence the voices of homeless people and their allies that challenge power, and this particular body was targeted only because of its effectiveness in doing so. No on A.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The charter should be improved, but not at the expense of transparency, and checks on government power. There are grievous mistakes in Prop A that threaten participatory democracy by removing commissions put in place by voters. Take independent oversight for November 2018 Proposition C. The measure allows the Board of Supervisors to remove independent oversight with a majority vote. Prop C, “Our City, Our Home”, is a deeply vetted people’s initiative placed on the ballot by Coalition on Homelessness alongside over 700 housed/unhoused volunteers and supported by 215,491 voters. It is a tax on mega corporations to fund homeless solutions. Due to careful planning by the oversight body, the fund has housed over 8,400 people, including 2,800 children, thousands prevented from becoming homeless, and receiving behavioral health treatment services. Rising rents up and down the west coast have skyrocketed homelessness. Unlike west coast cities without a local revenue measure, SF has seen a steady decline in street homelessness. Portland saw an enourmous 67% increase and San Diego a 26% increase in 2024. SF was poised to see exploding homelessness due to the pandemic, but planning by the oversight body staved that off. While Prop C has been wildly successful, progress is at risk. Rising rents create a dire need for using funds to permanently solve and prevent homelessness. The oversight body is charged with digging into data and centering unhoused people’s needs including hidden needs",
+          "locator": "p. 67, Opponent's Argument Against Proposition A"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Board of Supervisors President Rafael Mandelman",
+        "Mayor Daniel Lurie"
+      ],
+      "side": "yes",
+      "text": "Prop A is a good government housekeeping measure that cleans up and modernizes San Francisco’s lengthy, outdated charter to serve you better. Currently five separate, overlapping commissions oversee homeless services in San Francisco. None of them are removed by Prop A. But right now, even small administrative updates to some of these commissions — like adjusting how often they meet, or the qualifications of their members — have to go before voters as a ballot measure. Making such routine updates should not be delayed through an entire election cycle or require hundreds of thousands of dollars in campaign costs. Prop A lets the Board handle those small fixes through ordinary legislation instead. Requiring a citywide election to fix a typo or fix outdated language isn’t democracy, it just makes City Hall less accountable for delivering results for voters. Join us as we make San Francisco’s charter serve you better! VOTE YES ON PROP A — THE GOOD GOVERNMENT CONSENSUS MEASURE",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Prop A is a good government housekeeping measure that cleans up and modernizes San Francisco’s lengthy, outdated charter to serve you better. Currently five separate, overlapping commissions oversee homeless services in San Francisco. None of them are removed by Prop A. But right now, even small administrative updates to some of these commissions — like adjusting how often they meet, or the qualifications of their members — have to go before voters as a ballot measure. Making such routine updates should not be delayed through an entire election cycle or require hundreds of thousands of dollars in campaign costs. Prop A lets the Board handle those small fixes through ordinary legislation instead. Requiring a citywide election to fix a typo or fix outdated language isn’t democracy, it just makes City Hall less accountable for delivering results for voters. Join us as we make San Francisco’s charter serve you better! VOTE YES ON PROP A — THE GOOD GOVERNMENT CONSENSUS MEASURE",
+          "locator": "p. 67, Rebuttal to Opponent's Argument Against Proposition A"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-01",
+      "kind": "paid",
+      "authors": [
+        "Patrick Monette-Shaw, Columnist, Westside Observer*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Patrick Monette-Shaw.",
+      "heading": "Commission Reform Really SPUR’s “Charter for Change”",
+      "side": "no",
+      "text": "Billionaires sought “Proposition A” after losing 2024’s Board and Commission reform “Proposition D” ballot measure to “Proposition E.” Sore losers, they nevertheless managed stacking the resulting “Commission Streamlining Task Force” with Mayor Lurie’s staff and SPUR board members. The Task Force developed an anti-democratic, 166-page Trumpian “Project 2025”-style commission reform Charter Amendment, so onerous it was split into Propositions “A,” “D,” “E,” and “F.” The Board of Supervisors placed portions into “Proposition A’s” 138-page Charter Amendment by a 9-to-2 vote. It stipulates often body-unique qualifications to serve on specific boards, commissions become merely “desired,” not required. City Supervisors won’t be bound to specific qualifications when making appointments, but should take them “into account.” Political patronage appointments cronyism will mushroom! “Prop. A” alters membership qualifications to the “Sunshine Ordinance Task Force” (SOTF) — San Francisco’s voter-approved, independent open government transparency watchdog, a regulatory body. A former Supervisor Mandelman campaign staffer and a former Lurie aide seek appointments to the SOTF. Their primary qualifications?: Being former staff. Read my investigative article (www.westsideobserver.net/sotf) on how Ordinance 99-66 has, and “Prop. A” will, worsen the SOTF’s recent shutdown. “Prop. A” removes the requirement Boards and Commissions prepare annual reports, eliminating transparency for San Franciscans and City Supervisors! There’s other buried poison. It was in Lurie’s and Supervisor’s interests to abandon this authoritarian, anti-democratic Commission “reform” months ago. Instead, they dug political ditches, fell in, and kept digging. “Prop. A” is like giving matches to pyromaniacs! Also read my paid arguments against Propositions “D” and “F.” “Prop. A” dismantles wholesale, citizen-involved democracy in San Francisco! Save your box of matches; maintain our vigilant democracy. Vote “Hell No!” on these four Charter Amendments. They aren’t “government streamlining efficiencies.” They’re SPUR’s “Charter for Change”! (https://www.spur.org/publications/policy-brief/2025-11-10/charter-change)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Billionaires sought “Proposition A” after losing 2024’s Board and Commission reform “Proposition D” ballot measure to “Proposition E.” Sore losers, they nevertheless managed stacking the resulting “Commission Streamlining Task Force” with Mayor Lurie’s staff and SPUR board members. The Task Force developed an anti-democratic, 166-page Trumpian “Project 2025”-style commission reform Charter Amendment, so onerous it was split into Propositions “A,” “D,” “E,” and “F.” The Board of Supervisors placed portions into “Proposition A’s” 138-page Charter Amendment by a 9-to-2 vote. It stipulates often body-unique qualifications to serve on specific boards, commissions become merely “desired,” not required. City Supervisors won’t be bound to specific qualifications when making appointments, but should take them “into account.” Political patronage appointments cronyism will mushroom! “Prop. A” alters membership qualifications to the “Sunshine Ordinance Task Force” (SOTF) — San Francisco’s voter-approved, independent open government transparency watchdog, a regulatory body. A former Supervisor Mandelman campaign staffer and a former Lurie aide seek appointments to the SOTF. Their primary qualifications?: Being former staff. Read my investigative article (www.westsideobserver.net/sotf) on how Ordinance 99-66 has, and “Prop. A” will, worsen the SOTF’s recent shutdown. “Prop. A” removes the requirement Boards and Commissions prepare annual reports, eliminating transparency for San",
+          "locator": "p. 68, Paid Argument AGAINST Proposition A"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "label": "Digest by the Ballot Simplification Council",
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 64, Proposition A digest, A NO Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition A would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies. Proposition A would require the Board of Supervisors to amend voter-approved laws to enact some of these changes. Proposition A would: • change the language of the Charter to reflect how some City departments currently operate in order to clarify responsibilities and update rules, procedures, and reporting requirements. • change some processes. For example: allowing legal settlements to be approved by resolution instead of by ordinance. • require a task force to meet every ten years to recommend changes to commissions. • eliminate or reorganize certain commissions and advisory bodies by, for example: eliminating some commissions and advisory bodies, combining and renaming some advisory bodies, and moving some commissions and advisory bodies from the Charter into the Municipal Code.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition A would align the Charter with how some City departments currently operate, change some processes, and eliminate or reorganize certain commissions and advisory bodies. Proposition A would require the Board of Supervisors to amend voter-approved laws to enact some of these changes. Proposition A would: • change the language of the Charter to reflect how some City departments currently operate in order to clarify responsibilities and update rules, procedures, and reporting requirements. • change some processes. For example: allowing legal settlements to be approved by resolution instead of by ordinance. • require a task force to meet every ten years to recommend changes to commissions. • eliminate or reorganize certain commissions and advisory bodies by, for example: eliminating some commissions and advisory bodies, combining and renaming some advisory bodies, and moving some commissions and advisory bodies from the Charter into the Municipal Code.",
+          "locator": "p. 64, Proposition A digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The Charter is the City’s constitution and establishes the organization, powers, and responsibilities for many City departments. The Charter and other voter-approved laws also create many City commissions and advisory bodies and describe their powers, duties, membership and removal rules, and reporting requirements. Over time, some of these laws have become obsolete. The Charter and most laws passed by the voters can only be changed with voter approval.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Charter is the City’s constitution and establishes the organization, powers, and responsibilities for many City departments. The Charter and other voter-approved laws also create many City commissions and advisory bodies and describe their powers, duties, membership and removal rules, and reporting requirements. Over time, some of these laws have become obsolete. The Charter and most laws passed by the voters can only be changed with voter approval.",
+          "locator": "p. 64, Proposition A digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes.",
+          "locator": "p. 64, Proposition A digest, A YES Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [
+      {
+        "id": "budget-process-decisions",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Additional costs and savings depend on decisions the Mayor and Board of Supervisors make through the normal budget process.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Additional costs and savings are dependent on the decisions that the Mayor and Board of Supervisors make through the normal budget process.",
+            "locator": "p. 64, Controller's Statement on A, first paragraph"
+          }
+        ]
+      },
+      {
+        "id": "commission-eliminations",
+        "amount": {
+          "high_usd": 450000,
+          "low_usd": 365000
+        },
+        "direction": "savings",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Saves $365,000 to $450,000 a year in the cost of government (the Controller's estimate).",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually.",
+            "locator": "p. 64, Controller's Statement on A, first paragraph"
+          }
+        ]
+      },
+      {
+        "id": "commission-staff-time",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Staff time needed to support commissions and boards may decrease, freeing staff for other government functions, at a level that cannot be determined.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The amount of staff time needed to support commissions and boards may decrease—freeing staff to work on other government functions, although at a level that cannot be determined at this time.",
+            "locator": "p. 65, Controller's Statement on A (continued), paragraph on remaining commissions and boards"
+          }
+        ]
+      },
+      {
+        "id": "executive-secretary-requirement",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Savings from removing the requirement that commissions hire an executive secretary cannot be determined, as bodies may opt not to fill the position.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The amount of cost savings attributed to removing the requirement of hiring an executive secretary for commissions cannot be determined at this time as bodies may opt not to fill the position.",
+            "locator": "p. 65, Controller's Statement on A (continued), paragraph on costs and savings dependent on budget decisions"
+          }
+        ]
+      },
+      {
+        "id": "remaining-commissions-updates",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Updating responsibilities and membership requirements of remaining commissions and boards will not directly affect the total cost of government.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed amendment updates commission responsibilities and membership requirements for remaining commissions and boards but will not directly impact the total cost to government.",
+            "locator": "p. 65, Controller's Statement on A (continued), paragraph on remaining commissions and boards"
+          }
+        ]
+      },
+      {
+        "id": "task-force-every-ten-years",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Convening the Commission Streamlining Task Force every ten years would require staff time; the statement gives no dollar figure (the 2025 task force used about 5,900 staff hours).",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Convening the Commission Streamlining Task Force (CSTF) every ten years would require staff to implement and administer the CSTF, including conducting analyses, writing public reports, and holding public meetings. The proposed Charter amendment removes the existing requirements for the Budget and Legislative Analyst to prepare a report and the City Attorney to prepare a draft Charter amendment implementing the CTSF’s recommendations from CSTF’s mandate. For context, convening the CSTF in 2025 required approximately 5,900 hours of staff time.",
+            "locator": "p. 65, Controller's Statement on A (continued), Commission Streamlining Task Force sentences"
+          }
+        ]
+      },
+      {
+        "id": "youth-commission-compensation",
+        "amount": {
+          "high_usd": 85000,
+          "low_usd": 5000
+        },
+        "direction": "cost",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Removing the restriction on compensating Youth Commission members may lead to costs of $5,000 to $85,000 a year if policymakers choose to pay them.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "For example, the proposed Charter amendment removes the restriction on compensating Youth Commission members which may lead to future costs, likely ranging from $5,000 to $85,000 annually, should policymakers seek compensation for the members.",
+            "locator": "p. 65, Controller's Statement on A (continued), paragraph on costs and savings dependent on budget decisions"
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually. Additional costs and savings are dependent on the decisions that the Mayor and Board of Supervisors make through the normal budget process.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually. Additional costs and savings are dependent on the decisions that the Mayor and Board of Supervisors make through the normal budget process.",
+          "locator": "p. 64, Controller's Statement on A, first paragraph"
+        },
+        {
+          "source": "src:api-sf-gov-060652158a",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would have a moderate impact on the cost of government, saving $365,000 to $450,000 annually.",
+          "locator": "p. 1, letter dated August 10, 2026"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter",
+        "locator": "p. 64, Proposition A ballot question"
+      }
+    ]
+  },
+  "number": "A",
+  "official_title": {
+    "value": "Charter Changes Affecting Various City Departments and Commissions",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Charter Changes Affecting Various City Departments and Commissions",
+        "locator": "p. 64, Proposition A heading"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 14, 2026, the Board of Supervisors voted 9 to 2 to place Proposition A on the ballot.",
+        "locator": "p. 65, Proposition A, How A Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to align it with how some City departments currently operate, change some processes, eliminate or reorganize certain commissions and advisory bodies, and require the Board of Supervisors to amend voter-approved laws to enact some of these changes?",
+        "locator": "p. 64, Proposition A ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 64, Proposition A, below the ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

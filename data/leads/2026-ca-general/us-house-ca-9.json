@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-9",
+  "items": [
+    {
+      "person": "person:josh-harder",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:josh-harder",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:josh-harder",
+      "label": "Ballot designation",
+      "text": "\"Father/Representative\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:josh-harder",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:josh-harder",
+      "label": "U.S. Representative",
+      "text": "Incumbent U.S. Representative for California's 9th District. (sources: Wikipedia https://en.wikipedia.org/wiki/Josh_Harder [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:john-mcbride",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:john-mcbride",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:john-mcbride",
+      "label": "Ballot designation",
+      "text": "\"Athletic Performance Coach\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:john-mcbride",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481861 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:john-mcbride",
+      "label": "Occupation",
+      "text": "Ballot designation: Athletic Performance Coach. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

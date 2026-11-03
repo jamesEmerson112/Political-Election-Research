@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-25",
+  "items": [
+    {
+      "person": "person:raul-ruiz",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/25 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-25-results [search summary, secondary]; Associated Press (via Journal-News) https://www.journal-news.com/nation-world/republican-joe-males-advances-to-the-general-election-for-u-s-house-in-californias-25th/article_84fe87eb-a8e0-55cc-9852-2b9e29b1f555.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:raul-ruiz",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/25 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-25-results [search summary, secondary]; Associated Press (via Journal-News) https://www.journal-news.com/nation-world/republican-joe-males-advances-to-the-general-election-for-u-s-house-in-californias-25th/article_84fe87eb-a8e0-55cc-9852-2b9e29b1f555.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:raul-ruiz",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/25 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-25-results [search summary, secondary]; Associated Press (via Journal-News) https://www.journal-news.com/nation-world/republican-joe-males-advances-to-the-general-election-for-u-s-house-in-californias-25th/article_84fe87eb-a8e0-55cc-9852-2b9e29b1f555.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:raul-ruiz",
+      "label": "U.S. House",
+      "text": "U.S. Representative since January 2013 (elected in 2012); currently represents California's 25th District. (sources: Office of Rep. Raul Ruiz (house.gov) https://ruiz.house.gov/about/biography [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Raul_Ruiz_(politician) [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:raul-ruiz",
+      "label": "Medicine",
+      "text": "Emergency physician at Eisenhower Medical Center, Rancho Mirage, from about 2007 until his election; emergency medicine residency at the University of Pittsburgh; fellowship at Brigham and Women's Hospital. (sources: U.S. House (committee repository bio) https://docs.house.gov/meetings/FA/FA16/20190226/108983/HHRG-116-FA16-Bio-R000599-20190226.pdf [search summary, primary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:raul-ruiz",
+      "label": "Education",
+      "text": "Graduated from UCLA; M.D., Harvard Medical School; M.P.P., Harvard Kennedy School; M.P.H., Harvard. (sources: Harvard Medical School https://hms.harvard.edu/news/congress-lens-physician [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Raul_Ruiz_(politician) [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:raul-ruiz",
+      "label": "Birthplace",
+      "text": "Born in Zacatecas, Mexico; raised in Coachella, California. (sources: Office of Rep. Raul Ruiz (house.gov) https://ruiz.house.gov/about/biography [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Raul_Ruiz_(politician) [search summary, secondary])",
+      "topic": "profile.birthplace"
+    },
+    {
+      "person": "person:joe-males",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/25 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-25-results [search summary, secondary]; Associated Press (via Journal-News) https://www.journal-news.com/nation-world/republican-joe-males-advances-to-the-general-election-for-u-s-house-in-californias-25th/article_84fe87eb-a8e0-55cc-9852-2b9e29b1f555.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:joe-males",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/25 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-25-results [search summary, secondary]; Associated Press (via Journal-News) https://www.journal-news.com/nation-world/republican-joe-males-advances-to-the-general-election-for-u-s-house-in-californias-25th/article_84fe87eb-a8e0-55cc-9852-2b9e29b1f555.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:joe-males",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/25 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-25-results [search summary, secondary]; Associated Press (via Journal-News) https://www.journal-news.com/nation-world/republican-joe-males-advances-to-the-general-election-for-u-s-house-in-californias-25th/article_84fe87eb-a8e0-55cc-9852-2b9e29b1f555.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:joe-males",
+      "label": "Hemet City Council",
+      "text": "Member of the Hemet City Council, District 4 (BallotReady lists the term as ending December 31, 2028). (sources: Cook Political Report https://www.cookpolitical.com/house/race/481941 [search summary, secondary]; BallotReady https://www.ballotready.org/people/joe-s-males [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:joe-males",
+      "label": "Military service",
+      "text": "U.S. Marine Corps veteran. (sources: NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/05/15/candidates-lay-out-key-issues-in-californias-25th-congressional-district-race [search summary, secondary])",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

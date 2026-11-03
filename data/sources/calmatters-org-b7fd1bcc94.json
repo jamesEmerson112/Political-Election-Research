@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calmatters-org-b7fd1bcc94",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2025-09-17",
+  "publisher": "CalMatters",
+  "title": "California Legislature leaves Bay Area transit bailout in limbo",
+  "url": "https://calmatters.org/commentary/2025/09/bay-area-transit-bailout-legislature/",
+  "notes": "Commentary column. Text read on 2026-11-03 through the site's WordPress REST API (post 475575). Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

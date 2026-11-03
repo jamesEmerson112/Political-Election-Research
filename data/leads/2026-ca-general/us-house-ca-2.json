@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-2",
+  "items": [
+    {
+      "person": "person:jared-huffman",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/republican-robin-littau-advances-to-the-general-election-for-u-s-house-in-californias-2nd/article_979af310-32eb-5a4b-8ef1-612735b153f1.html [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jared-huffman",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/republican-robin-littau-advances-to-the-general-election-for-u-s-house-in-californias-2nd/article_979af310-32eb-5a4b-8ef1-612735b153f1.html [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jared-huffman",
+      "label": "Ballot designation",
+      "text": "\"U.S. Representative\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/republican-robin-littau-advances-to-the-general-election-for-u-s-house-in-californias-2nd/article_979af310-32eb-5a4b-8ef1-612735b153f1.html [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jared-huffman",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/republican-robin-littau-advances-to-the-general-election-for-u-s-house-in-californias-2nd/article_979af310-32eb-5a4b-8ef1-612735b153f1.html [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jared-huffman",
+      "label": "U.S. Representative",
+      "text": "U.S. Representative for California's 2nd District since 2013; Ranking Member of the House Natural Resources Committee since 2025. (sources: House Natural Resources Committee Democrats (house.gov) https://democrats-naturalresources.house.gov/about/ranking-member-huffman [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Jared_Huffman [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jared-huffman",
+      "label": "Earlier offices",
+      "text": "Member of the California State Assembly, 2006 to 2012; member of the Marin Municipal Water District Board of Directors, 1995 to 2006. (sources: JoinCalifornia https://www.joincalifornia.com/candidate/6459 [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Jared_Huffman [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jared-huffman",
+      "label": "Career",
+      "text": "Senior attorney, Natural Resources Defense Council, 2001 to 2006. (sources: JoinCalifornia https://www.joincalifornia.com/candidate/6459 [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:jared-huffman",
+      "label": "Education",
+      "text": "B.A., University of California, Santa Barbara (1986); J.D., Boston College Law School. (sources: Office of Rep. Jared Huffman (archived house.gov page) https://www.webharvest.gov/congress113th/20141206033758/http://huffman.house.gov/about [search summary, primary]; Voteview (UCLA) https://voteview.com/person/21303/jared-huffman [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:robin-littau",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/republican-robin-littau-advances-to-the-general-election-for-u-s-house-in-californias-2nd/article_979af310-32eb-5a4b-8ef1-612735b153f1.html [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:robin-littau",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/republican-robin-littau-advances-to-the-general-election-for-u-s-house-in-californias-2nd/article_979af310-32eb-5a4b-8ef1-612735b153f1.html [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:robin-littau",
+      "label": "Ballot designation",
+      "text": "\"Enterprise Elementary School Board Member\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/republican-robin-littau-advances-to-the-general-election-for-u-s-house-in-californias-2nd/article_979af310-32eb-5a4b-8ef1-612735b153f1.html [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:robin-littau",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/republican-robin-littau-advances-to-the-general-election-for-u-s-house-in-californias-2nd/article_979af310-32eb-5a4b-8ef1-612735b153f1.html [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:robin-littau",
+      "label": "School board",
+      "text": "Member of the Enterprise Elementary School District board; BallotReady lists the term as ending December 31, 2028. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; BallotReady https://www.ballotready.org/people/robin-littau [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:robin-littau",
+      "label": "FEC registration",
+      "text": "Registered with the FEC as a 2026 House candidate for California District 2 (candidate ID H6CA02309); principal committee is Littau for Congress Campaign Committee. (sources: Federal Election Commission https://www.fec.gov/data/candidate/H6CA02309/?cycle=2026 [search summary, primary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

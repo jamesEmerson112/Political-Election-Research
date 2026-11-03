@@ -1,0 +1,551 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/sf-supervisor-district-10",
+  "items": [
+    {
+      "person": "person:theo-ellington",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Mission Local covers him as one of three candidates in its Q&A series; GrowSF and KQED list him (search summaries). (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:theo-ellington",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:theo-ellington",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): Public Policy Director. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:theo-ellington",
+      "label": "Occupation",
+      "text": "Mission Local profile (Oct. 2026), Job: \"Executive director, Ruth Williams Bayview Opera House. Policy director, Brownstein, public affairs director for the Golden State Warriors and the first director of homelessness initiatives and community development for The Salvation Army San Francisco.\" Mission Local (Oct. 27, 2026) also calls him \"a registered city lobbyist\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/10/san-francisco-district-10-chris-larsen-pac-ellington-brookter-eppler/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:theo-ellington",
+      "label": "Offices held",
+      "text": "No office found. Mission Local (Oct. 27, 2026): he \"ran for the seat once before in 2018 at age 29, but ultimately lost to Walton.\" (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-district-10-chris-larsen-pac-ellington-brookter-eppler/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:theo-ellington",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree in political science, Notre Dame de Namur University; master’s degree in urban affairs from the University of San Francisco.\" (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:theo-ellington",
+      "label": "Age",
+      "text": "Mission Local profile (Oct. 2026), Age: \"37\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:theo-ellington",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:theo-ellington",
+      "label": "Campaign website",
+      "text": "theoellington.com (Mission Local links https://www.theoellington.com/endorsements for his endorsements). (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Mission Local covers him in its Q&A series; GrowSF lists him as Dion-Jay (DJ) Brookter and a voter-pamphlet search summary shows Dionjay (DJ) Brookter (search summaries). (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary]; San Francisco Department of Elections https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): Community Organizer. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "Occupation",
+      "text": "Mission Local profile (Oct. 2026), Job: \"No current job, formerly chief executive officer at Young Community Developers\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree in speech communication, Utah State University, master’s degree in business administration, University of Phoenix\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "Age",
+      "text": "Mission Local profile (Oct. 2026), Age: \"43\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:dion-jay-dj-brookter",
+      "label": "Campaign website",
+      "text": "dj4d10.com (Mission Local links https://www.dj4d10.com/endorsements for his endorsements). (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Mission Local covers him in its Q&A series; GrowSF and KQED list him (search summaries). (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): Small Business Attorney. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "Occupation",
+      "text": "Mission Local profile (Oct. 2026), Job: \"Small business attorney\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "Offices held",
+      "text": "Not found on pages opened. A Wikipedia search summary describes him as a Board of Appeals commissioner (unconfirmed). (sources: Wikipedia https://en.wikipedia.org/wiki/2026_San_Francisco_Board_of_Supervisors_election [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from Stanford University, law degree from University of California, Los Angeles, MBA from University of California, Los Angeles\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "Age",
+      "text": "Mission Local profile (Oct. 2026), Age: \"46\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-10-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:j-r-eppler",
+      "label": "Campaign website",
+      "text": "jreppler.com (Mission Local links https://www.jreppler.com/endorsements for his endorsements). (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Mission Local (Oct. 1, 2026) names \"Pearci “PJ” Bastiany\" among forum candidates. Search summaries: GrowSF and the voter pamphlet add the suffix III to the name; an older sf.gov filing list shows the full name as Bastiany, Pearci Fitzgerald Randy, III. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-theo-ellington-district-10-forum-flock-billionaires/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary]; San Francisco Department of Elections https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): MPA Graduate Student. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "Occupation",
+      "text": "KQED lists him as an MPA graduate student and small business owner (search summary). (sources: KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "Education",
+      "text": "KQED and GrowSF list him as an MPA graduate student (search summary); no degree details seen. (sources: KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:pearci-pj-bastiany",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Mission Local (Oct. 1, 2026) names her among forum candidates; GrowSF, KQED and a voter-pamphlet search summary list her. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-theo-ellington-district-10-forum-flock-billionaires/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary]; San Francisco Department of Elections https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): Housing Advocate. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "Occupation",
+      "text": "KQED describes her as an emergency-housing case manager and advocate for children with disabilities (search summary). (sources: KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:deandra-bryant",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Mission Local (Oct. 1, 2026) names \"Shawn Richards\" among forum candidates; the sf.gov report (search summary) shows Shawn M. Richard, and GrowSF and KQED spell the surname Richard (search summaries). Spelling to confirm against the official list. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-theo-ellington-district-10-forum-flock-billionaires/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table leaves his label blank (search summary). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "Occupation",
+      "text": "KQED lists him as CEO and executive director, Brothers Against Guns; his GrowSF questionnaire says he founded Brothers Against Guns (search summaries). (sources: KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary]; GrowSF https://growsf.org/voter-guide/questionnaires/november-2026/shawn-richard/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:shawn-richard",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Not named on any Mission Local page opened. GrowSF and KQED list him (search summaries; GrowSF's table shows the shorter form Ell Jennison). (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): Union Carpenter. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "Occupation",
+      "text": "KQED lists him as a carpenter (search summary). (sources: KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ellsworth-ell-jennison-jr",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Not named on any Mission Local page opened. GrowSF and KQED list him (search summaries); an older sf.gov filing list shows him as Lin, Mike. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): Small Business Consultant. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "Occupation",
+      "text": "GrowSF lists him as a small business consultant (search summary). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mike-trouble-lin",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Not named on any Mission Local page opened. GrowSF and KQED list him (search summaries). (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary]; KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): Father. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "Occupation",
+      "text": "KQED lists him as CEO of We Got Winners Big Brother Program (search summary). (sources: KQED https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jamo-muhammad",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 6, 2026): \"Ten candidates are currently slated to appear on the November 2026 ballot\"; the sf.gov report (search summary) says 10 qualified. Not named on any Mission Local page opened. GrowSF's table lists her (search summary); KQED's list of nine does not. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says \"Supervisor Shamann Walton will relinquish his seat after eight years presiding over District 10\"; CivLab lists Walton as D10 Supervisor from 2023-01-08. (sources: Mission Local https://missionlocal.org/2026/08/district-10-meet-the-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's District 10 table label (search summary; may be the ballot designation, unconfirmed): Nurse / Legal Representative. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "Occupation",
+      "text": "GrowSF lists her as a nurse / legal representative (search summary). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-10-supervisor/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jessica-pessecow",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (Mission Local and CivLab pages opened; other items from web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information for this contest. Mission Local pages (read through the site's WordPress JSON API) and CivLab's SF graph data were opened, and text in quotation marks is copied verbatim from those pages. Items marked [search summary] were seen only in web search summaries: the San Francisco Department of Elections candidate report and voter pamphlet (www.sf.gov and media.api.sf.gov are blocked in this session), GrowSF, KQED, Wikipedia, Blue Voter Guide and Richmond Sunset News. Each item names its sources and how each was seen. Verify in a primary source before recording anything with citations."
+  }
+}

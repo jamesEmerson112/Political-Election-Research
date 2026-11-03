@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-26",
+  "items": [
+    {
+      "person": "person:jacqui-irwin",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/26 [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481946 [search summary, secondary]; Prediction Edge https://www.predictionedge.com/elections/profile/sam-gallucci/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jacqui-irwin",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/26 [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481946 [search summary, secondary]; Prediction Edge https://www.predictionedge.com/elections/profile/sam-gallucci/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jacqui-irwin",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/26 [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481946 [search summary, secondary]; Prediction Edge https://www.predictionedge.com/elections/profile/sam-gallucci/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jacqui-irwin",
+      "label": "California State Assembly",
+      "text": "Member of the California State Assembly since 2014: 44th District from 2014, 42nd District since 2022. (sources: California State Assembly Democratic Caucus (official Assembly bio) https://irwin.asmdc.org/biography [search summary, primary]; Ballotpedia https://ballotpedia.org/Jacqui_Irwin [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jacqui-irwin",
+      "label": "Thousand Oaks",
+      "text": "Elected to the Thousand Oaks City Council in 2004; served as mayor of Thousand Oaks. (sources: Jacqui Irwin campaign https://jacquiirwin.com/about-1 [search summary, primary]; CalMatters Digital Democracy https://calmatters.digitaldemocracy.org/legislators/jacqui-irwin-16 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jacqui-irwin",
+      "label": "Engineering",
+      "text": "Worked as a systems engineer at Johns Hopkins University and Teledyne. (sources: Change.org https://www.change.org/decision-makers/jacqui-irwin [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:jacqui-irwin",
+      "label": "Education",
+      "text": "B.S., Systems Engineering, University of California, San Diego (Vote Smart: 1980 to 1985). (sources: California State Assembly Democratic Caucus (official Assembly bio) https://a42.asmdc.org/biography [search summary, primary]; Vote Smart https://justfacts.votesmart.org/candidate/biography/70919/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:sam-gallucci",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/26 [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481946 [search summary, secondary]; Prediction Edge https://www.predictionedge.com/elections/profile/sam-gallucci/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sam-gallucci",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/26 [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481946 [search summary, secondary]; Prediction Edge https://www.predictionedge.com/elections/profile/sam-gallucci/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:sam-gallucci",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/26 [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/481946 [search summary, secondary]; Prediction Edge https://www.predictionedge.com/elections/profile/sam-gallucci/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sam-gallucci",
+      "label": "Occupation",
+      "text": "Pastor and former business executive (customer relationship management software); described by the Santa Clarita Valley Signal as business executive/pastor. (sources: The Signal (Santa Clarita Valley) https://signalscv.com/2026/05/the-signals-california-primary-preview-2/ [search summary, secondary]; Penguin Random House https://www.penguinrandomhouse.com/authors/75658/sam-gallucci [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:sam-gallucci",
+      "label": "Ministry",
+      "text": "Teaching director of Community Bible Study and on staff at Calvary Community Church, Westlake Village (per an author bio of unknown date). (sources: Penguin Random House https://www.penguinrandomhouse.com/authors/75658/sam-gallucci [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:sam-gallucci",
+      "label": "Education",
+      "text": "B.S., San Diego State University (single source). (sources: Prediction Edge https://www.predictionedge.com/elections/profile/sam-gallucci/ [search summary, secondary])",
+      "topic": "profile.education"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

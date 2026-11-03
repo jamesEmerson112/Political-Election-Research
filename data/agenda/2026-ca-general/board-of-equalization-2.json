@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/board-of-equalization-2",
+  "candidates": [
+    {
+      "person": "person:sally-j-lieber",
+      "name": "Sally J. Lieber"
+    },
+    {
+      "person": "person:john-pimentel",
+      "name": "John Pimentel"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:california-board-of-equalization-member",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Both candidates are Democrats. Designations are left null. One search summary attributed Member, Board of Trustees, San Mateo County Community College District to Pimentel on the general certified list, but another said that text came from the contact list and was not shown as the ballot designation. Lieber's primary-notice designation was reported as Member, State Board of Equalization, but her general-election designation was not seen. One primary notice placed Lieber under the District 1 heading, which conflicts with all other sources; the general-election documents consistently put her in District 2. Unofficial primary results gave Lieber about 56.7% and Pimentel about 15.5%. Gap: the search budget ran out before earlier offices (e.g., Lieber's prior Assembly or local service) and education could be researched."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

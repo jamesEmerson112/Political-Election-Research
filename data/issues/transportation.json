@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "transportation",
+  "name": "Transportation",
+  "description": "State transportation projects and funding.",
+  "questions": [
+    {
+      "id": "high-speed-rail-funding",
+      "added": "2026-11-02",
+      "area": "transportation",
+      "oppose_means": "Favors stopping or redirecting state funding for high-speed rail.",
+      "support_means": "Favors continued state funding for high-speed rail construction.",
+      "text": "Should the state continue funding construction of the California High-Speed Rail project?"
+    }
+  ],
+  "rejected_questions": []
+}

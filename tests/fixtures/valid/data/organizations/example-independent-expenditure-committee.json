@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/organization.schema.json",
+  "id": "example-independent-expenditure-committee",
+  "name": "Example Independent Expenditure Committee",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "other",
+  "links": {},
+  "org_type": "ie_committee",
+  "last_verified": "2030-11-01"
+}

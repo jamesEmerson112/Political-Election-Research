@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-16",
+  "candidates": [
+    {
+      "person": "person:sam-liccardo",
+      "name": "Sam Liccardo"
+    },
+    {
+      "person": "person:peter-sundin-soule",
+      "name": "Peter Sundin Soulé"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:us-representative-california",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Re-checked: the AP reported that Republican Peter Soulé advanced. Wikipedia and smarter.vote give primary results of Liccardo 75.6%, Soulé 10.8%, Kevin Johnson (R) 10.2%. Jotham Stein (D) had about 3.4% in Santa Clara County returns and did not advance; the Ballotpedia listing that paired Liccardo with Stein looks outdated. Spelling: the AP headline uses Peter Soulé (with the accent), and an FEC-style listing gives Peter Sundin Soule. The exact ballot-printed form has not been read verbatim from the SoS certified list, so verify it. Soulé ballot designation Investor comes from a search summary of the SoS certified list, not a verbatim read; verify. Liccardo birth: a reproduction of bioguide-style text says born in Saratoga, Santa Clara County, April 16, 1970; the bioguide page itself was not seen, so this is not recorded as a fact. Liccardo Harvard degrees come from Wikipedia/Ballotpedia only. Liccardo ballot designation not found."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

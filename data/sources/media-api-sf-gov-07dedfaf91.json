@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "media-api-sf-gov-07dedfaf91",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-05-12",
+  "publisher": "City and County of San Francisco, Office of the Controller, Budget and Analysis Division",
+  "title": "FY 2025-26 Nine-Month Budget Status Report",
+  "url": "https://media.api.sf.gov/documents/Nine-Month_Report_FY25-26_FINAL.pdf",
+  "notes": "Opened and quoted by a research agent on 2026-11-03 (sf-measures-fanout workflow); quotes checked against the document text."
+}

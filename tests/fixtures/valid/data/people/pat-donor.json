@@ -1,0 +1,9 @@
+{
+  "$schema": "../../../../../schemas/person.schema.json",
+  "id": "pat-donor",
+  "name": "Pat Donor",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2030-11-01"
+}

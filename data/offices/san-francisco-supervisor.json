@@ -1,0 +1,367 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "san-francisco-supervisor",
+  "name": "Member, San Francisco Board of Supervisors",
+  "body": "San Francisco Board of Supervisors",
+  "budget": {
+    "value": 16851826113,
+    "as_of": "FY 2026-27",
+    "basis": "2026-27 · Citywide budget, all funds (CivLab's total spending budget for San Francisco, fiscal year 2027). The Board adopts the citywide budget in the appropriation ordinance that the Mayor proposes.",
+    "citations": [
+      {
+        "source": "src:graph-civlab-org-a22054d88a",
+        "locator": "graph/sf.json · budget.totalSpendingBudget = 16851826113; departments' currentBudget.fiscalYear 2027; the page shows 'Total Budget' $16.85B for 2026-2027",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "computed from CivLab graph data"
+        }
+      }
+    ]
+  },
+  "connections": [
+    {
+      "type": "elected_by",
+      "count": 11,
+      "targets": [
+        "People of San Francisco"
+      ],
+      "text": "Elected by the People of San Francisco (11 seats)",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-f53b597122",
+          "locator": "graph/sf.json · 1 elects edge to ccsf-board-of-supervisors, seats from seatsAppointed",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    },
+    {
+      "type": "elects",
+      "targets": [
+        "President of the Board of Supervisors"
+      ],
+      "text": "Elects the President of the Board of Supervisors",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-f53b597122",
+          "locator": "graph/sf.json · 1 elects edge from ccsf-board-of-supervisors",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    },
+    {
+      "type": "appoints",
+      "bodies": 74,
+      "count": 403,
+      "targets": [
+        "Adult Day Health Care Planning Council",
+        "Assessment Appeals Board #1",
+        "Assessment Appeals Board #2",
+        "Assessment Appeals Board #3",
+        "Ballot Simplification Committee",
+        "Bayview Hunters Point Citizens Advisory Committee",
+        "Behavioral Health Commission",
+        "Bicycle Advisory Committee",
+        "Board of Appeals",
+        "Board of Supervisors, Clerk",
+        "Building Inspection Commission",
+        "Cannabis Oversight Committee",
+        "Capital Planning Committee",
+        "Child Care Planning and Advisory Council",
+        "Children and Families First Commission",
+        "Children, Youth and Their Families Oversight and Advisory Committee",
+        "Citizen's Committee on Community Development",
+        "Citizens' General Obligation Bond Oversight Committee",
+        "Close Juvenile Hall Working Group",
+        "Commission Streamlining Task Force",
+        "Commission of Animal Control and Welfare",
+        "Commission on Aging Advisory Council",
+        "Committee on City Workforce Alignment",
+        "Committee on Information Technology",
+        "Community Corrections Partnership",
+        "Disaster Council",
+        "Early Childhood Community Oversight and Advisory Committee",
+        "Elections Commission",
+        "Elections Task Force",
+        "Entertainment Commission",
+        "Ethics Commission",
+        "Family Violence Council",
+        "Food Security Task Force",
+        "Free City College Oversight Committee",
+        "Graffiti Advisory Board",
+        "Health Service Board",
+        "Homelessness Oversight Commission",
+        "Housing Stability Fund Oversight Board",
+        "Immigrant Rights Commission",
+        "In-Home Supportive Services Public Authority",
+        "Inclusionary Housing Technical Advisory Committee",
+        "Industrial Development Authority Board",
+        "Juvenile Justice Coordinating Council",
+        "Market and Octavia Community Advisory Committee",
+        "Mental Health SF Implementation Working Group",
+        "Mission Bay Transportation Improvement Fund Advisory Committee",
+        "Municipal Transportation Agency Citizens' Advisory Council",
+        "Our City, Our Home Oversight Committee",
+        "Paratransit Coordinating Council",
+        "Park, Recreation, and Open Space Advisory Committee",
+        "Permit Prioritization Task Force",
+        "Planning Commission",
+        "Police Commission",
+        "Public Utilities Citizen's Advisory Committee",
+        "Public Utilities Rate Fairness Board",
+        "Public Utilities Revenue Bond Oversight Committee",
+        "Public Works Commission",
+        "Reentry Council",
+        "Retirement Board",
+        "SOMA Community Stabilization Fund Community Advisory Committee",
+        "Sanitation and Streets Commission",
+        "Sentencing Commission",
+        "Sheriff's Department Oversight Board",
+        "Small Business Commission",
+        "South of Market Community Planning Advisory Committee",
+        "State Legislation Committee",
+        "Sugary Drinks Distributor Tax Advisory Committee",
+        "Sunshine Ordinance Task Force",
+        "Sweatfree Procurement Advisory Group",
+        "Transbay Joint Powers Authority Board",
+        "Treasure Island/Yerba Buena Island Citizens Advisory Board",
+        "Urban Forestry Council",
+        "Veterans' Affairs Commission",
+        "Youth Commission"
+      ],
+      "text": "Appoints 403 seats on 74 boards, commissions and other posts",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-f53b597122",
+          "locator": "graph/sf.json · 156 appoints edges from ccsf-board-of-supervisors; seats summed from seatsAppointed; bodies grouped by metadata.advisory_entity / commission, else the target node",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    },
+    {
+      "type": "confirms",
+      "text": "Confirms mayoral appointments",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-f53b597122",
+          "quote": "It approves budgets, oversees city departments, and confirms mayoral appointments.",
+          "locator": "node description"
+        }
+      ]
+    },
+    {
+      "type": "oversees",
+      "text": "Oversees city departments",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-f53b597122",
+          "quote": "It approves budgets, oversees city departments, and confirms mayoral appointments.",
+          "locator": "node description"
+        }
+      ]
+    },
+    {
+      "type": "advised_by",
+      "count": 5,
+      "targets": [
+        "Commission Streamlining Task Force",
+        "Family Violence Council",
+        "Sunshine Ordinance Task Force",
+        "Veterans' Affairs Council",
+        "Youth Commission"
+      ],
+      "text": "Advised by 5 bodies",
+      "citations": [
+        {
+          "source": "src:graph-civlab-org-f53b597122",
+          "locator": "graph/sf.json · 5 advises edges to ccsf-board-of-supervisors",
+          "unverified": {
+            "by": "import:civlab",
+            "date": "2026-11-03",
+            "method": "computed from CivLab graph data"
+          }
+        }
+      ]
+    }
+  ],
+  "constituents": {
+    "value": 79451,
+    "as_of": "2020",
+    "basis": "2020 Census count for San Francisco (873,965) divided by 11 supervisorial districts. The Redistricting Task Force used an adjusted redistricting total of 874,933 and reported an ideal of 79,545 per district.",
+    "citations": [
+      {
+        "source": "src:census-gov-04cd8cba0a",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:sf-gov-c208064ffa",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "City and County of San Francisco",
+  "legal_basis": {
+    "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_charter/0-0-0-25",
+    "citations": [
+      {
+        "source": "src:graph-civlab-org-f53b597122",
+        "locator": "graph/sf.json · ccsf-board-of-supervisors.legalSourceUrl",
+        "unverified": {
+          "by": "import:civlab",
+          "date": "2026-11-03",
+          "method": "computed from CivLab graph data"
+        }
+      }
+    ]
+  },
+  "level": "local",
+  "links": {
+    "civlab": "https://graph.civlab.org/sf/elected/ccsf-board-of-supervisors",
+    "official_site": "https://sfbos.org/"
+  },
+  "powers": {
+    "value": "The Board is the legislative branch of the City and County: it introduces and adopts ordinances and resolutions through committees, and it adopts the city's budget (appropriation) and salary ordinances after the Mayor proposes them. Under Charter section 1.101, powers not given to another officer or body are reserved to the Board.",
+    "citations": [
+      {
+        "source": "src:sf-gov-f411b416ef",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:sfbos-org-f282dc66fa",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 175370,
+    "as_of": "FY 2025-26",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-4812a31d16",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:media-api-sf-gov-882ff69114",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 11,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:sf-gov-c208064ffa",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:cbsnews-com-94bcc58a5b",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "Two four-year terms in a lifetime, whether or not consecutive (Proposition B, approved June 2, 2026). Before that, Charter section 2.101 barred more than two successive four-year terms, with a four-year wait before returning; a partial term of more than two years counts as a full term. A transition clause lets sitting supervisors, and those elected June 2, 2026, finish their current term.",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-0ccf7b032a",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:growsf-org-80069c675f",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:missionlocal-org-947a9f876c",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:localnewsmatters-org-42fb834bad",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-0ccf7b032a",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:sfcityattorney-org-1b2146e583",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "Budget and Appropriations Committee chair: Connie Chan has chaired the committee since February 2023 (sf.gov About District 1, primary, search summary). Its 2026 members were Chan, Dorsey, Sauter, Walton and Mandelman (sfbos agenda bac061026, primary). The Mayor's proposed two-year budget and the Annual Appropriation Ordinance for FY 2026-27 and 2027-28 were received June 1, 2026 and assigned to the committee. The committee holds department hearings and public comment, negotiates changes with the Mayor's office, and sends a recommended budget to the full Board. Per news summaries, the June 2026 committee deal reversed about $28.5M of proposed cuts (SFist, June 26, 2026), and the Board President credited the Budget Chair with the negotiation. Charter section 2.100 has the Civil Service Commission set supervisor pay every five years, with CPI-U annual adjustments capped at 5%. The May 18, 2026 materials propose $180,128 for FY 2026-27 (+2.7%, effective July 1, 2026); I found no record of the final vote. An opinion column gave $170,430 as of July 2024. BUDGET: the record now uses CivLab's FY 2026-27 total ($16,851,826,113); it replaced $15.9B for FY 2025-26 (Axios and ABC7, search summaries). CONFLICTS: The FY 2026-27 budget was reported as $16.9B, approved unanimously July 21, 2026 (GrowSF citing the SF Chronicle, secondary, unverified). In 2025 Axios reported the plan as $16.3B for 2026-27. Board file o0190-24 (the prior cycle) showed about $15.57B for FY 2025-26. Prop B (June 2026) reportedly passed with about 53% (Mission Local). Mission Local reports that some attorneys say November 2026 Prop A could undo it; the City Attorney says Prop A does not change term limits. A June 30, 2026 Board resolution (file 260753) reportedly declared the results; I did not see it. Seat count of 11 is implied by the redistricting materials, not quoted. Scott Wiener's 2011-2016 tenure comes from the maintainer and was not re-verified. CivLab (graph.civlab.org/sf, read 2026-11-03 with npm run import:civlab) supplied the connections, legal basis and official site, and its citywide total budget for 2026-2027 corroborates the $16.9B report. Its counts are unverified until checked against the SF Charter (codelibrary.amlegal.com, not reachable from this session)."
+}

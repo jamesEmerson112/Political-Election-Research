@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calmatters-org-0cebc484e8",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2023-06-27",
+  "publisher": "CalMatters",
+  "title": "What you need to know on the California budget deal",
+  "url": "https://calmatters.org/politics/2023/06/california-budget-deal-what-you-need-to-know/",
+  "notes": "Article text read on 2026-11-03 through the site's WordPress REST API (post 304873). Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

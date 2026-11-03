@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../../../schemas/budget.schema.json",
+  "id": "exampleville",
+  "name": "City of Exampleville budget",
+  "adopted": [
+    {
+      "basis": "Budget and Appropriation Ordinance, FY2030-31: all funds and General Fund.",
+      "fy": "2030-31",
+      "general_fund_usd": 1100000000,
+      "total_usd": 2400000000,
+      "citations": [
+        {
+          "source": "src:council-exampleville-example-gov-39f2726d96",
+          "quote": "Total budget: $2.4 billion, of which $1.1 billion is General Fund."
+        }
+      ]
+    }
+  ],
+  "forecast": {
+    "published": "2030-03-14",
+    "publisher": "Exampleville Controller",
+    "title": "Five-Year Financial Plan Update",
+    "years": [
+      {
+        "amount_usd": 60000000,
+        "direction": "shortfall",
+        "fy": "2031-32",
+        "citations": [
+          {
+            "source": "src:controller-exampleville-example-gov-ff1e47e66a",
+            "quote": "a projected shortfall of $60 million in FY2031-32"
+          }
+        ]
+      },
+      {
+        "amount_usd": 95000000,
+        "direction": "shortfall",
+        "fy": "2032-33",
+        "citations": [
+          {
+            "source": "src:controller-exampleville-example-gov-ff1e47e66a",
+            "quote": "$95 million in FY2032-33"
+          }
+        ]
+      },
+      {
+        "amount_usd": 130000000,
+        "direction": "shortfall",
+        "fy": "2033-34",
+        "citations": [
+          {
+            "source": "src:controller-exampleville-example-gov-ff1e47e66a",
+            "quote": "$130 million in FY2033-34"
+          }
+        ]
+      }
+    ]
+  },
+  "jurisdiction": "City of Exampleville",
+  "last_verified": "2030-11-01"
+}

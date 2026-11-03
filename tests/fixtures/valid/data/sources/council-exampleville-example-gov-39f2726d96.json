@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "council-exampleville-example-gov-39f2726d96",
+  "kind": "government_record",
+  "accessed": "2030-11-01",
+  "archive_url": "https://web.archive.org/web/20301016120000/https://council.exampleville.example.gov/files/budget-2030-31",
+  "published": "2030-07-20",
+  "publisher": "City of Exampleville",
+  "title": "Budget and Appropriation Ordinance, FY2030-31",
+  "url": "https://council.exampleville.example.gov/files/budget-2030-31"
+}

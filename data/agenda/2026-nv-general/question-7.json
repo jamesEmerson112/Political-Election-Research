@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "measure",
+  "contest": "contest:2026-nv-general/question-7",
+  "candidates": [],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Placeholder seeded 2026-11-03. \"STATE QUESTION NO. 7\" is listed for the November 3, 2026 general election in All Ballot Questions, General Election, November 3, 2026, Including Boulder City Questions (Clark County Election Department, https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:e74294d7-218d-41cc-995f-0e16bc0a9e1f/original/as/all-quests-26g.pdf, src:clarkcountynv-gov-384ac2c752): \"STATE QUESTION NO. 7 Amendment to the Nevada Constitution Initiative Petition C-02-2023 Should the Nevada Constitution be amended to require voters to either present photo identification to verify their identity when voting in-person or to provide certain personal information to verify their identity when voting by mail ballot?\". Covers all of Las Vegas (Statewide question: Clark County's Facts and Figures for the November 3, 2026, General Election (https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:912d393b-be95-46a9-81f0-76326555ef45/original/as/facts-26g.pdf) gives 'Number of Ballot Questions: 4 (2 state questions and 2 Boulder City questions)'.). Candidates and questions are not set yet; seed them from the certified list before research."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

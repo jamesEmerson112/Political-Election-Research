@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "growsf-org-80069c675f",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "GrowSF",
+  "title": "Prop B annotated legal text (June 2026)",
+  "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-june-2026-election/prop-b-legal-text",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "assembly-ca-gov-dc86b58c8b",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Assembly",
+  "title": "Assembly roster (updated Dec. 1, 2025)",
+  "url": "https://www.assembly.ca.gov/media/2709",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

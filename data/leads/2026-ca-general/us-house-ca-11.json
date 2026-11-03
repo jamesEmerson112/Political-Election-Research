@@ -1,0 +1,713 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-11",
+  "items": [
+    {
+      "person": "person:connie-chan",
+      "label": "Family background",
+      "text": "Her mother studied at City College and worked as a claims processor at Chinese Hospital. (source [2]: https://www.conniechansf.com/about)",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Family background",
+      "text": "The son of a small-business owner and a teacher, Wiener attended public school. (source [3]: https://sd11.senate.ca.gov/biography)",
+      "topic": "other"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Earlier career (roles not specified)",
+      "text": "Chan’s earlier work included Chinese-language interpretation and roles with Sophie Maxwell, Kamala Harris, and Aaron Peskin. (source [2]: https://www.conniechansf.com/about)",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Housing | Different approaches",
+      "text": "Emphasizes public and subsidized housing, vouchers, tenant protections, and repealing the Faircloth limit. (source [4]: https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district/)",
+      "topic": "q:housing/transit-oriented-upzoning"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Housing | Different approaches",
+      "text": "Emphasizes more construction, faster approvals, renter protections, and a national goal of 8 million homes. (source [4]: https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district/)",
+      "topic": "q:housing/transit-oriented-upzoning"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "AI safeguards | Different approaches",
+      "text": "Supports federal rules, worker input, creator compensation, and independent review of high-risk uses. (source [4]: https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district/)",
+      "topic": "q:ai/frontier-ai-safety-disclosure"
+    },
+    {
+      "person": "person:connie-chan",
+      "hint": "support",
+      "label": "California Proposition 40 | Different stance",
+      "text": "Supports the state billionaire-tax measure. (source [17]: https://missionlocal.org/2026/09/sf-congress-candidates-november-ballot-measures/)",
+      "topic": "contest:2026-ca-general/prop-40"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "oppose",
+      "label": "California Proposition 40 | Different stance",
+      "text": "Opposes the state billionaire-tax measure. (source [17]: https://missionlocal.org/2026/09/sf-congress-candidates-november-ballot-measures/)",
+      "topic": "contest:2026-ca-general/prop-40"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Remaining evidence gaps",
+      "text": "Specific H-1B annual caps, salary floors, and outsourcing restrictions are not established for either candidate in the reviewed sources. (notes §7; no source given)",
+      "topic": "q:immigration/expand-skilled-work-visas"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Remaining evidence gaps",
+      "text": "Specific H-1B annual caps, salary floors, and outsourcing restrictions are not established for either candidate in the reviewed sources. (notes §7; no source given)",
+      "topic": "q:immigration/expand-skilled-work-visas"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Remaining evidence gaps",
+      "text": "Campaign-finance amounts and independent expenditures have not been added to this dataset. (notes §7; no source given)",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Remaining evidence gaps",
+      "text": "Campaign-finance amounts and independent expenditures have not been added to this dataset. (notes §7; no source given)",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Remaining evidence gaps",
+      "text": "Campaign-finance amounts and independent expenditures have not been added to this dataset. (notes §7; no source given)",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Remaining evidence gaps",
+      "text": "Campaign-finance amounts and independent expenditures have not been added to this dataset. (notes §7; no source given)",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Remaining evidence gaps",
+      "text": "This file does not independently estimate effects on homebuilding, rents, jobs, AI safety, or program beneficiaries. (notes §7; no source given)",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Remaining evidence gaps",
+      "text": "This file does not independently estimate effects on homebuilding, rents, jobs, AI safety, or program beneficiaries. (notes §7; no source given)",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Took office",
+      "text": "Took office as District 1 Supervisor on Jan 8, 2021; current term Jan 8, 2025 to Jan 8, 2029: https://sf.gov/profile/connie-chan and https://www.sfbos.org/supervisor-chan-01242021-newsletter (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Took office",
+      "text": "Sworn in as State Senator on Dec 5, 2016, the day he resigned as supervisor: https://sfbos.org/sites/default/files/r0486-16.pdf (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Previous offices",
+      "text": "San Francisco Supervisor, District 8, Jan 8, 2011 (start date secondary) to Dec 5, 2016: https://sfbos.archive.sf.gov/former-supervisor-scott-wiener (web search summary, page not opened)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:connie-chan",
+      "hint": "support",
+      "label": "Work visas (Mission Local survey)",
+      "text": "Backs expanding work visas with fair wages, strong labor protections and the freedom to change employers; frames the question as whether policy serves workers and families rather than corporations. (sources: Mission Local https://missionlocal.org/2026/10/congressional-candidates-work-visas-green-card/ [search summary, secondary]; October 2026 candidate survey)",
+      "topic": "q:immigration/expand-skilled-work-visas"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Work visas (Mission Local survey)",
+      "text": "Calls multi-year or multi-decade green-card waits ridiculous; says the system needs reform and that pathways to a green card must expand. His answer on work visas was cut off in the search summary. (sources: Mission Local https://missionlocal.org/2026/10/congressional-candidates-work-visas-green-card/ [search summary, secondary]; October 2026 candidate survey)",
+      "topic": "q:immigration/expand-skilled-work-visas"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Principal campaign committee",
+      "text": "Principal campaign committee: CONNIE CHAN FOR CONGRESS, FEC committee ID C00927558, with FEC coverage beginning November 20, 2025. FEC candidate ID: H6CA11268 (CHAN, CONNIE; Democratic Party; House, California District 11; open seat). A May 2026 FEC filing PDF also lists the committee under C00927558 for CA House District 11. (sources: FEC https://www.fec.gov/data/committee/C00927558/ [search summary, primary]; FEC https://www.fec.gov/data/candidate/H6CA11268/ [search summary, primary]; FEC (docquery filing PDF) https://docquery.fec.gov/pdf/751/202605249870275751/202605249870275751.pdf [search summary, primary])",
+      "topic": "committee"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Leadership PAC / joint fundraising committee",
+      "text": "No leadership PAC or joint fundraising committee affiliated with Connie Chan was found in searches (see search_log). (sources: FEC https://www.fec.gov/data/committee/C00927558/ [search summary, primary])",
+      "topic": "committee"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Totals through Oct 14, 2026 (FEC summary)",
+      "text": "Per the FEC candidate overview, Connie Chan for Congress reported total receipts of $2,404,664.18 (individual contributions $2,147,688.34; other committee contributions $253,500.00), total disbursements of $1,822,859.27 and ending cash on hand of $581,804.91, with no debts or loans owed, for coverage November 20, 2025 through October 14, 2026. The October 14 coverage end matches the 2026 Pre-General report period (Oct 1 to Oct 14, 2026, due Oct 22, 2026); the report type itself was not visible in the search summary. (sources: FEC https://www.fec.gov/data/candidate/H6CA11268/ [search summary, primary]; FEC https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/preg-report-notice-congressional-committees-2026/ [search summary, primary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Stale committee-page snapshot (through June 30, 2026)",
+      "text": "The FEC committee page for C00927558 showed an older snapshot covering Nov. 20, 2025 to June 30, 2026: receipts of $1,094,321.06, ending cash on hand of $362,084.64 and debts of $25,000.00. Mission Local reported Chan raised just over $441,000 from May 14 to June 30, 2026, and had $362,000 cash on hand at June 30. (sources: FEC https://www.fec.gov/data/committee/C00927558/ [search summary, primary]; Mission Local https://missionlocal.org/2026/07/san-francisco-congress-wiener-chan-money/ [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Earlier report: Q3 2026 cash on hand (news report)",
+      "text": "Mission Local reported that Chan and Wiener each had about $843,000 left to spend, apparently as of the Sept. 30, 2026 quarterly report (date not visible in the summary); an FEC figure for Chan's Sept. 30 cash was not found. The San Francisco Examiner reported Chan raised more from July to September than in the prior seven months. Mission Local, October 2026, reported Chan's total raised as $2.2 million. (sources: Mission Local https://missionlocal.org/?p=877432 [search summary, secondary]; Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; San Francisco Examiner https://www.sfexaminer.com/news/politics/wiener-grows-cash-lead-in-d11-race-chan-contributions-jump/article_9c204bb4-5302-4641-9547-8c93e77dd3f9.html [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "PAC and organizational contributions",
+      "text": "FEC summary: $253,500.00 from other committees through Oct. 14, 2026. Named PAC contributions found: Nancy Pelosi's campaign committee gave $4,000 and PAC to the Future, a committee Pelosi sponsors, gave $10,000 (late June 2026, per Mission Local citing filings). Mission Local reported most of Chan's PAC support comes from labor unions, and that unions are limited to $5,000 per election to her campaign committee. No ranked list of top PAC contributors was found. (sources: FEC https://www.fec.gov/data/candidate/H6CA11268/ [search summary, primary]; Mission Local https://missionlocal.org/?p=860782 [search summary, secondary]; Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; Mission Local https://missionlocal.org/2026/05/connie-chan-labor-congress/ [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Lobbyist donors and AIPAC-related statements",
+      "text": "Mission Local, October 2026, reported Chan received at least $15,250 from 17 donors with federal lobbying records, and that the campaign said it would return $3,500 from a pharmaceutical lobbyist. J. The Jewish News of Northern California reported that Chan's campaign said it had not received contributions from AIPAC or DMFI. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; J. The Jewish News of Northern California https://jweekly.com/2026/06/01/aipac-didnt-fund-connie-chan-heres-what-actually-happened/ [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Contributions grouped by employer",
+      "text": "No employer-grouped breakdown of Connie Chan's contributions (e.g., OpenSecrets) was found; this needs FEC itemized receipts (Schedule A) for C00927558. (sources: FEC https://www.fec.gov/data/committee/C00927558/ [search summary, primary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Outside spending aggregate (news report)",
+      "text": "Mission Local reported in October 2026 that pro-Chan PACs had spent about $940,000 supporting Chan and about $260,000 opposing Wiener, versus about $3.3 million supporting Wiener and about $1.7 million opposing Chan. Mission Local also reported Chan was backed by at least $1.1 million per campaign filings and labor consultant David Ho, of which about $650,000 was raised for a pro-Chan PAC, almost all from unions. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; Mission Local https://missionlocal.org/?p=877432 [search summary, secondary]; Mission Local https://missionlocal.org/2026/05/connie-chan-labor-congress/ [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "SF for All (supports Chan)",
+      "text": "SF for All, a union-funded pro-Chan independent expenditure committee (San Francisco Labor Council president Mike Casey reported as working on it), was described by Mission Local in October 2026 as the largest pro-Chan group, with $575,000 spent since the June primary supporting Chan and opposing Wiener, and $802,000 cash on hand at the end of August. Legis1 (aggregator) reported $1.33 million total, including $1.14 million supporting Chan and $186,000 opposing Wiener and Chakrabarti. FEC committee ID not found. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; Mission Local https://missionlocal.org/?p=877432 [search summary, secondary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/california-11th-congressional-district-2026 [search summary, secondary]; Mission Local https://missionlocal.org/2026/05/connie-chan-labor-congress/ [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "SF Solidarity PAC (supports Chan)",
+      "text": "SF Solidarity PAC, Saikat Chakrabarti's former candidate committee converted to a PAC after the June 2026 primary, supports Chan. Mission Local and the San Francisco Examiner reported $425,000 spent in June 2026 on canvassing aimed at Chakrabarti's primary voters; Legis1 (earlier cutoff) listed $178,310.30. Mission Local reported Chakrabarti said he would support Chan through Election Day with no spending limit. FEC committee ID not found. (sources: Mission Local https://missionlocal.org/2026/06/san-francisco-saikat-chakrabarti-pac/ [search summary, secondary]; San Francisco Examiner https://www.sfexaminer.com/news/politics/centimillionaire-chakrabarti-to-fund-operation-backing-chan/article_f102e526-276f-4ed7-8d19-3d5224fe9dfe.html [search summary, secondary]; KQED https://www.kqed.org/news/12087620/saikat-chakrabarti-launches-campaign-to-support-connie-chans-bid-for-congress [search summary, secondary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/rising-tide-collective-financial-snapshot [search summary, secondary]; Mission Local https://missionlocal.org/2026/06/chakrabarti-support-chan-through-election-day-no-spending-limit/ [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Pro-Choice Majority Action / EDW Action (supports Chan)",
+      "text": "Pro-Choice Majority Action, created May 1, 2026 and legally affiliated with EDW Action Fund, spent about $475,000 on ads for Chan in the last 10 days before the June 2, 2026 primary (Mission Local). Mission Local reported DMFI gave $22,500 to EDW Action Fund on April 13, 2026, and that it was unclear whether any of that money reached Pro-Choice Majority Action; the PAC's spokesperson denied being an AIPAC front, and J. The Jewish News of Northern California reported AIPAC did not fund Chan directly. KQED reported EDW Action spent in Chan's favor. General-election (Sept to Nov) amounts for these committees were not found. (sources: Mission Local https://missionlocal.org/2026/05/san-francisco-connie-chan-israel-aipac-congress/ [search summary, secondary]; Mission Local https://missionlocal.org/?p=853632 [search summary, secondary]; J. The Jewish News of Northern California https://jweekly.com/2026/06/01/aipac-didnt-fund-connie-chan-heres-what-actually-happened/ [search summary, secondary]; KQED https://www.kqed.org/news/12080294/big-money-pours-into-san-francisco-race-to-replace-rep-nancy-pelosi [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Working Families for San Francisco and Rising Tide Collective (support Chan)",
+      "text": "Working Families for San Francisco, an independent-expenditure-only committee primarily funded by labor unions (FEC page C00945303 appeared for this search; identity not confirmed), supports Chan; Legis1 listed $206,845.20 in spending, The Gazetteer SF reported $72,000 on canvassing, and Mission Local reported about $350,000 by mid-April 2026. Rising Tide Collective: Legis1 lists a $100,000 expenditure supporting Chan on May 22, 2026, while Mission Local reported $100,000 against Wiener in September 2026; funders not disclosed. (sources: FEC https://www.fec.gov/data/committee/C00945303/?cycle=2026 [search summary, primary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/rising-tide-collective-financial-snapshot [search summary, secondary]; The Gazetteer SF https://sf.gazetteer.co/scott-wieners-super-pac-is-a-dark-money-mess [search summary, secondary]; Mission Local https://missionlocal.org/?p=877432 [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Groups opposing Chan (news reports)",
+      "text": "Committees reported as spending to oppose Chan: Abundant Future ($1.58 million opposing Chan per Legis1, earlier period) and GrowUSA ($1.38 million opposing Chan per Legis1). An FEC Schedule E 24/48-hour report PDF filed around Sept. 29 to 30, 2026 also references Chan, Connie with amounts including $624,025.85 and $550.00 (payee Polaris Campaigns; filer and support/oppose not visible in the summary). Mission Local's October aggregate: about $1.7 million spent opposing Chan. (sources: Legis1 (campaign-finance aggregator) https://legis1.com/news/scott-wiener-ca-11-hrc-equality-votes-pac-puts-1m [search summary, secondary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/california-11th-congressional-district-2026 [search summary, secondary]; FEC (docquery, Schedule E 24/48-hour report) https://docquery.fec.gov/pdf/157/202609309908498157/202609309908498157.pdf [search summary, primary]; Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Principal campaign committee",
+      "text": "Principal campaign committee: SCOTT WIENER FOR CONGRESS, FEC committee ID C00909283, listed by the FEC as an active quarterly-filing House principal campaign committee with a registration date of June 27, 2025. FEC candidate ID: H8CA11116 (WIENER, SCOTT; Democratic Party; House, California District 11; open seat). (sources: FEC https://www.fec.gov/data/committee/C00909283/ [search summary, primary]; FEC https://www.fec.gov/data/candidate/H8CA11116/ [search summary, primary])",
+      "topic": "committee"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Candidate ID prefix and earlier exploratory committee",
+      "text": "The H8 prefix of candidate ID H8CA11116 is consistent with NBC Bay Area's report that Wiener's initial federal filing named 2028 as the election year; an FEC Form 2 (statement of candidacy) for H8CA11116 appears on docquery. Before the 2026 campaign, Wiener ran a congressional exploratory committee from 2023: the San Francisco Standard reported more than $820,000 raised from 616 donors in the first half of 2023, and ProPublica's 527 Explorer lists a Scott Wiener Congressional Exploratory Committee with $933,920 in all-time contributions. Whether that committee was FEC- or IRS-registered, and how much was transferred to C00909283, was not found. (sources: NBC Bay Area https://www.nbcbayarea.com/news/local/scott-wiener-files-paperwork-run-for-congress/3903185/?amp=1 [search summary, secondary]; FEC (docquery, Form 2) https://docquery.fec.gov/cgi-bin/forms/H8CA11116/1923336 [search summary, primary]; San Francisco Standard https://sfstandard.com/2023/07/14/scott-wiener-raises-820k-nancy-pelosis-future-in-congress-remains-election/ [search summary, secondary]; ProPublica 527 Explorer https://projects.propublica.org/527-explorer/orgs/922601449 [search summary, secondary]; San Francisco Standard https://sfstandard.com/2025/06/27/nancy-pelosi-scott-wiener-congress-election-san-francisco/ [search summary, secondary])",
+      "topic": "committee"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Leadership PAC / joint fundraising committee",
+      "text": "No leadership PAC or joint fundraising committee affiliated with Scott Wiener was found in searches (see search_log). Separately, a committee named WIENER FOR CONGRESS COMMITTEE (C00293712) appeared in FEC search results; its older ID series suggests it is unrelated to Scott Wiener and should not be confused with C00909283 (unverified). (sources: FEC https://www.fec.gov/data/committee/C00909283/ [search summary, primary])",
+      "topic": "committee"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Totals through Oct 14, 2026 (FEC summary)",
+      "text": "Per the FEC candidate and committee summary pages, Scott Wiener for Congress reported total receipts of $5,808,855.03, total disbursements of $5,198,326.16, ending cash on hand of $611,039.24 and debts owed by the committee of $110,145.09, for coverage January 1, 2023 through October 14, 2026. The October 14 coverage end matches the 2026 Pre-General report period (Oct 1 to Oct 14, 2026, due Oct 22, 2026); the report type itself was not visible in the search summary. Per the committee summary, contributions totaled about $5.72 million, of which about $5.56 million came from individuals and about $155,000 from other committees. (sources: FEC https://www.fec.gov/data/candidate/H8CA11116/ [search summary, primary]; FEC https://www.fec.gov/data/committee/C00909283/ [search summary, primary]; FEC https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/preg-report-notice-congressional-committees-2026/ [search summary, primary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "2026-cycle view of FEC totals (conflicting figure)",
+      "text": "The FEC candidate page filtered to the 2026 cycle showed total receipts of $5,572,655.63, with about $146,000 from other committees; another FEC page snapshot showed about $3.88 million in individual contributions and about $63,000 from other committees. These differ from the $5,808,855.03 figure covering Jan 1, 2023 to Oct 14, 2026, likely because of different cycle windows and snapshot dates (unverified). (sources: FEC https://www.fec.gov/data/candidate/H8CA11116/?cycle=2026 [search summary, primary]; FEC https://www.fec.gov/data/candidate/H8CA11116/ [search summary, primary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Earlier report: Q3 2026 cash on hand",
+      "text": "The FEC candidate profile listed ending cash on hand of $843,077.12, which Mission Local reported as about $843,000 left to spend, roughly equal to Connie Chan's amount; this appears to be the October Quarterly figure (through Sept 30, 2026), but the coverage date was not visible in the search summary. Mission Local, October 2026, reported Wiener's total raised as $5.3 million versus Chan's $2.2 million. (sources: FEC https://www.fec.gov/data/candidate/H8CA11116/?cycle=2026 [search summary, primary]; Mission Local https://missionlocal.org/?p=877432 [search summary, secondary]; Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Earlier report: July Quarterly 2026",
+      "text": "The July 2026 Quarterly Form 3 for Scott Wiener for Congress (coverage May 14 to June 30, 2026, signed July 15, 2026) showed about $600,000 in receipts and about $646,000 in disbursements for the period and about $1.24 million cash on hand at period end. Mission Local reported Wiener raised $571,000 in that period. (sources: FEC (docquery, Form 3) https://docquery.fec.gov/cgi-bin/forms/C00909283/1997645 [search summary, primary]; Mission Local https://missionlocal.org/2026/07/san-francisco-congress-wiener-chan-money/ [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Early fundraising (news reports)",
+      "text": "The San Francisco Standard reported that Wiener's campaign raised about $730,000 in the first day after his October 22, 2025 announcement, in addition to about $1 million raised earlier through his exploratory committee. (sources: San Francisco Standard https://sfstandard.com/2025/10/24/scott-wiener-raises-730k-first-day-campaign-nancy-pelosi/ [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "PAC and organizational contributions",
+      "text": "No itemized list of the largest PAC or organizational contributors to Scott Wiener for Congress was found; FEC summaries put receipts from other committees at roughly $63,000 to $155,000 depending on page and window (see conflicts in notes). The San Francisco Examiner reported the campaign said it would not accept money from AIPAC or corporate PACs, and that Wiener has drawn support from labor groups including unions for government employees, carpenters and health-care workers (support type not specified in the summary). (sources: FEC https://www.fec.gov/data/committee/C00909283/ [search summary, primary]; FEC https://www.fec.gov/data/candidate/H8CA11116/?cycle=2026 [search summary, primary]; San Francisco Examiner https://www.sfexaminer.com/news/politics/wiener-grows-cash-lead-in-d11-race-chan-contributions-jump/article_9c204bb4-5302-4641-9547-8c93e77dd3f9.html [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Contributions grouped by employer (tracker data)",
+      "text": "The Transformer election-donations tracker lists 33 contributions totaling $98,950 from employees of Anthropic and 19 contributions totaling $53,050 from employees of OpenAI to Scott Wiener For Congress. Mission Local reported Wiener received hundreds of thousands of dollars from workers at OpenAI and Anthropic. Employer data is self-reported by donors; tracker totals were not checked against FEC itemizations. No full employer ranking (e.g., OpenSecrets) was found. (sources: Transformer election-donations tracker https://elections.transformernews.ai/companies/anthropic [search summary, secondary]; Transformer election-donations tracker https://elections.transformernews.ai/companies/openai [search summary, secondary]; Mission Local https://missionlocal.org/2026/08/open-ai-anthropic-donors-elections-safety-regulation/ [search summary, secondary])",
+      "topic": "contributions"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Outside spending aggregate (news report)",
+      "text": "Mission Local reported in October 2026 that outside groups had spent about $3.3 million supporting Wiener and about $1.7 million opposing Connie Chan; another Mission Local headline put total outside spending in the contest at $6.2 million. Exact as-of dates were not visible in the search summaries. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; Mission Local https://missionlocal.org/?p=877432 [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Abundant Future (supports Wiener)",
+      "text": "Abundant Future, a super PAC formed in late 2025, supports Wiener. Mission Local, October 2026: about $2.2 million spent so far. Legis1 (aggregator, earlier reporting period): $4.34 million total, including $1.88 million supporting Wiener, $1.58 million opposing Chan and about $888,000 opposing primary candidate Saikat Chakrabarti. On Oct. 22, 2026 the PAC announced a $1 million digital and mail campaign supporting Wiener. An FEC committee page that appeared for this search (C00922229, identity not confirmed) showed $487,266.11 in independent expenditures in an older snapshot. Donors reported by the San Francisco Standard and KQED include Chris Larsen (about $100,000), Garry Tan and Jeremy Stoppelman. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; Mission Local https://missionlocal.org/?p=877432 [search summary, secondary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/scott-wiener-ca-11-hrc-equality-votes-pac-puts-1m [search summary, secondary]; FEC https://www.fec.gov/data/committee/C00922229/ [search summary, primary]; San Francisco Standard https://sfstandard.com/2026/03/25/wiener-tech-supporter-chakrabarti-super-pac/ [search summary, secondary]; KQED https://www.kqed.org/news/12080294/big-money-pours-into-san-francisco-race-to-replace-rep-nancy-pelosi [search summary, secondary]; The Intercept https://theintercept.com/2026/05/14/scott-wiener-billionaire-tax-california-house-race/ [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Public First Action funding of Abundant Future",
+      "text": "Crypto Briefing and Mission Local (citing Punchbowl News) reported that Public First Action, a group that receives funding from Anthropic, committed about $3.5 million to support Wiener: an earlier $500,000 and about $3 million announced in mid-October 2026, routed to Abundant Future. Mission Local said it could not independently verify the contribution. Per Crypto Briefing, Public First Action said none of the $3.5 million came from Anthropic, and Wiener said at a debate there was no Anthropic money in the race. (sources: Crypto Briefing https://cryptobriefing.com/anthropic-backed-group-3-million-scott-wiener/ [search summary, secondary]; Mission Local https://missionlocal.org/?p=876643 [search summary, secondary]; Mission Local https://missionlocal.org/?p=876609 [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "GrowUSA (supports Wiener)",
+      "text": "GrowUSA, the federal PAC of the San Francisco group GrowSF, supports Wiener. Mission Local reported $1.6 million spent backing Wiener and $1.3 million cash on hand at the end of September 2026. Legis1 (aggregator) reported $2.82 million total, including $1.45 million supporting Wiener and $1.38 million opposing Chan. An FEC Schedule E 24/48-hour report PDF filed around Sept. 30, 2026 names GrowUSA (C00958744 in the summary), lists a $624,025.85 TV-ad expenditure paid to Polaris Campaigns referencing Wiener, CA-11, and a second amount of $101,300.50; the support/oppose box was not visible in the summary. (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/california-11th-congressional-district-2026 [search summary, secondary]; FEC (docquery, Schedule E 24/48-hour report) https://docquery.fec.gov/pdf/157/202609309908498157/202609309908498157.pdf [search summary, primary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Human Rights Campaign Equality Votes PAC (supports Wiener)",
+      "text": "The Human Rights Campaign (advocacy group) announced in a press release that its Equality Votes PAC launched a $1 million digital and mail ad campaign supporting Wiener. Legis1 (aggregator) reported about $1.02 million in independent expenditures supporting Wiener and said Michael Bloomberg provided $1 million, about 98% of the committee's reported receipts through Oct. 14, 2026; Legis1 said its totals require reconciliation with FEC notices. KQED also reported about $1.02 million. (sources: Human Rights Campaign (advocacy group press release) https://www.hrc.org/press-releases/human-rights-campaign-equality-votes-pac-launches-1-million-ad-campaign-in-support-of-scott-wiener-in-ca-11 [search summary, secondary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/scott-wiener-ca-11-hrc-equality-votes-pac-puts-1m [search summary, secondary]; KQED https://www.kqed.org/news/12080294/big-money-pours-into-san-francisco-race-to-replace-rep-nancy-pelosi [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Families for an Affordable San Francisco (supports Wiener)",
+      "text": "Families for an Affordable San Francisco is an independent-expenditure-only committee (FEC page C00923813 appeared for this search; treasurer listed as Todd David) supporting Wiener. Reported amounts vary by date: more than $260,000 through end of March 2026 (The Gazetteer SF, citing FEC filings); more than $677,000 (48hills, date not shown). Political Wire, citing the Washington Sun (Oct. 15, 2026), reported the PAC and the Wiener campaign share staff, a fundraising consultant, a pollster and a headquarters; the PAC's spokesperson Sam Singer said the canvassing coordination is legal under a 2024 FEC advisory opinion. (sources: FEC https://www.fec.gov/data/committee/C00923813/ [search summary, primary]; The Gazetteer SF https://sf.gazetteer.co/scott-wieners-super-pac-is-a-dark-money-mess [search summary, secondary]; 48hills https://48hills.org/?p=220811 [search summary, secondary]; Political Wire (citing the Washington Sun) https://politicalwire.com/2026/10/15/democrat-is-pushing-the-limits-of-super-pac-coordination/ [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Groups opposing Wiener (news reports)",
+      "text": "Mission Local reported in October 2026 that pro-Chan PACs had spent about $260,000 opposing Wiener. Named groups: SF for All (Legis1: $186,000 opposing Wiener and Chakrabarti combined) and Rising Tide Collective (Mission Local: $100,000 against Wiener in September 2026, funders not disclosed; Legis1 instead lists a $100,000 expenditure supporting Chan on May 22, 2026). (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-congress-connie-chan-scott-wiener-campaign-finance-fundraising-money-pacs/ [search summary, secondary]; Mission Local https://missionlocal.org/?p=877432 [search summary, secondary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/california-11th-congressional-district-2026 [search summary, secondary]; Legis1 (campaign-finance aggregator) https://legis1.com/news/rising-tide-collective-financial-snapshot [search summary, secondary])",
+      "topic": "independent_expenditures"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "FPPC warning letter on late 24-hour contribution reports (2023)",
+      "text": "The Fair Political Practices Commission's Enforcement Division issued a warning letter, FPPC No. 2022-00197, to Re-Elect Scott Wiener for State Senate 2020, Scott Wiener, and treasurer Stacy Owens. The letter is posted in the FPPC's April 11, 2023 enforcement-letter set; one search snippet gives the letter's own date as March 6, 2023. According to search snippets of the letter, the matter followed a Franchise Tax Board audit of the committee covering January 1, 2016 to December 31, 2020, which concluded the committee substantially complied with campaign statement requirements. The letter states that the committee violated Government Code Section 84203 by not timely filing six 24-hour contribution reports for 14 late contributions totaling $24,950, and notes that most late contributions were disclosed on timely pre-election statements. Snippets also mention other figures whose context could not be confirmed. Response: No public response from Wiener or his committee found. Searched: 'Scott Wiener FPPC', 'fppc.ca.gov enforcement warning letter Scott Wiener 2022-00197 late contribution report', and 'Wiener campaign FPPC warning letter late contribution reports Franchise Tax Board audit 2023' (web search). The FPPC PDF could not be fetched because fppc.ca.gov does not resolve from this session. Resolution: Closed with a warning letter. Other FPPC warning letters describe this as a case resolution without administrative prosecution or a fine. A human should read the full PDF to confirm the date, the violations and the amounts. (sources: California Fair Political Practices Commission (Enforcement Division) https://www.fppc.ca.gov/siteassets/documents/enforcement_div/enf_letters/2023/04-11-23/re-elect-scott-wiener-for-state-senate-2020-202200197.pdf [search summary, primary])",
+      "topic": "dossier.controversies"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Sunshine Ordinance complaint against four supervisors; Ethics Commission found no violation (2011-2013)",
+      "text": "The San Francisco Ethics Commission ruled on Ethics Complaint No. 02-12042 on September 23, 2013. The Sunshine Ordinance Task Force had referred the complaint to the Commission on April 2, 2012, and the Commission's records list the complainant as Pastor Gavin. By a 3-1 vote, the Commission determined that Supervisors David Chiu, Malia Cohen, Eric Mar and Scott Wiener did not commit a violation of the Sunshine Ordinance as alleged. Separately, the San Francisco Bay Guardian's archive (now hosted by 48hills) reported that in September 2011 the Task Force voted 8-0 that the same four supervisors violated the Sunshine Ordinance and the Brown Act. That vote concerned a Parkmerced redevelopment contract that the Land Use and Economic Development Committee, on which Mar, Wiener and Cohen served, recommended for approval. These sources do not confirm that the 2011 Task Force finding and the 2012 referral are the same matter. The Bay Guardian account was written by a Task Force advocate. Response: No statement from Wiener about the Task Force finding or the Ethics Commission ruling found. Searched: 'Scott Wiener SF Ethics Commission', 'Scott Wiener stipulation enforcement penalty committee' (sfethics.org and sf.gov), 'Sunshine Ordinance Task Force Parkmerced Wiener Chiu Mar Cohen Ethics Commission no violation', and 'Wiener responds Sunshine Ordinance Task Force finding Parkmerced 2011' (web search, including the Bay Guardian archive results). Resolution: Ethics Commission found no violation, 3-1, on September 23, 2013. (sources: San Francisco Ethics Commission https://sfethics.org/ethics/2013/09/press-release-september-24-2013-summary-of-actions-taken-at-september-23-2013-regular-meeting.html [search summary, primary]; San Francisco Ethics Commission https://sfethics.org/ethics/2013/10/minutes-september-23-2013.html [search summary, primary]; San Francisco Bay Guardian archive (48hills), Bruce B. Brugmann blog https://sfbgarchive.48hills.org/?p=30619 [search summary, secondary])",
+      "topic": "dossier.controversies"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Campaign AI chatbot parodying opponent withdrawn after criticism (August 2026)",
+      "text": "In early August 2026, Wiener's congressional campaign launched ConnieChan.ai, an AI chatbot it described as a parody of opponent Connie Chan, and promoted it with billboards (KRON4; SFist, August 4, 2026). On August 6, 2026, the SF Standard reported that Chan's campaign had shared screenshots of chatbot replies about Chan's accent and citizenship. The Standard also reported that Nancy Pelosi, in a letter signed by several women elected officials, called the chatbot sexist and racist. The Wiener campaign said those replies appeared only after users repeatedly asked about Chan's accent, race, gender, appearance and citizenship, and it declined to give the Standard backend data to verify that claim. The SF Examiner and Axios also covered Pelosi's letter and the dispute. Response: Wiener said the chatbot was a parody meant to draw attention to Chan's record on housing and transit, and before the takedown the campaign said it was designed to focus on her record (SF Standard; SFist). On August 7, 2026, the campaign announced it would take down the chatbot and the billboards, saying the focus must remain on critical issues (SF Standard; SFist; Bay Area Reporter). NBC Bay Area reported that at a later debate with Chan, Wiener apologized to her and described the chatbot as a terrible mistake. Resolution: The chatbot and billboards were removed on August 7, 2026. No official complaint or agency finding was found. (sources: KRON4 https://www.kron4.com/news/politics/scott-wiener-launches-connie-chan-chatbot/amp [search summary, secondary]; SFist https://sfist.com/2026/08/04/scott-wiener-campaign-launches-ai-chatbot/ [search summary, secondary]; The San Francisco Standard https://sfstandard.com/2026/08/06/wiener-built-ai-chatbot-mock-chan-s-politics-pelosi-says-s-sexist-racist/ [search summary, secondary]; The San Francisco Standard https://sfstandard.com/2026/08/07/scott-wiener-takes-connie-chan-ai-chatbot-pushback-pelosi [search summary, secondary]; SFist https://sfist.com/2026/08/07/scott-wiener-takes-down-connie-chan-chatbot-after-backlash-from-pelosi-other-democrats/ [search summary, secondary]; Bay Area Reporter https://www.ebar.com/story/169066 [search summary, secondary]; San Francisco Examiner https://www.sfexaminer.com/news/politics/pelosi-posts-letter-slamming-wiener-chatbot-mimicking-chan/article_795e707e-7fe8-4fb7-95eb-4f329b7bc464.html [search summary, secondary]; Axios San Francisco https://www.axios.com/local/san-francisco/2026/08/11/sf-scott-wiener-connie-chan-pelosi-ai-chatbot [search summary, secondary]; NBC Bay Area https://www.nbcbayarea.com/news/local/chan-wiener-debate-sf-needs/4151924/ [search summary, secondary])",
+      "topic": "dossier.controversies"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "SF budget, 2023 cycle (FY2023-24 and FY2024-25), first cycle with Chan as Budget and Appropriations Committee chair",
+      "text": "The Board of Supervisors gave final approval to the two-year budget on July 25, 2023, and Mayor London Breed signed it on July 26, 2023. NBC Bay Area reported $14.61 billion for FY2023-24 and $14.57 billion for FY2024-25. The SF Examiner reported that the budget closed a two-year deficit of about $780 million, and KQED reported that it was balanced using nearly $1 billion in one-time funds. KTVU reported a 10-1 Board vote. Chan's own July 2023 newsletter says about $75 million in proposed cuts were restored. That figure is her own statement and has not been checked against the Budget and Legislative Analyst's report. All figures as of July 2023. (sources: City and County of San Francisco, Office of the Mayor https://sf.gov/news/mayor-breed-signs-balanced-budget-delivers-key-city-priorities [search summary, primary]; NBC Bay Area https://www.nbcbayarea.com/news/local/san-francisco-mayor-london-breed-two-year-city-budget/3281596/ [search summary, secondary]; San Francisco Examiner https://www.sfexaminer.com/news/politics/sf-budget-one-step-closer-to-law-after-supervisors-approve/article_b5cd0814-2023-11ee-b011-cf5ca6700fd5.html [search summary, secondary]; KQED https://www.kqed.org/news/11957640/budget-deep-dive-san-francisco [search summary, secondary]; KTVU https://www.ktvu.com/news/san-francisco-to-hire-220-police-officers [search summary, secondary]; Office of Supervisor Connie Chan (sfbos.org newsletter) https://sfbos.org/supervisor-chan-072723-newsletter [search summary, primary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "SF budget, 2024 cycle (FY2024-25 and FY2025-26), Chan as Budget Committee chair",
+      "text": "KQED reported that Mayor Breed signed a $15.9 billion budget for FY2024-25 (a KQED photo caption is dated July 25, 2024), and that the proposal had $15.5 billion for FY2025-26. The Board approved it 10-1, with Supervisor Dean Preston voting no. In a column she wrote in August 2024, Chan says the Budget Committee reversed nearly $59 million in proposed cuts. That figure is her own statement and has not been checked against Controller or Budget and Legislative Analyst documents. As of July to August 2024. (sources: KQED https://www.kqed.org/news/11998404/breed-signs-15-9-billion-sf-budget-that-boosts-police-funding-cuts-from-public-health [search summary, secondary]; KQED https://kqed.org/news/11988875/breeds-15-9-billion-sf-budget-plan-adds-money-for-police-other-city-workers [search summary, secondary]; Richmond Sunset News (column written by Connie Chan) https://richmondsunsetnews.com/2024/08/05/city-hall-connie-chan-41/ [search summary, primary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "SF budget, 2025 cycle (FY2025-26 and FY2026-27), Chan as Budget Committee chair",
+      "text": "Mayor Daniel Lurie signed a two-year budget of about $15.9 billion on July 24, 2025. The Budget Committee had advanced it unanimously, and the full Board approved it 10-1, with Supervisor Jackie Fielder voting no. Reported deficit figures for this cycle vary by source: about $782 million (SF Standard), $800 million (Mayor's Office) and $817.5 million (ABC7; GrowSF, a political advocacy group). The Board also gave the mayor expanded control over Proposition C homelessness funds. An SF Standard analysis from August 2026 reported that the budget reduced the projected structural deficit by about $300 million, and that a deficit of about $1 billion is still projected for FY2029-30. Reporting describes Chan as working with Lurie and Board President Rafael Mandelman on the final version. As of July 2025 and August 2026. (sources: Axios San Francisco https://www.axios.com/local/san-francisco/2025/07/24/mayor-lurie-san-francisco-budget-police-funding [search summary, secondary]; San Francisco Standard https://sfstandard.com/2025/07/16/san-francisco-budget-mayor-daniel-lurie-supervisor-vote/ [search summary, secondary]; Mission Local https://missionlocal.org/2025/07/s-f-supervisors-approve-mayor-luries-budget-alongside-controversial-proposals/ [search summary, secondary]; City and County of San Francisco, Office of the Mayor https://www.sf.gov/news-mayor-lurie-signs-balanced-responsible-budget-driving-san-franciscos-recovery [search summary, primary]; ABC7 News https://abc7news.com/amp/post/san-francisco-budget-mayor-daniel-lurie-signed-159-billion-dollars/17280139/ [search summary, secondary]; San Francisco Standard https://sfstandard.com/2026/08/06/san-francisco-balanced-its-budget-does-fiscal-crisis-remain/ [search summary, secondary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "SF budget, 2026 cycle (FY2026-27 and FY2027-28), Chan as Budget Committee chair",
+      "text": "In June 2026, the Budget and Appropriations Committee chaired by Chan voted unanimously to advance a two-year budget. Reports put the city budget at about $16.9 billion. The committee's version restored about $28.5 million of the mayor's proposed program cuts, per the SF Examiner and SFist. The SF Examiner reported that Chan planned to step down as committee chair in August 2026. These searches did not confirm the date of the full Board's final vote or of the mayor's signature. As of late June to July 2026. (sources: San Francisco Examiner https://www.sfexaminer.com/news/politics/sf-supes-restore-285-million-for-city-services-to-budget/article_39257dd6-f462-43c1-bed5-becee54f72e4.html [search summary, secondary]; SFist https://sfist.com/2026/06/26/sf-supervisors-negotiate-new-city-budget-deal-reversing-28-5-million-in-proposed-cuts-to-social-programs/ [search summary, secondary]; 48 Hills https://48hills.org/2026/06/supes-reject-28-million-in-lurie-budget-cuts/ [search summary, secondary]; San Francisco Examiner https://www.sfexaminer.com/news/politics/mayor-16-9-billion-budget-cuts-deficit-maintains-safety-net/article_5e21576a-1084-4084-bc89-0c68f8436a1f.html [search summary, secondary]; Richmond Sunset News (column written by Connie Chan) https://richmondsunsetnews.com/2026/07/09/city-hall-connie-chan-65/ [search summary, primary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Immigration legal services appropriation (File 251080, Ordinance 235-25)",
+      "text": "Ordinance No. 235-25 (File 251080) appropriates $3.5 million from the General Reserve to the Mayor's Office of Housing and Community Development for coordinated immigration legal defense and community response services in FY2025-26. It was amended in committee on November 12, 2025, passed December 2, 2025, and was signed by Mayor Lurie. The city's announcement allocates $1.86 million to additional full-time attorneys and paralegals for representation in immigration court. KTVU reported that the addition brings annual city spending on these legal services to $11.1 million. Mission Local reported in May 2026 that the city spent about $17.9 million in the current year on immigrant services such as deportation defense and rapid response, and budgeted $18.2 million for the next year. SFist reported on October 21, 2026 a planned further $1.8 million supplemental. Whether that supplemental is File 261148, and its final status, are unconfirmed. No measure of case outcomes, such as the number of people represented, was found. (sources: San Francisco Board of Supervisors (Ordinance 235-25) https://www.sfbos.org/sites/default/files/o0235-25.pdf [search summary, primary]; City and County of San Francisco, Office of the Mayor https://www.sf.gov/news-mayor-lurie-signs-ordinance-to-provide-35-million-for-expanded-coordinated-immigrant-legal-services [search summary, primary]; KTVU https://www.ktvu.com/news/sf-board-to-consider-additional-funds-for-immigrant-legal-defense [search summary, secondary]; Mission Local https://missionlocal.org/2026/05/sf-budget-immigration-funding-rapid-response/ [search summary, secondary]; SFist https://sfist.com/2026/10/21/sf-to-add-1-8-million-for-immigrant-legal-defense-as-bay-area-ice-arrests-surge/ [search summary, secondary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Alexandria Theater Special Use District (File 241198)",
+      "text": "The ordinance to create an Alexandria Theater Special Use District (File 241198) was introduced at the Board in December 2024 and calendared for a Planning Commission hearing on March 13, 2025. Chan's office described it as allowing up to eight stories and about 75 two- and three-bedroom units with ground-floor commercial space, while keeping the building's historic features. Chan also announced a memorandum of understanding between the owner, TimeSpace Alexandria, LLC, and the Office of Economic and Workforce Development (date not shown in results), and separately introduced landmark legislation. These searches did not find a final Board vote, a mayoral signature, or any permit or construction on the site. A blog post from April 2026 describes the site's future as uncertain. (sources: Richmond Sunset News (column written by Connie Chan) https://richmondsunsetnews.com/2025/02/08/city-hall-connie-chan-47/ [search summary, primary]; San Francisco Board of Supervisors (legislation introduced, Dec. 10, 2024) https://sfbos.org/sites/default/files/LI121024.pdf [search summary, primary]; San Francisco Planning Commission agenda, March 13, 2025 https://sfplanning.org/sites/default/files/agendas/2025-03/20250313_cpc%20%28ID%201499365%29.pdf [search summary, primary]; After the Final Curtain (blog) https://afterthefinalcurtain.net/2026/04/ [search summary, secondary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Proposition E (November 2022), Affordable Housing Production Act charter amendment",
+      "text": "Chan wrote Proposition E, the Affordable Housing Production Act. The Board of Supervisors placed it on the November 8, 2022 ballot by a 7-4 vote, where it competed with Proposition D. Election-week reporting by Bay City News showed both measures under 50 percent. The GrowSF Report says Proposition E failed, with about 55 percent voting no. GrowSF is a political advocacy group that campaigned against Chan in 2024. The certified result from the SF Department of Elections was not retrieved. (sources: San Francisco Public Press https://www.sfpublicpress.org/proposition-e-affordable-housing-board-of-supervisors/ [search summary, secondary]; San Francisco Department of Elections (legal text) https://sfelections.sfgov.org/sites/default/files/Documents/BSC/2022%20Nov/AffordableHousingProductionAct.LegalText.pdf [search summary, primary]; Local News Matters (Bay City News) https://localnewsmatters.org/2022/11/09/dueling-san-francisco-housing-propositions-remain-in-the-balance-both-shy-of-50-percent/ [search summary, secondary]; GrowSF Report (political advocacy group) https://report.growsf.org/p/election-results [search summary, secondary])",
+      "topic": "legislation"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Neighborhood Anchor Business Registry ordinance (2021)",
+      "text": "Chan states that the Board of Supervisors unanimously passed her ordinance creating a Neighborhood Anchor Business Registry in May 2021, extending some Legacy Business priorities to financial assistance. She also states that the Board passed legislation extending the awning amnesty program to June 2025, and legislation extending an ADA compliance deadline (year not stated; likely 2024). All of these come from her own columns. The file numbers, final dates, and outcome measures such as the number of businesses registered were not found. The search summary did not tie each claim to a specific column URL, so the URL given is the most likely match and needs confirming. (sources: Richmond Sunset News (column written by Connie Chan) https://richmondsunsetnews.com/2021/07/07/city-hall-connie-chan-7/ [search summary, primary]; Richmond Sunset News (column written by Connie Chan) https://richmondsunsetnews.com/2024/10/05/city-hall-connie-chan-43/ [search summary, primary])",
+      "topic": "legislation"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Small Business Tenant Unions and Workers Opportunity to Purchase Act (2026 proposals)",
+      "text": "On July 17, 2026, Chan announced two proposals: one would let small businesses that share a landlord negotiate rents collectively, and the other, the Workers Opportunity to Purchase Act, would give employees the first opportunity to buy a business that is for sale. Both were to be introduced at the Board in September 2026. No final action was found as of November 3, 2026. (sources: SFist https://sfist.com/2026/07/20/sf-supe-introduces-bills-letting-small-businesses-negotiate-rent-sell-to-employees/ [search summary, secondary]; KQED https://www.kqed.org/news/12091662/proposal-would-allow-san-francisco-small-business-owners-to-unionize [search summary, secondary])",
+      "topic": "legislation"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 35 (2017) streamlined approvals: unit counts",
+      "text": "A preliminary analysis by the UC Berkeley Terner Center (February 2023) of local Annual Progress Report data for 2018-2021 found about 18,000 units proposed under SB 35. About 11,243 had been approved for streamlining and about 5,853 were pending when the reports were filed. The data are self-reported by cities and counties, and Terner noted that verification was ongoing. Wiener's Senate office has stated that SB 35 streamlined approvals for about 12,000 homes in its first four years, nearly 75 percent of them below market rate. Mercy Housing, an affordable-housing developer that supported SB 423, described about 18,000 homes as built under SB 35. That conflicts with Terner's description of 18,000 units as proposed. No current statewide official total from HCD was found. HCD publishes self-reported SB 35 determination data on the state open-data portal. (sources: Terner Center for Housing Innovation, UC Berkeley https://ternercenter.berkeley.edu/wp-content/uploads/2023/03/SB35_PreliminaryAnalysis_External_February-2023-1.pdf [search summary, secondary]; California Open Data Portal (HCD SB 35 data) https://lab.data.ca.gov/dataset/sb-35-data [search summary, primary]; Office of Senator Scott Wiener https://sd11.senate.ca.gov/node/1117 [search summary, primary]; Mercy Housing (housing developer, bill supporter) https://www.mercyhousing.org/2023/05/scott-wiener-sb-423/ [search summary, secondary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 35 litigation",
+      "text": "In Santa Clara County Superior Court, Judge Helen Williams upheld Cupertino's SB 35 ministerial approval of the Vallco mixed-use project on May 6, 2020, rejecting a petition by Friends of Better Cupertino. On April 28, 2020, the same judge ruled for the developer of a 15-unit project at 40 Main St. in Los Altos in a suit brought by CaRLA, finding that the city had acted in bad faith. Los Altos voted to appeal, and the appeal's outcome was not found. Commentators noted these were trial-level, non-precedential rulings. These searches found no appellate ruling on SB 35. (sources: San Jose Spotlight https://sanjosespotlight.com/controversial-vallco-project-can-continue-under-sb-35-judge-rules/ [search summary, secondary]; Fennemore (law firm) https://www.fennemorelaw.com/superior-court-validates-cupertinos-streamlined-approval-of-major-affordable-housing-and-office-project [search summary, secondary]; Reuben, Junius & Rose (law firm) https://www.reubenlaw.com/california-superior-court-reverses-denial-of-an-sb-35-project/ [search summary, secondary]; California Planning & Development Report https://cp-dr.com/articles/cpdr-news-briefs-july-22-2020 [search summary, secondary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 423 (2023): extension of SB 35 and San Francisco results",
+      "text": "SB 423 was signed on October 11, 2023. It extends SB 35's streamlining to January 1, 2036, widens its scope, and adds the Coastal Zone. Wiener's office reported that HCD declared San Francisco the first city subject to SB 423 on June 28, 2024. Mission Local reported in September 2025 that 10 projects had been approved in San Francisco under SB 423, 34 were under review, and 10 more had applications in the system, and that none of the approved projects appeared to have finished construction. The SF Planning Department's annual report says average project approval times fell 47 percent between 2022 and 2024. That figure covers the city's broader permit-streamlining work, not SB 423 alone. (sources: LegiScan (chaptered bill text) https://legiscan.com/CA/text/SB423/2023 [search summary, secondary]; Brownstein Hyatt Farber Schreck (law firm) https://www.bhfs.com/insight/sb-423-expands-and-extends-california-s-landmark-housing-streamlining-bill/ [search summary, secondary]; Office of Senator Scott Wiener https://sd11.senate.ca.gov/news/san-francisco-housing-approval-times-plummet-senator-scott-wieners-landmark-housing-law-takes [search summary, primary]; Mission Local https://missionlocal.org/2025/09/eight-stories-and-70-units-of-housing-coming-to-capp-and-17th/ [search summary, secondary]; San Francisco Planning Department annual report https://annualreport.sfplanning.org/highlights-permit-streamlining.htm [search summary, primary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 53 (2025) Transparency in Frontier Artificial Intelligence Act: implementation status",
+      "text": "SB 53 was enacted in 2025, and law-firm alerts on its enactment are dated October 2025. Its core publication, incident-reporting, truthfulness and whistleblower obligations took effect January 1, 2026. Large frontier developers must publish safety frameworks and report critical safety incidents to Cal OES within 15 days, or within 24 hours where there is imminent risk of death or serious injury. The Attorney General enforces it, with civil penalties of up to $1 million per violation. Anonymized annual reports from OES and the Attorney General begin January 1, 2027. The law also creates CalCompute, a public computing cluster, within the Government Operations Agency. As of the most recent sources found (January and July 2026), no reporting was found on OES incident-reporting regulations or a reporting portal, on which developers have published frameworks, on any Attorney General enforcement, or on CalCompute's build-out. No court challenge to SB 53 was found in these searches. (sources: Morrison Foerster (law firm) https://www.mofo.com/resources/insights/251001-california-enacts-ai-safety-transparency-regulation-tfaia-sb-53 [search summary, secondary]; Kilpatrick Townsend (law firm) https://ktslaw.com/insights/alert/2025/10/california-enacts-the-transparency-in-frontier-artificial-intelligence-act-sb-53 [search summary, secondary]; National Law Review https://natlawreview.com/article/californias-sb-53-understanding-obligations-effect-now-and-2027 [search summary, secondary]; METR (AI evaluation nonprofit) https://metr.org/notes/2026-01-29-frontier-ai-safety-regulations/ [search summary, secondary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "State budgets as Senate Budget and Fiscal Review Committee chair (2024-25 and 2025-26 cycles)",
+      "text": "Wiener chaired the Senate Budget Committee during the 2024-25 and 2025-26 budget cycles. When he was appointed, EBAR reported a projected 2024-25 deficit of about $68 billion. With Senate Leader Mike McGuire, he presented an early-action plan described as cutting about $17 billion, and the Senate voted on deficit-reduction measures on April 11, 2024. A Senate press release records the Legislature passing the 2024-25 budget plan. In an October 2025 column, Wiener states that he led the Senate's 2025-26 budget work and helped close a $12 billion deficit. That is his own statement and has not been checked against LAO or Department of Finance figures. (sources: Bay Area Reporter (EBAR) https://www.ebar.com/story/73868 [search summary, secondary]; The Bond Buyer https://www.bondbuyer.com/news/california-senators-propose-deficit-shrinking-budget-cuts [search summary, secondary]; California State Senate, Office of Senate Leader Mike McGuire https://sd02.senate.ca.gov/news/senate-leader-mike-mcguire-budget-chair-wiener-issue-statements-legislature-passing-2024-25 [search summary, primary]; Richmond Sunset News (column written by Scott Wiener) https://richmondsunsetnews.com/2025/10/08/state-senate-scott-wiener-5/ [search summary, primary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 79 (2025-26 session), transit-oriented housing",
+      "text": "SB 79, by Wiener, was signed on October 10, 2025 and took effect July 1, 2026. It allows multi-story multifamily housing near qualifying transit stops in specified urban counties, including San Francisco. (sources: KQED https://www.kqed.org/news/12059533/newsom-signs-ambitious-bill-to-boost-housing-density-near-public-transit [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/California_Senate_Bill_79 [search summary, secondary])",
+      "topic": "legislation"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 79 implementation in San Francisco and litigation",
+      "text": "San Francisco adopted a local alternative plan under SB 79 through Ordinance 082-26 (Board File 260132), which the Board adopted on May 5, 2026 and which was signed on May 8, 2026. The city states that as a result no San Francisco parcel is subject to SB 79's default provisions, with some exemptions running to January 2032. HCD's letter of July 1, 2026 found that the ordinance and plan substantially comply with SB 79, on the condition that the city not enforce Planning Code Section 207.11(b)(5). The California Housing Defense Fund, Californians for Homeownership and YIMBY Law, all housing advocacy groups, sued San Francisco and HCD to void the plan and strike that provision. The status of that suit was not found. No count of units approved under SB 79 was found as of November 2026. (sources: California Department of Housing and Community Development https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/HAU/san-francisco-sb79-in-070126.pdf [search summary, primary]; San Francisco Planning Department https://sfplanning.org/project/senate-bill-79-implementation-san-francisco [search summary, primary]; City and County of San Francisco (Ordinance 082-26) https://media.api.sf.gov/documents/o0082-26.pdf [search summary, primary]; California Housing Defense Fund (advocacy group) https://calhdf.org/?p=19491 [search summary, secondary]; Davis Vanguard https://davisvanguard.org/2026/07/california-housing-law-sb79-2/ [search summary, secondary])",
+      "topic": "dossier.track_record"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 627 (2025-26 session), No Secret Police Act",
+      "text": "SB 627, by Wiener, restricts face coverings for law enforcement officers. Several sources say it was signed in September 2025 and took effect January 1, 2026; one source gives conflicting 2026 dates. In February 2026, U.S. District Judge Christina Snyder issued a preliminary injunction against the mask ban as applied to federal officers in United States v. California. She found that it likely discriminates against federal officers because state police were exempt. She declined to enjoin SB 805 or SB 627's other provisions. Wiener introduced follow-up legislation to add state officers, and its outcome was not found. The California Globe reported that the Ninth Circuit later stayed the entire act. The date of that stay and its current status were not confirmed. (sources: Local News Matters (Bay City News) https://localnewsmatters.org/2026/02/12/wiener-moves-to-salvage-no-secret-police-law-after-federal-judge-halts-enforcement/ [search summary, secondary]; KQED https://www.kqed.org/news/12072927/after-us-judge-blocks-californias-ice-mask-ban-scott-wiener-says-he-will-make-it-enforceable [search summary, secondary]; Bloomberg Government https://news.bgov.com/bloomberg-government-news/enforcement-of-californias-ice-agent-mask-ban-blocked-by-judge [search summary, secondary]; California Globe https://californiaglobe.com/fr/ninth-circuit-blocks-californias-entire-no-secret-police-act-in-major-win-for-trump-doj/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/No_Secret_Police_Act [search summary, secondary])",
+      "topic": "legislation"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 253 (2023-24 session), Climate Corporate Data Accountability Act",
+      "text": "SB 253 requires large companies doing business in California to report greenhouse gas emissions. Wiener's news page carries a headline about the governor announcing he would sign it; authorship and the signing date need confirming at leginfo. In late February 2026, CARB approved initial regulations. Sources conflict on the deadline for the first Scope 1 and 2 reports: August 10, 2026 in some, and November 10, 2026 in a later law-firm note on OAL approval. Scope 3 reporting begins in 2027. The Ninth Circuit heard argument on January 9, 2026 in the challenge to the denial of a preliminary injunction. It stayed the companion law SB 261 (not Wiener's) but not SB 253. No merits ruling was found as of these sources. (sources: Scott Wiener campaign site (news page) https://www.scottwiener.com/news [search summary, primary]; Cooley (law firm) https://www.cooley.com/news/insight/2026/2026-01-26-californias-sb-253-and-sb-261-developments-and-litigation [search summary, secondary]; Proskauer (law firm) https://www.proskauer.com/alert/californias-climate-disclosure-laws-initial-implementing-regulations-approved [search summary, secondary]; Vinson & Elkins (law firm) https://www.velaw.com/insights/oal-approves-carbs-initial-regulation-locking-in-november-10-2026-sb-253-reporting-deadline/ [search summary, secondary]; Winston Taylor (law firm) https://www.winstontaylor.com/insights/ninth-circuit-pauses-california-climate-risk-reporting-law-lets-climate-corporate-data-accountability-act-proceed [search summary, secondary])",
+      "topic": "legislation"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 4 (2023-24 session), Affordable Housing on Faith and Higher Education Lands Act",
+      "text": "SB 4, by Wiener, was signed in October 2023. It streamlines approval of qualifying, generally 100 percent affordable, housing on land owned by religious institutions and nonprofit colleges, and sunsets January 1, 2036. A Terner Center estimate puts about 171,000 acres as potentially eligible. That is an estimate of eligible land, not of units approved or built. HCD issued an SB 4 fact sheet in April 2026. No count of projects or units approved under SB 4 was found. (sources: Office of Senator Scott Wiener https://sd11.senate.ca.gov/node/1215 [search summary, primary]; Terner Center for Housing Innovation, UC Berkeley https://ternercenter.berkeley.edu/wp-content/uploads/2023/08/Faith-Based-Housing-Updated-October-2023.pdf [search summary, secondary]; California Department of Housing and Community Development https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/aff-hsg-faith-higher-ed-sb-4.pdf [search summary, primary]; Liebert Cassidy Whitmore (law firm) https://www.lcwlegal.com/news/sb-4-enacts-affordable-housing-on-faith-and-higher-education-lands-act-of-2023/ [search summary, secondary])",
+      "topic": "legislation"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Party",
+      "text": "Democratic (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Ballot designation",
+      "text": "\"San Francisco Supervisor\" (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Incumbent",
+      "text": "No (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Ballot designation",
+      "text": "Search summaries of the Secretary of State's Official Certified List of Candidates for the November 3, 2026 general election list Connie Chan, Democratic, for United States Representative, District 11, with the ballot designation San Francisco Supervisor. A search summary of the June 2, 2026 primary certified list gives the same designation. The PDF itself could not be opened (host blocked in this session), so the exact printed wording needs a check against the PDF. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/cert-list-candidates.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Incumbency",
+      "text": "Chan does not hold the CA-11 seat. The seat is open because incumbent Rep. Nancy Pelosi did not seek re-election; Chan and Scott Wiener advanced from the June 2, 2026 top-two primary. (sources: Ballotpedia News https://news.ballotpedia.org/2026/07/16/two-democratic-candidates-running-in-the-general-election-for-californias-11th-congressional-district-take-opposing-sides-on-housing-policy/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Birth year (from reported age)",
+      "text": "Reported as 47 years old when she announced her congressional campaign in November 2025 (San Francisco Chronicle, KRON4) and as 47 in a 2026 Mission Local candidate profile card published before October 2026. Together these place her birth year in 1978. No primary source giving an exact date was found. (sources: San Francisco Chronicle https://preview-prod.w.sfchronicle.com/sf/article/connie-chan-house-congress-pelosi-21195620.php [search summary, secondary]; KRON4 https://www.kron4.com/news/bay-area/sf-supervisor-connie-chan-seeks-congressional-seat-held-by-nancy-pelosi/amp/ [search summary, secondary]; Mission Local https://missionlocal.org/?p=868513 [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Residence city",
+      "text": "Residence city: San Francisco. Her official City and County of San Francisco biography says she and her partner bought their home in the Richmond District in 2011 and are raising their son there. (sources: City and County of San Francisco (sf.gov) https://www.sf.gov/about-district-1 [search summary, primary])",
+      "topic": "profile.residence_city"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "AI regulation at October 2026 debate",
+      "text": "KQED reported that at the October 2026 debate both Chan and Wiener said AI should be regulated, including independent safety checks and human oversight, and that AI companies should not be left to regulate themselves. Debate coverage also reported that Chan described the final, amended version of Wiener's AI law as watered down and questioned who shaped the amendments; one search summary flagged the attribution of that remark as unclear, so it needs checking against the articles. No statement from Chan specifically on legally required safety disclosures or incident reporting by frontier developers (SB 53, SB 1047 or a federal equivalent) was found. (sources: KQED https://www.kqed.org/news/12104381/san-francisco-is-ground-zero-for-ai-how-would-congressional-candidates-push-for-regulation [search summary, secondary]; Mission Local https://missionlocal.org/2026/10/scott-wiener-connie-chan-ai-debate/ [search summary, secondary]; The San Francisco Standard https://sfstandard.com/2026/10/01/five-takeaways-congressional-debate-wiener-chan-clash-ai-regulation/ [search summary, secondary])",
+      "topic": "q:ai/frontier-ai-safety-disclosure"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "AI regulatory framework",
+      "text": "In 2026 coverage, Chan said Congress should establish a framework for AI consumer safety and consumer protection, and tied her support for a national pause on new large AI data centers to Congress first setting rules on AI's economic, environmental and safety effects. Her campaign spokesperson listed worker and union input and protections against AI-driven job displacement and surveillance as priorities. (sources: Mission Local https://missionlocal.org/2026/08/sf-congress-candidates-ai-data-centers/ [search summary, secondary]; KQED https://www.kqed.org/news/12104381/san-francisco-is-ground-zero-for-ai-how-would-congressional-candidates-push-for-regulation [search summary, secondary])",
+      "topic": "q:ai/frontier-ai-safety-disclosure"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Tech monopolies (April 2026 questionnaire)",
+      "text": "In an April 2026 Mission Local candidate questionnaire on tech, AI and crypto, Chan said she favors breaking up monopolies and supports more competition among platforms, and Mission Local summarized her as favoring limits on the power of tech monopolies. The answer did not specifically address prohibiting self-preferencing; the self-preferencing remarks in that article were attributed to Saikat Chakrabarti. Wiener did not take part in that questionnaire. No statement from Chan on SB 1074, the BASED Act or federal self-preferencing bills was found. (sources: Mission Local https://missionlocal.org/2026/04/sf-congress-connie-chan-saikat-chakrabarti-scott-wiener-tech-ai-crypto/ [search summary, secondary])",
+      "topic": "q:technology/platform-self-preferencing"
+    },
+    {
+      "person": "person:connie-chan",
+      "hint": "oppose",
+      "label": "Resolution opposing SB 79 (2025)",
+      "text": "In July 2025, Supervisor Chan introduced a Board of Supervisors resolution opposing SB 79, saying the bill undercut San Francisco's years-long community process for its Housing Element. The Board rejected the resolution 7-4 at its July 22, 2025 meeting. A 48hills preview listed Supervisors Chyanne Chen and Jackie Fielder as co-sponsors and said the non-binding resolution urged the Legislature to defeat the bill. (sources: San Francisco Examiner https://www.sfexaminer.com/news/housing/how-california-sb-79-may-increase-sf-housing-height-limits/article_f63e1c94-292d-4519-8e97-46ba0aba190f.html [search summary, secondary]; 48hills https://newsletters.48hills.org/big-tests-for-the-supes-this-week-budget-rent-controlled-housing-rv-ban/ [search summary, secondary])",
+      "topic": "q:housing/transit-oriented-upzoning"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Vote on SF Family Zoning Plan (2025)",
+      "text": "In December 2025 the Board of Supervisors approved Mayor Daniel Lurie's Family Zoning Plan, a local rezoning, 7-4; Chan voted no, along with Supervisors Shamann Walton, Chyanne Chen and Jackie Fielder. She said the plan lacked protections against displacement of tenants and small businesses, and had proposed amendments with Supervisor Chen. This was a local zoning action, not a state law, so it is not mapped to the question. (sources: Local News Matters (Bay City News) https://localnewsmatters.org/2025/12/03/sf-supes-pass-family-zoning-plan/ [search summary, secondary]; The San Francisco Standard https://sfstandard.com/2025/12/15/moderate-political-group-attacks-supervisors-who-voted-lurie-s-upzoning-plan/ [search summary, secondary])",
+      "topic": "q:housing/transit-oriented-upzoning"
+    },
+    {
+      "person": "person:connie-chan",
+      "hint": "support",
+      "label": "Position on Prop 40 (billionaire tax)",
+      "text": "Mission Local reported in September 2026 that Chan supports Proposition 40, the one-time state billionaire tax, and that she had voiced support for the billionaire tax since the first congressional candidate forum in January 2026. (sources: Mission Local https://missionlocal.org/2026/09/scott-wiener-connie-chan-who-would-you-tax-more/ [search summary, secondary]; Mission Local https://missionlocal.org/2026/09/sf-congress-candidates-november-ballot-measures/ [search summary, secondary])",
+      "topic": "contest:2026-ca-general/prop-40"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Party",
+      "text": "Democratic (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Ballot designation",
+      "text": "\"State Senator\" (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Incumbent",
+      "text": "No (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Ballot designation",
+      "text": "One search summary of the Secretary of State's Official Certified List of Candidates for the November 3, 2026 general election lists Scott Wiener, Democratic, for United States Representative, District 11, as State Senator; a second search summary of the same PDF did not show his designation. A search summary of the June 2, 2026 primary candidate contact list also shows State Senator. The PDF could not be opened (host blocked in this session), so the exact printed wording needs a check against the PDF. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/contact-list.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Incumbency",
+      "text": "Wiener does not hold the CA-11 seat; he is State Senator for California Senate District 11. The House seat is open because incumbent Rep. Nancy Pelosi did not seek re-election; Wiener and Connie Chan advanced from the June 2, 2026 top-two primary. (sources: Ballotpedia News https://news.ballotpedia.org/2026/07/16/two-democratic-candidates-running-in-the-general-election-for-californias-11th-congressional-district-take-opposing-sides-on-housing-policy/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Birth year (from reported age)",
+      "text": "An August 2026 Mission Local candidate profile card listed his age as 56, which places his birth year in 1969 or 1970. No primary or news source giving an exact date was found. (sources: Mission Local https://missionlocal.org/2026/08/sf-congress-candidates-top-priority/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Residence city",
+      "text": "Residence city: San Francisco. His official State Senate biography says he has lived in San Francisco's Castro neighborhood since 1997. (sources: Office of Senator Scott Wiener (California State Senate) https://sd11.senate.ca.gov/biography [search summary, primary])",
+      "topic": "profile.residence_city"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SB 79 (2025), transit-oriented housing",
+      "text": "Wiener authored SB 79 (2025), which sets state standards allowing taller, denser housing within roughly a half mile of major transit stops and adds a Transit Oriented Development chapter to the Government Code. The Senate gave final approval 21-8 after an Assembly floor vote; Governor Gavin Newsom signed it on October 10, 2025, and it took effect July 1, 2026, with an option for cities to adopt a state-approved local alternative plan. (sources: Office of Senator Scott Wiener (California State Senate) https://sd11.senate.ca.gov/node/1399 [search summary, primary]; The San Francisco Standard https://sfstandard.com/2025/10/10/newsom-sb-79-housing-transit/ [search summary, secondary]; Streetsblog California https://cal.streetsblog.org/2025/10/10/newsom-signs-sb-79-legislation-to-spur-housing-production-near-transit [search summary, secondary]; Coblentz Patch Duffy & Bass LLP https://www.coblentzlaw.com/?p=10896 [search summary, secondary])",
+      "topic": "legislation"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Author of SB 79",
+      "text": "As author of SB 79, Wiener carried the state law that permits higher-density housing near major transit stops under state standards that apply even where local zoning is more restrictive (subject to a state-approved local alternative plan), and described its enactment as a historic step toward addressing the root cause of California's affordability crisis. (sources: Office of Senator Scott Wiener (California State Senate) https://sd11.senate.ca.gov/node/1399 [search summary, primary]; KQED https://www.kqed.org/news/12059533/newsom-signs-ambitious-bill-to-boost-housing-density-near-public-transit [search summary, secondary])",
+      "topic": "q:housing/transit-oriented-upzoning"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "oppose",
+      "label": "Position on Prop 40 (billionaire tax)",
+      "text": "In a May 2026 SF Standard interview, Wiener said he does not support the statewide billionaire tax initiative and that a one-time wealth tax is not the best approach. The Intercept reported in May 2026 that he said he opposed the measure after its backers announced they had enough signatures to qualify it, and Mission Local reported in September 2026 that he opposes Proposition 40. (sources: The San Francisco Standard https://sfstandard.com/2026/05/04/power-play-scott-wiener-tax/ [search summary, secondary]; The Intercept https://theintercept.com/2026/05/14/scott-wiener-billionaire-tax-california-house-race/ [search summary, secondary]; Mission Local https://missionlocal.org/2026/09/scott-wiener-connie-chan-who-would-you-tax-more/ [search summary, secondary])",
+      "topic": "contest:2026-ca-general/prop-40"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "SF Democratic Party endorsement vote on Prop 40",
+      "text": "SFGATE, as republished by CPA Practice Advisor in September 2026, reported that Wiener abstained when the San Francisco Democratic Party voted on endorsing the billionaire tax measure, and noted he had previously said he opposed it. (sources: CPA Practice Advisor (republishing SFGATE) https://www.cpapracticeadvisor.com/2026/09/01/pelosi-avoids-billionaire-tax-vote-as-wealth-tax-turns-toxic-in-san-francisco/189410/ [search summary, secondary])",
+      "topic": "contest:2026-ca-general/prop-40"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "ICE: Feb 11, 2026 forum, defunding ICE and accountability for agents",
+      "text": "Mission Local reported that at a February 11, 2026 forum that Scott Wiener did not attend, Connie Chan and Saikat Chakrabarti agreed on defunding Immigration and Customs Enforcement and on holding ICE agents accountable if they commit crimes. The summary does not say whether Chan used the word abolish; defunding is reported, not abolition. (sources: Mission Local https://missionlocal.org/2026/02/chan-chakrabarti-immigration-debate-pelosi-congressional-seat-wiener-absent/ [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "ICE: campaign platform text, end abuses of ICE and CBP",
+      "text": "Chan's BallotReady profile, which reproduces campaign platform text, says she would stand up to the Trump administration and demand an end to immigration raids, and would push for comprehensive immigration reform, humane border security, and an end to abuses and discriminatory practices by ICE and CBP. Another search summary describes her campaign website as promising to fight abuses by ICE and CBP. In these summaries the language is about ending abuses and reform; abolition is not mentioned. (sources: BallotReady (candidate profile) https://www.ballotready.org/people/connie-chan-26f6a68e-0060-4815-b3ed-2b4b2ffe3894 [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Abolish ICE: Mission Local Aug 2026 platform sentence (attribution unresolved)",
+      "text": "A Mission Local article from August 2026 asking the CA-11 candidates how they would constrain presidential power contains a first-person pledge to push for laws that ban private prisons, abolish ICE, make the Justice Department more independent of the President, and authorize lawsuits against ICE and Border Patrol for abuses, alongside a pledge to block DHS budgets that send unchecked money to ICE and Border Patrol. Search summaries disagree on who wrote it: one attributes it to Scott Wiener, one to Connie Chan, and two say the excerpt does not name the candidate. A separate summary of the same article gives Chan's answer as a pledge to pass legislation that strengthens checks and balances, protects voting rights and uses the Congressional Review Act. Listed under Connie Chan only so a checker can resolve the attribution against the article; no stance is inferred from it. (sources: Mission Local https://missionlocal.org/2026/08/sf-congress-candidates-trump-power/ [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:connie-chan",
+      "hint": "support",
+      "label": "Equality Act: backed at Jan 7 CA-11 forum",
+      "text": "The Bay Area Reporter reported that at a January 7 forum (the snippet does not give the year; the article covers the 2026 CA-11 race) Connie Chan, Scott Wiener and Saikat Chakrabarti all backed the Equality Act and differed on tactics. Chan described herself as a straight ally, emphasized building a broad coalition of allies, and pledged to educate others on why the legislation is needed. (sources: Bay Area Reporter https://www.ebar.com/story/161941 [search summary, secondary])",
+      "topic": "q:civil-rights/lgbtq-nondiscrimination"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Abortion: campaign platform text on reproductive care access (no federal-law wording found)",
+      "text": "Chan's BallotReady profile, which reproduces campaign platform text, says she will fight for access to the full range of reproductive health care, including abortion and affordable contraception, and work to restore full federal funding for Planned Parenthood. The summaries do not mention a federal statute protecting abortion access nationwide, codifying Roe, or the Women's Health Protection Act, so no stance on this question is recorded. (sources: BallotReady (candidate profile) https://www.ballotready.org/people/connie-chan-26f6a68e-0060-4815-b3ed-2b4b2ffe3894 [search summary, secondary])",
+      "topic": "q:reproductive-rights/federal-abortion-protection"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Context (alignment only): pro-choice group outside spending",
+      "text": "J. Weekly reported that Pro-Choice Majority Action made an independent expenditure supporting Chan before the June 2, 2026 primary. Outside spending by a pro-choice group shows alignment, not a stated position on federal law. (sources: J. Weekly https://jweekly.com/2026/06/01/aipac-didnt-fund-connie-chan-heres-what-actually-happened/ [search summary, secondary])",
+      "topic": "q:reproductive-rights/federal-abortion-protection"
+    },
+    {
+      "person": "person:connie-chan",
+      "label": "Voting rights: general pledge, no preclearance or John Lewis VRAA mention",
+      "text": "A search summary of the August 2026 Mission Local candidate article gives Chan's answer as a pledge to work to pass legislation that strengthens checks and balances, protects voting rights, and uses tools such as the Congressional Review Act to overturn executive actions and regulations. No statement by Chan on preclearance or the John Lewis Voting Rights Advancement Act was found. (sources: Mission Local https://missionlocal.org/2026/08/sf-congress-candidates-trump-power/ [search summary, secondary])",
+      "topic": "q:civil-rights/voting-rights-preclearance"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Abolish ICE: campaign issues page",
+      "text": "Wiener's campaign issues page on immigration states that he has supported abolishing ICE since 2018 and describes ICE as a broken agency. The page also cites SB 785 (2018), on immigration status in court proceedings. (sources: Scott Wiener for Congress (campaign site) https://www.scottwiener.com/immigration-fighting-ice [search summary, primary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Abolish ICE: State Senate press release, abolish and replace",
+      "text": "A press release on Wiener's State Senate site is titled as a call for accountability for the ICE officer who shot and killed a woman in Minnesota and for abolishing and replacing ICE. Per the search summary, the release says he called for ICE's abolition in 2018 and again the previous year, and it calls for replacing ICE with an agency committed to democracy, the Constitution and the rule of law. The snippet did not show the release date. (sources: Office of State Senator Scott Wiener https://sd11.senate.ca.gov/node/1411 [search summary, primary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Context: ICE accountability measures (alongside, not instead of, abolition)",
+      "text": "Wiener's campaign materials cite a state law he authored barring law-enforcement agents, including ICE, from wearing face coverings, and SB 747 (the No Kings Act), which would let people sue ICE and other federal agents for rights violations. Local News Matters (Bay City News) reported on September 2, 2026 that he urged Governor Newsom to sign SB 747. In his own materials these accountability measures appear alongside his stated support for abolishing and replacing ICE. (sources: Scott Wiener for Congress (campaign site) https://www.scottwiener.com/media [search summary, primary]; Local News Matters (Bay City News) https://localnewsmatters.org/2026/09/02/wiener-urges-newsom-to-sign-bill-allowing-lawsuits-against-federal-immigration-agents/ [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Abolish ICE: Mission Local Aug 2026 platform sentence (attribution unresolved)",
+      "text": "A Mission Local article from August 2026 asking the CA-11 candidates how they would constrain presidential power contains a first-person pledge to push for laws that ban private prisons, abolish ICE, make the Justice Department more independent of the President, and authorize lawsuits against ICE and Border Patrol for abuses, alongside a pledge to block DHS budgets that send unchecked money to ICE and Border Patrol. Search summaries disagree on who wrote it: one attributes it to Scott Wiener, one to Connie Chan, and two say the excerpt does not name the candidate. A separate summary of the same article gives Chan's answer as a pledge to pass legislation that strengthens checks and balances, protects voting rights and uses the Congressional Review Act. Listed under Scott Wiener only so a checker can resolve the attribution against the article; no stance is inferred from it. (sources: Mission Local https://missionlocal.org/2026/08/sf-congress-candidates-trump-power/ [search summary, secondary])",
+      "topic": "q:immigration/abolish-ice"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Equality Act: backed at Jan 7 CA-11 forum, filibuster change",
+      "text": "The Bay Area Reporter reported that at a January 7 forum on the 2026 CA-11 race, Wiener backed the Equality Act and called for eliminating the Senate's 60-vote threshold so the bill could pass once Democrats regain control of the Senate. (sources: Bay Area Reporter https://www.ebar.com/story/161941 [search summary, secondary])",
+      "topic": "q:civil-rights/lgbtq-nondiscrimination"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "LGBTQ federal protections: further reported statements (source per statement unclear)",
+      "text": "Search summaries say Wiener has said he would work to make LGBTQ nondiscrimination protections national if elected, and that the Supreme Court's Title VII ruling on employment should be built on by extending protections to housing and other areas of life. They also say that in 2007 he opposed a version of the federal Employment Non-Discrimination Act that dropped transgender protections. The summary did not tie each statement to a specific URL among the results listed here. (sources: LGBTQ Nation https://www.lgbtqnation.com/2026/07/scott-wiener-lgbtq-stances/ [search summary, secondary]; San Francisco Examiner https://www.sfexaminer.com/news/the-city/how-scott-wiener-lgbtq-identity-shapes-his-politics/article_f618455e-cc42-41e4-99a9-42f7097203b0.html [search summary, secondary])",
+      "topic": "q:civil-rights/lgbtq-nondiscrimination"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Context (alignment only): LGBTQ advocacy group endorsements",
+      "text": "Human Rights Campaign PAC, Equality California Equality PAC, LGBTQ+ Victory Fund and the California Legislative LGBTQ Caucus endorsed Wiener for the U.S. House, per an HRC press release. HRC is an advocacy organization; the endorsement shows alignment, not a stated position. (sources: Human Rights Campaign (advocacy) https://www.hrc.org/press-releases/human-rights-campaign-pac-equality-california-equality-pac-lgbtq-victory-fund-california-legislative-lgbtq-caucus-endorse-california-state-sen-scott-wiener-for-u-s-house [search summary, secondary])",
+      "topic": "q:civil-rights/lgbtq-nondiscrimination"
+    },
+    {
+      "person": "person:scott-wiener",
+      "hint": "support",
+      "label": "Federal abortion protection: campaign issues page",
+      "text": "Wiener's campaign issues page on reproductive health says that in Congress he would push to put abortion rights into federal statute (codify Roe) and to hold states accountable for restricting abortion. The search summary did not show whether he named the Women's Health Protection Act. (sources: Scott Wiener for Congress (campaign site) https://www.scottwiener.com/reproductive-health-freedom [search summary, primary])",
+      "topic": "q:reproductive-rights/federal-abortion-protection"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Context: prior statements on Roe and Planned Parenthood (state senator)",
+      "text": "As a state senator, Wiener spoke on the Senate floor for Senate Resolution 9, which opposed federal defunding of Planned Parenthood (date not shown in the snippet). In 2022 KTVU reported that he called the overturning of Roe v. Wade a disaster for democracy. Neither item states a position on a federal statute. (sources: Office of State Senator Scott Wiener https://sd11.senate.ca.gov/node/985 [search summary, primary]; KTVU https://ktvu.com/video/1085441 [search summary, secondary])",
+      "topic": "q:reproductive-rights/federal-abortion-protection"
+    },
+    {
+      "person": "person:scott-wiener",
+      "label": "Voting rights: pledge for a new Voting Rights Act (preclearance not mentioned)",
+      "text": "The San Francisco Examiner reported, in coverage of his 2025 campaign launch, that Wiener said he would advocate for a new Voting Rights Act and for independent redistricting systems nationwide if elected. The summary does not mention preclearance or the John Lewis Voting Rights Advancement Act by name, so no stance on this question is recorded. (sources: San Francisco Examiner https://www.sfexaminer.com/news/politics/state-senator-scott-wiener-outlines-vision-for-congress/article_424699d2-71c6-4fdb-857c-286ead52f9cd.html [search summary, secondary])",
+      "topic": "q:civil-rights/voting-rights-preclearance"
+    }
+  ],
+  "provided": {
+    "by": "project maintainer",
+    "date": "2026-11-02",
+    "note": "From the maintainer's verified research notes (notes/2026-11-02-ca-11.md), worded as in the notes. Kept here only what could not be recorded as cited data: family background, Chan's unspecified earlier roles, housing approaches that do not address the transit-upzoning question, Chan's AI-safeguard views that do not address disclosure or incident reporting, Proposition 40 stances (the measure's contest record does not exist yet) and the notes' §7 evidence gaps. Everything else in the notes was recorded as maintainer-verified citations (verified_by), pending verbatim quotes and archive snapshots. Replaces the earlier unsourced comparison table. Later additions marked \"web search summary\" come from a research agent's web searches and still need the maintainer's check."
+  }
+}

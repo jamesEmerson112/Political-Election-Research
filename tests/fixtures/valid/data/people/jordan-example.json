@@ -1,0 +1,99 @@
+{
+  "$schema": "../../../../../schemas/person.schema.json",
+  "id": "jordan-example",
+  "name": "Jordan Example",
+  "aliases": [],
+  "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2030-10-01",
+      "search_log": [
+        {
+          "date": "2030-10-01",
+          "query": "Jordan Example born",
+          "where": "Candidate website; Example Times profile; certified list"
+        }
+      ]
+    },
+    "birthplace": {
+      "value": "Sampletown",
+      "citations": [
+        {
+          "source": "src:times-example-net-b99fc27a1d",
+          "quote": "Example grew up in Sampletown"
+        }
+      ]
+    },
+    "career": {
+      "as_of": "2030-10-01",
+      "items": [
+        {
+          "organization": "Example Hardware",
+          "role": "Owner",
+          "start": "2012",
+          "citations": [
+            {
+              "source": "src:times-example-net-b99fc27a1d",
+              "quote": "has owned Example Hardware since 2012"
+            }
+          ]
+        }
+      ]
+    },
+    "education": {
+      "as_of": "2030-10-01",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2030-10-01",
+          "query": "Jordan Example education",
+          "where": "Candidate website; Example News"
+        }
+      ]
+    },
+    "occupation": {
+      "value": "Small business owner",
+      "citations": [
+        {
+          "source": "src:sos-example-gov-dfeadf2ddd",
+          "quote": "Jordan Example  Sample Party  Small Business Owner"
+        }
+      ]
+    },
+    "offices_held": {
+      "as_of": "2030-10-01",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2030-10-01",
+          "query": "Jordan Example office",
+          "where": "Example State legislature roster; Ballotpedia"
+        }
+      ]
+    },
+    "party_registration": {
+      "value": "Sample Party",
+      "citations": [
+        {
+          "source": "src:sos-example-gov-dfeadf2ddd",
+          "quote": "Jordan Example  Sample Party  Small Business Owner"
+        }
+      ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2030-10-01",
+      "search_log": [
+        {
+          "date": "2030-10-01",
+          "query": "Jordan Example residence",
+          "where": "Candidate website, certified list, Example News archive"
+        }
+      ]
+    }
+  },
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2030-11-01"
+}

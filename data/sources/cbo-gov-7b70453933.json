@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cbo-gov-7b70453933",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Congressional Budget Office",
+  "title": "Monthly Budget Review: Summary for Fiscal Year 2025",
+  "url": "https://cbo.gov/publication/61307",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

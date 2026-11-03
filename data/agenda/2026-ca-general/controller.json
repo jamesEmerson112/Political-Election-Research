@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/controller",
+  "candidates": [
+    {
+      "person": "person:malia-m-cohen",
+      "name": "Malia M. Cohen"
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "name": "Herb W Morgan"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:california-controller",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Two search summaries rendered the name on the certified list as Herb W Morgan, without a period after the initial. Verify the punctuation. Cohen is marked with an asterisk (incumbent marker) on the SoS list. A search summary credited a Wikipedia table with primary shares of about 56.8% for Cohen, 37.5% for Morgan and 5.7% for Meghann Adams (Peace and Freedom); that table is unverified. All of Morgan's biographical facts come from secondary profiles. No campaign site or official bio was reached before the search budget ran out, and the SDCERS board role in particular needs a primary source. Cohen's San Francisco supervisor years (commonly given as 2011–2019) did not appear in a primary source, so they are left out. A Wikipedia birth date for Cohen was seen but omitted because it is not from a primary source."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

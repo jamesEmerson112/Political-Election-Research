@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sf-gov-cbd66877ce",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "Office of the Controller, City and County of San Francisco",
+  "title": "Controller's Statement: Proposition J",
+  "url": "https://api.sf.gov/documents/61761/Proposition_J__Removal_of_Foreclosure_Exemption_for_Real_Property_Transfer_Tax_0z0ADpd.pdf"
+}

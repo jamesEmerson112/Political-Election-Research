@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "disclosure-example-gov-3990973f8a",
+  "kind": "behested_payment_filing",
+  "accessed": "2030-11-01",
+  "archive_url": "https://web.archive.org/web/20301005120000/https://disclosure.example.gov/filing/803-avery/9007",
+  "filing": {
+    "filer_id": "803-avery",
+    "filing_id": "9007",
+    "form": "803",
+    "period": {
+      "end": "2030-10-17",
+      "start": "2030-01-01"
+    },
+    "system": "cal-access"
+  },
+  "published": "2030-10-24",
+  "publisher": "Example disclosure system",
+  "title": "Form 803, filer 803-avery",
+  "url": "https://disclosure.example.gov/filing/803-avery/9007"
+}

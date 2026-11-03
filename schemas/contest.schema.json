@@ -1,0 +1,795 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/contest.schema.json",
+  "title": "Contest",
+  "description": "Verified facts about one contest on the ballot: an office race or a ballot measure. Supporting/opposing committees are NOT listed here; they come from committee_role relationships (single source of truth). Path: data/contests/<election-slug>/<contest-slug>.json",
+  "type": "object",
+  "required": [
+    "kind"
+  ],
+  "discriminator": {
+    "propertyName": "kind"
+  },
+  "oneOf": [
+    {
+      "title": "Office race",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "election",
+        "name",
+        "office",
+        "level",
+        "candidates",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/ContestId"
+        },
+        "kind": {
+          "const": "office"
+        },
+        "election": {
+          "$ref": "defs.schema.json#/$defs/ElectionRef"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "office": {
+          "type": "string",
+          "minLength": 1
+        },
+        "level": {
+          "enum": [
+            "state",
+            "federal",
+            "local"
+          ]
+        },
+        "district": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "vote_for": {
+          "description": "How many candidates each voter may choose, which is also how many seats this contest fills (\"Vote for 3\" on the ballot). Omitted means 1 (a single-seat contest). Taken from the official ballot or candidate list.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "candidates": {
+          "description": "Candidates on the ballot, from the official certified list. One citation set per entry must support every field in the entry.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/BallotCandidate"
+          }
+        },
+        "result": {
+          "$ref": "#/$defs/OfficeResult"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "office_ref": {
+          "$ref": "defs.schema.json#/$defs/OfficeRef"
+        }
+      }
+    },
+    {
+      "title": "Ballot measure",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "election",
+        "name",
+        "number",
+        "official_title",
+        "origin",
+        "summary",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/ContestId"
+        },
+        "kind": {
+          "const": "measure"
+        },
+        "election": {
+          "$ref": "defs.schema.json#/$defs/ElectionRef"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "number": {
+          "type": "string",
+          "minLength": 1
+        },
+        "official_title": {
+          "$ref": "defs.schema.json#/$defs/CitedString"
+        },
+        "origin": {
+          "enum": [
+            "legislative",
+            "initiative",
+            "referendum"
+          ]
+        },
+        "summary": {
+          "$ref": "defs.schema.json#/$defs/CitedString"
+        },
+        "result": {
+          "$ref": "#/$defs/MeasureResult"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "jurisdiction": {
+          "description": "Whose measure this is: the state, or a county/city/district. Local measures share the consolidated election's id.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "level",
+            "name"
+          ],
+          "properties": {
+            "level": {
+              "enum": [
+                "state",
+                "county",
+                "city_county",
+                "city",
+                "special_district",
+                "regional"
+              ]
+            },
+            "name": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "measure_type": {
+          "description": "The measure's legal form, as the official guide states it.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "citations"
+          ],
+          "properties": {
+            "value": {
+              "enum": [
+                "charter_amendment",
+                "ordinance",
+                "bond",
+                "tax",
+                "declaration_of_policy",
+                "referendum",
+                "constitutional_amendment",
+                "statute",
+                "other"
+              ]
+            },
+            "citations": {
+              "$ref": "defs.schema.json#/$defs/Citations"
+            }
+          }
+        },
+        "vote_threshold": {
+          "description": "Share of yes votes needed to pass, as the official guide states it.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "citations"
+          ],
+          "properties": {
+            "value": {
+              "enum": [
+                "majority",
+                "fifty_five_percent",
+                "two_thirds"
+              ]
+            },
+            "citations": {
+              "$ref": "defs.schema.json#/$defs/Citations"
+            }
+          }
+        },
+        "placed_by": {
+          "description": "Who put the measure on the ballot: governing_body = the board of supervisors or city council; executive = the mayor or governor; legislature = the state legislature; petition = voters' signatures.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "citations"
+          ],
+          "properties": {
+            "value": {
+              "enum": [
+                "governing_body",
+                "executive",
+                "legislature",
+                "petition",
+                "other"
+              ]
+            },
+            "citations": {
+              "$ref": "defs.schema.json#/$defs/Citations"
+            }
+          }
+        },
+        "digest": {
+          "description": "The official plain-language digest (e.g. the SF Ballot Simplification Council's), each part verbatim in its citations; `label` is the heading the guide prints over it.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "yes_means",
+            "no_means"
+          ],
+          "properties": {
+            "label": {
+              "description": "The heading the voter guide prints over this digest, e.g. 'Digest by the Ballot Simplification Council' (San Francisco) or 'What your vote means' (California's Quick Reference Guide).",
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 80
+            },
+            "way_it_is_now": {
+              "$ref": "defs.schema.json#/$defs/CitedString"
+            },
+            "proposal": {
+              "$ref": "defs.schema.json#/$defs/CitedString"
+            },
+            "yes_means": {
+              "$ref": "defs.schema.json#/$defs/CitedString"
+            },
+            "no_means": {
+              "$ref": "defs.schema.json#/$defs/CitedString"
+            }
+          }
+        },
+        "conflicts": {
+          "description": "Competing measures on the same ballot and the rule that settles them (e.g. if both pass, the one with more yes votes prevails).",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contest",
+              "rule",
+              "citations"
+            ],
+            "properties": {
+              "contest": {
+                "$ref": "defs.schema.json#/$defs/ContestRef"
+              },
+              "rule": {
+                "type": "string",
+                "minLength": 1
+              },
+              "citations": {
+                "$ref": "defs.schema.json#/$defs/Citations"
+              },
+              "exclusive": {
+                "description": "true when only one of the measures can take effect (e.g. 'if both pass, the one with more yes votes takes effect'); absent or false when both take effect and one prevails only where their provisions conflict.",
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "fiscal": {
+          "$ref": "#/$defs/Fiscal"
+        },
+        "arguments": {
+          "description": "Arguments printed in the official voter guide, verbatim (printed as submitted by their authors, unedited): the proponent's and opponent's arguments, the rebuttals to each, and every paid argument with its printed funding disclosure. Opinions of their authors, not facts; recorded so readers can compare both sides.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/BallotArgument"
+          }
+        },
+        "affects": {
+          "description": "Who the measure affects, as the official impartial texts state it (the voter guide's digest and the Controller's statement): each group from a fixed list, with what the text says it pays, receives, or has change in its rules. Never who benefits or is harmed.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Affect"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "ContestId": {
+      "description": "<election-slug>/<contest-slug>, matching the file path.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "BallotCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "person",
+        "party",
+        "ballot_designation",
+        "incumbent",
+        "citations"
+      ],
+      "properties": {
+        "person": {
+          "$ref": "defs.schema.json#/$defs/PersonRef"
+        },
+        "party": {
+          "description": "Party preference exactly as printed on the certified list.",
+          "type": "string",
+          "minLength": 1
+        },
+        "ballot_designation": {
+          "description": "Ballot designation exactly as printed on the certified list.",
+          "type": "string"
+        },
+        "incumbent": {
+          "type": "boolean"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      }
+    },
+    "OfficeResult": {
+      "description": "Filled from the certified Statement of Vote after the election.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "certified",
+        "tallies",
+        "citations"
+      ],
+      "properties": {
+        "certified": {
+          "type": "boolean"
+        },
+        "certified_date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "winner": {
+          "$ref": "defs.schema.json#/$defs/PersonRef"
+        },
+        "tallies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "person",
+              "votes"
+            ],
+            "properties": {
+              "person": {
+                "$ref": "defs.schema.json#/$defs/PersonRef"
+              },
+              "votes": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      }
+    },
+    "MeasureResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "certified",
+        "passed",
+        "yes_votes",
+        "no_votes",
+        "citations"
+      ],
+      "properties": {
+        "certified": {
+          "type": "boolean"
+        },
+        "certified_date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "passed": {
+          "type": "boolean"
+        },
+        "yes_votes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "no_votes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      }
+    },
+    "Fiscal": {
+      "description": "The official fiscal statement for a measure (e.g. the SF Controller's statement, the LAO's estimate), recorded as given: ranges stay ranges, and effects the statement doesn't estimate are marked not_estimated. Never computed or graded by this project.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "statement_by",
+        "as_of",
+        "effects"
+      ],
+      "properties": {
+        "statement_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "as_of": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "summary": {
+          "$ref": "defs.schema.json#/$defs/CitedSummary"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/FiscalEffect"
+          }
+        },
+        "bond": {
+          "$ref": "#/$defs/Bond"
+        }
+      }
+    },
+    "FiscalEffect": {
+      "description": "One budget effect. lane: which money it touches (general_fund = the government's discretionary budget; set_aside = required minimum spending that doesn't change the General Fund total; dedicated = a special tax, fee or fund; bond_debt = borrowing repaid by property tax; other_agency = another government's budget). direction gives the sign; amounts are unsigned. estimate: estimated (a dollar amount or range), in_words (sized only in words, kept verbatim in `words` and never converted to a number), minimal, not_estimated, depends_on_future_decisions.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "lane",
+        "direction",
+        "per",
+        "estimate",
+        "text",
+        "citations"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "defs.schema.json#/$defs/Slug"
+        },
+        "lane": {
+          "enum": [
+            "general_fund",
+            "set_aside",
+            "dedicated",
+            "bond_debt",
+            "other_agency"
+          ]
+        },
+        "direction": {
+          "enum": [
+            "cost",
+            "revenue",
+            "savings",
+            "none"
+          ]
+        },
+        "amount": {
+          "$ref": "defs.schema.json#/$defs/UsdRange"
+        },
+        "per": {
+          "enum": [
+            "year",
+            "one_time",
+            "total"
+          ]
+        },
+        "start_fy": {
+          "$ref": "defs.schema.json#/$defs/FiscalYear"
+        },
+        "years": {
+          "description": "How many years the effect lasts, when the statement says.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "schedule": {
+          "description": "Amounts for particular fiscal years, when the statement gives them (e.g. about $6 million in FY2028-29 and $13 million in FY2029-30, about $60 million a year from FY2034-35). A listed year uses its own amount; a year between two listed years uses the range between them; later years keep the last amount. Only on a per-year estimated effect, starting at start_fy, each amount inside `amount` and printed in a citation quote (rule FISCAL_SCHEDULE).",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "fy",
+              "amount"
+            ],
+            "properties": {
+              "fy": {
+                "$ref": "defs.schema.json#/$defs/FiscalYear"
+              },
+              "amount": {
+                "$ref": "defs.schema.json#/$defs/UsdRange"
+              }
+            }
+          }
+        },
+        "estimate": {
+          "enum": [
+            "estimated",
+            "in_words",
+            "minimal",
+            "not_estimated",
+            "depends_on_future_decisions"
+          ]
+        },
+        "words": {
+          "description": "For estimate in_words: the statement's own size phrase, copied verbatim from a citation quote (rule FISCAL_WORDS), e.g. 'low tens of millions of dollars per year'. Never converted to a number or added up.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "note": {
+          "description": "How the recorder mapped the statement to this record where the quotes don't say it outright (e.g. why this lane, or how a calendar year became start_fy). Shown as a recorder's note, never as the source's words.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300
+        },
+        "text": {
+          "description": "One neutral line, e.g. 'Increases General Fund costs by $8–12 million a year'.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 240
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "estimate"
+            ],
+            "properties": {
+              "estimate": {
+                "const": "estimated"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "amount"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "estimate"
+            ],
+            "properties": {
+              "estimate": {
+                "const": "in_words"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "words"
+            ],
+            "not": {
+              "anyOf": [
+                {
+                  "required": [
+                    "amount"
+                  ]
+                },
+                {
+                  "required": [
+                    "schedule"
+                  ]
+                }
+              ]
+            }
+          },
+          "else": {
+            "not": {
+              "required": [
+                "words"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Bond": {
+      "description": "A bond authorization: borrowing repaid by property owners, outside the General Fund.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "principal_usd",
+        "citations"
+      ],
+      "properties": {
+        "principal_usd": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "debt_service_total_usd": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "term_years": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "annual_cost_per_100k_assessed_usd": {
+          "description": "Estimated yearly property tax per $100,000 of assessed value, as the statement gives it.",
+          "type": "number",
+          "minimum": 0
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      }
+    },
+    "BallotArgument": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "side",
+        "kind",
+        "text",
+        "authors",
+        "citations"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "defs.schema.json#/$defs/Slug"
+        },
+        "side": {
+          "enum": [
+            "yes",
+            "no"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "proponent",
+            "opponent",
+            "rebuttal_to_proponent",
+            "rebuttal_to_opponent",
+            "paid"
+          ]
+        },
+        "heading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "description": "The full body verbatim (whitespace collapsed).",
+          "type": "string",
+          "minLength": 1
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "funds_source": {
+          "description": "Paid arguments: the printed funding disclosure, verbatim.",
+          "type": "string",
+          "minLength": 1
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      }
+    },
+    "Affect": {
+      "description": "One group the official text says a measure affects, and how. Fixed group list so every measure uses the same groups; words, not judgments.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "group",
+        "effect",
+        "text",
+        "citations"
+      ],
+      "properties": {
+        "group": {
+          "enum": [
+            "tenants",
+            "property_owners",
+            "property_buyers_sellers",
+            "businesses",
+            "workers_unions",
+            "city_employees",
+            "city_departments",
+            "commission_members",
+            "voters_petitioners",
+            "transit_riders",
+            "drivers",
+            "park_visitors",
+            "people_experiencing_homelessness",
+            "lower_income_households",
+            "families_students",
+            "seniors",
+            "contractors_vendors",
+            "other"
+          ]
+        },
+        "label": {
+          "description": "Required when group is \"other\": a short name for the group.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "effect": {
+          "description": "pays (a tax, fee, charge or cost), receives (money, a service, housing, loans or assistance), rules_change (requirements, powers, rights, eligibility, procedures or access), other.",
+          "enum": [
+            "pays",
+            "receives",
+            "rules_change",
+            "other"
+          ]
+        },
+        "conditional": {
+          "description": "true when the text says could, may, might, if, or would be allowed to (an option, not a certainty).",
+          "type": "boolean"
+        },
+        "figure": {
+          "description": "An amount, rate or count the text states for this group, copied character-for-character from a citation quote (validate: AFFECT_FIGURE).",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 60
+        },
+        "text": {
+          "description": "One neutral line in plain words (validate: AFFECT_WORDING).",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "group"
+            ],
+            "properties": {
+              "group": {
+                "const": "other"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "label"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

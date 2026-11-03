@@ -1,0 +1,248 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/exampleville-prop-a",
+  "kind": "measure",
+  "election": "election:2030-zz-general",
+  "name": "Exampleville Proposition A",
+  "affects": [
+    {
+      "effect": "pays",
+      "figure": "about $9.50",
+      "group": "property_owners",
+      "text": "Would pay property tax toward the bonds, per $100,000 of assessed value.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The average annual property tax for a property assessed at $100,000 would be about $9.50."
+        }
+      ]
+    },
+    {
+      "effect": "receives",
+      "group": "lower_income_households",
+      "text": "Affordable homes would be built and repaired with the bond money.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Example Housing Coalition"
+      ],
+      "side": "yes",
+      "text": "Vote yes to build homes people can afford.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Vote yes to build homes people can afford."
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Example Taxpayers Group"
+      ],
+      "side": "no",
+      "text": "The bond adds debt without a plan.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The bond adds debt without a plan."
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Example Taxpayers Group"
+      ],
+      "side": "no",
+      "text": "Vote no: property owners will pay for decades.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Vote no: property owners will pay for decades."
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Example Housing Coalition"
+      ],
+      "side": "yes",
+      "text": "The cost is about $9.50 a year per $100,000 of assessed value.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The cost is about $9.50 a year per $100,000 of assessed value."
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-01",
+      "kind": "paid",
+      "authors": [
+        "Example Builders Association"
+      ],
+      "funds_source": "The true source of funds for the printing fee of this argument is Example Builders Association.",
+      "heading": "Builders say yes",
+      "side": "yes",
+      "text": "More homes, sooner.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "More homes, sooner."
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "no_means": {
+      "value": "You do not want the City to issue these bonds.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"NO\" Vote Means: You do not want the City to issue these bonds."
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The Proposal: Proposition A would let the City borrow $300 million by selling bonds to: • build new affordable homes • repair existing affordable homes"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "The City has no bond money set aside for affordable housing.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The Way It Is Now: The City has no bond money set aside for affordable housing."
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "You want the City to issue $300 million in bonds for affordable housing.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"YES\" Vote Means: You want the City to issue $300 million in bonds for affordable housing."
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2030-08-20",
+    "bond": {
+      "annual_cost_per_100k_assessed_usd": 9.5,
+      "debt_service_total_usd": 420000000,
+      "principal_usd": 300000000,
+      "term_years": 20,
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The average annual property tax for a property assessed at $100,000 would be about $9.50."
+        }
+      ]
+    },
+    "effects": [
+      {
+        "id": "debt-service",
+        "amount": {
+          "high_usd": 21000000,
+          "low_usd": 21000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "bond_debt",
+        "per": "year",
+        "start_fy": "2031-32",
+        "text": "Debt service of about $21 million a year for 20 years, paid from property taxes.",
+        "years": 20,
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "Debt service of about $21 million a year for 20 years, paid from property taxes."
+          }
+        ]
+      }
+    ],
+    "statement_by": "Exampleville Controller",
+    "summary": {
+      "summary": "Should the bonds be issued, debt service would be about $21 million a year for 20 years, paid from property taxes.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Should the bonds be issued, debt service would be about $21 million a year for 20 years, paid from property taxes."
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City of Exampleville",
+    "level": "city"
+  },
+  "measure_type": {
+    "value": "bond",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition A: Affordable Housing Bond"
+      }
+    ]
+  },
+  "number": "A",
+  "official_title": {
+    "value": "Affordable Housing Bond",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition A: Affordable Housing Bond"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "The City Council voted 6 to 1 to place Proposition A on the ballot."
+      }
+    ]
+  },
+  "summary": {
+    "value": "Authorizes $300 million in bonds to build affordable housing.",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Shall the City issue $300 million in general obligation bonds to build affordable housing?"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "two_thirds",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition A requires two-thirds of the votes cast to pass."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

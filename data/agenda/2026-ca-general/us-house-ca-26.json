@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-26",
+  "candidates": [
+    {
+      "person": "person:jacqui-irwin",
+      "name": "Jacqui Irwin"
+    },
+    {
+      "person": "person:sam-gallucci",
+      "name": "Sam Gallucci"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:us-representative-california",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Open seat: Rep. Julia Brownley announced on January 8, 2026 that she would not seek reelection. SoS unofficial primary returns (partial snapshot): Irwin 41.3%, Sam Gallucci (R) 20.9%. Name: JoinCalifornia lists Sam L. Gallucci, so the ballot form may include a middle initial. Irwin's birth year varies between sources (1962 vs about 1964-65), so it is not recorded. Ballotpedia lists her Assembly start as December 5, 2022, which is the start of her 42nd District tenure; Wikipedia gives December 1, 2014 for her first Assembly term. Gallucci's education comes from one source only. Ballot designations not found."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

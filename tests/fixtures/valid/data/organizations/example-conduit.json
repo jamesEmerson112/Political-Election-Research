@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/organization.schema.json",
+  "id": "example-conduit",
+  "name": "Example Conduit",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "other",
+  "links": {},
+  "org_type": "conduit",
+  "last_verified": "2030-11-01"
+}

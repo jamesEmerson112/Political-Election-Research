@@ -1,0 +1,107 @@
+{
+  "$schema": "../../../../../schemas/person.schema.json",
+  "id": "avery-sample",
+  "name": "Avery Sample",
+  "aliases": [],
+  "candidate_profile": {
+    "birth_date": {
+      "value": "1980-04-12",
+      "citations": [
+        {
+          "source": "src:averysample-example-org-ef54a1cad9",
+          "quote": "Born April 12, 1980, in Exampleville"
+        }
+      ]
+    },
+    "birthplace": {
+      "value": "Exampleville",
+      "citations": [
+        {
+          "source": "src:averysample-example-org-ef54a1cad9",
+          "quote": "Born April 12, 1980, in Exampleville"
+        }
+      ]
+    },
+    "career": {
+      "as_of": "2030-10-01",
+      "items": [
+        {
+          "organization": "Example Widget Works",
+          "role": "Widget engineer",
+          "start": "2006",
+          "citations": [
+            {
+              "source": "src:averysample-example-org-ef54a1cad9",
+              "quote": "Avery has worked as a widget engineer for 20 years."
+            }
+          ]
+        }
+      ]
+    },
+    "education": {
+      "as_of": "2030-10-01",
+      "items": [
+        {
+          "degree": "B.S.",
+          "institution": "Example State University",
+          "citations": [
+            {
+              "source": "src:averysample-example-org-ef54a1cad9",
+              "quote": "B.S., Example State University"
+            }
+          ]
+        }
+      ]
+    },
+    "occupation": {
+      "value": "Widget engineer",
+      "citations": [
+        {
+          "source": "src:averysample-example-org-ef54a1cad9",
+          "quote": "Avery has worked as a widget engineer for 20 years."
+        }
+      ]
+    },
+    "offices_held": {
+      "as_of": "2030-10-01",
+      "items": [
+        {
+          "office": "Exampleville City Council",
+          "end": "2026-12-01",
+          "office_ref": "office:exampleville-council-member",
+          "start": "2022-12-01",
+          "citations": [
+            {
+              "source": "src:averysample-example-org-ef54a1cad9",
+              "quote": "Avery served on the Exampleville City Council from 2022 to 2026."
+            }
+          ]
+        }
+      ]
+    },
+    "party_registration": {
+      "value": "Example Party",
+      "citations": [
+        {
+          "source": "src:sos-example-gov-dfeadf2ddd",
+          "quote": "Avery Sample  Example Party  Widget Engineer"
+        }
+      ]
+    },
+    "residence_city": {
+      "value": "Exampleville",
+      "citations": [
+        {
+          "source": "src:averysample-example-org-ef54a1cad9",
+          "quote": "Avery lives in Exampleville."
+        }
+      ]
+    }
+  },
+  "ids": [],
+  "links": {
+    "campaign_site": "https://averysample.example.org"
+  },
+  "public_figure": true,
+  "last_verified": "2030-11-01"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "senate-ca-gov-1e48d25a0b",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Senate",
+  "title": "FAQs",
+  "url": "https://www.senate.ca.gov/faq",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified. May be the same page as /citizens-guide/faqs; both URLs appeared in search results."
+}

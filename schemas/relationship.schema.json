@@ -1,0 +1,683 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/relationship.schema.json",
+  "title": "Relationship",
+  "description": "A typed, cited edge between actors (or between a person and a bill). Each influence type is distinct and never blended. The id is deterministic (computed from the fields by `npm run put`) and the file lives at data/relationships/<type>/<id>.json. Money types (contribution, independent_expenditure, lobbying, behested_payment) must cite an official filing.",
+  "type": "object",
+  "required": [
+    "type"
+  ],
+  "discriminator": {
+    "propertyName": "type"
+  },
+  "oneOf": [
+    {
+      "title": "Endorsement",
+      "description": "id: endorsement--<endorser>--<endorsee>--<cycle>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "endorser",
+        "endorsee",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "endorsement"
+        },
+        "endorser": {
+          "$ref": "defs.schema.json#/$defs/ActorRef"
+        },
+        "endorsee": {
+          "$ref": "defs.schema.json#/$defs/PersonOrContestRef"
+        },
+        "side": {
+          "description": "Required when the endorsee is a ballot measure.",
+          "enum": [
+            "support",
+            "oppose"
+          ]
+        },
+        "date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "rescinded": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "date",
+            "citations"
+          ],
+          "properties": {
+            "date": {
+              "$ref": "defs.schema.json#/$defs/Date"
+            },
+            "citations": {
+              "$ref": "defs.schema.json#/$defs/Citations"
+            }
+          }
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "if": {
+        "required": [
+          "endorsee"
+        ],
+        "properties": {
+          "endorsee": {
+            "type": "string",
+            "pattern": "^contest:"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "side"
+        ]
+      },
+      "else": {
+        "properties": {
+          "side": false
+        }
+      }
+    },
+    {
+      "title": "Committee role",
+      "description": "Links a campaign committee to the candidate it is controlled by / authorized for, or to the ballot measure it is primarily formed for. id: committee_role--<committee>--<subject>--<role>--<cycle>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "committee",
+        "subject",
+        "role",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "committee_role"
+        },
+        "committee": {
+          "$ref": "defs.schema.json#/$defs/OrgRef"
+        },
+        "subject": {
+          "$ref": "defs.schema.json#/$defs/PersonOrContestRef"
+        },
+        "role": {
+          "enum": [
+            "principal_campaign",
+            "authorized",
+            "ca_controlled",
+            "officeholder",
+            "leadership_pac",
+            "jfc_participant",
+            "legal_defense",
+            "controlled_ballot_measure",
+            "primarily_formed_support",
+            "primarily_formed_oppose"
+          ]
+        },
+        "contest": {
+          "description": "The contest the committee raises money for. Required for principal_campaign, authorized and ca_controlled roles; only those count toward a candidate's contest funding rollup.",
+          "$ref": "defs.schema.json#/$defs/ContestRef"
+        },
+        "period": {
+          "$ref": "defs.schema.json#/$defs/OpenPeriod"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "role"
+            ],
+            "properties": {
+              "role": {
+                "enum": [
+                  "principal_campaign",
+                  "authorized",
+                  "ca_controlled"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "contest"
+            ],
+            "properties": {
+              "subject": {
+                "type": "string",
+                "pattern": "^person:"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "role"
+            ],
+            "properties": {
+              "role": {
+                "enum": [
+                  "primarily_formed_support",
+                  "primarily_formed_oppose"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "subject": {
+                "type": "string",
+                "pattern": "^contest:"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "Contribution",
+      "description": "Aggregate given by one donor to one committee for one election. With ActBlue/WinRed, the donor is the original contributor and the platform goes in `conduit`. id: contribution--<donor>--<recipient>--<cycle>--<election_designation>--<form>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "donor",
+        "recipient",
+        "money",
+        "election_designation",
+        "form",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "contribution"
+        },
+        "donor": {
+          "$ref": "defs.schema.json#/$defs/ActorRef"
+        },
+        "recipient": {
+          "$ref": "defs.schema.json#/$defs/OrgRef"
+        },
+        "money": {
+          "$ref": "defs.schema.json#/$defs/Money"
+        },
+        "election_designation": {
+          "$ref": "defs.schema.json#/$defs/ElectionDesignation"
+        },
+        "form": {
+          "description": "transfer and refund are excluded from rollups to avoid double counting.",
+          "enum": [
+            "monetary",
+            "in_kind",
+            "loan",
+            "transfer",
+            "refund"
+          ]
+        },
+        "conduit": {
+          "$ref": "defs.schema.json#/$defs/OrgRef"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "title": "Independent expenditure",
+      "description": "Outside spending supporting or opposing a candidate or measure, not coordinated with the campaign. id: independent_expenditure--<spender>--<target>--<side>--<cycle>--<election_designation>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "spender",
+        "target",
+        "side",
+        "money",
+        "election_designation",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "independent_expenditure"
+        },
+        "spender": {
+          "$ref": "defs.schema.json#/$defs/OrgRef"
+        },
+        "target": {
+          "$ref": "defs.schema.json#/$defs/PersonOrContestRef"
+        },
+        "side": {
+          "enum": [
+            "support",
+            "oppose"
+          ]
+        },
+        "money": {
+          "$ref": "defs.schema.json#/$defs/Money"
+        },
+        "election_designation": {
+          "$ref": "defs.schema.json#/$defs/ElectionDesignation"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "title": "Lobbying",
+      "description": "What a client paid to lobby, and on what. Disclosures name bills and agencies, not officials: `officials` is only filled when the filing itself names them. id: lobbying--<client>--<firm or in-house>--<jurisdiction>--<period.start>--<period.end>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "client",
+        "jurisdiction",
+        "targets",
+        "money",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "lobbying"
+        },
+        "client": {
+          "$ref": "defs.schema.json#/$defs/OrgRef"
+        },
+        "firm": {
+          "description": "Lobbying firm hired, if any. Omit for in-house lobbying.",
+          "$ref": "defs.schema.json#/$defs/OrgRef"
+        },
+        "jurisdiction": {
+          "enum": [
+            "ca",
+            "federal"
+          ]
+        },
+        "targets": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "bills",
+            "agencies"
+          ],
+          "properties": {
+            "bills": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "$ref": "defs.schema.json#/$defs/BillRef"
+              }
+            },
+            "agencies": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "officials": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "$ref": "defs.schema.json#/$defs/PersonRef"
+              }
+            }
+          }
+        },
+        "money": {
+          "$ref": "defs.schema.json#/$defs/Money"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "title": "Behested payment",
+      "description": "A payment made at an official's request to a third party (California FPPC Form 803). id: behested_payment--<official>--<payor>--<payee>--<date>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "official",
+        "payor",
+        "payee",
+        "amount_cents",
+        "date",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "behested_payment"
+        },
+        "official": {
+          "$ref": "defs.schema.json#/$defs/PersonRef"
+        },
+        "payor": {
+          "$ref": "defs.schema.json#/$defs/ActorRef"
+        },
+        "payee": {
+          "$ref": "defs.schema.json#/$defs/OrgRef"
+        },
+        "amount_cents": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "title": "Affiliation",
+      "description": "A person's role at an organization. id: affiliation--<person>--<organization>--<role>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "person",
+        "organization",
+        "role",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "affiliation"
+        },
+        "person": {
+          "$ref": "defs.schema.json#/$defs/PersonRef"
+        },
+        "organization": {
+          "$ref": "defs.schema.json#/$defs/OrgRef"
+        },
+        "role": {
+          "enum": [
+            "founder",
+            "owner",
+            "executive",
+            "officer",
+            "board_member",
+            "employee",
+            "advisor",
+            "member",
+            "treasurer",
+            "other"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "period": {
+          "$ref": "defs.schema.json#/$defs/OpenPeriod"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "title": "Legislative action",
+      "description": "Something a person did on a bill as a legislator or in public: authored, co-authored, sponsored, co-sponsored, voted, or publicly supported/opposed it. Bill outcomes live on bill records (data/bills). id: legislative_action--<person>--<bill>--<action>--<date or undated>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "person",
+        "bill",
+        "action",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "legislative_action"
+        },
+        "person": {
+          "$ref": "defs.schema.json#/$defs/PersonRef"
+        },
+        "bill": {
+          "$ref": "defs.schema.json#/$defs/BillRef"
+        },
+        "action": {
+          "enum": [
+            "authored",
+            "coauthored",
+            "sponsored",
+            "cosponsored",
+            "voted_yes",
+            "voted_no",
+            "abstained",
+            "publicly_supported",
+            "publicly_opposed"
+          ]
+        },
+        "date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "title": "Bill position",
+      "description": "An outside person's or organization's public position on a bill, e.g. an organizational sponsor, or a business leader publicly supporting/opposing. Distinct from endorsing a candidate and from lobbying (which needs a lobbying filing). id: bill_position--<actor>--<bill>--<position>",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "actor",
+        "bill",
+        "position",
+        "cycle",
+        "citations",
+        "last_verified"
+      ],
+      "properties": {
+        "$schema": {
+          "$ref": "defs.schema.json#/$defs/SchemaPointer"
+        },
+        "id": {
+          "$ref": "#/$defs/RelId"
+        },
+        "type": {
+          "const": "bill_position"
+        },
+        "actor": {
+          "$ref": "defs.schema.json#/$defs/ActorRef"
+        },
+        "bill": {
+          "$ref": "defs.schema.json#/$defs/BillRef"
+        },
+        "position": {
+          "enum": [
+            "sponsor",
+            "support",
+            "oppose"
+          ]
+        },
+        "date": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "cycle": {
+          "$ref": "defs.schema.json#/$defs/Cycle"
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        },
+        "last_verified": {
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "RelId": {
+      "type": "string",
+      "pattern": "^[a-z_]+(?:--[a-z0-9_.-]+)+$",
+      "maxLength": 300
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-33",
+  "items": [
+    {
+      "person": "person:pete-aguilar",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Associated Press (via Your Source One) https://www.yoursourceone.com/news/national_news/republican-stephanie-vargas-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_67069177-37fc-5394-91d7-a3ff280dfe5f.html [search summary, secondary]; Associated Press (via Plain Dealer IN) https://www.plaindealerin.com/news/regional/democrat-pete-aguilar-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_977d0ac4-c78c-505c-ab93-c7e755cfb7be.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Pete_Aguilar [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:pete-aguilar",
+      "label": "Party",
+      "text": "Democratic (sources: Associated Press (via Your Source One) https://www.yoursourceone.com/news/national_news/republican-stephanie-vargas-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_67069177-37fc-5394-91d7-a3ff280dfe5f.html [search summary, secondary]; Associated Press (via Plain Dealer IN) https://www.plaindealerin.com/news/regional/democrat-pete-aguilar-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_977d0ac4-c78c-505c-ab93-c7e755cfb7be.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Pete_Aguilar [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:pete-aguilar",
+      "label": "Incumbent",
+      "text": "Yes (sources: Associated Press (via Your Source One) https://www.yoursourceone.com/news/national_news/republican-stephanie-vargas-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_67069177-37fc-5394-91d7-a3ff280dfe5f.html [search summary, secondary]; Associated Press (via Plain Dealer IN) https://www.plaindealerin.com/news/regional/democrat-pete-aguilar-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_977d0ac4-c78c-505c-ab93-c7e755cfb7be.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Pete_Aguilar [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:pete-aguilar",
+      "label": "2024 result",
+      "text": "Won reelection to California's 33rd Congressional District in 2024 against Republican Tom Herman (AP race call). (sources: Associated Press (via NewsNation) https://digital-release.newsnationnow.com/?p=3120165 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:stephanie-m-vargas",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Associated Press (via Your Source One) https://www.yoursourceone.com/news/national_news/republican-stephanie-vargas-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_67069177-37fc-5394-91d7-a3ff280dfe5f.html [search summary, secondary]; Associated Press (via Plain Dealer IN) https://www.plaindealerin.com/news/regional/democrat-pete-aguilar-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_977d0ac4-c78c-505c-ab93-c7e755cfb7be.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Pete_Aguilar [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:stephanie-m-vargas",
+      "label": "Party",
+      "text": "Republican (sources: Associated Press (via Your Source One) https://www.yoursourceone.com/news/national_news/republican-stephanie-vargas-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_67069177-37fc-5394-91d7-a3ff280dfe5f.html [search summary, secondary]; Associated Press (via Plain Dealer IN) https://www.plaindealerin.com/news/regional/democrat-pete-aguilar-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_977d0ac4-c78c-505c-ab93-c7e755cfb7be.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Pete_Aguilar [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:stephanie-m-vargas",
+      "label": "Incumbent",
+      "text": "No (sources: Associated Press (via Your Source One) https://www.yoursourceone.com/news/national_news/republican-stephanie-vargas-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_67069177-37fc-5394-91d7-a3ff280dfe5f.html [search summary, secondary]; Associated Press (via Plain Dealer IN) https://www.plaindealerin.com/news/regional/democrat-pete-aguilar-advances-to-the-general-election-for-u-s-house-in-californias-33rd/article_977d0ac4-c78c-505c-ab93-c7e755cfb7be.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Pete_Aguilar [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:stephanie-m-vargas",
+      "label": "Occupation",
+      "text": "Chief Deputy City Clerk, City of Colton. (sources: iVoterGuide https://ivoterguide.com/candidate/90608/race/30384/election/1454 [search summary, secondary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-e0cab76ddd",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Clark County Election Department",
+  "title": "All Contests and Candidates in the November 3 2026, General Election in Clark County, Nevada",
+  "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:1db09a57-4c1b-47e1-94d9-e7782c442571/original/as/officesup-26g.pdf"
+}

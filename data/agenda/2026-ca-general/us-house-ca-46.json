@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-46",
+  "candidates": [
+    {
+      "person": "person:lou-correa",
+      "name": "Lou Correa"
+    },
+    {
+      "person": "person:david-pan",
+      "name": "David Pan"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:us-representative-california",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: WEAKLY CONFIRMED: Pan's advancement rests on a single ABC7 results page (pre-certification), and the AP 'Correa advances' listing was undated. No AP item for Pan advancing was found. About 15% of the vote went to others, so check the SoS certified list. Ballotpedia's combined list also names Christian Mendez. Ballot name for Correa (e.g., 'J. Luis Correa' vs 'Lou Correa') not confirmed. No ballot designations, education, birth, or other bio data gathered: search budget exhausted."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

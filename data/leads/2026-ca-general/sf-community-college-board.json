@@ -1,0 +1,449 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/sf-community-college-board",
+  "items": [
+    {
+      "person": "person:elijah-ball",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:elijah-ball",
+      "label": "Incumbent",
+      "text": "No (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:elijah-ball",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie a ballot designation to this name. sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:elijah-ball",
+      "label": "Occupation",
+      "text": "College campus planner: his questionnaire describes helping colleges, including California community colleges, prepare facilities plans; it reports work with three California community college districts and on Folsom Lake College’s 2025 Facilities Master Plan update. (sources: GrowSF candidate questionnaire (Elijah Ball) https://growsf.org/voter-guide/questionnaires/november-2026/elijah-ball/ [search summary, secondary]; League of Pissed Off Voters candidate questionnaire (Elijah Ball) https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911380/College_Board_Elijah_Ball.pdf [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:elijah-ball",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (one web search on the candidate’s name plus the race-wide searches). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:elijah-ball",
+      "label": "Education",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:elijah-ball",
+      "label": "Age",
+      "text": "Not found in the sources searched: no age or birth year appeared in the search summaries. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:elijah-ball",
+      "label": "Party",
+      "text": "Not found in the sources searched. The contest is nonpartisan; no ballot party label applies. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:elijah-ball",
+      "label": "Campaign website",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "Incumbent",
+      "text": "No (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie a ballot designation to this name. sf.gov and media.api.sf.gov could not be opened from this session. Listed in the GrowSF Community College Board voter guide as Non-profit Executive; GrowSF’s listing may reproduce the ballot designation, which is unconfirmed. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "Occupation",
+      "text": "Listed in the GrowSF Community College Board voter guide as Non-profit Executive. An undated Guardsman article (URL not shown in the search summary) described him as co-executive director of the nonprofit Bayview Association for Youth and a real estate agent at Pinpoint Building Group; that may be older than his current role. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (one web search on the candidate’s name plus the race-wide searches). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "Education",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "Age",
+      "text": "Not found in the sources searched: no age or birth year appeared in the search summaries. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "Party",
+      "text": "Not found in the sources searched. The contest is nonpartisan; no ballot party label applies. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:rome-moses-jones",
+      "label": "Campaign website",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "Incumbent",
+      "text": "No (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie a ballot designation to this name. sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "Occupation",
+      "text": "Middle school teacher, according to The Guardsman’s 2026 candidate coverage. (sources: The Guardsman (Monroe Lace candidate profile) https://www.theguardsman.com/city-college-needs-to-live-within-their-means-fiscal-watchdog-trustee-candidate-monroe-lace/ [search summary, secondary]; GrowSF candidate questionnaire (Monroe Lace) https://growsf.org/voter-guide/questionnaires/november-2026/monroe-lace/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (one web search on the candidate’s name plus the race-wide searches). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "Education",
+      "text": "Not found in the sources searched (the search summary said formal education was not found). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "Age",
+      "text": "Not found in the sources searched: no age or birth year appeared in the search summaries. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "Party",
+      "text": "Not found in the sources searched. The contest is nonpartisan; no ballot party label applies. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:monroe-lace",
+      "label": "Campaign website",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "Incumbent",
+      "text": "No (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie a ballot designation to this name. sf.gov and media.api.sf.gov could not be opened from this session. Listed in the GrowSF Community College Board voter guide as Administrative Analyst; GrowSF’s listing may reproduce the ballot designation, which is unconfirmed. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "Occupation",
+      "text": "Listed in the GrowSF Community College Board voter guide as Administrative Analyst. A search summary also said she serves as President of the San Francisco District 11 Democratic Club (a party club, not a public office); the summary did not tie that to a specific source. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Leah LaCroix candidate profile) https://www.theguardsman.com/bot2026-candidate-leah-lacroix/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (one web search on the candidate’s name plus the race-wide searches). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "Education",
+      "text": "Former City College of San Francisco student, dual-enrolled while in high school, according to The Guardsman. Degrees not found. (sources: The Guardsman (Leah LaCroix candidate profile) https://www.theguardsman.com/bot2026-candidate-leah-lacroix/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "Age",
+      "text": "Not found in the sources searched: no age or birth year appeared in the search summaries. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "Party",
+      "text": "Not found in the sources searched. The contest is nonpartisan; no ballot party label applies. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:leah-lacroix",
+      "label": "Campaign website",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "Incumbent",
+      "text": "No (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie a ballot designation to this name. sf.gov and media.api.sf.gov could not be opened from this session. Listed in the GrowSF Community College Board voter guide as Asset Manager; GrowSF’s listing may reproduce the ballot designation, which is unconfirmed. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "Occupation",
+      "text": "Listed in the GrowSF Community College Board voter guide as Asset Manager. His League of Pissed Off Voters questionnaire mentions his 2016 campaign work for Proposition W (the real estate transfer tax that funds Free City College). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; League of Pissed Off Voters candidate questionnaire (Jeremy Lee) https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911382/College_Board_Jeremy_Lee.pdf [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (one web search on the candidate’s name plus the race-wide searches). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "Education",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "Age",
+      "text": "Not found in the sources searched: no age or birth year appeared in the search summaries. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "Party",
+      "text": "Not found in the sources searched. The contest is nonpartisan; no ballot party label applies. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jeremy-lee",
+      "label": "Campaign website",
+      "text": "www.jeremyleesf.com, as given in his League of Pissed Off Voters questionnaire. (sources: League of Pissed Off Voters candidate questionnaire (Jeremy Lee) https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911382/College_Board_Jeremy_Lee.pdf [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "Incumbent",
+      "text": "No (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie a ballot designation to this name. sf.gov and media.api.sf.gov could not be opened from this session. Listed in the GrowSF Community College Board voter guide as Nonprofit Manager / Writer; GrowSF’s listing may reproduce the ballot designation, which is unconfirmed. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "Occupation",
+      "text": "Listed in the GrowSF Community College Board voter guide as Nonprofit Manager / Writer. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (one web search on the candidate’s name plus the race-wide searches). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "Education",
+      "text": "The Guardsman says she draws on her experience as a community college student. The San Francisco Women’s Political Committee endorsement page lists her with the title Dr.; degree and institution not found. (sources: The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary]; San Francisco Women’s Political Committee (Nov 2026 endorsements) https://sfwpc.org/endorsements-of-candidates-for-november-2026-election/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "Age",
+      "text": "Not found in the sources searched: no age or birth year appeared in the search summaries. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "Party",
+      "text": "Not found in the sources searched. The contest is nonpartisan; no ballot party label applies. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:bunny-mcfadden",
+      "label": "Campaign website",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "Incumbent",
+      "text": "No (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "Ballot designation",
+      "text": "Not confirmed. A search summary of the Voter Information Pamphlet saw the line Municipal Financial Advisor with his statement; whether it is also his ballot designation is unconfirmed. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Filipino edition) https://media.api.sf.gov/documents/N26_FI_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "Occupation",
+      "text": "Municipal financial advisor for 25 years who has worked with more than 30 California community colleges on financing plans, according to the GrowSF voter guide. A search summary of the Voter Information Pamphlet saw the occupation line Municipal Financial Advisor for him. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; GrowSF candidate questionnaire (Erwin Tam) https://growsf.org/voter-guide/questionnaires/november-2026/erwin-tam/ [search summary, secondary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Filipino edition) https://media.api.sf.gov/documents/N26_FI_VIP.pdf [search summary, primary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (one web search on the candidate’s name plus the race-wide searches). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "Education",
+      "text": "Former City College of San Francisco student (GrowSF voter guide); a Bay Area Reporter editorial adds that both of his parents attended City College. Degrees not found. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; Bay Area Reporter (editorial) https://www.ebar.com/story/170122 [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "Age",
+      "text": "Not found in the sources searched: no age or birth year appeared in the search summaries. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "Party",
+      "text": "Not found in the sources searched. The contest is nonpartisan; no ballot party label applies. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:erwin-tam",
+      "label": "Campaign website",
+      "text": "Not found in the sources searched. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Incumbent",
+      "text": "No (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie a ballot designation to this name. sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Filipino edition) https://media.api.sf.gov/documents/N26_FI_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Occupation",
+      "text": "Equity researcher, per a search summary of the Filipino-language Voter Information Pamphlet (a translation; the English occupation wording was not seen). No other background found; a GoodParty.org profile under the name Lisa Wynn had no content. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Filipino edition) https://media.api.sf.gov/documents/N26_FI_VIP.pdf [search summary, primary]; GoodParty.org (Lisa Wynn profile) https://goodparty.org/people/lisa-wynn-21720cdb [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (one web search on the candidate’s name plus the race-wide searches). (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Education",
+      "text": "Not found in the sources searched. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Filipino edition) https://media.api.sf.gov/documents/N26_FI_VIP.pdf [search summary, primary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Age",
+      "text": "Not found in the sources searched: no age or birth year appeared in the search summaries. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Party",
+      "text": "Not found in the sources searched. The contest is nonpartisan; no ballot party label applies. (sources: GrowSF voter guide (Community College Board, Nov 2026) https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/community-college-board/ [search summary, secondary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Campaign website",
+      "text": "Not found in the sources searched. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Filipino edition) https://media.api.sf.gov/documents/N26_FI_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lisa-palagi-wynn-ii",
+      "label": "Name on the ballot",
+      "text": "The Voter Information Pamphlet (search summary) prints the name as Lisa Palagi Wynn II; The Guardsman and GoodParty.org use Lisa Wynn. (sources: San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; The Guardsman (Introducing the San Francisco College Board Race) https://www.theguardsman.com/ballot-beat-2026-part-1/ [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information gathered on 2026-11-03 from web search summaries only; no page was opened. The official pages (sf.gov, media.api.sf.gov, ccsf.edu) and the secondary pages named (GrowSF, The Guardsman, League of Pissed Off Voters, GoodParty.org, Bay Area Reporter, San Francisco Women's Political Committee) could not be opened from this session. Each item names its sources and marks each one [search summary]. Every candidate was searched the same way: one web search on the candidate's name, plus the race-wide searches (candidate list, Voter Information Pamphlet, GrowSF guide, The Guardsman). Leads are unverified until confirmed in a primary source; nothing here is a citation."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "connie-chan",
+  "name": "Connie Chan",
+  "aliases": [],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "Born in Hong Kong",
+      "citations": [
+        {
+          "source": "src:conniechansf-com-59f51a6a55",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §1"
+          }
+        }
+      ]
+    },
+    "career": {
+      "as_of": "2026-11-02",
+      "items": [
+        {
+          "role": "Community organizer",
+          "citations": [
+            {
+              "source": "src:conniechansf-com-59f51a6a55",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §1"
+              }
+            }
+          ]
+        },
+        {
+          "role": "Legislative aide",
+          "citations": [
+            {
+              "source": "src:conniechansf-com-59f51a6a55",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §1"
+              }
+            }
+          ]
+        },
+        {
+          "role": "Chinese-language interpretation",
+          "citations": [
+            {
+              "source": "src:conniechansf-com-59f51a6a55",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "education": {
+      "as_of": "2026-11-02",
+      "items": [
+        {
+          "degree": "bachelor’s degree",
+          "institution": "UC Davis",
+          "citations": [
+            {
+              "source": "src:conniechansf-com-59f51a6a55",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §1"
+              }
+            }
+          ]
+        },
+        {
+          "institution": "Galileo High School",
+          "citations": [
+            {
+              "source": "src:conniechansf-com-59f51a6a55",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "occupation": {
+      "value": "Supervisor",
+      "citations": [
+        {
+          "source": "src:conniechansf-com-59f51a6a55",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §1"
+          }
+        }
+      ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-02",
+      "items": [
+        {
+          "office": "San Francisco District 1 Supervisor",
+          "current": true,
+          "first_elected": "2020",
+          "office_ref": "office:san-francisco-supervisor",
+          "citations": [
+            {
+              "source": "src:conniechansf-com-59f51a6a55",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §1"
+              }
+            }
+          ]
+        },
+        {
+          "office": "Budget Committee chair",
+          "current": true,
+          "start": "2023",
+          "citations": [
+            {
+              "source": "src:conniechansf-com-59f51a6a55",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §1"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:conniechansf-com-59f51a6a55",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §1"
+          }
+        }
+      ]
+    }
+  },
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-02"
+}

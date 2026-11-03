@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sbud-senate-ca-gov-6e9d456b34",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Senate Budget and Fiscal Review Committee",
+  "title": "Budget Act of 2026",
+  "url": "https://sbud.senate.ca.gov/system/files/2026-06/budget-act-of-2026.pdf",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

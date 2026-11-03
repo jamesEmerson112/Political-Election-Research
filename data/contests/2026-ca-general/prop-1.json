@@ -1,0 +1,181 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/prop-1",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "Proposition 1",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Anni Chung, President Self-Help for the Elderly",
+        "Jeffery Freitas, President California Federation of Teachers",
+        "John H. Ing, Chief Financial Officer US Vets"
+      ],
+      "heading": "YES ON PROP. 1: AFFORDABLE HOMES FOR VETERANS, SENIORS, PEOPLE WITH DISABILITIES AND WORKING FAMILIES—WITHOUT RAISING TAXES",
+      "side": "yes",
+      "text": "All Californians deserve a safe and affordable place to call home, but California has a housing shortage that is driving the nation’s worst housing affordability crisis. More than half of renters spend over 30% of their income on rent and only 22% of households can afford a median-priced home, yet only 1% of California’s state budget goes to housing. Prop. 1 gives Californians the opportunity to: • Fast-track housing production; • Provide housing to working families, veterans, people with disabilities and seniors; • Help prevent homelessness by keeping our most vulnerable neighbors in their homes; • Expands homeownership opportunities; • Maintains strict fiscal accountability and transparency with NO NEW TAXES. PROP. 1 HONORS OUR VETERANS Dedicates $1.25 billion solely to veterans’ housing and homeownership opportunities through the existing CalVet Home Loan Program, which has already helped almost a million veterans and their families. “California has one of the largest populations of homeless veterans in the nation. After their service, our veterans deserve a place to call home. Prop. 1 delivers on that promise.”—Michael Blecker, President, CA Association of Veteran Service Agencies PROP. 1 BUILDS HOMES LOW- AND MIDDLE-INCOME FAMILIES CAN AFFORD Prop. 1 jumpstarts the construction of tens of thousands of shovel-ready affordable homes across California, quickly turning stalled construction into move-in ready homes. The teacher in your child’s classroom, the firefighter who protects your neighborhood, first-time homebuyers, low- and middle-income Californians, and the nurse at your local hospital can no longer afford to live in most California communities. Prop. 1 builds more homes working people can actually afford. NO NEW TAXES—STRICT ACCOUNTABILITY AND TRANSPARENCY Prop. 1 doesn’t raise taxes and every dollar comes with strict accountability and public reporting. Voters will be able to see exactly how many homes get built, where, and at what cost. Prop. 1 unlocks federal matching funds, bringing tax dollars we send to Washington back home to California. PROP. 1 HELPS SENIORS, VETERANS & OUR MOST VULNERABLE Prop. 1 creates and preserves housing to help those who are one crisis away from homelessness stay off the streets, low-income seniors on fixed incomes, survivors of domestic violence and their families, veterans, at risk and foster youth, and people with disabilities who all deserve safe and stable homes. PROP. 1 INVESTS IN COMMUNITIES & ESSENTIAL WORKERS Quality, affordable housing is the foundation of thriving communities. Prop. 1 strengthens that foundation by helping essential workers—from firefighters and teachers to nurses—afford to live in the communities they serve. Working families and essential workers across California are being priced out and left behind. Prop. 1 enables the construction of affordable housing for these essential workers who dedicate their lives to our communities. YES ON PROP. 1: SUPPORTED BY VETERANS, SENIORS, TEACHERS, FIREFIGHTERS, AND AFFORDABLE HOUSING ADVOCATES including Habitat for Humanity California, California Alliance for Retired Americans, Housing California, California Housing Consortium, California Alliance of Child and Family Services. VOTE YES ON PROP. 1, Veterans and Affordable Housing Bond, to honor those veterans who served; provide safe and stable housing to California’s most vulnerable; guarantee strict fiscal accountability with no new taxes; and build the affordable homes all Californians deserve. YesOnProp1CA.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "All Californians deserve a safe and affordable place to call home, but California has a housing shortage that is driving the nation’s worst housing affordability crisis. More than half of renters spend over 30% of their income on rent and only 22% of households can afford a median-priced home, yet only 1% of California’s state budget goes to housing. Prop. 1 gives Californians the opportunity to: • Fast-track housing production; • Provide housing to working families, veterans, people with disabilities and seniors; • Help prevent homelessness by keeping our most vulnerable neighbors in their homes; • Expands homeownership opportunities; • Maintains strict fiscal accountability and transparency with NO NEW TAXES. PROP. 1 HONORS OUR VETERANS Dedicates $1.25 billion solely to veterans’ housing and homeownership opportunities through the existing CalVet Home Loan Program, which has already helped almost a million veterans and their families. “California has one of the largest populations of homeless veterans in the nation. After their service, our veterans deserve a place to call home. Prop. 1 delivers on that promise.”—Michael Blecker, President, CA Association of Veteran Service Agencies PROP. 1 BUILDS HOMES LOW- AND MIDDLE-INCOME FAMILIES CAN AFFORD Prop. 1 jumpstarts the construction of tens of thousands of shovel-ready affordable homes across California, quickly turning stalled construction into move-in ready homes. The teacher in your child’s classroom, the firefighter who",
+          "locator": "p. 18, Argument in Favor of Proposition 1"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "label": "What your vote means",
+    "no_means": {
+      "value": "The state could not borrow $11.25 billion to support veterans and affordable housing.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "The state could not borrow $11.25 billion to support veterans and affordable housing.",
+          "locator": "p. 5, Quick Reference Guide, Proposition 1, WHAT YOUR VOTE MEANS, NO"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "The state could borrow $11.25 billion to support veterans and affordable housing.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "The state could borrow $11.25 billion to support veterans and affordable housing.",
+          "locator": "p. 5, Quick Reference Guide, Proposition 1, WHAT YOUR VOTE MEANS, YES"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [
+      {
+        "id": "bond-program-administration",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "dedicated",
+        "note": "Paid from 'a portion of the bond funds' (no fund is named), not as a separate General Fund cost in the LAO's text.",
+        "per": "total",
+        "text": "State entities would have increased costs to administer the housing programs; a portion of the bond funds would cover them. No amount is given.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Administrative Costs. A number of state entities would experience increased costs to administer the various housing programs. A portion of the bond funds would cover these costs.",
+            "locator": "p. 17, Proposition 1, Analysis by the Legislative Analyst, Fiscal Effects, “Administrative Costs”"
+          }
+        ]
+      },
+      {
+        "id": "housing-bond-repayment",
+        "amount": {
+          "high_usd": 600000000,
+          "low_usd": 500000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "State General Fund cost of $500 million to $600 million annually for about 25 years to repay the $10 billion housing bond.",
+        "years": 25,
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Increased state cost of $500 million to $600 million annually for about 25 years to repay the housing bond.",
+            "locator": "p. 14, Proposition 1, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Increased State Cost to Repay the $10 Billion Bond for Housing Programs. The state General Fund cost to repay the bond would be $500 million to $600 million annually for about 25 years.",
+            "locator": "p. 17, Proposition 1, Analysis by the Legislative Analyst, Fiscal Effects, “Increased State Cost to Repay the $10 Billion Bond for Housing Programs”"
+          }
+        ]
+      },
+      {
+        "id": "veterans-home-loan-bond-no-direct-cost",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "note": "No General Fund cost stated: the analysis says the $1.25 billion veterans bond 'would be repaid by veterans’ payments on their home loans', unlike the $10 billion bond 'repaid by the General Fund'.",
+        "per": "year",
+        "text": "No direct state cost for the $1.25 billion veterans home loan bond; veterans' monthly loan payments would repay it.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "No Direct State Cost for Veterans Housing Program. Veterans participating in the home loan program would make monthly payments to the state, allowing the state to repay the bonds. These payments have always covered the amount owed on the bonds, meaning the program has always operated at no direct cost to the state.",
+            "locator": "p. 17, Proposition 1, Analysis by the Legislative Analyst, Fiscal Effects, “No Direct State Cost for Veterans Housing Program”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "This amount consists of (1) a $10 billion bond for a variety of state housing programs that would be repaid by the General Fund and (2) a $1.25 billion bond that would be repaid by veterans’ payments on their home loans.",
+            "locator": "p. 15, Proposition 1, Analysis by the Legislative Analyst, Proposal, “New General Obligation Bond for Housing”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Proposition 1 includes $1.25 billion for a veterans housing program. This borrowing would not result in estimated state cost.",
+            "locator": "p. 14, Proposition 1, Official Title and Summary, “State Bond Cost Estimate” box, footnote a (an image on the web guide; text from the PDF)"
+          }
+        ]
+      }
+    ],
+    "statement_by": "Legislative Analyst",
+    "summary": {
+      "summary": "• Increased state cost of $500 million to $600 million annually for about 25 years to repay the housing bond.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "• Increased state cost of $500 million to $600 million annually for about 25 years to repay the housing bond.",
+          "locator": "p. 14, Proposition 1, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "State of California",
+    "level": "state"
+  },
+  "measure_type": {
+    "value": "bond",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "AUTHORIZES BONDS FOR HOUSING AFFORDABILITY PROGRAMS. LEGISLATIVE STATUTE.",
+        "locator": "p. 14, Proposition 1, Official Title and Summary (title)"
+      }
+    ]
+  },
+  "number": "1",
+  "official_title": {
+    "value": "AUTHORIZES BONDS FOR HOUSING AFFORDABILITY PROGRAMS. LEGISLATIVE STATUTE.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "AUTHORIZES BONDS FOR HOUSING AFFORDABILITY PROGRAMS. LEGISLATIVE STATUTE.",
+        "locator": "p. 14, Proposition 1, Official Title and Summary (title)"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "legislature",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Put on the Ballot by the Legislature",
+        "locator": "p. 5, Quick Reference Guide, Proposition 1, SUMMARY header line"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Authorizes $11.25 billion in state general obligation bonds for housing affordability programs, including multifamily rental housing, mortgages for veterans, supportive housing, preservation of existing affordable housing, and downpayment assistance.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Authorizes $11.25 billion in state general obligation bonds for housing affordability programs, including multifamily rental housing, mortgages for veterans, supportive housing, preservation of existing affordable housing, and downpayment assistance.",
+        "locator": "p. 5, Quick Reference Guide, Proposition 1, SUMMARY"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

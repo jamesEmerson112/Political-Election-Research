@@ -1,0 +1,1 @@
+{"description":"A stance outside the allowed enum.","expect":["SCHEMA"],"patches":[{"file":"positions/people/avery-sample.json","set":{"/positions/1/stance":"maybe"}}]}

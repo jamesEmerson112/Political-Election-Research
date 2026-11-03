@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "behested_payment--person.avery-sample--org.example-teachers-union--org.example-food-bank--2030-03-01",
+  "type": "behested_payment",
+  "amount_cents": 500000,
+  "cycle": 2030,
+  "date": "2030-03-01",
+  "official": "person:avery-sample",
+  "payee": "org:example-food-bank",
+  "payor": "org:example-teachers-union",
+  "citations": [
+    {
+      "source": "src:disclosure-example-gov-3990973f8a",
+      "locator": "Line 1"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

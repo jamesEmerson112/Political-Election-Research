@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-ef3f69ab5d",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-06-25",
+  "publisher": "Mission Local",
+  "title": "S.F. supervisors will hammer out the city budget tonight. Here’s what’s at stake.",
+  "url": "https://missionlocal.org/2026/06/san-francisco-budget-nonprofit-cuts-addbacks/",
+  "notes": "Article text read on 2026-11-03 through the site's WordPress REST API (post 857694). Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

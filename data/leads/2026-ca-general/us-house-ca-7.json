@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-7",
+  "items": [
+    {
+      "person": "person:doris-matsui",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:doris-matsui",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:doris-matsui",
+      "label": "Ballot designation",
+      "text": "\"U.S. Representative\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:doris-matsui",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:doris-matsui",
+      "label": "U.S. Representative",
+      "text": "Incumbent U.S. Representative for California's 7th District. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:mai-vang",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mai-vang",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mai-vang",
+      "label": "Ballot designation",
+      "text": "\"Teacher/City Councilmember\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mai-vang",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/06-sov-summary.pdf [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mai-vang",
+      "label": "Sacramento City Council",
+      "text": "Member of the Sacramento City Council. (sources: Mai Vang for Congress campaign https://www.maiforus.com/press/press-release-councilmember-mai-vang-overtakes-doris-matsui-in-ca-07-official-secures-spot-on-november-ballot [search summary, primary]; Associated Press (via National Newswatch) https://nationalnewswatch.com/2026/06/09/mai-vang-advances-to-november-ballot-for-california-us-house-seat-will-face-fellow-democrat-matsui [search summary, secondary])",
+      "topic": "profile.offices_held"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-nv-general/district-court-family-dept-k",
+  "candidates": [],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Placeholder seeded 2026-11-03. \"District Court Judge Family Division Department K\" is listed for the November 3, 2026 general election in All Contests and Candidates in the November 3 2026, General Election in Clark County, Nevada (Clark County Election Department, https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:1db09a57-4c1b-47e1-94d9-e7782c442571/original/as/officesup-26g.pdf, src:clarkcountynv-gov-e0cab76ddd): \"District Court Judge Family Division Department K\". Covers all of Las Vegas (the Eighth Judicial District is Clark County: NRS 3.010, “The County of Clark constitutes the Eighth Judicial District.” (https://www.leg.state.nv.us/NRS/NRS-003.html)). Candidates and questions are not set yet; seed them from the certified list before research."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

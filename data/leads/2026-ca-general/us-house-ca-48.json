@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-48",
+  "items": [
+    {
+      "person": "person:jim-desmond",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/16/democrats-are-targeting-the-redrawn-californias-48th-congressional-district-as-a-pick-up-on-november-3-2026/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jim-desmond",
+      "label": "Party",
+      "text": "Republican (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/16/democrats-are-targeting-the-redrawn-californias-48th-congressional-district-as-a-pick-up-on-november-3-2026/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jim-desmond",
+      "label": "Ballot designation",
+      "text": "\"San Diego County Supervisor\" (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/16/democrats-are-targeting-the-redrawn-californias-48th-congressional-district-as-a-pick-up-on-november-3-2026/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jim-desmond",
+      "label": "Incumbent",
+      "text": "No (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/16/democrats-are-targeting-the-redrawn-californias-48th-congressional-district-as-a-pick-up-on-november-3-2026/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jim-desmond",
+      "label": "Current office",
+      "text": "San Diego County Supervisor (term dates not confirmed in sources seen). (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; KPBS https://www.kpbs.org/news/politics/2026/07/29/new-poll-reveals-neck-and-neck-race-for-californias-48th-congressional-seat [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jim-desmond",
+      "label": "Campaign history",
+      "text": "Announced a congressional campaign against Rep. Mike Levin (49th District) in March 2025, before the Proposition 50 redraw; ran in the redrawn 48th District in 2026. (sources: North County Pipeline https://ncpipeline.substack.com/p/desmond-kicks-off-congressional-run [search summary, secondary]; FOX 5 San Diego https://fox5sandiego.com/election/desmond-sets-sights-on-congress-announces-bid-for-north-county-seat/amp [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jim-desmond",
+      "label": "2026 primary result",
+      "text": "Placed first in the June 2, 2026 top-two primary for the 48th District. (sources: NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:marni-von-wilpert",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/16/democrats-are-targeting-the-redrawn-californias-48th-congressional-district-as-a-pick-up-on-november-3-2026/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:marni-von-wilpert",
+      "label": "Party",
+      "text": "Democratic (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/16/democrats-are-targeting-the-redrawn-californias-48th-congressional-district-as-a-pick-up-on-november-3-2026/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:marni-von-wilpert",
+      "label": "Ballot designation",
+      "text": "\"Councilwoman/Health Advocate\" (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/16/democrats-are-targeting-the-redrawn-californias-48th-congressional-district-as-a-pick-up-on-november-3-2026/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:marni-von-wilpert",
+      "label": "Incumbent",
+      "text": "No (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/16/democrats-are-targeting-the-redrawn-californias-48th-congressional-district-as-a-pick-up-on-november-3-2026/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:marni-von-wilpert",
+      "label": "Current office",
+      "text": "Member, San Diego City Council (term dates not confirmed in sources seen). (sources: KPBS https://www.kpbs.org/news/politics/2026/07/29/new-poll-reveals-neck-and-neck-race-for-californias-48th-congressional-seat [search summary, secondary]; NBC San Diego https://www.nbcsandiego.com/news/local/san-diego-councilmember-marni-von-wilpert-48th-district/3895370/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:marni-von-wilpert",
+      "label": "2026 primary result",
+      "text": "Placed second in the June 2, 2026 top-two primary for the 48th District, ahead of Ammar Campa-Najjar (D). (sources: NBC Palm Springs https://www.nbcpalmsprings.com/decision-2026/2026/06/03/republican-jim-desmond-and-democrat-marni-von-wilpert-advance-to-november-general-election-in-californias-redrawn-48th-congressional-district [search summary, secondary]; East County Magazine https://eastcountymagazine.org/tag/marni-von-wilpert/ [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

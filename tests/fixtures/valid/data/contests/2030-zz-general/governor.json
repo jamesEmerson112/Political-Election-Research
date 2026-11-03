@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/governor",
+  "kind": "office",
+  "election": "election:2030-zz-general",
+  "name": "Governor",
+  "office": "Governor",
+  "candidates": [
+    {
+      "person": "person:avery-sample",
+      "ballot_designation": "Widget Engineer",
+      "incumbent": false,
+      "party": "Example Party",
+      "citations": [
+        {
+          "source": "src:sos-example-gov-dfeadf2ddd",
+          "quote": "Avery Sample  Example Party  Widget Engineer"
+        }
+      ]
+    },
+    {
+      "person": "person:jordan-example",
+      "ballot_designation": "Small Business Owner",
+      "incumbent": false,
+      "party": "Sample Party",
+      "citations": [
+        {
+          "source": "src:sos-example-gov-dfeadf2ddd",
+          "quote": "Jordan Example  Sample Party  Small Business Owner"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "vote_for": 1,
+  "last_verified": "2030-11-01"
+}

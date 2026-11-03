@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/lieutenant-governor",
+  "items": [
+    {
+      "person": "person:fiona-ma",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-certifies-candidate-list-november-3-2026-general-election [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/fiona-ma-and-gloria-romero-advance-to-lieutenant-governor-general-election/3902677/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:fiona-ma",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-certifies-candidate-list-november-3-2026-general-election [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/fiona-ma-and-gloria-romero-advance-to-lieutenant-governor-general-election/3902677/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:fiona-ma",
+      "label": "Ballot designation",
+      "text": "\"State Treasurer/CPA\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-certifies-candidate-list-november-3-2026-general-election [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/fiona-ma-and-gloria-romero-advance-to-lieutenant-governor-general-election/3902677/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:fiona-ma",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-certifies-candidate-list-november-3-2026-general-election [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/fiona-ma-and-gloria-romero-advance-to-lieutenant-governor-general-election/3902677/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:fiona-ma",
+      "label": "Current office",
+      "text": "California State Treasurer since January 7, 2019. (sources: California State Treasurer's Office https://www.treasurer.ca.gov/comm-external-urls/fiona-ma-bio.pdf [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Fiona_Ma [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:fiona-ma",
+      "label": "Offices held",
+      "text": "Member, San Francisco Board of Supervisors (District 4), 2002–2006; Member, California State Assembly, 2006–2012, including Speaker pro Tempore 2010–2012; Member, California State Board of Equalization (District 2), start year reported as 2014 or 2015, through 2019, and chair in 2016; California State Treasurer, 2019–present. (sources: Wikipedia https://en.wikipedia.org/wiki/Fiona_Ma [search summary, secondary]; Ballotpedia https://ballotpedia.org/Fiona_Ma [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:fiona-ma",
+      "label": "Earlier career",
+      "text": "Appointed to the San Francisco Assessment Appeals Board in 1995; earlier a district representative for then-State Senator John Burton. (sources: Wikipedia https://en.wikipedia.org/wiki/Fiona_Ma [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:fiona-ma",
+      "label": "Education",
+      "text": "Bachelor's degree in accounting, Rochester Institute of Technology (class of 1988 per an RIT alumni profile); master's degree in taxation, Golden Gate University; MBA, Pepperdine University. (sources: California State Treasurer's Office https://www.treasurer.ca.gov/comm-external-urls/fiona-ma-bio.pdf [search summary, primary]; Fiona Ma campaign https://fionama.com/about/ [search summary, primary]; Rochester Institute of Technology https://www.rit.edu/news/alumni-update-treasurer-has-passion-helping-underdog [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:fiona-ma",
+      "label": "Professional license",
+      "text": "Licensed California Certified Public Accountant since 1992. (sources: Fiona Ma campaign https://fionama.com/about/ [search summary, primary]; California State Treasurer's Office https://www.treasurer.ca.gov/comm-external-urls/fiona-ma-bio.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:gloria-romero",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-certifies-candidate-list-november-3-2026-general-election [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/fiona-ma-and-gloria-romero-advance-to-lieutenant-governor-general-election/3902677/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:gloria-romero",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-certifies-candidate-list-november-3-2026-general-election [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/fiona-ma-and-gloria-romero-advance-to-lieutenant-governor-general-election/3902677/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:gloria-romero",
+      "label": "Ballot designation",
+      "text": "\"Educator/Businesswoman\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-certifies-candidate-list-november-3-2026-general-election [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/fiona-ma-and-gloria-romero-advance-to-lieutenant-governor-general-election/3902677/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:gloria-romero",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-certifies-candidate-list-november-3-2026-general-election [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/fiona-ma-and-gloria-romero-advance-to-lieutenant-governor-general-election/3902677/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:gloria-romero",
+      "label": "Party registration",
+      "text": "Formerly registered as a Democrat; changed registration to Republican in 2024. (sources: Spectrum News 1 https://spectrumnews1.com/ca/la/politics/2024/09/04/gloria-romero--former-democratic-state-senate-leader--switches-to-gop [search summary, secondary]; Los Angeles Magazine https://lamag.com/news-and-politics/democrat-turned-republican-gloria-romero-declares-candidacy-for-lieutenant-governor/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:gloria-romero",
+      "label": "Offices held",
+      "text": "Member, California State Assembly (49th District), elected 1998, served until 2001; Member, California State Senate, March 2001–November 2010; Senate Majority Leader (years reported as 2005–2008 in one source and 2004–2009 in another). (sources: Wikipedia https://en.wikipedia.org/wiki/Gloria_Romero_(politician) [search summary, secondary]; JoinCalifornia https://www.joincalifornia.com/candidate/6069 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:gloria-romero",
+      "label": "Career",
+      "text": "Professor emerita, California State University, Los Angeles; has served as California state director of Democrats for Education Reform. (sources: California State University, Los Angeles https://www.calstatela.edu/univ/ppa/newsrel/pkp-gromero.htm [search summary, secondary]; The Federalist Society https://fedsoc.org/contributors/gloria-romero [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:gloria-romero",
+      "label": "Education",
+      "text": "Bachelor's and master's degrees, California State University, Long Beach; Ph.D. in psychology, University of California, Riverside. A Cal State LA page also lists Barstow Community College. (sources: Wikipedia https://en.wikipedia.org/wiki/Gloria_Romero_(politician) [search summary, secondary]; California State University, Los Angeles https://www.calstatela.edu/univ/ppa/newsrel/pkp-gromero.htm [search summary, secondary])",
+      "topic": "profile.education"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

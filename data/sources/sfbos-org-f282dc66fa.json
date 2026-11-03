@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbos-org-f282dc66fa",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Ordinance 240-02 (budget process text, 2002)",
+  "url": "https://www.sfbos.org/ftp/uploadedfiles/bdsupvrs/ordinances02/o0240-02.pdf",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

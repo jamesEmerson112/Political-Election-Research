@@ -1,0 +1,1 @@
+{"description":"Money records that cite only a superseded filing (warning; error under --strict).","strict":true,"expect":["FILING_SUPERSEDED"],"patches":[{"file":"sources/disclosure-example-gov-fb9e8be60d.json","set":{"/filing/superseded":true}}]}

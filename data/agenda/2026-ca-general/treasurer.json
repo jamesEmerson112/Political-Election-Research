@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/treasurer",
+  "candidates": [
+    {
+      "person": "person:eleni-kounalakis",
+      "name": "Eleni Kounalakis"
+    },
+    {
+      "person": "person:jennifer-hawks",
+      "name": "Jennifer Hawks"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:california-treasurer",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Open seat: incumbent Treasurer Fiona Ma is the Lieutenant Governor nominee. Hawks's designation is left null because sources conflict. Summaries of the general certified list and a Fresno County general-election list give Retired Business Executive. The SoS primary voter guide and the primary certified list give Retired Businesswoman. One jumbled primary-notice snippet showed Businessman/Author/Father, which is probably another candidate's. Kounalakis's designation (Lieutenant Governor of California) comes from a single search summary of the certified list. One contact-list extraction placed Hawks under the Lieutenant Governor heading, which appears to be an artifact. Primary results per a summary of SoS unofficial results: Kounalakis about 37%, Hawks about 24%. Gap: the search budget ran out before Kounalakis's education and earlier career (e.g., U.S. ambassador service) or Hawks's education could be researched. Those facts are not recorded and need follow-up."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

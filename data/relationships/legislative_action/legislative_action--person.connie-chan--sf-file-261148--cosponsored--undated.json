@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.connie-chan--sf-file-261148--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:connie-chan",
+  "action": "cosponsored",
+  "bill": "sf-file-261148",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-3ac42b6319",
+      "locator": "SF File 261148",
+      "verified_by": {
+        "by": "maintainer",
+        "date": "2026-11-02",
+        "note": "notes/2026-11-02-ca-11.md §3"
+      }
+    }
+  ],
+  "last_verified": "2026-11-02"
+}

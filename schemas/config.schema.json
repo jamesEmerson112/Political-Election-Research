@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/config.schema.json",
+  "title": "Project config",
+  "description": "Project-wide research policies. Path: data/config.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["privacy"],
+  "properties": {
+    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
+    "privacy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["individual_donor_min_cents"],
+      "properties": {
+        "individual_donor_min_cents": {
+          "description": "A private individual (not public_figure, not a candidate) may only be listed as a donor when the aggregate to one recipient is at least this amount.",
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

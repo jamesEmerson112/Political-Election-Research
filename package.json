@@ -1,0 +1,46 @@
+{
+  "name": "political-election-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open, cited, deterministic research dataset on candidates, issue stances, endorsements, money and lobbying in California elections.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "validate": "tsx cli/validate.ts",
+    "fmt": "tsx cli/fmt.ts",
+    "put": "tsx cli/put.ts",
+    "id": "tsx cli/id.ts",
+    "next": "tsx cli/next.ts",
+    "coverage": "tsx cli/coverage.ts",
+    "rollup": "tsx cli/rollup.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run -s typecheck && npm run -s fmt -- --check && npm run -s validate && npm test",
+    "e2e": "npm run -s web:build && node tests/e2e/trial-ballot.mjs && node tests/e2e/beta.mjs",
+    "db": "tsx cli/db.ts",
+    "web": "vite --config web/vite.config.ts",
+    "web:build": "vite build --config web/vite.config.ts",
+    "import:research": "tsx cli/import-research.ts",
+    "import:offices": "tsx cli/import-offices.ts",
+    "import:civlab": "tsx cli/import-civlab.ts",
+    "import:districts": "tsx cli/import-districts.ts"
+  },
+  "devDependencies": {
+    "@lucide/svelte": "1.59.0",
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "@types/node": "22.20.5",
+    "ajv": "8.20.0",
+    "ajv-formats": "3.0.1",
+    "fast-glob": "3.3.3",
+    "svelte": "5.57.3",
+    "topojson-server": "3.0.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vite-plugin-singlefile": "2.3.4",
+    "vitest": "5.1.0"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:scott-wiener",
+  "positions": [
+    {
+      "subject": "q:ai/data-center-moratorium",
+      "stance": "oppose",
+      "as_of": "2026-11-02",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "Opposes a blanket data center moratorium; favors local decisions and energy and water protections.",
+      "citations": [
+        {
+          "source": "src:kqed-org-15f7125a20",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §4"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "q:ai/frontier-ai-safety-disclosure",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "bill": "ca-2025-sb-53",
+      "cycle": 2026,
+      "evidence_type": "authored_legislation",
+      "summary": "Authored California's SB 53, the frontier-AI transparency law enacted in 2025, and supports safety and transparency standards.",
+      "citations": [
+        {
+          "source": "src:gov-ca-gov-a7ce44f81a",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §3 and §4"
+          }
+        },
+        {
+          "source": "src:kqed-org-15f7125a20",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §4"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "q:healthcare/single-payer",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Supports Medicare for All; also seeks reversing Medicaid cuts and stronger patient protections.",
+      "citations": [
+        {
+          "source": "src:missionlocal-org-cd125eb68d",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §4"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "q:immigration/expand-skilled-work-visas",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "points": [
+        {
+          "facet": "expand-green-card-pathways",
+          "text": "Supports expanding green-card pathways.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "We also must expand pathways to obtain a green card.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "expand-work-visas",
+          "text": "Supports expanding work visas (“Yes to both”).",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "Yes to both. People from around the world come here to work and make our country better and stronger. We need a stronger pathway for them to do so.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "per-country-backlog",
+          "text": "Calls for relief for the green-card backlog affecting applicants born in India and China (June primary questionnaire).",
+          "citations": [
+            {
+              "source": "src:growsf-org-ba3bb29f66",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §4"
+              }
+            }
+          ]
+        },
+        {
+          "facet": "processing-reform",
+          "text": "Calls for H-1B and O-1 visa processing reform (June primary questionnaire).",
+          "citations": [
+            {
+              "source": "src:growsf-org-ba3bb29f66",
+              "verified_by": {
+                "by": "maintainer",
+                "date": "2026-11-02",
+                "note": "notes/2026-11-02-ca-11.md §4"
+              }
+            }
+          ]
+        },
+        {
+          "facet": "shorten-green-card-waits",
+          "text": "Calls green-card waits of years or decades a broken system that needs reform.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "For so many people, they face wait times of years or decades to obtain a green card. That’s ridiculous, and we need to reform this broken system.",
+              "locator": "Work visas answer"
+            }
+          ]
+        }
+      ],
+      "summary": "Supports expanding work visas and green cards; specifies H-1B/O-1 processing reform and relief for the green-card backlog affecting applicants born in India and China.",
+      "citations": [
+        {
+          "source": "src:missionlocal-org-cd125eb68d",
+          "quote": "Yes to both. People from around the world come here to work and make our country better and stronger. We need a stronger pathway for them to do so.",
+          "locator": "Work visas answer"
+        },
+        {
+          "source": "src:missionlocal-org-cd125eb68d",
+          "quote": "We also must expand pathways to obtain a green card.",
+          "locator": "Work visas answer"
+        },
+        {
+          "source": "src:growsf-org-ba3bb29f66",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §4"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "q:taxes/federal-wealth-tax",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "Supports Warren’s Ultramillionaire Tax: 2% on fortunes above $50 million and 3% above $1 billion.",
+      "citations": [
+        {
+          "source": "src:kqed-org-15f7125a20",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §4"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "q:technology/platform-self-preferencing",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "bill": "ca-2025-sb-1074",
+      "cycle": 2026,
+      "evidence_type": "authored_legislation",
+      "summary": "Authored SB 1074 (the BASED Act), a 2026 bill aimed at stopping big tech from unfairly boosting its own products.",
+      "citations": [
+        {
+          "source": "src:sd11-senate-ca-gov-12ae88d869",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §3"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.example-teachers-union--person.jordan-example--2030",
+  "type": "endorsement",
+  "cycle": 2030,
+  "date": "2030-03-01",
+  "endorsee": "person:jordan-example",
+  "endorser": "org:example-teachers-union",
+  "rescinded": {
+    "date": "2030-04-01",
+    "citations": [
+      {
+        "source": "src:news-example-com-e70a5fe80d",
+        "quote": "The union withdrew its endorsement of Example."
+      }
+    ]
+  },
+  "citations": [
+    {
+      "source": "src:news-example-com-e70a5fe80d",
+      "quote": "The union had endorsed Example in March."
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "media-api-sf-gov-fbc91147b9",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-03-31",
+  "publisher": "City and County of San Francisco: Controller, Mayor's Budget Director, Board of Supervisors Budget & Legislative Analyst",
+  "title": "Budget Outlook Update (March Five-Year Update), FY 2026-27 through FY 2029-30",
+  "url": "https://media.api.sf.gov/documents/March_Update_FY_26-27_through_FY_29-30_FINAL.pdf",
+  "notes": "Opened and quoted by a research agent on 2026-11-03 (sf-measures-fanout workflow); quotes checked against the document text."
+}

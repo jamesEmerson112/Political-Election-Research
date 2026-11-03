@@ -1,0 +1,260 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-j",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition J",
+  "affects": [
+    {
+      "effect": "pays",
+      "group": "property_buyers_sellers",
+      "text": "Transfers of commercial, industrial and large residential property to lenders in foreclosure would be taxed on full market value from March 1, 2027",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition J would apply a transfer tax for properties such as commercial, industrial, and large residential real estate that a lender takes through foreclosure or is handed over to the lender to avoid foreclosure. Starting March 1, 2027, these properties would be taxed on their full market value.",
+          "locator": "p. 144, Proposition J digest, The Proposal"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Mayor Daniel Lurie",
+        "State Senator Scott Wiener",
+        "Assemblymember Matt Haney",
+        "Assemblymember Catherine Stefani",
+        "SEIU 1021",
+        "SEIU 2015",
+        "Teamsters 665",
+        "Board President Rafael Mandelman",
+        "Supervisor Bilal Mahmood",
+        "Supervisor Myrna Melgar",
+        "Supervisor Danny Sauter",
+        "Supervisor Alan Wong",
+        "Supervisor Matt Dorsey",
+        "Supervisor Chyanne Chen",
+        "San Francisco Democratic Party",
+        "Saikat Chakrabarti"
+      ],
+      "heading": "Vote YES on Proposition J",
+      "side": "yes",
+      "text": "PROP J ENDS THE UNFAIR TAX BREAK FOR CORPORATE LENDERS Right now, corporate lenders are taking advantage of a tax break that was meant for struggling homeowners. And it’s draining the fund we use to pay for our firefighters, street cleaners, and public health workers. In 1984, to protect San Francisco families who were financially struggling, the city created a tax break for homeowners who couldn’t pay their mortgage and would lose their homes to foreclosure. But the same tax break is also being given to financial institutions and corporate lenders when they acquire office towers, mega apartment complexes, and industrial buildings through foreclosure. That’s not fair, and it’s costing San Francisco hundreds of millions of dollars. Written by Supervisor Bilal Mahmood and Mayor Daniel Lurie, Proposition J will raise between $100 million and 150 million every year for our general fund. It keeps the tax break for homeowners and small residential buildings, but makes sure that corporate lenders can’t take advantage of this tax relief meant for struggling San Francisco families. Our city is dealing with a budget shortfall, and we are facing cuts to city services. Prop J helps close that gap by ending a giveaway to corporate lenders that are foreclosing on our residents. PROPOSITION J is endorsed by:",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "PROP J ENDS THE UNFAIR TAX BREAK FOR CORPORATE LENDERS Right now, corporate lenders are taking advantage of a tax break that was meant for struggling homeowners. And it’s draining the fund we use to pay for our firefighters, street cleaners, and public health workers. In 1984, to protect San Francisco families who were financially struggling, the city created a tax break for homeowners who couldn’t pay their mortgage and would lose their homes to foreclosure. But the same tax break is also being given to financial institutions and corporate lenders when they acquire office towers, mega apartment complexes, and industrial buildings through foreclosure. That’s not fair, and it’s costing San Francisco hundreds of millions of dollars. Written by Supervisor Bilal Mahmood and Mayor Daniel Lurie, Proposition J will raise between $100 million and 150 million every year for our general fund. It keeps the tax break for homeowners and small residential buildings, but makes sure that corporate lenders can’t take advantage of this tax relief meant for struggling San Francisco families. Our city is dealing with a budget shortfall, and we are facing cuts to city services. Prop J helps close that gap by ending a giveaway to corporate lenders that are foreclosing on our residents. PROPOSITION J is endorsed by:",
+          "locator": "p. 146, Proponent's Argument in Favor of Proposition J (left column)"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Quentin L Kopp",
+        "San Francisco Taxpayers Association"
+      ],
+      "side": "no",
+      "text": "Vote NO on Proposition J Proposition J is not about “fairness” or protecting struggling families—it is a misguided tax hike that will worsen San Francisco’s economic crisis and housing shortage. The proponents claim this measure closes an “unfair tax break” and will generate up to $150 million for our general fund. What they fail to mention is that this money has no strings attached. It flows directly into the City’s general fund, acting as a blank check for politicians rather than legally guaranteeing a single cent for the “firefighters, street cleaners, and public health workers” they mention. Furthermore, penalizing lenders who take over distressed “office towers, mega apartment complexes, and industrial buildings” through foreclosure will have catastrophic downstream effects. San Francisco is already suffering from record-high commercial vacancies. By increasing the financial burden on institutions trying to stabilize and resell these failing properties, Prop J will stall recovery efforts. Instead of revitalizing our downtown and neighborhoods, distressed properties will sit abandoned, deepening the budget shortfall as overall property values and tax revenues plummet. The original 1984 tax rules were designed to keep the real estate market functioning during crises. Changing these rules now will deter the investment San Francisco desperately needs. When lenders face higher operational costs, those costs are inevitably passed down to everyday San Franciscans through higher interest rates, stricter lending requirements, and reduced access to capital for local projects. Don’t give City Hall another blank check while stalling our economic recovery. Vote NO on Proposition J.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Vote NO on Proposition J Proposition J is not about “fairness” or protecting struggling families—it is a misguided tax hike that will worsen San Francisco’s economic crisis and housing shortage. The proponents claim this measure closes an “unfair tax break” and will generate up to $150 million for our general fund. What they fail to mention is that this money has no strings attached. It flows directly into the City’s general fund, acting as a blank check for politicians rather than legally guaranteeing a single cent for the “firefighters, street cleaners, and public health workers” they mention. Furthermore, penalizing lenders who take over distressed “office towers, mega apartment complexes, and industrial buildings” through foreclosure will have catastrophic downstream effects. San Francisco is already suffering from record-high commercial vacancies. By increasing the financial burden on institutions trying to stabilize and resell these failing properties, Prop J will stall recovery efforts. Instead of revitalizing our downtown and neighborhoods, distressed properties will sit abandoned, deepening the budget shortfall as overall property values and tax revenues plummet. The original 1984 tax rules were designed to keep the real estate market functioning during crises. Changing these rules now will deter the investment San Francisco desperately needs. When lenders face higher operational costs, those costs are inevitably passed down to everyday San Franciscans through",
+          "locator": "p. 146, Rebuttal to Proponent's Argument in Favor of Proposition J (right column)"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Judge Quentin L Kopp",
+        "San Francisco Taxpayers Association"
+      ],
+      "side": "no",
+      "text": "Vote NO on eliminating the real property transfer tax foreclosure exemption. This measure imposes heavy tax penalties on property foreclosures and deeds-in-lieu, severely crippling San Francisco’s economic recovery and housing market by creating a punitive, unpredictable environment for commercial and residential lending. 1. Disproportionately Harms San Francisco’s Credit and Lending Environment No other major city in California imposes transfer taxes on distressed lenders taking back collateral. By penalizing banks, community lenders, and credit unions when a borrower defaults, this measure makes lending in San Francisco significantly riskier and more expensive than anywhere else in the state. Lenders will respond by raising interest rates, demanding higher down payments, or avoiding San Francisco real estate entirely. 2. Stifles Housing Production and Downtown Recovery San Francisco urgently needs investment to build multi-family housing and revitalize downtown commercial space. Chilling the credit market directly undermines housing development, deters adaptive reuse projects, and makes it harder for property owners to restructure debt during economic downturns. 3. Forces Destructive Fire Sales and Abandonment When distressed properties face massive tax bills just to clear bad debt, lenders and property owners will be forced into drawn-out legal battles or distressed fire sales. This depresses neighborhood property values and leaves vacant buildings blighting local corridors. San Francisco cannot afford policies that scare away capital, freeze lending, and penalize financial resolution. Protect local economic stability and housing credit. Vote NO on Measure J.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Vote NO on eliminating the real property transfer tax foreclosure exemption. This measure imposes heavy tax penalties on property foreclosures and deeds-in-lieu, severely crippling San Francisco’s economic recovery and housing market by creating a punitive, unpredictable environment for commercial and residential lending. 1. Disproportionately Harms San Francisco’s Credit and Lending Environment No other major city in California imposes transfer taxes on distressed lenders taking back collateral. By penalizing banks, community lenders, and credit unions when a borrower defaults, this measure makes lending in San Francisco significantly riskier and more expensive than anywhere else in the state. Lenders will respond by raising interest rates, demanding higher down payments, or avoiding San Francisco real estate entirely. 2. Stifles Housing Production and Downtown Recovery San Francisco urgently needs investment to build multi-family housing and revitalize downtown commercial space. Chilling the credit market directly undermines housing development, deters adaptive reuse projects, and makes it harder for property owners to restructure debt during economic downturns. 3. Forces Destructive Fire Sales and Abandonment When distressed properties face massive tax bills just to clear bad debt, lenders and property owners will be forced into drawn-out legal battles or distressed fire sales. This depresses neighborhood property values and leaves vacant buildings blighting local",
+          "locator": "p. 147, Opponent's Argument Against Proposition J (left column)"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Supervisor Bilal Mahmood"
+      ],
+      "heading": "YES ON J — TAX CORPORATE LENDERS WHEN THEY FORECLOSE ON BUILDINGS",
+      "side": "yes",
+      "text": "Prop J doesn’t touch families losing their homes. It only removes the tax break for corporate lenders that foreclose on office towers, mega apartment complexes, and industrial buildings. Homeowners and small residential buildings keep the exemption. That’s written into the measure. WONT HARM THE MARKET: This tax break was created in 1984 to protect struggling families, not to subsidize lenders. Investment firms and corporate lenders that foreclose on large commercial properties are sophisticated players who already price risk into every deal. A modest transfer tax on a handful of major transactions a year isn’t going to freeze lending citywide. It just closes a loophole those lenders were never supposed to use. WONT HURT HOUSING PRODUCTION: The foreclosure tax will apply to office towers, industrial buildings, and mega-complexes that already exist, not new housing construction. Prop J doesn’t tax builders. It taxes lenders. That won’t affect how new housing gets built. PROTECTS CITY SERVICES: Prop J’s opponents are asking San Franciscans to keep giving a tax break to the very institutions that already benefit most from foreclosure, at the expense of the fund that pays for firefighters, street cleaners, and public health workers. The choice is simple. Keep an unfair corporate tax break meant for families. Or put millions of dollars back into our fund for city services. Vote YES on Prop J.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Prop J doesn’t touch families losing their homes. It only removes the tax break for corporate lenders that foreclose on office towers, mega apartment complexes, and industrial buildings. Homeowners and small residential buildings keep the exemption. That’s written into the measure. WONT HARM THE MARKET: This tax break was created in 1984 to protect struggling families, not to subsidize lenders. Investment firms and corporate lenders that foreclose on large commercial properties are sophisticated players who already price risk into every deal. A modest transfer tax on a handful of major transactions a year isn’t going to freeze lending citywide. It just closes a loophole those lenders were never supposed to use. WONT HURT HOUSING PRODUCTION: The foreclosure tax will apply to office towers, industrial buildings, and mega-complexes that already exist, not new housing construction. Prop J doesn’t tax builders. It taxes lenders. That won’t affect how new housing gets built. PROTECTS CITY SERVICES: Prop J’s opponents are asking San Franciscans to keep giving a tax break to the very institutions that already benefit most from foreclosure, at the expense of the fund that pays for firefighters, street cleaners, and public health workers. The choice is simple. Keep an unfair corporate tax break meant for families. Or put millions of dollars back into our fund for city services. Vote YES on Prop J.",
+          "locator": "p. 147, Rebuttal to Opponent's Argument Against Proposition J (right column)"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "contest": "contest:2026-ca-general/sf-prop-i",
+      "rule": "Proposition I's legal text says that if it and another measure relating to the real estate transfer tax are both approved, Proposition I prevails where they conflict, regardless of the number of votes for each.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "In the event that this Measure and another local measure relating to the real estate transfer tax or affordable housing funding appear on the same ballot, the People of the City and County of San Francisco declare their intent that if both measures are approved, this Measure shall prevail over the other measure to the extent they are in conflict to the maximum extent permitted by law, regardless of the number of votes cast for each measure.",
+          "locator": "p. 239, Legal Text – Proposition I, Section 11 (Competing Measures)"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "label": "Digest by the Ballot Simplification Council",
+    "no_means": {
+      "value": "If you vote “no,” you do not want to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to make these changes.",
+          "locator": "p. 144, Proposition J digest, A “NO” Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition J would apply a transfer tax for properties such as commercial, industrial, and large residential real estate that a lender takes through foreclosure or is handed over to the lender to avoid foreclosure. Starting March 1, 2027, these properties would be taxed on their full market value. The tax break would still apply to the transfer of: 1. single-family residences, 2. multi-family residential buildings with fewer than five units, and 3. mixed-use properties with fewer than five residential units and only one floor of non-residential space. Proposition J would increase the City’s spending limit for four years.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition J would apply a transfer tax for properties such as commercial, industrial, and large residential real estate that a lender takes through foreclosure or is handed over to the lender to avoid foreclosure. Starting March 1, 2027, these properties would be taxed on their full market value. The tax break would still apply to the transfer of: 1. single-family residences, 2. multi-family residential buildings with fewer than five units, and 3. mixed-use properties with fewer than five residential units and only one floor of non-residential space. Proposition J would increase the City’s spending limit for four years.",
+          "locator": "p. 144, Proposition J digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "San Francisco charges a tax when most real estate property in the City changes hands. The amount of the tax depends on the property’s sales price or value. When a lender takes over a property through foreclosure, or when an owner hands over a property to the lender to avoid foreclosure, there is a tax break. The lender pays tax only on the difference between what the property sold for and what is still owed to the lender, including interest and foreclosure costs. State law limits the total revenue, including tax revenue, the City may spend each year. The voters may approve increases to this limit for up to four years.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco charges a tax when most real estate property in the City changes hands. The amount of the tax depends on the property’s sales price or value. When a lender takes over a property through foreclosure, or when an owner hands over a property to the lender to avoid foreclosure, there is a tax break. The lender pays tax only on the difference between what the property sold for and what is still owed to the lender, including interest and foreclosure costs. State law limits the total revenue, including tax revenue, the City may spend each year. The voters may approve increases to this limit for up to four years.",
+          "locator": "p. 144, Proposition J digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to apply a transfer tax for properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to apply a transfer tax for properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure.",
+          "locator": "p. 144, Proposition J digest, A “YES” Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [
+      {
+        "id": "transfer-tax-revenue",
+        "amount": {
+          "high_usd": 150000000,
+          "low_usd": 100000000
+        },
+        "direction": "revenue",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Controller estimates Real Property Transfer Tax revenue could increase by an average of $100 million to $150 million a year over the first five years; amounts would vary year to year.",
+        "years": 5,
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The measure could bring an average of $100 million to $150 million annually over the first five years.",
+            "locator": "p. 144, Controller’s Statement on “J”, opinion paragraph"
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed initiative ordinance be approved by the voters, in my opinion, it would significantly increase the City’s Real Property Transfer Tax revenues although the amount generated each year would be unpredictable and likely to change significantly year-to-year. The measure could bring an average of $100 million to $150 million annually over the first five years. The total revenue in any given year will be highly dependent on the number of foreclosures and real estate conditions. It is likely that revenue increases would be highest in the near term then decline significantly over time.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed initiative ordinance be approved by the voters, in my opinion, it would significantly increase the City’s Real Property Transfer Tax revenues although the amount generated each year would be unpredictable and likely to change significantly year-to-year. The measure could bring an average of $100 million to $150 million annually over the first five years. The total revenue in any given year will be highly dependent on the number of foreclosures and real estate conditions. It is likely that revenue increases would be highest in the near term then decline significantly over time.",
+          "locator": "p. 144, Controller’s Statement on “J”, opinion paragraph"
+        },
+        {
+          "source": "src:api-sf-gov-cbd66877ce",
+          "quote": "Should the proposed initiative ordinance be approved by the voters, in my opinion, it would significantly increase the City’s Real Property Transfer Tax revenues although the amount generated each year would be unpredictable and likely to change significantly year-to-year.",
+          "locator": "p. 1, letter dated August 10, 2026"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "tax",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City permanently apply a transfer tax",
+        "locator": "p. 144, Proposition J ballot question"
+      }
+    ]
+  },
+  "number": "J",
+  "official_title": {
+    "value": "Removal of Foreclosure Exemption for Real Property Transfer Tax",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "J – Removal of Foreclosure Exemption for Real Property Transfer Tax",
+        "locator": "p. 144, Proposition J title"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 28, 2026, the Board of Supervisors voted 10 to 0, with one Supervisor excused, to place Proposition J on the ballot.",
+        "locator": "p. 145, How “J” Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City permanently apply a transfer tax of between 0.5% and 6% of a property’s fair market value, on the transfer of properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure or to avoid foreclosure, for estimated annual revenue of $100 million to $150 million?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City permanently apply a transfer tax of between 0.5% and 6% of a property’s fair market value, on the transfer of properties such as commercial, industrial, and large residential properties, that are transferred to a lender because of foreclosure or to avoid foreclosure, for estimated annual revenue of $100 million to $150 million?",
+        "locator": "p. 144, Proposition J ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 144, Proposition J vote requirement"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

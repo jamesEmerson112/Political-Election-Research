@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/organization.schema.json",
+  "id": "jordan-example-for-governor-2030",
+  "name": "Jordan Example for Governor 2030",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1400002",
+      "system": "cal_access_filer"
+    }
+  ],
+  "jurisdiction": "other",
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2030-11-01"
+}

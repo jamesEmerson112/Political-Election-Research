@@ -1,0 +1,449 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/sf-board-of-education",
+  "items": [
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "Incumbent",
+      "text": "No (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie ballot designations to names (one summary saw the occupation lines Community Organizer and Research Analyst in the pamphlet without names). sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "Occupation",
+      "text": "Job: \"Senior customer success manager at Sprout Social, Inc.\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (Mission Local race page and candidate profiles). Mission Local lists SFUSD experience as \"PTA at kids’ school, served on the parent leadership council of the San Francisco Parent Coalition\". (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "Education",
+      "text": "Education: \"Bachelor’s degree in public relations and marketing from Long Beach State University and Sacramento State University\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "Age",
+      "text": "Age 41 as listed in the Mission Local profile (race page last modified 2026-10-27); birth date not found. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "Party",
+      "text": "Party: Democratic, as listed in the Mission Local profile. The contest is nonpartisan; no ballot party label applies. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:autumn-brown-garibay",
+      "label": "Campaign website",
+      "text": "Campaign website linked from the Mission Local profile: https://www.autumnforschoolboard.com/ (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Incumbent",
+      "text": "No (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie ballot designations to names (one summary saw the occupation lines Community Organizer and Research Analyst in the pamphlet without names). sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Occupation",
+      "text": "Job: \"Chief advancement officer of Open Door Legal\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (Mission Local race page and candidate profiles). Mission Local lists SFUSD experience as \"Treasurer for Parents for Public Schools of San Francisco and served on the Parent Advisory Board of Wah Mei BASE ExCel\". (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Education",
+      "text": "Education: \"Bachelor’s degree in social ecology with a minor in digital art from the University of California, Irvine\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Age",
+      "text": "Age 43 as listed in the Mission Local profile (race page last modified 2026-10-27); birth date not found. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Party",
+      "text": "Party: Democratic, as listed in the Mission Local profile. The contest is nonpartisan; no ballot party label applies. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Campaign website",
+      "text": "Campaign website linked from the Mission Local profile: http://virginiacheung.com (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:virginia-cheung",
+      "label": "Previous candidacy",
+      "text": "Candidate in the June 2026 special election for the Board of Education, won by Phil Kim; Mission Local wrote that she \"finished with almost 76,000 fewer votes than Kim in the June school board race\". (sources: Mission Local (school board race article, 2026-09-24) https://missionlocal.org/2026/09/san-francisco-school-board-race-dueling-slates/ [fetched page, secondary]; Mission Local (Meet the S.F. school board candidates, 2026-08-07) https://missionlocal.org/2026/08/sf-school-board-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "Incumbent",
+      "text": "Yes (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie ballot designations to names (one summary saw the occupation lines Community Organizer and Research Analyst in the pamphlet without names). sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "Occupation",
+      "text": "Job: \"Executive director at the Community Alliance for Special Education, incumbent Board of Education member\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "Offices held",
+      "text": "Member, San Francisco Board of Education: Mission Local lists \"Current SFUSD Board of Education member\" and reports she first ran in 2022; CivLab’s board page lists her with \"Elected 2023\" (graph data start date 2023-01-08). Earlier roles listed by Mission Local include chair of the Community Advisory Committee for Special Education. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; Mission Local (school board race article, 2026-09-24) https://missionlocal.org/2026/09/san-francisco-school-board-race-dueling-slates/ [fetched page, secondary]; CivLab (graph.civlab.org, Michael Adams) https://graph.civlab.org/sf/elected/sfusd-board-of-education [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "Education",
+      "text": "Education: \"Bachelor’s degree in mechanical engineering from Case Western Reserve University\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "Age",
+      "text": "Age 51 as listed in the Mission Local profile (race page last modified 2026-10-27); birth date not found. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "Party",
+      "text": "Party: Democratic, as listed in the Mission Local profile. The contest is nonpartisan; no ballot party label applies. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:alida-fisher",
+      "label": "Campaign website",
+      "text": "Campaign website linked from the Mission Local profile: https://www.alidafisher.com/ (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "Incumbent",
+      "text": "No (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie ballot designations to names (one summary saw the occupation lines Community Organizer and Research Analyst in the pamphlet without names). sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "Occupation",
+      "text": "Job: \"Executive director of Mariposa Kids, a nonprofit for play-based programs for kids ages 1-11\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "Offices held",
+      "text": "Appointed body: Mission Local lists \"Chair of San Francisco Child Care Planning & Advisory Council, appointed by SFUSD\". No elected office found in the sources searched. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "Education",
+      "text": "Education: \"Bachelor’s degree in communications from the University of California, San Diego\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "Age",
+      "text": "Age 43 as listed in the Mission Local profile (race page last modified 2026-10-27); birth date not found. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "Party",
+      "text": "Party: Democratic, as listed in the Mission Local profile. The contest is nonpartisan; no ballot party label applies. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ryan-hazelton",
+      "label": "Campaign website",
+      "text": "Campaign website linked from the Mission Local profile: http://www.ryanforsfschools.com (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "Incumbent",
+      "text": "Yes (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie ballot designations to names (one summary saw the occupation lines Community Organizer and Research Analyst in the pamphlet without names). sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "Occupation",
+      "text": "Job: \"Deputy director at San Francisco Agency for Human Rights, incumbent Board of Education president\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "Offices held",
+      "text": "Member and President, San Francisco Board of Education: Mission Local describes him as \"the incumbent school board president\" who \"was appointed to the body in 2024\" and won his first election in the June 2026 special election. CivLab’s board page (opened) did not list him; its seat 1 entry had no name. (sources: Mission Local (school board race article, 2026-09-24) https://missionlocal.org/2026/09/san-francisco-school-board-race-dueling-slates/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; Mission Local (Meet the S.F. school board candidates, 2026-08-07) https://missionlocal.org/2026/08/sf-school-board-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "Education",
+      "text": "Education: \"Bachelor’s degree in neuroscience from Bucknell University; master’s degree in education policy and administration from Loyola Marymount University; Pursuing Ed.D. at the University of California, Berkeley\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "Age",
+      "text": "Age 36 as listed in the Mission Local profile (race page last modified 2026-10-27); birth date not found. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "Party",
+      "text": "Party: Democratic, as listed in the Mission Local profile. The contest is nonpartisan; no ballot party label applies. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:phil-kim",
+      "label": "Campaign website",
+      "text": "Campaign website linked from the Mission Local profile: http://philkim.org (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "Incumbent",
+      "text": "No (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie ballot designations to names (one summary saw the occupation lines Community Organizer and Research Analyst in the pamphlet without names). sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "Occupation",
+      "text": "Job: \"Volunteer at schools and licensed general contractor\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "Offices held",
+      "text": "Appointed bodies: Mission Local lists \"Current vice chair SFUSD Citizens Bond Oversight Committee (appointed in 2022)\"; in a Mission Local answer he wrote of \"My work on the Civil Grand Jury and four years on SFUSD’s Citizens’ Bond Oversight Committee\". No elected office found in the sources searched. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; Mission Local (Meet the Candidates answer archive, modified 2026-10-30) https://missionlocal.org/2026/10/meet-the-candidates-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "Education",
+      "text": "Education: \"Bachelor’s degrees in chemistry and history & science from Harvard University\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "Age",
+      "text": "Age 56 as listed in the Mission Local profile (race page last modified 2026-10-27); birth date not found. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "Party",
+      "text": "Party: Democratic, as listed in the Mission Local profile. The contest is nonpartisan; no ballot party label applies. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:laurance-lee",
+      "label": "Campaign website",
+      "text": "Campaign website linked from the Mission Local profile: https://lauranceleesf.com (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "Incumbent",
+      "text": "No (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie ballot designations to names (one summary saw the occupation lines Community Organizer and Research Analyst in the pamphlet without names). sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "Occupation",
+      "text": "Job: \"Community organizer\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "Offices held",
+      "text": "No elected or appointed public office found in the sources searched (Mission Local race page and candidate profiles). Mission Local lists SFUSD experience as \"Served on School Site Council two years ago\" and elsewhere describes her as \"a grassroots organizer at PODER\". (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; Mission Local (school board race article, 2026-09-24) https://missionlocal.org/2026/09/san-francisco-school-board-race-dueling-slates/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "Education",
+      "text": "Education: \"Current City College of San Francisco student studying labor and community studies\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "Age",
+      "text": "Age 44 as listed in the Mission Local profile (race page last modified 2026-10-27); birth date not found. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "Party",
+      "text": "Party: Democratic, as listed in the Mission Local profile. The contest is nonpartisan; no ballot party label applies. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:reina-tello",
+      "label": "Campaign website",
+      "text": "Campaign website linked from the Mission Local profile: https://www.reinaforschoolboard.org/ (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "Incumbent",
+      "text": "No (sources: Mission Local (Meet the school board candidates, 2026-10-30) https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/ [fetched page, secondary]; Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary]; San Francisco Department of Elections (election page) https://www.sf.gov/november-3-2026-consolidated-general-election [search summary, primary]; San Francisco Department of Elections (nomination period extension notice) https://www.sf.gov/news-extension-of-nomination-period-until-august-12-san-francisco-board-of-education-san-francsico-community-college-trustee-and-bay-area-rapid-transit-district-8 [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "Ballot designation",
+      "text": "Not found. The official candidate list and Voter Information Pamphlet were seen only in search summaries, which did not tie ballot designations to names (one summary saw the occupation lines Community Organizer and Research Analyst in the pamphlet without names). sf.gov and media.api.sf.gov could not be opened from this session. (sources: San Francisco Department of Elections (candidate report) https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; San Francisco Department of Elections (Voter Information Pamphlet, Nov 3, 2026) https://media.api.sf.gov/documents/N26_EN_VIP.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "Occupation",
+      "text": "Job: \"Public finance analyst, research analyst, public finance lecturer\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "Offices held",
+      "text": "Appointed bodies: Mission Local lists \"serves on SFUSD’s local control and accountability plan advisory committee\" and reports he is \"currently serving on the city’s bond committee\" (committee name not given). No elected office found in the sources searched. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary]; Mission Local (school board race article, 2026-09-24) https://missionlocal.org/2026/09/san-francisco-school-board-race-dueling-slates/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "Education",
+      "text": "Education: \"Bachelor’s degree and master’s degree in information and data science from the University of California, Berkeley; master’s degree in public administration from San Jose State University\" (Mission Local profile (race page last modified 2026-10-27)). (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "Age",
+      "text": "Age 46 as listed in the Mission Local profile (race page last modified 2026-10-27); birth date not found. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "Party",
+      "text": "Party: Democratic, as listed in the Mission Local profile. The contest is nonpartisan; no ballot party label applies. (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:tim-tung",
+      "label": "Campaign website",
+      "text": "Campaign website linked from the Mission Local profile: http://timtung.com/ (sources: Mission Local (2026 San Francisco School Board Race page, modified 2026-10-27) https://missionlocal.org/2026-san-francisco-school-board-race/ [fetched page, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (Mission Local pages opened; official election pages seen only in web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information gathered on 2026-11-03. Each item names its sources and marks each one [fetched page] (opened in this session: missionlocal.org pages, read through the publisher's WordPress REST API, and graph.civlab.org) or [search summary] (seen only in a web search summary; sf.gov and media.api.sf.gov could not be opened from this session). Text in quotation marks is copied from an opened page. Every candidate was checked in the same places: Mission Local's race page and candidate profiles, its Meet the Candidates posts, and search summaries of the Department of Elections candidate report and Voter Information Pamphlet. Leads are unverified until confirmed in a primary source; nothing here is a citation."
+  }
+}

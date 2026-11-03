@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "california-superintendent-of-public-instruction",
+  "name": "Superintendent of Public Instruction of California",
+  "body": "California Department of Education",
+  "constituents": {
+    "value": 39538223,
+    "as_of": "2020",
+    "basis": "2020 Census resident population of California (whole state)",
+    "citations": [
+      {
+        "source": "src:census-gov-6a5736c7c5",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "State of California",
+  "level": "state",
+  "salary": {
+    "value": 213617,
+    "as_of": "2025-12-01",
+    "citations": [
+      {
+        "source": "src:calhr-ca-gov-23db8b4c75",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 1,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "Two terms (Cal. Const. art. IX, sec. 2); nonpartisan office elected at each gubernatorial election",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:californiaglobe-com-e943a44332",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      },
+      {
+        "source": "src:en-wikipedia-org-341fc74892",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "No powers sentence was sourced. The usual description (head of the California Department of Education) was not confirmed in this session. Education funding context, which the SPI does not adopt: the 2026-27 Proposition 98 K-14 minimum guarantee is about $128.0B per the Budget Act (CSBA summary) or $128.1B per the LAO (Oct. 9, 2026). This is set by the Legislature and Governor, not the CDE's own budget, so it is left out of facts. ACA 9 (2023) proposed making the office appointed and cancelling the 2026 election; since the office is on the Nov. 2026 ballot, it evidently was not enacted (not verified directly). graph.civlab.org: not reachable."
+}

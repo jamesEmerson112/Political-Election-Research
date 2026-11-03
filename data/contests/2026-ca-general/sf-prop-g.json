@@ -1,0 +1,955 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-g",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition G",
+  "affects": [
+    {
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "The City would be required to obtain all needed approvals, including any Coastal Act permits, to reopen the roadway to private vehicles",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G would require the City to obtain all necessary approvals, including any permits required by the California Coastal Act or from other government agencies, to reopen the roadway known as the Upper Great Highway to private vehicles.",
+          "locator": "p. 108, Proposition G digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "drivers",
+      "text": "The Upper Great Highway would reopen to private vehicles from Monday 4:00 a.m. to Friday 6:00 p.m., except on weekday holidays",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+          "locator": "p. 108, Proposition G digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "park_visitors",
+      "text": "Sunset Dunes Park would be shut to park use from Monday 4:00 a.m. to Friday 6:00 p.m., except on weekday holidays",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+          "locator": "p. 108, Proposition G digest, The Proposal"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Richard Corriea, SFPD Commander Ret."
+      ],
+      "heading": "Yes on G: Safe streets and great parks. We need both.",
+      "side": "yes",
+      "text": "Since the Great Highway closed, traffic injuries in Sunset neighborhoods have risen sharply – a serious and unacceptable threat to public safety. That’s why Westside neighbors led a citywide volunteer effort to gather 16,000 signatures and place Proposition G on the ballot. We support great parks, but Prop G gives us both a great park AND the safe streets and neighborhoods our families deserve. Yes on G restores the compromise in place from 2021 to 2024: it keeps the Great Highway closed on weekends, allowing access to it as a park, but opens it to vehicle travel Monday through Friday. This compromise was working until Sunset Supervisor Joel Engardio, without a single community meeting, put forward a measure permanently closing the Great Highway. His betrayal of Sunset families cost him his job – he was recalled through a volunteer-led neighborhood campaign. Prop G gives us both safe streets AND a great park: • Allows weekday vehicle access on the Great Highway, helping keep traffic off neighborhood streets. • Maintains the whole space as a park on weekends and holidays. • Retains access to walking paths, bike lanes, and all off-road amenities, every day of the week. Every San Franciscan deserves safe streets, whether they’re walking, biking, taking Muni, or driving. We do not have to choose between great recreational spaces and public safety. We need both. Great public spaces should bring our city together, not create harmful consequences for our communities. Great parks make our city better. Safe streets save lives. Prop G gives us both. And when safety is at stake, we have a duty to respond. Vote Yes on Prop G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Since the Great Highway closed, traffic injuries in Sunset neighborhoods have risen sharply – a serious and unacceptable threat to public safety. That’s why Westside neighbors led a citywide volunteer effort to gather 16,000 signatures and place Proposition G on the ballot. We support great parks, but Prop G gives us both a great park AND the safe streets and neighborhoods our families deserve. Yes on G restores the compromise in place from 2021 to 2024: it keeps the Great Highway closed on weekends, allowing access to it as a park, but opens it to vehicle travel Monday through Friday. This compromise was working until Sunset Supervisor Joel Engardio, without a single community meeting, put forward a measure permanently closing the Great Highway. His betrayal of Sunset families cost him his job – he was recalled through a volunteer-led neighborhood campaign. Prop G gives us both safe streets AND a great park: • Allows weekday vehicle access on the Great Highway, helping keep traffic off neighborhood streets. • Maintains the whole space as a park on weekends and holidays. • Retains access to walking paths, bike lanes, and all off-road amenities, every day of the week. Every San Franciscan deserves safe streets, whether they’re walking, biking, taking Muni, or driving. We do not have to choose between great recreational spaces and public safety. We need both. Great public spaces should bring our city together, not create harmful consequences for our communities. Great parks",
+          "locator": "p. 110, Proponent's Argument (Proposition G), left column"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Outer Sunset Neighbors",
+        "Sunset Merchants Association",
+        "Sunset Parent Advocates"
+      ],
+      "side": "no",
+      "text": "As Sunset neighbors and merchants, we ask you to vote NO on closing Sunset Dunes park. Don’t spend $20 million over five years to close our thriving coastal park. • Our streets are safer with Sunset Dunes. Analyzing public data, independent sources like The Frisc and Streetsblog agree: crashes in our neighborhood are down since the park opened. The Frisc confirms: “there’s no evidence of increased street mayhem around the closed Great Highway. In fact, it’s the opposite.” • Prop G is a park closure, not a compromise. Prop G removes every park feature added since Sunset Dunes opened — the playground, the skate park, and every bench. It also kills a majority of park visits, as nearly 60% happen on weekdays. That’s not a compromise — it’s a closure. A closed road is not a park, and can never become a world-class coastal promenade. • Traffic is flowing fine. Data also show that commute times remain within prior projections. The most impacted trips are 2-4 minutes longer during rush hour, while most trips are unaffected. • The park is good for our community. Sunset Dunes became our neighborhood’s town square and has boosted local business revenue — some up to 50%. • The coast belongs to you. Our city’s coast belongs to all San Franciscans, not just the lucky few who live near it. Sunset Dunes opens our coast for everyone to enjoy. Thank you for voting NO on G to save Sunset Dunes park. See you at the park!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "As Sunset neighbors and merchants, we ask you to vote NO on closing Sunset Dunes park. Don’t spend $20 million over five years to close our thriving coastal park. • Our streets are safer with Sunset Dunes. Analyzing public data, independent sources like The Frisc and Streetsblog agree: crashes in our neighborhood are down since the park opened. The Frisc confirms: “there’s no evidence of increased street mayhem around the closed Great Highway. In fact, it’s the opposite.” • Prop G is a park closure, not a compromise. Prop G removes every park feature added since Sunset Dunes opened — the playground, the skate park, and every bench. It also kills a majority of park visits, as nearly 60% happen on weekdays. That’s not a compromise — it’s a closure. A closed road is not a park, and can never become a world-class coastal promenade. • Traffic is flowing fine. Data also show that commute times remain within prior projections. The most impacted trips are 2-4 minutes longer during rush hour, while most trips are unaffected. • The park is good for our community. Sunset Dunes became our neighborhood’s town square and has boosted local business revenue — some up to 50%. • The coast belongs to you. Our city’s coast belongs to all San Franciscans, not just the lucky few who live near it. Sunset Dunes opens our coast for everyone to enjoy. Thank you for voting NO on G to save Sunset Dunes park. See you at the park!",
+          "locator": "p. 110, Rebuttal to Proponent's Argument (Proposition G), right column"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Senator Scott Wiener",
+        "Supervisor Matt Dorsey",
+        "Supervisor Bilal Mahmood",
+        "Supervisor Rafael Mandelman",
+        "Supervisor Myrna Melgar",
+        "Supervisor Danny Sauter",
+        "Sierra Club"
+      ],
+      "heading": "Proposition G would destroy Sunset Dunes park",
+      "side": "no",
+      "text": "In San Francisco, we don’t destroy our parks; we protect them. With over 2 million visits since last year’s opening, Sunset Dunes is one of San Francisco’s most visited parks. Proposition G asks you to spend nearly $10 million to demolish a coastal park (plus up to $1.9 million every year for added roadway maintenance), to remove all amenities, and to end the nearly 60% of visits that are on weekdays. Please join us in voting NO on G to save our coastal park because: • Proposition G destroys a thriving park. Proposition G would require the city to remove all park features to make space for traffic. That means no more playground, skate park, or oceanview seating. No more park. • Proposition G guts the majority of park visits. Nearly 60% of visits to Sunset Dunes are on weekdays. Proposition G would remove all of those visits and prevent service workers who work weekends from using the park at all. • Proposition G is a solution in search of a problem. Traffic fears have not materialized; three independent analyses confirm traffic impacts are minimal. The most impacted trips are 2-4 minutes longer during rush hour, with most trips unaffected. • Proposition G replaces progress with pollution. San Francisco’s leading environmental groups are united: Sunset Dunes is the best plan for our coastal environment as we adapt to climate change and sea-level rise. • Proposition G locks our coast into being a road forever. Community planning is underway to transform the coast into a world-class park, but Proposition G kills all future park improvements. How will future generations judge us if we destroy our successful coastal park? Join us in voting NO on Proposition G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "In San Francisco, we don’t destroy our parks; we protect them. With over 2 million visits since last year’s opening, Sunset Dunes is one of San Francisco’s most visited parks. Proposition G asks you to spend nearly $10 million to demolish a coastal park (plus up to $1.9 million every year for added roadway maintenance), to remove all amenities, and to end the nearly 60% of visits that are on weekdays. Please join us in voting NO on G to save our coastal park because: • Proposition G destroys a thriving park. Proposition G would require the city to remove all park features to make space for traffic. That means no more playground, skate park, or oceanview seating. No more park. • Proposition G guts the majority of park visits. Nearly 60% of visits to Sunset Dunes are on weekdays. Proposition G would remove all of those visits and prevent service workers who work weekends from using the park at all. • Proposition G is a solution in search of a problem. Traffic fears have not materialized; three independent analyses confirm traffic impacts are minimal. The most impacted trips are 2-4 minutes longer during rush hour, with most trips unaffected. • Proposition G replaces progress with pollution. San Francisco’s leading environmental groups are united: Sunset Dunes is the best plan for our coastal environment as we adapt to climate change and sea-level rise. • Proposition G locks our coast into being a road forever. Community planning is underway to transform the coast into a",
+          "locator": "p. 111, Opponent's Argument (Proposition G), left column"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Richard Corriea, SFPD Commander Ret."
+      ],
+      "heading": "Scott Wiener turns his back on serious safety concerns.",
+      "side": "yes",
+      "text": "Why? He’s ABSENT from the Westside. Scott Wiener was part of the backroom deal that closed the Great Highway without community meetings or input from neighbors. Now, Wiener turns his nose up once again at Westside residents concerned for the safety of our children, elders, and families. Wiener calls the sharp rise in traffic injuries since the Great Highway closed “minimal.” That can only be because Scott Wiener doesn’t walk our streets and neighborhoods. More than 16,000 San Franciscans signed the petition to put Prop G on the ballot. We organized because City Hall refused to listen. We believe Prop G is a sensible solution that gives San Francisco both great parks AND safe streets. Prop G gives us: • Recreation seven days a week. Walking paths, bike lanes, the beach, and other amenities remain available every day. • Weekday vehicle access that helps keep traffic off our neighborhood streets. • A car-free park on weekends and holidays. Prop G doesn’t “destroy” a park. It gives us both. We had a compromise that worked. Out-of-touch politicians took it away. Prop G gives it back. Our safety cannot be ignored. Vote Yes on Prop G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Why? He’s ABSENT from the Westside. Scott Wiener was part of the backroom deal that closed the Great Highway without community meetings or input from neighbors. Now, Wiener turns his nose up once again at Westside residents concerned for the safety of our children, elders, and families. Wiener calls the sharp rise in traffic injuries since the Great Highway closed “minimal.” That can only be because Scott Wiener doesn’t walk our streets and neighborhoods. More than 16,000 San Franciscans signed the petition to put Prop G on the ballot. We organized because City Hall refused to listen. We believe Prop G is a sensible solution that gives San Francisco both great parks AND safe streets. Prop G gives us: • Recreation seven days a week. Walking paths, bike lanes, the beach, and other amenities remain available every day. • Weekday vehicle access that helps keep traffic off our neighborhood streets. • A car-free park on weekends and holidays. Prop G doesn’t “destroy” a park. It gives us both. We had a compromise that worked. Out-of-touch politicians took it away. Prop G gives it back. Our safety cannot be ignored. Vote Yes on Prop G.",
+          "locator": "p. 111, Rebuttal to Opponent's Argument (Proposition G), right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-01",
+      "kind": "paid",
+      "authors": [
+        "J. Gregson"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: John Gregson.",
+      "side": "yes",
+      "text": "Is it fair for people from one neighborhood to deprive another neighborhood of a key artery? To close a major roadway against the wishes of the great majority of its residents? A roadway used by school buses, Paratransit, commuters, tourists, and residents from other parts of the City? Some would say that it IS fair for people outside the Sunset and Richmond Districts to close their principal thoroughfare, because the Great Highway doesn’t belong to them alone, but belongs to everyone. Well, that’s precisely the point. The Great Highway belongs to everyone — not just bicyclists, skateboarders, and health-conscious people. Every true liberal believes in diversity, equity and inclusion. But the permanent closure of the Great Highway creates no diversity of use; no equity for local residents; and no inclusion of the disabled, who best enjoy the scenic view as passengers. Currently, it’s only accessible to a limited segment of the population. For everyone else: KEEP OUT. It discriminates against the frail and physically disabled; against locals who can no longer easily cross the City N—S. Most of all, it discriminates against every San Francisco resident who might enjoy a scenic drive along the Pacific Ocean, on their own or with out-of-town visitors. The opponents of Proposition G want the Great Highway all to themselves. Yet it remains woefully underused Mon— Fri; and is practically devoid of people on rainy days. Proposition G doesn’t eliminate Sunset Dunes Park. It merely seeks full utilization (multi-use, Mon—Fri) of a key thoroughfare lying atop the Westside Transport sewage aqueduct (which must be maintained regardless). When Prop K was introduced, it was framed as “Park = Good”, voters not fully aware of the high cost in lost use for locals and visitors alike. Proposition G aims to remedy this imbalance by restoring the optimal use of the Great Highway for the common good.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Is it fair for people from one neighborhood to deprive another neighborhood of a key artery? To close a major roadway against the wishes of the great majority of its residents? A roadway used by school buses, Paratransit, commuters, tourists, and residents from other parts of the City? Some would say that it IS fair for people outside the Sunset and Richmond Districts to close their principal thoroughfare, because the Great Highway doesn’t belong to them alone, but belongs to everyone. Well, that’s precisely the point. The Great Highway belongs to everyone — not just bicyclists, skateboarders, and health-conscious people. Every true liberal believes in diversity, equity and inclusion. But the permanent closure of the Great Highway creates no diversity of use; no equity for local residents; and no inclusion of the disabled, who best enjoy the scenic view as passengers. Currently, it’s only accessible to a limited segment of the population. For everyone else: KEEP OUT. It discriminates against the frail and physically disabled; against locals who can no longer easily cross the City N—S. Most of all, it discriminates against every San Francisco resident who might enjoy a scenic drive along the Pacific Ocean, on their own or with out-of-town visitors. The opponents of Proposition G want the Great Highway all to themselves. Yet it remains woefully underused Mon— Fri; and is practically devoid of people on rainy days. Proposition G doesn’t eliminate Sunset Dunes Park. It merely",
+          "locator": "p. 112, Paid Arguments in Favor (Proposition G), argument 1 of 18, left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-02",
+      "kind": "paid",
+      "authors": [
+        "Supervisor Alan Wong"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Great Highway for Everyone. The three largest contributors to the true source recipient committee: 1. Lisa Arjes, 2. Selena Chu, 3. William O’Keefe.",
+      "heading": "Supervisor Alan Wong: Prop G Makes Transit More Efficient",
+      "side": "yes",
+      "text": "Closing the Great Highway did not make traffic disappear. It simply pushed traffic onto other streets, including residential streets never designed to carry the same volume of vehicles. For Westside residents, these consequences affect everyday life. Trips that once moved efficiently along the Great Highway are now diverted through slower neighborhood streets with more stops, intersections, and turns. Residents spend more time getting to work, taking their children to school, reaching medical appointments, and traveling across the Westside. Slower, less direct routes have environmental consequences. Vehicles travel farther and spend more time stopping, idling, and accelerating. That means additional vehicle miles traveled and emissions in residential neighborhoods. Closing the Great Highway did not eliminate these trips; it made them slower, less direct, and more disruptive. Recreation and transportation already existed side by side along our coast. Ocean Beach and the recreational trail provided substantial opportunities for walking, biking, and enjoying the coast. San Francisco also has an extensive network of parks and open spaces. Permanently removing a useful transportation corridor comes with a real tradeoff when recreational opportunities already exist alongside it. The previous compromise offered a practical balance: weekday vehicle access while maintaining recreational use at other times. And it worked. Good transportation policy should improve the network as a whole, not simply relocate congestion. Returning to a practical compromise would restore an important transportation connection, reduce unnecessary traffic on residential streets, shorten trips, and better balance mobility, recreation, and quality of life for Westside residents. Prop G makes our transportation system more efficient. Vote Yes on Prop G",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Closing the Great Highway did not make traffic disappear. It simply pushed traffic onto other streets, including residential streets never designed to carry the same volume of vehicles. For Westside residents, these consequences affect everyday life. Trips that once moved efficiently along the Great Highway are now diverted through slower neighborhood streets with more stops, intersections, and turns. Residents spend more time getting to work, taking their children to school, reaching medical appointments, and traveling across the Westside. Slower, less direct routes have environmental consequences. Vehicles travel farther and spend more time stopping, idling, and accelerating. That means additional vehicle miles traveled and emissions in residential neighborhoods. Closing the Great Highway did not eliminate these trips; it made them slower, less direct, and more disruptive. Recreation and transportation already existed side by side along our coast. Ocean Beach and the recreational trail provided substantial opportunities for walking, biking, and enjoying the coast. San Francisco also has an extensive network of parks and open spaces. Permanently removing a useful transportation corridor comes with a real tradeoff when recreational opportunities already exist alongside it. The previous compromise offered a practical balance: weekday vehicle access while maintaining recreational use at other times. And it worked. Good transportation policy should improve the network as a",
+          "locator": "p. 112, Paid Arguments in Favor (Proposition G), argument 2 of 18, left column (heading) to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-03",
+      "kind": "paid",
+      "authors": [
+        "Chinese American Democratic Club"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Great Highway for Everyone. The three largest contributors to the true source recipient committee: 1. Lisa Arjes, 2. Selena Chu, 3. William O’Keefe.",
+      "heading": "Prop G Means Safe, Connected Neighborhoods for Chinese American Families",
+      "side": "yes",
+      "text": "Chinese American families have built strong communities across San Francisco, especially on the Westside. We raise our children here, care for our parents and grandparents, run small businesses, and contribute to the neighborhoods we call home. Our families need neighborhoods that are both safe and connected. For many Chinese American families, daily life crosses neighborhoods and generations. We travel for school, work, medical appointments, childcare, and to care for aging parents. These concerns extend beyond our community. Families across San Francisco depend on safe streets and reliable connections between our neighborhoods. The permanent closure of the Great Highway has made these everyday responsibilities harder while increasing traffic on neighborhood streets. We already had a compromise that worked. We should return to a solution that recognizes the needs of Chinese American families and the broader communities we live, work, and build relationships with every day. Safe streets. Connected neighborhoods. A solution that works for everyone. Vote Yes on Prop G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Chinese American families have built strong communities across San Francisco, especially on the Westside. We raise our children here, care for our parents and grandparents, run small businesses, and contribute to the neighborhoods we call home. Our families need neighborhoods that are both safe and connected. For many Chinese American families, daily life crosses neighborhoods and generations. We travel for school, work, medical appointments, childcare, and to care for aging parents. These concerns extend beyond our community. Families across San Francisco depend on safe streets and reliable connections between our neighborhoods. The permanent closure of the Great Highway has made these everyday responsibilities harder while increasing traffic on neighborhood streets. We already had a compromise that worked. We should return to a solution that recognizes the needs of Chinese American families and the broader communities we live, work, and build relationships with every day. Safe streets. Connected neighborhoods. A solution that works for everyone. Vote Yes on Prop G.",
+          "locator": "pp. 112-113, Paid Arguments in Favor (Proposition G), argument 3 of 18, p. 112 right column (heading) to p. 113 left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-04",
+      "kind": "paid",
+      "authors": [
+        "SF Taxpayers Association"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Great Highway for Everyone. The three largest contributors to the true source recipient committee: 1. Lisa Arjes, 2. Selena Chu, 3. William O’Keefe.",
+      "heading": "BEFORE CITY HALL TELLS YOU WHAT IT COSTS TO REOPEN THE GREAT HIGHWAY, ASK WHAT IT COST TO CLOSE IT.",
+      "side": "yes",
+      "text": "Opponents cite a $9.8 million reopening price tag. But the Controller says $8.8 million of that is for traffic signals at eight intersections – not removing the park. Just $750,000 is estimated for changes to some park elements and restoring roadway segments. And permanent closure wasn’t free. Taxpayers have paid to redirect traffic and adapt surrounding infrastructure while continuing to maintain and operate the corridor. Even the Controller acknowledges reopening would reduce weekday park staffing and maintenance needs, including approximately $300,000 in annual staffing costs. Taxpayers deserve the whole ledger – not a $10 million headline. Prop G makes better use of infrastructure taxpayers already own: a park on weekends and holidays, a roadway on weekdays. Use what we own. Restore the compromise. YES on G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Opponents cite a $9.8 million reopening price tag. But the Controller says $8.8 million of that is for traffic signals at eight intersections – not removing the park. Just $750,000 is estimated for changes to some park elements and restoring roadway segments. And permanent closure wasn’t free. Taxpayers have paid to redirect traffic and adapt surrounding infrastructure while continuing to maintain and operate the corridor. Even the Controller acknowledges reopening would reduce weekday park staffing and maintenance needs, including approximately $300,000 in annual staffing costs. Taxpayers deserve the whole ledger – not a $10 million headline. Prop G makes better use of infrastructure taxpayers already own: a park on weekends and holidays, a roadway on weekdays. Use what we own. Restore the compromise. YES on G.",
+          "locator": "p. 113, Paid Arguments in Favor (Proposition G), argument 4 of 18, left column to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-05",
+      "kind": "paid",
+      "authors": [
+        "Brian Kragh, Richmond District Democratic Club",
+        "Sandra Fewer, Former Supervisor"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Great Highway for Everyone. The three largest contributors to the true source recipient committee: 1. Lisa Arjes, 2. Selena Chu, 3. William O’Keefe.",
+      "heading": "Richmond District Residents say Vote Yes on Prop G",
+      "side": "yes",
+      "text": "When Proposition K (2024) was placed on the ballot, it was done without any regard for our neighborhood’s input and still remains disruptive for us after its passage. The Richmond District, which has less rapid and high-capacity public transit, has experienced firsthand the effects of this closure. We have witnessed increased traffic along residential streets and the Chain of Lakes Drive and longer commuter delays during rush hour. For parents trying to get their children to school or residents trying to get to work on time, losing this vital route has made the average daily trip more difficult. For east side residents, imagine if the Embarcadero, Mission Street, or 3rd Street was suddenly shut down to create a park without your input and it inevitably caused more congestion to your daily commute. For the Richmond District, this is our reality. We urge you to restore the compromise to let everyone enjoy the park on weekends while allowing for our neighbors to get to work and school with ease again during the weekdays. Vote Yes on Proposition G!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "When Proposition K (2024) was placed on the ballot, it was done without any regard for our neighborhood’s input and still remains disruptive for us after its passage. The Richmond District, which has less rapid and high-capacity public transit, has experienced firsthand the effects of this closure. We have witnessed increased traffic along residential streets and the Chain of Lakes Drive and longer commuter delays during rush hour. For parents trying to get their children to school or residents trying to get to work on time, losing this vital route has made the average daily trip more difficult. For east side residents, imagine if the Embarcadero, Mission Street, or 3rd Street was suddenly shut down to create a park without your input and it inevitably caused more congestion to your daily commute. For the Richmond District, this is our reality. We urge you to restore the compromise to let everyone enjoy the park on weekends while allowing for our neighbors to get to work and school with ease again during the weekdays. Vote Yes on Proposition G!",
+          "locator": "p. 113, Paid Arguments in Favor (Proposition G), argument 5 of 18, right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-06",
+      "kind": "paid",
+      "authors": [
+        "Quentin Kopp, Retired Judge, Former State Senator and Supervisor"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Great Highway for Everyone. The three largest contributors to the true source recipient committee: 1. Lisa Arjes, 2. Selena Chu, 3. William O’Keefe.",
+      "heading": "WE DON’T HAVE TO CHOOSE BETWEEN A GREAT PARK AND SAFE STREETS.",
+      "side": "yes",
+      "text": "Prop G restores the compromise that already worked: a car-free Great Highway on weekends and holidays, and weekday access for people getting to work, school, appointments and back home. Before permanent closure, approximately 10,000 people enjoyed the Great Highway each weekend while 14,000–20,000 vehicles used it each weekday. Now, weekday traffic is pushed onto neighborhood streets and through Golden Gate Park. That’s not balance. And it isn’t good governance. Keep recreation when people enjoy it most. Put weekday traffic back on the road built to carry it. We had a solution that worked. Let’s restore it. Safe streets. A great park. A sensible compromise. YES on G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Prop G restores the compromise that already worked: a car-free Great Highway on weekends and holidays, and weekday access for people getting to work, school, appointments and back home. Before permanent closure, approximately 10,000 people enjoyed the Great Highway each weekend while 14,000–20,000 vehicles used it each weekday. Now, weekday traffic is pushed onto neighborhood streets and through Golden Gate Park. That’s not balance. And it isn’t good governance. Keep recreation when people enjoy it most. Put weekday traffic back on the road built to carry it. We had a solution that worked. Let’s restore it. Safe streets. A great park. A sensible compromise. YES on G.",
+          "locator": "pp. 113-114, Paid Arguments in Favor (Proposition G), argument 6 of 18, p. 113 right column to p. 114 left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-07",
+      "kind": "paid",
+      "authors": [
+        "Albert Chow Owner, Great Wall Hardware"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Albert Chow.",
+      "heading": "Scott Wiener Turned His Back on Our Communities. Prop G Puts Us First.",
+      "side": "yes",
+      "text": "Scott Wiener took away a compromise that worked for our communities. His one-size-fits-all vision ignores how people actually live and travel. A city has to function. Public infrastructure should serve the public. We should not force everyone into one way of getting around when our communities have different needs. As our city adds new housing and welcomes more residents, we need transportation infrastructure that can keep up. Yet we continue closing and narrowing streets, forcing more traffic onto fewer routes. That isn’t a plan for a functioning city. Closing the Great Highway adds to that burden, pushing more traffic onto neighborhood streets, 19th Avenue, Sunset Boulevard, and through Golden Gate Park. Prop G is better planning: balancing recreation, transportation, and the needs of a growing city. Politicians shouldn’t tell our communities what works when their plans keep failing us. Prop G makes our city work for everyone. Vote YES on Prop G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Scott Wiener took away a compromise that worked for our communities. His one-size-fits-all vision ignores how people actually live and travel. A city has to function. Public infrastructure should serve the public. We should not force everyone into one way of getting around when our communities have different needs. As our city adds new housing and welcomes more residents, we need transportation infrastructure that can keep up. Yet we continue closing and narrowing streets, forcing more traffic onto fewer routes. That isn’t a plan for a functioning city. Closing the Great Highway adds to that burden, pushing more traffic onto neighborhood streets, 19th Avenue, Sunset Boulevard, and through Golden Gate Park. Prop G is better planning: balancing recreation, transportation, and the needs of a growing city. Politicians shouldn’t tell our communities what works when their plans keep failing us. Prop G makes our city work for everyone. Vote YES on Prop G.",
+          "locator": "p. 114, Paid Arguments in Favor (Proposition G), argument 7 of 18, left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-08",
+      "kind": "paid",
+      "authors": [
+        "Stephen J. Gorski, Esq."
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Stephen J. Gorski.",
+      "heading": "VOTE YES ON PROP G – It will NOT close Sunset Dunes Park",
+      "side": "yes",
+      "text": "Voting “Yes” Will Not Close Sunset Dunes Park Voting “yes” for the compromise to allow shared weekday access to private vehicles on the existing 2‑mile roadway within the 50 acres of Sunset Dunes Park will NOT CLOSE Sunset Dunes Park. Bicyclists have always had safe 24/7 access whether or not private vehicles shared the road. Sunset Dunes Park includes a paved 10′ wide 2‑mile long pedestrian path for walking or rolling, a jogging path, landscaping, many water fountains, park benches, and 2 bathrooms on the east side of the roadway. These amenities have always been there and will remain. A seawall, 5 blocks long with a paved promenade, benches and steps to Ocean Beach exists within Sunset Dunes Park’s western border. Sand maintenance is regularly occurring to keep what once was the Upper Great Highway open for use by City and emergency vehicles 24/7; therefore, a new road will not need to be built, financed or require extra upkeep. The entire park surrounding it will remain open to all, every single day, and car‑free on all weekends and holidays. These are the Real Facts. Please vote YES on G to implement a fair and equitable compromise.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Voting “Yes” Will Not Close Sunset Dunes Park Voting “yes” for the compromise to allow shared weekday access to private vehicles on the existing 2‑mile roadway within the 50 acres of Sunset Dunes Park will NOT CLOSE Sunset Dunes Park. Bicyclists have always had safe 24/7 access whether or not private vehicles shared the road. Sunset Dunes Park includes a paved 10′ wide 2‑mile long pedestrian path for walking or rolling, a jogging path, landscaping, many water fountains, park benches, and 2 bathrooms on the east side of the roadway. These amenities have always been there and will remain. A seawall, 5 blocks long with a paved promenade, benches and steps to Ocean Beach exists within Sunset Dunes Park’s western border. Sand maintenance is regularly occurring to keep what once was the Upper Great Highway open for use by City and emergency vehicles 24/7; therefore, a new road will not need to be built, financed or require extra upkeep. The entire park surrounding it will remain open to all, every single day, and car‑free on all weekends and holidays. These are the Real Facts. Please vote YES on G to implement a fair and equitable compromise.",
+          "locator": "p. 114, Paid Arguments in Favor (Proposition G), argument 8 of 18, right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-09",
+      "kind": "paid",
+      "authors": [
+        "Patricia Arack Disabled D4 Resident Retired Faculty, CCSF"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Great Highway for Everyone. The three largest contributors to the true source recipient committee: 1. Lisa Arjes, 2. Selena Chu, 3. William O’Keefe.",
+      "heading": "Broken Promises: Sunset Dunes Has Failed Disabled Residents",
+      "side": "yes",
+      "text": "As a disabled resident, I was told closing the Great Highway would create a park that was safer and more accessible for people with disabilities. That promise was never fulfilled. For 10 blocks along the Lower Great Highway between Judah and Taraval, there is not one ADA‑compliant point of access to Sunset Dunes from the Lower Great Highway. Instead, steep inclines prevent most disabled people access, and all the asphalt ramps are in terrible condition—cracked, bumpy, uneven, covered in dirt and sand, highly dangerous to wheelchairs, walkers, and anyone unsteady on their feet. We now have a permanently closed park, but extremely limited parking access for the disabled. Some need to be in their cars for safety, and weekday access is needed for the VA hospital. We deserve the opportunity to experience our beautiful coast from the safety of our vehicles. A permanently closed highway that ignores the various needs of the disabled must be replaced with the Prop G compromise that provides it. Prop G delivers real access for people with different abilities and different mobility needs. Disabled residents were promised better access. We are still waiting. Prop G restores our access. Vote Yes on Prop G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "As a disabled resident, I was told closing the Great Highway would create a park that was safer and more accessible for people with disabilities. That promise was never fulfilled. For 10 blocks along the Lower Great Highway between Judah and Taraval, there is not one ADA‑compliant point of access to Sunset Dunes from the Lower Great Highway. Instead, steep inclines prevent most disabled people access, and all the asphalt ramps are in terrible condition—cracked, bumpy, uneven, covered in dirt and sand, highly dangerous to wheelchairs, walkers, and anyone unsteady on their feet. We now have a permanently closed park, but extremely limited parking access for the disabled. Some need to be in their cars for safety, and weekday access is needed for the VA hospital. We deserve the opportunity to experience our beautiful coast from the safety of our vehicles. A permanently closed highway that ignores the various needs of the disabled must be replaced with the Prop G compromise that provides it. Prop G delivers real access for people with different abilities and different mobility needs. Disabled residents were promised better access. We are still waiting. Prop G restores our access. Vote Yes on Prop G.",
+          "locator": "pp. 114-115, Paid Arguments in Favor (Proposition G), argument 9 of 18, p. 114 right column to p. 115 left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-10",
+      "kind": "paid",
+      "authors": [
+        "Shawna McGrew Retired Rec and Park Principal Supervisor, Sunset District"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Shawna McGrew.",
+      "heading": "Supporting Our Parks Means Supporting Prop G",
+      "side": "yes",
+      "text": "I spent my career caring for San Francisco’s parks. I believe every neighborhood deserves parks that are properly maintained and thoughtfully invested in. Prop G is the right investment for Sunset Dunes. It gives San Franciscans recreational space on weekends and holidays while allowing the Great Highway to serve our transportation needs during the week. That’s a responsible use of public space and limited park resources, and it allows us to continue investing in the neighborhood parks San Franciscans rely on every day. All of our parks deserve thoughtful investment and responsible stewardship. Vote Yes on Prop G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "I spent my career caring for San Francisco’s parks. I believe every neighborhood deserves parks that are properly maintained and thoughtfully invested in. Prop G is the right investment for Sunset Dunes. It gives San Franciscans recreational space on weekends and holidays while allowing the Great Highway to serve our transportation needs during the week. That’s a responsible use of public space and limited park resources, and it allows us to continue investing in the neighborhood parks San Franciscans rely on every day. All of our parks deserve thoughtful investment and responsible stewardship. Vote Yes on Prop G.",
+          "locator": "p. 115, Paid Arguments in Favor (Proposition G), argument 10 of 18, left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-11",
+      "kind": "paid",
+      "authors": [
+        "Selena Chu Sunset resident, working mom, and SFUSD graduate."
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Wei Selena Chu.",
+      "heading": "Vote YES on Proposition G: The Compromise Worked",
+      "side": "yes",
+      "text": "San Francisco does not have to choose between safe streets and great parks. Proposition G gives us both. Vote YES to restore shared access to the Great Highway, open to everyone on weekdays for commuting, school drop-offs, work trips, and emergency access, while remaining closed on weekends and holidays with a focus on recreation. This is the compromise San Franciscans have already experienced and supported. It recognizes that the two‑mile Great Highway within the 50‑acre Sunset Dunes Park is both a transportation corridor and a valuable recreational space. Families, workers, seniors, people with disabilities, cyclists, pedestrians, and drivers all deserve access to public land. Permanent closure forces everyday trips onto already‑congested neighborhood streets and creates longer, more difficult commutes. Proposition G provides a practical alternative: share the road instead of forcing San Franciscans to choose sides. Our public spaces belong to everyone, not just one group. Proposition G is not about putting cars before parks. It is about access, fairness, mobility, and compromise. We can protect recreation on weekends while preserving a vital north‑south route during the workweek. After years of division, San Francisco deserves a solution that brings people together. Vote YES on Proposition G. Share the Great Highway. Keep the park. Keep San Francisco moving.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco does not have to choose between safe streets and great parks. Proposition G gives us both. Vote YES to restore shared access to the Great Highway, open to everyone on weekdays for commuting, school drop-offs, work trips, and emergency access, while remaining closed on weekends and holidays with a focus on recreation. This is the compromise San Franciscans have already experienced and supported. It recognizes that the two‑mile Great Highway within the 50‑acre Sunset Dunes Park is both a transportation corridor and a valuable recreational space. Families, workers, seniors, people with disabilities, cyclists, pedestrians, and drivers all deserve access to public land. Permanent closure forces everyday trips onto already‑congested neighborhood streets and creates longer, more difficult commutes. Proposition G provides a practical alternative: share the road instead of forcing San Franciscans to choose sides. Our public spaces belong to everyone, not just one group. Proposition G is not about putting cars before parks. It is about access, fairness, mobility, and compromise. We can protect recreation on weekends while preserving a vital north‑south route during the workweek. After years of division, San Francisco deserves a solution that brings people together. Vote YES on Proposition G. Share the Great Highway. Keep the park. Keep San Francisco moving.",
+          "locator": "p. 115, Paid Arguments in Favor (Proposition G), argument 11 of 18, left column to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-12",
+      "kind": "paid",
+      "authors": [
+        "John M. Lee Real Estate Broker Commissioner – Assessment Appeals Board"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: John M. Lee.",
+      "side": "yes",
+      "text": "Sunset and Richmond residents need practical access to work, schools, medical care, and essential services. Closing the Great Highway full time has made daily life harder for west‑side neighborhoods already underserved by transit. Prop G offers a fair balance: reopen the road to vehicles on weekdays and preserve recreational use on weekends. Sunset Dunes would remain open for people to walk, bike, and enjoy the coast. This is not about choosing cars over parks. It is about sharing public space fairly. Before the closure, 14,000 to 20,000 cars used this road each day—about 6.2 million trips a year. That is not an underused road. It is a vital artery. A raised biking and walking path already runs along the eastern side, with ocean views and 24/7 access. Weekday roadway access would not take away the coast—it would restore fairness. In 2024, nearly two‑third of westside residents voted to keep the road open because they depend on it. Citywide voters now have a second chance to listen to the neighborhoods most affected and choose a compromise that we had previously and works for everyone. Imagine closing Marina Boulevard or the Embarcadero and telling nearby residents to simply adjust. Westside families deserve the same consideration, especially as affordable housing grows and more residents rely on safe, reliable, and dependable access. Help your neighbors. Share the space. Restore weekday access. Vote YES on Prop G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Sunset and Richmond residents need practical access to work, schools, medical care, and essential services. Closing the Great Highway full time has made daily life harder for west‑side neighborhoods already underserved by transit. Prop G offers a fair balance: reopen the road to vehicles on weekdays and preserve recreational use on weekends. Sunset Dunes would remain open for people to walk, bike, and enjoy the coast. This is not about choosing cars over parks. It is about sharing public space fairly. Before the closure, 14,000 to 20,000 cars used this road each day—about 6.2 million trips a year. That is not an underused road. It is a vital artery. A raised biking and walking path already runs along the eastern side, with ocean views and 24/7 access. Weekday roadway access would not take away the coast—it would restore fairness. In 2024, nearly two‑third of westside residents voted to keep the road open because they depend on it. Citywide voters now have a second chance to listen to the neighborhoods most affected and choose a compromise that we had previously and works for everyone. Imagine closing Marina Boulevard or the Embarcadero and telling nearby residents to simply adjust. Westside families deserve the same consideration, especially as affordable housing grows and more residents rely on safe, reliable, and dependable access. Help your neighbors. Share the space. Restore weekday access. Vote YES on Prop G.",
+          "locator": "pp. 115-116, Paid Arguments in Favor (Proposition G), argument 12 of 18, p. 115 right column to p. 116 left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-13",
+      "kind": "paid",
+      "authors": [
+        "Tomasita Medál Access Advocate"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Tomasita Medal.",
+      "heading": "CONSIDER OUR VETERANS. VOTE YES ON G.",
+      "side": "yes",
+      "text": "The Veterans Administration Hospital in the Outer Richmond serves 95,000 veteran patients yearly. It has 3,500 employees and 350 volunteers and is open 24 hours a day. Thousands of patients and workers come from throughout San Francisco and beyond to reach the VA Hospital. They deserve a direct and reliable way to get there. For years, the Great Highway helped veterans, workers, families, and residents get to health care, work, school, and their weekday responsibilities. After the full closure created problems for commuters and nearby residents, San Francisco found a compromise that worked: vehicle access on weekdays and recreational use on weekends and holidays. The City planned to monitor traffic on the Great Highway and neighboring streets, study the impacts, and engage the community. That compromise recognized that both uses mattered. Veterans and other commuters had weekday access, nearby neighborhoods were not asked to absorb all of the displaced traffic, and San Franciscans could enjoy the roadway recreationally on weekends and holidays. Recreational access never disappeared. The paved bicycle and walking path and hard‑packed sand jogging path remained available throughout the week. Today, closing the Great Highway forces veterans and VA workers to stop and go through the Outer Sunset while diverting traffic onto neighborhood streets, bringing more congestion, noise, pollution, and safety concerns to nearby families. We should not make it harder for veterans to reach their health care when a practical alternative already worked. Prop G brings back that balance. SUPPORT OUR VETERANS. VOTE YES ON G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Veterans Administration Hospital in the Outer Richmond serves 95,000 veteran patients yearly. It has 3,500 employees and 350 volunteers and is open 24 hours a day. Thousands of patients and workers come from throughout San Francisco and beyond to reach the VA Hospital. They deserve a direct and reliable way to get there. For years, the Great Highway helped veterans, workers, families, and residents get to health care, work, school, and their weekday responsibilities. After the full closure created problems for commuters and nearby residents, San Francisco found a compromise that worked: vehicle access on weekdays and recreational use on weekends and holidays. The City planned to monitor traffic on the Great Highway and neighboring streets, study the impacts, and engage the community. That compromise recognized that both uses mattered. Veterans and other commuters had weekday access, nearby neighborhoods were not asked to absorb all of the displaced traffic, and San Franciscans could enjoy the roadway recreationally on weekends and holidays. Recreational access never disappeared. The paved bicycle and walking path and hard‑packed sand jogging path remained available throughout the week. Today, closing the Great Highway forces veterans and VA workers to stop and go through the Outer Sunset while diverting traffic onto neighborhood streets, bringing more congestion, noise, pollution, and safety concerns to nearby families. We should not make it harder for veterans to reach",
+          "locator": "p. 116, Paid Arguments in Favor (Proposition G), argument 13 of 18, left column to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-14",
+      "kind": "paid",
+      "authors": [
+        "Kenneth D. Lustenberger Union Activist and Communal Advocate"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Kenneth D. Lustenberger.",
+      "heading": "Prop G is the People Taking Back Power",
+      "side": "yes",
+      "text": "To those confused: I say, if I (being a tech-bro or developer) were to throw sand in your face while trying to steal your wallet “Sunset Dunes” is the perfect scheme. The sand (distraction) is the unprecedented and unnecessary road closure that has been fabricated into “Sunset Dunes”. Your wallet, is what you call home, what working families (be they rent or own) are grasping on to for dear life as they try and make this society work for themselves. And yes, the ultra-wealthy want you gone so they can develop and move their developer-friends’ “legacies” to the 1%. What they did to SOMA was not enough, and in the name of “affordable housing” they intended to divide and conquer the working people into ruin. Measure G is reasserting the communal agreement forged in compromise, a return to respecting the voices of neighborhoods, working people over big-money politics and obfuscations: yes, we see you, and no we won’t tolerate it! Vote yes on Measure G for a future, take back your power!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "To those confused: I say, if I (being a tech-bro or developer) were to throw sand in your face while trying to steal your wallet “Sunset Dunes” is the perfect scheme. The sand (distraction) is the unprecedented and unnecessary road closure that has been fabricated into “Sunset Dunes”. Your wallet, is what you call home, what working families (be they rent or own) are grasping on to for dear life as they try and make this society work for themselves. And yes, the ultra-wealthy want you gone so they can develop and move their developer-friends’ “legacies” to the 1%. What they did to SOMA was not enough, and in the name of “affordable housing” they intended to divide and conquer the working people into ruin. Measure G is reasserting the communal agreement forged in compromise, a return to respecting the voices of neighborhoods, working people over big-money politics and obfuscations: yes, we see you, and no we won’t tolerate it! Vote yes on Measure G for a future, take back your power!",
+          "locator": "p. 116, Paid Arguments in Favor (Proposition G), argument 14 of 18, right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-15",
+      "kind": "paid",
+      "authors": [
+        "Wendy Liu Westside Resident & Mother"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Lauren Kerins.",
+      "heading": "Restore Balance and True Coastal Access for All",
+      "side": "yes",
+      "text": "Safe streets and great coastal parks don’t have to compete. Proposition G restores a smart solution where recreation and transportation coexist: a car-free coastal promenade on weekends and holidays, and weekday vehicle access that helps keep traffic off neighborhood streets. True “Access for All” Real coastal accessibility must serve everyone, not just those who can stroll on a Tuesday morning. A 24/7 closure excludes people who rely on vehicles, while Prop G preserves recreation and restores weekday access for working parents, seniors, residents with disabilities, and families traveling to school and medical care. Real Environmental Action Protecting our coast requires realistic planning. Diverting thousands of vehicles from an established route onto residential streets creates congestion, idling cars, and neighborhood pollution. Prop G keeps weekday traffic moving on its intended route while protecting access to our coast. Economic Vitality for Our Neighborhoods A thriving Westside needs year-round economic vitality. Prop G welcomes weekend park visitors while ensuring shoppers, deliveries, and local customers can reach our commercial corridors during the week. Community Unity Over Special Interests When City Hall failed to listen to impacted neighborhoods, nearly 16,000 San Franciscans signed the petition to put Prop G on the ballot. This campaign came from our communities, not special interests. Prop G isn’t about choosing between open space and transportation. It is about restoring a sensible compromise that serves more San Franciscans. Vote YES on Proposition G!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Safe streets and great coastal parks don’t have to compete. Proposition G restores a smart solution where recreation and transportation coexist: a car-free coastal promenade on weekends and holidays, and weekday vehicle access that helps keep traffic off neighborhood streets. True “Access for All” Real coastal accessibility must serve everyone, not just those who can stroll on a Tuesday morning. A 24/7 closure excludes people who rely on vehicles, while Prop G preserves recreation and restores weekday access for working parents, seniors, residents with disabilities, and families traveling to school and medical care. Real Environmental Action Protecting our coast requires realistic planning. Diverting thousands of vehicles from an established route onto residential streets creates congestion, idling cars, and neighborhood pollution. Prop G keeps weekday traffic moving on its intended route while protecting access to our coast. Economic Vitality for Our Neighborhoods A thriving Westside needs year-round economic vitality. Prop G welcomes weekend park visitors while ensuring shoppers, deliveries, and local customers can reach our commercial corridors during the week. Community Unity Over Special Interests When City Hall failed to listen to impacted neighborhoods, nearly 16,000 San Franciscans signed the petition to put Prop G on the ballot. This campaign came from our communities, not special interests. Prop G isn’t about choosing between open space and transportation. It is",
+          "locator": "pp. 116-117, Paid Arguments in Favor (Proposition G), argument 15 of 18, p. 116 right column to p. 117 left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-16",
+      "kind": "paid",
+      "authors": [
+        "Heather Davies, former Disaster Recovery Program Manager"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Heather Davies.",
+      "heading": "HAZARDOUS, UNPLANNED ROAD CLOSURE ENDANGERS WESTSIDE WORKING FAMILIES",
+      "side": "yes",
+      "text": "Our opponent’s arguments dismiss Westside residents’ traffic concerns, citing a July 25, 2025, SF Chronicle article which concluded that post-closure commutes are only 1 to 11 minutes longer. That study was based on average daily traffic flow data prior to the March 2025 Great Highway closure (31 days) compared with 18 days after (which included a portion of SFUSD Spring break). Maybe not the most unbiased approach. Nearly 2 years later, are there new traffic impact studies? NO. Why not? So that voters won’t know the real truth. Average travel times don’t capture the increasingly fragile road network’s inability to safely convey 70,000 cars daily on 19th Ave (each way). Massive jams are happening more frequently. An accident at Cross-over Drive can result in a traumatic extra hour to your ETA. What happens then? Frustrated drivers bail out to speed through residential streets, often causing hit-n-runs accidents as well as pedestrian and bicycle collisions. Is your stroll by the beach worth the increased risk to our neighborhood kids biking and walking to school??? LET’S RETURN TO THE COMPROMISE, IMPROVE ROAD AND TRANSIT OPTIONS, THEN WE CAN BRING BACK SUNSET DUNES. VOTE YES ON G",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Our opponent’s arguments dismiss Westside residents’ traffic concerns, citing a July 25, 2025, SF Chronicle article which concluded that post-closure commutes are only 1 to 11 minutes longer. That study was based on average daily traffic flow data prior to the March 2025 Great Highway closure (31 days) compared with 18 days after (which included a portion of SFUSD Spring break). Maybe not the most unbiased approach. Nearly 2 years later, are there new traffic impact studies? NO. Why not? So that voters won’t know the real truth. Average travel times don’t capture the increasingly fragile road network’s inability to safely convey 70,000 cars daily on 19th Ave (each way). Massive jams are happening more frequently. An accident at Cross-over Drive can result in a traumatic extra hour to your ETA. What happens then? Frustrated drivers bail out to speed through residential streets, often causing hit-n-runs accidents as well as pedestrian and bicycle collisions. Is your stroll by the beach worth the increased risk to our neighborhood kids biking and walking to school??? LET’S RETURN TO THE COMPROMISE, IMPROVE ROAD AND TRANSIT OPTIONS, THEN WE CAN BRING BACK SUNSET DUNES. VOTE YES ON G",
+          "locator": "p. 117, Paid Arguments in Favor (Proposition G), argument 16 of 18, left column to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-17",
+      "kind": "paid",
+      "authors": [
+        "Judith A. Gorski Ocean Beach Resident"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Great Highway for Everyone. The three largest contributors to the true source recipient committee: 1. Lisa Arjes, 2. Selena Chu, 3. William O’Keefe.",
+      "heading": "Vote Yes on G: The Numbers Tell a Different Story",
+      "side": "yes",
+      "text": "We’ve been told that allowing weekday vehicle access on the Great Highway will lead to higher sand removal costs. But Public Works’ own records tell a different story. Records obtained through a Sunshine request show that from 2011 through 2025, sand removal expenses between Lincoln Way and Sloat Boulevard were less than $400,000 per year. Now, with the Great Highway closed to vehicles 24/7, costs are going up, not down. In just the first six months of 2026, sand removal cost $281,785. If that pace continues, 2026 will exceed $500,000, the most expensive year for sand removal, without cars on the road. Since the 24/7 closure, the frequency of sand removal has doubled, from twice monthly to weekly. It is more labor‑intensive, requiring hand‑shoveling around structures to move sand where heavy equipment can reach it. And sand removal isn’t the only expense. The 24/7 closure has changed how people access the dunes. Without traffic and pedestrian signals directing people to designated crossings, increased foot traffic over fragile dunes damages native plants, worsens erosion, and increases the need for costly dune reshaping. Protecting our natural beach environment protects taxpayers too. When dunes are protected from unnecessary damage and allowed to flourish, costly reshaping can be reduced or avoided. Don’t let claims about sand removal costs determine your vote without looking at the actual numbers. Vote Yes on Prop G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "We’ve been told that allowing weekday vehicle access on the Great Highway will lead to higher sand removal costs. But Public Works’ own records tell a different story. Records obtained through a Sunshine request show that from 2011 through 2025, sand removal expenses between Lincoln Way and Sloat Boulevard were less than $400,000 per year. Now, with the Great Highway closed to vehicles 24/7, costs are going up, not down. In just the first six months of 2026, sand removal cost $281,785. If that pace continues, 2026 will exceed $500,000, the most expensive year for sand removal, without cars on the road. Since the 24/7 closure, the frequency of sand removal has doubled, from twice monthly to weekly. It is more labor‑intensive, requiring hand‑shoveling around structures to move sand where heavy equipment can reach it. And sand removal isn’t the only expense. The 24/7 closure has changed how people access the dunes. Without traffic and pedestrian signals directing people to designated crossings, increased foot traffic over fragile dunes damages native plants, worsens erosion, and increases the need for costly dune reshaping. Protecting our natural beach environment protects taxpayers too. When dunes are protected from unnecessary damage and allowed to flourish, costly reshaping can be reduced or avoided. Don’t let claims about sand removal costs determine your vote without looking at the actual numbers. Vote Yes on Prop G.",
+          "locator": "pp. 117-118, Paid Arguments in Favor (Proposition G), argument 17 of 18, p. 117 right column to p. 118 left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-18",
+      "kind": "paid",
+      "authors": [
+        "Sarkis Sarkissian Small Business Owner"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Sarkis Sarkissian.",
+      "heading": "Yes on G: A Compromise is Common Sense",
+      "side": "yes",
+      "text": "On a recent trip to Boston, I found myself near the Charles River in Back Bay, on a dirt path shared by bikers, joggers, and pedestrians. A few meters away was a busy commuting expressway. It was a beautiful summer day enjoyed by everyone. As I stood there in the tranquility of a bustling city, I couldn’t help but imagine a politician deciding the space for pedestrians and bikers was not enough and closing the motorway to make even more room for them. How inconceivable that would be. I just hope, for the sake of the fine people of Boston, Joel Engardio does not decide to move there! If there was ever an example of “fixing” a problem that isn’t broken, it is the decision to close the Great Highway. I have used this area since 1977, when we moved here from Zimbabwe. I have biked, jogged, walked my dogs, and commuted on this strip, enjoying all it has to offer. The closure not only affects Westside residents, but disrupts commutes for working families up and down the coast, from Pacifica to Marin County. Joggers and pedestrians have always had access along both northbound and southbound paths, while those adventurous enough could enjoy the beach. I would think most avid bikers would prefer riding alongside the car commute rather than dodging pedestrians as they do now. I don’t think voters in one part of the City should make decisions that negatively affect another. But here we are. The balance and quality of life for many on the Westside is in your hands. I hope voters understand what is at stake, show some empathy, and vote YES on Proposition G. Together, let’s take a step towards common sense.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "On a recent trip to Boston, I found myself near the Charles River in Back Bay, on a dirt path shared by bikers, joggers, and pedestrians. A few meters away was a busy commuting expressway. It was a beautiful summer day enjoyed by everyone. As I stood there in the tranquility of a bustling city, I couldn’t help but imagine a politician deciding the space for pedestrians and bikers was not enough and closing the motorway to make even more room for them. How inconceivable that would be. I just hope, for the sake of the fine people of Boston, Joel Engardio does not decide to move there! If there was ever an example of “fixing” a problem that isn’t broken, it is the decision to close the Great Highway. I have used this area since 1977, when we moved here from Zimbabwe. I have biked, jogged, walked my dogs, and commuted on this strip, enjoying all it has to offer. The closure not only affects Westside residents, but disrupts commutes for working families up and down the coast, from Pacifica to Marin County. Joggers and pedestrians have always had access along both northbound and southbound paths, while those adventurous enough could enjoy the beach. I would think most avid bikers would prefer riding alongside the car commute rather than dodging pedestrians as they do now. I don’t think voters in one part of the City should make decisions that negatively affect another. But here we are. The balance and quality of life for many on the Westside is in your hands. I hope voters",
+          "locator": "p. 118, Paid Arguments in Favor (Proposition G), argument 18 of 18, left column to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-01",
+      "kind": "paid",
+      "authors": [
+        "Sean Elsbernd President/CEO SPUR (www.spur.org)"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "An Expensive Step Backward for San Francisco’s Coast",
+      "side": "no",
+      "text": "Voters already settled this. In November 2024, 55% of San Francisco approved Proposition K, permanently protecting Sunset Dunes park as open space and closing the former Upper Great Highway to cars. This measure would undo that decision and bring an end to a beloved park. San Francisco didn’t stumble into this park by accident. In 2012, SPUR published the Ocean Beach Master Plan, the first comprehensive vision for removing cars from this stretch of coastline and restoring it for people and coastal resilience. For more than a decade, SPUR has led the public process — with the National Park Service, the SFPUC, and the State Coastal Conservancy — that made Sunset Dunes park possible. It’s also a bad deal for taxpayers. This eroding roadway closed unpredictably up to 65 days a year before Prop K, costing hundreds of thousands of dollars annually. Bringing it back would add $500,000–$1,900,000 a year in ongoing maintenance costs, plus $9.8 million to rebuild the road, all for an unreliable road that dead-ends into permanent closure at Sloat Boulevard regardless. This park has become one of San Francisco’s most-loved public spaces. Reversing course would eliminate multilingual, multigenerational programming and increase pollution runoff into a sensitive coastal ecosystem — solving nothing. This issue has been exhausting for San Franciscans. Six years of debate, two citywide votes, two lawsuits, three appeals. Enough is enough — we are saying No to Proposition G, and no to wasteful ballot measures on issues we’ve already settled as a city. Spending nearly $10 million to remove a playground, a skate park, and public art from public land is just irresponsible, especially when San Francisco is being forced to make budget cuts. Vote No.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Voters already settled this. In November 2024, 55% of San Francisco approved Proposition K, permanently protecting Sunset Dunes park as open space and closing the former Upper Great Highway to cars. This measure would undo that decision and bring an end to a beloved park. San Francisco didn’t stumble into this park by accident. In 2012, SPUR published the Ocean Beach Master Plan, the first comprehensive vision for removing cars from this stretch of coastline and restoring it for people and coastal resilience. For more than a decade, SPUR has led the public process — with the National Park Service, the SFPUC, and the State Coastal Conservancy — that made Sunset Dunes park possible. It’s also a bad deal for taxpayers. This eroding roadway closed unpredictably up to 65 days a year before Prop K, costing hundreds of thousands of dollars annually. Bringing it back would add $500,000–$1,900,000 a year in ongoing maintenance costs, plus $9.8 million to rebuild the road, all for an unreliable road that dead-ends into permanent closure at Sloat Boulevard regardless. This park has become one of San Francisco’s most-loved public spaces. Reversing course would eliminate multilingual, multigenerational programming and increase pollution runoff into a sensitive coastal ecosystem — solving nothing. This issue has been exhausting for San Franciscans. Six years of debate, two citywide votes, two lawsuits, three appeals. Enough is enough — we are saying No to Proposition G, and no to wasteful",
+          "locator": "pp. 118-119, Paid Arguments Against (Proposition G), argument 1 of 12, p. 118 right column to p. 119 left column (funding disclosure)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-02",
+      "kind": "paid",
+      "authors": [
+        "Outer Sunset Neighbors",
+        "Westside Collective",
+        "Sunset Community Band",
+        "Far Out Community Garden",
+        "Sunset Parent Advocates",
+        "Joel Engardio",
+        "Alexander Wong",
+        "Jessica Ho",
+        "Helen Moyes-Chang",
+        "Charles Spencer Warden"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "As neighbors in the Sunset, we ask you to save our local park from closure. Vote No on Proposition G.",
+      "side": "no",
+      "text": "Sunset Dunes park is an incredible neighborhood addition. Some of us were apprehensive about Proposition K— some even voted against it—but we have come to love the park. It’s our backyard to stroll, stay fit, teach our kids to bike and scoot, and watch the sunset together. Proposition G would tear it all away. There is no such thing as a part-time park. A closed road is not a park, and cannot have any park features. Proposition G requires the removal of a playground, a fitness area where we exercise, and even the benches where we watch the waves. We need our park everyday. Some of us work weekends and could not use the park at all under Proposition G. This is our local park; we use it on weekdays to enjoy an early morning jog, after school with our kids, or an evening stroll along the ocean. There is no place like it. Traffic fears raised two years ago haven’t materialized. Car crashes are down in the neighborhood since the park opened, and commute times are similar as well. What has materialized is the third most visited city park. We come to our park every day and see how much it means to our neighborhood and the city. Don’t spend millions of dollars destroying our neighborhood park. Join us in voting No on G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Sunset Dunes park is an incredible neighborhood addition. Some of us were apprehensive about Proposition K— some even voted against it—but we have come to love the park. It’s our backyard to stroll, stay fit, teach our kids to bike and scoot, and watch the sunset together. Proposition G would tear it all away. There is no such thing as a part-time park. A closed road is not a park, and cannot have any park features. Proposition G requires the removal of a playground, a fitness area where we exercise, and even the benches where we watch the waves. We need our park everyday. Some of us work weekends and could not use the park at all under Proposition G. This is our local park; we use it on weekdays to enjoy an early morning jog, after school with our kids, or an evening stroll along the ocean. There is no place like it. Traffic fears raised two years ago haven’t materialized. Car crashes are down in the neighborhood since the park opened, and commute times are similar as well. What has materialized is the third most visited city park. We come to our park every day and see how much it means to our neighborhood and the city. Don’t spend millions of dollars destroying our neighborhood park. Join us in voting No on G.",
+          "locator": "p. 119, Paid Arguments Against (Proposition G), argument 2 of 12, left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-03",
+      "kind": "paid",
+      "authors": [
+        "Sierra Club",
+        "San Francisco League of Conservation Voters",
+        "Surfrider San Francisco",
+        "Golden Gate Bird Alliance",
+        "San Francisco Climate Emergency Coalition",
+        "SF Policy Action Team / Climate Reality",
+        "350 San Francisco Action",
+        "Ocean Beach Institute",
+        "SF Surfers for Sunset Dunes",
+        "Westside Water Resources",
+        "Sutro Stewards"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "San Francisco’s leading environmental groups are united: Save Sunset Dunes park. Vote NO on Proposition G.",
+      "side": "no",
+      "text": "NO on G: Save our park. Proposition G would cost taxpayers $10 million plus up to $2 million a year to destroy San Francisco’s coastal park and rebuild and maintain an unneeded road to nowhere. NO on G: Regenerate. Proposition G erases our environmental gains. Dune restoration is underway, and local awareness and stewardship of our threatened Western Snowy Plover is increasing. Don’t replace progress with pollution. NO on G: Protect our Pacific Ocean. Proposition G dumps automobile pollution into our sensitive coastal habitat. NO on G: Climate action. Proposition G blocks critically needed climate change adaptation to protect the Sunset against rising sea levels. NO on G: Community. Proposition G closes San Francisco’s third most visited park, where neighbors and visitors have created a town square, while increasing access to nature and advancing stewardship of our coast. The Great Highway was an unsustainable, unmaintainable road. A coastal park is the inevitable future of our coast. San Francisco environmental organizations are united: This is San Francisco. We don’t bulldoze our parks. We protect them.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "NO on G: Save our park. Proposition G would cost taxpayers $10 million plus up to $2 million a year to destroy San Francisco’s coastal park and rebuild and maintain an unneeded road to nowhere. NO on G: Regenerate. Proposition G erases our environmental gains. Dune restoration is underway, and local awareness and stewardship of our threatened Western Snowy Plover is increasing. Don’t replace progress with pollution. NO on G: Protect our Pacific Ocean. Proposition G dumps automobile pollution into our sensitive coastal habitat. NO on G: Climate action. Proposition G blocks critically needed climate change adaptation to protect the Sunset against rising sea levels. NO on G: Community. Proposition G closes San Francisco’s third most visited park, where neighbors and visitors have created a town square, while increasing access to nature and advancing stewardship of our coast. The Great Highway was an unsustainable, unmaintainable road. A coastal park is the inevitable future of our coast. San Francisco environmental organizations are united: This is San Francisco. We don’t bulldoze our parks. We protect them.",
+          "locator": "p. 119, Paid Arguments Against (Proposition G), argument 3 of 12, left column (heading) to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-04",
+      "kind": "paid",
+      "authors": [
+        "Outer Sunset Neighbors",
+        "Eliza Panike, Vice‑Chair, SFMTA Citizen Advisory Council*",
+        "Janelle Wong",
+        "Thurman Carroll, III",
+        "Alex Strachan",
+        "Hannah Warden"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "side": "no",
+      "text": "We live and drive in the Sunset, so we know first‑hand how Sunset Dunes has impacted our neighborhood’s traffic. Our experience couldn’t be more different from what those who push Prop G want you to believe. The difference? Our experience is backed up by data. Here’s the traffic truth: since the park opened, traffic is not more dangerous than it was before, and we’re still getting everywhere we need to go. • Major arteries continue to keep drivers moving. Data shows travel times on key routes like Sunset Blvd and 19th Ave saw nearly no change after Sunset Dunes opened—varying by at most two minutes even at rush hour, with some trips actually faster. Traffic volumes on Sunset Blvd remained below pre-pandemic levels.[1] • Travel times for commuters are as predicted before Prop K: An independent review commissioned by the San Francisco Chronicle found that the travel time for the most impacted trip was four minutes longer at weekday rush hour, with many trips unaffected.[2] • Sunset streets remain safe and calm: A separate independent analysis found that “there’s no evidence of increased street mayhem around the closed Great Highway. In fact, it’s the opposite” and “injury collisions on D4 streets dropped below 2019 and 2024 levels.”[3] Meanwhile, the Great Highway closed up to 65 days each year due to sand accumulation, and the southern end is closing permanently. There is no traffic reason to close Sunset Dunes park. Don’t close a great park to rebuild an unreliable road. [1]: “Outer Sunset Traffic Data Report” [2]: SF Chronicle, “Has Great Highway Closure Made Traffic Worse? Here's What the Data Says” [3]: The Frisc, “Perception vs. Reality: The Great Highway Closure and Sunset District Traffic”",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "We live and drive in the Sunset, so we know first‑hand how Sunset Dunes has impacted our neighborhood’s traffic. Our experience couldn’t be more different from what those who push Prop G want you to believe. The difference? Our experience is backed up by data. Here’s the traffic truth: since the park opened, traffic is not more dangerous than it was before, and we’re still getting everywhere we need to go. • Major arteries continue to keep drivers moving. Data shows travel times on key routes like Sunset Blvd and 19th Ave saw nearly no change after Sunset Dunes opened—varying by at most two minutes even at rush hour, with some trips actually faster. Traffic volumes on Sunset Blvd remained below pre-pandemic levels.[1] • Travel times for commuters are as predicted before Prop K: An independent review commissioned by the San Francisco Chronicle found that the travel time for the most impacted trip was four minutes longer at weekday rush hour, with many trips unaffected.[2] • Sunset streets remain safe and calm: A separate independent analysis found that “there’s no evidence of increased street mayhem around the closed Great Highway. In fact, it’s the opposite” and “injury collisions on D4 streets dropped below 2019 and 2024 levels.”[3] Meanwhile, the Great Highway closed up to 65 days each year due to sand accumulation, and the southern end is closing permanently. There is no traffic reason to close Sunset Dunes park. Don’t close a great park to rebuild an unreliable road.",
+          "locator": "pp. 119-120, Paid Arguments Against (Proposition G), argument 4 of 12, p. 119 right column to p. 120 left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-05",
+      "kind": "paid",
+      "authors": [
+        "Sunset Merchants Association",
+        "Angie Petitt-Taylor, Founder of Sunset Mercantile*",
+        "Black Bird Bookstore",
+        "Andytown Coffee Roasters",
+        "Far Out Gallery",
+        "Maillard’s Smash Burgers",
+        "Two Pitchers Brewing Company",
+        "Sealevel, Sunset Variety",
+        "Smokin’ D’s BBQ SF",
+        "Love Fest Fibers",
+        "Swell Bicycles",
+        "Offix Edge",
+        "Bright Moments",
+        "Milkman Sound, Inc.",
+        "Sunset Momentum Therapy"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "side": "no",
+      "text": "We are small business owners in the Outer Sunset. We sell the coffee, groceries, books, meals, art, and everyday goods that keep this neighborhood running, and we urge you to vote NO on G, the ballot measure to demolish Sunset Dunes park. Closing the park would harm the Sunset’s small businesses, removing tens of thousands of customers from our doorsteps every week. Our retail corridors spent years recovering from the pandemic. Sunset Dunes’s opening has brought more foot traffic to our neighborhood and is an important part of how we’ve gotten back on our feet. Since the park opened: – Andytown Coffee Roasters’s revenue is up 15–20% across its three Outer Sunset locations. – Black Bird Bookstore & Cafe’s sales are up 44%, with book and coffee sales up 60% on Tuesdays, historically its slowest day of the week. Sunset Dunes drew 2 million visits in its first year, with nearly 60 percent on weekdays. These parkgoers are our customers. The measure to close the park will end weekday visits, which means an end to the majority of the customers the park brings us. Instead of spending nearly $10 million destroying Sunset Dunes, we would rather see the city use its resources helping our small business corridors thrive. Many of the amazing cooks, cashiers, and retail workers who keep small businesses running do not get weekends off. If this measure passes, they will never have access to even the weekend road closure. San Franciscans have weighed in on this stretch of coastline again and again. It’s time to move forward together and enjoy our beautiful park. Please join us: NO on G, the ballot measure to close Sunset Dunes park.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "We are small business owners in the Outer Sunset. We sell the coffee, groceries, books, meals, art, and everyday goods that keep this neighborhood running, and we urge you to vote NO on G, the ballot measure to demolish Sunset Dunes park. Closing the park would harm the Sunset’s small businesses, removing tens of thousands of customers from our doorsteps every week. Our retail corridors spent years recovering from the pandemic. Sunset Dunes’s opening has brought more foot traffic to our neighborhood and is an important part of how we’ve gotten back on our feet. Since the park opened: – Andytown Coffee Roasters’s revenue is up 15–20% across its three Outer Sunset locations. – Black Bird Bookstore & Cafe’s sales are up 44%, with book and coffee sales up 60% on Tuesdays, historically its slowest day of the week. Sunset Dunes drew 2 million visits in its first year, with nearly 60 percent on weekdays. These parkgoers are our customers. The measure to close the park will end weekday visits, which means an end to the majority of the customers the park brings us. Instead of spending nearly $10 million destroying Sunset Dunes, we would rather see the city use its resources helping our small business corridors thrive. Many of the amazing cooks, cashiers, and retail workers who keep small businesses running do not get weekends off. If this measure passes, they will never have access to even the weekend road closure. San Franciscans have weighed in on this stretch of coastline again",
+          "locator": "pp. 120-121, Paid Arguments Against (Proposition G), argument 5 of 12, p. 120 left column to p. 120 right column to p. 121 left column (sole-contributor line)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-06",
+      "kind": "paid",
+      "authors": [
+        "Darol Petty",
+        "Joanne Scott"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "We voted against creating Sunset Dunes park. But we changed our mind. Please save the park by voting NO on Prop G.",
+      "side": "no",
+      "text": "When Prop K was on the ballot in 2024, we were skeptical. We said no to a park because we feared a traffic nightmare and had concerns about how the park would be implemented. But 18 months later, we say keep the park. Traffic problems never materialized, and Sunset Dunes park is one of the best things to happen in the over 50 years we’ve lived in the Sunset. As seniors, it can be difficult walking on the sand of Ocean Beach. The park’s promenade, seating, and picnic tables let older people with mobility issues easily stroll with a walker and roll in a wheelchair — while enjoying ocean views. But Proposition G would destroy Sunset Dunes park, removing all park features and cutting off our access. The park isn’t just a weekend destination. It is an everyday neighborhood park for people who work on the weekends, for parents with young kids who need a safe space to play during the week, and for seniors seeking daily exercise and social activity. Some claim to speak for the entire Sunset when they insist that our neighborhood was somehow “destroyed” by this park. But when we look around, we don’t see carmageddon. Traffic is fine, and we can still get everywhere we need to go. We only see our beautiful neighborhood made even better by the addition of a coastal park in our backyards. We were skeptical before, but now we’re sure. Save Sunset Dunes park: vote no on Proposition G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "When Prop K was on the ballot in 2024, we were skeptical. We said no to a park because we feared a traffic nightmare and had concerns about how the park would be implemented. But 18 months later, we say keep the park. Traffic problems never materialized, and Sunset Dunes park is one of the best things to happen in the over 50 years we’ve lived in the Sunset. As seniors, it can be difficult walking on the sand of Ocean Beach. The park’s promenade, seating, and picnic tables let older people with mobility issues easily stroll with a walker and roll in a wheelchair — while enjoying ocean views. But Proposition G would destroy Sunset Dunes park, removing all park features and cutting off our access. The park isn’t just a weekend destination. It is an everyday neighborhood park for people who work on the weekends, for parents with young kids who need a safe space to play during the week, and for seniors seeking daily exercise and social activity. Some claim to speak for the entire Sunset when they insist that our neighborhood was somehow “destroyed” by this park. But when we look around, we don’t see carmageddon. Traffic is fine, and we can still get everywhere we need to go. We only see our beautiful neighborhood made even better by the addition of a coastal park in our backyards. We were skeptical before, but now we’re sure. Save Sunset Dunes park: vote no on Proposition G.",
+          "locator": "p. 121, Paid Arguments Against (Proposition G), argument 6 of 12, left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-07",
+      "kind": "paid",
+      "authors": [
+        "Rachel Norton, Executive Director, California State Parks Foundation*",
+        "Phil Ginsburg, Former General Manager, San Francisco Recreation and Parks*",
+        "Mark Buell, Former President, San Francisco Recreation and Parks Commission*",
+        "Jean Fraser"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "San Francisco’s parks organizations and leaders are united: NO ON G.",
+      "side": "no",
+      "text": "Proposition G closes Sunset Dunes park. Already, Sunset Dunes park is a San Francisco parks success story: the third most‑visited city park with over 2.1 million visits since its 2025 opening. But Proposition G would throw the park away. Proposition G requires the removal of all park features, including children’s play areas, skate and bike parks, fitness equipment, and even seating and picnic tables. And Proposition G would kill nearly 60% of park visits, which occur on weekdays. Memories of Playland at the Beach, Fleishhacker Pool, and the Sutro Baths may be fading, but Sunset Dunes park is bringing joy and recreation back to our oceanfront. Every week, the park sees nearly 40,000 visits: Sunset neighbors and San Franciscans coming to the only place to stroll, roll, run, scoot, bike, and play beside the waves. Today’s park is only the beginning. The ongoing community planning process, open houses, surveys, and events are inviting the city to come together and design the future of Sunset Dunes park together. Proposition X would mean an end to park improvements, an end to park planning, and an end to much‑needed coastal rehabilitation to prepare our coastline for the effects of climate change. We’ve made this choice before: San Francisco would never vote to destroy parks to rebuild the Embarcadero or Central freeways, and we choose the Panhandle over highways. We look back on these decisions thankful to the generations of San Franciscans who made our city a better place. We protect our parks in San Francisco. Join us in voting No on G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G closes Sunset Dunes park. Already, Sunset Dunes park is a San Francisco parks success story: the third most‑visited city park with over 2.1 million visits since its 2025 opening. But Proposition G would throw the park away. Proposition G requires the removal of all park features, including children’s play areas, skate and bike parks, fitness equipment, and even seating and picnic tables. And Proposition G would kill nearly 60% of park visits, which occur on weekdays. Memories of Playland at the Beach, Fleishhacker Pool, and the Sutro Baths may be fading, but Sunset Dunes park is bringing joy and recreation back to our oceanfront. Every week, the park sees nearly 40,000 visits: Sunset neighbors and San Franciscans coming to the only place to stroll, roll, run, scoot, bike, and play beside the waves. Today’s park is only the beginning. The ongoing community planning process, open houses, surveys, and events are inviting the city to come together and design the future of Sunset Dunes park together. Proposition X would mean an end to park improvements, an end to park planning, and an end to much‑needed coastal rehabilitation to prepare our coastline for the effects of climate change. We’ve made this choice before: San Francisco would never vote to destroy parks to rebuild the Embarcadero or Central freeways, and we choose the Panhandle over highways. We look back on these decisions thankful to the generations of San Franciscans who made our city a better place. We",
+          "locator": "p. 121, Paid Arguments Against (Proposition G), argument 7 of 12, left column to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-08",
+      "kind": "paid",
+      "authors": [
+        "Lisa Xu",
+        "Thurmon Carroll, Ill",
+        "Myhanh Tran",
+        "Martha Abbene",
+        "Man Lam",
+        "Darold Petty",
+        "Xiao Xia Cai",
+        "Laurie Werbner",
+        "Ann MacArthur Panek",
+        "Song Hao Huang",
+        "Queenie Li",
+        "Bethany Chidley",
+        "Diao Li",
+        "Paul Peterson"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "On behalf of the many seniors and people with disabilities who use and love Sunset Dunes park, we urge you to vote NO on Proposition G.",
+      "side": "no",
+      "text": "Walking on a sandy beach is difficult or no longer an option for many seniors and people with disabilities, so we rely on Sunset Dunes park to enjoy the calm of a walk or roll by the ocean and community activities like Tai Chi, chair yoga, and free outdoor concerts. Proposition G closes the park, closing our access to the coast. Getting around San Francisco can feel like gambling with our lives. Seniors and people with disabilities are at the highest risk of being hit or killed while simply trying to cross the street. Many of us can’t or don’t drive. And let’s just say that using a wheelchair, mobility scooter, or walker on our city’s bumpy sidewalks isn’t exactly relaxing. And the ocean remains accessible by car using the two miles of Great Highway north of Sunset Dunes park, the same as we did before. Proposition G eliminates accessibility features. Proposition G would mean removing all the benches and seating from Sunset Dunes park. Park benches aren’t just a nicety, they’re essential for seniors and people with disabilities to rest and be able to use the park at all. Please don’t take this safe space away from us as seniors and people with disabilities. Vote NO on Proposition G. Keep our oceanfront accessible to all.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Walking on a sandy beach is difficult or no longer an option for many seniors and people with disabilities, so we rely on Sunset Dunes park to enjoy the calm of a walk or roll by the ocean and community activities like Tai Chi, chair yoga, and free outdoor concerts. Proposition G closes the park, closing our access to the coast. Getting around San Francisco can feel like gambling with our lives. Seniors and people with disabilities are at the highest risk of being hit or killed while simply trying to cross the street. Many of us can’t or don’t drive. And let’s just say that using a wheelchair, mobility scooter, or walker on our city’s bumpy sidewalks isn’t exactly relaxing. And the ocean remains accessible by car using the two miles of Great Highway north of Sunset Dunes park, the same as we did before. Proposition G eliminates accessibility features. Proposition G would mean removing all the benches and seating from Sunset Dunes park. Park benches aren’t just a nicety, they’re essential for seniors and people with disabilities to rest and be able to use the park at all. Please don’t take this safe space away from us as seniors and people with disabilities. Vote NO on Proposition G. Keep our oceanfront accessible to all.",
+          "locator": "pp. 121-122, Paid Arguments Against (Proposition G), argument 8 of 12, p. 121 right column to p. 122 left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-09",
+      "kind": "paid",
+      "authors": [
+        "Jenny Lam, Former Commissioner and President, San Francisco Board of Education*",
+        "Janice Li, BART Director*",
+        "Cynthia Wang, SF Entertainment Commissioner*",
+        "Eric Mar, former District 1 Supervisor*",
+        "Brian Quan, West Side Family Democratic Club Board Member*",
+        "Alexander Wong",
+        "Jessica Ho",
+        "Brian Heung",
+        "Monica Guo",
+        "Ryo Chiba",
+        "Janelle Wong",
+        "Ruvani Jayaweera",
+        "Albert Lam",
+        "Nina Hwang",
+        "Kim Nguyen",
+        "David Osami",
+        "Wade Lee",
+        "Rylon Carpena"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "Asian American residents are voting NO on Proposition G for our families and communities",
+      "side": "no",
+      "text": "Some people who claim to speak for us may have told you that our community opposes Sunset Dunes park. But our community is not a monolith, and many of us use the park every day and count ourselves among its supporters. Our community relies on San Francisco’s parks and open spaces for recreation, fresh air, and community connection. Sunset Dunes park is a tremendous success, bringing people of all ages together on the Westside: • Lunar New Year and Autumn Moon Festival celebrations for families • Everyday pleasures like Tai Chi or a relaxing walk by the ocean • And every Wednesday, community elders gather at Sunset Dunes park for Chinese Community Dance classes taught in Cantonese If Proposition G passes, we will lose this community gathering space. In a city with so many dangerous streets, Sunset Dunes park is now a place for people of all ages, especially seniors and children, to walk without fear. Families come to the park together: grandparents teaming up with grandchildren to spin a 10-ton boulder or just enjoy an after-school snack watching the waves. For many in our community who rely on mobility aids or can no longer walk through uneven sand, they rely on the park to enjoy the simple joy of a walk on the coast. Please vote NO on Proposition G to protect safe space for elders and our community.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Some people who claim to speak for us may have told you that our community opposes Sunset Dunes park. But our community is not a monolith, and many of us use the park every day and count ourselves among its supporters. Our community relies on San Francisco’s parks and open spaces for recreation, fresh air, and community connection. Sunset Dunes park is a tremendous success, bringing people of all ages together on the Westside: • Lunar New Year and Autumn Moon Festival celebrations for families • Everyday pleasures like Tai Chi or a relaxing walk by the ocean • And every Wednesday, community elders gather at Sunset Dunes park for Chinese Community Dance classes taught in Cantonese If Proposition G passes, we will lose this community gathering space. In a city with so many dangerous streets, Sunset Dunes park is now a place for people of all ages, especially seniors and children, to walk without fear. Families come to the park together: grandparents teaming up with grandchildren to spin a 10-ton boulder or just enjoy an after-school snack watching the waves. For many in our community who rely on mobility aids or can no longer walk through uneven sand, they rely on the park to enjoy the simple joy of a walk on the coast. Please vote NO on Proposition G to protect safe space for elders and our community.",
+          "locator": "pp. 122-123, Paid Arguments Against (Proposition G), argument 9 of 12, p. 122 left column to p. 122 right column to p. 123 left column (sole-contributor line)"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-10",
+      "kind": "paid",
+      "authors": [
+        "Walk San Francisco",
+        "Streets for All",
+        "San Francisco Bicycle Coalition"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "side": "no",
+      "text": "Every 15 hours on average, someone suffers serious injuries in a traffic crash and is rushed to San Francisco General Hospital. Some of these victims do not survive: 30 to 40 people are typically killed in traffic crashes every year in our city. The majority of victims are pedestrians, and half of these are older adults. This is why it’s critical to have safe spaces like Sunset Dunes park for people of all ages and abilities to be without the threat of dangerous traffic. The incredible popularity of Sunset Dunes park as a safe space for people proves the demand for a coastal promenade: it is now San Francisco’s third most visited park. Why would we want to get rid of this success? And it makes sense, because only when traffic is removed can everyone access our Pacific coastline. Walking on sand is difficult and limiting for many people, including anyone using a wheelchair or pushing a stroller. Voting NO on Proposition G keeps our coast accessible to everyone, every day of the week. Save Sunset Dunes park. Please vote NO on Proposition G to support safe space for people on our oceanfront.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Every 15 hours on average, someone suffers serious injuries in a traffic crash and is rushed to San Francisco General Hospital. Some of these victims do not survive: 30 to 40 people are typically killed in traffic crashes every year in our city. The majority of victims are pedestrians, and half of these are older adults. This is why it’s critical to have safe spaces like Sunset Dunes park for people of all ages and abilities to be without the threat of dangerous traffic. The incredible popularity of Sunset Dunes park as a safe space for people proves the demand for a coastal promenade: it is now San Francisco’s third most visited park. Why would we want to get rid of this success? And it makes sense, because only when traffic is removed can everyone access our Pacific coastline. Walking on sand is difficult and limiting for many people, including anyone using a wheelchair or pushing a stroller. Voting NO on Proposition G keeps our coast accessible to everyone, every day of the week. Save Sunset Dunes park. Please vote NO on Proposition G to support safe space for people on our oceanfront.",
+          "locator": "p. 123, Paid Arguments Against (Proposition G), argument 10 of 12, left column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-11",
+      "kind": "paid",
+      "authors": [
+        "Sunset Parent Advocates",
+        "SF Working Families Democratic Club",
+        "Sara Barz, President, Westside Family Democratic Club*",
+        "Westside Collective",
+        "Indivisible SF"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "Don’t close Sunset Dunes. Our families and communities need and rely on our coastal park",
+      "side": "no",
+      "text": "When the City asked Sunset residents what the neighborhood needed, the response was overwhelming: more parks and community spaces. Unlike most other neighborhoods, many Sunset residents lived farther than a 10-minute walk from a park before Sunset Dunes. Sunset Dunes responded to that need, delivering much needed open space and joy, and opening up the Sunset’s greatest asset - the coastline - for all to enjoy. The park has already received over 2 million visits, and it continues to thrive with new features and places to play being added. If Proposition G passes, our beloved coastal park will be gone. Proposition G would remove all park features that families from all over San Francisco rely on—the spaces where our kids play, the fitness area where we work out, the skate park we visit after school, even the benches where we watch the sunset together—to make way for traffic. Not only would Proposition G destroy the park, it would also cost taxpayers $10M to rebuild a failing roadway. Why destroy the park? We’re not sure. Not because of traffic; the traffic in the Sunset is about the same as it always was—the studies confirm impacts are limited to 2-4 minutes at rush hour—and we’re still able to drive everywhere we need to go. We already voted on this, and the park has been an incredible success for our families. Let’s move forward, not backward. Protect this essential family space. Vote NO on G.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "When the City asked Sunset residents what the neighborhood needed, the response was overwhelming: more parks and community spaces. Unlike most other neighborhoods, many Sunset residents lived farther than a 10-minute walk from a park before Sunset Dunes. Sunset Dunes responded to that need, delivering much needed open space and joy, and opening up the Sunset’s greatest asset - the coastline - for all to enjoy. The park has already received over 2 million visits, and it continues to thrive with new features and places to play being added. If Proposition G passes, our beloved coastal park will be gone. Proposition G would remove all park features that families from all over San Francisco rely on—the spaces where our kids play, the fitness area where we work out, the skate park we visit after school, even the benches where we watch the sunset together—to make way for traffic. Not only would Proposition G destroy the park, it would also cost taxpayers $10M to rebuild a failing roadway. Why destroy the park? We’re not sure. Not because of traffic; the traffic in the Sunset is about the same as it always was—the studies confirm impacts are limited to 2-4 minutes at rush hour—and we’re still able to drive everywhere we need to go. We already voted on this, and the park has been an incredible success for our families. Let’s move forward, not backward. Protect this essential family space. Vote NO on G.",
+          "locator": "p. 123, Paid Arguments Against (Proposition G), argument 11 of 12, left column to right column"
+        }
+      ]
+    },
+    {
+      "id": "paid-no-12",
+      "kind": "paid",
+      "authors": [
+        "Alice B. Toklas LGBTQ Democratic Club"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: No on G, Save Sunset Dunes Park, Sponsored by Friends of Sunset Dunes. The sole contributor to the true source recipient committee: Friends of Sunset Dunes ($25,000).",
+      "heading": "We endorse No on Prop G to save Sunset Dunes park",
+      "side": "no",
+      "text": "Proposition G destroys San Francisco’s third most visited park and removes all park features — the playground, picnic areas, oceanview seating, and public art — to solve a problem that doesn’t exist. Traffic is fine: crashes in the Sunset are down, and drivers are still getting everywhere they need to go. Why close a park that’s working? Sunset Dunes park is a success story. Join us and vote no to move forward as a city.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G destroys San Francisco’s third most visited park and removes all park features — the playground, picnic areas, oceanview seating, and public art — to solve a problem that doesn’t exist. Traffic is fine: crashes in the Sunset are down, and drivers are still getting everywhere they need to go. Why close a park that’s working? Sunset Dunes park is a success story. Join us and vote no to move forward as a city.",
+          "locator": "p. 123, Paid Arguments Against (Proposition G), argument 12 of 12, right column"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "label": "Digest by the Ballot Simplification Council",
+    "no_means": {
+      "value": "If you vote “no,” you do not want the City to make these changes.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want the City to make these changes.",
+          "locator": "p. 108, Proposition G digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time. The Upper Great Highway will remain open to emergency vehicles, official government vehicles, intra-park transit shuttle buses, and similar authorized vehicles. Proposition G would require the City to obtain all necessary approvals, including any permits required by the California Coastal Act or from other government agencies, to reopen the roadway known as the Upper Great Highway to private vehicles.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition G would close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time. The Upper Great Highway will remain open to emergency vehicles, official government vehicles, intra-park transit shuttle buses, and similar authorized vehicles. Proposition G would require the City to obtain all necessary approvals, including any permits required by the California Coastal Act or from other government agencies, to reopen the roadway known as the Upper Great Highway to private vehicles.",
+          "locator": "p. 108, Proposition G digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "Sunset Dunes Park is an open recreational space that replaced the Great Highway between Lincoln Way and Sloat Boulevard (Upper Great Highway) and is closed to private vehicles at all times. Sunset Dunes Park (former Upper Great Highway) is open to emergency vehicles, official government vehicles, intra-park transit shuttle buses, and similar authorized vehicles.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Sunset Dunes Park is an open recreational space that replaced the Great Highway between Lincoln Way and Sloat Boulevard (Upper Great Highway) and is closed to private vehicles at all times. Sunset Dunes Park (former Upper Great Highway) is open to emergency vehicles, official government vehicles, intra-park transit shuttle buses, and similar authorized vehicles.",
+          "locator": "p. 108, Proposition G digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time.",
+          "locator": "p. 108, Proposition G digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [
+      {
+        "id": "annual-operating-costs",
+        "amount": {
+          "high_usd": 1900000,
+          "low_usd": 500000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Annual cost increases of $500,000 to $1.9 million for signal maintenance, roadway maintenance and replacement, and sand removal and dune reshaping.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Depending on future operational decisions made by City departments, the proposed Ordinance could result in annual cost increases ranging from $500,000 to $1.9 million.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "coastal-development-permit-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "text": "A required coastal development permit may bring additional requirements that may increase costs at a level that cannot be determined.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Applying for the coastal development permit may prompt additional requirements, including studies or permit conditions, that may increase the cost of government, although at a level that cannot be determined at this time.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "depends-on-budget-decisions",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "The cost depends on budget decisions by the Mayor and Board of Supervisors and operational decisions by departments.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "is dependent on decisions that the Mayor and Board of Supervisors make through the budget process and operational decisions made by departments, as an ordinance cannot bind future Mayors and Boards of Supervisors to provide funding for this or any other purpose.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "ocean-beach-project-redesign-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "text": "Signals at Upper Great Highway and Sloat Boulevard would change the Ocean Beach Climate Change Adaptation Project and could add redesign costs; no amount is given.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Installation of signals at the intersection of the Upper Great Highway and Sloat Boulevard would result in changes to the Ocean Beach Climate Change Adaptation Project, which could result in additional project costs for redesigning elements of the planned plaza.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "one-time-capital-costs",
+        "amount": {
+          "high_usd": 9800000,
+          "low_usd": 9800000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "one_time",
+        "text": "One-time capital project costs of about $9.8 million (removing park elements, restoring roadway, traffic signals at 8 intersections, restriping and signage).",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Additionally, the proposed Ordinance would likely result in increased, one-time capital project costs of approximately $9.8 million.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      },
+      {
+        "id": "weekday-park-staffing-reduction",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Decreased weekday park staffing and maintenance needs would reduce costs; no savings amount is given.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The proposed Ordinance would also result in decreased staffing needs and maintenance of Sunset Dunes Park as a park during weekdays, reducing costs and freeing staff to work on other functions.",
+            "locator": "p. 109, Controller's Statement on \"G\""
+          }
+        ]
+      }
+    ],
+    "statement_by": "Deputy City Controller ChiaYu Ma",
+    "summary": {
+      "summary": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
+          "locator": "p. 108, Controller's Statement on \"G\", opinion paragraph"
+        },
+        {
+          "source": "src:api-sf-gov-d36b7ad9b8",
+          "quote": "Should the proposed Ordinance be approved by the voters and the roadway is open to private vehicles, in my opinion, it would significantly increase the cost of government by approximately $9.8 million in one-time capital costs and by approximately $500,000 to $1.9 million annually.",
+          "locator": "p. 1, letter dated August 10, 2026"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "ordinance",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "The proposed initiative ordinance would amend the Park Code to restrict private vehicles on the Upper Great Highway between Lincoln Way and Sloat Boulevard from Friday at 6:00 PM until Monday at 4:00 AM and on holidays.",
+        "locator": "p. 109, Controller's Statement on \"G\""
+      }
+    ]
+  },
+  "number": "G",
+  "official_title": {
+    "value": "Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park",
+        "locator": "p. 108, Proposition G title"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 23, 2026, the Department of Elections certified that the initiative petition calling for Proposition G to be placed on the ballot had a sufficient number of valid signatures to qualify the measure for the ballot.",
+        "locator": "p. 109, How \"G\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City close Sunset Dunes Park from Monday at 4:00 a.m. through Friday at 6:00 p.m., unless a holiday falls on a weekday, in order to reopen the roadway known as the Upper Great Highway to private vehicles during that time?",
+        "locator": "p. 108, Proposition G ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 108, Proposition G ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

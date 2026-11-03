@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-38",
+  "items": [
+    {
+      "person": "person:hilda-solis",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Axios https://www.axios.com/2026/03/25/rep-linda-sanchez-primary-hilda-solis-monica-sanchez [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:hilda-solis",
+      "label": "Party",
+      "text": "Democratic (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Axios https://www.axios.com/2026/03/25/rep-linda-sanchez-primary-hilda-solis-monica-sanchez [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:hilda-solis",
+      "label": "Incumbent",
+      "text": "No (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Axios https://www.axios.com/2026/03/25/rep-linda-sanchez-primary-hilda-solis-monica-sanchez [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:hilda-solis",
+      "label": "Offices held",
+      "text": "Los Angeles County Supervisor; her website posted that she would run for Congress if the new congressional maps were approved. (sources: Hilda Solis (official website) https://www.hildasolis.com/?p=2419 [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:pedro-antonio-casas",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Axios https://www.axios.com/2026/03/25/rep-linda-sanchez-primary-hilda-solis-monica-sanchez [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:pedro-antonio-casas",
+      "label": "Party",
+      "text": "Republican (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Axios https://www.axios.com/2026/03/25/rep-linda-sanchez-primary-hilda-solis-monica-sanchez [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:pedro-antonio-casas",
+      "label": "Incumbent",
+      "text": "No (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Axios https://www.axios.com/2026/03/25/rep-linda-sanchez-primary-hilda-solis-monica-sanchez [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

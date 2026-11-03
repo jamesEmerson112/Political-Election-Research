@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-6",
+  "candidates": [
+    {
+      "person": "person:kevin-kiley",
+      "name": "Kevin Kiley"
+    },
+    {
+      "person": "person:richard-pan",
+      "name": "Richard Pan"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:us-representative-california",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Kiley currently represents CA-3 (pre-Prop 50 lines) and is running in the new CA-6, so incumbent=false. Primary: Kiley 24.3%, Pan 23.2% (SoS Statement of Vote via search summary); Pan narrowly edged Stansfield for second. Pan's ballot designation was not reproduced in any search summary (one only described it vaguely as a doctor or health-advocate label), so it is null. Verify it on the certified list. A contact-list snippet showed Kiley with the designation Mother/Farmer; this is almost certainly a PDF parsing artifact, and the certified list shows United States Representative. Kiley's facts rest on secondary sources only: the web search budget ran out before a house.gov or bioguide search could be made, so his year of entering Congress and his birth details are not verified. A Wikipedia snippet gave the primary date as June 9, 2026, which is an error (it was June 2). A CalMatters article from October 2025 described Pan as running in CA-3, before the candidates chose their districts."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

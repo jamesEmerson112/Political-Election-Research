@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../../../../schemas/positions.schema.json",
+  "actor": "person:avery-sample",
+  "positions": [
+    {
+      "subject": "contest:2030-zz-general/prop-1",
+      "stance": "support",
+      "as_of": "2030-10-10",
+      "cycle": 2030,
+      "evidence_type": "debate",
+      "summary": "Said in the debate that they will vote yes on Proposition 1.",
+      "citations": [
+        {
+          "source": "src:video-example-com-95b67e7735",
+          "quote": "I'm voting yes on Prop 1.",
+          "locator": "00:41:10"
+        }
+      ]
+    },
+    {
+      "subject": "q:widgets/subsidize-widgets",
+      "stance": "support",
+      "as_of": "2030-09-20",
+      "cycle": 2030,
+      "evidence_type": "statement",
+      "points": [
+        {
+          "facet": "grant-program",
+          "text": "Proposes state grants for widget manufacturing.",
+          "citations": [
+            {
+              "source": "src:news-example-com-e70a5fe80d",
+              "quote": "\"The state should invest in widgets,\" Sample said."
+            }
+          ]
+        }
+      ],
+      "summary": "Said the state should fund widget manufacturing grants.",
+      "citations": [
+        {
+          "source": "src:news-example-com-e70a5fe80d",
+          "quote": "\"The state should invest in widgets,\" Sample said."
+        }
+      ]
+    }
+  ]
+}

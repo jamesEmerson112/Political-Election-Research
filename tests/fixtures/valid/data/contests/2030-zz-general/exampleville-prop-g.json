@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/exampleville-prop-g",
+  "kind": "measure",
+  "election": "election:2030-zz-general",
+  "name": "Exampleville Proposition G",
+  "digest": {
+    "no_means": {
+      "value": "You do not want this reserve.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"NO\" Vote Means: You do not want this reserve."
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "You want at least $5 million a year of General Fund spending reserved for libraries.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "A \"YES\" Vote Means: You want at least $5 million a year of General Fund spending reserved for libraries."
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2030-08-20",
+    "effects": [
+      {
+        "id": "library-reserve",
+        "amount": {
+          "high_usd": 5000000,
+          "low_usd": 5000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "set_aside",
+        "per": "year",
+        "start_fy": "2031-32",
+        "text": "Reserves at least $5 million a year of existing General Fund spending for libraries; total spending doesn't change.",
+        "citations": [
+          {
+            "source": "src:elections-exampleville-example-gov-10650ea718",
+            "quote": "Reserves at least $5 million a year of existing General Fund spending for libraries; total spending doesn't change."
+          }
+        ]
+      }
+    ],
+    "statement_by": "Exampleville Controller",
+    "summary": {
+      "summary": "Proposition G would not change total spending; it would reserve at least $5 million a year of existing General Fund spending for libraries.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Proposition G would not change total spending; it would reserve at least $5 million a year of existing General Fund spending for libraries."
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City of Exampleville",
+    "level": "city"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition G: Library Minimum"
+      }
+    ]
+  },
+  "number": "G",
+  "official_title": {
+    "value": "Library Minimum",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition G: Library Minimum"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "The City Council voted 7 to 0 to place Proposition G on the ballot."
+      }
+    ]
+  },
+  "summary": {
+    "value": "Reserves part of existing General Fund spending for libraries.",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Shall the City reserve at least $5 million a year of its General Fund for libraries?"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:elections-exampleville-example-gov-10650ea718",
+        "quote": "Proposition G requires a majority of the votes cast to pass."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

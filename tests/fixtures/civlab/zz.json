@@ -1,0 +1,98 @@
+{
+  "pageProps": {
+    "gov": "zz",
+    "data": {
+      "nodes": {
+        "zz-exampleville-city-council": {
+          "type": "elected",
+          "id": "zz-exampleville-city-council",
+          "name": "Exampleville City Council",
+          "aliases": ["The Exampleville City Council", "the Council"],
+          "description": "The Exampleville City Council adopts ordinances under Art. II of the Exampleville Charter. It adopts the annual budget, oversees city departments, and confirms appointments to the U.S. Route 9 Corridor Board. Members are elected to four-year terms. The Council holds the authority to override mayoral vetoes.",
+          "seatsCount": 9,
+          "legalSourceUrl": "https://exampleville.example.gov/charter/article-2",
+          "officialUrl": "https://exampleville.example.gov/council",
+          "head": "zz-council-president"
+        },
+        "zz-electorate": { "type": "constituency", "id": "zz-electorate", "name": "People of Exampleville" },
+        "zz-council-president": {
+          "type": "dept_head",
+          "id": "zz-council-president",
+          "name": "President of the Council of The Exampleville City Council",
+          "headOf": "zz-exampleville-city-council",
+          "seatsCount": 1
+        },
+        "zz-mayor": { "type": "elected", "id": "zz-mayor", "name": "Mayor of Exampleville", "seatsCount": 1 },
+        "zz-planning-commission": { "type": "commission", "id": "zz-planning-commission", "name": "Planning Commission" },
+        "zz-parks-board": { "type": "commission", "id": "zz-parks-board", "name": "Parks and Trails Board" },
+        "zz-council-clerk": { "type": "dept_head", "id": "zz-council-clerk", "name": "Clerk of the Council" },
+        "zz-department-of-widgets": { "type": "department", "id": "zz-department-of-widgets", "name": "Department of Widgets" },
+        "zz-youth-commission": { "type": "advisory", "id": "zz-youth-commission", "name": "Youth Commission" },
+        "zz-widget-advisory-committee": { "type": "advisory", "id": "zz-widget-advisory-committee", "name": "Widget Advisory Committee" }
+      },
+      "edges": {
+        "e01": { "id": "e01", "type": "elects", "fromId": "zz-electorate", "toId": "zz-exampleville-city-council", "metadata": null, "seatsAppointed": 9 },
+        "e02": { "id": "e02", "type": "elects", "fromId": "zz-electorate", "toId": "zz-mayor", "metadata": null, "seatsAppointed": 1 },
+        "e03": { "id": "e03", "type": "elects", "fromId": "zz-exampleville-city-council", "toId": "zz-council-president", "metadata": null, "seatsAppointed": 1 },
+        "e04": { "id": "e04", "type": "office", "fromId": "zz-exampleville-city-council", "toId": "zz-council-president", "metadata": {}, "seatsAppointed": 0 },
+        "e05": {
+          "id": "e05",
+          "type": "appoints",
+          "fromId": "zz-exampleville-city-council",
+          "toId": "zz-planning-commission",
+          "metadata": { "commission": "Planning Commission", "seat_number": 1 },
+          "seatsAppointed": 3
+        },
+        "e06": {
+          "id": "e06",
+          "type": "appoints",
+          "fromId": "zz-exampleville-city-council",
+          "toId": "zz-library-board-member-1",
+          "metadata": { "advisory_entity": "Library Board", "seat_number": 1 },
+          "seatsAppointed": 1
+        },
+        "e07": {
+          "id": "e07",
+          "type": "appoints",
+          "fromId": "zz-exampleville-city-council",
+          "toId": "zz-library-board-member-2",
+          "metadata": { "advisory_entity": "Library Board", "seat_number": 2 },
+          "seatsAppointed": 1
+        },
+        "e08": { "id": "e08", "type": "appoints", "fromId": "zz-exampleville-city-council", "toId": "zz-parks-board-member-4", "metadata": null, "seatsAppointed": 2 },
+        "e09": { "id": "e09", "type": "appoints", "fromId": "zz-exampleville-city-council", "toId": "zz-council-clerk", "metadata": {}, "seatsAppointed": 1 },
+        "e10": {
+          "id": "e10",
+          "type": "appoints",
+          "fromId": "zz-mayor",
+          "toId": "zz-planning-commission",
+          "metadata": { "commission": "Planning Commission", "seat_number": 4 },
+          "seatsAppointed": 4
+        },
+        "e11": { "id": "e11", "type": "oversees", "fromId": "zz-exampleville-city-council", "toId": "zz-department-of-widgets", "metadata": null, "seatsAppointed": 0 },
+        "e12": {
+          "id": "e12",
+          "type": "advises",
+          "fromId": "zz-youth-commission",
+          "toId": "zz-exampleville-city-council",
+          "metadata": { "advisory_name": "Youth Commission" },
+          "seatsAppointed": 0
+        },
+        "e13": {
+          "id": "e13",
+          "type": "advises",
+          "fromId": "zz-widget-advisory-committee",
+          "toId": "zz-exampleville-city-council",
+          "metadata": { "source": "manual" },
+          "seatsAppointed": 0
+        },
+        "e14": { "id": "e14", "type": "advises", "fromId": "zz-widget-advisory-committee", "toId": "zz-mayor", "metadata": null, "seatsAppointed": 0 }
+      },
+      "budget": {
+        "totalSpendingBudget": 123456789,
+        "departments": { "WID": { "code": "WID", "name": "Department of Widgets", "currentBudget": { "fiscalYear": 2031, "totalSpending": 2000000 } } }
+      }
+    }
+  },
+  "__N_SSG": true
+}

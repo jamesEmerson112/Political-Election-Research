@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "media-api-sf-gov-0ac550e6bc",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-06-09",
+  "publisher": "City and County of San Francisco, Office of the Controller, Budget and Analysis Division",
+  "title": "FY 2026-27 and FY 2027-28 Revenue Letter: Controller's Discussion of the Mayor's Proposed Budget",
+  "url": "https://media.api.sf.gov/documents/FY26-27_and_FY27-28_Revenue_Letter_-_6.9.26.pdf",
+  "notes": "Opened and quoted by a research agent on 2026-11-03 (sf-measures-fanout workflow); quotes checked against the document text."
+}

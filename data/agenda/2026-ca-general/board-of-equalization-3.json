@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/board-of-equalization-3",
+  "candidates": [
+    {
+      "person": "person:mike-gipson",
+      "name": "Mike Gipson"
+    },
+    {
+      "person": "person:samuel-p-sukaton",
+      "name": "Samuel P. Sukaton"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:california-board-of-equalization-member",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Both candidates are Democrats. Their designations matched across the general certified list, the general BOE notice to candidates and the primary certified list. Open seat: per Ballotpedia, incumbent Tony Vazquez ran for Treasurer. The district covers Los Angeles County. ABC7 primary results: Gipson 516,324 (28%), Sukaton 337,313 (18%); Rudy Bermudez (D, Taxpayer Advisor) also ran in the primary. One search summary said Gipson was first elected in 2014 and represents Assembly District 65, but it did not identify which page that came from, so the detail is left out. Gap: the search budget ran out before office dates, education or earlier career could be researched for either candidate."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

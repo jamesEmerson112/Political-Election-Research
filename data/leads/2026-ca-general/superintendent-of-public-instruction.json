@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/superintendent-of-public-instruction",
+  "items": [
+    {
+      "person": "person:sonja-shaw",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; Fresno County Clerk/Registrar of Voters https://www2.fresnocountyca.gov/2850/post/2026Nov/officesupforelectioncandidatelist.pdf [search summary, primary]; EdSource https://edsource.org/2026/shaw-barrera-emerge-as-frontrunners-in-california-state-superintendent-race/759722 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sonja-shaw",
+      "label": "Ballot designation",
+      "text": "\"School District President\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; Fresno County Clerk/Registrar of Voters https://www2.fresnocountyca.gov/2850/post/2026Nov/officesupforelectioncandidatelist.pdf [search summary, primary]; EdSource https://edsource.org/2026/shaw-barrera-emerge-as-frontrunners-in-california-state-superintendent-race/759722 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sonja-shaw",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; Fresno County Clerk/Registrar of Voters https://www2.fresnocountyca.gov/2850/post/2026Nov/officesupforelectioncandidatelist.pdf [search summary, primary]; EdSource https://edsource.org/2026/shaw-barrera-emerge-as-frontrunners-in-california-state-superintendent-race/759722 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sonja-shaw",
+      "label": "Current office",
+      "text": "President, Chino Valley Unified School District Board of Education. (sources: EdSource https://edsource.org/2026/shaw-barrera-emerge-as-frontrunners-in-california-state-superintendent-race/759722 [search summary, secondary]; KVCR https://kvcr.org/news/local/2026-06-03/shaw-wins-state-superintendent-primary [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:sonja-shaw",
+      "label": "Party registration",
+      "text": "Described in news coverage as a Republican; the office is nonpartisan and no party appears on the ballot. (sources: LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-superintendent-of-public-instruction [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:richard-barrera",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; Fresno County Clerk/Registrar of Voters https://www2.fresnocountyca.gov/2850/post/2026Nov/officesupforelectioncandidatelist.pdf [search summary, primary]; EdSource https://edsource.org/2026/shaw-barrera-emerge-as-frontrunners-in-california-state-superintendent-race/759722 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:richard-barrera",
+      "label": "Ballot designation",
+      "text": "\"State Superintendent Advisor\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; Fresno County Clerk/Registrar of Voters https://www2.fresnocountyca.gov/2850/post/2026Nov/officesupforelectioncandidatelist.pdf [search summary, primary]; EdSource https://edsource.org/2026/shaw-barrera-emerge-as-frontrunners-in-california-state-superintendent-race/759722 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:richard-barrera",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; Fresno County Clerk/Registrar of Voters https://www2.fresnocountyca.gov/2850/post/2026Nov/officesupforelectioncandidatelist.pdf [search summary, primary]; EdSource https://edsource.org/2026/shaw-barrera-emerge-as-frontrunners-in-california-state-superintendent-race/759722 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:richard-barrera",
+      "label": "Current office",
+      "text": "President, San Diego Unified School District Board of Education. (sources: EdSource https://edsource.org/2026/shaw-barrera-emerge-as-frontrunners-in-california-state-superintendent-race/759722 [search summary, secondary]; Times of San Diego https://timesofsandiego.com/education/2026/06/03/san-diego-barrera-second-race-superintendent-public-instruction/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:richard-barrera",
+      "label": "Party registration",
+      "text": "Described in news coverage as a Democrat; the office is nonpartisan and no party appears on the ballot. (sources: LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-superintendent-of-public-instruction [search summary, secondary])",
+      "topic": "profile.party_registration"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

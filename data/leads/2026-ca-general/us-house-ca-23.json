@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-23",
+  "items": [
+    {
+      "person": "person:jay-obernolte",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/23 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-23-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jay-obernolte",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/23 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-23-results [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jay-obernolte",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/23 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-23-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jay-obernolte",
+      "label": "U.S. House",
+      "text": "U.S. Representative since January 3, 2021; first sworn in for California's 8th District; currently represents the 23rd District. (sources: Office of Rep. Jay Obernolte (house.gov) https://obernolte.house.gov/media/press-releases/jay-obernolte-officially-sworn-representative-californias-8th-district [search summary, primary]; The Conference Board https://www.conference-board.org/bio/jay-obernolte [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jay-obernolte",
+      "label": "State and local offices",
+      "text": "Member of the California State Assembly, 2014 to 2020; member of the Big Bear Lake City Council, 2010 to 2014, including service as mayor (one source gives 2012 to 2014); first elected to the Big Bear City Airport Board in 2005. (sources: Cook Political Report https://www.cookpolitical.com/house/race/239811 [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Jay_Obernolte [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jay-obernolte",
+      "label": "Business",
+      "text": "Founded FarSight Studios, a video game developer and publisher, in 1990. (sources: Wikipedia https://en.wikipedia.org/wiki/Jay_Obernolte [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:jay-obernolte",
+      "label": "Education",
+      "text": "B.S., California Institute of Technology; M.S., University of California, Los Angeles; D.P.A., California Baptist University. (sources: Wikipedia https://en.wikipedia.org/wiki/Jay_Obernolte [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:tessa-lynn-hodge",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/23 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-23-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tessa-lynn-hodge",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/23 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-23-results [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:tessa-lynn-hodge",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/23 [search summary, primary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-us-house-district-23-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tessa-lynn-hodge",
+      "label": "Occupation",
+      "text": "Licensed clinical social worker and businesswoman; lifelong resident of the district per her campaign. (sources: Tessa Hodge campaign https://tessaforca.com/about [search summary, primary]; Community Forward Redlands https://www.communityforwardredlands.com/meet-the-candidates-running-in-californias-23rd-congressional-district/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

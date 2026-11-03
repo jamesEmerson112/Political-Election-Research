@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.avery-sample--ca-2029-ab-123--publicly_supported--2029-06-01",
+  "type": "legislative_action",
+  "person": "person:avery-sample",
+  "action": "publicly_supported",
+  "bill": "ca-2029-ab-123",
+  "cycle": 2030,
+  "date": "2029-06-01",
+  "citations": [
+    {
+      "source": "src:times-example-net-b99fc27a1d",
+      "quote": "Sample testified in support of AB 123 in June 2029."
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

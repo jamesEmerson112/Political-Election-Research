@@ -1,0 +1,1 @@
+{"description":"A filing citation without a schedule/line locator.","expect":["LOCATOR_REQUIRED"],"patches":[{"file":"relationships/contribution/contribution--person.pat-donor--org.avery-sample-for-governor-2030--2030--primary--monetary.json","remove":["/citations/0/locator"]}]}

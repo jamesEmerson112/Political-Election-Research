@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/office.schema.json",
+  "id": "california-attorney-general",
+  "name": "Attorney General of California",
+  "body": "California Department of Justice",
+  "budget": {
+    "value": 1317739000,
+    "basis": "2025-26 (proposed in the January 2025 Governor's Budget) · Department of Justice's own expenditures, all funds, about 6,185 positions; Governor's Budget proposal, not the enacted amount",
+    "citations": [
+      {
+        "source": "src:ebudget-ca-gov-b32a7ac05e",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "constituents": {
+    "value": 39538223,
+    "as_of": "2020",
+    "basis": "2020 Census resident population of California (whole state)",
+    "citations": [
+      {
+        "source": "src:census-gov-6a5736c7c5",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "jurisdiction": "State of California",
+  "level": "state",
+  "powers": {
+    "value": "Leads the California Department of Justice as the state's chief lawyer and law enforcement officer.",
+    "citations": [
+      {
+        "source": "src:calbudgetcenter-org-401729cda8",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "salary": {
+    "value": 213617,
+    "as_of": "2025-12-01",
+    "citations": [
+      {
+        "source": "src:calhr-ca-gov-23db8b4c75",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "seats": {
+    "value": 1,
+    "as_of": "2026-11-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_limit": {
+    "value": "Two four-year terms",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "term_years": {
+    "value": 4,
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-55507d21df",
+        "unverified": {
+          "by": "research agent",
+          "date": "2026-11-03",
+          "method": "search summary"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-03",
+  "notes": "The budget comes from a search snippet of the ebudget table ('Totals, positions and expenditures', in thousands: 2023-24 $1,169,778; 2024-25 $1,312,769; 2025-26 $1,317,739). The enacted 2026-27 figure was not found. graph.civlab.org: not reachable."
+}

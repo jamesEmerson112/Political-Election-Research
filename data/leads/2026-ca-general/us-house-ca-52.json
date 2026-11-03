@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-52",
+  "items": [
+    {
+      "person": "person:juan-vargas",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Associated Press (via Enid News & Eagle) https://www.enidnews.com/region/republican-jeff-belle-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_bfa4f309-0f50-5111-a648-afd2f9f276b6.html [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-juan-vargas-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_9e218f92-7799-5d13-9bf2-a65369e05f46.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:juan-vargas",
+      "label": "Party",
+      "text": "Democratic (sources: Associated Press (via Enid News & Eagle) https://www.enidnews.com/region/republican-jeff-belle-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_bfa4f309-0f50-5111-a648-afd2f9f276b6.html [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-juan-vargas-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_9e218f92-7799-5d13-9bf2-a65369e05f46.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:juan-vargas",
+      "label": "Incumbent",
+      "text": "Yes (sources: Associated Press (via Enid News & Eagle) https://www.enidnews.com/region/republican-jeff-belle-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_bfa4f309-0f50-5111-a648-afd2f9f276b6.html [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-juan-vargas-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_9e218f92-7799-5d13-9bf2-a65369e05f46.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:juan-vargas",
+      "label": "Current office",
+      "text": "U.S. Representative for California's 52nd Congressional District; AP called his 2024 re-election in the 52nd. (sources: Associated Press (via KAAL) https://kaaltv.com/?p=699535 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Juan_Vargas [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jeff-belle",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Associated Press (via Enid News & Eagle) https://www.enidnews.com/region/republican-jeff-belle-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_bfa4f309-0f50-5111-a648-afd2f9f276b6.html [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-juan-vargas-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_9e218f92-7799-5d13-9bf2-a65369e05f46.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeff-belle",
+      "label": "Party",
+      "text": "Republican (sources: Associated Press (via Enid News & Eagle) https://www.enidnews.com/region/republican-jeff-belle-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_bfa4f309-0f50-5111-a648-afd2f9f276b6.html [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-juan-vargas-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_9e218f92-7799-5d13-9bf2-a65369e05f46.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jeff-belle",
+      "label": "Incumbent",
+      "text": "No (sources: Associated Press (via Enid News & Eagle) https://www.enidnews.com/region/republican-jeff-belle-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_bfa4f309-0f50-5111-a648-afd2f9f276b6.html [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-juan-vargas-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_9e218f92-7799-5d13-9bf2-a65369e05f46.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeff-belle",
+      "label": "2026 primary result",
+      "text": "AP reported he advanced from the June 2, 2026 primary as the Republican candidate. (sources: Associated Press (via Enid News & Eagle) https://www.enidnews.com/region/republican-jeff-belle-advances-to-the-general-election-for-u-s-house-in-californias-52nd/article_bfa4f309-0f50-5111-a648-afd2f9f276b6.html [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

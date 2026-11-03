@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calmatters-org-f744f4cfcc",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2023-06-13",
+  "publisher": "CalMatters",
+  "title": "Is destination in sight for California public transit?",
+  "url": "https://calmatters.org/newsletters/whatmatters/2023/06/california-transit-budget/",
+  "notes": "Newsletter text read on 2026-11-03 through the site's WordPress REST API (post 303668). Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

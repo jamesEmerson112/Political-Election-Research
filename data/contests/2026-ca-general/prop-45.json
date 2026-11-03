@@ -1,0 +1,278 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/prop-45",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "Proposition 45",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Ann-Louise Kuhns, President California Children’s Hospital Association",
+        "Jennifer Capitolo, Executive Director California Water Association",
+        "Jenna Abbott, Executive Director California Council on Affordable Housing"
+      ],
+      "heading": "LENGTHY DELAYS AND RED TAPE ARE BLOCKING ESSENTIAL PROJECTS & DRIVING UP OUR COST OF LIVING.",
+      "side": "yes",
+      "text": "Families cannot afford to live in California because we are failing to deliver the basics. California’s outdated system for approving essential housing, water, clean energy, roads, schools, hospitals, and wildfire prevention projects is too slow, too bureaucratic, and too costly—driving up the cost of living for everyone. Endless delays, red tape, and frivolous lawsuits make life more expensive and block the projects Californians need—driving up costs for housing, electricity, and water; wasting taxpayer dollars; worsening wildfire risk; increasing traffic; overcrowding schools; and delaying hospital and infrastructure upgrades. PROP. 45 LOWERS OUR HIGH COST OF LIVING BY MAKING IT FASTER & LESS EXPENSIVE TO BUILD ESSENTIAL PROJECTS. Prop. 45 streamlines approvals by setting enforceable timelines for project approvals; requires courts and government agencies to base decisions on the laws and regulations in place when the project application is submitted; and creates a faster, more predictable process for legal challenges while reducing frivolous lawsuits. PROP. 45 STREAMLINES CALIFORNIA’S MOST-PRESSING ESSENTIAL PROJECTS, INCLUDING: • Water quality and supply projects • Hospitals and healthcare facilities • Housing, including homes and apartments • Wildfire prevention • Schools and classrooms • Roads, bridges and transit • Clean energy and electric grid reliability infrastructure PROP. 45 WILL: • REDUCE THE COST OF HOUSING. Permitting delays add more than $75,000 to the cost of a new home. Prop. 45 will help lower rents and mortgages and save families tens of thousands of dollars on a home purchase. • LOWER ELECTRICITY COSTS. Delays in building clean energy and electric grid infrastructure drive up electricity costs for working families. Prop. 45 helps lower electricity costs. • PROTECT TAXPAYERS. Lengthy delays drive massive cost overruns on public projects—roads, schools, hospitals, water systems, and wildfire prevention—costing taxpayers billions more. Prop. 45 cuts costly delays, reduces costs, and helps keep projects on time and on budget. • CREATE GOOD-PAYING JOBS AND STRENGTHEN OUR ECONOMY. Prop. 45 will create tens of thousands of good-paying jobs and billions in economic activity. PROP. 45 MAINTAINS CALIFORNIA’S STRONGEST-IN-THE-NATION ENVIRONMENTAL PROTECTIONS. California should not have to choose between protecting the environment and building the essential projects we need. Under Prop. 45, projects must comply with all of California strong environmental laws protecting our air, water, wildlife, and health. Prop. 45 does not exempt a single project from environmental review. PROP. 45 PROTECTS COMMUNITY INPUT AND LOCAL DECISION MAKING. Under Prop. 45, cities and counties retain full authority to approve or deny projects, and residents keep a meaningful voice in decisions affecting their communities. AFFORDABLE HOUSING ADVOCATES, HEALTHCARE PROFESSIONALS, EDUCATORS, WATER PROVIDERS, CLEAN ENERGY LEADERS AND CIVIL RIGHTS LEADERS SUPPORT PROP. 45. Prop. 45 is supported by a broad coalition of organizations, including: • American Clean Power—California • California League of United Latin American Citizens (LULAC) • NAACP California/Hawaii State Conference • California Taxpayers Association • Environmental Policy Innovation Center YES ON PROP. 45 TO BUILD A MORE AFFORDABLE CALIFORNIA. Every year of delay means Californians wait longer and pay more for the essential projects we need. It’s time to cut red tape, protect our environment and build the projects California needs to make life more affordable. VOTE YES ON PROP. 45. YESonProp45.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Families cannot afford to live in California because we are failing to deliver the basics. California’s outdated system for approving essential housing, water, clean energy, roads, schools, hospitals, and wildfire prevention projects is too slow, too bureaucratic, and too costly—driving up the cost of living for everyone. Endless delays, red tape, and frivolous lawsuits make life more expensive and block the projects Californians need—driving up costs for housing, electricity, and water; wasting taxpayer dollars; worsening wildfire risk; increasing traffic; overcrowding schools; and delaying hospital and infrastructure upgrades. PROP. 45 LOWERS OUR HIGH COST OF LIVING BY MAKING IT FASTER & LESS EXPENSIVE TO BUILD ESSENTIAL PROJECTS. Prop. 45 streamlines approvals by setting enforceable timelines for project approvals; requires courts and government agencies to base decisions on the laws and regulations in place when the project application is submitted; and creates a faster, more predictable process for legal challenges while reducing frivolous lawsuits. PROP. 45 STREAMLINES CALIFORNIA’S MOST-PRESSING ESSENTIAL PROJECTS, INCLUDING: • Water quality and supply projects • Hospitals and healthcare facilities • Housing, including homes and apartments • Wildfire prevention • Schools and classrooms • Roads, bridges and transit • Clean energy and electric grid reliability infrastructure PROP. 45 WILL: • REDUCE THE COST OF HOUSING. Permitting delays add more than $75,000 to the cost",
+          "locator": "p. 78, Argument in Favor of Proposition 45"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Chris Tarver, R.N., President American Nurses Association, CA",
+        "Vanessa Forsythe, RN California Nurses for Environmental Health and Justice",
+        "Martha Arguello, Executive Director Physicians for Social Responsibility, LA"
+      ],
+      "heading": "PROPOSITION 45 WON’T LOWER YOUR COSTS.",
+      "side": "no",
+      "text": "It doesn’t require a single project to lower your rent, your mortgage, or your utility bills. 45’s corporate funders profit while you bear the cost of their pollution. PROP. 45 DOESN’T DELIVER AN AFFORDABLE CALIFORNIA. IT LIMITS ENVIRONMENTAL AND PUBLIC REVIEW AND RISKS PUBLIC HEALTH. Prop. 45 could have been about building what California needs. It isn’t. Funded by gas and electric utilities and corporate PACs, Prop. 45 cuts their costs, not yours. Prop. 45 flips California law to protect their projects, harming public health and our air and water. PROP. 45 PUTS YOUR HEALTH AT RISK AND STICKS YOU WITH THE BILL. Weaker environmental review means more pollution near homes and schools, more asthma and more emergency-room visits. When polluters don’t clean up, taxpayers and ratepayers pay more to cover the costs. PROP. 45 TAKES AWAY PUBLIC INPUT. It limits the environmental review of new projects and your right to provide input and be heard. 45 even gives developers new rights to challenge cities and counties, while making it more difficult for project opponents to successfully challenge an agency’s decision. Prop. 45 rewrites the rules that govern how California protects its citizens from the harm caused by major developments. Prop. 45 weakens environmental safeguards and radically shifts power to corporate polluters. Protect your air quality, your drinking water, your family’s health, your tax dollars, and your right to be heard. Join nurses, community and public health advocates. VOTE NO ON PROP. 45. www.NoProp45CA.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "It doesn’t require a single project to lower your rent, your mortgage, or your utility bills. 45’s corporate funders profit while you bear the cost of their pollution. PROP. 45 DOESN’T DELIVER AN AFFORDABLE CALIFORNIA. IT LIMITS ENVIRONMENTAL AND PUBLIC REVIEW AND RISKS PUBLIC HEALTH. Prop. 45 could have been about building what California needs. It isn’t. Funded by gas and electric utilities and corporate PACs, Prop. 45 cuts their costs, not yours. Prop. 45 flips California law to protect their projects, harming public health and our air and water. PROP. 45 PUTS YOUR HEALTH AT RISK AND STICKS YOU WITH THE BILL. Weaker environmental review means more pollution near homes and schools, more asthma and more emergency-room visits. When polluters don’t clean up, taxpayers and ratepayers pay more to cover the costs. PROP. 45 TAKES AWAY PUBLIC INPUT. It limits the environmental review of new projects and your right to provide input and be heard. 45 even gives developers new rights to challenge cities and counties, while making it more difficult for project opponents to successfully challenge an agency’s decision. Prop. 45 rewrites the rules that govern how California protects its citizens from the harm caused by major developments. Prop. 45 weakens environmental safeguards and radically shifts power to corporate polluters. Protect your air quality, your drinking water, your family’s health, your tax dollars, and your right to be heard. Join nurses, community and public health",
+          "locator": "p. 78, Rebuttal to Argument in Favor of Proposition 45"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Joe Lyou, President Coalition for Clean Air",
+        "Jennifer Clary, California Director Clean Water Action",
+        "Matt Abularach-Macias, Political Director California Environmental Voters"
+      ],
+      "heading": "PROPOSITION 45 LIMITS ENVIRONMENTAL AND PUBLIC REVIEW OF PROJECTS BUILT IN YOUR COMMUNITY. VOTE NO ON PROP. 45 TO PROTECT WATER, AIR QUALITY AND PUBLIC HEALTH.",
+      "side": "no",
+      "text": "Proposition 45 limits both the environmental review of major new development projects and the public’s right to be heard. Prop. 45 lets projects move forward with far less scrutiny of their harms to air, water and public health. PROP. 45 WEAKENS CRITICAL PROTECTIONS FOR AIR AND WATER QUALITY BY GUTTING THE CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA). CEQA is California’s most important air and water quality protection law. It requires public agencies to identify, publicly disclose, and consider reducing harm to air, water, and wildlife before approving projects. Prop. 45 eliminates many of CEQA’s existing protections—letting developers fast-track the polluting projects you don’t want next door, with fewer protections for the water you drink and air you breathe. PROP. 45 CUTS THE PUBLIC OUT OF DECISIONS THAT AFFECT YOUR FAMILY. Today, you have a voice in what’s built near you and your family. Prop. 45 reduces public agency requirements to consider public comments on proposed projects—comments that often expose potential contamination of air and water, and damage to our coast, rivers, and wildlife. If Prop. 45 passes, decisions about what gets built near your home, your children’s school, and your water supply would be made with less information and less public input. Prop. 45 reduces your ability to protect your family and community from harm. We need CEQA’s protections more than ever since federal protections have been weakened. THEY POLLUTE. YOU PAY. The nonpartisan Legislative Analyst’s Office warns Prop. 45 could approve projects that result in “unintended negative environmental impacts.” When corporations aren’t required to reduce their pollution, taxpayers get stuck paying to clean up cancer-causing chemicals from our drinking water and contaminated lands. PROP. 45 WON’T LOWER YOUR COSTS. Prop. 45 doesn’t include any requirement to lower your housing costs or your utility bills. The corporations paying for Prop. 45 will profit while you keep paying. WHO’S BEHIND PROP. 45? Prop. 45 was written by the California Chamber of Commerce and financed by gas and electric utilities and corporate PACs. It gives the polluters and corporations funding Prop. 45 greater freedom to put whatever they want next to your home. Your family’s health and environmental quality are more important than corporate profits. JOIN A BROAD COALITION OF PUBLIC HEALTH, ENVIRONMENTAL, AND COMMUNITY GROUPS OPPOSING PROP. 45, INCLUDING: • National Wildlife Federation • California Communities Against Toxics • California Environmental Voters • California Environmental Justice Alliance • California Nurses for Environmental Health & Justice • Clean Water Action • Coalition for Clean Air • Physicians for Social Responsibility—Los Angeles Whether you’re a Democrat, a Republican, or an independent, vote NO on Prop. 45 to protect your air and water, your tax dollars, and your right to be heard. VOTE NO on Prop. 45. www.NoProp45CA.com.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Proposition 45 limits both the environmental review of major new development projects and the public’s right to be heard. Prop. 45 lets projects move forward with far less scrutiny of their harms to air, water and public health. PROP. 45 WEAKENS CRITICAL PROTECTIONS FOR AIR AND WATER QUALITY BY GUTTING THE CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA). CEQA is California’s most important air and water quality protection law. It requires public agencies to identify, publicly disclose, and consider reducing harm to air, water, and wildlife before approving projects. Prop. 45 eliminates many of CEQA’s existing protections—letting developers fast-track the polluting projects you don’t want next door, with fewer protections for the water you drink and air you breathe. PROP. 45 CUTS THE PUBLIC OUT OF DECISIONS THAT AFFECT YOUR FAMILY. Today, you have a voice in what’s built near you and your family. Prop. 45 reduces public agency requirements to consider public comments on proposed projects—comments that often expose potential contamination of air and water, and damage to our coast, rivers, and wildlife. If Prop. 45 passes, decisions about what gets built near your home, your children’s school, and your water supply would be made with less information and less public input. Prop. 45 reduces your ability to protect your family and community from harm. We need CEQA’s protections more than ever since federal protections have been weakened. THEY POLLUTE. YOU PAY. The nonpartisan",
+          "locator": "p. 79, Argument Against Proposition 45"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Ann-Louise Kuhns, President California Children’s Hospital Association",
+        "Ruben Grijalva, Former California State Fire Marshal CAL FIRE",
+        "Robert Rivinius, President Family Business Association of California"
+      ],
+      "heading": "PROP. 45 IS THE CHANGE WE NEED TO BUILD A MORE AFFORDABLE CALIFORNIA.",
+      "side": "yes",
+      "text": "The status quo is failing California. Families cannot afford to live here because we’re failing to deliver the basics. Endless delays, lawsuits and red tape are driving up the cost of essentials—housing, water, electricity, schools, roads, healthcare and wildfire protection. We have a choice: accept the failing status quo—or fix it. PROP. 45 FIXES OUR BROKEN PROJECT APPROVAL SYSTEM by eliminating unnecessary delays for essential projects—lowering our cost of living and improving our quality of life. PROP. 45’s OPPONENTS ARE MISLEADING VOTERS TO PROTECT THE BROKEN STATUS QUO. The same opponents fighting Prop. 45 have spent decades using these same scare tactics to block even modest reforms. They’re fighting to preserve the broken status quo that’s making California unaffordable and lowering our quality of life. WE DON’T HAVE TO CHOOSE BETWEEN PROTECTING THE ENVIRONMENT AND BUILDING ESSENTIAL PROJECTS. • FACT: Prop. 45 maintains every federal, state and local environmental law protecting our air, water, wildlife, and public health, including the Clean Air Act and Clean Water Act. • FACT: Prop. 45 does not eliminate a single environmental law or exempt a single project from environmental review. • FACT: Communities keep their voice. Residents maintain their right to provide public comments, oppose projects, and sue to stop projects. • FACT: Prop. 45 only applies to essential projects: water, hospitals, housing, schools, roads, transit, clean energy, and wildfire prevention. THE CHOICE IS SIMPLE: accept the broken status quo—or fix it. VOTE YES ON PROP. 45 TO BUILD A MORE AFFORDABLE CALIFORNIA.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "The status quo is failing California. Families cannot afford to live here because we’re failing to deliver the basics. Endless delays, lawsuits and red tape are driving up the cost of essentials—housing, water, electricity, schools, roads, healthcare and wildfire protection. We have a choice: accept the failing status quo—or fix it. PROP. 45 FIXES OUR BROKEN PROJECT APPROVAL SYSTEM by eliminating unnecessary delays for essential projects—lowering our cost of living and improving our quality of life. PROP. 45’s OPPONENTS ARE MISLEADING VOTERS TO PROTECT THE BROKEN STATUS QUO. The same opponents fighting Prop. 45 have spent decades using these same scare tactics to block even modest reforms. They’re fighting to preserve the broken status quo that’s making California unaffordable and lowering our quality of life. WE DON’T HAVE TO CHOOSE BETWEEN PROTECTING THE ENVIRONMENT AND BUILDING ESSENTIAL PROJECTS. • FACT: Prop. 45 maintains every federal, state and local environmental law protecting our air, water, wildlife, and public health, including the Clean Air Act and Clean Water Act. • FACT: Prop. 45 does not eliminate a single environmental law or exempt a single project from environmental review. • FACT: Communities keep their voice. Residents maintain their right to provide public comments, oppose projects, and sue to stop projects. • FACT: Prop. 45 only applies to essential projects: water, hospitals, housing, schools, roads, transit, clean energy, and wildfire prevention. THE",
+          "locator": "p. 79, Rebuttal to Argument Against Proposition 45"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "label": "What your vote means",
+    "no_means": {
+      "value": "Public and private projects would continue to use existing project review and court challenge procedures.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Public and private projects would continue to use existing project review and court challenge procedures.",
+          "locator": "p. 11, Quick Reference Guide, Prop. 45, WHAT YOUR VOTE MEANS, NO"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "Certain public and private projects would be eligible for new project review and court challenge procedures. For example, new procedures would tighten time limits for environmental review and reduce the scope of what courts can consider when reviewing legal challenges.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Certain public and private projects would be eligible for new project review and court challenge procedures. For example, new procedures would tighten time limits for environmental review and reduce the scope of what courts can consider when reviewing legal challenges.",
+          "locator": "p. 11, Quick Reference Guide, Prop. 45, WHAT YOUR VOTE MEANS, YES"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [
+      {
+        "id": "environmental-impact-response-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund.",
+        "per": "year",
+        "text": "If projects with negative environmental impacts are approved that otherwise would not have been, government agencies could face higher costs to respond to those impacts.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Negative Environmental Impacts. To the degree that Proposition 45’s changes to project review and court challenge procedures lead to approval of projects with negative environmental impacts that would not have otherwise occurred, government agencies could face higher costs to respond to those impacts.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “Negative Environmental Impacts”"
+          }
+        ]
+      },
+      {
+        "id": "faster-public-projects-lower-costs",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund.",
+        "per": "year",
+        "text": "To the degree eligible public projects are built more quickly, state and local governments likely would have lower project costs.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "To the degree that Proposition 45’s changes to project review and court challenge procedures lead to eligible public projects being constructed more quickly, state and local governments likely would have lower project costs.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “More Projects and Faster Timing”"
+          }
+        ]
+      },
+      {
+        "id": "fewer-lawsuits-lower-costs",
+        "direction": "savings",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund.",
+        "per": "year",
+        "text": "After the initial period some costs could continue and others likely would decline; fewer CEQA lawsuits could reduce costs for agencies and state courts in the long term.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "After this initial period, while some costs could continue, others likely would decline over time. For example, the changes to how courts can review CEQA lawsuits could mean fewer people will sue in the future, which could reduce costs for agencies and state courts in the long term.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “Initial Costs for State and Local Governments”"
+          }
+        ]
+      },
+      {
+        "id": "initial-implementation-costs",
+        "direction": "cost",
+        "estimate": "in_words",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund. Fees from project applicants and people filing lawsuits would cover some costs.",
+        "per": "year",
+        "text": "Initial state and local costs, including state courts, likely in the high tens of millions of dollars annually and potentially exceeding $100 million annually in the first several years; fees would partly cover them.",
+        "words": "high tens of millions of dollars annually—potentially exceeding $100 million annually",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Initial costs for state and local governments, likely in the high tens of millions of dollars annually—potentially exceeding $100 million annually—to implement new project review and court challenge procedures for eligible projects. Fees paid by project applicants and people filing lawsuits would partly cover these costs.",
+            "locator": "p. 74, Proposition 45, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Initial Costs for State and Local Governments. During the first several years, Proposition 45 likely would increase costs for the state and local governments, including state courts. These costs likely would be in the high tens of millions of dollars annually, potentially exceeding $100 million annually.",
+            "locator": "pp. 76-77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “Initial Costs for State and Local Governments”"
+          }
+        ]
+      },
+      {
+        "id": "longer-term-overall-effect",
+        "direction": "none",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund.",
+        "per": "year",
+        "text": "In the longer term, uncertain but potentially more significant positive or negative fiscal effects for state and local governments, depending on how many eligible projects get built and their environmental impacts.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "In the longer term, uncertain, but potentially more significant positive or negative fiscal effects for state and local governments. The overall effect depends, in part, on how the new procedures change the number of eligible projects that get built and whether those projects have different environmental impacts.",
+            "locator": "p. 74, Proposition 45, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact (second bullet)"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The overall fiscal effect of these changes—positive or negative—is uncertain but could be more substantial than the near-term effects.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “In the Longer Term, Uncertain but Potentially More Significant Fiscal Effects”"
+          }
+        ]
+      },
+      {
+        "id": "more-projects-tax-revenue",
+        "direction": "revenue",
+        "estimate": "not_estimated",
+        "lane": "other_agency",
+        "note": "The LAO combines state and local governments (including state courts) and does not split amounts or tie them to the General Fund. The example given is property taxes.",
+        "per": "year",
+        "text": "If more projects are completed overall, tax revenues such as property taxes could increase.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Additionally, if the proposition’s changes result in more projects being completed overall, it could lead to an increase in tax revenues, such as from property taxes.",
+            "locator": "p. 77, Proposition 45, Analysis by the Legislative Analyst, Fiscal Effects, “More Projects and Faster Timing”"
+          }
+        ]
+      }
+    ],
+    "statement_by": "Legislative Analyst",
+    "summary": {
+      "summary": "• Initial costs for state and local governments, likely in the high tens of millions of dollars annually—potentially exceeding $100 million annually—to implement new project review and court challenge procedures for eligible projects. Fees paid by project applicants and people filing lawsuits would partly cover these costs. • In the longer term, uncertain, but potentially more significant positive or negative fiscal effects for state and local governments. The overall effect depends, in part, on how the new procedures change the number of eligible projects that get built and whether those projects have different environmental impacts.",
+      "citations": [
+        {
+          "source": "src:voterguide-sos-ca-gov-ccd9dbed23",
+          "quote": "• Initial costs for state and local governments, likely in the high tens of millions of dollars annually—potentially exceeding $100 million annually—to implement new project review and court challenge procedures for eligible projects. Fees paid by project applicants and people filing lawsuits would partly cover these costs. • In the longer term, uncertain, but potentially more significant positive or negative fiscal effects for state and local governments. The overall effect depends, in part, on how the new procedures change the number of eligible projects that get built and whether those projects have different environmental impacts.",
+          "locator": "web guide, title-summary.htm"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "State of California",
+    "level": "state"
+  },
+  "measure_type": {
+    "value": "statute",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "MODIFIES ENVIRONMENTAL REVIEW FOR CERTAIN PROJECTS. INITIATIVE STATUTE.",
+        "locator": "p. 74, Official Title and Summary (prepared by the Attorney General)"
+      }
+    ]
+  },
+  "number": "45",
+  "official_title": {
+    "value": "MODIFIES ENVIRONMENTAL REVIEW FOR CERTAIN PROJECTS. INITIATIVE STATUTE.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "MODIFIES ENVIRONMENTAL REVIEW FOR CERTAIN PROJECTS. INITIATIVE STATUTE.",
+        "locator": "p. 74, Official Title and Summary (prepared by the Attorney General)"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Put on the Ballot by Petition Signatures",
+        "locator": "p. 11, Quick Reference Guide, Prop. 45, SUMMARY"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Amends California Environmental Quality Act (CEQA) to expedite environmental review for certain projects (including most housing, transportation, water, and health projects) by setting deadlines to complete environmental review and resolve lawsuits challenging project approvals.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Amends California Environmental Quality Act (CEQA) to expedite environmental review for certain projects (including most housing, transportation, water, and health projects) by setting deadlines to complete environmental review and resolve lawsuits challenging project approvals.",
+        "locator": "p. 11, Quick Reference Guide, Prop. 45, SUMMARY"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

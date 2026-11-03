@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-5",
+  "items": [
+    {
+      "person": "person:tom-mcclintock",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tom-mcclintock",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:tom-mcclintock",
+      "label": "Ballot designation",
+      "text": "\"United States Representative\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tom-mcclintock",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tom-mcclintock",
+      "label": "U.S. Representative",
+      "text": "U.S. Representative since 2009: California's 4th District, 2009 to 2023, and California's 5th District, 2023 to present; first elected November 4, 2008. (sources: U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Listing/M/MCCLINTOCK,-Tom-(M001177)/ [search summary, primary]; Congress.gov https://www.congress.gov/member/tom-mcclintock/M001177 [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:tom-mcclintock",
+      "label": "California Legislature",
+      "text": "Member of the California State Assembly, 1982 to 1992 and 1996 to 2000; member of the California State Senate, 2000 to 2008. (sources: Biographical Directory of the U.S. Congress https://bioguideretro.congress.gov/Home/MemberDetails?memIndex=M001177 [search summary, primary]; Office of Rep. Tom McClintock (house.gov) https://mcclintock.house.gov/about/biography [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:tom-mcclintock",
+      "label": "Statewide candidacies",
+      "text": "Republican nominee for State Controller twice, losing in 2002. (sources: Office of Rep. Tom McClintock (house.gov) https://mcclintock.house.gov/about/biography [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tom-mcclintock",
+      "label": "Education",
+      "text": "B.A., University of California, Los Angeles, 1978. (sources: Biographical Directory of the U.S. Congress https://bioguideretro.congress.gov/Home/MemberDetails?memIndex=M001177 [search summary, primary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:tom-mcclintock",
+      "label": "Birth year",
+      "text": "Born in 1956. (sources: Biographical Directory of the U.S. Congress https://bioguideretro.congress.gov/Home/MemberDetails?memIndex=M001177 [search summary, primary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:michael-masuda",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-masuda",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:michael-masuda",
+      "label": "Ballot designation",
+      "text": "\"Foreign Affairs Officer\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-masuda",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-masuda",
+      "label": "Career",
+      "text": "Engineer who left the U.S. State Department in early 2025, per news coverage; ballot designation is Foreign Affairs Officer. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Turlock Journal https://www.turlockjournal.com/news/government/democrat-masuda-seeking-to-unseat-mcclintock-for-ca-5/ [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:michael-masuda",
+      "label": "Education",
+      "text": "Graduated from Amador High School; studied electrical engineering at Cal Poly (degree and year not confirmed). (sources: Turlock Journal https://www.turlockjournal.com/news/government/facing-uphill-climb-against-entrenched-incumbent-michael-masuda-makes-his-case-for-the-us-house/ [search summary, secondary])",
+      "topic": "profile.education"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

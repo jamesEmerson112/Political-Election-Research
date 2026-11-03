@@ -1,0 +1,1 @@
+{"description":"A candidate-website citation without a verbatim quote.","expect":["QUOTE_REQUIRED"],"patches":[{"file":"people/avery-sample.json","remove":["/candidate_profile/occupation/citations/0/quote"]}]}

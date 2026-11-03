@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-sb-53",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-09-29",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-a7ce44f81a",
+        "verified_by": {
+          "by": "maintainer",
+          "date": "2026-11-02",
+          "note": "notes/2026-11-02-ca-11.md §3"
+        }
+      }
+    ]
+  },
+  "area": "tech",
+  "title": {
+    "value": "Frontier AI transparency",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-a7ce44f81a",
+        "verified_by": {
+          "by": "maintainer",
+          "date": "2026-11-02",
+          "note": "notes/2026-11-02-ca-11.md §3"
+        }
+      }
+    ]
+  },
+  "last_verified": "2026-11-02"
+}

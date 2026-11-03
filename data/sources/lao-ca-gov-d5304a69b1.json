@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lao-ca-gov-d5304a69b1",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-26",
+  "publisher": "Legislative Analyst's Office",
+  "title": "The 2026-27 Budget: Overview of the Spending Plan",
+  "url": "https://lao.ca.gov/Publications/Report/5197"
+}

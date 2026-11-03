@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "wedrawthelines-ca-gov-026273f97b",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Citizens Redistricting Commission",
+  "title": "Ideal population by district",
+  "url": "https://wedrawthelines.ca.gov/wp-content/uploads/sites/64/2022/10/ideal_pop_by_district.docx.pdf",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

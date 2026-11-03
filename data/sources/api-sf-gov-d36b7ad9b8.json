@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sf-gov-d36b7ad9b8",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "Office of the Controller, City and County of San Francisco",
+  "title": "Controller's Statement: Proposition G",
+  "url": "https://api.sf.gov/documents/61755/Proposition_G__Allowing_Private_Vehicles_on_the_Great_Highway_in_Sunset_Dunes__lMlfeAX.pdf"
+}

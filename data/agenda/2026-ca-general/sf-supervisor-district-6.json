@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/sf-supervisor-district-6",
+  "candidates": [
+    {
+      "person": "person:matt-dorsey",
+      "name": "Matt Dorsey"
+    },
+    {
+      "person": "person:alex-behrend",
+      "name": "Alex Behrend"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:san-francisco-supervisor",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded on 2026-11-03 by a research agent (see data/leads). Official list: could NOT be opened. www.sf.gov and media.api.sf.gov are blocked in this session (sfelections.sfgov.org redirects to sf.gov), so candidacy and exact ballot names stay unverified until the contest file cites the San Francisco Department of Elections certified candidate list. Names follow Mission Local where it names a candidate; person refs may need renaming once the official ballot names are confirmed. Voting method: ranked-choice voting, seen only in an official search summary (the sf.gov ranked-choice voting page and the Nov. 3, 2026 voter information pamphlet say voters in even-numbered Supervisorial Districts 2, 4, 6, 8 and 10 use ranked-choice voting to elect members of the Board of Supervisors and may rank up to 10 candidates); not opened. Seats: one. District 6 elects one supervisor; CivLab (opened) lists one office-holder per district seat, and no official page opened states the number. Regular election for the full four-year term. Incumbent Matt Dorsey was appointed May 9, 2022 (Mission Local, opened). Only Districts 2 and 4 held special elections on June 2, 2026 (Mission Local June ballot guide, opened). Searched for every candidate: the Department of Elections candidate report, candidate page and Nov. 2026 voter information pamphlet (blocked; search summaries only); Mission Local district Q&A pages and race coverage (opened through the site's WordPress JSON API); CivLab SF graph data (opened; current office-holders only); search summaries of GrowSF, KQED, Wikipedia, Blue Voter Guide and Richmond Sunset News (those sites are blocked here, as are sfethics.org, sfstandard.com, ballotpedia.org, candidate websites and web.archive.org). No stance questions set yet; a draft question set is with the maintainer. District notes: Official list not opened. Mission Local and the sf.gov report (search summary: 2 qualified) agree on two candidates."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/prop-43",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "Proposition 43",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Robert Gutierrez, President California Taxpayers Association",
+        "Robert Rivinius, President Family Business Association of California",
+        "Julian Canete, President California Hispanic Chambers of Commerce"
+      ],
+      "heading": "VOTE YES ON PROP. 43: THE LOCAL TAXPAYER PROTECTION ACT",
+      "side": "yes",
+      "text": "California families are struggling with the highest income, sales, and gas taxes in the nation. Yet politicians and special interests keep pushing higher taxes that make our cost of living even more expensive. We can’t afford to pay ANY MORE in new or higher taxes. PROP. 43 RESTORES PROPOSITION 13 TAXPAYER PROTECTIONS Proposition 13 was designed to make it harder to raise taxes, but court decisions created loopholes that allow special interests to impose massive new tax increases by circumventing the taxpayer protections voters approved. Californians are paying billions in new or higher taxes they would not have to pay if it weren’t for these loopholes. Prop. 43 closes these loopholes and restores the two-thirds vote requirement to pass local special taxes. PROP. 43 MAKES IT HARDER TO RAISE YOUR TAXES Local governments have imposed over 2,000 new or higher taxes in the past decade, including higher sales, property and utility taxes—using the loopholes courts created in Prop. 13 to impose some of the most costly and damaging tax increases Californians face today. These new and higher taxes make everything we buy or use more expensive, from food and gas to utilities and housing. Prop. 43 guarantees voters the right to vote on all local taxes and restores the two-thirds vote for special local taxes. PROP. 43 PROTECTS HOMEOWNERS FROM COSTLY NEW REAL ESTATE TAXES California already has some of the highest housing costs in America, yet special interests are using court-created loopholes to add new taxes on the sale of homes, apartments and other real estate. Some cities now charge real estate transfer taxes as high as 6%. For California’s median-priced home of $900,000, that would cost a homeowner $54,000 simply for selling their house. Those costs steal homeowners’ equity, raise apartment rents, and make building new housing more expensive. Prop. 43 makes it much harder for special interests to impose these costly taxes on homeowners, renters, and small businesses. PROP. 43 STOPS THE BAIT-AND-SWITCH TAX TRICKS Politicians and special interests promise new taxes will fund schools, roads, and public safety—only to divert the money elsewhere and frustrate the will of voters. Prop. 43 requires governments to spend tax revenue for the specific purpose voters approved and restores the broad voter support required before politicians and special interests impose earmarked tax measures. If taxpayers are asked to pay more, they deserve the right to vote and the confidence their money will be spent as promised. PROP. 43 PUTS VOTERS BACK IN CHARGE Every election, politicians say they need just one more tax increase. Prop. 43 simply ensures TAXPAYERS are fully protected by the right to vote on taxes. Vote YES on Prop. 43: • Affirms the voters’ right to vote on all new or higher local taxes. • Restores the two-thirds vote requirement for local special taxes. • Protects Proposition 13 and closes court-created loopholes. • Makes it harder for special interests to raise taxes. • Protects homeowners, renters, and small businesses from new real estate taxes. • Strengthens accountability for how taxpayer dollars are spent.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "California families are struggling with the highest income, sales, and gas taxes in the nation. Yet politicians and special interests keep pushing higher taxes that make our cost of living even more expensive. We can’t afford to pay ANY MORE in new or higher taxes. PROP. 43 RESTORES PROPOSITION 13 TAXPAYER PROTECTIONS Proposition 13 was designed to make it harder to raise taxes, but court decisions created loopholes that allow special interests to impose massive new tax increases by circumventing the taxpayer protections voters approved. Californians are paying billions in new or higher taxes they would not have to pay if it weren’t for these loopholes. Prop. 43 closes these loopholes and restores the two-thirds vote requirement to pass local special taxes. PROP. 43 MAKES IT HARDER TO RAISE YOUR TAXES Local governments have imposed over 2,000 new or higher taxes in the past decade, including higher sales, property and utility taxes—using the loopholes courts created in Prop. 13 to impose some of the most costly and damaging tax increases Californians face today. These new and higher taxes make everything we buy or use more expensive, from food and gas to utilities and housing. Prop. 43 guarantees voters the right to vote on all local taxes and restores the two-thirds vote for special local taxes. PROP. 43 PROTECTS HOMEOWNERS FROM COSTLY NEW REAL ESTATE TAXES California already has some of the highest housing costs in America, yet special interests are using court-created",
+          "locator": "p. 68, Argument in Favor of Proposition 43"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Nick Lapis, Director of Advocacy Californians Against Waste",
+        "Bill Barnes, Director of Campaigns & Community Non-Profit Housing Association of Northern California",
+        "Steve Frisch, President Sierra Business Council"
+      ],
+      "side": "no",
+      "text": "We all want relief from California’s high cost of living. But Proposition 43 doesn’t cut your taxes a penny. It attacks something far more valuable: the power of your vote. PROP. 43 WEAKENS YOUR VOTE. Today, when local voters decide how to fund their communities, the majority rules. Prop. 43 throws that out, letting just 33.4% of voters veto what nearly 67% want. Under Prop. 43, a NO vote counts twice as much as a YES. That isn’t fair, and it isn’t democracy. PROP. 43 DEEPENS THE HOUSING CRISIS. Across California, communities vote to build affordable homes for working families, seniors, and veterans. They are helping renters stay housed and move people off the streets. Prop. 43 hands a small minority the power to block those solutions, even when a clear majority of your neighbors support them. PROP. 43 TIES YOUR COMMUNITY’S HANDS. Prop. 43 makes it harder for you to fund the critical local services your community counts on: staffing fire stations and 911 response, preparing neighborhoods for wildfire, repairing crumbling roads, keeping schools, parks, and libraries open, and protecting local hospitals and clinics as Washington cuts healthcare funding. When funding is blocked, help arrives slower, classrooms grow more crowded, and communities are left less safe. KEEP THE POWER WHERE IT BELONGS—WITH YOU AND YOUR NEIGHBORS. That’s why teachers, nurses, firefighters, and housing advocates all oppose Prop. 43. VOTE NO ON PROPOSITION 43. www.NoProp43CA.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "We all want relief from California’s high cost of living. But Proposition 43 doesn’t cut your taxes a penny. It attacks something far more valuable: the power of your vote. PROP. 43 WEAKENS YOUR VOTE. Today, when local voters decide how to fund their communities, the majority rules. Prop. 43 throws that out, letting just 33.4% of voters veto what nearly 67% want. Under Prop. 43, a NO vote counts twice as much as a YES. That isn’t fair, and it isn’t democracy. PROP. 43 DEEPENS THE HOUSING CRISIS. Across California, communities vote to build affordable homes for working families, seniors, and veterans. They are helping renters stay housed and move people off the streets. Prop. 43 hands a small minority the power to block those solutions, even when a clear majority of your neighbors support them. PROP. 43 TIES YOUR COMMUNITY’S HANDS. Prop. 43 makes it harder for you to fund the critical local services your community counts on: staffing fire stations and 911 response, preparing neighborhoods for wildfire, repairing crumbling roads, keeping schools, parks, and libraries open, and protecting local hospitals and clinics as Washington cuts healthcare funding. When funding is blocked, help arrives slower, classrooms grow more crowded, and communities are left less safe. KEEP THE POWER WHERE IT BELONGS—WITH YOU AND YOUR NEIGHBORS. That’s why teachers, nurses, firefighters, and housing advocates all oppose Prop. 43. VOTE NO ON PROPOSITION 43. www.NoProp43CA.com",
+          "locator": "p. 68, Rebuttal to Argument in Favor of Proposition 43"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Darrell Roberts, President California Professional Firefighters",
+        "Chris Harkins, Executive Director Nurse Alliance of SEIU California",
+        "Adam Weinberger, President California School Employees Association"
+      ],
+      "heading": "PROPOSITION 43 LIMITS VOTERS’ ABILITY TO FUND ESSENTIAL LOCAL SERVICES.",
+      "side": "no",
+      "text": "Prop. 43 makes it harder for you to fund critical services like police and fire departments, fix and repair local roads, staff our local schools or backfill federal healthcare cuts. Prop. 43 undermines the voice of voters and the majority vote by letting just one-third of voters (33.4%) block local voter decisions—and it makes it easier for corporate special interests to avoid paying their fair share. PROP. 43 MAKES IT HARDER TO FUND FIRE AND POLICE SERVICES. Local police and firefighters can’t rely on Sacramento or Washington politicians. These services are funded at the local level. Prop. 43 wants to make it harder for local voters to direct new funding to services like police and fire. Without adequate funding, 911 response times are slower, fire stations sit understaffed, and families wait longer for help when every second counts. When a house fire breaks out—or a wildfire threatens our neighborhoods—that local funding is what protects us. Prop. 43 would let a small minority of voters block it. Even if 66% of voters say yes, Prop. 43 would prevent us from funding desperately needed local services. PROP. 43 MAKES IT HARDER TO FIX ROADS, FUND SCHOOLS, AND PROTECT HEALTHCARE. Across California, local voters have come together to repair crumbling roads and improve transportation, to fund their neighborhood schools, and to protect local hospitals and healthcare—especially as Washington cuts federal health funding. These are decisions communities make for themselves, by majority vote. Instead, Prop. 43 hands a small group of voters the power to veto those solutions, even when the majority supports them. PROP. 43 EMPOWERS 33.4% OF VOTERS OVER THE WILL OF THE MAJORITY. In America, we believe in one person, one vote—and the majority wins. Prop. 43 throws that out. It empowers just over one-third of voters to block what nearly 67% want. It puts the out-voted minority in charge—even if they are extremists. It makes their NO vote count twice as much as a YES vote. CORPORATE DONORS BENEFIT. NOT TAXPAYERS. Under Prop. 43, corporate donors who spend big in elections will benefit most. Right now, voters can hold these corporations and developers accountable at the ballot box, and make them pay their fair share for local needs. Prop. 43 is designed to take that power away—to protect the powerful few, at everyone else’s expense. That’s why these organizations are asking you to vote NO on Prop. 43: • California Professional Firefighters • Californians Against Waste • California Federation of Teachers • California School Employees Association • Communities for a Better Environment • AAPI Force • Non-Profit Housing Association of Northern California • Nurses Alliance of SEIU California • Sierra Business Council Vote NO to protect your vote and majority rule. Keep the power where it belongs—with you and your neighbors. VOTE NO ON PROPOSITION 43. www.NoProp43CA.com",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Prop. 43 makes it harder for you to fund critical services like police and fire departments, fix and repair local roads, staff our local schools or backfill federal healthcare cuts. Prop. 43 undermines the voice of voters and the majority vote by letting just one-third of voters (33.4%) block local voter decisions—and it makes it easier for corporate special interests to avoid paying their fair share. PROP. 43 MAKES IT HARDER TO FUND FIRE AND POLICE SERVICES. Local police and firefighters can’t rely on Sacramento or Washington politicians. These services are funded at the local level. Prop. 43 wants to make it harder for local voters to direct new funding to services like police and fire. Without adequate funding, 911 response times are slower, fire stations sit understaffed, and families wait longer for help when every second counts. When a house fire breaks out—or a wildfire threatens our neighborhoods—that local funding is what protects us. Prop. 43 would let a small minority of voters block it. Even if 66% of voters say yes, Prop. 43 would prevent us from funding desperately needed local services. PROP. 43 MAKES IT HARDER TO FIX ROADS, FUND SCHOOLS, AND PROTECT HEALTHCARE. Across California, local voters have come together to repair crumbling roads and improve transportation, to fund their neighborhood schools, and to protect local hospitals and healthcare—especially as Washington cuts federal health funding. These are decisions communities make for themselves, by",
+          "locator": "p. 69, Argument Against Proposition 43"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Jon Coupal, President Howard Jarvis Taxpayers Association",
+        "Michael Hedges, President California Small Business Association",
+        "Greg Van Dyke, Chairman California Consumer Advocates for Affordability and Safety"
+      ],
+      "heading": "VOTE YES ON PROP. 43 TO RESTORE TAXPAYER PROTECTIONS",
+      "side": "yes",
+      "text": "Californians already pay high taxes. But instead of prioritizing funding for critical services like police and fire, local politicians waste your money on their pet projects—then demand tax increases, claiming the need to fund the most important priorities. The state Constitution requires a two-thirds vote for taxes earmarked for a specific purpose, but recent court decisions created a loophole that allowed special taxes to pass with fewer votes. Now Californians are paying billions in taxes they should not have had to pay. Prop. 43 RESTORES the longstanding two-thirds vote requirement for local special taxes, protecting homeowners, renters, and small businesses from costly new sales and parcel taxes, taxes on electricity and gas, and real estate taxes. Prop. 43 GUARANTEES taxpayers the right to vote on new or higher local taxes and requires governments to spend taxpayer dollars for the specific purposes voters approved—preventing bait-and-switch schemes that make our sky-high cost of living even worse. Over the last decade, local governments have imposed 2,000 new or higher taxes. Prop. 43 CLOSES LOOPHOLES used to pass some of the most damaging tax increases, restores the protections voters originally approved under Proposition 13, and makes it harder for special interests to raise taxes without broad voter support. The Legislature’s nearly unanimous vote to place Prop. 43 on the ballot sends a clear message: activist courts exceeded voters’ intent by creating loopholes that weakened Proposition 13’s protections. Restore your right to vote on ALL local taxes. VOTE YES ON PROP. 43",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Californians already pay high taxes. But instead of prioritizing funding for critical services like police and fire, local politicians waste your money on their pet projects—then demand tax increases, claiming the need to fund the most important priorities. The state Constitution requires a two-thirds vote for taxes earmarked for a specific purpose, but recent court decisions created a loophole that allowed special taxes to pass with fewer votes. Now Californians are paying billions in taxes they should not have had to pay. Prop. 43 RESTORES the longstanding two-thirds vote requirement for local special taxes, protecting homeowners, renters, and small businesses from costly new sales and parcel taxes, taxes on electricity and gas, and real estate taxes. Prop. 43 GUARANTEES taxpayers the right to vote on new or higher local taxes and requires governments to spend taxpayer dollars for the specific purposes voters approved—preventing bait-and-switch schemes that make our sky-high cost of living even worse. Over the last decade, local governments have imposed 2,000 new or higher taxes. Prop. 43 CLOSES LOOPHOLES used to pass some of the most damaging tax increases, restores the protections voters originally approved under Proposition 13, and makes it harder for special interests to raise taxes without broad voter support. The Legislature’s nearly unanimous vote to place Prop. 43 on the ballot sends a clear message: activist courts exceeded voters’ intent by creating loopholes",
+          "locator": "p. 69, Rebuttal to Argument Against Proposition 43"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "label": "What your vote means",
+    "no_means": {
+      "value": "Certain local government taxes could continue to be approved by voters with a majority vote.",
+      "citations": [
+        {
+          "source": "src:voterguide-sos-ca-gov-8b5aa760fc",
+          "quote": "Certain local government taxes could continue to be approved by voters with a majority vote.",
+          "locator": "web guide, index.htm"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "Certain local government taxes would require two-thirds approval by voters.",
+      "citations": [
+        {
+          "source": "src:voterguide-sos-ca-gov-8b5aa760fc",
+          "quote": "Certain local government taxes would require two-thirds approval by voters.",
+          "locator": "web guide, index.htm"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-10",
+    "effects": [
+      {
+        "id": "possibly-lower-local-tax-revenues",
+        "direction": "cost",
+        "estimate": "depends_on_future_decisions",
+        "lane": "other_agency",
+        "per": "year",
+        "text": "Requiring a two-thirds vote for new, increased or extended local special taxes proposed by voters could make local tax revenues lower than otherwise; the impact is unknown.",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possibility that local government tax revenues will not go up as much in the future due to a higher vote threshold for certain taxes.",
+            "locator": "p. 66, Proposition 43, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Possibility for Lower Local Government Tax Revenues in the Future. Proposition 43 makes it harder for local governments to pass certain taxes. As a result, local governments’ tax revenues could be lower in the future than they otherwise would be. The actual revenue impact is unknown and would depend on future decisions by local governments and voters.",
+            "locator": "p. 67, Proposition 43, Analysis by the Legislative Analyst, Fiscal Effects, “Possibility for Lower Local Government Tax Revenues in the Future”"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Under Proposition 43, beginning on January 1, 2027, any new, increased, or extended local special taxes proposed by voters would require a two-thirds vote.",
+            "locator": "p. 67, Proposition 43, Analysis by the Legislative Analyst, Proposal, “Requires Certain Local Taxes Receive Two-Thirds Approval by Voters”"
+          }
+        ]
+      }
+    ],
+    "statement_by": "Legislative Analyst",
+    "summary": {
+      "summary": "• Possibility that local government tax revenues will not go up as much in the future due to a higher vote threshold for certain taxes.",
+      "citations": [
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "• Possibility that local government tax revenues will not go up as much in the future due to a higher vote threshold for certain taxes.",
+          "locator": "p. 66, Official Title and Summary, Summary of Legislative Analyst’s Estimate of Net State and Local Government Fiscal Impact"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "State of California",
+    "level": "state"
+  },
+  "measure_type": {
+    "value": "constitutional_amendment",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "LIMITS VOTERS’ ABILITY TO RAISE REVENUES FOR LOCAL GOVERNMENT SERVICES. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+        "locator": "p. 66, Official Title and Summary (prepared by the Attorney General)"
+      }
+    ]
+  },
+  "number": "43",
+  "official_title": {
+    "value": "LIMITS VOTERS’ ABILITY TO RAISE REVENUES FOR LOCAL GOVERNMENT SERVICES. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "LIMITS VOTERS’ ABILITY TO RAISE REVENUES FOR LOCAL GOVERNMENT SERVICES. LEGISLATIVE CONSTITUTIONAL AMENDMENT.",
+        "locator": "p. 66, Official Title and Summary (prepared by the Attorney General)"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "legislature",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Put on the Ballot by the Legislature",
+        "locator": "p. 10, Quick Reference Guide, Prop. 43, SUMMARY"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Limits voters’ ability to pass voter-proposed local special taxes by increasing percentage of votes needed to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.",
+    "citations": [
+      {
+        "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+        "quote": "Limits voters’ ability to pass voter-proposed local special taxes by increasing percentage of votes needed to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.",
+        "locator": "p. 10, Quick Reference Guide, Prop. 43, SUMMARY"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,160 @@
+{
+  "$schema": "../../schemas/budget.schema.json",
+  "id": "california",
+  "name": "State of California budget",
+  "adopted": [
+    {
+      "basis": "FY 2026-27 as enacted in the 2026 Budget Act (ebudget.ca.gov: 'Enacted on June 29, 2026'). Department of Finance Schedule 1 at 2026 Budget Act (General Budget Summary, in thousands), row 'Expenditures': General Fund $251,477,209 thousand; 'Expenditure Totals' $351,709,797 thousand = General Fund + special funds ($95,129,056 thousand) + selected bond fund expenditures ($5,103,532 thousand), i.e. total state funds. It EXCLUDES federal funds ($187,189,993 thousand, printed separately in Schedule 9's 'Federal Funds' column, outside its 'Budget Total') and 'other non-governmental cost funds' (Schedule 1 footnote 1/). total_usd is therefore not 'all funds' in the San Francisco sense; no DOF schedule opened here prints a single total that adds federal funds.",
+      "fy": "2026-27",
+      "general_fund_usd": 251477209000,
+      "total_label": "state funds; federal funds not included",
+      "total_usd": 351709797000,
+      "citations": [
+        {
+          "source": "src:ebudget-ca-gov-98cceb871b",
+          "quote": "2026-27 Prior year resources available 10 $57,221,020 $46,339,600 Revenues and transfers 8 226,754,132 101,669,804 Expenditures 9 251,477,209 95,129,056 $5,103,532 $351,709,797",
+          "locator": "Schedule 1 at 2026 Budget Act, General Budget Summary (In Thousands), one page dated 'June 2026'; 2026-27 block, row 'Expenditures' (Reference 9): columns General Fund, Special Funds, Selected Bond Fund Expenditures, Expenditure Totals"
+        },
+        {
+          "source": "src:ebudget-ca-gov-98cceb871b",
+          "quote": "GENERAL BUDGET SUMMARY (In Thousands)",
+          "locator": "Schedule 1 at 2026 Budget Act, title block (units)"
+        },
+        {
+          "source": "src:ebudget-ca-gov-98cceb871b",
+          "quote": "1/ The General Budget Summary includes the revenues and expenditures of all the state funds that reflect the cost of state government and selected bond fund expenditures. The transactions involving other non-governmental cost funds are excluded.",
+          "locator": "Schedule 1 at 2026 Budget Act, footnote 1/"
+        },
+        {
+          "source": "src:ebudget-ca-gov-0d7deefeb3",
+          "quote": "SCHEDULE 9 AT 2026 BUDGET ACT COMPARATIVE STATEMENT OF EXPENDITURES (Dollars in Thousands) Actual 2024-25 Estimated 2025-26 Estimated 2026-27",
+          "locator": "Schedule 9 at 2026 Budget Act, page header (units and year columns)"
+        },
+        {
+          "source": "src:ebudget-ca-gov-0d7deefeb3",
+          "quote": "GRAND TOTAL 231,190,249 84,332,379 1,610,464 317,133,092 160,091,459 245,302,935 91,129,884 10,520,393 346,953,212 178,422,080 251,477,209 95,129,056 5,103,532 351,709,797 187,189,993",
+          "locator": "Schedule 9 at 2026 Budget Act, Comparative Statement of Expenditures (Dollars in Thousands), page 16 of 17, row 'GRAND TOTAL'; last five values are 'Estimated 2026-27' General Fund, Special Funds, Selected Bond Funds, Budget Total, Federal Funds"
+        },
+        {
+          "source": "src:ebudget-ca-gov-da7a792829",
+          "quote": "2026-27 39,626 482,089 12.2 3,733.6 226,754 328,424 251,477 351,710 6,346.26 8,875.74 6.74 9.42",
+          "locator": "Schedule 6 at 2026 Budget Act (Summary of State Population, Employees, and Expenditures), row 2026-27; the 7th and 8th values are Expenditures General Fund and Total, in millions"
+        },
+        {
+          "source": "src:ebudget-ca-gov-da7a792829",
+          "quote": "4/ Expenditures include payments from General Fund, Special Funds and Selected Bond Funds.",
+          "locator": "Schedule 6 at 2026 Budget Act, footnote 4/ (defines the 'Total' expenditures column)"
+        },
+        {
+          "source": "src:ebudget-ca-gov-cfb68745ef",
+          "quote": "Total Expenditures $245,303 $251,477 $252,319 $256,261 $266,066",
+          "locator": "General Fund Multiyear Forecast, 2026 Budget Act (Dollars in Millions), page 1, row 'Total Expenditures', column 2026-27 (second value)"
+        },
+        {
+          "source": "src:ebudget-ca-gov-a1d1ab2ad3",
+          "quote": "Enacted on June 29, 2026",
+          "locator": "ebudget.ca.gov application data for the 2026-27 enacted budget, field 'publicationDate' (shown on https://ebudget.ca.gov/budget/e/2026-27/BudgetSummary)"
+        },
+        {
+          "source": "src:lao-ca-gov-d5304a69b1",
+          "quote": "The State Constitution has a balanced budget requirement, which means the balance of the SFEU must be set at zero or above for the upcoming fiscal year (2026‑27).",
+          "locator": "LAO, The 2026-27 Budget: Overview of the Spending Plan (August 26, 2026), section “Discretionary Reserves and Set Asides”, paragraph “Sets Discretionary Reserve Balance to $4.5 Billion”"
+        }
+      ]
+    }
+  ],
+  "forecast": {
+    "cumulative": false,
+    "published": "2026-07-15",
+    "publisher": "California Department of Finance",
+    "title": "General Fund Multiyear Forecast, 2026 Budget Act",
+    "years": [
+      {
+        "amount_usd": 10485000000,
+        "basis": "Department of Finance projected General Fund operating deficit for 2027-28 at the 2026 Budget Act ('Operating Surplus/Deficit with BSA Transfer', printed -$10,485 in $ millions). It measures that year alone, not the earlier years' gaps: the LAO describes the operating deficit as evaluating 'each year in isolation'. The projection is 'based on existing state/federal law and state policies, adjusted for changes included in the 2026 Budget Act'. The PDF prints no date; published is the server's Last-Modified date.",
+        "direction": "shortfall",
+        "fy": "2027-28",
+        "citations": [
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "Operating Surplus/Deficit with BSA Transfer $514 -$18,335 -$10,485 -$8,643 -$8,430",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act (Dollars in Millions), page 1, row 'Operating Surplus/Deficit with BSA Transfer', column 2027-28 (values in column order 2025-26, 2026-27, 2027-28, 2028-29, 2029-30)"
+          },
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "General Fund Multiyear Forecast 2026 Budget Act (Dollars in Millions) 2025-26 2026-27 2027-28 2028-29 2029-30",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act, page 1, title and column headings"
+          },
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "The 2026 Budget Act multi-year projection is based on existing state/federal law and state policies, adjusted for changes included in the 2026 Budget Act. It reflects various assumptions depending on the particular program regarding changes in enrollment, caseload, and population. The projections also use various cost escalation and COLA factors.",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act, page 3, note on the basis of the projection"
+          },
+          {
+            "source": "src:lao-ca-gov-d5304a69b1",
+            "quote": "This difference arises largely because the enacted budget is balanced on a cumulative basis: as discussed earlier in this report, it draws down the elevated fund balance carried over from 2025‑26 and prior years. The operating deficit, by contrast, evaluates each year in isolation—comparing the revenues the state collects that year against the costs it incurs that year.",
+            "locator": "LAO, The 2026-27 Budget: Overview of the Spending Plan (August 26, 2026), section 'Multiyear', paragraph '2026-27 Operating Deficit Is Larger Than the Budget's Solutions'"
+          }
+        ]
+      },
+      {
+        "amount_usd": 8643000000,
+        "basis": "Department of Finance projected General Fund operating deficit for 2028-29 at the 2026 Budget Act ('Operating Surplus/Deficit with BSA Transfer', printed -$8,643 in $ millions). It measures that year alone, not the earlier years' gaps: the LAO describes the operating deficit as evaluating 'each year in isolation'. The projection is 'based on existing state/federal law and state policies, adjusted for changes included in the 2026 Budget Act'. The PDF prints no date; published is the server's Last-Modified date.",
+        "direction": "shortfall",
+        "fy": "2028-29",
+        "citations": [
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "Operating Surplus/Deficit with BSA Transfer $514 -$18,335 -$10,485 -$8,643 -$8,430",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act (Dollars in Millions), page 1, row 'Operating Surplus/Deficit with BSA Transfer', column 2028-29 (values in column order 2025-26, 2026-27, 2027-28, 2028-29, 2029-30)"
+          },
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "General Fund Multiyear Forecast 2026 Budget Act (Dollars in Millions) 2025-26 2026-27 2027-28 2028-29 2029-30",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act, page 1, title and column headings"
+          },
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "The 2026 Budget Act multi-year projection is based on existing state/federal law and state policies, adjusted for changes included in the 2026 Budget Act. It reflects various assumptions depending on the particular program regarding changes in enrollment, caseload, and population. The projections also use various cost escalation and COLA factors.",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act, page 3, note on the basis of the projection"
+          },
+          {
+            "source": "src:lao-ca-gov-d5304a69b1",
+            "quote": "This difference arises largely because the enacted budget is balanced on a cumulative basis: as discussed earlier in this report, it draws down the elevated fund balance carried over from 2025‑26 and prior years. The operating deficit, by contrast, evaluates each year in isolation—comparing the revenues the state collects that year against the costs it incurs that year.",
+            "locator": "LAO, The 2026-27 Budget: Overview of the Spending Plan (August 26, 2026), section 'Multiyear', paragraph '2026-27 Operating Deficit Is Larger Than the Budget's Solutions'"
+          }
+        ]
+      },
+      {
+        "amount_usd": 8430000000,
+        "basis": "Department of Finance projected General Fund operating deficit for 2029-30 at the 2026 Budget Act ('Operating Surplus/Deficit with BSA Transfer', printed -$8,430 in $ millions). It measures that year alone, not the earlier years' gaps: the LAO describes the operating deficit as evaluating 'each year in isolation'. The projection is 'based on existing state/federal law and state policies, adjusted for changes included in the 2026 Budget Act'. The PDF prints no date; published is the server's Last-Modified date.",
+        "direction": "shortfall",
+        "fy": "2029-30",
+        "citations": [
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "Operating Surplus/Deficit with BSA Transfer $514 -$18,335 -$10,485 -$8,643 -$8,430",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act (Dollars in Millions), page 1, row 'Operating Surplus/Deficit with BSA Transfer', column 2029-30 (values in column order 2025-26, 2026-27, 2027-28, 2028-29, 2029-30)"
+          },
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "General Fund Multiyear Forecast 2026 Budget Act (Dollars in Millions) 2025-26 2026-27 2027-28 2028-29 2029-30",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act, page 1, title and column headings"
+          },
+          {
+            "source": "src:ebudget-ca-gov-cfb68745ef",
+            "quote": "The 2026 Budget Act multi-year projection is based on existing state/federal law and state policies, adjusted for changes included in the 2026 Budget Act. It reflects various assumptions depending on the particular program regarding changes in enrollment, caseload, and population. The projections also use various cost escalation and COLA factors.",
+            "locator": "General Fund Multiyear Forecast, 2026 Budget Act, page 3, note on the basis of the projection"
+          },
+          {
+            "source": "src:lao-ca-gov-d5304a69b1",
+            "quote": "This difference arises largely because the enacted budget is balanced on a cumulative basis: as discussed earlier in this report, it draws down the elevated fund balance carried over from 2025‑26 and prior years. The operating deficit, by contrast, evaluates each year in isolation—comparing the revenues the state collects that year against the costs it incurs that year.",
+            "locator": "LAO, The 2026-27 Budget: Overview of the Spending Plan (August 26, 2026), section 'Multiyear', paragraph '2026-27 Operating Deficit Is Larger Than the Budget's Solutions'"
+          }
+        ]
+      }
+    ]
+  },
+  "jurisdiction": "State of California",
+  "last_verified": "2026-11-03"
+}

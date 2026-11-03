@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-31",
+  "items": [
+    {
+      "person": "person:gil-cisneros",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/31/county/san-bernardino [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-eric-ching-advances-to-the-general-election-for-u-s-house-in-californias-31st/article_12f103ab-d662-569b-bfd1-97b074443952.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:gil-cisneros",
+      "label": "Party",
+      "text": "Democratic (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/31/county/san-bernardino [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-eric-ching-advances-to-the-general-election-for-u-s-house-in-californias-31st/article_12f103ab-d662-569b-bfd1-97b074443952.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:gil-cisneros",
+      "label": "Incumbent",
+      "text": "Yes (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/31/county/san-bernardino [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-eric-ching-advances-to-the-general-election-for-u-s-house-in-californias-31st/article_12f103ab-d662-569b-bfd1-97b074443952.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eric-ching",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/31/county/san-bernardino [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-eric-ching-advances-to-the-general-election-for-u-s-house-in-californias-31st/article_12f103ab-d662-569b-bfd1-97b074443952.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eric-ching",
+      "label": "Party",
+      "text": "Republican (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/31/county/san-bernardino [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-eric-ching-advances-to-the-general-election-for-u-s-house-in-californias-31st/article_12f103ab-d662-569b-bfd1-97b074443952.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:eric-ching",
+      "label": "Incumbent",
+      "text": "No (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/31/county/san-bernardino [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-eric-ching-advances-to-the-general-election-for-u-s-house-in-californias-31st/article_12f103ab-d662-569b-bfd1-97b074443952.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eric-ching",
+      "label": "Prior candidacies",
+      "text": "Republican nominee for California's 38th Congressional District in 2022 and 2024; lost both general elections to Linda Sánchez. (sources: Ballotpedia https://ballotpedia.org/Eric_Ching [search summary, secondary]; Associated Press (via NY1) https://ny1.com/nyc/all-boroughs/ap-top-news/2024/03/12/republican-eric-ching-advances-to-the-general-election-for-us-house-in-californias-38th-congressional-district [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2024-elections/california-us-house-district-38-results [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "en-wikipedia-org-341fc74892",
+  "kind": "reference_work",
+  "accessed": "2026-11-03",
+  "publisher": "Wikipedia",
+  "title": "California State Superintendent of Public Instruction",
+  "url": "https://en.wikipedia.org/wiki/California_State_Superintendent_of_Public_Instruction",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

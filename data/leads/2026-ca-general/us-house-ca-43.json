@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-43",
+  "items": [
+    {
+      "person": "person:maxine-waters",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-maxine-waters-advances-to-the-general-election-for-u-s-house-in-californias-43rd/article_3c579919-b43b-52b2-a470-b4d19007821d.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:maxine-waters",
+      "label": "Party",
+      "text": "Democratic (sources: NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-maxine-waters-advances-to-the-general-election-for-u-s-house-in-californias-43rd/article_3c579919-b43b-52b2-a470-b4d19007821d.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:maxine-waters",
+      "label": "Incumbent",
+      "text": "Yes (sources: NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-maxine-waters-advances-to-the-general-election-for-u-s-house-in-californias-43rd/article_3c579919-b43b-52b2-a470-b4d19007821d.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:maxine-waters",
+      "label": "Current office",
+      "text": "U.S. Representative for California's 43rd Congressional District; listed as the Democratic candidate for District 43 on the SoS certified list for the 2024 general election. (sources: California Secretary of State https://elections.cdn.sos.ca.gov//statewide-elections/2024-general/cert-list-candidates.pdf [search summary, primary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:maxine-waters",
+      "label": "2026 primary result",
+      "text": "Placed first in the June 2, 2026 primary; an early partial count showed about 63% of the vote. (sources: NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:cristian-morales",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-maxine-waters-advances-to-the-general-election-for-u-s-house-in-californias-43rd/article_3c579919-b43b-52b2-a470-b4d19007821d.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:cristian-morales",
+      "label": "Party",
+      "text": "Republican (sources: NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-maxine-waters-advances-to-the-general-election-for-u-s-house-in-californias-43rd/article_3c579919-b43b-52b2-a470-b4d19007821d.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:cristian-morales",
+      "label": "Incumbent",
+      "text": "No (sources: NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-maxine-waters-advances-to-the-general-election-for-u-s-house-in-californias-43rd/article_3c579919-b43b-52b2-a470-b4d19007821d.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:cristian-morales",
+      "label": "2026 primary result",
+      "text": "Advanced from the June 2, 2026 primary as the Republican candidate; an early partial count showed about 19.6% of the vote. (sources: NBC Los Angeles https://www.nbclosangeles.com/news/local/congressional-district-43-maxine-waters-cristian-morales/3954907/ [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

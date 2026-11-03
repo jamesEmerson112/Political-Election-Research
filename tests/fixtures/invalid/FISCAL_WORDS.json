@@ -1,0 +1,1 @@
+{"description":"A fiscal effect sized in words whose words are not in its citation quote.","expect":["FISCAL_WORDS"],"patches":[{"file":"contests/2030-zz-general/exampleville-prop-f.json","set":{"/fiscal/effects/0/words":"about a billion dollars"}}]}

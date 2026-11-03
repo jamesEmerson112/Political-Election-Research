@@ -1,0 +1,1 @@
+{"description":"A source with no Wayback snapshot (warning; error under --strict).","strict":true,"expect":["ARCHIVE_REQUIRED"],"patches":[{"file":"sources/news-example-com-e70a5fe80d.json","remove":["/archive_url"]}]}

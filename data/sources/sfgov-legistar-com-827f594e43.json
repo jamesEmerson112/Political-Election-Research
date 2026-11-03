@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-827f594e43",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2022-06-07",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 220341 · Board of Supervisors final passage of June 7, 2022",
+  "url": "https://sfgov.legistar.com/HistoryDetail.aspx?ID=25559660&GUID=66A7A7D0-7B84-4F71-BB0C-2F7895A7FB42",
+  "notes": "Legistar action-details page, opened by the research agent on 2026-11-03. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

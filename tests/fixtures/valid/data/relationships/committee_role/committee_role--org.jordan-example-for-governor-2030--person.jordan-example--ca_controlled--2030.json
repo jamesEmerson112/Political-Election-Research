@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.jordan-example-for-governor-2030--person.jordan-example--ca_controlled--2030",
+  "type": "committee_role",
+  "contest": "contest:2030-zz-general/governor",
+  "subject": "person:jordan-example",
+  "committee": "org:jordan-example-for-governor-2030",
+  "cycle": 2030,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:disclosure-example-gov-a9d93e0b01",
+      "locator": "Cover page"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

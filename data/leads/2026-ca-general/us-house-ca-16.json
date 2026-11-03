@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-16",
+  "items": [
+    {
+      "person": "person:sam-liccardo",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; LocalCandidates https://www.localcandidates.org/elections/2026-us-house-of-representatives-ca-16/compare/peter-soule-vs-sam-liccardo [search summary, secondary]; Know Your Reps https://knowyourreps.io/races/2026/california/district-16 [search summary, secondary]; Associated Press (via The Daily Review) https://www.thedailyreview.com/ap/washington/republican-peter-soul-advances-to-the-general-election-for-u-s-house-in-californias-16th/article_d5386d38-4635-5207-ad5c-c4c83fe8bab4.html [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326) [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sam-liccardo",
+      "label": "Party",
+      "text": "Democratic (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; LocalCandidates https://www.localcandidates.org/elections/2026-us-house-of-representatives-ca-16/compare/peter-soule-vs-sam-liccardo [search summary, secondary]; Know Your Reps https://knowyourreps.io/races/2026/california/district-16 [search summary, secondary]; Associated Press (via The Daily Review) https://www.thedailyreview.com/ap/washington/republican-peter-soul-advances-to-the-general-election-for-u-s-house-in-californias-16th/article_d5386d38-4635-5207-ad5c-c4c83fe8bab4.html [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326) [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:sam-liccardo",
+      "label": "Incumbent",
+      "text": "Yes (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; LocalCandidates https://www.localcandidates.org/elections/2026-us-house-of-representatives-ca-16/compare/peter-soule-vs-sam-liccardo [search summary, secondary]; Know Your Reps https://knowyourreps.io/races/2026/california/district-16 [search summary, secondary]; Associated Press (via The Daily Review) https://www.thedailyreview.com/ap/washington/republican-peter-soul-advances-to-the-general-election-for-u-s-house-in-californias-16th/article_d5386d38-4635-5207-ad5c-c4c83fe8bab4.html [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326) [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sam-liccardo",
+      "label": "U.S. House",
+      "text": "U.S. Representative for California's 16th Congressional District since 2025. (sources: Voteview (UCLA) https://voteview.com/person/22532/sam-t-liccardo [search summary, secondary]; Ballotpedia https://ballotpedia.org/Sam_Liccardo [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:sam-liccardo",
+      "label": "San Jose",
+      "text": "Mayor of San Jose, 2015 to 2023 (Ballotpedia lists 2015 to 2022). Member of the San Jose City Council, 2007 to 2015 per a Biographical Directory entry; another source says he was elected to the council in 2006. (sources: Wikipedia https://en.wikipedia.org/wiki/Sam_Liccardo [search summary, secondary]; Ballotpedia https://ballotpedia.org/Sam_Liccardo [search summary, secondary]; Voteview (UCLA) https://voteview.com/person/22532/sam-t-liccardo [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:sam-liccardo",
+      "label": "Prosecutor",
+      "text": "Before his 2006 election to public office, worked as a criminal prosecutor in the Santa Clara County District Attorney's Office; some accounts also describe work as a federal prosecutor. (sources: Wikipedia https://en.wikipedia.org/wiki/Sam_Liccardo [search summary, secondary]; San Jose Inside https://sanjoseinside.com/politics/3_14_12_sam_liccardo_mayor_city_council_district_attrorney_downtown [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:sam-liccardo",
+      "label": "Education",
+      "text": "Graduated from Bellarmine College Preparatory, San Jose, 1987; B.A., government, Georgetown University; J.D., Harvard Law School; M.P.P., Harvard Kennedy School. (sources: Legilist (reproduces Biographical Directory text) https://legilist.com/legislator/L000607 [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Sam_Liccardo [search summary, secondary]; Ballotpedia https://ballotpedia.org/Sam_Liccardo [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:peter-sundin-soule",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; LocalCandidates https://www.localcandidates.org/elections/2026-us-house-of-representatives-ca-16/compare/peter-soule-vs-sam-liccardo [search summary, secondary]; Know Your Reps https://knowyourreps.io/races/2026/california/district-16 [search summary, secondary]; Associated Press (via The Daily Review) https://www.thedailyreview.com/ap/washington/republican-peter-soul-advances-to-the-general-election-for-u-s-house-in-californias-16th/article_d5386d38-4635-5207-ad5c-c4c83fe8bab4.html [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326) [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:peter-sundin-soule",
+      "label": "Party",
+      "text": "Republican (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; LocalCandidates https://www.localcandidates.org/elections/2026-us-house-of-representatives-ca-16/compare/peter-soule-vs-sam-liccardo [search summary, secondary]; Know Your Reps https://knowyourreps.io/races/2026/california/district-16 [search summary, secondary]; Associated Press (via The Daily Review) https://www.thedailyreview.com/ap/washington/republican-peter-soul-advances-to-the-general-election-for-u-s-house-in-californias-16th/article_d5386d38-4635-5207-ad5c-c4c83fe8bab4.html [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326) [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:peter-sundin-soule",
+      "label": "Ballot designation",
+      "text": "\"Investor\" (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; LocalCandidates https://www.localcandidates.org/elections/2026-us-house-of-representatives-ca-16/compare/peter-soule-vs-sam-liccardo [search summary, secondary]; Know Your Reps https://knowyourreps.io/races/2026/california/district-16 [search summary, secondary]; Associated Press (via The Daily Review) https://www.thedailyreview.com/ap/washington/republican-peter-soul-advances-to-the-general-election-for-u-s-house-in-californias-16th/article_d5386d38-4635-5207-ad5c-c4c83fe8bab4.html [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326) [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:peter-sundin-soule",
+      "label": "Incumbent",
+      "text": "No (sources: Voteclock https://voteclock.org/california-candidates-on-the-ballot-2026 [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; LocalCandidates https://www.localcandidates.org/elections/2026-us-house-of-representatives-ca-16/compare/peter-soule-vs-sam-liccardo [search summary, secondary]; Know Your Reps https://knowyourreps.io/races/2026/california/district-16 [search summary, secondary]; Associated Press (via The Daily Review) https://www.thedailyreview.com/ap/washington/republican-peter-soul-advances-to-the-general-election-for-u-s-house-in-californias-16th/article_d5386d38-4635-5207-ad5c-c4c83fe8bab4.html [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_California_(districts_1%E2%80%9326) [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:peter-sundin-soule",
+      "label": "Occupation",
+      "text": "Investor. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Prediction Edge https://www.predictionedge.com/elections/profile/peter-sundin-soule/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:peter-sundin-soule",
+      "label": "Education",
+      "text": "B.A., University of California, Santa Barbara; M.B.A., Finance, Golden Gate University. (sources: Prediction Edge https://www.predictionedge.com/elections/profile/peter-sundin-soule/ [search summary, secondary]; Ballotpedia https://ballotpedia.org/Peter_Soule [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:peter-sundin-soule",
+      "label": "Career and party roles",
+      "text": "Businessman and investor; has not held elected office; member of the Santa Clara County Republican Central Committee. (sources: Ballot Explained https://ballotexplained.com/races/california/district-16 [search summary, secondary])",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.yes-on-prop-1-committee--contest.2030-zz-general.prop-1--primarily_formed_support--2030",
+  "type": "committee_role",
+  "subject": "contest:2030-zz-general/prop-1",
+  "committee": "org:yes-on-prop-1-committee",
+  "cycle": 2030,
+  "role": "primarily_formed_support",
+  "citations": [
+    {
+      "source": "src:disclosure-example-gov-d515abd0c4",
+      "locator": "Cover page"
+    }
+  ],
+  "last_verified": "2030-11-01"
+}

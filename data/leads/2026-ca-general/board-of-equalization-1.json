@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/board-of-equalization-1",
+  "items": [
+    {
+      "person": "person:nelson-esparza",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:nelson-esparza",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:nelson-esparza",
+      "label": "Ballot designation",
+      "text": "\"Teacher/Economist/Councilmember\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:nelson-esparza",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:nelson-esparza",
+      "label": "Current office",
+      "text": "Member, Fresno City Council. (sources: CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:shannon-grove",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:shannon-grove",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:shannon-grove",
+      "label": "Ballot designation",
+      "text": "\"State Senator/Businesswoman\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:shannon-grove",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:shannon-grove",
+      "label": "Current office",
+      "text": "Member, California State Senate. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/board-of-equalization/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

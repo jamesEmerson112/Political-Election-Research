@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "graph-civlab-org-000df829c9",
+  "kind": "reference_work",
+  "accessed": "2026-11-03",
+  "publisher": "CivLab",
+  "title": "CivLab · United States House of Representatives",
+  "url": "https://graph.civlab.org/us/elected/us-the-house-of-representatives",
+  "notes": "CivLab government graph (graph.civlab.org, by Michael Adams). Secondary source: its legalSourceUrl points to the primary text. No license or terms were found; only counts, body names and short quotes are recorded."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-legislature-ca-gov-62dc448561",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Legislative Information (Legislative Counsel)",
+  "title": "California Constitution, Article IV (Codes Display Text)",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CONS&article=IV",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified. curl and Playwright both reached this exact URL but got a Cloudflare 'Just a moment...' challenge (HTTP 403); the challenge needs challenges.cloudflare.com, which the egress proxy refuses. WebFetch: ENOTFOUND. No page text was read."
+}

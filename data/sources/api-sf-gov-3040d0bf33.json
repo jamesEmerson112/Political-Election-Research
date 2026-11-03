@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sf-gov-3040d0bf33",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "Office of the Controller, City and County of San Francisco",
+  "title": "Controller's Statement: Proposition D",
+  "url": "https://api.sf.gov/documents/61756/Proposition_D__Changes_to_Ballot_Measure_Process_-_Signed.pdf"
+}

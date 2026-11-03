@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-legislature-ca-gov-cfe8523b72",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2022-12-05",
+  "publisher": "California State Senate",
+  "title": "Senate Journal, Dec. 5, 2022, p. 1 (2023-24 Regular Session)",
+  "url": "https://leginfo.legislature.ca.gov/faces/pubSenDailyJrn2.xhtml?fileid=842&pagenum=1&sessionnum=0&sessionyear=20232024&type=doc",
+  "notes": "Seen only in web search summaries on 2026-11-03 (host blocked or behind a Cloudflare challenge); citations are unverified."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-e4114bb013",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "The San Francisco Standard",
+  "title": "SFUSD budget article, June 26, 2026 (headline not seen)",
+  "url": "https://sfstandard.com/2026/06/26/sfusd-budget/",
+  "notes": "Seen by a research agent only as a web search summary on 2026-11-03 (sfstandard.com could not be opened from this session). The summary: school board members voted 4-3 to approve the $1.36 billion budget for 2026-27, described as the overall budget rather than the general fund alone. Not verified."
+}

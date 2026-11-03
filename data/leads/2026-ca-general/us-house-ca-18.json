@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-18",
+  "items": [
+    {
+      "person": "person:zoe-lofgren",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/all [search summary, primary]; Independent Joe https://independentjoe.com/races/ca-18/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-shane-lewis-advances-to-the-general-election-for-u-s-house-in-californias-18th/article_64fd4e17-5d9c-5738-bf46-54ccd0b99eb0.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:zoe-lofgren",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/all [search summary, primary]; Independent Joe https://independentjoe.com/races/ca-18/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-shane-lewis-advances-to-the-general-election-for-u-s-house-in-californias-18th/article_64fd4e17-5d9c-5738-bf46-54ccd0b99eb0.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:zoe-lofgren",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/all [search summary, primary]; Independent Joe https://independentjoe.com/races/ca-18/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-shane-lewis-advances-to-the-general-election-for-u-s-house-in-californias-18th/article_64fd4e17-5d9c-5738-bf46-54ccd0b99eb0.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:zoe-lofgren",
+      "label": "U.S. House",
+      "text": "Elected to the U.S. House in 1994 after the retirement of Rep. Don Edwards; in office since January 1995; currently represents California's 18th District. (sources: Office of Rep. Zoe Lofgren (house.gov) https://lofgren.house.gov/sites/evo-subsites/lofgren.house.gov/files/evo-media-document/Zoe%20Long%20Bio_2024.pdf [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Zoe_Lofgren [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:zoe-lofgren",
+      "label": "Santa Clara County Board of Supervisors",
+      "text": "Member of the Santa Clara County Board of Supervisors, 1981 to 1994 per her official site (Voteview lists 1980 to 1994). (sources: Office of Rep. Zoe Lofgren (house.gov) https://lofgren.house.gov/about [search summary, primary]; Voteview (UCLA) https://voteview.com/person/29504/zoe-lofgren [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:zoe-lofgren",
+      "label": "Early career",
+      "text": "Staff assistant to Rep. Don Edwards; partner in the immigration law firm Webber and Lofgren, 1978 to 1980; taught immigration law at the University of Santa Clara School of Law, 1977 to 1980. (sources: Office of Rep. Zoe Lofgren (house.gov) https://lofgren.house.gov/sites/evo-subsites/lofgren.house.gov/files/evo-media-document/Zoe%20Long%20Bio_2024.pdf [search summary, primary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:zoe-lofgren",
+      "label": "Education",
+      "text": "B.A., political science, Stanford University, 1970; J.D., Santa Clara University School of Law, 1975. (sources: Office of Rep. Zoe Lofgren (house.gov) https://lofgren.house.gov/about [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Zoe_Lofgren [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:shane-lewis",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/all [search summary, primary]; Independent Joe https://independentjoe.com/races/ca-18/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-shane-lewis-advances-to-the-general-election-for-u-s-house-in-californias-18th/article_64fd4e17-5d9c-5738-bf46-54ccd0b99eb0.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:shane-lewis",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/all [search summary, primary]; Independent Joe https://independentjoe.com/races/ca-18/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-shane-lewis-advances-to-the-general-election-for-u-s-house-in-californias-18th/article_64fd4e17-5d9c-5738-bf46-54ccd0b99eb0.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:shane-lewis",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/all [search summary, primary]; Independent Joe https://independentjoe.com/races/ca-18/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-shane-lewis-advances-to-the-general-election-for-u-s-house-in-californias-18th/article_64fd4e17-5d9c-5738-bf46-54ccd0b99eb0.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:shane-lewis",
+      "label": "Occupation",
+      "text": "Electrical test engineer and failure analyst; has worked for medical device companies including Abbott and St. Jude Medical. (sources: BenitoLink https://benitolink.com/2026-primary-election-qa-18th-u-s-congressional-district/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:shane-lewis",
+      "label": "Military service",
+      "text": "U.S. Marine Corps veteran. (sources: BenitoLink https://benitolink.com/2026-primary-election-qa-18th-u-s-congressional-district/ [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:shane-lewis",
+      "label": "Prior offices",
+      "text": "Has not held elected office; ran for the Santa Clara County Board of Education in 2024. (sources: BenitoLink https://benitolink.com/2026-primary-election-qa-18th-u-s-congressional-district/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

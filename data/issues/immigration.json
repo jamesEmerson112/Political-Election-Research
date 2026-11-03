@@ -1,0 +1,68 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "immigration",
+  "name": "Immigration enforcement",
+  "description": "The relationship between state and local agencies and federal immigration enforcement.",
+  "questions": [
+    {
+      "id": "expand-cooperation-federal-enforcement",
+      "added": "2026-11-02",
+      "area": "civil_rights",
+      "oppose_means": "Favors keeping or further restricting the current state limits on cooperation.",
+      "support_means": "Favors expanding cooperation beyond current state limits (for example, honoring more federal detainer requests).",
+      "text": "Should state and local law enforcement in California be allowed to cooperate with federal immigration enforcement beyond what current state law permits?",
+      "notes": "Current limits come mainly from the California Values Act (SB 54, 2017), bill ref ca-2017-sb-54."
+    },
+    {
+      "id": "expand-skilled-work-visas",
+      "added": "2026-11-02",
+      "area": "tech",
+      "facets": [
+        {
+          "id": "expand-work-visas",
+          "label": "Expand work visas"
+        },
+        {
+          "id": "expand-green-card-pathways",
+          "label": "Expand green-card pathways"
+        },
+        {
+          "id": "shorten-green-card-waits",
+          "label": "Shorter green-card waits / clear backlogs"
+        },
+        {
+          "id": "labor-standards",
+          "label": "Fair wages and labor protections for visa holders"
+        },
+        {
+          "id": "employer-mobility",
+          "label": "Freedom to change employers"
+        },
+        {
+          "id": "path-to-citizenship",
+          "label": "Clear road to citizenship"
+        },
+        {
+          "id": "processing-reform",
+          "label": "H-1B / O-1 processing reform"
+        },
+        {
+          "id": "per-country-backlog",
+          "label": "Backlog for applicants born in India and China"
+        }
+      ],
+      "oppose_means": "Favors keeping or lowering the number of skilled-worker visas.",
+      "support_means": "Favors raising the number of skilled-worker visas.",
+      "text": "Should the number of employment-based visas for skilled workers, such as H-1B visas, be increased?"
+    },
+    {
+      "id": "abolish-ice",
+      "added": "2026-11-03",
+      "area": "civil_rights",
+      "oppose_means": "Opposes abolishing ICE (may still favor reforms, limits or added oversight of immigration enforcement).",
+      "support_means": "Favors abolishing ICE (for example, eliminating the agency or transferring its functions elsewhere).",
+      "text": "Should Congress abolish U.S. Immigration and Customs Enforcement (ICE)?"
+    }
+  ],
+  "rejected_questions": []
+}

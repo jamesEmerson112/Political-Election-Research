@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/positions.schema.json",
+  "title": "Positions",
+  "description": "All stances of one actor. Path: data/positions/people/<slug>.json or data/positions/organizations/<slug>.json. Entries are kept sorted by (subject, as_of); several dated entries on one subject record how a position changed.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["actor", "positions"],
+  "properties": {
+    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
+    "actor": { "$ref": "defs.schema.json#/$defs/ActorRef" },
+    "positions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Position" }
+    }
+  },
+  "$defs": {
+    "Position": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subject", "stance", "cycle", "as_of"],
+      "properties": {
+        "subject": {
+          "description": "An issue question (q:...) or a ballot measure (contest:...).",
+          "type": "string",
+          "pattern": "^(?:q:[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*|contest:[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*)$"
+        },
+        "stance": {
+          "description": "support/oppose/mixed: from explicit cited evidence. declined_to_answer: the actor was asked and did not answer (a fact about the actor, so cited). no_public_position: we searched and found nothing (a fact about our research, so it carries a search_log instead of citations). Never inferred from party.",
+          "enum": ["support", "oppose", "mixed", "declined_to_answer", "no_public_position"]
+        },
+        "summary": {
+          "description": "One or two plain, neutral sentences paraphrasing the evidence. No adjectives that characterize the actor.",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        },
+        "evidence_type": {
+          "enum": [
+            "statement",
+            "questionnaire",
+            "vote",
+            "authored_legislation",
+            "executive_action",
+            "platform",
+            "debate",
+            "interview"
+          ]
+        },
+        "bill": { "$ref": "defs.schema.json#/$defs/BillRef" },
+        "points": {
+          "description": "Specific elements of the stance, each cited. `facet` names one of the question's facets, so the same element lines up across candidates (shared vs. only one).",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["facet", "text", "citations"],
+            "properties": {
+              "facet": { "$ref": "defs.schema.json#/$defs/Slug" },
+              "text": { "description": "Short neutral paraphrase of what the actor said on this element.", "type": "string", "minLength": 1, "maxLength": 240 },
+              "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+            }
+          }
+        },
+        "cycle": { "$ref": "defs.schema.json#/$defs/Cycle" },
+        "as_of": {
+          "description": "Date the stance is current as of. Every cited source must be published on or before this date.",
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "citations": { "$ref": "defs.schema.json#/$defs/Citations" },
+        "search_log": { "$ref": "defs.schema.json#/$defs/SearchLog" }
+      },
+      "if": {
+        "required": ["stance"],
+        "properties": { "stance": { "const": "no_public_position" } }
+      },
+      "then": {
+        "required": ["search_log"],
+        "properties": { "citations": false, "evidence_type": false, "bill": false }
+      },
+      "else": {
+        "required": ["summary", "evidence_type", "citations"]
+      }
+    }
+  }
+}

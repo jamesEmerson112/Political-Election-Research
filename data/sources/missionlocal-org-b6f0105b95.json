@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-b6f0105b95",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-06-25",
+  "publisher": "Mission Local",
+  "title": "S.F. supervisors finalize budget after unusually quick negotiations",
+  "url": "https://missionlocal.org/2026/06/sf-budget-supervisors-cuts-restore-negotiations/",
+  "notes": "Article text read on 2026-11-03 through the site's WordPress REST API (post 857868). Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

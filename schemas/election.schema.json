@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jamesemerson112.github.io/Political-Election-Research/schemas/election.schema.json",
+  "title": "Election",
+  "description": "One election day. Contests point to their election (not the other way round). Path: data/elections/<id>.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "date", "type", "jurisdiction", "cycle", "citations", "last_verified"],
+  "properties": {
+    "$schema": { "$ref": "defs.schema.json#/$defs/SchemaPointer" },
+    "id": {
+      "description": "<cycle>-<jurisdiction>-<type>, e.g. 2026-ca-general",
+      "$ref": "defs.schema.json#/$defs/Slug"
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "date": { "$ref": "defs.schema.json#/$defs/Date" },
+    "type": { "enum": ["primary", "general", "special_primary", "special_general", "recall"] },
+    "jurisdiction": { "type": "string", "pattern": "^[a-z]{2}$" },
+    "cycle": { "$ref": "defs.schema.json#/$defs/Cycle" },
+    "citations": { "$ref": "defs.schema.json#/$defs/Citations" },
+    "last_verified": { "$ref": "defs.schema.json#/$defs/Date" }
+  }
+}

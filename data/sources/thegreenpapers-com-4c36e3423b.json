@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thegreenpapers-com-4c36e3423b",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "The Green Papers",
+  "title": "2020 Census: House and Electoral College apportionment",
+  "url": "https://TheGreenPapers.com/Census20/HouseAndElectors.phtml",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

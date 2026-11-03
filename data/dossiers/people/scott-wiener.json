@@ -1,0 +1,607 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:scott-wiener",
+  "promises": {
+    "as_of": "2026-11-02",
+    "items": [
+      {
+        "id": "affordable-housing",
+        "as_of": "2026-11-02",
+        "issue": "housing",
+        "summary": "Listed as a proposal in the candidate's official ballot statement (candidate-authored; SF Elections says it has not checked accuracy).",
+        "title": "Affordable housing",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "printed p. 24 / PDF p. 26",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "paid-family-leave",
+        "as_of": "2026-11-02",
+        "summary": "Listed as a proposal in the candidate's official ballot statement (candidate-authored; SF Elections says it has not checked accuracy).",
+        "title": "Paid family leave",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "printed p. 24 / PDF p. 26",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "medicare-for-all",
+        "as_of": "2026-11-02",
+        "issue": "healthcare",
+        "summary": "Listed as a proposal in the candidate's official ballot statement (candidate-authored; SF Elections says it has not checked accuracy).",
+        "title": "Medicare for All",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "printed p. 24 / PDF p. 26",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "greater-transit-investment",
+        "as_of": "2026-11-02",
+        "issue": "transportation",
+        "summary": "Listed as a proposal in the candidate's official ballot statement (candidate-authored; SF Elections says it has not checked accuracy).",
+        "title": "Greater transit investment",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "printed p. 24 / PDF p. 26",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "downtown-recovery",
+        "as_of": "2026-11-02",
+        "summary": "Listed as a proposal in the candidate's official ballot statement (candidate-authored; SF Elections says it has not checked accuracy).",
+        "title": "Downtown recovery",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "printed p. 24 / PDF p. 26",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "accountability-for-immigration-agents",
+        "as_of": "2026-11-02",
+        "issue": "immigration",
+        "summary": "Listed as a proposal in the candidate's official ballot statement (candidate-authored; SF Elections says it has not checked accuracy).",
+        "title": "Accountability for immigration agents",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "printed p. 24 / PDF p. 26",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "congressional-stock-trading-ban",
+        "as_of": "2026-11-02",
+        "summary": "Listed as a proposal in the candidate's official ballot statement (candidate-authored; SF Elections says it has not checked accuracy).",
+        "title": "Congressional stock-trading ban",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "printed p. 24 / PDF p. 26",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "campaign-finance-reform",
+        "as_of": "2026-11-02",
+        "summary": "Listed as a proposal in the candidate's official ballot statement (candidate-authored; SF Elections says it has not checked accuracy).",
+        "title": "Campaign-finance reform",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "locator": "printed p. 24 / PDF p. 26",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §2"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "track_record": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "state-transit-funding-in-the-2023-budget-agreement-and-the-2025-bay-area-transit",
+        "kind": "budget",
+        "date": "2026-02-19",
+        "summary": "Voted for two budget-committee bills: SB 125 (2023), letting regions use state transit capital funds for operating costs under an accountability program after the Governor's May proposal offered no transit aid (Senate 32–7; signed 2023-07-10), and AB 117, requiring a state loan of up to $590 million for operating loans to four Bay Area transit operators (Senate 28–9; signed 2026-02-19); no measured outcome recorded as of 2026-11-03.",
+        "title": "State transit funding: 2023 transportation budget trailer bill (SB 125) and Bay Area transit loan law (AB 117)",
+        "citations": [
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Transportation budget trailer bill.",
+            "locator": "BILL_VERSION_TBL row 20230SB12596CHP (SB 125, Chaptered, 2023-07-10), subject"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "`Committee on Budget and Fiscal Review`\t`LEAD_AUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20230SB12596CHP"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "The bill would authorize a regional transportation planning agency, subject to compliance with the requirements described below, to use those moneys to fund transit operating expenses within its jurisdiction and for the transformative capital improvements authorized under the Transit and Intercity Rail Capital Program, as specified.",
+            "locator": "BILL_VERSION_TBL row 20230SB12596CHP (SB 125, Chaptered, 2023-07-10), text file BILL_VERSION_TBL_7371.lob, Legislative Counsel's Digest (2)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "The bill would require the Transportation Agency to develop and administer an accountability program to govern the distribution of funds",
+            "locator": "BILL_VERSION_TBL row 20230SB12596CHP (SB 125, Chaptered, 2023-07-10), text file BILL_VERSION_TBL_7371.lob, Legislative Counsel's Digest (2)"
+          },
+          {
+            "source": "src:calmatters-org-0cebc484e8",
+            "quote": "While Newsom’s May budget proposal failed to provide any assistance for transit agencies facing a “fiscal cliff,” and delayed $2 billion in construction projects, the Legislature rejected that move and proposed an additional $1.1 billion over the next three years from the state’s cap-and-trade funds."
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Assembly amendments concurred in. (Ayes 32. Noes  7. Page 1772.) Ordered to engrossing and enrolling.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202320240SB125, action 2023-06-27 (action_sequence 11)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "`202320240SB125`\t`SFLOOR`\t`Wiener`\t2023-06-27 00:00:00\t1024\t`AYE`",
+            "locator": "BILL_DETAIL_VOTE_TBL, bill_id 202320240SB125, Senate floor 2023-06-27, vote 1024 (concurrence)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Chaptered by Secretary of State.  Chapter 54, Statutes of 2023.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202320240SB125, action 2023-07-10 (action_sequence 14)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "`Committee on Budget`\t`LEAD_AUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20250AB11796CHP"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "This bill would require, on or before July 1, 2026, the Transportation Agency, subject to various requirements, to loan to the Metropolitan Transportation Commission up to $590,000,000 of funding approved under the program for projects within the San Francisco Bay area.",
+            "locator": "BILL_VERSION_TBL row 20250AB11796CHP (AB 117, Chaptered, 2026-02-19), text file BILL_VERSION_TBL_11217.lob, Legislative Counsel's Digest"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "conditions, for public transit operating purposes to the San Francisco Bay Area Rapid Transit District, the San Francisco Municipal Transportation Agency, the Peninsula Corridor Joint Powers Board, and the Alameda-Contra Costa Transit District.",
+            "locator": "BILL_VERSION_TBL row 20250AB11796CHP (AB 117, Chaptered, 2026-02-19), text file BILL_VERSION_TBL_11217.lob, Legislative Counsel's Digest"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "Read third time. Passed. Ordered to the Assembly. (Ayes 28. Noes  9. Page 3425.).",
+            "locator": "BILL_HISTORY_TBL, bill_id 202520260AB117, action 2026-02-19 (action_sequence 14)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "`202520260AB117`\t`SFLOOR`\t`Wiener`\t2026-02-19 00:00:00\t1003\t`AYE`",
+            "locator": "BILL_DETAIL_VOTE_TBL, bill_id 202520260AB117, Senate floor 2026-02-19, vote 1003 (third reading)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "Chaptered by Secretary of State - Chapter 6, Statutes of 2026.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202520260AB117, action 2026-02-19 (action_sequence 18)"
+          },
+          {
+            "source": "src:calmatters-org-9e408153df",
+            "quote": "Transit agencies will receive a total of $5.1 billion over four years, though the money will be subject to accountability measures and state oversight."
+          },
+          {
+            "source": "src:calmatters-org-f744f4cfcc",
+            "quote": "Sen. Scott Wiener, a Democrat from San Francisco who has been leading the charge to fend off the transit “fiscal cliff,” said the deal would cover a significant portion of transit systems’ collective operating deficit, but said the state should use more federal highway money to fund transit operations."
+          },
+          {
+            "source": "src:missionlocal-org-3e92febf03",
+            "quote": "According to state legislation passed in June, the $750 million loan is cemented into the budget, but the duration and terms of the loan are to be determined in separate “budget trailing” legislation."
+          },
+          {
+            "source": "src:calmatters-org-b7fd1bcc94",
+            "quote": "Eventually, just before adjournment, Newsom said he would “offer short-term financial assistance to support Bay Area transit agencies with hundreds of millions of dollars,” but he didn’t give an exact number."
+          },
+          {
+            "source": "src:missionlocal-org-1c75c1e7d7",
+            "quote": "In 2025, for instance, Wiener secured an emergency state loan for Muni, BART and Caltrain, intended to stabilize them until the regional transit measures passes."
+          }
+        ]
+      },
+      {
+        "id": "sb-35-streamlined-approval-for-qualifying-multifamily-housing-2017",
+        "kind": "legislation",
+        "bill": "ca-2017-sb-35",
+        "date": "2017-09-29",
+        "summary": "Authored SB 35 with principal co-author Sen. Atkins, creating a streamlined, ministerial approval process for qualifying multifamily housing in localities short of their housing-permit targets until January 1, 2026; signed 2017-09-29 (Assembly 47–27, Senate concurrence 23–14), and a 2023 Senate floor analysis counted 19,239 SB 35 units in 2018–2021 local progress reports, 60% affordable to lower-income households.",
+        "title": "SB 35: streamlined approval for qualifying multifamily housing (2017)",
+        "citations": [
+          {
+            "source": "src:archive-gov-ca-gov-cce2284386",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §3"
+            }
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-cd610702a9",
+            "quote": "`Atkins`\t`PRINCIPAL_COAUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20170SB3587CHP"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-cd610702a9",
+            "quote": "This bill would authorize a development proponent to submit an application for a multifamily housing development, which satisfies specified planning objective standards, that is subject to a streamlined, ministerial approval process, as provided, and not subject to a conditional use permit.",
+            "locator": "BILL_VERSION_TBL row 20170SB3587CHP (Chaptered, 2017-09-29), text file BILL_VERSION_TBL_9824.lob, Legislative Counsel's Digest (2)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-cd610702a9",
+            "quote": "The bill would repeal these provisions as of January 1, 2026.",
+            "locator": "BILL_VERSION_TBL row 20170SB3587CHP (Chaptered, 2017-09-29), text file BILL_VERSION_TBL_9824.lob, Legislative Counsel's Digest (2)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "In 2017, SB 35 (Wiener) created a streamlined approval process for infill projects with two or more residential units in localities that have failed to issue sufficient housing permits to meet their RHNA.",
+            "locator": "BILL_ANALYSIS_TBL row 368052 (SB 423, Sen. Floor Analyses, Unfinished Business, 2023-09-08), text file BILL_ANALYSIS_TBL_11658.lob, Background"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-cd610702a9",
+            "quote": "Read third time. Passed. (Ayes 47. Noes 27. Page 3420.) Ordered to the Senate.",
+            "locator": "BILL_HISTORY_TBL, bill_id 201720180SB35, action 2017-09-14 (action_sequence 33)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-cd610702a9",
+            "quote": "Assembly amendments concurred in. (Ayes 23. Noes 14. Page 2958.) Ordered to engrossing and enrolling.",
+            "locator": "BILL_HISTORY_TBL, bill_id 201720180SB35, action 2017-09-15 (action_sequence 35)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-cd610702a9",
+            "quote": "Chaptered by Secretary of State.  Chapter 366, Statutes of 2017.",
+            "locator": "BILL_HISTORY_TBL, bill_id 201720180SB35, action 2017-09-29 (action_sequence 38)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "According to data provided by local governments in their annual progress reports (APRs) between 2018 and 2021 statewide, SB 35 has resulted in 19,239 units, 60% of which are affordable to lower-income households.",
+            "locator": "BILL_ANALYSIS_TBL row 368052 (SB 423, Sen. Floor Analyses, Unfinished Business, 2023-09-08), text file BILL_ANALYSIS_TBL_11658.lob, Background"
+          }
+        ]
+      },
+      {
+        "id": "sb-423-extension-of-sb-35-streamlined-approvals-to-2036-2023",
+        "kind": "legislation",
+        "bill": "ca-2023-sb-423",
+        "date": "2023-10-11",
+        "summary": "Authored SB 423 with principal co-author Asm. Wicks, extending SB 35's streamlined, ministerial approval process to January 1, 2036 and revising its eligibility standards, including for coastal zones; signed 2023-10-11 (Assembly 61–8, Senate concurrence 27–7); no measured outcome recorded as of 2026-11-03.",
+        "title": "SB 423: extension of SB 35 streamlined approvals to 2036 (2023)",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §3"
+            }
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "`Wicks`\t`PRINCIPAL_COAUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20230SB42391CHP"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "The bill would extend the operation of the streamlined, ministerial approval process to January 1, 2036.",
+            "locator": "BILL_VERSION_TBL row 20230SB42391CHP (Chaptered, 2023-10-11), text file BILL_VERSION_TBL_10273.lob, Legislative Counsel's Digest"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "This bill would modify the above-described objective planning standards, including by revising the standard that prohibits a multifamily housing development from being subject to the streamlined, ministerial approval process if the development is located in a coastal zone",
+            "locator": "BILL_VERSION_TBL row 20230SB42391CHP (Chaptered, 2023-10-11), text file BILL_VERSION_TBL_10273.lob, Legislative Counsel's Digest"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Read third time. Passed. (Ayes 61. Noes  8. Page 3063.) Ordered to the Senate.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202320240SB423, action 2023-09-07 (action_sequence 25)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Assembly amendments concurred in. (Ayes 27. Noes  7. Page 2605.) Ordered to engrossing and enrolling.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202320240SB423, action 2023-09-11 (action_sequence 27)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Chaptered by Secretary of State.  Chapter 778, Statutes of 2023.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202320240SB423, action 2023-10-11 (action_sequence 30)"
+          }
+        ]
+      },
+      {
+        "id": "sb-1047-safety-requirements-for-frontier-ai-model-developers-2024",
+        "kind": "legislation",
+        "bill": "ca-2023-sb-1047",
+        "date": "2024-09-29",
+        "summary": "Authored SB 1047, the Safe and Secure Innovation for Frontier Artificial Intelligence Models Act, with co-authors Sens. Roth, Rubio and Stern, requiring developers of covered AI models to implement full-shutdown capability, written safety and security protocols and annual third-party audits; vetoed by the Governor 2024-09-29 after Assembly 48–16 and Senate concurrence 30–9 votes; no measured outcome recorded as of 2026-11-03.",
+        "title": "SB 1047: safety requirements for frontier AI model developers (2024)",
+        "citations": [
+          {
+            "source": "src:sd11-senate-ca-gov-5a4f0abad2",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §3"
+            }
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Safe and Secure Innovation for Frontier Artificial Intelligence Models Act.",
+            "locator": "BILL_VERSION_TBL row 20230SB104788ENR (Enrolled, 2024-09-03), subject"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "`Roth`\t`COAUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20230SB104788ENR"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "`Rubio`\t`COAUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20230SB104788ENR"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "`Stern`\t`COAUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20230SB104788ENR"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "require that a developer, before beginning to initially train a covered model, as defined, comply with various requirements, including implementing the capability to promptly enact a full shutdown, as defined, and implement a written and separate safety and security protocol, as specified.",
+            "locator": "BILL_VERSION_TBL row 20230SB104788ENR (Enrolled, 2024-09-03), text file BILL_VERSION_TBL_19202.lob, Legislative Counsel's Digest"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "The bill would require a developer, beginning January 1, 2026, to annually retain a third-party auditor to perform an independent audit of compliance with those provisions, as prescribed.",
+            "locator": "BILL_VERSION_TBL row 20230SB104788ENR (Enrolled, 2024-09-03), text file BILL_VERSION_TBL_19202.lob, Legislative Counsel's Digest"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Read third time. Passed. (Ayes 48. Noes 16. Page 6719.) Ordered to the Senate.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202320240SB1047, action 2024-08-28 (action_sequence 30)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Assembly amendments concurred in. (Ayes 30. Noes  9. Page 5639.) Ordered to engrossing and enrolling.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202320240SB1047, action 2024-08-29 (action_sequence 32)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "Vetoed by the Governor.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202320240SB1047, action 2024-09-29 (action_sequence 34)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-26b1e3c329",
+            "quote": "I am returning Senate Bill 1047 without my signature.",
+            "locator": "VETO_MESSAGE_TBL, bill_id 202320240SB1047 (2024-10-04), text file VETO_MESSAGE_TBL_295.lob"
+          }
+        ]
+      },
+      {
+        "id": "sb-53-transparency-in-frontier-artificial-intelligence-act-2025",
+        "kind": "legislation",
+        "bill": "ca-2025-sb-53",
+        "date": "2025-09-29",
+        "summary": "Authored SB 53, the Transparency in Frontier Artificial Intelligence Act, with co-author Sen. Rubio, requiring large frontier AI developers to publish a frontier AI framework and send summaries of catastrophic-risk assessments to the Office of Emergency Services; signed 2025-09-29 (Assembly 59–7, Senate concurrence 29–8); no measured outcome recorded as of 2026-11-03.",
+        "title": "SB 53: Transparency in Frontier Artificial Intelligence Act (2025)",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-a7ce44f81a",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §3"
+            }
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "`Rubio`\t`COAUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20250SB5390CHP"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "This bill would enact the Transparency in Frontier Artificial Intelligence Act (TFAIA)",
+            "locator": "BILL_VERSION_TBL row 20250SB5390CHP (Chaptered, 2025-09-29), text file BILL_VERSION_TBL_8965.lob, Legislative Counsel's Digest (1)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "developer to write, implement, and clearly and conspicuously publish on its internet website a frontier AI framework that applies to the large frontier developer’s frontier models",
+            "locator": "BILL_VERSION_TBL row 20250SB5390CHP (Chaptered, 2025-09-29), text file BILL_VERSION_TBL_8965.lob, Legislative Counsel's Digest (1)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "The TFAIA would also require a large frontier developer to transmit to the Office of Emergency Services a summary of any assessment of catastrophic risk, as defined, resulting from internal use of its frontier models, as specified.",
+            "locator": "BILL_VERSION_TBL row 20250SB5390CHP (Chaptered, 2025-09-29), text file BILL_VERSION_TBL_8965.lob, Legislative Counsel's Digest (1)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "Read third time. Passed. (Ayes 59. Noes  7. Page 3432.) Ordered to the Senate.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202520260SB53, action 2025-09-12 (action_sequence 32)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "Assembly amendments concurred in. (Ayes 29. Noes  8. Page 3039.) Ordered to engrossing and enrolling.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202520260SB53, action 2025-09-13 (action_sequence 34)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "Chaptered by Secretary of State.  Chapter 138, Statutes of 2025.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202520260SB53, action 2025-09-29 (action_sequence 37)"
+          }
+        ]
+      },
+      {
+        "id": "sb-1074-platform-self-preferencing-and-data-portability-2026",
+        "kind": "legislation",
+        "bill": "ca-2025-sb-1074",
+        "date": "2026-04-20",
+        "summary": "Authored SB 1074, prohibiting providers of covered platforms from self-preferencing conduct and from restricting interoperability or data portability; passed Senate Judiciary 8–1 (2026-04-14), failed 3–3 in the Senate Privacy, Digital Technologies, and Consumer Protection Committee (2026-04-20, reconsideration granted), and had no later action in the Legislature's 2026-11-01 data; no measured outcome recorded as of 2026-11-03.",
+        "title": "SB 1074: platform self-preferencing and data portability (2026)",
+        "citations": [
+          {
+            "source": "src:sd11-senate-ca-gov-12ae88d869",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §3"
+            }
+          },
+          {
+            "source": "src:calmatters-digitaldemocracy-org-af54c8e3b7",
+            "verified_by": {
+              "by": "maintainer",
+              "date": "2026-11-02",
+              "note": "notes/2026-11-02-ca-11.md §3"
+            }
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "Covered provider: goods and services: self-preferencing conduct.",
+            "locator": "BILL_VERSION_TBL row 20250SB107497AMD (Amended Senate, 2026-04-06), subject"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "`Wiener`\t`LEAD_AUTHOR`",
+            "locator": "BILL_VERSION_AUTHORS_TBL, bill_version_id 20250SB107497AMD"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "“Covered provider” means a person or entity that owns, controls, or operates a covered platform.",
+            "locator": "BILL_VERSION_TBL row 20250SB107497AMD (Amended Senate, 2026-04-06), text file BILL_VERSION_TBL_12785.lob, bill text, definitions"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "The bill would prohibit a covered provider from restricting interoperability or data portability, as specified, including restricting a business user or consumer from obtaining a copy of their data in a useful and portable format.",
+            "locator": "BILL_VERSION_TBL row 20250SB107497AMD (Amended Senate, 2026-04-06), text file BILL_VERSION_TBL_12785.lob, Legislative Counsel's Digest"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "Re-referred to Coms. on  JUD. and  P., D.T., & C.P.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202520260SB1074, action 2026-03-25 (action_sequence 5)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "From committee: Do pass and re-refer to Com. on  P., D.T., & C.P. (Ayes  8. Noes  1. Page 3868.) (April  14). Re-referred to Com. on  P., D.T., & C.P.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202520260SB1074, action 2026-04-15 (action_sequence 9)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "April  20 set for first hearing. Failed passage in committee. (Ayes  3. Noes  3. Page 3957.) Reconsideration granted.",
+            "locator": "BILL_HISTORY_TBL, bill_id 202520260SB1074, action 2026-04-20 (action_sequence 10)"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "`CS87`\t`B`\tNULL\t`Sen Privacy, Digital Technologies, and Consumer Protection`",
+            "locator": "LOCATION_CODE_TBL, session 20252026, location_code CS87"
+          },
+          {
+            "source": "src:downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+            "quote": "`CS87`\t`Committee`\t`Senate`\t`In Committee Process`",
+            "locator": "BILL_TBL, bill_id 202520260SB1074 (last update 2026-05-22 16:17:32; latest history action 2026-04-20, action_sequence 10), current location in the zip dated 2026-11-01"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-03",
+        "query": "Scott Wiener candidate statement, U.S. Representative, District 11",
+        "where": "SF Department of Elections Voter Information Pamphlet PDF (media.api.sf.gov/documents/N26_EN_VIP.pdf): host refused by the session proxy (403); the Wayback snapshot 20261031160434 listed by the archive.org availability API could not be loaded (web.archive.org connection reset)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Scott Wiener candidate statement, U.S. Representative, District 11",
+        "where": "voterguide.sfelections.org, www.sf.gov and sfelections.sfgov.org (redirects to www.sf.gov): unreachable from the research session"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Scott Wiener candidate statement \"Muni, BART\" Caltrain; \"My occupation is\" State Senator; \"Caltrain running\" OR \"BART and Caltrain\"; \"I passed\" OR \"I wrote\" OR \"I secured\" OR \"I authored\"; \"Muni, BART, and Caltrain running\"; \"capped insulin at $35 a month\"",
+        "where": "Web search (summaries), 8 queries, most restricted to media.api.sf.gov; the pamphlet text in the summaries was fragmentary"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "ballot statement; transit funding",
+        "where": "scottwiener.com (campaign site) and sd11.senate.ca.gov: unreachable from the research session"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "2023 budget transit funding; 2025 Bay Area transit loan; SB 63 (2025)",
+        "where": "leginfo.legislature.ca.gov (browser blocked at a Cloudflare challenge; curl 403), ebudget.ca.gov, dof.ca.gov, lao.ca.gov, sbud.senate.ca.gov, mtc.ca.gov, bart.gov, caltrain.com, sfmta.com: unreachable from the research session"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Wiener transit fiscal cliff; Bay Area transit loan 750 million; BART Muni loan (after 2025-09-18)",
+        "where": "CalMatters (site search through its WordPress API)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "regional transit measure BART Muni Caltrain sales tax; \"SB 63\"; state loan BART Muni Wiener; transit loan (after 2025-09-10)",
+        "where": "Mission Local (site search through its WordPress API)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "SB 35 (2017); SB 423, SB 1047, SB 125 (2023–24); SB 53, SB 1074, AB 117 (2025–26): status, history, floor votes, authors, digests, veto message, committee analyses",
+        "where": "California Legislature bulk data at downloads.leginfo.legislature.ca.gov (pubinfo_2017.zip, pubinfo_2023.zip, pubinfo_2025.zip), single tables read through HTTP range requests; leginfo.legislature.ca.gov itself sits behind a Cloudflare check"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "HCD annual progress report SB 35 streamlined ministerial approval units approved statewide",
+        "where": "Web search (1 query); led to the SB 35 unit count in the 2023 Senate floor analysis of SB 423 (BILL_ANALYSIS_TBL); no later statewide count was opened"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "SB 35 (2017); SB 423, SB 1047, SB 125 (2023–24); SB 53, SB 1074, AB 117 (2025–26): status, history, floor votes, authors, digests, veto message, committee analyses",
+        "where": "California Legislature bulk data at downloads.leginfo.legislature.ca.gov (pubinfo_2017.zip, pubinfo_2023.zip, pubinfo_2025.zip), single tables read through HTTP range requests; leginfo.legislature.ca.gov itself sits behind a Cloudflare check"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "HCD annual progress report SB 35 streamlined ministerial approval units approved statewide",
+        "where": "Web search (1 query); led to the SB 35 unit count in the 2023 Senate floor analysis of SB 423 (BILL_ANALYSIS_TBL); no later statewide count was opened"
+      }
+    ]
+  }
+}

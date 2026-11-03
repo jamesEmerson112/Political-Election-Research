@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "voterguide-sos-ca-gov-ccd9dbed23",
+  "kind": "voter_guide",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "California Secretary of State",
+  "title": "Official Voter Information Guide, Proposition 45: Official Title and Summary",
+  "url": "https://voterguide.sos.ca.gov/propositions/45/title-summary.htm"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../../schemas/issue.schema.json",
+  "id": "widgets",
+  "name": "Widgets",
+  "description": "Public support for the widget industry.",
+  "questions": [
+    {
+      "id": "subsidize-widgets",
+      "added": "2030-06-01",
+      "area": "economy",
+      "facets": [
+        {
+          "id": "grant-program",
+          "label": "Grant program for manufacturers"
+        },
+        {
+          "id": "local-hiring",
+          "label": "Local hiring conditions"
+        }
+      ],
+      "oppose_means": "Opposes state subsidies for widget manufacturing.",
+      "support_means": "Favors state subsidies for widget manufacturing.",
+      "text": "Should the state subsidize widget manufacturing?"
+    }
+  ],
+  "rejected_questions": [
+    {
+      "date": "2030-06-01",
+      "reason": "Not a policy question; no clear support/oppose meaning.",
+      "text": "Are widgets good?"
+    }
+  ]
+}

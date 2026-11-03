@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "reproductive-rights",
+  "name": "Reproductive rights",
+  "description": "Federal law on access to abortion and reproductive health care.",
+  "questions": [
+    {
+      "id": "federal-abortion-protection",
+      "added": "2026-11-03",
+      "area": "civil_rights",
+      "oppose_means": "Opposes a federal law protecting access to abortion nationwide (may favor leaving the issue to states or restricting access).",
+      "support_means": "Favors a federal law protecting access to abortion nationwide.",
+      "text": "Should federal law protect access to abortion nationwide?"
+    }
+  ],
+  "rejected_questions": []
+}

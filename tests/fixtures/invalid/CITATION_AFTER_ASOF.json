@@ -1,0 +1,1 @@
+{"description":"A stance dated before the article it cites was published.","expect":["CITATION_AFTER_ASOF"],"patches":[{"file":"positions/people/avery-sample.json","set":{"/positions/1/as_of":"2030-09-10"}}]}

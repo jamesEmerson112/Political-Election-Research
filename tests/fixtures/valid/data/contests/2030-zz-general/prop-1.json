@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../../../schemas/contest.schema.json",
+  "id": "2030-zz-general/prop-1",
+  "kind": "measure",
+  "election": "election:2030-zz-general",
+  "name": "Proposition 1",
+  "number": "1",
+  "official_title": {
+    "value": "Widget Investment Act",
+    "citations": [
+      {
+        "source": "src:sos-example-gov-daf26b8dba",
+        "quote": "Proposition 1 — Widget Investment Act"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "summary": {
+    "value": "Creates a state fund for widget manufacturing grants.",
+    "citations": [
+      {
+        "source": "src:sos-example-gov-daf26b8dba",
+        "quote": "Creates a state fund for widget manufacturing grants."
+      }
+    ]
+  },
+  "last_verified": "2030-11-01"
+}

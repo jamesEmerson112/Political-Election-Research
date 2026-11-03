@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/issue.schema.json",
+  "id": "technology",
+  "name": "Technology and competition",
+  "description": "Competition policy for large online platforms and the technology industry.",
+  "questions": [
+    {
+      "id": "platform-self-preferencing",
+      "added": "2026-11-02",
+      "area": "tech",
+      "oppose_means": "Opposes such a prohibition.",
+      "support_means": "Favors prohibiting self-preferencing by dominant platforms.",
+      "text": "Should dominant online platforms be prohibited from favoring their own products and services over competitors' products on their platforms?"
+    }
+  ],
+  "rejected_questions": []
+}

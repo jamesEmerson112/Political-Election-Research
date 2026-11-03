@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-36",
+  "candidates": [
+    {
+      "person": "person:ted-lieu",
+      "name": "Ted Lieu"
+    },
+    {
+      "person": "person:houston-brignano",
+      "name": "Houston Brignano"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:us-representative-california",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Santa Monica Daily Press certified results: Lieu 60.9% (142,982), Brignano (R) 15.3% (35,851), Melissa Toomim (R) 13.1% (30,653). The Daily Bruin reports a Lieu vs Brignano general. The ballot name form for Lieu (for example, with a middle initial) is unverified. No occupation, office, or education facts were found for Brignano. Lieu's office dates, education, and military service were not researched because the web-search budget ran out. Incumbent means the current member for district number 36; Prop 50 redrew the boundaries."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

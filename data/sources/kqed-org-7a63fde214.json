@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-7a63fde214",
+  "kind": "news_report",
+  "accessed": "2026-11-02",
+  "published": "2026-03-19",
+  "publisher": "KQED",
+  "title": "Scott Wiener and Garry Tan team up",
+  "url": "https://www.kqed.org/news/12076862/scott-wiener-and-garry-tan-team-up-to-tackle-big-techs-anti-competitive-behavior",
+  "notes": "Reviewed by the project maintainer on 2026-11-02 (notes/2026-11-02-ca-11.md, source [9]); not opened by the recording agent; archive snapshot pending."
+}

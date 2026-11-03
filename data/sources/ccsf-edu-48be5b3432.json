@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ccsf-edu-48be5b3432",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Community College District",
+  "title": "BP 1.01 Election and Membership",
+  "url": "https://www.ccsf.edu/sites/default/files/2020/document/bp-1-01-1396.pdf",
+  "notes": "Seen by a research agent only as a web search summary on 2026-11-03 (ccsf.edu could not be opened from this session). The summaries: board members shall be elected to staggered four-year terms in even-numbered years as provided in the City Charter; the board has seven members elected by the voters of the district, and a student representative serves under state law. Not verified."
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-35",
+  "items": [
+    {
+      "person": "person:norma-j-torres",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:norma-j-torres",
+      "label": "Party",
+      "text": "Democratic (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:norma-j-torres",
+      "label": "Incumbent",
+      "text": "Yes (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-cargile",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-cargile",
+      "label": "Party",
+      "text": "Republican (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mike-cargile",
+      "label": "Incumbent",
+      "text": "No (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-cargile",
+      "label": "Prior candidacies",
+      "text": "Republican nominee against Norma Torres in the 2022 and 2024 general elections for CA-35; received 41.6% of the vote in 2024. (sources: Ballotpedia https://ballotpedia.org/Mike_Cargile [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2024-elections/california-us-house-district-35-results [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

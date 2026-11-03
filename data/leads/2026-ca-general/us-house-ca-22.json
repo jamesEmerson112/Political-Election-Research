@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-22",
+  "items": [
+    {
+      "person": "person:david-g-valadao",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/22 [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/12/incumbent-david-valadao-r-and-randy-villegas-d-advanced-from-the-top-two-primary-for-californias-22nd-congressional-district-on-june-2-2026/ [search summary, secondary]; Fresno Chamber of Commerce (Fresnoland) https://fresnochamber.com/news/heres-whats-on-the-november-2026-ballot-for-fresno-county-voters/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:david-g-valadao",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/22 [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/12/incumbent-david-valadao-r-and-randy-villegas-d-advanced-from-the-top-two-primary-for-californias-22nd-congressional-district-on-june-2-2026/ [search summary, secondary]; Fresno Chamber of Commerce (Fresnoland) https://fresnochamber.com/news/heres-whats-on-the-november-2026-ballot-for-fresno-county-voters/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:david-g-valadao",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/22 [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/12/incumbent-david-valadao-r-and-randy-villegas-d-advanced-from-the-top-two-primary-for-californias-22nd-congressional-district-on-june-2-2026/ [search summary, secondary]; Fresno Chamber of Commerce (Fresnoland) https://fresnochamber.com/news/heres-whats-on-the-november-2026-ballot-for-fresno-county-voters/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:david-g-valadao",
+      "label": "U.S. House",
+      "text": "U.S. Representative 2013 to 2019 and since January 3, 2021; represented the 21st District and, since 2023, the 22nd District. (sources: U.S. House History, Art & Archives https://history.house.gov/People/Detail/15032387819 [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/David_Valadao [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:david-g-valadao",
+      "label": "California State Assembly",
+      "text": "Member of the California State Assembly, 30th District, 2010 to 2012. (sources: Wikipedia https://en.wikipedia.org/wiki/David_Valadao [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:david-g-valadao",
+      "label": "Dairy",
+      "text": "Partner in Valadao Dairy with his brother since 1992; managing partner. (sources: Office of Rep. David Valadao (house.gov) https://valadao.house.gov/about/ [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/David_Valadao [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:david-g-valadao",
+      "label": "Education",
+      "text": "Graduated from Hanford High School, 1995; attended College of the Sequoias, Visalia, 1996 to 1998. (sources: U.S. House History, Art & Archives https://history.house.gov/People/Detail/15032387819 [search summary, primary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:randy-villegas",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/22 [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/12/incumbent-david-valadao-r-and-randy-villegas-d-advanced-from-the-top-two-primary-for-californias-22nd-congressional-district-on-june-2-2026/ [search summary, secondary]; Fresno Chamber of Commerce (Fresnoland) https://fresnochamber.com/news/heres-whats-on-the-november-2026-ballot-for-fresno-county-voters/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:randy-villegas",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/22 [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/12/incumbent-david-valadao-r-and-randy-villegas-d-advanced-from-the-top-two-primary-for-californias-22nd-congressional-district-on-june-2-2026/ [search summary, secondary]; Fresno Chamber of Commerce (Fresnoland) https://fresnochamber.com/news/heres-whats-on-the-november-2026-ballot-for-fresno-county-voters/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:randy-villegas",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://dp.electionresults.sos.ca.gov/returns/us-rep/district/22 [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/12/incumbent-david-valadao-r-and-randy-villegas-d-advanced-from-the-top-two-primary-for-californias-22nd-congressional-district-on-june-2-2026/ [search summary, secondary]; Fresno Chamber of Commerce (Fresnoland) https://fresnochamber.com/news/heres-whats-on-the-november-2026-ballot-for-fresno-county-voters/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:randy-villegas",
+      "label": "Visalia Unified School District",
+      "text": "Member of the Visalia Unified School District Board of Education, Trustee Area 6: provisionally appointed in December 2021; candidate for the seat in the November 2022 election. (sources: Our Valley Voice https://www.ourvalleyvoice.com/2021/12/10/visalia-unified-school-district-board-provisionally-appoints-randy-villegas-to-trustee-area-6-seat/ [search summary, secondary]; Our Valley Voice https://www.ourvalleyvoice.com/2022/07/29/randy-villegas-declares-candidacy-and-pulls-paper-to-run-for-visalia-unified-school-board-area-6/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Randy_Villegas [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:randy-villegas",
+      "label": "Occupation",
+      "text": "Community college professor; his campaign also describes him as an auto repair shop owner. (sources: Villegas for Congress https://www.villegasforcongress.com/news/randy-villegas-surges-following-dcccs-eleventh-hour-meddling [search summary, primary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

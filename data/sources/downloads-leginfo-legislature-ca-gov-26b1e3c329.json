@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "downloads-leginfo-legislature-ca-gov-26b1e3c329",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2024-11-24",
+  "publisher": "California State Legislature, Legislative Counsel",
+  "title": "Legislative information bulk download, 2023–24 session (pubinfo_2023.zip: BILL_TBL, BILL_HISTORY_TBL, BILL_SUMMARY_VOTE_TBL, BILL_DETAIL_VOTE_TBL, BILL_VERSION_TBL, BILL_VERSION_AUTHORS_TBL, BILL_ANALYSIS_TBL, VETO_MESSAGE_TBL and their text files)",
+  "url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2023.zip",
+  "notes": "Official bulk data behind leginfo.legislature.ca.gov. Read on 2026-11-03 through HTTP range requests (single tables pulled from the zip; server Last-Modified 2024-11-25 05:26 GMT). Quotes are verbatim cell text or bill digest, analysis or veto-message text; a tab inside a quote is the table's field separator. Not archived: the 1.2 GB zip is too large for the Wayback save endpoint."
+}

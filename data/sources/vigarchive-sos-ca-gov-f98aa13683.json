@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "vigarchive-sos-ca-gov-f98aa13683",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Secretary of State",
+  "title": "Official Voter Information Guide, June 2012: Proposition 28 analysis",
+  "url": "https://vigarchive.sos.ca.gov/2012/primary/propositions/28/analysis.htm",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

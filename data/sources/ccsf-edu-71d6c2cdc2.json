@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ccsf-edu-71d6c2cdc2",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "City College of San Francisco",
+  "title": "FY27 adopted budget (fy27-adopted-budget-v16.pdf)",
+  "url": "https://www.ccsf.edu/sites/default/files/2026/document/fy27-adopted-budget-v16.pdf",
+  "notes": "Seen by a research agent only as a web search summary on 2026-11-03 (ccsf.edu could not be opened from this session). The summary: the district is governed by a seven-member Board of Trustees, elected by district voters, together with a non-voting Student Trustee. No budget total appeared in the summaries. Not verified."
+}

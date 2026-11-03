@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sf-gov-c208064ffa",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "City and County of San Francisco, Redistricting Task Force",
+  "title": "Redistricting Task Force draft report",
+  "url": "https://sf.gov/file/redistricting-task-force-draft-report",
+  "notes": "Seen by a research agent as a search summary on 2026-11-03; not verified."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ebudget-ca-gov-a1d1ab2ad3",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Department of Finance",
+  "title": "ebudget.ca.gov: 2026-27 Enacted Budget application info (JSON)",
+  "url": "https://ebudget.ca.gov/api/budget/e/2026-27/appInfo",
+  "notes": "Data behind https://ebudget.ca.gov/budget/e/2026-27/BudgetSummary."
+}

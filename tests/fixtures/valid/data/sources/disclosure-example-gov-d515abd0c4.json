@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "disclosure-example-gov-d515abd0c4",
+  "kind": "campaign_finance_filing",
+  "accessed": "2030-11-01",
+  "archive_url": "https://web.archive.org/web/20301005120000/https://disclosure.example.gov/filing/1400005/9005",
+  "filing": {
+    "filer_id": "1400005",
+    "filing_id": "9005",
+    "form": "460",
+    "period": {
+      "end": "2030-10-17",
+      "start": "2030-01-01"
+    },
+    "system": "cal-access"
+  },
+  "published": "2030-10-24",
+  "publisher": "Example disclosure system",
+  "title": "Form 460, filer 1400005",
+  "url": "https://disclosure.example.gov/filing/1400005/9005"
+}

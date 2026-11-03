@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ebudget-ca-gov-da7a792829",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Department of Finance",
+  "title": "Schedule 6 at 2026 Budget Act: Summary of State Population, Employees, and Expenditures",
+  "url": "https://ebudget.ca.gov/2026-27/pdf/Enacted/BudgetSummary/BS_SCH6.pdf"
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/insurance-commissioner",
+  "items": [
+    {
+      "person": "person:jane-kim",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State (Statement of Vote) https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/67-ic.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/california-insurance-commissioner-race-is-set-kim-vs-allen [search summary, secondary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jane-kim",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State (Statement of Vote) https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/67-ic.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/california-insurance-commissioner-race-is-set-kim-vs-allen [search summary, secondary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jane-kim",
+      "label": "Ballot designation",
+      "text": "\"Attorney/Consumer Advocate\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State (Statement of Vote) https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/67-ic.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/california-insurance-commissioner-race-is-set-kim-vs-allen [search summary, secondary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jane-kim",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State (Statement of Vote) https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/67-ic.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/california-insurance-commissioner-race-is-set-kim-vs-allen [search summary, secondary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jane-kim",
+      "label": "Occupation",
+      "text": "Attorney. (sources: KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:jane-kim",
+      "label": "Previous office",
+      "text": "Former member, San Francisco Board of Supervisors (years not confirmed in sources seen). (sources: KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary]; InsuranceNewsNet https://insurancenewsnet.com/oarticle/who-are-democrats-kim-and-allen-californias-insurance-commissioner-candidates [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:ben-allen",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State (Statement of Vote) https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/67-ic.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/california-insurance-commissioner-race-is-set-kim-vs-allen [search summary, secondary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ben-allen",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State (Statement of Vote) https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/67-ic.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/california-insurance-commissioner-race-is-set-kim-vs-allen [search summary, secondary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ben-allen",
+      "label": "Ballot designation",
+      "text": "\"California State Senator\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State (Statement of Vote) https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/67-ic.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/california-insurance-commissioner-race-is-set-kim-vs-allen [search summary, secondary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ben-allen",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State (Statement of Vote) https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/67-ic.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/california-insurance-commissioner-race-is-set-kim-vs-allen [search summary, secondary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ben-allen",
+      "label": "Current office",
+      "text": "Member, California State Senate. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; KQED https://www.kqed.org/science/2001142/kim-leads-early-as-insurance-commissioner-race-heads-toward-general-election [search summary, secondary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

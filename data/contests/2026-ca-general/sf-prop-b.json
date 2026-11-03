@@ -1,0 +1,734 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/sf-prop-b",
+  "kind": "measure",
+  "election": "election:2026-ca-general",
+  "name": "San Francisco Proposition B",
+  "affects": [
+    {
+      "conditional": true,
+      "effect": "receives",
+      "group": "businesses",
+      "text": "Businesses in the City could get services from the MFC or public bank, including support for small business development",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The MFC and public bank would provide services to support: • affordable housing development, • affordable homeownership, • small business development, • environmental sustainability, and • environmental justice. These services would be available to individual City residents and to projects and businesses located in the City.",
+          "locator": "p. 70, Proposition B digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "group": "city_departments",
+      "text": "Treasurer-Tax Collector would decide if funding is adequate; an MFC and an MFC Oversight Commission could then be set up",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The proposed Charter amendment sets up the governance framework for a new MFC and Public Bank. If the Charter amendment is approved, and the Treasurer-Tax Collector determines that adequate funding exists, the MFC and an MFC Oversight Commission may be established.",
+          "locator": "p. 70, Controller’s Statement on “B”"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "receives",
+      "group": "commission_members",
+      "text": "Members of an MFC or Bank Oversight Commission could receive stipends",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Finally, the MFC and Public Bank would require an MFC Oversight Commission or Bank Oversight Commission which could cost between $550,000 to $600,000 annually for staff salaries, commissioner stipends, and operating costs.",
+          "locator": "p. 71, Controller’s Statement on “B”"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "rules_change",
+      "group": "commission_members",
+      "text": "If set up, each oversight commission's members would be appointed by the Board, Mayor, Treasurer-Tax Collector, Controller and City Attorney",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The members of each oversight commission would be appointed by the Board of Supervisors, Mayor, Treasurer-Tax Collector, Controller, and City Attorney.",
+          "locator": "p. 70, Proposition B digest, The Proposal"
+        }
+      ]
+    },
+    {
+      "conditional": true,
+      "effect": "receives",
+      "group": "other",
+      "label": "City residents",
+      "text": "If the City sets up the MFC or public bank, its services, such as for affordable housing and homeownership, would be available to residents",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The MFC and public bank would provide services to support: • affordable housing development, • affordable homeownership, • small business development, • environmental sustainability, and • environmental justice. These services would be available to individual City residents and to projects and businesses located in the City.",
+          "locator": "p. 70, Proposition B digest, The Proposal"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "The San Francisco Foundation",
+        "San Francisco Public Bank Coalition",
+        "District 11 Supervisor Chyanne Chen",
+        "District 5 Supervisor Bilal Mahmood",
+        "District 7 Supervisor Myrna Melgar",
+        "District 8 Supervisor Rafael Mandelman",
+        "District 9 Supervisor Jackie Fielder",
+        "District 10 Supervisor Shamann Walton",
+        "San Francisco Labor Council",
+        "San Francisco Climate Emergency Coalition",
+        "Affordable Housing Alliance",
+        "San Francisco Tenants Union"
+      ],
+      "side": "yes",
+      "text": "Prop B will ensure that a San Francisco Public Bank is fiscally responsible, independent from political influence, and serves San Francisco’s priorities. A Public Bank puts the people of San Francisco over private profits to finance the things we need. The shareholders would be the people of San Francisco, so we benefit not only from our bank’s profits but also the San Francisco projects it supports. Prop B is a crucial step in creating a Public Bank. A Public Bank will provide affordable loans for: • Affordable housing development, • Affordable homeownership, • Small business development, • Environmental sustainability, and • Environmental justice. Prop B ensures that the Public Bank will be run by banking professionals, not politicians, and creates a public oversight body, so every San Franciscan has the opportunity to monitor and provide input. A public bank is about making sure San Franciscans’ money benefits San Franciscans. Passing Prop B now allows us to take advantage of the time-limited state law that enables local cities to create public banks. A public bank creates a powerful new tool to address some of our city’s most urgent priorities. Public banking is a proven development model. Globally 25% of banking assets are held in public banks, and Germany holds 40% of its banking assets in public banks. Prop B establishes the purpose and structure of a public bank. Prop B is not a tax, and will not raise taxes for San Franciscans.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Prop B will ensure that a San Francisco Public Bank is fiscally responsible, independent from political influence, and serves San Francisco’s priorities. A Public Bank puts the people of San Francisco over private profits to finance the things we need. The shareholders would be the people of San Francisco, so we benefit not only from our bank’s profits but also the San Francisco projects it supports. Prop B is a crucial step in creating a Public Bank. A Public Bank will provide affordable loans for: • Affordable housing development, • Affordable homeownership, • Small business development, • Environmental sustainability, and • Environmental justice. Prop B ensures that the Public Bank will be run by banking professionals, not politicians, and creates a public oversight body, so every San Franciscan has the opportunity to monitor and provide input. A public bank is about making sure San Franciscans’ money benefits San Franciscans. Passing Prop B now allows us to take advantage of the time-limited state law that enables local cities to create public banks. A public bank creates a powerful new tool to address some of our city’s most urgent priorities. Public banking is a proven development model. Globally 25% of banking assets are held in public banks, and Germany holds 40% of its banking assets in public banks. Prop B establishes the purpose and structure of a public bank. Prop B is not a tax, and will not raise taxes for San Franciscans.",
+          "locator": "p. 72, Proponent's Argument (Proposition B)"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Larry S. Marso, Esq."
+      ],
+      "side": "no",
+      "text": "San Francisco’s financial support for housing, infrastructure and small business is limited for good reason. Proposition B empowers the far left to dismantle and politicize those limits. A “public bank” is a politically directed lending machine that puts billions of taxpayer dollars at risk. The Controller estimates $310-$460 million just to capitalize and operate it. Once the Bank takes deposits, the City can park rainy-day funds and investment-pool reserves inside it, multiplying the risk by lending and leverage. The Bank can issue securities bought by the City itself. High-risk loans inevitably go bad; the losses land on taxpayers. Public banking has a litany of failure. The Los Angeles Community Development Bank collapsed under a mountain of bad loans. Any bank whose mission is climate-justice, racial preferences and loans refused by private lenders is fundamentally unsound. California law requires FDIC insurance; no public bank has successfully obtained it while pursuing this radical agenda. Nothing in Proposition B meaningfully checks the Bank’s political priorities. Pressure will build for reparations-style lending and loans to non-citizens, unleashing a smear of red ink across the general fund. This is the same socialist model in Congresswoman Rashida Tlaib’s Public Banking Act, co-sponsored by Ilhan Omar and the Squad. Don’t be a piker. Vote No on Proposition B.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco’s financial support for housing, infrastructure and small business is limited for good reason. Proposition B empowers the far left to dismantle and politicize those limits. A “public bank” is a politically directed lending machine that puts billions of taxpayer dollars at risk. The Controller estimates $310-$460 million just to capitalize and operate it. Once the Bank takes deposits, the City can park rainy-day funds and investment-pool reserves inside it, multiplying the risk by lending and leverage. The Bank can issue securities bought by the City itself. High-risk loans inevitably go bad; the losses land on taxpayers. Public banking has a litany of failure. The Los Angeles Community Development Bank collapsed under a mountain of bad loans. Any bank whose mission is climate-justice, racial preferences and loans refused by private lenders is fundamentally unsound. California law requires FDIC insurance; no public bank has successfully obtained it while pursuing this radical agenda. Nothing in Proposition B meaningfully checks the Bank’s political priorities. Pressure will build for reparations-style lending and loans to non-citizens, unleashing a smear of red ink across the general fund. This is the same socialist model in Congresswoman Rashida Tlaib’s Public Banking Act, co-sponsored by Ilhan Omar and the Squad. Don’t be a piker. Vote No on Proposition B.",
+          "locator": "p. 72, Rebuttal to Proponent's Argument (Proposition B)"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "No on Prop B – San Franciscans for Fiscal Responsibility",
+        "Leslie Huang",
+        "Dorothy Joan Leone",
+        "Stephanie Jeong",
+        "Kathleen Louise Trewin"
+      ],
+      "side": "no",
+      "text": "Vote No on Proposition B. Proposition B asks San Francisco voters to create a City Hall-controlled public bank and municipal finance corporation — without any dedicated funding, without proven demand, and at a time when the City already faces massive budget shortfalls. Supporters claim this will unlock affordable housing and small business lending. In reality, it creates a new politically appointed entity with the power to take significant financial risks using public resources. The City’s own working group previously estimated hundreds of millions of dollars would be needed to capitalize such an institution. Proposition B provides none of that capital. It simply builds the structure and leaves taxpayers holding the bag later. San Francisco already has tools to support housing and small businesses through existing programs, nonprofit lenders, and credit unions. Creating a new City-controlled bank adds bureaucracy, political risk, and potential conflicts of interest without solving the underlying problems of high costs and slow permitting. We cannot afford another ambitious, underfunded experiment. Vote No on Proposition B.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Vote No on Proposition B. Proposition B asks San Francisco voters to create a City Hall-controlled public bank and municipal finance corporation — without any dedicated funding, without proven demand, and at a time when the City already faces massive budget shortfalls. Supporters claim this will unlock affordable housing and small business lending. In reality, it creates a new politically appointed entity with the power to take significant financial risks using public resources. The City’s own working group previously estimated hundreds of millions of dollars would be needed to capitalize such an institution. Proposition B provides none of that capital. It simply builds the structure and leaves taxpayers holding the bag later. San Francisco already has tools to support housing and small businesses through existing programs, nonprofit lenders, and credit unions. Creating a new City-controlled bank adds bureaucracy, political risk, and potential conflicts of interest without solving the underlying problems of high costs and slow permitting. We cannot afford another ambitious, underfunded experiment. Vote No on Proposition B.",
+          "locator": "p. 73, Opponent's Argument (Proposition B)"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Matt Dorsey, Supervisor",
+        "Chyanne Chen, Supervisor",
+        "San Francisco Labor Council",
+        "San Francisco Public Bank Coalition",
+        "The San Francisco Foundation"
+      ],
+      "side": "yes",
+      "text": "Proposition B is a simple measure. It establishes a San Francisco Public Bank, which could help fund housing, green energy, and small businesses, and sets rules to prevent the bank or its funds from being misused. As the opponents point out, Prop B is NOT a tax and will not raise taxes on residents or businesses. Opponents claim that the bank would be rife with political instability and risky lending, but that is untrue. Instead, it would be the most regulated bank in America, subject to all typical banking regulations of private banks, in addition to California regulations and the oversight systems of Prop B. Prop B empowers San Francisco to pursue funding for our bank from state, federal, and philanthropic sources. Opportunities like the Greenhouse Gas Reduction Fund in Biden’s Climate bill present billions of dollars San Francisco could access. These are opportunities we have missed out on because we do not have a MFC or Public Bank. We must pass Prop B to be ready for these generational opportunities. A Public Bank would support our existing nonprofit, city, and credit union ecosystem, making the most efficient use of taxpayer money. We can’t afford to miss this opportunity to build an economic engine to stabilize San Francisco and make sure money is going where it’s needed, for housing, green energy, and supporting our small businesses.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition B is a simple measure. It establishes a San Francisco Public Bank, which could help fund housing, green energy, and small businesses, and sets rules to prevent the bank or its funds from being misused. As the opponents point out, Prop B is NOT a tax and will not raise taxes on residents or businesses. Opponents claim that the bank would be rife with political instability and risky lending, but that is untrue. Instead, it would be the most regulated bank in America, subject to all typical banking regulations of private banks, in addition to California regulations and the oversight systems of Prop B. Prop B empowers San Francisco to pursue funding for our bank from state, federal, and philanthropic sources. Opportunities like the Greenhouse Gas Reduction Fund in Biden’s Climate bill present billions of dollars San Francisco could access. These are opportunities we have missed out on because we do not have a MFC or Public Bank. We must pass Prop B to be ready for these generational opportunities. A Public Bank would support our existing nonprofit, city, and credit union ecosystem, making the most efficient use of taxpayer money. We can’t afford to miss this opportunity to build an economic engine to stabilize San Francisco and make sure money is going where it’s needed, for housing, green energy, and supporting our small businesses.",
+          "locator": "p. 73, Rebuttal to Opponent's Argument (Proposition B)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-01",
+      "kind": "paid",
+      "authors": [
+        "San Franciscans for Social Housing",
+        "Dylan Hirsch‑Shell, Co‑founder",
+        "Honest Charley Bodkin, Co‑founder"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Dylan Hirsch‑Shell.",
+      "side": "yes",
+      "text": "Social housing is permanently affordable, community owned, mixed‑income housing that’s designed to stay off the speculative market—giving working San Franciscans stable homes at rents they can actually afford, for generations. One of the major impediments to actually building social housing is the cost of borrowing. A Public Bank would be an excellent tool to provide reasonable loans to help build the housing San Francisco families desperately need. Join social housing advocates and vote Yes on B!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Social housing is permanently affordable, community owned, mixed‑income housing that’s designed to stay off the speculative market—giving working San Franciscans stable homes at rents they can actually afford, for generations. One of the major impediments to actually building social housing is the cost of borrowing. A Public Bank would be an excellent tool to provide reasonable loans to help build the housing San Francisco families desperately need. Join social housing advocates and vote Yes on B!",
+          "locator": "p. 74, Paid Arguments in Favor of Proposition B, argument 1 of 13 (left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-02",
+      "kind": "paid",
+      "authors": [
+        "Malia M. Cohen, California State Controller",
+        "Matt Haney, Assemblymember",
+        "Rafael Mandelman, President, San Francisco Board of Supervisors",
+        "Myrna Melgar, Supervisor",
+        "Matt Dorsey, Supervisor",
+        "Bilal Mahmood, Supervisor"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Passing Prop B is a prudent measure that provides key options to the city without wasting taxpayer money",
+      "side": "yes",
+      "text": "Right now, San Francisco has a unique opportunity to take advantage of a state law allowing municipalities to establish Public Banks, by passing Prop B. Public Banks are a useful tool to help build affordable housing, invest in green infrastructure, and support our small businesses. If San Francisco ever wants to be able to capitalize on the benefits that a Public Bank brings, the best thing to do is pass Prop B this year. Public Banks are a fiscally responsible way to make the most efficient use of taxpayer money. A public bank can help reduce pressure to raise taxes and issue bonds by providing steady, long term financing for core public infrastructure. Prop B is not a tax and will not result in additional costs for The City.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Right now, San Francisco has a unique opportunity to take advantage of a state law allowing municipalities to establish Public Banks, by passing Prop B. Public Banks are a useful tool to help build affordable housing, invest in green infrastructure, and support our small businesses. If San Francisco ever wants to be able to capitalize on the benefits that a Public Bank brings, the best thing to do is pass Prop B this year. Public Banks are a fiscally responsible way to make the most efficient use of taxpayer money. A public bank can help reduce pressure to raise taxes and issue bonds by providing steady, long term financing for core public infrastructure. Prop B is not a tax and will not result in additional costs for The City.",
+          "locator": "p. 74, Paid Arguments in Favor of Proposition B, argument 2 of 13 (left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-03",
+      "kind": "paid",
+      "authors": [
+        "The San Francisco Foundation",
+        "San Francisco Public Bank Coalition",
+        "Malia M. Cohen, California State Controller"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Prop B is the thoughtful, safe, and fiscally responsible way to create a public bank",
+      "side": "yes",
+      "text": "Public banks solve many problems and provide tremendous value for communities across the world. 25% of the world’s banking assets are held in public banks because they work well at reinvesting public funds to support development. But in order to deliver these massive benefits they must remain politically independent and committed to fiscal responsibility. Prop B ensures that our public bank is established with robust governance and best practices. Prop B requires that our Public Bank • Has an independent board of directors who make all key decisions. • Has an oversight committee with appointments spread across elected offices. • Has multiple safeguards to ensure no single politician can exercise influence on lending decisions. • Be run by professional bankers working for the people of San Francisco, not politicians. • Partner with experts in local finance: local credit unions, Community Development Financial Institutions (CDFIs), and community banks. Prop B creates a Public Bank that all San Franciscans can trust.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Public banks solve many problems and provide tremendous value for communities across the world. 25% of the world’s banking assets are held in public banks because they work well at reinvesting public funds to support development. But in order to deliver these massive benefits they must remain politically independent and committed to fiscal responsibility. Prop B ensures that our public bank is established with robust governance and best practices. Prop B requires that our Public Bank • Has an independent board of directors who make all key decisions. • Has an oversight committee with appointments spread across elected offices. • Has multiple safeguards to ensure no single politician can exercise influence on lending decisions. • Be run by professional bankers working for the people of San Francisco, not politicians. • Partner with experts in local finance: local credit unions, Community Development Financial Institutions (CDFIs), and community banks. Prop B creates a Public Bank that all San Franciscans can trust.",
+          "locator": "p. 74, Paid Arguments in Favor of Proposition B, argument 3 of 13 (right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-04",
+      "kind": "paid",
+      "authors": [
+        "Small Business Forward",
+        "Sensitive Vintage",
+        "Ritual Coffee",
+        "Lynne Angel, Owner, El Rio",
+        "Justin Dolezaal, Co-Owner, Bar Part Time",
+        "Nicholas Parker, Owner, Mercury Cafe",
+        "Dontaye Ball, Owner, Gumbo Social",
+        "Dianne Ramirez, Owner, Bangin Hair Salon",
+        "Sean Mabry, Co-Owner, Mothership",
+        "Yolanda Porrata, Owner, Vera Skin Studio",
+        "Isabella Hill, Co-Owner, Happy House",
+        "Julian Ensworth, Managing Partner, Horsies Bar",
+        "Jasjit Ahluwalia, Owner, The Laundry Corner"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "SF small businesses say vote Yes on B!",
+      "side": "yes",
+      "text": "Small businesses are the backbone of our city. We represent your favorite restaurants and bars, laundromats and pet stores, grocers and retailers. But running a business in San Francisco is hard, and dealing with big banks who don’t care about small businesses makes it harder. The Public Bank created by Prop B will provide affordable loans and replace the predatory lending and personal credit card debt small business owners too often must use to pay staff and keep the lights on in tough times. San Francisco’s Small Businesses say Yes on B.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Small businesses are the backbone of our city. We represent your favorite restaurants and bars, laundromats and pet stores, grocers and retailers. But running a business in San Francisco is hard, and dealing with big banks who don’t care about small businesses makes it harder. The Public Bank created by Prop B will provide affordable loans and replace the predatory lending and personal credit card debt small business owners too often must use to pay staff and keep the lights on in tough times. San Francisco’s Small Businesses say Yes on B.",
+          "locator": "pp. 74-75, Paid Arguments in Favor of Proposition B, argument 4 of 13 (p. 74 right column; signers p. 75 left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-05",
+      "kind": "paid",
+      "authors": [
+        "350 San Francisco Action",
+        "San Francisco League of Conservation Voters",
+        "San Francisco Climate Emergency Coalition",
+        "SF Policy Action Team / Climate Reality Project",
+        "Marie Harrison Community Foundation",
+        "Edward Wright, BART Board Vice President"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Protect our environment and fight climate change. Vote Yes on B",
+      "side": "yes",
+      "text": "San Franciscans want to address the existential threat of climate change and a legacy of environmental racism. But will the city follow through? Wall Street banks are not going to provide that kind of funding, as they double down on financing fossil fuels under Trump. A public bank can provide loans to unlock green energy, EV charging, toxic waste cleanups, and more. SF is a leader in environmental sustainability. The City’s Climate Action Plan commits us to bold goals, and recommends a public green bank as a way to achieve them. Vote Yes on B to stand up for the environment.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Franciscans want to address the existential threat of climate change and a legacy of environmental racism. But will the city follow through? Wall Street banks are not going to provide that kind of funding, as they double down on financing fossil fuels under Trump. A public bank can provide loans to unlock green energy, EV charging, toxic waste cleanups, and more. SF is a leader in environmental sustainability. The City’s Climate Action Plan commits us to bold goals, and recommends a public green bank as a way to achieve them. Vote Yes on B to stand up for the environment.",
+          "locator": "p. 75, Paid Arguments in Favor of Proposition B, argument 5 of 13 (left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-06",
+      "kind": "paid",
+      "authors": [
+        "San Francisco Tenants Union",
+        "Council of Community Housing Organizations",
+        "San Francisco Community Land Trust",
+        "San Francisco Senior and Disability Action",
+        "San Francisco Anti-Displacement Coalition",
+        "Affordable Housing Alliance",
+        "Race and Equity in All Planning Coalition - San Francisco",
+        "The Housing Rights Committee of San Francisco"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "If we want more affordable housing, we need Prop B",
+      "side": "yes",
+      "text": "Rents are skyrocketing in San Francisco, it’s a crisis and it’s time to bring every tool in the toolkit forward to make this city a place where everyone can thrive. 17,000+ affordable housing units have been approved in San Francisco, but cannot be built because there is no funding. A Public Bank will be a critical tool to help provide that financing, so we can build the affordable housing that San Francisco families desperately need. The bank can provide loans at more affordable terms than Wall Street banks, can help acquire and preserve affordable housing, and provide flexible gap financing to unlock stalled projects and maximize San Francisco’s housing opportunities. Join us and vote Yes on B!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Rents are skyrocketing in San Francisco, it’s a crisis and it’s time to bring every tool in the toolkit forward to make this city a place where everyone can thrive. 17,000+ affordable housing units have been approved in San Francisco, but cannot be built because there is no funding. A Public Bank will be a critical tool to help provide that financing, so we can build the affordable housing that San Francisco families desperately need. The bank can provide loans at more affordable terms than Wall Street banks, can help acquire and preserve affordable housing, and provide flexible gap financing to unlock stalled projects and maximize San Francisco’s housing opportunities. Join us and vote Yes on B!",
+          "locator": "p. 75, Paid Arguments in Favor of Proposition B, argument 6 of 13 (left column continuing to right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-07",
+      "kind": "paid",
+      "authors": [
+        "SF Labor Council",
+        "National Union of Healthcare Workers",
+        "United Educators of San Francisco"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Working families in San Francisco need Prop B.",
+      "side": "yes",
+      "text": "A Public Bank will be a huge benefit for the workers who keep San Francisco going. The bank can provide loans to build workforce housing, and the infrastructure and housing projects it funds will provide good paying jobs during construction and after completion. A Public Bank can provide badly needed financing for our streets, transit, and other public projects. Prop B also protects workers by ensuring that companies with a history of labor law violations will not be eligible for loans. Join workers and vote Yes on B.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "A Public Bank will be a huge benefit for the workers who keep San Francisco going. The bank can provide loans to build workforce housing, and the infrastructure and housing projects it funds will provide good paying jobs during construction and after completion. A Public Bank can provide badly needed financing for our streets, transit, and other public projects. Prop B also protects workers by ensuring that companies with a history of labor law violations will not be eligible for loans. Join workers and vote Yes on B.",
+          "locator": "p. 75, Paid Arguments in Favor of Proposition B, argument 7 of 13 (right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-08",
+      "kind": "paid",
+      "authors": [
+        "Faith in Action",
+        "San Francisco Latino Task Force",
+        "Coleman Advocates for Children and Youth",
+        "South of Market Community Action Network (SOMCAN)",
+        "La Raza Community Resource Center",
+        "People Organizing to Demand Environmental and Economic Rights (PODER)",
+        "Marie Harrison Community Foundation",
+        "Race and Equity in All Planning Coalition San Francisco (REP-SF)",
+        "Archbishop Franzo King",
+        "Reverend Norman Fong",
+        "Shamann Walton, Supervisor",
+        "Chyanne Chen, Supervisor",
+        "John Avalos, Former Supervisor"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "For a fair and equitable San Francisco, vote Yes on B",
+      "side": "yes",
+      "text": "The long and ugly history of discrimination by private banks against minority communities is well known. From mortgage loans, to small business loans, we have seen time and again that Wall Street banks have routinely and repeatedly denied us opportunity based on race. A public bank, with a public, independent board of directors, will help our communities access the loans we need to afford to stay in our homes, keep our small businesses running, and finally make the investments in our communities that have long been denied for racist reasons.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The long and ugly history of discrimination by private banks against minority communities is well known. From mortgage loans, to small business loans, we have seen time and again that Wall Street banks have routinely and repeatedly denied us opportunity based on race. A public bank, with a public, independent board of directors, will help our communities access the loans we need to afford to stay in our homes, keep our small businesses running, and finally make the investments in our communities that have long been denied for racist reasons.",
+          "locator": "p. 76, Paid Arguments in Favor of Proposition B, argument 8 of 13 (left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-09",
+      "kind": "paid",
+      "authors": [
+        "Art Agnos, Former Mayor",
+        "Tom Ammiano, Former Assemblymember",
+        "Aaron Peskin, Former President, Board of Supervisors",
+        "David Campos, Former Supervisor",
+        "Sandra Lee Fewer, Former Supervisor",
+        "Jane Kim, Former Supervisor",
+        "Eric Mar, Former Supervisor",
+        "Gordon Mar, Former Supervisor",
+        "Hillary Ronen, Former Supervisor",
+        "Edward Wright, BART Board Vice President",
+        "Peter Gallotta, SFDCCC Member",
+        "Michael Nguyen, SFDCCC Member",
+        "Gary McCoy, Former Political Director, Speaker Emerita Pelosi"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Prop B is the culmination of years of rigorous work:",
+      "side": "yes",
+      "text": "• In 2017 the San Francisco Public Bank Coalition was founded. • In 2019, the California State Assembly successfully passed AB 857, the California Public Banking Act, creating a formal pathway for local jurisdictions to charter their own public banks to save money, strengthen our local economies, support community economic development, and address our critical infrastructure and housing needs. • In 2021, the Board of Supervisors passed an ordinance establishing the San Francisco Reinvestment Working Group to oversee the formation of a business and governance plan, consisting of the Controller, Treasurer, and technical experts in financial institutions, affordable housing financing, small business lending, environmental justice, and renewable energy. • The Reinvestment Working Group hired an experienced banking consultant who has started over 100 banks and worked with them to prepare a Final Governance Plan, Business Plan, and Viability Study for a San Francisco Municipal Financial Corporation and a San Francisco Public Bank, which were accepted by the Board of Supervisors in 2023. The years of rigorous work by city leaders across the political spectrum and movement work by advocates have produced this thoroughly vetted plan for a successful Public Bank that forms the basis of this Charter Amendment.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "• In 2017 the San Francisco Public Bank Coalition was founded. • In 2019, the California State Assembly successfully passed AB 857, the California Public Banking Act, creating a formal pathway for local jurisdictions to charter their own public banks to save money, strengthen our local economies, support community economic development, and address our critical infrastructure and housing needs. • In 2021, the Board of Supervisors passed an ordinance establishing the San Francisco Reinvestment Working Group to oversee the formation of a business and governance plan, consisting of the Controller, Treasurer, and technical experts in financial institutions, affordable housing financing, small business lending, environmental justice, and renewable energy. • The Reinvestment Working Group hired an experienced banking consultant who has started over 100 banks and worked with them to prepare a Final Governance Plan, Business Plan, and Viability Study for a San Francisco Municipal Financial Corporation and a San Francisco Public Bank, which were accepted by the Board of Supervisors in 2023. The years of rigorous work by city leaders across the political spectrum and movement work by advocates have produced this thoroughly vetted plan for a successful Public Bank that forms the basis of this Charter Amendment.",
+          "locator": "p. 76, Paid Arguments in Favor of Proposition B, argument 9 of 13 (left column continuing to right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-10",
+      "kind": "paid",
+      "authors": [
+        "Westside Forward",
+        "Haight Ashbury Neighborhood Council",
+        "Richmond District Democratic Club",
+        "Excelsior Strong",
+        "Stephen Torres, LGBTQ Small Business & Worker Advocate*",
+        "Leah LaCroix, President San Francisco District 11 Democratic Club*",
+        "JR Eppler",
+        "DJ Brookter"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Prop B keeps San Francisco’s money working for San Franciscans",
+      "side": "yes",
+      "text": "San Francisco residents and businesses pay billions of dollars in taxes every year. Prop B is NOT a tax, and will not raise taxes. It simply provides an option to keep our money here, working for us, rather than in multinational mega banks. The Public Bank will be equipped to help make home ownership more affordable for SF families, keep our beloved small businesses stable in our neighborhoods, and make the investments we need to protect San Francisco from climate chaos. The Public Bank will help the city manage taxpayer money efficiently. Your neighbors say Yes on B!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "San Francisco residents and businesses pay billions of dollars in taxes every year. Prop B is NOT a tax, and will not raise taxes. It simply provides an option to keep our money here, working for us, rather than in multinational mega banks. The Public Bank will be equipped to help make home ownership more affordable for SF families, keep our beloved small businesses stable in our neighborhoods, and make the investments we need to protect San Francisco from climate chaos. The Public Bank will help the city manage taxpayer money efficiently. Your neighbors say Yes on B!",
+          "locator": "pp. 76-77, Paid Arguments in Favor of Proposition B, argument 10 of 13 (p. 76 right column; signers continue p. 77 left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-11",
+      "kind": "paid",
+      "authors": [
+        "Democratic Socialists of America – San Francisco",
+        "Indivisible SF",
+        "Jackie Fielder, Supervisor",
+        "Jane Kim, Former Supervisor",
+        "Dean Preston, Former Supervisor",
+        "John Avalos, Former Supervisor"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Stand up to big Wall Street banks by passing Prop B",
+      "side": "yes",
+      "text": "Private, multinational mega banks, whose only motivation is shareholder profit, will never be aligned with the priorities of San Franciscans – the things we need to make the city more affordable: building and preserving affordable housing, converting the city to green energy, providing jobs for workers, and supporting local co-ops. That is why we must form a Public Bank in San Francisco – a bank that puts the people’s needs first. Private corporate banks have supercharged fossil fuel financing under Trump and shamelessly abandoned their climate goals. They finance war, genocide, and destruction. They make record profits while workers scrape by and starve. Enough is enough! The time for a Public Bank is now.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Private, multinational mega banks, whose only motivation is shareholder profit, will never be aligned with the priorities of San Franciscans – the things we need to make the city more affordable: building and preserving affordable housing, converting the city to green energy, providing jobs for workers, and supporting local co-ops. That is why we must form a Public Bank in San Francisco – a bank that puts the people’s needs first. Private corporate banks have supercharged fossil fuel financing under Trump and shamelessly abandoned their climate goals. They finance war, genocide, and destruction. They make record profits while workers scrape by and starve. Enough is enough! The time for a Public Bank is now.",
+          "locator": "p. 77, Paid Arguments in Favor of Proposition B, argument 11 of 13 (left column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-12",
+      "kind": "paid",
+      "authors": [
+        "Indivisible SF",
+        "Reid Coggins, Co-President, Harvey Milk LGBTQ Democratic Club*",
+        "Ajai Nicole Duncan, Co-President, Harvey Milk LGBTQ Democratic Club*",
+        "John Avalos, Former Supervisor",
+        "Eric Mar, Former Supervisor"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Prop B makes sure our money won’t be used to fund war, oil, or tobacco",
+      "side": "yes",
+      "text": "The purpose of the Public Bank is to fund and support projects that benefit the people of San Francisco. That is why it is so crucial that Prop B prohibits any Public Bank loans or support for weapons manufacturing, fossil fuel extraction and refinement, or promotion of tobacco products. Wall Street Banks eagerly lend to the destruction of our planet and its people, it’s important San Francisco have an alternative to our deposits financing death and destruction. Prop B keeps our money working for the common good.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The purpose of the Public Bank is to fund and support projects that benefit the people of San Francisco. That is why it is so crucial that Prop B prohibits any Public Bank loans or support for weapons manufacturing, fossil fuel extraction and refinement, or promotion of tobacco products. Wall Street Banks eagerly lend to the destruction of our planet and its people, it’s important San Francisco have an alternative to our deposits financing death and destruction. Prop B keeps our money working for the common good.",
+          "locator": "p. 77, Paid Arguments in Favor of Proposition B, argument 12 of 13 (left column continuing to right column)"
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-13",
+      "kind": "paid",
+      "authors": [
+        "Evolve California",
+        "Andrea Gallardo Lopez, Co-President, San Francisco Young Democrats*",
+        "Ernesto Cuellar, Co-President, San Francisco Young Democrats*"
+      ],
+      "funds_source": "The true source(s) of funds for the printing fee of this argument: Yes on B, Our City Our Bank. The three largest contributors to the true source recipient committee: 1. The San Francisco Foundation, 2. Christin Evans, 3. National Union of Healthcare Workers.",
+      "heading": "Set the next generations of San Franciscans up for success. Vote Yes on B",
+      "side": "yes",
+      "text": "Young people who want to stay in San Francisco need housing we can afford, and a planet that we can live on. A Public Bank is crucial for funding affordable housing and affordable homeownership, as well as providing loans for green energy and sustainable infrastructure projects for decades to come. Yes on B!",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Young people who want to stay in San Francisco need housing we can afford, and a planet that we can live on. A Public Bank is crucial for funding affordable housing and affordable homeownership, as well as providing loans for green energy and sustainable infrastructure projects for decades to come. Yes on B!",
+          "locator": "p. 77, Paid Arguments in Favor of Proposition B, argument 13 of 13 (right column)"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "label": "Digest by the Ballot Simplification Council",
+    "no_means": {
+      "value": "If you vote “no,” you do not want to authorize the City to establish a municipal finance corporation and a public bank.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “no,” you do not want to authorize the City to establish a municipal finance corporation and a public bank.",
+          "locator": "p. 70, Proposition B digest, A \"NO\" Vote Means"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "Proposition B would amend the City Charter to authorize the City to establish a municipal finance corporation if the City has sufficient funding and resources. After three years of operation, the municipal finance corporation may become a public bank. The MFC would make loans but would not take deposits. If the MFC becomes a public bank, the public bank would make loans and also take deposits. The MFC and public bank would provide services to support: • affordable housing development, • affordable homeownership, • small business development, • environmental sustainability, and • environmental justice. These services would be available to individual City residents and to projects and businesses located in the City. Under Proposition B, the MFC and public bank would each be governed by a board of directors. Each board would be appointed and overseen by its own oversight commission. The members of each oversight commission would be appointed by the Board of Supervisors, Mayor, Treasurer-Tax Collector, Controller, and City Attorney.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Proposition B would amend the City Charter to authorize the City to establish a municipal finance corporation if the City has sufficient funding and resources. After three years of operation, the municipal finance corporation may become a public bank. The MFC would make loans but would not take deposits. If the MFC becomes a public bank, the public bank would make loans and also take deposits. The MFC and public bank would provide services to support: • affordable housing development, • affordable homeownership, • small business development, • environmental sustainability, and • environmental justice. These services would be available to individual City residents and to projects and businesses located in the City. Under Proposition B, the MFC and public bank would each be governed by a board of directors. Each board would be appointed and overseen by its own oversight commission. The members of each oversight commission would be appointed by the Board of Supervisors, Mayor, Treasurer-Tax Collector, Controller, and City Attorney.",
+          "locator": "p. 70, Proposition B digest, The Proposal"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "A municipal finance corporation (MFC) is a government-owned non-profit corporation that makes loans but does not take deposits. A public bank is a government-owned non-profit corporation that both makes loans and takes deposits. There is no local law authorizing the City to create a municipal finance corporation or a public bank.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "A municipal finance corporation (MFC) is a government-owned non-profit corporation that makes loans but does not take deposits. A public bank is a government-owned non-profit corporation that both makes loans and takes deposits. There is no local law authorizing the City to create a municipal finance corporation or a public bank.",
+          "locator": "p. 70, Proposition B digest, The Way It Is Now"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "If you vote “yes,” you want to authorize the City to establish a municipal finance corporation and a public bank.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "If you vote “yes,” you want to authorize the City to establish a municipal finance corporation and a public bank.",
+          "locator": "p. 70, Proposition B digest, A \"YES\" Vote Means"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2026-08-20",
+    "effects": [
+      {
+        "id": "capitalization-depends-on-future-decisions",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Capitalization and funding amounts depend on future decisions by the MFC Board of Directors and by the Mayor and Board of Supervisors; costs may be higher or lower than the 2023 RWG estimates.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The capitalization and funding costs are choices dependent on future decisions by the MFC Board of Directors and future policy and budget decisions by the Mayor and the Board of Supervisors. The costs associated with establishing an MFC may be significantly higher or lower than the 2023 RWG estimates.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"In 2022\""
+          }
+        ]
+      },
+      {
+        "id": "mfc-and-public-bank-eight-year-total",
+        "amount": {
+          "high_usd": 460000000,
+          "low_usd": 310000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "total",
+        "text": "If the City establishes an MFC and then a Public Bank: about $310 million to $460 million over eight years (2023 RWG estimates); could be higher or lower with interest rates and economic conditions.",
+        "years": 8,
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "However, if the City moves forward with establishing a MFC and subsequently a Public Bank, as authorized by the proposed Charter amendment, the costs would be significant, ranging from approximately $310 million to $460 million over an eight-year period, according to 2023 Reinvestment Working Group (RWG) estimates, which could be significantly higher or lower depending on interest rates and changing economic conditions.",
+            "locator": "p. 70, Controller's Statement on \"B\", paragraph 1"
+          }
+        ]
+      },
+      {
+        "id": "mfc-capitalization-and-funding",
+        "amount": {
+          "high_usd": 90000000,
+          "low_usd": 90000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "total",
+        "text": "MFC capitalization and funding (2023 RWG): about $26 million in year one rising to $30 million a year by year three, $90 million over three years; levels explored ranged from $45 million to $242 million.",
+        "years": 3,
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "According to a 2023 report of the RWG, costs to capitalize and fund the MFC could cost approximately $26 million in the first year and increase to $30 million annually by the third year for a total of $90 million for the first three years of the MFC. The RWG explored a variety of capitalization and funding levels including cumulative totals of $45 million to $242 million over the first three years. Capitalization and funding costs could be financed by City grants and forgivable loans which are unlikely to be repaid.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"In 2022\""
+          }
+        ]
+      },
+      {
+        "id": "mfc-setup",
+        "amount": {
+          "high_usd": 4000000,
+          "low_usd": 4000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "If an MFC is set up: about $4 million a year for about one year or longer (staff, legal and professional services, technology, administration), excluding capitalization.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "The funding required to set up an MFC could cost approximately $4 million annually for approximately one year or longer, depending on when the MFC is set up, excluding capitalization costs. These costs include the cost to hire staff, staff salaries, legal services, supporting professional services, technology procurement and administrative operations.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph on MFC setup funding"
+          }
+        ]
+      },
+      {
+        "id": "no-direct-cost-of-government",
+        "direction": "none",
+        "estimate": "minimal",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Would not directly affect the cost of government, because the amendment does not require the City to create an MFC or Public Bank.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank.",
+            "locator": "p. 70, Controller's Statement on \"B\", paragraph 1"
+          }
+        ]
+      },
+      {
+        "id": "oversight-commission",
+        "amount": {
+          "high_usd": 600000,
+          "low_usd": 550000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "MFC or Bank Oversight Commission: $550,000 to $600,000 a year for staff salaries, commissioner stipends and operating costs.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Finally, the MFC and Public Bank would require an MFC Oversight Commission or Bank Oversight Commission which could cost between $550,000 to $600,000 annually for staff salaries, commissioner stipends, and operating costs.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"Finally\""
+          }
+        ]
+      },
+      {
+        "id": "public-bank-operations",
+        "amount": {
+          "high_usd": 220000000,
+          "low_usd": 220000000
+        },
+        "direction": "cost",
+        "estimate": "estimated",
+        "lane": "general_fund",
+        "per": "total",
+        "text": "If the MFC becomes a Public Bank: about $80 million in year 4, then about $30 million to $40 million a year, about $220 million over years 4 to 8; Bank income may reduce the City funding needed.",
+        "years": 5,
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "In the event the MFC becomes financially sustainable and receives regulatory approval to operate as a depository bank, it may become a Public Bank. The cost to operate a Public Bank would be approximately $80 million in year 4, decreasing to approximately $30 to $40 million annually for a total of approximately $220 million over years four through eight. These costs include capital funds and operating costs, including staff salaries, office leases, technology, and administrative costs. The Public Bank may use its income to fund its operating costs if available, requiring less funding appropriated by the City.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"In the event the MFC becomes financially sustainable and receives\""
+          }
+        ]
+      },
+      {
+        "id": "unforeseen-costs",
+        "direction": "cost",
+        "estimate": "not_estimated",
+        "lane": "general_fund",
+        "per": "year",
+        "text": "Possible unforeseen costs to the City if the Public Bank is not financially sustainable; not estimated. The statement notes a high degree of uncertainty in the cost of an MFC or Public Bank.",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "There is a high degree of uncertainty in the cost to government of establishing an MFC or Public Bank. There may be significant unforeseen costs to the City in the event the Public Bank is not financially sustainable.",
+            "locator": "p. 71, Controller's Statement on \"B\", left column, paragraph beginning \"Finally\""
+          }
+        ]
+      }
+    ],
+    "statement_by": "City Controller Greg Wagner",
+    "summary": {
+      "summary": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank. However, if the City moves forward with establishing a MFC and subsequently a Public Bank, as authorized by the proposed Charter amendment, the costs would be significant, ranging from approximately $310 million to $460 million over an eight-year period, according to 2023 Reinvestment Working Group (RWG) estimates, which could be significantly higher or lower depending on interest rates and changing economic conditions.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank. However, if the City moves forward with establishing a MFC and subsequently a Public Bank, as authorized by the proposed Charter amendment, the costs would be significant, ranging from approximately $310 million to $460 million over an eight-year period, according to 2023 Reinvestment Working Group (RWG) estimates, which could be significantly higher or lower depending on interest rates and changing economic conditions.",
+          "locator": "p. 70, Controller's Statement on \"B\", first paragraph"
+        },
+        {
+          "source": "src:api-sf-gov-18a3320f8b",
+          "quote": "Should the proposed Charter amendment be approved by the voters, in my opinion, it would not directly impact the cost of government as the Charter amendment does not require the City to create a Municipal Finance Corporation (MFC) that could transition into a Public Bank.",
+          "locator": "p. 1, letter dated August 20, 2026"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "City and County of San Francisco",
+    "level": "city_county"
+  },
+  "measure_type": {
+    "value": "charter_amendment",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to authorize the City to establish a municipal finance corporation and a public bank?",
+        "locator": "p. 70, Proposition B ballot question"
+      }
+    ]
+  },
+  "number": "B",
+  "official_title": {
+    "value": "Establishing a Municipal Finance Corporation and a Public Bank",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Establishing a Municipal Finance Corporation and a Public Bank",
+        "locator": "p. 70, Proposition B title"
+      }
+    ]
+  },
+  "origin": "legislative",
+  "placed_by": {
+    "value": "governing_body",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "On July 7, 2026, the Board of Supervisors voted 9 to 2 to place Proposition B on the ballot.",
+        "locator": "p. 71, How \"B\" Got on the Ballot"
+      }
+    ]
+  },
+  "summary": {
+    "value": "Shall the City amend the Charter to authorize the City to establish a municipal finance corporation and a public bank?",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "Shall the City amend the Charter to authorize the City to establish a municipal finance corporation and a public bank?",
+        "locator": "p. 70, Proposition B ballot question"
+      }
+    ]
+  },
+  "vote_threshold": {
+    "value": "majority",
+    "citations": [
+      {
+        "source": "src:media-api-sf-gov-e4221ecde7",
+        "quote": "This measure requires 50%+1 affirmative votes to pass.",
+        "locator": "p. 70, Proposition B, below the ballot question"
+      }
+    ]
+  },
+  "last_verified": "2026-11-03"
+}

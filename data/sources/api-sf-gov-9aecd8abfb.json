@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sf-gov-9aecd8abfb",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-10",
+  "publisher": "Office of the Controller, City and County of San Francisco",
+  "title": "Controller's Statement: Proposition F",
+  "url": "https://api.sf.gov/documents/61758/Proposition_F__Changes_to_Executive_Branch_Management_-_Signed.pdf"
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/attorney-general",
+  "candidates": [
+    {
+      "person": "person:rob-bonta",
+      "name": "Rob Bonta"
+    },
+    {
+      "person": "person:michael-e-gates",
+      "name": "Michael E. Gates"
+    }
+  ],
+  "measures": [],
+  "office_ref": "office:california-attorney-general",
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Two search summaries of the SoS certified list and the 9/23/26 contact list give Gates's designation as Deputy United States Attorney. The PDF extraction was described as jumbled, and news reports describe his federal post as Deputy Assistant Attorney General (Civil Rights Division) followed by a return to the Huntington Beach City Attorney's office, so verify the designation against the PDF. Bonta is marked with an asterisk on the SoS lists, which the summaries read as the incumbent marker. A search summary said the primary also included Green Party candidate Marjorie Mikels. Bonta's Alameda council and Assembly dates come from secondary sources only. No primary source for Gates's birth data or education was found."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

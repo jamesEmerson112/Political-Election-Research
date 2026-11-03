@@ -1,0 +1,153 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:connie-chan",
+  "positions": [
+    {
+      "subject": "q:ai/data-center-moratorium",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "Supports a national data center moratorium until stronger protections exist for communities, utilities, and the environment.",
+      "citations": [
+        {
+          "source": "src:kqed-org-15f7125a20",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §4"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "q:healthcare/single-payer",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Supports Medicare for All; also seeks restored Medicaid funding and extended ACA subsidies.",
+      "citations": [
+        {
+          "source": "src:missionlocal-org-cd125eb68d",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §4"
+          }
+        }
+      ]
+    },
+    {
+      "subject": "q:immigration/expand-skilled-work-visas",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "points": [
+        {
+          "facet": "employer-mobility",
+          "text": "Wants visa holders free to change employers; says policy should not give corporations a captive workforce.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "I support expanding work visas with fair wages, strong labor protections and the freedom to change employers.",
+              "locator": "Work visas answer"
+            },
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "Immigration policy should serve workers and families, not give corporations a captive workforce.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "expand-green-card-pathways",
+          "text": "Supports expanding green-card pathways.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "I also support expanding green card pathways and clearing backlogs.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "expand-work-visas",
+          "text": "Supports expanding work visas.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "I support expanding work visas with fair wages, strong labor protections and the freedom to change employers.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "labor-standards",
+          "text": "Ties the expansion to fair wages and strong labor protections.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "I support expanding work visas with fair wages, strong labor protections and the freedom to change employers.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "path-to-citizenship",
+          "text": "Wants a clear road to citizenship.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "We deserve the security to build a life with a clear road to citizenship.",
+              "locator": "Work visas answer"
+            }
+          ]
+        },
+        {
+          "facet": "shorten-green-card-waits",
+          "text": "Supports clearing green-card backlogs.",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-cd125eb68d",
+              "quote": "I also support expanding green card pathways and clearing backlogs.",
+              "locator": "Work visas answer"
+            }
+          ]
+        }
+      ],
+      "summary": "Supports expanding work visas and green cards, along with fair pay, worker protections, employer mobility, and clearing backlogs.",
+      "citations": [
+        {
+          "source": "src:missionlocal-org-cd125eb68d",
+          "quote": "I support expanding work visas with fair wages, strong labor protections and the freedom to change employers.",
+          "locator": "Work visas answer"
+        },
+        {
+          "source": "src:missionlocal-org-cd125eb68d",
+          "quote": "I also support expanding green card pathways and clearing backlogs.",
+          "locator": "Work visas answer"
+        }
+      ]
+    },
+    {
+      "subject": "q:taxes/federal-wealth-tax",
+      "stance": "support",
+      "as_of": "2026-11-02",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "Supports higher taxes on fortunes above $50 million and a corporate minimum tax.",
+      "citations": [
+        {
+          "source": "src:kqed-org-15f7125a20",
+          "verified_by": {
+            "by": "maintainer",
+            "date": "2026-11-02",
+            "note": "notes/2026-11-02-ca-11.md §4"
+          }
+        }
+      ]
+    }
+  ]
+}
