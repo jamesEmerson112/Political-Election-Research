@@ -7,6 +7,7 @@
   "conflicts": [
     {
       "contest": "contest:2030-zz-general/exampleville-prop-e",
+      "exclusive": true,
       "rule": "If both pass, the one with more yes votes takes effect.",
       "citations": [
         {

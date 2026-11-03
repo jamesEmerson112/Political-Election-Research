@@ -401,7 +401,7 @@ local("C", {
   vote_threshold: { value: "majority", citations: vip("Proposition C requires a majority of the votes cast to pass.") },
   placed_by: { value: "governing_body", citations: vip("The City Council voted 5 to 2 to place Proposition C on the ballot.") },
   digest: digest("You want the City to spend at least $40 million a year on parks.", "You do not want to set a minimum for parks spending."),
-  conflicts: [{ contest: "contest:2030-zz-general/exampleville-prop-e", rule: "If both pass, the one with more yes votes takes effect.", citations: vip("If Propositions C and E are both approved, the one with more yes votes takes effect.") }],
+  conflicts: [{ contest: "contest:2030-zz-general/exampleville-prop-e", exclusive: true, rule: "If both pass, the one with more yes votes takes effect.", citations: vip("If Propositions C and E are both approved, the one with more yes votes takes effect.") }],
   fiscal: controller("The requirement would increase General Fund costs by $8 to $12 million a year.", [
     effect({ id: "parks-minimum", lane: "general_fund", direction: "cost", amount: { low_usd: 8000000, high_usd: 12000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Increases General Fund costs by $8 to $12 million a year." }),
   ]),
@@ -426,7 +426,7 @@ local("E", {
   vote_threshold: { value: "majority", citations: vip("Proposition E requires a majority of the votes cast to pass.") },
   placed_by: { value: "petition", citations: vip("Proposition E was placed on the ballot by petition signatures.") },
   digest: digest("You want the City to spend at least $35 million a year on parks.", "You do not want to set this minimum."),
-  conflicts: [{ contest: "contest:2030-zz-general/exampleville-prop-c", rule: "If both pass, the one with more yes votes takes effect.", citations: vip("If Propositions C and E are both approved, the one with more yes votes takes effect.") }],
+  conflicts: [{ contest: "contest:2030-zz-general/exampleville-prop-c", exclusive: true, rule: "If both pass, the one with more yes votes takes effect.", citations: vip("If Propositions C and E are both approved, the one with more yes votes takes effect.") }],
   fiscal: controller("The requirement would increase General Fund costs by $3 to $5 million a year.", [
     effect({ id: "parks-minimum", lane: "general_fund", direction: "cost", amount: { low_usd: 3000000, high_usd: 5000000 }, per: "year", start_fy: "2031-32", estimate: "estimated", text: "Increases General Fund costs by $3 to $5 million a year." }),
   ]),

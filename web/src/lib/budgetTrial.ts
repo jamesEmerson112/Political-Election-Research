@@ -15,8 +15,11 @@
  * - One-time effects and multi-year totals are listed, never added to
  *   annual sums. "minimal" counts as 0 (listed); "not_estimated" and
  *   "depends_on_future_decisions" are listed and never added.
- * - Competing measures (conflicts) that both get a yes count as one range
- *   spanning them, since only one can take effect.
+ * - Exclusive conflicts ("the one with more yes votes takes effect"): when
+ *   several get a yes, the result spans every outcome that can actually
+ *   happen (each maximal set of yes measures with no exclusive conflict).
+ *   Partial conflicts (both take effect; one prevails where provisions
+ *   conflict) are added up and listed, since their estimates may overlap.
  */
 
 export type Vote = "yes" | "no" | "skip";
@@ -40,8 +43,10 @@ export interface MeasureInput {
   effects: Rec[];
   /** fiscal.bond as recorded. */
   bond?: Rec;
-  /** Refs of competing measures. */
+  /** Refs of measures only one of which can take effect (exclusive conflicts). */
   conflicts: string[];
+  /** Refs of measures that both take effect but conflict in part (one prevails where they conflict). */
+  overlaps?: string[];
 }
 
 export interface BudgetInput {
@@ -74,6 +79,8 @@ export interface TrialResult {
   notEstimated: Array<{ ref: string; label: string; estimate: string; text: string }>;
   minimal: Array<{ ref: string; label: string; text: string }>;
   conflicts: Array<{ refs: string[]; labels: string[] }>;
+  /** Yes measures that conflict in part: both take effect, estimates may overlap. */
+  overlaps: Array<{ refs: string[]; labels: string[] }>;
   /** Labels of yes measures with an annual effect whose start year isn't stated. */
   startAssumed: string[];
   /** Annual contributions of each yes measure, before conflicts are merged (for the table view). */
@@ -153,10 +160,31 @@ function conflictGroups(yes: MeasureInput[]): MeasureInput[][] {
   return groups;
 }
 
-/** Sum ranges of a group: plain sum for one measure; the span of the members for competing ones. */
-function groupRange(members: Range[]): Range {
-  if (members.length === 1) return members[0]!;
-  return { low: Math.min(...members.map((r) => r.low)), high: Math.max(...members.map((r) => r.high)) };
+/**
+ * Range of a group of yes measures linked by exclusive conflicts: the span over
+ * every outcome that can happen, i.e. each maximal subset with no conflicting pair.
+ */
+function groupRange(group: MeasureInput[], rangeOf: (m: MeasureInput) => Range): Range {
+  if (group.length === 1) return rangeOf(group[0]!);
+  const n = group.length;
+  const clash = (a: MeasureInput, b: MeasureInput) => a.conflicts.includes(b.ref) || b.conflicts.includes(a.ref);
+  const ok = (mask: number) => {
+    for (let i = 0; i < n; i++) for (let j = i + 1; j < n; j++) if (mask & (1 << i) && mask & (1 << j) && clash(group[i]!, group[j]!)) return false;
+    return true;
+  };
+  const maximal = (mask: number) => {
+    for (let i = 0; i < n; i++) if (!(mask & (1 << i)) && ok(mask | (1 << i))) return false;
+    return true;
+  };
+  let low = Infinity;
+  let high = -Infinity;
+  for (let mask = 1; mask < 1 << n; mask++) {
+    if (!ok(mask) || !maximal(mask)) continue;
+    const r = group.filter((_, i) => mask & (1 << i)).reduce((a, m) => add(a, rangeOf(m)), ZERO);
+    low = Math.min(low, r.low);
+    high = Math.max(high, r.high);
+  }
+  return { low, high };
 }
 
 export function runTrial(measures: MeasureInput[], budget: BudgetInput | null, votes: Record<string, Vote>): TrialResult {
@@ -168,13 +196,12 @@ export function runTrial(measures: MeasureInput[], budget: BudgetInput | null, v
 
   const laneSum = (fy: string | null, lane: Lane): Range =>
     groups.reduce((acc, g) => {
-      const ranges = g.map((m) =>
+      const rangeOf = (m: MeasureInput) =>
         perMeasure
           .get(m.ref)!
           .filter((c) => c.lane === lane && c.per === "year" && (fy === null || appliesIn(c, fy)))
-          .reduce((r, c) => add(r, c.range), ZERO),
-      );
-      return add(acc, groupRange(ranges));
+          .reduce((r, c) => add(r, c.range), ZERO);
+      return add(acc, groupRange(g, rangeOf));
     }, ZERO);
 
   const generalFund = (budget?.forecast ?? []).map((y) => {
@@ -209,6 +236,11 @@ export function runTrial(measures: MeasureInput[], budget: BudgetInput | null, v
     notEstimated: listed(["not_estimated", "depends_on_future_decisions"]),
     minimal: listed(["minimal"]).map(({ ref, label, text }) => ({ ref, label, text })),
     conflicts: groups.filter((g) => g.length > 1).map((g) => ({ refs: g.map((m) => m.ref), labels: g.map((m) => m.label) })),
+    overlaps: yes.flatMap((m) =>
+      (m.overlaps ?? [])
+        .filter((o) => votes[o] === "yes" && o > m.ref)
+        .map((o) => ({ refs: [m.ref, o], labels: [m.label, measures.find((x) => x.ref === o)?.label ?? o] })),
+    ),
     startAssumed: [...new Set(all.filter((c) => c.startAssumed).map((c) => c.label))],
     contributions: all.filter((c) => c.per === "year"),
   };
@@ -224,7 +256,8 @@ export function measureInput(contest: Rec): MeasureInput {
     label: `Prop ${String(contest["number"])}`,
     effects: (fiscal["effects"] as Rec[] | undefined) ?? [],
     ...(fiscal["bond"] ? { bond: fiscal["bond"] as Rec } : {}),
-    conflicts: ((contest["conflicts"] as Rec[] | undefined) ?? []).map((c) => String(c["contest"])),
+    conflicts: ((contest["conflicts"] as Rec[] | undefined) ?? []).filter((c) => c["exclusive"] === true).map((c) => String(c["contest"])),
+    overlaps: ((contest["conflicts"] as Rec[] | undefined) ?? []).filter((c) => c["exclusive"] !== true).map((c) => String(c["contest"])),
   };
 }
 

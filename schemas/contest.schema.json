@@ -275,6 +275,10 @@
               },
               "citations": {
                 "$ref": "defs.schema.json#/$defs/Citations"
+              },
+              "exclusive": {
+                "description": "true when only one of the measures can take effect (e.g. 'if both pass, the one with more yes votes takes effect'); absent or false when both take effect and one prevails only where their provisions conflict.",
+                "type": "boolean"
               }
             }
           }

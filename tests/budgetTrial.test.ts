@@ -110,6 +110,24 @@ describe("budget trial engine", () => {
     expect(both.conflicts).toEqual([{ refs: ["c", "e"], labels: ["C", "E"] }]);
   });
 
+  it("spans only outcomes that can happen when exclusive conflicts chain (I vs C, I vs J; C and J compatible)", () => {
+    const c = measure("c", [{ id: "x", direction: "cost", amount: { low_usd: 10 * M, high_usd: 10 * M }, start_fy: "2031-32" }], { conflicts: ["i"] });
+    const i = measure("i", [{ id: "x", direction: "cost", amount: { low_usd: 100 * M, high_usd: 100 * M }, start_fy: "2031-32" }], { conflicts: ["c", "j"] });
+    const j = measure("j", [{ id: "x", direction: "revenue", amount: { low_usd: 50 * M, high_usd: 50 * M }, start_fy: "2031-32" }], { conflicts: ["i"] });
+    const r = runTrial([c, i, j], budget, { c: "yes", i: "yes", j: "yes" });
+    // outcomes: {i} -> -100; {c, j} -> +40
+    expect(gf(r, "2031-32").delta).toEqual({ low: -100 * M, high: 40 * M });
+  });
+
+  it("adds partial conflicts (both take effect) and lists them", () => {
+    const a = measure("a", [{ id: "x", direction: "cost", amount: { low_usd: 1 * M, high_usd: 1 * M }, start_fy: "2031-32" }], { overlaps: ["f"] });
+    const f = measure("f", [{ id: "x", direction: "cost", amount: { low_usd: 2 * M, high_usd: 2 * M }, start_fy: "2031-32" }], { overlaps: ["a"] });
+    const r = runTrial([a, f], budget, { a: "yes", f: "yes" });
+    expect(gf(r, "2031-32").delta).toEqual({ low: -3 * M, high: -3 * M });
+    expect(r.conflicts).toEqual([]);
+    expect(r.overlaps).toEqual([{ refs: ["a", "f"], labels: ["A", "F"] }]);
+  });
+
   it("is deterministic and independent of vote order", () => {
     const a = runTrial([tax, parks, parksSmall], budget, { b: "yes", c: "yes", e: "yes" });
     const b = runTrial([tax, parks, parksSmall], budget, { e: "yes", c: "yes", b: "yes" });

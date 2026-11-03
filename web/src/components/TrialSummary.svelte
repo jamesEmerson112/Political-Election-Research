@@ -145,7 +145,8 @@
       {#each result.oneTime as c (c.ref + c.effectId)}<li><strong>One-time ({c.label}):</strong> {signedRange(c.range)}{c.startFy ? ` in FY${c.startFy}` : ""}</li>{/each}
       {#each result.totals as c (c.ref + c.effectId)}<li><strong>Total over {c.years ?? "several"} years ({c.label}):</strong> {signedRange(c.range)}</li>{/each}
       {#each result.notEstimated as x (x.ref + x.text)}<li><strong>Not estimated ({x.label}):</strong> {x.text}</li>{/each}
-      {#each result.conflicts as k (k.refs.join())}<li><strong>Only one can take effect:</strong> {k.labels.join(" and ")} compete; the totals use the range between them.</li>{/each}
+      {#each result.conflicts as k (k.refs.join())}<li><strong>Only some can take effect:</strong> {k.labels.join(", ")} compete; the totals span the possible outcomes.</li>{/each}
+      {#each result.overlaps as k (k.refs.join())}<li><strong>Partly overlapping:</strong> {k.labels.join(" and ")} both take effect, and one prevails where they conflict; their estimates are added, and may overlap.</li>{/each}
       {#if result.startAssumed.length}<li><strong>Start year not stated ({result.startAssumed.join(", ")}):</strong> counted from the first forecast year.</li>{/if}
     </ul>
     <p class="note">
