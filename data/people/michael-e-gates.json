@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "michael-e-gates",
+  "name": "Michael E. Gates",
+  "aliases": [
+    "Michael Gates"
+  ],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.gates4ag.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
