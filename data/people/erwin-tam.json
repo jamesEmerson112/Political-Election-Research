@@ -65,6 +65,42 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "role": "Municipal financial advisor",
+          "citations": [
+            {
+              "source": "src:growsf-org-5d3937fc51",
+              "quote": "I have spent my career as a municipal financial advisor working with public agencies across the State and country helping to deliver essential services to the public.",
+              "locator": "Personal: What is your professional background?"
+            }
+          ]
+        },
+        {
+          "organization": "California Housing Finance Agency",
+          "role": "Director of finance",
+          "citations": [
+            {
+              "source": "src:theguardsman-com-db1686e37e",
+              "quote": "Currently, Tam is the director of finance for the California Housing Finance Agency"
+            }
+          ]
+        },
+        {
+          "organization": "Chinese Historical Society of America",
+          "role": "Former President and Treasurer",
+          "citations": [
+            {
+              "source": "src:growsf-org-5d3937fc51",
+              "quote": "I am the former President and Treasurer of the Chinese Historical Society of America (CHSA).",
+              "locator": "Personal: current involvement in the community"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
