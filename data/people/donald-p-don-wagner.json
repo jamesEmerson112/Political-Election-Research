@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "donald-p-don-wagner",
+  "name": "Donald P. (Don) Wagner",
+  "aliases": [
+    "Don Wagner",
+    "Donald P. Wagner"
+  ],
+  "ids": [
+    {
+      "id": "Q5294972",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://wagnerforcalifornia.com/",
+    "official_site": "https://bos3.oc.gov/supervisor"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
