@@ -5,6 +5,7 @@
   import { openPosition, openRel } from "../lib/view";
   import StanceChip from "./StanceChip.svelte";
   import OfficeChips from "./OfficeChips.svelte";
+  import MeasureArguments from "./MeasureArguments.svelte";
   import StanceMark from "./StanceMark.svelte";
   import { contestRoute } from "../lib/data";
   import { MARK } from "../lib/marks";
@@ -85,6 +86,13 @@
     {#each c["conflicts"] ?? [] as k (k["contest"])}
       <p class="chip wrap">Competes with <a href={`#${contestRoute(k["contest"])}`}>{label(k["contest"])}</a>: {k["rule"]}</p>
     {/each}
+  </section>
+{/if}
+
+{#if c?.["arguments"]?.length}
+  <section class="section">
+    <div class="section-head"><h2>Arguments, side by side</h2><p>From the official voter guide, as printed. Click an argument to read it in full.</p></div>
+    <MeasureArguments args={c["arguments"]} title={ix.contestTitle(contestRef)} />
   </section>
 {/if}
 

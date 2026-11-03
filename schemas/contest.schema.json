@@ -285,6 +285,13 @@
         },
         "fiscal": {
           "$ref": "#/$defs/Fiscal"
+        },
+        "arguments": {
+          "description": "Arguments printed in the official voter guide, verbatim (printed as submitted by their authors, unedited): the proponent's and opponent's arguments, the rebuttals to each, and every paid argument with its printed funding disclosure. Opinions of their authors, not facts; recorded so readers can compare both sides.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/BallotArgument"
+          }
         }
       }
     }
@@ -549,6 +556,62 @@
           "description": "Estimated yearly property tax per $100,000 of assessed value, as the statement gives it.",
           "type": "number",
           "minimum": 0
+        },
+        "citations": {
+          "$ref": "defs.schema.json#/$defs/Citations"
+        }
+      }
+    },
+    "BallotArgument": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "side",
+        "kind",
+        "text",
+        "authors",
+        "citations"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "defs.schema.json#/$defs/Slug"
+        },
+        "side": {
+          "enum": [
+            "yes",
+            "no"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "proponent",
+            "opponent",
+            "rebuttal_to_proponent",
+            "rebuttal_to_opponent",
+            "paid"
+          ]
+        },
+        "heading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "description": "The full body verbatim (whitespace collapsed).",
+          "type": "string",
+          "minLength": 1
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "funds_source": {
+          "description": "Paid arguments: the printed funding disclosure, verbatim.",
+          "type": "string",
+          "minLength": 1
         },
         "citations": {
           "$ref": "defs.schema.json#/$defs/Citations"

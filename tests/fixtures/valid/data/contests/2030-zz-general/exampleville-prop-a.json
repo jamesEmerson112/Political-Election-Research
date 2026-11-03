@@ -4,6 +4,85 @@
   "kind": "measure",
   "election": "election:2030-zz-general",
   "name": "Exampleville Proposition A",
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Example Housing Coalition"
+      ],
+      "side": "yes",
+      "text": "Vote yes to build homes people can afford.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Vote yes to build homes people can afford."
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Example Taxpayers Group"
+      ],
+      "side": "no",
+      "text": "The bond adds debt without a plan.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The bond adds debt without a plan."
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Example Taxpayers Group"
+      ],
+      "side": "no",
+      "text": "Vote no: property owners will pay for decades.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "Vote no: property owners will pay for decades."
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Example Housing Coalition"
+      ],
+      "side": "yes",
+      "text": "The cost is about $9.50 a year per $100,000 of assessed value.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "The cost is about $9.50 a year per $100,000 of assessed value."
+        }
+      ]
+    },
+    {
+      "id": "paid-yes-01",
+      "kind": "paid",
+      "authors": [
+        "Example Builders Association"
+      ],
+      "funds_source": "The true source of funds for the printing fee of this argument is Example Builders Association.",
+      "heading": "Builders say yes",
+      "side": "yes",
+      "text": "More homes, sooner.",
+      "citations": [
+        {
+          "source": "src:elections-exampleville-example-gov-10650ea718",
+          "quote": "More homes, sooner."
+        }
+      ]
+    }
+  ],
   "digest": {
     "no_means": {
       "value": "You do not want the City to issue these bonds.",

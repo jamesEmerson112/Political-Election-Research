@@ -374,6 +374,13 @@ local("A", {
   vote_threshold: { value: "two_thirds", citations: vip("Proposition A requires two-thirds of the votes cast to pass.") },
   placed_by: { value: "governing_body", citations: vip("The City Council voted 6 to 1 to place Proposition A on the ballot.") },
   digest: digest("You want the City to issue $300 million in bonds for affordable housing.", "You do not want the City to issue these bonds."),
+  arguments: [
+    { id: "proponent", side: "yes", kind: "proponent", text: "Vote yes to build homes people can afford.", authors: ["Example Housing Coalition"], citations: vip("Vote yes to build homes people can afford.") },
+    { id: "rebuttal-to-proponent", side: "no", kind: "rebuttal_to_proponent", text: "The bond adds debt without a plan.", authors: ["Example Taxpayers Group"], citations: vip("The bond adds debt without a plan.") },
+    { id: "opponent", side: "no", kind: "opponent", text: "Vote no: property owners will pay for decades.", authors: ["Example Taxpayers Group"], citations: vip("Vote no: property owners will pay for decades.") },
+    { id: "rebuttal-to-opponent", side: "yes", kind: "rebuttal_to_opponent", text: "The cost is about $9.50 a year per $100,000 of assessed value.", authors: ["Example Housing Coalition"], citations: vip("The cost is about $9.50 a year per $100,000 of assessed value.") },
+    { id: "paid-yes-01", side: "yes", kind: "paid", heading: "Builders say yes", text: "More homes, sooner.", authors: ["Example Builders Association"], funds_source: "The true source of funds for the printing fee of this argument is Example Builders Association.", citations: vip("More homes, sooner.") },
+  ],
   fiscal: controller(
     "Should the bonds be issued, debt service would be about $21 million a year for 20 years, paid from property taxes.",
     [effect({ id: "debt-service", lane: "bond_debt", direction: "cost", amount: { low_usd: 21000000, high_usd: 21000000 }, per: "year", start_fy: "2031-32", years: 20, estimate: "estimated", text: "Debt service of about $21 million a year for 20 years, paid from property taxes." })],
