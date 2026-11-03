@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ltg-ca-gov-d03a49d066",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "Office of the Lieutenant Governor of California",
+  "title": "About Eleni Kounalakis",
+  "url": "https://ltg.ca.gov/about/"
+}

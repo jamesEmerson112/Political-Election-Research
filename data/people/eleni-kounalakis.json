@@ -13,6 +13,19 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "California",
+      "citations": [
+        {
+          "source": "src:ltg-ca-gov-d03a49d066",
+          "quote": "A native Californian, she visited each of the state’s 58 counties during her historic campaign."
+        },
+        {
+          "source": "src:eleniforca-com-3214a47781",
+          "quote": "A proud native Californian and mother of two"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
