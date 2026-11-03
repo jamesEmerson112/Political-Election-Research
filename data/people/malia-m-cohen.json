@@ -65,6 +65,52 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "non-office employment / professional experience",
+          "where": "Franchise Tax Board official biography (ftb.ca.gov/about-ftb/bios/Controller.html)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "non-office employment",
+          "where": "CalSTRS board-member biography"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "career (page blocked by a bot challenge, HTTP 403)",
+          "where": "State Controller official biography (sco.ca.gov/eo_about_bio.html)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "career / worked / professional experience",
+          "where": "Campaign site maliacohenforca.com (home, Meet Malia, Accomplishments pages)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "career before office",
+          "where": "Carnegie Mellon University alumni award biography"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "occupation / career",
+          "where": "2026 Official Voter Information Guide, Controller candidate statement (p. 86)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Cohen career before office",
+          "where": "Los Angeles Times controller race guide (2026-10-01)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Cohen career",
+          "where": "San Francisco Chronicle 2026 voter guide"
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
