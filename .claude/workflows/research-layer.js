@@ -1,7 +1,7 @@
 export const meta = {
   name: 'research-layer',
   description: 'Research one layer of work packages in private data copies, then verify each contest chunk with adversarial judges; nothing is written to data/',
-  whenToUse: 'After `npx tsx tools/research/run.mts packages ...` has created run directories. Pass args {packages: <its summary>, layer, hosts: {reachable, blocked}, today} (judgeOnly: true re-runs only the judges). Afterwards integrate with `run.mts integrate` (one commit per task), then npm run check.',
+  whenToUse: 'After `npx tsx tools/research/run.mts packages ...` has created run directories. Pass args {packages: <its summary>, layer, hosts: {reachable, blocked}, today} (judgeOnly: true re-runs only the judges; effort and judgeEffort set the reasoning effort of researchers and judges). Afterwards integrate with `run.mts integrate` (one commit per task), then npm run check.',
   phases: [
     { title: 'Research', detail: 'one agent per work package, in its private data copy; every write logged' },
     { title: 'Verify', detail: 'quote check, then adversarial judges per contest chunk (one per lens); verdict files' },
@@ -125,9 +125,9 @@ log(`${PKGS.length} package(s) in ${groups.length} judge group(s); layer ${A.lay
 
 const results = await pipeline(
   groups,
-  (g) => (A.judgeOnly ? Promise.resolve(g.pkgs.map(() => null)) : parallel(g.pkgs.map((p) => () => agent(researchPrompt(p), { label: `research:${p.id}`, phase: 'Research', schema: REPORT })))),
+  (g) => (A.judgeOnly ? Promise.resolve(g.pkgs.map(() => null)) : parallel(g.pkgs.map((p) => () => agent(researchPrompt(p), { label: `research:${p.id}`, phase: 'Research', schema: REPORT, ...(A.effort ? { effort: A.effort } : {}) })))),
   (reports, g) =>
-    parallel(g.lenses.map((lens) => () => agent(judgePrompt(g, lens), { label: `judge:${lens}:${g.key}`, phase: 'Verify', schema: VERDICT }))).then((vs) => ({
+    parallel(g.lenses.map((lens) => () => agent(judgePrompt(g, lens), { label: `judge:${lens}:${g.key}`, phase: 'Verify', schema: VERDICT, ...(A.judgeEffort ? { effort: A.judgeEffort } : {}) }))).then((vs) => ({
       group: g.key,
       packages: g.pkgs.map((p, i) => {
         const r = (reports || [])[i]
