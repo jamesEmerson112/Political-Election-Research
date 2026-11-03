@@ -2,7 +2,7 @@
   import type { Bridge, BridgeDomain, MeasureInput, Range, TrialResult, Vote } from "../lib/budgetTrial";
   import { LANES } from "../lib/budgetTrial";
   import { MARK } from "../lib/marks";
-  import { balance, gapLine, gapShare, LANE_LABEL, pct, pctRange, signedRange, usd, type BudgetBase } from "../lib/measureChips";
+  import { balance, gapShare, LANE_LABEL, pct, pctRange, signedRange, usd, type BudgetBase } from "../lib/measureChips";
   import { hideTip, showTip } from "../lib/ui.svelte";
   import BudgetBridge from "./BudgetBridge.svelte";
   import StanceMark from "./StanceMark.svelte";
@@ -37,8 +37,8 @@
 
   // ---- chart geometry
   const W = 640;
-  const H = 220;
-  const M = { l: 64, r: 40, t: 14, b: 28 };
+  const H = 270;
+  const M = { l: 64, r: 62, t: 34, b: 50 };
   const ys = $derived(
     result.generalFund.flatMap((y) => [y.baseline ?? 0, y.result?.low ?? 0, y.result?.high ?? 0]).concat([0]),
   );
@@ -50,6 +50,19 @@
   const n = $derived(result.generalFund.length);
   const xAt = (i: number) => M.l + (n <= 1 ? (W - M.l - M.r) / 2 : (i * (W - M.l - M.r)) / (n - 1));
   const yAt = (v: number) => M.t + ((hi - v) / (hi - lo || 1)) * (H - M.t - M.b);
+  /** Round gridlines (dollars on the left; the same lines as a share of the adopted General Fund on the right). */
+  const yStep = $derived.by(() => {
+    const raw = (hi - lo) / 4;
+    const mag = 10 ** Math.floor(Math.log10(raw || 1));
+    return ([1, 2, 2.5, 5, 10].map((m) => m * mag).find((st) => st >= raw) ?? 10 * mag) || 1;
+  });
+  const yTicks = $derived.by(() => {
+    const out: number[] = [];
+    for (let v = Math.ceil(lo / yStep) * yStep; v <= hi + 1e-6; v += yStep) out.push(Math.round(v));
+    return out;
+  });
+  const gfPct = (v: number) => (base?.generalFund ? `${v < 0 ? "−" : ""}${((Math.abs(v) / base.generalFund) * 100).toFixed(1)}%` : "");
+  const xAnchor = (i: number) => (n > 1 && i === n - 1 ? "end" : n > 1 && i === 0 ? "start" : "middle");
   const basePath = $derived(result.generalFund.map((y, i) => `${i ? "L" : "M"}${xAt(i)},${yAt(y.baseline ?? 0)}`).join(" "));
   const band = $derived(
     [
@@ -110,15 +123,27 @@
     <figure class="panel chart">
       <figcaption class="eyebrow">General Fund by fiscal year</figcaption>
       <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="General Fund by fiscal year: the official forecast and the range with your choices. The same numbers are in the table below.">
-        <line class="zero" x1={M.l} x2={W - M.r} y1={yAt(0)} y2={yAt(0)} />
-        <text class="tick" x={M.l - 6} y={yAt(0) + 4} text-anchor="end">$0</text>
-        <text class="tick" x={M.l - 6} y={yAt(yMin) + 4} text-anchor="end">{yMin < 0 ? `−${usd(yMin)}` : usd(yMin)}</text>
-        {#if yMax > 0}<text class="tick" x={M.l - 6} y={yAt(yMax) + 4} text-anchor="end">{usd(yMax)}</text>{/if}
+        {#each yTicks as t (t)}
+          <line class={t === 0 ? "zero" : "grid"} x1={M.l} x2={W - M.r} y1={yAt(t)} y2={yAt(t)} />
+          <text class="tick" x={M.l - 6} y={yAt(t) + 4} text-anchor="end">{t === 0 ? "$0" : `${t < 0 ? "−" : ""}${usd(t)}`}</text>
+          {#if base?.generalFund}<text class="tick" x={W - M.r + 6} y={yAt(t) + 4} text-anchor="start">{t === 0 ? "0%" : gfPct(t)}</text>{/if}
+        {/each}
+        {#if base?.generalFund}<text class="cap" x={W - 2} y="11" text-anchor="end">% of FY{base.fy} General Fund</text>{/if}
+        <text class="cap" x="2" y="11">Dollars</text>
         <polygon class="band" points={band} />
         <path class="base" d={basePath} />
         {#each result.generalFund as y, i (y.fy)}
           <circle class="dot" cx={xAt(i)} cy={yAt(y.baseline ?? 0)} r="4" />
-          <text class="tick" x={xAt(i)} y={H - 8} text-anchor={n > 1 && i === n - 1 ? "end" : n > 1 && i === 0 ? "start" : "middle"}>FY{y.fy}</text>
+          <!-- The year's official shortfall on its point; under the band, how much your choices change it. -->
+          <text class="val" x={xAt(i)} y={yAt(Math.max(y.baseline ?? 0, y.result?.high ?? -Infinity)) - 9} text-anchor={xAnchor(i)}
+            >{`${balance({ low: y.baseline ?? 0, high: y.baseline ?? 0 })}${base?.generalFund && y.baseline ? ` · ${gfPct(Math.abs(y.baseline))} of GF` : ""}`}</text
+          >
+          {#if y.result && y.baseline}
+            <text class="chg" x={xAt(i)} y={H - 26} text-anchor={xAnchor(i)}
+              >{gapShare(y.baseline, y.delta, "money") ?? ""}</text
+            >
+          {/if}
+          <text class="tick" x={xAt(i)} y={H - 8} text-anchor={xAnchor(i)}>FY{y.fy}</text>
           <!-- svelte-ignore a11y_no_static_element_interactions -->
           <rect
             class="hit"
@@ -131,7 +156,10 @@
           />
         {/each}
       </svg>
-      <div class="legend"><span class="sw base"></span> Official forecast <span class="sw band"></span> With your choices (range)</div>
+      <div class="legend">
+        <span class="sw base"></span> Official forecast <span class="sw band"></span> With your choices (range)
+        <span class="muted">· Above each year's name: how much your choices change that year's shortfall. The right axis is the left one as a share of the adopted General Fund, computed here.</span>
+      </div>
     </figure>
 
     <div class="scroll-x"><table class="grid num">
@@ -139,7 +167,7 @@
       <tbody>
         {#each result.generalFund as y (y.fy)}
           <tr
-            ><td>FY{y.fy}</td><td><strong>{y.result && y.baseline !== null ? (gapLine(y.fy, y.baseline, y.result).pct ?? "no change") : "—"}</strong></td><td
+            ><td>FY{y.fy}</td><td><strong>{y.result && y.baseline !== null ? (gapShare(y.baseline, y.delta, "money") ?? "no change") : "—"}</strong></td><td
               >{balance({ low: y.baseline ?? 0, high: y.baseline ?? 0 })}</td
             ><td>{signedRange(y.delta)}</td><td>{y.result ? balance(y.result) : "—"}</td></tr>
         {/each}
@@ -231,9 +259,40 @@
     font-size: 11px;
     fill: var(--muted);
   }
+  .grid {
+    stroke: var(--line);
+    stroke-width: 1;
+  }
+  .cap {
+    font-size: 10px;
+    fill: var(--muted);
+    letter-spacing: 0.03em;
+  }
+  .val {
+    font-size: 11px;
+    font-weight: 600;
+    fill: var(--ink);
+    paint-order: stroke;
+    stroke: var(--surface);
+    stroke-width: 3px;
+  }
+  .chg {
+    font-size: 11px;
+    fill: var(--ink-2);
+    paint-order: stroke;
+    stroke: var(--surface);
+    stroke-width: 3px;
+  }
+  /* Phones: the chart is scaled down, so its labels would be unreadably small; the table below has the same numbers. */
+  @media (max-width: 560px) {
+    .val,
+    .chg {
+      display: none;
+    }
+  }
   .band {
     fill: var(--money);
-    opacity: 0.3;
+    opacity: 0.45;
     stroke: var(--money);
     stroke-width: 1.5;
   }
