@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "lisa-p-wynn-ii",
+  "name": "Lisa P Wynn II",
+  "aliases": [
+    "Lisa Palagi Wynn II",
+    "Lisa Wynn"
+  ],
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
