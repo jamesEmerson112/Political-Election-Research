@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:shawn-m-richard",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2026-11-03",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire his answer called Mayor Lurie's Family Zoning plan a step in the right direction but not ambitious enough by itself, and said future housing growth must be shared across every San Francisco neighborhood.",
+      "citations": [
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "Mayor Lurie’s Family Zoning plan is a step in the right direction, but by itself it is not ambitious enough to solve San Francisco’s housing challenges.",
+          "locator": "Housing: \"Do you think Mayor Lurie’s Family zoning plan is too ambitious or not ambitious enough?\""
+        },
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "District 10 has carried more than its fair share of new development over the years, so future housing growth must be equitable across every neighborhood in San Francisco.",
+          "locator": "Housing: \"Do you think Mayor Lurie’s Family zoning plan is too ambitious or not ambitious enough?\""
+        }
+      ]
+    }
+  ]
+}
