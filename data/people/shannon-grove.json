@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "shannon-grove",
+  "name": "Shannon Grove",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q7488882",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "official_site": "https://sr12.senate.ca.gov/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/board-of-equalization-1",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Board of Equalization Member District 1",
+  "office": "Board of Equalization Member",
+  "candidates": [
+    {
+      "person": "person:nelson-esparza",
+      "ballot_designation": "Teacher/Economist/Councilmember",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Board of Equalization Member District 1 Nelson Esparza Democratic Teacher/Economist/Councilmember",
+          "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 1"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    },
+    {
+      "person": "person:shannon-grove",
+      "ballot_designation": "State Senator/Businesswoman",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Shannon Grove Republican State Senator/Businesswoman",
+          "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 1"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; no asterisk follows this candidate's name"
+        }
+      ]
+    }
+  ],
+  "district": 1,
+  "level": "state",
+  "office_ref": "office:california-board-of-equalization-member",
+  "vote_for": 1,
+  "last_verified": "2026-11-03"
+}
