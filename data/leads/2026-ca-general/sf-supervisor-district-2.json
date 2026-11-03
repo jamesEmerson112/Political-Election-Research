@@ -1,0 +1,227 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/sf-supervisor-district-2",
+  "items": [
+    {
+      "person": "person:stephen-sherrill",
+      "label": "On the ballot",
+      "text": "Running for the full four-year term on Nov. 3, 2026: Mission Local (Oct. 8, 2026) says the District 2 incumbent \"won handily in June\" and is \"on track to win the next four-year term\"; after the June 2 special election he said he hoped to \"earn four more years this November.\" Search summaries: the sf.gov candidate report says four people qualified for District 2; GrowSF and Blue Voter Guide list Sherrill, Nicholas Berg, Guy McCoy and Monthanus Ratanapakdee. (sources: Mission Local https://missionlocal.org/2026/10/sf-meet-the-candidates-congress-supervisor-school-board/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary]; Blue Voter Guide https://bluevoterguide.org/district/CA/San_Francisco_Board_of_Supervisors_District_2/54158/638 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "label": "Incumbent",
+      "text": "Yes. Mission Local: \"Mayor London Breed appointed Sherrill in December 2024 after Stefani vacated the seat to become one of San Francisco’s state assembly members.\" He won the June 2, 2026 special election, which \"would only guarantee him the remainder of Catherine Stefani’s term, which ends in January 2027.\" CivLab lists him as D2 Supervisor from 2024-12-18 with type \"elected\" (CivLab's label differs from the appointment). (sources: Mission Local https://missionlocal.org/2026/06/sf-stephen-sherrill-lori-brooke-district-2-special-election/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as the appointed incumbent (search summary); no designation text seen. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "label": "Occupation",
+      "text": "Mission Local candidate profile (Feb. 17, 2026), Job: \"Appointed District 2 Supervisor\". (sources: Mission Local https://missionlocal.org/2026/02/sf-district-2-candidates-stephen-sherrill-lori-brooke/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "label": "Offices held",
+      "text": "Member, Board of Supervisors, District 2, appointed by Mayor London Breed in December 2024 (CivLab start date 2024-12-18); won the June 2, 2026 special election for the rest of the term ending January 2027 (Mission Local: Brooke \"lost 69-31\"). (sources: Mission Local https://missionlocal.org/2026/06/sf-stephen-sherrill-lori-brooke-district-2-special-election/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from Yale University\". (sources: Mission Local https://missionlocal.org/2026/02/sf-district-2-candidates-stephen-sherrill-lori-brooke/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "label": "Age",
+      "text": "Mission Local profile published Feb. 17, 2026, Age: \"39\". (sources: Mission Local https://missionlocal.org/2026/02/sf-district-2-candidates-stephen-sherrill-lori-brooke/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "label": "Party",
+      "text": "Not stated on any page opened. A Blue Voter Guide listing tags him Democrat (search summary only). The contest is nonpartisan. (sources: Blue Voter Guide https://bluevoterguide.org/district/CA/San_Francisco_Board_of_Supervisors_District_2/54158/638 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:stephen-sherrill",
+      "label": "Campaign website",
+      "text": "votestephensherrill.com (Mission Local links https://www.votestephensherrill.com/endorsements for his endorsements). (sources: Mission Local https://missionlocal.org/2026/02/sf-district-2-candidates-stephen-sherrill-lori-brooke/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "On the ballot",
+      "text": "Mission Local (June 11, 2026) names him as one of \"the remaining candidates\" after Lori Brooke left the November race. Search summaries: the sf.gov candidate report shows the name as Nicolás Berg among four qualified District 2 candidates; GrowSF and Blue Voter Guide list him. (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary]; Blue Voter Guide https://bluevoterguide.org/district/CA/San_Francisco_Board_of_Supervisors_District_2/54158/638 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "Incumbent",
+      "text": "No. The incumbent is Stephen Sherrill. (sources: Mission Local https://missionlocal.org/2026/06/sf-stephen-sherrill-lori-brooke-district-2-special-election/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as a property management executive (search summary paraphrase; may not be the ballot designation). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "Occupation",
+      "text": "GrowSF lists him as a property management executive (search summary). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "Offices held",
+      "text": "No government office found. Mission Local: \"Nicholas Berg, is the chairman of the San Francisco Republican Party\" (a party office). (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "Party",
+      "text": "Registration not stated. Mission Local describes him as \"the chairman of the San Francisco Republican Party.\" The contest is nonpartisan. (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:nicholas-berg",
+      "label": "Campaign website",
+      "text": "nicholasberg.com (Mission Local links https://nicholasberg.com/ as \"his website\"). (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "On the ballot",
+      "text": "Mission Local (June 11, 2026) names him as one of \"the remaining candidates\" in District 2. Search summaries: GrowSF and Blue Voter Guide list him; the sf.gov report says four qualified. (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary]; Blue Voter Guide https://bluevoterguide.org/district/CA/San_Francisco_Board_of_Supervisors_District_2/54158/638 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "Incumbent",
+      "text": "No. The incumbent is Stephen Sherrill. (sources: Mission Local https://missionlocal.org/2026/06/sf-stephen-sherrill-lori-brooke-district-2-special-election/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF's table shows no profession for him (search summary). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "Occupation",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "Offices held",
+      "text": "No office found. Mission Local (June 11, 2026) says he presented himself as a mayoral candidate in 2024 and links the Department of Elections November 2024 results. (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:guy-mccoy",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "On the ballot",
+      "text": "Mission Local (June 11, 2026) names her as one of \"the remaining candidates\" in District 2. Search summaries: GrowSF and Blue Voter Guide list her; an older Chinese-language sf.gov candidate page listed her as a District 2 filer with qualification pending. (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary]; Blue Voter Guide https://bluevoterguide.org/district/CA/San_Francisco_Board_of_Supervisors_District_2/54158/638 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "Incumbent",
+      "text": "No. The incumbent is Stephen Sherrill. (sources: Mission Local https://missionlocal.org/2026/06/sf-stephen-sherrill-lori-brooke-district-2-special-election/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists her as a community advocate and parent (search summary paraphrase; may not be the ballot designation). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "Occupation",
+      "text": "GrowSF lists her as a community advocate and parent (search summary). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-2-supervisor/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "Offices held",
+      "text": "No office found. Mission Local (June 11, 2026): she \"ran a write-in campaign for June’s seat\". (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "Education",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "Age",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:monthanus-ratanapakdee",
+      "label": "Campaign website",
+      "text": "ratanapakdeesf.org (Mission Local links https://www.ratanapakdeesf.org/priorities as her \"campaign website\"). (sources: Mission Local https://missionlocal.org/2026/06/sf-district-2-supervisor-november-sherrill-brooke/ [fetched page, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (Mission Local and CivLab pages opened; other items from web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information for this contest. Mission Local pages (read through the site's WordPress JSON API) and CivLab's SF graph data were opened, and text in quotation marks is copied verbatim from those pages. Items marked [search summary] were seen only in web search summaries: the San Francisco Department of Elections candidate report and voter pamphlet (www.sf.gov and media.api.sf.gov are blocked in this session), GrowSF, KQED, Wikipedia, Blue Voter Guide and Richmond Sunset News. Each item names its sources and how each was seen. Verify in a primary source before recording anything with citations."
+  }
+}

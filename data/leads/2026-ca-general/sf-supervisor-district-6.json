@@ -1,0 +1,119 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/sf-supervisor-district-6",
+  "items": [
+    {
+      "person": "person:matt-dorsey",
+      "label": "On the ballot",
+      "text": "Mission Local: \"He is up for re-election this November against one challenger, Alex Behrend.\" Search summaries: the sf.gov candidate report says 2 people qualified for District 6; GrowSF lists Dorsey and Behrend. (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-6-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:matt-dorsey",
+      "label": "Incumbent",
+      "text": "Yes. Mission Local: \"Its current supervisor, Matt Dorsey, was appointed by Mayor London Breed on May 9, 2022.\" CivLab lists him as D6 Supervisor from 2023-01-08, type \"elected\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:matt-dorsey",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as the sitting supervisor (search summary); no designation text seen. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-6-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:matt-dorsey",
+      "label": "Occupation",
+      "text": "Mission Local profile, Job: \"Current District 6 Supervisor\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:matt-dorsey",
+      "label": "Offices held",
+      "text": "Member, Board of Supervisors, District 6, appointed May 9, 2022 (Mission Local); CivLab start of current term 2023-01-08. Mission Local also refers to \"his role as an elected member of the local Democratic party committee (aka the DCCC)\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:matt-dorsey",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from Emerson College\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:matt-dorsey",
+      "label": "Age",
+      "text": "Mission Local profile (District 6 page, Oct. 2026), Age: \"61\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:matt-dorsey",
+      "label": "Party",
+      "text": "Registration not stated. Mission Local refers to \"his role as an elected member of the local Democratic party committee (aka the DCCC)\". The contest is nonpartisan. (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:matt-dorsey",
+      "label": "Campaign website",
+      "text": "Mission Local profile, Website: \"Reelect Matt Dorsey 2026\" linking https://www.mattdorsey.org/. (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "On the ballot",
+      "text": "Mission Local: Dorsey \"is up for re-election this November against one challenger, Alex Behrend.\" Search summaries: the sf.gov report says 2 qualified; GrowSF lists him. (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-6-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "Incumbent",
+      "text": "No. The incumbent is Matt Dorsey. (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as a laborer and community organizer (search summary paraphrase; may not be the ballot designation). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-6-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "Occupation",
+      "text": "Mission Local profile, Job: \"No current job, formerly a voter organizer for Dean Preston’s 2024 campaign, a Safeway checker and a housekeeper at the San Francisco Zen Center\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from the University of California, San Diego\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "Age",
+      "text": "Mission Local profile (District 6 page, Oct. 2026), Age: \"54\". (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:alex-behrend",
+      "label": "Campaign website",
+      "text": "Mission Local profile, Website: \"Alex for All\" linking https://alexforalld6.com/. (sources: Mission Local https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/ [fetched page, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (Mission Local and CivLab pages opened; other items from web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information for this contest. Mission Local pages (read through the site's WordPress JSON API) and CivLab's SF graph data were opened, and text in quotation marks is copied verbatim from those pages. Items marked [search summary] were seen only in web search summaries: the San Francisco Department of Elections candidate report and voter pamphlet (www.sf.gov and media.api.sf.gov are blocked in this session), GrowSF, KQED, Wikipedia, Blue Voter Guide and Richmond Sunset News. Each item names its sources and how each was seen. Verify in a primary source before recording anything with citations."
+  }
+}

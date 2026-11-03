@@ -1,0 +1,233 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/sf-supervisor-district-8",
+  "items": [
+    {
+      "person": "person:gary-mccoy",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 5, 2026): \"Four candidates are vying to replace current District 8 Supervisor Rafael Mandelman\"; profiles name Gary McCoy, Michael Nguyen, Darshini Patel and Manny Yekutiel. Search summaries: the Filipino-language sf.gov candidates page says 4 qualified for District 8; GrowSF lists the same four. (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/candidates-november-3-2026-general-election [search summary, primary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:gary-mccoy",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says Supervisor Rafael Mandelman \"has served since 2018 and terms out at the end of the year\"; CivLab lists Mandelman as D8 Supervisor from 2018-07-11. (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:gary-mccoy",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as a healthcare policy advocate (search summary paraphrase; may not be the ballot designation). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:gary-mccoy",
+      "label": "Occupation",
+      "text": "Mission Local profile (Aug. 5, 2026), Job: \"Former staffer to Speaker Emerita Nancy Pelosi and former vice president of policy and public affairs at HealthRIGHT 360\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:gary-mccoy",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:gary-mccoy",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Former City College of San Francisco student, certified phlebotomy technician from Bay Area Medical Academy\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:gary-mccoy",
+      "label": "Age",
+      "text": "Mission Local profile (Aug. 5, 2026), Age: \"48\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:gary-mccoy",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:gary-mccoy",
+      "label": "Campaign website",
+      "text": "garymccoysf.com (Mission Local links https://www.garymccoysf.com/endorsements for his endorsements). (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 5, 2026): \"Four candidates are vying to replace current District 8 Supervisor Rafael Mandelman\"; profiles name Gary McCoy, Michael Nguyen, Darshini Patel and Manny Yekutiel. Search summaries: the Filipino-language sf.gov candidates page says 4 qualified for District 8; GrowSF lists the same four. GrowSF shows the name as Michael T. Nguyen (search summary). (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/candidates-november-3-2026-general-election [search summary, primary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says Supervisor Rafael Mandelman \"has served since 2018 and terms out at the end of the year\"; CivLab lists Mandelman as D8 Supervisor from 2018-07-11. (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as an attorney and drag producer (search summary paraphrase; may not be the ballot designation). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "Occupation",
+      "text": "Mission Local profile (Aug. 5, 2026), Job: \"Patent attorney\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from Southwestern University, law degree from University of California Law, San Francisco\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "Age",
+      "text": "Mission Local profile (Aug. 5, 2026), Age: \"44\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:michael-nguyen",
+      "label": "Campaign website",
+      "text": "michaelnguyen4sf.com (Mission Local links https://www.michaelnguyen4sf.com/endorsements for his endorsements). (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 5, 2026): \"Four candidates are vying to replace current District 8 Supervisor Rafael Mandelman\"; profiles name Gary McCoy, Michael Nguyen, Darshini Patel and Manny Yekutiel. Search summaries: the Filipino-language sf.gov candidates page says 4 qualified for District 8; GrowSF lists the same four. (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/candidates-november-3-2026-general-election [search summary, primary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says Supervisor Rafael Mandelman \"has served since 2018 and terms out at the end of the year\"; CivLab lists Mandelman as D8 Supervisor from 2018-07-11. (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists her as a community advocate (search summary paraphrase; may not be the ballot designation). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "Occupation",
+      "text": "Mission Local profile (Aug. 5, 2026), Job: \"Former DoorDash employee, worked on the 2012 Obama campaign and the 2024 Harris campaign, former Obama staffer\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from Wellesley College\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "Age",
+      "text": "Mission Local profile (Aug. 5, 2026), Age: \"38\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:darshini-patel",
+      "label": "Campaign website",
+      "text": "Not found: the Mission Local profile gives no website link for her (\"Endorsed by: N/A\"). (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "On the ballot",
+      "text": "Mission Local (Aug. 5, 2026): \"Four candidates are vying to replace current District 8 Supervisor Rafael Mandelman\"; profiles name Gary McCoy, Michael Nguyen, Darshini Patel and Manny Yekutiel. Search summaries: the Filipino-language sf.gov candidates page says 4 qualified for District 8; GrowSF lists the same four. The sf.gov report (search summary) shows him qualified on 6/5/2026. Mission Local (Oct. 5, 2026) gives his full name as \"Emanuel “Manny” Yekutiel\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/candidates-november-3-2026-general-election [search summary, primary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/ [search summary, secondary]; Mission Local https://missionlocal.org/2026/10/sf-endorsements-district-8-supervisor-race-gary-mccoy-manny-yekutiel/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Incumbent",
+      "text": "No. Open seat: Mission Local says Supervisor Rafael Mandelman \"has served since 2018 and terms out at the end of the year\"; CivLab lists Mandelman as D8 Supervisor from 2018-07-11. (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. No GrowSF label seen for him (search summary). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Occupation",
+      "text": "Mission Local profile (Aug. 5, 2026), Job: \"Founder and owner of Manny’s, co-founder and former executive director of Civic Joy Fund\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Offices held",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from Williams College\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Age",
+      "text": "Mission Local profile (Aug. 5, 2026), Age: \"36\". (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Campaign website",
+      "text": "mannyforsf.com (Mission Local links https://www.mannyforsf.com/supporters for his supporters). (sources: Mission Local https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:manny-yekutiel",
+      "label": "Campaign status",
+      "text": "Suspended his campaign on Oct. 1, 2026. Mission Local: \"Though Yekutiel is suspending his campaign, his name will still appear on the ballot; the deadline to withdraw passed in June.\" (sources: Mission Local https://missionlocal.org/2026/10/san-francisco-manny-yekutiel-drops-out-district-8-race/ [fetched page, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (Mission Local and CivLab pages opened; other items from web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information for this contest. Mission Local pages (read through the site's WordPress JSON API) and CivLab's SF graph data were opened, and text in quotation marks is copied verbatim from those pages. Items marked [search summary] were seen only in web search summaries: the San Francisco Department of Elections candidate report and voter pamphlet (www.sf.gov and media.api.sf.gov are blocked in this session), GrowSF, KQED, Wikipedia, Blue Voter Guide and Richmond Sunset News. Each item names its sources and how each was seen. Verify in a primary source before recording anything with citations."
+  }
+}

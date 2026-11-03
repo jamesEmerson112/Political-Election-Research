@@ -1,0 +1,173 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/sf-supervisor-district-4",
+  "items": [
+    {
+      "person": "person:alan-wong",
+      "label": "On the ballot",
+      "text": "Mission Local (Oct. 8, 2026) says the District 4 incumbent \"won handily in June\" and is \"on track to win the next four-year term\". Search summaries: the sf.gov candidate report says 3 people qualified for District 4; GrowSF and Wikipedia list Wong, Albert Chow and Jeremy Greco. (sources: Mission Local https://missionlocal.org/2026/10/sf-meet-the-candidates-congress-supervisor-school-board/ [fetched page, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-4-supervisor/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_San_Francisco_Board_of_Supervisors_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alan-wong",
+      "label": "Incumbent",
+      "text": "Yes, appointed. Mission Local (Nov. 30, 2025): \"Mayor Lurie taps Alan Wong as District 4 supervisor, its 3rd of 2025\" (after the Sept. 2025 recall of Joel Engardio and Beya Alcaraz's one-week tenure); Mission Local (Dec. 1, 2025) reports the swearing-in on Monday. CivLab lists him as D4 Supervisor, type \"appointed\", from 2025-12-01. He won the June 2, 2026 special election for the rest of Engardio's term (Mission Local: \"a 65-35 margin\"). (sources: Mission Local https://missionlocal.org/2025/11/alan-wong-to-be-named-third-district-4-supervisor-of-2025/ [fetched page, secondary]; Mission Local https://missionlocal.org/2025/12/sf-alan-wong-district-supervisor-sunset/ [fetched page, secondary]; CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary]; Mission Local https://missionlocal.org/2026/06/sf-sunset-district-4-natalie-gee-exit-race/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alan-wong",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as the appointed supervisor (search summary); no designation text seen. (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-4-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:alan-wong",
+      "label": "Occupation",
+      "text": "Mission Local profile (June 2026 election series), Job: \"Current District 4 Supervisor / Commander in California’s National Guard\". (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:alan-wong",
+      "label": "Offices held",
+      "text": "Member, Board of Supervisors, District 4, appointed by Mayor Daniel Lurie (CivLab start 2025-12-01); won the June 2, 2026 special election. Mission Local (Dec. 1, 2025): \"Wong was elected to the City College Board of Trustees in 2020, and reelected in 2024\"; the same article says he worked as an aide to former District 4 Supervisor Gordon Mar from 2019 to 2023. In his own Q&A answer he says he served as \"President of the City College Board\". (sources: CivLab (Michael Adams), SF Gov Graph data https://graph.civlab.org/sf [fetched page, secondary]; Mission Local https://missionlocal.org/2025/12/sf-alan-wong-district-supervisor-sunset/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:alan-wong",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from the University of California, San Diego; master’s degree from University of San Francisco\". (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:alan-wong",
+      "label": "Age",
+      "text": "Mission Local profile, Age: \"38\" (District 4 page published May 10, 2026; also \"Wong, 38\" on Nov. 30, 2025). (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary]; Mission Local https://missionlocal.org/2025/11/alan-wong-to-be-named-third-district-4-supervisor-of-2025/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:alan-wong",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:alan-wong",
+      "label": "Campaign website",
+      "text": "alanwong.com (Mission Local links https://alanwong.com/endorsements/ for his endorsements). (sources: Mission Local https://missionlocal.org/2026/02/sf-district-4-election-sunset-candidates/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "On the ballot",
+      "text": "Mission Local (June 9, 2026): Chow \"told Mission Local that he is still considering running\" in November (filing deadline June 9). Search summaries: GrowSF and Wikipedia list him for November; a Richmond Sunset News article (July 12, 2026) reportedly says he will be on the ballot; the sf.gov report says 3 qualified. (sources: Mission Local https://missionlocal.org/2026/06/sf-sunset-district-4-natalie-gee-exit-race/ [fetched page, secondary]; Richmond Sunset News https://richmondsunsetnews.com/2026/07/12/district-4-supervisorial-candidates-regroup-after-june-primary/ [search summary, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-4-supervisor/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_San_Francisco_Board_of_Supervisors_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "Incumbent",
+      "text": "No. The incumbent is Alan Wong. (sources: Mission Local https://missionlocal.org/2025/11/alan-wong-to-be-named-third-district-4-supervisor-of-2025/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as a hardware store owner (search summary paraphrase; may not be the ballot designation). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-4-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "Occupation",
+      "text": "Mission Local profile (June 2026 election series), Job: \"Owner of Great Wall Hardware, president of People of Parkside Sunset\". (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "Offices held",
+      "text": "No government office found. In the June 2, 2026 special election he \"placed behind Gee, with 20 percent of the votes after ranked-choice calculation\" (Mission Local). (sources: Mission Local https://missionlocal.org/2026/06/sf-sunset-district-4-natalie-gee-exit-race/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from the University of California, Berkeley\". (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "Age",
+      "text": "Mission Local profile, Age: \"59\" (District 4 page published May 10, 2026; \"58\" in the Feb. 19, 2026 profile). (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/02/sf-district-4-election-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:albert-chow",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "On the ballot",
+      "text": "Mission Local (June 9, 2026): Greco \"will run again in November.\" Search summaries: GrowSF (as Jeremy Julian Greco) and Wikipedia list him for November; Richmond Sunset News (July 12, 2026) reportedly says he will be on the ballot; the sf.gov report says 3 qualified. (sources: Mission Local https://missionlocal.org/2026/06/sf-sunset-district-4-natalie-gee-exit-race/ [fetched page, secondary]; Richmond Sunset News https://richmondsunsetnews.com/2026/07/12/district-4-supervisorial-candidates-regroup-after-june-primary/ [search summary, secondary]; San Francisco Department of Elections https://www.sf.gov/reports--candidates-nov-3-2026-general-election [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-4-supervisor/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2026_San_Francisco_Board_of_Supervisors_election [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "Incumbent",
+      "text": "No. The incumbent is Alan Wong. (sources: Mission Local https://missionlocal.org/2025/11/alan-wong-to-be-named-third-district-4-supervisor-of-2025/ [fetched page, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "Ballot designation",
+      "text": "Not found: the official candidate list and voter pamphlet (www.sf.gov, media.api.sf.gov) could not be opened in this session. GrowSF lists him as a campus coordinator and monologist (search summary paraphrase; may not be the ballot designation). (sources: GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-4-supervisor/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "Occupation",
+      "text": "Mission Local profile (June 2026 election series), Job: \"Campus coordinator at Presidio Hill School\". (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "Offices held",
+      "text": "No office found. In the June 2, 2026 special election he \"finished in fourth place with 8 percent\" (Mission Local). (sources: Mission Local https://missionlocal.org/2026/06/sf-sunset-district-4-natalie-gee-exit-race/ [fetched page, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "Education",
+      "text": "Mission Local profile, Education: \"Bachelor’s degree from San Francisco State University\". (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "Age",
+      "text": "Mission Local profile, Age: \"54\" (District 4 page published May 10, 2026; \"53\" in the Feb. 19, 2026 profile). (sources: Mission Local https://missionlocal.org/2026/05/sf-election-district-4-sunset-candidates/ [fetched page, secondary]; Mission Local https://missionlocal.org/2026/02/sf-district-4-election-sunset-candidates/ [fetched page, secondary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "Party",
+      "text": "Not stated in any page opened or search summary seen. The contest is nonpartisan. (no source given)",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jeremy-greco",
+      "label": "Campaign website",
+      "text": "Not found in the pages opened or the search summaries seen (official candidate list and voter pamphlet could not be opened; see the agenda's seeded note for the full search list). (no source given)",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (Mission Local and CivLab pages opened; other items from web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information for this contest. Mission Local pages (read through the site's WordPress JSON API) and CivLab's SF graph data were opened, and text in quotation marks is copied verbatim from those pages. Items marked [search summary] were seen only in web search summaries: the San Francisco Department of Elections candidate report and voter pamphlet (www.sf.gov and media.api.sf.gov are blocked in this session), GrowSF, KQED, Wikipedia, Blue Voter Guide and Richmond Sunset News. Each item names its sources and how each was seen. Verify in a primary source before recording anything with citations."
+  }
+}
