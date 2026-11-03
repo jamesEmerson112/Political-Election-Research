@@ -120,6 +120,20 @@
           "where": "Web search (news): candidate name with City College board / trustee"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "being a San Francisco public school parent",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 34 (PDF p. 36)"
+        },
+        {
+          "source": "src:theguardsman-com-6321c29353",
+          "quote": "Eight San Franciscans, who all want to work on behalf of the college's students, are vying for the roles of City College's board of trustees on Election Day this year."
+        }
+      ]
     }
   },
   "ids": [],
