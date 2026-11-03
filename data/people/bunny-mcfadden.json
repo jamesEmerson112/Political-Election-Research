@@ -60,6 +60,27 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Doctorate in Education (curriculum and instruction)",
+          "institution": "Not named in the sources",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "before earning my Doctorate in Education.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Community College Board (4-year term ending January 8, 2031), printed p. 34 (PDF p. 36)"
+            },
+            {
+              "source": "src:theguardsman-com-702fd04dfd",
+              "quote": "A former high school English teacher in New Mexico with a doctorate in curriculum and instruction",
+              "locator": "A Newcomer"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Educator / Journalist (ballot designation: Nonprofit Manager / Writer)",
       "citations": [
