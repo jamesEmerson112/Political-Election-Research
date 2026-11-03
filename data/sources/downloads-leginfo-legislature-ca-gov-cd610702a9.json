@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "downloads-leginfo-legislature-ca-gov-cd610702a9",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2018-11-25",
+  "publisher": "California State Legislature, Legislative Counsel",
+  "title": "Legislative information bulk download, 2017–18 session (pubinfo_2017.zip: BILL_TBL, BILL_HISTORY_TBL, BILL_SUMMARY_VOTE_TBL, BILL_VERSION_TBL, BILL_VERSION_AUTHORS_TBL and bill-version text files)",
+  "url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2017.zip",
+  "notes": "Official bulk data behind leginfo.legislature.ca.gov. Read on 2026-11-03 through HTTP range requests (single tables pulled from the zip; server Last-Modified 2018-11-26 05:27 GMT). Quotes are verbatim cell text or bill digest text; a tab inside a quote is the table's field separator. Not archived: the 1.2 GB zip is too large for the Wayback save endpoint."
+}

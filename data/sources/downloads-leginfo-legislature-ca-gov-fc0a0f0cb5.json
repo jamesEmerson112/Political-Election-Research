@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "downloads-leginfo-legislature-ca-gov-fc0a0f0cb5",
+  "kind": "legislative_record",
+  "accessed": "2026-11-03",
+  "published": "2026-11-01",
+  "publisher": "California State Legislature, Legislative Counsel",
+  "title": "Legislative information bulk download, 2025–26 session (pubinfo_2025.zip: BILL_TBL, BILL_HISTORY_TBL, BILL_SUMMARY_VOTE_TBL, BILL_DETAIL_VOTE_TBL, BILL_VERSION_TBL, BILL_VERSION_AUTHORS_TBL, LOCATION_CODE_TBL and bill-version text files)",
+  "url": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip",
+  "notes": "Official bulk data behind leginfo.legislature.ca.gov, refreshed weekly while the session runs; the copy read on 2026-11-03 through HTTP range requests had server Last-Modified 2026-11-02 05:26 GMT. Quotes are verbatim cell text or bill digest/text; a tab inside a quote is the table's field separator. Not archived: the 1.2 GB zip is too large for the Wayback save endpoint."
+}
