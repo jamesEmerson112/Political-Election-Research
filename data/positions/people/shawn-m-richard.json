@@ -21,6 +21,31 @@
           "locator": "Housing: \"Do you think Mayor Lurie’s Family zoning plan is too ambitious or not ambitious enough?\""
         }
       ]
+    },
+    {
+      "subject": "q:public-health/end-drug-use-supply-distribution",
+      "stance": "mixed",
+      "as_of": "2026-07-01",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said he would keep syringe access and naloxone distribution but change course on blanket or poorly monitored distribution of pipes and foil: audit those programs on outcomes and reduce unmanaged public distribution in favor of supervised or structured settings.",
+      "citations": [
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "I would not approach this as an all-or-nothing issue.",
+          "locator": "answer to \"Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?\" (Substance Abuse section)"
+        },
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "Where I would change course is around the broader expansion of paraphernalia distribution, such as pipes and foil, when it is done in a blanket or poorly monitored way.",
+          "locator": "answer to \"Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?\" (Substance Abuse section)"
+        },
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "Reduce unmanaged public distribution if it is contributing to sidewalk use or environmental impacts, and instead concentrate services in supervised or structured settings.",
+          "locator": "answer to \"Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?\" (Substance Abuse section)"
+        }
+      ]
     }
   ]
 }
