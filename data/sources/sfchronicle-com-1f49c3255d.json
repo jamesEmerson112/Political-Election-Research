@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfchronicle-com-1f49c3255d",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Chronicle",
+  "title": "Voter Guide 2026: California and S.F. Bay Area election",
+  "url": "https://www.sfchronicle.com/projects/2026/california-sf-bay-area-voter-guide/",
+  "notes": "Page states \"Updated Nov. 3, 2026 9:58 a.m.\""
+}

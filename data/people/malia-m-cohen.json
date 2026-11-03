@@ -52,6 +52,92 @@
           ]
         }
       ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "California State Controller",
+          "current": true,
+          "first_elected": "2022",
+          "jurisdiction": "State of California",
+          "office_ref": "office:california-controller",
+          "start": "2023",
+          "citations": [
+            {
+              "source": "src:ftb-ca-gov-50ecd001d4",
+              "quote": "State Controller Malia M. Cohen was elected in November 2022"
+            },
+            {
+              "source": "src:sfchronicle-com-1f49c3255d",
+              "quote": "Incumbent Malia Cohen, a Democrat who took office in 2023, is seeking reelection against Republican Herb Morgan, an investment officer."
+            },
+            {
+              "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+              "quote": "Malia M. Cohen* Democratic",
+              "locator": "PDF page 2 (list page 1 of 41), Controller; the page key reads \"* Incumbent\""
+            }
+          ]
+        },
+        {
+          "office": "Member, California State Board of Equalization, District 2",
+          "current": false,
+          "first_elected": "2018",
+          "jurisdiction": "Board of Equalization District 2",
+          "office_ref": "office:california-board-of-equalization-member",
+          "citations": [
+            {
+              "source": "src:ftb-ca-gov-50ecd001d4",
+              "quote": "She was elected to the BOE in November 2018 and was Chair in 2019 and 2022."
+            },
+            {
+              "source": "src:ftb-ca-gov-50ecd001d4",
+              "quote": "As the BOE Board Member for District 2, she represented 10 million constituents living in all or parts of 23 counties"
+            },
+            {
+              "source": "src:calstrs-com-4f07604bbe",
+              "quote": "Malia M. Cohen was elected controller in 2022, after serving four years on the California State Board of Equalization."
+            }
+          ]
+        },
+        {
+          "office": "Member, San Francisco Board of Supervisors",
+          "current": false,
+          "end": "2019-01-08",
+          "jurisdiction": "City and County of San Francisco",
+          "office_ref": "office:san-francisco-supervisor",
+          "start": "2011-01-08",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-92bf31f3c9",
+              "quote": "Malia Cohen Elected 01/08/2011 - 01/08/2015 Elected 01/08/2015 - 01/08/2019",
+              "locator": "Former Supervisors list, entry \"Malia Cohen\""
+            }
+          ]
+        },
+        {
+          "office": "President, San Francisco Board of Supervisors",
+          "current": false,
+          "jurisdiction": "City and County of San Francisco",
+          "citations": [
+            {
+              "source": "src:ftb-ca-gov-50ecd001d4",
+              "quote": "Prior to being elected to the BOE, Controller Cohen served as President of the Board of Supervisors of the City and County of San Francisco."
+            }
+          ]
+        },
+        {
+          "office": "President, San Francisco Employees’ Retirement System board",
+          "current": false,
+          "jurisdiction": "City and County of San Francisco",
+          "citations": [
+            {
+              "source": "src:ftb-ca-gov-50ecd001d4",
+              "quote": "During this time, she also served as President of the San Francisco Employees’ Retirement System (SFERS), which at the time was a $23 billion pension fund."
+            }
+          ]
+        }
+      ]
     }
   },
   "ids": [

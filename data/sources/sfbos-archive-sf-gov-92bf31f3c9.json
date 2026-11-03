@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbos-archive-sf-gov-92bf31f3c9",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Former Supervisors",
+  "url": "https://sfbos.archive.sf.gov/former-supervisors",
+  "notes": "Archived Board of Supervisors website (historical data on former supervisors' terms)."
+}
