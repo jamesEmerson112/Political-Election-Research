@@ -26,6 +26,47 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "organization": "AKT Development",
+          "role": "President",
+          "citations": [
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "Prior to her public service, Kounalakis was president of one of California’s most respected housing development firms, AKT Development, where she worked for 18 years."
+            },
+            {
+              "source": "src:eleniforca-com-3214a47781",
+              "quote": "After earning her MBA from UC Berkeley, Eleni joined her father in building one of California’s most respected housing development firms, AKT Development."
+            }
+          ]
+        },
+        {
+          "end": "2017",
+          "organization": "U.S. Department of State, Bureau of Intelligence and Research",
+          "role": "Virtual Fellow",
+          "start": "2014",
+          "citations": [
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "Kounalakis was a Virtual Fellow at the U.S. Department of State, Bureau of Intelligence and Research (INR) between 2014 and 2017, specializing in international trade and immigration."
+            }
+          ]
+        },
+        {
+          "organization": "Association of American Ambassadors",
+          "role": "Director",
+          "citations": [
+            {
+              "source": "src:ltg-ca-gov-d03a49d066",
+              "quote": "She is currently a director of the Association of American Ambassadors"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
