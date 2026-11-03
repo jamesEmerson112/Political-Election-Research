@@ -4,6 +4,32 @@
   "name": "Rob Bonta",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "Rob Bonta born / birth date",
+          "where": "Official biographies and records: California Department of Justice biography (oag.ca.gov/about); Governor's Office releases of 2021-03-24 and 2021-04-23 (gov.ca.gov); State Bar licensee record #202668; CalMatters Digital Democracy profile (gives his age as 54, no date). None states a birth date."
+        },
+        {
+          "date": "2026-11-03",
+          "query": "born / birth",
+          "where": "Candidate's own pages: robbonta.com and robbonta.com/about; 2026 general Official Voter Information Guide (no candidate statement from Bonta). No birth date stated."
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Rob Bonta\" born September 22 Quezon City",
+          "where": "News search: The FilAm column (2021-05-19) and an Asian Journal column state September 22, 1972, but Wikipedia (reference work) cites an October 1971 newspaper notice of a September 22, 1971 birth and April 2021 reports giving his age as 49. The year conflicts and no official or contemporaneous record could be opened here, so no date is recorded."
+        },
+        {
+          "date": "2026-11-03",
+          "query": "\"Bonta\" born 1971 OR 1972 Assembly member biography handbook legislature California official",
+          "where": "Search for an official legislative handbook or Assembly biography stating a birth date: none found (his former Assembly biography pages are reachable only through web.archive.org, which is blocked here)."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
