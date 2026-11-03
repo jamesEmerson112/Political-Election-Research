@@ -14,33 +14,38 @@
   - `npm run -s import:civlab -- [--save <dir outside the repo>]` (offices with `links.civlab`; SF and U.S. only)
   - `npm run -s db`
   - `npm run web`
-  - `npm run e2e` (builds the site, then runs the "Try your ballot" browser checks in `tests/e2e/trial-ballot.mjs`; needs Playwright with Chromium, so it isn't part of `npm run check`)
+  - `npm run e2e` (builds the site, serves it with `vercel.json`'s headers, then runs the browser checks in `tests/e2e/trial-ballot.mjs` and `tests/e2e/beta.mjs`; needs Playwright with Chromium, so it isn't part of `npm run check`). `BASE_URL=https://<deployment>/` runs them against a deployed site.
 - Batch formats: `docs/RESEARCH_BATCH_FORMAT.md`, `docs/OFFICE_BATCH_FORMAT.md`.
 - Maintainer's verified CA-11 notes: `notes/2026-11-02-ca-11.md`.
 - Current state (2026-11-03, late):
   - **Agendas:** 71 California and 107 Nevada (placeholders: Las Vegas ballots, including 60 judge seats).
-  - **Records:** 24 measures (SF Props A–J with digest, fiscal effects, who it affects and all 161 arguments; California Props 1–5 and 37–45 from the official guide), the SF budget and forecast, 15 offices, 145 sources, 71 lead files.
-  - **Validate:** 0 errors; 418 warnings: 167 unverified citations, 145 not archived, 99 quote pending, 7 orphan sources.
+  - **Records:** 24 measures (SF Props A–J with digest, fiscal effects, who it affects and all 161 arguments; California Props 1–5 and 37–45 from the official guide, with the Legislative Analyst's fiscal effects), the SF and California budgets and forecasts, 15 offices, 151 sources, 71 lead files.
+  - **Validate:** 0 errors; 424 warnings: 167 unverified citations, 151 not archived, 99 quote pending, 7 orphan sources.
   - **Site:** a 4.4 MB single file.
 
-## Beta readiness (2026-11-03)
-**Blocks a beta release**
-- **`validate --strict` (the release gate) fails** on the 418 warnings above:
-  - Archive snapshots for 145 sources. web.archive.org refuses connections from the cloud sessions, so archive from another machine or allow the host.
+## Beta (2026-11-03)
+**Shipped in the beta**
+- California's propositions in "Try your ballot", against the state budget: the Department of Finance's operating deficits for FY2027-28 to FY2029-30; the Legislative Analyst's dollar amounts for Props 1, 3 and 38; 12 effects sized only in words (`in_words`), quoted and never added up. Prop 3 starts in FY2030-31 (after the forecast).
+- About page (what's in it, the open checks, privacy, Report an error, build), the Beta badge, keyboard access to the bridge's tooltips.
+- `vercel.json` (build and security headers) and `npm run e2e` with 18 browser checks served under those headers, including that nothing leaves the browser.
+
+**Deploy:** the maintainer imports the repo at vercel.com/new once and merges the beta PR into `main`; production deploys from `main`. Then check the live site with `BASE_URL=https://<deployment>/ node tests/e2e/beta.mjs`.
+
+**Next: research (the maintainer decides how to run it after the deploy)**
+- San Francisco first, then Las Vegas (Nevada's Secretary of State site refuses automated access from the cloud sessions).
+- The research queue: 1,725 open tasks (`npm run next`).
+- The `validate --strict` gate for 1.0, now 424 warnings:
+  - Archive snapshots for 151 sources. web.archive.org refuses connections from the cloud sessions, so archive from another machine or allow the host.
   - A verification pass on the 167 unverified citations and the 99 pending quotes.
   - Remove or cite the 7 orphan sources.
-- **State propositions in "Try your ballot"** (in progress), so a San Francisco voter can try both ballots:
-  - a California budget baseline;
-  - the Legislative Analyst's dollar amounts for Props 1, 3 and 38 (and any others the guide states in dollars);
-  - a new `in_words` estimate for amounts the LAO gives only in words ("low tens of millions"), quoted and never added up.
-- **Results:** today is election day. Add certified results, and a "measures that passed" mode for the trial ballot.
-- **Open maintainer decisions:** see "Decisions for the maintainer" below (SF question sets, bill policy areas, measure conflicts, budget framing).
 
-**Should do before beta**
-- **Site size:** load contests on demand. The single file is 4.4 MB.
-- **Accessibility:** the bridge's per-step tooltips are mouse-only (keyboard access is still open), and the dark-mode shortfall red sits close to the dark orange ▼ (accepted for now: separate charts, with a legend).
-- **"My ballot":** places California contests only. Nevada is placeholders (no candidates). The Nevada Secretary of State's site blocks automated access.
+**After the beta**
+- **Results:** certified results, and a "measures that passed" mode for the trial ballot.
+- **Site size:** load contests on demand. The single file is 4.4 MB (about 660 KB compressed).
+- **Accessibility:** the dark-mode shortfall red sits close to the dark orange ▼ (accepted for now: separate charts, with a legend).
+- **"My ballot":** places California contests only. Nevada is placeholders (no candidates).
 - **CI:** run `npm run e2e` in CI if Chromium can be installed there.
+- **Open maintainer decisions:** see "Decisions for the maintainer" below.
 
 ## Revisit (list from 2026-11-03 evening)
 
@@ -54,6 +59,8 @@
 - **STAR sentence length:** past-policy sentences run 45–67 words. Keep, or move votes and dates into the expanded view?
 - **City College:** add the separate partial-term contest (Ruth Ferguson)?
 - **Measure conflicts:** A/F and I/C/J were treated as partial ("both take effect; one prevails where provisions conflict"). Confirm.
+- **California's budget forecast:** the trial uses the Department of Finance's "Operating Surplus/Deficit with BSA Transfer" row (each year on its own: $10.5B, $8.6B, $8.4B shortfalls). The same table's reserve balance (SFEU: +$0.4B, −$8.2B, −$16.7B) is a running total and would need running-balance math. Confirm the framing.
+- **California's Prop 3 and 37 context entries:** Prop 3's "roughly 40 percent to schools" (an allocation of the same revenue) and Prop 37's "Other Potential Effects" are recorded as effects; drop them if they read as context rather than budget effects.
 - **Budget forecast:**
   - FY2026-27 was dropped.
   - The March 2026 Budget Outlook Update (cumulative shortfalls, made before the budget was adopted) is used for FY2027-28 to FY2029-30. Confirm the framing.

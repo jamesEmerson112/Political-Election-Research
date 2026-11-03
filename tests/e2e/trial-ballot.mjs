@@ -1,8 +1,10 @@
 /**
- * Browser checks for "Try your ballot" on the built single-file site (real San Francisco data). Not part of
+ * Browser checks for "Try your ballot" on the built single-file site (real San Francisco data), served
+ * with vercel.json's headers (tests/e2e/server.mjs), or on a deployed site with BASE_URL. Not part of
  * `npm run check`: it needs Playwright with Chromium (preinstalled in Claude Code cloud sessions).
  *
  *   npm run web:build && node tests/e2e/trial-ballot.mjs [screenshot-dir]
+ *   BASE_URL=https://<deployment>/ node tests/e2e/trial-ballot.mjs
  *
  * 1. Changing an answer (skip → yes, yes → no) and opening Summary at once equals a fresh load of the same answers.
  * 2. A vote that only moves later years (Prop C starts FY2028-29) shows on those years' buttons, highlighted, then clears.
@@ -12,11 +14,13 @@ import { createRequire } from "node:module";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { fileURLToPath, pathToFileURL } from "node:url";
+import { fileURLToPath } from "node:url";
+import { serve } from "./server.mjs";
 const { chromium } = createRequire(import.meta.url)("playwright");
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = process.argv[2] ?? fs.mkdtempSync(path.join(os.tmpdir(), "trial-e2e-"));
-const URL = pathToFileURL(path.join(ROOT, "dist/web/index.html")).href + "#trial";
+const server = process.env.BASE_URL ? null : await serve(path.join(ROOT, "dist/web"), path.join(ROOT, "vercel.json"));
+const URL = (process.env.BASE_URL ?? server.url) + "#trial";
 const browser = await chromium.launch();
 const results = [];
 const check = (name, ok, detail = "") => results.push({ name, ok, detail });
@@ -124,6 +128,7 @@ for (const [w, scheme] of [[1280, "dark"], [390, "light"]]) {
 }
 
 await browser.close();
+await server?.close();
 for (const r of results) console.log(`${r.ok ? "PASS" : "FAIL"}  ${r.name}${r.detail ? `\n      ${r.detail}` : ""}`);
 console.log(`\n${results.filter((r) => r.ok).length}/${results.length} passed`);
 process.exitCode = results.every((r) => r.ok) ? 0 : 1;

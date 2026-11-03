@@ -23,7 +23,20 @@ See **[AGENTS.md](AGENTS.md)** for the research loop.
 
 ## The site
 
-`npm run web` starts the Svelte site, which reloads live as data changes. `npm run web:build` writes a single self-contained page to `dist/web/index.html`. Each contest is a side-by-side comparison in eleven categories (identity, occupation, qualifications, past policies, shared policies, policy differences, endorsements, campaign financing, performance record, controversies, promises). Every entry opens to its sources. A toggle switches between the real draft data and a fictional demo of a fully researched contest.
+`npm run web` starts the Svelte site, which reloads live as data changes. `npm run web:build` writes a single self-contained page to `dist/web/index.html`. Each contest is a side-by-side comparison in eleven categories (identity, occupation, qualifications, past policies, shared policies, policy differences, endorsements, campaign financing, performance record, controversies, promises). Every entry opens to its sources. "Try your ballot" adds up the official fiscal estimates of the measures a visitor votes for, against San Francisco's or California's budget forecast. The About page switches between the real data and a fictional demo of a fully researched contest.
+
+## Deploy (Vercel)
+
+The site is one static file, so any static host works. [`vercel.json`](vercel.json) sets up Vercel: install with `npm ci`, build with `npm run web:build`, serve `dist/web`, and send the response headers. The security policy stops the page from sending data to any server (`connect-src 'none'`), allows its fonts from Google Fonts, allows location for this site only, and sends no referrer. Routes live in the URL hash, so no rewrites are needed, and nothing a visitor enters reaches the server.
+
+1. At [vercel.com/new](https://vercel.com/new), import this repository. Vercel reads `vercel.json`, so there's nothing else to set.
+2. Production deploys from `main`; every other branch gets a preview deployment.
+3. Check a deployment from any machine with Playwright:
+   ```bash
+   BASE_URL=https://<deployment>/ node tests/e2e/beta.mjs
+   ```
+
+`npm run e2e` runs the same browser checks locally, serving `dist/web` with `vercel.json`'s headers.
 
 ## SQLite
 
@@ -43,15 +56,20 @@ Requires Node 22.12 or newer.
 
 ## Status
 
+Public **beta** (November 2026). `validate --strict` stays the gate for 1.0; the About page lists its open checks.
+
 | | |
 |---|---|
-| Format, validator, tooling, tests | done |
-| Governor (Becerra vs Hilton): agenda and 6 neutral issue questions | done |
-| U.S. House CA-11 (Chan vs Wiener): agenda, AI/tech/visa/health questions, and the maintainer's comparison table as unverified leads | done |
-| Governor and CA-11: cited research | **not started**. The primary sources (sos.ca.gov, CAL-ACCESS) and archive.org were not reachable from the environment the scaffold was built in. Run the agent loop where they are. |
-| Other statewide offices, 14 propositions, other House races | agendas to be added |
+| Format, validator, tooling, tests, browser checks | done |
+| San Francisco Props A–J: digest, Controller's fiscal statement, who each affects, all 161 printed arguments | done |
+| California Props 1–5 and 37–45: title and summary, what a yes and a no vote mean, the Legislative Analyst's fiscal effects; the state budget baseline | done |
+| "Try your ballot" against the San Francisco and California budget forecasts | done |
+| Candidates: research agendas for 178 contests (statewide offices, 52 House seats, San Francisco local races) | agendas done; cited research in progress (`npm run next`) |
+| Verification pass: unverified citations, quotes pending, Wayback archives | open (web.archive.org was unreachable from the cloud sessions) |
+| Nevada (Las Vegas) | placeholders; the Nevada Secretary of State's site refuses automated access |
+| Election results | after certification |
 | Importers (CARS, OpenFEC, Senate LDA, FPPC 803) | planned |
-| Svelte site (side-by-side comparison, influence map, research queue) and SQLite export | done |
+| Svelte site and SQLite export | done |
 
 ## Repository map
 
@@ -62,7 +80,8 @@ Requires Node 22.12 or newer.
 | `src/` | library: ids, canonical form, validation rules, research queue, rollups, `put` |
 | `cli/` | `validate`, `fmt`, `put`, `id`, `next`, `coverage`, `rollup`, `db` |
 | `web/` | Svelte 5 site (reads the dataset through the same library at build time) |
-| `tests/` | vitest suite and fixtures: a complete fictional dataset plus one failing case per rule |
+| `tests/` | vitest suite and fixtures: a complete fictional dataset plus one failing case per rule; `tests/e2e/` browser checks (`npm run e2e`) |
+| `vercel.json` | the public site's build and response headers |
 | `docs/METHODOLOGY.md` | sourcing, neutrality, money and privacy rules |
 | `docs/RESEARCH_GUIDE.md` | where to look and what to record, per task |
 | `docs/DATA_MODEL.md` | every record type, its path, and its id |
