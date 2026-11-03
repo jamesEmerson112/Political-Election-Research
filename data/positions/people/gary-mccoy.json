@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:gary-mccoy",
+  "positions": [
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "support",
+      "as_of": "2026-08-27",
+      "cycle": 2026,
+      "evidence_type": "debate",
+      "summary": "At an Aug. 12, 2026 candidate forum, asked about the regional transit sales tax and the Proposition H parcel tax for Muni, McCoy said he supports both measures and that they would boost transit funding.",
+      "citations": [
+        {
+          "source": "src:ebar-com-6afcceb1dd",
+          "quote": "Moderator Patrick Hoge of the San Francisco Examiner asked if the candidates supported the regional sales tax and the parcel tax measures that are on the November ballot specifically to pay for transportation; and if they passed, which Muni services should be expanded.",
+          "locator": "forum report, moderator question"
+        },
+        {
+          "source": "src:ebar-com-6afcceb1dd",
+          "quote": "In San Francisco, Proposition H will increase property taxes to pay for the San Francisco Municipal Transportation Agency, which has its own fiscal cliff of $307 million this fiscal year"
+        },
+        {
+          "source": "src:ebar-com-6afcceb1dd",
+          "quote": "Gay candidate Gary McCoy said he supports both ballot measures, and added that something has to be done to stabilize Muni and BART’s financial situation more permanently."
+        },
+        {
+          "source": "src:ebar-com-6afcceb1dd",
+          "quote": "I appreciate that both of these measures will give us a significant boost in funding to not just make sure we're saving our transit, but that we can expand"
+        }
+      ]
+    }
+  ]
+}
