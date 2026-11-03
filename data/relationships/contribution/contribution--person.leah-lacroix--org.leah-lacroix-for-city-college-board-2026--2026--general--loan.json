@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.leah-lacroix--org.leah-lacroix-for-city-college-board-2026--2026--general--loan",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:leah-lacroix",
+  "election_designation": "general",
+  "form": "loan",
+  "money": {
+    "amount_cents": 5587,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-28",
+      "start": "2026-01-01"
+    }
+  },
+  "recipient": "org:leah-lacroix-for-city-college-board-2026",
+  "citations": [
+    {
+      "source": "src:data-sfgov-org-515f501b08",
+      "locator": "Schedule B Part 1, transaction xzo8Mqhkjjqf (date not given, $55.87)"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}

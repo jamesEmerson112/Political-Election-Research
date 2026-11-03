@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "united-educators-of-san-francisco-candidate-pac",
+  "name": "United Educators of San Francisco CANDIDATE PAC",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-03"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "international-union-of-elevator-constructors-local-8-pac",
+  "name": "International Union of Elevator Constructors Local 8 PAC",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-03"
+}

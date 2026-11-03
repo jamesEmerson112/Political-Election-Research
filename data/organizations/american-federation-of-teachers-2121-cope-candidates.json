@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "american-federation-of-teachers-2121-cope-candidates",
+  "name": "American Federation of Teachers 2121 COPE CANDIDATES",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-03"
+}
