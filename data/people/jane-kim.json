@@ -49,6 +49,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney/Consumer Advocate (ballot designation)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Attorney/Consumer Advocate",
+          "locator": "PDF page 3 (list page 2 of 41), Insurance Commissioner; ballot designation printed under Jane Kim"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "I’m a civil rights attorney and consumer advocate, and I know how to take on big challenges and win.",
+          "locator": "page 89, Candidate Statements, Insurance Commissioner; candidate's own statement"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-03",
       "items": [
