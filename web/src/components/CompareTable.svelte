@@ -67,7 +67,8 @@
   });
 
   /** row key -> expanded. A click on any cell of a row expands the row (every candidate's cell) inline. */
-  let open = $state<Record<string, boolean>>({});
+  // Campaign proposals start expanded; every other row starts folded.
+  let open = $state<Record<string, boolean>>({ promises: true });
   const toggle = (k: string) => (open[k] = !open[k]);
   const rowsOf = (cat: Category) => [...cat.rows, ...(cat.sections ?? []).flatMap((x) => x.rows)];
   const catOpen = (cat: Category) => rowsOf(cat).length > 0 && rowsOf(cat).every((r) => open[r.key]);
