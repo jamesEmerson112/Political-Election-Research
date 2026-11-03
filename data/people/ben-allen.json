@@ -4,6 +4,42 @@
   "name": "Ben Allen",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-03",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "birth date / born",
+          "where": "https://sd24.senate.ca.gov/biography (official Senate bio)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "birth date / born",
+          "where": "https://democrats.senate.ca.gov/senator/allen"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "birth date / born / age",
+          "where": "https://www.benallenca.com/ and /about (campaign site)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Ben Allen birth date",
+          "where": "Official Voter Information Guide 2026 general, candidate statement p.89"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "Ben Allen state senator born insurance commissioner profile",
+          "where": "web search (news)"
+        },
+        {
+          "date": "2026-11-03",
+          "query": "born / age",
+          "where": "https://www.kqed.org/science/2001142/... (news)"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-03",
       "items": [
