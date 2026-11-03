@@ -26,7 +26,7 @@
     "rebuttal-to-opponent": "Rebuttal to the opponent",
   };
   const argName = (id: string) => ARG[id] ?? id.replace(/^paid-(yes|no)-0*(\d+)$/, (_, s: string, n: string) => `Paid argument ${n} ${s === "yes" ? "for" : "against"}`);
-  const NOTE = "From the official digest and Controller's statement. It says what the text says this group pays, receives or has change, not who benefits.";
+  const NOTE = "From the official digest and Controller's statement: what the text says each group would pay or get, or which rules would change for it. Not who benefits.";
 
   function openAffect(a: Rec) {
     const e = a["effect"] as Effect;
@@ -55,10 +55,16 @@
       <span class="eff">{EFFECT_LABEL[r.effect]}</span>
       <span class="items">
         {#each r.items as a (`${a["group"]}/${a["label"] ?? ""}`)}
+          <!-- The group, then the official text's one line on what happens to it (no click needed to understand the figure). -->
           <button class="grp" onclick={() => openAffect(a)}>
             <Badge icon={AFFECT_ICON[String(a["group"])] ?? FALLBACK_AFFECT_ICON} group="people" size={22} />
-            <span class="name">{affectLabel(a)}{#if a["conditional"]}<span class="may">(may)</span>{/if}</span>
-            {#if a["figure"]}<span class="fig num">{a["figure"]}</span>{/if}
+            <span class="body">
+              <span class="line1">
+                <span class="name">{affectLabel(a)}{#if a["conditional"]}<span class="may">(may)</span>{/if}</span>
+                {#if a["figure"]}<span class="fig num">{a["figure"]}</span>{/if}
+              </span>
+              <span class="what">{a["text"]}</span>
+            </span>
           </button>
         {/each}
       </span>
@@ -108,6 +114,31 @@
     gap: 6px;
     min-width: 0;
   }
+  .items .grp {
+    flex: 1 1 100%;
+    align-items: flex-start;
+    border-radius: var(--radius);
+    padding: 5px 10px 6px 5px;
+  }
+  .body {
+    display: grid;
+    gap: 1px;
+    min-width: 0;
+  }
+  .line1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 8px;
+  }
+  .name {
+    font-weight: 600;
+  }
+  .what {
+    color: var(--ink-2);
+    font-size: 0.78rem;
+    overflow-wrap: break-word;
+  }
   .grp,
   .sig {
     display: inline-flex;
@@ -125,10 +156,6 @@
   }
   .sig {
     padding-left: 8px;
-  }
-  .grp {
-    flex-wrap: wrap;
-    row-gap: 2px;
   }
   .name {
     overflow-wrap: break-word;

@@ -49,16 +49,16 @@ export const EFFECT_ORDER: Effect[] = ["pays", "receives", "rules_change", "othe
 
 /** Row labels, words only (never arrows or colors for an effect). */
 export const EFFECT_LABEL: Record<Effect, string> = {
-  pays: "Pays",
-  receives: "Receives",
-  rules_change: "Rules change for",
+  pays: "Would pay",
+  receives: "Would get",
+  rules_change: "Rules would change for",
   other: "Other effects",
 };
 /** The same verb for one conditional entry ("could", "may", "if" in the text). */
 export const EFFECT_MAY: Record<Effect, string> = {
   pays: "May pay",
-  receives: "May receive",
-  rules_change: "Rules may change",
+  receives: "May get",
+  rules_change: "Rules may change for",
   other: "Other, conditional",
 };
 
