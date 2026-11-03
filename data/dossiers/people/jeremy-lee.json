@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:jeremy-lee",
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "strengthen-cantonese-program",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Lee's site says he supports more Cantonese sections, more Cantonese faculty, and work toward a state-funded Cantonese language certificate.",
+        "title": "Add Cantonese sections and faculty",
+        "citations": [
+          {
+            "source": "src:jeremyleesf-com-520368e778",
+            "quote": "Jeremy supports adding more Cantonese class sections, hiring additional Cantonese faculty, and working with faculty and college leadership toward a state-funded Cantonese language certificate program."
+          }
+        ]
+      },
+      {
+        "id": "expand-high-demand-sections",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Lee's site says he supports expanding high-demand sections, the noncredit-to-credit pipeline, and certificate and career-education pathways.",
+        "title": "Expand sections where student demand is strongest",
+        "citations": [
+          {
+            "source": "src:jeremyleesf-com-520368e778",
+            "quote": "Jeremy supports expanding sections where student demand is strongest, strengthening the pipeline from noncredit to credit programs, and growing certificate and career-education pathways."
+          }
+        ]
+      },
+      {
+        "id": "invest-reserves-in-classes",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Lee's questionnaire says investing reserves in more classes and faculty is needed to grow enrollment.",
+        "title": "Invest reserves in classes and faculty",
+        "citations": [
+          {
+            "source": "src:assets-nationbuilder-com-d51d87bb3e",
+            "quote": "Investing reserves now into more classes and faculty is necessary to grow enrollment.",
+            "locator": "p. 3, top three issues"
+          }
+        ]
+      },
+      {
+        "id": "oppose-ocean-campus-consolidation",
+        "as_of": "2026-11-03",
+        "issue": "education",
+        "summary": "Lee's questionnaire says that as trustee he will oppose further consolidation to Ocean Campus.",
+        "title": "Oppose further consolidation to Ocean Campus",
+        "citations": [
+          {
+            "source": "src:assets-nationbuilder-com-d51d87bb3e",
+            "quote": "As trustee, I will oppose further consolidation to Ocean Campus.",
+            "locator": "p. 3"
+          }
+        ]
+      }
+    ]
+  }
+}
