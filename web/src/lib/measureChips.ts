@@ -39,16 +39,22 @@ export function balance(r: Range): string {
   return `between a ${usd(-r.low)} shortfall and a ${usd(r.high)} surplus`;
 }
 
-/** The numbers-first line of the meter, in parts (for styling) and as one string. */
+/** The percent-first line of the meter, in parts (for styling) and as one string. */
 export interface GapLine {
   /** "Shortfall FY2027-28", "Surplus FY2027-28", or "FY2027-28" when the result crosses zero. */
   head: string;
+  /**
+   * What leads: "pct" the % change ("≈0.9% larger"), "none" when nothing changed,
+   * "cross" when the result crosses zero (no % then; the result is stated in words).
+   */
+  mode: "pct" | "none" | "cross";
   from: string;
   to: string;
   /** "+$4.1M–$4.2M" (the gap's size), or for a zero crossing the signed General Fund change. */
   change: string;
   /** "≈0.9% larger", computed as the change ÷ the forecast amount; null when it can't be. */
   pct: string | null;
+  /** "Shortfall FY2027-28 ≈0.9% larger: $474.3M → $478.4M–$478.5M (+$4.1M–$4.2M)". */
   text: string;
 }
 
@@ -58,12 +64,15 @@ const pctNum = (x: number) => {
   if (p < 0.05) return "<0.1";
   return p < 10 ? p.toFixed(1) : p.toFixed(0);
 };
+/** "≈0.9", "≈21–32", "<0.1" (never "≈<0.1"). */
+const approx = (p: string, q: string = p) => `${p.startsWith("<") ? "" : "≈"}${p === q ? p : `${p}–${q}`}`;
 
 /**
- * Forecast -> result for one fiscal year, numbers first: "Shortfall FY2027-28:
- * $474.3M → $478.4M–$478.5M (+$4.1M–$4.2M, ≈0.9% larger)". The percentage is
- * the change relative to the forecast amount. When the result crosses zero (or
- * the forecast is balanced), it uses the forecast's words instead.
+ * Forecast -> result for one fiscal year, the % change first: "Shortfall
+ * FY2027-28 ≈0.9% larger: $474.3M → $478.4M–$478.5M (+$4.1M–$4.2M)". The
+ * percentage is the change relative to the forecast amount, computed here.
+ * When the result crosses zero (or the forecast is balanced), it uses the
+ * forecast's words instead and gives no percentage.
  */
 export function gapLine(fy: string, baseline: number, result: Range): GapLine {
   const delta = { low: result.low - baseline, high: result.high - baseline };
@@ -73,6 +82,7 @@ export function gapLine(fy: string, baseline: number, result: Range): GapLine {
   let to: string;
   let change: string;
   let pct: string | null = null;
+  let mode: GapLine["mode"] = "cross";
   if (sameSide) {
     const s = baseline < 0 ? -1 : 1;
     // Size of the shortfall (or surplus) and how it changes; positive = larger.
@@ -84,16 +94,19 @@ export function gapLine(fy: string, baseline: number, result: Range): GapLine {
     from = usd(size);
     to = usdRange(Math.abs(result.low), Math.abs(result.high));
     if (c.low === 0 && c.high === 0) {
+      mode = "none";
       change = "no change";
     } else if (c.low >= 0 || c.high <= 0) {
+      mode = "pct";
       const word = c.low >= 0 ? "larger" : "smaller";
       change = `${c.low >= 0 ? "+" : "−"}${usdRange(c.low, c.high)}`;
       const p = pctNum(Math.min(Math.abs(c.low), Math.abs(c.high)) / size);
       const q = pctNum(Math.max(Math.abs(c.low), Math.abs(c.high)) / size);
-      pct = `≈${p === q ? p : `${p}–${q}`}% ${word}`;
+      pct = `${approx(p, q)}% ${word}`;
     } else {
+      mode = "pct";
       change = `−${usd(-c.low)} to +${usd(c.high)}`;
-      pct = `≈${pctNum(c.low / size)}% smaller to ${pctNum(c.high / size)}% larger`;
+      pct = `${approx(pctNum(c.low / size))}% smaller to ${pctNum(c.high / size)}% larger`;
     }
   } else {
     head = `FY${fy}`;
@@ -101,8 +114,9 @@ export function gapLine(fy: string, baseline: number, result: Range): GapLine {
     to = balance(result);
     change = `${signedRange(delta)} a year`;
   }
-  const text = `${head}: ${from} → ${to} (${change}${pct ? `, ${pct}` : ""})`;
-  return { head, from, to, change, pct, text };
+  const text =
+    mode === "pct" ? `${head} ${pct}: ${from} → ${to} (${change})` : mode === "none" ? `${head}: no change (${from})` : `${head}: ${from} → ${to} (${change})`;
+  return { head, mode, from, to, change, pct, text };
 }
 
 export const MEASURE_TYPE_LABEL: Record<string, string> = {

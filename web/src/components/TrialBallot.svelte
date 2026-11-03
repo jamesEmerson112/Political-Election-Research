@@ -52,7 +52,7 @@
   const domain = $derived(shownFy ? bridgeDomain(measures, budget, shownFy, bridge) : null);
   const gap = $derived.by(() => {
     const r = result.generalFund.find((y) => y.fy === shownFy);
-    return r?.result && r.baseline !== null ? gapLine(r.fy, r.baseline, r.result).text : null;
+    return r?.result && r.baseline !== null ? gapLine(r.fy, r.baseline, r.result) : null;
   });
   const current = $derived(step < measures.length ? measures[step]! : null);
   const rec = $derived(current ? ix.contests.get(current.ref)! : null);
@@ -147,7 +147,9 @@
         </div>
       </article>
       <div class="mini num" aria-hidden="true">
-        {#if gap}{gap}{:else}General Fund {signedRange(result.perYearOnceInEffect.general_fund)}/yr{/if}
+        {#if gap?.mode === "pct"}{gap.head} <strong class="pct">{gap.pct}</strong> · {gap.from} → {gap.to}{:else if gap}{gap.text}{:else}General Fund {signedRange(
+            result.perYearOnceInEffect.general_fund,
+          )}/yr{/if}
       </div>
     {:else}
       <TrialSummary {result} {measures} {votes} {titles} {bridge} {domain} />
@@ -169,6 +171,10 @@
   }
   .mini {
     display: none;
+  }
+  .mini .pct {
+    color: var(--ink);
+    font-size: 1rem;
   }
   @media (max-width: 700px) {
     /* The header is tall on phones: the full meter scrolls with the page and a one-line summary sticks to the bottom. */

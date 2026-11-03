@@ -6,8 +6,8 @@
   import BudgetBridge from "./BudgetBridge.svelte";
 
   /**
-   * The running General Fund meter for one fiscal year: a numbers-first line
-   * (forecast -> result, and how much larger or smaller the gap gets) and the
+   * The running General Fund meter for one fiscal year: a percent-first line
+   * (how much larger or smaller the gap gets, then forecast -> result) and the
    * bridge from the official forecast through each yes measure to the result.
    * One hue for the measures (--money), gray for the forecast and the result;
    * direction is shown by position and by words, never by arrows.
@@ -61,13 +61,28 @@
       </span>
     </div>
     {#if line}
+      <!-- The % change leads; the dollars follow in plain text. -->
       <p class="gap num">
-        <span class="h">{line.head}:</span>
-        <span>{line.from}</span>
-        <button class="cite" onclick={forecastSource} aria-label="Forecast source">i</button>
-        <span aria-label="to">→</span>
-        <strong>{line.to}</strong>
-        <span class="chg">({line.change}{#if line.pct}, <abbr title="Computed here: the change divided by the forecast amount">{line.pct}</abbr>{/if})</span>
+        {#if line.mode === "cross"}
+          <span class="h">{line.head}:</span>
+          <span>{line.from}</span>
+          <button class="cite" onclick={forecastSource} aria-label="Forecast source">i</button>
+          <span aria-label="to">→</span>
+          <strong>{line.to}</strong>
+          <span class="chg">({line.change})</span>
+        {:else}
+          <span class="h">{line.head}</span>
+          {#if line.mode === "pct"}
+            <abbr class="hero" title="Computed here: the change divided by the forecast amount">{line.pct}</abbr>
+          {:else}
+            <span class="hero">no change</span>
+          {/if}
+          <span class="dollars">
+            {line.from}
+            <button class="cite" onclick={forecastSource} aria-label="Forecast source">i</button>
+            {#if line.mode === "pct"}<span aria-label="to">→</span> {line.to} ({line.change}){/if}
+          </span>
+        {/if}
       </p>
     {/if}
     {#if bridge && domain}<BudgetBridge {bridge} {domain} compact />{/if}
@@ -129,11 +144,20 @@
     color: var(--ink-2);
     font-weight: 600;
   }
-  .gap .chg {
+  .gap .chg,
+  .gap .dollars {
     color: var(--ink-2);
+  }
+  .gap .hero {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--ink);
   }
   abbr {
     text-decoration: underline dotted;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
     cursor: help;
   }
   .fine {

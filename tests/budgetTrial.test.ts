@@ -288,17 +288,27 @@ describe("bridge (waterfall) for one fiscal year", () => {
   });
 });
 
-describe("numbers-first gap line", () => {
-  it("states the forecast shortfall, the result and how much larger it gets", () => {
+describe("gap line, percent first", () => {
+  it("leads with how much larger the shortfall gets, then the dollars", () => {
     const l = gapLine("2027-28", -474.3 * M, { low: -478.535 * M, high: -478.4 * M });
-    expect(l.text).toBe("Shortfall FY2027-28: $474.3M → $478.4M–$478.5M (+$4.1M–$4.2M, ≈0.9% larger)");
+    expect(l.mode).toBe("pct");
+    expect(l.pct).toBe("≈0.9% larger");
+    expect(l.text).toBe("Shortfall FY2027-28 ≈0.9% larger: $474.3M → $478.4M–$478.5M (+$4.1M–$4.2M)");
   });
 
-  it("says smaller when revenue shrinks the shortfall", () => {
+  it("says smaller when revenue shrinks the shortfall, and no change when nothing changed", () => {
     expect(gapLine("2027-28", -474.3 * M, { low: -374.3 * M, high: -324.3 * M }).text).toBe(
-      "Shortfall FY2027-28: $474.3M → $324.3M–$374.3M (−$100M–$150M, ≈21–32% smaller)",
+      "Shortfall FY2027-28 ≈21–32% smaller: $474.3M → $324.3M–$374.3M (−$100M–$150M)",
     );
-    expect(gapLine("2027-28", -474.3 * M, { low: -474.3 * M, high: -474.3 * M }).text).toBe("Shortfall FY2027-28: $474.3M → $474.3M (no change)");
+    const none = gapLine("2027-28", -474.3 * M, { low: -474.3 * M, high: -474.3 * M });
+    expect(none.mode).toBe("none");
+    expect(none.pct).toBeNull();
+    expect(none.text).toBe("Shortfall FY2027-28: no change ($474.3M)");
+  });
+
+  it("writes a tiny change as <0.1% and a range across both directions with both words", () => {
+    expect(gapLine("2027-28", -474.3 * M, { low: -474.5 * M, high: -474.5 * M }).pct).toBe("<0.1% larger");
+    expect(gapLine("2027-28", -474.3 * M, { low: -506.7 * M, high: -453.1 * M }).pct).toBe("≈4.5% smaller to 6.8% larger");
   });
 
   it("uses the forecast's words when the result crosses zero", () => {
