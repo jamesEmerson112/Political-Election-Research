@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "boe-ca-gov-a224b791e9",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California State Board of Equalization",
+  "title": "California State Board of Equalization Homepage",
+  "url": "https://www.boe.ca.gov/"
+}

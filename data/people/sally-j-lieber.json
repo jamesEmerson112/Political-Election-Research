@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "sally-j-lieber",
+  "name": "Sally J. Lieber",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q7405170",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.sallylieber.org/",
+    "official_site": "https://www.boe.ca.gov/lieber/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}

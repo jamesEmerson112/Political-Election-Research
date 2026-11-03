@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/board-of-equalization-2",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Board of Equalization Member District 2",
+  "office": "Board of Equalization Member",
+  "candidates": [
+    {
+      "person": "person:sally-j-lieber",
+      "ballot_designation": "Incumbent",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Board of Equalization Member District 2 Sally J. Lieber* Democratic Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 2"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), footnote under Board of Equalization Member District 2; an asterisk follows the candidate's name"
+        },
+        {
+          "source": "src:boe-ca-gov-a224b791e9",
+          "quote": "Sally J. Lieber Second District",
+          "locator": "homepage, California State Board of Equalization's Board Members"
+        }
+      ]
+    },
+    {
+      "person": "person:john-pimentel",
+      "ballot_designation": "Member, Board of Trustees, San Mateo County Community College District",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "John Pimentel Democratic Member, Board of Trustees, San Mateo County Community College District",
+          "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 2"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), footnote under Board of Equalization Member District 2; no asterisk follows the candidate's name"
+        }
+      ]
+    }
+  ],
+  "district": 2,
+  "level": "state",
+  "office_ref": "office:california-board-of-equalization-member",
+  "last_verified": "2026-11-03"
+}
