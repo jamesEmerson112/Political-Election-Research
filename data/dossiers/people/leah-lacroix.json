@@ -1,6 +1,42 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:leah-lacroix",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-03",
+        "query": "Leah LaCroix controversy, complaint, lawsuit",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Community College Board, printed p. 33"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Leah LaCroix controversy, complaint, lawsuit",
+        "where": "Campaign page ourcitycollege.com/leah-lacroix and slate site ourcitycollege.com"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Leah LaCroix controversy, complaint, lawsuit",
+        "where": "League of Pissed Off Voters questionnaire"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Leah LaCroix controversy, complaint, lawsuit",
+        "where": "The Guardsman Ballot Beat 2026 candidate coverage (theguardsman.com)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Leah LaCroix controversy, complaint, lawsuit",
+        "where": "Bay Area Reporter editorial (ebar.com/story/170122) and SFist race article of Oct. 8, 2026"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "\"Leah LaCroix\" San Francisco ethics complaint OR lawsuit OR controversy",
+        "where": "Web search (news), results reviewed for any matter documented by two independent outlets or an official record"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-03",
     "items": [
