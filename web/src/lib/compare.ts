@@ -518,6 +518,9 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
   }
 
   const billArea = (id: string) => String(bill(id)?.["area"] ?? "other");
+  /** The candidate's track-record STAR sentence for a bill, if recorded. */
+  const starOf = (c: string, billId: string): string | undefined =>
+    ((dossier(c)?.["track_record"]?.["items"] as Rec[] | undefined) ?? []).find((it) => it["bill"] === billId)?.["summary"] as string | undefined;
 
   function billsCell(c: string, area?: string): Cell {
     const all = legislation(c);
@@ -567,7 +570,10 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
           icon: ACTION_ICON[String(a["action"])],
           stamp: b ? (OUTCOME[String(b["status"]["value"])] ?? "other") : "no record",
           text: `${billLabel(a["bill"])}${b ? ` ${b["title"]["value"]}` : ""}`,
-          sub: `${ACTION[a["action"]] ?? a["action"]}${a["date"] ? ` · ${date(a["date"])}` : ""}${b ? ` · ${String(b["status"]["value"]).replace(/_/g, " ")}` : ""}`,
+          // The past policy as one STAR sentence (policy-star skill) when the track record has it; else action · date · status.
+          sub:
+            starOf(c, String(a["bill"])) ??
+            `${ACTION[a["action"]] ?? a["action"]}${a["date"] ? ` · ${date(a["date"])}` : ""}${b ? ` · ${String(b["status"]["value"]).replace(/_/g, " ")}` : ""}`,
           cite: { n: cites(a).length, run: () => openAct(a) },
         };
       }),
