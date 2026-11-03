@@ -54,6 +54,55 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-03",
+    "items": [
+      {
+        "id": "increase-insurance-competition-lower-costs",
+        "as_of": "2026-11-03",
+        "summary": "Says he will increase competition to bring down costs and add insurance options, rather than create a large-scale state insurance system.",
+        "title": "Increase insurer competition to lower costs",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As Insurance Commissioner, I’ll increase competition to bring down costs, protect consumers who are unfairly dropped, make insurers accountable and the process transparent, and expedite rebuilding.",
+            "locator": "Candidate statement, p. 89"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Instead of creating an untested large-scale system that puts the state and you the taxpayer on the hook, I believe in a proven, practical path that adds insurance options and lowers rates, without gambling our state’s finances.",
+            "locator": "Candidate statement, p. 89"
+          }
+        ]
+      },
+      {
+        "id": "protect-consumers-unfairly-dropped",
+        "as_of": "2026-11-03",
+        "summary": "Says he will protect consumers who are unfairly dropped, make the process transparent and expedite rebuilding after disasters.",
+        "title": "Protect consumers dropped by insurers and expedite rebuilding",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As Insurance Commissioner, I’ll increase competition to bring down costs, protect consumers who are unfairly dropped, make insurers accountable and the process transparent, and expedite rebuilding.",
+            "locator": "Candidate statement, p. 89"
+          }
+        ]
+      },
+      {
+        "id": "no-insurance-company-money",
+        "as_of": "2026-11-03",
+        "summary": "Says he is not taking any insurance company money.",
+        "title": "No insurance company campaign money",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I’m not taking any insurance company money because my loyalty is to you.",
+            "locator": "Candidate statement, p. 89"
+          }
+        ]
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-03",
     "items": [
