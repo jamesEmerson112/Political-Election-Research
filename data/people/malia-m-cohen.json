@@ -99,6 +99,25 @@
         }
       ]
     },
+    "occupation": {
+      "value": "California State Controller",
+      "citations": [
+        {
+          "source": "src:ftb-ca-gov-50ecd001d4",
+          "quote": "State Controller and Chair, Franchise Tax Board"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "As California State Controller, Malia Cohen serves as the state’s chief fiscal officer,",
+          "locator": "Candidate Statements, page 86 (PDF page 86), Controller"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "State Controller/Mother",
+          "locator": "PDF page 2 (list page 1 of 41), Controller: ballot designation, the candidate's self-description"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-03",
       "items": [
