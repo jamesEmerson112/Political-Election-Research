@@ -16,6 +16,7 @@
  *    on the local server and on preview deployments the page loads no analytics script.
  * 5f. Proposition groups start folded on the Overview.
  * 5g. SF Prop F shows the maintainer's comparison table, marked unverified.
+ * 5h. A race with many candidates uses the full page width on desktop, and no page scrolls sideways on a phone.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
  */
@@ -100,6 +101,19 @@ await page.waitForSelector("table");
 const cmpRows = await page.locator("table tbody tr").count();
 const cmpWarn = await page.locator(".section", { hasText: "How it compares" }).locator(".chip.warn").count();
 check("5g. SF Prop F shows the comparison table, marked unverified", cmpRows === 9 && cmpWarn === 1, `${cmpRows} rows`);
+
+// 5h. Many-candidate tables use the full width on desktop; on a phone only the table scrolls, never the page.
+const ccsf = "#c-2026-ca-general--sf-community-college-board";
+const wide = await ctx.newPage();
+await wide.setViewportSize({ width: 1440, height: 900 });
+await wide.goto(`${BASE}${ccsf}`);
+await wide.waitForSelector("table.ct");
+const wideFit = await wide.evaluate(() => { const e = document.querySelector(".scroll-x.bleed"); return !!e && e.scrollWidth <= e.clientWidth && document.documentElement.scrollWidth <= innerWidth; });
+await wide.setViewportSize({ width: 390, height: 844 });
+await wide.waitForTimeout(150);
+const phoneFit = await wide.evaluate(() => document.documentElement.scrollWidth <= innerWidth);
+await wide.close();
+check("5h. 8-candidate table fits at 1440px; no sideways page scroll at 390px", wideFit && phoneFit, `desktop ${wideFit}, phone ${phoneFit}`);
 
 // 6. California, and San Francisco keeps its own answers.
 await go(page, "#trial");

@@ -130,6 +130,7 @@ body {
   margin: 0;
 }
 body {
+  container-type: inline-size;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-ui);
@@ -220,6 +221,8 @@ button {
   max-width: 65ch;
 }
 .scroll-x {
+  /* positioned, so absolutely placed descendants (screen-reader labels) stay inside it */
+  position: relative;
   overflow-x: auto;
   min-width: 0;
 }

@@ -84,7 +84,7 @@
   </tr>
 {/snippet}
 
-<div class="scroll-x">
+<div class="scroll-x" class:bleed={cmp.cands.length > 4}>
   <table class="ct" style:--n={cmp.cands.length} aria-label={`${ix.contestTitle(contestRef)}: candidates compared`}>
     <colgroup>
       <col class="label-col" />
@@ -140,6 +140,12 @@
 </div>
 
 <style>
+  /* Races with many candidates use the full page width instead of the 1180px column
+     (body is an inline-size container, so 100cqw excludes the scrollbar). */
+  .bleed {
+    margin-inline: min(0px, calc(50% - 50cqw));
+    padding-inline: max(16px, env(safe-area-inset-left, 0px));
+  }
   .ct {
     width: 100%;
     border-collapse: collapse;
