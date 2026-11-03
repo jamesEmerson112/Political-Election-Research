@@ -1,0 +1,18 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "catherine-stefani",
+  "name": "Catherine Stefani",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "Q47520786",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://www.votecatherinestefani.com/",
+    "official_site": "https://www.assembly.ca.gov/assemblymembers/19"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
