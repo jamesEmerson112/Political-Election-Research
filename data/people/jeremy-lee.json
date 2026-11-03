@@ -83,6 +83,28 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Member, San Francisco Redistricting Task Force",
+          "end": "2022",
+          "jurisdiction": "City and County of San Francisco",
+          "start": "2021",
+          "citations": [
+            {
+              "source": "src:jeremyleesf-com-e26bd18ff7",
+              "quote": "Jeremy served on the San Francisco Redistricting Task Force in 2021–2022."
+            },
+            {
+              "source": "src:theguardsman-com-ecc0861a4b",
+              "quote": "served on the city's Redistricting Task Force from 2021 to 2022",
+              "locator": "Making of a Candidate"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-03",
