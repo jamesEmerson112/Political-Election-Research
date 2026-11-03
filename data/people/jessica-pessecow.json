@@ -3,6 +3,28 @@
   "id": "jessica-pessecow",
   "name": "Jessica Pessecow",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Legal Representative / Nurse / Founder / Brand Ambassador / Volunteer (ballot designation: Nurse / Legal Representative)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Legal Representative / Nurse / Founder / Brand Ambassador / Volunteer.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 50 (PDF p. 52)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JESSICA PESSECOW 潔西卡‧佩塞考 Nurse / Legal Representative",
+          "locator": "p. 1, Board of Supervisors, District 10 table (English ballot designation)"
+        },
+        {
+          "source": "src:sfexaminer-com-8c43ba72c0",
+          "quote": "Jessica Pessecow, nurse, legal representative",
+          "locator": "Other candidates"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
