@@ -26,6 +26,41 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "BA",
+          "institution": "University of California, Los Angeles",
+          "citations": [
+            {
+              "source": "src:sos-ca-gov-a12cecda6f",
+              "quote": "Secretary Weber attended the University of California, Los Angeles (UCLA), where she received her BA, MA and PhD by the age of 26."
+            }
+          ]
+        },
+        {
+          "degree": "MA",
+          "institution": "University of California, Los Angeles",
+          "citations": [
+            {
+              "source": "src:sos-ca-gov-a12cecda6f",
+              "quote": "Secretary Weber attended the University of California, Los Angeles (UCLA), where she received her BA, MA and PhD by the age of 26."
+            }
+          ]
+        },
+        {
+          "degree": "PhD",
+          "institution": "University of California, Los Angeles",
+          "citations": [
+            {
+              "source": "src:sos-ca-gov-a12cecda6f",
+              "quote": "Secretary Weber attended the University of California, Los Angeles (UCLA), where she received her BA, MA and PhD by the age of 26."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "California Secretary of State",
       "citations": [
