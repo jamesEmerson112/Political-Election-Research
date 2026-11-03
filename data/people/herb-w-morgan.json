@@ -42,6 +42,25 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "B.A. in economics, with honors",
+          "institution": "University of California, Santa Cruz",
+          "citations": [
+            {
+              "source": "src:herb-morgan-com-2487996aa3",
+              "quote": "He graduated with honors from UC Santa Cruz; his published fund biography identifies his degree as a B.A. in economics."
+            },
+            {
+              "source": "src:herbmorgan-com-f8c71a090c",
+              "quote": "attended local public schools before graduating with honors from the University of California at Santa Cruz."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Chief investment officer (campaign biography says he retired from the role in 2026)",
       "citations": [
