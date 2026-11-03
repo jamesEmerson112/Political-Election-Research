@@ -464,6 +464,17 @@
           "where": "San Francisco Ethics Commission Form 460 itemized transactions on DataSF (data.sfgov.org/resource/pitq-e56w), committee FPPC 1492919, all periods ending on or before 2026-10-28: 8 recordable donor(s). Individual contributors below the $10,000 privacy threshold are not recorded (none reached it except the candidate); individual donors were screened only against this contest's candidates, not against other officeholders."
         }
       ]
+    },
+    {
+      "date": "2026-11-03",
+      "task": "2026-ca-general/sf-community-college-board|contributions|person:monroe-lace",
+      "search_log": [
+        {
+          "date": "2026-11-03",
+          "query": "fppc_id=1493786 Schedules A, B1, C",
+          "where": "San Francisco Ethics Commission Form 460 itemized transactions on DataSF (data.sfgov.org/resource/pitq-e56w), committee FPPC 1493786, all periods ending on or before 2026-10-28: 6 recordable donor(s). Individual contributors below the $10,000 privacy threshold are not recorded (none reached it except the candidate); individual donors were screened only against this contest's candidates, not against other officeholders."
+        }
+      ]
     }
   ],
   "measures": [],

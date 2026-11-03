@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.gfc-courage-committee-sf-public-schools--org.monroe-lace-for-city-college-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:gfc-courage-committee-sf-public-schools",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 50000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-28",
+      "start": "2026-01-01"
+    }
+  },
+  "recipient": "org:monroe-lace-for-city-college-2026",
+  "citations": [
+    {
+      "source": "src:data-sfgov-org-969a6d8669",
+      "locator": "Schedule A, transaction QgPEKIy2jmQ5 (2026-10-02, $500.00)"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
