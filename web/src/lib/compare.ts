@@ -58,6 +58,8 @@ export interface Cell {
   bills?: Array<{ outcome: string; text: string }>;
   /** Count rows drawn as glyphs instead of dots (e.g. one issue icon per campaign promise). */
   glyphs?: Array<{ icon: IconComponent; text: string }>;
+  /** Promise-topic rows: the candidate's proposals on one topic, each opening its summary and sources. */
+  items?: Array<{ text: string; n: number; run: () => void }>;
   /** Office scope: icon chips (glyphs in icons.ts CHIP_ICON); the row expands for detail. */
   chips?: Chip[];
   lines: Line[];
@@ -83,6 +85,8 @@ export interface Row {
   defs?: [string, string];
   /** Stance points every candidate states (by facet); each opens both candidates' wording and citations. */
   shared?: Array<{ label: string; run: () => void }>;
+  /** One short line under the row label (e.g. "Shared by 3 of 8", "Only Jeremy Lee"). */
+  note?: string;
   cells: Cell[];
 }
 
@@ -435,6 +439,45 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
         history: items.map((it) => ({ label: String(it["title"]), text: String(it["summary"] ?? ""), citations: cites(it) })),
       })),
     };
+  }
+
+  // ---- campaign promises grouped by topic ---------------------------------------
+  /** Editorial topics from the agenda (promise_topics); each promise names one in `topic`. */
+  const promiseTopics = ((agenda?.["promise_topics"] as Rec[] | undefined) ?? []).map((t) => ({ id: String(t["id"]), label: String(t["label"]) }));
+  const promisesOf = (c: string): Rec[] => ((dossier(c)?.["promises"] as Rec | undefined)?.["items"] as Rec[] | undefined) ?? [];
+  function promiseCell(c: string, items: Rec[]): Cell {
+    if (!items.length) {
+      return { state: "zero", marks: [], label: "—", lines: [], summary: `${who(c)}: no proposal on this topic in the sources reviewed.`, open: () => undefined };
+    }
+    const openItem = (it: Rec) =>
+      openDetail({ kicker: `${who(c)} · Campaign promises`, title: String(it["title"]), text: String(it["summary"] ?? ""), citations: cites(it) });
+    return {
+      state: "value",
+      marks: [],
+      items: items.map((it) => ({ text: String(it["title"]), n: cites(it).length, run: () => openItem(it) })),
+      lines: items.map((it) => ({ text: String(it["title"]), sub: String(it["summary"] ?? ""), cite: { n: cites(it).length, run: () => openItem(it) } })),
+      summary: items.map((it) => String(it["title"])).join("; "),
+      open: () => openItem(items[0]!),
+    };
+  }
+  function promiseTopicRows(): Row[] {
+    const known = new Set(promiseTopics.map((t) => t.id));
+    const rows = promiseTopics
+      .map((t) => {
+        const per = cands.map((c) => promisesOf(c).filter((it) => it["topic"] === t.id));
+        const who_ = cands.filter((_, i) => per[i]!.length);
+        return { t, per, n: who_.length, only: who_[0] };
+      })
+      .filter((x) => x.n > 0)
+      .sort((a, b) => b.n - a.n || a.t.label.localeCompare(b.t.label));
+    const out = rows.map(({ t, per, n, only }) =>
+      row("promises", `promise-topic-${t.id}`, "value", t.label, t.label, (c) => promiseCell(c, per[cands.indexOf(c)]!), {
+        note: n > 1 ? `Shared by ${n} of ${cands.length}` : `Only ${ix.name(only!)}`,
+      }),
+    );
+    const other = cands.map((c) => promisesOf(c).filter((it) => !known.has(String(it["topic"] ?? ""))));
+    if (other.some((o) => o.length)) out.push(row("promises", "promise-topic-other", "value", "Other proposals", "Other", (c) => promiseCell(c, other[cands.indexOf(c)]!)));
+    return out;
   }
 
   // ---- specific cells --------------------------------------------------------
@@ -1040,8 +1083,8 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       n: 11,
       key: "promises",
       name: "Campaign promises",
-      source: "Campaign platforms",
-      rows: [row("promises", "promises", "dots", "Proposals", "Proposals", (c) => section(c, "promises", "Campaign promises", ["proposal", "proposals"]))],
+      source: promiseTopics.length ? "Campaign platforms · grouped by topic by this site; topics with more candidates come first" : "Campaign platforms",
+      rows: promiseTopics.length ? promiseTopicRows() : [row("promises", "promises", "dots", "Proposals", "Proposals", (c) => section(c, "promises", "Campaign promises", ["proposal", "proposals"]))],
     },
   ];
 

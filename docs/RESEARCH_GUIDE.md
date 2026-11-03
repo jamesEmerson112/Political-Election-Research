@@ -120,6 +120,7 @@ Comparison categories 9–11, one section at a time (`npm run -s put -- dossier 
 
 - **`track_record`** (category 9, performance record): documented *outcomes*, such as enacted legislation, programs implemented, or budgets delivered. Each item states what happened and when, cited to government records. No praise and no "successful": report the result and let the reader judge.
 - **`promises`** (category 11): specific proposals for the office sought, from the candidate's platform, website or debate statements. Record the proposal as stated, with the issue id it falls under. General values ("I'll fight for families") are not promises.
+  - **Topics (optional, per contest):** to show which proposals several candidates share, the contest agenda can list `promise_topics` (`{id, label}`), and each promise names one with `topic`. A topic says what a proposal is about ("Downtown campus", "Transit for students"), never its stance or quality. Give every promise in the contest exactly one topic, and use the same topic for the same subject across candidates. The site then shows one row per topic, the topics with more candidates first.
 - **`controversies`** (category 10). Strict rules, enforced by `validate`:
   - Only **documented** matters: at least **two independent publishers** or **one official record** (court filing, ethics or audit finding, agency decision) [CONTROVERSY_SOURCING].
   - The `title` is neutral and descriptive ("Fine for a late campaign statement", not "Filing scandal").

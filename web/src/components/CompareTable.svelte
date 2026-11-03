@@ -113,8 +113,8 @@
     <th scope="row">
       <button class="row-btn" aria-expanded={isOpen} aria-controls={cmp.cands.map((_, i) => id(r, i)).join(" ")} onclick={() => toggle(r.key)}>
         <Badge icon={r.icon} group={r.group} size={20} />
-        <span class="row-label">{r.label}</span>
-        <span class="chev" aria-hidden="true"><ChevronDown size={14} /></span>
+        <span class="row-label">{r.label}{#if r.note}<span class="row-note">{r.note}</span>{/if}</span>
+        {#if !r.cells.some((c) => c.items)}<span class="chev" aria-hidden="true"><ChevronDown size={14} /></span>{/if}
       </button>
       {#if isOpen && r.question}
         <div class="q-more">
@@ -127,8 +127,17 @@
       {/if}
     </th>
     {#each r.cells as cell, i (i)}
-      <td class="cell {cell.state}">
-        {#if cell.lines.length || cell.marks.length}
+      <td class="cell {cell.state}" class:has-items={!!cell.items}>
+        {#if cell.items}
+          <!-- Promise topic: every proposal title in full; each opens its summary and sources. -->
+          <ul class="items" aria-label={`${ix.name(cmp.cands[i])}, ${r.label}`}>
+            {#each cell.items as it, k (k)}
+              <li><button class="item-btn" onclick={it.run}>{it.text}</button>{#if it.n}<span class="item-n num" aria-label={`${it.n} sources`}>{it.n}</span>{/if}</li>
+            {/each}
+          </ul>
+        {:else if cell.state === "zero" && cell.label === "—"}
+          <span class="dash" title={cell.summary}>—</span>
+        {:else if cell.lines.length || cell.marks.length}
           <button class="cell-btn" aria-expanded={isOpen} aria-controls={id(r, i)} onclick={() => toggle(r.key)}>
             <span class="sr">{ix.name(cmp.cands[i])}, {r.label}: </span>
             {@render head(cell)}
@@ -269,6 +278,61 @@
   }
   .scroll-x.fits {
     overflow: visible;
+  }
+  /* campaign promises grouped by topic */
+  .row-note {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+  .items {
+    list-style: none;
+    margin: 0;
+    padding: 8px 12px;
+    display: grid;
+    gap: 6px;
+  }
+  .items li {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    line-height: 1.3;
+  }
+  .item-btn {
+    border: 0;
+    background: none;
+    padding: 0;
+    text-align: left;
+    font: inherit;
+    font-weight: 600;
+    color: inherit;
+    cursor: pointer;
+  }
+  .item-btn:hover {
+    text-decoration: underline;
+  }
+  .item-n {
+    flex: none;
+    min-width: 16px;
+    height: 16px;
+    padding: 0 3px;
+    border-radius: 4px;
+    border: 1px solid var(--line-strong);
+    font-size: 0.65rem;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+    margin-top: 1px;
+  }
+  td.has-items {
+    background: var(--wash);
+  }
+  .dash {
+    display: block;
+    padding: 8px 12px;
+    color: var(--muted);
   }
   .float-head {
     position: fixed;

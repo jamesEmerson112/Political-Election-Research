@@ -56,6 +56,7 @@
               "title": { "type": "string", "minLength": 1, "maxLength": 160 },
               "summary": { "type": "string", "minLength": 1, "maxLength": 800 },
               "issue": { "description": "Issue id (data/issues) the proposal falls under.", "$ref": "defs.schema.json#/$defs/Slug" },
+              "topic": { "description": "Topic id from the contest agenda's promise_topics: what the proposal is about.", "$ref": "defs.schema.json#/$defs/Slug" },
               "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
               "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
             }

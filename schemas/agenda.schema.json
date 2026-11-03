@@ -144,6 +144,28 @@
       "description": "Office contests: how many candidates each voter may choose, which is also how many seats the contest fills (\"Vote for 3\" on the ballot). Omitted means 1 or not yet known. Set only when an official source states it; seeded.note says which source and whether it was opened. The contest record's vote_for, once it cites the official list, takes precedence.",
       "type": "integer",
       "minimum": 1
+    },
+    "promise_topics": {
+      "description": "Editorial topics that group candidates' campaign promises for this contest, so the site can show which topics several candidates address and which only one does. Topics describe what a promise is about, never a stance or its quality; each promise names one topic id in its dossier item (`topic`).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "defs.schema.json#/$defs/Slug"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80
+          }
+        }
+      }
     }
   }
 }

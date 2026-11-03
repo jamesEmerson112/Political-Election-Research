@@ -16,6 +16,7 @@
  *    on the local server and on preview deployments the page loads no analytics script.
  * 5f. Proposition groups start folded on the Overview.
  * 5g. SF Prop F shows the maintainer's comparison table, marked unverified.
+ * 5i. City College campaign promises are grouped by topic: shared topics first, with a count note.
  * 5h. A race with many candidates uses the full page width on desktop, keeps its name row pinned while scrolling, and no page scrolls sideways on a phone.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
@@ -121,6 +122,16 @@ const phoneFit = await wide.evaluate(() => document.documentElement.scrollWidth 
 const phoneSticky = await headTop();
 await wide.close();
 check("5h. 8-candidate table fits at 1440px, names stay pinned while scrolling; no sideways page scroll at 390px", wideFit && phoneFit && wideSticky && phoneSticky, `fit ${wideFit}/${phoneFit}, pinned ${wideSticky}/${phoneSticky}`);
+
+// 5i. Campaign promises grouped by topic, shared topics first.
+await go(page, "#c-2026-ca-general--sf-community-college-board");
+await page.waitForSelector("table.ct");
+const topicRows = await page.locator("tr.r", { has: page.locator(".row-note") }).evaluateAll((rs) =>
+  rs.map((r) => ({ label: r.querySelector(".row-label").firstChild.textContent.trim(), note: r.querySelector(".row-note").textContent.trim(), filled: r.querySelectorAll("td.has-items").length })),
+);
+const downtown = topicRows.find((t) => t.label === "Downtown campus");
+const sortedByShare = topicRows.every((t, i) => i === 0 || topicRows[i - 1].filled >= t.filled);
+check("5i. City College promises grouped by topic, shared first", !!downtown && downtown.note === "Shared by 3 of 8" && downtown.filled === 3 && sortedByShare && topicRows.length >= 10, `${topicRows.length} topics; Downtown: ${downtown?.note}`);
 
 // 6. California, and San Francisco keeps its own answers.
 await go(page, "#trial");

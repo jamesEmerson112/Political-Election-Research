@@ -51,7 +51,7 @@ export interface PutResult {
  * id-less lists (offices, education, career) are replaced as a whole. `facets` (a question's
  * answer elements) merge by id, so stance facets added by different researchers add up.
  */
-const MERGE_KEYS: Record<string, string> = { candidates: "person", questions: "id", exhausted: "task", items: "id", connections: "type", facets: "id" };
+const MERGE_KEYS: Record<string, string> = { candidates: "person", questions: "id", exhausted: "task", items: "id", connections: "type", facets: "id", promise_topics: "id" };
 
 function isObj(v: unknown): v is Rec {
   return !!v && typeof v === "object" && !Array.isArray(v);
