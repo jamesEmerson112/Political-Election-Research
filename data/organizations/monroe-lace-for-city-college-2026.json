@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "monroe-lace-for-city-college-2026",
+  "name": "Monroe Lace for City College 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1493786",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-03"
+}
