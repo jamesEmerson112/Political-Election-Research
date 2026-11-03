@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.jeremy-lee--org.jeremy-lee-for-city-college-board-2026--2026--general--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:jeremy-lee",
+  "election_designation": "general",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 77704,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-28",
+      "start": "2026-01-01"
+    }
+  },
+  "recipient": "org:jeremy-lee-for-city-college-board-2026",
+  "citations": [
+    {
+      "source": "src:data-sfgov-org-43135831c9",
+      "locator": "Schedule C, transaction IfuVJeBhvUQz (2026-09-28, $260.00)"
+    },
+    {
+      "source": "src:data-sfgov-org-32b147362d",
+      "locator": "Schedule C, transaction 1scbiQdYC683 (2026-08-12, $500.00)"
+    },
+    {
+      "source": "src:data-sfgov-org-32b147362d",
+      "locator": "Schedule C, transaction ziKiWpbVPwa2 (2026-08-14, $17.04)"
+    }
+  ],
+  "last_verified": "2026-11-03"
+}
