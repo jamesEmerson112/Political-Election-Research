@@ -28,7 +28,9 @@ import EqualNot from "@lucide/svelte/icons/equal-not";
 import ExternalLink from "@lucide/svelte/icons/external-link";
 import Gavel from "@lucide/svelte/icons/gavel";
 import GitCompareArrows from "@lucide/svelte/icons/git-compare-arrows";
+import PenLine from "@lucide/svelte/icons/pen-line";
 import PiggyBank from "@lucide/svelte/icons/piggy-bank";
+import Signature from "@lucide/svelte/icons/signature";
 import FileText from "@lucide/svelte/icons/file-text";
 import GraduationCap from "@lucide/svelte/icons/graduation-cap";
 import HandCoins from "@lucide/svelte/icons/hand-coins";
@@ -253,3 +255,27 @@ export const AREA_ICON: Record<string, IconComponent> = {
   government: I(Landmark),
   other: I(Shapes),
 };
+
+/** Bill action (expanded past-policy lines). Neutral verbs; the outcome is the stamp next to it. */
+export const ACTION_ICON: Record<string, IconComponent> = {
+  authored: I(PenLine),
+  coauthored: I(Users),
+  sponsored: I(Signature),
+  cosponsored: I(UserPlus),
+  voted_yes: I(Vote),
+  voted_no: I(Vote),
+  abstained: I(Vote),
+  publicly_supported: I(Megaphone),
+};
+
+/** Track-record item kind (dossier). */
+export const RECORD_KIND_ICON: Record<string, IconComponent> = {
+  legislation: I(FileText),
+  budget: I(Landmark),
+  program: I(ClipboardList),
+  executive_action: I(Stamp),
+  other: I(Shapes),
+};
+
+/** Controversies: a neutral "reported" glyph, never a warning sign. */
+export const CONTROVERSY_ICON: IconComponent = I(MessagesSquare);

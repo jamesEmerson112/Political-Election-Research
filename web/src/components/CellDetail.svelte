@@ -2,6 +2,7 @@
   import type { Cell } from "../lib/compare";
   import { MARK } from "../lib/marks";
   import StanceMark from "./StanceMark.svelte";
+  import BillStamp from "./BillStamp.svelte";
 
   /** The sentence-level detail of one candidate's cell, with citation buttons that open the drawer. */
   let { cell }: { cell: Cell } = $props();
@@ -24,6 +25,14 @@
         <span class="bar"><span style:width={`${Math.round(l.bar * 100)}%`}></span></span>
         <span class="bar-val num">{l.sub}</span>
       {:else}
+        {#if l.stamp || l.mark || l.icon}
+          {@const Icon = l.icon}
+          <span class="ico" aria-hidden="true">
+            {#if l.stamp}<BillStamp outcome={l.stamp} />{/if}
+            {#if l.mark}<StanceMark mark={l.mark} size={13} />{/if}
+            {#if Icon}<Icon size={14} />{/if}
+          </span>
+        {/if}
         {#if l.text}<span class="t">{l.text}</span>{/if}
         {#if l.cite}
           <button class="cite" onclick={l.cite.run} aria-label={`${l.cite.n} source${l.cite.n === 1 ? "" : "s"}: ${l.text}`}>{l.cite.n}</button>
@@ -76,6 +85,14 @@
   }
   .t {
     color: var(--ink);
+  }
+  .ico {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-right: 6px;
+    vertical-align: -2px;
+    color: var(--muted);
   }
   .s {
     display: block;

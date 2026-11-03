@@ -74,7 +74,11 @@
     {:else if r.kind === "dots" && cell.dots !== undefined}
       <span class="ln dotln">
         <span class="dots">
-          {#each Array.from({ length: Math.min(cell.dots, MAX_DOTS) }) as _, j (j)}<span class="dot" style:--bg={GROUP_COLOR[r.group]}></span>{/each}
+          {#if cell.glyphs}
+            {#each cell.glyphs.slice(0, MAX_DOTS) as g, j (j)}{@const G = g.icon}<span class="glyph" title={g.text}><G size={13} aria-hidden="true" /></span>{/each}
+          {:else}
+            {#each Array.from({ length: Math.min(cell.dots, MAX_DOTS) }) as _, j (j)}<span class="dot" style:--bg={GROUP_COLOR[r.group]}></span>{/each}
+          {/if}
         </span>
         <span class="v">{cell.dots}</span>
       </span>
@@ -679,5 +683,14 @@
   .both-pt:hover,
   .both-pt:focus-visible {
     border-color: var(--ink-2);
+  }
+  .glyph {
+    display: inline-grid;
+    place-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--cat-issue);
+    color: var(--on-badge);
   }
 </style>

@@ -9,7 +9,7 @@
 import type { CandidateRollup, Citation, Index, Lead, Rec } from "./data";
 import { slugOf } from "./data";
 import { date, money, moneyCompact, ORG_TYPE_LABEL } from "./format";
-import { AREA_ICON, CATEGORY, type CategoryKey, type Group, type IconComponent, MEASURE_ICON, ROW_ICON, issueIcon } from "./icons";
+import { ACTION_ICON, AREA_ICON, CATEGORY, CONTROVERSY_ICON, RECORD_KIND_ICON, type CategoryKey, type Group, type IconComponent, MEASURE_ICON, ROW_ICON, issueIcon } from "./icons";
 import { MARK, stanceMark, type Mark } from "./marks";
 import { openDetail, type Detail } from "./ui.svelte";
 import { age, isNotFound, openField, openLeads, openPosition, openRel } from "./view";
@@ -32,6 +32,12 @@ export interface Line {
   group?: string;
   /** A stance point (sub-bullet). */
   point?: boolean;
+  /** Small glyph before the text (bill action, issue, record kind). */
+  icon?: IconComponent;
+  /** A for/against mark before the text. */
+  mark?: Mark;
+  /** A bill outcome stamp before the text (BILL_OUTCOME key). */
+  stamp?: string;
   /** External links shown after the text (open in a new tab). */
   links?: Array<{ label: string; href: string }>;
 }
@@ -50,6 +56,8 @@ export interface Cell {
   dots?: number;
   /** Bills: one stamp per bill, by outcome. */
   bills?: Array<{ outcome: string; text: string }>;
+  /** Count rows drawn as glyphs instead of dots (e.g. one issue icon per campaign promise). */
+  glyphs?: Array<{ icon: IconComponent; text: string }>;
   /** Office scope: icon chips (glyphs in icons.ts CHIP_ICON); the row expands for detail. */
   chips?: Chip[];
   lines: Line[];
@@ -387,10 +395,19 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       });
     };
     const lines: Line[] = [];
+    // One shared note (e.g. "Listed in the candidate's ballot statement") is shown once, not under every item.
+    const sums = new Set(items.map((it) => String(it["summary"] ?? "")));
+    const sharedNote = items.length > 1 && sums.size === 1 ? [...sums][0]! : null;
     for (const it of items) {
       lines.push({
+        icon:
+          key === "controversies"
+            ? CONTROVERSY_ICON
+            : key === "track_record"
+              ? (RECORD_KIND_ICON[String(it["kind"])] ?? RECORD_KIND_ICON["other"])
+              : issueIcon(it["issue"] as string | undefined),
         text: `${it["title"]}${it["date"] ? ` · ${it["date"]}` : ""}`,
-        sub: String(it["summary"] ?? ""),
+        sub: sharedNote ? undefined : String(it["summary"] ?? ""),
         cite: { n: cites(it).length, run: () => openItem(it) },
       });
       if (it["response"]) {
@@ -401,6 +418,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       }
       if (it["resolution"]) lines.push({ text: `Resolution: ${it["resolution"]["summary"]}`, cite: { n: cites(it["resolution"]).length, run: () => openItem(it) } });
     }
+    if (sharedNote) lines.push({ text: "", sub: `All ${items.length}: ${sharedNote}` });
     return {
       state: "value",
       marks: [],
@@ -408,6 +426,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       unit: items.length === 1 ? unit[0] : unit[1],
       label: String(items[0]!["title"]),
       dots: items.length,
+      ...(key === "promises" ? { glyphs: items.map((it) => ({ icon: issueIcon(it["issue"] as string | undefined), text: String(it["title"]) })) } : {}),
       lines,
       summary: items.map((it) => String(it["title"])).join("; "),
       open: () => (items.length === 1 ? openItem(items[0]!) : openDetail({
@@ -545,6 +564,8 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       lines: acts.map((a) => {
         const b = bill(String(a["bill"]));
         return {
+          icon: ACTION_ICON[String(a["action"])],
+          stamp: b ? (OUTCOME[String(b["status"]["value"])] ?? "other") : "no record",
           text: `${billLabel(a["bill"])}${b ? ` ${b["title"]["value"]}` : ""}`,
           sub: `${ACTION[a["action"]] ?? a["action"]}${a["date"] ? ` · ${date(a["date"])}` : ""}${b ? ` · ${String(b["status"]["value"]).replace(/_/g, " ")}` : ""}`,
           cite: { n: cites(a).length, run: () => openAct(a) },
@@ -615,6 +636,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
         label: m.label,
         lines: [
           {
+            mark: m,
             text,
             cite: list.length ? { n: list.length, run: open } : undefined,
             more: p["search_log"] ? { label: "Where we looked", run: open } : undefined,
