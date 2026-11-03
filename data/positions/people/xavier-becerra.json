@@ -59,6 +59,28 @@
           "locator": "Policy Agenda, Reform Zoning to Unlock Housing Supply"
         }
       ]
+    },
+    {
+      "subject": "q:taxes/lower-top-income-tax-rates",
+      "stance": "oppose",
+      "as_of": "2026-10-01",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Becerra endorsed Yes on Proposition 3, which makes the existing income tax rates on high incomes permanent, and at the Sept. 30 debate criticized Hilton's income tax plan as including a tax cut for the wealthiest earners.",
+      "citations": [
+        {
+          "source": "src:xavierbecerra2026-com-b5976f2d59",
+          "quote": "YES on Prop 3: The California Children’s Education and Health Care Protection Act of 2026"
+        },
+        {
+          "source": "src:independent-com-30408281c5",
+          "quote": "He pointed out that Hilton’s plan to drop income taxes on the first $150,000 in earnings also includes a tax cut for the state’s wealthiest earners, comparing it to federal tax cuts enacted by Trump."
+        },
+        {
+          "source": "src:ksby-com-b70ac2ad39",
+          "quote": "\"Absolutely he's wrong; he would damage the state even harder for working families,\" Becerra said, arguing the tax cuts would primarily benefit wealthy Californians while reducing funding for schools and healthcare."
+        }
+      ]
     }
   ]
 }

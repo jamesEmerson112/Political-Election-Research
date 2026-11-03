@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "independent-com-30408281c5",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2026-10-01",
+  "publisher": "Santa Barbara Independent (republished from CalMatters)",
+  "title": "In Becerra and Hilton’s Only Scheduled Debate, Trump Was the Main Character",
+  "url": "https://www.independent.com/2026/10/01/in-becerra-and-hiltons-only-scheduled-debate-trump-was-the-main-character/"
+}
