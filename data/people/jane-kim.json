@@ -3,6 +3,39 @@
   "id": "jane-kim",
   "name": "Jane Kim",
   "aliases": [],
+  "candidate_profile": {
+    "offices_held": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "office": "Member, San Francisco Board of Supervisors (District 6)",
+          "current": false,
+          "end": "2019",
+          "jurisdiction": "City and County of San Francisco",
+          "office_ref": "office:san-francisco-supervisor",
+          "start": "2011",
+          "citations": [
+            {
+              "source": "src:janekim-org-5432902a1f",
+              "quote": "As a San Francisco Supervisor from 2011 to 2019, Jane represented a district encompassing both the city’s lowest-income residents and its wealthiest zip code."
+            }
+          ]
+        },
+        {
+          "office": "President, San Francisco Board of Education",
+          "current": false,
+          "jurisdiction": "San Francisco Unified School District",
+          "office_ref": "office:sfusd-board-of-education-member",
+          "citations": [
+            {
+              "source": "src:7x7-com-a003d3c33b",
+              "quote": "If Jane Kim looks familiar, it could be that you recognize her as the SF Board of Education president, not to mention the leading candidate in the race for District 6 supervisor (a post held by controversial legislator Chris Daly since 2000)."
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q6152446",

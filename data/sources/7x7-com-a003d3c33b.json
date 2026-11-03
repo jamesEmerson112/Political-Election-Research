@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "7x7-com-a003d3c33b",
+  "kind": "news_report",
+  "accessed": "2026-11-03",
+  "published": "2010-09-18",
+  "publisher": "7x7",
+  "title": "Hot 20 2010: Jane Kim, President, SF Board of Education and Candidate for District 6 Supervisor",
+  "url": "https://www.7x7.com/hot-20-2010-jane-kim-president-sf-board-of-education-and-candidate-for-1779510311.html"
+}
