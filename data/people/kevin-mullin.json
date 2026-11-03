@@ -1,0 +1,21 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "kevin-mullin",
+  "name": "Kevin Mullin",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H2CA14162",
+      "system": "fec_candidate"
+    },
+    {
+      "id": "Q6397046",
+      "system": "wikidata"
+    }
+  ],
+  "links": {
+    "official_site": "https://kevinmullin.house.gov/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-03"
+}
