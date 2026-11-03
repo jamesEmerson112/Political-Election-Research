@@ -3,8 +3,25 @@
   "id": "rob-bonta",
   "name": "Rob Bonta",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Rob Bonta* Democratic",
+          "locator": "Page 2 of 41 (PDF page 3), Attorney General: name and party preference"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Rob Bonta | DEMOCRATIC",
+          "locator": "p. 88, Candidate Statements, Attorney General"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
-  "last_verified": "2026-11-02"
+  "last_verified": "2026-11-03"
 }

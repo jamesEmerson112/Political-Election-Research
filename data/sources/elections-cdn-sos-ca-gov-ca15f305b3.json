@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "elections-cdn-sos-ca-gov-ca15f305b3",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "published": "2026-08-27",
+  "publisher": "California Secretary of State",
+  "title": "Certified List of Candidates for the November 3, 2026, General Election",
+  "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+}
