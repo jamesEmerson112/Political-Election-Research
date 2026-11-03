@@ -39,6 +39,41 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-03",
+      "items": [
+        {
+          "degree": "Bachelor's degree in history",
+          "institution": "Yale University",
+          "year": 1993,
+          "citations": [
+            {
+              "source": "src:oag-ca-gov-77d988cc3f",
+              "quote": "Bonta grew up and attended public school in California before working his way through Yale University and earning his Juris Doctor from Yale Law School."
+            },
+            {
+              "source": "src:thefilam-net-097c662a04",
+              "quote": "He graduated Cum Laude with a bachelor’s degree in history in 1993."
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "Yale Law School",
+          "year": 1998,
+          "citations": [
+            {
+              "source": "src:oag-ca-gov-77d988cc3f",
+              "quote": "Bonta grew up and attended public school in California before working his way through Yale University and earning his Juris Doctor from Yale Law School."
+            },
+            {
+              "source": "src:thefilam-net-097c662a04",
+              "quote": "He returned to enroll at Yale Law School – again with the help of financial aid — and graduated with a Juris Doctor degree in 1998."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "California Attorney General",
       "citations": [
