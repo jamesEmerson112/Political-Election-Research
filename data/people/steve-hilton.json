@@ -3,6 +3,17 @@
   "id": "steve-hilton",
   "name": "Steve Hilton",
   "aliases": [],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "London",
+      "citations": [
+        {
+          "source": "src:stevehiltonforgovernor-com-9ce210b9d3",
+          "quote": "Steve Hilton was born in London, the son of Hungarian immigrants who fled communism in search of freedom and opportunity."
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q3498953",
