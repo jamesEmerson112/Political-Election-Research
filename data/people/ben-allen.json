@@ -108,6 +108,19 @@
           "locator": "page 89, Candidate Statements, Insurance Commissioner"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Santa Monica",
+      "citations": [
+        {
+          "source": "src:benallenca-com-eb2b2cdeab",
+          "quote": "He and his wife, Melanie, an attorney, live in Santa Monica with their two young children."
+        },
+        {
+          "source": "src:democrats-senate-ca-gov-76b1d08adb",
+          "quote": "Senator Benjamin Allen - Santa Monica"
+        }
+      ]
     }
   },
   "ids": [

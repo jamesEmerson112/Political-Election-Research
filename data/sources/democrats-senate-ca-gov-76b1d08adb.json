@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "democrats-senate-ca-gov-76b1d08adb",
+  "kind": "government_record",
+  "accessed": "2026-11-03",
+  "publisher": "California Senate Democratic Caucus",
+  "title": "Senator Benjamin Allen - Santa Monica",
+  "url": "https://democrats.senate.ca.gov/senator/allen"
+}
