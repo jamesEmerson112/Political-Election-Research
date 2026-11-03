@@ -58,7 +58,7 @@ Inside relationship ids, refs are written with `.` instead of `:` and `/` (`cont
 
 Both can later get a certified `result`. Committees supporting or opposing a measure are **not** listed in the contest; they come from `committee_role` relationships, so that fact is stored in one place only.
 
-**Budget** (`data/budgets/<id>.json`): a government's adopted budget per fiscal year (total and General Fund) and its official multi-year forecast (shortfall / surplus / balanced per fiscal year), each cited. It is the baseline the trial ballot adds measure effects to.
+**Budget** (`data/budgets/<id>.json`): a government's adopted budget per fiscal year (total and General Fund) and its official multi-year forecast (shortfall / surplus / balanced per fiscal year), each cited. `forecast.cumulative` is true when each year's amount carries the earlier years' gaps forward (San Francisco's: $474.3M, $741.7M, $1,088.6M build on each other), so the site says the years don't add up. It is the baseline the trial ballot adds measure effects to.
 
 **Research agenda:** the editorial work list for a contest. It holds the candidates to research, the questions and measures to ask every candidate about, targets (endorsements per candidate, top contributors, one shared `finance_cutoff`), and `exhausted` entries that close count tasks. Its references may point at records research has not created yet. `npm run next` compares the agenda with the verified data to compute the work queue.
 

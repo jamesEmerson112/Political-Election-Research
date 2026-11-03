@@ -192,7 +192,17 @@
         </div>
       </article>
     {:else}
-      <TrialSummary {result} {measures} {votes} {titles} {bridge} {domain} base={budgetBase(group.budget)} />
+      <TrialSummary
+        {result}
+        {measures}
+        {votes}
+        {titles}
+        {bridge}
+        {domain}
+        base={budgetBase(group.budget)}
+        cumulative={group.budget?.["forecast"]?.["cumulative"] === true}
+        onfy={(f) => (fy = f)}
+      />
       <div class="answers">
         <button class="ans" onclick={() => (step = 0)}>Change answers</button>
         <button class="ans" onclick={forget}>Forget my answers</button>

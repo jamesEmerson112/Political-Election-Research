@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { budgetBase, fiscalChips, gapShare, pct, pctRange, usd } from "../web/src/lib/measureChips.js";
+import { budgetBase, fiscalChips, gapShare, pct, pctRange, usd, yearsNote } from "../web/src/lib/measureChips.js";
 
 const M = 1_000_000;
 
@@ -54,5 +54,44 @@ describe("readable totals and ranges", () => {
     // General Fund change −$30.5M (cost) to +$21.7M (revenue) on a $1,088.6M shortfall.
     expect(gapShare(-1088.6 * M, { low: -30.5 * M, high: 21.7 * M }, "money")).toBe("≈2.8% larger to 2.0% smaller");
     expect(gapShare(-1088.6 * M, { low: -30.5 * M, high: 21.7 * M })).toBe("≈2.0% smaller to 2.8% larger");
+  });
+});
+
+describe("the per-year chart in words", () => {
+  const M = 1_000_000;
+  const row = (fy: string, baseline: number | null, low: number, high: number) => ({
+    fy,
+    baseline,
+    delta: { low, high },
+    result: baseline === null ? null : { low: baseline + low, high: baseline + high },
+  });
+
+  it("separates what the choices do from the forecast's own trend, and says what is left", () => {
+    const rows = [row("2027-28", -474.3 * M, 89.5 * M, 141.7 * M), row("2028-29", -741.7 * M, 89.5 * M, 141.7 * M), row("2029-30", -1088.6 * M, 89.5 * M, 141.7 * M)];
+    expect(yearsNote(rows, true)).toBe(
+      "Your choices add $89.5M–$141.7M a year to the General Fund, which makes each year's shortfall smaller. " +
+        "The official forecast's shortfall, before these measures, grows from $474.3M in FY2027-28 to $1.09B in FY2029-30; each year includes the earlier years' gaps, so the years don't add up. " +
+        "With your choices, a shortfall remains in every year: $332.6M–$384.8M in FY2027-28 and $946.9M–$999.1M in FY2029-30.",
+    );
+  });
+
+  it("says when nothing changed, and when choices make the shortfall larger", () => {
+    expect(yearsNote([row("2027-28", -474.3 * M, 0, 0), row("2029-30", -1088.6 * M, 0, 0)])).toBe(
+      "Your choices don't change the General Fund in these years. The official forecast's shortfall, before these measures, grows from $474.3M in FY2027-28 to $1.09B in FY2029-30.",
+    );
+    expect(yearsNote([row("2031-32", -60 * M, -12 * M, -8 * M), row("2032-33", -95 * M, -12 * M, -8 * M)])).toBe(
+      "Your choices cost the General Fund $8M–$12M a year, which makes each year's shortfall larger. " +
+        "The official forecast's shortfall, before these measures, grows from $60M in FY2031-32 to $95M in FY2032-33. " +
+        "With your choices, a shortfall remains in every year: $68M–$72M in FY2031-32 and $103M–$107M in FY2032-33.",
+    );
+  });
+
+  it("uses the forecast's words when a result crosses $0 or the outcome could go either way", () => {
+    expect(yearsNote([row("2031-32", -50 * M, 40 * M, 70 * M)])).toBe(
+      "Your choices add $40M–$70M a year to the General Fund. The official forecast, before these measures: shortfall $50M in FY2031-32. " +
+        "With your choices: between a $10M shortfall and a $20M surplus in FY2031-32.",
+    );
+    expect(yearsNote([row("2031-32", -50 * M, -5 * M, 10 * M)])).toMatch(/^Your choices change the General Fund by −\$5M to \+\$10M a year, depending on the outcome\./);
+    expect(yearsNote([row("2031-32", null, 0, 0)])).toBeNull();
   });
 });

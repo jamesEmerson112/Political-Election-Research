@@ -276,14 +276,14 @@ describe("bridge (waterfall) for one fiscal year", () => {
     expect(steps(r, ms).steps.map((s) => s.label)).toEqual(["Forecast", "C/I/J", "B", "P", "Result"]);
   });
 
-  it("keeps a fixed, zoomed axis while answering", () => {
+  it("keeps a fixed axis from $0 while answering, never zoomed", () => {
     const big = budgetInput({ forecast: { years: [{ fy: "2031-32", direction: "shortfall", amount_usd: 474.3 * M }] } });
     const ms = [cost("x", 4, 4), tax, cost("y", 120, 120)];
     const none = bridgeDomain(ms, big, "2031-32", bridgeSteps(runTrial(ms, big, {}), ms, "2031-32"));
     const some = bridgeDomain(ms, big, "2031-32", bridgeSteps(runTrial(ms, big, { x: "yes", b: "yes" }), ms, "2031-32"));
     expect(some).toEqual(none);
-    expect(none!.zero).toBe(false);
-    expect(none!.hi).toBeLessThan(-400 * M);
+    // All shortfall: the axis ends at $0, so the bars' lengths are the amounts.
+    expect(none!.hi).toBe(0);
     expect(none!.lo).toBeLessThan(-(474.3 + 124) * M);
   });
 });

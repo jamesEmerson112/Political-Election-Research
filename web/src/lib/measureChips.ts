@@ -153,6 +153,63 @@ export function gapLine(fy: string, baseline: number, result: Range): GapLine {
   return { head, mode, from, to, change, pct, text };
 }
 
+/** One fiscal year of the trial's General Fund result (as in `TrialResult.generalFund`). */
+export interface YearRow {
+  fy: string;
+  baseline: number | null;
+  delta: Range;
+  result: Range | null;
+}
+
+/**
+ * Plain sentences above the per-year chart: what the visitor's choices do to
+ * the General Fund each year, what the official forecast does on its own, and
+ * what is left. Written so the forecast's own trend (a shortfall growing every
+ * year) can't be mistaken for the effect of the choices. `cumulative` (the
+ * budget record's forecast flag) adds that the years don't add up. Describes,
+ * never grades; null when no year has a forecast.
+ */
+export function yearsNote(rows: YearRow[], cumulative = false): string | null {
+  const ys = rows.filter((y): y is YearRow & { baseline: number; result: Range } => y.baseline !== null && y.result !== null);
+  const first = ys[0];
+  const last = ys.at(-1);
+  if (!first || !last) return null;
+  const many = ys.length > 1;
+  const one = (v: number): Range => ({ low: v, high: v });
+  const low = Math.min(...ys.map((y) => y.delta.low));
+  const high = Math.max(...ys.map((y) => y.delta.high));
+  const each = many ? "each year's" : "the";
+  const out: string[] = [];
+
+  if (low === 0 && high === 0) out.push(`Your choices don't change the General Fund in ${many ? "these years" : `FY${first.fy}`}.`);
+  else if (low >= 0) {
+    const smaller = ys.every((y) => y.baseline < 0 && y.result.high < 0 && y.delta.low > 0);
+    out.push(`Your choices add ${low === 0 ? `up to ${usd(high)}` : usdRange(low, high)} a year to the General Fund${smaller ? `, which makes ${each} shortfall smaller` : ""}.`);
+  } else if (high <= 0) {
+    const larger = ys.every((y) => y.baseline < 0 && y.delta.high < 0);
+    out.push(`Your choices cost the General Fund ${high === 0 ? `up to ${usd(low)}` : usdRange(-high, -low)} a year${larger ? `, which makes ${each} shortfall larger` : ""}.`);
+  } else out.push(`Your choices change the General Fund by ${signedRange({ low, high })} a year, depending on the outcome.`);
+
+  const adds = cumulative && many ? "; each year includes the earlier years' gaps, so the years don't add up" : "";
+  if (many && ys.every((y) => y.baseline < 0)) {
+    const a = -first.baseline;
+    const b = -last.baseline;
+    const span = `FY${first.fy} to FY${last.fy}`;
+    if (a === b) out.push(`The official forecast's shortfall, before these measures, stays at ${usd(a)} from ${span}${adds}.`);
+    else out.push(`The official forecast's shortfall, before these measures, ${b > a ? "grows" : "shrinks"} from ${usd(a)} in FY${first.fy} to ${usd(b)} in FY${last.fy}${adds}.`);
+  } else {
+    out.push(`The official forecast, before these measures: ${balance(one(first.baseline))} in FY${first.fy}${many ? ` and ${balance(one(last.baseline))} in FY${last.fy}` : ""}${adds}.`);
+  }
+
+  if (low !== 0 || high !== 0) {
+    const left = (r: Range) => usdRange(-r.high, -r.low);
+    if (ys.every((y) => y.result.high < 0))
+      out.push(`With your choices, a shortfall remains in ${many ? `every year: ${left(first.result)} in FY${first.fy} and ${left(last.result)} in FY${last.fy}` : `FY${first.fy}: ${left(first.result)}`}.`);
+    else out.push(`With your choices: ${balance(first.result)} in FY${first.fy}${many ? ` and ${balance(last.result)} in FY${last.fy}` : ""}.`);
+  }
+  return out.join(" ");
+}
+
 export const MEASURE_TYPE_LABEL: Record<string, string> = {
   charter_amendment: "Charter amendment",
   ordinance: "Ordinance",

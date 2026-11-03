@@ -407,18 +407,18 @@ export function bridgeExtent(b: Bridge): [number, number] {
   return [Math.min(...vals), Math.max(...vals)];
 }
 
+/** The bridge's axis, in General Fund dollars (negative = shortfall). It always reaches $0, so bar lengths are the amounts. */
 export interface BridgeDomain {
   lo: number;
   hi: number;
-  /** True when the axis reaches $0; false when it is zoomed in and stops short of it. */
-  zero: boolean;
 }
 
 /**
  * A fixed axis for one fiscal year, so the bridge doesn't jump while a visitor
  * answers: the span of the all-yes bridge and every single-yes bridge (plus
- * the current one), padded. It reaches $0 only when $0 is close; otherwise the
- * axis is zoomed in and the chart must say so.
+ * the current one), padded, and always reaching $0. Never zoomed: an axis cut
+ * short of $0 makes a bar's length look like its amount when it isn't (a 13%
+ * smaller shortfall drawn as half the bar).
  */
 export function bridgeDomain(measures: MeasureInput[], budget: BudgetInput | null, fy: string, current?: Bridge | null): BridgeDomain | null {
   const ballots: Array<Record<string, Vote>> = [
@@ -442,10 +442,8 @@ export function bridgeDomain(measures: MeasureInput[], budget: BudgetInput | nul
     lo = mid - minSpan / 2;
     hi = mid + minSpan / 2;
   }
-  const pad = (hi - lo) * 0.08;
-  lo -= pad;
-  hi += pad;
-  const near = (hi - lo) * 0.25;
-  if (lo - near <= 0 && hi + near >= 0) return { lo: Math.min(lo, 0), hi: Math.max(hi, 0), zero: true };
-  return { lo, hi, zero: false };
+  lo = Math.min(lo, 0);
+  hi = Math.max(hi, 0);
+  const pad = (hi - lo) * 0.06;
+  return { lo: lo < 0 ? lo - pad : 0, hi: hi > 0 ? hi + pad : 0 };
 }

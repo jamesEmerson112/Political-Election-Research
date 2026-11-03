@@ -82,6 +82,10 @@
         "published": {
           "$ref": "defs.schema.json#/$defs/Date"
         },
+        "cumulative": {
+          "description": "True when each year's amount carries the earlier years' gaps forward (the forecast's table builds each year on the one before, as each year's basis says), so the years must not be added together.",
+          "type": "boolean"
+        },
         "years": {
           "type": "array",
           "items": {

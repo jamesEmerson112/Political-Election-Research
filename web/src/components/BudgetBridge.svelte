@@ -9,10 +9,14 @@
    * forecast, one step per yes measure in ballot order, and the result. Each
    * step starts where the previous one's nearer end left off; the nearer end
    * is solid, the rest of the range lighter. One hue (--money) for measures,
-   * --muted for the forecast and the result. Direction is position (left =
-   * shortfall side) and words, never arrows. When $0 is far from the numbers
-   * the axis is zoomed in, with a break mark and a note saying where the bars
-   * start; the domain is fixed by the caller (bridgeDomain) so it doesn't jump.
+   * --muted for the forecast and the result.
+   *
+   * The shortfall is drawn as a positive amount growing right from $0 (a
+   * surplus would sit left of $0), like the per-year chart in the summary, so
+   * a smaller gap is a shorter bar. The axis always starts at $0 and is never
+   * zoomed: bar lengths are the amounts (a 13% smaller shortfall is a 13%
+   * shorter bar, not half of it). Direction is position and words, never
+   * arrows. The domain is fixed by the caller (bridgeDomain) so it doesn't jump.
    */
   let { bridge, domain, compact = false }: { bridge: Bridge; domain: BridgeDomain; compact?: boolean } = $props();
 
@@ -31,31 +35,31 @@
   const n = $derived(bridge.steps.length);
   const rowsH = $derived(n * pitch);
   const H = $derived(rowsH + 18);
-  /** A clean tick step for the width. The axis ends are rounded out to a fifth of it (never across $0 when zoomed), so the zoom note names a round amount. */
+  /** A clean tick step for the width. */
   const step = $derived.by(() => {
     const raw = (domain.hi - domain.lo) / Math.max(2, Math.floor((x1 - x0) / 90));
     const mag = 10 ** Math.floor(Math.log10(raw || 1));
     return ([1, 2, 2.5, 5, 10].map((m) => m * mag).find((s) => s >= raw) ?? 10 * mag) || 1;
   });
-  const lo = $derived.by(() => {
-    const v = Math.floor(domain.lo / (step / 5)) * (step / 5);
-    return !domain.zero && domain.lo > 0 && v <= 0 ? domain.lo : v;
-  });
-  const hi = $derived.by(() => {
-    const v = Math.ceil(domain.hi / (step / 5)) * (step / 5);
-    return !domain.zero && domain.hi < 0 && v >= 0 ? domain.hi : v;
-  });
-  const x = (v: number) => x0 + ((v - lo) / (hi - lo || 1)) * (x1 - x0);
+  /**
+   * The plotted axis is the shortfall, the negative of the General Fund balance
+   * (a surplus is negative here), rounded out to a fifth of a tick. It always
+   * includes $0 (bridgeDomain does).
+   */
+  const pLo = $derived(Math.floor(-domain.hi / (step / 5)) * (step / 5));
+  const pHi = $derived(Math.ceil(-domain.lo / (step / 5)) * (step / 5));
+  /** x of a General Fund balance v (negative = shortfall): a larger shortfall sits further right. */
+  const x = (v: number) => x0 + ((-v - pLo) / (pHi - pLo || 1)) * (x1 - x0);
   const rowY = (k: number) => k * pitch + (stacked ? labelH : (pitch - barH) / 2);
-  /** Totals are drawn from $0, or from the axis edge nearest $0 when the axis is zoomed in (with a break mark). */
-  const anchor = $derived(domain.zero ? 0 : hi < 0 ? hi : lo);
+  /** Ticks in plotted units: p > 0 is a shortfall of p, p < 0 a surplus of -p (the side labels say which). */
   const ticks = $derived.by(() => {
     const out: number[] = [];
-    for (let v = Math.ceil(lo / step - 1e-9) * step; v <= hi + 1e-6; v += step) out.push(Math.round(v));
+    for (let p = Math.ceil(pLo / step - 1e-9) * step; p <= pHi + 1e-6; p += step) out.push(Math.round(p) || 0);
     return out;
   });
-  const tickAnchor = (t: number) => (x(t) > w - 24 ? "end" : stacked && x(t) < x0 + 20 ? "start" : "middle");
-  const tickLabel = (v: number) => (v === 0 ? "$0" : `${v < 0 ? "−" : ""}${usd(v)}`);
+  const tickX = (p: number) => x(-p);
+  const tickAnchor = (p: number) => (tickX(p) > w - 24 ? "end" : stacked && tickX(p) < x0 + 20 ? "start" : "middle");
+  const tickLabel = (p: number) => (p === 0 ? "$0" : usd(p));
 
   interface Seg {
     a: number;
@@ -71,11 +75,11 @@
     if (width >= 2) return { left, width };
     return { left: xb >= xa ? xa : xa - 2, width: 2 };
   }
-  /** Segments for a total (forecast or result): solid from the anchor to the nearer end, lighter to the farther end. */
+  /** Segments for a total (forecast or result): solid from $0 to the nearer end, lighter to the farther end. */
   function totalSegs(r: Range): Seg[] {
-    if (domain.zero && r.low < 0 && r.high > 0) return [{ a: r.low, b: r.high, light: true }];
-    const [near, far] = Math.abs(r.low - anchor) <= Math.abs(r.high - anchor) ? [r.low, r.high] : [r.high, r.low];
-    const segs: Seg[] = [{ a: anchor, b: near, light: false }];
+    if (r.low < 0 && r.high > 0) return [{ a: r.low, b: r.high, light: true }];
+    const [near, far] = Math.abs(r.low) <= Math.abs(r.high) ? [r.low, r.high] : [r.high, r.low];
+    const segs: Seg[] = [{ a: 0, b: near, light: false }];
     if (far !== near) segs.push({ a: near, b: far, light: true });
     return segs;
   }
@@ -100,7 +104,7 @@
         : (gapShare(bridge.baseline, s.delta, "money") ?? signedRange(s.delta));
 
   const direction = (r: Range) =>
-    r.low >= 0 ? "Revenue or savings: moves toward surplus (right)" : r.high <= 0 ? "Cost: moves toward shortfall (left)" : "Cost or revenue, depending on the outcome";
+    r.low >= 0 ? "Revenue or savings: moves left, toward surplus" : r.high <= 0 ? "Cost: moves right, toward shortfall" : "Cost or revenue, depending on the outcome";
   function tipLines(s: BridgeStep): string[] {
     if (s.kind === "start") return [`Official forecast, FY${bridge.fy}`, balance(s.after), "Doesn't include ballot measures"];
     if (s.kind === "end") {
@@ -120,10 +124,7 @@
   }
 
   const sides = $derived(
-    hi <= 0 ? ["← larger shortfall", "smaller shortfall →"] : lo >= 0 ? ["← smaller surplus", "larger surplus →"] : ["← shortfall", "surplus →"],
-  );
-  const zoomNote = $derived(
-    domain.zero ? null : hi < 0 ? `Zoomed axis: bars start at a ${usd(hi)} shortfall, not at $0` : `Zoomed axis: bars start at a ${usd(lo)} surplus, not at $0`,
+    pLo >= 0 ? ["← smaller shortfall", "larger shortfall →"] : pHi <= 0 ? ["← larger surplus", "smaller surplus →"] : ["← surplus", "shortfall →"],
   );
 
   const REASON: Record<BridgeOmitted["reason"], string> = {
@@ -154,10 +155,10 @@
     {#if w > 0}
       <svg width={w} height={H} viewBox={`0 0 ${w} ${H}`} role="img" aria-label={aria} style:font-size={`${font}px`}>
         {#each ticks as t (t)}
-          <line class="grid" x1={x(t)} x2={x(t)} y1="0" y2={rowsH} />
-          <text class="tick" x={x(t)} y={rowsH + 13} text-anchor={tickAnchor(t)}>{tickLabel(t)}</text>
+          <line class="grid" x1={tickX(t)} x2={tickX(t)} y1="0" y2={rowsH} />
+          <text class="tick" x={tickX(t)} y={rowsH + 13} text-anchor={tickAnchor(t)}>{tickLabel(t)}</text>
         {/each}
-        {#if domain.zero}<line class="zero" x1={x(0)} x2={x(0)} y1="0" y2={rowsH} />{/if}
+        <line class="zero" x1={x(0)} x2={x(0)} y1="0" y2={rowsH} />
         {#if hover !== null}<rect class="hl" x="0" y={hover * pitch} width={w} height={pitch} rx="3" />{/if}
         {#each bridge.steps as s, k (k)}
           {@const y = rowY(k)}
@@ -165,11 +166,6 @@
             {@const r = rect(seg)}
             <rect class={s.kind === "measure" ? "money" : "total"} class:light={seg.light} x={r.left} {y} width={r.width} height={barH} rx="2" />
           {/each}
-          {#if s.kind !== "measure" && !domain.zero}
-            {@const bx = x(anchor) + (anchor === hi ? -7 : 7)}
-            <!-- break mark: the bar continues to $0 off the chart -->
-            <path class="break" d={`M${bx - 3},${y + barH + 2} L${bx + 1},${y - 2} M${bx + 1},${y + barH + 2} L${bx + 5},${y - 2}`} />
-          {/if}
           {#if k < n - 1}
             <line class="conn" x1={x(nextChain(s))} x2={x(nextChain(s))} y1={y + barH} y2={rowY(k + 1)} />
           {/if}
@@ -200,17 +196,12 @@
             }}
           />
         {/each}
-        {#if !domain.zero}
-          {@const bx = x(anchor) + (anchor === hi ? -7 : 7)}
-          <path class="axisbreak" d={`M${bx - 3},${rowsH + 2} L${bx + 1},${rowsH - 6} M${bx + 1},${rowsH + 2} L${bx + 5},${rowsH - 6}`} />
-        {/if}
       </svg>
     {/if}
   </div>
-  <div class="axis" class:stacked style:padding-left={`${x0}px`}>
-    <span class="l">{sides[0]}</span>
-    {#if zoomNote}<span class="zoom"><span class="brk" aria-hidden="true">//</span> {zoomNote}</span>{/if}
-    <span class="r">{sides[1]}</span>
+  <div class="axis" style:padding-left={`${x0}px`}>
+    <span>{sides[0]}</span>
+    <span>{sides[1]}</span>
   </div>
   <div class="legend">
     <span><span class="sw money"></span>Measure</span>
@@ -273,16 +264,6 @@
     stroke-width: 1;
     opacity: 0.55;
   }
-  .break {
-    stroke: var(--surface);
-    stroke-width: 2;
-    fill: none;
-  }
-  .axisbreak {
-    stroke: var(--ink-2);
-    stroke-width: 1.25;
-    fill: none;
-  }
   .hl {
     fill: var(--ink);
     opacity: 0.05;
@@ -297,36 +278,11 @@
     stroke-linejoin: round;
   }
   .axis {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    grid-template-areas: "l z r";
+    display: flex;
+    justify-content: space-between;
     gap: 2px 10px;
     font-size: 0.7rem;
     color: var(--muted);
-  }
-  .axis.stacked {
-    grid-template-columns: auto auto;
-    grid-template-areas: "l r" "z z";
-    justify-content: space-between;
-  }
-  .l {
-    grid-area: l;
-  }
-  .r {
-    grid-area: r;
-    text-align: right;
-  }
-  .zoom {
-    grid-area: z;
-    text-align: center;
-    color: var(--ink-2);
-  }
-  .axis.stacked .zoom {
-    text-align: left;
-  }
-  .brk {
-    font-weight: 700;
-    letter-spacing: -1px;
   }
   .legend {
     font-size: 0.72rem;
