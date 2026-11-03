@@ -1,6 +1,102 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:connie-chan",
+  "controversies": {
+    "as_of": "2026-11-03",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan ethics",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan FPPC",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan SF Ethics Commission",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan lawsuit",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan investigation supervisor",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan criticized supervisor District 1",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan controversy",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan complaint fine investigation criticized",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan supervisor controversy complaint criticized",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan supervisor controversy complaint criticized",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan Los Angeles Times OR Politico San Francisco congressional race Chan criticism",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "fppc.ca.gov enforcement warning letter \"Connie Chan\" supervisor committee",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan stipulation enforcement penalty committee",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "\"Campaign Finance Audit Report\" \"Connie Chan for Supervisor 2020\" findings",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan Sunshine Ordinance Task Force violation",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "SF Standard Chan Cantonese radio Lurie \"wealthy friends\" remarks October 2026",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan steps off Board of Supervisors committees campaign absences criticized",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-03",
+        "query": "Connie Chan apologizes supervisor",
+        "where": "Web search (summaries); no result met the documentation rule (two independent outlets or an official record)"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-02",
     "items": [
