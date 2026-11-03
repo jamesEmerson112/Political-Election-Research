@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-5",
+  "candidates": [
+    {
+      "person": "person:tom-mcclintock",
+      "name": "Tom McClintock"
+    },
+    {
+      "person": "person:michael-masuda",
+      "name": "Michael Masuda"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Primary: McClintock 109,088 votes (61.6%), Masuda 42,559 (24%) per Rafu Shimpo; NBC showed 61.3% and 24.3%. McClintock's UCLA B.A. year is 1978 per the bioguide search summary, but a LittleSis mirror shows 1988, likely a transcription error. One summary said the 2014 Congressional Directory gives his State Senate years as 2000-04, against 2000-2008 in the bioguide; verify. His birthplace (Bronxville, N.Y.) was seen only on a LittleSis mirror of the bioguide and is omitted. Masuda: in a Turlock Journal interview he said he was born in Green Bay, Wisc., and grew up in Amador County; that is a news source, so it is omitted from facts. No primary source was found for his State Department tenure or degree."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

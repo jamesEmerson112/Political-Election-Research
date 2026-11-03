@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/superintendent-of-public-instruction",
+  "candidates": [
+    {
+      "person": "person:sonja-shaw",
+      "name": "Sonja Shaw"
+    },
+    {
+      "person": "person:richard-barrera",
+      "name": "Richard Barrera"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Nonpartisan office: the SoS list shows Non-Partisan, so party is null. Designations need verification. The San Diego County reference ballot, the primary certified list and the Fresno County proof list (all via search summaries) pair Shaw with School District President and Barrera with State Superintendent Advisor. However, one summary of the general certified list and contact list placed State Superintendent Advisor next to Shaw, a primary filing-notice snippet showed Teacher/Union VP near Barrera, and a Tehama County list reportedly shows No Ballot Designation for Shaw. Summaries also report that the SoS Statement of Vote primary results were Shaw 1,737,735 (22.6%) and Barrera 1,558,298 (20.3%). Neither is the incumbent; the outgoing superintendent is not on the ballot. Gap: the search budget ran out before education and office dates for either candidate could be researched."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

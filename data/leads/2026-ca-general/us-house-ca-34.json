@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-34",
+  "items": [
+    {
+      "person": "person:jimmy-gomez",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via ABC News) https://abcnews.com/Politics/wireStory/democrat-angela-gonzales-torres-advances-general-election-us-133569921 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jimmy-gomez",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via ABC News) https://abcnews.com/Politics/wireStory/democrat-angela-gonzales-torres-advances-general-election-us-133569921 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jimmy-gomez",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via ABC News) https://abcnews.com/Politics/wireStory/democrat-angela-gonzales-torres-advances-general-election-us-133569921 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:angela-gonzales-torres",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via ABC News) https://abcnews.com/Politics/wireStory/democrat-angela-gonzales-torres-advances-general-election-us-133569921 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:angela-gonzales-torres",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via ABC News) https://abcnews.com/Politics/wireStory/democrat-angela-gonzales-torres-advances-general-election-us-133569921 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:angela-gonzales-torres",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via ABC News) https://abcnews.com/Politics/wireStory/democrat-angela-gonzales-torres-advances-general-election-us-133569921 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-1",
+  "candidates": [
+    {
+      "person": "person:james-gallagher",
+      "name": "James Gallagher"
+    },
+    {
+      "person": "person:mike-mcguire",
+      "name": "Mike McGuire"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Two separate CA-1 contests ran in 2026: a special election under the pre-Prop 50 lines (Gallagher won the June 2 special primary outright with about 61.8% per Ballotpedia and the Appeal-Democrat; RCRC reported 62.4%) and this regular election under the new lines, where Gallagher (about 42%) and McGuire (about 41.8%) advanced from the June 2 top-two primary (Greenberg Traurig, NBC). incumbent=true for Gallagher because he currently holds the CA-1 seat, but he won it under the old boundaries. Ballot designations come from a search summary of jumbled PDF text from the certified list; one snippet of the SoS notice paired other names under District 1, which looks like a parsing artifact. Verify against the PDF. Gallagher: the House bio reportedly says six years on the Sutter County board, while the House history office says 2009-2014; Wikipedia gives birth date March 7, 1981; birth year and birthplace are attributed by a search summary to the House bio and House history pages and were not read directly. McGuire: birth in Healdsburg in 1979 appears only in secondary sources (Wikipedia gives July 21, JoinCalifornia July 7), so it is omitted from facts. School board start (1998 vs 2000-2004) and mayoral years (2006 vs 2008-2010) conflict between sources. The Pro Tem end date of Nov 17, 2025 is from Wikipedia only; Ballotpedia says his Senate term ends Dec 7, 2026. A Wikipedia snippet claiming a November result for Gallagher was disregarded as unverified."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

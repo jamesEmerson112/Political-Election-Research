@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-52",
+  "candidates": [
+    {
+      "person": "person:juan-vargas",
+      "name": "Juan Vargas"
+    },
+    {
+      "person": "person:jeff-belle",
+      "name": "Jeff Belle"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Pair rests on AP items for both candidates (the Vargas item was undated) and prediction-market listings (not cited). Not confirmed against the SoS or San Diego County list. Inside Elections lists the name as 'Jeffery Belle'; ballot spelling not confirmed. Democrat Frances Motiwalla announced a primary challenge in March 2026; no evidence she advanced. No ballot designations, education, birth, or other bio data gathered: search budget exhausted."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

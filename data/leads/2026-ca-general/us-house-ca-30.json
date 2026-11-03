@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-30",
+  "items": [
+    {
+      "person": "person:laura-friedman",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Associated Press (via Ottumwa Courier) https://www.ottumwacourier.com/news/national_news/republican-scott-meyers-advances-to-the-general-election-for-u-s-house-in-californias-30th/article_6c8c7be4-0d6e-520b-adf5-c9f15ae89efa.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:laura-friedman",
+      "label": "Party",
+      "text": "Democratic (sources: Associated Press (via Ottumwa Courier) https://www.ottumwacourier.com/news/national_news/republican-scott-meyers-advances-to-the-general-election-for-u-s-house-in-californias-30th/article_6c8c7be4-0d6e-520b-adf5-c9f15ae89efa.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:laura-friedman",
+      "label": "Incumbent",
+      "text": "Yes (sources: Associated Press (via Ottumwa Courier) https://www.ottumwacourier.com/news/national_news/republican-scott-meyers-advances-to-the-general-election-for-u-s-house-in-californias-30th/article_6c8c7be4-0d6e-520b-adf5-c9f15ae89efa.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:laura-friedman",
+      "label": "Offices held",
+      "text": "U.S. Representative for California's 30th Congressional District; Cook Political Report lists her 2024 general-election result as 68.4%. (sources: Cook Political Report https://www.cookpolitical.com/house/race/481966 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:scott-alan-meyers",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Associated Press (via Ottumwa Courier) https://www.ottumwacourier.com/news/national_news/republican-scott-meyers-advances-to-the-general-election-for-u-s-house-in-californias-30th/article_6c8c7be4-0d6e-520b-adf5-c9f15ae89efa.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-alan-meyers",
+      "label": "Party",
+      "text": "Republican (sources: Associated Press (via Ottumwa Courier) https://www.ottumwacourier.com/news/national_news/republican-scott-meyers-advances-to-the-general-election-for-u-s-house-in-californias-30th/article_6c8c7be4-0d6e-520b-adf5-c9f15ae89efa.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:scott-alan-meyers",
+      "label": "Incumbent",
+      "text": "No (sources: Associated Press (via Ottumwa Courier) https://www.ottumwacourier.com/news/national_news/republican-scott-meyers-advances-to-the-general-election-for-u-s-house-in-californias-30th/article_6c8c7be4-0d6e-520b-adf5-c9f15ae89efa.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-alan-meyers",
+      "label": "Occupation",
+      "text": "Attorney based in Burbank; his iVoterGuide profile lists him as president and attorney of his own law office from 2000 to 2026. (sources: iVoterGuide https://ivoterguide.com/candidate/92410 [search summary, secondary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

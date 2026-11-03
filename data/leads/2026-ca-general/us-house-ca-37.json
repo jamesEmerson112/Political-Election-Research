@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-37",
+  "items": [
+    {
+      "person": "person:sydney-kamlager-dove",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-samantha-mota-advances-to-the-general-election-for-u-s-house-in-californias-37th/article_92a19890-7b65-5b14-95ae-9970e562c124.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sydney-kamlager-dove",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-samantha-mota-advances-to-the-general-election-for-u-s-house-in-californias-37th/article_92a19890-7b65-5b14-95ae-9970e562c124.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:sydney-kamlager-dove",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-samantha-mota-advances-to-the-general-election-for-u-s-house-in-californias-37th/article_92a19890-7b65-5b14-95ae-9970e562c124.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sydney-kamlager-dove",
+      "label": "Offices held",
+      "text": "U.S. Representative for California's 37th Congressional District since 2023; current term ends January 3, 2027. (sources: Ballotpedia https://ballotpedia.org/Sydney_Kamlager-Dove [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:samantha-mota",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-samantha-mota-advances-to-the-general-election-for-u-s-house-in-californias-37th/article_92a19890-7b65-5b14-95ae-9970e562c124.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:samantha-mota",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-samantha-mota-advances-to-the-general-election-for-u-s-house-in-californias-37th/article_92a19890-7b65-5b14-95ae-9970e562c124.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:samantha-mota",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State (certified list of candidates, Nov 3, 2026) https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-samantha-mota-advances-to-the-general-election-for-u-s-house-in-californias-37th/article_92a19890-7b65-5b14-95ae-9970e562c124.html [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

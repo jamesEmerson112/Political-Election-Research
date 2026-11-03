@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-42",
+  "items": [
+    {
+      "person": "person:robert-garcia",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-brian-burley-advances-to-the-general-election-for-u-s-house-in-californias-42nd/article_09f9ac0c-e7a8-5a0d-9a52-b8bed7bcba00.html [search summary, secondary]; Associated Press (via KEYT) https://keyt.com/?p=1041863 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:robert-garcia",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-brian-burley-advances-to-the-general-election-for-u-s-house-in-californias-42nd/article_09f9ac0c-e7a8-5a0d-9a52-b8bed7bcba00.html [search summary, secondary]; Associated Press (via KEYT) https://keyt.com/?p=1041863 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:robert-garcia",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-brian-burley-advances-to-the-general-election-for-u-s-house-in-californias-42nd/article_09f9ac0c-e7a8-5a0d-9a52-b8bed7bcba00.html [search summary, secondary]; Associated Press (via KEYT) https://keyt.com/?p=1041863 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:robert-garcia",
+      "label": "Current office",
+      "text": "U.S. Representative for California's 42nd Congressional District; won the 2024 general election with 68.1% against John Briscoe (R). (sources: Ballotpedia https://ballotpedia.org/Robert_Garcia_(California) [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:robert-garcia",
+      "label": "Previous office",
+      "text": "Previously served as Mayor of Long Beach (dates not confirmed in sources seen). (sources: Long Beach Post https://lbpost.com/news/long-beach-mayor-robert-garcia-takes-commanding-lead-in-42nd-congressional-district-race [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:brian-burley",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-brian-burley-advances-to-the-general-election-for-u-s-house-in-californias-42nd/article_09f9ac0c-e7a8-5a0d-9a52-b8bed7bcba00.html [search summary, secondary]; Associated Press (via KEYT) https://keyt.com/?p=1041863 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:brian-burley",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-brian-burley-advances-to-the-general-election-for-u-s-house-in-californias-42nd/article_09f9ac0c-e7a8-5a0d-9a52-b8bed7bcba00.html [search summary, secondary]; Associated Press (via KEYT) https://keyt.com/?p=1041863 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:brian-burley",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Associated Press (via News8000) https://www.news8000.com/news/politics/national-politics/republican-brian-burley-advances-to-the-general-election-for-u-s-house-in-californias-42nd/article_09f9ac0c-e7a8-5a0d-9a52-b8bed7bcba00.html [search summary, secondary]; Associated Press (via KEYT) https://keyt.com/?p=1041863 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:brian-burley",
+      "label": "Current office",
+      "text": "Trustee, Huntington Beach City School District Board (Area 1); BallotReady lists the term as running through December 31, 2028. (sources: Greater Long Beach Republican Women (newsletter, Sept. 2026) https://irp.cdn-website.com/8117f050/files/uploaded/GLBRW-Sept-2026_FINAL.pdf [search summary, secondary]; BallotReady https://www.ballotready.org/people/brian-burley [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:brian-burley",
+      "label": "Earlier candidacies",
+      "text": "Ballotpedia lists earlier congressional candidacies in California's 47th and 48th districts; its entries conflict on whether he appeared on the 2024 primary ballot. (sources: Ballotpedia https://ballotpedia.org/Brian_Burley [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

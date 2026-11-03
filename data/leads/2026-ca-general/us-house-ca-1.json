@@ -1,0 +1,119 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-1",
+  "items": [
+    {
+      "person": "person:james-gallagher",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "Ballot designation",
+      "text": "\"United States Representative/Farmer\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "U.S. Representative",
+      "text": "Sworn in on June 10, 2026 as U.S. Representative for California's 1st District after winning the June 2, 2026 special primary outright, to complete the term of the late Rep. Doug LaMalfa. (sources: Office of Rep. James Gallagher (house.gov) https://gallagher.house.gov/media/press-releases/taking-oath-office [search summary, primary]; Roll Call https://rollcall.com/2026/06/10/james-gallagher-sworn-in-to-finish-lamalfas-term-in-the-house/ [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/james-gallagher-takes-office-ending-the-vacancy-in-californias-1st-congressional-district/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "California State Assembly",
+      "text": "Member of the California State Assembly from 2014 to 2026; served as Assembly Republican Leader (Minority Leader), 2022 to 2025. (sources: Office of Rep. James Gallagher (house.gov) https://gallagher.house.gov/biography [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/James_Gallagher_(California_politician) [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "Sutter County Board of Supervisors",
+      "text": "Member of the Sutter County Board of Supervisors, 2009 to 2014 per the House history office entry. (sources: U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/36507229550 [search summary, primary]; Office of Rep. James Gallagher (house.gov) https://gallagher.house.gov/biography [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "Education",
+      "text": "B.A., University of California, Berkeley, 2003; J.D., University of California, Davis School of Law, 2007. (sources: Office of Rep. James Gallagher (house.gov) https://gallagher.house.gov/biography [search summary, primary]; U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/36507229550 [search summary, primary]; UC Davis School of Law https://facultyblog.law.ucdavis.edu/news/james-gallagher-07-elected-congress [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "Career",
+      "text": "Attorney practicing agricultural law and partner in his family's farming business in Sutter County. (sources: Office of Rep. James Gallagher (house.gov) https://gallagher.house.gov/biography [search summary, primary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "Birth year",
+      "text": "Born in 1981. (sources: Office of Rep. James Gallagher (house.gov) https://gallagher.house.gov/biography [search summary, primary]; U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/36507229550 [search summary, primary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:james-gallagher",
+      "label": "Birthplace",
+      "text": "Born in Yuba City, California. (sources: Office of Rep. James Gallagher (house.gov) https://gallagher.house.gov/biography [search summary, primary]; U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/36507229550 [search summary, primary])",
+      "topic": "profile.birthplace"
+    },
+    {
+      "person": "person:mike-mcguire",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-mcguire",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mike-mcguire",
+      "label": "Ballot designation",
+      "text": "\"California State Senator\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-mcguire",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2026-primary-elections/california-house-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-mcguire",
+      "label": "California State Senate",
+      "text": "Elected to the California State Senate (District 2) in 2014 and re-elected in 2018 and 2022; Senate Majority Leader from 2022; President pro Tempore of the Senate from February 5, 2024 to November 17, 2025. (sources: California State Senate, Senator Mike McGuire https://sd02.senate.ca.gov/node/25 [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Mike_McGuire_(politician) [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:mike-mcguire",
+      "label": "Local offices",
+      "text": "Member of the Healdsburg school board; member of the Healdsburg City Council from 2004, including service as mayor; member of the Sonoma County Board of Supervisors (4th District), elected 2010, serving 2011 to 2014. (sources: JoinCalifornia https://www.joincalifornia.com/candidate/14091 [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Mike_McGuire_(politician) [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:mike-mcguire",
+      "label": "Education",
+      "text": "B.A., political science, Sonoma State University, 2002. (sources: Wikipedia https://en.wikipedia.org/wiki/Mike_McGuire_(politician) [search summary, secondary]; Sonoma State University https://stratcomm.sonoma.edu/node/286 [search summary, secondary])",
+      "topic": "profile.education"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-32",
+  "items": [
+    {
+      "person": "person:brad-sherman",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Prism News https://www.prismnews.com/news/brad-sherman-faces-hollywood-producer-in-california-house [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:brad-sherman",
+      "label": "Party",
+      "text": "Democratic (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Prism News https://www.prismnews.com/news/brad-sherman-faces-hollywood-producer-in-california-house [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:brad-sherman",
+      "label": "Incumbent",
+      "text": "Yes (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Prism News https://www.prismnews.com/news/brad-sherman-faces-hollywood-producer-in-california-house [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:brad-sherman",
+      "label": "Offices held",
+      "text": "U.S. Representative; described as serving his 15th term in Congress. (sources: Prism News https://www.prismnews.com/news/brad-sherman-faces-hollywood-producer-in-california-house [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:larry-thompson",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Prism News https://www.prismnews.com/news/brad-sherman-faces-hollywood-producer-in-california-house [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:larry-thompson",
+      "label": "Party",
+      "text": "Republican (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Prism News https://www.prismnews.com/news/brad-sherman-faces-hollywood-producer-in-california-house [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:larry-thompson",
+      "label": "Incumbent",
+      "text": "No (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Prism News https://www.prismnews.com/news/brad-sherman-faces-hollywood-producer-in-california-house [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:larry-thompson",
+      "label": "Occupation",
+      "text": "Talent manager and film producer. (sources: Prism News https://www.prismnews.com/news/brad-sherman-faces-hollywood-producer-in-california-house [search summary, secondary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

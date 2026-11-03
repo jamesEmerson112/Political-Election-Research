@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/board-of-equalization-4",
+  "items": [
+    {
+      "person": "person:tom-umberg",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Orange County Registrar of Voters https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tom-umberg",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Orange County Registrar of Voters https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:tom-umberg",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Orange County Registrar of Voters https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:tom-umberg",
+      "label": "Current office",
+      "text": "Member, California State Senate. (sources: LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:denis-bilodeau",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Orange County Registrar of Voters https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:denis-bilodeau",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Orange County Registrar of Voters https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:denis-bilodeau",
+      "label": "Ballot designation",
+      "text": "\"Councilmember/Civil Engineer\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Orange County Registrar of Voters https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:denis-bilodeau",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Orange County Registrar of Voters https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/facsimile-reference-ballot/english-reference-ballot.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:denis-bilodeau",
+      "label": "Current office",
+      "text": "Member, Orange City Council; civil engineer (per ballot designation). (sources: LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary]; Orange County Registrar of Voters https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf [search summary, primary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:denis-bilodeau",
+      "label": "Other role",
+      "text": "President of a taxpayers association; his June 2026 primary designation was Taxpayer Association President. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/cert-list-candidates.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4 [search summary, secondary])",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

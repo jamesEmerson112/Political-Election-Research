@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-3",
+  "items": [
+    {
+      "person": "person:ami-bera",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; FOX40 https://fox40.com/news/ami-bera-rob-tucker-3rd-congressional-district/amp [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ami-bera",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; FOX40 https://fox40.com/news/ami-bera-rob-tucker-3rd-congressional-district/amp [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ami-bera",
+      "label": "Ballot designation",
+      "text": "\"United States Congressman\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; FOX40 https://fox40.com/news/ami-bera-rob-tucker-3rd-congressional-district/amp [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ami-bera",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; FOX40 https://fox40.com/news/ami-bera-rob-tucker-3rd-congressional-district/amp [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ami-bera",
+      "label": "U.S. Representative",
+      "text": "U.S. Representative since January 2013: California's 7th District, 2013 to 2023, and California's 6th District, 2023 to present. (sources: U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/15032386873 [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Ami_Bera [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:ami-bera",
+      "label": "Medical career",
+      "text": "Physician; Chief Medical Officer for Sacramento County (1999 to 2004 per the House biography); clinical professor of medicine and associate dean for admissions and outreach, University of California, Davis School of Medicine (2004 to 2008 per a 2004 congressional document profile). (sources: Office of Rep. Ami Bera (house.gov) https://bera.house.gov/about [search summary, primary]; U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/15032386873 [search summary, primary]; U.S. Government Publishing Office https://www.govinfo.gov/content/pkg/GPO-CDOC-108hdoc226/pdf/GPO-CDOC-108hdoc226-3-2.pdf [search summary, primary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:ami-bera",
+      "label": "Education",
+      "text": "B.S., University of California, Irvine, 1987; M.D., University of California, Irvine, 1991. (sources: U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/15032386873 [search summary, primary]; UC Irvine School of Biological Sciences https://www.bio.uci.edu/?p=12288 [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:ami-bera",
+      "label": "Birth year",
+      "text": "Born in 1965. (sources: U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/15032386873 [search summary, primary])",
+      "topic": "profile.birth_date"
+    },
+    {
+      "person": "person:ami-bera",
+      "label": "Birthplace",
+      "text": "Born in Los Angeles, Los Angeles County, California. (sources: U.S. House of Representatives, History, Art & Archives https://history.house.gov/People/Detail/15032386873 [search summary, primary])",
+      "topic": "profile.birthplace"
+    },
+    {
+      "person": "person:robb-tucker",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; FOX40 https://fox40.com/news/ami-bera-rob-tucker-3rd-congressional-district/amp [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:robb-tucker",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; FOX40 https://fox40.com/news/ami-bera-rob-tucker-3rd-congressional-district/amp [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:robb-tucker",
+      "label": "Ballot designation",
+      "text": "\"County Supervisor/Businessman\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; FOX40 https://fox40.com/news/ami-bera-rob-tucker-3rd-congressional-district/amp [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:robb-tucker",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; FOX40 https://fox40.com/news/ami-bera-rob-tucker-3rd-congressional-district/amp [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:robb-tucker",
+      "label": "Nevada County Supervisor",
+      "text": "Nevada County Supervisor, District 2; elected in the 2024 primary and sworn in on January 6, 2025, succeeding Ed Scofield. (sources: The Union (Grass Valley) https://www.theunion.com/news/ready-to-serve-three-county-supervisors-sworn-in-to-office/article_b60c9632-cc8e-11ef-9851-d7d91cc8b4b3.html [search summary, secondary]; The Union (Grass Valley) https://www.theunion.com/news/getting-to-know-district-2-supervisor-robb-tucker/article_064d262e-ccd6-11ef-b538-6f4c6dbfc681.html [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:robb-tucker",
+      "label": "Career",
+      "text": "Operated his family's real estate business in Nevada County. (sources: The Union (Grass Valley) https://www.theunion.com/news/nevada-county-supervisor-robb-tucker-launches-campaign-for-congressional-district-3/article_db8de601-812e-46ac-bfe4-9db6a61bd748.html [search summary, secondary])",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

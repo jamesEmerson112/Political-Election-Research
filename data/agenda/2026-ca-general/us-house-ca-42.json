@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-42",
+  "candidates": [
+    {
+      "person": "person:robert-garcia",
+      "name": "Robert Garcia"
+    },
+    {
+      "person": "person:brian-burley",
+      "name": "Brian Burley"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Pair confirmed by AP advance reports for both candidates and by a search-summary excerpt of the SoS 2026 certified list. That excerpt paraphrased Garcia as a sitting congressman and Burley as a school board trustee, but the extracted text ran together and the exact ballot designations could not be read; ballot_designation left null. Burley's prior-run history is inconsistent within Ballotpedia. Sources place Burley in Huntington Beach, not Long Beach. No education or birth data gathered: search budget exhausted."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

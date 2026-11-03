@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-34",
+  "candidates": [
+    {
+      "person": "person:jimmy-gomez",
+      "name": "Jimmy Gomez"
+    },
+    {
+      "person": "person:angela-gonzales-torres",
+      "name": "Angela Gonzales-Torres"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Two Democrats. The SoS certified list (search summary), the AP item (dated June 3, 2026), and the LA Almanac agree on Gomez vs Gonzales-Torres. The ABC7 table shows Gomez 46% (54,993) and Gonzales-Torres 31% (36,708). In early counts, Republican Calvin Lee was third. CONFLICT: Ballotpedia's general listing names Arthur Dixon instead; this is likely a pre-primary combined list. A Center Square copy mislabeled this race District 32. BALLOT DESIGNATION LEADS (unverified, from a garbled PDF text extraction in a search summary): Gomez's entry appeared to read U.S. Representative/Parent, and the lines Advocate For Justice and Community Advocate appeared near Gonzales-Torres. Both designations are left null until someone reads the PDF. One article described Gonzales-Torres as an activist; the exact source URL was not pinned down. Offices, education, and birth details were not researched because the web-search budget ran out. Incumbent means the current member for district number 34; Prop 50 redrew the boundaries."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

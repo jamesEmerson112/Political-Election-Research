@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-12",
+  "items": [
+    {
+      "person": "person:lateefah-simon",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lateefah-simon",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:lateefah-simon",
+      "label": "Ballot designation",
+      "text": "\"U.S. Representative\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lateefah-simon",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lateefah-simon",
+      "label": "Offices held",
+      "text": "U.S. Representative for California's 12th District, elected in 2024; previously a member of the BART Board of Directors. (sources: KTVU https://ktvu.com/news/democrat-lateefah-simon-wins-election-u-s-house-californias-12th-congressional-district [search summary, secondary]; KTVU https://www.ktvu.com/news/bart-board-director-lateefah-simon-announces-bid-for-congress [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:lateefah-simon",
+      "label": "Party registration",
+      "text": "Listed as Democratic, Alameda County, in the Secretary of State party preference history. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/pph.pdf [search summary, primary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jamie-joyce",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jamie-joyce",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jamie-joyce",
+      "label": "Ballot designation",
+      "text": "\"Nonprofit Executive Director\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jamie-joyce",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jamie-joyce",
+      "label": "Occupation",
+      "text": "Ballot designation: Nonprofit Executive Director (same designation as in the June 2026 primary). (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-primary/cert-list-candidates.pdf [search summary, primary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

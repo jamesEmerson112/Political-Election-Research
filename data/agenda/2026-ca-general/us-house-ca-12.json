@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-12",
+  "candidates": [
+    {
+      "person": "person:lateefah-simon",
+      "name": "Lateefah Simon"
+    },
+    {
+      "person": "person:jamie-joyce",
+      "name": "Jamie Joyce"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Two Democrats, and the only two candidates in the primary. Statement of Vote: Simon 153,190 (84.4%), Joyce 28,372 (15.6%). In the cert-list snippet Simon's party label did not come through; the SoS party preference history shows Democratic. A Lines.com page mentioned a Heath Fulkerson, which conflicts with the two-candidate primary; disregarded. Lead, unverified: a search summary described Joyce as founder of the nonprofit Society Library, without a clear source; it is not included in facts. GAP: the shared web search budget ran out before biographical research (education, prior roles) on either candidate."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

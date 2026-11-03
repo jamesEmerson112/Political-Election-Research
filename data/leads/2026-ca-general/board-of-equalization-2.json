@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/board-of-equalization-2",
+  "items": [
+    {
+      "person": "person:sally-j-lieber",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/board-of-equalization/ [search summary, secondary]; Redwood City Pulse https://www.rwcpulse.com/election/2026/05/14/should-the-states-tax-commission-even-exist/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sally-j-lieber",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/board-of-equalization/ [search summary, secondary]; Redwood City Pulse https://www.rwcpulse.com/election/2026/05/14/should-the-states-tax-commission-even-exist/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:sally-j-lieber",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/board-of-equalization/ [search summary, secondary]; Redwood City Pulse https://www.rwcpulse.com/election/2026/05/14/should-the-states-tax-commission-even-exist/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sally-j-lieber",
+      "label": "Current office",
+      "text": "Member, California State Board of Equalization, District 2 (marked as incumbent on the SoS general election contact list). (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Redwood City Pulse https://www.rwcpulse.com/election/2026/05/14/should-the-states-tax-commission-even-exist/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:john-pimentel",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/board-of-equalization/ [search summary, secondary]; Redwood City Pulse https://www.rwcpulse.com/election/2026/05/14/should-the-states-tax-commission-even-exist/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:john-pimentel",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/board-of-equalization/ [search summary, secondary]; Redwood City Pulse https://www.rwcpulse.com/election/2026/05/14/should-the-states-tax-commission-even-exist/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:john-pimentel",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; GrowSF https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/board-of-equalization/ [search summary, secondary]; Redwood City Pulse https://www.rwcpulse.com/election/2026/05/14/should-the-states-tax-commission-even-exist/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:john-pimentel",
+      "label": "Current office",
+      "text": "Member, Board of Trustees, San Mateo County Community College District. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; Redwood City Pulse https://www.rwcpulse.com/election/2026/05/14/should-the-states-tax-commission-even-exist/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

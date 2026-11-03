@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/controller",
+  "items": [
+    {
+      "person": "person:malia-m-cohen",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/controller/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:malia-m-cohen",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/controller/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:malia-m-cohen",
+      "label": "Ballot designation",
+      "text": "\"State Controller/Mother\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/controller/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:malia-m-cohen",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/controller/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:malia-m-cohen",
+      "label": "Current office",
+      "text": "California State Controller; elected November 2022 and sworn in January 2, 2023. Also chairs the Franchise Tax Board. (sources: California State Controller's Office https://www.sco.ca.gov/eo_about_bio.html [search summary, primary]; California Franchise Tax Board https://www.ftb.ca.gov/about-ftb/bios/Controller.html [search summary, primary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:malia-m-cohen",
+      "label": "Previous offices",
+      "text": "Member, San Francisco Board of Supervisors, including as board president and chair of its Budget and Finance Committee (years not stated in official bio seen); Member, California State Board of Equalization (District 2), elected November 2018, chair in 2019 and 2022, serving until 2022. (sources: California State Controller's Office https://www.sco.ca.gov/eo_about_bio.html [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Malia_Cohen [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:malia-m-cohen",
+      "label": "Education",
+      "text": "Bachelor's degree in political science, Fisk University; Master of Science in Public Policy and Management, Carnegie Mellon University Heinz College (2008). (sources: CalSTRS https://www.calstrs.com/malia-m-cohen [search summary, primary]; Carnegie Mellon University https://www.cmu.edu/engage/news-stories/alumni-hall-of-honor/bio-maliacohen [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/controller/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/controller/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "label": "Ballot designation",
+      "text": "\"Chief Investment Officer\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/controller/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/controller/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "label": "Investment career",
+      "text": "Founded Efficient Market Advisors, a San Diego investment firm, in 2004 and served as its CEO and chief investment officer; the firm was later acquired by Cantor Fitzgerald Investment Advisors, where he is listed as a senior managing director from 2017. (sources: iVoterGuide https://ivoterguide.com/candidate/91093/race/30575/election/1454 [search summary, secondary]; SCA Club https://financial.scaclub.org/node/99 [search summary, secondary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-state-controller [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "label": "Earlier career",
+      "text": "Earlier held senior vice president roles at Linsco/Private Ledger, Dreyfus and ING Funds (formerly Pilgrim Funds), and worked at J. & W. Seligman & Co. from 1990 to 1996. One profile states he served as president of the board of the San Diego City Employees' Retirement System. (sources: SCA Club https://financial.scaclub.org/node/99 [search summary, secondary]; Podbay (WTFinance podcast bio) https://podbay.fm/p/wtfinance/e/1627570800 [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:herb-w-morgan",
+      "label": "Education",
+      "text": "B.A. in economics with honors, University of California, Santa Cruz (1988). (sources: iVoterGuide https://ivoterguide.com/candidate/91093/race/30575/election/1454 [search summary, secondary]; Podbay (WTFinance podcast bio) https://podbay.fm/p/wtfinance/e/1627570800 [search summary, secondary])",
+      "topic": "profile.education"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

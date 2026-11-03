@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-51",
+  "items": [
+    {
+      "person": "person:sara-jacobs",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/482071 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sara-jacobs",
+      "label": "Party",
+      "text": "Democratic (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/482071 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:sara-jacobs",
+      "label": "Incumbent",
+      "text": "Yes (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/482071 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:sara-jacobs",
+      "label": "Current office",
+      "text": "U.S. Representative for California's 51st Congressional District; AP called her 2024 re-election in the 51st. (sources: Associated Press (via KTAL) https://digital-release.ktalnews.com/news/politics/ap-ap-race-call-democrat-sara-jacobs-wins-reelection-to-u-s-house-in-californias-51st-congressional-district [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482071 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:ricardo-cabrera",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/482071 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ricardo-cabrera",
+      "label": "Party",
+      "text": "Republican (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/482071 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ricardo-cabrera",
+      "label": "Ballot designation",
+      "text": "\"Business Owner\" (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/482071 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ricardo-cabrera",
+      "label": "Incumbent",
+      "text": "No (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Cook Political Report https://www.cookpolitical.com/house/race/482071 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ricardo-cabrera",
+      "label": "Occupation",
+      "text": "Business owner, per his ballot designation on the San Diego County Registrar of Voters candidate list. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:ricardo-cabrera",
+      "label": "FEC registration",
+      "text": "Registered with the Federal Election Commission as a House candidate (candidate ID H6CA51140); no 2025-2026 financial summary was shown. (sources: Federal Election Commission https://www.fec.gov/data/candidate/H6CA51140/ [search summary, primary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

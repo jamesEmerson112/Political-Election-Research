@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-50",
+  "items": [
+    {
+      "person": "person:scott-peters",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-scott-peters-advances-to-the-general-election-for-u-s-house-in-californias-50th/article_b5c9b865-83e5-5946-a9fe-f698193ac1cc.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-peters",
+      "label": "Party",
+      "text": "Democratic (sources: KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-scott-peters-advances-to-the-general-election-for-u-s-house-in-californias-50th/article_b5c9b865-83e5-5946-a9fe-f698193ac1cc.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:scott-peters",
+      "label": "Incumbent",
+      "text": "Yes (sources: KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-scott-peters-advances-to-the-general-election-for-u-s-house-in-californias-50th/article_b5c9b865-83e5-5946-a9fe-f698193ac1cc.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:scott-peters",
+      "label": "Current office",
+      "text": "U.S. Representative (Democratic incumbent); announced on February 24, 2026 that he would seek re-election in the redrawn 50th District. (sources: Scott Peters for Congress (campaign site) https://scottpeters.com/in-the-news/congressman-scott-peters-announces-run-for-re-election-in-californias-new-50th-congressional-district/ [search summary, primary]; KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:steve-cohen",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-scott-peters-advances-to-the-general-election-for-u-s-house-in-californias-50th/article_b5c9b865-83e5-5946-a9fe-f698193ac1cc.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:steve-cohen",
+      "label": "Party",
+      "text": "Republican (sources: KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-scott-peters-advances-to-the-general-election-for-u-s-house-in-californias-50th/article_b5c9b865-83e5-5946-a9fe-f698193ac1cc.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:steve-cohen",
+      "label": "Ballot designation",
+      "text": "\"Television News Consultant\" (sources: KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-scott-peters-advances-to-the-general-election-for-u-s-house-in-californias-50th/article_b5c9b865-83e5-5946-a9fe-f698193ac1cc.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:steve-cohen",
+      "label": "Incumbent",
+      "text": "No (sources: KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-scott-peters-advances-to-the-general-election-for-u-s-house-in-californias-50th/article_b5c9b865-83e5-5946-a9fe-f698193ac1cc.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:steve-cohen",
+      "label": "Career",
+      "text": "Former news director of KUSI (San Diego) for more than two decades. (sources: FOX 5 San Diego / KUSI https://digital-release.fox5sandiego.com/?p=2687078 [search summary, secondary]; KPBS https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50 [search summary, secondary])",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

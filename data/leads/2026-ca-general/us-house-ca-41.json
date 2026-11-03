@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-41",
+  "items": [
+    {
+      "person": "person:linda-sanchez",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482021 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:linda-sanchez",
+      "label": "Party",
+      "text": "Democratic (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482021 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:linda-sanchez",
+      "label": "Incumbent",
+      "text": "No (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482021 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:linda-sanchez",
+      "label": "Current office",
+      "text": "Sitting Democratic member of the U.S. House of Representatives, labeled an incumbent by Ballotpedia in its report on the June 2, 2026 primary for the redrawn 41st District. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:mitch-clemmons",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482021 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mitch-clemmons",
+      "label": "Party",
+      "text": "Republican (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482021 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mitch-clemmons",
+      "label": "Incumbent",
+      "text": "No (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482021 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mitch-clemmons",
+      "label": "2026 primary result",
+      "text": "Advanced from the June 2, 2026 top-two primary for the 41st District as the Republican candidate. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482021 [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

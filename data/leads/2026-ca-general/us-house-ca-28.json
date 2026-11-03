@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-28",
+  "items": [
+    {
+      "person": "person:judy-chu",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Judy_Chu [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:judy-chu",
+      "label": "Party",
+      "text": "Democratic (sources: ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Judy_Chu [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:judy-chu",
+      "label": "Incumbent",
+      "text": "Yes (sources: ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Judy_Chu [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:judy-chu",
+      "label": "Offices held",
+      "text": "U.S. Representative for California's 28th Congressional District; BallotReady lists her current term as ending January 3, 2027. (sources: BallotReady https://www.ballotready.org/people/judy-chu [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:judy-chu",
+      "label": "2024 result",
+      "text": "Won the 2024 general election for CA-28 against April Verlato with 64.9% of the vote. (sources: Ballotpedia https://ballotpedia.org/Judy_Chu [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2024-elections/california-us-house-district-28-results [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:april-a-verlato",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Judy_Chu [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:april-a-verlato",
+      "label": "Party",
+      "text": "Republican (sources: ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Judy_Chu [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:april-a-verlato",
+      "label": "Incumbent",
+      "text": "No (sources: ABC7 Los Angeles https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Judy_Chu [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:april-a-verlato",
+      "label": "Prior candidacy",
+      "text": "Republican nominee for CA-28 in 2024; lost the general election to Judy Chu. (sources: Ballotpedia https://ballotpedia.org/April_Verlato [search summary, secondary]; NBC News https://www.nbcnews.com/politics/2024-elections/california-us-house-district-28-results [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

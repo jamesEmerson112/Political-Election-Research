@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-40",
+  "items": [
+    {
+      "person": "person:ken-calvert",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/12/two-republican-incumbents-drawn-into-the-same-congressional-district-to-face-off-in-general-election-for-californias-40th/ [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/13/two-republican-incumbents-ken-calvert-and-young-kim-to-face-off-in-general-election-for-californias-40th-congressional-district/ [search summary, secondary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; Associated Press (via Weatherford Democrat) https://www.weatherforddemocrat.com/texas/news/republican-ken-calvert-advances-to-the-general-election-for-u-s-house-in-californias-40th/article_41fb5cf8-adeb-595d-8b4e-6c3845040bb4.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ken-calvert",
+      "label": "Party",
+      "text": "Republican (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/12/two-republican-incumbents-drawn-into-the-same-congressional-district-to-face-off-in-general-election-for-californias-40th/ [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/13/two-republican-incumbents-ken-calvert-and-young-kim-to-face-off-in-general-election-for-californias-40th-congressional-district/ [search summary, secondary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; Associated Press (via Weatherford Democrat) https://www.weatherforddemocrat.com/texas/news/republican-ken-calvert-advances-to-the-general-election-for-u-s-house-in-californias-40th/article_41fb5cf8-adeb-595d-8b4e-6c3845040bb4.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ken-calvert",
+      "label": "Incumbent",
+      "text": "No (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/12/two-republican-incumbents-drawn-into-the-same-congressional-district-to-face-off-in-general-election-for-californias-40th/ [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/13/two-republican-incumbents-ken-calvert-and-young-kim-to-face-off-in-general-election-for-californias-40th-congressional-district/ [search summary, secondary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; Associated Press (via Weatherford Democrat) https://www.weatherforddemocrat.com/texas/news/republican-ken-calvert-advances-to-the-general-election-for-u-s-house-in-californias-40th/article_41fb5cf8-adeb-595d-8b4e-6c3845040bb4.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ken-calvert",
+      "label": "Current office",
+      "text": "Member of the U.S. House of Representatives for California's 41st Congressional District under the pre-2026 map; won the 2024 general election there 51.7% to 48.3%, then ran in the redrawn 40th District in 2026. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/03/incumbent-linda-sanchez-d-and-mitch-clemmons-r-advanced-from-the-top-two-primary-in-californias-41st-congressional-district-on-june-2-2026/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:ken-calvert",
+      "label": "2026 primary result",
+      "text": "Placed first in the June 2, 2026 top-two primary for the 40th District with about 35% of the vote. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/12/two-republican-incumbents-drawn-into-the-same-congressional-district-to-face-off-in-general-election-for-californias-40th/ [search summary, secondary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:young-kim",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/12/two-republican-incumbents-drawn-into-the-same-congressional-district-to-face-off-in-general-election-for-californias-40th/ [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/13/two-republican-incumbents-ken-calvert-and-young-kim-to-face-off-in-general-election-for-californias-40th-congressional-district/ [search summary, secondary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; Associated Press (via Weatherford Democrat) https://www.weatherforddemocrat.com/texas/news/republican-ken-calvert-advances-to-the-general-election-for-u-s-house-in-californias-40th/article_41fb5cf8-adeb-595d-8b4e-6c3845040bb4.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:young-kim",
+      "label": "Party",
+      "text": "Republican (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/12/two-republican-incumbents-drawn-into-the-same-congressional-district-to-face-off-in-general-election-for-californias-40th/ [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/13/two-republican-incumbents-ken-calvert-and-young-kim-to-face-off-in-general-election-for-californias-40th-congressional-district/ [search summary, secondary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary]; Associated Press (via Weatherford Democrat) https://www.weatherforddemocrat.com/texas/news/republican-ken-calvert-advances-to-the-general-election-for-u-s-house-in-californias-40th/article_41fb5cf8-adeb-595d-8b4e-6c3845040bb4.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:young-kim",
+      "label": "Current office",
+      "text": "Sitting Republican member of the U.S. House of Representatives, described as one of two incumbents running in the redrawn 40th District. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/12/two-republican-incumbents-drawn-into-the-same-congressional-district-to-face-off-in-general-election-for-californias-40th/ [search summary, secondary]; Greenberg Traurig https://www.gtlaw.com/en/insights/2026/6/california-2026-primary-election-results-key-takeaways-for-congressional-statewide-and-local-races [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:young-kim",
+      "label": "2026 primary result",
+      "text": "Placed second in the June 2, 2026 top-two primary for the 40th District with about 21% of the vote. (sources: Ballotpedia News https://news.ballotpedia.org/2026/06/12/two-republican-incumbents-drawn-into-the-same-congressional-district-to-face-off-in-general-election-for-californias-40th/ [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

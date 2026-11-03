@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-37",
+  "candidates": [
+    {
+      "person": "person:sydney-kamlager-dove",
+      "name": "Sydney Kamlager-Dove"
+    },
+    {
+      "person": "person:samantha-mota",
+      "name": "Samantha Mota"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Two Democrats. A search summary of the SoS certified list says both appear under District 37, and an AP item says Mota advanced. ABC7 shows Mota at about 12%. CONFLICT: an early-count Center Square report had Republican Baltazar Fedalizo second at about 14%; later counts and the certified list appear to favor Mota. The office fact for Kamlager-Dove came from a combined search summary, so its attribution to Ballotpedia is likely but not certain. Her earlier state legislative offices and education were not researched, and no background was found for Mota, because the web-search budget ran out. Incumbent means the current member for district number 37; Prop 50 redrew the boundaries."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

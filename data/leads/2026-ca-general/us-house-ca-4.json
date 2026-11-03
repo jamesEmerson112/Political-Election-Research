@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-4",
+  "items": [
+    {
+      "person": "person:mike-thompson",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/incumbent-mike-thompson-d-and-eric-jones-d-advanced-from-the-top-two-primary-for-californias-4th-congressional-district-on-june-2-2026/ [search summary, secondary]; KQED https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-thompson",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/incumbent-mike-thompson-d-and-eric-jones-d-advanced-from-the-top-two-primary-for-californias-4th-congressional-district-on-june-2-2026/ [search summary, secondary]; KQED https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mike-thompson",
+      "label": "Ballot designation",
+      "text": "\"Member of Congress\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/incumbent-mike-thompson-d-and-eric-jones-d-advanced-from-the-top-two-primary-for-californias-4th-congressional-district-on-june-2-2026/ [search summary, secondary]; KQED https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-thompson",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/incumbent-mike-thompson-d-and-eric-jones-d-advanced-from-the-top-two-primary-for-californias-4th-congressional-district-on-june-2-2026/ [search summary, secondary]; KQED https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-thompson",
+      "label": "Offices held",
+      "text": "U.S. Representative since 1999 (first elected 1998); member of the California State Senate, 1990 to 1998. (sources: Office of Rep. Mike Thompson (house.gov) https://mikethompson.house.gov/about/biography [search summary, primary]; U.S. Government Publishing Office, Congressional Directory https://www.govinfo.gov/content/pkg/CDIR-2005-07-11/html/CDIR-2005-07-11-CA.htm [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Mike_Thompson [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:mike-thompson",
+      "label": "Military service",
+      "text": "Served in the U.S. Army with the 173rd Airborne Brigade in Vietnam. (sources: U.S. Government Publishing Office, Congressional Directory https://www.govinfo.gov/content/pkg/CDIR-2005-07-11/html/CDIR-2005-07-11-CA.htm [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Mike_Thompson [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:mike-thompson",
+      "label": "Education",
+      "text": "B.A., California State University, Chico, 1982; master's degree (listed as M.A., described elsewhere as public administration), California State University, Chico, 1996. (sources: U.S. Government Publishing Office, Congressional Directory https://www.govinfo.gov/content/pkg/CDIR-2005-07-11/html/CDIR-2005-07-11-CA.htm [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/Mike_Thompson [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:eric-jones",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/incumbent-mike-thompson-d-and-eric-jones-d-advanced-from-the-top-two-primary-for-californias-4th-congressional-district-on-june-2-2026/ [search summary, secondary]; KQED https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eric-jones",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/incumbent-mike-thompson-d-and-eric-jones-d-advanced-from-the-top-two-primary-for-californias-4th-congressional-district-on-june-2-2026/ [search summary, secondary]; KQED https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:eric-jones",
+      "label": "Ballot designation",
+      "text": "\"Businessman/Nonprofit Executive\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/incumbent-mike-thompson-d-and-eric-jones-d-advanced-from-the-top-two-primary-for-californias-4th-congressional-district-on-june-2-2026/ [search summary, secondary]; KQED https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eric-jones",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/06/15/incumbent-mike-thompson-d-and-eric-jones-d-advanced-from-the-top-two-primary-for-californias-4th-congressional-district-on-june-2-2026/ [search summary, secondary]; KQED https://www.kqed.org/news/12087322/democrat-eric-jones-set-up-for-runoff-battle-against-longtime-napa-valley-congressman [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eric-jones",
+      "label": "Occupation",
+      "text": "Businessman and nonprofit executive, per his June 2026 candidate statement filed with Napa County. (sources: Napa County Registrar of Voters https://www.napacounty.gov/DocumentCenter/View/41243/June-2-2026---Congress-District-4---Candidate-Statement---Eric-JonesPDF [search summary, primary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:eric-jones",
+      "label": "Career",
+      "text": "Former partner at Dragoneer Investment Group; founder of the American Dream Institute; co-founder with his wife of the Rachel and Eric Jones Foundation. (sources: CalMatters https://calmatters.org/politics/2026/09/california-congressional-race-thompson-jones/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Eric_Jones_(political_candidate) [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:eric-jones",
+      "label": "Education",
+      "text": "Graduated from Yale University. (sources: Wikipedia https://en.wikipedia.org/wiki/Eric_Jones_(political_candidate) [search summary, secondary])",
+      "topic": "profile.education"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

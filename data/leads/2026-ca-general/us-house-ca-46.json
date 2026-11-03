@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-46",
+  "items": [
+    {
+      "person": "person:lou-correa",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: ABC7 Los Angeles (results page) https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Associated Press (via WTOP listing) https://dev.wtop.com/elections/page/8/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lou-correa",
+      "label": "Party",
+      "text": "Democratic (sources: ABC7 Los Angeles (results page) https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Associated Press (via WTOP listing) https://dev.wtop.com/elections/page/8/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:lou-correa",
+      "label": "Incumbent",
+      "text": "Yes (sources: ABC7 Los Angeles (results page) https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Associated Press (via WTOP listing) https://dev.wtop.com/elections/page/8/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:lou-correa",
+      "label": "Current office",
+      "text": "U.S. Representative for California's 46th Congressional District; AP called his 2024 re-election in the 46th. (sources: Associated Press (via KOB) https://kob.com/?p=715325 [search summary, secondary]; Ballotpedia https://ballotpedia.org/Lou_Correa [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:lou-correa",
+      "label": "2026 primary result",
+      "text": "About 52% (61,587 votes) in the June 2, 2026 primary per an ABC7 results page stamped June 26, 2026. (sources: ABC7 Los Angeles (results page) https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:david-pan",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: ABC7 Los Angeles (results page) https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Associated Press (via WTOP listing) https://dev.wtop.com/elections/page/8/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:david-pan",
+      "label": "Party",
+      "text": "Republican (sources: ABC7 Los Angeles (results page) https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Associated Press (via WTOP listing) https://dev.wtop.com/elections/page/8/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:david-pan",
+      "label": "Incumbent",
+      "text": "No (sources: ABC7 Los Angeles (results page) https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary]; Associated Press (via WTOP listing) https://dev.wtop.com/elections/page/8/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:david-pan",
+      "label": "Earlier candidacy",
+      "text": "Republican nominee against Lou Correa in the 2024 general election for the 46th District. (sources: Daily Titan https://dailytitan.com/news/election-democratic-rep-lou-correa-defeats-republican-challenger-david-pan-in-ca-46-election/article_b28e3284-9bf8-11ef-8fb1-834c41d1d373.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:david-pan",
+      "label": "2026 primary result",
+      "text": "About 33% (38,993 votes) in the June 2, 2026 primary per an ABC7 results page stamped June 26, 2026. (sources: ABC7 Los Angeles (results page) https://abc7.com/politics/elections/local/?linkId=644016369 [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

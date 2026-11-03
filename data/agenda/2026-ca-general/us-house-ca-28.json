@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-28",
+  "candidates": [
+    {
+      "person": "person:judy-chu",
+      "name": "Judy Chu"
+    },
+    {
+      "person": "person:april-a-verlato",
+      "name": "April A. Verlato"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: The ABC7 primary results table (updated July 14, 2026) shows Chu 62% (116,321) and Verlato 32% (60,020). The AP item found saying Verlato advanced is from March 2024, not 2026. Ballotpedia's general-election listing also names Robert Gonzalez (D); this is likely a pre-primary combined list and conflicts with ABC7. Name form: one search summary said a California Secretary of State candidate list shows April A. Verlato, but the exact SoS URL was not identified, so the middle initial is unverified. No 2026 occupation, education, or office history was found for Verlato. Biographical research is incomplete because the web-search budget ran out."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

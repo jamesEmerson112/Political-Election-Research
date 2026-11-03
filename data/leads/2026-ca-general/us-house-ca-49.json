@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-49",
+  "items": [
+    {
+      "person": "person:mike-levin",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482061 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-levin",
+      "label": "Party",
+      "text": "Democratic (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482061 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mike-levin",
+      "label": "Ballot designation",
+      "text": "\"U.S. Representative, 49th District\" (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482061 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-levin",
+      "label": "Incumbent",
+      "text": "Yes (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482061 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mike-levin",
+      "label": "Current office",
+      "text": "U.S. Representative for California's 49th Congressional District; faced Matt Gunderson (R) in the 2024 general election. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; NBC San Diego https://www.nbcsandiego.com/elections/california-49th-congressional-district-levin-gunderson/3669834/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:armen-kurdian",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482061 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:armen-kurdian",
+      "label": "Party",
+      "text": "Republican (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482061 [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:armen-kurdian",
+      "label": "Ballot designation",
+      "text": "\"Retired Navy Captain\" (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482061 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:armen-kurdian",
+      "label": "Incumbent",
+      "text": "No (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482061 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:armen-kurdian",
+      "label": "Career",
+      "text": "Listed with the ballot designation Retired Navy Captain on the San Diego County Registrar of Voters candidate list. (sources: San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-general-election/candidate-list.pdf [search summary, primary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:armen-kurdian",
+      "label": "2026 primary result",
+      "text": "AP reported he advanced from the June 2, 2026 primary as the Republican candidate. (sources: Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/republican-armen-kurdian-advances-to-the-general-election-for-u-s-house-in-californias-49th/article_7f800e61-eaeb-504a-9ec3-067518fa74ae.html [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

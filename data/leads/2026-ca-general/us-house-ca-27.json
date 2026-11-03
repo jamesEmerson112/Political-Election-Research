@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-27",
+  "items": [
+    {
+      "person": "person:george-whitesides",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/George_T._Whitesides [search summary, secondary]; The Signal (Santa Clarita) https://signalscv.com/2026/06/a-local-look-at-californias-early-primary-results/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:george-whitesides",
+      "label": "Party",
+      "text": "Democratic (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/George_T._Whitesides [search summary, secondary]; The Signal (Santa Clarita) https://signalscv.com/2026/06/a-local-look-at-californias-early-primary-results/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:george-whitesides",
+      "label": "Incumbent",
+      "text": "Yes (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/George_T._Whitesides [search summary, secondary]; The Signal (Santa Clarita) https://signalscv.com/2026/06/a-local-look-at-californias-early-primary-results/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:george-whitesides",
+      "label": "Offices held",
+      "text": "U.S. Representative for California's 27th Congressional District since January 2025; his House website has a post on taking the oath of office dated January 3, 2025, and Wikipedia describes the 2026 race as a bid for a second term. (sources: Office of Rep. George Whitesides (house.gov) https://whitesides.house.gov/2025/01/03/taking-oath-office/ [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/George_T._Whitesides [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jason-gibbs",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/George_T._Whitesides [search summary, secondary]; The Signal (Santa Clarita) https://signalscv.com/2026/06/a-local-look-at-californias-early-primary-results/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jason-gibbs",
+      "label": "Party",
+      "text": "Republican (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/George_T._Whitesides [search summary, secondary]; The Signal (Santa Clarita) https://signalscv.com/2026/06/a-local-look-at-californias-early-primary-results/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jason-gibbs",
+      "label": "Incumbent",
+      "text": "No (sources: Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/George_T._Whitesides [search summary, secondary]; The Signal (Santa Clarita) https://signalscv.com/2026/06/a-local-look-at-californias-early-primary-results/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jason-gibbs",
+      "label": "Offices held",
+      "text": "Member of the Santa Clarita City Council and a former Mayor of Santa Clarita (years not stated in the source seen). (sources: The Signal (Santa Clarita) https://signalscv.com/2025/07/gibbs-launches-campaign-for-congress [search summary, secondary])",
+      "topic": "profile.offices_held"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

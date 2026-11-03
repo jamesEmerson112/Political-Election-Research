@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-36",
+  "items": [
+    {
+      "person": "person:ted-lieu",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Daily Bruin https://dailybruin.com/2026/06/08/ted-lieu-houston-brignano-win-36th-district-representative-primary/ [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ted-lieu",
+      "label": "Party",
+      "text": "Democratic (sources: Daily Bruin https://dailybruin.com/2026/06/08/ted-lieu-houston-brignano-win-36th-district-representative-primary/ [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:ted-lieu",
+      "label": "Incumbent",
+      "text": "Yes (sources: Daily Bruin https://dailybruin.com/2026/06/08/ted-lieu-houston-brignano-win-36th-district-representative-primary/ [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:ted-lieu",
+      "label": "2024 result",
+      "text": "Won reelection to California's 36th Congressional District in 2024 (AP race call). (sources: Associated Press (via North Shore News) https://www.nsnews.com/politics/ap-race-call-democrat-ted-lieu-wins-reelection-to-us-house-in-californias-36th-congressional-district-9765847 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:houston-brignano",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Daily Bruin https://dailybruin.com/2026/06/08/ted-lieu-houston-brignano-win-36th-district-representative-primary/ [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:houston-brignano",
+      "label": "Party",
+      "text": "Republican (sources: Daily Bruin https://dailybruin.com/2026/06/08/ted-lieu-houston-brignano-win-36th-district-representative-primary/ [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:houston-brignano",
+      "label": "Incumbent",
+      "text": "No (sources: Daily Bruin https://dailybruin.com/2026/06/08/ted-lieu-houston-brignano-win-36th-district-representative-primary/ [search summary, secondary]; Santa Monica Daily Press https://www.smdp.com/election-results-2026-primary/ [search summary, secondary]; Los Angeles Almanac https://www.laalmanac.com/government/gu03.php [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

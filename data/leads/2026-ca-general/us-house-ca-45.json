@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-45",
+  "items": [
+    {
+      "person": "person:derek-tran",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-chuong-vo-advances-to-the-general-election-for-u-s-house-in-californias-45th/article_51d18979-b1a9-5434-a56e-536f13136974.html [search summary, secondary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/derek-tran-chuong-vo-congressional-district-45/3958653/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:derek-tran",
+      "label": "Party",
+      "text": "Democratic (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-chuong-vo-advances-to-the-general-election-for-u-s-house-in-californias-45th/article_51d18979-b1a9-5434-a56e-536f13136974.html [search summary, secondary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/derek-tran-chuong-vo-congressional-district-45/3958653/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:derek-tran",
+      "label": "Incumbent",
+      "text": "Yes (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-chuong-vo-advances-to-the-general-election-for-u-s-house-in-californias-45th/article_51d18979-b1a9-5434-a56e-536f13136974.html [search summary, secondary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/derek-tran-chuong-vo-congressional-district-45/3958653/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:derek-tran",
+      "label": "Current office",
+      "text": "U.S. Representative for California's 45th Congressional District; won the seat in 2024 by 653 votes over then-incumbent Michelle Steel (R). (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/derek-tran-chuong-vo-congressional-district-45/3958653/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:derek-tran",
+      "label": "2026 primary result",
+      "text": "Received about 52.5% of the vote in the June 2, 2026 primary; Vo and four other Republicans received about 47.5% combined. (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:chuong-vo",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-chuong-vo-advances-to-the-general-election-for-u-s-house-in-californias-45th/article_51d18979-b1a9-5434-a56e-536f13136974.html [search summary, secondary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/derek-tran-chuong-vo-congressional-district-45/3958653/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:chuong-vo",
+      "label": "Party",
+      "text": "Republican (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-chuong-vo-advances-to-the-general-election-for-u-s-house-in-californias-45th/article_51d18979-b1a9-5434-a56e-536f13136974.html [search summary, secondary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/derek-tran-chuong-vo-congressional-district-45/3958653/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:chuong-vo",
+      "label": "Incumbent",
+      "text": "No (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; Associated Press (via WDRB) https://www.wdrb.com/news/national/republican-chuong-vo-advances-to-the-general-election-for-u-s-house-in-californias-45th/article_51d18979-b1a9-5434-a56e-536f13136974.html [search summary, secondary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/derek-tran-chuong-vo-congressional-district-45/3958653/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:chuong-vo",
+      "label": "Previous office",
+      "text": "Former Mayor of Cerritos (dates not confirmed in sources seen). (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; NBC Los Angeles https://www.nbclosangeles.com/news/local/derek-tran-chuong-vo-congressional-district-45/3958653/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:chuong-vo",
+      "label": "Career",
+      "text": "Retired police officer. (sources: Ballotpedia News https://news.ballotpedia.org/2026/08/03/tran-d-and-vo-r-running-in-californias-redrawn-45th-congressional-district-on-november-3/ [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/Chuong_Vo [search summary, secondary])",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

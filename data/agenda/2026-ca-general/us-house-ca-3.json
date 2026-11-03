@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-3",
+  "candidates": [
+    {
+      "person": "person:ami-bera",
+      "name": "Ami Bera"
+    },
+    {
+      "person": "person:robb-tucker",
+      "name": "Robb Tucker"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: Neither candidate holds CA-3. Bera currently represents CA-6 (2023 lines). Kevin Kiley, the current CA-3 member, is running in the new CA-6. Primary: Bera about 34%, Tucker about 30% (Greenberg Traurig). Bera's designation (United States Congressman) came from jumbled PDF text, and another summary showed no designation for him, so verify it. In the extracted cert-list text, a Kevin Kiley No Party Preference entry appeared right after the District 3 block, but other sources place Kiley in District 6. Conflict on Bera's associate dean role: his official site and a 2004 GPO profile say UC Davis (2004-2008); a House Clerk/history entry reportedly lists UC Irvine (2004-2007). His birth date (March 2, 1965) is in the House history entry per the search summary. Tucker: one CaliforniaLocal listing labels him District 5 supervisor; The Union says District 2. That he was born and raised in Nevada County is reported only by news, so it is omitted from facts."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

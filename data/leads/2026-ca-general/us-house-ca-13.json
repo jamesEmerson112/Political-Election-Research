@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-13",
+  "items": [
+    {
+      "person": "person:adam-gray",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:adam-gray",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:adam-gray",
+      "label": "Ballot designation",
+      "text": "\"United States Representative/Educator\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:adam-gray",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:adam-gray",
+      "label": "U.S. Representative",
+      "text": "U.S. Representative for California's 13th District; elected in 2024 over John Duarte by 187 votes. (sources: CalMatters https://calmatters.org/politics/2026/10/california-election-congressional-district-13-gray/ [search summary, secondary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:kevin-lincoln",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kevin-lincoln",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:kevin-lincoln",
+      "label": "Ballot designation",
+      "text": "\"Small Business Owner\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kevin-lincoln",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Ballotpedia News https://news.ballotpedia.org/2026/07/20/redistricting-adds-stockton-to-ca-13-as-rep-gray-d-and-former-mayor-lincoln-r-face-off-on-nov-3/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kevin-lincoln",
+      "label": "Mayor of Stockton",
+      "text": "Former Mayor of Stockton; previously ran for Congress in California's 9th District. (sources: Turlock Journal https://www.turlockjournal.com/news/government/former-stockton-mayor-kevin-lincoln-honored-by-president-trumps-endorsement-in-race-against-rep-adam-gray/ [search summary, secondary]; San Joaquin Valley Sun https://sjvsun.com/?p=101715 [search summary, secondary])",
+      "topic": "profile.offices_held"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

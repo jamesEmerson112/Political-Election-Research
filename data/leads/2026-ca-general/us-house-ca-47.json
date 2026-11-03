@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-47",
+  "items": [
+    {
+      "person": "person:dave-min",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Associated Press (via Traverse City Record-Eagle) https://www.record-eagle.com/ap/washington/republican-jenny-rae-le-roux-advances-to-the-general-election-for-u-s-house-in/article_266b28aa-2fb5-569d-84e0-326d0db9d77f.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482051 [search summary, secondary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/democrat-dave-min-advances-to-the-general-election-for-u-s-house-in-californias-47th/article_d4c5e945-e375-584e-8036-d20fc32147b1.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:dave-min",
+      "label": "Party",
+      "text": "Democratic (sources: Associated Press (via Traverse City Record-Eagle) https://www.record-eagle.com/ap/washington/republican-jenny-rae-le-roux-advances-to-the-general-election-for-u-s-house-in/article_266b28aa-2fb5-569d-84e0-326d0db9d77f.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482051 [search summary, secondary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/democrat-dave-min-advances-to-the-general-election-for-u-s-house-in-californias-47th/article_d4c5e945-e375-584e-8036-d20fc32147b1.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:dave-min",
+      "label": "Incumbent",
+      "text": "Yes (sources: Associated Press (via Traverse City Record-Eagle) https://www.record-eagle.com/ap/washington/republican-jenny-rae-le-roux-advances-to-the-general-election-for-u-s-house-in/article_266b28aa-2fb5-569d-84e0-326d0db9d77f.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482051 [search summary, secondary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/democrat-dave-min-advances-to-the-general-election-for-u-s-house-in-californias-47th/article_d4c5e945-e375-584e-8036-d20fc32147b1.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:dave-min",
+      "label": "Current office",
+      "text": "U.S. Representative for California's 47th Congressional District (first term); won the 2024 general election over Scott Baugh (R), 181,655 to 171,501. (sources: Fox News https://www.foxnews.com/politics/scoop-democratic-virginia-gov-spanbergers-republican-cousin-aims-flip-key-california-house-seat-red.print [search summary, secondary]; Wikipedia https://en.wikipedia.org/wiki/2024_California%27s_47th_congressional_district_election [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:jenny-rae-le-roux",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: Associated Press (via Traverse City Record-Eagle) https://www.record-eagle.com/ap/washington/republican-jenny-rae-le-roux-advances-to-the-general-election-for-u-s-house-in/article_266b28aa-2fb5-569d-84e0-326d0db9d77f.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482051 [search summary, secondary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/democrat-dave-min-advances-to-the-general-election-for-u-s-house-in-californias-47th/article_d4c5e945-e375-584e-8036-d20fc32147b1.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jenny-rae-le-roux",
+      "label": "Party",
+      "text": "Republican (sources: Associated Press (via Traverse City Record-Eagle) https://www.record-eagle.com/ap/washington/republican-jenny-rae-le-roux-advances-to-the-general-election-for-u-s-house-in/article_266b28aa-2fb5-569d-84e0-326d0db9d77f.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482051 [search summary, secondary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/democrat-dave-min-advances-to-the-general-election-for-u-s-house-in-californias-47th/article_d4c5e945-e375-584e-8036-d20fc32147b1.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jenny-rae-le-roux",
+      "label": "Incumbent",
+      "text": "No (sources: Associated Press (via Traverse City Record-Eagle) https://www.record-eagle.com/ap/washington/republican-jenny-rae-le-roux-advances-to-the-general-election-for-u-s-house-in/article_266b28aa-2fb5-569d-84e0-326d0db9d77f.html [search summary, secondary]; Cook Political Report https://www.cookpolitical.com/house/race/482051 [search summary, secondary]; Associated Press (via Messenger-Inquirer) https://www.messenger-inquirer.com/ap/elections/democrat-dave-min-advances-to-the-general-election-for-u-s-house-in-californias-47th/article_d4c5e945-e375-584e-8036-d20fc32147b1.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jenny-rae-le-roux",
+      "label": "Earlier candidacies",
+      "text": "Candidate for Governor of California in 2021 and 2022; JoinCalifornia records her 2022 primary result as 3.7% (did not advance). (sources: Wikipedia https://en.wikipedia.org/wiki/Jenny_Rae_Le_Roux [search summary, secondary]; JoinCalifornia https://www.joincalifornia.com/candidate/14808 [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jenny-rae-le-roux",
+      "label": "2026 candidacy",
+      "text": "Entered the CA-47 race in March 2026; AP reported she advanced from the June 2, 2026 primary. (sources: Wikipedia https://en.wikipedia.org/wiki/Jenny_Rae_Le_Roux [search summary, secondary]; Associated Press (via Traverse City Record-Eagle) https://www.record-eagle.com/ap/washington/republican-jenny-rae-le-roux-advances-to-the-general-election-for-u-s-house-in/article_266b28aa-2fb5-569d-84e0-326d0db9d77f.html [search summary, secondary])",
+      "topic": "other"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

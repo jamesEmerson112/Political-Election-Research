@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-39",
+  "items": [
+    {
+      "person": "person:mark-takano",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/39 [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mark-takano",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/39 [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:mark-takano",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/39 [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:mark-takano",
+      "label": "Offices held",
+      "text": "U.S. Representative since 2013; has represented the 39th District since 2023 (under different district numbers before then). (sources: Wikipedia https://www.wikipedia.com/wiki/Mark_Takano [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:steve-manos",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/39 [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:steve-manos",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/39 [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:steve-manos",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/39 [search summary, primary]; Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:steve-manos",
+      "label": "Offices held",
+      "text": "Member of the Lake Elsinore City Council (years not stated in the source seen). (sources: Rafu Shimpo https://rafu.com/2026/06/results-for-aapi-candidates-in-california-congressional-races/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-29",
+  "items": [
+    {
+      "person": "person:luz-maria-rivas",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/29 [search summary, primary]; Associated Press (via KION) https://kioncentralcoast.com/?p=1013730 [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-ang-lica-due-as-advances-to-the-general-election-for-u-s-house-in/article_772926ee-274e-51c3-8143-980311896610.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:luz-maria-rivas",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/29 [search summary, primary]; Associated Press (via KION) https://kioncentralcoast.com/?p=1013730 [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-ang-lica-due-as-advances-to-the-general-election-for-u-s-house-in/article_772926ee-274e-51c3-8143-980311896610.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:luz-maria-rivas",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/29 [search summary, primary]; Associated Press (via KION) https://kioncentralcoast.com/?p=1013730 [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-ang-lica-due-as-advances-to-the-general-election-for-u-s-house-in/article_772926ee-274e-51c3-8143-980311896610.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:luz-maria-rivas",
+      "label": "Offices held",
+      "text": "Elected to the U.S. House from California's 29th Congressional District in 2024 (AP race call). Previously a member of the California State Assembly; her campaign announced the congressional run as Assemblywoman Luz Rivas (years of Assembly service not stated in the sources seen). (sources: Associated Press (via SooToday) https://sootoday.com/world-news/ap-race-call-democrat-luz-rivas-wins-election-to-us-house-in-californias-29th-congressional-district-9765895 [search summary, secondary]; Luz Rivas for Congress (campaign site) https://www.luzforcongress.com/news/assemblywoman-luz-rivas-announces-candidacy-for-california-s-29th-congressional-district [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:angelica-maria-duenas",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/29 [search summary, primary]; Associated Press (via KION) https://kioncentralcoast.com/?p=1013730 [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-ang-lica-due-as-advances-to-the-general-election-for-u-s-house-in/article_772926ee-274e-51c3-8143-980311896610.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:angelica-maria-duenas",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/29 [search summary, primary]; Associated Press (via KION) https://kioncentralcoast.com/?p=1013730 [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-ang-lica-due-as-advances-to-the-general-election-for-u-s-house-in/article_772926ee-274e-51c3-8143-980311896610.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:angelica-maria-duenas",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State (election results) https://dp.electionresults.sos.ca.gov/returns/us-rep/district/29 [search summary, primary]; Associated Press (via KION) https://kioncentralcoast.com/?p=1013730 [search summary, secondary]; Associated Press (via Santa Maria Times) https://santamariatimes.com/ap/washington/democrat-ang-lica-due-as-advances-to-the-general-election-for-u-s-house-in/article_772926ee-274e-51c3-8143-980311896610.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:angelica-maria-duenas",
+      "label": "Prior candidacy",
+      "text": "Ran for CA-29 in 2022 and lost the general election to then-incumbent Tony Cárdenas. (sources: Ballotpedia https://ballotpedia.org/Tony_Cardenas [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:angelica-maria-duenas",
+      "label": "Career",
+      "text": "La Opinión described her as an activist and community organizer (article date not confirmed). (sources: La Opinión https://laopinion.com/?p=3556906 [search summary, secondary])",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

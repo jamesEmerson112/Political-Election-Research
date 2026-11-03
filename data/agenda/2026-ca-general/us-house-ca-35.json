@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-35",
+  "candidates": [
+    {
+      "person": "person:norma-j-torres",
+      "name": "Norma J. Torres"
+    },
+    {
+      "person": "person:mike-cargile",
+      "name": "Mike Cargile"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: CANDIDATE LIST NOT CONFIRMED. Torres advancing is well supported (LA Almanac marks her as incumbent and majority winner). The opponent is a lead only: an ABC7 table (updated July 14, 2026, with the district heading reportedly mislabeled) shows Torres 56% (30,819) and Cargile 44% (23,779), likely a single-county or partial view. Ballotpedia's listing names Torres, W.H. Lane (D), Mike Cargile (R), and Michael Horvath (R), which looks like a pre-primary list. A Kalshi general-election vote-share market lists Cargile. No AP call or certified-list entry was found. A garbled LA County general-list snippet paired Torres with Angela Gonzales-Torres (CA-34); this is likely an extraction error. Name form Norma J. Torres follows the LA Almanac. Biographical research for both candidates is incomplete because the web-search budget ran out."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

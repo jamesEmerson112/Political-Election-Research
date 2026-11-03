@@ -1,0 +1,107 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/attorney-general",
+  "items": [
+    {
+      "person": "person:rob-bonta",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-attorney-general [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:rob-bonta",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-attorney-general [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:rob-bonta",
+      "label": "Ballot designation",
+      "text": "\"California Attorney General\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-attorney-general [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:rob-bonta",
+      "label": "Incumbent",
+      "text": "Yes (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-attorney-general [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:rob-bonta",
+      "label": "Current office",
+      "text": "California Attorney General (34th) since April 23, 2021. (sources: California Department of Justice https://oag.ca.gov/about [search summary, primary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:rob-bonta",
+      "label": "Offices held",
+      "text": "Member, Alameda City Council, December 2010–November 2012 (vice mayor from December 21, 2010); Member, California State Assembly (District 18), 2012–2021; California Attorney General, 2021–present. (sources: Wikipedia https://en.wikipedia.org/wiki/Rob_Bonta [search summary, secondary]; Ballotpedia https://ballotpedia.org/Rob_Bonta [search summary, secondary]; Rob Bonta campaign https://robbonta.com/about/ [search summary, primary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:rob-bonta",
+      "label": "Earlier career",
+      "text": "Deputy City Attorney, City and County of San Francisco, before his Assembly service. (sources: California Department of Justice https://oag.ca.gov/about [search summary, primary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:rob-bonta",
+      "label": "Education",
+      "text": "B.A. in history, Yale University (1993); J.D., Yale Law School (1998). The official bio names both institutions; the years come from Vote Smart. (sources: California Department of Justice https://oag.ca.gov/about [search summary, primary]; Vote Smart https://justfacts.votesmart.org/candidate/biography/129483/ [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:rob-bonta",
+      "label": "Birthplace",
+      "text": "Born in Quezon City, Philippines; immigrated to California with his family as an infant. (sources: California Department of Justice https://oag.ca.gov/about [search summary, primary])",
+      "topic": "profile.birthplace"
+    },
+    {
+      "person": "person:michael-e-gates",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-attorney-general [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-e-gates",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-attorney-general [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:michael-e-gates",
+      "label": "Ballot designation",
+      "text": "\"Deputy United States Attorney\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-attorney-general [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-e-gates",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; LAist https://laist.com/news/politics/voter-guides/2026-election-california-general-attorney-general [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:michael-e-gates",
+      "label": "Offices held",
+      "text": "Huntington Beach City Attorney (elected), first elected 2014 and re-elected twice, serving until 2025; Deputy Assistant Attorney General, Civil Rights Division, U.S. Department of Justice, appointed in 2025 and left later that year. (sources: San Joaquin Valley Sun https://sjvsun.com/news/politics/former-huntington-beach-city-attorney-michael-gates-launches-ag-campaign/ [search summary, secondary]; PublicCEO https://www.publicceo.com/2025/02/huntington-beach-city-attorney-to-join-the-department-of-justice/ [search summary, secondary]; LAist https://laist.com/news/politics/huntington-beachs-michael-gates-quits-justice-department [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:michael-e-gates",
+      "label": "Career",
+      "text": "Worked in software development before law school; partner at a law firm before 2014. After leaving the Department of Justice he was reported to have rejoined the Huntington Beach City Attorney's office as chief assistant city attorney. (sources: Chapman University Fowler School of Law https://blogs.chapman.edu/law/?p=11936 [search summary, secondary]; LAist https://laist.com/news/politics/huntington-beachs-michael-gates-quits-justice-department [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:michael-e-gates",
+      "label": "Education",
+      "text": "Undergraduate degree, Pepperdine University; J.D., Chapman University Dale E. Fowler School of Law (class of 2008). (sources: Chapman University Fowler School of Law https://blogs.chapman.edu/law/?p=11936 [search summary, secondary]; Chapman University Fowler School of Law https://blogs.chapman.edu/law/?p=8706 [search summary, secondary])",
+      "topic": "profile.education"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

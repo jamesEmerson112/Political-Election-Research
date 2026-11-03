@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/agenda.schema.json",
+  "kind": "office",
+  "contest": "contest:2026-ca-general/us-house-ca-32",
+  "candidates": [
+    {
+      "person": "person:brad-sherman",
+      "name": "Brad Sherman"
+    },
+    {
+      "person": "person:larry-thompson",
+      "name": "Larry Thompson"
+    }
+  ],
+  "measures": [],
+  "questions": [],
+  "seeded": {
+    "date": "2026-11-03",
+    "note": "Candidates seeded from a research agent's web-search summaries (see data/leads); unverified until the contest file cites the Secretary of State certified list. No stance questions set yet. Research notes: The ABC7 table shows Sherman 37% (76,755) and Thompson 33% (68,295). The Santa Monica Daily Press page, described as final and certified, lists Sherman at 36.8%. One Center Square report said later counts showed Thompson slightly ahead; this affects first place only, not who advanced. Sherman defeated Democratic challenger Jake Levine in the primary (Jewish Insider). Office dates, education, and birth details were not researched because the web-search budget ran out. Incumbent means the current member for district number 32; Prop 50 redrew the boundaries."
+  },
+  "targets": {
+    "endorsements_per_candidate": 5,
+    "finance_cutoff": null,
+    "top_contributors": 10
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/us-house-ca-6",
+  "items": [
+    {
+      "person": "person:kevin-kiley",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Associated Press (via Daily Gazette) https://www.dailygazette.com/tribune/democrat-richard-pan-regains-second-in-californias-6th-district-primary-set-to-face-rep-kevin/article_866a07e7-7c1d-5fc3-8739-d7d8b82cd1fe.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "label": "Party",
+      "text": "No Party Preference (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Associated Press (via Daily Gazette) https://www.dailygazette.com/tribune/democrat-richard-pan-regains-second-in-californias-6th-district-primary-set-to-face-rep-kevin/article_866a07e7-7c1d-5fc3-8739-d7d8b82cd1fe.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "label": "Ballot designation",
+      "text": "\"United States Representative\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Associated Press (via Daily Gazette) https://www.dailygazette.com/tribune/democrat-richard-pan-regains-second-in-californias-6th-district-primary-set-to-face-rep-kevin/article_866a07e7-7c1d-5fc3-8739-d7d8b82cd1fe.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Associated Press (via Daily Gazette) https://www.dailygazette.com/tribune/democrat-richard-pan-regains-second-in-californias-6th-district-primary-set-to-face-rep-kevin/article_866a07e7-7c1d-5fc3-8739-d7d8b82cd1fe.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "label": "Party registration",
+      "text": "Listed as No Party Preference for 2026 in the Secretary of State party preference history; previously a Republican. He announced on March 6, 2026 that he had filed for re-election without party affiliation. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/pph.pdf [search summary, primary]; Ballotpedia https://ballotpedia.org/Kevin_Kiley [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "label": "Offices held",
+      "text": "U.S. Representative for California's 3rd District under the pre-2026 map; member of the California State Assembly (6th District), first elected November 8, 2016 and twice re-elected. (sources: Produce Marketing Association (government profile) https://www.pma.com/siteassets/files/advocacy/government-profiles/rep.-kevin-kiley-r-ca-3.pdf [search summary, secondary]; CalMatters https://calmatters.org/politics/2026/03/kevin-kiley-chooses-reelection-district/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "label": "Career",
+      "text": "Former California Deputy Attorney General; adjunct professor of law at the University of the Pacific, McGeorge School of Law. (sources: Produce Marketing Association (government profile) https://www.pma.com/siteassets/files/advocacy/government-profiles/rep.-kevin-kiley-r-ca-3.pdf [search summary, secondary]; Millennial Action Project / Future Caucus https://futurecaucus.org/?p=864 [search summary, secondary])",
+      "topic": "profile.career"
+    },
+    {
+      "person": "person:kevin-kiley",
+      "label": "Education",
+      "text": "B.A., Social Studies, Harvard University (2007); J.D., Yale Law School (2012); master's degree in secondary education, Loyola Marymount University. (sources: Produce Marketing Association (government profile) https://www.pma.com/siteassets/files/advocacy/government-profiles/rep.-kevin-kiley-r-ca-3.pdf [search summary, secondary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:richard-pan",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Associated Press (via Daily Gazette) https://www.dailygazette.com/tribune/democrat-richard-pan-regains-second-in-californias-6th-district-primary-set-to-face-rep-kevin/article_866a07e7-7c1d-5fc3-8739-d7d8b82cd1fe.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:richard-pan",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Associated Press (via Daily Gazette) https://www.dailygazette.com/tribune/democrat-richard-pan-regains-second-in-californias-6th-district-primary-set-to-face-rep-kevin/article_866a07e7-7c1d-5fc3-8739-d7d8b82cd1fe.html [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:richard-pan",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/sov/2026-primary/sov/complete-sov.pdf [search summary, primary]; Associated Press (via Daily Gazette) https://www.dailygazette.com/tribune/democrat-richard-pan-regains-second-in-californias-6th-district-primary-set-to-face-rep-kevin/article_866a07e7-7c1d-5fc3-8739-d7d8b82cd1fe.html [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:richard-pan",
+      "label": "California Legislature",
+      "text": "Member of the California State Assembly (5th District), 2010 to 2014; member of the California State Senate (6th District), 2014 to 2022. (sources: California State Senate (archive) https://archive.senate.ca.gov/node/314 [search summary, primary]; J Street PAC https://jstreetpac.org/candidate/richard-pan/ [search summary, secondary])",
+      "topic": "profile.offices_held"
+    },
+    {
+      "person": "person:richard-pan",
+      "label": "Occupation",
+      "text": "Pediatrician; listed as a senior lecturer at UC Davis Health. (sources: UC Davis Health https://health.ucdavis.edu/phs/team/494/richard-pan-pediatrics-sacramento [search summary, secondary]; California State Senate (archive) https://archive.senate.ca.gov/node/314 [search summary, primary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:richard-pan",
+      "label": "Education",
+      "text": "Undergraduate degree, Johns Hopkins University; M.D., University of Pittsburgh; Master of Public Health, Harvard University. (sources: California State Senate (archive) https://archive.senate.ca.gov/node/314 [search summary, primary])",
+      "topic": "profile.education"
+    },
+    {
+      "person": "person:richard-pan",
+      "label": "Birthplace",
+      "text": "Born in Yonkers, New York; raised in Pittsburgh, Pennsylvania. (sources: California State Senate (archive) https://archive.senate.ca.gov/node/575 [search summary, primary])",
+      "topic": "profile.birthplace"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}

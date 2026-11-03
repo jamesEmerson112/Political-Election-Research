@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../schemas/leads.schema.json",
+  "contest": "contest:2026-ca-general/treasurer",
+  "items": [
+    {
+      "person": "person:eleni-kounalakis",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/treasurer/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eleni-kounalakis",
+      "label": "Party",
+      "text": "Democratic (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/treasurer/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:eleni-kounalakis",
+      "label": "Ballot designation",
+      "text": "\"Lieutenant Governor of California\" (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/treasurer/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eleni-kounalakis",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/treasurer/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:eleni-kounalakis",
+      "label": "Current office",
+      "text": "Lieutenant Governor of California; term-limited in that office in 2026. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; Wikipedia https://en.wikipedia.org/wiki/2026_California_lieutenant_gubernatorial_election [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:eleni-kounalakis",
+      "label": "2026 candidacy",
+      "text": "Ended a 2026 campaign for Governor and ran for Treasurer instead. (sources: CBS News Bay Area https://www.cbsnews.com/sanfrancisco/news/california-lt-gov-eleni-kounalakis-ends-2026-governor-bid-treasurer-campaign [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jennifer-hawks",
+      "label": "On the ballot",
+      "text": "Listed as a candidate for this contest. (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/treasurer/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jennifer-hawks",
+      "label": "Party",
+      "text": "Republican (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/treasurer/ [search summary, secondary])",
+      "topic": "profile.party_registration"
+    },
+    {
+      "person": "person:jennifer-hawks",
+      "label": "Incumbent",
+      "text": "No (sources: California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/prop34-report-statewide.pdf [search summary, primary]; California Secretary of State https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf [search summary, primary]; San Diego County Registrar of Voters https://www.sdvote.com/content/dam/rov/en/election/nov-3-2026-gubernatorial-general-election/candidate-list.pdf [search summary, primary]; CalMatters https://calmatters.org/california-voter-guide-2026/treasurer/ [search summary, secondary])",
+      "topic": "other"
+    },
+    {
+      "person": "person:jennifer-hawks",
+      "label": "Occupation",
+      "text": "Retired businessperson; has not previously held elected public office. (sources: San Francisco Examiner https://www.sfexaminer.com/news/politics/gop-treasurer-candidate-plays-up-outsider-status/article_39da5c3b-feb2-46fa-97ad-881f696a62f9.html [search summary, secondary]; CalMatters https://calmatters.org/california-voter-guide-2026/treasurer/ [search summary, secondary])",
+      "topic": "profile.occupation"
+    },
+    {
+      "person": "person:jennifer-hawks",
+      "label": "Civic roles",
+      "text": "Has served as president of Palo Alto Republican Women and is involved with the California Federation of Republican Women. (sources: San Francisco Examiner https://www.sfexaminer.com/news/politics/gop-treasurer-candidate-plays-up-outsider-status/article_39da5c3b-feb2-46fa-97ad-881f696a62f9.html [search summary, secondary])",
+      "topic": "profile.career"
+    }
+  ],
+  "provided": {
+    "by": "research agent (web search summaries)",
+    "date": "2026-11-03",
+    "note": "Basic candidate information found through web search summaries; pages were not opened. Each item names its sources for the maintainer to verify before anything is recorded with citations."
+  }
+}
