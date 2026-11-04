@@ -64,6 +64,109 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Speaker Emerita Nancy Pelosi",
+          "role": "Campaign manager, Save Our Health Care Campaign",
+          "start": "2025-01",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "Endorsed by Speaker Emerita Nancy Pelosi, I am the Campaign Manager for her Save Our Health Care Campaign",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+            },
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "McCoy has been the campaign manager for Pelosi’s Save Our Healthcare initiative since January 2025.",
+              "locator": "Gary McCoy section"
+            }
+          ]
+        },
+        {
+          "organization": "Nancy Pelosi campaign committee",
+          "role": "Political director",
+          "start": "2018",
+          "citations": [
+            {
+              "source": "src:ebar-com-04987a4dcd",
+              "quote": "Powell-McCoy works for Pelosi as her district director in San Francisco, while McCoy serves as her political director, a position he has held since 2018."
+            },
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "a political director for her campaign committee",
+              "locator": "Gary McCoy section"
+            }
+          ]
+        },
+        {
+          "organization": "HealthRight 360",
+          "role": "Vice president",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "was vice president of a mental-health and substance-abuse treatment provider HealthRight 360",
+              "locator": "Gary McCoy section"
+            }
+          ]
+        },
+        {
+          "organization": "San Francisco Recreation and Park Department",
+          "role": "Policy and community affairs manager",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "McCoy has also served as policy and community affairs manager at the San Francisco Recreation & Park Department",
+              "locator": "Gary McCoy section"
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "oversaw pedestrian safety, park activation, and open space policy at the San Francisco Recreation and Parks Department.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+            }
+          ]
+        },
+        {
+          "organization": "San Francisco Board of Supervisors",
+          "role": "Chief of staff to Supervisor Julie Christensen",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "chief of staff to former Supervisor Julie Christensen",
+              "locator": "Gary McCoy section"
+            }
+          ]
+        },
+        {
+          "organization": "San Francisco Board of Supervisors",
+          "role": "Legislative aide to Supervisor Scott Wiener",
+          "start": "2012",
+          "citations": [
+            {
+              "source": "src:ebar-com-04987a4dcd",
+              "quote": "First hired in 2012 as a legislative aide by then-supervisor Scott Wiener"
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I served as aide to Senator Scott Wiener",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+            }
+          ]
+        },
+        {
+          "organization": "San Francisco Board of Supervisors",
+          "role": "Legislative aide to Supervisor London Breed",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "legislative aide to former Supervisor London Breed",
+              "locator": "Gary McCoy section"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
