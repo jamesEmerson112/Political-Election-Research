@@ -86,6 +86,26 @@
       ]
     },
     {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "support",
+      "as_of": "2026-09-08",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Told the SF Standard that Flock has delivered consistent public safety results and that he would oppose it if that changed or civil liberties were affected; his GrowSF questionnaire calls for continuing to expand the use of security cameras and automated license plate readers.",
+      "citations": [
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "So far, Flock has delivered consistent public safety results, Sherrill said.",
+          "locator": "Flock-ing together in support: Supervisor Stephen Sherrill"
+        },
+        {
+          "source": "src:growsf-org-3968fdda8c",
+          "quote": "Finally, we need to continue expanding the use of security cameras and automated license plate readers to support investigations and deter crime.",
+          "locator": "Public Safety: What three things would you change about how SFPD operates?"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-11-03",
