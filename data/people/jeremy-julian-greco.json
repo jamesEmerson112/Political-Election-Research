@@ -114,6 +114,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Campus coordinator, Presidio Hill School; monologist",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Campus Coordinator / Monologist.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "JEREMY JULIAN GRECO 傑瑞米‧朱利安‧格雷科 Campus Coordinator / Monologist",
+          "locator": "page 1, Board of Supervisors, District 4, English Ballot Designation column"
+        },
+        {
+          "source": "src:assets-nationbuilder-com-42d7d038ef",
+          "quote": "As Campus Coordinator at Presidio Hill School, I work every day with students, parents, teachers, and staff.",
+          "locator": "p. 4, What communities do you represent, and how do they hold you accountable?"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
