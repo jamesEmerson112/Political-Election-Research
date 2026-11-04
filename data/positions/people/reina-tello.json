@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:reina-tello",
+  "positions": [
+    {
+      "subject": "q:education/sfusd-proximity-assignment",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "KQED reports that Tello believes families want neighborhood schools when a strong school is nearby, that the overhaul should bring resources and programs closer to families, and that students whose needs cannot be met nearby should be able to enroll elsewhere.",
+      "citations": [
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "Tello believes that families want to send their kids to schools in their neighborhoods if there is a “great” school close by.",
+          "locator": "Positions on Key Issues, student-assignment question"
+        },
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "Students who have special needs that can’t be met at their neighborhood school, she says, should be allowed to enroll elsewhere.",
+          "locator": "Positions on Key Issues, student-assignment question"
+        }
+      ]
+    },
+    {
+      "subject": "q:education/sfusd-spend-reserves",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Tello says SFUSD should spend its reserves down to a level closer to the state-required 2% so current funds go to current students.",
+      "citations": [
+        {
+          "source": "src:growsf-org-11908bfe7d",
+          "quote": "We need to spend these down to a reasonable level—closer to the state-required 2%—to ensure today’s dollars are spent on today’s students"
+        }
+      ]
+    }
+  ]
+}
