@@ -169,6 +169,21 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Outer Sunset)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "26-year resident of the Outer Sunset",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+        },
+        {
+          "source": "src:assets-nationbuilder-com-42d7d038ef",
+          "quote": "My wife and I have lived in San Francisco for 30 years, and for the past 26 years we've called the Outer Sunset home.",
+          "locator": "p. 2, Why are you running for this office?"
+        }
+      ]
     }
   },
   "ids": [],
