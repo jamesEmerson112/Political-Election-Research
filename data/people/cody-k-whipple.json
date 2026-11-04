@@ -60,6 +60,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Small business owner and rancher",
+      "citations": [
+        {
+          "source": "src:codyk4congress-com-644bbd55ee",
+          "quote": "Cody Whipple is a fourth-generation Nevadan, small business owner, and rancher who understands what it takes to get things done.",
+          "locator": "About Cody"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
