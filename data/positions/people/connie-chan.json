@@ -3,6 +3,24 @@
   "actor": "person:connie-chan",
   "positions": [
     {
+      "subject": "contest:2026-ca-general/prop-40",
+      "stance": "support",
+      "as_of": "2026-09-01",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Her campaign spokesperson told SFGATE in August 2026 that she supports Proposition 40; The Intercept reported in May 2026 that she favored the statewide billionaire tax.",
+      "citations": [
+        {
+          "source": "src:cpapracticeadvisor-com-ccc9f21536",
+          "quote": "Krager said that despite her absence, Chan is in support of it."
+        },
+        {
+          "source": "src:theintercept-com-b325a52a24",
+          "quote": "Both of Wiener’s opponents in the three-way June 2 primary — progressive member of San Francisco’s board of supervisors Connie Chan and Justice Democrats co-founder Saikat Chakrabarti — are in favor of the taxes."
+        }
+      ]
+    },
+    {
       "subject": "q:ai/data-center-moratorium",
       "stance": "support",
       "as_of": "2026-11-02",
