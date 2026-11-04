@@ -91,6 +91,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Small Business Consultant (ballot designation)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Small Business Consultant.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 50 (PDF p. 52)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MIKE TROUBLE LIN 林育仁 Small Business Consultant",
+          "locator": "p. 1, Board of Supervisors, District 10 table (English ballot designation)"
+        },
+        {
+          "source": "src:kqed-org-44d1250e32",
+          "quote": "Small-business consultant",
+          "locator": "Candidates list"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
