@@ -12,6 +12,29 @@
       "name": "Samuel P. Sukaton"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/board-of-equalization-3|legislation|person:samuel-p-sukaton",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "offices / legislation",
+          "where": "https://www.samsukaton.com/ (campaign biography: union organizer, campaign director, advocacy campaigns; no elected or legislative office)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Samuel P. Sukaton",
+          "where": "Official Voter Information Guide 2026 general, p. 93 (no candidate statement) and SoS certified list (ballot designation: Labor Union Organizer)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Sukaton background",
+          "where": "LAist / CalMatters voter guide, Board of Equalization District 3 (background: union organizer, policy leader, regional campaign director; no legislative office)"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:california-board-of-equalization-member",
   "questions": [],
