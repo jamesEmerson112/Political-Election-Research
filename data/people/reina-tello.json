@@ -56,6 +56,32 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Safeway",
+          "role": "Employee (union member)",
+          "start": "2002",
+          "citations": [
+            {
+              "source": "src:reinaforschoolboard-org-93534ebeea",
+              "quote": "In 2002, Reina stepped away from college. She built a career at Safeway instead, gaining union membership"
+            }
+          ]
+        },
+        {
+          "organization": "PODER (People Organizing to Demand Environmental and Economic Rights)",
+          "role": "Community organizer",
+          "citations": [
+            {
+              "source": "src:growsf-org-11908bfe7d",
+              "quote": "My experience as a long-time community organizer at PODER (People Organizing to Demand Environmental and Economic Rights)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
