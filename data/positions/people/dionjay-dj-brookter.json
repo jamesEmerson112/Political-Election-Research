@@ -102,6 +102,54 @@
           "locator": "answer to \"Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?\" (Substance Abuse section)"
         }
       ]
+    },
+    {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Flock, license plate readers, surveillance cameras",
+          "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, District 10 candidate statements (media.api.sf.gov N26_EN_VIP.pdf, printed pp. 47-51) and local measure argument signers"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Flock, license plate readers, surveillance cameras",
+          "where": "GrowSF November 2026 questionnaire, DJ Brookter: answered"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Flock, license plate readers, surveillance cameras",
+          "where": "Campaign website: dj4d10.com home, Platform and Priorities pages"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Flock, license plate readers, surveillance cameras",
+          "where": "KQED voter guide, San Francisco Board of Supervisors District 10 (kqed.org/voterguide/sanfrancisco/supervisor-10th-district): Positions on Key Issues"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Flock, license plate readers, surveillance cameras",
+          "where": "Gazetteer SF, Sept. 2, 2026 report on the Potrero Hill District 10 debate (Brookter, Ellington, Eppler)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Flock, license plate readers, surveillance cameras",
+          "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org 2026/08-2026/10 articles): HTTP 403 bot check, unreadable"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Flock, license plate readers, surveillance cameras",
+          "where": "San Francisco Standard (sfstandard.com), Sept. 8, 2026 Flock candidate survey and other District 10 coverage: article text behind sign-in"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "District 10 supervisor candidates Ellington Brookter Eppler Prop F mayor power Prop H Muni parcel tax 2026",
+          "where": "Web search"
+        }
+      ]
     }
   ]
 }
