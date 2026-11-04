@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.professional-engineers-in-ca-government-pecg-pac--org.fiona-ma-for-lieutenant-governor-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:professional-engineers-in-ca-government-pecg-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 3510000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-02-02"
+    }
+  },
+  "recipient": "org:fiona-ma-for-lieutenant-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-577c2f3050",
+      "locator": "Form 460 Schedule A: line 1729 (2023-02-02, $200.00); line 1730 (2023-02-02, $500.00); line 1731 (2023-02-02, $1,000.00); line 1732 (2023-02-02, $5,000.00); line 1733 (2023-02-02, $9,800.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-a579dc9617",
+      "locator": "Form 460 Schedule A: line 355 (2024-04-03, $700.00); line 356 (2024-04-03, $300.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-f1d9fbbf21",
+      "locator": "Form 460 Schedule A: line 413 (2025-06-28, $1,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-659713ea3e",
+      "locator": "Form 460 Schedule A: line 438 (2025-12-23, $400.00); line 439 (2025-12-23, $4,600.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-4d82031a21",
+      "locator": "Form 460 Schedule A: line 105 (2026-05-29, $11,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

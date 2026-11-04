@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.ca-state-council-of-laborers-pac--org.fiona-ma-for-lieutenant-governor-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:ca-state-council-of-laborers-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 3580000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-02-02"
+    }
+  },
+  "recipient": "org:fiona-ma-for-lieutenant-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-577c2f3050",
+      "locator": "Form 460 Schedule A: line 287 (2023-02-02, $3,600.00); line 288 (2023-02-02, $7,100.00); line 289 (2023-02-02, $5,500.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-659713ea3e",
+      "locator": "Form 460 Schedule A: line 84 (2025-12-02, $3,400.00); line 85 (2025-12-02, $6,400.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-0a62edb732",
+      "locator": "Form 460 Schedule A: line 12 (2026-05-14, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.northern-ca-district-council-of-laborers-pac-scc--org.fiona-ma-for-lieutenant-governor-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:northern-ca-district-council-of-laborers-pac-scc",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-06-24"
+    }
+  },
+  "recipient": "org:fiona-ma-for-lieutenant-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-4d82031a21",
+      "locator": "Form 460 Schedule A: line 96 (2026-06-24, $19,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "peace-officers-research-association-of-ca-porac-pac",
+  "name": "Peace Officers Research Association of CA - (PORAC-PAC)",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

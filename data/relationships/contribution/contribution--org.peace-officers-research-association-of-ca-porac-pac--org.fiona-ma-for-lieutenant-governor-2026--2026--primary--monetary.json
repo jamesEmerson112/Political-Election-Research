@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.peace-officers-research-association-of-ca-porac-pac--org.fiona-ma-for-lieutenant-governor-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:peace-officers-research-association-of-ca-porac-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 950000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-12-15"
+    }
+  },
+  "recipient": "org:fiona-ma-for-lieutenant-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-07b0110b96",
+      "locator": "Form 460 Schedule A: line 309 (2023-12-15, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-f1d9fbbf21",
+      "locator": "Form 460 Schedule A: line 393 (2025-06-28, $2,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-659713ea3e",
+      "locator": "Form 460 Schedule A: line 412 (2025-10-02, $2,500.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

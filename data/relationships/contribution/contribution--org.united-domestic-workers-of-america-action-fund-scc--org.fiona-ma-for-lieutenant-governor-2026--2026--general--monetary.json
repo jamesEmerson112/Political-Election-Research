@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.united-domestic-workers-of-america-action-fund-scc--org.fiona-ma-for-lieutenant-governor-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:united-domestic-workers-of-america-action-fund-scc",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 980000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-09"
+    }
+  },
+  "recipient": "org:fiona-ma-for-lieutenant-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-e96b892654",
+      "locator": "Form 460 Schedule A: line 119 (2026-09-09, $19,400.00); line 120 (2026-09-16, $-9,100.00); line 121 (2026-09-16, $-500.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
