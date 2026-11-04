@@ -20,6 +20,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas",
+      "citations": [
+        {
+          "source": "src:nicolecannizzaro-com-ac8a067d6d",
+          "quote": "Nicole Cannizzaro was born and raised in Las Vegas."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
