@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "nor-cal-surf-shop-nor-cal-brand-inc",
+  "name": "Nor-Cal Surf Shop Nor-Cal Brand Inc",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

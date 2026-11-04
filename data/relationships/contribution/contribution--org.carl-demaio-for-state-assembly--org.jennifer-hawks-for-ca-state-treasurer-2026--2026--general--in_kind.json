@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.carl-demaio-for-state-assembly--org.jennifer-hawks-for-ca-state-treasurer-2026--2026--general--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:carl-demaio-for-state-assembly",
+  "election_designation": "general",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 501500,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-03"
+    }
+  },
+  "recipient": "org:jennifer-hawks-for-ca-state-treasurer-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-45102a4e1c",
+      "locator": "Form 460 Schedule C: line 89 (2026-09-03, $5,015.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

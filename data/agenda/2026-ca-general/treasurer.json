@@ -12,6 +12,19 @@
       "name": "Jennifer Hawks"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/treasurer|contributions|person:jennifer-hawks",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "all itemized contributors; 143 donors, 6 reach the agenda list after leaving out individuals under the privacy threshold",
+          "where": "CAL-ACCESS raw data export (2026-11-03): Form 460 Schedules A and C of Jennifer Hawks for CA State Treasurer 2026 (filer 1488439), statements through 2026-10-17, latest amendments"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:california-treasurer",
   "questions": [],

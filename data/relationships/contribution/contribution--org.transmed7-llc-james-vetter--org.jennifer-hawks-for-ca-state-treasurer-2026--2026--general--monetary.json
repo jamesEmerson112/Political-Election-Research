@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.transmed7-llc-james-vetter--org.jennifer-hawks-for-ca-state-treasurer-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:transmed7-llc-james-vetter",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 50000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-30"
+    }
+  },
+  "recipient": "org:jennifer-hawks-for-ca-state-treasurer-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-4453558860",
+      "locator": "Form 460 Schedule A: line 28 (2026-09-30, $500.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.ca-republican-party--org.jennifer-hawks-for-ca-state-treasurer-2026--2026--general--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:ca-republican-party",
+  "election_designation": "general",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 1200000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-10-15"
+    }
+  },
+  "recipient": "org:jennifer-hawks-for-ca-state-treasurer-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-4453558860",
+      "locator": "Form 460 Schedule C: line 32 (2026-10-15, $12,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
