@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-317cd502f1",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-09-09",
+  "publisher": "The San Francisco Standard",
+  "title": "Get the Flock outta here: D8 candidate targets SFPD surveillance contract",
+  "url": "https://sfstandard.com/2026/09/09/flock-sf-candidate-lurie-records-data-center/"
+}

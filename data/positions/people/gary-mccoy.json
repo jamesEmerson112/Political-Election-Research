@@ -43,6 +43,34 @@
       ]
     },
     {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "oppose",
+      "as_of": "2026-09-09",
+      "cycle": 2026,
+      "evidence_type": "debate",
+      "summary": "At the Aug. 12, 2026 forum, asked about Flock cameras, McCoy said he is not for surveillance cameras generally and that the data should not be shared. The Standard reported in September that he was targeting SFPD's Flock surveillance contract.",
+      "citations": [
+        {
+          "source": "src:ebar-com-ab817bf72d",
+          "quote": "Candidate Gary McCoy, a gay man, agreed that the cameras are a violation of privacy."
+        },
+        {
+          "source": "src:ebar-com-ab817bf72d",
+          "quote": "I’m not for surveillance of cameras, generally, for that reason."
+        },
+        {
+          "source": "src:sfstandard-com-317cd502f1",
+          "quote": "Get the Flock outta here: D8 candidate targets SFPD surveillance contract",
+          "locator": "headline"
+        },
+        {
+          "source": "src:sfstandard-com-317cd502f1",
+          "quote": "D8 candidate Gary McCoy is taking aim at surveillance cameras.",
+          "locator": "photo caption"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-08-27",
