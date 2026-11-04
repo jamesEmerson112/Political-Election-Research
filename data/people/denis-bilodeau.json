@@ -3,10 +3,32 @@
   "id": "denis-bilodeau",
   "name": "Denis Bilodeau",
   "aliases": [],
+  "candidate_profile": {
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Graduate (degree not stated)",
+          "institution": "University of California, Irvine",
+          "citations": [
+            {
+              "source": "src:bilodeauforboe-com-e8bc2a4152",
+              "quote": "Graduate, University of California, Irvine"
+            },
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "University of California,\nIrvine graduate.",
+              "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://bilodeauforboe.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
