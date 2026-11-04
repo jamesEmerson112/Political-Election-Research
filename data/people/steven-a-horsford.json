@@ -4,6 +4,16 @@
   "name": "Steven A. Horsford",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1973-04-29",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "STEVEN HORSFORD, Democrat, of North Las Vegas, NV; born in Las Vegas, NV, April 29, 1973;",
+          "locator": "Nevada, Representatives, Fourth District, page 159 (PDF page 170)"
+        }
+      ]
+    },
     "occupation": {
       "value": "U.S. Representative",
       "citations": [
