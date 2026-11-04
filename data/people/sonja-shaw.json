@@ -13,6 +13,21 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "High school graduate",
+          "institution": "Ayala High School",
+          "citations": [
+            {
+              "source": "src:chino-k12-ca-us-7dfb5cb3ab",
+              "quote": "Born and raised in Chino, Sonja was educated in Chino Valley schools, and graduated from Ayala High School."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "School District President (ballot designation)",
       "citations": [
@@ -50,5 +65,5 @@
     "campaign_site": "https://www.shawforca.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
