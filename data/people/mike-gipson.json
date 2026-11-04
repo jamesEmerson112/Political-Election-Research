@@ -3,6 +3,21 @@
   "id": "mike-gipson",
   "name": "Mike Gipson",
   "aliases": [],
+  "candidate_profile": {
+    "residence_city": {
+      "value": "Carson",
+      "citations": [
+        {
+          "source": "src:mikegipson-net-7e7d300eaf",
+          "quote": "Gipson currently lives in Carson with his wife LeCresha."
+        },
+        {
+          "source": "src:blackcaucus-legislature-ca-gov-271ba316d7",
+          "quote": "Assemblymember Gipson currently resides in Carson with his wife, Le Cresha Gipson."
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.mikegipson.net/",
