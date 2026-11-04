@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "steamfitters-and-refrigeration-u-a-local-250-pac-small-contributor-committee",
+  "name": "Steamfitters & Refrigeration U.A. Local 250 PAC Small Contributor Committee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

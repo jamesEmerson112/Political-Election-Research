@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-state-pipe-trades-council-political-action-fund-small-contributor-com--org.malia-cohen-for-controller-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-state-pipe-trades-council-political-action-fund-small-contributor-com",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 2920000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2024-12-31"
+    }
+  },
+  "recipient": "org:malia-cohen-for-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-ee631d4aa6",
+      "locator": "Form 460 Schedule A: line 6 (2024-12-31, $8,200.00); line 7 (2024-12-31, $10,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-bc5ead9265",
+      "locator": "Form 460 Schedule A: line 9 (2026-01-12, $1,400.00); line 10 (2026-01-12, $9,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

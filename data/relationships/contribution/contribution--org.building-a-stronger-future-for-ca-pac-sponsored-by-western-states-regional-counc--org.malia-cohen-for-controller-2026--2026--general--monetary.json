@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.building-a-stronger-future-for-ca-pac-sponsored-by-western-states-regional-counc--org.malia-cohen-for-controller-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:building-a-stronger-future-for-ca-pac-sponsored-by-western-states-regional-counc",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 980000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-08-19"
+    }
+  },
+  "recipient": "org:malia-cohen-for-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-6301d9545f",
+      "locator": "Form 460 Schedule A: line 11 (2026-08-19, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

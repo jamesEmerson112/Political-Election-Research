@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.professional-engineers-in-california-government-pecg-pac-small-contributor-commi--org.malia-cohen-for-controller-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:professional-engineers-in-california-government-pecg-pac-small-contributor-commi",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-02-16"
+    }
+  },
+  "recipient": "org:malia-cohen-for-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-dd09d67b25",
+      "locator": "Form 460 Schedule A: line 5 (2023-02-16, $1,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-58b1c34f2b",
+      "locator": "Form 460 Schedule A: line 212 (2025-12-22, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-6f3fc2d82c",
+      "locator": "Form 460 Schedule A: line 75 (2026-05-29, $13,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

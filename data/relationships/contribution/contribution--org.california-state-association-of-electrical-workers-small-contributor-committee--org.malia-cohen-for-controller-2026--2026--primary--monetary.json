@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-state-association-of-electrical-workers-small-contributor-committee--org.malia-cohen-for-controller-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-state-association-of-electrical-workers-small-contributor-committee",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 2820000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-06-29"
+    }
+  },
+  "recipient": "org:malia-cohen-for-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-dd09d67b25",
+      "locator": "Form 460 Schedule A: line 2 (2023-06-29, $10,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-9bcda47e10",
+      "locator": "Form 460 Schedule A: line 14 (2025-04-28, $9,600.00); line 15 (2025-04-28, $8,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
