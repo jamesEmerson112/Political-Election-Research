@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "stanforddaily-com-bd975b7f4a",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2022-11-03",
+  "publisher": "The Stanford Daily",
+  "title": "Meet the Stanford faculty and alumni running in local midterm elections",
+  "url": "https://stanforddaily.com/2022/11/03/meet-the-stanford-faculty-and-alumni-running-in-local-midterm-elections/"
+}

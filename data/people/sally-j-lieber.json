@@ -4,6 +4,25 @@
   "name": "Sally J. Lieber",
   "aliases": [],
   "candidate_profile": {
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Public policy major (class of ’99)",
+          "institution": "Stanford University",
+          "citations": [
+            {
+              "source": "src:stanforddaily-com-bd975b7f4a",
+              "quote": "Leiber ’99 is the Democratic District 2 candidate for the California State Board of Equalization"
+            },
+            {
+              "source": "src:stanforddaily-com-bd975b7f4a",
+              "quote": "At Stanford, she majored in public policy."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Incumbent (ballot designation); Chair, California State Board of Equalization (2nd District)",
       "citations": [
