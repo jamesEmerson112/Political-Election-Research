@@ -4,6 +4,37 @@
   "name": "Scott Wiener",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date, born",
+          "where": "Official State Senate biography (sd11.senate.ca.gov/biography) and condensed biography (sd11.senate.ca.gov/node/1209)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date, born",
+          "where": "Campaign site \"Meet Scott\" (scottwiener.com/meet-scott)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date, age",
+          "where": "SF Voter Information Pamphlet, candidate statement (p. 24)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Scott Wiener\" born 1970 state senator biography",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Scott Wiener\" \"May 11, 1970\"; only reference sites (Wikipedia, Vote Smart, JoinCalifornia) give a date, treated as leads under the maintainer's 2026-11-04 decision",
+          "where": "Web search"
+        }
+      ]
+    },
     "birthplace": {
       "value": "Grew up in New Jersey",
       "citations": [
