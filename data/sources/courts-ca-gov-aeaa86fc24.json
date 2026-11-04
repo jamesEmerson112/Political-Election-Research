@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "courts-ca-gov-aeaa86fc24",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Judicial Council of California",
+  "title": "Senator Thomas J. Umberg | Judicial Branch of California",
+  "url": "https://www.courts.ca.gov/bio/senator-thomas-j-umberg"
+}

@@ -40,6 +40,67 @@
           ]
         }
       ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "California State Senator (Senate District 34)",
+          "current": true,
+          "jurisdiction": "California",
+          "office_ref": "office:california-state-senator",
+          "start": "2018",
+          "citations": [
+            {
+              "source": "src:democrats-senate-ca-gov-55cfb5b302",
+              "quote": "Since his arrival in the State Senate in 2018, Senator Tom Umberg has chaired the Senate Elections Committee and the Senate Judiciary Committee."
+            },
+            {
+              "source": "src:courts-ca-gov-aeaa86fc24",
+              "quote": "Senator Thomas J. Umberg is a California State Senator, representing District 34 which includes north central Orange County and Long Beach. He assumed office in 2018."
+            }
+          ]
+        },
+        {
+          "office": "Member, California State Assembly (three terms, central Orange County)",
+          "current": false,
+          "jurisdiction": "California",
+          "office_ref": "office:california-assembly-member",
+          "citations": [
+            {
+              "source": "src:sd34-senate-ca-gov-09c115cd47",
+              "quote": "Senator Umberg also served three terms in the State Assembly, representing central Orange County."
+            }
+          ]
+        },
+        {
+          "office": "Deputy Drug Czar for President Bill Clinton",
+          "current": false,
+          "jurisdiction": "United States",
+          "citations": [
+            {
+              "source": "src:sd34-senate-ca-gov-09c115cd47",
+              "quote": "Senator Umberg served as Deputy Drug Czar for President Bill Clinton where he was responsible for foreign drug interdiction, counter-drug intelligence, and international drug policy."
+            }
+          ]
+        },
+        {
+          "office": "Member (Trustee), Judicial Council of California, representing the state Senate",
+          "current": true,
+          "jurisdiction": "California",
+          "start": "2020",
+          "citations": [
+            {
+              "source": "src:democrats-senate-ca-gov-55cfb5b302",
+              "quote": "Since 2020, Senator Umberg has served as a Trustee for the Judicial Council of California, the constitutionally created policy making body of the California courts."
+            },
+            {
+              "source": "src:courts-ca-gov-aeaa86fc24",
+              "quote": "Membership: Voting member representing the state Senate"
+            }
+          ]
+        }
+      ]
     }
   },
   "ids": [
