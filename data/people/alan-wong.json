@@ -54,6 +54,30 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "institution": "University of California, San Diego",
+          "citations": [
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "Thanks to a low-income tuition waiver at City College, he was able to go on to UC San Diego, where he graduated at age 19."
+            }
+          ]
+        },
+        {
+          "degree": "Master's in public affairs",
+          "institution": "University of San Francisco",
+          "citations": [
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "He later earned a master’s in public affairs from the University of San Francisco."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Member, San Francisco Board of Supervisors (District 4); officer, California Army National Guard",
       "citations": [
