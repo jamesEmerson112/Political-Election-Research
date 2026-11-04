@@ -33,6 +33,36 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Governor of Nevada",
+          "current": true,
+          "first_elected": "2022-11",
+          "jurisdiction": "Nevada",
+          "start": "2023-01",
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-ed9c06d3e3",
+              "quote": "Governor Lombardo was elected as the 31st Governor of Nevada in November 2022 and sworn into office in January 2023."
+            }
+          ]
+        },
+        {
+          "office": "Sheriff of Clark County",
+          "current": false,
+          "first_elected": "2014",
+          "jurisdiction": "Clark County, Nevada",
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-ed9c06d3e3",
+              "quote": "After 26 years on the force, Governor Lombardo was elected as Sheriff of Clark County in 2014 and re-elected in 2018."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
