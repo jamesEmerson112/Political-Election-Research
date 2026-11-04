@@ -134,6 +134,47 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Jeremy Julian Greco elected or appointed public office",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 4, printed p. 42"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Jeremy Julian Greco elected or appointed public office",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Jeremy Julian Greco elected or appointed public office",
+          "where": "Campaign site jeremygreco2026.com (home page; the About and Why I'm Running pages rendered only a site-builder shell)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Jeremy Julian Greco elected or appointed public office",
+          "where": "SF League of Pissed Off Voters questionnaires, Jeremy Greco, November 2026 and June 2026 (assets.nationbuilder.com PDFs)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Jeremy Julian Greco elected or appointed public office",
+          "where": "GrowSF June 2026 questionnaire page (candidate did not respond)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Jeremy Julian Greco elected or appointed public office",
+          "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Jeremy Julian Greco commissions or public office",
+          "where": "SF League of Pissed Off Voters November 2026 questionnaire, Jeremy Greco, answer: \"I have not served on any local or state commissions or policy bodies.\""
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
