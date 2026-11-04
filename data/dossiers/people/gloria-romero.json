@@ -1,0 +1,90 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:gloria-romero",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "restore-education-standards-and-merit-admissions",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Says she will restore education standards and, using the Lieutenant Governor's seats on university and college boards, push to restore merit in admissions and protect academic standards.",
+        "title": "Restore education standards and merit in college admissions",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I will restore education standards, develop a bold economic plan that helps businesses thrive, rein in politicized commissions that have failed to protect our water, farmland, and way of life, defend Title IX for our daughters in sports, and fight antisemitism on our campuses.",
+            "locator": "Candidate statement, p. 84"
+          },
+          {
+            "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+            "quote": "Gloria will fight to restore merit in admissions, protect academic standards, and stop setting students up for failure."
+          }
+        ]
+      },
+      {
+        "id": "economic-plan-for-businesses",
+        "as_of": "2026-11-04",
+        "summary": "Says she will develop an economic plan that helps businesses thrive.",
+        "title": "Develop an economic plan for businesses",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I will restore education standards, develop a bold economic plan that helps businesses thrive, rein in politicized commissions that have failed to protect our water, farmland, and way of life, defend Title IX for our daughters in sports, and fight antisemitism on our campuses.",
+            "locator": "Candidate statement, p. 84"
+          }
+        ]
+      },
+      {
+        "id": "rein-in-commissions-on-water-and-farmland",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "Says she will rein in commissions that, in her words, have failed to protect water, farmland and way of life.",
+        "title": "Rein in state commissions on water and farmland",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I will restore education standards, develop a bold economic plan that helps businesses thrive, rein in politicized commissions that have failed to protect our water, farmland, and way of life, defend Title IX for our daughters in sports, and fight antisemitism on our campuses.",
+            "locator": "Candidate statement, p. 84"
+          }
+        ]
+      },
+      {
+        "id": "defend-title-ix-in-womens-sports",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Says she will defend Title IX for women and girls in sports.",
+        "title": "Defend Title IX in women's sports",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I will restore education standards, develop a bold economic plan that helps businesses thrive, rein in politicized commissions that have failed to protect our water, farmland, and way of life, defend Title IX for our daughters in sports, and fight antisemitism on our campuses.",
+            "locator": "Candidate statement, p. 84"
+          },
+          {
+            "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+            "quote": "Gloria will proudly stand up for women’s sports and Title IX."
+          }
+        ]
+      },
+      {
+        "id": "fight-antisemitism-on-campuses",
+        "as_of": "2026-11-04",
+        "issue": "civil-rights",
+        "summary": "Says she will fight antisemitism on campuses and hold administrators and university officials accountable for non-discrimination in campus access and programs.",
+        "title": "Address antisemitism and discrimination on campuses",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I will restore education standards, develop a bold economic plan that helps businesses thrive, rein in politicized commissions that have failed to protect our water, farmland, and way of life, defend Title IX for our daughters in sports, and fight antisemitism on our campuses.",
+            "locator": "Candidate statement, p. 84"
+          },
+          {
+            "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+            "quote": "Gloria will hold administrators and university officials accountable to ensure non-discrimination in access to every campus and academic programming."
+          }
+        ]
+      }
+    ]
+  }
+}
