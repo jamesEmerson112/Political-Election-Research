@@ -71,6 +71,25 @@
       ]
     },
     {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "oppose",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Her campaign platform says she opposes renewing the city's Flock automated license-plate-reader contract when it expires in February 2027; at the Aug. 12, 2026 forum she said she does not support it.",
+      "citations": [
+        {
+          "source": "src:votedarshini-com-4a3a35b113",
+          "quote": "I oppose renewing the city's $3.9 million Flock automated license-plate-reader contract when it expires in February 2027.",
+          "locator": "Let the Flock Contract Expire"
+        },
+        {
+          "source": "src:ebar-com-ab817bf72d",
+          "quote": "Candidate Darshini Patel, a bi queer woman, said flatly, “I don’t support it.”"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-11-03",
