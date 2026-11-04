@@ -4,6 +4,42 @@
   "name": "Nelson Esparza",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birth / age",
+          "where": "https://www.nelsonesparza.com/about-nelson and https://www.nelsonesparza.com/ (campaign site)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birth / age",
+          "where": "https://www.fresno.gov/citycouncil/district-7/ (official council page)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birth",
+          "where": "Official Voter Information Guide, 2026 general, candidate statement p.91"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birth",
+          "where": "https://luskin.ucla.edu/news/2019-mpp-alumnus-of-the-year/"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Nelson Esparza Fresno councilmember age born year",
+          "where": "web search (news)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Nelson Esparza Fresno City Council biography Fresno State economics education",
+          "where": "web search (news)"
+        }
+      ]
+    },
     "occupation": {
       "value": "Teacher/Economist/Councilmember (ballot designation); Fresno City Council President (District 7) and economics instructor at Fresno City College",
       "citations": [
