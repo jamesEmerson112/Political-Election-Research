@@ -14,6 +14,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Canton, Ohio",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "SUSIE LEE, Democrat, of Las Vegas, NV; born in Canton, OH, November 7, 1966;",
+          "locator": "Nevada, Representatives, Third District, page 158 (PDF page 169)"
+        },
+        {
+          "source": "src:susielee-house-gov-d0c2e938be",
+          "quote": "Susie Lee was born to a working family of ten in Canton, Ohio."
+        }
+      ]
+    },
     "occupation": {
       "value": "U.S. Representative",
       "citations": [
