@@ -192,6 +192,21 @@
       ]
     },
     {
+      "subject": "q:reproductive-rights/federal-abortion-protection",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "His campaign issues page says he will work to codify the right to abortion into federal law.",
+      "citations": [
+        {
+          "source": "src:scottwiener-com-f4ee26be56",
+          "quote": "Codify the right to abortion into federal law, restoring and permanently protecting the core rights lost with the fall of Roe v. Wade.",
+          "locator": "\"In Congress, Scott will work to\" list"
+        }
+      ]
+    },
+    {
       "subject": "q:taxes/federal-wealth-tax",
       "stance": "support",
       "as_of": "2026-11-02",
