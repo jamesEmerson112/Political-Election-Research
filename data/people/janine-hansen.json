@@ -30,6 +30,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Sparks, Nevada",
+      "citations": [
+        {
+          "source": "src:janinehansen-com-883ad861bd",
+          "quote": "Native Nevadan born and raised in Sparks."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Independent American Party",
       "citations": [
