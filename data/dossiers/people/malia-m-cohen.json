@@ -115,6 +115,67 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "prescription-drug-price-accountability",
+        "as_of": "2026-11-04",
+        "issue": "healthcare",
+        "summary": "Her campaign site says she is working to expand health care access and to demand greater accountability around prescription drug prices.",
+        "title": "Accountability on prescription drug prices",
+        "citations": [
+          {
+            "source": "src:maliacohenforca-com-14510dd69e",
+            "quote": "Malia is fighting to expand access to more people and demand greater accountability around prescription drug prices, so that no one has to choose between their medicine and basic necessities."
+          }
+        ]
+      },
+      {
+        "id": "long-term-care-facility-costs-and-capacity",
+        "as_of": "2026-11-04",
+        "issue": "healthcare",
+        "summary": "Her campaign site says she is focused on the growing costs and infrastructure capacity of long-term care facilities.",
+        "title": "Long-term care facility costs and capacity",
+        "citations": [
+          {
+            "source": "src:maliacohenforca-com-14510dd69e",
+            "quote": "Malia is also focused on addressing the growing costs and infrastructure capacity for long-term care facilities for individuals and the state."
+          }
+        ]
+      },
+      {
+        "id": "greenhouse-gas-reduction-transparency",
+        "as_of": "2026-11-04",
+        "issue": "energy",
+        "summary": "Her campaign site says she will continue to demand transparency and accountability on reducing greenhouse gas emissions during a transition to a green economy.",
+        "title": "Transparency on greenhouse gas reductions",
+        "citations": [
+          {
+            "source": "src:maliacohenforca-com-4905b47bc4",
+            "quote": "Malia will continue to demand transparency and accountability around reducing greenhouse gas emissions while transitioning to a green economy and protecting California’s natural resources."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "specific proposals for a second term as Controller",
+        "where": "Campaign site maliacohenforca.com (home, Issues index and the issue pages for retirement security, economy, health care, reproductive access, equal rights and climate; the housing issue page link could not be resolved)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "proposals (statement lists past actions, no new proposals)",
+        "where": "2026 Official Voter Information Guide, Controller candidate statement (p. 86)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Cohen plans for second term",
+        "where": "Los Angeles Times controller race guide (2026-10-01)"
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-04",
     "items": [
