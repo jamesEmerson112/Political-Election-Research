@@ -3,10 +3,21 @@
   "id": "laurance-lee",
   "name": "Laurance Lee",
   "aliases": [],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:lauranceleesf-com-839ad6f827",
+          "quote": "Born and raised in San Francisco, the son of an undocumented Chinese immigrant."
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.lauranceleesf.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
