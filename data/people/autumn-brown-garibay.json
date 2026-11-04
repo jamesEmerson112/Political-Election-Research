@@ -111,6 +111,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "PTA Vice President",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is PTA Vice President.",
+          "locator": "Candidate statement, Board of Education, p. 28 (PDF page 30)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
