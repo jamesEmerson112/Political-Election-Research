@@ -81,6 +81,27 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Elected member, San Francisco Democratic County Central Committee (party committee)",
+          "current": true,
+          "jurisdiction": "San Francisco",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "Michael Nguyen, SFDCCC Member",
+              "locator": "Proposition B, paid argument signers, printed p. 76 (PDF p. 78)"
+            },
+            {
+              "source": "src:michaelnguyen4sf-com-bf56c82bac",
+              "quote": "As an elected official in the Democratic Party, I've worked with people across the political spectrum"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
