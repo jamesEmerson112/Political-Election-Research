@@ -3,10 +3,21 @@
   "id": "tim-tung",
   "name": "Tim Tung",
   "aliases": [],
+  "candidate_profile": {
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:timtung-com-a5bc851ee9",
+          "quote": "I came to San Francisco 15 years ago for a job and stayed for everything else."
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.timtung.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
