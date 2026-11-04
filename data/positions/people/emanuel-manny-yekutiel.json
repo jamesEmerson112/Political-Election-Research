@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:emanuel-manny-yekutiel",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, called Mayor Lurie's Family Zoning plan a great first step in the right direction and said by-right approvals for code-compliant housing are also needed.",
+      "citations": [
+        {
+          "source": "src:growsf-org-e9f57d3c82",
+          "quote": "Mayor Lurie’s Family Zoning plan is a great first step. It moves San Francisco in the right direction, but zoning alone will not solve our housing crisis.",
+          "locator": "Housing: Do you think Mayor Lurie's Family zoning plan is too ambitious or not ambitious enough?"
+        },
+        {
+          "source": "src:growsf-org-e9f57d3c82",
+          "quote": "Importantly, that includes by-right approvals for code-compliant housing.",
+          "locator": "Housing: Family zoning plan answer"
+        }
+      ]
+    }
+  ]
+}
