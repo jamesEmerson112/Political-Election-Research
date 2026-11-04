@@ -59,6 +59,20 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "institution": "Wellesley College",
+          "citations": [
+            {
+              "source": "src:votedarshini-com-b1154d89f8",
+              "quote": "At Wellesley, I got to see women and nonbinary leaders model power derived from critical thinking"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Community Advocate (ballot designation)",
       "citations": [
