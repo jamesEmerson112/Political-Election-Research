@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.courage-california-state-pac--person.rob-bonta--support--2026--primary",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "primary",
+  "money": {
+    "amount_cents": 1124884,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:courage-california-state-pac",
+  "target": "person:rob-bonta",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-d3824ec706",
+      "locator": "Form 496: line 1 (2026-05-05, $1,212.77, Voter Guide $1,212.77)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-59534ecc36",
+      "locator": "Form 496: line 1 (2026-05-13, $10,036.07, Voter Guide $11,248.84)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

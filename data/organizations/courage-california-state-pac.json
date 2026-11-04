@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "courage-california-state-pac",
+  "name": "Courage California State PAC",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1367190",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-04"
+}
