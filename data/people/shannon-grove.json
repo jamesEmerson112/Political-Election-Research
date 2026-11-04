@@ -44,6 +44,31 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Continental Labor and Staffing Resources",
+          "role": "CEO; co-founder (with her sister-in-law)",
+          "citations": [
+            {
+              "source": "src:sr12-senate-ca-gov-9c2d1eb9e8",
+              "quote": "Following her service to our nation, she established a staffing company with her sister-in-law called Continental Labor and Staffing Resources. Senator Grove currently serves as the CEO of this business that connects new employees to jobs in the area."
+            }
+          ]
+        },
+        {
+          "organization": "United States Army",
+          "role": "Soldier (served; stationed in Frankfurt, Germany in 1989)",
+          "citations": [
+            {
+              "source": "src:sr12-senate-ca-gov-9c2d1eb9e8",
+              "quote": "After graduating from high school, Senator Grove served in the United States Army. While stationed in Frankfurt, Germany she witnessed the fall of the Berlin Wall in 1989."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
