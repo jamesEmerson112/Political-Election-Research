@@ -93,6 +93,33 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "B.S., Marketing",
+          "institution": "University of San Francisco",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "previously earned a Bachelor of Science in Marketing from USF",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 47 (PDF p. 49)"
+            }
+          ]
+        },
+        {
+          "degree": "Master of Public Administration (in progress)",
+          "institution": "University of San Francisco",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "Pearci “PJ” Bastiany is a graduate student in the Master of Public Administration program at the University of San Francisco",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 47 (PDF p. 49)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "MPA Graduate Student (ballot designation); small business owner, founder and CEO of MAFH",
       "citations": [
