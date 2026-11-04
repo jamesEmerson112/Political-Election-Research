@@ -3,10 +3,31 @@
   "id": "albert-chow",
   "name": "Albert Chow",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Hardware store owner (Great Wall Hardware)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Hardware Store Owner.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ALBERT CHOW 周紹鋆 Hardware Store Owner",
+          "locator": "page 1, Board of Supervisors, District 4, English Ballot Designation column"
+        },
+        {
+          "source": "src:albertchowsf-com-1655fc7a43",
+          "quote": "Today, he still owns the store, but an arsonist burned it down in 2024"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.albertchowsf.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
