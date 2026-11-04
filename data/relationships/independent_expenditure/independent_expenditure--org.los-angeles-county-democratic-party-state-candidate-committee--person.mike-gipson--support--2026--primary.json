@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.los-angeles-county-democratic-party-state-candidate-committee--person.mike-gipson--support--2026--primary",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "primary",
+  "money": {
+    "amount_cents": 383809,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:los-angeles-county-democratic-party-state-candidate-committee",
+  "target": "person:mike-gipson",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-0e955203e4",
+      "locator": "Form 496: line 1 (2024-02-15, $63.66, MBR; Voter Data $2,149.29); line 2 (2024-02-15, $2,032.99, MBR; Slate Mailer $2,149.29); line 3 (2024-02-15, $52.64, MBR; Slate Mailer $2,149.29)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-7dbc44bae8",
+      "locator": "Form 496: line 1 (2026-05-19, $1,688.80, MBR; POS & LIT $1,688.80)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
