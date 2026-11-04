@@ -57,6 +57,52 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "J.R. Eppler education school degree",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 10"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "J.R. Eppler education school degree",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "J.R. Eppler education school degree",
+          "where": "Campaign website: jreppler.com home, About and Issues pages"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "J.R. Eppler education school degree",
+          "where": "GrowSF November 2026 questionnaire page for the candidate (growsf.org), including the Personal section"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "J.R. Eppler education school degree",
+          "where": "KQED voter guide, San Francisco Board of Supervisors District 10 (kqed.org/voterguide/sanfrancisco/supervisor-10th-district): candidate list and Positions on Key Issues"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "J.R. Eppler",
+          "where": "Gazetteer SF, Sept. 2, 2026 report on the Potrero Hill District 10 debate"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "J.R. Eppler",
+          "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org): HTTP 403 bot check, unreadable"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "J.R. Eppler law school MBA",
+          "where": "Notes from the sources read: GrowSF answer mentions Stanford drawing him to the Bay Area and four years in Los Angeles for law and business school, and the Issues page calls him an MBA; no institution is named for a degree"
+        }
+      ]
+    },
     "occupation": {
       "value": "Small Business Attorney (ballot designation)",
       "citations": [
