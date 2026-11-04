@@ -69,6 +69,50 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, Board of Supervisors, District 4 (appointed December 1, 2025)",
+          "current": true,
+          "jurisdiction": "City and County of San Francisco",
+          "office_ref": "office:san-francisco-supervisor",
+          "start": "2025-12-01",
+          "citations": [
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "On December 1, 2025, Mayor Daniel Lurie appointed Alan to represent District 4 on the Board of Supervisors."
+            },
+            {
+              "source": "src:sf-gov-0568db3522",
+              "quote": "Supervisor Alan Wong represents District 4."
+            }
+          ]
+        },
+        {
+          "office": "Member and President, City College of San Francisco Board of Trustees",
+          "current": false,
+          "first_elected": "2020",
+          "jurisdiction": "San Francisco Community College District",
+          "office_ref": "office:sfccd-board-of-trustees-member",
+          "citations": [
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "In 2020, Alan ran for City College Board and won."
+            },
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "During two terms as College Board President, Alan kept City College free, eliminated student debt, fought for fair union contracts for faculty, and saved Cantonese language programs–all while balancing the budget."
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I have served as a union organizer, Children’s Council of San Francisco policy director, and City College Board President.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 43 (PDF p. 45)"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
