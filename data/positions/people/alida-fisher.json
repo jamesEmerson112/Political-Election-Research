@@ -43,6 +43,24 @@
       ]
     },
     {
+      "subject": "q:education/sfusd-limit-screens-and-ai",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Fisher supports a moratorium on AI use in the district until it adopts a comprehensive AI policy, and says AI tools should assist educators rather than replace them.",
+      "citations": [
+        {
+          "source": "src:alidafisher-com-6909d6ce87",
+          "quote": "Until we have a comprehensive policy on AI usage in our school district, I support a moratorium on its usage."
+        },
+        {
+          "source": "src:alidafisher-com-6909d6ce87",
+          "quote": "There is growing evidence that tech tools have negative long term learning consequences."
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-proximity-assignment",
       "stance": "mixed",
       "as_of": "2026-11-04",
