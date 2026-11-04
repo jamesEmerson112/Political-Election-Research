@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "fresno-file-20-001203",
+  "status": {
+    "value": "enacted",
+    "as_of": "2020-09-17",
+    "citations": [
+      {
+        "source": "src:agendas-fresno-gov-fe8a8e0d73",
+        "quote": "20-001203 · Resolution · Passed"
+      },
+      {
+        "source": "src:agendas-fresno-gov-fe8a8e0d73",
+        "quote": "Thu, Sep 17, 2020 City Council ADOPTED Pass",
+        "locator": "History"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Resolution approving the Infrastructure Financing District Plan for the Fresno Enhanced Infrastructure Financing District",
+    "citations": [
+      {
+        "source": "src:agendas-fresno-gov-fe8a8e0d73",
+        "quote": "RESOLUTION - Approving the Infrastructure Financing District Plan for the Fresno Enhanced Infrastructure Financing District and the Allocation of the City’s Incremental Tax Revenue from the Project Area Pursuant to Government Code Section 53398.75 et seq."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

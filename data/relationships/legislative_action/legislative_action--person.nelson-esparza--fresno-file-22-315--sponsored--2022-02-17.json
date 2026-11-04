@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.nelson-esparza--fresno-file-22-315--sponsored--2022-02-17",
+  "type": "legislative_action",
+  "person": "person:nelson-esparza",
+  "action": "sponsored",
+  "bill": "fresno-file-22-315",
+  "cycle": 2022,
+  "date": "2022-02-17",
+  "citations": [
+    {
+      "source": "src:agendas-fresno-gov-f8a182bd60",
+      "quote": "Sponsors Nelson Esparza"
+    },
+    {
+      "source": "src:agendas-fresno-gov-f8a182bd60",
+      "quote": "FROM: NELSON ESPARZA, Council President District 7, City Council"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

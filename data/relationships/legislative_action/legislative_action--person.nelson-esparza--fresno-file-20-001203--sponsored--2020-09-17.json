@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.nelson-esparza--fresno-file-20-001203--sponsored--2020-09-17",
+  "type": "legislative_action",
+  "person": "person:nelson-esparza",
+  "action": "sponsored",
+  "bill": "fresno-file-20-001203",
+  "cycle": 2020,
+  "date": "2020-09-17",
+  "citations": [
+    {
+      "source": "src:agendas-fresno-gov-fe8a8e0d73",
+      "quote": "Sponsors Nelson Esparza"
+    },
+    {
+      "source": "src:agendas-fresno-gov-fe8a8e0d73",
+      "quote": "DATE: September 17, 2020 FROM: Councilmember Esparza District 7"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

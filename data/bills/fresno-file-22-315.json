@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "fresno-file-22-315",
+  "status": {
+    "value": "enacted",
+    "as_of": "2022-02-17",
+    "citations": [
+      {
+        "source": "src:agendas-fresno-gov-f8a182bd60",
+        "quote": "22-315 · Action Item · Passed"
+      },
+      {
+        "source": "src:agendas-fresno-gov-f8a182bd60",
+        "quote": "Thu, Feb 17, 2022 City Council APPROVED ON CONSENT CALENDAR Pass",
+        "locator": "History"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Resolution directing staff to meet and confer with labor unions on declaring Cesar Chavez Day a City of Fresno holiday",
+    "citations": [
+      {
+        "source": "src:agendas-fresno-gov-f8a182bd60",
+        "quote": "RESOLUTION - Directing staff to perform the necessary meet and confer with labor unions related to declaring Cesar Chavez Day a holiday in the City of Fresno (Subject to Mayor’s Veto)."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}
