@@ -48,6 +48,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Central Valley, California (where he says he grew up)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "I grew up in a working-class family in the Central Valley.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 47 (PDF p. 49)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
