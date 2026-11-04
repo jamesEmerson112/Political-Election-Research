@@ -64,6 +64,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Healthcare Policy Advocate (ballot designation); campaign manager of Speaker Emerita Nancy Pelosi's Save Our Health Care Campaign",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Healthcare Policy Advocate.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "GARY MCCOY 麥佳禮 Healthcare Policy Advocate",
+          "locator": "p. 1, Board of Supervisors, District 8 table (English ballot designation)"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Endorsed by Speaker Emerita Nancy Pelosi, I am the Campaign Manager for her Save Our Health Care Campaign",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
