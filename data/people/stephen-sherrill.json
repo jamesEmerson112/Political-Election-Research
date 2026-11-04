@@ -3,6 +3,23 @@
   "id": "stephen-sherrill",
   "name": "Stephen Sherrill",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Member, San Francisco Board of Supervisors (District 2)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Member, Board of Supervisors.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 41 (PDF p. 43)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "STEPHEN SHERRILL 史蒂芬‧謝里爾 Appointed Member, Board of Supervisors",
+          "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q131467292",
@@ -14,5 +31,5 @@
     "official_site": "https://www.sf.gov/district-2-supervisor-stephen-sherrill"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
