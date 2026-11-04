@@ -97,6 +97,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Manager / retired military (as stated in his candidate statement; his ballot designation is blank)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Manager / Retired Military.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "GUY MCCOY 蓋伊‧麥考伊 none",
+          "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [],
