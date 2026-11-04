@@ -2,6 +2,7 @@
   import { tick, untrack } from "svelte";
   import type { Index } from "../lib/data";
   import { contestRoute } from "../lib/data";
+  import { measureLabel } from "../lib/measureLabel";
   import { bridgeDomain, bridgeSteps, budgetInput, measureInput, runTrial, type Vote } from "../lib/budgetTrial";
   import { MEASURE_ICON } from "../lib/icons";
   import { MARK } from "../lib/marks";
@@ -65,7 +66,7 @@
   const current = $derived(step < measures.length ? measures[step]! : null);
   const rec = $derived(current ? ix.contests.get(current.ref)! : null);
   const answered = $derived(measures.filter((m) => votes[m.ref]).length);
-  const label = (ref: string) => `Prop ${String(ix.contests.get(ref)?.["number"] ?? ix.contestTitle(ref))}`;
+  const label = (ref: string) => measureLabel(ix, ref);
 
   let meterEl = $state<HTMLElement | null>(null);
   let headEl = $state<HTMLElement | null>(null);

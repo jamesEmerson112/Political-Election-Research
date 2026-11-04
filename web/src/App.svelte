@@ -61,7 +61,7 @@
   <div class="wrap top-row">
     <a class="brand" href="#overview">
       <span class="brand-name">Political Election Research</span>
-      <span class="brand-sub">California · cited candidate research</span>
+      <span class="brand-sub">California and Nevada · cited candidate research</span>
     </a>
     <div class="controls">
       {#if bundle.validation.errors > 0}<a class="chip bad" href="#about">✕ {plural(bundle.validation.errors, "validation error")}</a>{/if}

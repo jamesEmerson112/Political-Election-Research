@@ -8,7 +8,7 @@
 
   /**
    * "Who it affects", Democracy-style but descriptive: the groups the official
-   * digest and Controller's statement name, by what the text says they pay,
+   * digest and fiscal statement name, by what the text says they pay,
    * receive or have change (words, never arrows or colors), then how many people
    * and organizations signed the printed arguments on each side (▲/▼ mean
    * for/against only). Never says who benefits.
@@ -26,7 +26,7 @@
     "rebuttal-to-opponent": "Rebuttal to the opponent",
   };
   const argName = (id: string) => ARG[id] ?? id.replace(/^paid-(yes|no)-0*(\d+)$/, (_, s: string, n: string) => `Paid argument ${n} ${s === "yes" ? "for" : "against"}`);
-  const NOTE = "From the official digest and Controller's statement: what the text says each group would pay or get, or which rules would change for it. Not who benefits.";
+  const NOTE = "From the measure's official digest and fiscal statement: what the text says each group would pay or get, or which rules would change for it. Not who benefits.";
 
   function openAffect(a: Rec) {
     const e = a["effect"] as Effect;

@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Index } from "../lib/data";
   import { contestRoute } from "../lib/data";
+  import { measureLabel } from "../lib/measureLabel";
   import { MEASURE_ICON } from "../lib/icons";
   import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
   import Badge from "./Badge.svelte";
@@ -9,7 +10,7 @@
   /** One ballot measure: number, facts and fiscal chips first (or the official written estimate); the measure page on click. */
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
   const c = $derived(ix.contests.get(contestRef)!);
-  const label = (ref: string) => `Prop ${String(ix.contests.get(ref)?.["number"] ?? ix.contestTitle(ref))}`;
+  const label = (ref: string) => measureLabel(ix, ref);
 </script>
 
 <a class="mcard panel" href={`#${contestRoute(contestRef)}`}>

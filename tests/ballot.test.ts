@@ -268,3 +268,24 @@ describe("storage (Nevada)", () => {
     expect(loadChoice()).toEqual({ cd: [11], boe: [2] });
   });
 });
+
+describe("measure labels and small amounts (Nevada display)", async () => {
+  const { measureLabel } = await import("../web/src/lib/measureLabel.js");
+  const { usd, fiscalChips } = await import("../web/src/lib/measureChips.js");
+  const ix = { contests: new Map([["contest:2026-nv-general/question-7", { number: "7" }], ["contest:2026-ca-general/prop-3", { number: "3" }]]), contestTitle: (r: string) => r };
+  it("calls Nevada measures Questions and California's Props", () => {
+    expect(measureLabel(ix as never, "contest:2026-nv-general/question-7")).toBe("Question 7");
+    expect(measureLabel(ix as never, "contest:2026-ca-general/prop-3")).toBe("Prop 3");
+  });
+  it("shows small amounts exactly and large ones compactly", () => {
+    expect(usd(6750)).toBe("$6,750");
+    expect(usd(9999.6)).toBe("$10K");
+    expect(usd(950000)).toBe("$950K");
+    expect(usd(1.25e9)).toBe("$1.25B");
+  });
+  it("names the other lane as a state or local agency for Nevada measures", () => {
+    const effect = { lane: "other_agency", direction: "cost", per: "one_time", estimate: "estimated", amount: { low_usd: 6750, high_usd: 6750 }, text: "x", citations: [] };
+    expect(fiscalChips({ election: "election:2026-nv-general", fiscal: { effects: [effect] } })[0]!.text).toBe("State or local agency cost $6,750 once");
+    expect(fiscalChips({ election: "election:2026-ca-general", fiscal: { effects: [effect] } })[0]!.text).toBe("Other agency cost $6,750 once");
+  });
+});

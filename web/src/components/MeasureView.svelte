@@ -10,6 +10,7 @@
   import MeasureDigest from "./MeasureDigest.svelte";
   import MeasureComparison from "./MeasureComparison.svelte";
   import { contestRoute } from "../lib/data";
+  import { measureLabel } from "../lib/measureLabel";
   import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
@@ -21,7 +22,7 @@
     [...ix.agendas.entries()].filter(([, a]) => (a["measures"] as string[]).includes(contestRef)).map(([ref]) => ref),
   );
   const funders = (committee: string) => ix.ofType("contribution").filter((r) => r["recipient"] === committee);
-  const label = (ref: string) => `Prop ${String(ix.contests.get(ref)?.["number"] ?? ix.contestTitle(ref))}`;
+  const label = (ref: string) => measureLabel(ix, ref);
   const cites = (v: unknown) => ((v as { citations?: unknown[] } | undefined)?.citations ?? []) as never[];
 </script>
 

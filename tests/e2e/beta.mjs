@@ -117,6 +117,18 @@ await page.evaluate(() => localStorage.removeItem("per-my-ballot"));
 await page.goto(`${BASE}#overview`);
 await page.reload();
 
+// 5k. A Nevada ballot question reads in Nevada's terms: exact small amounts, no San Francisco wording.
+await page.goto(`${BASE}#c-2026-nv-general--question-7`);
+await page.waitForSelector("main h1", { timeout: 15000 });
+await page.waitForTimeout(300);
+const q7 = (await page.locator("main").innerText()).replace(/\s+/g, " ");
+check(
+  "5k. Nevada Question 7 shows its $6,750 cost exactly, a state-level lane name and no Controller's-statement wording",
+  q7.includes("$6,750") && q7.includes("State or local agency") && !q7.includes("Controller's statement") && !q7.includes("$6.8K"),
+  q7.match(/[^.]{0,40}\$6,750[^.]{0,20}/)?.[0] ?? "no $6,750",
+);
+await page.goto(`${BASE}#overview`);
+
 // 5f. On the Overview, proposition groups start folded; one click opens them.
 await go(page, "#overview");
 await page.waitForSelector(".group");

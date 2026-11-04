@@ -11,15 +11,17 @@ import type { Chip } from "./officeChips.js";
 type Rec = Record<string, any>;
 
 const compactUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", notation: "compact", minimumFractionDigits: 0, maximumFractionDigits: 1 });
+const wholeUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
 const centsUsd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
 /** Billions get two decimals, so nearby amounts stay apart ($1.05B vs $1.1B, not "$1.1B" twice). */
 const compactUsdB = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", notation: "compact", minimumFractionDigits: 0, maximumFractionDigits: 2 });
 
-/** $8M, $1.25B, $950K. */
+/** $8M, $1.25B, $950K; under $10,000 the exact amount ($6,750), so a small cost isn't rounded away. */
 export function usd(n: number): string {
   // Round to the dollar first: float sums like 99999999.99 would print as "$100.0M".
   const v = Math.round(Math.abs(n));
+  if (v < 10000) return wholeUsd.format(v);
   return (v >= 1e9 ? compactUsdB : compactUsd).format(v);
 }
 /** $8M–$12M, or $21M when low = high. Unsigned. */
@@ -236,6 +238,13 @@ export const LANE_LABEL: Record<string, string> = {
   bond_debt: "Bond repayment",
   other_agency: "Other agency",
 };
+/** Lane names for a state-level measure outside California (Nevada): its "other" lane is the state's or local governments' costs. */
+const LANE_LABEL_STATE: Record<string, string> = { ...LANE_LABEL, other_agency: "State or local agency" };
+const LANE_SHORT_STATE: Record<string, string> = { general_fund: "", set_aside: "set-aside", dedicated: "dedicated", bond_debt: "bond", other_agency: "state or local agency" };
+/** Nevada measures (election 2026-nv-general) use the state-level lane names. */
+export function laneLabels(c: Rec): { label: Record<string, string>; short: Record<string, string> } {
+  return /-nv-/.test(String(c["election"] ?? "")) ? { label: LANE_LABEL_STATE, short: LANE_SHORT_STATE } : { label: LANE_LABEL, short: LANE_SHORT };
+}
 const PER: Record<string, string> = { year: "/yr", one_time: " once", total: " total" };
 const WORD: Record<string, string> = { cost: "cost", revenue: "revenue", savings: "savings", none: "" };
 /** Short lane names inside a chip, after the percentage. */
@@ -312,6 +321,7 @@ export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r,
   const fiscal = c["fiscal"] as Rec | undefined;
   if (!fiscal) return [{ icon: "none", text: "Fiscal effect not researched", muted: true }];
   const out: Chip[] = [];
+  const names = laneLabels(c);
   const share = (lane: string) =>
     lane === "general_fund"
       ? base?.generalFund
@@ -324,7 +334,7 @@ export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r,
     const lane = String(e["lane"]);
     const icon = (LANE_LABEL[lane] ? lane : "none") as Chip["icon"];
     const lead = unverifiedOnly(e["citations"]);
-    const prefix = lane === "general_fund" ? "GF" : LANE_LABEL[lane];
+    const prefix = lane === "general_fund" ? "GF" : names.label[lane];
     if (e["estimate"] === "minimal") out.push({ icon, text: `${prefix}: minimal or no cost`, lead, title: String(e["text"]) });
     else if (e["estimate"] === "not_estimated") out.push({ icon: "none", text: `${prefix}: not estimated`, lead, title: String(e["text"]) });
     else if (e["estimate"] === "depends_on_future_decisions") out.push({ icon: "none", text: `${prefix}: depends on future decisions`, lead, title: String(e["text"]) });
@@ -344,7 +354,7 @@ export function fiscalChips(c: Rec, labelOf: (ref: string) => string = (r) => r,
       const s = share(lane);
       if (s) {
         const p = pctRange(a["low_usd"], a["high_usd"], s.of);
-        const text = `${p} of ${s.name} · ${[LANE_SHORT[lane], word].filter(Boolean).join(" ")} ${dollars}`.replace(/\s+/g, " ");
+        const text = `${p} of ${s.name} · ${[names.short[lane], word].filter(Boolean).join(" ")} ${dollars}`.replace(/\s+/g, " ");
         out.push({ icon, text, lead, title: `${p} of ${s.long}, computed here. ${String(e["text"])}` });
       } else out.push({ icon, text: `${prefix} ${word} ${dollars}`.replace(/\s+/g, " "), lead, title: String(e["text"]) });
     }
