@@ -3,6 +3,23 @@
   "id": "brad-lee-barnhill",
   "name": "Brad Lee Barnhill",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Independent American Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Barnhill Brad Lee IAP",
+          "locator": "PDF page 2 (Page 2 of 10), Secretary of State (party on the general election candidate list)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "IAP = Independent American Party",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
