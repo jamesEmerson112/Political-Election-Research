@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-republican-party--org.steve-hilton-for-governor-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-republican-party",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 25000000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-10-15"
+    }
+  },
+  "recipient": "org:steve-hilton-for-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-453f574fc9",
+      "locator": "Form 460 Schedule A: line 6283 (2026-10-15, $250,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

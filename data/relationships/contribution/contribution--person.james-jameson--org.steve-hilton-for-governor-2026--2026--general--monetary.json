@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.james-jameson--org.steve-hilton-for-governor-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:james-jameson",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 3920000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-07-17"
+    }
+  },
+  "recipient": "org:steve-hilton-for-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-abcae6a1b3",
+      "locator": "Form 460 Schedule A: line 22829 (2026-07-17, $39,200.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

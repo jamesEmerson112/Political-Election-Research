@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.stephen-hilton--org.steve-hilton-for-governor-2026--2026--primary--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:stephen-hilton",
+  "election_designation": "primary",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 1209995,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-04-18"
+    }
+  },
+  "recipient": "org:steve-hilton-for-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-b38bb6bce3",
+      "locator": "Form 460 Schedule C: line 1270 (2025-04-18, $12,099.95)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.chris-rufer--org.steve-hilton-for-governor-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:chris-rufer",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 3920000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-04-30"
+    }
+  },
+  "recipient": "org:steve-hilton-for-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-b38bb6bce3",
+      "locator": "Form 460 Schedule A: line 985 (2025-04-30, $25,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-62f0118565",
+      "locator": "Form 460 Schedule A: line 12706 (2025-12-15, $14,200.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
