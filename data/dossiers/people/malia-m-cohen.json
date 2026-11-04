@@ -114,5 +114,61 @@
         "where": "State Auditor report 2025-602 and CalMatters/LAist (2024-07-10)"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "san-francisco-pregnancy-information-disclosure-and-protection-ordinance",
+        "kind": "legislation",
+        "date": "2011-11-03",
+        "summary": "Introduced, as a San Francisco supervisor on August 2, 2011, an ordinance barring limited services pregnancy centers from false or misleading advertising about their services; the Board of Supervisors passed it 10 to 1 on October 25, 2011, it took effect December 4, 2011, and the Ninth Circuit affirmed in June 2017 that it was constitutional and not preempted by state law.",
+        "title": "San Francisco Pregnancy Information Disclosure and Protection Ordinance (2011)",
+        "citations": [
+          {
+            "source": "src:scotusblog-com-02d9978397",
+            "quote": "On August 2, 2011, Supervisor Malia Cohen, a member of the Board of Supervisors of the City and County of San Francisco (“the Board”), introduced legislation aimed at preventing such deceptive practices.",
+            "locator": "Opinion, p. 7"
+          },
+          {
+            "source": "src:scotusblog-com-02d9978397",
+            "quote": "On October 25, 2011, the Board passed the Ordinance in a ten-to-one vote. The Ordinance was signed into law on November 3, 2011, and took effect on December 4, 2011.",
+            "locator": "Opinion, p. 7"
+          },
+          {
+            "source": "src:scotusblog-com-02d9978397",
+            "quote": "The panel affirmed the district court, and held that San",
+            "locator": "Summary, p. 2"
+          },
+          {
+            "source": "src:scotusblog-com-02d9978397",
+            "quote": "Ordinance (the “Ordinance”) was constitutional and not preempted by state law.",
+            "locator": "Summary, p. 2"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Controller accomplishments, ACFR, charter school audits task force (site returned HTTP 403 bot challenge; not readable)",
+        "where": "State Controller's Office press releases and charter school audit task force report (sco.ca.gov)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "outcomes as Controller and BOE chair (describes efforts, no measurable outcomes)",
+        "where": "Franchise Tax Board official biography (ftb.ca.gov/about-ftb/bios/Controller.html)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "State Controller's Office award (winners are in collapsed sections that did not render as text)",
+        "where": "Department of General Services, 25th State Agency Recognition Awards page (dgs.ca.gov)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "First Resort v. Herrera Ninth Circuit opinion 2017 Pregnancy Information Disclosure and Protection Ordinance",
+        "where": "Web search"
+      }
+    ]
   }
 }
