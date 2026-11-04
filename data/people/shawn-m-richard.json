@@ -5,8 +5,51 @@
   "aliases": [
     "Shawn Richard"
   ],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Shawn M. Richard party registration",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 10"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Shawn M. Richard party registration",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Shawn M. Richard party registration",
+          "where": "Campaign website: none found (VIP statement lists no website; web search)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Shawn M. Richard party registration",
+          "where": "GrowSF November 2026 questionnaire page for the candidate (growsf.org), including the Personal section"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Shawn M. Richard party registration",
+          "where": "KQED voter guide, San Francisco Board of Supervisors District 10 (kqed.org/voterguide/sanfrancisco/supervisor-10th-district): candidate list and Positions on Key Issues"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Shawn M. Richard",
+          "where": "Gazetteer SF, Sept. 2, 2026 report on the Potrero Hill District 10 debate"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Shawn M. Richard",
+          "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org): HTTP 403 bot check, unreadable"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
