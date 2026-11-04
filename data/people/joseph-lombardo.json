@@ -24,6 +24,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "United States Army",
+          "role": "Service member",
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-ed9c06d3e3",
+              "quote": "After graduating, he served in the United States Army and in the Nevada National Guard."
+            }
+          ]
+        },
+        {
+          "organization": "Nevada National Guard",
+          "role": "Service member",
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-ed9c06d3e3",
+              "quote": "After graduating, he served in the United States Army and in the Nevada National Guard."
+            }
+          ]
+        },
+        {
+          "organization": "Las Vegas Metropolitan Police Department",
+          "role": "Officer, from detective to assistant sheriff",
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-ed9c06d3e3",
+              "quote": "Following his military service, Governor Lombardo joined the Las Vegas Metropolitan Police Department (LVMPD), where he quickly rose through the ranks and served on nearly every level of LVMPD, from detective to assistant sheriff."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
