@@ -109,5 +109,80 @@
         "where": "DocumentCloud copy of an FPPC letter (s3.documentcloud.org)"
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "build-100000-housing-units-in-san-francisco",
+        "as_of": "2026-11-04",
+        "issue": "housing",
+        "summary": "The campaign site's \"Matt’s Commitments in the Assembly\" list for affordable housing says he will build 100,000 new housing units in San Francisco over 10 years.",
+        "title": "Build 100,000 new housing units in San Francisco over 10 years",
+        "citations": [
+          {
+            "source": "src:matthaney-com-5bc98c7261",
+            "quote": "Build 100,000 new housing units in San Francisco over 10 years to make housing more affordable for all.",
+            "locator": "Matt’s Commitments in the Assembly"
+          }
+        ]
+      },
+      {
+        "id": "wealth-tax-on-billionaires-for-supportive-housing",
+        "as_of": "2026-11-04",
+        "issue": "taxes",
+        "summary": "The campaign site's homelessness commitments say he will pass a wealth tax on billionaires to fund supportive housing and navigation centers.",
+        "title": "Wealth tax on billionaires to fund supportive housing and navigation centers",
+        "citations": [
+          {
+            "source": "src:matthaney-com-d8a8cdf792",
+            "quote": "Pass a wealth tax on billionaires to fund investments in supportive housing and navigation centers.",
+            "locator": "Matt’s Commitments in the Assembly"
+          }
+        ]
+      },
+      {
+        "id": "state-level-overpaid-executive-tax",
+        "as_of": "2026-11-04",
+        "issue": "taxes",
+        "summary": "The campaign site's wealth-inequality commitments say he will develop a state Overpaid Executive Tax on companies whose highest-paid executives make more than 100 times their employees' median salary, with revenue used to hire nurses, firefighters and social workers.",
+        "title": "State-level Overpaid Executive Tax modeled on San Francisco's Prop L",
+        "citations": [
+          {
+            "source": "src:matthaney-com-154445763a",
+            "quote": "Develop a state-level Overpaid Executive Tax modeled on San Francisco’s Prop L in 2020. The tax would target companies whose highest-paid executives make more than 100 times the median salaries of their employees and revenues from the tax would be used to hire more nurses, firefighters, and social workers across the state.",
+            "locator": "Matt’s Commitments in the Assembly"
+          }
+        ]
+      },
+      {
+        "id": "high-speed-rail-to-salesforce-transit-center",
+        "as_of": "2026-11-04",
+        "issue": "transportation",
+        "summary": "The campaign site's climate commitments say he will work to complete the high-speed rail project and bring it to the Salesforce Transit Center with the downtown rail extension.",
+        "title": "Complete high-speed rail and the downtown rail extension to the Salesforce Transit Center",
+        "citations": [
+          {
+            "source": "src:matthaney-com-929819c426",
+            "quote": "Complete the high-speed rail project and bring high-speed rail to the Salesforce Transit Center with the downtown rail extension.",
+            "locator": "Matt’s Commitments in the Assembly"
+          }
+        ]
+      },
+      {
+        "id": "state-fund-for-hate-crime-victims",
+        "as_of": "2026-11-04",
+        "issue": "public-safety",
+        "summary": "The campaign site's public-safety commitments say he will help hate crime victims through a state fund for individuals and businesses affected by violence or vandalism.",
+        "title": "State fund for individuals and businesses affected by hate crimes",
+        "citations": [
+          {
+            "source": "src:matthaney-com-a6cdf08d6b",
+            "quote": "Help hate crime victims through a state fund for individuals and businesses affected by violence or vandalism.",
+            "locator": "Matt’s Commitments in the Assembly"
+          }
+        ]
+      }
+    ]
   }
 }
