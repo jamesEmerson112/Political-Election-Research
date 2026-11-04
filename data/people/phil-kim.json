@@ -120,6 +120,31 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "BS",
+          "institution": "Bucknell University",
+          "citations": [
+            {
+              "source": "src:growsf-org-d370012111",
+              "quote": "received my BS from Bucknell University (a private college)"
+            }
+          ]
+        },
+        {
+          "degree": "Master's in Education",
+          "institution": "Loyola Marymount University",
+          "citations": [
+            {
+              "source": "src:growsf-org-d370012111",
+              "quote": "Masters in Education from Loyola Marymount University-Los Angeles (a private university)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "School Board President",
       "citations": [
