@@ -64,6 +64,26 @@
           "where": "Web search"
         }
       ]
+    },
+    {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said he supports more Flock cameras in District 10 and would support fully funding SFPD including more Flock cameras and drones.",
+      "citations": [
+        {
+          "source": "src:growsf-org-413572f183",
+          "quote": "I wholeheartedly support the implementation of more flock cameras in District 10.",
+          "locator": "Your Policy Goals"
+        },
+        {
+          "source": "src:growsf-org-413572f183",
+          "quote": "I would be a vocal supporter of fully funding SFPD including foot patrol units, more flock cameras and drones.",
+          "locator": "Public Safety"
+        }
+      ]
     }
   ]
 }
