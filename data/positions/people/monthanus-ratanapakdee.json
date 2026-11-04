@@ -3,6 +3,36 @@
   "actor": "person:monthanus-ratanapakdee",
   "positions": [
     {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Her platform supports housing near transit and commercial corridors, including 7- to 8-story buildings where infrastructure fits, while protecting quiet residential blocks from out-of-scale development; she opposes the proposed 25-story Marina Safeway tower.",
+      "citations": [
+        {
+          "source": "src:ratanapakdeesf-org-7bb757142b",
+          "quote": "Responsible growth near transit and commercial corridors",
+          "locator": "Housing That Fits District 2"
+        },
+        {
+          "source": "src:ratanapakdeesf-org-7bb757142b",
+          "quote": "7- to 8-story housing where it fits neighborhood infrastructure",
+          "locator": "Housing That Fits District 2"
+        },
+        {
+          "source": "src:ratanapakdeesf-org-7bb757142b",
+          "quote": "Protect quiet residential blocks from out-of-scale development",
+          "locator": "Housing That Fits District 2"
+        },
+        {
+          "source": "src:ratanapakdeesf-org-7bb757142b",
+          "quote": "No support for the proposed 25-story Marina Safeway tower",
+          "locator": "Housing That Fits District 2"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/bike-lanes-over-parking",
       "stance": "no_public_position",
       "as_of": "2026-11-03",
