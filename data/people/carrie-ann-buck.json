@@ -73,6 +73,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Educator, Principal, President and Executive Director of the Pinecrest Foundation",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Educator, Principal, President and Executive Director of the Pinecrest Foundation",
+          "locator": "Legislative Biography, 2025 Session, page 6: Carrie Ann Buck, occupation line"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
