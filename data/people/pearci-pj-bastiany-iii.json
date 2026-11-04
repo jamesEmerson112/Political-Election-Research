@@ -93,6 +93,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "MPA Graduate Student (ballot designation); small business owner, founder and CEO of MAFH",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is MPA Graduate Student.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 47 (PDF p. 49)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "PEARCI \"PJ\" BASTIANY III 皮爾斯‧「PJ」‧巴斯蒂亞尼三世 MPA Graduate Student",
+          "locator": "p. 1, Board of Supervisors, District 10 table (English ballot designation)"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "As Founder and CEO of MAFH",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 47 (PDF p. 49)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
