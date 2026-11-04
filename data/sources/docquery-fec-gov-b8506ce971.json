@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "docquery-fec-gov-b8506ce971",
+  "kind": "campaign_finance_filing",
+  "accessed": "2026-11-04",
+  "filing": {
+    "filer_id": "C00927558",
+    "filing_id": "FEC-1925925",
+    "form": "F1",
+    "system": "fec"
+  },
+  "published": "2025-11-20",
+  "publisher": "Federal Election Commission",
+  "title": "FEC Form 1, Statement of Organization, Connie Chan for Congress (FEC-1925925)",
+  "url": "https://docquery.fec.gov/cgi-bin/forms/C00927558/1925925/"
+}

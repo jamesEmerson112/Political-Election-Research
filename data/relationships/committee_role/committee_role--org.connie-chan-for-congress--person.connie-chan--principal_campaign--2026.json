@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.connie-chan-for-congress--person.connie-chan--principal_campaign--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/us-house-ca-11",
+  "subject": "person:connie-chan",
+  "committee": "org:connie-chan-for-congress",
+  "cycle": 2026,
+  "role": "principal_campaign",
+  "citations": [
+    {
+      "source": "src:docquery-fec-gov-b8506ce971",
+      "quote": "3. FEC Committee ID #: C00927558 This committee is a Principal Campaign Committee. Candidate: Connie Chan",
+      "locator": "Form 1 (FEC-1925925), line 3"
+    },
+    {
+      "source": "src:docquery-fec-gov-b8506ce971",
+      "quote": "State is California in District: 11",
+      "locator": "Form 1 (FEC-1925925), line 3, office sought"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
