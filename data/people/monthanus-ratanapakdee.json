@@ -66,6 +66,32 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Justice for Vicha Foundation",
+          "role": "Founder",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "She founded the Justice for Vicha Foundation after her father, Vicha Ratanapakdee, was killed in an unprovoked attack",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+            }
+          ]
+        },
+        {
+          "role": "Community advocate",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "community advocate, nonprofit founder, and public safety leader",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
