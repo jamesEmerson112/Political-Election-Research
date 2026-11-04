@@ -3,6 +3,20 @@
   "actor": "person:ryan-hazelton",
   "positions": [
     {
+      "subject": "q:education/sfusd-close-or-merge-schools",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Hazelton says consolidating schools in a community-engaged way that brings more resources to schools could help reach student outcome goals.",
+      "citations": [
+        {
+          "source": "src:growsf-org-9608327318",
+          "quote": "If we can consolidate schools in a compassionate, thoughtful, community engaged way that brings more resources to schools, we have a chance at getting to our student outcome goals."
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-proximity-assignment",
       "stance": "support",
       "as_of": "2026-11-04",
