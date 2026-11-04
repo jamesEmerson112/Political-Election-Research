@@ -126,6 +126,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "City of Orange councilmember (Mayor Pro Tem) and licensed civil and traffic engineer (ballot designation: Councilmember/Civil Engineer)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Denis Bilodeau Republican\nCouncilmember/Civil Engineer",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 4"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Licensed Civil and Traffic Engineer.",
+          "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Mayor Pro Tem, City of Orange.",
+          "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
