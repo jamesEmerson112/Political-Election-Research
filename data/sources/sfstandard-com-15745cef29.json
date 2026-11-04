@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-15745cef29",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-05-04",
+  "publisher": "The San Francisco Standard",
+  "title": "Scott Wiener explains why he’s not supporting the billionaire tax",
+  "url": "https://sfstandard.com/2026/05/04/power-play-scott-wiener-tax/"
+}

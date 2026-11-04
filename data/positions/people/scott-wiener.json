@@ -3,6 +3,28 @@
   "actor": "person:scott-wiener",
   "positions": [
     {
+      "subject": "contest:2026-ca-general/prop-40",
+      "stance": "oppose",
+      "as_of": "2026-09-01",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "Told The San Francisco Standard in May 2026 that he does not support the statewide billionaire tax (later Proposition 40); SFGATE reported that he abstained in the San Francisco Democratic Party's August 2026 endorsement vote and had previously said he opposed the measure.",
+      "citations": [
+        {
+          "source": "src:sfstandard-com-15745cef29",
+          "quote": "“I don’t support it.”"
+        },
+        {
+          "source": "src:cpapracticeadvisor-com-ccc9f21536",
+          "quote": "Wiener previously said he opposed the billionaire tax measure."
+        },
+        {
+          "source": "src:cpapracticeadvisor-com-ccc9f21536",
+          "quote": "According to endorsement vote tallies, state Sen. Scott Wiener abstained from voting on the endorsement and Supervisor Connie Chan was absent."
+        }
+      ]
+    },
+    {
       "subject": "q:ai/data-center-moratorium",
       "stance": "oppose",
       "as_of": "2026-11-02",
