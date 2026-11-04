@@ -4,6 +4,20 @@
   "name": "Mike Gipson",
   "aliases": [],
   "candidate_profile": {
+    "birthplace": {
+      "value": "Watts community of Los Angeles",
+      "citations": [
+        {
+          "source": "src:blackcaucus-legislature-ca-gov-271ba316d7",
+          "quote": "Assemblymember Mike A. Gipson was proudly born and raised in the Watts community of Los Angeles."
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Born and raised in Los Angeles, Mike has dedicated his life to public service.",
+          "locator": "page 93, Candidate Statements, Board of Equalization District 3"
+        }
+      ]
+    },
     "residence_city": {
       "value": "Carson",
       "citations": [
