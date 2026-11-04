@@ -68,6 +68,43 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Property Management Executive",
+          "citations": [
+            {
+              "source": "src:api-sf-gov-cd997081d7",
+              "quote": "NICHOLAS BERG 盧柏格 Property Management Executive",
+              "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+            }
+          ]
+        },
+        {
+          "organization": "San Francisco Republican Party",
+          "role": "Chairman",
+          "citations": [
+            {
+              "source": "src:growsf-org-ff90a06896",
+              "quote": "I am also the Chairman of the San Francisco Republican Party.",
+              "locator": "Personal: current involvement in the community"
+            }
+          ]
+        },
+        {
+          "organization": "The Briones Society",
+          "role": "Board Member",
+          "citations": [
+            {
+              "source": "src:growsf-org-ff90a06896",
+              "quote": "I am a Board Member of The Briones Society, a club advancing a practical, moderate conservatism built for cities and the people who live in them.",
+              "locator": "Personal: current involvement in the community"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
