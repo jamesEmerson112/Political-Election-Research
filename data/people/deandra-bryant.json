@@ -60,6 +60,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Housing Advocate (ballot designation); community advocate and IHSS provider",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Community Advocate and IHSS Provider.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "DEANDRA BRYANT 蒂安德拉‧布萊恩特 Housing Advocate",
+          "locator": "p. 1, Board of Supervisors, District 10 table (English ballot designation)"
+        },
+        {
+          "source": "src:kqed-org-44d1250e32",
+          "quote": "Emergency-housing case manager and advocate for children with disabilities",
+          "locator": "Candidates list"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
