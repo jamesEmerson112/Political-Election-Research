@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:tim-tung",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "protect-a-balanced-budget",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tung's voter pamphlet statement says he will protect a balanced budget; his site lists maintaining a structurally balanced budget, building reserves in line with best practices and planning ahead for the sunset of the Prop G educator parcel tax.",
+        "title": "Keep a structurally balanced budget and plan for the Prop G parcel tax sunset",
+        "topic": "budget-and-funding",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "I will protect a balanced budget, deliver on the student assignment system, and insist on transparent data.",
+            "locator": "Candidate statement, Board of Education, p. 31 (PDF page 33)"
+          },
+          {
+            "source": "src:timtung-com-3a63547e12",
+            "quote": "maintaining a structurally balanced budget, building reserves in line with best practices, planning ahead for the sunset of the Prop G educator parcel tax, and looking past polished administrative reports to the actual data.",
+            "locator": "Issues: A Fiscally Stable, Accountable District"
+          }
+        ]
+      },
+      {
+        "id": "deliver-the-student-assignment-system",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tung's voter pamphlet statement says he will deliver on the student assignment system; his site says he would examine the district's enrollment simulations, fix technical bottlenecks and keep the transition to a zone-based system from being delayed further.",
+        "title": "Keep the move to a zone-based assignment system from stalling",
+        "topic": "school-assignment",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "I will protect a balanced budget, deliver on the student assignment system, and insist on transparent data.",
+            "locator": "Candidate statement, Board of Education, p. 31 (PDF page 33)"
+          },
+          {
+            "source": "src:timtung-com-3a63547e12",
+            "quote": "As a data scientist and parent leader, I’ll dig into the District’s enrollment simulations, fix the technical bottlenecks, and make sure this transition doesn’t stall any further.",
+            "locator": "Issues: A Student Assignment System That Works for Families"
+          }
+        ]
+      },
+      {
+        "id": "cohort-level-performance-data",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tung's voter pamphlet statement says he will insist on transparent data; his site says he will insist on cohort-level performance data that parents and the board can see.",
+        "title": "Insist on transparent, cohort-level performance data",
+        "topic": "data-and-reporting",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "I will protect a balanced budget, deliver on the student assignment system, and insist on transparent data.",
+            "locator": "Candidate statement, Board of Education, p. 31 (PDF page 33)"
+          },
+          {
+            "source": "src:timtung-com-3a63547e12",
+            "quote": "I’ll insist on transparent, cohort-level performance data so parents and the Board can see what’s really happening in our schools.",
+            "locator": "Issues: Better Outcomes for Every Student"
+          }
+        ]
+      },
+      {
+        "id": "expand-intervention-time-and-literacy-tutoring",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tung's site says he will push to expand dedicated intervention time such as WIN blocks and high-impact literacy tutoring in high-needs schools.",
+        "title": "Expand intervention time (WIN blocks) and literacy tutoring in high-needs schools",
+        "topic": "literacy-and-math",
+        "citations": [
+          {
+            "source": "src:timtung-com-3a63547e12",
+            "quote": "I’ll champion expanding what’s already working: dedicated intervention time like WIN blocks that give students targeted support at no additional instructional cost, high-impact literacy tutoring in high-needs schools, and more capacity in the programs families are lining up for, like language immersion and advanced coursework.",
+            "locator": "Issues: Better Outcomes for Every Student"
+          }
+        ]
+      },
+      {
+        "id": "expand-immersion-seats",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tung's site says he would add capacity in programs families seek, such as language immersion and advanced coursework, including by expanding immersion seats to grow enrollment.",
+        "title": "Expand seats in language immersion and advanced coursework",
+        "topic": "specialty-programs",
+        "citations": [
+          {
+            "source": "src:timtung-com-3a63547e12",
+            "quote": "Growing enrollment, including by expanding seats in immersion programs families are actively seeking out, makes the entire district stronger and more financially secure.",
+            "locator": "Issues: A Student Assignment System That Works for Families"
+          },
+          {
+            "source": "src:timtung-com-3a63547e12",
+            "quote": "more capacity in the programs families are lining up for, like language immersion and advanced coursework.",
+            "locator": "Issues: Better Outcomes for Every Student"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Tim Tung candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Education candidate statements, printed p. 31"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "priorities, issues",
+        "where": "timtung.com home page and Issues page"
+      }
+    ]
+  }
+}
