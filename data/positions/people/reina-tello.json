@@ -94,6 +94,54 @@
       ]
     },
     {
+      "subject": "q:education/sfusd-limit-screens-and-ai",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "screen time / phones / devices / AI / technology in class",
+          "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, candidate statement (https://media.api.sf.gov/documents/N26_EN_VIP.pdf, p. 31 (PDF page 33))"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "screen time / phones / devices / AI / technology in class",
+          "where": "Campaign website: https://www.reinaforschoolboard.org, https://www.reinaforschoolboard.org/about"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "screen time / phones / devices / AI / technology in class",
+          "where": "GrowSF candidate questionnaire: https://growsf.org/voter-guide/questionnaires/november-2026/reina-tello/"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"League of Pissed Off Voters\" 2026 questionnaire \"Reina Tello\"",
+          "where": "Web search for a SF League of Pissed Off Voters 2026 questionnaire response (none found; theleaguesf.org returned HTTP 403)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "screen time / phones / devices / AI / technology in class",
+          "where": "Mission Local school board candidate profiles and Meet the Candidates posts (https://missionlocal.org/2026-san-francisco-school-board-race/, https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/): blocked, HTTP 403"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "screen time / phones / devices / AI / technology in class",
+          "where": "KQED Voter Guide, San Francisco Board of Education (https://www.kqed.org/voterguide/sanfrancisco/school), 'Positions on Key Issues': the technology-policy question is listed but its answers were collapsed and not in the page text"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "SFUSD school board candidates 2026 phones screen time AI classroom limits Hazelton Tello Tung Lee Kim",
+          "where": "Web search (news, voter guides)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "sfstandard 2026 school board candidates where they stand closures algebra AI reserves voter guide",
+          "where": "Web search (news, voter guides)"
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-proximity-assignment",
       "stance": "mixed",
       "as_of": "2026-11-04",
