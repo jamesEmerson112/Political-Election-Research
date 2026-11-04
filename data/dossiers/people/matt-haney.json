@@ -184,5 +184,103 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "ab-12-tenancy-security-deposits",
+        "kind": "legislation",
+        "bill": "ca-2023-ab-12",
+        "date": "2023-10-11",
+        "summary": "Authored AB 12 (Tenancy: security deposits); signed by the Governor on October 11, 2023 as one of 56 housing bills; no measured outcome recorded as of 2026-11-04.",
+        "title": "AB 12 (2023): Tenancy: security deposits",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "quote": "AB 12 by Assemblymember Matt Haney (D-San Francisco) – Tenancy: security deposits.",
+            "locator": "Complete list of bills signed by the Governor (release dated October 11, 2023)"
+          },
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "quote": "Governor Gavin Newsom today announced that he has signed 56 bills into law"
+          }
+        ]
+      },
+      {
+        "id": "ab-572-common-interest-developments-assessments",
+        "kind": "legislation",
+        "bill": "ca-2023-ab-572",
+        "date": "2023-10-11",
+        "summary": "Authored AB 572 (Common interest developments: imposition of assessments); signed by the Governor on October 11, 2023 as one of 56 housing bills; no measured outcome recorded as of 2026-11-04.",
+        "title": "AB 572 (2023): Common interest developments: imposition of assessments",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "quote": "AB 572 by Assemblymember Matt Haney (D-San Francisco) – Common interest developments: imposition of assessments.",
+            "locator": "Complete list of bills signed by the Governor (release dated October 11, 2023)"
+          },
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "quote": "Governor Gavin Newsom today announced that he has signed 56 bills into law"
+          }
+        ]
+      },
+      {
+        "id": "ab-1114-post-entitlement-phase-permits",
+        "kind": "legislation",
+        "bill": "ca-2023-ab-1114",
+        "date": "2023-10-11",
+        "summary": "Authored AB 1114 (Planning and zoning: housing development projects: post entitlement phase permits); signed by the Governor on October 11, 2023 as one of 56 housing bills; no measured outcome recorded as of 2026-11-04.",
+        "title": "AB 1114 (2023): Planning and zoning: post entitlement phase permits",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "quote": "AB 1114 by Assemblymember Matt Haney (D-San Francisco) – Planning and zoning: housing development projects: post entitlement phase permits.",
+            "locator": "Complete list of bills signed by the Governor (release dated October 11, 2023)"
+          },
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "quote": "Governor Gavin Newsom today announced that he has signed 56 bills into law"
+          }
+        ]
+      },
+      {
+        "id": "ab-1485-housing-element-enforcement",
+        "kind": "legislation",
+        "bill": "ca-2023-ab-1485",
+        "date": "2023-10-11",
+        "summary": "Authored AB 1485 (Housing element: enforcement: Attorney General); signed by the Governor on October 11, 2023 as one of 56 housing bills; no measured outcome recorded as of 2026-11-04.",
+        "title": "AB 1485 (2023): Housing element: enforcement: Attorney General",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "quote": "AB 1485 by Assemblymember Matt Haney (D-San Francisco) – Housing element: enforcement: Attorney General.",
+            "locator": "Complete list of bills signed by the Governor (release dated October 11, 2023)"
+          },
+          {
+            "source": "src:gov-ca-gov-0c89c12612",
+            "quote": "Governor Gavin Newsom today announced that he has signed 56 bills into law"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Haney; four bills listed (recorded)",
+        "where": "Governor of California news release, October 11, 2023 housing package (gov.ca.gov)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "authored bills; the bill list lives on leginfo.legislature.ca.gov, which is blocked from this session",
+        "where": "Assembly member page (assembly.ca.gov/assemblymembers/17) and its Authored Bills link"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "not reachable: TLS certificate error through the session proxy",
+        "where": "Assembly Democratic Caucus press releases (a17.asmdc.org)"
+      }
+    ]
   }
 }
