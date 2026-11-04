@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "herb-morgan-com-46dfe0e7ca",
+  "kind": "candidate_website",
+  "accessed": "2026-11-04",
+  "published": "2026-10-18",
+  "publisher": "Herb Morgan for State Controller 2026",
+  "title": "Herb Morgan's first 100 days as Controller",
+  "url": "https://herb-morgan.com/first-100-days/"
+}

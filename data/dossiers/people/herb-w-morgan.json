@@ -21,5 +21,102 @@
         "where": "Los Angeles Times controller race guide (2026-10-01)"
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "online-database-of-state-expenditures",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "Says he will place all state expenditures in an online database with transaction-level detail and near real-time reporting.",
+        "title": "Online database of state expenditures with transaction-level detail",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I will deliver for the people by placing all expenditures in an easy-to-use online database with transaction-level detail and near real-time reporting, so every Californian can see exactly how public funds are used.",
+            "locator": "Candidate statement, p. 86"
+          }
+        ]
+      },
+      {
+        "id": "audit-social-services-system",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "His campaign site says California has never conducted a full audit of its social services system and that he will demand audits.",
+        "title": "Full audit of the social services system",
+        "citations": [
+          {
+            "source": "src:herbmorgan-com-53df8f683f",
+            "quote": "California has never conducted a full, top-to-bottom audit of its social services system—despite historic fraud losses. Herb Morgan will demand real audits, not excuses."
+          }
+        ]
+      },
+      {
+        "id": "blockchain-backed-ledgers",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "His campaign site lists blockchain-backed ledgers and public receipts under what he will do as Controller.",
+        "title": "Blockchain-backed ledgers and public receipts",
+        "citations": [
+          {
+            "source": "src:herbmorgan-com-53df8f683f",
+            "quote": "Blockchain-backed ledgers. Transparent reporting. Receipts the public can actually see"
+          }
+        ]
+      },
+      {
+        "id": "100-day-public-performance-scorecard",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "His 100-day plan proposes reporting progress by Day 100 on controls, risk priorities, transaction monitoring, public transaction data, audit or referral procedures, financial reporting and unclaimed property returns.",
+        "title": "Public performance scorecard after 100 days",
+        "citations": [
+          {
+            "source": "src:herb-morgan-com-46dfe0e7ca",
+            "quote": "By Day 100, Morgan proposes reporting progress on controls, risk priorities, initial monitoring, public transaction data and audit or referral procedures. His plan also includes financial-reporting progress and returns of unclaimed property."
+          }
+        ]
+      },
+      {
+        "id": "rename-unclaimed-property-division",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "His 100-day plan proposes renaming the Unclaimed Property Division the Property Reunification Department and measuring it by returns to owners and claim times.",
+        "title": "Rename the Unclaimed Property Division",
+        "citations": [
+          {
+            "source": "src:herb-morgan-com-46dfe0e7ca",
+            "quote": "Morgan would rename the Unclaimed Property Division the Property Reunification Department."
+          },
+          {
+            "source": "src:herb-morgan-com-46dfe0e7ca",
+            "quote": "Morgan proposes judging the service by returns to rightful owners and the time required to complete claims."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "proposals",
+        "where": "2026 Official Voter Information Guide, Controller candidate statement (p. 86)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "what he will do as Controller",
+        "where": "Campaign site herbmorgan.com (home and Meet Herb Morgan pages; /issues returned 404)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "100-day plan",
+        "where": "Campaign site herb-morgan.com (sitemap, About Herb and First 100 days pages)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "How Morgan would approach the job",
+        "where": "Los Angeles Times controller race guide (2026-10-01)"
+      }
+    ]
   }
 }
