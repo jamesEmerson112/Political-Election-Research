@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfexaminer-com-3724f5460d",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2025-08-13",
+  "publisher": "San Francisco Examiner",
+  "title": "How California SB 79 may increase SF housing height limits",
+  "url": "https://www.sfexaminer.com/news/housing/how-california-sb-79-may-increase-sf-housing-height-limits/article_f63e1c94-292d-4519-8e97-46ba0aba190f.html"
+}

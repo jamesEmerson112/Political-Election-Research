@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "therealdeal-com-510bebe485",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2025-07-14",
+  "publisher": "The Real Deal",
+  "title": "California Senate bill threatens San Francisco upzoning",
+  "url": "https://therealdeal.com/san-francisco/2025/07/14/california-senate-bill-threatens-san-francisco-upzoning"
+}

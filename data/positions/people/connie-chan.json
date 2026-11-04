@@ -59,6 +59,32 @@
       ]
     },
     {
+      "subject": "q:housing/transit-oriented-upzoning",
+      "stance": "oppose",
+      "as_of": "2025-08-13",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "In July 2025 she introduced a Board of Supervisors resolution opposing SB 79, saying it undercut San Francisco's community process for its Housing Element and would circumvent the city's zoning rules; the board rejected the resolution 7-4 on July 22, 2025.",
+      "citations": [
+        {
+          "source": "src:sfexaminer-com-3724f5460d",
+          "quote": "The measure “undercuts the years-long community process to develop a citywide Housing Element,\" reads the text of a resolution introduced by Supervisor Connie Chan to signal opposition to the measure."
+        },
+        {
+          "source": "src:sfexaminer-com-3724f5460d",
+          "quote": "Chan’s resolution failed to pass after the Board of Supervisors voted against it 7-4 at their July 22 meeting."
+        },
+        {
+          "source": "src:therealdeal-com-510bebe485",
+          "quote": "Wiener’s proposal would circumvent the city’s zoning rules and lead to “land speculation, displacement and gentrification,” according to Chan."
+        },
+        {
+          "source": "src:newsletters-48hills-org-3a3596d421",
+          "quote": "The resolution, by Sups. Connie Chan, Chyanne Chen, and Jackie Fielder, urges the Legislature to defeat the bill"
+        }
+      ]
+    },
+    {
       "subject": "q:immigration/expand-skilled-work-visas",
       "stance": "support",
       "as_of": "2026-11-02",
