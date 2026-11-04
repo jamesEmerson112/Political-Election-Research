@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-86e2da976f",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2014-02-05",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "New Nevadan runs as independent in CD-3 race",
+  "url": "https://www.reviewjournal.com/news/new-nevadan-runs-as-independent-in-cd-3-race",
+  "notes": "Byline Laura Myers; about his 2014 campaign. Opened 2026-11-04. Not archived: web.archive.org was unreachable from the research environment."
+}

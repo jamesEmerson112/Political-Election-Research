@@ -4,6 +4,30 @@
   "name": "Steven \"Chap\" St John",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Advertising, marketing and sales",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-86e2da976f",
+              "quote": "He has worked in advertising, marketing and sales."
+            }
+          ]
+        },
+        {
+          "organization": "San Diego Union-Tribune",
+          "role": "Employee",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-86e2da976f",
+              "quote": "St John said he and his wife have lived in Nevada for more than seven months, coming from California where he worked for the San Diego Union-Tribune."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [
