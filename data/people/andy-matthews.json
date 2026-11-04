@@ -29,6 +29,15 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Nevada State Controller",
+      "citations": [
+        {
+          "source": "src:controller-nv-gov-a5a81f8ccc",
+          "quote": "Andy Matthews took office as Nevada's 23rd state Controller on Jan. 2, 2023."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
