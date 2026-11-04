@@ -3,6 +3,21 @@
   "actor": "person:michael-t-nguyen",
   "positions": [
     {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "oppose",
+      "as_of": "2026-06-17",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "The San Francisco Examiner reported that Nguyen said he opposed Mayor Daniel Lurie's Family Zoning plan, in part because he did not think it had adequate protections against demolition of rent-controlled apartments.",
+      "citations": [
+        {
+          "source": "src:sfexaminer-com-cfd1c154fe",
+          "quote": "He said he opposed Lurie’s recently approved Family Zoning plan, which provided for denser development in parts of The City to meet state mandates, in part because he did not think there were adequate protections against demolition of rent-controlled apartments.",
+          "locator": "Michael Nguyen section"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-11-03",
