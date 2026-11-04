@@ -80,6 +80,28 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Commissioner, Commission on Community Investment and Infrastructure (Office of Community Investment and Infrastructure, OCII)",
+          "current": false,
+          "jurisdiction": "City and County of San Francisco",
+          "citations": [
+            {
+              "source": "src:growsf-org-89815455e3",
+              "quote": "Former City Commissioner, Office of Community Investment and Infrastructure (OCII): Led affordable housing and community investment for Hunters Point Shipyard, Mission Bay, and Transbay Terminal.",
+              "locator": "Personal: current involvement in the community"
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "As City Commissioner, I led the creation of over 1,000 affordable homes and restored $50M in community development.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
