@@ -125,6 +125,20 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Sunset District)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "I am a 50-year Sunset resident",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+        },
+        {
+          "source": "src:albertchowsf-com-1655fc7a43",
+          "quote": "Albert Chow has lived in the Sunset since 1978 when his family started the Great Wall Hardware Store on Taraval."
+        }
+      ]
     }
   },
   "ids": [],
