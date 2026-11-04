@@ -66,6 +66,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Small Business Owner (ballot designation); owner of Manny's cafe and event space",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Small Business Owner.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 46 (PDF p. 48)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "EMANUEL \"MANNY\" YEKUTIEL 伊曼紐爾‧「曼尼」‧耶庫蒂爾 Small Business Owner",
+          "locator": "p. 1, Board of Supervisors, District 8 table (English ballot designation)"
+        },
+        {
+          "source": "src:growsf-org-e9f57d3c82",
+          "quote": "I still run Manny’s, my small business",
+          "locator": "Personal section, community involvement answer"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
