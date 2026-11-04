@@ -129,6 +129,15 @@
           "where": "Web search (news)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Twin Peaks)",
+      "citations": [
+        {
+          "source": "src:ebar-com-04987a4dcd",
+          "quote": "McCoy lives with his husband, Kory Powell-McCoy, and their dog Xander, in Twin Peaks, where they moved in 2017."
+        }
+      ]
     }
   },
   "ids": [],
