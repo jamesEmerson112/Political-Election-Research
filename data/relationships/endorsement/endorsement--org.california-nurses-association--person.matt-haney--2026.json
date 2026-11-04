@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-nurses-association--person.matt-haney--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:matt-haney",
+  "endorser": "org:california-nurses-association",
+  "citations": [
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "• Equality California • California Nurses Association • Planned Parenthood Northern California Action Fund",
+      "locator": "p. 26 (PDF page 28), Candidate Statements, Matt Haney, \"Endorsed by\" list (candidate's statement)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
