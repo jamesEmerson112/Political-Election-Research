@@ -40,6 +40,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "San Francisco (Sunset District)",
+      "citations": [
+        {
+          "source": "src:alanwong-com-e7687a07c9",
+          "quote": "Alan was born and raised in the Sunset and attended local public schools."
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "it is the greatest honor of my life to serve the neighborhood I was born and raised in.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 43 (PDF p. 45)"
+        }
+      ]
+    },
     "occupation": {
       "value": "Member, San Francisco Board of Supervisors (District 4); officer, California Army National Guard",
       "citations": [
