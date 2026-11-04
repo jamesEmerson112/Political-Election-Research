@@ -86,6 +86,99 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Eviction defense attorney",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "Haney regularly represents tenants as an eviction defense attorney."
+            }
+          ]
+        },
+        {
+          "organization": "The Dream Corps",
+          "role": "National Political Director",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "Supervisor Haney is former National Political Director at The Dream Corps"
+            }
+          ]
+        },
+        {
+          "organization": "#cut50",
+          "role": "Co-founder",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "With Van Jones and Jessica Jackson, he is the Co-Founder of #cut50"
+            }
+          ]
+        },
+        {
+          "organization": "Stanford Design School",
+          "role": "Adjunct faculty member",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "Supervisor Haney is a former Adjunct Faculty Member at the Stanford Design School."
+            }
+          ]
+        },
+        {
+          "organization": "JFK School of Law",
+          "role": "Instructor, Education Law",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "He also taught Education Law at the JFK School of Law, and Sociology at Palo Alto University."
+            }
+          ]
+        },
+        {
+          "organization": "Palo Alto University",
+          "role": "Instructor, Sociology",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "He also taught Education Law at the JFK School of Law, and Sociology at Palo Alto University."
+            }
+          ]
+        },
+        {
+          "organization": "UC Student Association",
+          "role": "Executive Director",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "Haney is the former Executive Director of the UC Student Association"
+            }
+          ]
+        },
+        {
+          "organization": "Obama for America 2008",
+          "role": "California Youth Vote Director",
+          "citations": [
+            {
+              "source": "src:matthaney-com-ae3e71e589",
+              "quote": "California Youth Vote Director for Obama for America 2008"
+            }
+          ]
+        },
+        {
+          "role": "Worked with the Domestic War Crimes court tribunal in Bosnia",
+          "citations": [
+            {
+              "source": "src:matthaney-com-ae3e71e589",
+              "quote": "formerly worked in Bosnia as part of the Domestic War Crimes court tribunal"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
