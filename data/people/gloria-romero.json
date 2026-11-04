@@ -114,6 +114,105 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, California State Senate, 24th District",
+          "current": false,
+          "first_elected": "2001",
+          "jurisdiction": "California",
+          "office_ref": "office:california-state-senator",
+          "start": "2001-03",
+          "citations": [
+            {
+              "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+              "quote": "Former California State Senator Gloria Romero is a nationally recognized leader on education reform and school choice. First elected to the State Senate in 2001, she represented East Los Angeles and the San Gabriel Valley"
+            },
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "In March 2001, the people of California"
+            },
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "24th Senate District overwhelmingly elected Gloria Romero to the California State Senate."
+            }
+          ]
+        },
+        {
+          "office": "Majority Leader, California State Senate",
+          "current": false,
+          "jurisdiction": "California",
+          "citations": [
+            {
+              "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+              "quote": "becoming the first woman to serve as Senate Majority Leader in California history"
+            }
+          ]
+        },
+        {
+          "office": "Member, California State Assembly, 49th District",
+          "current": false,
+          "end": "2001",
+          "jurisdiction": "California",
+          "office_ref": "office:california-assembly-member",
+          "start": "1998",
+          "citations": [
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "Immediately prior to her election she served in the California State Assembly, representing the 49th Assembly District in Los Angeles."
+            },
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "Since first joining the State Legislature in 1998"
+            }
+          ]
+        },
+        {
+          "office": "Majority Whip, California State Assembly",
+          "current": false,
+          "jurisdiction": "California",
+          "citations": [
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "As an Assembly member she was named Majority Whip"
+            },
+            {
+              "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+              "quote": "Prior to the Senate, Romero served as Majority Whip in the California State Assembly"
+            }
+          ]
+        },
+        {
+          "office": "Member, Los Angeles Community College District Board of Trustees",
+          "current": false,
+          "first_elected": "1995",
+          "jurisdiction": "Los Angeles Community College District",
+          "citations": [
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "In 1995, Dr. Romero became the first Latina elected to the Los Angeles Community College Board of Trustees and served as board vice-president."
+            }
+          ]
+        },
+        {
+          "office": "Member, Los Angeles Elected Charter Reform Commission",
+          "current": false,
+          "first_elected": "1997",
+          "jurisdiction": "City of Los Angeles",
+          "citations": [
+            {
+              "source": "src:calstatela-edu-30c73bc96c",
+              "quote": "Dr. Romero was subsequently elected to the Los Angeles Elected Charter Reform Commission in 1997."
+            },
+            {
+              "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+              "quote": "on the Los Angeles Elected Charter Reform Commission"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
@@ -151,5 +250,5 @@
     "campaign_site": "https://www.gloriaromero4ltgov.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
