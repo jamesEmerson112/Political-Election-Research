@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:nicholas-berg",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "end-cite-and-release-repeat-offenders",
+        "as_of": "2026-11-04",
+        "issue": "public-safety",
+        "summary": "Berg lists fully staffing SFPD, returning officers to beat policing and ending cite-and-release for repeat misdemeanor offenders as his first policy goal.",
+        "title": "End cite-and-release for repeat misdemeanor offenders",
+        "citations": [
+          {
+            "source": "src:growsf-org-ff90a06896",
+            "quote": "Fully staff SFPD to its recommended level, return officers to proactive beat policing, end cite-and-release for repeat misdemeanor offenders, and shut down the open-air drug markets by arresting and prosecuting fentanyl dealers at every level",
+            "locator": "Your Policy Goals, item 1"
+          }
+        ]
+      },
+      {
+        "id": "approve-more-charter-schools",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Berg says he would champion approving more charter schools and fair access to facilities.",
+        "title": "Approve more charter schools",
+        "citations": [
+          {
+            "source": "src:growsf-org-ff90a06896",
+            "quote": "I'll champion approving more high-quality charter schools and fair access to facilities",
+            "locator": "Your Policy Goals, item 3"
+          }
+        ]
+      },
+      {
+        "id": "independent-audits-and-program-sunsets",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "Berg says he would demand independent audits and sunset programs that cannot demonstrate results.",
+        "title": "Independent audits and sunsetting programs without results",
+        "citations": [
+          {
+            "source": "src:growsf-org-ff90a06896",
+            "quote": "I'll demand independent audits, sunset programs that can't demonstrate results",
+            "locator": "Your Policy Goals, item 4"
+          }
+        ]
+      }
+    ]
+  }
+}
