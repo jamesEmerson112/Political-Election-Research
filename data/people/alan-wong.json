@@ -104,6 +104,16 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Sunset District)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Sunset is the community I love and the only home I’ve ever known.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 43 (PDF p. 45)"
+        }
+      ]
     }
   },
   "ids": [
