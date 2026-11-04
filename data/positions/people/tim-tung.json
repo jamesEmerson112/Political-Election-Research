@@ -165,6 +165,49 @@
       ]
     },
     {
+      "subject": "q:education/sfusd-raise-educator-pay",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "educator pay / salaries / compensation / labor agreements / budget trade-offs",
+          "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, candidate statement (https://media.api.sf.gov/documents/N26_EN_VIP.pdf, p. 31 (PDF page 33))"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "educator pay / salaries / compensation / labor agreements / budget trade-offs",
+          "where": "Campaign website: https://www.timtung.com, https://www.timtung.com/about, https://www.timtung.com/issues"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "educator pay / salaries / compensation / labor agreements / budget trade-offs",
+          "where": "GrowSF candidate questionnaire: https://growsf.org/voter-guide/questionnaires/november-2026/tim-tung/"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"League of Pissed Off Voters\" 2026 questionnaire \"Tim Tung\"",
+          "where": "Web search for a SF League of Pissed Off Voters 2026 questionnaire response (none found; theleaguesf.org returned HTTP 403)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "educator pay / salaries / compensation / labor agreements / budget trade-offs",
+          "where": "Mission Local school board candidate profiles and Meet the Candidates posts (https://missionlocal.org/2026-san-francisco-school-board-race/, https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/): blocked, HTTP 403"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "educator pay / salaries / compensation / labor agreements / budget trade-offs",
+          "where": "KQED Voter Guide, San Francisco Board of Education (https://www.kqed.org/voterguide/sanfrancisco/school), 'Positions on Key Issues': no question on this topic"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "San Francisco school board candidates 2026 teacher pay raise budget cuts Prop G parcel tax renewal position",
+          "where": "Web search (news, voter guides)"
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-spend-reserves",
       "stance": "oppose",
       "as_of": "2026-11-04",
