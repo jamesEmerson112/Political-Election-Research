@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "gipson-for-board-of-equalization-2026",
+  "name": "Gipson for Board of Equalization 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1471779",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.gipson-for-board-of-equalization-2026--person.mike-gipson--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/board-of-equalization-3",
+  "subject": "person:mike-gipson",
+  "committee": "org:gipson-for-board-of-equalization-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-056faadd1b",
+      "locator": "Form 460 cover page (filing 3214723, amendment 0): committee, candidate and office: Mike Gipson, BOE District 3"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
