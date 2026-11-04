@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "mike-gipson",
+  "name": "Mike Gipson",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://www.mikegipson.net/",
+    "facebook": "https://facebook.com/MikeGipson4BOE",
+    "x": "https://x.com/mgipson2014"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}
