@@ -95,6 +95,19 @@
           "quote": "In 2008, Richard Barrera was an elected democrat to the Board of the San Diego Unified"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Diego (the district biography names the South Park neighborhood)",
+      "citations": [
+        {
+          "source": "src:sandiegounified-org-3f7629f84e",
+          "quote": "Barrera, a resident of South Park, is married and a parent of two sons, both graduates of San Diego Unified."
+        },
+        {
+          "source": "src:sandiegounified-org-3f7629f84e",
+          "quote": "A first-generation San Diegan whose father immigrated to the United States from Colombia"
+        }
+      ]
     }
   },
   "ids": [],
@@ -102,5 +115,5 @@
     "campaign_site": "https://www.barreraforedu.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }

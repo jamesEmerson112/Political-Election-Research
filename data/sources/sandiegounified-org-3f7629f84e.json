@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sandiegounified-org-3f7629f84e",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "San Diego Unified School District",
+  "title": "Richard Barrera",
+  "url": "https://sandiegounified.org/about/board_of_education/overview/richard_barrera"
+}
