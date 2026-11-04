@@ -95,5 +95,36 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "outcomes during board service (lists offices and liaison roles only)",
+        "where": "Chino Valley Unified School District board biography (chino.k12.ca.us/145710_3)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "record on the board (district ranking and recovery-research claims are campaign statements, not government records)",
+        "where": "Campaign site shawforca.com (home page)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "record in office",
+        "where": "2026 Official Voter Information Guide, Superintendent of Public Instruction candidate statement (p. 95)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Chino Valley Unified board adopted 2023 2024 2025 policy vote Shaw board president resolution approved",
+        "where": "Web search, then Chino Valley USD board minutes (chino.k12.ca.us 2023 minutes PDF returned 404)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "board policy outcome (recorded under controversies)",
+        "where": "California Attorney General press release on the Policy 5020.1 ruling (oag.ca.gov)"
+      }
+    ]
   }
 }
