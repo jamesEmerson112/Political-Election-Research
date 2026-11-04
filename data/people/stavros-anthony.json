@@ -35,6 +35,47 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Lieutenant Governor of Nevada",
+          "current": true,
+          "first_elected": "2022",
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "Anthony was elected as Nevada’s Lieutenant Governor in 2022."
+            }
+          ]
+        },
+        {
+          "office": "Member, Las Vegas City Council, Ward 4 (Mayor Pro Tem for seven years)",
+          "current": false,
+          "first_elected": "2009",
+          "jurisdiction": "City of Las Vegas",
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "In 2009, Anthony was elected to the Las Vegas City Council, representing Ward 4, where he served three terms. He also served as Mayor Pro Tem for 7 of those years."
+            }
+          ]
+        },
+        {
+          "office": "Regent, Nevada System of Higher Education Board of Regents (served as chairman)",
+          "current": false,
+          "first_elected": "2002",
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "Anthony was elected in 2002 to a four-year term as a regent with the Nevada System of Higher Education and served a second term. As chairman of the Board of Regents, Anthony led the way in developing a master plan, system goals and a value statement."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
