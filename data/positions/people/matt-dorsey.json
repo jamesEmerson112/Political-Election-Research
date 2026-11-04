@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:matt-dorsey",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "vote",
+      "summary": "Voted yes on the Family Zoning Plan zoning map ordinance (File No. 250700) on first reading on December 2, 2025 and at final passage on December 9, 2025; in his GrowSF questionnaire he says the plan struck a good balance.",
+      "citations": [
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "[Zoning Map - Family Zoning Plan]",
+          "locator": "p. 1, ordinance heading"
+        },
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "Ayes: 7 - Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill and Wong",
+          "locator": "p. 72, legislative history, December 02, 2025, passed on first reading"
+        },
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "Ayes: 6 - Dorsey, Mahmood, Mandelman, Melgar, Sauter and Sherrill",
+          "locator": "p. 72, legislative history, December 09, 2025, final passage"
+        },
+        {
+          "source": "src:growsf-org-aecb4e3daa",
+          "quote": "The Family Zoning Plan struck a good balance, but there’s always more that can be done when it comes to housing.",
+          "locator": "Housing: Do you think Mayor Lurie’s Family zoning plan is too ambitious or not ambitious enough?"
+        }
+      ]
+    }
+  ]
+}
