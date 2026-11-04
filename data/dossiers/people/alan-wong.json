@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:alan-wong",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "reopen-great-highway-weekdays",
+        "as_of": "2026-11-04",
+        "issue": "transportation",
+        "summary": "Wong's candidate statement lists reopening the Great Highway to vehicles on weekdays among the things he is fighting for.",
+        "title": "Reopen the Great Highway to vehicles on weekdays",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Reopening the Great Highway to vehicles on weekdays.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 43 (PDF p. 45)"
+          }
+        ]
+      },
+      {
+        "id": "eighth-grade-algebra-zone-assignments",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Wong's candidate statement lists eighth-grade algebra and neighborhood zone-based public school assignments.",
+        "title": "Eighth-grade algebra and zone-based school assignments",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Eighth-grade algebra and neighborhood zone-based public school assignments.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 43 (PDF p. 45)"
+          }
+        ]
+      },
+      {
+        "id": "hire-more-police-officers",
+        "as_of": "2026-11-04",
+        "issue": "public-safety",
+        "summary": "Wong's candidate statement lists hiring more police officers and giving police the tools and funding to prevent crime.",
+        "title": "Hire more police officers",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Hiring more police officers, justice for crime victims, and giving police the tools and funding they need to prevent crime.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 43 (PDF p. 45)"
+          }
+        ]
+      }
+    ]
+  }
+}
