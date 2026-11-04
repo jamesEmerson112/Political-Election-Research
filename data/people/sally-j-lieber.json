@@ -66,6 +66,33 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "San Francisco Bay Restoration Authority",
+          "role": "Advisor",
+          "citations": [
+            {
+              "source": "src:stanforddaily-com-bd975b7f4a",
+              "quote": "She currently serves as an advisor to the San Francisco Bay Restoration Authority, a regional agency that funds projects to protect and restore the San Francisco Bay."
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "career / worked / employer",
+          "where": "https://www.boe.ca.gov/lieber/about.htm (official BOE bio; lists public offices only)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "career / worked / employer",
+          "where": "https://sallylieber.org/about (campaign site)"
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
