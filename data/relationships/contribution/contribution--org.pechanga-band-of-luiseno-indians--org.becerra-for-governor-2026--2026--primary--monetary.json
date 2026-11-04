@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.pechanga-band-of-luiseno-indians--org.becerra-for-governor-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:pechanga-band-of-luiseno-indians",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 4460000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-06-28"
+    }
+  },
+  "recipient": "org:becerra-for-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-267279bb79",
+      "locator": "Form 460 Schedule A: line 1812 (2025-06-30, $2,700.00); line 2053 (2025-06-30, $2,700.00); line 1154 (2025-06-28, $39,200.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

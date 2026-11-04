@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.santa-ynez-band-of-mission-indians--org.becerra-for-governor-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:santa-ynez-band-of-mission-indians",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 2130000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-06-30"
+    }
+  },
+  "recipient": "org:becerra-for-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-267279bb79",
+      "locator": "Form 460 Schedule A: line 1012 (2025-06-30, $2,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-5a73c33bde",
+      "locator": "Form 460 Schedule A: line 693 (2025-12-30, $8,100.00); line 3614 (2025-12-30, $1,200.00); line 6120 (2025-07-15, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-e7464d079a",
+      "locator": "Form 460 Schedule A: line 14058 (2026-05-11, $5,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

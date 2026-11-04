@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "raul-ayala",
+  "name": "Raul Ayala",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-04"
+}

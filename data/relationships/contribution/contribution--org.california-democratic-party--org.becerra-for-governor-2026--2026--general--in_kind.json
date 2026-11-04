@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-democratic-party--org.becerra-for-governor-2026--2026--general--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-democratic-party",
+  "election_designation": "general",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 99467517,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-08-21"
+    }
+  },
+  "recipient": "org:becerra-for-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-a4963918ad",
+      "locator": "Form 460 Schedule C: line 5124 (2026-08-21, $23,847.17); line 5125 (2026-08-21, $28,285.90); line 5126 (2026-09-01, $5,393.46)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-9071accaab",
+      "locator": "Form 460 Schedule C: line 1517 (2026-09-25, $101,332.52); line 1518 (2026-09-25, $2,203.01); line 1519 (2026-10-01, $50,723.30); line 1520 (2026-10-12, $720,029.37); line 1521 (2026-10-13, $393.75); line 1522 (2026-10-13, $357.75); line 1523 (2026-10-16, $62,108.94)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

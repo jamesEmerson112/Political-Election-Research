@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-state-council-of-laborers-pac--org.becerra-for-governor-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-state-council-of-laborers-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 5470000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-12-11"
+    }
+  },
+  "recipient": "org:becerra-for-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-5a73c33bde",
+      "locator": "Form 460 Schedule A: line 5018 (2025-12-30, $15,500.00); line 6113 (2025-12-11, $39,200.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

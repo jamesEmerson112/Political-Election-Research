@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "united-nurses-association-of-california-union-of-health-care-professionals-pac-u",
+  "name": "United Nurses Association of California/Union of Health Care Professionals PAC (UNAC PAC)",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}
