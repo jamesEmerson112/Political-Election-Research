@@ -30,6 +30,27 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "place of birth",
+          "where": "KTNV, 'Danielle Ford wants to be the education governor' (Oct. 3, 2026)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Danielle Ford Nevada State Board of Education District 3 member bio doe.nv.gov",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Danielle Ford\" governor campaign site \"about Danielle\"",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [
