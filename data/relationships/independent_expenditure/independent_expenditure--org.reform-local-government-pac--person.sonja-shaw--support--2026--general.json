@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.reform-local-government-pac--person.sonja-shaw--support--2026--general",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "general",
+  "money": {
+    "amount_cents": 1000000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:reform-local-government-pac",
+  "target": "person:sonja-shaw",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-fe3f323354",
+      "locator": "Form 496: line 1 (2026-09-15, $10,000.00, SLATE MAILER)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
