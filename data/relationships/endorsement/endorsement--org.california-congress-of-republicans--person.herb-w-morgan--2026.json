@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-congress-of-republicans--person.herb-w-morgan--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:herb-w-morgan",
+  "endorser": "org:california-congress-of-republicans",
+  "citations": [
+    {
+      "source": "src:herbmorgan-com-a0f1a0fea5",
+      "quote": "California Congress of Republicans",
+      "locator": "Endorsements page, Political Organizations"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

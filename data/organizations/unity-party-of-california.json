@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "unity-party-of-california",
+  "name": "Unity Party of California",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "political_party",
+  "last_verified": "2026-11-04"
+}
