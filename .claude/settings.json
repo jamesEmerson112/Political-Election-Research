@@ -1,0 +1,5 @@
+{
+  "permissions": {
+    "allow": ["Bash(npm run -s put:*)", "Bash(npx tsx tools/research/run.mts:*)"]
+  }
+}
