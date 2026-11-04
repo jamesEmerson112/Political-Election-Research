@@ -4,6 +4,16 @@
   "name": "Steven A. Horsford",
   "aliases": [],
   "candidate_profile": {
+    "occupation": {
+      "value": "U.S. Representative",
+      "citations": [
+        {
+          "source": "src:clerk-house-gov-3532e27d5f",
+          "quote": "Nevada (NV) – 4th, Democrat",
+          "locator": "Member profile header"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
