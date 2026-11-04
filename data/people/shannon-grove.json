@@ -4,6 +4,32 @@
   "name": "Shannon Grove",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birth / age",
+          "where": "https://sr12.senate.ca.gov/biography (official Senate bio)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birth / age",
+          "where": "https://shannongroveca.com/ and /meet-shannon/ (campaign site)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birth",
+          "where": "Official Voter Information Guide, 2026 general, candidate statement p.91"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Shannon Grove senator born date age Bakersfield (a date appeared only in Wikipedia and other reference/aggregator sites, which are not citable)",
+          "where": "web search (news)"
+        }
+      ]
+    },
     "birthplace": {
       "value": "Kern County, California",
       "citations": [
