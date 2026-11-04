@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-professional-firefighters-pac--org.gipson-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-professional-firefighters-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1000000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-02-21"
+    }
+  },
+  "recipient": "org:gipson-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-301a6499f2",
+      "locator": "Form 460 Schedule A: line 122 (2025-05-30, $1,000.00); line 25 (2025-02-21, $1,000.00); line 84 (2025-03-14, $1,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-a155be9bf6",
+      "locator": "Form 460 Schedule A: line 20 (2025-08-15, $1,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-c122df1e53",
+      "locator": "Form 460 Schedule A: line 35 (2026-04-15, $3,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-a95c892956",
+      "locator": "Form 460 Schedule A: line 15 (2026-05-12, $3,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

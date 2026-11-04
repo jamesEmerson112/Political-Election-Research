@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "southern-california-pipe-trades-district-council-16-pac",
+  "name": "Southern California Pipe Trades District Council #16 PAC",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

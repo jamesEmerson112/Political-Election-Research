@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "ua-journeymen-and-apprentices-local-250-pac",
+  "name": "UA Journeymen & Apprentices Local #250 PAC",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

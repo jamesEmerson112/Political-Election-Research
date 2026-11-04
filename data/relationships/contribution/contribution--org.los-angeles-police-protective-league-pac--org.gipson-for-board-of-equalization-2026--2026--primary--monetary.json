@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.los-angeles-police-protective-league-pac--org.gipson-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:los-angeles-police-protective-league-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1650000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-02-21"
+    }
+  },
+  "recipient": "org:gipson-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-301a6499f2",
+      "locator": "Form 460 Schedule A: line 54 (2025-02-21, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-a155be9bf6",
+      "locator": "Form 460 Schedule A: line 18 (2025-08-14, $2,500.00); line 74 (2025-11-10, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-47e3b3bc1a",
+      "locator": "Form 460 Schedule A: line 2 (2026-05-19, $4,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
