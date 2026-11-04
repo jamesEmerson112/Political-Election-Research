@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.jtp-development--org.gates-for-attorney-general-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:jtp-development",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1030000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-06-30"
+    }
+  },
+  "recipient": "org:gates-for-attorney-general-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-0a9d5c7fac",
+      "locator": "Form 460 Schedule A: line 292 (2026-06-30, $2,500.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-79cb9c6b33",
+      "locator": "Form 460 Schedule A: line 437 (2026-09-01, $2,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-3f78675c0b",
+      "locator": "Form 460 Schedule A: line 380 (2026-10-03, $5,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

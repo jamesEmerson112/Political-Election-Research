@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.gary-daichendt--org.gates-for-attorney-general-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:gary-daichendt",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-01-08"
+    }
+  },
+  "recipient": "org:gates-for-attorney-general-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-cbd71225d6",
+      "locator": "Form 460 Schedule A: line 200 (2026-01-08, $9,800.00); line 201 (2026-04-03, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

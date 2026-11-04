@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "moses-heredia",
+  "name": "Moses Heredia",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-04"
+}

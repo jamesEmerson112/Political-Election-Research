@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.lloyd-godson--org.gates-for-attorney-general-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:lloyd-godson",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-04-30"
+    }
+  },
+  "recipient": "org:gates-for-attorney-general-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-7b3e846ef0",
+      "locator": "Form 460 Schedule A: line 176 (2026-04-30, $500.00); line 177 (2026-04-30, $9,800.00); line 178 (2026-05-04, $9,300.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

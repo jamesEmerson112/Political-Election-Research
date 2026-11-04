@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "homan-siman",
+  "name": "Homan Siman",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "gary-daichendt",
+  "name": "Gary Daichendt",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-04"
+}
