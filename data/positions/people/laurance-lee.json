@@ -3,6 +3,21 @@
   "actor": "person:laurance-lee",
   "positions": [
     {
+      "subject": "q:education/sfusd-8th-grade-algebra",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Lee says he helped restore eighth-grade Algebra 1.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "I helped restore eighth-grade Algebra 1",
+          "locator": "Candidate statement, Board of Education, p. 30 (PDF page 32)"
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-close-or-merge-schools",
       "stance": "no_public_position",
       "as_of": "2026-11-04",
