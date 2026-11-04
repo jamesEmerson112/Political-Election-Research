@@ -26,6 +26,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Bachelor of Science",
+          "institution": "Wayne State University",
+          "year": 1980,
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "Anthony graduated with a Bachelor of Science from Wayne State University in Detroit, Michigan in 1980."
+            }
+          ]
+        },
+        {
+          "degree": "Master of Arts",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 1987,
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "In 1987 he graduated with a Master of Arts from the University of Nevada Las Vegas (UNLV), and in 1999 he received his Ph.D. from UNLV."
+            }
+          ]
+        },
+        {
+          "degree": "Ph.D.",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 1999,
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "In 1987 he graduated with a Master of Arts from the University of Nevada Las Vegas (UNLV), and in 1999 he received his Ph.D. from UNLV."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Lieutenant Governor of Nevada",
       "citations": [
