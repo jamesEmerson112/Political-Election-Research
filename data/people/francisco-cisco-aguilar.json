@@ -46,6 +46,52 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Agassi Graf and the Andre Agassi Foundation for Education",
+          "role": "General Counsel",
+          "citations": [
+            {
+              "source": "src:cisconv-co-a25afc03a7",
+              "quote": "Prior to being elected, Secretary Aguilar served twelve years as General Counsel for Agassi Graf, the management company for Andre Agassi and Stefanie Graf, and the Andre Agassi Foundation for Education."
+            }
+          ]
+        },
+        {
+          "organization": "Blueprint Sports",
+          "role": "Founder",
+          "start": "2020",
+          "citations": [
+            {
+              "source": "src:cisconv-co-a25afc03a7",
+              "quote": "In 2020, the Secretary launched Blueprint Sports, a sports technology startup"
+            }
+          ]
+        },
+        {
+          "organization": "Cristo Rey St. Viator High School",
+          "role": "Founding Chairman",
+          "citations": [
+            {
+              "source": "src:cisconv-co-a25afc03a7",
+              "quote": "Passionate about education, Secretary Aguilar is the Founding Chairman of Cristo Rey St. Viator High School"
+            }
+          ]
+        },
+        {
+          "organization": "Democratic Association of Secretaries of State",
+          "role": "Chair",
+          "citations": [
+            {
+              "source": "src:cisconv-co-a25afc03a7",
+              "quote": "SECRETARY AGUILAR ALSO SERVES AS THE CHAIR FOR THE DEMOCRATIC ASSOCIATION OF SECRETARIES OF STATE."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
