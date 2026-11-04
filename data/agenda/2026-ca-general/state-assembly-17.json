@@ -12,6 +12,49 @@
       "name": "Manuel Noris-Barrera"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/state-assembly-17|endorsements|person:manuel-noris-barrera",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "State Assembly District 17; American Independent Party listed (recorded); no Republican Party or Democratic Party endorsement of him",
+          "where": "San Francisco Voter Information Pamphlet, November 3, 2026, Party Endorsements of Candidates (p. 23)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Noris; not listed",
+          "where": "San Francisco Voter Information Pamphlet, June 2, 2026, Party Endorsements of Candidates (p. 19)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Noris; no statement or endorsement list from him",
+          "where": "San Francisco Voter Information Pamphlets, November 2026 and June 2026, candidate statements"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "not available: the domain returns 404 (\"Reconnect Your Domain\")",
+          "where": "Campaign site named in his 2024 statement (manuelnoris.com)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "not available: both return 404; a web search summary mentioned a county-party primary write-in endorsement, kept as a lead",
+          "where": "San Francisco Republican Party endorsement pages (sfgop.org/2026-primary-endorsements, sfgop.org/2026-general-endorsements)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "California Republican Party 2026 general election endorsements Assembly District 17 cagop.org",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Manuel Noris-Barrera\"",
+          "where": "Web search"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:california-assembly-member",
   "questions": [],
