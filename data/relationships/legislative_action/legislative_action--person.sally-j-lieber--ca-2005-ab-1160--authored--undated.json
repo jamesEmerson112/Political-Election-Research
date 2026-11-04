@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.sally-j-lieber--ca-2005-ab-1160--authored--undated",
+  "type": "legislative_action",
+  "person": "person:sally-j-lieber",
+  "action": "authored",
+  "bill": "ca-2005-ab-1160",
+  "cycle": 2006,
+  "citations": [
+    {
+      "source": "src:leginfo-ca-gov-330f08a77f",
+      "quote": "AUTHOR : Lieber"
+    },
+    {
+      "source": "src:leginfo-ca-gov-55d9e8b677",
+      "quote": "INTRODUCED BY Assembly Member Lieber"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

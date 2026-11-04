@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.sally-j-lieber--ca-2005-ab-1835--authored--undated",
+  "type": "legislative_action",
+  "person": "person:sally-j-lieber",
+  "action": "authored",
+  "bill": "ca-2005-ab-1835",
+  "cycle": 2006,
+  "citations": [
+    {
+      "source": "src:leginfo-ca-gov-d653c6c7aa",
+      "quote": "AUTHOR : Lieber"
+    },
+    {
+      "source": "src:leginfo-ca-gov-d38bf06d1a",
+      "quote": "INTRODUCED BY Assembly Members Lieber, Leno, and Koretz"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

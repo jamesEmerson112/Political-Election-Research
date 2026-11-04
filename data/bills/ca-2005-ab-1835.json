@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2005-ab-1835",
+  "status": {
+    "value": "enacted",
+    "as_of": "2006-09-12",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-d653c6c7aa",
+        "quote": "Sept. 12 Chaptered by Secretary of State - Chapter 230, Statutes of 2006.",
+        "locator": "Bill history"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Minimum wage",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-d38bf06d1a",
+        "quote": "AB 1835, Lieber Minimum wage.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

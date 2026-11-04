@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-3e0ba71d8b",
+  "kind": "legislative_record",
+  "accessed": "2026-11-04",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 2954 Complete Bill History (2007-08)",
+  "url": "https://www.leginfo.ca.gov/pub/07-08/bill/asm/ab_2951-3000/ab_2954_bill_20080930_history.html"
+}

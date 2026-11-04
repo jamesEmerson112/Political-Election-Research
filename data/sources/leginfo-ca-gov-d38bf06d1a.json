@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-d38bf06d1a",
+  "kind": "legislative_record",
+  "accessed": "2026-11-04",
+  "published": "2006-09-12",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 1835 Bill Text, Chaptered (Chapter 230, Statutes of 2006)",
+  "url": "https://www.leginfo.ca.gov/pub/05-06/bill/asm/ab_1801-1850/ab_1835_bill_20060912_chaptered.html"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-330f08a77f",
+  "kind": "legislative_record",
+  "accessed": "2026-11-04",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 1160 Complete Bill History (2005-06)",
+  "url": "https://www.leginfo.ca.gov/pub/05-06/bill/asm/ab_1151-1200/ab_1160_bill_20060928_history.html"
+}

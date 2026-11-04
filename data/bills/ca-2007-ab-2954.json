@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2007-ab-2954",
+  "status": {
+    "value": "enacted",
+    "as_of": "2008-09-30",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-3e0ba71d8b",
+        "quote": "Sept. 30 Chaptered by Secretary of State - Chapter 690, Statutes of 2008.",
+        "locator": "Bill history"
+      }
+    ]
+  },
+  "area": "energy_environment",
+  "title": {
+    "value": "San Francisco Bay Restoration Authority",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-1f92937383",
+        "quote": "AB 2954, Lieber. San Francisco Bay Restoration Authority.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

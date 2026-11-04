@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2005-ab-1160",
+  "status": {
+    "value": "enacted",
+    "as_of": "2006-09-28",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-330f08a77f",
+        "quote": "Sept. 28 Chaptered by Secretary of State - Chapter 550, Statutes of 2006.",
+        "locator": "Bill history"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Gwen Araujo Justice for Victims Act (crime: bias and panic strategies)",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-55d9e8b677",
+        "quote": "This bill, the Gwen Araujo Justice for Victims Act, would state legislative findings and declarations regarding the influence of a defendant's bias against the victim upon the trier of fact in a criminal proceeding",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

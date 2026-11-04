@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.sally-j-lieber--ca-2007-ab-2954--authored--undated",
+  "type": "legislative_action",
+  "person": "person:sally-j-lieber",
+  "action": "authored",
+  "bill": "ca-2007-ab-2954",
+  "cycle": 2008,
+  "citations": [
+    {
+      "source": "src:leginfo-ca-gov-3e0ba71d8b",
+      "quote": "AUTHOR : Lieber"
+    },
+    {
+      "source": "src:leginfo-ca-gov-1f92937383",
+      "quote": "INTRODUCED BY Assembly Members Lieber and Hancock"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
