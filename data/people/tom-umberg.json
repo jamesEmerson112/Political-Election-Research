@@ -6,6 +6,47 @@
     "Thomas J. Umberg"
   ],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birth date / birthplace / hometown",
+          "where": "https://sd34.senate.ca.gov/biography (official Senate biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birthplace",
+          "where": "https://democrats.senate.ca.gov/senator/umberg (Senate Democratic Caucus member page)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birthplace",
+          "where": "https://www.courts.ca.gov/bio/senator-thomas-j-umberg (Judicial Council member profile)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birthplace",
+          "where": "https://www.tomumberg.com/ and /accomplishments (campaign site; /about-tom/ returns 404)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birthplace",
+          "where": "Official Voter Information Guide 2026 general, candidate statement p. 94"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Tom Umberg born birthplace State Senator biography",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Birth date and birthplace appeared only in reference works (Wikipedia, JoinCalifornia) in search results; kept as leads, not cited",
+          "where": "note"
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
