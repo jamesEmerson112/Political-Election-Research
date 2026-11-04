@@ -3,10 +3,58 @@
   "id": "darshini-patel",
   "name": "Darshini Patel",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Darshini Patel party registration",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 8"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Darshini Patel party registration",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Darshini Patel party registration",
+          "where": "Campaign website (votedarshini.com: home, My Story, Platform, Propositions)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Darshini Patel party registration",
+          "where": "GrowSF November 2026 questionnaire page for the candidate (growsf.org)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Darshini Patel party registration",
+          "where": "Bay Area Reporter (ebar.com) District 8 race coverage: Sept. 2025 launch articles, Aug. 13 and Aug. 27, 2026 forum reports"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Darshini Patel District 8",
+          "where": "Mission Local District 8 candidate series (missionlocal.org): HTTP 403 bot check, could not be read"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Darshini Patel District 8",
+          "where": "San Francisco Standard District 8 coverage (sfstandard.com): article text behind sign-in beyond the lede"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Darshini Patel\" District 8 supervisor party registration",
+          "where": "Web search (news)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://votedarshini.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
