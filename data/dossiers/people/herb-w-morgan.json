@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:herb-w-morgan",
+  "controversies": {
+    "as_of": "2026-11-04",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "\"Herb Morgan\" controller candidate criticism OR controversy OR lawsuit OR SEC OR complaint (results: campaign posts and press releases; one SEC case about a different person named Bob Morgan)",
+        "where": "Web search"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "FPPC enforcement \"Malia Cohen\" OR \"Herb Morgan\" fine stipulation (no result naming Morgan)",
+        "where": "Web search (FPPC enforcement letters)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "criticism of the candidates (reports open questions about the cost and function of his proposed reporting system; no documented matter)",
+        "where": "Los Angeles Times controller race guide (2026-10-01)"
+      }
+    ]
+  }
+}
