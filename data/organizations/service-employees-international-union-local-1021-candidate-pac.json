@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "service-employees-international-union-local-1021-candidate-pac",
+  "name": "Service Employees International Union Local 1021 Candidate PAC",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

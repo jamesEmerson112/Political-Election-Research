@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "patty-quillin",
+  "name": "Patty Quillin",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-04"
+}

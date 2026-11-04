@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-working-families-party--org.jane-kim-for-insurance-commissioner-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-working-families-party",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1310000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-04-21"
+    }
+  },
+  "recipient": "org:jane-kim-for-insurance-commissioner-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-5380b82ec8",
+      "locator": "Form 460 Schedule A: line 241 (2026-04-21, $9,800.00); line 194 (2026-04-21, $3,300.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
