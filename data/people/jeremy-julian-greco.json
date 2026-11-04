@@ -78,6 +78,49 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Presidio Hill School",
+          "role": "Campus Coordinator",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-42d7d038ef",
+              "quote": "As Campus Coordinator at Presidio Hill School, I work every day with students, parents, teachers, and staff.",
+              "locator": "p. 4"
+            }
+          ]
+        },
+        {
+          "organization": "Other Avenues Food Cooperative",
+          "role": "Board Member and Co-owner",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-42d7d038ef",
+              "quote": "Other Avenues Food Cooperative – Board Member and Co-owner (16 years)",
+              "locator": "p. 5, What for-profit or non-profit boards have you served on?"
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I served on the Board of Directors and co-owned Other Avenues food cooperative for 16 years.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+            }
+          ]
+        },
+        {
+          "organization": "Sea Level Gallery",
+          "role": "Producer, Sunset Solos",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-42d7d038ef",
+              "quote": "For the past two years, I've produced Sunset Solos at Sea Level Gallery",
+              "locator": "p. 2"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
