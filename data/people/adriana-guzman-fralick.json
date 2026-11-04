@@ -61,6 +61,27 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "city of residence",
+          "where": "adrianafornevada.com (campaign home page biography; says she grew up in Northern Nevada)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "city of residence",
+          "where": "KLAS 8 News Now daily voting guide article"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "AG primary article",
+          "where": "thisisreno.com/2026/04/nevada-ag-republican-trump/ (served a 'Just a moment' bot check, not used)"
+        }
+      ]
     }
   },
   "ids": [],
