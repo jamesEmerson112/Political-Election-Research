@@ -110,6 +110,47 @@
           "locator": "PDF page 21 (list page 20 of 41), State Assembly Member District 17"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Manuel Noris-Barrera; lists name, party and \"No Ballot Designation\" only",
+          "where": "Secretary of State Certified List of Candidates, November 3, 2026 (list page 20)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "State Assembly, District 17; lists names only",
+          "where": "San Francisco Department of Elections, Candidates - November 3, 2026, General Election (sf.gov)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Noris; no candidate statement from him (November 2026 lists only a party endorsement, p. 23)",
+          "where": "San Francisco Voter Information Pamphlets, November 2026 and June 2026"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "lives in, resident, neighborhood; the statements say \"We are all San Franciscans\" but name no city of residence",
+          "where": "San Francisco Voter Information Pamphlets, November 2024 and March 2024 candidate statements (p. 24 each)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "not available: the domain returns 404 (\"Reconnect Your Domain\")",
+          "where": "Campaign site named in his 2024 statement (manuelnoris.com)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Manuel Noris-Barrera\"",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Noris-Barrera\" Assembly District 17 Republican San Francisco 2026",
+          "where": "Web search"
+        }
+      ]
     }
   },
   "ids": [],
