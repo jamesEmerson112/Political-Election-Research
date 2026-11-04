@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "los-angeles-county-lincoln-clubs-pac-state",
+  "name": "Los Angeles County Lincoln Clubs PAC (State)",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

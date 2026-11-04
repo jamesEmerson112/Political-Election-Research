@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-filipino-american-republican-alliance--org.gloria-romero-for-lt-governor-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-filipino-american-republican-alliance",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 90400,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-08-22"
+    }
+  },
+  "recipient": "org:gloria-romero-for-lt-governor-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-fde23d7c19",
+      "locator": "Form 460 Schedule A: line 15 (2026-08-22, $904.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
