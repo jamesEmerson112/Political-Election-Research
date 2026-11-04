@@ -4,6 +4,27 @@
   "name": "Aaron D. Ford",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "ag.nv.gov/About/AG_Aaron_Ford/ (official Attorney General biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "fordfornevada.com/about (campaign biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Aaron Ford for governor campaign website meet Aaron born",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
