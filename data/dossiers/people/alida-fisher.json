@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:alida-fisher",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "implement-community-engagement-recommendations",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Fisher's site says it is time to implement the recommendations of the board's Ad Hoc Committee on Community Engagement, which she advocated creating, as the district makes decisions on enrollment systems, budgeting and school portfolio planning.",
+        "title": "Implement the Ad Hoc Committee on Community Engagement's recommendations",
+        "topic": "public-engagement",
+        "citations": [
+          {
+            "source": "src:alidafisher-com-6909d6ce87",
+            "quote": "I advocated for the creation of an Ad Hoc Committee on Community Engagement, and am proud of the recommendations we brought to the full Board in June. Now, it's time to implement them as the district navigates significant decisions related to enrollment systems, budgeting, and school portfolio planning in the years ahead.",
+            "locator": "Issues, FAQ: What are your top priorities?"
+          }
+        ]
+      },
+      {
+        "id": "professional-development-for-new-curricula",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Fisher's site says that as the new literacy and math curricula are implemented, SFUSD must invest in professional development, instructional coaching and differentiated academic and behavioral supports.",
+        "title": "Invest in professional development and coaching for the new literacy and math curricula",
+        "topic": "literacy-and-math",
+        "citations": [
+          {
+            "source": "src:alidafisher-com-6909d6ce87",
+            "quote": "As we continue implementing new literacy and math curriculum, we must invest in ongoing professional development, instructional coaching, differentiated academic supports (including RTI and MTSS) and behavioral supports, so every educator has the tools to meet students' diverse needs and every student has the opportunity to succeed.",
+            "locator": "Issues, FAQ: What are your top priorities?"
+          }
+        ]
+      },
+      {
+        "id": "revisit-school-staffing-model",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Fisher's site says the next phase of budget work includes revisiting the school staffing model so that school funding is baseline-sufficient to meet student needs.",
+        "title": "Revisit the school staffing model",
+        "topic": "school-resources",
+        "citations": [
+          {
+            "source": "src:alidafisher-com-6909d6ce87",
+            "quote": "It includes revisiting the current school staffing model to ensure that school funding is baseline-sufficient to meet student needs.",
+            "locator": "Issues, FAQ: How will you stabilize SFUSD's budget?"
+          }
+        ]
+      },
+      {
+        "id": "reduce-outside-special-education-providers",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Fisher's site says she will work with district leadership to strengthen recruitment and retention of credentialed staff and reduce dependence on outside providers, particularly in special education.",
+        "title": "Reduce reliance on outside special education providers",
+        "topic": "special-education",
+        "citations": [
+          {
+            "source": "src:alidafisher-com-6909d6ce87",
+            "quote": "I have also consistently raised concerns about the long-term costs of contracting out key services, particularly in special education.",
+            "locator": "Issues, FAQ: How will you stabilize SFUSD's budget?"
+          },
+          {
+            "source": "src:alidafisher-com-6909d6ce87",
+            "quote": "I remain committed to working with district leadership to strengthen recruitment and retention efforts and reduce our dependence on costly outside providers.",
+            "locator": "Issues, FAQ: How will you stabilize SFUSD's budget?"
+          }
+        ]
+      },
+      {
+        "id": "data-on-ai-reading-screener",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Fisher's site says she will push for more data this school year on Amira, the district's AI-based reading screener, and similar AI instructional tools.",
+        "title": "Seek more data on the Amira reading screener and similar AI tools",
+        "topic": "technology",
+        "citations": [
+          {
+            "source": "src:alidafisher-com-6909d6ce87",
+            "quote": "I will push for more data around Amira and similar AI instructional tools this school year.",
+            "locator": "Issues, FAQ: Does tech such as AI belong in our schools?"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Alida Fisher candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Education candidate statements, printed p. 29: board accomplishments and general aims, no specific proposal"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "priorities, issues",
+        "where": "alidafisher.com Issues page (priorities and FAQ)"
+      }
+    ]
+  }
+}
