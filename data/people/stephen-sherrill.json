@@ -86,6 +86,42 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "City and County of San Francisco",
+          "role": "Director, Mayor's Office of Innovation",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-0fcb382490",
+              "quote": "Before joining the Board, I served as Director of the Mayor’s Office of Innovation under Mayor London Breed",
+              "locator": "p. 4, What local and state commissions or policy bodies have you served on?"
+            }
+          ]
+        },
+        {
+          "organization": "New York City government (Mayor Michael Bloomberg's administration)",
+          "role": "Senior policy advisor",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-0fcb382490",
+              "quote": "Earlier in my career, I served as a senior policy advisor in New York City government under Mayor Michael Bloomberg",
+              "locator": "p. 4"
+            }
+          ]
+        },
+        {
+          "role": "Private-sector work in infrastructure investing and civic technology",
+          "citations": [
+            {
+              "source": "src:votestephensherrill-com-abfb3f8428",
+              "quote": "His private sector work in infrastructure investing and civic technology hammered home the same approach"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Member, San Francisco Board of Supervisors (District 2)",
       "citations": [
