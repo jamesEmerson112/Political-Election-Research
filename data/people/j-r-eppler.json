@@ -57,6 +57,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Small Business Attorney (ballot designation)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Small Business Attorney.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 49 (PDF p. 51)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "J.R. EPPLER J.R.‧埃普勒 Small Business Attorney",
+          "locator": "p. 1, Board of Supervisors, District 10 table (English ballot designation)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
