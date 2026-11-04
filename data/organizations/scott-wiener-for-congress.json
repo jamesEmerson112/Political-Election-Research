@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "scott-wiener-for-congress",
+  "name": "Scott Wiener for Congress",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "C00909283",
+      "system": "fec_committee"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}

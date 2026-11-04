@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.scott-wiener-for-congress--person.scott-wiener--principal_campaign--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/us-house-ca-11",
+  "subject": "person:scott-wiener",
+  "committee": "org:scott-wiener-for-congress",
+  "cycle": 2026,
+  "role": "principal_campaign",
+  "citations": [
+    {
+      "source": "src:docquery-fec-gov-47d3f2ef4e",
+      "quote": "3. FEC Committee ID #: C00909283 This committee is a Principal Campaign Committee. Candidate: Scott Wiener",
+      "locator": "Form 1 (FEC-1897382), line 3"
+    },
+    {
+      "source": "src:docquery-fec-gov-47d3f2ef4e",
+      "quote": "State is California in District: 11",
+      "locator": "Form 1 (FEC-1897382), line 3, office sought"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
