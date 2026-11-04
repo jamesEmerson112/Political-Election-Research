@@ -131,6 +131,19 @@
           "where": "Web search (news)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:michaelnguyen4sf-com-4d362430da",
+          "quote": "After years of searching, I found a home in San Francisco."
+        },
+        {
+          "source": "src:michaelnguyen4sf-com-bf56c82bac",
+          "quote": "Muni has been a lifeline for me since I arrived in 2006 without a car, and it still is today as a daily 37 rider."
+        }
+      ]
     }
   },
   "ids": [],
