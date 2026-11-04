@@ -238,6 +238,26 @@
           "where": "Web search"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said Muni's crisis cannot be solved by taxes alone and that taxpayers should see existing resources used efficiently first; if new revenue is necessary, it should be tied to measurable service improvements.",
+      "citations": [
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "No. Muni’s funding crisis cannot be solved by taxes alone.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        },
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "If new revenue is necessary, it should be transparent, accountable, and tied to measurable improvements in reliability, safety, cleanliness, and service.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        }
+      ]
     }
   ]
 }
