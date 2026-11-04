@@ -24,6 +24,15 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Governor of Nevada",
+      "citations": [
+        {
+          "source": "src:gov-nv-gov-ed9c06d3e3",
+          "quote": "Governor Lombardo was elected as the 31st Governor of Nevada in November 2022 and sworn into office in January 2023."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
