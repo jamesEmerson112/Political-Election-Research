@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.rob-bonta--person.sally-j-lieber--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:sally-j-lieber",
+  "endorser": "person:rob-bonta",
+  "citations": [
+    {
+      "source": "src:sallylieber-org-b5376078ff",
+      "quote": "Attorney General Rob Bonta"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-democratic-party--person.sally-j-lieber--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-02",
+  "endorsee": "person:sally-j-lieber",
+  "endorser": "org:california-democratic-party",
+  "citations": [
+    {
+      "source": "src:cadem-org-aeb4feb5a7",
+      "quote": "Board of Equalization District 2: Sally Lieber",
+      "locator": "p. 1, Statewide"
+    },
+    {
+      "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+      "quote": "I am endorsed by Teachers, Nurses and Firefighters statewide, by the California Democratic Party",
+      "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
