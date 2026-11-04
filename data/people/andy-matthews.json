@@ -20,6 +20,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Massachusetts",
+      "citations": [
+        {
+          "source": "src:controller-nv-gov-a5a81f8ccc",
+          "quote": "A native of Massachusetts and a graduate of Boston University, Andy has lived in Nevada since 2006."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
