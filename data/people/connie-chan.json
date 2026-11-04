@@ -154,10 +154,23 @@
           }
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:conniechansf-com-59f51a6a55",
+          "quote": "Connie lives in the Richmond District with her long-time partner Ed, a San Francisco firefighter, their son, Edo and their fluffy Australian Shepherd, Urso."
+        },
+        {
+          "source": "src:conniechansf-com-59f51a6a55",
+          "quote": "Now, Connie represents District 1 on the Board of Supervisors, which includes the Inner Richmond, Central Richmond, Outer Richmond, Lone Mountain, Golden Gate Park, Lincoln Park, University of San Francisco, Sea Cliff, and Presidio Terrace neighborhoods."
+        }
+      ]
     }
   },
   "ids": [],
   "links": {},
   "public_figure": true,
-  "last_verified": "2026-11-02"
+  "last_verified": "2026-11-04"
 }
