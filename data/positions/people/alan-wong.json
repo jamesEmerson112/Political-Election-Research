@@ -61,6 +61,44 @@
       ]
     },
     {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "automated license plate readers; Flock; police surveillance cameras",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 4, printed p. 43"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "automated license plate readers; Flock; police surveillance cameras",
+          "where": "Campaign site alanwong.com (home, Meet Alan, Vision, Endorsements pages)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "automated license plate readers; Flock; police surveillance cameras",
+          "where": "GrowSF June 2026 questionnaire, Alan Wong, and GrowSF District 4 guide (growsf.org) (his answers support SFPD technology such as the Real-Time Investigation Center but do not mention license plate readers)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "automated license plate readers; Flock; police surveillance cameras",
+          "where": "SF League of Pissed Off Voters 2026 questionnaires: theleaguesf.org returned HTTP 403; web search found no questionnaire for Alan Wong"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "automated license plate readers; Flock; police surveillance cameras",
+          "where": "Mission Local (missionlocal.org article pages and WordPress API): HTTP 403 bot check, not readable"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "automated license plate readers; Flock; police surveillance cameras",
+          "where": "SF Standard, \"We asked candidates if SF should keep Flock surveillance, or tell it to Flock off\" (Sep. 8, 2026)"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/bike-lanes-over-parking",
       "stance": "mixed",
       "as_of": "2026-11-03",
