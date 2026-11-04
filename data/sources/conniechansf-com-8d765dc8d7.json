@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "conniechansf-com-8d765dc8d7",
+  "kind": "candidate_website",
+  "accessed": "2026-11-04",
+  "publisher": "Connie Chan for Congress",
+  "title": "A plan for affordable communities (Connie Chan's Working People's Plan)",
+  "url": "https://www.conniechansf.com/affordable-community-plan",
+  "notes": "The plan's sections are collapsed on the page; their text was read from the page's served HTML (2026-11-04)."
+}

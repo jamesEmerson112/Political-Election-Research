@@ -168,6 +168,21 @@
           }
         }
       ]
+    },
+    {
+      "subject": "q:technology/platform-self-preferencing",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Her campaign plan lists the American Innovation and Choice Online Act (S.4746), described there as prohibiting large online platforms from self-preferencing, among bills she would cosponsor.",
+      "citations": [
+        {
+          "source": "src:conniechansf-com-8d765dc8d7",
+          "quote": "American Innovation and Choice Online Act (S.4746): Prohibits large online platforms from anti-competitive practices such as self-preferencing, restricting competitor access, and misusing platform data.",
+          "locator": "collapsed section \"Small businesses & consumer protections\" (text hidden until the section is opened), under \"Legislation connie will cosponsor:\""
+        }
+      ]
     }
   ]
 }
