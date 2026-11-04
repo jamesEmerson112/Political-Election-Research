@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.malia-m-cohen--person.shirley-n-weber--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:shirley-n-weber",
+  "endorser": "person:malia-m-cohen",
+  "citations": [
+    {
+      "source": "src:drshirleyweber-com-0a5db1fab5",
+      "quote": "Malia Cohen, Controller",
+      "locator": "Statewide Elected Officials"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
