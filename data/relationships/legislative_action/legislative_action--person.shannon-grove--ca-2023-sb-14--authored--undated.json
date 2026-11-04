@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shannon-grove--ca-2023-sb-14--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shannon-grove",
+  "action": "authored",
+  "bill": "ca-2023-sb-14",
+  "cycle": 2024,
+  "citations": [
+    {
+      "source": "src:gov-ca-gov-7f1d57c1de",
+      "quote": "WHAT YOU NEED TO KNOW: Governor Newsom signed SB 14 (Grove) to make the trafficking of a minor for purposes of a commercial sex act a serious felony."
+    },
+    {
+      "source": "src:sr12-senate-ca-gov-e23e475bd4",
+      "quote": "Sen. Shannon Grove (R-Bakersfield) announced her bill, Senate Bill 14, was signed into law by Governor Newsom today."
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

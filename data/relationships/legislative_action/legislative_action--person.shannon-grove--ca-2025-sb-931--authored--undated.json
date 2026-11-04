@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shannon-grove--ca-2025-sb-931--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shannon-grove",
+  "action": "authored",
+  "bill": "ca-2025-sb-931",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sr12-senate-ca-gov-2d740d5419",
+      "quote": "Senator Shannon Grove (R-Bakersfield) and Senator John Laird (D-Santa Cruz) are proud to announce that their measure, Senate Bill 931, proclaiming 9-2-5, September 25 as Dolly Parton Day in California has been signed into law by Governor Newsom."
+    }
+  ],
+  "last_verified": "2026-11-04",
+  "notes": "Joint measure of Senator Grove and Senator John Laird, per the release."
+}

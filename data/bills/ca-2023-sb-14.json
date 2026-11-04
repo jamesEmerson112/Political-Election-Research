@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-sb-14",
+  "status": {
+    "value": "enacted",
+    "as_of": "2023-09-25",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7f1d57c1de",
+        "quote": "today signed SB 14 (Grove) into law to steepen penalties for human trafficking of minors in California."
+      },
+      {
+        "source": "src:sr12-senate-ca-gov-e23e475bd4",
+        "quote": "Sen. Shannon Grove (R-Bakersfield) announced her bill, Senate Bill 14, was signed into law by Governor Newsom today."
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Human trafficking of minors: serious felony",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7f1d57c1de",
+        "quote": "Governor Newsom signed SB 14 (Grove) to make the trafficking of a minor for purposes of a commercial sex act a serious felony."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shannon-grove--ca-2025-sb-1190--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shannon-grove",
+  "action": "authored",
+  "bill": "ca-2025-sb-1190",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sr12-senate-ca-gov-c9e9058638",
+      "quote": "Senator Shannon Grove (R-Bakersfield) and celebrity advocate Paris Hilton celebrated a historic victory today as SB 1190, also known as the Safe Passage for Youth Act, was signed by Governor Gavin Newsom."
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

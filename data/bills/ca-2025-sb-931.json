@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-sb-931",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-11-04",
+    "citations": [
+      {
+        "source": "src:sr12-senate-ca-gov-2d740d5419",
+        "quote": "Senate Bill 931, proclaiming 9-2-5, September 25 as Dolly Parton Day in California has been signed into law by Governor Newsom."
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Dolly Parton Day (September 25)",
+    "citations": [
+      {
+        "source": "src:sr12-senate-ca-gov-2d740d5419",
+        "quote": "Senate Bill 931, proclaiming 9-2-5, September 25 as Dolly Parton Day in California has been signed into law by Governor Newsom."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shannon-grove--ca-2023-sb-1414--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shannon-grove",
+  "action": "authored",
+  "bill": "ca-2023-sb-1414",
+  "cycle": 2024,
+  "citations": [
+    {
+      "source": "src:sr12-senate-ca-gov-eb7649f9c7",
+      "quote": "Today, Governor Gavin Newsom has signed Senator Shannon Grove’s (R-Bakersfield) bill Senate Bill 1414 (SB 1414) into law"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

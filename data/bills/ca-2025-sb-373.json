@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-sb-373",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-11-04",
+    "citations": [
+      {
+        "source": "src:sr12-senate-ca-gov-7de32b1b5f",
+        "quote": "SB 373, also known as California’s Accountability for Placements in Education (CAPE) Act, was signed by Governor Gavin Newsom."
+      },
+      {
+        "source": "src:sr12-senate-ca-gov-7de32b1b5f",
+        "quote": "SB 373 will take effect on January 1, 2026."
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Accountability for Placements in Education (CAPE) Act: students placed in out-of-state schools",
+    "citations": [
+      {
+        "source": "src:sr12-senate-ca-gov-7de32b1b5f",
+        "quote": "SB 373, also known as California’s Accountability for Placements in Education (CAPE) Act, was signed by Governor Gavin Newsom."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

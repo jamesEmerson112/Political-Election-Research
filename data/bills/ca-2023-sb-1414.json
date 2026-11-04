@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-sb-1414",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-11-04",
+    "citations": [
+      {
+        "source": "src:sr12-senate-ca-gov-eb7649f9c7",
+        "quote": "Today, Governor Gavin Newsom has signed Senator Shannon Grove’s (R-Bakersfield) bill Senate Bill 1414 (SB 1414) into law"
+      },
+      {
+        "source": "src:sr12-senate-ca-gov-eb7649f9c7",
+        "quote": "SB 1414 goes into effect January 1, 2025."
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Solicitation or purchase of a minor for sex: felony penalty",
+    "citations": [
+      {
+        "source": "src:sr12-senate-ca-gov-eb7649f9c7",
+        "quote": "SB 1414 (Grove) increases the penalty for soliciting or purchasing a child for sex from a misdemeanor to a felony, with a caveat that 16 and 17-year-olds must be proven victims of human trafficking."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

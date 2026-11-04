@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shannon-grove--ca-2025-sb-373--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shannon-grove",
+  "action": "authored",
+  "bill": "ca-2025-sb-373",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sr12-senate-ca-gov-7de32b1b5f",
+      "quote": "Senator Shannon Grove (R-Bakersfield) and celebrity advocate Paris Hilton celebrated a historic victory today as SB 373, also known as California’s Accountability for Placements in Education (CAPE) Act, was signed by Governor Gavin Newsom."
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
