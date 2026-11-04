@@ -3,6 +3,21 @@
   "actor": "person:michael-t-nguyen",
   "positions": [
     {
+      "subject": "q:government/expand-mayoral-authority",
+      "stance": "oppose",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "His campaign site says he opposes the Mayor's measures that would expand mayoral power over hiring and firing department heads.",
+      "citations": [
+        {
+          "source": "src:michaelnguyen4sf-com-bf56c82bac",
+          "quote": "I oppose his Clean Up City Hall measures that would raise the ballot initiative signature threshold and expand mayoral power over hiring and firing department heads. Those checks exist for a reason.",
+          "locator": "Relationship with the Board of Supervisors and the Mayor"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/citywide-rezoning",
       "stance": "oppose",
       "as_of": "2026-06-17",
