@@ -3,6 +3,21 @@
   "actor": "person:theo-ellington",
   "positions": [
     {
+      "subject": "q:government/expand-mayoral-authority",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said mayoral authority over the Police Chief should be restored so the Mayor can hire and fire the chief directly.",
+      "citations": [
+        {
+          "source": "src:growsf-org-89815455e3",
+          "quote": "First, mayoral authority over the Police Chief should be restored. The current structure insulates the Chief from accountability to the elected executive. The Mayor should have the ability to hire and fire the Police Chief directly",
+          "locator": "Your Policy Goals: three examples of legislation that should be repealed"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/citywide-rezoning",
       "stance": "support",
       "as_of": "2026-11-04",
