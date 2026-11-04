@@ -12,6 +12,19 @@
       "name": "Shannon Grove"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/board-of-equalization-1|independent_expenditures|person:nelson-esparza",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "candidate last name ESPARZA, first name starting NELSON: no reports",
+          "where": "CAL-ACCESS raw data export (2026-11-03): Form 496 late independent expenditure reports, 2023-01-01 through 2026-10-17"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:california-board-of-equalization-member",
   "questions": [],
