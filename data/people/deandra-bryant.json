@@ -120,6 +120,16 @@
           "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org): HTTP 403 bot check, unreadable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Bayview Hunters Point)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "I am a lifelong Bayview Hunters Point resident",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+        }
+      ]
     }
   },
   "ids": [],
