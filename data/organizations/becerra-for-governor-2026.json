@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "becerra-for-governor-2026",
+  "name": "Becerra for Governor 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1480025",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}
