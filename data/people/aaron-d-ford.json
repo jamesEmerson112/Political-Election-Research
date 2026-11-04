@@ -3,6 +3,23 @@
   "id": "aaron-d-ford",
   "name": "Aaron D. Ford",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Ford Aaron D. DEM",
+          "locator": "PDF page 1 (Page 1 of 10), Governor (party on the general election candidate list)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
