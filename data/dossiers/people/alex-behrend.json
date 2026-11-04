@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:alex-behrend",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "criminal-penalties-landlord-neglect",
+        "as_of": "2026-11-04",
+        "issue": "housing",
+        "summary": "Behrend's candidate statement says he would use existing criminal penalties for landlords who unlawfully neglect their buildings.",
+        "title": "Use criminal penalties against landlords who neglect buildings",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "We will use EXISTING criminal penalties for landlords who unlawfully neglect our buildings.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 6, printed p. 44 (PDF p. 46)"
+          }
+        ]
+      },
+      {
+        "id": "enforce-criminal-codes-on-corporations",
+        "as_of": "2026-11-04",
+        "summary": "Behrend's candidate statement says he would enforce criminal codes on corporations to fix working conditions and protect wages.",
+        "title": "Enforce criminal codes on corporations over working conditions and wages",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "We will enforce CRIMINAL CODES on corporations to fix working conditions and protect wages.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 6, printed p. 44 (PDF p. 46)"
+          }
+        ]
+      }
+    ]
+  }
+}
