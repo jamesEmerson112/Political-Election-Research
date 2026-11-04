@@ -4,6 +4,39 @@
   "name": "Alida Fisher",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Support for Families of Children with Disabilities",
+          "role": "Parent mentor",
+          "citations": [
+            {
+              "source": "src:alidafisher-com-e76891ff30",
+              "quote": "Alida became a parent mentor with Support for Families of Children with Disabilities."
+            }
+          ]
+        },
+        {
+          "role": "Special Education Advocate",
+          "citations": [
+            {
+              "source": "src:alidafisher-com-e76891ff30",
+              "quote": "Eventually, she changed careers, which led to her current role as a Special Education Advocate."
+            }
+          ]
+        },
+        {
+          "role": "Chair, SFUSD Community Advisory Committee for Special Education",
+          "citations": [
+            {
+              "source": "src:growsf-org-14e1fcfde7",
+              "quote": "As the former Chair of the SFUSD Community Advisory Committee for Special Education"
+            }
+          ]
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [
