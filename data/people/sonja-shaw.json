@@ -13,6 +13,31 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Fitness and health training business for women (name not stated)",
+          "role": "Owner and operator (before serving on the school board)",
+          "citations": [
+            {
+              "source": "src:chino-k12-ca-us-7dfb5cb3ab",
+              "quote": "Before serving on the school Board, she owned and operated two small community businesses: training women in fitness and health and running a professional photography business."
+            }
+          ]
+        },
+        {
+          "organization": "Professional photography business (name not stated)",
+          "role": "Owner and operator (before serving on the school board)",
+          "citations": [
+            {
+              "source": "src:chino-k12-ca-us-7dfb5cb3ab",
+              "quote": "Before serving on the school Board, she owned and operated two small community businesses: training women in fitness and health and running a professional photography business."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
