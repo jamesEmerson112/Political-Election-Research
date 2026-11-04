@@ -14,6 +14,15 @@
           "quote": "Reina Tello was born in San Francisco's Mission District"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-11908bfe7d",
+          "quote": "I have lived in San Francisco all 44 years of my life."
+        }
+      ]
     }
   },
   "ids": [],
