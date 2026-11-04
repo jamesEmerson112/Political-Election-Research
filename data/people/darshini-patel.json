@@ -50,6 +50,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Bay Area, California",
+      "citations": [
+        {
+          "source": "src:votedarshini-com-b1154d89f8",
+          "quote": "I'm a first-generation American – born and raised in the Bay Area, the eldest daughter of Tanzanian immigrants – and I grew up translating."
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
