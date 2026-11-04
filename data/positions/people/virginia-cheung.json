@@ -172,6 +172,21 @@
       ]
     },
     {
+      "subject": "q:education/sfusd-renew-parcel-tax",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Cheung says she supports renewal of parcel taxes that fund educator compensation and student services.",
+      "citations": [
+        {
+          "source": "src:assets-nationbuilder-com-5e8f3edc5d",
+          "quote": "support renewal of parcel taxes that fund educator compensation and student services",
+          "locator": "page 12"
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-spend-reserves",
       "stance": "mixed",
       "as_of": "2026-11-04",
