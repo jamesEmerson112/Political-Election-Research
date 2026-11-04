@@ -59,6 +59,64 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Police Officer",
+          "citations": [
+            {
+              "source": "src:mikegipson-net-7e7d300eaf",
+              "quote": "Before being elected to the Assembly, Gipson served as a Carson City Council Member and Police Officer"
+            }
+          ]
+        },
+        {
+          "organization": "California State Board of Equalization",
+          "role": "Chief of Staff to the former Chair of the Board of Equalization",
+          "citations": [
+            {
+              "source": "src:mikegipson-net-7e7d300eaf",
+              "quote": "Gipson also previously served as a Chief of Staff for the Former Chair of the Board of Equalization"
+            },
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "Previously serving as Chief of Staff to the former Board of Equalization Chairman",
+              "locator": "page 93, Candidate Statements, Board of Equalization District 3"
+            }
+          ]
+        },
+        {
+          "organization": "United Teachers of Los Angeles (UTLA)",
+          "role": "Community organizer",
+          "citations": [
+            {
+              "source": "src:mikegipson-net-7e7d300eaf",
+              "quote": "as a community organizer for the United Teachers of Los Angeles (UTLA)"
+            }
+          ]
+        },
+        {
+          "role": "Union staff (service employee and public educator unions)",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "He has worked for service employee and public educator unions",
+              "locator": "page 93, Candidate Statements, Board of Equalization District 3"
+            }
+          ]
+        },
+        {
+          "role": "Leader of local nonprofits for at-risk youth",
+          "citations": [
+            {
+              "source": "src:mikegipson-net-7e7d300eaf",
+              "quote": "has led local nonprofits to help at-risk youth stay engaged in school and off the streets"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
