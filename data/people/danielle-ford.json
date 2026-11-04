@@ -4,6 +4,32 @@
   "name": "Danielle Ford",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "KTNV, 'Danielle Ford wants to be the education governor' (Oct. 3, 2026; gives her age, 40, but no birth date)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Danielle Ford biography",
+          "where": "doe.nv.gov State Board of Education members page (rendered only the department home page)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Danielle Ford Nevada governor 2026 nonpartisan candidate",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Danielle Ford\" governor campaign site \"about Danielle\"",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [
