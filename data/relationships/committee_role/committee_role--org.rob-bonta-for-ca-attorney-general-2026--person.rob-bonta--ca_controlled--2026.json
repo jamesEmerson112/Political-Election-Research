@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.rob-bonta-for-ca-attorney-general-2026--person.rob-bonta--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/attorney-general",
+  "subject": "person:rob-bonta",
+  "committee": "org:rob-bonta-for-ca-attorney-general-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-4af398d9cf",
+      "locator": "Form 460 cover page (filing 3215454, amendment 1): committee, candidate and office: Rob Bonta, ATT"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

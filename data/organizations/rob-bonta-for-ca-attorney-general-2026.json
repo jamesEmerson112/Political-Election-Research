@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "rob-bonta-for-ca-attorney-general-2026",
+  "name": "Rob Bonta for CA Attorney General 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1456428",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}
