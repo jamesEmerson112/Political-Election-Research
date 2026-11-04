@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.shaw-for-superintendent-of-public-instruction-2026--person.sonja-shaw--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/superintendent-of-public-instruction",
+  "subject": "person:sonja-shaw",
+  "committee": "org:shaw-for-superintendent-of-public-instruction-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-bb2af40f92",
+      "locator": "Form 460 cover page (filing 3216034, amendment 0): committee, candidate and office: Sonja Shaw, SUP"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
