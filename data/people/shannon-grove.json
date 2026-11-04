@@ -17,6 +17,19 @@
           "locator": "page 91, Candidate Statements, Board of Equalization District 1"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Bakersfield",
+      "citations": [
+        {
+          "source": "src:sr12-senate-ca-gov-9c2d1eb9e8",
+          "quote": "She resides in Bakersfield with her husband, Rick."
+        },
+        {
+          "source": "src:shannongroveca-com-47c01db667",
+          "quote": "She resides in Bakersfield with her husband, Rick."
+        }
+      ]
     }
   },
   "ids": [
