@@ -78,5 +78,36 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "irvine-lake-reopening-2019",
+        "kind": "program",
+        "date": "2019",
+        "summary": "Reopened Irvine Lake for shoreline fishing in 2019 as Third District Supervisor, after the lake had been closed to the public for three years, according to his official county biography.",
+        "title": "Reopening of Irvine Lake for shoreline fishing",
+        "citations": [
+          {
+            "source": "src:bos3-oc-gov-efb729411c",
+            "quote": "in 2019, he expanded public resources without raising taxes when he reopened Irvine Lake for shoreline fishing. The Lake was previously closed for three years to the public."
+          }
+        ]
+      },
+      {
+        "id": "sexual-assault-evidence-kit-backlog",
+        "kind": "budget",
+        "date": "2020",
+        "summary": "Secured funding in 2020 to clear a 30-year backlog of sexual assault evidence kits, with over 1,500 kits processed by fall 2021, according to his campaign biography.",
+        "title": "Funding to clear a backlog of sexual assault evidence kits",
+        "citations": [
+          {
+            "source": "src:wagnerforcalifornia-com-e5bde30114",
+            "quote": "In 2020, Don secured funding to clear a 30-year backlog of sexual assault evidence kits, processing over 1,500 kits by fall 2021."
+          }
+        ]
+      }
+    ]
   }
 }
