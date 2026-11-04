@@ -3,6 +3,23 @@
   "id": "alan-wong",
   "name": "Alan Wong",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Member, San Francisco Board of Supervisors (District 4); officer, California Army National Guard",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Member, Board of Supervisors / Military Commander.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 43 (PDF p. 45)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ALAN WONG 王兆倫 Appointed Member, Board of Supervisors",
+          "locator": "page 1, Board of Supervisors, District 4, English Ballot Designation column"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q137393386",
@@ -14,5 +31,5 @@
     "official_site": "https://www.sf.gov/district-4-supervisor-alan-wong"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
