@@ -3,6 +3,23 @@
   "id": "jon-kamerath",
   "name": "Jon Kamerath",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Independent American Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Kamerath Jon IAP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 3"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "H4NV03241",
