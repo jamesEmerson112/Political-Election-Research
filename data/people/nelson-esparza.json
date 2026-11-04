@@ -54,6 +54,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Fresno City College",
+          "role": "Economics Instructor",
+          "citations": [
+            {
+              "source": "src:nelsonesparza-com-ac82fc37a7",
+              "quote": "Outside his work in Fresno City Hall, Nelson continues to teach as an Economics Instructor at Fresno City College, where he has worked for nearly a decade."
+            }
+          ]
+        },
+        {
+          "organization": "State Center Federation of Teachers, Local 1533",
+          "role": "PAC Chair",
+          "citations": [
+            {
+              "source": "src:nelsonesparza-com-ac82fc37a7",
+              "quote": "He is also the PAC Chair of the State Center Federation of Teachers, Local 1533, and actively serves the Democratic Party in various capacities."
+            }
+          ]
+        },
+        {
+          "organization": "Fresno County Economic Development Corporation",
+          "role": "Board member",
+          "citations": [
+            {
+              "source": "src:nelsonesparza-com-ac82fc37a7",
+              "quote": "He is also a member of the Fresno County Economic Development Corporation Board."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
