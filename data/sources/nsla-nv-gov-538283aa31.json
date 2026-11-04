@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nsla-nv-gov-538283aa31",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Nevada State Library, Archives and Public Records",
+  "title": "Nevada Secretary of State: Home (State Archives Subject Guides)",
+  "url": "https://nsla.nv.gov/archives-SOS-office"
+}
