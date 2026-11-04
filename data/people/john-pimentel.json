@@ -76,6 +76,59 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Co-founder and manager of renewable energy and sustainability businesses",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "Trustee Pimentel co-founded and managed several businesses in the renewable energy and sustainability field."
+            }
+          ]
+        },
+        {
+          "organization": "Bain & Company",
+          "role": "Consultant (worked with the firm)",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "Prior to being an environmental entrepreneur, he worked with Bain & Company, a strategic management consulting firm."
+            }
+          ]
+        },
+        {
+          "organization": "Office of the Governor of California",
+          "role": "Governor's Higher Education Advisor",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "Trustee Pimentel was the Governor's Higher Education Advisor providing analysis on legislative and budget matters related to UC, CSU, and community colleges."
+            }
+          ]
+        },
+        {
+          "role": "Director of the Executive Fellows Program",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "In that role he helped manage the rapid rebuilding of Southern California’s freeways after the 1994 Northridge Earthquake, served on the Bay Conservation and Development Commission, and was Director of the Executive Fellows Program."
+            }
+          ]
+        },
+        {
+          "organization": "California State Assembly",
+          "role": "Assembly Fellow",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "He began government service as an Assembly Fellow."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
