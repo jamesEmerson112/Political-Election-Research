@@ -43,6 +43,33 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "History (licenciatura, as the source puts it)",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-102c343ca6",
+              "quote": "Luego de tomar algunas clases en UNLV, se dio cuenta de que ser dentista no era lo suyo, por lo que retomó sus estudios como licenciada en Historia."
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "education",
+          "where": "leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/41 (the 'Career & Personal' tab with education is not in the page text the research fetcher captures)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Sandra Jauregui UNLV degree history Mt. San Antonio College",
+          "where": "web search"
+        }
+      ]
+    },
     "occupation": {
       "value": "Member of the Nevada Assembly (Majority Floor Leader)",
       "citations": [
