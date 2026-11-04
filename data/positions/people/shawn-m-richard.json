@@ -240,6 +240,26 @@
       ]
     },
     {
+      "subject": "q:transportation/bike-lanes-over-parking",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said San Francisco should build a citywide protected bike lane network, and that in District 10, where residents already deal with limited parking and heavy freight traffic, implementation must include community input and mitigation.",
+      "citations": [
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "Yes—San Francisco should build a citywide protected bike lane network, but it has to be done in a way that is coordinated, safety-driven, and transparent with communities.",
+          "locator": "Transit Infrastructure: Should it be the policy of San Francisco to build a citywide protected bike lane network?"
+        },
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "And in places like District 10, where residents already deal with limited parking and heavy freight traffic, implementation has to include real community input and mitigation—not after-the-fact adjustments.",
+          "locator": "Transit Infrastructure: Should it be the policy of San Francisco to build a citywide protected bike lane network?"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "mixed",
       "as_of": "2026-11-04",
