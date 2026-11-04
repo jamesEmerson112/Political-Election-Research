@@ -3,6 +3,28 @@
   "actor": "person:alida-fisher",
   "positions": [
     {
+      "subject": "q:education/sfusd-close-or-merge-schools",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Fisher says she first opposed closures and objected to the 2024 process, but now favors aligning the number of schools with enrollment to concentrate resources on fewer campuses, with community engagement.",
+      "citations": [
+        {
+          "source": "src:alidafisher-com-6909d6ce87",
+          "quote": "I was initially a vocal opponent of school closures."
+        },
+        {
+          "source": "src:alidafisher-com-6909d6ce87",
+          "quote": "Rather, aligning our number of schools and facilities with enrollment could allow us to concentrate resources across fewer, better-resourced campuses and improve the quality of learning environments."
+        },
+        {
+          "source": "src:alidafisher-com-6909d6ce87",
+          "quote": "However, no portfolio redesign will be successful without robust engagement and ultimately community buy-in."
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-proximity-assignment",
       "stance": "mixed",
       "as_of": "2026-11-04",
