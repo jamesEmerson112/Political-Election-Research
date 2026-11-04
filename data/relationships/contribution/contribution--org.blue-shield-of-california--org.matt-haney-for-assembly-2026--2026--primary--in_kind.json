@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.blue-shield-of-california--org.matt-haney-for-assembly-2026--2026--primary--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:blue-shield-of-california",
+  "election_designation": "primary",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 371963,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-05-12"
+    }
+  },
+  "recipient": "org:matt-haney-for-assembly-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-74304a731a",
+      "locator": "Form 460 Schedule C: line 67 (2025-05-12, $3,719.63)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.seiu-california-state-council-small-contributor-committee--org.matt-haney-for-assembly-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:seiu-california-state-council-small-contributor-committee",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1180000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-09-30"
+    }
+  },
+  "recipient": "org:matt-haney-for-assembly-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-2e74d7298e",
+      "locator": "Form 460 Schedule A: line 68 (2025-09-30, $10,900.00); line 69 (2025-12-30, $900.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

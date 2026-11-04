@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-professional-firefighters-political-action-committee--org.matt-haney-for-assembly-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-professional-firefighters-political-action-committee",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 990000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-02-24"
+    }
+  },
+  "recipient": "org:matt-haney-for-assembly-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-74304a731a",
+      "locator": "Form 460 Schedule A: line 23 (2025-02-24, $1,000.00); line 24 (2025-04-11, $1,000.00); line 25 (2025-05-14, $5,900.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-2e74d7298e",
+      "locator": "Form 460 Schedule A: line 22 (2025-08-12, $1,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-677a6b4557",
+      "locator": "Form 460 Schedule A: line 4 (2026-04-30, $1,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
