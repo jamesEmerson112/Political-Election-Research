@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "laist-com-f0e4c69d89",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2024-07-10",
+  "publisher": "CalMatters (republished by LAist)",
+  "title": "California is late on its own financial health report for the 6th straight year",
+  "url": "https://laist.com/news/california-is-late-on-its-own-financial-health-report-for-the-6th-straight-year"
+}

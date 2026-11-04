@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "fppc-ca-gov-d9b4637b37",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "published": "2018-06-27",
+  "publisher": "Fair Political Practices Commission, Enforcement Division",
+  "title": "Warning Letter: Case No. 2018-00380, Malia Cohen",
+  "url": "https://www.fppc.ca.gov/siteassets/documents/enforcement_div/enf_letters/2018/7-16-18/cohenmalia-201800380.pdf"
+}

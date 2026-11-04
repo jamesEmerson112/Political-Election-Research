@@ -1,0 +1,118 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:malia-m-cohen",
+  "controversies": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "late-annual-comprehensive-financial-reports-and-state-auditor-review",
+        "date": "2024-07",
+        "response": {
+          "summary": "Cohen's office told CalMatters that she had taken measures to address the root causes of the delays, and attributed the 2021-22 report's delay to tax-deadline extensions and the FI$Cal transition. Cohen told the Los Angeles Times she got the report published closer to its due date, and her office disputes the auditor's version of events.",
+          "citations": [
+            {
+              "source": "src:laist-com-f0e4c69d89",
+              "quote": "The statement from her office said she “has taken substantial measures to mitigate the root causes” of delays, including streamlining processes and optimizing technology."
+            },
+            {
+              "source": "src:laist-com-f0e4c69d89",
+              "quote": "Cohen’s office attributed the delay of the 2021-2022 report to the “unanticipated” extension of personal and corporate income taxes by both the federal government and California in 2023, as well as to ongoing challenges with agencies’ transition to FI$Cal, the state’s replacement budgeting and finance platform."
+            },
+            {
+              "source": "src:latimes-com-4d35824f04",
+              "quote": "Cohen, in an interview this year, said she succeeded in getting the report published closer to its due date. Her office also disputes the state auditor’s version of events."
+            }
+          ]
+        },
+        "summary": "CalMatters reported in July 2024 that the state's annual comprehensive financial report had missed its deadlines for a sixth consecutive year, a streak that began before Cohen took office in 2023. The State Auditor opened a high-risk audit of the state's late financial reporting that includes the Controller's process for compiling the report, and the Los Angeles Times reported that a 2025 auditor letter accused the Controller's office of spending more than a year \"resisting an independent review\" of the delayed report.",
+        "title": "Late Annual Comprehensive Financial Reports and State Auditor review",
+        "citations": [
+          {
+            "source": "src:laist-com-f0e4c69d89",
+            "quote": "California — a state whose officials love to tout it as the world’s fifth largest economy — is a year late in producing a report on its own financial health for the sixth year in a row."
+          },
+          {
+            "source": "src:laist-com-f0e4c69d89",
+            "quote": "Cohen, who took the helm as controller last year, pledged in the 2022 report published in March of this year to get the reports on track by March 2026."
+          },
+          {
+            "source": "src:auditor-ca-gov-84668bd0d0",
+            "quote": "2025-602 State High Risk: State of California’s Late Financial Reporting",
+            "locator": "p. 1"
+          },
+          {
+            "source": "src:auditor-ca-gov-84668bd0d0",
+            "quote": "1. Evaluate the effectiveness and efficiency of the State Controller’s Office’s (SCO) process for compiling the Annual Comprehensive Financial Report (ACFR),",
+            "locator": "p. 1, Audit Scope and Objectives"
+          },
+          {
+            "source": "src:latimes-com-4d35824f04",
+            "quote": "In a 2025 letter, the auditor accused the controller’s office of spending more than a year “resisting an independent review” of the delayed report, which almost led to a legal showdown between the agencies."
+          }
+        ]
+      },
+      {
+        "id": "fppc-warning-letter-late-candidate-statement-of-economic-interests-2018",
+        "date": "2018-06-27",
+        "resolution": {
+          "date": "2018-06-27",
+          "summary": "The Enforcement Division closed the case with a warning letter instead of a fine, citing that she filed the statement immediately after being contacted and had no prior violation of that section.",
+          "citations": [
+            {
+              "source": "src:fppc-ca-gov-d9b4637b37",
+              "quote": "But for the following reasons, the Enforcement Division has decided to close your case with this warning letter instead of a fine: you filed your candidate SEI immediately after being contacted by the Enforcement Division; you timely filed 2017 Annual SEIs for different positions; you filed all campaign statements timely; and you have not had a prior violation of this section.",
+              "locator": "p. 1"
+            }
+          ]
+        },
+        "response": {
+          "status": "not_found",
+          "as_of": "2026-11-04",
+          "search_log": [
+            {
+              "date": "2026-11-04",
+              "query": "FPPC / Statement of Economic Interests",
+              "where": "Campaign site maliacohenforca.com (home, Meet Malia, Accomplishments pages)"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "FPPC enforcement \"Malia Cohen\" OR \"Herb Morgan\" fine stipulation (no news coverage or statement from Cohen about the letter in the results)",
+              "where": "Web search"
+            }
+          ]
+        },
+        "summary": "The Fair Political Practices Commission's Enforcement Division found that Cohen, as a 2018 candidate for the State Board of Equalization, violated the Political Reform Act by not filing her candidate Statement of Economic Interests by the March 9, 2018 deadline.",
+        "title": "FPPC warning letter for a late candidate Statement of Economic Interests (2018)",
+        "citations": [
+          {
+            "source": "src:fppc-ca-gov-d9b4637b37",
+            "quote": "The Enforcement Division completed its investigation and found that as a result of your position as a Candidate for the State Board of Equalization, the Act required you to file a Candidate SEI and you violated the Act by failing to file your Candidate SEI by the March 9, 2018 deadline.",
+            "locator": "p. 1"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Malia Cohen controller criticism controversy audit lawsuit ethics fine",
+        "where": "Web search"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "FPPC enforcement \"Malia Cohen\" OR \"Herb Morgan\" fine stipulation (a 2022 FPPC letter link in the results returned 404)",
+        "where": "Web search (FPPC enforcement letters)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "criticism of the candidates",
+        "where": "Los Angeles Times controller race guide (2026-10-01)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "late annual comprehensive financial report",
+        "where": "State Auditor report 2025-602 and CalMatters/LAist (2024-07-10)"
+      }
+    ]
+  }
+}
