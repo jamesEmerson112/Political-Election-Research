@@ -28,6 +28,35 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "B.A., policy management",
+          "institution": "Carnegie Mellon University",
+          "year": 1989,
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "B.A., policy management, Carnegie Mellon University, Pittsburgh, PA, 1989;",
+              "locator": "Nevada, Representatives, Third District, page 158 (PDF page 169)"
+            }
+          ]
+        },
+        {
+          "degree": "M.P.M.",
+          "institution": "Carnegie Mellon University",
+          "year": 1990,
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "M.P.M., Carnegie Mellon University, Pittsburgh, PA, 1990;",
+              "locator": "Nevada, Representatives, Third District, page 158 (PDF page 169)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "U.S. Representative",
       "citations": [
