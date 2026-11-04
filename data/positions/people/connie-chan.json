@@ -216,6 +216,26 @@
       ]
     },
     {
+      "subject": "q:reproductive-rights/federal-abortion-protection",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Her campaign plan says she would restore the federal protections of Roe v. Wade and guarantee access to abortion care nationwide, and lists the Women's Health Protection Act (H.R.12) among bills she would cosponsor.",
+      "citations": [
+        {
+          "source": "src:conniechansf-com-1803a73c7c",
+          "quote": "Restore the federal protections of Roe v. Wade and guarantee access to abortion care nationwide.",
+          "locator": "collapsed section \"Women's health and reproductive rights\" (text hidden until the section is opened), under \"Connie Will:\""
+        },
+        {
+          "source": "src:conniechansf-com-1803a73c7c",
+          "quote": "Women's Health Protection Act (H.R.12): Restores the federal protections of Roe v. Wade and guarantees access to abortion care nationwide.",
+          "locator": "collapsed section \"Women's health and reproductive rights\", under \"Legislation connie will cosponsor:\""
+        }
+      ]
+    },
+    {
       "subject": "q:taxes/federal-wealth-tax",
       "stance": "support",
       "as_of": "2026-11-02",
