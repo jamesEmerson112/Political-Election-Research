@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "herb-morgan-for-state-controller-2026",
+  "name": "Herb Morgan For State Controller 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1480103",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}

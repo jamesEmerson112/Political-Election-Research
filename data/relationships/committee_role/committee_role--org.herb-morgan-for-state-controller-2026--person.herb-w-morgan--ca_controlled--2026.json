@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.herb-morgan-for-state-controller-2026--person.herb-w-morgan--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/controller",
+  "subject": "person:herb-w-morgan",
+  "committee": "org:herb-morgan-for-state-controller-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-c4dfdf6ceb",
+      "locator": "Form 460 cover page (filing 3216043, amendment 0): committee, candidate and office: Herbert Morgan, CON"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
