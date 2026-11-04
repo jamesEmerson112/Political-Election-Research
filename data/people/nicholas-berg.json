@@ -68,6 +68,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Property management executive (ballot designation)",
+      "citations": [
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "NICHOLAS BERG 盧柏格 Property Management Executive",
+          "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+        },
+        {
+          "source": "src:growsf-org-ff90a06896",
+          "quote": "In my current day job, I do the unglamorous work of making things run: budgets that balance, vendors that deliver, problems that get fixed instead of studied.",
+          "locator": "Personal: Why do you want to run for public office?"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [],
