@@ -17,6 +17,15 @@
           "quote": "Lieber served as Chair of the Board of Equalization in 2024, Vice Chair in 2025, and is serving as Chair of the Board in 2026."
         }
       ]
+    },
+    "residence_city": {
+      "value": "Mountain View",
+      "citations": [
+        {
+          "source": "src:sallylieber-org-fd2a598dee",
+          "quote": "Sally and Dave live in Mountain View"
+        }
+      ]
     }
   },
   "ids": [
