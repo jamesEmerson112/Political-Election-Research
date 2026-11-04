@@ -46,6 +46,47 @@
         }
       ]
     },
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "party registration / party preference (the office is nonpartisan; the pamphlet and certified list show no party)",
+          "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, candidate statement (https://media.api.sf.gov/documents/N26_EN_VIP.pdf, p. 29 (PDF page 31))"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "party registration / party preference (the office is nonpartisan; the pamphlet and certified list show no party)",
+          "where": "Campaign website: https://ryanforsfschools.com, https://www.ryanforsfschools.com/about"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "party registration / party preference (the office is nonpartisan; the pamphlet and certified list show no party)",
+          "where": "GrowSF candidate questionnaire: https://growsf.org/voter-guide/questionnaires/november-2026/ryan-hazelton/"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"League of Pissed Off Voters\" 2026 questionnaire \"Ryan Hazelton\"",
+          "where": "Web search for a SF League of Pissed Off Voters 2026 questionnaire response (none found; theleaguesf.org returned HTTP 403)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "party registration / party preference (the office is nonpartisan; the pamphlet and certified list show no party)",
+          "where": "Mission Local school board candidate profiles and Meet the Candidates posts (https://missionlocal.org/2026-san-francisco-school-board-race/, https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/): blocked, HTTP 403"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "party registration / party preference (the office is nonpartisan; the pamphlet and certified list show no party)",
+          "where": "KQED Voter Guide, San Francisco Board of Education (https://www.kqed.org/voterguide/sanfrancisco/school), candidate list"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "San Francisco school board candidates 2026 profiles age born Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton",
+          "where": "Web search (news and candidate profiles)"
+        }
+      ]
+    },
     "residence_city": {
       "value": "San Francisco",
       "citations": [
