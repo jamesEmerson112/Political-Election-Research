@@ -154,6 +154,14 @@ await page.evaluate(() => {
 await page.goto(`${BASE}#overview`);
 await page.reload();
 
+// 5m. A ballot-measure stance row explains the measure: summary, what Yes and No mean, and a link to it.
+await page.goto(`${BASE}#c-2026-ca-general--governor`);
+await page.waitForSelector(".spine-lbl", { timeout: 15000 });
+await page.locator("button", { has: page.locator(".spine-lbl", { hasText: /^Prop 3$/ }) }).first().click();
+await page.waitForSelector(".about-m", { timeout: 5000 }).catch(() => null);
+const about = ((await page.locator(".about-m").first().textContent().catch(() => "")) ?? "").replace(/\s+/g, " ");
+check("5m. the Prop 3 stance row says what Prop 3 is (summary, Yes/No meaning, link)", about.includes("$371,000") && about.includes("Yes:") && about.includes("No:") && about.includes("Open Proposition 3"), about.slice(0, 120));
+
 // 5f. On the Overview, proposition groups start folded; one click opens them.
 await go(page, "#overview");
 await page.waitForSelector(".group");

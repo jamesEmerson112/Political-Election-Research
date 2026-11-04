@@ -7,7 +7,7 @@
  * drawer opener. Both layouts read the same cells, so they always agree.
  */
 import type { CandidateRollup, Citation, Index, Lead, Rec } from "./data";
-import { slugOf } from "./data";
+import { contestRoute, slugOf } from "./data";
 import { date, money, moneyCompact, ORG_TYPE_LABEL } from "./format";
 import { ACTION_ICON, AREA_ICON, CATEGORY, CONTROVERSY_ICON, RECORD_KIND_ICON, type CategoryKey, type Group, type IconComponent, MEASURE_ICON, ROW_ICON, issueIcon } from "./icons";
 import { MARK, stanceMark, type Mark } from "./marks";
@@ -83,6 +83,8 @@ export interface Row {
   /** Full question text, support/oppose definitions (stance rows). */
   question?: string;
   defs?: [string, string];
+  /** Ballot-measure rows: what the measure is (official summary, what Yes and No mean) and a link to its page. */
+  about?: { summary?: string; yes?: string; no?: string; href: string; title: string };
   /** Stance points every candidate states (by facet); each opens both candidates' wording and citations. */
   shared?: Array<{ label: string; run: () => void }>;
   /** One short line under the row label (e.g. "Shared by 3 of 8", "Only Jeremy Lee"). */
@@ -884,8 +886,17 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
     const tail = words.slice(-3).join(" ");
     return tail.charAt(0).toUpperCase() + tail.slice(1);
   };
+  /** For a ballot measure: its official summary and what a Yes or No vote means, from the contest record. */
+  const measureAbout = (s: string): Row["about"] => {
+    if (ix.questions.has(s)) return undefined;
+    const m = ix.contests.get(s);
+    const v = (x: unknown) => ((x as { value?: unknown } | undefined)?.value as string | undefined) ?? undefined;
+    const digest = m?.["digest"] as Rec | undefined;
+    return { summary: v(m?.["summary"]), yes: v(digest?.["yes_means"]), no: v(digest?.["no_means"]), href: `#${contestRoute(s)}`, title: ix.contestTitle(s) };
+  };
   const stanceRow = (s: string): Row => {
     const q = ix.questions.get(s)?.q;
+    const about = measureAbout(s);
     const both = sharedFacets(s);
     const shared = facetsOf(s)
       .filter((f) => both.has(f.id))
@@ -906,6 +917,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       group: "issue",
       question: subjectText(s),
       ...(shared.length ? { shared } : {}),
+      ...(about ? { about } : {}),
       defs: q ? [String(q["support_means"]), String(q["oppose_means"])] : ["Votes or campaigns for the measure.", "Votes or campaigns against the measure."],
     });
   };

@@ -119,6 +119,14 @@
       {#if isOpen && r.question}
         <div class="q-more">
           <p class="q">{r.question}</p>
+          {#if r.about}
+              <div class="about-m">
+                {#if r.about.summary}<p>{r.about.summary}</p>{/if}
+                {#if r.about.yes}<p><strong>Yes:</strong> {r.about.yes}</p>{/if}
+                {#if r.about.no}<p><strong>No:</strong> {r.about.no}</p>{/if}
+                <a href={r.about.href}>Open {r.about.title}: arguments, fiscal effect and sources</a>
+              </div>
+            {/if}
           {#if r.defs}
             <p class="def"><StanceMark mark={MARK["support"]!} size={11} /> {r.defs[0]}</p>
             <p class="def"><StanceMark mark={MARK["oppose"]!} size={11} /> {r.defs[1]}</p>
@@ -616,5 +624,24 @@
     .row-btn .chev {
       display: none;
     }
+  }
+  .about-m {
+    display: grid;
+    gap: 3px;
+    margin: 4px 0 6px;
+    padding: 6px 8px;
+    border-left: 3px solid var(--line-strong);
+    font-size: var(--step--1);
+    color: var(--ink-2);
+    text-align: left;
+  }
+  .about-m p {
+    margin: 0;
+  }
+  .about-m strong {
+    color: var(--ink);
+  }
+  .about-m a {
+    font-weight: 600;
   }
 </style>
