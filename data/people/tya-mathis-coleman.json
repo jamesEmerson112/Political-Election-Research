@@ -4,6 +4,27 @@
   "name": "Tya Mathis-Coleman",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "nevadatreasurer.nv.gov/about-us/staff-bios/ (official staff biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "The Nevada Independent, Feb. 11, 2026 (gives her age, 44, not a birth date)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Tya Mathis-Coleman treasurer campaign website about Las Vegas",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
