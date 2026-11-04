@@ -4,6 +4,22 @@
   "name": "John T. Kennedy",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "John T. Kennedy Libertarian Nevada secretary of state 2026 candidate",
+          "where": "web search (found no campaign site or biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "John Kennedy",
+          "where": "Our Town Reno, May 18, 2026 (names him only as 'Libertarian John Kennedy')"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Libertarian Party of Nevada",
       "citations": [
