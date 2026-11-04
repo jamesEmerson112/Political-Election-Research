@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.colonel-ret-tom-umberg-for-board-of-equalization-2026--person.tom-umberg--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/board-of-equalization-4",
+  "subject": "person:tom-umberg",
+  "committee": "org:colonel-ret-tom-umberg-for-board-of-equalization-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-d59b55bf80",
+      "locator": "Form 460 cover page (filing 3215489, amendment 0): committee, candidate and office: Tom Umberg, BOE District 4"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
