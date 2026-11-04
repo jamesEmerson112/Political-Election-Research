@@ -171,5 +171,121 @@
         "where": "web search restricted to fppc.ca.gov"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "sb-14-trafficking-of-minors-serious-felony",
+        "kind": "legislation",
+        "bill": "ca-2023-sb-14",
+        "date": "2023-09-25",
+        "summary": "Authored SB 14, designating human trafficking of a minor for a commercial sex act a serious felony under the Three Strikes law; it passed both houses unanimously with 64 legislative co-authors, was signed September 25, 2023, and took effect January 1, 2024; no measured outcome is recorded as of 2026-11-04.",
+        "title": "SB 14 (2023): trafficking of a minor for a commercial sex act made a serious felony",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-7f1d57c1de",
+            "quote": "The law designates human trafficking of a minor for purposes of a commercial sex act as a serious felony — including under the state’s “Three Strikes” law — and imposes harsher penalties and sentencing enhancements for individuals convicted of the crime."
+          },
+          {
+            "source": "src:gov-ca-gov-7f1d57c1de",
+            "quote": "SB 14, which passed the state Assembly and Senate unanimously, is a bipartisan measure co-authored by 64 members of the Legislature."
+          },
+          {
+            "source": "src:sr12-senate-ca-gov-e23e475bd4",
+            "quote": "SB 14 goes into effect January 1, 2024."
+          }
+        ]
+      },
+      {
+        "id": "sb-1414-soliciting-a-minor-felony",
+        "kind": "legislation",
+        "bill": "ca-2023-sb-1414",
+        "summary": "Authored SB 1414, raising the penalty for soliciting or purchasing a child for sex from a misdemeanor to a felony, with 16- and 17-year-olds required to be proven trafficking victims; signed by the Governor and effective January 1, 2025; no measured outcome is recorded as of 2026-11-04.",
+        "title": "SB 1414 (2024): soliciting or purchasing a minor for sex made a felony",
+        "citations": [
+          {
+            "source": "src:sr12-senate-ca-gov-eb7649f9c7",
+            "quote": "SB 1414 (Grove) increases the penalty for soliciting or purchasing a child for sex from a misdemeanor to a felony, with a caveat that 16 and 17-year-olds must be proven victims of human trafficking."
+          },
+          {
+            "source": "src:sr12-senate-ca-gov-eb7649f9c7",
+            "quote": "SB 1414 goes into effect January 1, 2025."
+          }
+        ]
+      },
+      {
+        "id": "sb-373-cape-act",
+        "kind": "legislation",
+        "bill": "ca-2025-sb-373",
+        "summary": "Authored SB 373, the CAPE Act, requiring more frequent check-ins and face-to-face meetings between California school representatives and students placed in out-of-state nonpublic schools; signed by the Governor, effective January 1, 2026; no measured outcome is recorded as of 2026-11-04.",
+        "title": "SB 373 (2025): Accountability for Placements in Education (CAPE) Act",
+        "citations": [
+          {
+            "source": "src:sr12-senate-ca-gov-c9e9058638",
+            "quote": "SB 373 required more frequent check-ins and face-to-face meetings between California school representatives and vulnerable students sent out of state."
+          },
+          {
+            "source": "src:sr12-senate-ca-gov-7de32b1b5f",
+            "quote": "SB 373, also known as California’s Accountability for Placements in Education (CAPE) Act, was signed by Governor Gavin Newsom."
+          },
+          {
+            "source": "src:sr12-senate-ca-gov-7de32b1b5f",
+            "quote": "SB 373 will take effect on January 1, 2026."
+          }
+        ]
+      },
+      {
+        "id": "sb-1190-safe-passage-for-youth-act",
+        "kind": "legislation",
+        "bill": "ca-2025-sb-1190",
+        "summary": "Authored SB 1190, the Safe Passage for Youth Act, requiring youth transportation companies to be permitted, employees to pass background checks, and banning middle-of-the-night pickups, blindfolds, hoods and unnecessary restraints; signed by the Governor, effective January 1, 2027.",
+        "title": "SB 1190 (2026): Safe Passage for Youth Act",
+        "citations": [
+          {
+            "source": "src:sr12-senate-ca-gov-c9e9058638",
+            "quote": "SB 1190 now requires youth transportation companies to be permitted, requires employees to pass background checks, and bans middle of the night pickups, blindfolds, hoods, and unnecessary restraints."
+          },
+          {
+            "source": "src:sr12-senate-ca-gov-c9e9058638",
+            "quote": "SB 1190, also known as the Safe Passage for Youth Act, was signed by Governor Gavin Newsom."
+          },
+          {
+            "source": "src:sr12-senate-ca-gov-c9e9058638",
+            "quote": "SB 1190 will take effect on January 1, 2027."
+          }
+        ]
+      },
+      {
+        "id": "sb-931-dolly-parton-day",
+        "kind": "legislation",
+        "bill": "ca-2025-sb-931",
+        "summary": "Co-authored SB 931 with Senator John Laird, designating September 25 as Dolly Parton Day in California; signed by the Governor in 2026.",
+        "title": "SB 931 (2026): September 25 designated Dolly Parton Day",
+        "citations": [
+          {
+            "source": "src:sr12-senate-ca-gov-2d740d5419",
+            "quote": "Senator Shannon Grove (R-Bakersfield) and Senator John Laird (D-Santa Cruz) are proud to announce that their measure, Senate Bill 931, proclaiming 9-2-5, September 25 as Dolly Parton Day in California has been signed into law by Governor Newsom."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "signed into law / chaptered",
+        "where": "https://sr12.senate.ca.gov/legislation and https://sr12.senate.ca.gov/news (official Senate site; partial list)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Grove signed bill press release",
+        "where": "web search restricted to sr12.senate.ca.gov, senate.ca.gov, gov.ca.gov"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "SB 14 2023",
+        "where": "https://leginfo.legislature.ca.gov (bill pages returned HTTP 403; not used)"
+      }
+    ]
   }
 }
