@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ebar-com-d1123d3d34",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2025-09-19",
+  "publisher": "Bay Area Reporter",
+  "title": "Gay SF man Manny Yekutiel announces District 8 supervisor race",
+  "url": "https://www.ebar.com/story/158298"
+}

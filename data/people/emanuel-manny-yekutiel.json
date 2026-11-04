@@ -57,6 +57,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Los Angeles",
+      "citations": [
+        {
+          "source": "src:ebar-com-d1123d3d34",
+          "quote": "Yekutiel, a native of Los Angeles, said his father, an Orthodox Jewish rabbi, had immigrated to Israel from Afghanistan, and that he himself was from Los Angeles"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
