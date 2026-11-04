@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.reform-california--person.denis-bilodeau--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:denis-bilodeau",
+  "endorser": "org:reform-california",
+  "citations": [
+    {
+      "source": "src:bilodeauforboe-com-e8bc2a4152",
+      "quote": "Organizations\nReform California"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

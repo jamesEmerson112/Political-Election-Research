@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "hjta-org-ec9367df00",
+  "kind": "voter_guide",
+  "accessed": "2026-11-04",
+  "published": "2026-04-16",
+  "publisher": "Howard Jarvis Taxpayers Association PAC",
+  "title": "HJTA PAC Endorsements 4.16.26",
+  "url": "https://www.hjta.org/wp-content/uploads/2026/04/HJTA-PAC-ENDORSEMENTS-4.16.26.pdf"
+}

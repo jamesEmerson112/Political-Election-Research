@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "howard-jarvis-taxpayers-association",
+  "name": "Howard Jarvis Taxpayers Association",
+  "aliases": [
+    "HJTA"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

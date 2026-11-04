@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.howard-jarvis-taxpayers-association--person.denis-bilodeau--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-04-16",
+  "endorsee": "person:denis-bilodeau",
+  "endorser": "org:howard-jarvis-taxpayers-association",
+  "citations": [
+    {
+      "source": "src:hjta-org-ec9367df00",
+      "quote": "MARTIN ARIAS / DENIS BILODEAU\nBoard of Equalization 4",
+      "locator": "page 1, Board of Equalization (dual endorsement, alphabetical; list dated April 16, 2026)"
+    },
+    {
+      "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+      "quote": "I signed the Howard Jarvis Taxpayers Association\nPledge to Save Proposition 13 and have their endorsement.",
+      "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
