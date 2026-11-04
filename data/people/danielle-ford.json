@@ -74,6 +74,22 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "city of residence",
+          "where": "KTNV, 'Danielle Ford wants to be the education governor' (Oct. 3, 2026)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Danielle Ford Nevada State Board of Education District 3 member bio doe.nv.gov",
+          "where": "web search"
+        }
+      ]
     }
   },
   "ids": [],
