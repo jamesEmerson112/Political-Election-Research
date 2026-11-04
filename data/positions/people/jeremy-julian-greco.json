@@ -94,6 +94,39 @@
           "locator": "p. 11, answer to \"How did you vote or would you have voted on Mayor Lurie’s Family Zoning Plan?\""
         }
       ]
+    },
+    {
+      "subject": "q:public-health/end-drug-use-supply-distribution",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "harm reduction supplies; pipes; foil; safer smoking supplies",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 4, printed p. 42"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "harm reduction supplies; pipes; foil; safer smoking supplies",
+          "where": "Campaign site jeremygreco2026.com (home page; the About and Why I'm Running pages rendered only a site-builder shell)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "harm reduction supplies; pipes; foil; safer smoking supplies",
+          "where": "SF League of Pissed Off Voters questionnaires, Jeremy Greco, November 2026 and June 2026 (assets.nationbuilder.com PDFs)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "harm reduction supplies; pipes; foil; safer smoking supplies",
+          "where": "GrowSF June 2026 questionnaire page for Jeremy Greco (candidate did not respond) and GrowSF District 4 guide (No Response)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "harm reduction supplies; pipes; foil; safer smoking supplies",
+          "where": "Mission Local (missionlocal.org article pages and WordPress API): HTTP 403 bot check, not readable"
+        }
+      ]
     }
   ]
 }
