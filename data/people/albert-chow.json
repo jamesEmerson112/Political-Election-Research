@@ -45,6 +45,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Great Wall Hardware",
+          "role": "Owner",
+          "citations": [
+            {
+              "source": "src:albertchowsf-com-1655fc7a43",
+              "quote": "Today, he still owns the store, but an arsonist burned it down in 2024"
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "Great Wall Hardware, founded by my parents in 1983, was devastated by an arson fire.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+            }
+          ]
+        },
+        {
+          "organization": "People of Parkside Sunset (POPS)",
+          "role": "President",
+          "citations": [
+            {
+              "source": "src:albertchowsf-com-1655fc7a43",
+              "quote": "Albert has spent 14 years as President of the People of Parkside Sunset (POPS) neighborhood organization"
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I co-founded People of Parkside Sunset",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
