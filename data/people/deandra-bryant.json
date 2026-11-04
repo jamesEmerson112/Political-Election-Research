@@ -45,6 +45,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "San Francisco (Bayview Hunters Point; describes herself as a lifelong resident)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "I am a lifelong Bayview Hunters Point resident",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+        },
+        {
+          "source": "src:growsf-org-1a6ebf1698",
+          "quote": "District 10 is more than the place I call home—it is where I grew up",
+          "locator": "Question 1"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
