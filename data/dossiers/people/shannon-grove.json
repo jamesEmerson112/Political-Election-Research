@@ -1,0 +1,175 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:shannon-grove",
+  "controversies": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "fppc-2012-subvendor-reporting-stipulation",
+        "resolution": {
+          "summary": "The stipulation records that the committee filed amendments disclosing the missing information after the elections and after notice of the investigation, and that the penalty was agreed in an early settlement.",
+          "citations": [
+            {
+              "source": "src:fppc-ca-gov-a39f3f3272",
+              "quote": "Additionally, although Respondents voluntarily filed amendments disclosing the missing subvendor information, the information was not disclosed until after the relevant elections and only after notification that an investigation had been initiated."
+            },
+            {
+              "source": "src:fppc-ca-gov-a39f3f3272",
+              "quote": "Respondents cooperated with the Enforcement Division of the Fair Political Practices Commission by agreeing to an early settlement of this matter"
+            }
+          ]
+        },
+        "response": {
+          "status": "not_found",
+          "as_of": "2026-11-04",
+          "search_log": [
+            {
+              "date": "2026-11-04",
+              "query": "Shannon Grove statement response FPPC fine campaign committee Karen Cain",
+              "where": "web search (news)"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "FPPC / fine / warning letter",
+              "where": "https://sr12.senate.ca.gov/news and https://shannongroveca.com/ (official and campaign sites)"
+            }
+          ]
+        },
+        "summary": "In a stipulation with the Fair Political Practices Commission, Grove, her 2010 Assembly committee and its treasurer agreed that they failed to timely report subvendor information for payments of about $229,374 on 2010 primary campaign statements, and agreed to a $2,250 administrative penalty.",
+        "title": "FPPC stipulated penalty for late subvendor reporting by her 2010 Assembly committee",
+        "citations": [
+          {
+            "source": "src:fppc-ca-gov-a39f3f3272",
+            "quote": "Count 1: Respondents Shannon Grove, Shannon Grove for Assembly 2010, and Karen Cain failed to timely report subvendor information for payments totaling approximately $229,374 on campaign statements filed in connection with the 2010 Primary Election, in violation of Sections 84211, subdivision (k), and 84303."
+          },
+          {
+            "source": "src:fppc-ca-gov-a39f3f3272",
+            "quote": "Respondents also agree to the Commission imposing upon them an administrative penalty in the amount of $2,250."
+          }
+        ]
+      },
+      {
+        "id": "fppc-2014-online-contribution-reports-fine",
+        "date": "2014-06-19",
+        "response": {
+          "status": "not_found",
+          "as_of": "2026-11-04",
+          "search_log": [
+            {
+              "date": "2026-11-04",
+              "query": "Shannon Grove statement response FPPC fine campaign committee Karen Cain",
+              "where": "web search (news)"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "FPPC / fine / warning letter",
+              "where": "https://sr12.senate.ca.gov/news and https://shannongroveca.com/ (official and campaign sites)"
+            }
+          ]
+        },
+        "summary": "The Fair Political Practices Commission's June 19, 2014 enforcement decisions list a $2,000 fine against Grove, her 2012 Assembly committee and its treasurer for not filing online reports of 11 contributions of $5,000 or more, totaling $77,400, received outside the 90 days before an election.",
+        "title": "FPPC fine for unfiled online contribution reports by her 2012 Assembly committee",
+        "citations": [
+          {
+            "source": "src:fppc-ca-gov-7d0ecaf881",
+            "quote": "Shannon Grove, Shannon Grove for Assembly 2012, and Karen Cain, failed to file online campaign reports disclosing contributions received of $5,000 or more outside the 90 day period before an election in connection with 11 contributions for a total of $77,400 from various individuals. $2,000 fine."
+          },
+          {
+            "source": "src:fppc-ca-gov-7d0ecaf881",
+            "quote": "The following are enforcement decisions approved by the Fair Political Practices Commission at its regular monthly meeting held on Thursday, June 19, 2014."
+          }
+        ]
+      },
+      {
+        "id": "fppc-2016-unpaid-committee-annual-fee-fine",
+        "date": "2016-01-21",
+        "response": {
+          "status": "not_found",
+          "as_of": "2026-11-04",
+          "search_log": [
+            {
+              "date": "2026-11-04",
+              "query": "Shannon Grove statement response FPPC fine campaign committee Karen Cain",
+              "where": "web search (news)"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "FPPC / fine / warning letter",
+              "where": "https://sr12.senate.ca.gov/news and https://shannongroveca.com/ (official and campaign sites)"
+            }
+          ]
+        },
+        "summary": "The Fair Political Practices Commission's January 21, 2016 enforcement decisions list a $400 fine against Shannon Grove for Assembly 2012 and Shannon Grove for Assembly 2014 for not paying the 2013 $50 annual fee to the Secretary of State.",
+        "title": "FPPC fine for unpaid 2013 committee annual fees",
+        "citations": [
+          {
+            "source": "src:fppc-ca-gov-5ecb2f0434",
+            "quote": "Shannon Grove for Assembly 2012 and Shannon Grove for Assembly 2014 failed to pay the 2013 $50 annual fee to the Secretary of State’s Office. $400 Fine."
+          },
+          {
+            "source": "src:fppc-ca-gov-5ecb2f0434",
+            "quote": "The following are enforcement decisions approved by the Fair Political Practices Commission at its regular monthly meeting held on Thursday, January 21, 2016."
+          }
+        ]
+      },
+      {
+        "id": "fppc-2022-late-behested-payment-report-warning",
+        "date": "2022-10-14",
+        "resolution": {
+          "date": "2022-10-14",
+          "summary": "Closed with a warning letter and no fine; the letter states she filed the report after learning of the payment and before the Enforcement Division contacted her.",
+          "citations": [
+            {
+              "source": "src:fppc-ca-gov-5cd514c177",
+              "quote": "you filed the outstanding report immediately after receipt of the information and before you were contacted by the Enforcement Division"
+            }
+          ]
+        },
+        "response": {
+          "status": "not_found",
+          "as_of": "2026-11-04",
+          "search_log": [
+            {
+              "date": "2026-11-04",
+              "query": "Shannon Grove statement response FPPC fine campaign committee Karen Cain",
+              "where": "web search (news)"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "FPPC / fine / warning letter",
+              "where": "https://sr12.senate.ca.gov/news and https://shannongroveca.com/ (official and campaign sites)"
+            }
+          ]
+        },
+        "summary": "The FPPC Enforcement Division found that Grove did not file a behested payment report (Form 803) within 30 days of a December 9, 2021 payment of $5,000 or more to CityServe, and closed the case with a warning letter rather than a fine, citing mitigating factors.",
+        "title": "FPPC warning letter for a late behested payment report",
+        "citations": [
+          {
+            "source": "src:fppc-ca-gov-5cd514c177",
+            "quote": "Specifically, we found that on December 9, 2021, a payment of $5,000 or more was made to CityServe at your behest."
+          },
+          {
+            "source": "src:fppc-ca-gov-5cd514c177",
+            "quote": "Your actions violated the Act because you failed to timely file a Form 803 within 30 days of the date of the payment."
+          },
+          {
+            "source": "src:fppc-ca-gov-5cd514c177",
+            "quote": "the Enforcement Division has decided to close this case with this warning letter rather than issue a fine"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Shannon Grove controversy criticism FPPC (2026-11-04)",
+        "where": "web search (news)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "fppc.ca.gov enforcement Shannon Grove",
+        "where": "web search restricted to fppc.ca.gov"
+      }
+    ]
+  }
+}

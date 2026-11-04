@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "fppc-ca-gov-5cd514c177",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "published": "2022-10-14",
+  "publisher": "Fair Political Practices Commission",
+  "title": "Warning Letter Re: FPPC No. 2022-00734; Shannon Grove",
+  "url": "https://www.fppc.ca.gov/siteassets/documents/enforcement_div/enf_letters/2022/12-09-22/shannon-grove-202200734.pdf"
+}
