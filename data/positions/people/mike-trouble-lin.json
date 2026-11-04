@@ -195,6 +195,26 @@
           "locator": "Public Safety"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "oppose",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said the city cannot tax its way out of Muni's funding crisis and proposed closing underused stations and running Muni like a lean start-up.",
+      "citations": [
+        {
+          "source": "src:growsf-org-413572f183",
+          "quote": "We can not tax our way out of MUNI’s funding crisis.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        },
+        {
+          "source": "src:growsf-org-413572f183",
+          "quote": "Let’s force MUNI to act like a lean start-up.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        }
+      ]
     }
   ]
 }
