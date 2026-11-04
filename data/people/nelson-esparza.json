@@ -40,6 +40,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Raised in Madera, in California's Central Valley (place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:nelsonesparza-com-ac82fc37a7",
+          "quote": "Nelson Esparza is a true son of the Central Valley. Raised by a single teen mother in Madera, Nelson spent his early years living with his grandparents until his mother married the man he calls his father today."
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Raised in California’s Central Valley",
+          "locator": "page 91, Candidate Statements, Board of Equalization District 1"
+        }
+      ]
+    },
     "occupation": {
       "value": "Teacher/Economist/Councilmember (ballot designation); Fresno City Council President (District 7) and economics instructor at Fresno City College",
       "citations": [
