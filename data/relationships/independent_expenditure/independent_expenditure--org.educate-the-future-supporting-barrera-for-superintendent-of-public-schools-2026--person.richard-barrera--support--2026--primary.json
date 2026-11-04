@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.educate-the-future-supporting-barrera-for-superintendent-of-public-schools-2026--person.richard-barrera--support--2026--primary",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "primary",
+  "money": {
+    "amount_cents": 1050000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:educate-the-future-supporting-barrera-for-superintendent-of-public-schools-2026",
+  "target": "person:richard-barrera",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-7bfc7ea629",
+      "locator": "Form 496: line 1 (2026-06-01, $10,500.00, text messages)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
