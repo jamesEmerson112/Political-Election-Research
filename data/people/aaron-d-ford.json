@@ -46,6 +46,38 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Law degree",
+          "institution": "The Ohio State University",
+          "citations": [
+            {
+              "source": "src:ag-nv-gov-55e6df11d7",
+              "quote": "AG Ford is proud to have earned five degrees, which include his law degree and Ph.D. in Educational Administration from The Ohio State University, as well as degrees in interdisciplinary studies, international education, and educational administration."
+            }
+          ]
+        },
+        {
+          "degree": "Ph.D. in Educational Administration",
+          "institution": "The Ohio State University",
+          "citations": [
+            {
+              "source": "src:ag-nv-gov-55e6df11d7",
+              "quote": "AG Ford is proud to have earned five degrees, which include his law degree and Ph.D. in Educational Administration from The Ohio State University, as well as degrees in interdisciplinary studies, international education, and educational administration."
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "institutions for the degrees in interdisciplinary studies, international education and educational administration (not named)",
+          "where": "ag.nv.gov/About/AG_Aaron_Ford/ and fordfornevada.com/about"
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney General of Nevada",
       "citations": [
