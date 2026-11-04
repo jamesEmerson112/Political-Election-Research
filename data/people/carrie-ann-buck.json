@@ -73,6 +73,16 @@
           "locator": "PDF page 1, Abbreviations"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Henderson",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-77b6fc7bd3",
+          "quote": "Carrie Buck, Republican candidate for Nevada's 1st Congressional District, sits for an interview in her Henderson home on Sept 3, 2026.",
+          "locator": "photo caption"
+        }
+      ]
     }
   },
   "ids": [
