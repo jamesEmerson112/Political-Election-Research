@@ -46,6 +46,15 @@
         }
       ]
     },
+    "occupation": {
+      "value": "High school teacher and small-business owner",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-e95ea9d1fb",
+          "quote": "His opponent, Michael MacDougall (D), is a high school teacher and small-business owner who had never run for office before."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
