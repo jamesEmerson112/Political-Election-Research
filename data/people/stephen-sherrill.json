@@ -101,6 +101,33 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, Board of Supervisors, District 2",
+          "current": true,
+          "jurisdiction": "City and County of San Francisco",
+          "office_ref": "office:san-francisco-supervisor",
+          "citations": [
+            {
+              "source": "src:sf-gov-8377a893c4",
+              "quote": "Supervisor Stephen Sherrill represents District 2."
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My occupation is Member, Board of Supervisors.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 41 (PDF p. 43)"
+            },
+            {
+              "source": "src:api-sf-gov-cd997081d7",
+              "quote": "STEPHEN SHERRILL 史蒂芬‧謝里爾 Appointed Member, Board of Supervisors",
+              "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
