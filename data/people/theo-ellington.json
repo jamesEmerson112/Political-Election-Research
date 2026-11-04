@@ -60,6 +60,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Public Policy Director (ballot designation); Executive Director, Ruth Williams Bayview Opera House",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Public Policy Director.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "THEO ELLINGTON 艾霖敦 Public Policy Director",
+          "locator": "p. 1, Board of Supervisors, District 10 table (English ballot designation)"
+        },
+        {
+          "source": "src:kqed-org-44d1250e32",
+          "quote": "Executive director of the Ruth William Bayview Opera House",
+          "locator": "Candidates list"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
