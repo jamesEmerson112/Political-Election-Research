@@ -4,6 +4,30 @@
   "name": "Phil Kim",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "7th grade science teacher (Teach for America)",
+          "citations": [
+            {
+              "source": "src:philkim-org-3d3a51699d",
+              "quote": "After graduation, Phil joined Teach for America. He was sent to the Bay Area and became a 7th grade science teacher."
+            }
+          ]
+        },
+        {
+          "organization": "San Francisco Unified School District",
+          "role": "Executive Director of School Strategy and Coherence, Office of the Superintendent",
+          "citations": [
+            {
+              "source": "src:sfusd-edu-2c46c15bfb",
+              "quote": "he served as Executive Director of School Strategy and Coherence within the Office of the Superintendent."
+            }
+          ]
+        }
+      ]
+    },
     "residence_city": {
       "value": "San Francisco",
       "citations": [
