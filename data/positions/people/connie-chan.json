@@ -39,6 +39,49 @@
       ]
     },
     {
+      "subject": "q:ai/frontier-ai-safety-disclosure",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "AI safety, disclosure, incident reporting, frontier models; found calls for safety review and human oversight in high-risk sectors and for AI disclosure and accounting requirements through the FTC, SEC and CFPB, but no statement on safety disclosures or incident reports by developers of the most powerful AI models",
+          "where": "Campaign site, Working People's Plan, section \"AI & the future of work\" (conniechansf.com/working-peoples-plan, including the collapsed section text)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "AI",
+          "where": "SF Voter Information Pamphlet, Chan's candidate statement (p. 24)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "AI regulation",
+          "where": "KQED voter guide, U.S. House District 11 (kqed.org/voterguide/sanfrancisco/congress-11th-district/)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Chan AI regulation; she called SB 53 \"watered down\", said AI companies should be held liable and asked for human oversight during development, but did not address legally required safety disclosures or incident reports",
+          "where": "KQED, \"San Francisco Is Ground Zero for AI. How Would Congressional Candidates Push for Regulation?\" (Oct. 15, 2026)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Chan AI regulation debate",
+          "where": "The San Francisco Standard, \"Five takeaways from congressional debate: Wiener, Chan clash over AI regulation\" (Oct. 1, 2026)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Chan AI debate; not readable here (browser check)",
+          "where": "Mission Local AI debate coverage (missionlocal.org/2026/10/...ai-debate/)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Connie Chan AI safety disclosure incident reporting frontier models SB 53 position",
+          "where": "Web search"
+        }
+      ]
+    },
+    {
       "subject": "q:civil-rights/lgbtq-nondiscrimination",
       "stance": "support",
       "as_of": "2026-11-04",
