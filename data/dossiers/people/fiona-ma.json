@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:fiona-ma",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "make-higher-education-more-affordable",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Says that as Lieutenant Governor she will make higher education and college more affordable.",
+        "title": "Make higher education more affordable",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As Lieutenant Governor, I will make higher education more affordable, expand paid internships, and strengthen career pathways.",
+            "locator": "Candidate statement, p. 84"
+          },
+          {
+            "source": "src:fionama-com-a9fbda03b2",
+            "quote": "I’ll work to make college more affordable and ensure seniors can age with dignity."
+          }
+        ]
+      },
+      {
+        "id": "expand-paid-internships-and-career-pathways",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Says that as Lieutenant Governor she will expand paid internships and strengthen career pathways.",
+        "title": "Expand paid internships and strengthen career pathways",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As Lieutenant Governor, I will make higher education more affordable, expand paid internships, and strengthen career pathways.",
+            "locator": "Candidate statement, p. 84"
+          }
+        ]
+      }
+    ]
+  }
+}
