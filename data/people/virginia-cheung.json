@@ -3,10 +3,21 @@
   "id": "virginia-cheung",
   "name": "Virginia Cheung",
   "aliases": [],
+  "candidate_profile": {
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-f8287e3fa2",
+          "quote": "I moved to San Francisco in 2008 for work in education, and I have stayed because this city is where I have built my life, my career, and my commitment to public service."
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.virginiacheung.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
