@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.state-building-and-construction-trades-council-of-california-pac-small-contribut--org.colonel-ret-tom-umberg-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:state-building-and-construction-trades-council-of-california-pac-small-contribut",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 2010000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-03-25"
+    }
+  },
+  "recipient": "org:colonel-ret-tom-umberg-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-16b1cf07fe",
+      "locator": "Form 460 Schedule A: line 439 (2026-03-25, $1,000.00); line 440 (2026-03-25, $9,300.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-ec865d7dd2",
+      "locator": "Form 460 Schedule A: line 51 (2026-05-22, $9,300.00); line 52 (2026-05-22, $500.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.john-manly--org.colonel-ret-tom-umberg-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:john-manly",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-02-17"
+    }
+  },
+  "recipient": "org:colonel-ret-tom-umberg-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-16b1cf07fe",
+      "locator": "Form 460 Schedule A: line 317 (2026-02-17, $9,800.00); line 318 (2026-02-17, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-state-association-of-electrical-workers-small-contributor-committee--org.colonel-ret-tom-umberg-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-state-association-of-electrical-workers-small-contributor-committee",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 2630000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-03-25"
+    }
+  },
+  "recipient": "org:colonel-ret-tom-umberg-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-16b1cf07fe",
+      "locator": "Form 460 Schedule A: line 103 (2026-03-25, $8,800.00); line 104 (2026-03-25, $900.00); line 105 (2026-03-25, $6,600.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-ec865d7dd2",
+      "locator": "Form 460 Schedule A: line 7 (2026-05-28, $3,300.00); line 8 (2026-05-28, $6,700.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

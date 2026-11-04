@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "peace-officers-research-association-of-california-pac-porac-pac-small-contributo",
+  "name": "Peace Officers Research Association of California PAC (PORAC PAC) Small Contributor Committee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

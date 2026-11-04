@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "law-offices-of-walkup-melodia-kelly-and-schoenberger-a-professional-corporation",
+  "name": "Law Offices of Walkup, Melodia, Kelly & Schoenberger, A Professional Corporation",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

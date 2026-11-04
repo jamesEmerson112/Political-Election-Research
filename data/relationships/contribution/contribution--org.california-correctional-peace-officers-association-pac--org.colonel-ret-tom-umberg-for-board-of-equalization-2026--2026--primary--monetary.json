@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-correctional-peace-officers-association-pac--org.colonel-ret-tom-umberg-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-correctional-peace-officers-association-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-12-15"
+    }
+  },
+  "recipient": "org:colonel-ret-tom-umberg-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-e7dd3799a7",
+      "locator": "Form 460 Schedule A: line 30 (2025-12-15, $6,500.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-16b1cf07fe",
+      "locator": "Form 460 Schedule A: line 78 (2026-03-03, $3,200.00); line 79 (2026-03-03, $3,300.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-ec865d7dd2",
+      "locator": "Form 460 Schedule A: line 6 (2026-06-01, $6,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
