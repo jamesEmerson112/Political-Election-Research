@@ -14,6 +14,26 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Degree in Animal Science",
+          "institution": "Virginia Tech",
+          "citations": [
+            {
+              "source": "src:codyk4congress-com-644bbd55ee",
+              "quote": "A standout athlete, Cody earned a full football scholarship to Virginia Tech University, where he met his wife, Dana. After graduating with a degree in Animal Science,",
+              "locator": "About Cody"
+            },
+            {
+              "source": "src:thenevadaindependent-com-e5a9b6fe58",
+              "quote": "He met his wife, Dana, earned his degree in animal science,"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
