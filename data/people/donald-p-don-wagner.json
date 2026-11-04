@@ -7,6 +7,22 @@
     "Donald P. Wagner"
   ],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birth date",
+          "where": "Campaign site wagnerforcalifornia.com About page (?page_id=221) and campaign prospectus PDF (states birthplace only; a reprinted Sacramento Bee story gives an age, not a date); Orange County Third District official biography (bos3.oc.gov/supervisor); OCTA Board of Directors biography (octa.net); 2026 Official Voter Information Guide candidate statement"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Don Wagner\" Orange County supervisor born 1960 OR 1961 birthday age",
+          "where": "Web search: only reference works (Wikipedia and mirrors, JoinCalifornia, Prediction Edge) state a birth date; no official or campaign biography found"
+        }
+      ]
+    },
     "birthplace": {
       "value": "Pittsburgh",
       "citations": [
@@ -185,6 +201,15 @@
           "locator": "page 2, Secretary of State"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Unincorporated Orange County",
+      "citations": [
+        {
+          "source": "src:bos3-oc-gov-efb729411c",
+          "quote": "Supervisor Wagner lives in the unincorporated area of his District with his wife, and previously in Irvine, where they raised their three children."
+        }
+      ]
     }
   },
   "ids": [
@@ -198,5 +223,5 @@
     "official_site": "https://bos3.oc.gov/supervisor"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
