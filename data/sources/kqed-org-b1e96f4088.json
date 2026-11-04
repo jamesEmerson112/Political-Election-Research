@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-b1e96f4088",
+  "kind": "voter_guide",
+  "accessed": "2026-11-04",
+  "publisher": "KQED",
+  "title": "San Francisco Unified School District Board of Education (KQED Voter Guide, 2026)",
+  "url": "https://www.kqed.org/voterguide/sanfrancisco/school",
+  "notes": "Requested https://www.kqed.org/voterguide/sanfrancisco/school; it redirects to https://www.kqed.org/elections/results/sanfrancisco/school. Opened 2026-11-04 with fetch-text: the 'Positions on Key Issues' section shows candidate summaries for the student-assignment question; the answers to the other questions were collapsed and not in the page text."
+}

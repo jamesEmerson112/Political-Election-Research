@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:autumn-brown-garibay",
+  "positions": [
+    {
+      "subject": "q:education/sfusd-proximity-assignment",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "KQED reports that Brown Garibay believes families should have access to neighborhood schools but says requiring families to attend their neighborhood school now would not be fair because schools have not been resourced equitably.",
+      "citations": [
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "Brown Garibay believes families should have access to neighborhood schools, but she says the district needs to consider and adjust investment in those schools with equity in mind.",
+          "locator": "Positions on Key Issues, student-assignment question"
+        },
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "“We have not taken care of all of the schools in our neighborhoods in an equitable way, so if today we suddenly say you must go to your neighborhood school … that’s not fair,” she says.",
+          "locator": "Positions on Key Issues, student-assignment question"
+        }
+      ]
+    }
+  ]
+}
