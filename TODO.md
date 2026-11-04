@@ -13,6 +13,8 @@ The format is frozen at the tag `format-v1` (2026-11-04; see CLAUDE.md "Format: 
 - **Site size:** load contests on demand.
 - **CI:** run the browser checks (`npm run e2e`) in CI.
 - **Promise topics** for other contests are data, not format: they can be added during research.
+- **Nevada initiative constitutional amendments (second vote):** `2026-nv-general/question-6` and `question-7` are the second of the two votes Article 19, Section 2 requires ("must be approved by the voters at two successive general elections", Fiscal Analysis Division notes in Clark County's All Ballot Questions PDF, src:clarkcountynv-gov-384ac2c752, pp. 9 and 14). The measure schema has no field for the first vote (2024 Question 6 / Question 7) or the two-vote requirement; today it is only in `fiscal.summary` (Q6) and `digest.proposal` (Q7).
+- **Ballot-argument footnotes:** the Nevada arguments for `2026-nv-general/question-6` and `question-7` print numbered endnotes (the authors' sources) after each argument (same PDF, pp. 5-8, 12-14). `BallotArgument` has no field for them, so `text` keeps the inline note markers and the endnotes are left out.
 
 ## Where things are (resume here)
 - Branch: `claude/practical-curie-2m7we8` (all work pushed; CI runs typecheck, fmt, validate, tests, web build).
