@@ -59,6 +59,38 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Attorney General of Nevada",
+          "current": true,
+          "jurisdiction": "Nevada",
+          "start": "2019-01-07",
+          "citations": [
+            {
+              "source": "src:ag-nv-gov-55e6df11d7",
+              "quote": "Attorney General Aaron D. Ford, Nevada’s 34th Attorney General, took office on January 7, 2019, making him the first African American to hold statewide constitutional office in Nevada."
+            }
+          ]
+        },
+        {
+          "office": "Member of the Nevada State Senate (served as Majority Leader and as Minority Leader)",
+          "current": false,
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:ag-nv-gov-55e6df11d7",
+              "quote": "A former State Senator, AG Ford previously served as both the Majority Leader and the Minority Leader in the Nevada State Legislature and held leadership roles on several legislative committees."
+            },
+            {
+              "source": "src:fordfornevada-com-5c1d4c5d6e",
+              "quote": "He served as Nevada’s Senate Majority Leader."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
