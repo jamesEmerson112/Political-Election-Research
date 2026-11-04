@@ -59,6 +59,26 @@
       ]
     },
     {
+      "subject": "q:civil-rights/voting-rights-preclearance",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Her campaign plan says she would restore the Voting Rights Act after Shelby County v. Holder and lists the John Lewis Voting Rights Act (H.R.14) among bills she would cosponsor.",
+      "citations": [
+        {
+          "source": "src:conniechansf-com-1803a73c7c",
+          "quote": "Restore and strengthen the 1965 Voting Rights Act, holding jurisdictions accountable after Shelby County v. Holder gutted federal oversight.",
+          "locator": "collapsed section \"elections and voting rights\" (text hidden until the section is opened), under \"Connie will:\""
+        },
+        {
+          "source": "src:conniechansf-com-1803a73c7c",
+          "quote": "John Lewis Voting Rights Act (H.R.14): Restores and strengthens the 1965 Voting Rights Act, holding jurisdictions accountable for voter suppression.",
+          "locator": "collapsed section \"elections and voting rights\", under \"legislation connie will co-sponsor:\""
+        }
+      ]
+    },
+    {
       "subject": "q:healthcare/single-payer",
       "stance": "support",
       "as_of": "2026-11-02",
