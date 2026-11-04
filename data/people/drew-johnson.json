@@ -46,6 +46,15 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Policy analyst",
+      "citations": [
+        {
+          "source": "src:kolotv-com-9b2260460b",
+          "quote": "Fiscal watchdog and conservative policy analyst Drew Johnson has announced he will run for Nevada State Treasurer as a Republican."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

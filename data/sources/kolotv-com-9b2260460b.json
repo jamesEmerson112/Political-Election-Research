@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kolotv-com-9b2260460b",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2025-05-22",
+  "publisher": "KOLO 8 News Now",
+  "title": "Policy analyst Drew Johnson announces bid for Nevada State Treasurer",
+  "url": "https://www.kolotv.com/2025/05/22/policy-analyst-drew-johnson-announces-bid-nevada-state-treasurer/"
+}
