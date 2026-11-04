@@ -3,6 +3,36 @@
   "actor": "person:stephen-sherrill",
   "positions": [
     {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "vote",
+      "summary": "Voted yes on the Family Zoning Plan zoning map ordinance (File No. 250700) on first reading on December 2, 2025 and at final passage on December 9, 2025; in his League of Pissed Off Voters questionnaire he says he supported the plan.",
+      "citations": [
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "[Zoning Map - Family Zoning Plan]",
+          "locator": "p. 1, ordinance heading"
+        },
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "Ayes: 7 - Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill and Wong",
+          "locator": "p. 72, legislative history, December 02, 2025, passed on first reading"
+        },
+        {
+          "source": "src:sfbos-org-4da3f946d7",
+          "quote": "Ayes: 6 - Dorsey, Mahmood, Mandelman, Melgar, Sauter and Sherrill",
+          "locator": "p. 72, legislative history, December 09, 2025, final passage"
+        },
+        {
+          "source": "src:assets-nationbuilder-com-0fcb382490",
+          "quote": "I supported it. We went parcel by parcel with constituents to pass a clear framework everyone understood.",
+          "locator": "p. 8, answer to \"How did you vote or would you have voted on Mayor Lurie’s Family Zoning Plan?\""
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-11-03",
