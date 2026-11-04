@@ -35,6 +35,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:albertchowsf-com-2b0394c89e",
+          "quote": "I was born and raised in San Francisco.",
+          "locator": "Supporting Our Local Schools"
+        }
+      ]
+    },
     "occupation": {
       "value": "Hardware store owner (Great Wall Hardware)",
       "citations": [
