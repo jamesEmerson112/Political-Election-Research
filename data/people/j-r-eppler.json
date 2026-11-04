@@ -72,6 +72,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Commissioner, San Francisco Board of Appeals",
+          "current": false,
+          "jurisdiction": "City and County of San Francisco",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:jreppler-com-f27f327f06",
+              "quote": "In 2022, Walton tapped J.R. for the Board of Appeals.",
+              "locator": "About J.R."
+            },
+            {
+              "source": "src:growsf-org-2bfee09a33",
+              "quote": "I served as a commissioner on the San Francisco Board of Appeals until I declared my candidacy.",
+              "locator": "Personal: current involvement in the community"
+            }
+          ]
+        },
+        {
+          "office": "Commissioner, San Francisco Building Inspection Commission",
+          "current": false,
+          "jurisdiction": "City and County of San Francisco",
+          "start": "2021",
+          "citations": [
+            {
+              "source": "src:jreppler-com-f27f327f06",
+              "quote": "In 2021, he was selected by then-Board of Supervisors President Shamann Walton to serve on the Building Inspection Commission",
+              "locator": "About J.R."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
