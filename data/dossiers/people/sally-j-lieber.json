@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:sally-j-lieber",
+  "controversies": {
+    "as_of": "2026-11-04",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Sally Lieber controversy criticism FPPC (2026-11-04)",
+        "where": "web search (news)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "fppc.ca.gov enforcement Sally Lieber",
+        "where": "web search restricted to fppc.ca.gov"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "no court, ethics, audit or agency finding naming her, and no matter reported by two independent publishers, was found; a 2020 guest opinion about a mailer was a single opinion piece",
+        "where": "results reviewed"
+      }
+    ]
+  }
+}
