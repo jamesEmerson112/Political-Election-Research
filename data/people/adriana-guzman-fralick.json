@@ -34,6 +34,75 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "AGF Law",
+          "role": "Founder",
+          "citations": [
+            {
+              "source": "src:adrianafornevada-com-5c06314366",
+              "quote": "Founder, AGF Law"
+            },
+            {
+              "source": "src:8newsnow-com-f2fd2cdc21",
+              "quote": "For the past seven years, she has been in private practice after opening her own law firm."
+            }
+          ]
+        },
+        {
+          "organization": "Carson City District Attorney's Office",
+          "role": "Chief Deputy District Attorney",
+          "citations": [
+            {
+              "source": "src:adrianafornevada-com-5c06314366",
+              "quote": "Chief Deputy District Attorney, Carson City"
+            }
+          ]
+        },
+        {
+          "organization": "Office of the Nevada Governor",
+          "role": "General Counsel to Governor Jim Gibbons",
+          "citations": [
+            {
+              "source": "src:adrianafornevada-com-5c06314366",
+              "quote": "General Counsel to Governor Jim Gibbons"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Commission on Ethics",
+          "role": "Legal Counsel",
+          "citations": [
+            {
+              "source": "src:adrianafornevada-com-5c06314366",
+              "quote": "Legal Counsel, Nevada Commission on Ethics"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Public Utilities Commission",
+          "role": "Attorney",
+          "citations": [
+            {
+              "source": "src:8newsnow-com-f2fd2cdc21",
+              "quote": "She previously worked as an attorney for the Nevada Commission on Ethics and the Nevada Public Utilities Commission."
+            }
+          ]
+        },
+        {
+          "organization": "Carson City",
+          "role": "Assistant city manager",
+          "citations": [
+            {
+              "source": "src:8newsnow-com-f2fd2cdc21",
+              "quote": "She also worked for Republican Gov. Jim Gibbons, as well as serving in the Carson City district attorney’s office and as assistant city manager for Carson City."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
