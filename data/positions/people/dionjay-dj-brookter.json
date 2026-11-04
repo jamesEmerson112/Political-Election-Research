@@ -246,6 +246,26 @@
           "where": "Web search"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said Muni's funding crisis should not be resolved by taxes alone and that the city should combine sustainable revenue with operational improvements; he did not say whether he supports a new local tax.",
+      "citations": [
+        {
+          "source": "src:growsf-org-6ce6663909",
+          "quote": "should not be resolved by taxes alone",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        },
+        {
+          "source": "src:growsf-org-6ce6663909",
+          "quote": "the city should pursue a balanced strategy that combines sustainable revenue, operational improvements, and investments that connect residents to opportunity.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        }
+      ]
     }
   ]
 }
