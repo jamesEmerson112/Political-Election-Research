@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:matt-dorsey",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "three-year-police-staffing-plan",
+        "as_of": "2026-11-04",
+        "issue": "public-safety",
+        "summary": "Dorsey's GrowSF questionnaire calls for a three-year plan to reach full police staffing, with faster hiring, combined recruiting and more civilianization.",
+        "title": "Three-year plan to fully staff SFPD",
+        "citations": [
+          {
+            "source": "src:growsf-org-aecb4e3daa",
+            "quote": "Commit to a three-year plan to reach 100% full staffing, full stop.",
+            "locator": "Public Safety: What three things would you change about how SFPD operates?"
+          }
+        ]
+      },
+      {
+        "id": "surveillance-ordinance-fee-reform",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "Dorsey says he is sponsoring legislation to change the section of the Surveillance Technology Ordinance that lets prevailing parties recover attorneys' fees from the city.",
+        "title": "Change the Surveillance Technology Ordinance's attorney-fee provision",
+        "citations": [
+          {
+            "source": "src:growsf-org-aecb4e3daa",
+            "quote": "In particular, the section authorizing attorneys’ fees and costs recovery for prevailing parties in litigation is an irresponsible incentive to sue the city and its taxpayers",
+            "locator": "Your Policy Goals: Give three examples of legislation that should be repealed"
+          },
+          {
+            "source": "src:growsf-org-aecb4e3daa",
+            "quote": "and I’m sponsoring legislation to change it.",
+            "locator": "Your Policy Goals, same answer"
+          }
+        ]
+      },
+      {
+        "id": "regional-mental-health-centers",
+        "as_of": "2026-11-04",
+        "issue": "public-health",
+        "summary": "Dorsey says San Francisco should work with other counties to create regional mental health treatment centers.",
+        "title": "Regional mental health treatment centers",
+        "citations": [
+          {
+            "source": "src:growsf-org-aecb4e3daa",
+            "quote": "Ideally, San Francisco would collaborate with other counties to create regional mental health treatment centers.",
+            "locator": "Mental Health: Should San Francisco amend our current laws around mental health crisis intervention?"
+          }
+        ]
+      }
+    ]
+  }
+}
