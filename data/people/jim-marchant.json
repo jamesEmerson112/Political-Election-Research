@@ -30,6 +30,22 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Jim Marchant 2026 secretary of state campaign website about",
+          "where": "web search for the campaign site"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "place of birth",
+          "where": "Our Town Reno, May 18, 2026; KOLO/AP, June 16, 2026"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
