@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:phil-kim",
+  "positions": [
+    {
+      "subject": "q:education/sfusd-proximity-assignment",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "vote",
+      "summary": "On Oct. 13, 2026, Kim voted for Option C, which replaces the lottery with assignment to a neighborhood school based on home address, and said the board should be proud to move to a neighborhood model.",
+      "citations": [
+        {
+          "source": "src:sfstandard-com-b2c5f17eda",
+          "quote": "SFUSD Board President Phil Kim voted for a plan that will enroll students in neighborhood schools and replace the unpopular lottery."
+        },
+        {
+          "source": "src:sfstandard-com-b2c5f17eda",
+          "quote": "Board President Phil Kim said the board “should be proud of the fact today that we are moving forward to a neighborhood model.”"
+        },
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "He says if the district is going to place students at a neighborhood school, officials need to be able to guarantee certain resources.",
+          "locator": "Positions on Key Issues, student-assignment question"
+        }
+      ]
+    }
+  ]
+}
