@@ -3,10 +3,26 @@
   "id": "ryan-hazelton",
   "name": "Ryan Hazelton",
   "aliases": [],
+  "candidate_profile": {
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-9608327318",
+          "quote": "I have lived in San Francisco for 19 years."
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "For 19 years I have called San Francisco home.",
+          "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.ryanforsfschools.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
