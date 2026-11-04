@@ -26,6 +26,32 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Brothers Against Guns",
+          "role": "Founder and CEO / executive director",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "As the founder and leader of Brothers Against Guns",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 51 (PDF p. 53)"
+            },
+            {
+              "source": "src:kqed-org-44d1250e32",
+              "quote": "CEO and executive director, Brothers Against Guns",
+              "locator": "Candidates list"
+            },
+            {
+              "source": "src:growsf-org-d46621a09c",
+              "quote": "After losing two younger brothers to gun violence in the 1990s, I started Brothers Against Guns",
+              "locator": "Personal: How long have you lived in San Francisco?"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
