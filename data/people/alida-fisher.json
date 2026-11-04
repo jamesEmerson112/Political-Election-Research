@@ -4,6 +4,29 @@
   "name": "Alida Fisher",
   "aliases": [],
   "candidate_profile": {
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, San Francisco Board of Education",
+          "current": true,
+          "jurisdiction": "San Francisco Unified School District",
+          "office_ref": "office:sfusd-board-of-education-member",
+          "start": "2023-01",
+          "citations": [
+            {
+              "source": "src:sfusd-edu-45f65b6b4f",
+              "quote": "Commissioner Alida Fisher began serving on the San Francisco Board of Education in January 2023."
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "current School Board Commissioner, I am running for reelection",
+              "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+            }
+          ]
+        }
+      ]
+    },
     "residence_city": {
       "value": "San Francisco",
       "citations": [
