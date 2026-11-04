@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ourtownreno-com-29e5e08521",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-05-18",
+  "publisher": "Our Town Reno",
+  "title": "Incumbent Secretary of State Awaits Winner of Highly Contested Republican Primary",
+  "url": "https://www.ourtownreno.com/our-stories-1/2026/5/18/incumbent-secretary-of-state-awaits-winner-of-highly-contested-republican-primary"
+}
