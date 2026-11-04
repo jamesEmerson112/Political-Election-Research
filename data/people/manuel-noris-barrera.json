@@ -3,8 +3,25 @@
   "id": "manuel-noris-barrera",
   "name": "Manuel Noris-Barrera",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Small Business Owner",
+      "citations": [
+        {
+          "source": "src:sf-gov-573a0ce2c8",
+          "quote": "My occupation is Small Business Owner.",
+          "locator": "p. 24 (PDF page 26), Candidate Statements, Candidates for State Assembly, District 17, Manuel Noris-Barrera (November 5, 2024 pamphlet, his most recent statement found; the 2026 certified list prints \"No Ballot Designation\" and the 2026 pamphlets carry no statement from him)"
+        },
+        {
+          "source": "src:sf-gov-99e694efe0",
+          "quote": "My occupation is Business Owner / Realtor / Father.",
+          "locator": "p. 24 (PDF page 26), Candidate Statements, State Assembly, District 17, Manuel Noris-Barrera (March 5, 2024 pamphlet)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
