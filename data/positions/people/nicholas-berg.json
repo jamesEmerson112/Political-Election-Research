@@ -3,6 +3,26 @@
   "actor": "person:nicholas-berg",
   "positions": [
     {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Says the best way to stabilize housing costs is to allow more housing at every income level, but that he is not convinced upzoning corridors under the Family Zoning Plan will produce new housing, citing permitting, discretionary review, CEQA and construction costs.",
+      "citations": [
+        {
+          "source": "src:growsf-org-ff90a06896",
+          "quote": "The best way to stabilize the cost of housing is to allow more housing creation at every income level.",
+          "locator": "Housing: Do you believe that housing prices are set by supply and demand constraints?"
+        },
+        {
+          "source": "src:growsf-org-ff90a06896",
+          "quote": "Simply upzoning corridors of the city might create housing capacity on paper, but I am not convinced that it will result in new housing production.",
+          "locator": "Housing: Do you think Mayor Lurie’s Family zoning plan is too ambitious or not ambitious enough?"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/bike-lanes-over-parking",
       "stance": "mixed",
       "as_of": "2026-11-03",
