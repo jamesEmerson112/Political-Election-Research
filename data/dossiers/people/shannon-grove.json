@@ -172,6 +172,44 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "prevent-overtaxing-homes-businesses-property",
+        "as_of": "2026-08-10",
+        "summary": "Says she will work to make sure the government does not overtax homes, businesses or property.",
+        "title": "Act as a watchdog against overtaxing homes, businesses and property",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "To make sure the government doesn’t overtax your home, your business, or your property.",
+            "locator": "page 91, Candidate Statements, Board of Equalization District 1"
+          }
+        ]
+      },
+      {
+        "id": "defend-proposition-13",
+        "as_of": "2026-08-10",
+        "summary": "Says she will defend taxpayer protections such as Proposition 13.",
+        "title": "Defend taxpayer protections such as Proposition 13",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "To defend taxpayer protections like Proposition 13 that keep people in their homes.",
+            "locator": "page 91, Candidate Statements, Board of Equalization District 1"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "plan / priorities / will",
+        "where": "https://shannongroveca.com/ and /meet-shannon/ (campaign site; no issues page found)"
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-04",
     "items": [
