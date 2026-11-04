@@ -30,6 +30,32 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "campaign site About Marty page (opened)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "The Nevada Independent, 2026-10-18 candidate profile (opened)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Marty O'Donnell Congress Nevada 3rd district 2026 campaign website",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Marty O'Donnell\" for Congress official campaign site about Marty",
+          "where": "web search"
+        }
+      ]
+    },
     "occupation": {
       "value": "Composer (retired)",
       "citations": [
