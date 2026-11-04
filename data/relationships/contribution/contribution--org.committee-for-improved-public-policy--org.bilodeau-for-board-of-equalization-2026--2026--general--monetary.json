@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.committee-for-improved-public-policy--org.bilodeau-for-board-of-equalization-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:committee-for-improved-public-policy",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 99900,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-07-10"
+    }
+  },
+  "recipient": "org:bilodeau-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-9e7f96d692",
+      "locator": "Form 460 Schedule A: line 24 (2026-07-10, $999.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

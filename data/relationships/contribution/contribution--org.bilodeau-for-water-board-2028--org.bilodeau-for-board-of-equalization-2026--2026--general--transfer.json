@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.bilodeau-for-water-board-2028--org.bilodeau-for-board-of-equalization-2026--2026--general--transfer",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:bilodeau-for-water-board-2028",
+  "election_designation": "general",
+  "form": "transfer",
+  "money": {
+    "amount_cents": 980000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-10-05"
+    }
+  },
+  "recipient": "org:bilodeau-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-64807b34dc",
+      "locator": "Form 460 Schedule A: line 2 (2026-10-05, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
