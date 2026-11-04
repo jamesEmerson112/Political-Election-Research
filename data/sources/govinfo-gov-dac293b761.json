@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "govinfo-gov-dac293b761",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "U.S. Government Publishing Office (Joint Committee on Printing)",
+  "title": "Official Congressional Directory, 119th Congress, 2025-2026",
+  "url": "https://www.govinfo.gov/content/pkg/CDIR-2026-02-20/pdf/CDIR-2026-02-20.pdf",
+  "notes": "Member biographies for Nevada on pages 158-159 (PDF pages 169-170). The directory's notes page states: \"Closing date for compilation of the Congressional Directory was October 1, 2025.\" Opened with tools/research/fetch-text.mjs on 2026-11-04. Not archived: web.archive.org was unreachable from the research environment."
+}

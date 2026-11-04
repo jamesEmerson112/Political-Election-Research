@@ -4,6 +4,21 @@
   "name": "Dina Titus",
   "aliases": [],
   "candidate_profile": {
+    "occupation": {
+      "value": "U.S. Representative",
+      "citations": [
+        {
+          "source": "src:clerk-house-gov-0d4ae672de",
+          "quote": "Nevada (NV) – 1st, Democrat",
+          "locator": "Member profile header"
+        },
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "reelected to each succeeding Congress.",
+          "locator": "Nevada, Representatives, First District, page 158 (PDF page 169)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
