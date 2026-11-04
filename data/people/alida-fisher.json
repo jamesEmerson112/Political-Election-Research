@@ -3,11 +3,26 @@
   "id": "alida-fisher",
   "name": "Alida Fisher",
   "aliases": [],
+  "candidate_profile": {
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:alidafisher-com-e76891ff30",
+          "quote": "Alida and her husband moved to San Francisco in 2003"
+        },
+        {
+          "source": "src:alidafisher-com-6909d6ce87",
+          "quote": "why I continue to live and serve in San Francisco"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.alidafisher.com/",
     "official_site": "https://www.sfusd.edu/about-sfusd/board-education/commissioner-alida-fisher"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
