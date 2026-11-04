@@ -14,6 +14,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas, NV",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "STEVEN HORSFORD, Democrat, of North Las Vegas, NV; born in Las Vegas, NV, April 29, 1973;",
+          "locator": "Nevada, Representatives, Fourth District, page 159 (PDF page 170)"
+        },
+        {
+          "source": "src:horsford-house-gov-ef322595ab",
+          "quote": "Born and raised in Las Vegas to an immigrant mother"
+        }
+      ]
+    },
     "occupation": {
       "value": "U.S. Representative",
       "citations": [

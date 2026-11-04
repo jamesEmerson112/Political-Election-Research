@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "horsford-house-gov-ef322595ab",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Office of Representative Steven Horsford, U.S. House of Representatives",
+  "title": "About Steven | Congressman Steven Horsford",
+  "url": "https://horsford.house.gov/about/about-steven",
+  "notes": "Official House website biography. Opened 2026-11-04. Not archived: web.archive.org was unreachable from the research environment."
+}
