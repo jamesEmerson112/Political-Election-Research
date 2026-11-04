@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-28e11441f4",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2024-07-10",
+  "publisher": "The San Francisco Standard",
+  "title": "Matt Haney’s boozy campaign fundraisers under investigation by state watchdog",
+  "url": "https://sfstandard.com/2024/07/10/matt-haney-campaign-fundraisers-fppc-investigation"
+}

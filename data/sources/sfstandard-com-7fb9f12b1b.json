@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-7fb9f12b1b",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2025-08-07",
+  "publisher": "The San Francisco Standard",
+  "title": "Matt Haney pays huge lawyer fees amid 2 open investigations",
+  "url": "https://sfstandard.com/2025/08/07/matt-haney-pays-huge-lawyer-fees-amid-2-political-watchdog-probes"
+}

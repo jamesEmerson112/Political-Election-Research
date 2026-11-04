@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:matt-haney",
+  "controversies": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "fppc-investigation-of-campaign-spending-2024",
+        "date": "2024-07",
+        "response": {
+          "summary": "His campaign attorney, Amber Maltbie, said his campaign committees had fully complied with campaign finance laws and that the campaign was confident the commission would reach the same conclusion. In August 2025 the Standard reported that neither Haney nor his attorney responded to its requests for comment.",
+          "citations": [
+            {
+              "source": "src:sfstandard-com-28e11441f4",
+              "quote": "“Assemblymember Haney’s campaign committees have fully complied with campaign finance laws, and we are confident that the FPPC will reach the same conclusion,” Amber Maltbie, Haney’s campaign attorney, said in a statement."
+            },
+            {
+              "source": "src:kqed-org-8d3a4de632",
+              "quote": "Amber Maltbie, Haney’s campaign attorney, told KQED on Wednesday that his “campaign committees have fully complied with campaign finance laws, and [they] are confident that the FPPC will reach the same conclusion.”"
+            },
+            {
+              "source": "src:sfstandard-com-7fb9f12b1b",
+              "quote": "Neither Haney nor his attorney Amber Maltbie responded to requests for comment."
+            }
+          ]
+        },
+        "summary": "The San Francisco Standard and KQED reported that the state Fair Political Practices Commission opened an investigation in July 2024 into the use of campaign funds by Haney's Assembly campaigns, after reports of spending on sporting events and shows listed as fundraisers. KQED reported the commission's letter said it had made no determinations; the Standard reported in August 2025 that the investigation was still open.",
+        "title": "Fair Political Practices Commission investigation of campaign spending (opened July 2024)",
+        "citations": [
+          {
+            "source": "src:sfstandard-com-28e11441f4",
+            "quote": "A spokesperson for the FPPC said the political watchdog’s enforcement division is investigating “alleged improper use of campaign funds.”"
+          },
+          {
+            "source": "src:sfstandard-com-28e11441f4",
+            "quote": "Investigators will review Haney’s Assembly campaigns for the 2022 and 2024 elections to determine if there was improper use of campaign funds as well as other expenditures associated with holding office."
+          },
+          {
+            "source": "src:kqed-org-8d3a4de632",
+            "quote": "California’s political watchdog agency is investigating Assemblymember Matt Haney’s use of campaign funds following media reports about tens of thousands of dollars spent on outings to sports games, dinners and theatrical shows."
+          },
+          {
+            "source": "src:kqed-org-8d3a4de632",
+            "quote": "The letter from the FPPC to Haney and his treasurers says that the commission has not made any determinations about the possible violations yet."
+          },
+          {
+            "source": "src:sfstandard-com-7fb9f12b1b",
+            "quote": "Haney’s legal bills have surged amid two open investigations by the Fair Political Practices Commission"
+          }
+        ]
+      },
+      {
+        "id": "ethics-commission-audit-finding-2016-school-board-committee",
+        "date": "2018-01",
+        "resolution": {
+          "date": "2018-01-17",
+          "summary": "The audit report states the committee's campaign statements were amended on January 17, 2018 to add the required contributor information.",
+          "citations": [
+            {
+              "source": "src:sfethics-org-17efea2161",
+              "quote": "The Committee’s campaign statements were amended on January 17, 2018 to contain the contributor information required by San Francisco C&GC Code Section 1.114(d).",
+              "locator": "VII. Auditor Comment"
+            }
+          ]
+        },
+        "response": {
+          "summary": "The committee told auditors it had uploaded amended filings and was waiting for Haney to sign them online.",
+          "citations": [
+            {
+              "source": "src:sfethics-org-17efea2161",
+              "quote": "“We’ve uploaded the amended filing but are waiting on Matt Haney to sign them online. This should hopefully be completed today.”",
+              "locator": "VI. Committee’s Response to the Finding"
+            }
+          ]
+        },
+        "summary": "The San Francisco Ethics Commission's audit of the Matt Haney for School Board 2016 committee made one material finding: the committee had not reported complete contributor information for 19 contributions totaling $4,400, 5 percent of contributions received.",
+        "title": "Ethics Commission audit finding on contributor information, 2016 School Board committee",
+        "citations": [
+          {
+            "source": "src:sfethics-org-17efea2161",
+            "quote": "Auditors concluded that there was one material finding with respect to the Committee."
+          },
+          {
+            "source": "src:sfethics-org-17efea2161",
+            "quote": "Finding 1 – – The Committee did not report complete contributors’ information on the Campaign Financial Statements (Form 460) as required by San Francisco C&GC Code Section 1.114(d) for 19 contributions totaling $4,400, or 5 percent of the total amount of contributions it received."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "\"Matt Haney\" FPPC fine OR ethics complaint OR lawsuit OR investigation",
+        "where": "Web search"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Matt Haney FPPC investigation 2026 resolved OR settlement OR fine OR closed campaign funds 49ers; no resolution found",
+        "where": "Web search"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "listed in search results as a $100 late Statement of Economic Interests fine; the page returns 404, so not recorded (lead)",
+        "where": "FPPC enforcement stipulated-agreement page for Matt Haney (fppc.ca.gov, November 2021)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "not reachable: 403 (Cloudflare block)",
+        "where": "DocumentCloud copy of an FPPC letter (s3.documentcloud.org)"
+      }
+    ]
+  }
+}
