@@ -67,6 +67,29 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member of the Nevada Legislature",
+          "current": false,
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:kolotv-com-8ca89d3502",
+              "quote": "Former state lawmaker Jim Marchant won the Republican nomination for Nevada secretary of state on Monday"
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "legislative service dates",
+          "where": "KOLO/AP, June 16, 2026 (gives no chamber, district or years)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

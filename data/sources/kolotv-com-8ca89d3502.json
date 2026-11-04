@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kolotv-com-8ca89d3502",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-06-16",
+  "publisher": "KOLO 8 News Now (Associated Press)",
+  "title": "Marchant wins GOP primary for Nevada Secretary of State",
+  "url": "https://www.kolotv.com/2026/06/16/marchant-wins-gop-primary-nevada-secretary-state/"
+}
