@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "ben-allen-for-insurance-commissioner-2026",
+  "name": "Ben Allen for Insurance Commissioner 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1483889",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}

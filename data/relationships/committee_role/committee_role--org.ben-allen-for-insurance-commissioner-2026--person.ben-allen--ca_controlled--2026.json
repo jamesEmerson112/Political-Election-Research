@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.ben-allen-for-insurance-commissioner-2026--person.ben-allen--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/insurance-commissioner",
+  "subject": "person:ben-allen",
+  "committee": "org:ben-allen-for-insurance-commissioner-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-3ff830245c",
+      "locator": "Form 460 cover page (filing 3215584, amendment 1): committee, candidate and office: Ben Allen, INS"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
