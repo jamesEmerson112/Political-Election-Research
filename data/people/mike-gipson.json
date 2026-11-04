@@ -59,6 +59,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Member of the California State Assembly, 65th District (ballot designation: State Assemblymember/Father)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Mike Gipson Democratic\nState Assemblymember/Father",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 3"
+        },
+        {
+          "source": "src:blackcaucus-legislature-ca-gov-271ba316d7",
+          "quote": "Mike Gipson\nAssemblymember, 65th District"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
