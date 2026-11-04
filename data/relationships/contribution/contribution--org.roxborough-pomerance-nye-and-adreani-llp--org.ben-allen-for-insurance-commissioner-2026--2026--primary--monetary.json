@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.roxborough-pomerance-nye-and-adreani-llp--org.ben-allen-for-insurance-commissioner-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:roxborough-pomerance-nye-and-adreani-llp",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 980000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-04-24"
+    }
+  },
+  "recipient": "org:ben-allen-for-insurance-commissioner-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-0d39b4a610",
+      "locator": "Form 460 Schedule A: line 139 (2026-04-24, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

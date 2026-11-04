@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-real-estate-pac-crepac-california-association-of-realtors-small-contr--org.ben-allen-for-insurance-commissioner-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-real-estate-pac-crepac-california-association-of-realtors-small-contr",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-15"
+    }
+  },
+  "recipient": "org:ben-allen-for-insurance-commissioner-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-70fc177f6e",
+      "locator": "Form 460 Schedule A: line 55 (2026-09-15, $19,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

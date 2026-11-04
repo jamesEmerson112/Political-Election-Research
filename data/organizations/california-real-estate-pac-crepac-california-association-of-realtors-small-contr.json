@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "california-real-estate-pac-crepac-california-association-of-realtors-small-contr",
+  "name": "California Real Estate PAC (CREPAC) - California Association of Realtors Small Contributor Committee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}
