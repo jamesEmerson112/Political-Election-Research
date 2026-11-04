@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.reproductive-freedom-for-all--contest.2026-nv-general.question-6--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "contest:2026-nv-general/question-6",
+  "endorser": "org:reproductive-freedom-for-all",
+  "side": "support",
+  "citations": [
+    {
+      "source": "src:reproductivefreedomforall-org-cae9ffc2b0",
+      "quote": "By voting yes on Question 6 in 2026, Nevadans can protect abortion access and ensure that no governor, legislature or court can take that right away."
+    },
+    {
+      "source": "src:reproductivefreedomforall-org-cae9ffc2b0",
+      "quote": "Reproductive Freedom for All Nevada helped lead efforts to get Question 6 passed the first time, and we’ll be leading them again."
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "reproductive-freedom-for-all",
+  "name": "Reproductive Freedom for All",
+  "aliases": [
+    "NARAL Pro-Choice America"
+  ],
+  "ids": [],
+  "links": {
+    "official_site": "https://reproductivefreedomforall.org/"
+  },
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

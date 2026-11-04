@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.priests-for-life--contest.2026-nv-general.question-6--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "contest:2026-nv-general/question-6",
+  "endorser": "org:priests-for-life",
+  "side": "oppose",
+  "citations": [
+    {
+      "source": "src:priestsforlife-org-901e65c018",
+      "quote": "Nevada Question 6: Right to Abortion Initiative(2026). This pro-abortion Question 6 passed in 2024 and must be ratified again by voters in 2026 to take effect. The pro-life vote is a \"NO\" vote."
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

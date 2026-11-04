@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "priests-for-life",
+  "name": "Priests for Life",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.priestsforlife.org/"
+  },
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}
