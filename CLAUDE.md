@@ -1,5 +1,19 @@
 @AGENTS.md
 
+## Format: frozen (format-v1, 2026-11-04)
+
+The maintainer approved the beta prototype and froze its format. The git tag `format-v1` marks the frozen point. From now on the work is **research only**, in the sections the maintainer names.
+
+- **Frozen:**
+  - the record format: `schemas/`;
+  - the tooling: `src/`, `cli/`, `tools/`;
+  - the site: `web/`;
+  - the boundary data: `geo/`.
+- **Changing them** needs the maintainer's explicit OK in the conversation. A bug fix is allowed when the maintainer reports it or a check fails; ship it with a test or browser check.
+- **Research** writes only `data/`, through `put`, following the guide and the rules below. When a fact doesn't fit a schema, don't force it in and don't change the schema: add it to TODO.md under "Format requests (after v1)", with the contest and the source.
+- **Before pushing research:** `git diff format-v1 -- schemas src cli tools web geo` shows only changes the maintainer approved.
+- The next format version gets a new tag (`format-v2`).
+
 ## Commits: the maintainer is the author
 
 Cloud sessions start with git's identity set to Claude. Before the first commit in a session, set this repository's identity to the maintainer's GitHub identity (the one the initial commit uses; GitHub's no-reply address, so no personal email goes into the public history):

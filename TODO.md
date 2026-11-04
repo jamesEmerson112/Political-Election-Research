@@ -1,4 +1,18 @@
-# TODO / backlog (snapshot 2026-11-03)
+# TODO / backlog (snapshot 2026-11-04; format frozen at `format-v1`)
+
+## Format requests (after v1)
+The format is frozen at the tag `format-v1` (2026-11-04; see CLAUDE.md "Format: frozen"). These format changes were left out of v1 on purpose. Each needs the maintainer's OK before work starts. Research that finds a fact the format can't hold adds it here, with the contest and the source.
+- **Election results:** a `result` on contests (votes, winner, measure passed or failed), shown on the site; a "measures that passed" mode in Try your ballot.
+- **Judicial retention votes:** 13 yes/no retention votes on SF ballots (2 California Supreme Court, 11 First District Court of Appeal) don't fit the contest model.
+- **Impact of past policies:** a record type for measured outcomes of candidates' past bills and programs. It needs the 12 design answers first (see "Impact of past policies and actions" below).
+- **Supervisor races:** a `voting_method` field (ranked choice), and showing `vote_for` (seats).
+- **Boundaries:**
+  - **BOE:** the Commission's shapefile host is blocked.
+  - **SF supervisor districts:** from DataSF.
+  - **Nevada local districts:** ward, County Commission, CCSD trustee, Regents; only if published with terms that allow reuse.
+- **Site size:** load contests on demand.
+- **CI:** run the browser checks (`npm run e2e`) in CI.
+- **Promise topics** for other contests are data, not format: they can be added during research.
 
 ## Where things are (resume here)
 - Branch: `claude/practical-curie-2m7we8` (all work pushed; CI runs typecheck, fmt, validate, tests, web build).
@@ -54,7 +68,7 @@
   - Remove or cite the 7 orphan sources.
 
 **After the beta**
-- **Results:** certified results, and a "measures that passed" mode for the trial ballot.
+- **Results:** see "Format requests (after v1)".
 - **Site size:** load contests on demand. The single file is 4.4 MB (about 660 KB compressed).
 - **Accessibility:** the dark-mode shortfall red sits close to the dark orange ▼ (accepted for now: separate charts, with a legend).
 - **"My ballot":** places California and Nevada (Las Vegas) contests. Nevada ZIPs and locations use `geo/nv-2026-districts.json`. Nevada's contests are still placeholders (no candidates).
@@ -118,8 +132,8 @@
   - SF supervisor districts by ZIP or location (DataSF is now reachable);
   - a county layer;
   - BOE location lookup stays pick-only until wedrawthelines.ca.gov is allowed.
-- **Supervisor races:** a `voting_method` field (ranked choice), and showing `vote_for` (seats) in the site and SQLite.
-- **Election results (today is election day):** add certified results, and a "measures that passed" mode for the trial ballot.
+- **Supervisor races:** see "Format requests (after v1)".
+- **Election results:** see "Format requests (after v1)".
 
 ### Housekeeping
 - **Site size:** the single-file site is over 3.1 MB, and the arguments will add more. Load contests on demand.
