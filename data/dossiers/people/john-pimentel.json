@@ -21,5 +21,69 @@
         "where": "results reviewed"
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "end-sales-tax-on-restaurant-and-delivered-food",
+        "as_of": "2026-08-10",
+        "summary": "Says he will seek to end the sales tax on restaurant and delivered food, working with the Legislature and the Governor to eliminate the sales tax on food.",
+        "title": "End sales tax on restaurant, prepared and delivered food",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I’ll fight to end sales tax on restaurant and delivered food that everyday people rely upon in their busy lives.",
+            "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+          },
+          {
+            "source": "src:growsf-org-5f9ddf44d5",
+            "quote": "Work with the Legislature and the Governor to pass legislation that would lower the cost of living by eliminating the sales tax on food"
+          }
+        ]
+      },
+      {
+        "id": "close-loopholes-for-billionaires-and-corporations",
+        "as_of": "2026-08-10",
+        "summary": "Says he will seek to end loopholes so billionaires and corporations pay their taxes.",
+        "title": "Close tax loopholes used by billionaires and corporations",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I’ll fight to end loopholes so billionaires and corporations pay their taxes.",
+            "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+          }
+        ]
+      },
+      {
+        "id": "boe-transparency-and-recusal-standards",
+        "as_of": "2026-07-01",
+        "summary": "Says he will make the Board a model of transparent, taxpayer-centered government, with public calendars, clear recusal standards, no no-bid contracts and measurable service standards.",
+        "title": "Board transparency: public calendars, recusal standards, no no-bid contracts",
+        "citations": [
+          {
+            "source": "src:growsf-org-5f9ddf44d5",
+            "quote": "Make BOE a model of transparent, competent, taxpayer-centered government: public calendars, clear recusal standards, never allowing no-bid contracts, responsive, timely and clear answers to taxpayers, plain-English explanations, and measurable service standards."
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I’ll reform the Board of Equalization so it works fairly and without corruption.",
+            "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+          }
+        ]
+      },
+      {
+        "id": "modernize-property-tax-administration",
+        "as_of": "2026-07-01",
+        "summary": "Says he will modernize property-tax administration, including AI tools to detect inconsistencies in county assessment practices, shared data tools for counties, faster assessment appeals and faster refunds.",
+        "title": "Modernize property-tax administration for county assessors",
+        "citations": [
+          {
+            "source": "src:growsf-org-5f9ddf44d5",
+            "quote": "Modernize property-tax administration so county assessors can do their jobs accurately and consistently. This should include aggressive implementation of AI tools that can better detect inconsistencies in assessment practices within counties, better training in modern information management tools, provision of shared data tools and standardized information management platforms to the counties, clear and timely statewide best practices, faster assessment appeals, and faster refund payments."
+          }
+        ]
+      }
+    ]
   }
 }
