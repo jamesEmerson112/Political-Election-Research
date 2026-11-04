@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.pimentel-for-board-of-equalization-2026--person.john-pimentel--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/board-of-equalization-2",
+  "subject": "person:john-pimentel",
+  "committee": "org:pimentel-for-board-of-equalization-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-d4bd5f890d",
+      "locator": "Form 460 cover page (filing 3214360, amendment 0): committee, candidate and office: JOHN PIMENTEL, BOE District 2"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
