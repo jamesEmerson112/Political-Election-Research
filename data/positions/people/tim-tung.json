@@ -67,6 +67,24 @@
           "quote": "I want to reform the SFUSD Student Assignment Policy (Board Policy 5101.2)."
         }
       ]
+    },
+    {
+      "subject": "q:education/sfusd-spend-reserves",
+      "stance": "oppose",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Tung says he would build reserves in line with best practices and recommends a plan to fully fund the district's reserves.",
+      "citations": [
+        {
+          "source": "src:timtung-com-3a63547e12",
+          "quote": "maintaining a structurally balanced budget, building reserves in line with best practices"
+        },
+        {
+          "source": "src:growsf-org-f249a7b6d5",
+          "quote": "I would also recommend that the Superintendent develop a plan to fully fund the District’s reserves"
+        }
+      ]
     }
   ]
 }
