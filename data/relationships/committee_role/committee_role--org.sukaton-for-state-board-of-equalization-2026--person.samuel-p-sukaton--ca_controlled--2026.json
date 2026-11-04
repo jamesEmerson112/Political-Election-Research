@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.sukaton-for-state-board-of-equalization-2026--person.samuel-p-sukaton--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/board-of-equalization-3",
+  "subject": "person:samuel-p-sukaton",
+  "committee": "org:sukaton-for-state-board-of-equalization-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-3046c6e683",
+      "locator": "Form 460 cover page (filing 3215550, amendment 0): committee, candidate and office: Samuel P. Sukaton, BOE District 3"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
