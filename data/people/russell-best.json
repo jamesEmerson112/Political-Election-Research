@@ -30,6 +30,32 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Russell Best Independent American Party Nevada 4th Congressional District 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Russell Best\" Nevada candidate Congress mortgage",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "KNPR, 2018-05-24 candidate questionnaire (opened; no biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "Sierra Nevada Ally, 2018-09-15 interview (did not load: browser check)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Independent American Party",
       "citations": [
