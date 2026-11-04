@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadatreasurer-nv-gov-3f8bf13e9a",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Nevada State Treasurer's Office",
+  "title": "Meet Treasurer Zach Conine",
+  "url": "https://www.nevadatreasurer.nv.gov/about-us/meet-treasurer-conine/"
+}

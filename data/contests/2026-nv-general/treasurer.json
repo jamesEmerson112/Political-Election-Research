@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/treasurer",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Treasurer",
+  "office": "State Treasurer",
+  "candidates": [
+    {
+      "person": "person:drew-johnson",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Johnson Drew REP",
+          "locator": "PDF page 2 (Page 2 of 10), State Treasurer rows (last name, first name, party; the column layout prints this name beside 'State Treasurer')"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:nevadatreasurer-nv-gov-3f8bf13e9a",
+          "quote": "Zach Conine currently serves as Nevada's 23rd State Treasurer.",
+          "locator": "Meet Treasurer Zach Conine: the sitting Treasurer is Zach Conine, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:tya-mathis-coleman",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Mathis-Coleman Tya DEM",
+          "locator": "PDF page 2 (Page 2 of 10), State Treasurer rows (last name, first name, party; the column layout prints this name beside 'State Treasurer')"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:nevadatreasurer-nv-gov-3f8bf13e9a",
+          "quote": "Zach Conine currently serves as Nevada's 23rd State Treasurer.",
+          "locator": "Meet Treasurer Zach Conine: the sitting Treasurer is Zach Conine, so this candidate is not the incumbent"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-04"
+}
