@@ -86,5 +86,31 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "record / results / accomplishments",
+        "where": "https://www.samsukaton.com/ (campaign site)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Sukaton",
+        "where": "Official Voter Information Guide 2026 general, pp. 93-94"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Sukaton",
+        "where": "https://www.gov.ca.gov/wp-json/wp/v2/posts (Governor's newsroom search, 2026)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "No public office held; the campaign site describes his work in general terms without a dated, documented outcome in a government record",
+        "where": "note"
+      }
+    ]
   }
 }
