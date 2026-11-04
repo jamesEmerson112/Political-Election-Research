@@ -160,6 +160,57 @@
           "locator": "page 94, Candidate Statements, Board of Equalization District 4"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birth date / birthplace / lives / resides",
+          "where": "https://bilodeauforboe.com/ (campaign site, single page: About, Priorities, Endorsements)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / lives (prints a P.O. Box mailing address in Orange only)",
+          "where": "Official Voter Information Guide 2026 general, candidate statement p. 94"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Denis Bilodeau (prints a P.O. Box mailing address only)",
+          "where": "SoS Notice to Candidates, Board of Equalization (https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf), page 4"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "https://www.ocwd.com/about/service-area-board-of-directors/denis-bilodeau/ (Orange County Water District director page; HTTP 403, not reachable)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "https://www.cityoforange.org/our-city/city-council (City of Orange council page; HTTP 403, not reachable)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Bilodeau background",
+          "where": "LAist / CalMatters voter guide, Board of Equalization District 4"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Denis Bilodeau City of Orange councilmember biography",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "cityoforange.org City Council Denis Bilodeau Mayor Pro Tem District",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Birthplace and residence appeared only in search-result summaries (Ballotpedia, a county newsletter not opened); kept as leads, not cited",
+          "where": "note"
+        }
+      ]
     }
   },
   "ids": [],
