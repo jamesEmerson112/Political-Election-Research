@@ -59,6 +59,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Community Advocate (ballot designation)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Community Advocate.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 46 (PDF p. 48)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "DARSHINI PATEL 達希妮‧帕特爾 Community Advocate",
+          "locator": "p. 1, Board of Supervisors, District 8 table (English ballot designation)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
