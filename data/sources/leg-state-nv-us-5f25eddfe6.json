@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-5f25eddfe6",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Nevada Legislature, Legislative Counsel Bureau, Research Division",
+  "title": "Legislative Manual, Chapter I: Members of the 2025 Nevada Legislature",
+  "url": "https://www.leg.state.nv.us/Division/Research/Documents/2025LegManual_Ch1.pdf",
+  "notes": "Legislative biographies, 2025 session. Opened with tools/research/fetch-text.mjs on 2026-11-04. Not archived: web.archive.org was unreachable from the research environment."
+}
