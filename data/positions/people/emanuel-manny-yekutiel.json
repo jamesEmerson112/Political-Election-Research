@@ -71,6 +71,21 @@
       ]
     },
     {
+      "subject": "q:public-health/end-drug-use-supply-distribution",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said he would end the distribution of paraphernalia like pipes and foil while continuing naloxone and overdose prevention education.",
+      "citations": [
+        {
+          "source": "src:growsf-org-e9f57d3c82",
+          "quote": "I would end the distribution of paraphernalia like pipes and foil.",
+          "locator": "Substance Abuse: harm reduction paraphernalia question"
+        }
+      ]
+    },
+    {
       "subject": "q:public-safety/police-license-plate-cameras",
       "stance": "mixed",
       "as_of": "2026-08-13",
