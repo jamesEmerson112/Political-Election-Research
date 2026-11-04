@@ -46,6 +46,29 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Car dealer",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-8afa426c9f",
+              "quote": "Bobby Khan, a former celebrity car dealer who served eight months in prison for wire fraud, is making a congressional bid in Nevada’s 1st Congressional District against Rep. Dina Titus."
+            }
+          ]
+        },
+        {
+          "role": "Consultant for law firms",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-8afa426c9f",
+              "quote": "Khan, who works now as a consultant for law firms, embraces his criminal record;"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
