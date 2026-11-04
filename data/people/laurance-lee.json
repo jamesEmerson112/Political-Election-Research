@@ -12,6 +12,15 @@
           "quote": "Born and raised in San Francisco, the son of an undocumented Chinese immigrant."
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-e49caee5eb",
+          "quote": "Lifelong San Franciscan."
+        }
+      ]
     }
   },
   "ids": [],
