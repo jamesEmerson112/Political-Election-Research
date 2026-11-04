@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.howard-jarvis-taxpayers-association--person.shannon-grove--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:shannon-grove",
+  "endorser": "org:howard-jarvis-taxpayers-association",
+  "citations": [
+    {
+      "source": "src:hjta-org-7e5225011f",
+      "quote": "BOARD OF EQUALIZATION SHANNON GROVE Board of Equalization 1",
+      "locator": "PDF page 4, Board of Equalization"
+    }
+  ],
+  "last_verified": "2026-11-04",
+  "notes": "From the HJTA PAC endorsement list for the June 2, 2026 statewide primary."
+}

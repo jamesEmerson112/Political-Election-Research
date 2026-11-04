@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-republican-party--person.shannon-grove--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:shannon-grove",
+  "endorser": "org:california-republican-party",
+  "citations": [
+    {
+      "source": "src:cagop-org-2ab566d531",
+      "quote": "BOED 1: SHANNON GROVE",
+      "locator": "2026 CRP Endorsements, Board of Equalization"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

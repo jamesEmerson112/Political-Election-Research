@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.david-valadao--person.shannon-grove--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:shannon-grove",
+  "endorser": "person:david-valadao",
+  "citations": [
+    {
+      "source": "src:shannongroveca-com-7e394a585a",
+      "quote": "Congressman David Valadao US House of Representatives - CA 21st Congressional District"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
