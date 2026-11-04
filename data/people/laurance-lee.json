@@ -64,6 +64,32 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, later Vice Chair, SFUSD Citizens' Bond Oversight Committee",
+          "current": true,
+          "jurisdiction": "San Francisco Unified School District",
+          "citations": [
+            {
+              "source": "src:growsf-org-e49caee5eb",
+              "quote": "Most relevant is my service as member and now Vice Chair of the SFUSD Citizens’ Bond Oversight Committee"
+            }
+          ]
+        },
+        {
+          "office": "Member, San Francisco Civil Grand Jury",
+          "jurisdiction": "City and County of San Francisco",
+          "citations": [
+            {
+              "source": "src:lauranceleesf-com-839ad6f827",
+              "quote": "served on the San Francisco Civil Grand Jury"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
