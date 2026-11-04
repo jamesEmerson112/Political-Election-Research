@@ -86,6 +86,42 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Manuel Noris-Barrera",
+          "where": "Secretary of State Certified List of Candidates, November 3, 2026 (list page 20)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Noris; no candidate statement from him",
+          "where": "San Francisco Voter Information Pamphlets, November 2026 and June 2026"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "degree, university, college, school, graduated",
+          "where": "San Francisco Voter Information Pamphlets, November 2024 and March 2024 candidate statements (p. 24 each)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "not available: the domain returns 404 (\"Reconnect Your Domain\")",
+          "where": "Campaign site named in his 2024 statement (manuelnoris.com)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Manuel Noris-Barrera\"",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Manuel Noris\" Republican San Francisco Assembly",
+          "where": "Web search"
+        }
+      ]
+    },
     "occupation": {
       "value": "Small Business Owner",
       "citations": [
