@@ -105,5 +105,58 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "ab-1795-smoke-damage-claims-standards",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1795",
+        "date": "2026-09-15",
+        "summary": "Authored AB 1795, one of two bills (with AB 1642, Harabedian) that the Governor's office said direct state agencies to set testing and remediation standards for lead and asbestos from wildfire smoke and require insurers to pay for that testing and remediation; signed September 15, 2026; no measured outcome recorded as of 2026-11-04.",
+        "title": "AB 1795: smoke damage claims standards",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-c54f42e830",
+            "quote": "Assembly Bills 1642 (Harabedian) and 1795 (Gipson) create first-in-the-nation standards for smoke damage claims."
+          },
+          {
+            "source": "src:gov-ca-gov-c54f42e830",
+            "quote": "The legislation directs the Department of Toxic Substances Control (DTSC) and the California Air Resources Board to develop the state’s first protections for testing, remediation, and restoration of lead and asbestos contamination from wildfire smoke, for homes within a fire’s zip codes."
+          },
+          {
+            "source": "src:gov-ca-gov-c54f42e830",
+            "quote": "The legislation also requires insurers to pay for lead and asbestos testing and remediation in smoke-damaged homes within a wildfire zone"
+          },
+          {
+            "source": "src:gov-ca-gov-c54f42e830",
+            "quote": "Governor Gavin Newsom today signed a package of legislation to strengthen California’s long-term wildfire recovery system"
+          }
+        ]
+      },
+      {
+        "id": "ab-2339-firearms-prohibited-persons-reporting",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-2339",
+        "date": "2026-09-26",
+        "summary": "Authored AB 2339 (Firearms: prohibited persons), which he said changes the reporting process when a person is involuntarily admitted to a mental health facility, for firearm background checks; signed September 26, 2026; no measured outcome recorded as of 2026-11-04.",
+        "title": "AB 2339: reporting of involuntary mental health admissions for firearm prohibitions",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-eed9cd1b18",
+            "quote": "Assembly Bill 2339 by Assemblymember Mike A. Gipson (D-Carson) — Firearms: prohibited persons"
+          },
+          {
+            "source": "src:gov-ca-gov-eed9cd1b18",
+            "quote": "Governor Gavin Newsom today signed a package of new gun safety bills."
+          },
+          {
+            "source": "src:gov-ca-gov-0cb903c2f2",
+            "quote": "This bill improves the reporting process when an individual has been involuntarily admitted to a mental health facility because they pose a threat to themselves or others."
+          }
+        ]
+      }
+    ]
   }
 }
