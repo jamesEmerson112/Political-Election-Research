@@ -38,6 +38,23 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member of the Nevada State Senate (Majority Leader)",
+          "current": true,
+          "jurisdiction": "Nevada",
+          "start": "2016",
+          "citations": [
+            {
+              "source": "src:nicolecannizzaro-com-ac8a067d6d",
+              "quote": "Nicole has served in the State Senate since 2016, and just a few years later, she became the first woman to serve as State Senate Majority Leader. She has been elected by her colleagues to serve as Majority Leader for four consecutive legislative sessions."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
