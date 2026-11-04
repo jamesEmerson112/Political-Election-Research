@@ -128,6 +128,21 @@
         }
       ]
     },
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Sally J. Lieber* Democratic",
+          "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 2"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Sally J. Lieber | DEMOCRATIC",
+          "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+        }
+      ]
+    },
     "residence_city": {
       "value": "Mountain View",
       "citations": [
