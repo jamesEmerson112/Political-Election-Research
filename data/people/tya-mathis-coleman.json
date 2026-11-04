@@ -25,6 +25,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Nevada",
+      "citations": [
+        {
+          "source": "src:nevadatreasurer-nv-gov-026059c0d2",
+          "quote": "Mathis-Coleman is a native of Nevada and a proud product of the Clark County School District and the Nevada System of Higher Education."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

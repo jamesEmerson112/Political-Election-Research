@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadatreasurer-nv-gov-026059c0d2",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Nevada State Treasurer's Office",
+  "title": "Staff Bios",
+  "url": "https://www.nevadatreasurer.nv.gov/about-us/staff-bios/"
+}
