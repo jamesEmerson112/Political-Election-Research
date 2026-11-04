@@ -44,6 +44,38 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "High school graduate",
+          "institution": "High school (school not named in the source)",
+          "citations": [
+            {
+              "source": "src:sr12-senate-ca-gov-9c2d1eb9e8",
+              "quote": "After graduating from high school, Senator Grove served in the United States Army."
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "college / university / degree",
+          "where": "https://sr12.senate.ca.gov/biography (official Senate bio)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "college / university / degree",
+          "where": "https://shannongroveca.com/meet-shannon/ (campaign site)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "education",
+          "where": "Official Voter Information Guide, 2026 general, candidate statement p.91"
+        }
+      ]
+    },
     "occupation": {
       "value": "State Senator/Businesswoman (ballot designation); State Senator (District 12) and CEO of Continental Labor and Staffing Resources",
       "citations": [
