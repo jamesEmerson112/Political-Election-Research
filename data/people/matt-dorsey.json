@@ -3,6 +3,23 @@
   "id": "matt-dorsey",
   "name": "Matt Dorsey",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Member, San Francisco Board of Supervisors (District 6)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is San Francisco Supervisor.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 6, printed p. 44 (PDF p. 46)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MATT DORSEY 麥德誠 San Francisco Supervisor",
+          "locator": "page 1, Board of Supervisors, District 6, English Ballot Designation column"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q112131397",
@@ -14,5 +31,5 @@
     "official_site": "https://www.sf.gov/district-6-supervisor-matt-dorsey"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
