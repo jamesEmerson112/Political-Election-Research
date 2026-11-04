@@ -128,6 +128,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Laborer / community organizer (ballot designation); \"Neglected Voter Organizer\" in his candidate statement",
+      "citations": [
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "ALEX BEHREND 亞歷克斯‧貝倫德 Laborer / Community Organizer",
+          "locator": "page 1, Board of Supervisors, District 6, English Ballot Designation column"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Neglected Voter Organizer.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 6, printed p. 44 (PDF p. 46)"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [],
