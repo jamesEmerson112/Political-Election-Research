@@ -119,6 +119,20 @@
           "where": "Web search (news)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Noe Valley)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My home is District 8: first Mission Dolores, then Noe Valley.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 46 (PDF p. 48)"
+        },
+        {
+          "source": "src:votedarshini-com-b1154d89f8",
+          "quote": "I've lived in Mission Dolores and Noe Valley for over 10 years"
+        }
+      ]
     }
   },
   "ids": [],
