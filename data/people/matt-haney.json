@@ -4,6 +4,47 @@
   "name": "Matt Haney",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date, born, age",
+          "where": "Campaign site \"Meet Matt\" page (matthaney.com/about)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date, born",
+          "where": "California State Assembly member page (assembly.ca.gov/assemblymembers/17)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date, born",
+          "where": "San Francisco Board of Supervisors archived former-supervisor biography (sfbos.archive.sf.gov/supervisor-haney-district-6)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date, born",
+          "where": "California Commission on Disability Access member biography (dgs.ca.gov)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date, age",
+          "where": "San Francisco Voter Information Pamphlets, November 2026 (p. 26) and June 2026 (p. 24) candidate statements"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "not reachable: TLS certificate error through the session proxy",
+          "where": "Assembly Democratic Caucus biography pages a17.asmdc.org/biography and haney.asmdc.org/biography"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Matt Haney\" assemblymember born grew up hometown biography; only reference sites (Wikipedia, JoinCalifornia) and search summaries gave a date, kept as leads",
+          "where": "Web search"
+        }
+      ]
+    },
     "occupation": {
       "value": "State Assemblymember",
       "citations": [
