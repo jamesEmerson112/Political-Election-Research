@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.gates-for-attorney-general-2026--person.michael-e-gates--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/attorney-general",
+  "subject": "person:michael-e-gates",
+  "committee": "org:gates-for-attorney-general-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-3f78675c0b",
+      "locator": "Form 460 cover page (filing 3215038, amendment 0): committee, candidate and office: Michael Gates, ATT"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

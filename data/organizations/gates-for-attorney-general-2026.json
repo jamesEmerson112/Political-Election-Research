@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "gates-for-attorney-general-2026",
+  "name": "Gates for Attorney General 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1486227",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}
