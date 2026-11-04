@@ -3,6 +3,23 @@
   "id": "marty-odonnell",
   "name": "Marty O'Donnell",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "O'Donnell Marty REP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 3"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://martyforcongress.vote/"
