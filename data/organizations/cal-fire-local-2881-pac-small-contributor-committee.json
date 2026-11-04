@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "cal-fire-local-2881-pac-small-contributor-committee",
+  "name": "Cal Fire Local 2881 PAC Small Contributor Committee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

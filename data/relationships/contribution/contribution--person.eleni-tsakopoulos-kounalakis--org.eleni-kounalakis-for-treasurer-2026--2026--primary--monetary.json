@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.eleni-tsakopoulos-kounalakis--org.eleni-kounalakis-for-treasurer-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:eleni-tsakopoulos-kounalakis",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 57214168,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-04-10"
+    }
+  },
+  "recipient": "org:eleni-kounalakis-for-treasurer-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-afe09dd072",
+      "locator": "Form 460 Schedule A: line 1665 (2026-04-10, $72,141.68); line 1666 (2026-04-10, $100,000.00); line 1667 (2026-04-10, $400,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

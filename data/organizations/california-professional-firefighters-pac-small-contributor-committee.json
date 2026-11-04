@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "california-professional-firefighters-pac-small-contributor-committee",
+  "name": "California Professional Firefighters PAC Small Contributor Committee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

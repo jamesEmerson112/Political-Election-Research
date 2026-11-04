@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.association-of-california-school-administrators-pac-small-contributor-committee--org.eleni-kounalakis-for-treasurer-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:association-of-california-school-administrators-pac-small-contributor-committee",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 3880000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-09-10"
+    }
+  },
+  "recipient": "org:eleni-kounalakis-for-treasurer-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-babceeb7e7",
+      "locator": "Form 460 Schedule A: line 53 (2025-09-10, $9,100.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-afe09dd072",
+      "locator": "Form 460 Schedule A: line 60 (2026-04-10, $1,000.00); line 61 (2026-04-10, $2,500.00); line 62 (2026-04-10, $5,000.00); line 63 (2026-04-10, $5,700.00); line 64 (2026-04-10, $5,000.00); line 65 (2026-04-10, $10,500.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

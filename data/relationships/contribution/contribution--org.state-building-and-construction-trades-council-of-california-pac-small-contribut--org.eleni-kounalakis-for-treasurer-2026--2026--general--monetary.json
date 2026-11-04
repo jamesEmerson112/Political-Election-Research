@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.state-building-and-construction-trades-council-of-california-pac-small-contribut--org.eleni-kounalakis-for-treasurer-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:state-building-and-construction-trades-council-of-california-pac-small-contribut",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 980000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-10"
+    }
+  },
+  "recipient": "org:eleni-kounalakis-for-treasurer-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-2fa0c5a13d",
+      "locator": "Form 460 Schedule A: line 22 (2026-09-10, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
