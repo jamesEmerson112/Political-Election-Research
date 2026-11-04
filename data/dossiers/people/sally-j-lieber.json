@@ -73,5 +73,102 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "ab-1835-minimum-wage",
+        "kind": "legislation",
+        "bill": "ca-2005-ab-1835",
+        "date": "2006-09-12",
+        "summary": "Authored AB 1835 with Assembly Members Leno and Koretz, raising the state minimum wage from $6.75 to $7.50 an hour on January 1, 2007 and $8.00 on January 1, 2008; approved by the Governor September 12, 2006 (Chapter 230, Statutes of 2006).",
+        "title": "AB 1835 (2006): state minimum wage raised to $7.50, then $8.00",
+        "citations": [
+          {
+            "source": "src:leginfo-ca-gov-d38bf06d1a",
+            "quote": "INTRODUCED BY Assembly Members Lieber, Leno, and Koretz"
+          },
+          {
+            "source": "src:leginfo-ca-gov-d38bf06d1a",
+            "quote": "The current minimum wage for all industries is $6.75 per hour."
+          },
+          {
+            "source": "src:leginfo-ca-gov-d38bf06d1a",
+            "quote": "This bill would increase the minimum wage to $7.50 per hour, effective on and after January 1, 2007, and to $8.00 per hour, effective on and after January 1, 2008."
+          },
+          {
+            "source": "src:leginfo-ca-gov-d653c6c7aa",
+            "quote": "Sept. 12 Chaptered by Secretary of State - Chapter 230, Statutes of 2006."
+          }
+        ]
+      },
+      {
+        "id": "ab-2954-sf-bay-restoration-authority",
+        "kind": "legislation",
+        "bill": "ca-2007-ab-2954",
+        "date": "2008-09-30",
+        "summary": "Authored AB 2954 with Assembly Member Hancock, enacting the San Francisco Bay Restoration Authority Act to establish an authority that raises and allocates resources for Bay wetland and wildlife habitat restoration; approved by the Governor September 30, 2008 (Chapter 690, Statutes of 2008).",
+        "title": "AB 2954 (2008): San Francisco Bay Restoration Authority Act",
+        "citations": [
+          {
+            "source": "src:leginfo-ca-gov-1f92937383",
+            "quote": "INTRODUCED BY Assembly Members Lieber and Hancock"
+          },
+          {
+            "source": "src:leginfo-ca-gov-1f92937383",
+            "quote": "This bill would enact the San Francisco Bay Restoration Authority Act, which would establish the San Francisco Bay Restoration Authority to raise and allocate resources for the restoration, enhancement, protection, and enjoyment of wetlands and wildlife habitat in the San Francisco Bay and along its shoreline."
+          },
+          {
+            "source": "src:leginfo-ca-gov-3e0ba71d8b",
+            "quote": "Sept. 30 Chaptered by Secretary of State - Chapter 690, Statutes of 2008."
+          }
+        ]
+      },
+      {
+        "id": "ab-1160-gwen-araujo-justice-for-victims-act",
+        "kind": "legislation",
+        "bill": "ca-2005-ab-1160",
+        "date": "2006-09-28",
+        "summary": "Authored AB 1160, the Gwen Araujo Justice for Victims Act, letting a party request a jury instruction that defines bias to include bias against the victim and requiring Cal OES, if funded, to develop prosecutor manuals on panic strategies; approved September 28, 2006 (Chapter 550).",
+        "title": "AB 1160 (2006): Gwen Araujo Justice for Victims Act",
+        "citations": [
+          {
+            "source": "src:leginfo-ca-gov-55d9e8b677",
+            "quote": "This bill would also provide that a party may request that the jury receive an instruction that defines bias as inclusive of bias against the victim or victims based upon disability, gender, nationality, race or ethnicity, religion, gender identity, or sexual orientation, in any criminal trial."
+          },
+          {
+            "source": "src:leginfo-ca-gov-55d9e8b677",
+            "quote": "This bill would also require the Office of Emergency Services, to the extent funding becomes available for that purpose, to develop practice manuals, as specified, for district attorneys' offices explaining how panic strategies are used"
+          },
+          {
+            "source": "src:leginfo-ca-gov-330f08a77f",
+            "quote": "Sept. 28 Chaptered by Secretary of State - Chapter 550, Statutes of 2006."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "authored laws",
+        "where": "https://www.boe.ca.gov/lieber/about.htm (official BOE bio; names subjects of authored laws without bill numbers)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "AB 1835, AB 2954, AB 1160",
+        "where": "https://www.leginfo.ca.gov/pub/ (legislature's archived bill histories and chaptered texts; bill numbers found through web search)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "\"AB 1835\" Lieber minimum wage 2006 chaptered; Lieber San Francisco Bay Restoration Authority AB 2954; Lieber panic defense Gwen Araujo AB 1160",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "leginfo.ca.gov pub 05-06 bill history Lieber human trafficking AB 22 chaptered (bill not located; not recorded)",
+        "where": "web search"
+      }
+    ]
   }
 }
