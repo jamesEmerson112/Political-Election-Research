@@ -30,6 +30,19 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "California",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-73eaa76913",
+          "quote": "Jauregui, a 41-year old California native, got her start in politics working for former Senate Majority Leader Harry Reid (D-NV), focusing on housing and mortgage issues."
+        },
+        {
+          "source": "src:thenevadaindependent-com-102c343ca6",
+          "quote": "Jáuregui llegó a esta ciudad en el 2009, proveniente de su natal California"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

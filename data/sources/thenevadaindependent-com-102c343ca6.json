@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-102c343ca6",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2017-02-06",
+  "publisher": "The Nevada Independent",
+  "title": "Conozca a Sandra Jáuregui, Latina que representará al Distrito 41 en la Asamblea Estatal",
+  "url": "https://thenevadaindependent.com/article/conozca-sandra-jauregui-latina-que-representara-al-distrito-41-en-la-asamblea-estatal"
+}
