@@ -25,6 +25,27 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "place of birth",
+          "where": "ag.nv.gov/About/AG_Aaron_Ford/ (official Attorney General biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "place of birth",
+          "where": "fordfornevada.com/about (campaign biography; says only 'Born into a working-class family' and 'Aaron moved to Nevada')"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Aaron Ford for governor campaign website meet Aaron born",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
