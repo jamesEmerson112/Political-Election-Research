@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "2news-com-27ee73f62f",
+  "kind": "candidate_questionnaire",
+  "accessed": "2026-11-04",
+  "published": "2022-09-21",
+  "publisher": "KTVN 2 News",
+  "title": "Janine Hansen (Nevada Secretary of State series)",
+  "url": "https://www.2news.com/janine-hansen/article_a933043a-39e4-11ed-b4a7-47469f154978.html"
+}
