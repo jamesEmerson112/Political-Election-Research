@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ktnv-com-78f96fe87b",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-10-03",
+  "publisher": "KTNV Channel 13 Las Vegas",
+  "title": "Danielle Ford wants to be 'the education governor'",
+  "url": "https://ktnv.com/news/danielle-ford-wants-to-be-the-education-governor"
+}

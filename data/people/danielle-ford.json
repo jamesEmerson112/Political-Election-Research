@@ -51,6 +51,15 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Member, Nevada State Board of Education",
+      "citations": [
+        {
+          "source": "src:ktnv-com-78f96fe87b",
+          "quote": "Ford, a former Clark County School District trustee and current state Board of Education member, is running for governor, as a non-partisan candidate."
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [
