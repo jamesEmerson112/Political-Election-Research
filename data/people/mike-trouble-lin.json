@@ -91,6 +91,33 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "adjacency (web design agency)",
+          "role": "Production designer / web designer",
+          "start": "1998-02",
+          "citations": [
+            {
+              "source": "src:growsf-org-413572f183",
+              "quote": "I ended up dropping out of the Academy of Art and started working as a production designer / web designer at adjacency (web design agency ) starting February 1998.",
+              "locator": "Personal: How long have you lived in San Francisco?"
+            }
+          ]
+        },
+        {
+          "role": "Small business consultant",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My occupation is Small Business Consultant.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 50 (PDF p. 52)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
