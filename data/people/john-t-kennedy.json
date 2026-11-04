@@ -61,6 +61,17 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "John T. Kennedy Libertarian Nevada secretary of state 2026 candidate",
+          "where": "web search (found no campaign site or biography)"
+        }
+      ]
     }
   },
   "ids": [],
