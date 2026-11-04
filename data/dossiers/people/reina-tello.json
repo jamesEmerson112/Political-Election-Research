@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:reina-tello",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "curriculum-students-see-themselves-in",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tello's campaign site says she will push for a culturally connected curriculum that every SFUSD student can see themselves in.",
+        "title": "Seek a curriculum every SFUSD student can see themselves in",
+        "topic": "curriculum",
+        "citations": [
+          {
+            "source": "src:reinaforschoolboard-org-2d92ff9ab5",
+            "quote": "She'll fight for a curriculum that every SFUSD student can see themselves in.",
+            "locator": "What Reina will fight for: Culturally connected education"
+          }
+        ]
+      },
+      {
+        "id": "language-access-for-families",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tello's campaign site says she will make sure SFUSD treats language access and family-facing policy as necessities.",
+        "title": "Treat language access and family-facing policy as necessities",
+        "topic": "public-engagement",
+        "citations": [
+          {
+            "source": "src:reinaforschoolboard-org-2d92ff9ab5",
+            "quote": "Language access and family-facing policy aren't niceties — they're necessities. Reina will make sure SFUSD treats them that way.",
+            "locator": "What Reina will fight for: Real access for working families"
+          }
+        ]
+      },
+      {
+        "id": "reform-attendance-based-funding",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tello's GrowSF questionnaire says she would reform the current attendance-based funding approach and instead direct resources to the root causes of chronic absenteeism.",
+        "title": "Reform the attendance-based funding approach",
+        "topic": "attendance",
+        "citations": [
+          {
+            "source": "src:growsf-org-11908bfe7d",
+            "quote": "I would reform the current attendance-based funding approach. We need to shift away from models that penalize schools for factors often outside their control and instead provide resources and investment to address the root causes of chronic absenteeism.",
+            "locator": "Your Goals: existing Board of Education policy you would like to reform"
+          }
+        ]
+      },
+      {
+        "id": "school-site-budget-town-halls",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tello's GrowSF questionnaire proposes regular school-site town hall meetings where the budget is explained in plain language.",
+        "title": "Hold school-site town halls that explain the budget",
+        "topic": "public-engagement",
+        "citations": [
+          {
+            "source": "src:growsf-org-11908bfe7d",
+            "quote": "I propose holding regular, school-site town hall meetings where the budget is explained in plain language.",
+            "locator": "The Issues: data transparency and performance reporting"
+          }
+        ]
+      },
+      {
+        "id": "expand-community-schools",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Tello's GrowSF questionnaire says she supports expanding the network of community schools and using partnerships with the City and community organizations so nurses and mental health practitioners are available at every site.",
+        "title": "Expand community schools with nurses and mental health staff at every site",
+        "topic": "student-support-services",
+        "citations": [
+          {
+            "source": "src:growsf-org-11908bfe7d",
+            "quote": "I support expanding the network of community schools and leveraging partnerships with City government and CBOs to ensure nurses and mental health practitioners are available at every site, particularly those with the highest needs.",
+            "locator": "The Issues: school safety"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Reina Tello candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Education candidate statements, printed p. 31: background and endorsements, no specific proposal"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "platform, what Reina will fight for",
+        "where": "reinaforschoolboard.org home page and About page"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "goals, policy to reform, issues",
+        "where": "GrowSF November 2026 Board of Education questionnaire, Reina Tello"
+      }
+    ]
+  }
+}
