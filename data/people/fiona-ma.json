@@ -34,6 +34,69 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "end": "1993",
+          "organization": "Ernst & Young",
+          "role": "Employee",
+          "start": "1989",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "From 1989-93 she worked for Ernst & Young, before starting her own accounting practice in San Francisco.",
+              "locator": "page 2"
+            }
+          ]
+        },
+        {
+          "role": "Founder of an accounting practice in San Francisco",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "From 1989-93 she worked for Ernst & Young, before starting her own accounting practice in San Francisco.",
+              "locator": "page 2"
+            }
+          ]
+        },
+        {
+          "role": "Licensed Certified Public Accountant (California)",
+          "start": "1992",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "Treasurer Ma has been a licensed CPA in California since 1992",
+              "locator": "page 2"
+            }
+          ]
+        },
+        {
+          "organization": "Asian Business Association",
+          "role": "President",
+          "start": "1994",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "Treasurer Ma first became involved in public service in 1994 when she was elected president of the Asian Business Association",
+              "locator": "page 1"
+            }
+          ]
+        },
+        {
+          "organization": "Office of State Senator John Burton",
+          "role": "District representative for then-State Senator John Burton",
+          "start": "1995",
+          "citations": [
+            {
+              "source": "src:treasurer-ca-gov-d9893dda29",
+              "quote": "That year she started her public service career as a part-time district representative for then-State Senator John Burton and served as Burton’s district representative until her election to the San Francisco Board of Supervisors.",
+              "locator": "page 2"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-03",
       "items": [
@@ -237,5 +300,5 @@
     "official_site": "https://www.treasurer.ca.gov/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
