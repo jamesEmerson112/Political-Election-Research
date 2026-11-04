@@ -15,6 +15,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Japan",
+      "citations": [
+        {
+          "source": "src:gov-nv-gov-ed9c06d3e3",
+          "quote": "Born in Japan in a military family, Governor Joe Lombardo spent his childhood growing up across the world, until his father was stationed at Nellis Air Force Base and his family put down roots in Las Vegas."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
