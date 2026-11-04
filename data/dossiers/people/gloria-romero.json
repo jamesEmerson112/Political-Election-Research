@@ -86,5 +86,37 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "open-enrollment-act-2010",
+        "kind": "legislation",
+        "date": "2010",
+        "summary": "Authored legislation enacted in 2010 (Chapter 3 of the 5th Extraordinary Session) in response to the federal Race to the Top initiative, including the Open Enrollment Act, which lets pupils in 1,000 schools identified annually as low achieving apply to enroll in a higher-performing school anywhere in the state; a Senate committee analysis lists it under her name, and Irvine Unified School District policy calls these \"Romero Bill transfers\".",
+        "title": "Open Enrollment Act (Chapter 3, Statutes of 2010, 5th Extraordinary Session)",
+        "citations": [
+          {
+            "source": "src:leginfo-ca-gov-d8bf2c9747",
+            "quote": "California enacted legislation (Chapter 3 of the 5th Extraordinary Session, Statutes of 2010, Romero) in response to the federal Race to the Top initiative, including the Open Enrollment Act specific to pupils who attend low-achieving schools.",
+            "locator": "Background, item 1"
+          },
+          {
+            "source": "src:leginfo-ca-gov-d8bf2c9747",
+            "quote": "Allows any pupil enrolled in one of 1,000 schools identified annually by the Superintendent of Public Instruction (SPI) as low achieving to apply for enrollment in a higher performing school anywhere in the state.",
+            "locator": "Background, item 1"
+          },
+          {
+            "source": "src:iusd-org-afd023bccd",
+            "quote": "Interdistrict transfer requests made pursuant to the Open Enrollment Act (“Romero Bill transfers”) shall only be approved by the Superintendent or designee in accordance with the provisions of this policy and its implementing regulations."
+          },
+          {
+            "source": "src:gloriaromero4ltgov-com-66a4cbd81f",
+            "quote": "Romero authored landmark legislation such as the Parent Trigger and Open Enrollment Act, the first laws in the nation to give parents real authority over chronically failing schools."
+          }
+        ]
+      }
+    ]
   }
 }
