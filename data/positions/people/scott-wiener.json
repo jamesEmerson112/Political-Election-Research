@@ -66,6 +66,26 @@
       ]
     },
     {
+      "subject": "q:immigration/abolish-ice",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "His campaign issues page lists \"Abolish ICE\" among his goals in Congress and says he has supported abolishing ICE since 2018.",
+      "citations": [
+        {
+          "source": "src:scottwiener-com-27a9d27ce7",
+          "quote": "Abolish ICE.",
+          "locator": "\"In Congress, Scott will work to\" list"
+        },
+        {
+          "source": "src:scottwiener-com-27a9d27ce7",
+          "quote": "Since 2018, Scott has supported abolishing ICE, which is a broken agency.",
+          "locator": "paragraph after the \"In Congress\" list"
+        }
+      ]
+    },
+    {
       "subject": "q:immigration/expand-skilled-work-visas",
       "stance": "support",
       "as_of": "2026-11-02",
