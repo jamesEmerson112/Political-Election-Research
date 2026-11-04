@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.california-homeowners-association--person.denis-bilodeau--support--2026--general",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "general",
+  "money": {
+    "amount_cents": 4000000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:california-homeowners-association",
+  "target": "person:denis-bilodeau",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-ca64747cb3",
+      "locator": "Form 496: line 1 (2026-10-03, $40,000.00, Appearance on Slate Mailer)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

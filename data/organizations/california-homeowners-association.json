@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "california-homeowners-association",
+  "name": "California Homeowners Association",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1302564",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-04"
+}
