@@ -33,6 +33,17 @@
           "where": "Official Voter Information Guide, 2026 general, candidate statement p.92"
         }
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/board-of-equalization-2|independent_expenditures|person:sally-j-lieber",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "candidate last name LIEBER, first name starting SALLY: no reports",
+          "where": "CAL-ACCESS raw data export (2026-11-03): Form 496 late independent expenditure reports, 2023-01-01 through 2026-10-17"
+        }
+      ]
     }
   ],
   "measures": [],
