@@ -4,6 +4,37 @@
   "name": "Alex Behrend",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Alex Behrend birth date; age",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 6, printed p. 44"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Alex Behrend birth date; age",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Alex Behrend birth date; age",
+          "where": "Campaign site alexforalld6.com (connection reset; not readable)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Alex Behrend birth date; age",
+          "where": "GrowSF November 2026 questionnaire page (candidate did not respond)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Alex Behrend birth date; age",
+          "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
