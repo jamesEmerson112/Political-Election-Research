@@ -78,6 +78,49 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Commissioner, San Francisco Police Commission (mayoral appointee)",
+          "current": false,
+          "end": "2022",
+          "jurisdiction": "City and County of San Francisco",
+          "start": "2018",
+          "citations": [
+            {
+              "source": "src:growsf-org-6ce6663909",
+              "quote": "San Francisco Police Commissioner - Mayoral Appointee, 2018-2022",
+              "locator": "Personal: current involvement in the community (Current/Past Associations)"
+            },
+            {
+              "source": "src:dj4d10-com-b2284c2dce",
+              "quote": "Former Police Commissioner",
+              "locator": "home page"
+            }
+          ]
+        },
+        {
+          "office": "Member and vice president, San Francisco Sheriff's Department Oversight Board (mayoral appointee)",
+          "current": false,
+          "end": "2025",
+          "jurisdiction": "City and County of San Francisco",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:growsf-org-6ce6663909",
+              "quote": "San Francisco Sheriff’s Oversight Board Committee - Mayoral Appointee, 2022-2025\nVice President of the Committee",
+              "locator": "Personal: current involvement in the community (Current/Past Associations)"
+            },
+            {
+              "source": "src:dj4d10-com-b2284c2dce",
+              "quote": "Former Sheriff's Oversight Board Member",
+              "locator": "home page"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",

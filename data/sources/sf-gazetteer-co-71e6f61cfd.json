@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sf-gazetteer-co-71e6f61cfd",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-09-02",
+  "publisher": "Gazetteer SF",
+  "title": "D10 supervisor debate gets personal",
+  "url": "https://sf.gazetteer.co/d10-supervisor-debate-gets-personal"
+}
