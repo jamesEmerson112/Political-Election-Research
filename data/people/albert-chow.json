@@ -45,6 +45,31 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "institution": "University of California, Berkeley (studied architecture; degree not stated)",
+          "citations": [
+            {
+              "source": "src:albertchowsf-com-2b0394c89e",
+              "quote": "I went on to attend City College then finally UC Berkeley to study Architecture.",
+              "locator": "Supporting Our Local Schools"
+            }
+          ]
+        },
+        {
+          "institution": "City College of San Francisco (attended)",
+          "citations": [
+            {
+              "source": "src:albertchowsf-com-2b0394c89e",
+              "quote": "I went on to attend City College then finally UC Berkeley to study Architecture.",
+              "locator": "Supporting Our Local Schools"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Hardware store owner (Great Wall Hardware)",
       "citations": [
