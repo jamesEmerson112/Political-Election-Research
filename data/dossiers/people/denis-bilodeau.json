@@ -85,5 +85,41 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "record / results / accomplishments",
+        "where": "https://bilodeauforboe.com/ (campaign site)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Bilodeau",
+        "where": "Official Voter Information Guide 2026 general, pp. 93-94"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Bilodeau",
+        "where": "https://www.gov.ca.gov/wp-json/wp/v2/posts (Governor's newsroom search, 2026)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "council actions",
+        "where": "https://www.cityoforange.org/our-city/city-council (HTTP 403, not reachable)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "board actions",
+        "where": "https://www.ocwd.com/about/service-area-board-of-directors/denis-bilodeau/ (HTTP 403, not reachable)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "The voter guide statement describes results of a team he led at the water district; no government record of a specific dated outcome was reachable",
+        "where": "note"
+      }
+    ]
   }
 }
