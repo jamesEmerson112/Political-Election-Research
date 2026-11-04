@@ -39,6 +39,53 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Nevada Families/Eagle Forum and the Independent American Party",
+          "role": "Full-time citizen lobbyist",
+          "start": "1991",
+          "citations": [
+            {
+              "source": "src:janinehansen-com-883ad861bd",
+              "quote": "Citizen advocate at the Nevada Legislature 1971-2025 and since 1991 a full-time citizen lobbyist for Nevada Families/Eagle Forum and the Independent American Party."
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Families for Freedom",
+          "role": "State President",
+          "citations": [
+            {
+              "source": "src:janinehansen-com-883ad861bd",
+              "quote": "State President of Nevada Families for Freedom the State Affiliate of Eagle Forum."
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Families/Eagle Forum",
+          "role": "Editor, monthly newsletter",
+          "start": "1974",
+          "citations": [
+            {
+              "source": "src:janinehansen-com-883ad861bd",
+              "quote": "Editor Nevada Families/Eagle Forum monthly newsletter since 1974."
+            }
+          ]
+        },
+        {
+          "organization": "Independent American Party of Nevada",
+          "role": "State Chairman (formerly Executive Director and National Committeeman)",
+          "citations": [
+            {
+              "source": "src:janinehansen-com-883ad861bd",
+              "quote": "State Chairman Independent American Party of Nevada, formerly Executive Director and National Committeeman."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
