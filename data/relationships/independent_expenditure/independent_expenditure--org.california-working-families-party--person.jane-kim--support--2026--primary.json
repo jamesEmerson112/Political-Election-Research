@@ -1,0 +1,73 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.california-working-families-party--person.jane-kim--support--2026--primary",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "primary",
+  "money": {
+    "amount_cents": 36458065,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:california-working-families-party",
+  "target": "person:jane-kim",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-0a2c19edcb",
+      "locator": "Form 496: line 1 (2026-04-08, $3,712.50, Phonebanking: $3625.69 Staff Time: $71.20 Texting: $15.61)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-b0c4ee5949",
+      "locator": "Form 496: line 1 (2026-04-28, $54,648.03, Digital Ads - $50,000 Phone Canvassing - $4,641.17 Staff Time: $6.86)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-2b487b3f5a",
+      "locator": "Form 496: line 1 (2026-04-29, $1,080.58, Texting)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-0908de99a8",
+      "locator": "Form 496: line 1 (2026-04-30, $602.72, Texting)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-68a60127ae",
+      "locator": "Form 496: line 1 (2026-05-02, $96,123.00, $55,000 advertising and paid media Mail: $35,928.96)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-2770e307f4",
+      "locator": "Form 496: line 1 (2026-05-11, $72,267.00, $50,000 Digital Ads $5,000 Digital Ad Design $6,087.84 Mail $741.55 Door Hangers)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-f340620998",
+      "locator": "Form 496: line 1 (2026-05-14, $63,551.00, Ads: $60,000 Printing: $3,550.79)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-bef0ee6fa2",
+      "locator": "Form 496: line 1 (2026-05-06, $5,382.98, Printing 99.88 Phone Bank 2708.65 Staff Time 2022.19 Texting 552.26)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-df6c2717f9",
+      "locator": "Form 496: line 1 (2026-05-22, $59,824.09, Digital Ads)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-40113d2a16",
+      "locator": "Form 496: line 1 (2026-05-24, $1,206.19, Printing: $218.86 Phone Bank: $987.33)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-08540526b7",
+      "locator": "Form 496: line 1 (2026-05-26, $182.74, Printed literature distribution); line 2 (2026-05-26, $655.56, Phone bank); line 3 (2026-05-26, $1,564.00, Phone bank)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-276ef9925a",
+      "locator": "Form 496: line 1 (2026-05-28, $2,200.19, Texting: $2025 Printing: $171.59 Phone Bank: $3.60)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-6d2ca03ece",
+      "locator": "Form 496: line 1 (2026-05-31, $1,580.07, Texting: $1,577 Phone Bank: $3.07)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
