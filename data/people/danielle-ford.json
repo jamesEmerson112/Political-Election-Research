@@ -60,6 +60,33 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, Nevada State Board of Education",
+          "current": true,
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:ktnv-com-78f96fe87b",
+              "quote": "Ford, a former Clark County School District trustee and current state Board of Education member, is running for governor, as a non-partisan candidate."
+            }
+          ]
+        },
+        {
+          "office": "Trustee, Clark County School District Board of Trustees",
+          "current": false,
+          "jurisdiction": "Clark County School District",
+          "citations": [
+            {
+              "source": "src:ktnv-com-78f96fe87b",
+              "quote": "Ford, a former Clark County School District trustee and current state Board of Education member, is running for governor, as a non-partisan candidate."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [
