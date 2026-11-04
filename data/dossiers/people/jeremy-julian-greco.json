@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:jeremy-julian-greco",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "protect-sunset-dunes-and-coast",
+        "as_of": "2026-11-04",
+        "summary": "Greco's candidate statement says he will permanently protect Sunset Dunes, the coastline and the Westside groundwater basin, and reduce Ocean Beach pollution.",
+        "title": "Permanently protect Sunset Dunes and the coastline",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "I will permanently protect Sunset Dunes, our coastline, the Westside groundwater basin, and reduce Ocean Beach pollution.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+          }
+        ]
+      },
+      {
+        "id": "intergenerational-artistic-housing",
+        "as_of": "2026-11-04",
+        "issue": "housing",
+        "summary": "Greco's candidate statement supports affordable housing in District 4, including intergenerational artistic housing and cooperative business initiatives.",
+        "title": "Affordable and intergenerational artistic housing",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "I support affordable housing that keeps families, seniors, artists and workers in District 4, including intergenerational artistic housing and cooperative business initiatives",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 4, printed p. 42 (PDF p. 44)"
+          }
+        ]
+      }
+    ]
+  }
+}
