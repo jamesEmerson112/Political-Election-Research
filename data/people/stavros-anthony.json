@@ -3,6 +3,23 @@
   "id": "stavros-anthony",
   "name": "Stavros Anthony",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Anthony Stavros REP",
+          "locator": "PDF page 1 (Page 1 of 10), Lieutenant Governor (party on the general election candidate list)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
