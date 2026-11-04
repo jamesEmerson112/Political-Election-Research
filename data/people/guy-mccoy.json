@@ -173,6 +173,16 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (District 2)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "23-year resident of District 2",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+        }
+      ]
     }
   },
   "ids": [],
