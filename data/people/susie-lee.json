@@ -4,6 +4,16 @@
   "name": "Susie Lee",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1966-11-07",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "SUSIE LEE, Democrat, of Las Vegas, NV; born in Canton, OH, November 7, 1966;",
+          "locator": "Nevada, Representatives, Third District, page 158 (PDF page 169)"
+        }
+      ]
+    },
     "occupation": {
       "value": "U.S. Representative",
       "citations": [
