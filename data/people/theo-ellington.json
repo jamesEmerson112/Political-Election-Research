@@ -60,6 +60,49 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Ruth Williams Bayview Opera House",
+          "role": "Executive Director",
+          "citations": [
+            {
+              "source": "src:growsf-org-89815455e3",
+              "quote": "Executive Director, Ruth Williams Bayview Opera House",
+              "locator": "Personal: current involvement in the community"
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I’m leading a cultural renaissance at Bayview Opera House as Executive Director",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+            }
+          ]
+        },
+        {
+          "organization": "Golden State Warriors",
+          "role": "Director of Public Affairs",
+          "citations": [
+            {
+              "source": "src:growsf-org-89815455e3",
+              "quote": "Former Director of Public Affairs, Golden State Warriors",
+              "locator": "Personal: current involvement in the community"
+            }
+          ]
+        },
+        {
+          "organization": "The Salvation Army",
+          "role": "Director, Homeless Initiatives and Community Development",
+          "citations": [
+            {
+              "source": "src:growsf-org-89815455e3",
+              "quote": "Former Director, Homeless Initiatives and Community Development, The Salvation Army",
+              "locator": "Personal: current involvement in the community"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
