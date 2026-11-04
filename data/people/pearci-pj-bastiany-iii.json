@@ -153,6 +153,21 @@
           "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org): HTTP 403 bot check, unreadable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-91f7f4d5a8",
+          "quote": "I first moved to San Francisco in 2013 as an 18‑year‑old freshman at the University of San Francisco",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        },
+        {
+          "source": "src:growsf-org-91f7f4d5a8",
+          "quote": "then moved back into an SRO above the former AsiaSF during the pandemic",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        }
+      ]
     }
   },
   "ids": [],
