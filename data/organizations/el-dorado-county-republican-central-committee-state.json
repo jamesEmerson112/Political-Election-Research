@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "el-dorado-county-republican-central-committee-state",
+  "name": "El Dorado County Republican Central Committee (State)",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "791662",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-04"
+}

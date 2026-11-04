@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.rescue-california-coalition--person.steve-hilton--support--2026--general",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "general",
+  "money": {
+    "amount_cents": 309005,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:rescue-california-coalition",
+  "target": "person:steve-hilton",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-14ad31721d",
+      "locator": "Form 496: line 1 (2026-10-15, $3,090.05, Mailer)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

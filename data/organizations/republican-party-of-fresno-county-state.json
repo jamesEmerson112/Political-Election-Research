@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "republican-party-of-fresno-county-state",
+  "name": "Republican Party of Fresno County (State)",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "741921",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-04"
+}
