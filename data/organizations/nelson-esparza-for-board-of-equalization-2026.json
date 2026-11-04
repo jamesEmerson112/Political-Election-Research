@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "nelson-esparza-for-board-of-equalization-2026",
+  "name": "Nelson Esparza for Board of Equalization 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1485882",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}
