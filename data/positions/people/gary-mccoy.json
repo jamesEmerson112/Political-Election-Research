@@ -23,6 +23,26 @@
       ]
     },
     {
+      "subject": "q:housing/expand-rent-control",
+      "stance": "support",
+      "as_of": "2026-06-17",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "The San Francisco Examiner reported that McCoy wants to protect rent control and expand the number of rent-controlled apartments; his campaign site says he unequivocally supports rent control.",
+      "citations": [
+        {
+          "source": "src:sfexaminer-com-cfd1c154fe",
+          "quote": "He wants to protect rent control and expand the number of rent-controlled apartments.",
+          "locator": "Gary McCoy section"
+        },
+        {
+          "source": "src:garymccoysf-com-cdc1df6a99",
+          "quote": "I unequivocally support rent control and preventing the demolition of rent-controlled housing.",
+          "locator": "Housing"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-08-27",
