@@ -51,6 +51,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Labor union organizer: Lead Organizer, AFT Local 1521, the LA Community College Faculty Guild (ballot designation: Labor Union Organizer)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Samuel P. Sukaton Democratic\nLabor Union Organizer",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 3"
+        },
+        {
+          "source": "src:samsukaton-com-b71e84e682",
+          "quote": "Most recently, as Lead Organizer for AFT Local 1521, the LA Community College Faculty Guild"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
