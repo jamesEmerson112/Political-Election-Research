@@ -54,6 +54,54 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "SEIU-United Healthcare Workers",
+          "role": "Union organizer, negotiator and representative",
+          "citations": [
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "He would serve as a union chief negotiator, representative, and organizer for six years."
+            },
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "As an SEIU-United Healthcare Workers union organizer, Alan represented workers at local hospitals."
+            }
+          ]
+        },
+        {
+          "organization": "Children's Council of San Francisco",
+          "role": "Senior Policy Director",
+          "citations": [
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "As a Senior Policy Director at the Children’s Council of San Francisco, Alan led the fight to make childcare more affordable in San Francisco"
+            }
+          ]
+        },
+        {
+          "role": "City Hall legislative aide",
+          "citations": [
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "Alan has worked as a City Hall legislative aide, where he drafted and advanced legislation guaranteeing a decade of free City College for all San Francisco residents."
+            }
+          ]
+        },
+        {
+          "organization": "California Army National Guard",
+          "role": "Officer (Captain)",
+          "citations": [
+            {
+              "source": "src:alanwong-com-e7687a07c9",
+              "quote": "Alan has served in the California Army National Guard for 17 years, holding roles ranging from paralegal specialist to public affairs detachment commander."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
