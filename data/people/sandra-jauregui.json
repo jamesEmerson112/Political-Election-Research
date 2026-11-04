@@ -4,6 +4,32 @@
   "name": "Sandra Jauregui",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/41 (official legislator page)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "campaign biography",
+          "where": "sandrafornevada.com/my-story-1 and sandrafornevada.com/?p=2 (campaign site; returned HTTP 522, unreachable)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "The Nevada Independent, Oct. 20, 2025 (gives her age, 41, not a birth date)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "leg.state.nv.us legislator biography Sandra Jauregui Assembly District 41",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
