@@ -58,6 +58,23 @@
           ]
         }
       ]
+    },
+    "party_registration": {
+      "value": "Republican (as described in news reports; the office is nonpartisan and the ballot lists her as Non-Partisan)",
+      "citations": [
+        {
+          "source": "src:kqed-org-ec6f09442d",
+          "quote": "Conservative school board president Sonja Shaw, a Trump-aligned Republican known for her role in the high-profile battle over transgender athletes in school sports, has advanced to the November runoff"
+        },
+        {
+          "source": "src:laist-com-da94820c60",
+          "quote": "Democrat Richard Barrera and Republican Sonja Shaw are running for superintendent of public instruction."
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Sonja Shaw Non-Partisan School District President"
+        }
+      ]
     }
   },
   "ids": [],

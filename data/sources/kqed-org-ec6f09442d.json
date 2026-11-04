@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-ec6f09442d",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-06-03",
+  "publisher": "KQED",
+  "title": "Conservative Activist Sonja Shaw Advances in State Superintendent Race",
+  "url": "https://www.kqed.org/news/12086044/conservative-activist-sonja-shaw-advances-in-state-superintendent-race"
+}
