@@ -47,6 +47,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Oklahoma City (where he grew up)",
+      "citations": [
+        {
+          "source": "src:jreppler-com-7252b1ce0e",
+          "quote": "J.R. grew up in Oklahoma City, in a house his parents worked long hours to buy.",
+          "locator": "Re-Connecting Our District"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
