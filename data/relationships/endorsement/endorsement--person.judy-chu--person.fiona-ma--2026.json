@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.judy-chu--person.fiona-ma--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:fiona-ma",
+  "endorser": "person:judy-chu",
+  "citations": [
+    {
+      "source": "src:fionama-com-fbfad01d4b",
+      "quote": "Congresswoman Judy Chu",
+      "locator": "Federal Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

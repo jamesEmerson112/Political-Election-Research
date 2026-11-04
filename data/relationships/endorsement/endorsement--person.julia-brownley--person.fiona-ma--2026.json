@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.julia-brownley--person.fiona-ma--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:fiona-ma",
+  "endorser": "person:julia-brownley",
+  "citations": [
+    {
+      "source": "src:fionama-com-fbfad01d4b",
+      "quote": "Congresswoman Julia Brownley",
+      "locator": "Federal Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
