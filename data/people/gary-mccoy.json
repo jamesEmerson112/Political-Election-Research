@@ -55,6 +55,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Virginia (described as his home state)",
+      "citations": [
+        {
+          "source": "src:ebar-com-04987a4dcd",
+          "quote": "He had moved to San Francisco in 2002 for a job with Clear Channel Radio and to escape his life of drug addiction and petty crime in his home state of Virginia."
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
