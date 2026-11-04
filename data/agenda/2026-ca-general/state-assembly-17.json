@@ -79,6 +79,17 @@
           "where": "Web search"
         }
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/state-assembly-17|independent_expenditures|person:matt-haney",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "candidate last name HANEY, first name starting MATT: no reports",
+          "where": "CAL-ACCESS raw data export (2026-11-03): Form 496 late independent expenditure reports, 2023-01-01 through 2026-10-17"
+        }
+      ]
     }
   ],
   "measures": [],
