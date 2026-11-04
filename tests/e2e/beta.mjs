@@ -11,6 +11,7 @@
  *    no forecast year and is listed from FY2030-31; Prop 44's cost is quoted in words, not added up;
  *    San Francisco's ballot keeps its own answers.
  * 5c. The Overview's county group says every ballot in a county has that county's contests.
+ * 5l. A pick and note on a contest page come out in "Export my picks" (.txt).
  * 5j. A Nevada ZIP (89101) narrows the Overview to Nevada contests, with the City of Las Vegas's; a Henderson ZIP (89052) has none of the city's.
  * 5d. The Overview links to the Las Vegas (Nevada) contests.
  * 5e. Vercel Web Analytics loads only on the public site (political-election-research.vercel.app):
@@ -128,6 +129,30 @@ check(
   q7.match(/[^.]{0,40}\$6,750[^.]{0,20}/)?.[0] ?? "no $6,750",
 );
 await page.goto(`${BASE}#overview`);
+
+// 5l. "My pick" on a contest page, then Export my picks: a .txt of the ballot's contests with the pick and note.
+await page.goto(`${BASE}#c-2026-ca-general--us-house-ca-11`);
+await page.waitForSelector(".mine .opts button", { timeout: 15000 });
+await page.locator(".mine .opts button", { hasText: "Connie Chan" }).click();
+await page.locator(".mine textarea").fill("Reread both statements.");
+await page.locator(".mine h2").click();
+await page.goto(`${BASE}#overview?cd=11`);
+await page.reload();
+await page.waitForSelector(".export button");
+const [dl] = await Promise.all([page.waitForEvent("download", { timeout: 15000 }), page.locator(".export button").click()]);
+const fs = await import("node:fs");
+const exported = fs.readFileSync(await dl.path(), "utf8");
+check(
+  "5l. My pick + Export my picks: a .txt of my ballot's contests with my pick and note",
+  /^my-ballot-\d{4}-\d{2}-\d{2}\.txt$/.test(dl.suggestedFilename()) && exported.includes("[x] Connie Chan") && exported.includes("Note: Reread both statements.") && exported.includes("Districts: CA-11") && exported.includes("[ ] Yes   [ ] No"),
+  `${dl.suggestedFilename()} · ${exported.split("\n").length} lines`,
+);
+await page.evaluate(() => {
+  localStorage.removeItem("per-my-picks");
+  localStorage.removeItem("per-my-ballot");
+});
+await page.goto(`${BASE}#overview`);
+await page.reload();
 
 // 5f. On the Overview, proposition groups start folded; one click opens them.
 await go(page, "#overview");

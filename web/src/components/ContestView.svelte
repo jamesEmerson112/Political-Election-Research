@@ -12,6 +12,7 @@
   import InfluenceMap from "./InfluenceMap.svelte";
   import Legend from "./Legend.svelte";
   import VersusSpine from "./VersusSpine.svelte";
+  import MyPick from "./MyPick.svelte";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
 
@@ -65,6 +66,7 @@
       <p>{agenda["seeded"]["note"]}</p>
     </details>
   {/if}
+  <MyPick {ix} {contestRef} kind="office" />
 </header>
 
 {#if cands.length}

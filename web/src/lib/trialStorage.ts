@@ -55,3 +55,10 @@ export function saveVotes(ballot: string, votes: Record<string, Vote>): boolean 
 export function forgetVotes(ballot: string): void {
   saveVotes(ballot, {});
 }
+
+/** Every trial ballot's yes/no votes merged (contest refs don't overlap between budgets). */
+export function allTrialVotes(): Record<string, Vote> {
+  const out: Record<string, Vote> = {};
+  for (const b of Object.values(read().ballots)) Object.assign(out, cleanVotes(b));
+  return out;
+}

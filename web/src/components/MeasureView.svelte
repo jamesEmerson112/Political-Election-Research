@@ -9,6 +9,7 @@
   import MeasureArguments from "./MeasureArguments.svelte";
   import MeasureDigest from "./MeasureDigest.svelte";
   import MeasureComparison from "./MeasureComparison.svelte";
+  import MyPick from "./MyPick.svelte";
   import { contestRoute } from "../lib/data";
   import { measureLabel } from "../lib/measureLabel";
   import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
@@ -53,6 +54,7 @@
   {:else}
     <p class="chip warn">! Not yet verified against the official measure list</p>
   {/if}
+  <MyPick {ix} {contestRef} kind="measure" />
 </header>
 
 {#if c?.["digest"] || c?.["fiscal"] || c?.["conflicts"]}

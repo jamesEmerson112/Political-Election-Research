@@ -1,6 +1,7 @@
 <script lang="ts">
   import ArrowDown from "@lucide/svelte/icons/arrow-down";
   import ChevronDown from "@lucide/svelte/icons/chevron-down";
+  import Download from "@lucide/svelte/icons/download";
   import Search from "@lucide/svelte/icons/search";
   import { tick } from "svelte";
   import {
@@ -14,6 +15,7 @@
     placeContest,
     saveChoice,
     serializeChoice,
+    choiceSummary,
     stateOfChoice,
     type Choice,
     type DistrictKind,
@@ -23,6 +25,8 @@
   import { BALLOT_ICON, OFFICE_ORDER, OFFICE_TYPE, type OfficeType } from "../lib/icons";
   import Badge from "./Badge.svelte";
   import MyBallot from "./MyBallot.svelte";
+  import { loadPicks, picksToText, type ExportContest, type Picks } from "../lib/myPicks";
+  import { allTrialVotes } from "../lib/trialStorage";
 
   let { ix, query = "" }: { ix: Index; query?: string } = $props();
   let q = $state("");
@@ -95,6 +99,48 @@
   const groupLabel = (st: string, type: OfficeType) =>
     st === "nv" && type === "measure" ? "State ballot questions" : st === "nv" && type === "local_measure" ? "Local ballot questions" : OFFICE_TYPE[type].label;
   type Row = (typeof rows)[number];
+
+  // "My picks" export: the visitor's own picks and notes as a text file (kept only in this browser).
+  let picks = $state<Picks>({});
+  $effect(() => {
+    picks = loadPicks();
+  });
+  const pickCount = $derived(Object.keys(picks).length);
+  /** My ballot's contests (in Overview order) when districts are set; otherwise only the contests with a pick or note. */
+  const exportRows = $derived.by(() => {
+    if (ballotOn) return groups.flatMap((g) => g.rows.map((r) => ({ r, group: groupLabel(r.st, g.type) })));
+    return OFFICE_ORDER.flatMap((type) =>
+      sortRows(rows.filter((r) => r.office.type === type && picks[r.ref])).map((r) => ({ r, group: groupLabel(r.st, type) })),
+    );
+  });
+  function exportPicks() {
+    const contests: ExportContest[] = exportRows.map(({ r, group }) => ({
+      ref: r.ref,
+      title: r.title,
+      group,
+      kind: r.kind === "measure" ? "measure" : "office",
+      candidates: ix.candidatesOf(r.ref).map((p) => {
+        const party = ix.ballotEntry(r.ref, p)?.["party"];
+        return { ref: p, name: ix.name(p), ...(typeof party === "string" && party ? { party } : {}) };
+      }),
+    }));
+    const today = new Date().toLocaleDateString("en-CA");
+    const text = picksToText(contests, picks, {
+      election: contests.length ? ix.electionOf(contests[0]!.ref) : "November 3, 2026",
+      districts: ballotOn ? choiceSummary(choice) : "",
+      today,
+      site: "political-election-research.vercel.app",
+      trialVotes: allTrialVotes(),
+    });
+    const url = URL.createObjectURL(new Blob([text], { type: "text/plain;charset=utf-8" }));
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `my-ballot-${today}.txt`;
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
   const onBallotCount = $derived(rows.filter((r) => ballotStatus(r.place, choice) === "on").length);
   const textFiltered = $derived.by(() => {
     const terms = q.toLowerCase().trim().split(/\s+/).filter(Boolean);
@@ -162,6 +208,15 @@
 </section>
 
 <MyBallot {choice} {showAll} onCount={onBallotCount} total={rows.length} onchange={setChoice} ontoggle={() => (showAll = !showAll)} onforget={forget} />
+
+<div class="export">
+  <button type="button" class="exp" onclick={exportPicks} disabled={!exportRows.length}>
+    <Download size={15} aria-hidden="true" /> Export my picks (.txt)
+  </button>
+  <span class="muted num">
+    {#if ballotOn}{plural(pickCount, "pick or note", "picks or notes")} saved · the file lists your ballot's {exportRows.length} contests{:else if pickCount}{plural(pickCount, "contest")} with a pick or note · set My ballot to list all your contests{:else}Mark “My pick” on any contest page; picks stay in this browser.{/if}
+  </span>
+</div>
 
 <section class="section">
   <div class="filter">
@@ -522,5 +577,34 @@
     .c-meta {
       grid-column: 2;
     }
+  }
+  .export {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 10px;
+    margin-top: 8px;
+    font-size: var(--step--1);
+  }
+  .exp {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 32px;
+    padding: 4px 11px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--ink);
+    font-size: var(--step--1);
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .exp:hover:not(:disabled) {
+    background: var(--wash);
+  }
+  .exp:disabled {
+    opacity: 0.5;
+    cursor: default;
   }
 </style>
