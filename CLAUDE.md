@@ -14,6 +14,10 @@ The maintainer approved the beta prototype and froze its format. The git tag `fo
 - **Before pushing research:** `git diff format-v1 -- schemas src cli tools web geo` shows only changes the maintainer approved.
 - The next format version gets a new tag (`format-v2`).
 
+## Research scope: contested races only
+
+The maintainer, 2026-11-04: **skip races with only one candidate.** For an uncontested race, do only the `contest` task (the contest record, the candidate's person record and the agenda's candidate list), so the site lists it correctly. Skip all further research: profile, positions, money, endorsements, record. Ballot measures are not affected.
+
 ## Commits: the maintainer is the author
 
 Cloud sessions start with git's identity set to Claude. Before the first commit in a session, set this repository's identity to the maintainer's GitHub identity (the one the initial commit uses; GitHub's no-reply address, so no personal email goes into the public history):
