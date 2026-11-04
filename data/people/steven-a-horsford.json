@@ -28,6 +28,35 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Culinary Training Academy",
+          "role": "CEO",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "professional history: CEO, Cul- inary Training Academy;",
+              "locator": "Nevada, Representatives, Fourth District, page 159 (PDF page 170); the printed line breaks \"Cul-inary\""
+            },
+            {
+              "source": "src:horsford-house-gov-ef322595ab",
+              "quote": "For more than a decade, Rep. Horsford led the Culinary Training Academy, the largest job training program in Nevada"
+            }
+          ]
+        },
+        {
+          "role": "Small business owner",
+          "citations": [
+            {
+              "source": "src:horsford-house-gov-ef322595ab",
+              "quote": "Most recently a small business owner, in partnership with Intel, Horsford worked to bring the first-of-its-kind workforce development program for youth and young adults to North Las Vegas."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
