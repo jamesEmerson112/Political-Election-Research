@@ -28,6 +28,47 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "end": "2002",
+          "organization": "Mobilized Assistance and Shelter for the Homeless (M.A.S.H.) Crisis Intervention Unit",
+          "role": "Founding executive director",
+          "start": "1995",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "founding executive di- rector, Mobilized Assistance and Shelter for the Homeless (M.A.S.H.) Crisis Intervention Unit, 1995–2002;",
+              "locator": "Nevada, Representatives, Third District, page 158 (PDF page 169); the printed line breaks \"di-rector\""
+            }
+          ]
+        },
+        {
+          "organization": "After School All Stars",
+          "role": "Founder",
+          "citations": [
+            {
+              "source": "src:susielee-house-gov-d0c2e938be",
+              "quote": "In 1993, she moved to Las Vegas, where she became a leader in education nonprofits, founding the After School All Stars and later serving as President of Communities in Schools of Nevada."
+            }
+          ]
+        },
+        {
+          "end": "2018",
+          "organization": "Communities in Schools of Nevada",
+          "role": "President",
+          "start": "2010",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "president, Communities in Schools of Nevada, 2010–18;",
+              "locator": "Nevada, Representatives, Third District, page 158 (PDF page 169)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
