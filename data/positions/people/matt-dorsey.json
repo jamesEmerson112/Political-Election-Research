@@ -157,6 +157,31 @@
           "locator": "Flock-ing together in support: Supervisor Matt Dorsey"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Is listed as a signer of the proponents' argument for Proposition H, the November 2026 parcel tax to fund Muni service, and says in his GrowSF questionnaire that he supported Proposition L in 2024.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "The Proposal: Starting July 1, 2027, and continuing until June 30, 2042, Proposition H would fund Muni service through a new annual parcel tax on real estate in San Francisco.",
+          "locator": "PDF p. 126 (printed p. 124), Proposition H digest, The Proposal"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Supervisors: Rafael Mandelman Connie Chan Steven Sherrill Danny Sauter Alan Wong Bilal Mahmood Matt Dorsey",
+          "locator": "PDF p. 128 (printed p. 126), signers of the Proponent's Argument in Favor of Proposition H"
+        },
+        {
+          "source": "src:growsf-org-aecb4e3daa",
+          "quote": "That being said, I supported Proposition L in 2024.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        }
+      ]
     }
   ]
 }
