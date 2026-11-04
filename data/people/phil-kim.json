@@ -120,6 +120,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "School Board President",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is School Board President.",
+          "locator": "Candidate statement, Board of Education, p. 30 (PDF page 32)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
