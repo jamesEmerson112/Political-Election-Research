@@ -3,6 +3,26 @@
   "actor": "person:darshini-patel",
   "positions": [
     {
+      "subject": "q:government/expand-mayoral-authority",
+      "stance": "oppose",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Her campaign site lists her vote as No on Proposition F, the November 2026 charter amendment that would expand the Mayor's authority over department heads, deputy mayors and the removal of commissioners.",
+      "citations": [
+        {
+          "source": "src:votedarshini-com-5d8ff2361a",
+          "quote": "Proposition F:\nChanges to Executive Branch Management\nNO",
+          "locator": "San Francisco propositions list"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Shall the City amend the Charter to expand the Mayor’s authority to transfer responsibilities between departments, hire deputy mayors, and hire some and fire most department heads; and to allow City officials to remove members of boards and commissions without cause?",
+          "locator": "Proposition F digest, printed p. 100 (PDF p. 102)"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/citywide-rezoning",
       "stance": "support",
       "as_of": "2026-11-04",
