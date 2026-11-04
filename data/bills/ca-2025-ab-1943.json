@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1943",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-26",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-eed9cd1b18",
+        "quote": "Assembly Bill 1943 by Assemblymember Mike A. Gipson (D-Carson) — Pupil safety: notifications: firearms"
+      },
+      {
+        "source": "src:gov-ca-gov-eed9cd1b18",
+        "quote": "Governor Gavin Newsom today signed a package of new gun safety bills."
+      }
+    ]
+  },
+  "title": {
+    "value": "Pupil safety: notifications: firearms",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-eed9cd1b18",
+        "quote": "Assembly Bill 1943 by Assemblymember Mike A. Gipson (D-Carson) — Pupil safety: notifications: firearms"
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

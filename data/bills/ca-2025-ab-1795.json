@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1795",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-15",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-c54f42e830",
+        "quote": "Assembly Bills 1642 (Harabedian) and 1795 (Gipson) create first-in-the-nation standards for smoke damage claims."
+      },
+      {
+        "source": "src:gov-ca-gov-c54f42e830",
+        "quote": "Governor Gavin Newsom today signed a package of legislation to strengthen California’s long-term wildfire recovery system"
+      }
+    ]
+  },
+  "title": {
+    "value": "Smoke damage claims standards",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-c54f42e830",
+        "quote": "Assembly Bills 1642 (Harabedian) and 1795 (Gipson) create first-in-the-nation standards for smoke damage claims."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

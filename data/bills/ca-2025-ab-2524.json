@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2524",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-30",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 2524 by Assemblymember Mike A. Gipson (D-Carson) — Pupils: work permits: issuance."
+      },
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      }
+    ]
+  },
+  "title": {
+    "value": "Pupils: work permits: issuance",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 2524 by Assemblymember Mike A. Gipson (D-Carson) — Pupils: work permits: issuance."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

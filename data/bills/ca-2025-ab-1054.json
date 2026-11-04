@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1054",
+  "status": {
+    "value": "vetoed",
+    "as_of": "2026-09-27",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-339445da1c",
+        "quote": "AB 1054 by Assemblymember Mike A. Gipson (D-Carson) — Public employees’ retirement: deferred retirement option program: public employee health benefits.A veto message can be found here ."
+      },
+      {
+        "source": "src:gov-ca-gov-339445da1c",
+        "quote": "The Governor also announced that he has vetoed the following bills:"
+      }
+    ]
+  },
+  "title": {
+    "value": "Public employees’ retirement: deferred retirement option program: public employee health benefits",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-339445da1c",
+        "quote": "AB 1054 by Assemblymember Mike A. Gipson (D-Carson) — Public employees’ retirement: deferred retirement option program: public employee health benefits.A veto message can be found here ."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

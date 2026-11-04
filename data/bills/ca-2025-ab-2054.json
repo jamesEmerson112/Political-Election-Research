@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2054",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-28",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-67c37542f0",
+        "quote": "AB 2054 by Assemblymember Mike A. Gipson (D-Carson) — Family temporary disability insurance program: covered active duty."
+      },
+      {
+        "source": "src:gov-ca-gov-67c37542f0",
+        "quote": "Governor Gavin Newsom today announced the signing of bipartisan legislation to better support veterans and active servicemembers"
+      }
+    ]
+  },
+  "title": {
+    "value": "Family temporary disability insurance program: covered active duty",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-67c37542f0",
+        "quote": "AB 2054 by Assemblymember Mike A. Gipson (D-Carson) — Family temporary disability insurance program: covered active duty."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2405",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-30",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 2405 by Assemblymember Mike A. Gipson (D-Carson) — Mental health."
+      },
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      }
+    ]
+  },
+  "title": {
+    "value": "Mental health",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 2405 by Assemblymember Mike A. Gipson (D-Carson) — Mental health."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

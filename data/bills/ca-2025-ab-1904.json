@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1904",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-30",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 1904 by Assemblymember Mike A. Gipson (D-Carson) — Teachers: credentialed educator apprenticeship programs."
+      },
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      }
+    ]
+  },
+  "title": {
+    "value": "Teachers: credentialed educator apprenticeship programs",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 1904 by Assemblymember Mike A. Gipson (D-Carson) — Teachers: credentialed educator apprenticeship programs."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

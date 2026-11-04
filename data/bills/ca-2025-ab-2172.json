@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2172",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-27",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-339445da1c",
+        "quote": "AB 2172 by Assemblymember Mike A. Gipson (D-Carson) — Property taxation: county assessment appeals boards: assessment appeals commissioners."
+      },
+      {
+        "source": "src:gov-ca-gov-339445da1c",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      }
+    ]
+  },
+  "title": {
+    "value": "Property taxation: county assessment appeals boards: assessment appeals commissioners",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-339445da1c",
+        "quote": "AB 2172 by Assemblymember Mike A. Gipson (D-Carson) — Property taxation: county assessment appeals boards: assessment appeals commissioners."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}
