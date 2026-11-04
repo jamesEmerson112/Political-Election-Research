@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "service-employees-international-union-local-721-ctw-clc-state-and-local",
+  "name": "Service Employees International Union Local 721 CTW, CLC State & Local",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}
