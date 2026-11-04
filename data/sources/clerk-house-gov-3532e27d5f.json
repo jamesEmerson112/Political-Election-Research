@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-house-gov-3532e27d5f",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Office of the Clerk, U.S. House of Representatives",
+  "title": "Office of the Clerk, U.S. House of Representatives - Steven Horsford",
+  "url": "https://clerk.house.gov/members/H001066",
+  "notes": "Member profile page in the Clerk's official roster, opened with tools/research/fetch-text.mjs on 2026-11-04. No publication date on the page. Not archived: web.archive.org was unreachable from the research environment."
+}

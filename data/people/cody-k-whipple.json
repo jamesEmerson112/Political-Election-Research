@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "cody-k-whipple",
+  "name": "Cody K. Whipple",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H6NV04111",
+      "system": "fec_candidate"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://codyk4congress.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}

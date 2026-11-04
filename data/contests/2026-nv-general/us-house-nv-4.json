@@ -1,0 +1,105 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/us-house-nv-4",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Representative in Congress District 4",
+  "office": "Representative in Congress",
+  "candidates": [
+    {
+      "person": "person:russell-best",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Independent American Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Best Russell IAP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 4"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-3532e27d5f",
+          "quote": "Nevada (NV) – 4th, Democrat",
+          "locator": "Member profile header (Steven Horsford): the current holder of Nevada's 4th district seat is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:steven-a-horsford",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Horsford Steven A. DEM",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 4"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-3532e27d5f",
+          "quote": "Nevada (NV) – 4th, Democrat",
+          "locator": "Member profile header (Steven Horsford): he holds Nevada's 4th district seat"
+        }
+      ]
+    },
+    {
+      "person": "person:william-johnson",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "No Political Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Johnson William NPP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 4"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-3532e27d5f",
+          "quote": "Nevada (NV) – 4th, Democrat",
+          "locator": "Member profile header (Steven Horsford): the current holder of Nevada's 4th district seat is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:cody-k-whipple",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Whipple Cody K. REP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 4"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-3532e27d5f",
+          "quote": "Nevada (NV) – 4th, Democrat",
+          "locator": "Member profile header (Steven Horsford): the current holder of Nevada's 4th district seat is another person"
+        }
+      ]
+    }
+  ],
+  "district": 4,
+  "level": "federal",
+  "last_verified": "2026-11-04"
+}

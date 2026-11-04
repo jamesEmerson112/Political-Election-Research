@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "russell-best",
+  "name": "Russell Best",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H0NV02167",
+      "system": "fec_candidate"
+    }
+  ],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}

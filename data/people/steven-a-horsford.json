@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "steven-a-horsford",
+  "name": "Steven A. Horsford",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H2NV04011",
+      "system": "fec_candidate"
+    }
+  ],
+  "links": {
+    "official_site": "https://horsford.house.gov"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}
