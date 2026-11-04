@@ -3,10 +3,21 @@
   "id": "john-pimentel",
   "name": "John Pimentel",
   "aliases": [],
+  "candidate_profile": {
+    "residence_city": {
+      "value": "Menlo Park",
+      "citations": [
+        {
+          "source": "src:smccd-edu-1b2ae391ef",
+          "quote": "He lives in Menlo Park with his wife of 20 years and 3 children."
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.johnpimentel.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }

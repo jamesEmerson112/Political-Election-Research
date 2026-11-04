@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "smccd-edu-1b2ae391ef",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "San Mateo County Community College District",
+  "title": "John Pimentel (Board of Trustees biography)",
+  "url": "https://www.smccd.edu/boardoftrustees/documents/Pimentel%20Bio.pdf"
+}
