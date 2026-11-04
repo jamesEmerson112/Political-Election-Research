@@ -64,6 +64,26 @@
           "where": "Mission Local (missionlocal.org article pages and WordPress API): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "support",
+      "as_of": "2026-09-08",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Told the SF Standard he supports renewing the city's contract with Flock because he considers the concerns speculative, and that he would reconsider if problems emerge.",
+      "citations": [
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "That said, he supports renewing the contract with Flock because he thinks the concerns are speculative.",
+          "locator": "Flock-ing together in support: Supervisor Matt Dorsey"
+        },
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "He said he would reconsider if problems emerge with the contract, but overall, the cameras are working.",
+          "locator": "Flock-ing together in support: Supervisor Matt Dorsey"
+        }
+      ]
     }
   ]
 }
