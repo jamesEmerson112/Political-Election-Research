@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.adam-schiff--person.tom-umberg--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:tom-umberg",
+  "endorser": "person:adam-schiff",
+  "citations": [
+    {
+      "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+      "quote": "U.S. Senator Adam Schiff, U.S. Senator Alex Padilla",
+      "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+    },
+    {
+      "source": "src:tomumberg-com-1683813a7c",
+      "quote": "U.S. Senator Adam Schiff"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

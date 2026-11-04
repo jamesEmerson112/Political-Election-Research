@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-democratic-party--person.tom-umberg--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-02",
+  "endorsee": "person:tom-umberg",
+  "endorser": "org:california-democratic-party",
+  "citations": [
+    {
+      "source": "src:cadem-org-aeb4feb5a7",
+      "quote": "Board of Equalization District 4: Tom Umberg",
+      "locator": "p. 1, Statewide"
+    },
+    {
+      "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+      "quote": "I am proud to be supported by\nthe California Democratic Party",
+      "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

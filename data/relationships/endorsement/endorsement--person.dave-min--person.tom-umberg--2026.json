@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.dave-min--person.tom-umberg--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:tom-umberg",
+  "endorser": "person:dave-min",
+  "citations": [
+    {
+      "source": "src:tomumberg-com-1683813a7c",
+      "quote": "Congressman Dave Min (D – Irvine)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
