@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cisconv-co-a25afc03a7",
+  "kind": "candidate_website",
+  "accessed": "2026-11-04",
+  "publisher": "Cisco for Nevada",
+  "title": "About Cisco - Cisco Aguilar for Secretary of State",
+  "url": "https://cisconv.co/about/"
+}

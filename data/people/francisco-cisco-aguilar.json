@@ -46,6 +46,15 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Nevada Secretary of State",
+      "citations": [
+        {
+          "source": "src:cisconv-co-a25afc03a7",
+          "quote": "CISCO AGUILAR SERVES AS NEVADA’S SECRETARY OF STATE."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
