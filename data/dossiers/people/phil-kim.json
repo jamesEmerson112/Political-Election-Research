@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:phil-kim",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "board-policy-review",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Kim's June 2026 GrowSF questionnaire says the next phase of the board's governance work is a full review (a \"policy diet\") of all Board Policies and Resolutions through the Ad-hoc Committee on Policy he introduced in March 2025.",
+        "title": "Review all board policies and resolutions through an Ad-hoc Committee on Policy",
+        "topic": "board-governance",
+        "citations": [
+          {
+            "source": "src:growsf-org-d370012111",
+            "quote": "The Board of Education has never done a full “policy diet” of all Board Policies and Resolutions to align all Policies and Resolutions to our effective governance framework. This is the next phase of our governance work, through an Ad-hoc Committee on Policy that I introduced in March 2025.",
+            "locator": "Your Goals: existing Board of Education policy you would like to reform"
+          }
+        ]
+      },
+      {
+        "id": "make-more-district-data-public",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Kim's June 2026 GrowSF questionnaire says he is committed to the district making more data publicly accessible and names Oakland Unified's public dashboards as a model.",
+        "title": "Make more district data publicly accessible",
+        "topic": "data-and-reporting",
+        "citations": [
+          {
+            "source": "src:growsf-org-d370012111",
+            "quote": "I am very committed to ensuring that the District makes more data publicly accessible. Oakland Unified School District (OUSD)’s Public Dashboards are a great model here.",
+            "locator": "The Issues: data transparency and performance reporting"
+          }
+        ]
+      },
+      {
+        "id": "support-t-10-security-staff",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Kim's June 2026 GrowSF questionnaire says that, after students asked for more training and coordination of T-10 security staff, he is interested in working with the superintendent and board on central supports and site-based strategies for them.",
+        "title": "Support training and coordination of T-10 school security staff",
+        "topic": "safety-and-inclusion",
+        "citations": [
+          {
+            "source": "src:growsf-org-d370012111",
+            "quote": "I am interested in partnering with the Superintendent and Board to make sure that we have central supports and site-based strategies that support our T-10s.",
+            "locator": "The Issues: school safety"
+          }
+        ]
+      },
+      {
+        "id": "build-more-programs-like-language-immersion",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Kim's June 2026 GrowSF questionnaire says SFUSD must learn from and build more programs like language immersion that attract families.",
+        "title": "Build more programs like language immersion",
+        "topic": "specialty-programs",
+        "citations": [
+          {
+            "source": "src:growsf-org-d370012111",
+            "quote": "Programs across SFUSD, such as language immersion, are some of the most sought-after programs in San Francisco. We must learn from and build more programs such as these that attract families to SFUSD.",
+            "locator": "The Issues: making SFUSD more attractive to families (Access)"
+          }
+        ]
+      },
+      {
+        "id": "training-and-coaching-to-retain-teachers",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Kim's June 2026 GrowSF questionnaire says that to retain educators SFUSD must focus on training, coaching and development.",
+        "title": "Retain teachers through training, coaching and development",
+        "topic": "educators",
+        "citations": [
+          {
+            "source": "src:growsf-org-d370012111",
+            "quote": "In order to retain those educators, we must focus on training, coaching, and development so that teachers have the tools they need and support required to grow in their practice, be successful in their profession, and be valued in their school communities.",
+            "locator": "The Issues: recruiting and retaining educators"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Phil Kim candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Education candidate statements, printed p. 30: background and general focus, no specific proposal"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "priorities, platform",
+        "where": "philkim.org home page (biography and accomplishments, no platform page); philkim.org/media returned 404"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Phil Kim questionnaire",
+        "where": "GrowSF November 2026 questionnaire URL for Phil Kim returned 404; GrowSF June 2026 Board of Education questionnaire, Phil Kim (used)"
+      }
+    ]
+  }
+}
