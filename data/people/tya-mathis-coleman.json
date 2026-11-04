@@ -57,6 +57,27 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "city of residence",
+          "where": "nevadatreasurer.nv.gov/about-us/staff-bios/ (official staff biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "city of residence",
+          "where": "The Nevada Independent, Feb. 11, 2026"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Tya Mathis-Coleman treasurer campaign website about Las Vegas",
+          "where": "web search (no campaign site found)"
+        }
+      ]
     }
   },
   "ids": [],
