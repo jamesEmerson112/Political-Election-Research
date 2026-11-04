@@ -70,6 +70,32 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "campaign site codyk4congress.com home page, About Cody (opened)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "The Nevada Independent, 2026-10-11 candidate profile (opened)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Cody Whipple Nevada 4th congressional district 2026 Republican",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Cody Whipple for Congress campaign website about Cody rancher Hiko",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
