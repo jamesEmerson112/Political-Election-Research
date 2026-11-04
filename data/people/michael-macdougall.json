@@ -46,6 +46,22 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "education",
+          "where": "Our Town Reno, May 20, 2026; The Nevada Independent, Oct. 2, 2026"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"MacDougall\" \"Building a Nevada for everyone\" controller",
+          "where": "web search (campaign site not found)"
+        }
+      ]
+    },
     "occupation": {
       "value": "High school teacher and small-business owner",
       "citations": [
