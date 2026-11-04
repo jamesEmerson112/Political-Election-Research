@@ -66,6 +66,26 @@
       ]
     },
     {
+      "subject": "q:public-health/end-drug-use-supply-distribution",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Says harm reduction supplies must be part of a broader strategy to move people into treatment and recovery, and supports Mayor Lurie's effort to require that distribution of these supplies, including safer smoking supplies, be accompanied by efforts to get users into recovery; he does not call for ending distribution.",
+      "citations": [
+        {
+          "source": "src:growsf-org-aecb4e3daa",
+          "quote": "Harm reduction is an incremental step that must be viewed as part of a broader strategy to incentivize and, if necessary, coerce and mandate people into drug treatment and recovery.",
+          "locator": "Substance abuse: Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?"
+        },
+        {
+          "source": "src:growsf-org-aecb4e3daa",
+          "quote": "I support Mayor Lurie’s efforts to require that the distribution of harm-reduction supplies — including safer smoking supplies — be accompanied by efforts to get drug users into recovery.",
+          "locator": "Substance abuse, same question"
+        }
+      ]
+    },
+    {
       "subject": "q:public-safety/police-license-plate-cameras",
       "stance": "support",
       "as_of": "2026-09-08",
