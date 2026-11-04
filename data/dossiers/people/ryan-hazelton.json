@@ -1,0 +1,106 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:ryan-hazelton",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "reform-the-lottery-system",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Hazelton's voter pamphlet statement says he would make SFUSD easier to join by reforming the lottery system and expanding wrap-around services; his site describes a proximity-based assignment system with integration goals built in.",
+        "title": "Reform the enrollment lottery and expand wrap-around services",
+        "topic": "school-assignment",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "For Families: Make SFUSD easier to join by reforming the lottery system and expanding wrap-around services.",
+            "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+          },
+          {
+            "source": "src:ryanforsfschools-com-e9cf9f5a86",
+            "quote": "Simplified enrollment — a proximity-based assignment system with integration goals built in, designed to reduce anxiety and increase predictability for every family",
+            "locator": "The Whole Child Agenda: For Families"
+          }
+        ]
+      },
+      {
+        "id": "pay-educators-fairly-and-on-time",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Hazelton's voter pamphlet statement says he would pay educators fairly and on time and ensure classrooms are well resourced.",
+        "title": "Pay educators fairly and on time",
+        "topic": "educators",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "For Educators: Pay them fairly and on-time and ensure that classrooms are well resourced.",
+            "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+          }
+        ]
+      },
+      {
+        "id": "address-chronic-absenteeism",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Hazelton's voter pamphlet statement lists addressing chronic absenteeism; his site says it should be addressed at root causes such as housing instability, health access and school belonging rather than through punitive policies.",
+        "title": "Address chronic absenteeism at its root causes",
+        "topic": "attendance",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "For Students: Address chronic absenteeism - children cannot learn if they aren’t in schools.",
+            "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+          },
+          {
+            "source": "src:ryanforsfschools-com-e9cf9f5a86",
+            "quote": "Chronic absenteeism — addressed at the root causes of housing instability, health access, and school belonging, not through punitive policies that push families further away",
+            "locator": "The Whole Child Agenda: For Children"
+          }
+        ]
+      },
+      {
+        "id": "fix-budget-and-seek-state-funding",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Hazelton's voter pamphlet statement says he would fix the local SFUSD budget and secure additional funding from the state.",
+        "title": "Fix the SFUSD budget and secure additional state funding",
+        "topic": "budget-and-funding",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Fix our local SFUSD budget and secure additional funding from the state.",
+            "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+          }
+        ]
+      },
+      {
+        "id": "safe-and-welcoming-schools",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Hazelton's voter pamphlet statement says he would create safe and welcoming schools for LGBTQ+ students, immigrant students and students with disabilities.",
+        "title": "Create safe and welcoming schools for LGBTQ+ students, immigrant students and students with disabilities",
+        "topic": "safety-and-inclusion",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Create safe and welcoming schools for LGBTQ+ students, immigrant students, and students with disabilities.",
+            "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Ryan Hazelton candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Education candidate statements, printed p. 29 (five-point plan)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "platform, Whole Child Agenda",
+        "where": "ryanforsfschools.com home page and The Whole Child Agenda page"
+      }
+    ]
+  }
+}
