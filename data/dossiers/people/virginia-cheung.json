@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:virginia-cheung",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "strengthen-early-intervention",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Cheung's voter pamphlet statement says she will strengthen early intervention to improve literacy, math, attendance and student engagement.",
+        "title": "Strengthen early intervention to improve literacy and math",
+        "topic": "literacy-and-math",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "I’ll strengthen early intervention to improve literacy, math, attendance, and student engagement",
+            "locator": "Candidate statement, Board of Education, p. 28 (PDF page 30)"
+          }
+        ]
+      },
+      {
+        "id": "supports-to-reduce-chronic-absence",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Under a priority on chronic absenteeism, Cheung's site says she will work to bridge parent engagement, targeted supports for high-need students, and shelter and safety for immigrant and unhoused families.",
+        "title": "Bridge family engagement and targeted supports to keep students in class",
+        "topic": "attendance",
+        "citations": [
+          {
+            "source": "src:virginiacheung-com-cad93c7186",
+            "quote": "I will fight to bridge parent engagement, targeted supports for high-need students, shelter and safety for immigrant and unhoused families, and cultivate culturally affirming learning environments where every child belongs.",
+            "locator": "Priorities That Matter: Keep Kids in the Classroom"
+          }
+        ]
+      },
+      {
+        "id": "recruit-and-retain-educators",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Cheung's site says she will work to recruit and retain educators through competitive salaries and benefits and career pathways.",
+        "title": "Recruit and retain educators through competitive salaries and benefits",
+        "topic": "educators",
+        "citations": [
+          {
+            "source": "src:virginiacheung-com-cad93c7186",
+            "quote": "I will fight to recruit and retain top educators through competitive salaries and benefits, support career pathways, expand access to high-demand programs in every neighborhood, and invest in what makes SFUSD distinct.",
+            "locator": "Priorities That Matter: Fully Staffed, Stable Schools"
+          }
+        ]
+      },
+      {
+        "id": "expand-steam-and-language-pathways",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Cheung's site says SFUSD must expand STEAM, language pathways and multilingual programs.",
+        "title": "Expand STEAM, language pathways and multilingual programs",
+        "topic": "specialty-programs",
+        "citations": [
+          {
+            "source": "src:virginiacheung-com-cad93c7186",
+            "quote": "We must expand STEAM, language pathways and multilingual programs that honor students' identities and open doors to opportunity",
+            "locator": "Priorities That Matter: Keep Kids in the Classroom"
+          }
+        ]
+      },
+      {
+        "id": "transparency-in-budget-enrollment-program-decisions",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Cheung's site says she will demand transparency in budgeting, enrollment and program decisions.",
+        "title": "Demand transparency in budgeting, enrollment and program decisions",
+        "topic": "data-and-reporting",
+        "citations": [
+          {
+            "source": "src:virginiacheung-com-cad93c7186",
+            "quote": "I will demand transparency in budgeting, enrollment, and program decisions",
+            "locator": "Priorities That Matter: Build Bridges, Build Trust"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Virginia Cheung candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Education candidate statements, printed p. 28"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "priorities, platform",
+        "where": "virginiacheung.com home page and Learn (Priorities That Matter) page"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Virginia Cheung questionnaire",
+        "where": "GrowSF November 2026 questionnaire URL for Virginia Cheung returned 404; questionnaires not needed once five proposals were found in the pamphlet and campaign site"
+      }
+    ]
+  }
+}
