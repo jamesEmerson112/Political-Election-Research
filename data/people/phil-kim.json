@@ -3,11 +3,26 @@
   "id": "phil-kim",
   "name": "Phil Kim",
   "aliases": [],
+  "candidate_profile": {
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-d370012111",
+          "quote": "I moved to San Francisco in 2014 and have called SF my home ever since."
+        },
+        {
+          "source": "src:sfusd-edu-2c46c15bfb",
+          "quote": "He lives in the Castro neighborhood with his partner Andrew"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.philkim.org/",
     "official_site": "https://www.sfusd.edu/about-sfusd/board-education/commissioner-phil-kim"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }

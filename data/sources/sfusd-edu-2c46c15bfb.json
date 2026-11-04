@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfusd-edu-2c46c15bfb",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "San Francisco Unified School District",
+  "title": "Board President Phil Kim",
+  "url": "https://www.sfusd.edu/about-sfusd/board-education/commissioner-phil-kim"
+}
