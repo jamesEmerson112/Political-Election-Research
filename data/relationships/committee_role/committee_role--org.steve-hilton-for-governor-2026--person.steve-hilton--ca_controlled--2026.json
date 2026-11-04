@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.steve-hilton-for-governor-2026--person.steve-hilton--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/governor",
+  "subject": "person:steve-hilton",
+  "committee": "org:steve-hilton-for-governor-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-453f574fc9",
+      "locator": "Form 460 cover page (filing 3216290, amendment 0): committee, candidate and office: Stephen Hilton, GOV"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
