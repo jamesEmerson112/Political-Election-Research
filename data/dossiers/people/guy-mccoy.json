@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:guy-mccoy",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "homeless-agency-effectiveness",
+        "as_of": "2026-11-04",
+        "issue": "homelessness",
+        "summary": "McCoy's statement says he would force homeless agencies to be more effective at resolving homelessness.",
+        "title": "Require homeless agencies to resolve homelessness",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Force Homeless agencies to be more effective RESOLVING Homelessness instead of lining pockets.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+          }
+        ]
+      },
+      {
+        "id": "hold-people-refusing-help-accountable",
+        "as_of": "2026-11-04",
+        "issue": "homelessness",
+        "summary": "McCoy's statement says he would hold homeless individuals who refuse help accountable to the same laws as everyone.",
+        "title": "Hold homeless individuals who refuse help accountable to the law",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Hold Homeless individuals REFUSING help accountable to the same laws we ALL follow.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+          }
+        ]
+      },
+      {
+        "id": "housing-for-working-san-franciscans",
+        "as_of": "2026-11-04",
+        "issue": "housing",
+        "summary": "McCoy's statement says he would focus new housing on working San Franciscans at market rates and below instead of high-end housing.",
+        "title": "Focus new housing on working San Franciscans",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Focus new housing creation towards working San Franciscans at market rates and below INSTEAD of high-end housing.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+          }
+        ]
+      },
+      {
+        "id": "repeat-offenders-off-streets",
+        "as_of": "2026-11-04",
+        "issue": "public-safety",
+        "summary": "McCoy's statement says he would get repeat offenders and career criminals off the streets.",
+        "title": "Get repeat offenders off the streets",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Get repeat offenders and career criminals off the streets.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+          }
+        ]
+      }
+    ]
+  }
+}
