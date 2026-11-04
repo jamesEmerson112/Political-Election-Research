@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:stephen-sherrill",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "audit-red-and-yellow-zone-meters",
+        "as_of": "2026-11-04",
+        "issue": "transportation",
+        "summary": "Sherrill's priorities page lists auditing every red and yellow zone meter in the district to adjust parking hours for businesses and customers.",
+        "title": "Audit red and yellow zone meters in District 2",
+        "citations": [
+          {
+            "source": "src:votestephensherrill-com-fe60d3cf72",
+            "quote": "Audit every red and yellow zone meter in the district to optimize parking hours for businesses and customers",
+            "locator": "3. Thriving Small Businesses: What's Next"
+          }
+        ]
+      },
+      {
+        "id": "expand-childcare-subsidy",
+        "as_of": "2026-11-04",
+        "summary": "Sherrill's priorities page lists expanding San Francisco's childcare subsidy so more families qualify for free childcare tuition.",
+        "title": "Expand the city's childcare subsidy",
+        "citations": [
+          {
+            "source": "src:votestephensherrill-com-fe60d3cf72",
+            "quote": "Expanding San Francisco’s childcare subsidy so more families qualify for free childcare tuition.",
+            "locator": "4. A Family-Friendly City: What's Next"
+          }
+        ]
+      },
+      {
+        "id": "nonprofit-contracting-dashboard",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "Sherrill's priorities page lists reforming nonprofit contracting with clearer metrics and a public dashboard of where public money goes.",
+        "title": "Reform nonprofit contracting with a public dashboard",
+        "citations": [
+          {
+            "source": "src:votestephensherrill-com-fe60d3cf72",
+            "quote": "Reform nonprofit contracting with clearer metrics and a publicly accessible dashboard showing where public money goes",
+            "locator": "5. Good Government & Fiscal Accountability: What's Next"
+          }
+        ]
+      },
+      {
+        "id": "district-2-pedestrian-safety",
+        "as_of": "2026-11-04",
+        "issue": "transportation",
+        "summary": "Sherrill's priorities page lists new crossing beacons at Gough and Turk, re-timed lights on Lombard and support for speed cameras.",
+        "title": "Pedestrian safety changes in District 2",
+        "citations": [
+          {
+            "source": "src:votestephensherrill-com-fe60d3cf72",
+            "quote": "Improve pedestrian safety across D2, including new crossing beacons at Gough and Turk, re-timed lights on Lombard, and strong support for speed cameras",
+            "locator": "1. Public Safety & Clean Streets: What's Next"
+          }
+        ]
+      }
+    ]
+  }
+}
