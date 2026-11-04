@@ -66,6 +66,63 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "institution": "Williams College",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "As a youth, Yekutiel attended Williams College on a scholarship",
+              "locator": "Manny Yekutiel section"
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel education school degree",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 8"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel education school degree",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel education school degree",
+          "where": "Campaign website (mannyforsf.com: home page only (policy pages not reachable as separate pages))"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel education school degree",
+          "where": "GrowSF November 2026 questionnaire page for the candidate (growsf.org)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel education school degree",
+          "where": "Bay Area Reporter (ebar.com) District 8 race coverage: Sept. 2025 launch articles, Aug. 13 and Aug. 27, 2026 forum reports"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel District 8",
+          "where": "Mission Local District 8 candidate series (missionlocal.org): HTTP 403 bot check, could not be read"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel District 8",
+          "where": "San Francisco Standard District 8 coverage (sfstandard.com): article text behind sign-in beyond the lede"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Emanuel Manny Yekutiel\" District 8 supervisor education school degree",
+          "where": "Web search (news)"
+        }
+      ]
+    },
     "occupation": {
       "value": "Small Business Owner (ballot designation); owner of Manny's cafe and event space",
       "citations": [
