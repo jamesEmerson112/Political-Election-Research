@@ -3,6 +3,54 @@
   "actor": "person:emanuel-manny-yekutiel",
   "positions": [
     {
+      "subject": "q:government/expand-mayoral-authority",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Prop F, mayor's authority, charter amendments, commissions",
+          "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, District 8 candidate statements (media.api.sf.gov N26_EN_VIP.pdf, printed pp. 45-46) and local measure argument signers"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Prop F, mayor's authority, charter amendments, commissions",
+          "where": "GrowSF November 2026 questionnaire, Manny Yekutiel (growsf.org/voter-guide/questionnaires/november-2026/): answered"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Prop F, mayor's authority, charter amendments, commissions",
+          "where": "Campaign website: mannyforsf.com home page (campaign suspended Oct. 1, 2026; no issue pages served)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Prop F, mayor's authority, charter amendments, commissions",
+          "where": "Bay Area Reporter reports on the Aug. 12, 2026 United Democratic Club District 8 forum (ebar.com/story/169284, ebar.com/story/169699) and District 8 candidate profiles (ebar.com/story/158298, 158970, 168363)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Prop F, mayor's authority, charter amendments, commissions",
+          "where": "San Francisco Examiner, June 17, 2026, 'Supervisor candidates envision future for beloved District 8'"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Prop F, mayor's authority, charter amendments, commissions",
+          "where": "Mission Local District 8 'Meet the candidates' series (missionlocal.org/2026/08 and 2026/10 articles): HTTP 403 bot check, unreadable"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Prop F, mayor's authority, charter amendments, commissions",
+          "where": "San Francisco Standard District 8 coverage (sfstandard.com): article text behind sign-in beyond the lede"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "McCoy OR Yekutiel District 8 Prop F mayor charter amendment department heads position 2026",
+          "where": "Web search"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/citywide-rezoning",
       "stance": "support",
       "as_of": "2026-11-04",
