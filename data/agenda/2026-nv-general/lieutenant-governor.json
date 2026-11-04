@@ -2,7 +2,20 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/lieutenant-governor",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:stavros-anthony",
+      "name": "Stavros Anthony"
+    },
+    {
+      "person": "person:janine-hansen",
+      "name": "Janine Hansen"
+    },
+    {
+      "person": "person:sandra-jauregui",
+      "name": "Sandra Jauregui"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {

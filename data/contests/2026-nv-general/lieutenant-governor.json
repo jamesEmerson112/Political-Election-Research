@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/lieutenant-governor",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Lieutenant Governor",
+  "office": "Lieutenant Governor",
+  "candidates": [
+    {
+      "person": "person:stavros-anthony",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Anthony Stavros REP",
+          "locator": "PDF page 1 (Page 1 of 10), STATE PARTISAN, Lieutenant Governor (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:ltgov-nv-gov-24fc65ec53",
+          "quote": "Anthony was elected as Nevada’s Lieutenant Governor in 2022.",
+          "locator": "Official Lieutenant Governor biography (Nevada Lieutenant Governor Stavros Anthony)"
+        }
+      ]
+    },
+    {
+      "person": "person:janine-hansen",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Independent American Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Hansen Janine IAP",
+          "locator": "PDF page 1 (Page 1 of 10), STATE PARTISAN, Lieutenant Governor (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "IAP = Independent American Party",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:ltgov-nv-gov-24fc65ec53",
+          "quote": "Anthony was elected as Nevada’s Lieutenant Governor in 2022.",
+          "locator": "Official Lieutenant Governor biography: the sitting Lieutenant Governor is Stavros Anthony, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:sandra-jauregui",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Jauregui Sandra DEM",
+          "locator": "PDF page 1 (Page 1 of 10), STATE PARTISAN, Lieutenant Governor (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:ltgov-nv-gov-24fc65ec53",
+          "quote": "Anthony was elected as Nevada’s Lieutenant Governor in 2022.",
+          "locator": "Official Lieutenant Governor biography: the sitting Lieutenant Governor is Stavros Anthony, so this candidate is not the incumbent"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-04"
+}
