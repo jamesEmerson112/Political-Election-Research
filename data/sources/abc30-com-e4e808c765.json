@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "abc30-com-e4e808c765",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2022-12-06",
+  "publisher": "ABC30 (KFSN-TV)",
+  "title": "Attempted extortion case dropped against Fresno City Council President Nelson Esparza",
+  "url": "https://abc30.com/post/nelson-esparza-attempted-extortion-case-charges-dropped-city-council-president/12528566/"
+}

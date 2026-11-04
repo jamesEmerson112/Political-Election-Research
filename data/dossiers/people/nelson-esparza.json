@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:nelson-esparza",
+  "controversies": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "attempted-extortion-charge-2022-dismissed",
+        "date": "2022-12-05",
+        "resolution": {
+          "date": "2022-12-05",
+          "summary": "The District Attorney's Office dismissed the misdemeanor case; as part of the dismissal Esparza made a statement admitting he was angry at Sloan, ABC30 reported.",
+          "citations": [
+            {
+              "source": "src:abc30-com-e4e808c765",
+              "quote": "The Fresno County District Attorney's Office has dismissed a misdemeanor attempted extortion case against Fresno City Council President Nelson Esparza."
+            },
+            {
+              "source": "src:abc30-com-e4e808c765",
+              "quote": "As part of the case being dropped, Esparza had to make an apologetic statement, in which he admitted he was angry at Sloan."
+            }
+          ]
+        },
+        "response": {
+          "summary": "Esparza said in July 2022 that he was not guilty; when the case was dismissed he read a court statement saying his words could have implied a threat to fire Sloan but were misunderstood, and said he came out of the process as he entered it, \"a free and innocent man\".",
+          "citations": [
+            {
+              "source": "src:abc30-com-dda5e4f868",
+              "quote": "Nelson Esparza said he's not going anywhere and he's not guilty."
+            },
+            {
+              "source": "src:kvpr-org-8d4e7e9b32",
+              "quote": "In Monday’s courtroom statement, Esparza admitted his words could have implied a threat to fire Sloan, but he said his statements were misunderstood."
+            },
+            {
+              "source": "src:abc30-com-e4e808c765",
+              "quote": "\"I came into this process as a free and innocent man and am coming out of the process the same way."
+            }
+          ]
+        },
+        "summary": "ABC30 reported that Esparza was accused of threatening to fire then-City Attorney Doug Sloan unless Sloan worked exclusively for Esparza and the council majority; a judge reduced the felony charge to a misdemeanor in November 2022, and the Fresno County District Attorney's Office dismissed the case, KVPR and ABC30 reported.",
+        "title": "Attempted extortion charge filed in 2022 and dismissed",
+        "citations": [
+          {
+            "source": "src:abc30-com-e4e808c765",
+            "quote": "Esparza was accused of threatening to fire then-City Attorney Doug Sloan, unless Sloan worked exclusively for Esparza and the council majority."
+          },
+          {
+            "source": "src:abc30-com-e4e808c765",
+            "quote": "In November, a judge decided there was enough evidence for a trial but reduced the felony attempted extortion charge to a misdemeanor."
+          },
+          {
+            "source": "src:kvpr-org-8d4e7e9b32",
+            "quote": "The Fresno County District Attorney’s office dismissed an attempted extortion charge this week against Fresno City Council President Nelson Esparza, ending a months-long legal dispute involving the former city attorney."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Nelson Esparza controversy criticism FPPC (2026-11-04)",
+        "where": "web search (news)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "fppc.ca.gov enforcement Nelson Esparza",
+        "where": "web search restricted to fppc.ca.gov"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kvpr-org-8d4e7e9b32",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2022-12-06",
+  "publisher": "KVPR (Valley Public Radio)",
+  "title": "Criminal charges are dismissed against Fresno City Council president",
+  "url": "https://www.kvpr.org/local-news/2022-12-06/criminal-charges-are-dismissed-against-fresno-city-council-president"
+}

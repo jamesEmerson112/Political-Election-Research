@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "abc30-com-dda5e4f868",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2022-07-21",
+  "publisher": "ABC30 (KFSN-TV)",
+  "title": "Fresno city council president on extortion: 'No wrongdoing'",
+  "url": "https://abc30.com/amp/post/fresno-city-council-president-nelson-esparza-attempted-extortion-charges-hall/12065774/"
+}
