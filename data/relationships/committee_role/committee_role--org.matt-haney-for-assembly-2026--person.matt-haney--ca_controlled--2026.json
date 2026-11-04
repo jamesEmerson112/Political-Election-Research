@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.matt-haney-for-assembly-2026--person.matt-haney--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/state-assembly-17",
+  "subject": "person:matt-haney",
+  "committee": "org:matt-haney-for-assembly-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-c2513b1ba9",
+      "locator": "Form 460 cover page (filing 3215537, amendment 0): committee, candidate and office: Matt Haney, ASM District 17"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

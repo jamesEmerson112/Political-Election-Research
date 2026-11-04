@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "matt-haney-for-assembly-2026",
+  "name": "Matt Haney for Assembly 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1476944",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}
