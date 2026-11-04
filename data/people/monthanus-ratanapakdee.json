@@ -3,10 +3,27 @@
   "id": "monthanus-ratanapakdee",
   "name": "Monthanus Ratanapakdee",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Community advocate; San Francisco Immigrant Rights Commissioner",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Community Advocate / Immigrant Rights Commissioner.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MONTHANUS RATANAPAKDEE 蒙塔努斯‧拉塔納帕迪 Community Advocate / Mother",
+          "locator": "page 1, Board of Supervisors, District 2, English Ballot Designation column"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.ratanapakdeesf.org/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
