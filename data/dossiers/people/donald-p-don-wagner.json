@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:donald-p-don-wagner",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "speed-up-vote-counting",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "Pledges to speed up vote counting.",
+        "title": "Speed up vote counting",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As Secretary of State, I pledge to speed up vote counting, secure our elections, and remove the chief elections officer from partisan politics.",
+            "locator": "Candidate statement, p. 85"
+          }
+        ]
+      },
+      {
+        "id": "secure-elections-and-enforce-voter-id",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "Pledges to secure elections so that only eligible voters cast ballots, and says he will enforce a voter ID requirement if voters approve one in 2026.",
+        "title": "Secure elections and enforce voter ID if approved",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As Secretary of State, I pledge to speed up vote counting, secure our elections, and remove the chief elections officer from partisan politics.",
+            "locator": "Candidate statement, p. 85"
+          },
+          {
+            "source": "src:wagnerforcalifornia-com-d75eb18586",
+            "quote": "Only eligible voters cast ballots"
+          },
+          {
+            "source": "src:wagnerforcalifornia-com-d0a0cbea0c",
+            "quote": "If voters pass something like voter ID in 2026, I’ll enforce it.",
+            "locator": "page 9, reprinted Ag Meter interview"
+          }
+        ]
+      },
+      {
+        "id": "nonpartisan-secretary-of-state",
+        "as_of": "2026-11-04",
+        "issue": "government",
+        "summary": "Pledges to remove the chief elections officer from partisan politics and says the office should be non-partisan.",
+        "title": "Remove the chief elections officer from partisan politics",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "As Secretary of State, I pledge to speed up vote counting, secure our elections, and remove the chief elections officer from partisan politics.",
+            "locator": "Candidate statement, p. 85"
+          },
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "The Office of Secretary of State should be non-partisan, representing the will of the people, not answering to Sacramento political machines.",
+            "locator": "Candidate statement, p. 85"
+          }
+        ]
+      },
+      {
+        "id": "small-business-friendly-business-division",
+        "as_of": "2026-11-04",
+        "summary": "Says he will make the Secretary of State's business division small-business friendly, including by using technology to streamline processes for business owners.",
+        "title": "Make the business filings division small-business friendly",
+        "citations": [
+          {
+            "source": "src:wagnerforcalifornia-com-d75eb18586",
+            "quote": "The Secretary of State's business division is \"small-business friendly\""
+          },
+          {
+            "source": "src:wagnerforcalifornia-com-d0a0cbea0c",
+            "quote": "More specifically, Wagner said, California could leverage its technology use better when approaching the business climate, especially with Silicon Valley’s expertise, to streamline processes for business owners.",
+            "locator": "page 6, reprinted Capitol Alert story"
+          }
+        ]
+      }
+    ]
+  }
+}
