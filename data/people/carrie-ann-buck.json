@@ -14,6 +14,51 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Fifth-grade teacher",
+          "citations": [
+            {
+              "source": "src:carriebuckforcongress-com-b7dc6d59fa",
+              "quote": "Carrie began her career teaching fifth grade in North Las Vegas."
+            }
+          ]
+        },
+        {
+          "role": "Principal",
+          "citations": [
+            {
+              "source": "src:carriebuckforcongress-com-b7dc6d59fa",
+              "quote": "As a principal, she took one of Nevada’s lowest-performing schools and turned it into one of the state’s best, with reading and math scores soaring."
+            }
+          ]
+        },
+        {
+          "organization": "Pinecrest Academy",
+          "role": "Principal and executive director",
+          "start": "2014",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-77b6fc7bd3",
+              "quote": "Back in 2014, around the time she first considered running for office, Buck was recruited to the charter school Pinecrest Academy, where she was principal and executive director."
+            }
+          ]
+        },
+        {
+          "organization": "Pinecrest Foundation",
+          "role": "President",
+          "start": "2019",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-77b6fc7bd3",
+              "quote": "In 2019, she became president of the Pinecrest Foundation, which raises money for scholarships, a job she still holds."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
