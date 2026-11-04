@@ -66,6 +66,85 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Manny's (cafe and event space, Valencia Street)",
+          "role": "Owner",
+          "start": "2018-11",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I built Manny’s from the ground up — navigated city bureaucracy, served coffee, made payroll, and hosted hundreds of town halls.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 46 (PDF p. 48)"
+            },
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "In November of 2018, Yekutiel launched Manny’s",
+              "locator": "Manny Yekutiel section"
+            }
+          ]
+        },
+        {
+          "organization": "Civic Joy Fund",
+          "role": "Co-founder and former executive director",
+          "start": "2022-12",
+          "citations": [
+            {
+              "source": "src:growsf-org-e9f57d3c82",
+              "quote": "I co-founded the Civic Joy Fund, which funds 17 trash pickups weekly, night markets around the city, public art, and volunteer activities (though I no longer work for the Civic Joy Fund).",
+              "locator": "Personal section, community involvement answer"
+            },
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "the nonprofit he co-founded in December 2022 with Lurie",
+              "locator": "Manny Yekutiel section"
+            },
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "Yekutiel left his executive-director role when he declared his candidacy in September.",
+              "locator": "Manny Yekutiel section"
+            }
+          ]
+        },
+        {
+          "organization": "Valencia Corridor Merchants Association",
+          "role": "President",
+          "citations": [
+            {
+              "source": "src:growsf-org-e9f57d3c82",
+              "quote": "I previously was the President of the Valencia Corridor Merchants Association.",
+              "locator": "Personal section, community involvement answer"
+            }
+          ]
+        },
+        {
+          "organization": "FWD.us",
+          "role": "Bay Area chief of staff",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "became chief of staff in the Bay Area for FWD.us, an immigration reform group",
+              "locator": "Manny Yekutiel section"
+            }
+          ]
+        },
+        {
+          "end": "2012",
+          "organization": "Obama presidential campaign",
+          "role": "New Hampshire field organizer",
+          "start": "2012",
+          "citations": [
+            {
+              "source": "src:sfexaminer-com-cfd1c154fe",
+              "quote": "He was a New Hampshire field organizer for the Obama campaign in 2012",
+              "locator": "Manny Yekutiel section"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
