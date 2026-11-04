@@ -106,6 +106,42 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Licensed civil and traffic engineer (P.E.)",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "Licensed Civil and Traffic Engineer.",
+              "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+            }
+          ]
+        },
+        {
+          "organization": "Orange Taxpayers Association",
+          "role": "President",
+          "citations": [
+            {
+              "source": "src:bilodeauforboe-com-e8bc2a4152",
+              "quote": "As President of the Orange Taxpayers Association, he has led efforts to hold government accountable, expose waste, and protect taxpayers' hard-earned dollars."
+            }
+          ]
+        },
+        {
+          "organization": "National Water Research Institute",
+          "role": "Chairman",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "Chairman, National Water Research\nInstitute.",
+              "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
