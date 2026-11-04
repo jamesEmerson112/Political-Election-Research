@@ -6,6 +6,16 @@
     "Herb Morgan"
   ],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1966",
+      "citations": [
+        {
+          "source": "src:herbmorgan-com-f8c71a090c",
+          "quote": "He arrived in California on his first birthday in 1967, grew up in Westminster and Oceanside, and attended local public schools",
+          "locator": "Meet Herb Morgan, paragraph 1 (a first birthday in 1967 places his birth in 1966; the page gives no month or day)"
+        }
+      ]
+    },
     "birthplace": {
       "status": "not_found",
       "as_of": "2026-11-03",
@@ -170,5 +180,5 @@
     "campaign_site": "https://www.herbmorgan.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
