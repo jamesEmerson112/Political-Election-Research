@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sjvsun-com-73fde3c100",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-01-15",
+  "publisher": "The San Joaquin Valley Sun",
+  "title": "Esparza launches campaign for Board of Equalization",
+  "url": "https://sjvsun.com/news/politics/esparza-launches-campaign-for-board-of-equalization/"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.adam-schiff--person.nelson-esparza--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:nelson-esparza",
+  "endorser": "person:adam-schiff",
+  "citations": [
+    {
+      "source": "src:nelsonesparza-com-7d09f869c5",
+      "quote": "U.S. Senator Adam Schiff"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
