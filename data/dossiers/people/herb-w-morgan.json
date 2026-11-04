@@ -118,5 +118,31 @@
         "where": "Los Angeles Times controller race guide (2026-10-01)"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "SDCERS board service outcomes (page describes overhauling financial reporting; no government record cited)",
+        "where": "Campaign site herbmorgan.com, Meet Herb Morgan page"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "public service outcomes",
+        "where": "Campaign site herb-morgan.com, About Herb page"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "record in office",
+        "where": "2026 Official Voter Information Guide, Controller candidate statement (p. 86)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "\"Herb Morgan\" SDCERS board chair San Diego City Employees' Retirement System (results: 2009 San Diego Reader items and SDCERS annual reports; no documented outcome attributed to him)",
+        "where": "Web search"
+      }
+    ]
   }
 }
