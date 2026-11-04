@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:alida-fisher",
+  "positions": [
+    {
+      "subject": "q:education/sfusd-proximity-assignment",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "vote",
+      "summary": "On Oct. 13, 2026, Fisher voted against Option C, which assigns students to a neighborhood school and limits other applications to citywide programs; KQED reports she supported Option B, which first assigns a neighborhood school and lets families apply to any school with open seats.",
+      "citations": [
+        {
+          "source": "src:sfstandard-com-b2c5f17eda",
+          "quote": "Commissioner Alida Fisher, who along with Commissioner Supryia Ray voted no, was concerned about that estimate."
+        },
+        {
+          "source": "src:kqed-org-7b27e4cf25",
+          "quote": "The alternative considered Tuesday, which was dubbed “Option B,” would also have first assigned students to a neighborhood school, but it would have then allowed them to apply to any other school in the district with open seats."
+        },
+        {
+          "source": "src:kqed-org-7b27e4cf25",
+          "quote": "Option B was also supported by board members Alida Fisher and Supriya Ray, who voted against Option C."
+        },
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "She says she wouldn’t accept a system that requires families to give up school choice in exchange for a zone-based model until the district addresses inequities",
+          "locator": "Positions on Key Issues, student-assignment question"
+        }
+      ]
+    }
+  ]
+}
