@@ -3,6 +3,36 @@
   "actor": "person:stephen-sherrill",
   "positions": [
     {
+      "subject": "q:government/expand-mayoral-authority",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "His campaign site recommends Yes on Proposition F, which would let the Mayor hire and fire most department heads, saying the Mayor should be able to act as the boss; his GrowSF questionnaire says the Mayor should be able to hire and fire the Police Chief unilaterally.",
+      "citations": [
+        {
+          "source": "src:votestephensherrill-com-27598940ba",
+          "quote": "yes on prop f",
+          "locator": "How I'm Voting, San Francisco's local ballot measures, Prop F"
+        },
+        {
+          "source": "src:votestephensherrill-com-27598940ba",
+          "quote": "If we’re going to treat the Mayor like the boss, we should let them actually be the boss, including hiring and firing department heads.",
+          "locator": "How I'm Voting, Prop F: Changes to Executive Branch Management"
+        },
+        {
+          "source": "src:growsf-org-3968fdda8c",
+          "quote": "First, the Mayor should have the ability to hire and fire the Police Chief unilaterally.",
+          "locator": "Your Policy Goals: Will the power of the office of Supervisor be enough to achieve the other goals?"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Shall the City amend the Charter to expand the Mayor’s authority to transfer responsibilities between departments, hire deputy mayors, and hire some and fire most department heads",
+          "locator": "PDF p. 102 (printed p. 100), Proposition F digest, ballot question"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/citywide-rezoning",
       "stance": "support",
       "as_of": "2026-11-04",
