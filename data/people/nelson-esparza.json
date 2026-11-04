@@ -4,6 +4,24 @@
   "name": "Nelson Esparza",
   "aliases": [],
   "candidate_profile": {
+    "occupation": {
+      "value": "Teacher/Economist/Councilmember (ballot designation); Fresno City Council President (District 7) and economics instructor at Fresno City College",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Nelson Esparza Democratic Teacher/Economist/Councilmember",
+          "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 1"
+        },
+        {
+          "source": "src:fresno-gov-482cad3a46",
+          "quote": "It is an honor to serve as the Council President representing District 7 in the City of Fresno."
+        },
+        {
+          "source": "src:nelsonesparza-com-ac82fc37a7",
+          "quote": "Outside his work in Fresno City Hall, Nelson continues to teach as an Economics Instructor at Fresno City College, where he has worked for nearly a decade."
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [
