@@ -12,6 +12,29 @@
       "name": "Herb W Morgan"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/controller|legislation|person:herb-w-morgan",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Herb W Morgan",
+          "where": "California certified list of candidates and 2026 Official Voter Information Guide, Controller candidate statement (p. 86): ballot designation Chief Investment Officer; no legislative office"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "biography",
+          "where": "herbmorgan.com/about-herb-morgan (campaign biography: investment firm founder, Cantor Fitzgerald chief investment officer, SDCERS trustee appointed by the mayor; no legislative office)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Herb Morgan career",
+          "where": "herb-morgan.com/about-herb/ and Los Angeles Times controller race guide (2026-10-01): career summary, no legislative office"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:california-controller",
   "questions": [],
