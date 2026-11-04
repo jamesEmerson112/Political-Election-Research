@@ -4,6 +4,32 @@
   "name": "Jim Marchant",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Jim Marchant 2026 secretary of state campaign website about",
+          "where": "web search for the campaign site"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "jimmarchant.com about Jim Marchant",
+          "where": "web search for the campaign site"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Jim Marchant Nevada secretary of state 2026 official campaign website \"leader and innovator\"",
+          "where": "web search for the campaign site"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "Our Town Reno, May 18, 2026; KOLO/AP, June 16, 2026; KRNV 'Know Your Candidates' page (video only)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
