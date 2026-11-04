@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gov-nv-gov-ed9c06d3e3",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Office of the Nevada Governor",
+  "title": "Governor Joe Lombardo",
+  "url": "https://www.gov.nv.gov/about/governor-joe-lombardo/"
+}

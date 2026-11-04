@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/governor",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Governor",
+  "office": "Governor",
+  "candidates": [
+    {
+      "person": "person:aaron-d-ford",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Ford Aaron D. DEM",
+          "locator": "PDF page 1 (Page 1 of 10), STATE PARTISAN, Governor (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:gov-nv-gov-ed9c06d3e3",
+          "quote": "Governor Lombardo was elected as the 31st Governor of Nevada in November 2022 and sworn into office in January 2023.",
+          "locator": "Official governor biography: the sitting Governor is Joe Lombardo, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:danielle-ford",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "No Political Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Ford Danielle NPP",
+          "locator": "PDF page 1 (Page 1 of 10), STATE PARTISAN, Governor (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only)",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:gov-nv-gov-ed9c06d3e3",
+          "quote": "Governor Lombardo was elected as the 31st Governor of Nevada in November 2022 and sworn into office in January 2023.",
+          "locator": "Official governor biography: the sitting Governor is Joe Lombardo, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:joseph-lombardo",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Lombardo Joseph REP",
+          "locator": "PDF page 1 (Page 1 of 10), STATE PARTISAN, Governor (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:gov-nv-gov-ed9c06d3e3",
+          "quote": "Governor Lombardo was elected as the 31st Governor of Nevada in November 2022 and sworn into office in January 2023.",
+          "locator": "Official governor biography (Governor Joe Lombardo)"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-04"
+}
