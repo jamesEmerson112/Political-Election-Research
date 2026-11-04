@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "fresno-gov-482cad3a46",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "City of Fresno",
+  "title": "District 7 – City of Fresno",
+  "url": "https://www.fresno.gov/citycouncil/district-7/"
+}

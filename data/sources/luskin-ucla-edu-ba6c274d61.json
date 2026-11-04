@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "luskin-ucla-edu-ba6c274d61",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2020-03-24",
+  "publisher": "UCLA Luskin School of Public Affairs",
+  "title": "2019 MPP Alumnus of the Year: Nelson Esparza, MPP 2015",
+  "url": "https://luskin.ucla.edu/news/2019-mpp-alumnus-of-the-year/"
+}

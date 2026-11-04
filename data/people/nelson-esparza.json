@@ -3,6 +3,41 @@
   "id": "nelson-esparza",
   "name": "Nelson Esparza",
   "aliases": [],
+  "candidate_profile": {
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, Fresno City Council (District 7); Council President",
+          "current": true,
+          "first_elected": "2018",
+          "jurisdiction": "City of Fresno",
+          "citations": [
+            {
+              "source": "src:nelsonesparza-com-ac82fc37a7",
+              "quote": "In 2018, he was elected to the Fresno City Council, where he is currently serving his second term."
+            },
+            {
+              "source": "src:fresno-gov-482cad3a46",
+              "quote": "It is an honor to serve as the Council President representing District 7 in the City of Fresno."
+            }
+          ]
+        },
+        {
+          "office": "Trustee, Fresno County Board of Education",
+          "current": false,
+          "first_elected": "2016",
+          "jurisdiction": "Fresno County",
+          "citations": [
+            {
+              "source": "src:luskin-ucla-edu-ba6c274d61",
+              "quote": "He was elected to the Fresno City Council in November of 2018, and prior to that he served his community as an elected representative on the Fresno County Board of Education, where he was elected in 2016."
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q140067699",
@@ -14,5 +49,5 @@
     "official_site": "https://www.fresno.gov/citycouncil/district-7/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
