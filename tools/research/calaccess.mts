@@ -10,7 +10,7 @@
  *
  *   npx tsx tools/research/calaccess.mts committees <name words...>           Form 410 statements of organization since 2024
  *   npx tsx tools/research/calaccess.mts filings <filer id>                    campaign statements (460/496/497) since 2025
- *   npx tsx tools/research/calaccess.mts contributions <filer id> --through YYYY-MM-DD [--start 2025-01-01] [--top 10]
+ *   npx tsx tools/research/calaccess.mts contributions <filer id> --through YYYY-MM-DD [--start 2023-01-01] [--top 10] [--primary YYYY-MM-DD]
  *   npx tsx tools/research/calaccess.mts ies <candidate last name> [--first <first>] --through YYYY-MM-DD [--start 2025-01-01]
  *
  * Every row it reports carries its filing id, amendment, schedule and line item,
@@ -21,8 +21,11 @@
  *
  * Contributions: Form 460 Schedule A (monetary) and C (non-monetary), from
  * statements covering start..through. Late reports (497) repeat that money and
- * are not added. Individuals below data/config.json's privacy threshold are
- * left out (as validate requires).
+ * are not added. The export has no election-designation column: with
+ * --primary <date>, money received on or before that date is reported as
+ * "primary" and later money as "general". Individuals are listed only for a
+ * designation whose total reaches data/config.json's privacy threshold (as
+ * validate requires per record).
  * Independent expenditures: Form 496 late IE reports naming the candidate.
  *
  * Export location: --zip <path> or .cache/calaccess/dbwebexport.zip.
@@ -94,16 +97,16 @@ interface Cover {
   sup_opp: string;
 }
 
-/** Campaign-statement covers (460, 496, 497, 465, 461) dated 2025 or later, cached as JSON after the first read. */
+/** Campaign-statement covers (460, 496, 497, 465, 461) dated 2023 or later, cached as JSON after the first read. */
 async function covers(): Promise<Cover[]> {
-  const file = path.join(CACHE, `covers-since-2025.${fs.statSync(ZIP).mtimeMs}.json`);
+  const file = path.join(CACHE, `covers-since-2023.${fs.statSync(ZIP).mtimeMs}.json`);
   if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, "utf8")) as Cover[];
   const list: Cover[] = [];
   await scan(
     "CVR_CAMPAIGN_DISCLOSURE_CD",
     (r) => {
       const rpt = isoDate(r["RPT_DATE"]!);
-      if (rpt < "2025-01-01") return;
+      if (rpt < "2023-01-01") return;
       list.push({
         filing_id: r["FILING_ID"]!,
         amend_id: Number(r["AMEND_ID"]),
@@ -184,8 +187,10 @@ if (cmd === "committees") {
 } else if (cmd === "contributions") {
   const filer = rest[0] ?? die("contributions <filer id> --through YYYY-MM-DD");
   const through = flag("through") ?? die("--through YYYY-MM-DD is required (the contest's finance cutoff)");
-  const start = flag("start") ?? "2025-01-01";
+  const start = flag("start") ?? "2023-01-01";
   const top = Number(flag("top") ?? 10);
+  const primary = flag("primary");
+  const desig = (date: string) => (primary ? (date && date <= primary ? "primary" : "general") : "general");
   const f460 = [...latest((await covers()).filter((c) => c.filer_id === filer && c.form === "F460")).values()].filter(
     (c) => c.from >= start && c.thru <= through,
   );
@@ -206,8 +211,14 @@ if (cmd === "committees") {
     (line) => want.has(line.slice(0, line.indexOf("\t"))),
   );
   const ranked = [...donors.values()]
-    .map((d) => ({ ...d, total_cents: d.items.reduce((s, i) => s + i.cents, 0) }))
-    .filter((d) => d.total_cents > 0 && !(d.entity === "IND" && d.total_cents < PRIVACY_MIN_CENTS))
+    .map((d) => {
+      const by: Record<string, number> = {};
+      for (const i of d.items) by[`${desig(i.date)}|${i.schedule}`] = (by[`${desig(i.date)}|${i.schedule}`] ?? 0) + i.cents;
+      // Individuals: keep only designation × schedule totals at or above the privacy threshold.
+      const keep = Object.fromEntries(Object.entries(by).filter(([, c]) => c > 0 && (d.entity !== "IND" || c >= PRIVACY_MIN_CENTS)));
+      return { ...d, total_cents: Object.values(keep).reduce((s, c) => s + c, 0), by_designation_schedule: keep };
+    })
+    .filter((d) => d.total_cents > 0)
     .sort((a, b) => b.total_cents - a.total_cents || a.name.localeCompare(b.name));
   out({
     filer_id: filer,
@@ -217,6 +228,7 @@ if (cmd === "committees") {
     donors_total: donors.size,
     top: ranked.slice(0, top).map((d) => ({
       ...d,
+      items: d.items.map((i) => ({ ...i, designation: desig(i.date), source_url: filingUrl(i.filing_id, i.amend_id) })),
       locators: d.items.map((i) => `Form 460 Schedule ${i.schedule}, line ${i.line} (${i.date}, $${(i.cents / 100).toFixed(2)}); filing ${i.filing_id} amendment ${i.amend_id}`),
     })),
   });
@@ -224,7 +236,7 @@ if (cmd === "committees") {
   const last = (rest[0] ?? die("ies <candidate last name> --through YYYY-MM-DD")).toUpperCase();
   const first = flag("first")?.toUpperCase();
   const through = flag("through") ?? die("--through YYYY-MM-DD is required");
-  const start = flag("start") ?? "2025-01-01";
+  const start = flag("start") ?? "2023-01-01";
   const f496 = [...latest((await covers()).filter((c) => c.form === "F496")).values()].filter(
     (c) => c.cand_last.toUpperCase() === last && (!first || c.cand_first.toUpperCase().startsWith(first)) && c.rpt_date >= start && c.rpt_date <= through,
   );
