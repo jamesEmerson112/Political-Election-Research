@@ -130,6 +130,41 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, San Francisco Board of Education",
+          "current": true,
+          "jurisdiction": "San Francisco Unified School District",
+          "office_ref": "office:sfusd-board-of-education-member",
+          "start": "2024-08",
+          "citations": [
+            {
+              "source": "src:sfusd-edu-2c46c15bfb",
+              "quote": "Phil Kim was appointed to the Board of Education in August 2024 and unanimously elected President in 2025."
+            }
+          ]
+        },
+        {
+          "office": "President, San Francisco Board of Education",
+          "current": true,
+          "jurisdiction": "San Francisco Unified School District",
+          "start": "2025",
+          "citations": [
+            {
+              "source": "src:sfusd-edu-2c46c15bfb",
+              "quote": "Phil Kim was appointed to the Board of Education in August 2024 and unanimously elected President in 2025."
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My occupation is School Board President.",
+              "locator": "Candidate statement, Board of Education, p. 30 (PDF page 32)"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
