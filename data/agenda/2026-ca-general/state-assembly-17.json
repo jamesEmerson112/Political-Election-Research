@@ -53,6 +53,32 @@
           "where": "Web search"
         }
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/state-assembly-17|legislation|person:manuel-noris-barrera",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "incumbent mark; none follows his name",
+          "where": "Secretary of State Certified List of Candidates, November 3, 2026 (list page 20)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "legislative office, bills, votes; the March 2024 statement says \"Not a career politician but a dedicated community member\"",
+          "where": "San Francisco Voter Information Pamphlets, November 2024 and March 2024 candidate statements (p. 24 each)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Manuel Noris-Barrera\"",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Manuel Noris\" Republican San Francisco Assembly",
+          "where": "Web search"
+        }
+      ]
     }
   ],
   "measures": [],
