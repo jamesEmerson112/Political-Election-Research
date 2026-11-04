@@ -55,6 +55,39 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Nevada Secretary of State",
+          "current": true,
+          "jurisdiction": "Nevada",
+          "start": "2023",
+          "citations": [
+            {
+              "source": "src:nsla-nv-gov-538283aa31",
+              "quote": "Francisco V. Aguilar 2023-present Democratic",
+              "locator": "List of Secretaries of State, last row"
+            },
+            {
+              "source": "src:cisconv-co-a25afc03a7",
+              "quote": "CISCO AGUILAR SERVES AS NEVADA’S SECRETARY OF STATE."
+            }
+          ]
+        },
+        {
+          "office": "Member, Nevada Athletic Commission (Chairman for two of eight years)",
+          "current": false,
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:cisconv-co-a25afc03a7",
+              "quote": "Secretary Aguilar also served on the Nevada Athletic Commission regulating boxing and mixed martial arts for eight years, two of which he served as Chairman."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
