@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "fppc-ca-gov-e1e08cc46b",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "published": "2024-03-11",
+  "publisher": "Fair Political Practices Commission",
+  "title": "Warning Letter Re: FPPC No. 2024-00325; Tom Umberg",
+  "url": "https://www.fppc.ca.gov/siteassets/documents/enforcement_div/enf_letters/2024/07-26-24/tom-umberg-wl-202400325.pdf"
+}
