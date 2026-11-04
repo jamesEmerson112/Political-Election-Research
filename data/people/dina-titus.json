@@ -4,6 +4,16 @@
   "name": "Dina Titus",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1950-05-23",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "DINA TITUS, Democrat, of Las Vegas, NV; born in Thomasville, Thomas County, GA, May 23, 1950;",
+          "locator": "Nevada, Representatives, First District, page 158 (PDF page 169)"
+        }
+      ]
+    },
     "occupation": {
       "value": "U.S. Representative",
       "citations": [
