@@ -46,6 +46,29 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "High school teacher",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-e95ea9d1fb",
+              "quote": "His opponent, Michael MacDougall (D), is a high school teacher and small-business owner who had never run for office before."
+            }
+          ]
+        },
+        {
+          "role": "Helps run the family's three-generation real estate business",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-e95ea9d1fb",
+              "quote": "In his campaign, MacDougall is leaning on his experience helping run his family's three-generation real estate business."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
