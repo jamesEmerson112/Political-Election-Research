@@ -12,6 +12,29 @@
       "name": "John Pimentel"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/board-of-equalization-2|legislation|person:john-pimentel",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "legislature / Assembly / Senate / city council",
+          "where": "https://www.smccd.edu/boardoftrustees/documents/Pimentel%20Bio.pdf (official district bio): offices are a community college district trustee seat and appointed posts; no legislative office"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "authored / bill / ordinance",
+          "where": "https://johnpimentel.com/about-john/ and https://www.johnpimentel.com/ (campaign site)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "legislation",
+          "where": "Official Voter Information Guide, 2026 general, candidate statement p.92"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:california-board-of-equalization-member",
   "questions": [],
