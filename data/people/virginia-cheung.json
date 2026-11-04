@@ -4,6 +4,54 @@
   "name": "Virginia Cheung",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Chinese American International School",
+          "role": "Staff member",
+          "start": "2008",
+          "citations": [
+            {
+              "source": "src:growsf-org-f8287e3fa2",
+              "quote": "What brought me here initially was the opportunity to work at the Chinese American International School"
+            }
+          ]
+        },
+        {
+          "organization": "Wu Yee Children's Services",
+          "role": "Director",
+          "citations": [
+            {
+              "source": "src:growsf-org-f8287e3fa2",
+              "quote": "As a former director at Wu Yee Children's Services, I helped grow a $20M organization into an $80M agency"
+            }
+          ]
+        },
+        {
+          "organization": "Give a Beat Foundation",
+          "role": "Co-Founder and Vice President",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-5e8f3edc5d",
+              "quote": "Give a Beat Foundation – Co-Founder and Vice President",
+              "locator": "page 8"
+            }
+          ]
+        },
+        {
+          "organization": "Parents for Public Schools of San Francisco",
+          "role": "Treasurer",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-5e8f3edc5d",
+              "quote": "Parents for Public Schools of San Francisco – Treasurer",
+              "locator": "page 8"
+            }
+          ]
+        }
+      ]
+    },
     "residence_city": {
       "value": "San Francisco",
       "citations": [
