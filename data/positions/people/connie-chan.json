@@ -103,6 +103,26 @@
       ]
     },
     {
+      "subject": "q:immigration/abolish-ice",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "statement",
+      "summary": "Her official ballot statement lists \"Abolish ICE and pass immigration reform\" among her goals in Congress; her campaign plan says she would abolish ICE and restructure the Department of Homeland Security around due-process-based enforcement.",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Abolish ICE and pass immigration reform",
+          "locator": "p. 24 (PDF p. 26), Candidate Statements, U.S. Representative District 11, Connie Chan"
+        },
+        {
+          "source": "src:conniechansf-com-1803a73c7c",
+          "quote": "Abolish ICE, an agency that has become lawless, and restructure the Department of Homeland Security (DHS) around humane, due-process-based enforcement.",
+          "locator": "collapsed section \"Immigration reform\" (text hidden until the section is opened), under \"Connie Will:\""
+        }
+      ]
+    },
+    {
       "subject": "q:immigration/expand-skilled-work-visas",
       "stance": "support",
       "as_of": "2026-11-02",
