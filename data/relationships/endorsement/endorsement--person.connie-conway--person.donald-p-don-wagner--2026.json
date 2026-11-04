@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.connie-conway--person.donald-p-don-wagner--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:donald-p-don-wagner",
+  "endorser": "person:connie-conway",
+  "citations": [
+    {
+      "source": "src:wagnerforcalifornia-com-d0a0cbea0c",
+      "quote": "CONNIE CONWAY Former Member, US House of Representatives R-Tulare",
+      "locator": "page 12, Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

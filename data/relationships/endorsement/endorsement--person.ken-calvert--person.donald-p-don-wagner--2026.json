@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.ken-calvert--person.donald-p-don-wagner--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:donald-p-don-wagner",
+  "endorser": "person:ken-calvert",
+  "citations": [
+    {
+      "source": "src:wagnerforcalifornia-com-d0a0cbea0c",
+      "quote": "KEN CALVERT Member, US House of Representatives R-Corona",
+      "locator": "page 12, Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

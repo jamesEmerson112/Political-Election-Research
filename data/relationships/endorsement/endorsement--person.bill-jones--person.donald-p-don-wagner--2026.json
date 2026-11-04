@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.bill-jones--person.donald-p-don-wagner--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:donald-p-don-wagner",
+  "endorser": "person:bill-jones",
+  "citations": [
+    {
+      "source": "src:wagnerforcalifornia-com-d0a0cbea0c",
+      "quote": "BILL JONES Former California Secretary of State",
+      "locator": "page 12, Endorsements"
+    },
+    {
+      "source": "src:wagnerforcalifornia-com-d0a0cbea0c",
+      "quote": "two past Secretaries of State -- Bill Jones (Republican) and Bruce McPherson (No Party Preference) -- who will serve as active Campaign Chairs",
+      "locator": "page 7, press release of September 16, 2025"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
