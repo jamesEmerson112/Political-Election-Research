@@ -3,6 +3,22 @@
   "id": "sally-j-lieber",
   "name": "Sally J. Lieber",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Incumbent (ballot designation); Chair, California State Board of Equalization (2nd District)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Sally J. Lieber* Democratic Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 2"
+        },
+        {
+          "source": "src:boe-ca-gov-aeb89a3bc1",
+          "quote": "Lieber served as Chair of the Board of Equalization in 2024, Vice Chair in 2025, and is serving as Chair of the Board in 2026."
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q7405170",
@@ -14,5 +30,5 @@
     "official_site": "https://www.boe.ca.gov/lieber/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }

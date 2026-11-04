@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "boe-ca-gov-aeb89a3bc1",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "California State Board of Equalization",
+  "title": "About – Sally J. Lieber – Member, Board of Equalization, 2nd District",
+  "url": "https://www.boe.ca.gov/lieber/about.htm"
+}
