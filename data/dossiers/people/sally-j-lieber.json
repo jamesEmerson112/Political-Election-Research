@@ -21,5 +21,57 @@
         "where": "results reviewed"
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "accurate-equitable-property-tax-assessments",
+        "as_of": "2026-08-10",
+        "summary": "Says that over the next four years she will continue to work for accurate and equitable property tax assessments.",
+        "title": "Accurate and equitable property tax assessments",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Over the next four years, I will continue to work for accurate and equitable property tax assessments, expanded taxpayer assistance, and policies that support housing affordability, rapid disaster recovery, and economic stability for working families.",
+            "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+          }
+        ]
+      },
+      {
+        "id": "expanded-taxpayer-assistance",
+        "as_of": "2026-08-10",
+        "summary": "Says she will continue to work for expanded taxpayer assistance and for public information on issues of concern to property owners.",
+        "title": "Expanded taxpayer assistance",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Over the next four years, I will continue to work for accurate and equitable property tax assessments, expanded taxpayer assistance, and policies that support housing affordability, rapid disaster recovery, and economic stability for working families.",
+            "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+          },
+          {
+            "source": "src:sallylieber-org-d001649541",
+            "quote": "public information regarding issues of concern for property owners throughout the state."
+          }
+        ]
+      },
+      {
+        "id": "housing-affordability-and-disaster-recovery-policies",
+        "as_of": "2026-08-10",
+        "summary": "Says she will continue to work for policies that support housing affordability and rapid disaster recovery, and lists the handling of tax credits for affordable housing, veterans' properties and disaster relief as a Board priority.",
+        "title": "Policies supporting housing affordability and disaster recovery, including tax credits",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Over the next four years, I will continue to work for accurate and equitable property tax assessments, expanded taxpayer assistance, and policies that support housing affordability, rapid disaster recovery, and economic stability for working families.",
+            "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+          },
+          {
+            "source": "src:sallylieber-org-d001649541",
+            "quote": "effective handling of tax credits for affordable housing, Veterans' properties, and disaster relief"
+          }
+        ]
+      }
+    ]
   }
 }
