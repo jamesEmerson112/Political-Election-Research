@@ -120,6 +120,21 @@
           "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org): HTTP 403 bot check, unreadable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-89815455e3",
+          "quote": "I’m a third-generation San Franciscan, born and raised in Bayview–Hunters Point.",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "A third-generation San Francisco native raising 3 boys with my wife",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+        }
+      ]
     }
   },
   "ids": [],
