@@ -188,6 +188,19 @@
           "locator": "Member page header for Assembly District 17"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:dgs-ca-gov-64f362d4fb",
+          "quote": "He lives in San Francisco with his two orange tabby cats and is one of only three renters in the State Legislature."
+        },
+        {
+          "source": "src:matthaney-com-ae3e71e589",
+          "quote": "Haney lives in San Francisco’s Tenderloin neighborhood."
+        }
+      ]
     }
   },
   "ids": [
