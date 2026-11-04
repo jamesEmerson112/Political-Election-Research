@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.fiona-ma-for-lieutenant-governor-2026--person.fiona-ma--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/lieutenant-governor",
+  "subject": "person:fiona-ma",
+  "committee": "org:fiona-ma-for-lieutenant-governor-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-27b2b857c5",
+      "locator": "Form 460 cover page (filing 3215121, amendment 1): committee, candidate and office: Fiona Ma, LTG"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
