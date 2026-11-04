@@ -3,6 +3,21 @@
   "actor": "person:theo-ellington",
   "positions": [
     {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, called Mayor Lurie's Family Zoning plan directionally right but only a first step, and said the city needs to build more housing at every level.",
+      "citations": [
+        {
+          "source": "src:growsf-org-89815455e3",
+          "quote": "Mayor Lurie’s Family Zoning plan is directionally right, but is just the first step in addressing the scale of the housing crisis we’re facing. San Francisco needs to build more housing at every level",
+          "locator": "Housing: Do you think Mayor Lurie's Family zoning plan is too ambitious or not ambitious enough?"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/expand-rent-control",
       "stance": "no_public_position",
       "as_of": "2026-11-03",
