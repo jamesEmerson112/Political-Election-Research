@@ -44,6 +44,24 @@
         }
       ]
     },
+    "occupation": {
+      "value": "State Senator/Businesswoman (ballot designation); State Senator (District 12) and CEO of Continental Labor and Staffing Resources",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Shannon Grove Republican State Senator/Businesswoman",
+          "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 1"
+        },
+        {
+          "source": "src:sr12-senate-ca-gov-9c2d1eb9e8",
+          "quote": "In November 2022, Shannon Grove was elected to the newly-drawn 12th State Senate district which includes Fresno, Tulare, and Kern counties."
+        },
+        {
+          "source": "src:sr12-senate-ca-gov-9c2d1eb9e8",
+          "quote": "Senator Grove currently serves as the CEO of this business that connects new employees to jobs in the area."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
