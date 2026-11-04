@@ -4,6 +4,32 @@
   "name": "Janine Hansen",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "janinehansen.com/resume (campaign biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "janinehansen.com (campaign home page)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "KTVN 2 News candidate questionnaire, Sept. 21, 2022"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Janine Hansen Independent American Party lieutenant governor 2026 Nevada",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Independent American Party",
       "citations": [
