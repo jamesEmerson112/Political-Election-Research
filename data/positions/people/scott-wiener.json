@@ -63,6 +63,26 @@
       ]
     },
     {
+      "subject": "q:civil-rights/voting-rights-preclearance",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "His campaign issues page says he will fight to pass the John Lewis Voting Rights Act and restore the protections the Supreme Court removed.",
+      "citations": [
+        {
+          "source": "src:scottwiener-com-b7fd3ccfe6",
+          "quote": "He will fight to pass the John Lewis Voting Rights Act and restore the protections the Supreme Court stripped away.",
+          "locator": "third paragraph"
+        },
+        {
+          "source": "src:scottwiener-com-b7fd3ccfe6",
+          "quote": "Pass the John Lewis Voting Rights Act, restoring the protections that Republican-controlled courts and legislatures have spent years dismantling.",
+          "locator": "\"In Congress, Scott will work to\" list"
+        }
+      ]
+    },
+    {
       "subject": "q:healthcare/single-payer",
       "stance": "support",
       "as_of": "2026-11-02",
