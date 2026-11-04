@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "jreppler-com-f27f327f06",
+  "kind": "candidate_website",
+  "accessed": "2026-11-04",
+  "publisher": "J.R. Eppler for Supervisor 2026",
+  "title": "About | JR Eppler for Supervisor",
+  "url": "https://www.jreppler.com/about"
+}

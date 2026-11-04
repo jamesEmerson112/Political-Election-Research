@@ -112,6 +112,16 @@
           "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org): HTTP 403 bot check, unreadable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Potrero Hill)",
+      "citations": [
+        {
+          "source": "src:jreppler-com-f27f327f06",
+          "quote": "Since 2010, he has lived in Potrero Hill with his wife, a public librarian, and his son, a San Francisco public school student.",
+          "locator": "About J.R."
+        }
+      ]
     }
   },
   "ids": [],
