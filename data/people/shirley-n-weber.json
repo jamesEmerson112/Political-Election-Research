@@ -178,6 +178,22 @@
           "locator": "page 2, Secretary of State"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "residence / lives in",
+          "where": "Secretary of State official biography (sos.ca.gov/administration/about); campaign site drshirleyweber.com home and About pages; 2026 Official Voter Information Guide candidate statement (gives a Sacramento campaign mailing address, not a stated residence)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Shirley Weber\" secretary of state lives in San Diego resident home",
+          "where": "Web search: results describe ties to San Diego and the 79th Assembly District but no source states her current city of residence"
+        }
+      ]
     }
   },
   "ids": [
@@ -191,5 +207,5 @@
     "official_site": "https://www.sos.ca.gov/administration/about"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
