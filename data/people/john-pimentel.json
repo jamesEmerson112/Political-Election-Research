@@ -40,6 +40,42 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birthplace / grew up",
+          "where": "https://www.johnpimentel.com/ and https://johnpimentel.com/about-john/ (campaign site)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birthplace / grew up",
+          "where": "https://www.smccd.edu/boardoftrustees/documents/Pimentel%20Bio.pdf (official district bio)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birthplace / grew up",
+          "where": "Official Voter Information Guide, 2026 general, candidate statement p.92"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birthplace / grew up",
+          "where": "https://growsf.org/voter-guide/questionnaires/november-2026/john-pimentel/ (questionnaire)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "John Pimentel Board of Equalization candidate age born Stockton",
+          "where": "web search (news)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "John Pimentel San Mateo County Community College District Board of Trustees biography",
+          "where": "web search (news)"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [
