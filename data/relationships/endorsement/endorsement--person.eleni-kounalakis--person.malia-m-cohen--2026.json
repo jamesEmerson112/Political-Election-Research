@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.eleni-kounalakis--person.malia-m-cohen--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:malia-m-cohen",
+  "endorser": "person:eleni-kounalakis",
+  "citations": [
+    {
+      "source": "src:maliacohenforca-com-75c5b8254b",
+      "quote": "Lt Governor Eleni Kounalakis",
+      "locator": "Endorsements page, Elected Leaders & Individuals"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
