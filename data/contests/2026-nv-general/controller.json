@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/controller",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Controller",
+  "office": "State Controller",
+  "candidates": [
+    {
+      "person": "person:michael-macdougall",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "MacDougall Michael DEM",
+          "locator": "PDF page 2 (Page 2 of 10), State Controller rows (last name, first name, party; the column layout prints this name beside 'State Controller')"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:controller-nv-gov-a5a81f8ccc",
+          "quote": "Andy Matthews took office as Nevada's 23rd state Controller on Jan. 2, 2023.",
+          "locator": "Controller's Office home page: the sitting Controller is Andy Matthews, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:andy-matthews",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Matthews Andy REP",
+          "locator": "PDF page 2 (Page 2 of 10), State Controller rows (last name, first name, party; the column layout prints this name beside 'State Controller')"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:controller-nv-gov-a5a81f8ccc",
+          "quote": "Andy Matthews took office as Nevada's 23rd state Controller on Jan. 2, 2023.",
+          "locator": "Controller's Office home page, State Controller section"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-04"
+}

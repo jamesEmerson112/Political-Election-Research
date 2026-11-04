@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "controller-nv-gov-a5a81f8ccc",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Nevada State Controller's Office",
+  "title": "Welcome to the Nevada State Controller's Office",
+  "url": "https://controller.nv.gov/"
+}
