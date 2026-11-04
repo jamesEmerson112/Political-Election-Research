@@ -43,6 +43,40 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Office of U.S. Senator Harry Reid",
+          "role": "Staff member focusing on housing and mortgage issues",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-73eaa76913",
+              "quote": "Jauregui, a 41-year old California native, got her start in politics working for former Senate Majority Leader Harry Reid (D-NV), focusing on housing and mortgage issues."
+            }
+          ]
+        },
+        {
+          "organization": "Financial Guidance Center",
+          "role": "Staff member",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-73eaa76913",
+              "quote": "Later on, Jauregui took jobs in the nonprofit sector, working with the Financial Guidance Center and as a program director for a housing relief program."
+            }
+          ]
+        },
+        {
+          "role": "Program director, housing relief program",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-73eaa76913",
+              "quote": "Later on, Jauregui took jobs in the nonprofit sector, working with the Financial Guidance Center and as a program director for a housing relief program."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
