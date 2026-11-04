@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.christine-gardner--org.pimentel-for-board-of-equalization-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:christine-gardner",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-07-29"
+    }
+  },
+  "recipient": "org:pimentel-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-931341ba19",
+      "locator": "Form 460 Schedule A: line 6 (2026-07-29, $9,800.00); line 7 (2026-07-29, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

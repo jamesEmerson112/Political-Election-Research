@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "mindshare-benefits-and-insurance-services-inc",
+  "name": "Mindshare Benefits and Insurance Services, Inc.",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}
