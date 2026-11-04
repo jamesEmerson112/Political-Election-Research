@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "grove-for-board-of-equalization-2026",
+  "name": "Grove For Board Of Equalization 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1452149",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}
