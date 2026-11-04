@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "fppc-ca-gov-3dd4ca61c8",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Fair Political Practices Commission",
+  "title": "Stipulation, Decision and Order, FPPC Case No. 2024-00544 (Mike Gipson)",
+  "url": "https://fppc.ca.gov/content/dam/fppc/documents/Stipulations/2024/august/Mike-Gipson-Stip.pdf"
+}

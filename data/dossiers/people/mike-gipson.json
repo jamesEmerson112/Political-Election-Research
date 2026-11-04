@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:mike-gipson",
+  "controversies": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "fppc-stipulation-late-behested-payment-reports-2024",
+        "date": "2024-08",
+        "resolution": {
+          "summary": "The stipulation sets a total penalty of $1,800 and states that the respondent has paid it.",
+          "citations": [
+            {
+              "source": "src:fppc-ca-gov-3dd4ca61c8",
+              "quote": "I have paid the amount of the penalty described above.",
+              "locator": "p. 1"
+            }
+          ]
+        },
+        "response": {
+          "summary": "In the signed stipulation form, the respondent statement acknowledges the violations and states that the outstanding reports have been filed and the penalty paid.",
+          "citations": [
+            {
+              "source": "src:fppc-ca-gov-3dd4ca61c8",
+              "quote": "I acknowledge that the violation(s) of the Political Reform Act described above have occurred",
+              "locator": "p. 1, Statement by Respondent(s)"
+            }
+          ]
+        },
+        "summary": "In a streamline Stipulation, Decision and Order (FPPC Case No. 2024-00544), the Fair Political Practices Commission's Enforcement Division and Gipson stipulated that nine behested payment reports (Form 803) for 2023 payments to The Council of State Governments West were filed late, with a total penalty of $1,800.",
+        "title": "FPPC stipulation for late behested payment reports",
+        "citations": [
+          {
+            "source": "src:fppc-ca-gov-3dd4ca61c8",
+            "quote": "FPPC CASE NUMBER: 2024-00544\nRESPONDENT(S): Mike Gipson",
+            "locator": "p. 1"
+          },
+          {
+            "source": "src:fppc-ca-gov-3dd4ca61c8",
+            "quote": "Behested Payment Report Late Filer – Tier One",
+            "locator": "p. 3"
+          },
+          {
+            "source": "src:fppc-ca-gov-3dd4ca61c8",
+            "quote": "TOTAL PENALTY: $1,800",
+            "locator": "p. 3"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Mike Gipson FPPC fine OR controversy OR investigation",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Gipson warning letter OR stipulation enforcement",
+        "where": "web search restricted to fppc.ca.gov"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Date range applied to every candidate in this contest: 2020-01-01 to 2026-11-04; documented matters need two independent publishers or one official record",
+        "where": "note"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Mike Gipson exaggerated police record reserve officer",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "A March 2025 CalMatters report on his police service (calmatters.org) and a GV Wire republication returned HTTP 403, and the LA Sentinel response page returned 403; a second independent publisher or official record could not be opened, so it is not recorded",
+        "where": "note"
+      }
+    ]
+  }
+}
