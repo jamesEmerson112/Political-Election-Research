@@ -102,6 +102,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Children’s Nonprofit Director",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Children’s Nonprofit Director.",
+          "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [
