@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "sally-lieber-for-board-of-equalization-2026",
+  "name": "Sally Lieber for Board of Equalization 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1478243",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}
