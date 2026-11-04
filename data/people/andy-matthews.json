@@ -29,6 +29,20 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "institution": "Boston University",
+          "citations": [
+            {
+              "source": "src:controller-nv-gov-a5a81f8ccc",
+              "quote": "A native of Massachusetts and a graduate of Boston University, Andy has lived in Nevada since 2006."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Nevada State Controller",
       "citations": [
