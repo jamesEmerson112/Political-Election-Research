@@ -69,6 +69,28 @@
           "where": "Web search"
         }
       ]
+    },
+    {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "mixed",
+      "as_of": "2026-08-13",
+      "cycle": 2026,
+      "evidence_type": "debate",
+      "summary": "Asked about Flock at the Aug. 12, 2026 forum, said police should have the tools they need to fight crime while civil liberties are protected, and that he does not want technology that can be used by ICE or that records what people say.",
+      "citations": [
+        {
+          "source": "src:ebar-com-ab817bf72d",
+          "quote": "In response to Hoge’s inquiry about Flock, candidate Emanuel “Manny” Yekutiel, a gay man, said"
+        },
+        {
+          "source": "src:ebar-com-ab817bf72d",
+          "quote": "I think in San Francisco in 2026, we can find our way to give our police department the tools they need to fight crime while also protecting our civil liberties."
+        },
+        {
+          "source": "src:ebar-com-ab817bf72d",
+          "quote": "I don’t think we should have technology that can be used by [Immigration and Customs Enforcement] to disappear our brothers and sisters, and neighbors in the city"
+        }
+      ]
     }
   ]
 }
