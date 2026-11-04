@@ -40,6 +40,32 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Family cattle ranch, Hiko",
+          "role": "Rancher",
+          "citations": [
+            {
+              "source": "src:codyk4congress-com-644bbd55ee",
+              "quote": "Whether it’s growing a business, managing a family cattle ranch, or coaching the next generation of young athletes,",
+              "locator": "About Cody"
+            }
+          ]
+        },
+        {
+          "role": "Small business founder",
+          "citations": [
+            {
+              "source": "src:codyk4congress-com-644bbd55ee",
+              "quote": "For the past 25 years, Cody has built a successful small business from the ground up, creating Nevada’s first of its kind digital two-way communication network.",
+              "locator": "About Cody"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
