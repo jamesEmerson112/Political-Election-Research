@@ -113,6 +113,16 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-ff90a06896",
+          "quote": "I’ve been in San Francisco for over 20 years.",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        }
+      ]
     }
   },
   "ids": [],
