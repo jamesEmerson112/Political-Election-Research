@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-state-council-of-service-employees-small-contributor-committee--org.rob-bonta-for-ca-attorney-general-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-state-council-of-service-employees-small-contributor-committee",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 3920000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-05-12"
+    }
+  },
+  "recipient": "org:rob-bonta-for-ca-attorney-general-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-1eafbda4e6",
+      "locator": "Form 460 Schedule A: line 295 (2025-05-12, $19,600.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-3947268aef",
+      "locator": "Form 460 Schedule A: line 221 (2025-12-26, $19,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "service-employees-international-union-local-1000-candidate-pac-small-contributor",
+  "name": "Service Employees International Union Local 1000 Candidate PAC Small Contributor Committee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

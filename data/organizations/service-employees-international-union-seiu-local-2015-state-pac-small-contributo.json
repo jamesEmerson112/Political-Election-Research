@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "service-employees-international-union-seiu-local-2015-state-pac-small-contributo",
+  "name": "Service Employees International Union SEIU Local 2015 State PAC Small Contributor Committee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

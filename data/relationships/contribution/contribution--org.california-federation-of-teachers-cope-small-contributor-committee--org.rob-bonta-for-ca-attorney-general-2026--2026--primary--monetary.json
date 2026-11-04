@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-federation-of-teachers-cope-small-contributor-committee--org.rob-bonta-for-ca-attorney-general-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-federation-of-teachers-cope-small-contributor-committee",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 3920000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-06-30"
+    }
+  },
+  "recipient": "org:rob-bonta-for-ca-attorney-general-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-4cfbc4e1e7",
+      "locator": "Form 460 Schedule A: line 37 (2023-06-30, $10,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-1eafbda4e6",
+      "locator": "Form 460 Schedule A: line 287 (2025-02-18, $2,500.00); line 288 (2025-04-14, $7,100.00); line 289 (2025-04-14, $19,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
