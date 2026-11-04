@@ -4,6 +4,16 @@
   "name": "Cody K. Whipple",
   "aliases": [],
   "candidate_profile": {
+    "birthplace": {
+      "value": "Hiko, Nevada",
+      "citations": [
+        {
+          "source": "src:codyk4congress-com-644bbd55ee",
+          "quote": "Born and raised in Hiko, Nevada, Cody grew up working on his family’s ranch,",
+          "locator": "About Cody"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
