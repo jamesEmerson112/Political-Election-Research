@@ -34,6 +34,41 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Bachelor's degree in Political Science",
+          "institution": "University of Nevada, Reno",
+          "citations": [
+            {
+              "source": "src:nevadatreasurer-nv-gov-026059c0d2",
+              "quote": "She received her bachelor’s degree in Political Science from the University of Nevada, Reno and she received both her Master of Public Administration and her Doctor of Public Policy degree from UNLV."
+            }
+          ]
+        },
+        {
+          "degree": "Master of Public Administration",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:nevadatreasurer-nv-gov-026059c0d2",
+              "quote": "She received her bachelor’s degree in Political Science from the University of Nevada, Reno and she received both her Master of Public Administration and her Doctor of Public Policy degree from UNLV."
+            }
+          ]
+        },
+        {
+          "degree": "Doctor of Public Policy",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:nevadatreasurer-nv-gov-026059c0d2",
+              "quote": "She received her bachelor’s degree in Political Science from the University of Nevada, Reno and she received both her Master of Public Administration and her Doctor of Public Policy degree from UNLV."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Deputy Treasurer of College Savings, Nevada State Treasurer's Office",
       "citations": [
