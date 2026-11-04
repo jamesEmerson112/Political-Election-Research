@@ -29,6 +29,35 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Clark County District Attorney's Office",
+          "role": "Prosecutor; later Chief Deputy District Attorney in the Gang Unit",
+          "start": "2011",
+          "citations": [
+            {
+              "source": "src:nicolecannizzaro-com-ac8a067d6d",
+              "quote": "Nicole joined the Clark County District Attorney’s Office in 2011, and she was never afraid to take on the toughest cases."
+            },
+            {
+              "source": "src:nicolecannizzaro-com-ac8a067d6d",
+              "quote": "She was eventually appointed as the Chief Deputy District Attorney in the Gang Unit."
+            }
+          ]
+        },
+        {
+          "role": "Attorney in private practice",
+          "citations": [
+            {
+              "source": "src:nicolecannizzaro-com-ac8a067d6d",
+              "quote": "Nicole has worked in both private practice and as a prosecutor."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
