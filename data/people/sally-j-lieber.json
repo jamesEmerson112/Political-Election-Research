@@ -18,6 +18,97 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, California State Board of Equalization (District 2); Chair in 2024 and 2026, Vice Chair in 2025",
+          "current": true,
+          "first_elected": "2022",
+          "jurisdiction": "California",
+          "office_ref": "office:california-board-of-equalization-member",
+          "citations": [
+            {
+              "source": "src:boe-ca-gov-aeb89a3bc1",
+              "quote": "Sally J. Lieber was elected to represent the California State Board of Equalization's Second District in 2022."
+            },
+            {
+              "source": "src:boe-ca-gov-aeb89a3bc1",
+              "quote": "Lieber served as Chair of the Board of Equalization in 2024, Vice Chair in 2025, and is serving as Chair of the Board in 2026."
+            }
+          ]
+        },
+        {
+          "office": "Member, California Franchise Tax Board",
+          "current": false,
+          "jurisdiction": "California",
+          "citations": [
+            {
+              "source": "src:sallylieber-org-d001649541",
+              "quote": "Sally Lieber has served as a City Councilmember, Mayor, County Commissioner, State Assemblymember, Member of the California Franchise Tax Board, and is now Chair of"
+            }
+          ]
+        },
+        {
+          "office": "California State Assembly Member; Speaker pro Tempore",
+          "current": false,
+          "first_elected": "2002",
+          "jurisdiction": "California",
+          "office_ref": "office:california-assembly-member",
+          "citations": [
+            {
+              "source": "src:boe-ca-gov-aeb89a3bc1",
+              "quote": "In 2002, Lieber was elected to the California State Assembly. In the State Assembly, Lieber became only the third woman to hold the office of Speaker Pro Tempore."
+            }
+          ]
+        },
+        {
+          "office": "Member, Mountain View City Council; Vice Mayor and Mayor",
+          "current": false,
+          "first_elected": "1998",
+          "jurisdiction": "City of Mountain View",
+          "citations": [
+            {
+              "source": "src:boe-ca-gov-aeb89a3bc1",
+              "quote": "She was elected to the Mountain View City Council in 1998, where she served as Vice Mayor and Mayor."
+            }
+          ]
+        },
+        {
+          "office": "Member, Valley Transportation Authority Board of Directors",
+          "current": false,
+          "jurisdiction": "Santa Clara Valley Transportation Authority",
+          "citations": [
+            {
+              "source": "src:boe-ca-gov-aeb89a3bc1",
+              "quote": "She also served on the Valley Transportation Authority's Board of Directors, chaired the Santa Clara Valley Water District's Water Commission, and served on the Santa Clara County Social Services Advisory Commission."
+            }
+          ]
+        },
+        {
+          "office": "Chair, Santa Clara Valley Water District Water Commission",
+          "current": false,
+          "jurisdiction": "Santa Clara Valley Water District",
+          "citations": [
+            {
+              "source": "src:boe-ca-gov-aeb89a3bc1",
+              "quote": "She also served on the Valley Transportation Authority's Board of Directors, chaired the Santa Clara Valley Water District's Water Commission, and served on the Santa Clara County Social Services Advisory Commission."
+            }
+          ]
+        },
+        {
+          "office": "Member, Santa Clara County Social Services Advisory Commission",
+          "current": false,
+          "jurisdiction": "Santa Clara County",
+          "citations": [
+            {
+              "source": "src:boe-ca-gov-aeb89a3bc1",
+              "quote": "She also served on the Valley Transportation Authority's Board of Directors, chaired the Santa Clara Valley Water District's Water Commission, and served on the Santa Clara County Social Services Advisory Commission."
+            }
+          ]
+        }
+      ]
+    },
     "residence_city": {
       "value": "Mountain View",
       "citations": [
