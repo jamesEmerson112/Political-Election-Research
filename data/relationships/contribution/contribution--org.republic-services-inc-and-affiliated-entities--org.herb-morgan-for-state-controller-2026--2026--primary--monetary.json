@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.republic-services-inc-and-affiliated-entities--org.herb-morgan-for-state-controller-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:republic-services-inc-and-affiliated-entities",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 150000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-06-02"
+    }
+  },
+  "recipient": "org:herb-morgan-for-state-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-8ff8feddbc",
+      "locator": "Form 460 Schedule A: line 54 (2026-06-02, $1,500.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

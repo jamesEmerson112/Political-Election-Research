@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.jeff-lepore--org.herb-morgan-for-state-controller-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:jeff-lepore",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1000000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-06-13"
+    }
+  },
+  "recipient": "org:herb-morgan-for-state-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-90d2f8db26",
+      "locator": "Form 460 Schedule A: line 43 (2025-06-13, $1,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-5a521a1861",
+      "locator": "Form 460 Schedule A: line 75 (2026-01-16, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-8ff8feddbc",
+      "locator": "Form 460 Schedule A: line 36 (2026-05-22, $4,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

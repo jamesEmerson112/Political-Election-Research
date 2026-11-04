@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "us-claims-services-inc-dba-payne-richards-and-associates",
+  "name": "US Claims Services Inc. dba Payne Richards & Associates",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

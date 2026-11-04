@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.los-angeles-county-lincoln-clubs-pac-state--org.herb-morgan-for-state-controller-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:los-angeles-county-lincoln-clubs-pac-state",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 727500,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-01"
+    }
+  },
+  "recipient": "org:herb-morgan-for-state-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-33ed29d06c",
+      "locator": "Form 460 Schedule A: line 181 (2026-09-01, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-c4dfdf6ceb",
+      "locator": "Form 460 Schedule A: line 106 (2026-10-17, $2,275.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

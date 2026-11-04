@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.kevin-smith--org.herb-morgan-for-state-controller-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:kevin-smith",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1337305,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-08-20"
+    }
+  },
+  "recipient": "org:herb-morgan-for-state-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-54171ec142",
+      "locator": "Form 460 Schedule A: line 103 (2025-08-20, $3,123.05); line 104 (2025-09-30, $250.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-5a521a1861",
+      "locator": "Form 460 Schedule A: line 128 (2026-04-06, $5,000.00); line 129 (2026-04-12, $-4,707.64); line 130 (2026-04-12, $5,000.00); line 131 (2026-04-12, $4,707.64)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

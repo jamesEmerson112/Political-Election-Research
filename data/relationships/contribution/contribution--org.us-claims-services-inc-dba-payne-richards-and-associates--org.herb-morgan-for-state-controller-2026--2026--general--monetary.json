@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.us-claims-services-inc-dba-payne-richards-and-associates--org.herb-morgan-for-state-controller-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:us-claims-services-inc-dba-payne-richards-and-associates",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 980000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-07-06"
+    }
+  },
+  "recipient": "org:herb-morgan-for-state-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-33ed29d06c",
+      "locator": "Form 460 Schedule A: line 299 (2026-07-06, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

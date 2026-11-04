@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--person.richard-meyer--org.herb-morgan-for-state-controller-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "person:richard-meyer",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1020508,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-05-06"
+    }
+  },
+  "recipient": "org:herb-morgan-for-state-controller-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-90d2f8db26",
+      "locator": "Form 460 Schedule A: line 49 (2025-05-06, $5,205.08)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-5a521a1861",
+      "locator": "Form 460 Schedule A: line 90 (2026-03-30, $5,000.00); line 91 (2026-03-30, $405.08); line 92 (2026-03-30, $-405.08)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
