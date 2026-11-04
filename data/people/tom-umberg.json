@@ -88,6 +88,44 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "U.S. Army",
+          "role": "U.S. Army officer (retired Colonel)",
+          "citations": [
+            {
+              "source": "src:sd34-senate-ca-gov-09c115cd47",
+              "quote": "He is a retired U.S. Army Colonel"
+            }
+          ]
+        },
+        {
+          "role": "Federal and military prosecutor",
+          "citations": [
+            {
+              "source": "src:sd34-senate-ca-gov-09c115cd47",
+              "quote": "As a federal and military prosecutor, Senator Umberg prosecuted numerous white collar, civil rights, murder, and sexual assault crimes."
+            }
+          ]
+        },
+        {
+          "organization": "Umberg/Zipser LLP",
+          "role": "Founding partner",
+          "citations": [
+            {
+              "source": "src:courts-ca-gov-aeaa86fc24",
+              "quote": "founding partner of Umberg/Zipser LLP"
+            },
+            {
+              "source": "src:sd34-senate-ca-gov-09c115cd47",
+              "quote": "Senator Umberg founded and built a successful veteran-owned small business in Orange County"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
