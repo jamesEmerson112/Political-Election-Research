@@ -58,6 +58,37 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Young Community Developers",
+          "role": "Chief executive officer / executive director",
+          "citations": [
+            {
+              "source": "src:kqed-org-44d1250e32",
+              "quote": "Former CEO of Young Community Developers",
+              "locator": "Candidates list"
+            },
+            {
+              "source": "src:dj4d10-com-b2284c2dce",
+              "quote": "As the Executive Director at Young Community Developers and the Southeast Community Facility",
+              "locator": "home page"
+            }
+          ]
+        },
+        {
+          "role": "Workforce and resource connector (16 years connecting residents to jobs, training and resources)",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I have spent 16 years connecting residents to jobs, workforce training, and resources",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 47 (PDF p. 49)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
