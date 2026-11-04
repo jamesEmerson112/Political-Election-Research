@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "asian-americans-for-representation",
+  "name": "Asian Americans for Representation",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1469330",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-04"
+}

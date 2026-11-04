@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.asian-americans-for-representation--person.fiona-ma--support--2026--primary",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "primary",
+  "money": {
+    "amount_cents": 3879468,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:asian-americans-for-representation",
+  "target": "person:fiona-ma",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-ea8ba78245",
+      "locator": "Form 496: line 1 (2026-03-27, $7,847.80, LIT/POS $10,464.05); line 2 (2026-03-27, $2,616.25, LIT $10,464.05)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-9c19ae683d",
+      "locator": "Form 496: line 1 (2026-05-19, $9,400.00, Digital Ad Production $30,794.68); line 2 (2026-05-19, $330.63, CNS $30,794.68); line 3 (2026-05-19, $10,000.00, Digital Advertising $30,794.68); line 4 (2026-05-19, $600.00, Voter Data $30,794.68)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-9176d22e8a",
+      "locator": "Form 496: line 1 (2026-05-25, $4,750.00, Digital Advertising $35,544.68)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-28fa23a7e3",
+      "locator": "Form 496: line 1 (2026-05-27, $3,250.00, Digital Advertising $38,794.68)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
