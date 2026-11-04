@@ -152,6 +152,26 @@
           "locator": "Theo Ellington section"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In GrowSF's questionnaire, said Muni's crisis should not be solved by taxes alone and that SFMTA must show efficiency first, while saying sustainable funding needs a revenue component such as congestion pricing, impact fees and state and federal funds.",
+      "citations": [
+        {
+          "source": "src:growsf-org-89815455e3",
+          "quote": "No. Solving the MUNI funding crisis by taxes alone would be both politically unsustainable and fiscally irresponsible given the city's existing deficit.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        },
+        {
+          "source": "src:growsf-org-89815455e3",
+          "quote": "That said, sustainable transit funding does require a revenue component: we should seriously evaluate congestion pricing, development impact fees tied to transit improvements, and federal and state funding opportunities.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        }
+      ]
     }
   ]
 }
