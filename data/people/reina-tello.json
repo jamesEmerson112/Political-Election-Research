@@ -5,10 +5,21 @@
   "aliases": [
     "Reina Loli-Tello"
   ],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "San Francisco (Mission District)",
+      "citations": [
+        {
+          "source": "src:reinaforschoolboard-org-93534ebeea",
+          "quote": "Reina Tello was born in San Francisco's Mission District"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.reinaforschoolboard.org/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
