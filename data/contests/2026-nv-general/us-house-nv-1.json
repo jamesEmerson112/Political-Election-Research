@@ -1,0 +1,105 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/us-house-nv-1",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Representative in Congress District 1",
+  "office": "Representative in Congress",
+  "candidates": [
+    {
+      "person": "person:carrie-ann-buck",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Buck Carrie Ann REP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 1"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-0d4ae672de",
+          "quote": "Nevada (NV) – 1st, Democrat",
+          "locator": "Member profile header (Dina Titus): the current holder of Nevada's 1st district seat is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:afzal-bobby-khan",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "No Political Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Khan Afzal \"Bobby\" NPP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 1"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-0d4ae672de",
+          "quote": "Nevada (NV) – 1st, Democrat",
+          "locator": "Member profile header (Dina Titus): the current holder of Nevada's 1st district seat is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:steven-chap-st-john",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "No Political Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "St John Steven \"Chap\" NPP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 1"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-0d4ae672de",
+          "quote": "Nevada (NV) – 1st, Democrat",
+          "locator": "Member profile header (Dina Titus): the current holder of Nevada's 1st district seat is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:dina-titus",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Titus Dina DEM",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 1"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-0d4ae672de",
+          "quote": "Nevada (NV) – 1st, Democrat",
+          "locator": "Member profile header (Dina Titus): she holds Nevada's 1st district seat"
+        }
+      ]
+    }
+  ],
+  "district": 1,
+  "level": "federal",
+  "last_verified": "2026-11-04"
+}

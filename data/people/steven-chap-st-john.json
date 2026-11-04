@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "steven-chap-st-john",
+  "name": "Steven \"Chap\" St John",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}

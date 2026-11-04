@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "carrie-ann-buck",
+  "name": "Carrie Ann Buck",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H6NV01331",
+      "system": "fec_candidate"
+    }
+  ],
+  "links": {
+    "campaign_site": "https://carriebuckforcongress.com/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}

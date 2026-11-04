@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "afzal-bobby-khan",
+  "name": "Afzal \"Bobby\" Khan",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H6NV01315",
+      "system": "fec_candidate"
+    }
+  ],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}

@@ -2,7 +2,24 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/us-house-nv-1",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:carrie-ann-buck",
+      "name": "Carrie Ann Buck"
+    },
+    {
+      "person": "person:afzal-bobby-khan",
+      "name": "Afzal \"Bobby\" Khan"
+    },
+    {
+      "person": "person:steven-chap-st-john",
+      "name": "Steven \"Chap\" St John"
+    },
+    {
+      "person": "person:dina-titus",
+      "name": "Dina Titus"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
