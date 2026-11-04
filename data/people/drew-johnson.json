@@ -55,6 +55,22 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "elected or appointed public office",
+          "where": "KOLO, May 22, 2025 announcement article (career as policy analyst; 2024 congressional run, not won)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Drew Johnson Nevada state treasurer 2026 Republican candidate biography",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
