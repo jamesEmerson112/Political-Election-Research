@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cft-org-a50c9ed002",
+  "kind": "voter_guide",
+  "accessed": "2026-11-04",
+  "published": "2026-10-12",
+  "publisher": "California Federation of Teachers COPE",
+  "title": "CFT Endorsements, General Election 2026",
+  "url": "https://www.cft.org/sites/main/files/file-attachments/cft_endorsements-general-election_9.29.2026.pdf"
+}

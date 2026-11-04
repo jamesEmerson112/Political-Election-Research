@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.culver-city-democratic-club--person.samuel-p-sukaton--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:samuel-p-sukaton",
+  "endorser": "org:culver-city-democratic-club",
+  "citations": [
+    {
+      "source": "src:culvercitycrossroads-com-fcce85b4b5",
+      "quote": "Board of Equalization District 3: Sam Sukaton\nResults after 1st ballot: Sam Sukaton: 72%"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

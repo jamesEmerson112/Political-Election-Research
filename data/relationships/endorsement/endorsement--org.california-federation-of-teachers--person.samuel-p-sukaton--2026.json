@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-federation-of-teachers--person.samuel-p-sukaton--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-10-12",
+  "endorsee": "person:samuel-p-sukaton",
+  "endorser": "org:california-federation-of-teachers",
+  "citations": [
+    {
+      "source": "src:cft-org-a50c9ed002",
+      "quote": "Board of Equalization – District 3+\nMike Gipson |\nSam Sukaton",
+      "locator": "page 1, Statewide Offices; '+' marks a dual endorsement"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
