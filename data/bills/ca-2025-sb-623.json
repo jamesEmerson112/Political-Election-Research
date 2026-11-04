@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-sb-623",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-06-25",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-9d718161e0",
+        "quote": "SB 623 by Senator Tom Umberg (D-Santa Ana) — Automobile accidents: civil actions: transportation network companies."
+      },
+      {
+        "source": "src:gov-ca-gov-9d718161e0",
+        "quote": "The Governor also announced that he has signed the following bill:"
+      }
+    ]
+  },
+  "title": {
+    "value": "Automobile accidents: civil actions: transportation network companies",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-9d718161e0",
+        "quote": "SB 623 by Senator Tom Umberg (D-Santa Ana) — Automobile accidents: civil actions: transportation network companies."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

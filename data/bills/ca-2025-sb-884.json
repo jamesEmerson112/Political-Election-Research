@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-sb-884",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-19",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-f9dae089fc",
+        "quote": "SB 884 (Umberg) – Extends the time vote by mail drop off locations are open and modifies the type and range of prohibited activities near a polling location for elections held or proclaimed in 2026, 2027, 2028, and 2029."
+      },
+      {
+        "source": "src:gov-ca-gov-f9dae089fc",
+        "quote": "Governor Gavin Newsom today signed a package of bills to protect elections in California from interference and political meddling"
+      }
+    ]
+  },
+  "title": {
+    "value": "Protect Our Polls Act",
+    "citations": [
+      {
+        "source": "src:sd34-senate-ca-gov-19da6cf1d0",
+        "quote": "announced that Governor Gavin Newsom signed Senate Bill 884, the Protect Our Polls Act."
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}

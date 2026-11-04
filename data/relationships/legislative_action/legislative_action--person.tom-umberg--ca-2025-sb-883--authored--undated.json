@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.tom-umberg--ca-2025-sb-883--authored--undated",
+  "type": "legislative_action",
+  "person": "person:tom-umberg",
+  "action": "authored",
+  "bill": "ca-2025-sb-883",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:gov-ca-gov-339445da1c",
+      "quote": "SB 883 by Senator Thomas Umberg (D-Santa Ana) — Hazardous materials: reactive chemicals: methyl methacrylate: facilities."
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
