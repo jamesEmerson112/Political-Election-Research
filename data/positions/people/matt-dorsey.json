@@ -3,6 +3,26 @@
   "actor": "person:matt-dorsey",
   "positions": [
     {
+      "subject": "q:government/expand-mayoral-authority",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Names diffused accountability in city departments as a problem to address, saying the Mayor has too often been stymied from leading by commissions and department heads.",
+      "citations": [
+        {
+          "source": "src:growsf-org-aecb4e3daa",
+          "quote": "I also think diffused accountability in city departments is a problem that needs addressing.",
+          "locator": "Your Policy Goals: Give three examples of legislation that should be repealed"
+        },
+        {
+          "source": "src:growsf-org-aecb4e3daa",
+          "quote": "What I mean is that the Mayor, historically and generally, has too often been stymied from leading by commissions and even department heads, preventing city government from delivering the results San Franciscans have every right to expect.",
+          "locator": "Your Policy Goals, same question"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/citywide-rezoning",
       "stance": "support",
       "as_of": "2026-11-04",
