@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "independent_expenditure--org.horowitz-david-l--person.jennifer-hawks--support--2026--primary",
+  "type": "independent_expenditure",
+  "cycle": 2026,
+  "election_designation": "primary",
+  "money": {
+    "amount_cents": 1000000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-01-01"
+    }
+  },
+  "side": "support",
+  "spender": "org:horowitz-david-l",
+  "target": "person:jennifer-hawks",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-59728d6d82",
+      "locator": "Form 496: line 1 (2026-04-28, $10,000.00, ADVERTISING SLATE MAILER 'SAVE PROPOSITION 13'  FPPC#598040)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
