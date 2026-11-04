@@ -169,6 +169,26 @@
       ]
     },
     {
+      "subject": "q:transportation/bike-lanes-over-parking",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Answers yes to building a citywide protected bike lane network but says corridors should be designed for bikes, buses and cars so they complement each other; his campaign site lists making parking work better on commercial corridors. He has not said whether lanes should be built where they remove parking.",
+      "citations": [
+        {
+          "source": "src:growsf-org-3968fdda8c",
+          "quote": "Yes. But at the same time, we need to design safe and reliable corridors for every mode of transit (bikes, buses, and cars) so they complement rather than compete with each other.",
+          "locator": "Transit Infrastructure: Should it be the policy of San Francisco to build a citywide protected bike lane network?"
+        },
+        {
+          "source": "src:votestephensherrill-com-d91327df97",
+          "quote": "Push to make parking work better for businesses and customers across our commercial corridors",
+          "locator": "Thriving Small Businesses: What's Next"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-11-03",
