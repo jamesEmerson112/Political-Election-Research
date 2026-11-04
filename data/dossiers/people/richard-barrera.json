@@ -85,5 +85,52 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "san-diego-unified-facilities-bond-measures-2008-2022",
+        "kind": "budget",
+        "date": "2022",
+        "summary": "According to his San Diego Unified board biography, he led the district's efforts that secured $11.6 billion for school facilities through voter-approved bond measures in 2008, 2012, 2018 and 2022.",
+        "title": "San Diego Unified school facilities bond measures (2008, 2012, 2018, 2022)",
+        "citations": [
+          {
+            "source": "src:sandiegounified-org-3f7629f84e",
+            "quote": "Barrera has also led the District’s efforts in securing $11.6 billion dollars for school facilities, with successful voter approved bond campaigns in 2008, 2012, 2018 and 2022."
+          }
+        ]
+      },
+      {
+        "id": "san-diego-unified-transitional-kindergarten-and-community-schools",
+        "kind": "program",
+        "summary": "According to his San Diego Unified board biography, he led the district's effort over the two years before the biography was written to create community schools and to expand transitional kindergarten to all four-year-olds.",
+        "title": "San Diego Unified community schools and transitional kindergarten for all four-year-olds",
+        "citations": [
+          {
+            "source": "src:sandiegounified-org-3f7629f84e",
+            "quote": "Over the past two years, Barrera has led the District’s effort to create community schools and to expand transitional kindergarten to all four year olds."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "outcomes during board service",
+        "where": "San Diego Unified School District board biography (sandiegounified.org)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "record on the board (campaign claims not used as government records)",
+        "where": "Campaign site barreraforedu.com (home and About pages)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "record in office",
+        "where": "2026 Official Voter Information Guide, Superintendent of Public Instruction candidate statement (p. 95)"
+      }
+    ]
   }
 }
