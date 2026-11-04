@@ -4,7 +4,6 @@
   import Search from "@lucide/svelte/icons/search";
   import { tick } from "svelte";
   import {
-    BALLOT_STATE,
     ballotStatus,
     DISTRICT_NAME,
     forgetChoice,
@@ -15,6 +14,7 @@
     placeContest,
     saveChoice,
     serializeChoice,
+    stateOfChoice,
     type Choice,
     type DistrictKind,
   } from "../lib/ballot";
@@ -54,6 +54,8 @@
     setHash("");
   }
   const ballotOn = $derived(!isEmptyChoice(choice) && !showAll);
+  /** The state listed first, in the normal office groups: the voter's (when My ballot narrows the list) or California. */
+  const ballotSt = $derived(ballotOn ? stateOfChoice(choice) : "ca");
 
   /** Every contest, once, with what the index needs; grouped by office type, districts in numeric order. */
   const rows = $derived(
@@ -75,11 +77,11 @@
       return { ref, st, kind, office, names, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
     }),
   );
-  /** Other states' contests (Nevada: Las Vegas placeholders) get their own section; "My ballot" places California contests only. */
+  /** Other states' contests (Nevada: Las Vegas placeholders) get their own section while the list isn't narrowed to one voter's ballot. */
   const otherStates = $derived.by(() => {
     if (ballotOn) return [];
     const by = new Map<string, Row[]>();
-    for (const r of textFiltered) if (r.st !== BALLOT_STATE) by.set(r.st, [...(by.get(r.st) ?? []), r]);
+    for (const r of textFiltered) if (r.st !== ballotSt) by.set(r.st, [...(by.get(r.st) ?? []), r]);
     return [...by.entries()]
       .sort(([a], [b]) => a.localeCompare(b))
       .map(([st, rs]) => ({
@@ -100,7 +102,7 @@
   });
   const status = (r: Row) => (ballotOn ? ballotStatus(r.place, choice) : "on");
   /** Rows in the normal office groups: every California contest, or only this voter's. */
-  const filtered = $derived(textFiltered.filter((r) => r.st === BALLOT_STATE && status(r) === "on"));
+  const filtered = $derived(textFiltered.filter((r) => r.st === ballotSt && status(r) === "on"));
   const sortRows = (rs: Row[]) =>
     rs.sort((a, b) => a.office.sort[0] - b.office.sort[0] || a.office.sort[1].localeCompare(b.office.sort[1]));
   const groups = $derived(
@@ -118,21 +120,21 @@
     }
     return [...by.entries()].map(([kind, rs]) => ({ kind, rows: sortRows(rs) }));
   });
-  const unmatched = $derived(sortRows(textFiltered.filter((r) => r.st === BALLOT_STATE && status(r) === "unmatched")));
+  const unmatched = $derived(sortRows(textFiltered.filter((r) => r.st === ballotSt && status(r) === "unmatched")));
   const shown = $derived(
     filtered.length + toPick.reduce((n, g) => n + g.rows.length, 0) + unmatched.length + otherStates.reduce((n, s) => n + s.count, 0),
   );
   const openTasks = $derived(ix.b.tasks.filter((t) => !t.blocked_by).length);
   /** Other states' contest counts (Nevada: Las Vegas), for the jump link under the title. */
   const elsewhere = $derived(
-    [...new Set(rows.map((r) => r.st).filter((st) => st !== BALLOT_STATE))].sort().map((st) => ({ st, name: STATES[st] ?? st.toUpperCase(), count: rows.filter((r) => r.st === st).length })),
+    [...new Set(rows.map((r) => r.st).filter((st) => st !== "ca"))].sort().map((st) => ({ st, name: STATES[st] ?? st.toUpperCase(), count: rows.filter((r) => r.st === st).length })),
   );
   /** Propositions and measures start folded (the Overview is mostly read for candidates); a filter opens them. */
   const FOLDED_TYPES = new Set<OfficeType>(["measure", "local_measure"]);
   let unfolded = $state<Record<string, boolean>>({});
   const isOpen = (key: string, type: OfficeType) => !FOLDED_TYPES.has(type) || q.trim() !== "" || unfolded[key] === true;
   async function jumpTo(st: string) {
-    // My ballot narrows the list to California; show everything so the other state's section exists.
+    // My ballot narrows the list to one state; show everything so the other state's section exists.
     if (ballotOn) showAll = true;
     q = "";
     await tick();
@@ -142,7 +144,7 @@
 
 <section class="intro">
   <div class="eyebrow">{ix.b.fictional ? "Fictional demo dataset" : "Research draft"}</div>
-  <h1>California contests</h1>
+  <h1>{ballotSt === "nv" ? "Nevada contests: your Las Vegas-area ballot" : "California contests"}</h1>
   <p class="facts num">
     <span><strong>{rows.length}</strong> contests</span>
     <span><strong>{ix.people.size}</strong> people</span>
@@ -150,7 +152,7 @@
     <span><strong>{ix.claimCount()}</strong> citations</span>
     <span><strong>{openTasks}</strong> open tasks</span>
   </p>
-  {#each elsewhere as e (e.st)}
+  {#each ballotSt === "ca" ? elsewhere : [] as e (e.st)}
     <p class="jump">
       <button type="button" class="link" onclick={() => jumpTo(e.st)}>
         <ArrowDown size={14} aria-hidden="true" />{e.st === "nv" ? `${e.name} · Las Vegas` : e.name}: <span class="num">{e.count}</span> contests, after California's
@@ -169,6 +171,12 @@
     <span class="muted num" aria-live="polite">{shown} of {rows.length}</span>
   </div>
 
+  {#if ballotSt === "nv"}
+    <p class="g-note">
+      Placeholders: the contests on City of Las Vegas ballots for November 3, 2026, from the Clark County Election Department's official lists. Not
+      researched yet: no candidates, questions or positions.
+    </p>
+  {/if}
   {#each groups as g (g.type)}
     {@const open = isOpen(g.type, g.type)}
     <div class="group">
@@ -177,12 +185,12 @@
           <button type="button" class="fold" aria-expanded={open} onclick={() => (unfolded[g.type] = !open)}>
             <ChevronDown size={16} aria-hidden="true" class={open ? "chev" : "chev shut"} />
             <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
-            {OFFICE_TYPE[g.type].label}
+            {groupLabel(ballotSt, g.type)}
             <span class="g-count num">{g.rows.length}</span>
           </button>
         {:else}
           <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
-          {OFFICE_TYPE[g.type].label}
+          {groupLabel(ballotSt, g.type)}
           <span class="g-count num">{g.rows.length}</span>
         {/if}
       </h2>
@@ -210,7 +218,9 @@
       <p class="g-note">
         {g.kind === "county"
           ? "Every ballot in a county has all of that county's contests. Set your county under My ballot."
-          : "One of these is on your ballot. Your sample ballot shows which; set it under My ballot."}
+          : g.kind === "city"
+            ? "Every ballot inside the City of Las Vegas has all of these; ballots outside the city have none. Set it under My ballot."
+            : "One of these is on your ballot. Your sample ballot shows which; set it under My ballot."}
       </p>
       <ul class="list">
         {#each g.rows as r (r.ref)}
@@ -227,7 +237,7 @@
         Not matched to a district
         <span class="g-count num">{unmatched.length}</span>
       </h2>
-      <p class="g-note">These contests couldn't be placed on a California ballot, so they are listed here rather than hidden.</p>
+      <p class="g-note">These contests couldn't be placed on a ballot by district, so they are listed here rather than hidden.</p>
       <ul class="list">
         {#each unmatched as r (r.ref)}
           {@render contestRow(r)}

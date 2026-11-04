@@ -57,7 +57,7 @@
 - **Results:** certified results, and a "measures that passed" mode for the trial ballot.
 - **Site size:** load contests on demand. The single file is 4.4 MB (about 660 KB compressed).
 - **Accessibility:** the dark-mode shortfall red sits close to the dark orange ▼ (accepted for now: separate charts, with a legend).
-- **"My ballot":** places California contests only. Nevada is placeholders (no candidates).
+- **"My ballot":** places California and Nevada (Las Vegas) contests. Nevada ZIPs and locations use `geo/nv-2026-districts.json`. Nevada's contests are still placeholders (no candidates).
 - **CI:** run `npm run e2e` in CI if Chromium can be installed there.
 - **Open maintainer decisions:** see "Decisions for the maintainer" below.
 
@@ -147,7 +147,7 @@
 - **Next, before research:** seed each agenda's candidates from the certified list (Clark County's "All Contests and Candidates in the November 3 2026, General Election" PDF), then fix each contest's question set (AGENTS rule 6), then run `npm run -s next -- --contest 2026-nv-general/<contest>`.
 - **Judges (added 2026-11-03, maintainer's choice):** the Eighth Judicial District Court's 58 seats (`district-court-dept-1` … `-32`, Family Division `district-court-family-dept-a` … `-z`; every Las Vegas voter sees all of them, since NRS 3.010 makes Clark County the Eighth Judicial District) and the two City of Las Vegas Municipal Court seats (`las-vegas-municipal-court-dept-1`, `-2`, unexpired terms), each quoted from Clark County's general-election contest list. No Las Vegas Township justice of the peace is on the November ballot. Many judge contests have one candidate.
 - **Blocked:** the Nevada Secretary of State (`www.nvsos.gov`, `silverstateelection.nv.gov`) answers automated requests with a bot check (Incapsula), so statewide contests and questions rest on Clark County's documents for now.
-- **"My ballot"** places California contests only; Nevada contests are listed while no California location is set.
+- **"My ballot"** narrows to a Las Vegas voter's contests by ZIP, location or picked districts: House, Senate, Assembly, Clark County and the City of Las Vegas from Census data. Ward, County Commission, CCSD trustee and Regent districts are picked by hand. **Next:** add their boundaries, if Clark County or City of Las Vegas open data publishes them with terms that allow reuse.
 
 ## Priority (maintainer, 2026-11-03): San Francisco first
 - Do San Francisco-area contests and candidates first; the rest of California comes later.

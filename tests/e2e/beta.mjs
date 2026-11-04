@@ -11,6 +11,7 @@
  *    no forecast year and is listed from FY2030-31; Prop 44's cost is quoted in words, not added up;
  *    San Francisco's ballot keeps its own answers.
  * 5c. The Overview's county group says every ballot in a county has that county's contests.
+ * 5j. A Nevada ZIP (89101) narrows the Overview to Nevada contests, with the City of Las Vegas's; a Henderson ZIP (89052) has none of the city's.
  * 5d. The Overview links to the Las Vegas (Nevada) contests.
  * 5e. Vercel Web Analytics loads only on the public site (political-election-research.vercel.app):
  *    on the local server and on preview deployments the page loads no analytics script.
@@ -85,6 +86,36 @@ const nvInView = await page.evaluate(() => {
   return r.top < window.innerHeight && r.bottom > 0;
 });
 check("5d. the Overview's Nevada · Las Vegas link scrolls to the Las Vegas contests", nvInView, "");
+
+// 5j. A Nevada ZIP narrows the Overview to that voter's Nevada contests: city contests only inside the City of Las Vegas.
+async function zipBallot(zip) {
+  await page.evaluate(() => localStorage.removeItem("per-my-ballot"));
+  await page.goto(`${BASE}#overview`);
+  await page.reload();
+  await page.locator('button.method[aria-label="ZIP code"]').click();
+  await page.locator(".pane input").fill(zip);
+  await page.locator(".pane button.apply").click();
+  await page.waitForSelector(".found .frow", { timeout: 15000 });
+  await page.waitForTimeout(200);
+  const hrefs = await page.locator("a.crow").evaluateAll((as) => as.map((a) => a.getAttribute("href") ?? ""));
+  return {
+    title: await text(page.locator(".intro h1")),
+    found: (await page.locator(".found").innerText()).replace(/\s+/g, " "),
+    nv: hrefs.filter((h) => h.includes("2026-nv-general")).length,
+    ca: hrefs.filter((h) => h.includes("2026-ca-general")).length,
+    muni: hrefs.some((h) => h.includes("las-vegas-municipal-court")),
+  };
+}
+const lv = await zipBallot("89101");
+const hd = await zipBallot("89052");
+check(
+  "5j. a Nevada ZIP narrows the Overview to Nevada contests; city contests only inside the City of Las Vegas",
+  lv.title.startsWith("Nevada") && lv.ca === 0 && lv.nv > 10 && lv.muni && lv.found.includes("City of Las Vegas") && hd.ca === 0 && hd.nv > 10 && !hd.muni,
+  `89101: ${lv.nv} NV / ${lv.ca} CA, municipal court ${lv.muni}; 89052: ${hd.nv} NV, municipal court ${hd.muni}`,
+);
+await page.evaluate(() => localStorage.removeItem("per-my-ballot"));
+await page.goto(`${BASE}#overview`);
+await page.reload();
 
 // 5f. On the Overview, proposition groups start folded; one click opens them.
 await go(page, "#overview");

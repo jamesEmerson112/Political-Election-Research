@@ -177,22 +177,32 @@ export interface DistrictShape {
   rings: Ring[];
 }
 
+export interface ShapeOptions {
+  /** Keep only records whose fields equal these values (e.g. { STATEFP: "32" }). */
+  where?: Record<string, string>;
+  /** Number every kept record as this district (e.g. one city as district 1). */
+  as?: number;
+}
+
 /**
  * District shapes from a zipped shapefile: records grouped by the numeric
  * value of `field` (records with a non-numeric or out-of-range value are
  * dropped), in district order.
  */
-export function shapesFromZip(zip: Buffer, field: string, max: number): DistrictShape[] {
+export function shapesFromZip(zip: Buffer, field: string, max: number, opts: ShapeOptions = {}): DistrictShape[] {
   const prj = zipFind(zip, /\.prj$/i).toString("latin1");
   if (!isGeographicPrj(prj)) {
     throw new Error("shapefile is projected; convert it to longitude/latitude (NAD83 or WGS84) first, e.g. mapshaper -proj wgs84");
   }
   const shp = readShpPolygons(zipFind(zip, /\.shp$/i));
-  const col = readDbf(zipFind(zip, /\.dbf$/i), [field])[field]!;
+  const where = Object.entries(opts.where ?? {});
+  const cols = readDbf(zipFind(zip, /\.dbf$/i), [...new Set([field, ...where.map(([k]) => k)])]);
+  const col = cols[field]!;
   if (col.length !== shp.length) throw new Error(`.shp has ${shp.length} records but .dbf has ${col.length}`);
   const by = new Map<number, Ring[]>();
   shp.forEach((rings, i) => {
-    const n = Number(col[i]);
+    if (where.some(([k, v]) => cols[k]![i] !== v)) return;
+    const n = opts.as ?? Number(col[i]);
     if (!Number.isInteger(n) || n < 1 || n > max) return;
     by.set(n, [...(by.get(n) ?? []), ...rings]);
   });
@@ -387,7 +397,7 @@ export interface ZipBlock {
   districts: Partial<Record<Kind, number>>;
 }
 
-export const ZIP_LAYER_CODE: Record<Kind, string> = { cd: "c", boe: "b", sd: "s", ad: "a" };
+export const ZIP_LAYER_CODE: Record<Kind, string> = { cd: "c", boe: "b", sd: "s", ad: "a", county: "k", city: "l" };
 
 /**
  * ZCTA -> districts, one row per ZCTA:

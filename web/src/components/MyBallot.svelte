@@ -4,16 +4,23 @@
     choiceSummary,
     DISTRICT_COUNT,
     DISTRICT_NAME,
+    districtCount,
     districtLabel,
     isEmptyChoice,
+    LETTER_KINDS,
+    letterOf,
     normalizeChoice,
+    NV_COUNTY_FIPS,
+    NV_OFFICIAL_LINKS,
     OFFICIAL_LINKS,
     senateSeatUp2026,
+    stateOfChoice,
+    type BallotState,
     type Choice,
     type DistrictKind,
   } from "../lib/ballot";
   import { lookupPoint, lookupZip, type Kind } from "../lib/geo";
-  import { loadDistricts } from "../lib/geoData";
+  import { loadDistricts, stateOfZip } from "../lib/geoData";
   import { BALLOT_ICON } from "../lib/icons";
   import { plural } from "../lib/format";
   import Badge from "./Badge.svelte";
@@ -42,10 +49,16 @@
   let changing = $state(false);
   const set = $derived(!isEmptyChoice(choice));
   const showMethods = $derived(!set || changing);
-  const RESULT_KINDS: DistrictKind[] = ["cd", "boe"];
+  /** The state of the saved choice (California unless it says Nevada). */
+  const st = $derived(stateOfChoice(choice));
+  const RESULT_KINDS: Record<BallotState, DistrictKind[]> = { ca: ["cd", "boe"], nv: ["cd", "sd", "ad", "county", "city"] };
+  /** Nevada kinds not in the boundary data: picked by hand from the sample ballot. */
+  const NV_HAND_KINDS: DistrictKind[] = ["ward", "comm", "ccsd", "regent"];
+  const CLARK = NV_COUNTY_FIPS["clark"]!;
 
   /** One district (or several, when the lookup can't tell) per kind, from a ZIP or a location. */
   interface Found {
+    st: BallotState;
     source: "zip" | "locate";
     /** Possible districts per kind, with share of homes for ZIPs. */
     layers: Partial<Record<Kind, Array<{ n: number; share: number | null }>>>;
@@ -58,28 +71,53 @@
   let error = $state("");
 
   // ---- (a) pick districts directly
+  let pickSt = $state<BallotState>("ca");
   let pickCd = $state(0);
   let pickBoe = $state(0);
   let pickSf = $state(false);
   let pickSup = $state(0);
+  // Nevada: House, Senate, Assembly; City of Las Vegas (1 in, 0 elsewhere in Clark County, -1 not sure); local districts.
+  let pickSd = $state(0);
+  let pickAd = $state(0);
+  let pickCity = $state(-1);
+  let pickNv = $state<Record<string, number>>({});
   const SF = COUNTY_FIPS["san-francisco"]!;
+  const one = (v: number[] | undefined) => (v?.length === 1 ? v[0]! : 0);
   $effect(() => {
     // Mirror the current choice into the picker when it opens.
     if (method === "pick") {
-      pickCd = choice.cd?.length === 1 ? choice.cd[0]! : 0;
-      pickBoe = choice.boe?.length === 1 ? choice.boe[0]! : 0;
+      pickSt = st;
+      pickCd = one(choice.cd);
+      pickBoe = one(choice.boe);
       pickSf = !!choice.county?.includes(SF);
-      pickSup = choice.sfsup?.length === 1 ? choice.sfsup[0]! : 0;
+      pickSup = one(choice.sfsup);
+      pickSd = one(choice.sd);
+      pickAd = one(choice.ad);
+      pickCity = choice.city?.length === 1 ? choice.city[0]! : -1;
+      pickNv = Object.fromEntries(NV_HAND_KINDS.map((k) => [k, one(choice[k])]));
     }
   });
+  const range = (n: number) => Array.from({ length: n }, (_, i) => i + 1);
   function applyPick() {
     onchange(
-      normalizeChoice({
-        cd: pickCd ? [pickCd] : [],
-        boe: pickBoe ? [pickBoe] : [],
-        county: pickSf ? [SF] : [],
-        sfsup: pickSf && pickSup ? [pickSup] : [],
-      }),
+      normalizeChoice(
+        pickSt === "nv"
+          ? {
+              st: "nv",
+              cd: pickCd ? [pickCd] : [],
+              sd: pickSd ? [pickSd] : [],
+              ad: pickAd ? [pickAd] : [],
+              county: [CLARK],
+              city: pickCity >= 0 ? [pickCity] : [],
+              ...Object.fromEntries(NV_HAND_KINDS.map((k) => [k, pickNv[k] && !(k === "ward" && pickCity === 0) ? [pickNv[k]] : []])),
+            }
+          : {
+              cd: pickCd ? [pickCd] : [],
+              boe: pickBoe ? [pickBoe] : [],
+              county: pickSf ? [SF] : [],
+              sfsup: pickSf && pickSup ? [pickSup] : [],
+            },
+      ),
     );
     found = null;
     method = null;
@@ -99,12 +137,11 @@
     }
     busy = true;
     try {
-      const { file } = await loadDistricts();
+      const zst = stateOfZip(z);
+      const { file } = await loadDistricts(zst);
       const r = lookupZip(file, z);
       if (!r) {
-        error = /^8(89|9[0-8])\d\d$/.test(z)
-          ? `${z} is a Nevada ZIP code. My ballot places California contests only; the Las Vegas contests are listed under “Nevada · Las Vegas”, after California's.`
-          : `No California ZIP area ${z} in the 2020 census tables (PO-box-only and newer ZIP codes have none). Pick your districts instead.`;
+        error = `No ${zst === "nv" ? "Nevada" : "California"} ZIP area ${z} in the 2020 census tables (PO-box-only and newer ZIP codes have none). Pick your districts instead.`;
         return;
       }
       const layers: Found["layers"] = {};
@@ -119,8 +156,13 @@
       if ((layers.cd?.length ?? 0) > 1) {
         note.push(`ZIP ${z} is split between ${layers.cd!.length} House districts. Your home address decides which one is yours, so all are shown until you choose.`);
       }
-      if (r.crossesState) note.push(`ZIP ${z} also covers an area outside California; only its California part is described.`);
-      found = { source: "zip", layers, landOnly, note };
+      if (zst === "nv" && (layers.city?.length ?? 0) > 1) {
+        note.push(`ZIP ${z} is partly inside the City of Las Vegas. City contests (Municipal Court, City Council) are on your ballot only if your home is inside the city.`);
+      } else if (zst === "nv" && layers.city?.[0]?.n === 0) {
+        note.push(`ZIP ${z} is outside the City of Las Vegas (a Las Vegas mailing address can be in unincorporated Clark County or another city), so the city's contests are not on your ballot.`);
+      }
+      if (r.crossesState) note.push(`ZIP ${z} also covers an area outside ${zst === "nv" ? "Nevada" : "California"}; only its ${zst === "nv" ? "Nevada" : "California"} part is described.`);
+      found = { st: zst, source: "zip", layers, landOnly, note };
       apply(found);
     } catch {
       error = "The ZIP table couldn't be loaded. Pick your districts instead.";
@@ -154,10 +196,14 @@
               fail("Your device's location is too imprecise to tell districts apart. Enter a ZIP code or pick your districts.");
               return;
             }
-            const { decoded } = await loadDistricts();
-            const r = lookupPoint(decoded, pos.coords.longitude, pos.coords.latitude, accuracy);
+            let lst: BallotState = "ca";
+            let r = lookupPoint((await loadDistricts("ca")).decoded, pos.coords.longitude, pos.coords.latitude, accuracy);
             if (!r.inState) {
-              fail("That location is outside California's districts. Pick your districts or enter a ZIP code.");
+              lst = "nv";
+              r = lookupPoint((await loadDistricts("nv")).decoded, pos.coords.longitude, pos.coords.latitude, accuracy);
+            }
+            if (!r.inState) {
+              fail("That location is outside California's and Nevada's districts. Pick your districts or enter a ZIP code.");
               return;
             }
             const layers: Found["layers"] = {};
@@ -171,7 +217,7 @@
               );
             }
             note.push("This is where your device is now. Your ballot follows your registered home address.");
-            found = { source: "locate", layers, landOnly: {}, note };
+            found = { st: lst, source: "locate", layers, landOnly: {}, note };
             apply(found);
           } catch {
             fail("The district map couldn't be loaded. Pick your districts instead.");
@@ -197,16 +243,26 @@
     }
   }
 
-  /** Apply every possible district from a lookup; keep a BOE district picked by hand when the lookup has none. */
+  /** Apply every possible district from a lookup; keep districts picked by hand (same state) when the lookup has none. */
   function apply(f: Found) {
+    const same = f.st === st;
+    if (f.st === "nv") {
+      const next: Choice = { st: "nv" };
+      for (const k of RESULT_KINDS.nv) next[k] = (f.layers[k as Kind] ?? []).map((d) => d.n);
+      // Ward, commission, trustee and regent districts aren't in the boundary data: keep what was picked.
+      for (const k of NV_HAND_KINDS) next[k] = same ? (choice[k] ?? []) : [];
+      if (next.city?.length && !next.city.includes(1)) next.ward = [];
+      onchange(normalizeChoice(next));
+      return;
+    }
     const next: Choice = {};
     for (const k of ["cd", "boe", "sd", "ad"] as DistrictKind[]) {
-      const l = f.layers[k];
-      next[k] = l?.length ? l.map((d) => d.n) : k === "boe" ? (choice.boe ?? []) : [];
+      const l = f.layers[k as Kind];
+      next[k] = l?.length ? l.map((d) => d.n) : k === "boe" && same ? (choice.boe ?? []) : [];
     }
     // County and supervisor district aren't in the boundary data yet: keep what was picked.
-    next.county = choice.county ?? [];
-    next.sfsup = choice.sfsup ?? [];
+    next.county = same ? (choice.county ?? []) : [];
+    next.sfsup = same ? (choice.sfsup ?? []) : [];
     onchange(normalizeChoice(next));
   }
 
@@ -219,6 +275,11 @@
   function setBoe(n: number) {
     onchange(normalizeChoice({ ...choice, boe: n ? [n] : [] }));
   }
+  /** Set (or clear) one hand-picked district. */
+  function setKind(kind: DistrictKind, n: number) {
+    onchange(normalizeChoice({ ...choice, [kind]: n ? [n] : [] }));
+  }
+  const handLabel = (k: DistrictKind, n: number) => (LETTER_KINDS.has(k) ? letterOf(n) : String(n));
 
   function open(m: Method) {
     method = method === m ? null : m;
@@ -241,11 +302,25 @@
     { id: "locate", label: "Use my location", short: "Locate", icon: BALLOT_ICON.locate },
   ];
 
+  const links = $derived(
+    st === "nv"
+      ? { status: NV_OFFICIAL_LINKS.voterLookup, office: NV_OFFICIAL_LINKS.election }
+      : { status: OFFICIAL_LINKS.voterStatus, office: OFFICIAL_LINKS.countyOffices },
+  );
+  /** Nevada's hand-picked kinds still unset (the ward only inside the City of Las Vegas). */
+  const nvHandOpen = $derived(NV_HAND_KINDS.filter((k) => !(k === "ward" && choice.city?.length && !choice.city.includes(1))));
   const ad = $derived(choice.ad ?? []);
   const sdUp = $derived((choice.sd ?? []).filter(senateSeatUp2026));
   const senateOff = $derived((choice.sd ?? []).filter((n) => !senateSeatUp2026(n)));
   const alsoOnBallot = $derived(
-    [
+    st === "nv"
+      ? [
+          choice.city?.length === 1 && choice.city[0] === 1 ? null : "contests of the city, town or township you live in, if it isn't the City of Las Vegas",
+          "anything not on the City of Las Vegas contest list this site starts from",
+        ]
+          .filter(Boolean)
+          .join("; ")
+      : [
       ad.length ? `State Assembly ${ad.map((n) => `District ${n}`).join(" or ")}` : "State Assembly",
       sdUp.length
         ? `State Senate ${sdUp.map((n) => `District ${n}`).join(" or ")}`
@@ -274,7 +349,7 @@
       {#if set}
         <p class="mb-sum num" aria-live="polite">
           <span class="muted">Your ballot:</span>
-          <strong>{choiceSummary({ cd: choice.cd, boe: choice.boe })}</strong>
+          <strong>{st === "nv" ? choiceSummary({ st, cd: choice.cd, sd: choice.sd, ad: choice.ad, city: choice.city }) : choiceSummary({ cd: choice.cd, boe: choice.boe })}</strong>
           {#if !choice.cd?.length}<span class="muted">House district not set</span>{/if}
           <span>· {plural(onCount, "contest")}</span>
           {#if showAll}<span class="muted">(showing all {total})</span>{/if}
@@ -325,15 +400,71 @@
     <!-- collapsed: nothing to choose -->
   {:else if method === "pick"}
     <div class="pane">
+      <div class="field full">
+        <span id="st-pick">State</span>
+        <div class="seg" role="group" aria-labelledby="st-pick">
+          {#each [["ca", "California"], ["nv", "Nevada (Las Vegas)"]] as [code, name] (code)}
+            <button
+              class:on={pickSt === code}
+              aria-pressed={pickSt === code}
+              onclick={() => {
+                if (pickSt !== code) {
+                  pickSt = code as BallotState;
+                  pickCd = pickSd = pickAd = 0;
+                }
+              }}>{name}</button
+            >
+          {/each}
+        </div>
+      </div>
       <label class="field">
         <span>U.S. House</span>
         <select bind:value={pickCd}>
           <option value={0}>Not sure</option>
-          {#each Array.from({ length: DISTRICT_COUNT.cd }, (_, i) => i + 1) as n (n)}
-            <option value={n}>{districtLabel("cd", n)}</option>
+          {#each range(districtCount(pickSt, "cd")) as n (n)}
+            <option value={n}>{districtLabel("cd", n, pickSt)}</option>
           {/each}
         </select>
       </label>
+      {#if pickSt === "nv"}
+        <label class="field">
+          <span>State Senate</span>
+          <select bind:value={pickSd}>
+            <option value={0}>Not sure</option>
+            {#each range(districtCount("nv", "sd")) as n (n)}<option value={n}>District {n}</option>{/each}
+          </select>
+        </label>
+        <label class="field">
+          <span>State Assembly</span>
+          <select bind:value={pickAd}>
+            <option value={0}>Not sure</option>
+            {#each range(districtCount("nv", "ad")) as n (n)}<option value={n}>District {n}</option>{/each}
+          </select>
+        </label>
+        <div class="field full">
+          <span id="city-pick">Where you live in Clark County</span>
+          <div class="seg" role="group" aria-labelledby="city-pick">
+            {#each [[1, "City of Las Vegas"], [0, "Elsewhere in Clark County"], [-1, "Not sure"]] as [v, name] (v)}
+              <button class:on={pickCity === v} aria-pressed={pickCity === v} onclick={() => (pickCity = v as number)}>{name}</button>
+            {/each}
+          </div>
+        </div>
+        {#each NV_HAND_KINDS.filter((k) => !(k === "ward" && pickCity === 0)) as k (k)}
+          <div class="field">
+            <span id={`pick-${k}`}>{DISTRICT_NAME[k]}</span>
+            <div class="seg" role="group" aria-labelledby={`pick-${k}`}>
+              {#each range(districtCount("nv", k)) as n (n)}
+                <button class:on={pickNv[k] === n} aria-pressed={pickNv[k] === n} onclick={() => (pickNv[k] = pickNv[k] === n ? 0 : n)}>{handLabel(k, n)}</button>
+              {/each}
+            </div>
+          </div>
+        {/each}
+        <button class="apply" onclick={applyPick}><PickIcon size={15} aria-hidden="true" /> Show my contests</button>
+        <p class="hint">
+          Clark County's sample ballot lists your contests;
+          <a href={NV_OFFICIAL_LINKS.voterLookup.url} target="_blank" rel="noopener noreferrer">{NV_OFFICIAL_LINKS.voterLookup.label}</a> shows your registration and districts.
+        </p>
+      {:else}
       <div class="field">
         <span id="boe-pick">Board of Equalization</span>
         <div class="seg" role="group" aria-labelledby="boe-pick">
@@ -363,15 +494,16 @@
         Your county's sample ballot lists your contests;
         <a href={OFFICIAL_LINKS.voterStatus.url} target="_blank" rel="noopener noreferrer">{OFFICIAL_LINKS.voterStatus.label}</a> shows your registration.
       </p>
+      {/if}
     </div>
   {:else if method === "zip"}
     <form class="pane" onsubmit={lookupZipCode}>
       <label class="field">
         <span>ZIP code of your home address</span>
-        <input bind:value={zip} inputmode="numeric" autocomplete="off" maxlength="5" placeholder="e.g. 95814" />
+        <input bind:value={zip} inputmode="numeric" autocomplete="off" maxlength="5" placeholder="e.g. 95814 or 89101" />
       </label>
       <button class="apply" type="submit" disabled={busy}>Find districts</button>
-      <p class="hint">Looked up in this page; the ZIP code isn't sent anywhere or saved. ZIP areas are the Census Bureau's 2020 ZIP Code Tabulation Areas.</p>
+      <p class="hint">California and Nevada ZIP codes. Looked up in this page; the ZIP code isn't sent anywhere or saved. ZIP areas are the Census Bureau's 2020 ZIP Code Tabulation Areas.</p>
     </form>
   {:else if method === "locate"}
     <div class="pane">
@@ -391,33 +523,50 @@
   {#if found}
     <div class="found" aria-live="polite">
       {#each found.note as line, i (i)}<p class="msg">{line}</p>{/each}
-      {#each RESULT_KINDS as k (k)}
-        {#if found.layers[k]}
+      {#each RESULT_KINDS[found.st] as k (k)}
+        {@const lk = k as Kind}
+        {#if found.layers[lk]}
           <div class="frow">
-            <span class="flabel">{DISTRICT_NAME[k]}</span>
+            <span class="flabel">{k === "city" ? "City" : DISTRICT_NAME[k]}</span>
             <span class="chips">
-              {#each found.layers[k] as d (d.n)}
+              {#each found.layers[lk] as d (d.n)}
                 {@const on = choice[k]?.includes(d.n) ?? false}
                 <button
                   class="dchip num"
                   class:on
                   aria-pressed={on}
-                  title={found.layers[k].length > 1 ? (on ? "Click to drop this district" : "Click to include this district") : ""}
+                  title={found.layers[lk].length > 1 ? (on ? "Click to drop this one" : "Click to include this one") : ""}
                   onclick={() => toggleDistrict(k, d.n)}
                 >
-                  {districtLabel(k, d.n)}{#if d.share !== null}<span class="share">{d.share}% of homes</span>{/if}
+                  {districtLabel(k, d.n, found.st)}{#if d.share !== null}<span class="share">{d.share}% of homes</span>{/if}
                 </button>
               {/each}
             </span>
           </div>
-          {#if found.landOnly[k]}
+          {#if found.landOnly[lk]}
             <p class="hint">
-              Also touches {found.landOnly[k].map((n) => districtLabel(k, n)).join(", ")} (no homes counted there in 2020).
+              Also touches {found.landOnly[lk].map((n) => districtLabel(k, n, found.st)).join(", ")} (no homes counted there in 2020).
             </p>
           {/if}
         {/if}
       {/each}
-      {#if !found.layers.boe}
+      {#if found.st === "nv"}
+        {#each nvHandOpen as k (k)}
+          <div class="frow">
+            <span class="flabel">{DISTRICT_NAME[k]}</span>
+            <span class="seg" role="group" aria-label={DISTRICT_NAME[k]}>
+              {#each Array.from({ length: districtCount("nv", k) }, (_, i) => i + 1) as n (n)}
+                {@const on = choice[k]?.includes(n) ?? false}
+                <button class:on aria-pressed={on} onclick={() => setKind(k, on ? 0 : n)}>{handLabel(k, n)}</button>
+              {/each}
+            </span>
+          </div>
+        {/each}
+        <p class="hint">
+          Ward, commission, school trustee and regent districts aren't in our boundary data yet: pick them from your sample ballot or the
+          <a href={NV_OFFICIAL_LINKS.voterLookup.url} target="_blank" rel="noopener noreferrer">{NV_OFFICIAL_LINKS.voterLookup.label}</a>.
+        </p>
+      {:else if !found.layers.boe}
         <div class="frow">
           <span class="flabel">Board of Equalization</span>
           <span class="seg" role="group" aria-label="Board of Equalization district">
@@ -436,11 +585,11 @@
     <div>
       <p>
         Districts follow your <strong>registered home address</strong>, not where you vote or drop off your ballot. Confirm them on your official
-        sample ballot, at <a href={OFFICIAL_LINKS.voterStatus.url} target="_blank" rel="noopener noreferrer">{OFFICIAL_LINKS.voterStatus.label}</a>
-        or with your <a href={OFFICIAL_LINKS.countyOffices.url} target="_blank" rel="noopener noreferrer">county elections office</a>.
+        sample ballot, at <a href={links.status.url} target="_blank" rel="noopener noreferrer">{links.status.label}</a>
+        or with the <a href={links.office.url} target="_blank" rel="noopener noreferrer">{st === "nv" ? links.office.label : "county elections office"}</a>.
       </p>
       <p>Also on your ballot, not covered here yet: {alsoOnBallot}.</p>
-      {#if senateOff.length}
+      {#if st === "ca" && senateOff.length}
         <p>
           No State Senate contest for {senateOff.map((n) => `District ${n}`).join(" or ")} this year: only even-numbered Senate districts are on the 2026
           ballot.
@@ -535,6 +684,9 @@
     background: var(--paper);
     border: 1px solid var(--line);
     border-radius: var(--radius);
+  }
+  .field.full {
+    flex-basis: 100%;
   }
   .field {
     display: grid;

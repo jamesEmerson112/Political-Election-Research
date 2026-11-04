@@ -6,6 +6,7 @@ The site's **My ballot** panel narrows the Overview to the contests on one voter
 |---|---|
 | `ca-2026-districts.json` | simplified outlines of California's U.S. House (52), State Senate (40) and Assembly (80) districts, plus a ZIP-code table. Generated; don't edit by hand. |
 | `manifest.json` | provenance of every input (URL, publisher, license, dates, bytes, sha256, registered `src:` ref), the output's sha256, the parameters and the verification results |
+| `nv-2026-districts.json`, `manifest.nv.json` | the same for Nevada (Las Vegas ballots): U.S. House (4), State Senate (21), Assembly (42), counties (17) and the City of Las Vegas. See [Nevada](#nevada-las-vegas-ballots). |
 
 Rebuild with `npm run import:districts -- --verify`. Same inputs give the same bytes. The command downloads about 1.6 GB of Census files into the gitignored `.cache/geo/` and checks each against its pinned sha256. A changed upstream file stops the run. You can delete the cache afterwards.
 
@@ -87,3 +88,19 @@ To add it:
 4. The manifest records the BOE file's name and sha256. Add its URL, publisher, license and dates to `INPUTS` in `cli/import-districts.ts` so later runs re-download and check it.
 
 The site picks the BOE layer up automatically: location lookups then resolve BOE too.
+
+## Nevada (Las Vegas ballots)
+
+`npm run import:districts -- --state nv --verify` builds `nv-2026-districts.json` (about 29 KB) and `manifest.nv.json` the same way, from pinned Census files: Nevada's own TIGER/Line 2026 shapes and blocks, plus the national equivalency and ZCTA files that the California build pins too. It reuses an existing cache. A first run downloads about 1.3 GB, mostly the national ZCTA file, which you can delete afterwards. Visitors never download any of this: they get the small generated file, inlined in the page, and their ZIP code is looked up there.
+
+| layer | source | notes |
+|---|---|---|
+| `cd` | `tl_2026_32_cd120`; `NationalCD120.txt` (Nevada rows) | Nevada did not redistrict for the 120th Congress, so the archive has no Nevada-only file |
+| `sd`, `ad` | `tl_2026_32_sldu`, `tl_2026_32_sldl`; national 2026 SLD equivalency files | |
+| `county` | `tl_2026_us_county` (STATEFP 32), numbered by county FIPS (Clark = 3) | blocks: the county code in the block GEOID |
+| `city` | `tl_2026_32_place`, PLACEFP 40000 (City of Las Vegas), stored as district 1 | blocks: whether the block's internal point is inside the 2026 outline; 0 = outside. There is no equivalency file for places. |
+
+- **ZIP table:** the letters `k` (county) and `l` (city) are added. `l0` means outside the City of Las Vegas. Many "Las Vegas" mailing ZIPs are outside the city, for example the Strip (89109, unincorporated Clark County) or Henderson (89052), so the site shows the city's share of homes and adds the city's contests only for homes inside it.
+- **Point lookups:** the `city` layer reports 0 ("outside") as possible whenever a point is outside the outline, or within the margin of its edge.
+- **Verification:** every 10th Nevada block, 5,741 points, with 0 misses in all five layers (`manifest.nv.json`).
+- **Not included:** Las Vegas City Council wards, Clark County Commission districts, CCSD trustee districts and Board of Regents districts. The Census Bureau publishes none of them, so the site asks voters to pick these from their sample ballot or Clark County's voter lookup.

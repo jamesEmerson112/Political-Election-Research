@@ -1,10 +1,14 @@
 /**
- * npm run -s import:districts [-- --cache <dir>] [--verify] [--stride <n>]
+ * npm run -s import:districts [-- --state ca|nv] [--cache <dir>] [--verify] [--stride <n>]
  *                                 [--boe <zip> --boe-field <name>] [--boe-bef <file>]
  *
  * Builds geo/ca-2026-districts.json (district outlines + ZIP table for the
  * site's "My ballot" lookup) and geo/manifest.json (provenance) from pinned
  * U.S. Census Bureau files. Same inputs -> same bytes.
+ *
+ * --state nv builds geo/nv-2026-districts.json and geo/manifest.nv.json
+ * instead: Nevada's U.S. House, State Senate and Assembly districts, its
+ * counties and the City of Las Vegas (Las Vegas ballots).
  *
  * Inputs are downloaded once into a gitignored cache (default .cache/geo/)
  * and checked against their pinned sha256; a changed upstream file stops the
@@ -13,7 +17,7 @@
  * --verify   Look up the internal point of every <stride>-th census block
  *            (default 10) in the generated file and compare with the block
  *            equivalency files; results go into geo/manifest.json.
- * --boe      The California Citizens Redistricting Commission's final Board of
+ * --boe      (California only) The California Citizens Redistricting Commission's final Board of
  *            Equalization shapefile (zip, longitude/latitude). Adds a BOE layer.
  *            --boe-field names the district-number field.
  * --boe-bef  A block -> BOE district equivalency file (GEOID,...,district),
@@ -32,12 +36,13 @@ import {
   readDbf,
   serializeDistrictFile,
   shapesFromZip,
+  ZIP_LAYER_CODE,
   zipFind,
   type LayerInput,
   type ZipBlock,
 } from "../src/districts.js";
 import { REPO_ROOT } from "../src/paths.js";
-import { decode, lookupPoint, type DistrictFile, type Kind } from "../web/src/lib/geo.js";
+import { decode, insideRings, lookupPoint, type DistrictFile, type Kind } from "../web/src/lib/geo.js";
 import { flagStr, parseArgs } from "./args.js";
 
 interface Input {
@@ -163,15 +168,104 @@ export const INPUTS: Input[] = [
   },
 ];
 
+const SHARED = (id: string) => INPUTS.find((i) => i.id === id)!;
+
+/** Nevada's inputs: its own shapes and blocks, plus the national files California's build pins too. */
+export const NV_INPUTS: Input[] = [
+  {
+    id: "nv-cd120-shapes",
+    url: "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_32_cd120.zip",
+    title: "TIGER/Line Shapefile, 2026, Nevada, 120th Congressional Districts",
+    publisher: CENSUS,
+    published: "2026-10-06",
+    fetched: "2026-11-03",
+    license: PUBLIC_DOMAIN,
+    origin: "Districts for the 120th Congress (elected November 3, 2026) as specified to the Census Bureau by the State of Nevada.",
+    bytes: 307841,
+    sha256: "28b76d5e696ff62c8271b190e5a3121839f8cad6bec5390d4c73b5c7bd63edc6",
+  },
+  { ...SHARED("cd120-bef"), title: "120th Congressional District Block Equivalency Files (NationalCD120.txt, Nevada rows)", origin: "Block-to-district assignments specified to the Census Bureau by the State of Nevada (Redistricting Data Program).", source_ref: undefined },
+  {
+    id: "nv-sldu-shapes",
+    url: "https://www2.census.gov/geo/tiger/TIGER2026/SLDU/tl_2026_32_sldu.zip",
+    title: "TIGER/Line Shapefile, 2026, Nevada, State Legislative Districts – Upper Chamber (State Senate)",
+    publisher: CENSUS,
+    published: "2026-10-06",
+    fetched: "2026-11-03",
+    license: PUBLIC_DOMAIN,
+    origin: "Nevada State Senate districts as specified to the Census Bureau by the State of Nevada.",
+    bytes: 601292,
+    sha256: "ebcb7511d58045767bf25e22501be1563501f9b108b0543b7212c0290d603059",
+  },
+  {
+    id: "nv-sldl-shapes",
+    url: "https://www2.census.gov/geo/tiger/TIGER2026/SLDL/tl_2026_32_sldl.zip",
+    title: "TIGER/Line Shapefile, 2026, Nevada, State Legislative Districts – Lower Chamber (Assembly)",
+    publisher: CENSUS,
+    published: "2026-10-06",
+    fetched: "2026-11-03",
+    license: PUBLIC_DOMAIN,
+    origin: "Nevada Assembly districts as specified to the Census Bureau by the State of Nevada.",
+    bytes: 778510,
+    sha256: "08b0c79afe2c2219e84ee8d05002316cac1fb9d9e6b6eb0b8e43659af4d479dd",
+  },
+  { ...SHARED("sldu-bef"), title: "2026 State Legislative District Block Equivalency Files, Upper Chamber (NationalSLDU26.txt, Nevada rows)", origin: "Block-to-district assignments specified to the Census Bureau by the State of Nevada." },
+  { ...SHARED("sldl-bef"), title: "2026 State Legislative District Block Equivalency Files, Lower Chamber (NationalSLDL26.txt, Nevada rows)", origin: "Block-to-district assignments specified to the Census Bureau by the State of Nevada." },
+  {
+    id: "county-shapes",
+    url: "https://www2.census.gov/geo/tiger/TIGER2026/COUNTY/tl_2026_us_county.zip",
+    title: "TIGER/Line Shapefile, 2026, United States, Counties (Nevada records: STATEFP 32)",
+    publisher: CENSUS,
+    published: "2026-10-07",
+    fetched: "2026-11-03",
+    license: PUBLIC_DOMAIN,
+    origin: "County boundaries as of January 1, 2026 (Boundary and Annexation Survey).",
+    bytes: 83378454,
+    sha256: "b527c9ba7aeb8f17ef118f026eae5e5a938aa1d00b873bc32342d0dce59321c0",
+  },
+  {
+    id: "nv-place-shapes",
+    url: "https://www2.census.gov/geo/tiger/TIGER2026/PLACE/tl_2026_32_place.zip",
+    title: "TIGER/Line Shapefile, 2026, Nevada, Places (City of Las Vegas: PLACEFP 40000)",
+    publisher: CENSUS,
+    published: "2026-10-06",
+    fetched: "2026-11-03",
+    license: PUBLIC_DOMAIN,
+    origin: "Incorporated place boundaries as of January 1, 2026 (Boundary and Annexation Survey).",
+    bytes: 850132,
+    sha256: "f8ee4d236bb335cc41daf0156ea7684825d084f3cf769ec70fb5ffa00770f624",
+  },
+  SHARED("zcta-blocks"),
+  {
+    id: "nv-blocks",
+    url: "https://www2.census.gov/geo/tiger/TIGER2026/TABBLOCK20/tl_2026_32_tabblock20.zip",
+    title: "TIGER/Line Shapefile, 2026, Nevada, 2020 Census Tabulation Blocks (attributes only: HOUSING20, INTPTLAT20, INTPTLON20)",
+    publisher: CENSUS,
+    published: "2026-10-06",
+    fetched: "2026-11-03",
+    license: PUBLIC_DOMAIN,
+    origin: "2020 Census housing-unit counts and internal points per block.",
+    bytes: 74820692,
+    sha256: "e16d93cb0120dfc730d1d96fc700f3fd1f622e0ac8ecde47cb107d377b5844f8",
+  },
+].map((i) => JSON.parse(JSON.stringify(i)) as Input);
+
 /** Simplification parameters (changing them changes the output). */
 export const PARAMS = { toleranceM: 120, quantumDeg: 0.00005 };
 
-const STATE_FIPS = "06";
-const OUT_DIR = path.join(REPO_ROOT, "geo");
-const OUT_FILE = path.join(OUT_DIR, "ca-2026-districts.json");
-const MANIFEST = path.join(OUT_DIR, "manifest.json");
-
 const args = parseArgs();
+const STATE = flagStr(args, "state") ?? "ca";
+if (STATE !== "ca" && STATE !== "nv") throw new Error("--state must be ca or nv");
+const NV = STATE === "nv";
+if (NV && (flagStr(args, "boe") || flagStr(args, "boe-bef"))) throw new Error("--boe is California only");
+const STATE_FIPS = NV ? "32" : "06";
+const STATE_INPUTS = NV ? NV_INPUTS : INPUTS;
+const OUT_DIR = path.join(REPO_ROOT, "geo");
+const OUT_NAME = NV ? "nv-2026-districts.json" : "ca-2026-districts.json";
+const OUT_FILE = path.join(OUT_DIR, OUT_NAME);
+const MANIFEST = path.join(OUT_DIR, NV ? "manifest.nv.json" : "manifest.json");
+/** City of Las Vegas (Census place code), stored as district 1 of the `city` layer. */
+const LAS_VEGAS_PLACEFP = "40000";
 const cacheDir = path.resolve(flagStr(args, "cache") ?? path.join(REPO_ROOT, ".cache", "geo"));
 fs.mkdirSync(cacheDir, { recursive: true });
 
@@ -206,15 +300,27 @@ function read(file: string): Buffer {
 }
 
 const files: Record<string, string> = {};
-for (const input of INPUTS) files[input.id] = await ensure(input);
+for (const input of STATE_INPUTS) files[input.id] = await ensure(input);
 
 // ---- outlines
 console.error("reading district shapes");
-const layers: LayerInput[] = [
-  { kind: "cd", label: "U.S. House (120th Congress)", districts: shapesFromZip(read(files["cd120-shapes"]!), "CD120FP", 52) },
-  { kind: "sd", label: "State Senate (2021 Commission map)", districts: shapesFromZip(read(files["sldu-shapes"]!), "SLDUST", 40) },
-  { kind: "ad", label: "State Assembly (2021 Commission map)", districts: shapesFromZip(read(files["sldl-shapes"]!), "SLDLST", 80) },
-];
+const layers: LayerInput[] = NV
+  ? [
+      { kind: "cd", label: "U.S. House (120th Congress)", districts: shapesFromZip(read(files["nv-cd120-shapes"]!), "CD120FP", 4) },
+      { kind: "sd", label: "State Senate", districts: shapesFromZip(read(files["nv-sldu-shapes"]!), "SLDUST", 21) },
+      { kind: "ad", label: "State Assembly", districts: shapesFromZip(read(files["nv-sldl-shapes"]!), "SLDLST", 42) },
+      { kind: "county", label: "County (FIPS code)", districts: shapesFromZip(read(files["county-shapes"]!), "COUNTYFP", 510, { where: { STATEFP: STATE_FIPS } }) },
+      {
+        kind: "city",
+        label: "City of Las Vegas (1 = in the city)",
+        districts: shapesFromZip(read(files["nv-place-shapes"]!), "PLACEFP", 1, { where: { PLACEFP: LAS_VEGAS_PLACEFP }, as: 1 }),
+      },
+    ]
+  : [
+      { kind: "cd", label: "U.S. House (120th Congress)", districts: shapesFromZip(read(files["cd120-shapes"]!), "CD120FP", 52) },
+      { kind: "sd", label: "State Senate (2021 Commission map)", districts: shapesFromZip(read(files["sldu-shapes"]!), "SLDUST", 40) },
+      { kind: "ad", label: "State Assembly (2021 Commission map)", districts: shapesFromZip(read(files["sldl-shapes"]!), "SLDLST", 80) },
+    ];
 const boeZip = flagStr(args, "boe");
 const boeInput: Partial<Input> | null = boeZip ? { id: "boe-shapes", url: path.basename(boeZip), sha256: await sha256File(boeZip) } : null;
 if (boeZip) {
@@ -234,7 +340,7 @@ const encoded = encodeLayers(layers, params);
 // ---- block tables
 console.error("reading block equivalency files");
 const bef: Partial<Record<Kind, Map<string, number>>> = {
-  cd: parseBef(zipFind(read(files["cd120-bef"]!), /^CD120_06\.txt$/), STATE_FIPS),
+  cd: parseBef(zipFind(read(files["cd120-bef"]!), NV ? /^NationalCD120\.txt$/ : /^CD120_06\.txt$/), STATE_FIPS),
   sd: parseBef(zipFind(read(files["sldu-bef"]!), /^NationalSLDU26\.txt$/), STATE_FIPS),
   ad: parseBef(zipFind(read(files["sldl-bef"]!), /^NationalSLDL26\.txt$/), STATE_FIPS),
 };
@@ -242,15 +348,29 @@ const boeBef = flagStr(args, "boe-bef");
 if (boeBef) bef.boe = parseBef(read(boeBef), STATE_FIPS);
 
 console.error("reading block attributes");
-const blockCols = readDbf(zipFind(read(files["blocks"]!), /\.dbf$/), ["GEOID20", "HOUSING20", "INTPTLAT20", "INTPTLON20"]);
+const blockCols = readDbf(zipFind(read(files[NV ? "nv-blocks" : "blocks"]!), /\.dbf$/), ["GEOID20", "HOUSING20", "INTPTLAT20", "INTPTLON20"]);
 const homes = new Map<string, number>();
 blockCols["GEOID20"]!.forEach((g, i) => homes.set(g, Number(blockCols["HOUSING20"]![i])));
 
-console.error("reading ZCTA relationship file (California rows)");
+if (NV) {
+  // County: the block GEOID's county code. City: whether the block's internal point is inside the
+  // city's (unsimplified) outline; 0 = outside. Neither has a Census equivalency file.
+  const cityRings = layers.find((l) => l.kind === "city")!.districts.flatMap((d) => d.rings.map((r) => Float64Array.from(r.flat())));
+  const county = new Map<string, number>();
+  const city = new Map<string, number>();
+  blockCols["GEOID20"]!.forEach((g, i) => {
+    county.set(g, Number(g.slice(2, 5)));
+    city.set(g, insideRings(cityRings, Number(blockCols["INTPTLON20"]![i]), Number(blockCols["INTPTLAT20"]![i])) ? 1 : 0);
+  });
+  bef.county = county;
+  bef.city = city;
+}
+
+console.error(`reading ZCTA relationship file (state ${STATE_FIPS} rows)`);
 const zipBlocks: ZipBlock[] = [];
 /** ZCTA -> [total land area, land area inside the state] (m²), to flag ZCTAs that cross the state line. */
 const zctaLand = new Map<string, [number, number]>();
-const zipKinds: Kind[] = (["cd", "boe", "sd", "ad"] as Kind[]).filter((k) => bef[k]);
+const zipKinds: Kind[] = (["cd", "boe", "sd", "ad", "county", "city"] as Kind[]).filter((k) => bef[k]);
 {
   const rl = readline.createInterface({ input: fs.createReadStream(files["zcta-blocks"]!, { encoding: "latin1" }), crlfDelay: Infinity });
   for await (const line of rl) {
@@ -277,12 +397,13 @@ const zips = encodeZipTable(zipBlocks, zipKinds, crossState);
 
 const out: DistrictFile = {
   format: "ca-districts/1",
-  state: "ca",
-  election: "2026-ca-general",
-  note:
-    "U.S. House: 120th Congress districts (Proposition 50 / AB 604 map). State Senate and Assembly" +
-    (boeZip ? " and Board of Equalization" : "") +
-    ": 2021 Citizens Redistricting Commission maps. Outlines simplified; see geo/README.md.",
+  state: STATE,
+  election: `2026-${STATE}-general`,
+  note: NV
+    ? "U.S. House: 120th Congress districts. State Senate and Assembly: the districts the Census Bureau's 2026 files carry for Nevada. Counties and the City of Las Vegas: 2026 TIGER/Line boundaries. Outlines simplified; see geo/README.md."
+    : "U.S. House: 120th Congress districts (Proposition 50 / AB 604 map). State Senate and Assembly" +
+      (boeZip ? " and Board of Equalization" : "") +
+      ": 2021 Citizens Redistricting Commission maps. Outlines simplified; see geo/README.md.",
   tolerance_m: encoded.tolerance_m,
   margin_m: encoded.margin_m,
   transform: encoded.transform,
@@ -326,7 +447,9 @@ if (args.flags.has("verify")) {
     stats[k] = { checked: a.checked, outside_margin: a.miss, ambiguous_share_of_homes: Math.round((1000 * a.ambHomes) / Math.max(1, a.homes)) / 1000 };
   }
   verification = {
-    method: `Internal point (INTPTLAT20/INTPTLON20) of every ${stride}th 2020 census block, looked up in the generated file with no device error; checked that the block's district in the equivalency file is among the possible districts.`,
+    method:
+      `Internal point (INTPTLAT20/INTPTLON20) of every ${stride}th 2020 census block, looked up in the generated file with no device error; checked that the block's district in the equivalency file is among the possible districts.` +
+      (NV ? " County: the block GEOID's county code. City: the block point tested against the unsimplified 2026 city outline (no equivalency file exists)." : ""),
     results: stats,
   };
   console.error(JSON.stringify(stats));
@@ -336,7 +459,7 @@ const zipRows = zips ? zips.split(" ") : [];
 const multi = (code: string) => zipRows.filter((r) => new RegExp(`(?:^|[:;])${code}\\d+/`).test(r.slice(6))).length;
 const manifest = {
   output: {
-    file: "geo/ca-2026-districts.json",
+    file: `geo/${OUT_NAME}`,
     bytes: Buffer.byteLength(text),
     sha256: crypto.createHash("sha256").update(text).digest("hex"),
     generated_by: "npm run import:districts",
@@ -346,9 +469,9 @@ const manifest = {
     layers: Object.fromEntries(layers.map((l) => [l.kind, l.districts.length])),
     zip_codes: zipRows.length,
     zip_codes_crossing_state_line: crossState.size,
-    zip_codes_split: Object.fromEntries(zipKinds.map((k) => [k, multi({ cd: "c", boe: "b", sd: "s", ad: "a" }[k])])),
+    zip_codes_split: Object.fromEntries(zipKinds.map((k) => [k, multi(ZIP_LAYER_CODE[k])])),
   },
-  inputs: [...INPUTS, ...(boeInput ? [boeInput] : [])],
+  inputs: [...STATE_INPUTS, ...(boeInput ? [boeInput] : [])],
   ...(verification ? { verification } : {}),
 };
 const prev = fs.existsSync(MANIFEST) ? (JSON.parse(fs.readFileSync(MANIFEST, "utf8")) as Record<string, unknown>) : null;

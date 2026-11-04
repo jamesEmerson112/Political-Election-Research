@@ -17,8 +17,13 @@
  * verification and the unit tests.
  */
 
-export type Kind = "cd" | "boe" | "sd" | "ad";
-export const KINDS: Kind[] = ["cd", "boe", "sd", "ad"];
+export type Kind = "cd" | "boe" | "sd" | "ad" | "county" | "city";
+export const KINDS: Kind[] = ["cd", "boe", "sd", "ad", "county", "city"];
+/**
+ * Layers that don't cover the whole state (a city): a point or block outside
+ * every outline is reported as district 0, "outside".
+ */
+export const PARTIAL_KINDS: ReadonlySet<Kind> = new Set(["city"]);
 
 export interface DistrictFile {
   format: "ca-districts/1";
@@ -190,7 +195,7 @@ export interface LayerHit {
 export interface PointResult {
   /** Margin used: stored-outline error plus the device's reported accuracy, meters. */
   marginM: number;
-  /** False when no congressional district is within the margin (the point is outside California). */
+  /** False when no congressional district is within the margin (the point is outside the file's state). */
   inState: boolean;
   layers: Partial<Record<Kind, LayerHit>>;
 }
@@ -209,13 +214,20 @@ export function lookupPoint(d: Decoded, lon: number, lat: number, accuracyM = 0)
     if (!ds) continue;
     const inside: number[] = [];
     const possible: number[] = [];
+    let nearEdge = false;
     for (const dist of ds) {
       const [x0, y0, x1, y1] = dist.bbox;
       if (lon < x0 - padLon || lon > x1 + padLon || lat < y0 - padLat || lat > y1 + padLat) continue;
       if (insideRings(dist.rings, lon, lat)) {
         inside.push(dist.n);
         possible.push(dist.n);
+        if (PARTIAL_KINDS.has(kind) && distanceToRings(dist.rings, lon, lat) <= marginM) nearEdge = true;
       } else if (distanceToRings(dist.rings, lon, lat) <= marginM) possible.push(dist.n);
+    }
+    // Outside a partial layer (or within the margin of its edge), "outside" (0) is possible too.
+    if (PARTIAL_KINDS.has(kind) && (!inside.length || nearEdge)) {
+      if (!inside.length) inside.push(0);
+      possible.unshift(0);
     }
     layers[kind] = { inside, possible };
   }
@@ -235,7 +247,7 @@ export interface ZipResult {
   crossesState: boolean;
 }
 
-const CODE_KIND: Record<string, Kind> = { c: "cd", b: "boe", s: "sd", a: "ad" };
+const CODE_KIND: Record<string, Kind> = { c: "cd", b: "boe", s: "sd", a: "ad", k: "county", l: "city" };
 
 /** Districts for a 5-digit ZIP code (via its ZCTA), or null when the table has no such ZCTA. */
 export function lookupZip(f: Pick<DistrictFile, "zips">, zip: string): ZipResult | null {

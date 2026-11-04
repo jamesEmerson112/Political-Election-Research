@@ -1,0 +1,179 @@
+{
+  "output": {
+    "file": "geo/nv-2026-districts.json",
+    "bytes": 28552,
+    "sha256": "39fb856a33df06ff243c1fff1ab7764586bf0465039846162f4bdbbc0f08e29c",
+    "generated_by": "npm run import:districts",
+    "tolerance_m": 120,
+    "margin_m": 137,
+    "quantum_deg": 0.00005,
+    "layers": {
+      "cd": 4,
+      "sd": 21,
+      "ad": 42,
+      "county": 17,
+      "city": 1
+    },
+    "zip_codes": 182,
+    "zip_codes_crossing_state_line": 8,
+    "zip_codes_split": {
+      "cd": 36,
+      "sd": 75,
+      "ad": 90,
+      "county": 20,
+      "city": 19
+    }
+  },
+  "inputs": [
+    {
+      "id": "nv-cd120-shapes",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/CD/tl_2026_32_cd120.zip",
+      "title": "TIGER/Line Shapefile, 2026, Nevada, 120th Congressional Districts",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-10-06",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "Districts for the 120th Congress (elected November 3, 2026) as specified to the Census Bureau by the State of Nevada.",
+      "bytes": 307841,
+      "sha256": "28b76d5e696ff62c8271b190e5a3121839f8cad6bec5390d4c73b5c7bd63edc6"
+    },
+    {
+      "id": "cd120-bef",
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2027/120-congressional-district-befs/cd120.zip",
+      "title": "120th Congressional District Block Equivalency Files (NationalCD120.txt, Nevada rows)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-10-07",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "Block-to-district assignments specified to the Census Bureau by the State of Nevada (Redistricting Data Program).",
+      "bytes": 55241385,
+      "sha256": "bc9a4fc543b8b279ce3663642a5cc4e19e32a8ef84f12371e26f754e5b8cc8a5"
+    },
+    {
+      "id": "nv-sldu-shapes",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/SLDU/tl_2026_32_sldu.zip",
+      "title": "TIGER/Line Shapefile, 2026, Nevada, State Legislative Districts – Upper Chamber (State Senate)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-10-06",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "Nevada State Senate districts as specified to the Census Bureau by the State of Nevada.",
+      "bytes": 601292,
+      "sha256": "ebcb7511d58045767bf25e22501be1563501f9b108b0543b7212c0290d603059"
+    },
+    {
+      "id": "nv-sldl-shapes",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/SLDL/tl_2026_32_sldl.zip",
+      "title": "TIGER/Line Shapefile, 2026, Nevada, State Legislative Districts – Lower Chamber (Assembly)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-10-06",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "Nevada Assembly districts as specified to the Census Bureau by the State of Nevada.",
+      "bytes": 778510,
+      "sha256": "08b0c79afe2c2219e84ee8d05002316cac1fb9d9e6b6eb0b8e43659af4d479dd"
+    },
+    {
+      "id": "sldu-bef",
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2027/2026-state-legislative-bef/sldu26.zip",
+      "title": "2026 State Legislative District Block Equivalency Files, Upper Chamber (NationalSLDU26.txt, Nevada rows)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-08-31",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "Block-to-district assignments specified to the Census Bureau by the State of Nevada.",
+      "bytes": 46793479,
+      "sha256": "4cb669e71e05caa0ff340b4525300ad503994a15c85b63873e07ef0ebf6d1200"
+    },
+    {
+      "id": "sldl-bef",
+      "url": "https://www2.census.gov/programs-surveys/decennial/rdo/mapping-files/2027/2026-state-legislative-bef/sldl26.zip",
+      "title": "2026 State Legislative District Block Equivalency Files, Lower Chamber (NationalSLDL26.txt, Nevada rows)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-08-31",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "Block-to-district assignments specified to the Census Bureau by the State of Nevada.",
+      "bytes": 44600009,
+      "sha256": "78691acb59cebe5c9e7851d1ba8702699140a291d0311b04c560b3d3771141e0"
+    },
+    {
+      "id": "county-shapes",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/COUNTY/tl_2026_us_county.zip",
+      "title": "TIGER/Line Shapefile, 2026, United States, Counties (Nevada records: STATEFP 32)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-10-07",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "County boundaries as of January 1, 2026 (Boundary and Annexation Survey).",
+      "bytes": 83378454,
+      "sha256": "b527c9ba7aeb8f17ef118f026eae5e5a938aa1d00b873bc32342d0dce59321c0"
+    },
+    {
+      "id": "nv-place-shapes",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/PLACE/tl_2026_32_place.zip",
+      "title": "TIGER/Line Shapefile, 2026, Nevada, Places (City of Las Vegas: PLACEFP 40000)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-10-06",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "Incorporated place boundaries as of January 1, 2026 (Boundary and Annexation Survey).",
+      "bytes": 850132,
+      "sha256": "f8ee4d236bb335cc41daf0156ea7684825d084f3cf769ec70fb5ffa00770f624"
+    },
+    {
+      "id": "zcta-blocks",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_tabblock20_natl.txt",
+      "title": "2020 ZIP Code Tabulation Area (ZCTA5) to 2020 Census Tabulation Block Relationship File, national",
+      "publisher": "U.S. Census Bureau",
+      "published": "2021-12-09",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "2020 Census ZCTAs, which are built from 2020 census blocks to approximate USPS ZIP Code service areas.",
+      "bytes": 1057697144,
+      "sha256": "7f077624d252fc1cc5a2d1100be07cfe038ffc152bfe193561d068b4def6bbbf"
+    },
+    {
+      "id": "nv-blocks",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/TABBLOCK20/tl_2026_32_tabblock20.zip",
+      "title": "TIGER/Line Shapefile, 2026, Nevada, 2020 Census Tabulation Blocks (attributes only: HOUSING20, INTPTLAT20, INTPTLON20)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-10-06",
+      "fetched": "2026-11-03",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "2020 Census housing-unit counts and internal points per block.",
+      "bytes": 74820692,
+      "sha256": "e16d93cb0120dfc730d1d96fc700f3fd1f622e0ac8ecde47cb107d377b5844f8"
+    }
+  ],
+  "verification": {
+    "method": "Internal point (INTPTLAT20/INTPTLON20) of every 10th 2020 census block, looked up in the generated file with no device error; checked that the block's district in the equivalency file is among the possible districts. County: the block GEOID's county code. City: the block point tested against the unsimplified 2026 city outline (no equivalency file exists).",
+    "results": {
+      "cd": {
+        "checked": 5741,
+        "outside_margin": 0,
+        "ambiguous_share_of_homes": 0.017
+      },
+      "sd": {
+        "checked": 5741,
+        "outside_margin": 0,
+        "ambiguous_share_of_homes": 0.032
+      },
+      "ad": {
+        "checked": 5741,
+        "outside_margin": 0,
+        "ambiguous_share_of_homes": 0.043
+      },
+      "county": {
+        "checked": 5741,
+        "outside_margin": 0,
+        "ambiguous_share_of_homes": 0
+      },
+      "city": {
+        "checked": 5741,
+        "outside_margin": 0,
+        "ambiguous_share_of_homes": 0.021
+      }
+    }
+  }
+}

@@ -321,3 +321,45 @@ describe("the committed California file (geo/)", () => {
     for (const r of rows) expect(lookupZip(f, r.slice(0, 5))?.layers.cd?.length).toBeGreaterThan(0);
   });
 });
+
+describe("the committed Nevada file (geo/)", () => {
+  const file = path.join(REPO_ROOT, "geo", "nv-2026-districts.json");
+  const f = JSON.parse(fs.readFileSync(file, "utf8")) as DistrictFile;
+  const d = decode(f);
+  it("is canonical and matches its manifest, verified with no misses", async () => {
+    expect(serializeDistrictFile(f)).toBe(fs.readFileSync(file, "utf8"));
+    const m = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "geo", "manifest.nv.json"), "utf8"));
+    const crypto = await import("node:crypto");
+    expect(m.output.sha256).toBe(crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex"));
+    for (const k of ["cd", "sd", "ad", "county", "city"]) expect(m.verification.results[k].outside_margin).toBe(0);
+  });
+  it("has every district of each layer, Nevada's counties and the City of Las Vegas", () => {
+    const count = (k: "cd" | "sd" | "ad") => Object.keys(f.layers[k]!.districts).map(Number);
+    expect(f.state).toBe("nv");
+    expect(count("cd")).toEqual([1, 2, 3, 4]);
+    expect(count("sd")).toEqual(Array.from({ length: 21 }, (_, i) => i + 1));
+    expect(count("ad")).toEqual(Array.from({ length: 42 }, (_, i) => i + 1));
+    expect(Object.keys(f.layers.county!.districts)).toContain("3");
+    expect(Object.keys(f.layers.city!.districts)).toEqual(["1"]);
+  });
+  it("looks up Las Vegas ZIP codes: in the city, outside it, and split", () => {
+    const downtown = lookupZip(f, "89101")!;
+    expect(downtown.layers.county).toEqual([{ n: 3, share: null }]);
+    expect(downtown.layers.city![0]).toEqual({ n: 1, share: 99 });
+    // Henderson and the Strip (unincorporated Clark County): not in the City of Las Vegas.
+    expect(lookupZip(f, "89052")!.layers.city).toEqual([{ n: 0, share: null }]);
+    expect(lookupZip(f, "89109")!.layers.city![0]!.n).toBe(0);
+    expect(lookupZip(f, "89117")!.layers.city!.map((x) => x.n)).toEqual([1, 0]);
+    expect(lookupZip(f, "94110")).toBeNull();
+  });
+  it("looks up points, with 'outside the city' as a possibility for the city layer", () => {
+    // Las Vegas City Hall (495 S Main St) and Henderson City Hall (240 S Water St).
+    const cityHall = lookupPoint(d, -115.1445, 36.1673);
+    expect(cityHall.inState).toBe(true);
+    expect(cityHall.layers.city!.inside).toEqual([1]);
+    expect(cityHall.layers.county!.inside).toEqual([3]);
+    const henderson = lookupPoint(d, -114.9817, 36.0306);
+    expect(henderson.layers.city!.possible).toEqual([0]);
+    expect(lookupPoint(d, -122.42, 37.77).inState).toBe(false);
+  });
+});

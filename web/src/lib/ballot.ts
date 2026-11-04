@@ -1,5 +1,6 @@
 /**
- * "My ballot": which contests are on one voter's California ballot.
+ * "My ballot": which contests are on one voter's ballot, in California or in
+ * Nevada (Las Vegas). A choice holds one state (`st`, missing = California).
  *
  * - Everyone votes on the statewide offices and statewide propositions.
  * - District contests depend on the districts of the voter's registered home
@@ -10,22 +11,93 @@
  *   San Francisco = 75), and San Francisco supervisor races use kind "sfsup"
  *   (districts 1-11). Both are picked by hand until boundary data exists.
  *
+ * - Nevada (Las Vegas ballots): U.S. House, State Senate and Assembly (cd, sd,
+ *   ad), the county (FIPS; Clark = 3), the City of Las Vegas (city: 1 = in the
+ *   city, 0 = outside it), and local districts picked by hand: City Council
+ *   ward, County Commission district and school trustee district (letters A-G
+ *   stored as 1-7), and Board of Regents district.
+ *
  * Pure functions plus a try/catch-wrapped localStorage helper. Only district
- * numbers are ever stored, never an address, ZIP code or coordinates.
+ * numbers and the state are ever stored, never an address, ZIP code or
+ * coordinates.
  */
 
-export type DistrictKind = "cd" | "boe" | "sd" | "ad" | "county" | "sfsup";
-export const DISTRICT_KINDS: DistrictKind[] = ["cd", "boe", "sd", "ad", "county", "sfsup"];
+export type DistrictKind = "cd" | "boe" | "sd" | "ad" | "county" | "sfsup" | "city" | "ward" | "comm" | "ccsd" | "regent";
+export const DISTRICT_KINDS: DistrictKind[] = ["cd", "boe", "sd", "ad", "county", "sfsup", "city", "ward", "comm", "ccsd", "regent"];
+
+/** States whose ballots My ballot can narrow. */
+export type BallotState = "ca" | "nv";
+export const BALLOT_STATES: BallotState[] = ["ca", "nv"];
 
 /** County FIPS codes (state 06) of the counties whose local contests this site covers. */
 export const COUNTY_FIPS: Record<string, number> = { "san-francisco": 75 };
 export const COUNTY_NAME: Record<number, string> = { 75: "San Francisco" };
+/** Nevada county FIPS codes (state 32) used here, and their names. */
+export const NV_COUNTY_FIPS: Record<string, number> = { clark: 3 };
+export const NV_COUNTY_NAME: Record<number, string> = {
+  1: "Churchill County",
+  3: "Clark County",
+  5: "Douglas County",
+  7: "Elko County",
+  9: "Esmeralda County",
+  11: "Eureka County",
+  13: "Humboldt County",
+  15: "Lander County",
+  17: "Lincoln County",
+  19: "Lyon County",
+  21: "Mineral County",
+  23: "Nye County",
+  27: "Pershing County",
+  29: "Storey County",
+  31: "Washoe County",
+  33: "White Pine County",
+  510: "Carson City",
+};
 
-/** The state whose ballot this logic describes. */
-export const BALLOT_STATE = "ca";
+/** The state a choice is for (a choice without `st` is California's: saved choices and links from before Nevada keep working). */
+export function stateOfChoice(c: Choice): BallotState {
+  return c.st === "nv" ? "nv" : "ca";
+}
 
 /** Number of districts per kind (California). */
-export const DISTRICT_COUNT: Record<DistrictKind, number> = { cd: 52, boe: 4, sd: 40, ad: 80, county: 115, sfsup: 11 };
+export const DISTRICT_COUNT: Record<DistrictKind, number> = {
+  cd: 52,
+  boe: 4,
+  sd: 40,
+  ad: 80,
+  county: 115,
+  sfsup: 11,
+  city: 0,
+  ward: 0,
+  comm: 0,
+  ccsd: 0,
+  regent: 0,
+};
+/** Number of districts per kind (Nevada). `city` is 0 (outside the City of Las Vegas) or 1 (inside). */
+export const NV_DISTRICT_COUNT: Record<DistrictKind, number> = {
+  cd: 4,
+  boe: 0,
+  sd: 21,
+  ad: 42,
+  county: 510,
+  sfsup: 0,
+  city: 1,
+  ward: 6,
+  comm: 7,
+  ccsd: 7,
+  regent: 13,
+};
+export function districtCount(st: BallotState, kind: DistrictKind): number {
+  return (st === "nv" ? NV_DISTRICT_COUNT : DISTRICT_COUNT)[kind];
+}
+/** Lowest valid number: 0 means "outside the city" for `city`, every other kind starts at 1. */
+function districtMin(kind: DistrictKind): number {
+  return kind === "city" ? 0 : 1;
+}
+/** Kinds a state's choice can hold. */
+export function kindsOf(st: BallotState): DistrictKind[] {
+  return DISTRICT_KINDS.filter((k) => districtCount(st, k) > 0);
+}
 
 export const DISTRICT_NAME: Record<DistrictKind, string> = {
   cd: "U.S. House",
@@ -34,10 +106,34 @@ export const DISTRICT_NAME: Record<DistrictKind, string> = {
   ad: "State Assembly",
   county: "County",
   sfsup: "SF Supervisor district",
+  city: "City of Las Vegas",
+  ward: "Las Vegas City Council ward",
+  comm: "Clark County Commission district",
+  ccsd: "School board (CCSD) trustee district",
+  regent: "Board of Regents district",
 };
 
-/** Short label for one district: CA-11, BOE 2, SD 11, AD 17. */
-export function districtLabel(kind: DistrictKind, n: number): string {
+/** Letter districts (County Commission and CCSD trustee districts A-G) are stored as numbers 1-7. */
+export const LETTER_KINDS: ReadonlySet<DistrictKind> = new Set(["comm", "ccsd"]);
+export function letterOf(n: number): string {
+  return String.fromCharCode(64 + n);
+}
+function numberOfLetter(letter: string): number {
+  return letter.toUpperCase().charCodeAt(0) - 64;
+}
+
+/** Short label for one district: CA-11, BOE 2, SD 11, AD 17; in Nevada NV-1, SD 8, Ward 2, Commission E. */
+export function districtLabel(kind: DistrictKind, n: number, st: BallotState = "ca"): string {
+  if (st === "nv") {
+    if (kind === "cd") return `NV-${n}`;
+    if (kind === "county") return NV_COUNTY_NAME[n] ?? `County ${n}`;
+    if (kind === "city") return n === 1 ? "City of Las Vegas" : "Outside the City of Las Vegas";
+    if (kind === "ward") return `Ward ${n}`;
+    if (kind === "comm") return `Commission ${letterOf(n)}`;
+    if (kind === "ccsd") return `Trustee ${letterOf(n)}`;
+    if (kind === "regent") return `Regent ${n}`;
+    return `${kind.toUpperCase()} ${n}`;
+  }
   if (kind === "cd") return `CA-${n}`;
   if (kind === "county") return COUNTY_NAME[n] ?? `County ${n}`;
   if (kind === "sfsup") return `SF D${n}`;
@@ -45,8 +141,8 @@ export function districtLabel(kind: DistrictKind, n: number): string {
 }
 
 export type Placement =
-  | { scope: "statewide" }
-  | { scope: "district"; kind: DistrictKind; n: number }
+  | { scope: "statewide"; st: BallotState }
+  | { scope: "district"; st: BallotState; kind: DistrictKind; n: number }
   | { scope: "unmatched"; reason: string };
 
 /** office record id (office_ref without "office:") -> district kind. */
@@ -123,7 +219,52 @@ export function placeContest(contestRef: string, officeRef?: string | null, kind
   const id = contestRef.startsWith("contest:") ? contestRef.slice("contest:".length) : contestRef;
   const [election = "", slug = ""] = id.split("/");
   const state = election.split("-")[1] ?? "";
-  if (state !== BALLOT_STATE) return { scope: "unmatched", reason: "Not a California contest" };
+  if (state === "nv") return placeNevada(slug);
+  if (state !== "ca") return { scope: "unmatched", reason: "Not a California or Nevada contest" };
+  const p = placeCalifornia(slug, state, officeRef, kind);
+  return p.scope === "unmatched" ? p : { ...p, st: "ca" } as Placement;
+}
+
+/** Contests on City of Las Vegas ballots (Nevada placeholders): fixed slug patterns, see docs/RESEARCH_GUIDE.md. */
+const NV_STATEWIDE = new Set(["governor", "lieutenant-governor", "attorney-general", "secretary-of-state", "treasurer", "controller", "us-senate"]);
+const NV_CLARK = NV_COUNTY_FIPS["clark"]!;
+
+function placeNevada(slug: string): Placement {
+  const st: BallotState = "nv";
+  if (NV_STATEWIDE.has(slug) || /^question-\d+$/.test(slug) || /^supreme-court-seat-[a-z]$/.test(slug) || /^court-of-appeals-dept-\d+$/.test(slug)) {
+    return { scope: "statewide", st };
+  }
+  const numbered: Array<[RegExp, DistrictKind]> = [
+    [/^us-house-nv-(\d+)$/, "cd"],
+    [/^state-senate-(\d+)$/, "sd"],
+    [/^assembly-(\d+)$/, "ad"],
+    [/^board-of-regents-(\d+)$/, "regent"],
+    [/^las-vegas-council-ward-(\d+)$/, "ward"],
+  ];
+  for (const [re, kind] of numbered) {
+    const m = re.exec(slug);
+    if (!m) continue;
+    const n = Number(m[1]);
+    return n >= 1 && n <= NV_DISTRICT_COUNT[kind] ? { scope: "district", st, kind, n } : { scope: "unmatched", reason: "District number out of range" };
+  }
+  const lettered: Array<[RegExp, DistrictKind]> = [
+    [/^clark-county-commission-([a-g])$/, "comm"],
+    [/^ccsd-trustee-([a-g])$/, "ccsd"],
+  ];
+  for (const [re, kind] of lettered) {
+    const m = re.exec(slug);
+    if (m) return { scope: "district", st, kind, n: numberOfLetter(m[1]!) };
+  }
+  // The Las Vegas Municipal Court is elected by the whole city.
+  if (/^las-vegas-municipal-court-dept-\d+$/.test(slug)) return { scope: "district", st, kind: "city", n: 1 };
+  // Clark County offices and the Eighth Judicial District Court (Clark County) are elected county-wide.
+  if (/^clark-county-[a-z-]+$/.test(slug) || /^district-court-(?:family-)?dept-[a-z0-9]+$/.test(slug)) return { scope: "district", st, kind: "county", n: NV_CLARK };
+  return { scope: "unmatched", reason: "Office not placed on the ballot yet" };
+}
+
+type CaPlacement = { scope: "statewide" } | { scope: "district"; kind: DistrictKind; n: number } | { scope: "unmatched"; reason: string };
+
+function placeCalifornia(slug: string, state: string, officeRef?: string | null, kind?: "office" | "measure"): CaPlacement {
   // Special districts (BART) have no district layer here yet; the voter's sample ballot shows theirs.
   if (/^bart-board-district-\d+$/.test(slug)) return { scope: "unmatched", reason: "BART districts aren't placed yet" };
 
@@ -156,15 +297,22 @@ export function placeContest(contestRef: string, officeRef?: string | null, kind
   return { scope: "unmatched", reason: "Office not placed on the ballot yet" };
 }
 
-/** A voter's districts. Several numbers for one kind mean "one of these" (an ambiguous ZIP or location). */
-export type Choice = Partial<Record<DistrictKind, number[]>>;
+/**
+ * A voter's districts. Several numbers for one kind mean "one of these" (an
+ * ambiguous ZIP or location). `st` is "nv" for a Nevada ballot; it is left
+ * out for California.
+ */
+export type Choice = Partial<Record<DistrictKind, number[]>> & { st?: BallotState };
 
 export function normalizeChoice(c: Choice | null | undefined): Choice {
-  const out: Choice = {};
+  const st: BallotState = c?.st === "nv" ? "nv" : "ca";
+  const out: Choice = st === "nv" ? { st } : {};
   for (const k of DISTRICT_KINDS) {
     const v = c?.[k];
     if (!Array.isArray(v)) continue;
-    const ns = [...new Set(v.filter((n) => Number.isInteger(n) && n >= 1 && n <= DISTRICT_COUNT[k]))].sort((a, b) => a - b);
+    const max = districtCount(st, k);
+    if (!max) continue;
+    const ns = [...new Set(v.filter((n) => Number.isInteger(n) && n >= districtMin(k) && n <= max))].sort((a, b) => a - b);
     if (ns.length) out[k] = ns;
   }
   return out;
@@ -182,32 +330,42 @@ export type BallotStatus = "on" | "off" | "pick" | "unmatched";
  * contest couldn't be placed.
  */
 export function ballotStatus(p: Placement, c: Choice): BallotStatus {
-  if (p.scope === "statewide") return "on";
   if (p.scope === "unmatched") return "unmatched";
+  // Another state's contests are never on this voter's ballot.
+  if (p.st !== stateOfChoice(c)) return "off";
+  if (p.scope === "statewide") return "on";
+  // City Council wards only exist inside the City of Las Vegas.
+  if (p.kind === "ward" && c.city?.length && !c.city.includes(1)) return "off";
   const set = c[p.kind];
   if (!set?.length) return "pick";
   return set.includes(p.n) ? "on" : "off";
 }
 
-/** "CA-11 · BOE 2", or "CA-11 or CA-15 · BOE 2". */
+/** "CA-11 · BOE 2", or "CA-11 or CA-15 · BOE 2"; Nevada: "NV-1 · SD 8 · AD 6". */
 export function choiceSummary(c: Choice): string {
+  const st = stateOfChoice(c);
   return DISTRICT_KINDS.filter((k) => c[k]?.length)
-    .map((k) => c[k]!.map((n) => districtLabel(k, n)).join(" or "))
+    .map((k) => (k === "city" && c[k]!.length > 1 ? "in or outside the City of Las Vegas" : c[k]!.map((n) => districtLabel(k, n, st)).join(" or ")))
     .join(" · ");
 }
 
-/** Query-string form for the URL hash: cd=11&boe=2 (several: cd=11,15). */
+/** Query-string form for the URL hash: cd=11&boe=2 (several: cd=11,15); Nevada starts with st=nv. */
 export function serializeChoice(c: Choice): string {
   const n = normalizeChoice(c);
-  return DISTRICT_KINDS.filter((k) => n[k])
-    .map((k) => `${k}=${n[k]!.join(",")}`)
-    .join("&");
+  return [
+    ...(n.st === "nv" ? ["st=nv"] : []),
+    ...DISTRICT_KINDS.filter((k) => n[k]).map((k) => `${k}=${n[k]!.join(",")}`),
+  ].join("&");
 }
 
 export function parseChoice(query: string): Choice {
   const out: Choice = {};
   for (const part of query.replace(/^[?#]/, "").split("&")) {
     const [k, v] = part.split("=");
+    if (k === "st" && v === "nv") {
+      out.st = "nv";
+      continue;
+    }
     if (!k || v === undefined || !(DISTRICT_KINDS as string[]).includes(k)) continue;
     out[k as DistrictKind] = v
       .split(",")
@@ -237,7 +395,7 @@ export function loadChoice(): Choice {
   }
 }
 
-/** Saves only the district numbers. Returns false when storage is unavailable. */
+/** Saves only the district numbers (and the state). Returns false when storage is unavailable. */
 export function saveChoice(c: Choice): boolean {
   try {
     const n = normalizeChoice(c);
@@ -261,4 +419,9 @@ export function forgetChoice(): void {
 export const OFFICIAL_LINKS = {
   voterStatus: { label: "My Voter Status", url: "https://voterstatus.sos.ca.gov" },
   countyOffices: { label: "County elections offices", url: "https://www.sos.ca.gov/elections/voting-resources/county-elections-offices" },
+};
+/** Official places to confirm a Las Vegas ballot (Clark County Election Department). */
+export const NV_OFFICIAL_LINKS = {
+  voterLookup: { label: "Clark County voter lookup", url: "https://elections.clarkcountynv.gov/VoterRequests/" },
+  election: { label: "Clark County Election Department", url: "https://www.clarkcountynv.gov/government/departments/elections" },
 };
