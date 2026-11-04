@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.richard-barrera-for-superintendent-of-public-instruction-2026--person.richard-barrera--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/superintendent-of-public-instruction",
+  "subject": "person:richard-barrera",
+  "committee": "org:richard-barrera-for-superintendent-of-public-instruction-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-1f554faa17",
+      "locator": "Form 460 cover page (filing 3215182, amendment 0): committee, candidate and office: Richard A. Barrera, SUP"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
