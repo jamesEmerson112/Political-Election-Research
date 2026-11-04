@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "jane-kim-for-insurance-commissioner-2026",
+  "name": "Jane Kim for Insurance Commissioner 2026",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "1485530",
+      "system": "fppc"
+    }
+  ],
+  "links": {},
+  "org_type": "candidate_committee",
+  "last_verified": "2026-11-04"
+}
