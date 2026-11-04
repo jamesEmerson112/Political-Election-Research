@@ -91,6 +91,21 @@
           ]
         }
       ]
+    },
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Matt Haney* Democratic",
+          "locator": "PDF page 21 (list page 20 of 41), State Assembly Member District 17"
+        },
+        {
+          "source": "src:assembly-ca-gov-e948e2d096",
+          "quote": "Party: Democrat",
+          "locator": "Member page header for Assembly District 17"
+        }
+      ]
     }
   },
   "ids": [
