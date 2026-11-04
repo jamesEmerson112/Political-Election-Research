@@ -46,6 +46,26 @@
       ]
     },
     {
+      "subject": "q:education/sfusd-limit-screens-and-ai",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Cheung does not support routine student use of generative AI during classroom instruction, except as an accessibility support, and supports age-appropriate AI and digital literacy instruction.",
+      "citations": [
+        {
+          "source": "src:assets-nationbuilder-com-5e8f3edc5d",
+          "quote": "I do not support routine use of generative AI by students during classroom instruction, particularly for younger students, except as an appropriate accessibility support.",
+          "locator": "page 13"
+        },
+        {
+          "source": "src:assets-nationbuilder-com-5e8f3edc5d",
+          "quote": "But we cannot prepare students for the future by pretending AI does not exist.",
+          "locator": "page 13"
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-proximity-assignment",
       "stance": "support",
       "as_of": "2026-11-04",
