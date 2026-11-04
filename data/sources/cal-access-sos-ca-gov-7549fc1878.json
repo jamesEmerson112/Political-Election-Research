@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cal-access-sos-ca-gov-7549fc1878",
+  "kind": "campaign_finance_filing",
+  "accessed": "2026-11-04",
+  "filing": {
+    "filer_id": "1452149",
+    "filing_id": "2931749",
+    "form": "460",
+    "period": {
+      "end": "2024-06-30",
+      "start": "2024-02-18"
+    },
+    "system": "cal-access"
+  },
+  "publisher": "California Secretary of State (CAL-ACCESS)",
+  "title": "Form 460, Grove For Board Of Equalization 2026, 2024-02-18 to 2024-06-30 (filing 2931749, amendment 0)",
+  "url": "https://cal-access.sos.ca.gov/PDFGen/pdfgen.prg?filingid=2931749&amendid=0",
+  "notes": "Read from the California Secretary of State's CAL-ACCESS raw data export (https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip, published 2026-11-03, sha256 28d808c09f15a010269a2cdf4e83a279721c7f2b01b0fc28eaf0a323634cef97). The filing page itself answers automated requests with a bot check, so it was not opened."
+}

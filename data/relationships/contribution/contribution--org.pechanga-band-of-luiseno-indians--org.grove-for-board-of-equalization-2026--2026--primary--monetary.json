@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.pechanga-band-of-luiseno-indians--org.grove-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:pechanga-band-of-luiseno-indians",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1980000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-04-04"
+    }
+  },
+  "recipient": "org:grove-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-5af2edbfdd",
+      "locator": "Form 460 Schedule A: line 25 (2023-04-04, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-7c9827a6d3",
+      "locator": "Form 460 Schedule A: line 124 (2023-12-13, $4,100.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-11869c87e7",
+      "locator": "Form 460 Schedule A: line 182 (2025-05-15, $5,700.00); line 183 (2025-05-15, $5,000.00); line 184 (2025-05-15, $-5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-a2374ac0ae",
+      "locator": "Form 460 Schedule A: line 150 (2025-10-29, $5,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

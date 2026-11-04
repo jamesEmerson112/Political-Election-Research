@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-correctional-peace-officers-association-pac--org.grove-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-correctional-peace-officers-association-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1750000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-03-06"
+    }
+  },
+  "recipient": "org:grove-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-5af2edbfdd",
+      "locator": "Form 460 Schedule A: line 8 (2023-03-06, $4,500.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-1c4fcb0ec4",
+      "locator": "Form 460 Schedule A: line 1 (2024-02-02, $4,500.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-7549fc1878",
+      "locator": "Form 460 Schedule A: line 29 (2024-05-23, $2,000.00); line 30 (2024-06-10, $4,500.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-a742f28db9",
+      "locator": "Form 460 Schedule A: line 3 (2024-09-04, $2,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

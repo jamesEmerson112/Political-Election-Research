@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.unified-field-services-corporation--org.grove-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:unified-field-services-corporation",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2024-06-10"
+    }
+  },
+  "recipient": "org:grove-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-7549fc1878",
+      "locator": "Form 460 Schedule A: line 173 (2024-06-10, $5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-11869c87e7",
+      "locator": "Form 460 Schedule A: line 236 (2025-04-23, $9,800.00); line 237 (2025-04-23, $5,000.00); line 238 (2025-04-23, $-5,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-a2374ac0ae",
+      "locator": "Form 460 Schedule A: line 208 (2025-10-29, $4,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

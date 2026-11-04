@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.vertical-tank-inc--org.grove-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:vertical-tank-inc",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1910000,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2023-10-23"
+    }
+  },
+  "recipient": "org:grove-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-7c9827a6d3",
+      "locator": "Form 460 Schedule A: line 161 (2023-10-23, $9,100.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-7549fc1878",
+      "locator": "Form 460 Schedule A: line 179 (2024-05-23, $1,000.00); line 180 (2024-06-10, $2,000.00)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-11869c87e7",
+      "locator": "Form 460 Schedule A: line 249 (2025-05-22, $7,000.00); line 250 (2025-05-22, $700.00); line 251 (2025-05-22, $-700.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
