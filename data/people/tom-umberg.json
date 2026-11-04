@@ -123,6 +123,24 @@
         }
       ]
     },
+    "occupation": {
+      "value": "California State Senator (District 34), Chair of the Senate Judiciary Committee; small business owner (ballot designation: Small Businessman/Senator)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Tom Umberg Democratic\nSmall Businessman/Senator",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 4"
+        },
+        {
+          "source": "src:sd34-senate-ca-gov-09c115cd47",
+          "quote": "State Senator Thomas J. Umberg is the Chair of the Senate’s Judiciary Committee. He is a retired U.S. Army Colonel, former federal criminal prosecutor, four-term state legislator, small business owner, and was the Deputy Drug Czar for President Clinton."
+        },
+        {
+          "source": "src:democrats-senate-ca-gov-55cfb5b302",
+          "quote": "Senator Tom Umberg - Santa Ana\nSenate District 34"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [
