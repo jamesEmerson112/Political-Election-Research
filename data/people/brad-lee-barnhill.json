@@ -25,6 +25,22 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "campaign biography",
+          "where": "electbarnhill.rf.gd (campaign site; returned HTTP 502)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Brad Lee Barnhill Independent American Party Nevada secretary of state",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Independent American Party",
       "citations": [
