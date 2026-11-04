@@ -6,6 +6,57 @@
     "Manny Yekutiel"
   ],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel birth date age",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 8"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel birth date age",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel birth date age",
+          "where": "Campaign website (mannyforsf.com: home page only (policy pages not reachable as separate pages))"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel birth date age",
+          "where": "GrowSF November 2026 questionnaire page for the candidate (growsf.org)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel birth date age",
+          "where": "Bay Area Reporter (ebar.com) District 8 race coverage: Sept. 2025 launch articles, Aug. 13 and Aug. 27, 2026 forum reports"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel District 8",
+          "where": "Mission Local District 8 candidate series (missionlocal.org): HTTP 403 bot check, could not be read"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Emanuel Manny Yekutiel District 8",
+          "where": "San Francisco Standard District 8 coverage (sfstandard.com): article text behind sign-in beyond the lede"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Manny Yekutiel age",
+          "where": "Bay Area Reporter, Sept. 19 and Sept. 30, 2025 articles: age only (36 in Sept. 2025), no birth date"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Emanuel Manny Yekutiel\" District 8 supervisor birth date age",
+          "where": "Web search (news)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
