@@ -21,5 +21,70 @@
         "where": "note"
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "strengthen-oversight-of-county-assessors",
+        "as_of": "2026-11-04",
+        "summary": "Says he will strengthen oversight of county assessors so property valuations and exemptions are applied consistently.",
+        "title": "Strengthen oversight of county assessors",
+        "citations": [
+          {
+            "source": "src:samsukaton-com-b71e84e682",
+            "quote": "Strengthen oversight of county assessors so that property valuations and exemptions are applied consistently."
+          }
+        ]
+      },
+      {
+        "id": "transparency-in-assessments-and-appeals",
+        "as_of": "2026-11-04",
+        "summary": "Says he will promote transparency in how assessments, appeals and exemptions work.",
+        "title": "Transparency in assessments, appeals and exemptions",
+        "citations": [
+          {
+            "source": "src:samsukaton-com-b71e84e682",
+            "quote": "Promote transparency in how assessments, appeals, and exemptions work so taxpayers understand their rights and responsibilities."
+          }
+        ]
+      },
+      {
+        "id": "audits-of-assessors",
+        "as_of": "2026-11-04",
+        "summary": "Says he will maintain audits and compliance checks of assessors against statewide standards.",
+        "title": "Audits and compliance checks of assessors",
+        "citations": [
+          {
+            "source": "src:samsukaton-com-b71e84e682",
+            "quote": "Maintain rigorous audits and compliance checks of assessors to ensure local performance meets statewide standards."
+          }
+        ]
+      },
+      {
+        "id": "outreach-on-credits-exemptions-appeals",
+        "as_of": "2026-11-04",
+        "summary": "Says he will expand outreach to renters, small business owners and first-time homeowners about tax credits, exemptions and appeal rights.",
+        "title": "Outreach on tax credits, exemptions and appeal rights",
+        "citations": [
+          {
+            "source": "src:samsukaton-com-b71e84e682",
+            "quote": "Expand outreach so underserved communities (renters, small business owners, first-time homeowners) know about tax credits, exemptions, and appeal rights."
+          }
+        ]
+      },
+      {
+        "id": "split-roll-revenue",
+        "as_of": "2026-11-04",
+        "summary": "Lists opportunities to raise new revenue, such as split-roll, among his BOE focus areas.",
+        "title": "Revenue options such as split-roll",
+        "citations": [
+          {
+            "source": "src:samsukaton-com-b71e84e682",
+            "quote": "as well as opportunities to raise new revenue with things like split-roll."
+          }
+        ]
+      }
+    ]
   }
 }
