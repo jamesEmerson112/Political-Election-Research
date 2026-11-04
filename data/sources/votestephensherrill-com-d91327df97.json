@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "votestephensherrill-com-d91327df97",
+  "kind": "candidate_website",
+  "accessed": "2026-11-04",
+  "publisher": "Stephen Sherrill for Supervisor 2026",
+  "title": "Supervisor Stephen Sherrill for District 2",
+  "url": "https://www.votestephensherrill.com/"
+}

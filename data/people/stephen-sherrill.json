@@ -141,6 +141,20 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-3968fdda8c",
+          "quote": "I’ve lived in San Francisco for 10 years.",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        },
+        {
+          "source": "src:votestephensherrill-com-d91327df97",
+          "quote": "As a father raising a family in District 2 with my wife Sarah, I want this to be the place where families and businesses choose to start, stay, and grow."
+        }
+      ]
     }
   },
   "ids": [
