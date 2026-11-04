@@ -24,6 +24,36 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "end": "2011",
+          "organization": "UNLV",
+          "role": "Distinguished professor of history",
+          "start": "1977",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "professional history: distinguished professor of history, UNLV, Las Vegas, NV, 1977–2011 (professor emeritus, 2011–present);",
+              "locator": "Nevada, Representatives, First District, page 158 (PDF page 169)"
+            }
+          ]
+        },
+        {
+          "organization": "UNLV",
+          "role": "Professor emeritus",
+          "start": "2011",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "professional history: distinguished professor of history, UNLV, Las Vegas, NV, 1977–2011 (professor emeritus, 2011–present);",
+              "locator": "Nevada, Representatives, First District, page 158 (PDF page 169)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
