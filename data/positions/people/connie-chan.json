@@ -21,6 +21,26 @@
       ]
     },
     {
+      "subject": "q:civil-rights/lgbtq-nondiscrimination",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Her campaign plan says she would prohibit discrimination based on sexual orientation and gender identity in employment, housing, education and public accommodations, and lists the Equality Act (H.R.15) among bills she would cosponsor.",
+      "citations": [
+        {
+          "source": "src:conniechansf-com-1803a73c7c",
+          "quote": "Prohibit discrimination on the basis of sexual orientation, gender identity or sex in employment, housing, education and public accommodations as well as in the military.",
+          "locator": "collapsed section \"LGBTQ+ rights\" (text hidden until the section is opened), under \"COnnie will:\""
+        },
+        {
+          "source": "src:conniechansf-com-1803a73c7c",
+          "quote": "Equality Act (H.R.15): Prohibits discrimination based on sexual orientation and gender identity in employment, housing, education, and public accommodations.",
+          "locator": "collapsed section \"LGBTQ+ rights\", under \"Legislation Connie will cosponsor:\""
+        }
+      ]
+    },
+    {
       "subject": "q:healthcare/single-payer",
       "stance": "support",
       "as_of": "2026-11-02",
