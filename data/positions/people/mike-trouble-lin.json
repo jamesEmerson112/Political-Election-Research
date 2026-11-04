@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:mike-trouble-lin",
+  "positions": [
+    {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Asked by GrowSF whether Mayor Lurie's Family Zoning plan was too ambitious or not ambitious enough, said it has been vetted as realistic and implementable.",
+      "citations": [
+        {
+          "source": "src:growsf-org-413572f183",
+          "quote": "I think Mayor Lurie’s plan has been vetted as something realistic which can be implentable",
+          "locator": "Housing: Do you think Mayor Lurie's Family zoning plan is too ambitious or not ambitious enough?"
+        }
+      ]
+    }
+  ]
+}
