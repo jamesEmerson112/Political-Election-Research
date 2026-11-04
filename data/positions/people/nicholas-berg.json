@@ -188,6 +188,26 @@
           "locator": "Transit Infrastructure: Should it be the policy of San Francisco to build a citywide protected bike lane network?"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "oppose",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Says asking taxpayers for more money before fixing SFMTA is backwards and that the agency should first enforce fares, reform work rules and overtime, prioritize high-ridership lines and cut administrative overhead.",
+      "citations": [
+        {
+          "source": "src:growsf-org-ff90a06896",
+          "quote": "No. Asking taxpayers for more money before fixing the agency is backwards.",
+          "locator": "Transit Infrastructure: Do you believe the MUNI funding crisis should be solved by taxes alone?"
+        },
+        {
+          "source": "src:growsf-org-ff90a06896",
+          "quote": "SFMTA should first: enforce fares (evasion costs tens of millions a year and signals lawlessness on the system), reform work rules and overtime practices that inflate costs, prioritize service on high-ridership lines over low-performing ones, and cut administrative overhead.",
+          "locator": "Transit Infrastructure, same question"
+        }
+      ]
     }
   ]
 }
