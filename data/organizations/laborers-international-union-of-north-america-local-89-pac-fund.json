@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "laborers-international-union-of-north-america-local-89-pac-fund",
+  "name": "Laborers International Union of North America Local 89 PAC Fund",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

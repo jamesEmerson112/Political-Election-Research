@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "north-coast-states-regional-council-of-carpenters-power-pac",
+  "name": "North Coast States Regional Council of Carpenters POWER PAC",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

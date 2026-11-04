@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.north-coast-states-regional-council-of-carpenters-power-pac--org.richard-barrera-for-superintendent-of-public-instruction-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:north-coast-states-regional-council-of-carpenters-power-pac",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 1960000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-23"
+    }
+  },
+  "recipient": "org:richard-barrera-for-superintendent-of-public-instruction-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-1f554faa17",
+      "locator": "Form 460 Schedule A: line 42 (2026-09-23, $19,600.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
