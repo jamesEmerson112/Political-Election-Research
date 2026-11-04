@@ -74,5 +74,47 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "california-act-to-save-lives",
+        "kind": "legislation",
+        "date": "2019",
+        "summary": "Authored the California Act to Save Lives, signed by Governor Gavin Newsom in 2019, which set new standards on the use of deadly force by police.",
+        "title": "California Act to Save Lives (police use of deadly force)",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-aeea7b4fd9",
+            "quote": "Dr. Weber was the author of and chief advocate for the California Act to Save Lives, landmark legislation passed and signed by Governor Newsom in 2019 setting new, higher standards on the use of deadly force by police."
+          }
+        ]
+      },
+      {
+        "id": "ab-2466-voting-rights-on-parole",
+        "kind": "legislation",
+        "summary": "Authored AB 2466, which the Governor's Office says extended voting rights to people on parole, more than 50,000 Californians.",
+        "title": "AB 2466: voting rights for people on parole",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-aeea7b4fd9",
+            "quote": "Dr. Weber authored AB 2466 extending voting rights to people on parole – more than 50,000 Californians"
+          }
+        ]
+      },
+      {
+        "id": "ab-2590-restorative-justice-sentencing",
+        "kind": "legislation",
+        "summary": "Passed AB 2590, which gave judges discretion to apply restorative justice principles in certain sentencing cases, according to the Governor's Office.",
+        "title": "AB 2590: restorative justice in sentencing",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-aeea7b4fd9",
+            "quote": "including AB 2590 which made California’s sentencing framework more flexible and effective by giving judges discretion to apply restorative justice principles in certain cases."
+          }
+        ]
+      }
+    ]
   }
 }
