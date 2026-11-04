@@ -56,6 +56,31 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "institution": "Wheaton College",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-54590de1cf",
+              "quote": "After a youth enamored with rock 'n' roll, O'Donnell went to Wheaton College to study piano, then switched to composition."
+            }
+          ]
+        },
+        {
+          "degree": "Master of Music, Composition",
+          "institution": "USC",
+          "year": 1981,
+          "citations": [
+            {
+              "source": "src:martyforcongress-vote-0b37c9b6f9",
+              "quote": "He earned his Master of Music Degree in Composition with honors from USC in 1981."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Composer (retired)",
       "citations": [
