@@ -4,6 +4,15 @@
   "name": "Marty O'Donnell",
   "aliases": [],
   "candidate_profile": {
+    "occupation": {
+      "value": "Composer (retired)",
+      "citations": [
+        {
+          "source": "src:martyforcongress-vote-0b37c9b6f9",
+          "quote": "Marty, now retired, is a composer with time on his hands."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

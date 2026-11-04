@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "martyforcongress-vote-0b37c9b6f9",
+  "kind": "candidate_website",
+  "accessed": "2026-11-04",
+  "publisher": "Marty for Congress",
+  "title": "About Marty - Marty O'Donnell for Congress",
+  "url": "https://martyforcongress.vote/about-marty/",
+  "notes": "Campaign biography page. Opened 2026-11-04. Not archived: web.archive.org was unreachable from the research environment."
+}
