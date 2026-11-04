@@ -69,6 +69,27 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "campaign biography",
+          "where": "drewfornevada.com/about/ (campaign site; served a 'Checking your browser' bot check, not used)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "city of residence",
+          "where": "KOLO, May 22, 2025 announcement article"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Drew Johnson",
+          "where": "The Nevada Independent, Feb. 11, 2026 (treasurer race article)"
+        }
+      ]
     }
   },
   "ids": [],
