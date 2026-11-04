@@ -29,6 +29,23 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "end": "2015",
+          "organization": "Nevada Policy Research Institute",
+          "role": "President",
+          "start": "2011",
+          "citations": [
+            {
+              "source": "src:controller-nv-gov-a5a81f8ccc",
+              "quote": "From 2011-2015, Andy served as President of the Nevada Policy Research Institute, a think tank that promotes market-oriented reforms and solutions to Nevada’s public-policy challenges."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
