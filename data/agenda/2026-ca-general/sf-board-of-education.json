@@ -38,6 +38,68 @@
   ],
   "measures": [],
   "office_ref": "office:sfusd-board-of-education-member",
+  "promise_topics": [
+    {
+      "id": "data-and-reporting",
+      "label": "Public data and reporting"
+    },
+    {
+      "id": "educators",
+      "label": "Educator pay, hiring and retention"
+    },
+    {
+      "id": "literacy-and-math",
+      "label": "Reading and math instruction"
+    },
+    {
+      "id": "school-assignment",
+      "label": "School assignment and enrollment"
+    },
+    {
+      "id": "attendance",
+      "label": "Attendance and chronic absence"
+    },
+    {
+      "id": "budget-and-funding",
+      "label": "Budget, funding and spending"
+    },
+    {
+      "id": "public-engagement",
+      "label": "Family and public engagement"
+    },
+    {
+      "id": "school-resources",
+      "label": "School staffing levels and resources"
+    },
+    {
+      "id": "specialty-programs",
+      "label": "Language immersion and specialty programs"
+    },
+    {
+      "id": "safety-and-inclusion",
+      "label": "School safety and inclusion"
+    },
+    {
+      "id": "special-education",
+      "label": "Special education"
+    },
+    {
+      "id": "student-support-services",
+      "label": "Community schools and student support services"
+    },
+    {
+      "id": "curriculum",
+      "label": "Curriculum"
+    },
+    {
+      "id": "technology",
+      "label": "Technology and AI in schools"
+    },
+    {
+      "id": "board-governance",
+      "label": "Board policies and governance"
+    }
+  ],
   "questions": [
     "q:education/sfusd-proximity-assignment",
     "q:education/sfusd-close-or-merge-schools",

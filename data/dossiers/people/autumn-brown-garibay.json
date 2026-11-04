@@ -1,0 +1,111 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:autumn-brown-garibay",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "demand-implementation-plan-for-student-outcomes",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Brown Garibay's priorities page says the work is to demand the implementation plan for the board's focus on literacy, math and English proficiency and to account for students still being missed, especially English Language Learners and Black students in math.",
+        "title": "Demand an implementation plan for the literacy, math and English proficiency focus",
+        "topic": "literacy-and-math",
+        "citations": [
+          {
+            "source": "src:autumnforschoolboard-com-8a1f8a25ca",
+            "quote": "The work now is to keep the focus, demand the implementation plan, and account honestly for the kids still being missed, especially our English Language Learners and Black students in math.",
+            "locator": "My Priorities: 1. Student Outcomes"
+          }
+        ]
+      },
+      {
+        "id": "disaggregate-outcomes-and-direct-resources-to-gaps",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Brown Garibay's priorities page says equity means disaggregating outcomes, putting resources where the gaps are, and staffing the schools that serve the highest-need students to meet those needs.",
+        "title": "Disaggregate outcomes and put resources where the gaps are",
+        "topic": "school-resources",
+        "citations": [
+          {
+            "source": "src:autumnforschoolboard-com-8a1f8a25ca",
+            "quote": "That means disaggregating outcomes, naming who we are failing and why, putting resources where the gaps are, and making sure the schools serving the highest-need students have the staffing and educator support to actually meet those needs.",
+            "locator": "My Priorities: 3. Equity in Practice"
+          }
+        ]
+      },
+      {
+        "id": "revise-public-participation-rule-9323",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Brown Garibay's GrowSF questionnaire says she would revisit Board Rule and Procedure 9323 on meeting conduct and public participation to make public comment easier to understand and access.",
+        "title": "Revise Board Rule and Procedure 9323 on public participation",
+        "topic": "public-engagement",
+        "citations": [
+          {
+            "source": "src:growsf-org-94a6da9e01",
+            "quote": "I would like to look at Board Rule and Procedure 9323, which covers meeting conduct and public participation.",
+            "locator": "Your Goals: existing Board of Education policy you would like to reform"
+          },
+          {
+            "source": "src:growsf-org-94a6da9e01",
+            "quote": "I would like to make the process easier to understand and easier to access, while protecting the public’s right to speak.",
+            "locator": "Your Goals: existing Board of Education policy you would like to reform"
+          }
+        ]
+      },
+      {
+        "id": "track-vacancies-hiring-timelines-and-turnover",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Brown Garibay's GrowSF questionnaire says that as a board member she would focus on tracking vacancies, hiring timelines and turnover to hold the system accountable for year-over-year improvement.",
+        "title": "Track educator vacancies, hiring timelines and turnover",
+        "topic": "educators",
+        "citations": [
+          {
+            "source": "src:growsf-org-94a6da9e01",
+            "quote": "As a Board Member, I would focus on making sure we’re tracking the right things: vacancies, hiring timelines, and turnover.",
+            "locator": "The Issues: recruiting and retaining educators"
+          }
+        ]
+      },
+      {
+        "id": "share-school-level-data",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Brown Garibay's GrowSF questionnaire says she would like district data shared at a more granular level so families can see how their own school is doing over time.",
+        "title": "Share student and spending data at the school level",
+        "topic": "data-and-reporting",
+        "citations": [
+          {
+            "source": "src:growsf-org-94a6da9e01",
+            "quote": "I would also like to see information shared at a more granular level, so families can understand how their own school is doing over time, while still seeing the bigger picture across the district.",
+            "locator": "The Issues: data transparency and performance reporting"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Autumn Brown Garibay candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Education candidate statements, printed p. 28: goals and questions, no stated action"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "priorities, platform",
+        "where": "autumnforschoolboard.com home page and My Priorities page"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "goals, policy to reform, issues",
+        "where": "GrowSF November 2026 Board of Education questionnaire, Autumn Brown Garibay"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "top three issues, plans",
+        "where": "SF League of Pissed Off Voters 2026 questionnaire, Autumn Brown Garibay (assets.nationbuilder.com PDF); not used once five proposals were found in the earlier sources"
+      }
+    ]
+  }
+}
