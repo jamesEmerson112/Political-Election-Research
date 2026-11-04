@@ -65,6 +65,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birth date / hometown / lives / education / offices",
+          "where": "https://www.samsukaton.com/ (campaign site, 'Meet Sam Sukaton'; https://www.samsukaton.com/about returns 404)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Samuel P. Sukaton",
+          "where": "Official Voter Information Guide 2026 general, p. 93 (prints 'No candidate statement.' for this candidate)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Samuel P. Sukaton (prints a mailing address only, not a stated residence)",
+          "where": "SoS Notice to Candidates, Board of Equalization (https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/boe.pdf), page 3"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Sukaton background",
+          "where": "LAist / CalMatters voter guide, Board of Equalization District 3 (2026-10-04)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Sam Sukaton Board of Equalization endorsements",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"Sukaton\" organizer AFT 1521 lives",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
