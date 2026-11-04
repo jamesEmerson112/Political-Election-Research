@@ -18,6 +18,16 @@
           "locator": "p. 24 (PDF page 26), Candidate Statements, State Assembly, District 17, Manuel Noris-Barrera (March 5, 2024 pamphlet)"
         }
       ]
+    },
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Manuel Noris-Barrera Republican",
+          "locator": "PDF page 21 (list page 20 of 41), State Assembly Member District 17"
+        }
+      ]
     }
   },
   "ids": [],
