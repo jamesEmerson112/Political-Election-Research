@@ -66,6 +66,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Retired military",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "Retired Military",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+            }
+          ]
+        },
+        {
+          "role": "Former federal law enforcement",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "Former Federal law enforcement",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+            }
+          ]
+        },
+        {
+          "role": "Business manager",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "Supports business, is business manager",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
