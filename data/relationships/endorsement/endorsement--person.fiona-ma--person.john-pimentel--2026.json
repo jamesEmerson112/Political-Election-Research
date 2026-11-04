@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.fiona-ma--person.john-pimentel--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:john-pimentel",
+  "endorser": "person:fiona-ma",
+  "citations": [
+    {
+      "source": "src:johnpimentel-com-2a9ede70c6",
+      "quote": "California State Treasurer Fiona Ma"
+    },
+    {
+      "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+      "quote": "I’m endorsed by respected leaders including: Treasurer Fiona Ma, current/former Congressmembers Sam Liccardo, Kevin Mullin, Anna Eshoo and Tom Campbell.",
+      "locator": "page 92, Candidate Statements, Board of Equalization District 2"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

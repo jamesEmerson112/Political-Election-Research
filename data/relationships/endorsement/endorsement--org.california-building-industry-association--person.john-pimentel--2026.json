@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-building-industry-association--person.john-pimentel--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:john-pimentel",
+  "endorser": "org:california-building-industry-association",
+  "citations": [
+    {
+      "source": "src:johnpimentel-com-2a9ede70c6",
+      "quote": "California Building Industries Association"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

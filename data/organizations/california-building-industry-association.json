@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "california-building-industry-association",
+  "name": "California Building Industry Association",
+  "aliases": [
+    "CBIA",
+    "California Building Industries Association"
+  ],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.cbia.org/"
+  },
+  "org_type": "trade_association",
+  "last_verified": "2026-11-04"
+}
