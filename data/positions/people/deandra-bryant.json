@@ -51,6 +51,54 @@
       ]
     },
     {
+      "subject": "q:government/limit-outside-election-spending",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "independent expenditures, outside spending, super PACs, campaign finance limits",
+          "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, District 10 candidate statements (media.api.sf.gov N26_EN_VIP.pdf, printed pp. 47-51) and local measure argument signers"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "independent expenditures, outside spending, super PACs, campaign finance limits",
+          "where": "GrowSF November 2026 questionnaire, Deandra Bryant: answered an eight-question District 10 questionnaire with no question on this topic"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "independent expenditures, outside spending, super PACs, campaign finance limits",
+          "where": "Campaign website: none found (VIP statement lists none; web search)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "independent expenditures, outside spending, super PACs, campaign finance limits",
+          "where": "KQED voter guide, San Francisco Board of Supervisors District 10 (kqed.org/voterguide/sanfrancisco/supervisor-10th-district): Positions on Key Issues"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "independent expenditures, outside spending, super PACs, campaign finance limits",
+          "where": "Gazetteer SF, Sept. 2, 2026 report on the Potrero Hill District 10 debate (Brookter, Ellington, Eppler)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "independent expenditures, outside spending, super PACs, campaign finance limits",
+          "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org 2026/08-2026/10 articles): HTTP 403 bot check, unreadable"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "independent expenditures, outside spending, super PACs, campaign finance limits",
+          "where": "San Francisco Standard (sfstandard.com), Sept. 8, 2026 Flock candidate survey and other District 10 coverage: article text behind sign-in"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "District 10 supervisor candidates Ellington Brookter Eppler Prop F mayor power Prop H Muni parcel tax 2026",
+          "where": "Web search"
+        }
+      ]
+    },
+    {
       "subject": "q:housing/citywide-rezoning",
       "stance": "support",
       "as_of": "2026-11-03",
