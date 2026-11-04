@@ -47,6 +47,17 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "city of residence",
+          "where": "gov.nv.gov/about/governor-joe-lombardo/ (official Governor biography; describes where his family settled in childhood, not his current residence)"
+        }
+      ]
     }
   },
   "ids": [],
