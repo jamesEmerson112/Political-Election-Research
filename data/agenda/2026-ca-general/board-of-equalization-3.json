@@ -44,6 +44,17 @@
           "where": "CAL-ACCESS raw data export (2026-11-03): Form 460 Schedules A and C of Sukaton for State Board of Equalization 2026 (filer 1484005), statements through 2026-10-17, latest amendments"
         }
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "task": "2026-ca-general/board-of-equalization-3|independent_expenditures|person:samuel-p-sukaton",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "candidate last name SUKATON, first name starting SAMUEL: no reports",
+          "where": "CAL-ACCESS raw data export (2026-11-03): Form 496 late independent expenditure reports, 2023-01-01 through 2026-10-17"
+        }
+      ]
     }
   ],
   "measures": [],
