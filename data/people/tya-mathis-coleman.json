@@ -34,6 +34,49 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Nevada State Treasurer's Office",
+          "role": "Deputy Treasurer of College Savings",
+          "citations": [
+            {
+              "source": "src:nevadatreasurer-nv-gov-026059c0d2",
+              "quote": "Dr. Tya Mathis-Coleman serves as the organization’s Deputy Treasurer of College Savings."
+            },
+            {
+              "source": "src:thenevadaindependent-com-b6e1a5f2e0",
+              "quote": "She has spent more than six years as deputy treasurer of college savings — a division that oversees prepaid tuition, 529 plan and student loan programs — and is executive director of the Millennium Scholarship"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County School District",
+          "role": "Director of Recruitment",
+          "citations": [
+            {
+              "source": "src:nevadatreasurer-nv-gov-026059c0d2",
+              "quote": "Most recently she served as the Director of Recruitment for the Clark County School District."
+            },
+            {
+              "source": "src:thenevadaindependent-com-b6e1a5f2e0",
+              "quote": "Mathis-Coleman spent nearly five years leading recruitment efforts at the Clark County School District"
+            }
+          ]
+        },
+        {
+          "organization": "UNLV Lee School of Business",
+          "role": "Adjunct professor",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-b6e1a5f2e0",
+              "quote": "She is also an adjunct professor at the UNLV Lee School of Business"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [

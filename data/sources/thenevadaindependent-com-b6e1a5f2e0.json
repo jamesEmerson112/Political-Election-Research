@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-b6e1a5f2e0",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-02-11",
+  "publisher": "The Nevada Independent",
+  "title": "Tya Mathis-Coleman, a Conine staffer, enters treasurer's race with his endorsement",
+  "url": "https://thenevadaindependent.com/article/tya-mathis-coleman-a-conine-staffer-enters-treasurers-race-with-his-endorsement"
+}
