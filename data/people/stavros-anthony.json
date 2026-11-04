@@ -26,6 +26,15 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Lieutenant Governor of Nevada",
+      "citations": [
+        {
+          "source": "src:ltgov-nv-gov-24fc65ec53",
+          "quote": "Anthony was elected as Nevada’s Lieutenant Governor in 2022."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
