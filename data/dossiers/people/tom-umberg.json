@@ -81,5 +81,62 @@
         "where": "note"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "sb-883-preventing-chemical-explosions-act",
+        "kind": "legislation",
+        "bill": "ca-2025-sb-883",
+        "date": "2026-09-28",
+        "summary": "Authored SB 883 (Preventing Chemical Explosions Act), requiring backup cooling or another approved contingency system at new reactive chemical storage facilities and inspections at least once every three years, after the May 2026 Garden Grove emergency; signed September 2026; no measured outcome recorded as of 2026-11-04.",
+        "title": "SB 883: Preventing Chemical Explosions Act",
+        "citations": [
+          {
+            "source": "src:sd34-senate-ca-gov-0a133cfc79",
+            "quote": "announced that Governor Gavin Newsom signed Senate Bill 883, the Preventing Chemical Explosions Act"
+          },
+          {
+            "source": "src:sd34-senate-ca-gov-0a133cfc79",
+            "quote": "Requiring new reactive chemical storage facilities that pose an explosion risk to have a backup cooling system or another approved contingency system."
+          },
+          {
+            "source": "src:sd34-senate-ca-gov-0a133cfc79",
+            "quote": "Requiring routine inspections of reactive chemical storage facilities at least once every three years, with results reported to state emergency and environmental agencies."
+          },
+          {
+            "source": "src:sd34-senate-ca-gov-0a133cfc79",
+            "quote": "SB 883 was developed following the May emergency at the GKN Aerospace facility in Garden Grove"
+          },
+          {
+            "source": "src:gov-ca-gov-339445da1c",
+            "quote": "SB 883 by Senator Thomas Umberg (D-Santa Ana) — Hazardous materials: reactive chemicals: methyl methacrylate: facilities."
+          }
+        ]
+      },
+      {
+        "id": "sb-884-protect-our-polls-act",
+        "kind": "legislation",
+        "bill": "ca-2025-sb-884",
+        "date": "2026-09-19",
+        "summary": "Authored SB 884 (Protect Our Polls Act), prohibiting law enforcement arrests within 200 feet of polling places on Election Day, with stated exceptions, and requiring ballot drop-off locations to open at least 30 days before an election; signed September 19, 2026; no measured outcome recorded as of 2026-11-04.",
+        "title": "SB 884: Protect Our Polls Act",
+        "citations": [
+          {
+            "source": "src:sd34-senate-ca-gov-19da6cf1d0",
+            "quote": "announced that Governor Gavin Newsom signed Senate Bill 884, the Protect Our Polls Act."
+          },
+          {
+            "source": "src:sd34-senate-ca-gov-19da6cf1d0",
+            "quote": "Prohibiting law enforcement officers from making arrests within 200 feet of polling places on Election Day, with exceptions for crimes involving disruptions to polling operations or crimes against people or property."
+          },
+          {
+            "source": "src:sd34-senate-ca-gov-19da6cf1d0",
+            "quote": "Expanding access to early voting by requiring ballot drop-off locations to open at least 30 days before an election."
+          }
+        ]
+      }
+    ]
   }
 }
