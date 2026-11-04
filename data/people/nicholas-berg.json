@@ -67,6 +67,37 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "Nicholas Berg elected or appointed public office",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), District 2 candidate statements, printed pp. 40-41 (no statement printed for Nicholas Berg)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Nicholas Berg elected or appointed public office",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Nicholas Berg elected or appointed public office",
+          "where": "Campaign site nicholasberg.com (connection reset; not readable)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Nicholas Berg elected or appointed public office",
+          "where": "GrowSF November 2026 questionnaire, Nicholas Berg (growsf.org)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Nicholas Berg elected or appointed public office",
+          "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
+        }
+      ]
     }
   },
   "ids": [],
