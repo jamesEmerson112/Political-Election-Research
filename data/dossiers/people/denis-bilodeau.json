@@ -26,5 +26,64 @@
         "where": "note"
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "oppose-car-mileage-tax",
+        "as_of": "2026-11-04",
+        "summary": "Says he will oppose the proposed car mileage tax.",
+        "title": "Oppose the proposed car mileage tax",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I’ll oppose the proposed car mileage tax.",
+            "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+          }
+        ]
+      },
+      {
+        "id": "protect-proposition-13",
+        "as_of": "2026-11-04",
+        "summary": "Says he signed the Howard Jarvis Taxpayers Association pledge to protect Proposition 13.",
+        "title": "Protect Proposition 13",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I signed the Howard Jarvis Taxpayers Association\nPledge to Save Proposition 13",
+            "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+          },
+          {
+            "source": "src:bilodeauforboe-com-e8bc2a4152",
+            "quote": "Denis signed the Howard Jarvis Taxpayers Association Pledge to protect Proposition 13 and will always defend your property rights."
+          }
+        ]
+      },
+      {
+        "id": "oppose-tax-increases",
+        "as_of": "2026-11-04",
+        "summary": "Says he signed the Pledge to Oppose Tax Increases.",
+        "title": "Oppose tax increases",
+        "citations": [
+          {
+            "source": "src:bilodeauforboe-com-e8bc2a4152",
+            "quote": "Denis signed the Pledge to Oppose Tax Increases and will fight against any attempts to raise your tax burden."
+          }
+        ]
+      },
+      {
+        "id": "close-loopholes-special-interests",
+        "as_of": "2026-11-04",
+        "summary": "Says he will work to close loopholes that, in his campaign's words, benefit special interests.",
+        "title": "Close loopholes",
+        "citations": [
+          {
+            "source": "src:bilodeauforboe-com-e8bc2a4152",
+            "quote": "Using his expertise in property tax law, Denis will work to close loopholes that benefit special interests while ensuring fair treatment for all California taxpayers."
+          }
+        ]
+      }
+    ]
   }
 }
