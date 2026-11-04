@@ -85,5 +85,26 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "outcomes / programs / adopted",
+        "where": "https://www.smccd.edu/boardoftrustees/documents/Pimentel%20Bio.pdf (official district bio; lists roles, no documented outcomes)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "results",
+        "where": "https://johnpimentel.com/about-john/ (campaign claims about free college, fraud and energy projects; campaign claims are not government records)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "San Mateo County Community College District board approves free college program Pimentel trustee resolution (no board record attributing an action to him found)",
+        "where": "web search"
+      }
+    ]
   }
 }
