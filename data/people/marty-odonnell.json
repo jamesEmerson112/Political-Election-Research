@@ -56,6 +56,42 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "O’Donnell/Salvatori Inc.",
+          "role": "Founder",
+          "citations": [
+            {
+              "source": "src:martyforcongress-vote-0b37c9b6f9",
+              "quote": "Then, a few months later, Marty started his first career by founding the Chicago-based commercial music and sound production company O’Donnell/Salvatori Inc."
+            }
+          ]
+        },
+        {
+          "organization": "Bungie",
+          "role": "Audio Director and Composer",
+          "start": "2000",
+          "citations": [
+            {
+              "source": "src:martyforcongress-vote-0b37c9b6f9",
+              "quote": "In the spring of 2000, ten days after Marty accepted a position as Bungie’s Audio Director and Composer, Microsoft purchased the studio"
+            }
+          ]
+        },
+        {
+          "organization": "Highwire Games",
+          "role": "Co-founder and co-owner",
+          "citations": [
+            {
+              "source": "src:martyforcongress-vote-0b37c9b6f9",
+              "quote": "Marty is also co-founder and co-owner of Highwire Games."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
