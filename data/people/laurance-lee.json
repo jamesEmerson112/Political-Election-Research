@@ -54,6 +54,29 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Biotech researcher",
+          "citations": [
+            {
+              "source": "src:lauranceleesf-com-839ad6f827",
+              "quote": "Graduates Harvard; works as a biotech researcher trying to cure cancer, recognized with a Merck research award."
+            }
+          ]
+        },
+        {
+          "role": "Licensed general contractor",
+          "citations": [
+            {
+              "source": "src:lauranceleesf-com-839ad6f827",
+              "quote": "Licensed general contractor, working on residential real estate projects across the Bay Area and other states."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
