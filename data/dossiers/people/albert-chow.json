@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:albert-chow",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "great-highway-weekday-cars",
+        "as_of": "2026-11-04",
+        "issue": "transportation",
+        "summary": "Chow's priorities page lists opening the Great Highway to cars on weekdays and closing it on weekends.",
+        "title": "Restore the Great Highway weekday/weekend compromise",
+        "citations": [
+          {
+            "source": "src:albertchowsf-com-bedf28adf6",
+            "quote": "Restore the Great Highway compromise by opening it to cars on weekdays and closing the road on the weekends"
+          }
+        ]
+      },
+      {
+        "id": "fully-staff-taraval-station",
+        "as_of": "2026-11-04",
+        "issue": "public-safety",
+        "summary": "Chow's priorities page lists making sure Taraval Station is fully staffed to lower response times.",
+        "title": "Fully staff SFPD's Taraval Station",
+        "citations": [
+          {
+            "source": "src:albertchowsf-com-bedf28adf6",
+            "quote": "Improve public safety by making sure Taraval Station is fully staffed to lower response times and stop crime"
+          }
+        ]
+      }
+    ]
+  }
+}
