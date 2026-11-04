@@ -82,6 +82,37 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "large-corporations-pay-share",
+        "as_of": "2026-11-04",
+        "summary": "Says he will work to make the tax system fair for everyday Californians while ensuring large corporations pay their share.",
+        "title": "Ensure large corporations pay their share",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I am running for Board of Equalization to be your watchdog—fighting to make our tax\nsystem fair and equitable for everyday Californians while ensuring that big monied\ncorporations pay their fair share.",
+            "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+          }
+        ]
+      },
+      {
+        "id": "protect-homeowners-renters-small-businesses",
+        "as_of": "2026-11-04",
+        "summary": "Says he will protect homeowners, renters and small businesses and oppose wealthy interests that get around the rules.",
+        "title": "Protect homeowners, renters and small businesses",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "I will be your voice for tax fairness,\nprotecting homeowners, renters, and small businesses while standing up to wealthy\ninterests who get around the rules.",
+            "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+          }
+        ]
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-04",
     "items": [
