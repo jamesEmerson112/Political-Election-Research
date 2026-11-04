@@ -86,6 +86,16 @@
           "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org): HTTP 403 bot check, unreadable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "I’ve lived in San Francisco my entire life.",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        }
+      ]
     }
   },
   "ids": [],
