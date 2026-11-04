@@ -34,6 +34,30 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "institution": "University of Nevada, Reno",
+          "citations": [
+            {
+              "source": "src:adrianafornevada-com-5c06314366",
+              "quote": "She grew up in Northern Nevada, went to Sparks High School, and earned her degree from the University of Nevada, Reno and her law degree from UNLV's William S. Boyd School of Law."
+            }
+          ]
+        },
+        {
+          "degree": "Law degree",
+          "institution": "UNLV William S. Boyd School of Law",
+          "citations": [
+            {
+              "source": "src:adrianafornevada-com-5c06314366",
+              "quote": "She grew up in Northern Nevada, went to Sparks High School, and earned her degree from the University of Nevada, Reno and her law degree from UNLV's William S. Boyd School of Law."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney; founder of AGF Law",
       "citations": [
