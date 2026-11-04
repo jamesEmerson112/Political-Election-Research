@@ -18,6 +18,33 @@
           "locator": "page 1, Board of Supervisors, District 6, English Ballot Designation column"
         }
       ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, Board of Supervisors, District 6",
+          "current": true,
+          "first_elected": "2022",
+          "jurisdiction": "City and County of San Francisco",
+          "office_ref": "office:san-francisco-supervisor",
+          "citations": [
+            {
+              "source": "src:mattdorsey-org-16bdf51abc",
+              "quote": "Supervisor Matt Dorsey was elected in 2022 against the backdrop of a record-shattering crisis in accidental drug overdose deaths in San Francisco."
+            },
+            {
+              "source": "src:sf-gov-48f07f5fd8",
+              "quote": "Supervisor Matt Dorsey represents District 6."
+            },
+            {
+              "source": "src:growsf-org-aecb4e3daa",
+              "quote": "It was my own journey in recovery from addiction that moved me to ask — first Mayor London Breed, and then District 6 voters — for a role on the Board of Supervisors.",
+              "locator": "Your Policy Goals"
+            }
+          ]
+        }
+      ]
     }
   },
   "ids": [
