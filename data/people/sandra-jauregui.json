@@ -52,6 +52,31 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member of the Nevada Assembly, District 41 (Majority Floor Leader)",
+          "current": true,
+          "first_elected": "2016",
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-dddc7c261e",
+              "quote": "Assemblymember Sandra Jauregui Majority Floor Leader Party: Democratic District 41"
+            },
+            {
+              "source": "src:thenevadaindependent-com-73eaa76913",
+              "quote": "Jauregui was elected to the Legislature in 2016"
+            },
+            {
+              "source": "src:thenevadaindependent-com-73eaa76913",
+              "quote": "Jauregui, who has served in Assembly since 2016 and ends her tenure in the third highest-ranking leadership position as majority floor leader"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
