@@ -165,6 +165,39 @@
           "where": "SF Standard, \"We asked candidates if SF should keep Flock surveillance, or tell it to Flock off\" (Sep. 8, 2026)"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/bike-lanes-over-parking",
+      "stance": "no_public_position",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "protected bike lanes; street parking removal",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 4, printed p. 42 (supports Slow Streets near schools and safer bike corridors; does not address parking)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "protected bike lanes; street parking removal",
+          "where": "Campaign site jeremygreco2026.com (home page; the About and Why I'm Running pages rendered only a site-builder shell)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "protected bike lanes; street parking removal",
+          "where": "SF League of Pissed Off Voters questionnaires, Jeremy Greco, November 2026 and June 2026 (assets.nationbuilder.com PDFs)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "protected bike lanes; street parking removal",
+          "where": "GrowSF June 2026 questionnaire page for Jeremy Greco (candidate did not respond) and GrowSF District 4 guide (No Response)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "protected bike lanes; street parking removal",
+          "where": "Mission Local (missionlocal.org article pages and WordPress API): HTTP 403 bot check, not readable"
+        }
+      ]
     }
   ]
 }
