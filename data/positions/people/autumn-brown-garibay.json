@@ -46,6 +46,26 @@
       ]
     },
     {
+      "subject": "q:education/sfusd-limit-screens-and-ai",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Brown Garibay says students should learn to use AI responsibly, but AI should have a clear purpose in school and should not replace reading, writing and problem-solving skills.",
+      "citations": [
+        {
+          "source": "src:assets-nationbuilder-com-3840e6726f",
+          "quote": "AI is something students will need to understand, but it should have a clear purpose in school.",
+          "locator": "page 8"
+        },
+        {
+          "source": "src:assets-nationbuilder-com-3840e6726f",
+          "quote": "I do not want AI becoming a shortcut that replaces those skills, or another technology schools use simply because it is available.",
+          "locator": "page 8"
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-proximity-assignment",
       "stance": "mixed",
       "as_of": "2026-11-04",
