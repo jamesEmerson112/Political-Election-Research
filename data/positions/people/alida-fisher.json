@@ -3,6 +3,24 @@
   "actor": "person:alida-fisher",
   "positions": [
     {
+      "subject": "q:education/sfusd-8th-grade-algebra",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "Fisher says the evidence supports expanding access to Algebra while keeping Math 8, and that not every student wants to accelerate.",
+      "citations": [
+        {
+          "source": "src:alidafisher-com-6909d6ce87",
+          "quote": "The strongest evidence supports expanding access to Algebra while preserving Math 8 as a critical foundation."
+        },
+        {
+          "source": "src:alidafisher-com-6909d6ce87",
+          "quote": "Stanford research and SFUSD pilot data show that offering Algebra as an eighth-grade elective can produce significant gains in both state and local assessment scores"
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-close-or-merge-schools",
       "stance": "support",
       "as_of": "2026-11-04",
