@@ -189,6 +189,16 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-aecb4e3daa",
+          "quote": "My work in local government and politics in San Francisco began more than three decades ago, when as a newly arrived college graduate I served as a deputy press secretary and campaign finance assistant to former San Francisco District Attorney Arlo Smith in his 1990 bid for California Attorney General.",
+          "locator": "Personal: How long have you lived in San Francisco? What brought you here and what keeps you here?"
+        }
+      ]
     }
   },
   "ids": [
