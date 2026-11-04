@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfexaminer-com-cfd1c154fe",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-06-17",
+  "publisher": "San Francisco Examiner",
+  "title": "Supervisor candidates envision future for beloved District 8",
+  "url": "https://www.sfexaminer.com/news/politics/supervisor-candidates-envision-future-for-beloved-district-8/article_5d984317-d738-4d26-8c2a-82c4abadf145.html"
+}

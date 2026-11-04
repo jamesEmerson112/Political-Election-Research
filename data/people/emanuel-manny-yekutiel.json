@@ -131,6 +131,20 @@
           "where": "Web search (news)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Castro)",
+      "citations": [
+        {
+          "source": "src:ebar-com-d1123d3d34",
+          "quote": "Yekutiel, 36, owns an eponymous cafe in the city’s Mission district, but is a Castro resident."
+        },
+        {
+          "source": "src:sfexaminer-com-cfd1c154fe",
+          "quote": "He later found a home in the Castro, where he rents an apartment next to the former camera shop once owned by the late gay civil-rights leader Harvey Milk.",
+          "locator": "Manny Yekutiel section"
+        }
+      ]
     }
   },
   "ids": [
