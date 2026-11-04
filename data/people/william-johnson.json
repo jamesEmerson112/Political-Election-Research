@@ -3,6 +3,23 @@
   "id": "william-johnson",
   "name": "William Johnson",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "No Political Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Johnson William NPP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 4"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
