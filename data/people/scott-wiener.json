@@ -170,10 +170,19 @@
           }
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:sd11-senate-ca-gov-defa21acba",
+          "quote": "He has lived in San Francisco’s Castro neighborhood since 1997."
+        }
+      ]
     }
   },
   "ids": [],
   "links": {},
   "public_figure": true,
-  "last_verified": "2026-11-02"
+  "last_verified": "2026-11-04"
 }
