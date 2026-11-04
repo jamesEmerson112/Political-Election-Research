@@ -197,6 +197,29 @@
           "quote": "I don’t think we should have technology that can be used by [Immigration and Customs Enforcement] to disappear our brothers and sisters, and neighbors in the city"
         }
       ]
+    },
+    {
+      "subject": "q:transportation/local-tax-for-muni",
+      "stance": "support",
+      "as_of": "2026-08-27",
+      "cycle": 2026,
+      "evidence_type": "debate",
+      "summary": "Asked at the Aug. 12, 2026 forum about the regional transit sales tax and the Proposition H parcel tax for Muni, said they should be supported, while saying he is tired of bailing out the system every few years. In GrowSF's questionnaire he said Muni's funding crisis should not be solved by taxes alone.",
+      "citations": [
+        {
+          "source": "src:ebar-com-6afcceb1dd",
+          "quote": "Moderator Patrick Hoge of the San Francisco Examiner asked if the candidates supported the regional sales tax and the parcel tax measures that are on the November ballot specifically to pay for transportation"
+        },
+        {
+          "source": "src:ebar-com-6afcceb1dd",
+          "quote": "Of course we should be supporting this measure, but like Gary said, I’m tired of every few years having to bail out a system that is essential in our city."
+        },
+        {
+          "source": "src:growsf-org-e9f57d3c82",
+          "quote": "No. Muni’s funding crisis should not be solved by taxes alone",
+          "locator": "Transit Infrastructure: taxes alone question"
+        }
+      ]
     }
   ]
 }
