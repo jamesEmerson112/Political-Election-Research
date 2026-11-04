@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-ca-general/board-of-equalization-3",
+  "kind": "office",
+  "election": "election:2026-ca-general",
+  "name": "Board of Equalization Member District 3",
+  "office": "Board of Equalization Member",
+  "candidates": [
+    {
+      "person": "person:mike-gipson",
+      "ballot_designation": "State Assemblymember/Father",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Board of Equalization Member District 3\nMike Gipson Democratic\nState Assemblymember/Father",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 3"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; on page 4 no asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:boe-ca-gov-a224b791e9",
+          "quote": "Antonio Vazquez\nThird District",
+          "locator": "homepage, California State Board of Equalization's Board Members"
+        }
+      ]
+    },
+    {
+      "person": "person:samuel-p-sukaton",
+      "ballot_designation": "Labor Union Organizer",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Samuel P. Sukaton Democratic\nLabor Union Organizer",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 3"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "* Incumbent",
+          "locator": "PDF page 3 (list page 2 of 41), key at the foot of the page; on page 4 no asterisk follows this candidate's name"
+        },
+        {
+          "source": "src:boe-ca-gov-a224b791e9",
+          "quote": "Antonio Vazquez\nThird District",
+          "locator": "homepage, California State Board of Equalization's Board Members"
+        }
+      ]
+    }
+  ],
+  "district": 3,
+  "level": "state",
+  "office_ref": "office:california-board-of-equalization-member",
+  "vote_for": 1,
+  "last_verified": "2026-11-04"
+}
