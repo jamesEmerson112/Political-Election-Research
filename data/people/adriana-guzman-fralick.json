@@ -47,6 +47,33 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Chair, Nevada Cannabis Compliance Board",
+          "current": false,
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:adrianafornevada-com-5c06314366",
+              "quote": "Chair, Nevada Cannabis Compliance Board"
+            },
+            {
+              "source": "src:8newsnow-com-f2fd2cdc21",
+              "quote": "Her experience on the Nevada Cannabis Compliance Board gave her additional perspective."
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "appointed public office",
+          "where": "adrianafornevada.com (campaign home page lists 'Member, Governor's Crime Commission' without dates or whether current)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
