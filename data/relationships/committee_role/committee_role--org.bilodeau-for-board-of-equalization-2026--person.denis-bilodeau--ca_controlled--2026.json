@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.bilodeau-for-board-of-equalization-2026--person.denis-bilodeau--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/board-of-equalization-4",
+  "subject": "person:denis-bilodeau",
+  "committee": "org:bilodeau-for-board-of-equalization-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-64807b34dc",
+      "locator": "Form 460 cover page (filing 3214491, amendment 0): committee, candidate and office: Denis Bilodeau, BOE District 4"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
