@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:virginia-cheung",
+  "positions": [
+    {
+      "subject": "q:education/sfusd-proximity-assignment",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "interview",
+      "summary": "KQED reports that Cheung supports a zone-based assignment system and names family choice and access to equitable schools as priorities.",
+      "citations": [
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "Cheung believes families’ choice and access to equitable schools should be the district’s priorities. She supports a zone-based system",
+          "locator": "Positions on Key Issues, student-assignment question"
+        }
+      ]
+    },
+    {
+      "subject": "q:education/sfusd-spend-reserves",
+      "stance": "mixed",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Cheung supports keeping the legally required reserve plus a stabilization reserve, and says reserves should not keep growing while classrooms are understaffed.",
+      "citations": [
+        {
+          "source": "src:assets-nationbuilder-com-5e8f3edc5d",
+          "quote": "I support maintaining the legally required reserve plus a prudent stabilization reserve based on clearly identified risks and future obligations. But reserves should not grow indefinitely while classrooms are understaffed and students go without services.",
+          "locator": "page 13"
+        }
+      ]
+    }
+  ]
+}
