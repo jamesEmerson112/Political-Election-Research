@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.malia-cohen-for-controller-2026--person.malia-m-cohen--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/controller",
+  "subject": "person:malia-m-cohen",
+  "committee": "org:malia-cohen-for-controller-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-88b48b47e9",
+      "locator": "Form 460 cover page (filing 3215471, amendment 1): committee, candidate and office: Malia Cohen, CON"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
