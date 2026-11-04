@@ -4,6 +4,19 @@
   "name": "Richard Barrera",
   "aliases": [],
   "candidate_profile": {
+    "birthplace": {
+      "value": "San Diego, California (described as \"a San Diego native\"; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:barreraforedu-com-551e926080",
+          "quote": "A San Diego native, Richard attended public school from kindergarten through college"
+        },
+        {
+          "source": "src:sandiegounified-org-3f7629f84e",
+          "quote": "A first-generation San Diegan whose father immigrated to the United States from Colombia"
+        }
+      ]
+    },
     "career": {
       "as_of": "2026-11-03",
       "items": [
