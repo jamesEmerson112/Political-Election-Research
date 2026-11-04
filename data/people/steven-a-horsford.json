@@ -52,6 +52,16 @@
           "locator": "PDF page 1, Abbreviations"
         }
       ]
+    },
+    "residence_city": {
+      "value": "North Las Vegas",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "STEVEN HORSFORD, Democrat, of North Las Vegas, NV;",
+          "locator": "Nevada, Representatives, Fourth District, page 159 (PDF page 170)"
+        }
+      ]
     }
   },
   "ids": [
