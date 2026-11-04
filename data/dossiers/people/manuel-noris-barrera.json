@@ -26,5 +26,60 @@
         "where": "Web search"
       }
     ]
+  },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "repeal-prop-47",
+        "as_of": "2024-03-05",
+        "issue": "public-safety",
+        "summary": "In his candidate statement for this seat in the San Francisco voter pamphlet for the March 5, 2024 primary, he said that if elected he would work to repeal Prop 47. No 2026 statement from him was found.",
+        "title": "Work to repeal Proposition 47",
+        "citations": [
+          {
+            "source": "src:sf-gov-99e694efe0",
+            "quote": "If elected, I’ll actively work to repeal Prop 47 and Prop 19, the “Death-Tax”",
+            "locator": "p. 24 (PDF page 26), Candidate Statements, State Assembly, District 17, Manuel Noris-Barrera (March 5, 2024 pamphlet)"
+          }
+        ]
+      },
+      {
+        "id": "repeal-prop-19",
+        "as_of": "2024-03-05",
+        "issue": "taxes",
+        "summary": "In the same March 2024 statement he said that if elected he would work to repeal Prop 19, which he called the \"Death-Tax\". No 2026 statement from him was found.",
+        "title": "Work to repeal Proposition 19",
+        "citations": [
+          {
+            "source": "src:sf-gov-99e694efe0",
+            "quote": "If elected, I’ll actively work to repeal Prop 47 and Prop 19, the “Death-Tax”",
+            "locator": "p. 24 (PDF page 26), Candidate Statements, State Assembly, District 17, Manuel Noris-Barrera (March 5, 2024 pamphlet)"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Noris; no candidate statement from him",
+        "where": "San Francisco Voter Information Pamphlets, November 2026 and June 2026"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "specific proposals; names priorities (drugs, crime, homelessness, wasteful spending) but no specific proposal",
+        "where": "San Francisco Voter Information Pamphlet, November 5, 2024, candidate statement (p. 24)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "not available: the domain returns 404 (\"Reconnect Your Domain\")",
+        "where": "Campaign site named in his 2024 statement (manuelnoris.com)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "\"Noris-Barrera\" Assembly District 17 Republican San Francisco 2026",
+        "where": "Web search"
+      }
+    ]
   }
 }
