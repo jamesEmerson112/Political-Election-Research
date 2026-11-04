@@ -73,6 +73,57 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, California State Assembly",
+          "current": true,
+          "first_elected": "2014",
+          "jurisdiction": "California (65th Assembly District)",
+          "office_ref": "office:california-assembly-member",
+          "citations": [
+            {
+              "source": "src:mikegipson-net-7e7d300eaf",
+              "quote": "First elected in 2014, Mike Gipson currently represents the 65th District in the California State Assembly."
+            },
+            {
+              "source": "src:blackcaucus-legislature-ca-gov-271ba316d7",
+              "quote": "Today, Assemblymember Gipson represents the new 65th Assembly District"
+            }
+          ]
+        },
+        {
+          "office": "Assembly Democratic Caucus Chair",
+          "current": false,
+          "end": "2023-07",
+          "jurisdiction": "California State Assembly",
+          "start": "2015",
+          "citations": [
+            {
+              "source": "src:blackcaucus-legislature-ca-gov-271ba316d7",
+              "quote": "In 2015, Assembly Speaker Anthony Rendon appointed Assemblymember Gipson to serve as his right hand in the influential role of Assembly Democratic Caucus Chair"
+            },
+            {
+              "source": "src:mikegipson-net-7e7d300eaf",
+              "quote": "Gipson previously served as Assembly Democratic Caucus Chair until July 2023"
+            }
+          ]
+        },
+        {
+          "office": "Member, Carson City Council (including Mayor Pro Tempore)",
+          "current": false,
+          "first_elected": "2005",
+          "jurisdiction": "City of Carson",
+          "citations": [
+            {
+              "source": "src:blackcaucus-legislature-ca-gov-271ba316d7",
+              "quote": "Assemblymember Gipson’s undeniable passion for public service propelled him to run and get elected to the Carson City Council in 2005. He served as Mayor Pro Tempore, for nearly a decade, before running for the California State Assembly in 2014, where he has served ever since."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
