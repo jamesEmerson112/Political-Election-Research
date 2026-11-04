@@ -23,6 +23,21 @@
           ]
         }
       ]
+    },
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Denis Bilodeau Republican",
+          "locator": "PDF page 4 (list page 3 of 41), Board of Equalization Member District 4"
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "Denis Bilodeau | REPUBLICAN",
+          "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+        }
+      ]
     }
   },
   "ids": [],
