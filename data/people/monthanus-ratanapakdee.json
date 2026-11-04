@@ -142,6 +142,20 @@
           "where": "Mission Local candidate profile pages (missionlocal.org): HTTP 403 bot check, not readable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Monthanus Ratanapakdee is a longtime San Francisco resident for nearly three decades",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 2, printed p. 40 (PDF p. 42)"
+        },
+        {
+          "source": "src:ratanapakdeesf-org-67a318d4a9",
+          "quote": "For nearly 30 years, San Francisco has been my home."
+        }
+      ]
     }
   },
   "ids": [],
