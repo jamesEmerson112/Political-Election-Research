@@ -34,6 +34,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney; founder of AGF Law",
+      "citations": [
+        {
+          "source": "src:adrianafornevada-com-5c06314366",
+          "quote": "Founder, AGF Law"
+        },
+        {
+          "source": "src:8newsnow-com-f2fd2cdc21",
+          "quote": "For the past seven years, she has been in private practice after opening her own law firm."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
