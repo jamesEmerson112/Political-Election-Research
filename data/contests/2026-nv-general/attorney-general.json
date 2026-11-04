@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/attorney-general",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Attorney General",
+  "office": "Attorney General",
+  "candidates": [
+    {
+      "person": "person:nicole-jeanette-cannizzaro",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Cannizzaro Nicole Jeanette DEM",
+          "locator": "PDF page 2 (Page 2 of 10), Attorney General (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:ag-nv-gov-55e6df11d7",
+          "quote": "Attorney General Aaron D. Ford, Nevada’s 34th Attorney General, took office on January 7, 2019",
+          "locator": "Meet the Attorney General: the sitting Attorney General is Aaron D. Ford, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:adriana-guzman-fralick",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Guzmán Fralick Adriana REP",
+          "locator": "PDF page 2 (Page 2 of 10), Attorney General (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:ag-nv-gov-55e6df11d7",
+          "quote": "Attorney General Aaron D. Ford, Nevada’s 34th Attorney General, took office on January 7, 2019",
+          "locator": "Meet the Attorney General: the sitting Attorney General is Aaron D. Ford, so this candidate is not the incumbent"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-04"
+}

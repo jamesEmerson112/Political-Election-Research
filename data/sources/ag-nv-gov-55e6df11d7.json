@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ag-nv-gov-55e6df11d7",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "Office of the Nevada Attorney General",
+  "title": "Meet the Attorney General Aaron D. Ford",
+  "url": "https://ag.nv.gov/About/AG_Aaron_Ford/"
+}
