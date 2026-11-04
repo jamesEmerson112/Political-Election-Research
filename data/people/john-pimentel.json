@@ -4,6 +4,75 @@
   "name": "John Pimentel",
   "aliases": [],
   "candidate_profile": {
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, Board of Trustees, San Mateo County Community College District (Area 5)",
+          "current": true,
+          "first_elected": "2020",
+          "jurisdiction": "San Mateo County Community College District",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "In 2020, he was elected to represent Area 5 (including Redwood City, East Palo Alto, North Fair Oaks and Menlo Park) on the San Mateo County Community College District Board of Trustees."
+            },
+            {
+              "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+              "quote": "John Pimentel Democratic Member, Board of Trustees, San Mateo County Community College District",
+              "locator": "PDF page 3 (list page 2 of 41), Board of Equalization Member District 2"
+            }
+          ]
+        },
+        {
+          "office": "California Deputy Secretary for Transportation",
+          "current": false,
+          "jurisdiction": "California",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "In the 1990’s Trustee Pimentel was California’s Deputy Secretary for Transportation overseeing Caltrans, Highway Patrol/State Police, and parts of the DMV."
+            }
+          ]
+        },
+        {
+          "office": "Member, Bay Conservation and Development Commission",
+          "current": false,
+          "jurisdiction": "California",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "In that role he helped manage the rapid rebuilding of Southern California’s freeways after the 1994 Northridge Earthquake, served on the Bay Conservation and Development Commission, and was Director of the Executive Fellows Program."
+            }
+          ]
+        },
+        {
+          "office": "Member, City of Menlo Park Housing Commission",
+          "jurisdiction": "City of Menlo Park",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "He is also on the City of Menlo Park's Housing Commission and he serves as an alternate on the San Mateo County Democratic Central Committee."
+            },
+            {
+              "source": "src:johnpimentel-com-bfe1bed736",
+              "quote": "“As a Housing Commissioner in Menlo Park,"
+            }
+          ]
+        },
+        {
+          "office": "Student Trustee, San Joaquin Delta Community College District",
+          "current": false,
+          "jurisdiction": "San Joaquin Delta Community College District",
+          "citations": [
+            {
+              "source": "src:smccd-edu-1b2ae391ef",
+              "quote": "He was the student body president and Student Trustee for San Joaquin Delta Community College District."
+            }
+          ]
+        }
+      ]
+    },
     "residence_city": {
       "value": "Menlo Park",
       "citations": [

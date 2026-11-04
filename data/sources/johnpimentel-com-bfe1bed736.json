@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "johnpimentel-com-bfe1bed736",
+  "kind": "candidate_website",
+  "accessed": "2026-11-04",
+  "publisher": "Pimentel for Board of Equalization 2026",
+  "title": "About John",
+  "url": "https://johnpimentel.com/about-john/"
+}
