@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sd34-senate-ca-gov-09c115cd47",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "California State Senate",
+  "title": "BIOGRAPHY | Senator Tom Umberg",
+  "url": "https://sd34.senate.ca.gov/biography"
+}

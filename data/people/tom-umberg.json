@@ -5,6 +5,43 @@
   "aliases": [
     "Thomas J. Umberg"
   ],
+  "candidate_profile": {
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Bachelor of Arts",
+          "institution": "University of California, Los Angeles",
+          "citations": [
+            {
+              "source": "src:sd34-senate-ca-gov-09c115cd47",
+              "quote": "University of California, Los Angeles – Bachelor of Arts"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "University of California, College of Law, San Francisco",
+          "citations": [
+            {
+              "source": "src:sd34-senate-ca-gov-09c115cd47",
+              "quote": "University of California, College of Law, San Francisco – Juris Doctor"
+            }
+          ]
+        },
+        {
+          "degree": "Master of Strategic Studies",
+          "institution": "US Army War College",
+          "citations": [
+            {
+              "source": "src:sd34-senate-ca-gov-09c115cd47",
+              "quote": "US Army War College -- Master of Strategic Studies"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q7817900",
@@ -18,5 +55,5 @@
     "x": "https://x.com/TomUmbergCA"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
