@@ -129,6 +129,21 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Degree in Mechanical Engineering",
+          "institution": "Case Western Reserve University",
+          "citations": [
+            {
+              "source": "src:alidafisher-com-e76891ff30",
+              "quote": "She went to college at Case Western Reserve University and received her degree in Mechanical Engineering."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "School Board Member",
       "citations": [
