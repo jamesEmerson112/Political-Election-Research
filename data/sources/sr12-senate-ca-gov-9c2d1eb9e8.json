@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sr12-senate-ca-gov-9c2d1eb9e8",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "California State Senate",
+  "title": "Biography | Senator Shannon Grove",
+  "url": "https://sr12.senate.ca.gov/biography"
+}

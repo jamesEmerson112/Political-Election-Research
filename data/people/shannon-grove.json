@@ -3,6 +3,22 @@
   "id": "shannon-grove",
   "name": "Shannon Grove",
   "aliases": [],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "Kern County, California",
+      "citations": [
+        {
+          "source": "src:sr12-senate-ca-gov-9c2d1eb9e8",
+          "quote": "Shannon Grove was born and raised in Kern County."
+        },
+        {
+          "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+          "quote": "I was born in rural Kern County, enlisted in the U.S. Army, came home, and built a small business from nothing.",
+          "locator": "page 91, Candidate Statements, Board of Equalization District 1"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q7488882",
@@ -13,5 +29,5 @@
     "official_site": "https://sr12.senate.ca.gov/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
