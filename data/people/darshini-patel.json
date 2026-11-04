@@ -59,6 +59,65 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "The White House (Obama administration)",
+          "role": "Staff, Domestic Policy Council (social innovation and civic participation)",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I served in the Obama White House on the Domestic Policy Council and his re-election campaign.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 46 (PDF p. 48)"
+            },
+            {
+              "source": "src:votedarshini-com-b1154d89f8",
+              "quote": "where I worked on social innovation and civic participation on the Domestic Policy Council"
+            }
+          ]
+        },
+        {
+          "end": "2012",
+          "organization": "Obama re-election campaign",
+          "role": "Regional field lead in Virginia",
+          "start": "2012",
+          "citations": [
+            {
+              "source": "src:votedarshini-com-b1154d89f8",
+              "quote": "In 2012, on Obama's re-election campaign, I saw how healthy systems require accountability to make them work. I was asked to lead a region in Virginia that had been missing quotas."
+            }
+          ]
+        },
+        {
+          "organization": "DoorDash",
+          "role": "Built the small business advocacy function; helped launch over 300 markets",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I helped a technology company grow from 15 cities to more than 7,000, launching over 300 markets, building its small business advocacy function",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 46 (PDF p. 48)"
+            },
+            {
+              "source": "src:votedarshini-com-b1154d89f8",
+              "quote": "I joined DoorDash before it was a household name and helped launch over 300 markets."
+            }
+          ]
+        },
+        {
+          "end": "2024",
+          "organization": "Kamala Harris presidential campaign",
+          "role": "Get-out-the-vote organizer in New Hampshire",
+          "start": "2024",
+          "citations": [
+            {
+              "source": "src:votedarshini-com-b1154d89f8",
+              "quote": "In 2024, the stakes felt too high to stay on the sidelines, and I went to New Hampshire to run get-out-the-vote (GOTV) for Kamala Harris."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
