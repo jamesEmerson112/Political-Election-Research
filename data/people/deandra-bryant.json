@@ -60,6 +60,36 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Emergency-housing case manager",
+          "citations": [
+            {
+              "source": "src:kqed-org-44d1250e32",
+              "quote": "Emergency-housing case manager and advocate for children with disabilities",
+              "locator": "Candidates list"
+            },
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "I have worked in housing services helping residents access resources, housing opportunities, and support programs.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+            }
+          ]
+        },
+        {
+          "role": "In-Home Supportive Services (IHSS) provider",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "My occupation is Community Advocate and IHSS Provider.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 48 (PDF p. 50)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
