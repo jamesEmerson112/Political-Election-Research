@@ -57,6 +57,42 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Small business attorney",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "As a small-business attorney, I have helped merchants and nonprofits navigate complex legal issues.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 10, printed p. 49 (PDF p. 51)"
+            }
+          ]
+        },
+        {
+          "role": "Corporate attorney (emerging companies and venture capital)",
+          "citations": [
+            {
+              "source": "src:growsf-org-2bfee09a33",
+              "quote": "As a corporate attorney focused on emerging companies and venture capital",
+              "locator": "Personal: How long have you lived in San Francisco?"
+            }
+          ]
+        },
+        {
+          "organization": "Potrero Boosters Neighborhood Association",
+          "role": "President",
+          "citations": [
+            {
+              "source": "src:growsf-org-2bfee09a33",
+              "quote": "I am currently president of the Potrero Boosters Neighborhood Association",
+              "locator": "Personal: current involvement in the community"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
