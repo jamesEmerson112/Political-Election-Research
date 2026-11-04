@@ -76,6 +76,54 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "San Francisco Police Department",
+          "role": "Director of strategic communications",
+          "start": "2020-01",
+          "citations": [
+            {
+              "source": "src:growsf-org-aecb4e3daa",
+              "quote": "I joined the San Francisco Police Department as director of strategic communications in January 2020.",
+              "locator": "Personal: How long have you lived in San Francisco?"
+            }
+          ]
+        },
+        {
+          "organization": "San Francisco City Attorney's Office",
+          "role": "Communications director and senior advisor",
+          "citations": [
+            {
+              "source": "src:growsf-org-aecb4e3daa",
+              "quote": "Following Dennis Herrera's election, I soon after joined his office as communications director and senior advisor, and our work together over the next 14 years encompassed the broad panoply of high-profile legal issues facing the City and County of San Francisco",
+              "locator": "Personal: How long have you lived in San Francisco?"
+            }
+          ]
+        },
+        {
+          "role": "Private sector consultant",
+          "citations": [
+            {
+              "source": "src:growsf-org-aecb4e3daa",
+              "quote": "After a three-year period in private sector consulting",
+              "locator": "Personal: How long have you lived in San Francisco?"
+            }
+          ]
+        },
+        {
+          "role": "Deputy press secretary and campaign finance assistant, Arlo Smith for Attorney General (1990)",
+          "citations": [
+            {
+              "source": "src:growsf-org-aecb4e3daa",
+              "quote": "I served as a deputy press secretary and campaign finance assistant to former San Francisco District Attorney Arlo Smith in his 1990 bid for California Attorney General.",
+              "locator": "Personal: How long have you lived in San Francisco?"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
