@@ -69,6 +69,50 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "close-tax-loopholes-and-pursue-tax-evaders",
+        "as_of": "2026-08-10",
+        "summary": "Says he will work to close tax loopholes and act against tax evaders so local governments can keep funding public safety, infrastructure, education, healthcare and economic development.",
+        "title": "Close tax loopholes and act against tax evasion",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Nelson will fight to close tax loopholes and crack down on tax evaders so that our local governments can continue to invest in public safety, infrastructure, education, healthcare, and economic development.",
+            "locator": "page 91, Candidate Statements, Board of Equalization District 1"
+          }
+        ]
+      },
+      {
+        "id": "oppose-new-taxes-on-middle-and-working-class-families",
+        "as_of": "2026-08-10",
+        "summary": "Says he will oppose new taxes on middle-class and working-class families and on small businesses.",
+        "title": "Oppose new taxes on middle- and working-class families and small businesses",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "Nelson will oppose new taxes on middle class and working class families as well as small businesses that are already struggling to make ends meet.",
+            "locator": "page 91, Candidate Statements, Board of Equalization District 1"
+          }
+        ]
+      },
+      {
+        "id": "tax-transparency-and-impartial-property-assessments",
+        "as_of": "2026-08-10",
+        "summary": "Says he will seek more transparency in the tax system and fair, impartial property tax assessments.",
+        "title": "More transparency in the tax system and impartial property tax assessments",
+        "citations": [
+          {
+            "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+            "quote": "He’ll fight for more transparency in our tax system, and for fair impartial property tax assessments.",
+            "locator": "page 91, Candidate Statements, Board of Equalization District 1"
+          }
+        ]
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-04",
     "items": [
