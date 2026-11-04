@@ -26,6 +26,47 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "Las Vegas Metropolitan Police Department",
+          "role": "Police officer; retired as captain overseeing the Financial and Property Crimes Bureau",
+          "start": "1980",
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "Anthony began his career with Las Vegas Metropolitan Police Department in 1980 and most recently served the community as a captain overseeing the Financial and Property Crimes Bureau of the department."
+            },
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "He retired after 29 years of service."
+            }
+          ]
+        },
+        {
+          "organization": "Community College of Southern Nevada",
+          "role": "Adjunct faculty member",
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "received an Award of Excellence in 2002 from the Community College of Southern Nevada where he was an adjunct faculty member."
+            }
+          ]
+        },
+        {
+          "organization": "Commission on Accreditation for Law Enforcement Agencies (CALEA)",
+          "role": "Member, Board of Commissioners",
+          "start": "2014",
+          "citations": [
+            {
+              "source": "src:ltgov-nv-gov-24fc65ec53",
+              "quote": "In 2014, Anthony was appointed to the Board of Commissioners for the Commission on Accreditation for Law Enforcement Agencies (CALEA)."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
