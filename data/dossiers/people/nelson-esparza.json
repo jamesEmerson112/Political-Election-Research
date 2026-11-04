@@ -68,5 +68,73 @@
         "where": "web search restricted to fppc.ca.gov"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "fresno-eifd-plan-resolution",
+        "kind": "legislation",
+        "bill": "fresno-file-20-001203",
+        "date": "2020-09-17",
+        "summary": "Sponsored Fresno File 20-001203, a resolution approving the Infrastructure Financing District Plan for the Fresno Enhanced Infrastructure Financing District and allocating the City's incremental tax revenue from the project area; the City Council adopted it on September 17, 2020, and no measured outcome is recorded as of 2026-11-04.",
+        "title": "Fresno Enhanced Infrastructure Financing District plan resolution (File 20-001203)",
+        "citations": [
+          {
+            "source": "src:agendas-fresno-gov-fe8a8e0d73",
+            "quote": "RESOLUTION - Approving the Infrastructure Financing District Plan for the Fresno Enhanced Infrastructure Financing District and the Allocation of the City’s Incremental Tax Revenue from the Project Area Pursuant to Government Code Section 53398.75 et seq."
+          },
+          {
+            "source": "src:agendas-fresno-gov-fe8a8e0d73",
+            "quote": "Sponsors Nelson Esparza"
+          },
+          {
+            "source": "src:agendas-fresno-gov-fe8a8e0d73",
+            "quote": "Thu, Sep 17, 2020 City Council ADOPTED Pass",
+            "locator": "History"
+          }
+        ]
+      },
+      {
+        "id": "cesar-chavez-day-meet-and-confer-resolution",
+        "kind": "legislation",
+        "bill": "fresno-file-22-315",
+        "date": "2022-02-17",
+        "summary": "Sponsored Fresno File 22-315, a resolution directing staff to meet and confer with labor unions on declaring Cesar Chavez Day a City holiday; the City Council approved it on consent on February 17, 2022, and no measured outcome is recorded as of 2026-11-04.",
+        "title": "Cesar Chavez Day meet-and-confer resolution (File 22-315)",
+        "citations": [
+          {
+            "source": "src:agendas-fresno-gov-f8a182bd60",
+            "quote": "RESOLUTION - Directing staff to perform the necessary meet and confer with labor unions related to declaring Cesar Chavez Day a holiday in the City of Fresno (Subject to Mayor’s Veto)."
+          },
+          {
+            "source": "src:agendas-fresno-gov-f8a182bd60",
+            "quote": "Sponsors Nelson Esparza"
+          },
+          {
+            "source": "src:agendas-fresno-gov-f8a182bd60",
+            "quote": "Thu, Feb 17, 2022 City Council APPROVED ON CONSENT CALENDAR Pass",
+            "locator": "History"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Esparza sponsored resolution ordinance",
+        "where": "https://agendas.fresno.gov/en/legislation/ (City of Fresno Legislative Information Center; items found through web search, not a complete list of his sponsored items)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Fresno City Council approves Esparza ordinance resolution authored councilmember Esparza passed",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Esparza",
+        "where": "https://fresno.legistar.com/Legislation.aspx (search form only; returned no records without a query)"
+      }
+    ]
   }
 }
