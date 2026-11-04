@@ -3,6 +3,26 @@
   "actor": "person:gary-mccoy",
   "positions": [
     {
+      "subject": "q:housing/citywide-rezoning",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "platform",
+      "summary": "His campaign site says he supports Mayor Daniel Lurie's Family Zoning plan and will work to legalize more density along major transit corridors.",
+      "citations": [
+        {
+          "source": "src:garymccoysf-com-cdc1df6a99",
+          "quote": "I’m supportive of Mayor Daniel Lurie’s Family Zoning plan to expand family-friendly housing options across the city. I’ll fight to legalize more density along our major transit corridors",
+          "locator": "Housing"
+        },
+        {
+          "source": "src:garymccoysf-com-cdc1df6a99",
+          "quote": "Support Mayor Lurie’s Family Zoning plan to build badly-needed new housing and ensure San Francisco meets its state-mandated housing goals",
+          "locator": "Housing, My priorities"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-08-27",
