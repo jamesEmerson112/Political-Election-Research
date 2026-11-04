@@ -61,6 +61,40 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Patent attorney",
+          "citations": [
+            {
+              "source": "src:media-api-sf-gov-e4221ecde7",
+              "quote": "As an experienced patent attorney, I bring the negotiating skills necessary to fight for the people of District 8.",
+              "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+            }
+          ]
+        },
+        {
+          "organization": "QTAPI Week (Queer and Trans Asian Pacific Islander Week)",
+          "role": "Founder",
+          "citations": [
+            {
+              "source": "src:michaelnguyen4sf-com-4d362430da",
+              "quote": "He founded QTAPI Week (Queer and Trans Asian Pacific Islander Week)"
+            }
+          ]
+        },
+        {
+          "role": "Drag performer (Juicy Liu)",
+          "citations": [
+            {
+              "source": "src:ebar-com-6afcceb1dd",
+              "quote": "a patent attorney whose drag persona is Juicy Liu"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
