@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:monthanus-ratanapakdee",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "vandalism-relief-grants-10000",
+        "as_of": "2026-11-04",
+        "summary": "Ratanapakdee's priorities page lists increasing vandalism relief grants for small businesses to at least $10,000, up from the current reimbursement of up to $2,000.",
+        "title": "Raise vandalism relief grants to at least $10,000",
+        "citations": [
+          {
+            "source": "src:ratanapakdeesf-org-7bb757142b",
+            "quote": "Increase vandalism relief grants up to at least $10,000",
+            "locator": "Small Business Revival"
+          },
+          {
+            "source": "src:ratanapakdeesf-org-7bb757142b",
+            "quote": "The current City vandalism relief program offers reimbursement up to $2,000, which is often not enough",
+            "locator": "Small Business Revival"
+          }
+        ]
+      },
+      {
+        "id": "limit-third-party-delivery-fees",
+        "as_of": "2026-11-04",
+        "summary": "Ratanapakdee's priorities page lists fair limits on third-party delivery fees for restaurants.",
+        "title": "Limit third-party delivery fees",
+        "citations": [
+          {
+            "source": "src:ratanapakdeesf-org-7bb757142b",
+            "quote": "Fair limits on third-party delivery fees",
+            "locator": "Small Business Revival"
+          }
+        ]
+      },
+      {
+        "id": "review-mandates-small-businesses",
+        "as_of": "2026-11-04",
+        "summary": "Ratanapakdee's priorities page lists reviewing costly city mandates on businesses with fewer than 50 employees.",
+        "title": "Review city mandates on businesses with fewer than 50 employees",
+        "citations": [
+          {
+            "source": "src:ratanapakdeesf-org-7bb757142b",
+            "quote": "Review costly City mandates on businesses with fewer than 50 employees",
+            "locator": "Small Business Revival"
+          }
+        ]
+      }
+    ]
+  }
+}
