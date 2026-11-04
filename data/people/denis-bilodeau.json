@@ -146,6 +146,44 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "Member, Orange City Council (Mayor Pro Tem)",
+          "current": true,
+          "jurisdiction": "City of Orange",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "Mayor Pro Tem, City of Orange.",
+              "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+            },
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "As a City Councilmember, I’ve worked to keep our neighborhoods safe.",
+              "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+            }
+          ]
+        },
+        {
+          "office": "President, Orange County Water District board",
+          "current": true,
+          "jurisdiction": "Orange County Water District",
+          "citations": [
+            {
+              "source": "src:vig-cdn-sos-ca-gov-3c7edbab53",
+              "quote": "President, Orange County Water District.",
+              "locator": "page 94, Candidate Statements, Board of Equalization District 4"
+            },
+            {
+              "source": "src:bilodeauforboe-com-e8bc2a4152",
+              "quote": "President, Orange County Water District"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
