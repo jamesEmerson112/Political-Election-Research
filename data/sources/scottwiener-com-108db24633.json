@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "scottwiener-com-108db24633",
+  "kind": "candidate_website",
+  "accessed": "2026-11-04",
+  "publisher": "Scott Wiener for Congress",
+  "title": "Housing",
+  "url": "https://www.scottwiener.com/housing"
+}

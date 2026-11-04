@@ -101,6 +101,31 @@
       ]
     },
     {
+      "subject": "q:housing/transit-oriented-upzoning",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "authored_legislation",
+      "summary": "Authored SB 79 (signed October 2025), which sets state zoning standards allowing midrise homes within a half mile of major transit stops; his campaign site lists it among his laws requiring cities to zone for more homes near public transportation.",
+      "citations": [
+        {
+          "source": "src:sd11-senate-ca-gov-a27a6cbc9b",
+          "quote": "The new law establishes state zoning standards around train stations and major bus stops to allow for midrise homes within a half mile of major transit stops, and allows local transit agencies to develop on land they own.",
+          "locator": "second paragraph"
+        },
+        {
+          "source": "src:sd11-senate-ca-gov-a27a6cbc9b",
+          "quote": "“SB 79 is a historic step toward tackling the root cause of California’s affordability crisis — our profound shortage of homes and too few people having access to transit,” said Senator Wiener.",
+          "locator": "Senator Wiener's statement"
+        },
+        {
+          "source": "src:scottwiener-com-108db24633",
+          "quote": "They also require cities to zone for more homes, especially near public transportation;",
+          "locator": "Scott's Legislative Track Record (SB 35, SB 423, SB 828, SB 765, SB 312, SB 4, and SB 79)"
+        }
+      ]
+    },
+    {
       "subject": "q:immigration/abolish-ice",
       "stance": "support",
       "as_of": "2026-11-04",
