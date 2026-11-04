@@ -4,6 +4,37 @@
   "name": "Richard Barrera",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birth date / age",
+          "where": "San Diego Unified School District board biography (sandiegounified.org)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birth date / age",
+          "where": "Campaign site barreraforedu.com (home and About pages)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date / age",
+          "where": "2026 Official Voter Information Guide, Superintendent of Public Instruction candidate statement (p. 95)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Barrera age / born",
+          "where": "KQED, \"Conservative Activist Sonja Shaw Advances in State Superintendent Race\" (2026-06-03)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Richard Barrera San Diego Unified board of education trustee biography born raised (the hit giving an age was an EdSource profile; edsource.org is blocked from this environment)",
+          "where": "Web search"
+        }
+      ]
+    },
     "birthplace": {
       "value": "San Diego, California (described as \"a San Diego native\"; place of birth not stated)",
       "citations": [
