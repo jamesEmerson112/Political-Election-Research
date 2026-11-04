@@ -50,6 +50,52 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birthplace / born in / grew up",
+          "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, candidate statement (https://media.api.sf.gov/documents/N26_EN_VIP.pdf, p. 29 (PDF page 31))"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birthplace / born in / grew up",
+          "where": "Campaign website: https://www.alidafisher.com, https://www.alidafisher.com/about, https://www.alidafisher.com/issues"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birthplace / born in / grew up",
+          "where": "SFUSD Board of Education member page: https://www.sfusd.edu/about-sfusd/board-education/commissioner-alida-fisher"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birthplace / born in / grew up",
+          "where": "GrowSF candidate questionnaire: https://growsf.org/voter-guide/questionnaires/november-2026/alida-fisher/"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"League of Pissed Off Voters\" 2026 questionnaire \"Alida Fisher\"",
+          "where": "Web search for a SF League of Pissed Off Voters 2026 questionnaire response (none found; theleaguesf.org returned HTTP 403)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birthplace / born in / grew up",
+          "where": "Mission Local school board candidate profiles and Meet the Candidates posts (https://missionlocal.org/2026-san-francisco-school-board-race/, https://missionlocal.org/2026/10/san-francisco-meet-the-candidates-school-board-voting/): blocked, HTTP 403"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birthplace / born in / grew up",
+          "where": "KQED Voter Guide, San Francisco Board of Education (https://www.kqed.org/voterguide/sanfrancisco/school), candidate list"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "San Francisco school board candidates 2026 profiles age born Autumn Brown Garibay Virginia Cheung Alida Fisher Ryan Hazelton",
+          "where": "Web search (news and candidate profiles)"
+        }
+      ]
+    },
     "career": {
       "as_of": "2026-11-04",
       "items": [
