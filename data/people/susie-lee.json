@@ -4,6 +4,21 @@
   "name": "Susie Lee",
   "aliases": [],
   "candidate_profile": {
+    "occupation": {
+      "value": "U.S. Representative",
+      "citations": [
+        {
+          "source": "src:clerk-house-gov-8b4716c70e",
+          "quote": "Nevada (NV) – 3rd, Democrat",
+          "locator": "Member profile header"
+        },
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "elected to the 116th Congress on November 6, 2018; reelected to each succeeding Congress.",
+          "locator": "Nevada, Representatives, Third District, page 158 (PDF page 169)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
