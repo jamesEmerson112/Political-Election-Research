@@ -3,10 +3,25 @@
   "id": "autumn-brown-garibay",
   "name": "Autumn Brown Garibay",
   "aliases": [],
+  "candidate_profile": {
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:autumnforschoolboard-com-be00c75bf0",
+          "quote": "I live in the Mission with my family."
+        },
+        {
+          "source": "src:growsf-org-94a6da9e01",
+          "quote": "I have lived in San Francisco for 15 years."
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "campaign_site": "https://www.autumnforschoolboard.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
