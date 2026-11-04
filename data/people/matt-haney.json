@@ -4,6 +4,21 @@
   "name": "Matt Haney",
   "aliases": [],
   "candidate_profile": {
+    "occupation": {
+      "value": "State Assemblymember",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is State Assemblymember.",
+          "locator": "p. 26 (PDF page 28), Candidate Statements, Candidates for State Assembly, District 17, Matt Haney"
+        },
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Matt Haney* Democratic Assemblymember",
+          "locator": "PDF page 21 (list page 20 of 41), State Assembly Member District 17; ballot designation (the candidate's self-description)"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-04",
       "items": [
