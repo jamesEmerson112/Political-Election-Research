@@ -73,6 +73,54 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "B.S., Elementary Education",
+          "institution": "Montana State University",
+          "year": 1995,
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Montana State University, B.S., Elementary Education;",
+              "locator": "Legislative Biography, 2025 Session, page 6: Carrie Ann Buck"
+            },
+            {
+              "source": "src:thenevadaindependent-com-77b6fc7bd3",
+              "quote": "In 1995, she earned her Bachelor of Science in Elementary Education from Montana State University."
+            }
+          ]
+        },
+        {
+          "degree": "M.A., Administration and Supervision",
+          "institution": "University of Phoenix",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "University of Phoenix, M.A., Administration and Supervision;",
+              "locator": "Legislative Biography, 2025 Session, page 6: Carrie Ann Buck"
+            }
+          ]
+        },
+        {
+          "degree": "Ed.D., Organizational Leadership",
+          "institution": "NOVA Southeastern University",
+          "year": 2006,
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "NOVA Southeastern University, Ed.D., Organizational Leadership",
+              "locator": "Legislative Biography, 2025 Session, page 6: Carrie Ann Buck"
+            },
+            {
+              "source": "src:thenevadaindependent-com-77b6fc7bd3",
+              "quote": "In 2006, she went on to earn her doctorate from Nova Southeastern University."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Educator, Principal, President and Executive Director of the Pinecrest Foundation",
       "citations": [
