@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-ab-1485",
+  "status": {
+    "value": "enacted",
+    "as_of": "2023-10-11",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-0c89c12612",
+        "quote": "AB 1485 by Assemblymember Matt Haney (D-San Francisco) – Housing element: enforcement: Attorney General.",
+        "locator": "Complete list of bills signed by the Governor (release dated October 11, 2023)"
+      }
+    ]
+  },
+  "area": "housing",
+  "title": {
+    "value": "Housing element: enforcement: Attorney General",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-0c89c12612",
+        "quote": "AB 1485 by Assemblymember Matt Haney (D-San Francisco) – Housing element: enforcement: Attorney General.",
+        "locator": "Complete list of bills signed by the Governor"
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}
