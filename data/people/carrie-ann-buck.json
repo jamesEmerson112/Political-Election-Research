@@ -14,6 +14,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Sioux City, Iowa",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: 1971 – Sioux City, Iowa",
+          "locator": "Legislative Biography, 2025 Session, page 6: Carrie Ann Buck"
+        },
+        {
+          "source": "src:thenevadaindependent-com-77b6fc7bd3",
+          "quote": "Buck grew up in a conservative family in Sioux City, Iowa."
+        }
+      ]
+    },
     "career": {
       "as_of": "2026-11-04",
       "items": [
