@@ -43,6 +43,15 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Member of the Nevada Assembly (Majority Floor Leader)",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-dddc7c261e",
+          "quote": "Assemblymember Sandra Jauregui Majority Floor Leader Party: Democratic District 41"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

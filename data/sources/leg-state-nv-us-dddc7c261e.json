@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-dddc7c261e",
+  "kind": "legislative_record",
+  "accessed": "2026-11-04",
+  "publisher": "Nevada Legislature",
+  "title": "Assemblymember Sandra Jauregui",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/41"
+}
