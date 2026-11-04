@@ -46,6 +46,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney General of Nevada",
+      "citations": [
+        {
+          "source": "src:ag-nv-gov-55e6df11d7",
+          "quote": "Attorney General Aaron D. Ford, Nevada’s 34th Attorney General, took office on January 7, 2019"
+        },
+        {
+          "source": "src:fordfornevada-com-5c1d4c5d6e",
+          "quote": "And today, he serves as Nevada’s Attorney General."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
