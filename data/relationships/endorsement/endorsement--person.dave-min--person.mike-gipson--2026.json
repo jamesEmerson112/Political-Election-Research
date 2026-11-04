@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.dave-min--person.mike-gipson--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:mike-gipson",
+  "endorser": "person:dave-min",
+  "citations": [
+    {
+      "source": "src:mikegipson-net-caa9dd4147",
+      "quote": "U.S. Congressmember Dave Min"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
