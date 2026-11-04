@@ -151,6 +151,16 @@
           "where": "Mission Local District 10 'Meet the candidates' series (missionlocal.org): HTTP 403 bot check, unreadable"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco (Bayview Hunters Point)",
+      "citations": [
+        {
+          "source": "src:growsf-org-413572f183",
+          "quote": "I’ve lived in San Francisco since 1998. 1998-2013 in Potrero Hill, 2016-Present in Bayview Hunters Point.",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        }
+      ]
     }
   },
   "ids": [],
