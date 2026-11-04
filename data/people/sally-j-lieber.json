@@ -4,6 +4,37 @@
   "name": "Sally J. Lieber",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "born / birth / age",
+          "where": "https://www.boe.ca.gov/lieber/about.htm and https://www.boe.ca.gov/lieber/ (official BOE bio)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birth / age",
+          "where": "https://www.sallylieber.org/ and /about (campaign site)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "born / birth / age",
+          "where": "Official Voter Information Guide, 2026 general, candidate statement p.92"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Sally Lieber biography born education Stanford Assembly Speaker pro Tempore (birth details appeared only in Wikipedia and its mirrors, which are not citable)",
+          "where": "web search (news)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Sally Lieber born 1961 Detroit Mountain View (only Wikipedia mirrors and reference sites)",
+          "where": "web search (news)"
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [
