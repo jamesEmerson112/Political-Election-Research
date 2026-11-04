@@ -56,6 +56,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Community Organizer",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Community Organizer.",
+          "locator": "Candidate statement, Board of Education, p. 31 (PDF page 33)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
