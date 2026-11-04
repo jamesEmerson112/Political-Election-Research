@@ -39,6 +39,73 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "U.S. Representative, Nevada's 1st Congressional District",
+          "current": true,
+          "first_elected": "2012-11-06",
+          "jurisdiction": "Nevada's 1st Congressional District",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "elected to the 1st District for the 113th Congress on November 6, 2012; reelected to each succeeding Congress.",
+              "locator": "Nevada, Representatives, First District, page 158 (PDF page 169)"
+            },
+            {
+              "source": "src:clerk-house-gov-0d4ae672de",
+              "quote": "Nevada (NV) – 1st, Democrat",
+              "locator": "Member profile header"
+            }
+          ]
+        },
+        {
+          "office": "U.S. Representative, Nevada's 3rd Congressional District",
+          "current": false,
+          "first_elected": "2008-11-04",
+          "jurisdiction": "Nevada's 3rd Congressional District",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "election history: elected to the 3d District for the 111th Con- gress on November 4, 2008;",
+              "locator": "Nevada, Representatives, First District, page 158 (PDF page 169); the printed line breaks \"Con-gress\""
+            },
+            {
+              "source": "src:clerk-house-gov-0d4ae672de",
+              "quote": "Nevada (NV) – 1st, Democrat",
+              "locator": "Member profile header: she now represents the 1st District"
+            }
+          ]
+        },
+        {
+          "office": "Member, Nevada State Senate",
+          "end": "2008",
+          "jurisdiction": "State of Nevada",
+          "start": "1989",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "member, Nevada State Senate, 1989–2008",
+              "locator": "Nevada, Representatives, First District, page 158 (PDF page 169)"
+            }
+          ]
+        },
+        {
+          "office": "Minority Leader, Nevada State Senate",
+          "end": "2008",
+          "jurisdiction": "State of Nevada",
+          "start": "1993",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "member, Nevada State Senate, 1989–2008 (Minority Leader, 1993–2008);",
+              "locator": "Nevada, Representatives, First District, page 158 (PDF page 169)"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
