@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "marty-odonnell",
+  "name": "Marty O'Donnell",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "campaign_site": "https://martyforcongress.vote/"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}

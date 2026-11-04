@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/us-house-nv-3",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Representative in Congress District 3",
+  "office": "Representative in Congress",
+  "candidates": [
+    {
+      "person": "person:jon-kamerath",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Independent American Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Kamerath Jon IAP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 3"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-8b4716c70e",
+          "quote": "Nevada (NV) – 3rd, Democrat",
+          "locator": "Member profile header (Susie Lee): the current holder of Nevada's 3rd district seat is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:susie-lee",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Lee Susie DEM",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 3"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-8b4716c70e",
+          "quote": "Nevada (NV) – 3rd, Democrat",
+          "locator": "Member profile header (Susie Lee): she holds Nevada's 3rd district seat"
+        }
+      ]
+    },
+    {
+      "person": "person:marty-odonnell",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "O'Donnell Marty REP",
+          "locator": "PDF page 1 (Page 1 of 10), FEDERAL PARTISAN, Representative in Congress District 3"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clerk-house-gov-8b4716c70e",
+          "quote": "Nevada (NV) – 3rd, Democrat",
+          "locator": "Member profile header (Susie Lee): the current holder of Nevada's 3rd district seat is another person"
+        }
+      ]
+    }
+  ],
+  "district": 3,
+  "level": "federal",
+  "last_verified": "2026-11-04"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "susie-lee",
+  "name": "Susie Lee",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H6NV04020",
+      "system": "fec_candidate"
+    }
+  ],
+  "links": {
+    "official_site": "https://susielee.house.gov"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}

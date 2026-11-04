@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jon-kamerath",
+  "name": "Jon Kamerath",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "H4NV03241",
+      "system": "fec_candidate"
+    }
+  ],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-04"
+}
