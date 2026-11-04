@@ -4,6 +4,27 @@
   "name": "Adriana Guzmán Fralick",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "adrianafornevada.com (campaign site; /about/ returned 404, home page biography section read)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "KLAS 8 News Now daily voting guide article"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Adriana Guzmán Fralick Nevada attorney general 2026 Republican candidate",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
