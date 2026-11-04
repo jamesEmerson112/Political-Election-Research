@@ -4,6 +4,22 @@
   "name": "Nicole Jeanette Cannizzaro",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "nicolecannizzaro.com/about-nicole (campaign biography)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Nicole Cannizzaro for attorney general campaign site about Nicole born raised Las Vegas law school",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
