@@ -33,6 +33,26 @@
       ]
     },
     {
+      "subject": "q:public-health/end-drug-use-supply-distribution",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Says the City has distributed items like pipes or foil without a plan to connect people to treatment and that he supports ending the distribution of drug use supplies.",
+      "citations": [
+        {
+          "source": "src:growsf-org-3968fdda8c",
+          "quote": "For far too long, the City has facilitated the distribution of items like pipes or foil without real intervention or a plan to connect people to treatment.",
+          "locator": "Substance abuse: Would you continue or change the city’s harm reduction policies that distribute drug use paraphernalia beyond clean needles, such as pipes, foil, etc.?"
+        },
+        {
+          "source": "src:growsf-org-3968fdda8c",
+          "quote": "I support ending the distribution of drug use supplies that make it easier to remain in addiction instead of moving toward recovery.",
+          "locator": "Substance abuse, same question"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/local-tax-for-muni",
       "stance": "support",
       "as_of": "2026-11-03",
