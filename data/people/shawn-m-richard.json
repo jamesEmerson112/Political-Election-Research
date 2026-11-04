@@ -16,6 +16,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-d46621a09c",
+          "quote": "I’ve lived in San Francisco my entire life. I never “came” here—I’m from here.",
+          "locator": "Personal: How long have you lived in San Francisco?"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
