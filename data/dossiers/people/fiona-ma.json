@@ -37,5 +37,63 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "assembly-bills-signed-into-law",
+        "kind": "legislation",
+        "summary": "Authored, as a member of the State Assembly from 2006 to 2012, 60 bills that were signed into law by two governors, according to the State Treasurer's official biography.",
+        "title": "Assembly bills signed into law, 2006-2012",
+        "citations": [
+          {
+            "source": "src:treasurer-ca-gov-d9893dda29",
+            "quote": "As an Assembly Member, she authored 60 bills that were signed into law by two different governors",
+            "locator": "page 1"
+          }
+        ]
+      },
+      {
+        "id": "phthalates-ban-in-baby-products",
+        "kind": "legislation",
+        "summary": "Authored state legislation banning phthalates, a class of chemicals, in baby products; the Treasurer's biography says it became a model for federal legislation authored by U.S. Senator Dianne Feinstein in 2008.",
+        "title": "Ban on phthalates in baby products",
+        "citations": [
+          {
+            "source": "src:treasurer-ca-gov-d9893dda29",
+            "quote": "Her successful legislation to ban toxic chemicals in baby products, known as phthalates, became a model for federal legislation that was authored by U.S. Senator Dianne Feinstein in 2008.",
+            "locator": "page 1"
+          }
+        ]
+      },
+      {
+        "id": "board-of-equalization-external-audits",
+        "kind": "executive_action",
+        "date": "2016",
+        "summary": "Ordered, after being selected Chairperson of the State Board of Equalization in 2016, three external audits of the agency.",
+        "title": "External audits of the Board of Equalization",
+        "citations": [
+          {
+            "source": "src:treasurer-ca-gov-d9893dda29",
+            "quote": "Upon being selected Chairperson of the Board of Equalization in 2016, she ordered three external audits of the agency",
+            "locator": "page 2"
+          }
+        ]
+      },
+      {
+        "id": "san-francisco-disadvantaged-business-enterprise-program",
+        "kind": "program",
+        "summary": "Led, as a San Francisco Supervisor (2002-2006), an effort to create the city's Disadvantaged Business Enterprise program for small businesses taking part in public works projects.",
+        "title": "San Francisco Disadvantaged Business Enterprise program",
+        "citations": [
+          {
+            "source": "src:treasurer-ca-gov-d9893dda29",
+            "quote": "She led an effort to create the city's Disadvantaged Business Enterprise program to empower small businesses to more easily participate in public works projects.",
+            "locator": "page 1"
+          }
+        ]
+      }
+    ]
   }
 }
