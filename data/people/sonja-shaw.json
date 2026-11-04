@@ -75,6 +75,15 @@
           "quote": "Sonja Shaw Non-Partisan School District President"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Chino",
+      "citations": [
+        {
+          "source": "src:chino-k12-ca-us-7dfb5cb3ab",
+          "quote": "Sonja is a mom of two Chino Valley students, and lives in Chino with her husband, Chris, and two fur family members, Jaxx and Kooper."
+        }
+      ]
     }
   },
   "ids": [],
