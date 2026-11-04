@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.eureka-political-action-committee-fed-pac-id-c00390161--org.shaw-for-superintendent-of-public-instruction-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:eureka-political-action-committee-fed-pac-id-c00390161",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 100000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-02-09"
+    }
+  },
+  "recipient": "org:shaw-for-superintendent-of-public-instruction-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-5762a71ad0",
+      "locator": "Form 460 Schedule A: line 79 (2026-02-09, $1,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

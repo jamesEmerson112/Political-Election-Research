@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "bianco-for-governor-2026",
+  "name": "Bianco for Governor 2026",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

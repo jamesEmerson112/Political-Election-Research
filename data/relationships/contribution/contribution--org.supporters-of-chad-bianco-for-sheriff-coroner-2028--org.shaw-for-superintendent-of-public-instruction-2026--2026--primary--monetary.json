@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.supporters-of-chad-bianco-for-sheriff-coroner-2028--org.shaw-for-superintendent-of-public-instruction-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:supporters-of-chad-bianco-for-sheriff-coroner-2028",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 980000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2025-06-11"
+    }
+  },
+  "recipient": "org:shaw-for-superintendent-of-public-instruction-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-01ffd2a485",
+      "locator": "Form 460 Schedule A: line 215 (2025-06-11, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

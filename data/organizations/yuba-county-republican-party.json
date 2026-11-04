@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "yuba-county-republican-party",
+  "name": "Yuba County Republican Party",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "political_party",
+  "last_verified": "2026-11-04"
+}

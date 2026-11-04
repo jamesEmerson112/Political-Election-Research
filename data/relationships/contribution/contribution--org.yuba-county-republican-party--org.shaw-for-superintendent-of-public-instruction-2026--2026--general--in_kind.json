@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.yuba-county-republican-party--org.shaw-for-superintendent-of-public-instruction-2026--2026--general--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:yuba-county-republican-party",
+  "election_designation": "general",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 950000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-23"
+    }
+  },
+  "recipient": "org:shaw-for-superintendent-of-public-instruction-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-bb2af40f92",
+      "locator": "Form 460 Schedule C: line 164 (2026-09-23, $9,500.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

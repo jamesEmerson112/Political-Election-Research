@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.global-processing-systems-inc--org.shaw-for-superintendent-of-public-instruction-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:global-processing-systems-inc",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 980000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-10-12"
+    }
+  },
+  "recipient": "org:shaw-for-superintendent-of-public-instruction-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-bb2af40f92",
+      "locator": "Form 460 Schedule A: line 62 (2026-10-12, $9,800.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
