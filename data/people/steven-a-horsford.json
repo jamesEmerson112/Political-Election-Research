@@ -38,6 +38,59 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "U.S. Representative, Nevada's 4th Congressional District",
+          "current": true,
+          "first_elected": "2012-11-06",
+          "jurisdiction": "Nevada's 4th Congressional District",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "election history: elected to the 113th Congress on November 6, 2012;",
+              "locator": "Nevada, Representatives, Fourth District, page 159 (PDF page 170)"
+            },
+            {
+              "source": "src:clerk-house-gov-3532e27d5f",
+              "quote": "Nevada (NV) – 4th, Democrat",
+              "locator": "Member profile header"
+            }
+          ]
+        },
+        {
+          "office": "Member, Nevada State Senate",
+          "end": "2012",
+          "jurisdiction": "State of Nevada",
+          "start": "2004",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "member, Nevada State Senate, 2004–12",
+              "locator": "Nevada, Representatives, Fourth District, page 159 (PDF page 170)"
+            }
+          ]
+        },
+        {
+          "office": "Majority Leader, Nevada State Senate",
+          "end": "2012",
+          "jurisdiction": "State of Nevada",
+          "start": "2009",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "member, Nevada State Senate, 2004–12 (Majority Leader, 2009–12);",
+              "locator": "Nevada, Representatives, Fourth District, page 159 (PDF page 170)"
+            },
+            {
+              "source": "src:horsford-house-gov-ef322595ab",
+              "quote": "Rep. Horsford made history as Nevada’s first African-American State Senate Majority Leader"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
