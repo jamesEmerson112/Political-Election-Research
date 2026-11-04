@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "committee_role--org.gloria-romero-for-lt-governor-2026--person.gloria-romero--ca_controlled--2026",
+  "type": "committee_role",
+  "contest": "contest:2026-ca-general/lieutenant-governor",
+  "subject": "person:gloria-romero",
+  "committee": "org:gloria-romero-for-lt-governor-2026",
+  "cycle": 2026,
+  "role": "ca_controlled",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-87cfe7ffa4",
+      "locator": "Form 460 cover page (filing 3216036, amendment 0): committee, candidate and office: Gloria Romero, LTG"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
