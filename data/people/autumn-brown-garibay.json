@@ -4,6 +4,31 @@
   "name": "Autumn Brown Garibay",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "role": "Customer success and marketing technology professional",
+          "citations": [
+            {
+              "source": "src:growsf-org-94a6da9e01",
+              "quote": "My professional background is in customer success and marketing technology."
+            }
+          ]
+        },
+        {
+          "organization": "PTA at her children's Title 1 public school",
+          "role": "PTA President, later Executive Vice President",
+          "citations": [
+            {
+              "source": "src:assets-nationbuilder-com-3840e6726f",
+              "quote": "I served as President of the PTA at my children’s Title 1 public school and currently serve as its Executive Vice President.",
+              "locator": "page 5"
+            }
+          ]
+        }
+      ]
+    },
     "residence_city": {
       "value": "San Francisco",
       "citations": [
