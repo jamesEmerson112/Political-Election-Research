@@ -61,6 +61,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Patent attorney and drag performer (ballot designation: Attorney / Drag Producer)",
+      "citations": [
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "My occupation is Attorney / Drag Activist.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+        },
+        {
+          "source": "src:api-sf-gov-cd997081d7",
+          "quote": "MICHAEL T. NGUYEN 阮忠誠 Attorney / Drag Producer",
+          "locator": "p. 1, Board of Supervisors, District 8 table (English ballot designation)"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "As an experienced patent attorney, I bring the negotiating skills necessary to fight for the people of District 8.",
+          "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-04",
