@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.firefighters-print-and-design--org.sally-lieber-for-board-of-equalization-2026--2026--general--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:firefighters-print-and-design",
+  "election_designation": "general",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 805711,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-08-24"
+    }
+  },
+  "recipient": "org:sally-lieber-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-0263a9d9ae",
+      "locator": "Form 460 Schedule C: line 10 (2026-08-24, $5,109.71); line 11 (2026-08-24, $2,947.40)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

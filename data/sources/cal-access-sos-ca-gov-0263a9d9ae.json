@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cal-access-sos-ca-gov-0263a9d9ae",
+  "kind": "campaign_finance_filing",
+  "accessed": "2026-11-04",
+  "filing": {
+    "filer_id": "1478243",
+    "filing_id": "3199947",
+    "form": "460",
+    "period": {
+      "end": "2026-09-19",
+      "start": "2026-07-01"
+    },
+    "system": "cal-access"
+  },
+  "publisher": "California Secretary of State (CAL-ACCESS)",
+  "title": "Form 460, Sally Lieber for Board of Equalization 2026, 2026-07-01 to 2026-09-19 (filing 3199947, amendment 0)",
+  "url": "https://cal-access.sos.ca.gov/PDFGen/pdfgen.prg?filingid=3199947&amendid=0",
+  "notes": "Read from the California Secretary of State's CAL-ACCESS raw data export (https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip, published 2026-11-03, sha256 28d808c09f15a010269a2cdf4e83a279721c7f2b01b0fc28eaf0a323634cef97). The filing page itself answers automated requests with a bot check, so it was not opened."
+}

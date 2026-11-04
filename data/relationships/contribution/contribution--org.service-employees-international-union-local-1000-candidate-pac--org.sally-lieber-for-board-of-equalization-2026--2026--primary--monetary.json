@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.service-employees-international-union-local-1000-candidate-pac--org.sally-lieber-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:service-employees-international-union-local-1000-candidate-pac",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 505000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-04-22"
+    }
+  },
+  "recipient": "org:sally-lieber-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-03cb6b264f",
+      "locator": "Form 460 Schedule A: line 11 (2026-04-22, $5,050.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}
