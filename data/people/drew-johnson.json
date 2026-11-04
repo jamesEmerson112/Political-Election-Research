@@ -25,6 +25,27 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "campaign biography",
+          "where": "drewfornevada.com/about/ (campaign site; served a 'Checking your browser' bot check, not used)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "place of birth",
+          "where": "KOLO, May 22, 2025 announcement article"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Drew Johnson Nevada state treasurer 2026 Republican candidate biography",
+          "where": "web search (only reference works state a birthplace)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
