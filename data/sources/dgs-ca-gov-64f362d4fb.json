@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "dgs-ca-gov-64f362d4fb",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "California Commission on Disability Access, Department of General Services",
+  "title": "Matt Haney (CCDA Commission Members)",
+  "url": "https://www.dgs.ca.gov/CCDA/About-Us/CCDA-Commission-Members/Matt-Haney"
+}

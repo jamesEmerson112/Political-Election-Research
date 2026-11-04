@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "elections-cdn-sos-ca-gov-ac217cb090",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "California Secretary of State",
+  "title": "Official Canvass, State Assembly, 17th Assembly District, Special General Election, April 19, 2022",
+  "url": "https://elections.cdn.sos.ca.gov/special-elections/2022-ad17/general-official-canvass.pdf"
+}

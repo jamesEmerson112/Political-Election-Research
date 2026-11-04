@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbos-archive-sf-gov-cd0e5c267d",
+  "kind": "government_record",
+  "accessed": "2026-11-04",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Former Supervisor Matt Haney - District 6",
+  "url": "https://sfbos.archive.sf.gov/supervisor-haney-district-6"
+}

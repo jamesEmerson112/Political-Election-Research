@@ -3,6 +3,81 @@
   "id": "matt-haney",
   "name": "Matt Haney",
   "aliases": [],
+  "candidate_profile": {
+    "offices_held": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "office": "California State Assembly Member, District 17",
+          "current": true,
+          "first_elected": "2022-04",
+          "office_ref": "office:california-assembly-member",
+          "citations": [
+            {
+              "source": "src:dgs-ca-gov-64f362d4fb",
+              "quote": "Prior to his election to the State Assembly in April 2022, Assemblymember Haney served on the San Francisco on the Board of Supervisors"
+            },
+            {
+              "source": "src:elections-cdn-sos-ca-gov-ac217cb090",
+              "quote": "Special General Election, April 19, 2022",
+              "locator": "p. 1; Haney column (DEM): 48,762 votes, 62.4% of total votes cast"
+            },
+            {
+              "source": "src:assembly-ca-gov-e948e2d096",
+              "quote": "Matt Haney District: 17 Party: Democrat",
+              "locator": "Member page header (current member)"
+            }
+          ]
+        },
+        {
+          "office": "San Francisco Board of Supervisors, District 6",
+          "current": false,
+          "first_elected": "2018-11-06",
+          "office_ref": "office:san-francisco-supervisor",
+          "start": "2019-01-08",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "Elected November 06, 2018 for term January 08, 2019 to January 08, 2023",
+              "locator": "Term"
+            },
+            {
+              "source": "src:dgs-ca-gov-64f362d4fb",
+              "quote": "Prior to his election to the State Assembly in April 2022, Assemblymember Haney served on the San Francisco on the Board of Supervisors"
+            }
+          ]
+        },
+        {
+          "office": "San Francisco Board of Education member",
+          "current": false,
+          "end": "2019",
+          "first_elected": "2012",
+          "office_ref": "office:sfusd-board-of-education-member",
+          "start": "2013",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-cd0e5c267d",
+              "quote": "He was elected to the Board of Education in 2012, and re-elected in 2016."
+            },
+            {
+              "source": "src:dgs-ca-gov-64f362d4fb",
+              "quote": "Assemblymember Haney served on the San Francisco Board of Education from 2013-2019"
+            }
+          ]
+        },
+        {
+          "office": "Member, California Commission on Disability Access",
+          "start": "2023-03-13",
+          "citations": [
+            {
+              "source": "src:dgs-ca-gov-64f362d4fb",
+              "quote": "Represents: California State Assembly Appointment Date: March 13, 2023"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q47507610",
@@ -14,5 +89,5 @@
     "official_site": "https://www.assembly.ca.gov/assemblymembers/17"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-04"
 }
