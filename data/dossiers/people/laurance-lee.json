@@ -1,0 +1,106 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:laurance-lee",
+  "promises": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "publish-milestones-for-major-initiatives",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Lee's platform page lists publishing clear milestones, owners and timelines for major district initiatives.",
+        "title": "Publish milestones, owners and timelines for major initiatives",
+        "topic": "data-and-reporting",
+        "citations": [
+          {
+            "source": "src:lauranceleesf-com-763749d360",
+            "quote": "Publish clear milestones, owners and timelines for major initiatives",
+            "locator": "Platform: 1. Deliver What We Promise Students"
+          }
+        ]
+      },
+      {
+        "id": "public-reporting-on-literacy-and-attendance",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Lee's platform page lists tracking literacy, attendance and student support with understandable public reporting.",
+        "title": "Track literacy, attendance and student support with public reporting",
+        "topic": "data-and-reporting",
+        "citations": [
+          {
+            "source": "src:lauranceleesf-com-763749d360",
+            "quote": "Track literacy, attendance and student support with understandable public reporting",
+            "locator": "Platform: 1. Deliver What We Promise Students"
+          }
+        ]
+      },
+      {
+        "id": "protect-classroom-staffing",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Lee's platform page lists protecting classroom staffing and timely services for students with disabilities.",
+        "title": "Protect classroom staffing and timely services for students with disabilities",
+        "topic": "school-resources",
+        "citations": [
+          {
+            "source": "src:lauranceleesf-com-763749d360",
+            "quote": "Protect classroom staffing and timely services for students with disabilities",
+            "locator": "Platform: 2. Invest Where Learning Happens"
+          }
+        ]
+      },
+      {
+        "id": "scrutinize-central-office-and-contracts",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Lee's platform page lists scrutinizing central-office growth, outside contracts and unnecessary change orders.",
+        "title": "Scrutinize central-office growth, outside contracts and change orders",
+        "topic": "budget-and-funding",
+        "citations": [
+          {
+            "source": "src:lauranceleesf-com-763749d360",
+            "quote": "Scrutinize central-office growth, outside contracts and unnecessary change orders",
+            "locator": "Platform: 2. Invest Where Learning Happens"
+          }
+        ]
+      },
+      {
+        "id": "simpler-predictable-assignment-system",
+        "as_of": "2026-11-04",
+        "issue": "education",
+        "summary": "Lee's platform page says he would create a simpler, fairer and more predictable assignment system, give families clear timelines and plain-language guidance, and use family feedback and data before major assignment changes.",
+        "title": "Create a simpler and more predictable student assignment system",
+        "topic": "school-assignment",
+        "citations": [
+          {
+            "source": "src:lauranceleesf-com-763749d360",
+            "quote": "Create a simpler, fairer and more predictable assignment system while strengthening schools in every neighborhood.",
+            "locator": "Platform: 3. Make Enrollment Work for Families"
+          },
+          {
+            "source": "src:lauranceleesf-com-763749d360",
+            "quote": "Give families clear timelines and plain-language guidance",
+            "locator": "Platform: 3. Make Enrollment Work for Families"
+          },
+          {
+            "source": "src:lauranceleesf-com-763749d360",
+            "quote": "Use family feedback and real data before making major assignment changes",
+            "locator": "Platform: 3. Make Enrollment Work for Families"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Laurance Lee candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Education candidate statements, printed p. 30: background and goals, no specific proposal"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "platform, priorities",
+        "where": "lauranceleesf.com home page and Platform page (Three promises to SFUSD families)"
+      }
+    ]
+  }
+}
