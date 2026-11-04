@@ -1,0 +1,289 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/question-6",
+  "kind": "measure",
+  "election": "election:2026-nv-general",
+  "name": "Question 6",
+  "affects": [
+    {
+      "effect": "rules_change",
+      "group": "other",
+      "label": "Pregnant individuals",
+      "text": "Would have a state constitutional right to abortion until fetal viability, and at any point when needed to protect their life or health.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "This right to abortion would apply from the start of a person’s pregnancy up until the start of “fetal viability,” unless the pregnant person needs medical care to protect that person’s life or health, in which case the right applies throughout the pregnancy.",
+          "locator": "p. 3, State Question Num. 6, Explanation & Digest, Explanation"
+        }
+      ]
+    },
+    {
+      "effect": "rules_change",
+      "group": "other",
+      "label": "State and local governments",
+      "text": "Could interfere with the right only for a compelling state interest, using the least restrictive means, following clinical standards of practice.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "The initiative makes clear that the State of Nevada, including county and city governments in Nevada, generally cannot not interfere with this right. But a state, county, or city government can interfere with the right if there is a “compelling state interest” in doing so. A “compelling state interest” exists only if the government uses the least restrictive means to protect or improve the pregnant person’s life or health in ways that follow clinical standards of practice.",
+          "locator": "p. 3, State Question Num. 6, Explanation & Digest, Explanation"
+        }
+      ]
+    }
+  ],
+  "arguments": [
+    {
+      "id": "proponent",
+      "kind": "proponent",
+      "authors": [
+        "Lindsey Harmon (Chair)",
+        "Denise Lopez",
+        "Bradley Schrager"
+      ],
+      "side": "yes",
+      "text": "Decisions about abortion should be left to women and qualified healthcare professionals, who take a pledge to act in their patients’ best interest. When it comes to something as personal and complicated as pregnancy, politicians are never more qualified to make healthcare decisions than women and their doctors. That’s why it is so important to vote YES on this amendment. People across Nevada are voting YES because: • YES protects doctors so that they will never have to risk jail time just to treat the patient in front of them¹. • Extreme abortion bans are already in place across the country – from Texas² to Florida3 to right next door in Utah and Arizona – and they are having dangerous effects. A 10-year-old girl from Ohio who was raped had to travel to Indiana to get the abortion she needed⁴, and in Texas, one woman who miscarried lost liters of blood and had to go on a breathing machine before doctors could legally help her⁵. YES protects the right to abortion in our state for good, so these tragic stories can never happen here. • YES establishes a permanent layer of protection⁶ so that no matter who holds office in our state, extreme abortion bans⁷ cannot become law in Nevada. YES keeps families – not politicians – in charge of their own healthcare decisions, so that women can make these personal decisions in consultation with their doctors and those they love and trust. We should trust women and doctors to make the right decisions for their own situations without government getting involved. If this amendment fails, future generations could have fewer rights and freedoms than their parents and grandparents⁸. Vote YES to keep politicians out of our personal, private decisions. Question 6 has no fiscal or environmental impact.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "Decisions about abortion should be left to women and qualified healthcare professionals, who take a pledge to act in their patients’ best interest. When it comes to something as personal and complicated as pregnancy, politicians are never more qualified to make healthcare decisions than women and their doctors. That’s why it is so important to vote YES on this amendment. People across Nevada are voting YES because: • YES protects doctors so that they will never have to risk jail time just to treat the patient in front of them¹. • Extreme abortion bans are already in place across the country – from Texas² to Florida3 to right next door in Utah and Arizona – and they are having dangerous effects. A 10-year-old girl from Ohio who was raped had to travel to Indiana to get the abortion",
+          "locator": "p. 4, State Question Num. 6, Arguments for Passage"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "she needed⁴, and in Texas, one woman who miscarried lost liters of blood and had to go on a breathing machine before doctors could legally help her⁵. YES protects the right to abortion in our state for good, so these tragic stories can never happen here. • YES establishes a permanent layer of protection⁶ so that no matter who holds office in our state, extreme abortion bans⁷ cannot become law in Nevada. YES keeps families – not politicians – in charge of their own healthcare decisions, so that women can make these personal decisions in consultation with their doctors and those they love and trust. We should trust women and doctors to make the right decisions for their own situations without government getting involved. If this amendment fails, future generations could have fewer rights and freedoms than their parents and grandparents⁸. Vote YES to keep politicians out of our personal, private decisions. Question 6 has no fiscal or environmental impact.",
+          "locator": "p. 5, State Question Num. 6, Arguments for Passage"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "The above argument was submitted by the Ballot Question Committee composed of citizens in favor of this question as provided for in NRS 293.252. Committee members: Lindsey Harmon (Chair), Denise Lopez, and Bradley Schrager. This argument can also be found at www.nvsos. gov.",
+          "locator": "p. 5, State Question Num. 6, Arguments for Passage, committee attribution"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-proponent",
+      "kind": "rebuttal_to_proponent",
+      "authors": [
+        "Emily Mimnaugh (Chair)",
+        "Jason Guinasso"
+      ],
+      "side": "no",
+      "text": "Do you want courts and judges making decisions about pregnancy instead of women and doctors?1 Vote NO to stop courts from invading your personal, private medical decisions. Vote NO to protect our current abortion laws.2 There literally cannot be “any reasonable degree of certainty”3 what laws will change or how much you will have to pay to fund abortion with Question 6. Vote NO. Do you want to spend millions of taxpayer dollars to fund abortions through all 9-months of pregnancy? Do you want to write a blank check to use taxpayer money to pay for abortions?4 Last year, California spent $200 million⁵ on an abortion- funding package to pay for abortions6 and even to create a website explaining how to have the state pay for an abortion “at no cost to you.”7 Don’t want that policy? Vote NO. Here’s a list of people NOT mentioned in Question 6: • Women and girls – No specific protection. • Mothers and parents – No specific protection. • Doctors – No specific protection. A young mother in Las Vegas recently bled to death after taking abortion pills.8 Protect our current law, women and doctors, keep the courts out of our personal lives, and vote NO.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "Do you want courts and judges making decisions about pregnancy instead of women and doctors?1 Vote NO to stop courts from invading your personal, private medical decisions. Vote NO to protect our current abortion laws.2 There literally cannot be “any reasonable degree of certainty”3 what laws will change or how much you will have to pay to fund abortion with Question 6. Vote NO.",
+          "locator": "p. 5, State Question Num. 6, Rebuttal to Arguments for Passage"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "Do you want to spend millions of taxpayer dollars to fund abortions through all 9-months of pregnancy? Do you want to write a blank check to use taxpayer money to pay for abortions?4 Last year, California spent $200 million⁵ on an abortion- funding package to pay for abortions6 and even to create a website explaining how to have the state pay for an abortion “at no cost to you.”7 Don’t want that policy? Vote NO. Here’s a list of people NOT mentioned in Question 6: • Women and girls – No specific protection. • Mothers and parents – No specific protection. • Doctors – No specific protection. A young mother in Las Vegas recently bled to death after taking abortion pills.8 Protect our current law, women and doctors, keep the courts out of our personal lives, and vote NO.",
+          "locator": "p. 6, State Question Num. 6, Rebuttal to Arguments for Passage"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "The above rebuttal was submitted by the Ballot Question Committee composed of citizens opposed to this question as provided for in NRS 293.252. Committee members: Emily Mimnaugh (Chair) and Jason Guinasso. This argument can also be found at www.nvsos.gov.",
+          "locator": "p. 6, State Question Num. 6, Rebuttal to Arguments for Passage, committee attribution"
+        }
+      ]
+    },
+    {
+      "id": "opponent",
+      "kind": "opponent",
+      "authors": [
+        "Emily Mimnaugh (Chair)",
+        "Jason Guinasso"
+      ],
+      "side": "no",
+      "text": "Vote NO to stop Question 6 from re-writing our State Constitution. Vote No to stop Question 6 from writing a blank check to fund unlimited, 9-month abortions using taxpayer money.¹ Question 6 may force you the taxpayer to pay for abortions.² The cost and fiscal impact of Question 6 cannot be determined:3 It may cost taxpayers MORE than $120-million-dollars every year.⁴ Vote NO to protect our current abortion law. Abortion is legal in Nevada.⁵ Currently, doctors can do abortions—without restriction—up to 24 weeks (6 months).⁶ After that, it’s also allowed to save the mom’s life or health.⁷ Our current law is more pro-choice than Roe v. Wade.⁸ Only voters can change our state’s abortion law, and it hasn’t changed in decades.⁹ Unlike Nevada, other states have recently changed their abortion laws, and “litigation has exploded.”10 Vote NO to keep the courts out of private, personal decisions.11 If you like the current law, protect it: Vote NO. If you don’t like the current law, vote NO so it’s not even harder to fix.12 Question 6 has no bright-line rule saying when abortion is legal. Is it always legal at 4 months? 6 months? 9 months? Our current law is clear. Question 6 is not. Question 6 has no bright-line rule saying when taxpayers must pay for abortions. Do taxpayers pay for an optional abortion at 9 months? Our current law is clear. Question 6 is not. What about doctors? Can a non-doctor perform a surgical abortion at 9 months outside a hospital? Question 6 may not stop this, but the current law protects women. Vote NO. What about parents? Can a non-doctor perform a secret surgical abortion on a 13-year-old girl? Question 6 may not stop this, but the current law protects children and parents. Vote NO. When laws are unclear, the result is expensive lawsuits.13 The legal, fiscal and environmental impacts of Question 6 are unknown.14 Lawsuits cost taxpayers money.15 Vote NO because Question 6 is: • Dangerous: It lets people who aren’t doctors do abortions. • Wrong: It allows abortions through all 9 months of pregnancy. • Harmful: It strips out rules that keep women safe. • Expensive: It may cause lawsuits and cost millions to fund abortions. • Unwanted: It changes our current abortion laws which are clear. Keep our laws clear. Keep tax spending transparent. Keep courts out of abortion. Keep decisions between women and doctors. Vote NO.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "Vote NO to stop Question 6 from re-writing our State Constitution. Vote No to stop Question 6 from writing a blank check to fund unlimited, 9-month abortions using taxpayer money.¹ Question 6 may force you the taxpayer to pay for abortions.² The cost and fiscal impact of Question 6 cannot be determined:3 It may cost taxpayers MORE than $120-million-dollars every year.⁴",
+          "locator": "p. 6, State Question Num. 6, Arguments Against Passage"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "Vote NO to protect our current abortion law. Abortion is legal in Nevada.⁵ Currently, doctors can do abortions—without restriction—up to 24 weeks (6 months).⁶ After that, it’s also allowed to save the mom’s life or health.⁷ Our current law is more pro-choice than Roe v. Wade.⁸ Only voters can change our state’s abortion law, and it hasn’t changed in decades.⁹ Unlike Nevada, other states have recently changed their abortion laws, and “litigation has exploded.”10 Vote NO to keep the courts out of private, personal decisions.11 If you like the current law, protect it: Vote NO. If you don’t like the current law, vote NO so it’s not even harder to fix.12 Question 6 has no bright-line rule saying when abortion is legal. Is it always legal at 4 months? 6 months? 9 months? Our current law is clear. Question 6 is not. Question 6 has no bright-line rule saying when taxpayers must pay for abortions. Do taxpayers pay for an optional abortion at 9 months? Our current law is clear. Question 6 is not. What about doctors? Can a non-doctor perform a surgical abortion at 9 months outside a hospital? Question 6 may not stop this, but the current law protects women. Vote NO. What about parents? Can a non-doctor perform a secret surgical abortion on a 13-year-old girl? Question 6 may not stop this, but the current law protects children and parents. Vote NO.",
+          "locator": "p. 7, State Question Num. 6, Arguments Against Passage"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "When laws are unclear, the result is expensive lawsuits.13 The legal, fiscal and environmental impacts of Question 6 are unknown.14 Lawsuits cost taxpayers money.15 Vote NO because Question 6 is: • Dangerous: It lets people who aren’t doctors do abortions. • Wrong: It allows abortions through all 9 months of pregnancy. • Harmful: It strips out rules that keep women safe. • Expensive: It may cause lawsuits and cost millions to fund abortions. • Unwanted: It changes our current abortion laws which are clear. Keep our laws clear. Keep tax spending transparent. Keep courts out of abortion. Keep decisions between women and doctors. Vote NO.",
+          "locator": "p. 7, State Question Num. 6, Arguments Against Passage"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "The above argument was submitted by the Ballot Question Committee composed of citizens opposed to this question as provided for in NRS 293.252. Committee members: Emily Mimnaugh (Chair) and Jason Guinasso. This argument can also be found at www.nvsos.gov.",
+          "locator": "p. 8, State Question Num. 6, Arguments Against Passage, committee attribution"
+        }
+      ]
+    },
+    {
+      "id": "rebuttal-to-opponent",
+      "kind": "rebuttal_to_opponent",
+      "authors": [
+        "Lindsey Harmon (Chair)",
+        "Denise Lopez",
+        "Bradley Schrager"
+      ],
+      "side": "yes",
+      "text": "The people against this amendment are lying to scare voters. Nevadans know that a woman may end a pregnancy for many different reasons. We also know that women and doctors do not decide on an abortion later in pregnancy unless there is a serious reason, like a risk to her life or pregnancy. And this amendment does nothing to change parental rights in Nevada, because we all want young people to get the support they need from those who love them when making decisions. All this amendment does is ensure families – not politicians – are in charge of their own health care decisions and can make the right choice for their unique situations without government getting in the way. When families are making difficult, personal medical decisions, one-size-fits all laws don’t work. As bans across the country are already putting lives at risk, this amendment adds a permanent layer of protection for abortion rights in Nevada so that no matter who holds office in our state, these extreme bans cannot become law here. Again, this amendment has no fiscal or tax implications.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "The people against this amendment are lying to scare voters. Nevadans know that a woman may end a pregnancy for many different reasons. We also know that women and doctors do not decide on an abortion later in pregnancy unless there is a serious reason, like a risk to her life or pregnancy. And this amendment does nothing to change parental rights in Nevada, because we all want young people to get the support they need from those who love them when making decisions. All this amendment does is ensure families – not politicians – are in charge of their own health care decisions and can make the right choice for their unique situations without government getting in the way. When families are making difficult, personal medical decisions, one-size-fits all laws don’t work. As bans across the country are already putting lives at risk, this amendment adds a permanent layer of protection for abortion rights in Nevada so that no matter who holds office in our state, these extreme bans cannot become law here. Again, this amendment has no fiscal or tax implications.",
+          "locator": "p. 8, State Question Num. 6, Rebuttal to Arguments Against Passage"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "The above rebuttal was submitted by the Ballot Question Committee composed of citizens in favor of this question as provided for in NRS 293.252. Committee members: Lindsey Harmon (Chair), Denise Lopez, and Bradley Schrager. This argument can also be found at www.nvsos. gov.",
+          "locator": "p. 9, State Question Num. 6, Rebuttal to Arguments Against Passage, committee attribution"
+        }
+      ]
+    }
+  ],
+  "digest": {
+    "label": "Explanation & Digest",
+    "no_means": {
+      "value": "A “No” vote would keep the Nevada Constitution in its current form and would not impact the availability of abortion as a statutory right under Nevada law.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "A “No” vote would keep the Nevada Constitution in its current form and would not impact the availability of abortion as a statutory right under Nevada law.",
+          "locator": "p. 3, State Question Num. 6, Explanation & Digest, Explanation"
+        }
+      ]
+    },
+    "proposal": {
+      "value": "This right to abortion would apply from the start of a person’s pregnancy up until the start of “fetal viability,” unless the pregnant person needs medical care to protect that person’s life or health, in which case the right applies throughout the pregnancy. “Fetal viability” means “the point in pregnancy when, in the professional judgment of the patient’s treating health care practitioner, there is a significant likelihood of the fetus’ sustained survival outside the uterus without the application of extraordinary medical measures.” The initiative makes clear that the State of Nevada, including county and city governments in Nevada, generally cannot not interfere with this right. But a state, county, or city government can interfere with the right if there is a “compelling state interest” in doing so. A “compelling state interest” exists only if the government uses the least restrictive means to protect or improve the pregnant person’s life or health in ways that follow clinical standards of practice. Lastly, this proposed right to abortion does not require or force any individual in Nevada to have an abortion. Instead, it creates a right that allows an individual to make their own decision.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "This right to abortion would apply from the start of a person’s pregnancy up until the start of “fetal viability,” unless the pregnant person needs medical care to protect that person’s life or health, in which case the right applies throughout the pregnancy. “Fetal viability” means “the point in pregnancy when, in the professional judgment of the patient’s treating health care practitioner, there is a significant likelihood of the fetus’ sustained survival outside the uterus without the application of extraordinary medical measures.” The initiative makes clear that the State of Nevada, including county and city governments in Nevada, generally cannot not interfere with this right. But a state, county, or city government can interfere with the right if there is a “compelling state interest” in doing so. A “compelling state interest” exists only if the government uses the least restrictive means to protect or improve the pregnant person’s life or health in ways that follow clinical standards of practice. Lastly, this proposed right to abortion does not require or force any individual in Nevada to have an abortion. Instead, it creates a right that allows an individual to make their own decision.",
+          "locator": "p. 3, State Question Num. 6, Explanation & Digest, Explanation"
+        }
+      ]
+    },
+    "way_it_is_now": {
+      "value": "Existing law states that abortions are legal in Nevada and must occur within 24 weeks after the start of the pregnancy. An exception currently exists to allow an abortion after 24 weeks if a physician reasonably believes that an abortion is necessary to preserve the pregnant person’s life or health. Existing law also requires that abortions performed after the 24th week of pregnancy be performed in a hospital licensed by the State of Nevada.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "Existing law states that abortions are legal in Nevada and must occur within 24 weeks after the start of the pregnancy. An exception currently exists to allow an abortion after 24 weeks if a physician reasonably believes that an abortion is necessary to preserve the",
+          "locator": "p. 3, State Question Num. 6, Explanation & Digest, Digest"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "pregnant person’s life or health. Existing law also requires that abortions performed after the 24th week of pregnancy be performed in a hospital licensed by the State of Nevada.",
+          "locator": "p. 4, State Question Num. 6, Explanation & Digest, Digest"
+        }
+      ]
+    },
+    "yes_means": {
+      "value": "A “Yes” vote would create a new section of the Nevada Constitution to establish a person’s constitutional right to abortion, so that a person can make decisions about matters relating to abortion and reproductive healthcare, without interference from state or local governments.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "A “Yes” vote would create a new section of the Nevada Constitution to establish a person’s constitutional right to abortion, so that a person can make decisions about matters relating to abortion and reproductive healthcare, without interference from state or local governments.",
+          "locator": "p. 3, State Question Num. 6, Explanation & Digest, Explanation"
+        }
+      ]
+    }
+  },
+  "fiscal": {
+    "as_of": "2024-08-01",
+    "effects": [
+      {
+        "id": "abortion-law-compliance-review",
+        "direction": "none",
+        "estimate": "depends_on_future_decisions",
+        "lane": "other_agency",
+        "note": "The note covers the State and local governments together, names no fund, and gives no direction, yearly amount or one-time amount.",
+        "per": "total",
+        "text": "The Legislature may need to review existing abortion laws for compliance; resources the State or local governments use to administer or enforce revised laws may be affected. No amount is given.",
+        "citations": [
+          {
+            "source": "src:clarkcountynv-gov-384ac2c752",
+            "quote": "If this Initiative is approved by the voters at the November 2024 and November 2026 General Elections, the Legislature may be required to evaluate existing laws governing abortion to determine whether they are in compliance with the provisions of this amendment. If it is determined that existing laws are not in compliance, it is possible that the amount of resources utilized by the State or local governments for the administration or enforcement of new abortion laws that would comply with these provisions may be affected.",
+            "locator": "p. 9, State Question Num. 6, Fiscal Note, Financial Impact of the Initiative"
+          },
+          {
+            "source": "src:clarkcountynv-gov-384ac2c752",
+            "quote": "However, because it is unknown what laws, if any, may not be in compliance with the provisions of the Initiative, nor is it known how the Legislature may revise existing laws if they are determined to not comply with these provisions, the financial effect upon the State or local governments cannot be determined with any reasonable degree of certainty.",
+            "locator": "p. 9, State Question Num. 6, Fiscal Note, Financial Impact of the Initiative"
+          },
+          {
+            "source": "src:clarkcountynv-gov-384ac2c752",
+            "quote": "Prepared by the Fiscal Analysis Division of the Legislative Counsel Bureau – August 1, 2024",
+            "locator": "p. 9, State Question Num. 6, Fiscal Note"
+          }
+        ]
+      }
+    ],
+    "statement_by": "Fiscal Analysis Division of the Legislative Counsel Bureau",
+    "summary": {
+      "summary": "Financial impact: cannot be determined. The Fiscal Analysis Division says it is unknown which existing laws, if any, would not comply with the amendment or how the Legislature may revise them, so the financial effect on the State or local governments cannot be determined with any reasonable degree of certainty.",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "FINANCIAL IMPACT – CANNOT BE DETERMINED",
+          "locator": "p. 9, State Question Num. 6, Fiscal Note"
+        },
+        {
+          "source": "src:clarkcountynv-gov-384ac2c752",
+          "quote": "However, because it is unknown what laws, if any, may not be in compliance with the provisions of the Initiative, nor is it known how the Legislature may revise existing laws if they are determined to not comply with these provisions, the financial effect upon the State or local governments cannot be determined with any reasonable degree of certainty.",
+          "locator": "p. 9, State Question Num. 6, Fiscal Note, Financial Impact of the Initiative"
+        }
+      ]
+    }
+  },
+  "jurisdiction": {
+    "name": "State of Nevada",
+    "level": "state"
+  },
+  "measure_type": {
+    "value": "constitutional_amendment",
+    "citations": [
+      {
+        "source": "src:clarkcountynv-gov-384ac2c752",
+        "quote": "STATE QUESTION NUM. 6 Amendment to the Nevada Constitution Initiative Petition C-05-2023",
+        "locator": "p. 3, State Question Num. 6, heading"
+      }
+    ]
+  },
+  "number": "6",
+  "official_title": {
+    "value": "Should the Nevada Constitution be amended to create an individual’s fundamental right to an abortion, without interference by state or local governments, whenever the abortion is performed by a qualified healthcare professional until fetal viability or when necessary to protect the health or life of the pregnant individual at any point during the pregnancy?",
+    "citations": [
+      {
+        "source": "src:clarkcountynv-gov-384ac2c752",
+        "quote": "Should the Nevada Constitution be amended to create an individual’s fundamental right to an abortion, without interference by state or local governments, whenever the abortion is performed by a qualified healthcare professional until fetal viability or when necessary to protect the health or life of the pregnant individual at any point during the pregnancy?",
+        "locator": "p. 3, State Question Num. 6, ballot question"
+      }
+    ]
+  },
+  "origin": "initiative",
+  "placed_by": {
+    "value": "petition",
+    "citations": [
+      {
+        "source": "src:clarkcountynv-gov-384ac2c752",
+        "quote": "STATE QUESTION NUM. 6 Amendment to the Nevada Constitution Initiative Petition C-05-2023",
+        "locator": "p. 3, State Question Num. 6, heading"
+      }
+    ]
+  },
+  "summary": {
+    "value": "This initiative, if approved by the voters, amends the Nevada Constitution to create a constitutional right to abortion.",
+    "citations": [
+      {
+        "source": "src:clarkcountynv-gov-384ac2c752",
+        "quote": "This initiative, if approved by the voters, amends the Nevada Constitution to create a constitutional right to abortion.",
+        "locator": "p. 3, State Question Num. 6, Explanation & Digest, Explanation"
+      }
+    ]
+  },
+  "last_verified": "2026-11-04"
+}
