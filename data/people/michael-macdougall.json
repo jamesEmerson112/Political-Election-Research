@@ -4,6 +4,32 @@
   "name": "Michael MacDougall",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-04",
+      "search_log": [
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "Our Town Reno, May 20, 2026 (quotes his campaign about page)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "birth date",
+          "where": "The Nevada Independent, Oct. 2, 2026 (controller race preview)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Michael MacDougall Nevada state controller 2026 Democrat candidate",
+          "where": "web search (campaign site not found)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "\"MacDougall\" \"Building a Nevada for everyone\" controller",
+          "where": "web search (campaign site not found)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
