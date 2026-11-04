@@ -46,6 +46,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "organization": "American Enterprise Institute",
+          "role": "Tax and budget analyst",
+          "citations": [
+            {
+              "source": "src:kolotv-com-9b2260460b",
+              "quote": "Johnson began his 25-year career as a tax and budget analyst with the American Enterprise Institute and the National Taxpayers Union before founding and serving as president of the Tennessee Center for Policy Research, now known as Beacon Center of Tennessee."
+            }
+          ]
+        },
+        {
+          "organization": "National Taxpayers Union",
+          "role": "Tax and budget analyst",
+          "citations": [
+            {
+              "source": "src:kolotv-com-9b2260460b",
+              "quote": "Johnson began his 25-year career as a tax and budget analyst with the American Enterprise Institute and the National Taxpayers Union before founding and serving as president of the Tennessee Center for Policy Research, now known as Beacon Center of Tennessee."
+            }
+          ]
+        },
+        {
+          "organization": "Tennessee Center for Policy Research (now Beacon Center of Tennessee)",
+          "role": "Founder and president",
+          "citations": [
+            {
+              "source": "src:kolotv-com-9b2260460b",
+              "quote": "Johnson began his 25-year career as a tax and budget analyst with the American Enterprise Institute and the National Taxpayers Union before founding and serving as president of the Tennessee Center for Policy Research, now known as Beacon Center of Tennessee."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-04",
       "items": [],
