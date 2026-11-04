@@ -24,6 +24,32 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-04",
+      "items": [
+        {
+          "degree": "Bachelor of Science",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-ed9c06d3e3",
+              "quote": "Governor Lombardo attended Rancho High School in North Las Vegas, before going on to attend the University of Nevada, Las Vegas, where he earned his Bachelor of Science degree."
+            }
+          ]
+        },
+        {
+          "degree": "Master of Science in Crisis Management",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 2006,
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-ed9c06d3e3",
+              "quote": "While serving at LVMPD, Governor Lombardo earned his Master of Science in Crisis Management from the University of Nevada, Las Vegas in 2006."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Governor of Nevada",
       "citations": [
