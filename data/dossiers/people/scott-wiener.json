@@ -1,6 +1,237 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:scott-wiener",
+  "controversies": {
+    "as_of": "2026-11-04",
+    "items": [
+      {
+        "id": "ai-chatbot-parody-of-opponent-connie-chan",
+        "date": "2026-08",
+        "resolution": {
+          "date": "2026-08-07",
+          "summary": "The San Francisco Standard reported that the campaign took down the chatbot and the billboards advertising it on August 7, 2026.",
+          "citations": [
+            {
+              "source": "src:sfstandard-com-ab01b5d4fa",
+              "quote": "state Sen. Scott Wiener’s campaign on Friday announced it would take down an AI chatbot that poked fun at his opponent, Supervisor Connie Chan, after accusations that the tool was racist and sexist. The campaign also said it would be removing billboards advertising the bot."
+            }
+          ]
+        },
+        "response": {
+          "summary": "On August 7, 2026, Wiener said the chatbot \"clearly missed the mark\" and that the campaign was taking it down; at the October 1, 2026 debate he apologized to Chan directly.",
+          "citations": [
+            {
+              "source": "src:sfstandard-com-ab01b5d4fa",
+              "quote": "“[O]ur use of an AI chatbot clearly missed the mark,” Wiener said on Friday."
+            },
+            {
+              "source": "src:sfstandard-com-b8017009ba",
+              "quote": "On Thursday, he was quick to express regret directly to Chan: “It was a mistake, and that is not who I am. And so, supervisor, I want to directly apologize to you for that chatbot, and you have my apologies.”"
+            }
+          ]
+        },
+        "summary": "KRON4 reported that Wiener's congressional campaign launched ConnieChan.ai, an AI chatbot parody of Supervisor Connie Chan. The San Francisco Standard and SFist reported that Nancy Pelosi and other Democratic women officials signed a letter criticizing it, and that Chan's campaign accused the bot of producing racist and sexist responses; Wiener's campaign denied designing it to do so.",
+        "title": "2026 campaign AI chatbot parodying opponent Connie Chan",
+        "citations": [
+          {
+            "source": "src:kron4-com-8b7d2abdcf",
+            "quote": "State Sen. Scott Wiener has launched an AI chatbot parody of his opponent, SF Supervisor Connie Chan."
+          },
+          {
+            "source": "src:sfstandard-com-ab01b5d4fa",
+            "quote": "which was released this week, prompted a wave of criticism, including from Pelosi herself, who said in a Thursday letter — signed by multiple female electeds — that it was a “a gross misuse of technology and reflects a disturbing willingness to erase women’s agency.”"
+          },
+          {
+            "source": "src:sfist-com-2264a6d201",
+            "quote": "Wiener’s campaign denied designing the chatbot to produce racist or sexist responses, saying it was political satire focused on Chan’s record, accusing her of using race and gender to deflect criticism."
+          }
+        ]
+      },
+      {
+        "id": "fppc-warning-letter-late-campaign-reports-2018-2020",
+        "date": "2023-03-06",
+        "resolution": {
+          "date": "2023-03-06",
+          "summary": "The Enforcement Division closed the case with a warning letter, without administrative prosecution or a fine.",
+          "citations": [
+            {
+              "source": "src:fppc-ca-gov-b14f9ddd0e",
+              "quote": "A warning letter is an Enforcement Division case resolution without administrative prosecution or fine.",
+              "locator": "p. 3"
+            }
+          ]
+        },
+        "response": {
+          "status": "not_found",
+          "as_of": "2026-11-04",
+          "search_log": [
+            {
+              "date": "2026-11-04",
+              "query": "Scott Wiener FPPC warning letter 2023",
+              "where": "Web search"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "\"Wiener\" FPPC warning letter late contribution reports 2018 2020 committee response news",
+              "where": "Web search"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "Scott Wiener FPPC",
+              "where": "Web search"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "response, prosecution request",
+              "where": "The FPPC letter itself (fppc.ca.gov), which records no response"
+            }
+          ]
+        },
+        "summary": "The Fair Political Practices Commission's Enforcement Division, acting on a Franchise Tax Board audit, found that Re-Elect Scott Wiener for State Senate 2020 failed to timely file two pre-election statements before the June 2018 primary and six 24-hour contribution reports in 2020, and failed to timely report accrued expenses. Citing mitigating factors, it closed the case with a warning letter.",
+        "title": "2023 FPPC warning letter on late campaign reports by his 2020 state Senate committee",
+        "citations": [
+          {
+            "source": "src:fppc-ca-gov-b14f9ddd0e",
+            "quote": "The Committee violated Section 84200.5, subdivision (b), of the Act by failing to timely file pre-election campaign statements for the reporting periods of January 1, 2018 to April 21, 2018 and April 22, 2018 to May 19, 2018, by the applicable due dates.",
+            "locator": "p. 2"
+          },
+          {
+            "source": "src:fppc-ca-gov-b14f9ddd0e",
+            "quote": "Also, the Committee violated Section 84203 of the Act by failing to timely file six 24-hour contribution reports for 14 late contributions received totaling $24,950.",
+            "locator": "p. 2"
+          },
+          {
+            "source": "src:fppc-ca-gov-b14f9ddd0e",
+            "quote": "Further, the Committee violated Section 84211, subdivision (k), of the Act by failing to timely report $144,833 worth of accrued expenses on the pre-election campaign statement for the reporting period of January 19, 2020 to February 15, 2020, by the applicable due date.",
+            "locator": "p. 2"
+          },
+          {
+            "source": "src:fppc-ca-gov-b14f9ddd0e",
+            "quote": "However, there are several mitigating factors present in this case and for the following reasons, the Enforcement Division has decided to close this case with this warning letter.",
+            "locator": "p. 2"
+          }
+        ]
+      },
+      {
+        "id": "sunshine-ordinance-complaint-ethics-commission-2013",
+        "date": "2013-09-23",
+        "resolution": {
+          "date": "2013-09-23",
+          "summary": "The Ethics Commission determined by a 3-1 vote that the four supervisors did not violate the Sunshine Ordinance as alleged.",
+          "citations": [
+            {
+              "source": "src:sfethics-org-49c7798fd2",
+              "quote": "By a vote of 3-1, determined that Respondents David Chiu, Malia Cohen, Eric Mar and Scott Wiener, members of the Board of Supervisors, did not commit a violation of the Sunshine Ordinance as alleged in Ethics Complaint No. 02-12042, referred from the Sunshine Ordinance Task Force to the Ethics Commission on April 2, 2012."
+            }
+          ]
+        },
+        "response": {
+          "status": "not_found",
+          "as_of": "2026-11-04",
+          "search_log": [
+            {
+              "date": "2026-11-04",
+              "query": "Wiener statement",
+              "where": "San Francisco Ethics Commission minutes of September 23, 2013 (sfethics.org); an aide spoke for President Chiu, no statement by Wiener is recorded"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "Scott Wiener Sunshine Ordinance Task Force complaint dismissed 2013",
+              "where": "Web search"
+            },
+            {
+              "date": "2026-11-04",
+              "query": "Wiener Chiu Mar Cohen Parkmerced Sunshine Ordinance violation Ethics Commission 2013 response",
+              "where": "Web search"
+            }
+          ]
+        },
+        "summary": "The Sunshine Ordinance Task Force referred Ethics Complaint No. 02-120402, alleging a willful Sunshine Ordinance violation by Supervisors David Chiu, Malia Cohen, Eric Mar and Scott Wiener, to the Ethics Commission on April 2, 2012. The commission's minutes record that it concerned changes introduced during a Land Use Committee meeting. A 2014 San Francisco Bay Guardian column by a Task Force member said the Task Force had found in 2011 that the four violated the Sunshine Ordinance and the Brown Act over a Parkmerced contract vote.",
+        "title": "Sunshine Ordinance complaint referred to the San Francisco Ethics Commission (found no violation, 2013)",
+        "citations": [
+          {
+            "source": "src:sfethics-org-4cf7f662df",
+            "quote": "Ethics Complaint No. 02-120402 regarding alleged willful violation of Sunshine Ordinance by elected officials (referred from the Sunshine Ordinance Task Force on April 2, 2012)"
+          },
+          {
+            "source": "src:sfethics-org-4cf7f662df",
+            "quote": "He stated that changes were introduced during the Land Use Committee meeting, but that the changes were within the scope of the noticed hearing."
+          },
+          {
+            "source": "src:sfbgarchive-48hills-org-f2e862a607",
+            "quote": "In September 2011, the Task Force voted, 8-0, to find that Board of Supervisors President David Chiu and Supervisors Eric Mar, Scott Wiener and Malia Cohen had violated the Sunshine Ordinance and the state’s open-meeting law (Brown Act)."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener FPPC warning letter 2023",
+        "where": "Web search; found the FPPC warning letter (official record), recorded"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener Sunshine Ordinance Task Force complaint dismissed 2013",
+        "where": "Web search; found the Ethics Commission record, recorded"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Wiener ConnieChan.ai chatbot taken down Pelosi letter racist sexist",
+        "where": "Web search; KRON4, The San Francisco Standard and SFist reports, recorded"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener controversy ethics complaint investigation state senator",
+        "where": "Web search; no other result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener lawsuit",
+        "where": "Web search; no other result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "\"Wiener\" FPPC warning letter late contribution reports 2018 2020 committee response news",
+        "where": "Web search; no news coverage or response found"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener apologizes",
+        "where": "Web search; no other result met the documentation rule (two independent outlets or an official record) for a conduct matter"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener SF Ethics Commission stipulation penalty",
+        "where": "Web search; no stipulation or penalty found"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Wiener Chiu Mar Cohen Parkmerced Sunshine Ordinance violation Ethics Commission 2013 response",
+        "where": "Web search and sfethics.org minutes of September 23, 2013"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener FPPC",
+        "where": "Web search; only the 2023 warning letter"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener criticized state senator controversy 2026 congressional race Los Angeles Times OR Politico",
+        "where": "Web search; no other result met the documentation rule (two independent outlets or an official record)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "\"Campaign Finance Audit Report\" \"Scott Wiener\" committee findings",
+        "where": "Web search; the 2012 SF Ethics Commission audit of Scott Wiener for Supervisor 2010 reported no material findings"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Scott Wiener complaint fine investigation",
+        "where": "Web search; no other result met the documentation rule (two independent outlets or an official record)"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-02",
     "items": [

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-ab01b5d4fa",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-08-07",
+  "publisher": "The San Francisco Standard",
+  "title": "Scott Wiener takes down Connie Chan AI chatbot after pushback from Pelosi",
+  "url": "https://sfstandard.com/2026/08/07/scott-wiener-takes-connie-chan-ai-chatbot-pushback-pelosi"
+}

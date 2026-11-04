@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfist-com-2264a6d201",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-08-07",
+  "publisher": "SFist",
+  "title": "Scott Wiener Campaign Removes Connie Chan Chatbot After Backlash From Pelosi, Other Democrats",
+  "url": "https://sfist.com/2026/08/07/scott-wiener-takes-down-connie-chan-chatbot-after-backlash-from-pelosi-other-democrats/"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kron4-com-8b7d2abdcf",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "publisher": "KRON4",
+  "title": "Scott Wiener launches Connie Chan chatbot",
+  "url": "https://www.kron4.com/news/politics/scott-wiener-launches-connie-chan-chatbot/amp"
+}

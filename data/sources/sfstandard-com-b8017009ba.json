@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-b8017009ba",
+  "kind": "news_report",
+  "accessed": "2026-11-04",
+  "published": "2026-10-01",
+  "publisher": "The San Francisco Standard",
+  "title": "Five takeaways from congressional debate: Wiener, Chan clash over AI regulation",
+  "url": "https://sfstandard.com/2026/10/01/five-takeaways-congressional-debate-wiener-chan-clash-ai-regulation/"
+}
