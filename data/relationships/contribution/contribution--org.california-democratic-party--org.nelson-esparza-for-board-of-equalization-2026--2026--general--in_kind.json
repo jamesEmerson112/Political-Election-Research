@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.california-democratic-party--org.nelson-esparza-for-board-of-equalization-2026--2026--general--in_kind",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:california-democratic-party",
+  "election_designation": "general",
+  "form": "in_kind",
+  "money": {
+    "amount_cents": 1143676,
+    "basis": "aggregated_by_project",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-08-21"
+    }
+  },
+  "recipient": "org:nelson-esparza-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-3f679dc794",
+      "locator": "Form 460 Schedule C: line 13 (2026-08-21, $2,947.40); line 14 (2026-08-21, $5,109.71); line 15 (2026-09-01, $1,003.47)"
+    },
+    {
+      "source": "src:cal-access-sos-ca-gov-8ef6e5416d",
+      "locator": "Form 460 Schedule C: line 24 (2026-09-25, $948.91); line 25 (2026-09-25, $408.92); line 26 (2026-10-01, $380.96); line 27 (2026-10-02, $637.39)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

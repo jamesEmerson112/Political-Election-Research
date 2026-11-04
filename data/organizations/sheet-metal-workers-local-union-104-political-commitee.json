@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "sheet-metal-workers-local-union-104-political-commitee",
+  "name": "Sheet Metal Workers Local Union 104 Political Commitee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

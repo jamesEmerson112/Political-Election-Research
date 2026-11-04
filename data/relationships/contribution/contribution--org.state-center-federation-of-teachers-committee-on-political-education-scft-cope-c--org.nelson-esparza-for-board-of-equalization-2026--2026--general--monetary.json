@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.state-center-federation-of-teachers-committee-on-political-education-scft-cope-c--org.nelson-esparza-for-board-of-equalization-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:state-center-federation-of-teachers-committee-on-political-education-scft-cope-c",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 500000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-09-30"
+    }
+  },
+  "recipient": "org:nelson-esparza-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-8ef6e5416d",
+      "locator": "Form 460 Schedule A: line 10 (2026-09-30, $5,000.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

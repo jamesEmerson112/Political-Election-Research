@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.american-federation-of-state-county-and-municipal-employees-ca-people-afscme-ca--org.nelson-esparza-for-board-of-equalization-2026--2026--general--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:american-federation-of-state-county-and-municipal-employees-ca-people-afscme-ca",
+  "election_designation": "general",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 590000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-08-20"
+    }
+  },
+  "recipient": "org:nelson-esparza-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-3f679dc794",
+      "locator": "Form 460 Schedule A: line 6 (2026-08-20, $5,900.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

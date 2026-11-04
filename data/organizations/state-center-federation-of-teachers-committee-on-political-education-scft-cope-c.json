@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "state-center-federation-of-teachers-committee-on-political-education-scft-cope-c",
+  "name": "State Center Federation of Teachers - Committee on Political Education (SCFT-COPE) - California Federation of Teachers (cft)",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}

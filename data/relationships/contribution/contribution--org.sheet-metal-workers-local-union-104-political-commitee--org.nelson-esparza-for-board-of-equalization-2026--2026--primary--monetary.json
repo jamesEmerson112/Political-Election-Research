@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "contribution--org.sheet-metal-workers-local-union-104-political-commitee--org.nelson-esparza-for-board-of-equalization-2026--2026--primary--monetary",
+  "type": "contribution",
+  "cycle": 2026,
+  "donor": "org:sheet-metal-workers-local-union-104-political-commitee",
+  "election_designation": "primary",
+  "form": "monetary",
+  "money": {
+    "amount_cents": 550000,
+    "basis": "itemized",
+    "period": {
+      "end": "2026-10-17",
+      "start": "2026-02-09"
+    }
+  },
+  "recipient": "org:nelson-esparza-for-board-of-equalization-2026",
+  "citations": [
+    {
+      "source": "src:cal-access-sos-ca-gov-f3e076eeb1",
+      "locator": "Form 460 Schedule A: line 39 (2026-02-09, $5,500.00)"
+    }
+  ],
+  "last_verified": "2026-11-04"
+}

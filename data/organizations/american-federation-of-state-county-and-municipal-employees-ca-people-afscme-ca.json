@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "american-federation-of-state-county-and-municipal-employees-ca-people-afscme-ca",
+  "name": "American Federation of State, County & Municipal Employees - CA People (AFSCME CA People) Small Contributor Committee",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-04"
+}
