@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../schemas/positions.schema.json",
+  "actor": "person:ryan-hazelton",
+  "positions": [
+    {
+      "subject": "q:education/sfusd-proximity-assignment",
+      "stance": "support",
+      "as_of": "2026-11-04",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Hazelton says enrollment should change to neighborhood assignments instead of the lottery, while keeping the option to apply to citywide language immersion and K-8 programs.",
+      "citations": [
+        {
+          "source": "src:growsf-org-9608327318",
+          "quote": "Our enrollment process needs to be finally changed to neighborhood assignments versus the current lottery system that forces families to rank schools."
+        },
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "He supports a zone-based model, in which students would be assigned to a neighborhood school close to their home.",
+          "locator": "Positions on Key Issues, student-assignment question"
+        },
+        {
+          "source": "src:media-api-sf-gov-e4221ecde7",
+          "quote": "Make SFUSD easier to join by reforming the lottery system",
+          "locator": "Candidate statement, Board of Education, p. 29 (PDF page 31)"
+        }
+      ]
+    }
+  ]
+}
