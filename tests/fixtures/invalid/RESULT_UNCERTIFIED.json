@@ -1,0 +1,1 @@
+{"description":"A semi-official count still waiting for certification (warning; error under --strict).","strict":true,"expect":["RESULT_UNCERTIFIED"],"patches":[{"file":"contests/2030-zz-general/governor.json","set":{"/result/certified":false,"/result/as_of":"2030-11-06"},"remove":["/result/certified_date"]}]}

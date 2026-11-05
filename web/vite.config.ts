@@ -10,7 +10,7 @@ import { todayString } from "../src/validate.ts";
 
 const WEB_ROOT = path.dirname(fileURLToPath(import.meta.url));
 const FIXTURE_DIR = path.join(REPO_ROOT, "tests", "fixtures", "valid", "data");
-const FIXTURE_TODAY = "2030-11-01";
+const FIXTURE_TODAY = "2031-03-01";
 
 /** The commit this build is from: Vercel's build variable, else git, else null (shown on the About page). */
 function buildSha(): string | null {

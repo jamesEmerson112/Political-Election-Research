@@ -1,0 +1,1 @@
+{"description":"A result cited only to a news story, not the election official's results (warning; error under --strict).","strict":true,"expect":["RESULT_SOURCE"],"patches":[{"file":"contests/2030-zz-general/governor.json","set":{"/result/citations":[{"source":"src:news-example-com-e70a5fe80d","quote":"Sample won the governor's race."}]}}]}

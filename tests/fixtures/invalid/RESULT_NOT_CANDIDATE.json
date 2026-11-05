@@ -1,0 +1,1 @@
+{"description":"A result tallies votes for someone who is not one of the contest's candidates.","expect":["RESULT_NOT_CANDIDATE"],"patches":[{"file":"contests/2030-zz-general/governor.json","set":{"/result/tallies/-":{"person":"person:pat-donor","votes":10}}}]}

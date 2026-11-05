@@ -58,7 +58,37 @@
               "issue": { "description": "Issue id (data/issues) the proposal falls under.", "$ref": "defs.schema.json#/$defs/Slug" },
               "topic": { "description": "Topic id from the contest agenda's promise_topics: what the proposal is about.", "$ref": "defs.schema.json#/$defs/Slug" },
               "as_of": { "$ref": "defs.schema.json#/$defs/Date" },
-              "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+              "citations": { "$ref": "defs.schema.json#/$defs/Citations" },
+              "tracking": {
+                "description": "What the office-holder has done on this promise since the election, from official records only (bill status, vote record, adopted budget, order, minutes); news stories are leads. Only on the promises of a contest's winner [TRACKING_NOT_WINNER]. The status shown is the latest update's; with no updates, the search log shows where someone looked (\"No action found\").",
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["as_of"],
+                "properties": {
+                  "as_of": { "description": "When the record was last checked.", "$ref": "defs.schema.json#/$defs/Date" },
+                  "updates": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": ["id", "date", "status", "summary", "citations"],
+                      "properties": {
+                        "id": { "$ref": "defs.schema.json#/$defs/Slug" },
+                        "date": { "description": "Date of the official action.", "$ref": "defs.schema.json#/$defs/Date" },
+                        "status": {
+                          "description": "in_progress: an official step toward it is documented (introduced, heard, funding requested, staff directed). partly_done: part of what the promise names was adopted or carried out (the summary says which part). done: what the promise names was adopted or carried out. stalled: a documented step failed or stopped (vote failed, vetoed, withdrawn, tabled). changed: the office-holder revised or dropped it, in their own quoted words.",
+                          "enum": ["in_progress", "partly_done", "done", "stalled", "changed"]
+                        },
+                        "summary": { "description": "What the record shows, neutral and attributed.", "type": "string", "minLength": 1, "maxLength": 400 },
+                        "bill": { "$ref": "defs.schema.json#/$defs/BillRef" },
+                        "citations": { "$ref": "defs.schema.json#/$defs/Citations" }
+                      }
+                    }
+                  },
+                  "search_log": { "$ref": "defs.schema.json#/$defs/SearchLog" }
+                },
+                "anyOf": [{ "required": ["updates"], "properties": { "updates": { "type": "array", "minItems": 1 } } }, { "required": ["search_log"] }]
+              }
             }
           }
         },

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "exampleville-example-gov-9ea1ab3575",
+  "kind": "government_record",
+  "accessed": "2031-03-01",
+  "archive_url": "https://web.archive.org/web/20301202120000/https://exampleville.example.gov/elections/2030-11-05/results",
+  "published": "2030-12-01",
+  "publisher": "Exampleville Department of Elections",
+  "title": "Official Results, November 5, 2030",
+  "url": "https://exampleville.example.gov/elections/2030-11-05/results"
+}

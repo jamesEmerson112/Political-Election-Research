@@ -36,6 +36,10 @@ CREATE TABLE budgets (id TEXT PRIMARY KEY, name TEXT, jurisdiction TEXT, forecas
 CREATE TABLE budget_years (budget TEXT, kind TEXT, fy TEXT, total_usd INTEGER, total_label TEXT, general_fund_usd INTEGER, direction TEXT,
   amount_usd INTEGER, basis TEXT, PRIMARY KEY (budget, kind, fy));
 CREATE TABLE contest_candidates (contest TEXT, person TEXT, party TEXT, ballot_designation TEXT, incumbent INTEGER, PRIMARY KEY (contest, person));
+CREATE TABLE contest_results (contest TEXT, person TEXT, votes INTEGER, won INTEGER, certified INTEGER, certified_date TEXT, as_of TEXT,
+  PRIMARY KEY (contest, person));
+CREATE TABLE measure_results (contest TEXT PRIMARY KEY, yes_votes INTEGER, no_votes INTEGER, passed INTEGER, certified INTEGER,
+  certified_date TEXT, as_of TEXT);
 CREATE TABLE agendas (contest TEXT PRIMARY KEY, kind TEXT, endorsements_target INTEGER, top_contributors INTEGER, finance_cutoff TEXT,
   seeded_date TEXT, seeded_note TEXT);
 CREATE TABLE agenda_candidates (contest TEXT, person TEXT, name TEXT, ord INTEGER, PRIMARY KEY (contest, person));
@@ -56,6 +60,8 @@ CREATE TABLE bills (id TEXT PRIMARY KEY, title TEXT, summary TEXT, status TEXT, 
 CREATE TABLE dossier_sections (person TEXT, section TEXT, as_of TEXT, items INTEGER, PRIMARY KEY (person, section));
 CREATE TABLE dossier_items (person TEXT, section TEXT, id TEXT, title TEXT, kind TEXT, summary TEXT, date TEXT, as_of TEXT,
   issue TEXT, bill TEXT, response_summary TEXT, response_status TEXT, resolution_summary TEXT, PRIMARY KEY (person, section, id));
+CREATE TABLE promise_updates (person TEXT, promise TEXT, id TEXT, date TEXT, status TEXT, summary TEXT, bill TEXT, tracking_as_of TEXT,
+  PRIMARY KEY (person, promise, id));
 CREATE TABLE person_offices (person TEXT, office TEXT, jurisdiction TEXT, first_elected TEXT, start TEXT, "end" TEXT);
 CREATE TABLE person_education (person TEXT, institution TEXT, degree TEXT, year INTEGER);
 CREATE TABLE organizations (id TEXT PRIMARY KEY, ref TEXT, name TEXT, org_type TEXT, jurisdiction TEXT, last_verified TEXT);
@@ -283,6 +289,22 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
         ballot_designation: s(c["ballot_designation"]), incumbent: n(c["incumbent"]),
       });
     }
+    const result = r["result"] as Rec | undefined;
+    if (result && r["kind"] === "office") {
+      const won = new Set((result["winners"] as string[] | undefined) ?? []);
+      for (const t of (result["tallies"] as Rec[] | undefined) ?? []) {
+        push("contest_results", {
+          contest: ref, person: s(t["person"]), votes: n(t["votes"]), won: won.has(String(t["person"])) ? 1 : 0, certified: n(result["certified"]),
+          certified_date: s(result["certified_date"]), as_of: s(result["as_of"]),
+        });
+      }
+    }
+    if (result && r["kind"] === "measure") {
+      push("measure_results", {
+        contest: ref, yes_votes: n(result["yes_votes"]), no_votes: n(result["no_votes"]), passed: n(result["passed"]), certified: n(result["certified"]),
+        certified_date: s(result["certified_date"]), as_of: s(result["as_of"]),
+      });
+    }
     provenance(r, "contest", String(r["id"]), cites, logs);
   }
   for (const a of b.agendas) {
@@ -424,6 +446,13 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
           response_status: resp ? (resp["status"] === "not_found" ? "not_found" : "cited") : null,
           resolution_summary: s((it["resolution"] as Rec | undefined)?.["summary"]),
         });
+        const tracking = it["tracking"] as Rec | undefined;
+        for (const u of (tracking?.["updates"] as Rec[] | undefined) ?? []) {
+          push("promise_updates", {
+            person, promise: s(it["id"]), id: s(u["id"]), date: s(u["date"]), status: s(u["status"]), summary: s(u["summary"]), bill: s(u["bill"]),
+            tracking_as_of: s(tracking?.["as_of"]),
+          });
+        }
       }
     }
     provenance(d, "dossier", person, cites, logs);

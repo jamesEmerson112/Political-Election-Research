@@ -12,7 +12,7 @@ import { readDataDir, type Rec } from "../../src/dataset.js";
 import { put, type PutKind } from "../../src/put.js";
 
 const DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "valid", "data");
-export const FIXTURE_TODAY = "2030-11-01";
+export const FIXTURE_TODAY = "2031-03-01";
 
 fs.rmSync(DIR, { recursive: true, force: true });
 fs.mkdirSync(DIR, { recursive: true });
@@ -315,6 +315,40 @@ p("office", {
   term_years: { value: 4, citations: cite(srcGovOffice, "The Governor serves a four-year term.") },
 });
 
+// --- results and promise tracking (after the election) ----------------------------------
+const srcSov = p("source", {
+  url: "https://sos.example.gov/2030-general/statement-of-vote",
+  kind: "government_record",
+  title: "Statement of Vote, 2030 General Election",
+  publisher: "Example Secretary of State",
+  published: "2030-12-05",
+  archive_url: "https://web.archive.org/web/20301206120000/https://sos.example.gov/2030-general/statement-of-vote",
+});
+const srcCityResults = p("source", {
+  url: "https://exampleville.example.gov/elections/2030-11-05/results",
+  kind: "government_record",
+  title: "Official Results, November 5, 2030",
+  publisher: "Exampleville Department of Elections",
+  published: "2030-12-01",
+  archive_url: "https://web.archive.org/web/20301202120000/https://exampleville.example.gov/elections/2030-11-05/results",
+});
+const srcBudgetProposal = p("source", {
+  url: "https://budget.example.gov/2031-32/governors-budget",
+  kind: "government_record",
+  title: "Governor's Proposed Budget, 2031-32",
+  publisher: "Example Department of Finance",
+  published: "2031-01-10",
+  archive_url: "https://web.archive.org/web/20310111120000/https://budget.example.gov/2031-32/governors-budget",
+});
+const srcBillStatus = p("source", {
+  url: "https://legislature.example.gov/2031/ab-2031/status",
+  kind: "legislative_record",
+  title: "AB 2031 (Widget Apprenticeships): Bill Status",
+  publisher: "Example State Legislature",
+  published: "2031-02-15",
+  archive_url: "https://web.archive.org/web/20310216120000/https://legislature.example.gov/2031/ab-2031/status",
+});
+
 // --- contests & agenda ---------------------------------------------------------
 p("contest", {
   id: "2030-zz-general/governor",
@@ -567,6 +601,49 @@ p("leads", {
   ],
 });
 
+// --- certified results ------------------------------------------------------------
+p(
+  "contest",
+  {
+    id: "2030-zz-general/governor",
+    result: {
+      certified: true,
+      certified_date: "2030-12-05",
+      winners: [avery],
+      tallies: [
+        { person: avery, votes: 1204331 },
+        { person: jordan, votes: 987120 },
+      ],
+      citations: cite(srcSov, "Governor: Avery Sample 1,204,331; Jordan Example 987,120"),
+    },
+  },
+  "merge",
+);
+p(
+  "contest",
+  {
+    id: "2030-zz-general/prop-1",
+    result: { certified: true, certified_date: "2030-12-05", passed: true, yes_votes: 1150002, no_votes: 1020775, citations: cite(srcSov, "Proposition 1: Yes 1,150,002; No 1,020,775") },
+  },
+  "merge",
+);
+p(
+  "contest",
+  {
+    id: "2030-zz-general/exampleville-prop-a",
+    result: { certified: true, certified_date: "2030-12-01", passed: false, yes_votes: 61204, no_votes: 39118, citations: cite(srcCityResults, "Proposition A: Yes 61,204; No 39,118 (two-thirds required): Failed") },
+  },
+  "merge",
+);
+p(
+  "contest",
+  {
+    id: "2030-zz-general/exampleville-prop-b",
+    result: { certified: true, certified_date: "2030-12-01", passed: true, yes_votes: 55870, no_votes: 44032, citations: cite(srcCityResults, "Proposition B: Yes 55,870; No 44,032: Passed") },
+  },
+  "merge",
+);
+
 // --- positions -----------------------------------------------------------------
 p("position", {
   actor: avery,
@@ -703,6 +780,58 @@ p("dossier", {
         issue: "widgets",
         as_of: "2030-09-20",
         citations: cite(srcNews, "\"The state should invest in widgets,\" Sample said."),
+        tracking: {
+          as_of: "2031-02-28",
+          updates: [
+            {
+              id: "proposed-budget-2031-32",
+              date: "2031-01-10",
+              status: "in_progress",
+              summary: "The Governor's proposed 2031-32 budget includes $50 million for a widget manufacturing grant fund; the Legislature has not adopted it.",
+              citations: cite(srcBudgetProposal, "Widget Manufacturing Grant Fund: $50,000,000 (new)"),
+            },
+          ],
+        },
+      },
+      {
+        id: "widget-apprenticeships",
+        title: "Widget apprenticeships",
+        summary: "Proposes a state widget apprenticeship program.",
+        issue: "widgets",
+        as_of: "2030-09-20",
+        citations: cite(srcNews, "Sample also promised a widget apprenticeship program."),
+        tracking: {
+          as_of: "2031-02-28",
+          updates: [
+            {
+              id: "ab-2031-signed",
+              date: "2031-02-14",
+              status: "done",
+              summary: "Signed AB 2031, which creates a state widget apprenticeship program, according to the Legislature's bill status.",
+              citations: cite(srcBillStatus, "02/14/31 Approved by the Governor. Chaptered by Secretary of State."),
+            },
+          ],
+        },
+      },
+      {
+        id: "widget-permits-90-days",
+        title: "Widget permits in 90 days",
+        summary: "Proposes deciding widget plant permits within 90 days.",
+        issue: "widgets",
+        as_of: "2030-09-20",
+        citations: cite(srcTimes, "Sample said permits for widget plants should take no more than 90 days."),
+        tracking: {
+          as_of: "2031-02-28",
+          search_log: [{ where: "Governor's executive orders; Legislature bill search; Example Department of Commerce announcements", query: "widget permit 90 days", date: "2031-02-28" }],
+        },
+      },
+      {
+        id: "regional-widget-hubs",
+        title: "Regional widget hubs",
+        summary: "Proposes three regional widget training hubs.",
+        issue: "widgets",
+        as_of: "2030-09-20",
+        citations: cite(srcTimes, "Sample's plan calls for three regional widget hubs."),
       },
     ],
   },

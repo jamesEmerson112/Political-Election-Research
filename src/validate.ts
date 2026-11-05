@@ -52,6 +52,12 @@ export const RULES = {
   FILING_SUPERSEDED: "A money record only cites filings that were superseded by amendments.",
   CONTROVERSY_SOURCING: "A controversy is not backed by two independent publishers or an official record.",
   CANDIDATE_PROFILE_REQUIRED: "A person on a contest ballot has no candidate_profile.",
+  RESULT_NOT_CANDIDATE: "A contest result names a winner or a tally for someone who is not one of the contest's candidates.",
+  RESULT_WINNERS: "A contest result names more winners than the contest has seats, or winners who are not its top vote-getters.",
+  RESULT_PASSED_MISMATCH: "A certified measure result's `passed` disagrees with its votes and the measure's recorded vote threshold.",
+  RESULT_UNCERTIFIED: "A contest result is the semi-official count; replace it with the certified count when it is published.",
+  RESULT_SOURCE: "A contest result cites no official results source (the election official's own government record).",
+  TRACKING_NOT_WINNER: "A promise is tracked for someone who is not a recorded winner of a contest.",
   ARCHIVE_REQUIRED: "A source has no Wayback archive_url.",
   ORPHAN_SOURCE: "A source is not cited by any record.",
 } as const;
@@ -66,6 +72,8 @@ const WARNING_RULES = new Set<RuleCode>([
   "UNVERIFIED_CITATION",
   "FILING_SUPERSEDED",
   "CANDIDATE_PROFILE_REQUIRED",
+  "RESULT_UNCERTIFIED",
+  "RESULT_SOURCE",
   "ARCHIVE_REQUIRED",
   "ORPHAN_SOURCE",
 ]);
@@ -253,7 +261,7 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
     for (const [ptr, key, v] of walk(rec)) {
       if (typeof v !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(v)) continue;
       if (kind === "election" && ptr === "/date") continue; // election day may be in the future
-      if (["accessed", "published", "as_of", "last_verified", "date"].includes(key) && v > today) {
+      if (["accessed", "published", "as_of", "last_verified", "date", "certified_date"].includes(key) && v > today) {
         add(f.rel, ptr, "DATE_FUTURE", `${key} ${v} is after today (${today}).`);
       }
     }
@@ -265,6 +273,7 @@ function crossFile(ds: Dataset, today: string, add: Add): void {
     if (kind === "contest") {
       checkFiscal(ds, f.rel, rec, add);
       checkAffects(ds, f.rel, rec, add);
+      checkResult(ds, f.rel, rec, add);
       ((rec["candidates"] as Rec[] | undefined) ?? []).forEach((cand, i) => {
         const p = resolve(ds, String(cand["person"]));
         if (p && !p["candidate_profile"]) {
@@ -401,20 +410,71 @@ function checkPositions(ds: Dataset, rel: string, rec: Rec, add: Add): void {
   });
 }
 
+/** Whether the yes votes reach the measure's recorded vote threshold (majority: more than half; 55% and two-thirds: at least that share). */
+function measurePasses(threshold: string, yes: number, no: number): boolean {
+  const total = yes + no;
+  if (threshold === "two_thirds") return 3 * yes >= 2 * total;
+  if (threshold === "fifty_five_percent") return 100 * yes >= 55 * total;
+  return 2 * yes > total;
+}
+
+/** Contest results: winners and tallies are the contest's candidates and winners lead the count; a certified measure's `passed` matches its votes; official sources. */
+function checkResult(ds: Dataset, rel: string, rec: Rec, add: Add): void {
+  const r = rec["result"] as Rec | undefined;
+  if (!r) return;
+  if (r["certified"] === false) add(rel, "/result/certified", "RESULT_UNCERTIFIED", `Semi-official count as of ${String(r["as_of"])}; record the certified count when it is published.`);
+  const kinds = ((r["citations"] as Rec[] | undefined) ?? []).map((c) => resolve(ds, String(c["source"]))?.["kind"] as string | undefined);
+  if (!kinds.some((k) => k !== undefined && OFFICIAL_SOURCE_KINDS.has(k))) add(rel, "/result/citations", "RESULT_SOURCE", "Cite the election official's own results (a government_record source).");
+  if (rec["kind"] === "measure") {
+    const t = (rec["vote_threshold"] as Rec | undefined)?.["value"];
+    if (r["certified"] === true && typeof r["passed"] === "boolean" && typeof t === "string" && measurePasses(t, Number(r["yes_votes"]), Number(r["no_votes"])) !== r["passed"]) {
+      add(rel, "/result/passed", "RESULT_PASSED_MISMATCH", `passed is ${String(r["passed"])}, but ${String(r["yes_votes"])} yes and ${String(r["no_votes"])} no votes ${r["passed"] ? "do not reach" : "reach"} the ${t.replace(/_/g, " ")} threshold.`);
+    }
+    return;
+  }
+  const cands = new Set(((rec["candidates"] as Rec[] | undefined) ?? []).map((c) => String(c["person"])));
+  const winners = (r["winners"] as string[] | undefined) ?? [];
+  const tallies = (r["tallies"] as Rec[] | undefined) ?? [];
+  winners.forEach((w, i) => {
+    if (!cands.has(w)) add(rel, `/result/winners/${i}`, "RESULT_NOT_CANDIDATE", `${w} is not a candidate in this contest.`);
+  });
+  tallies.forEach((x, i) => {
+    if (!cands.has(String(x["person"]))) add(rel, `/result/tallies/${i}/person`, "RESULT_NOT_CANDIDATE", `${String(x["person"])} is not a candidate in this contest.`);
+  });
+  const seats = Number(rec["vote_for"] ?? 1);
+  if (winners.length > seats) add(rel, "/result/winners", "RESULT_WINNERS", `${winners.length} winners for ${seats} seat${seats === 1 ? "" : "s"}.`);
+  if (!tallies.length) return;
+  const votes = new Map(tallies.map((x) => [String(x["person"]), Number(x["votes"])]));
+  const untallied = winners.filter((w) => !votes.has(w));
+  if (untallied.length) add(rel, "/result/winners", "RESULT_WINNERS", `${untallied.join(", ")} ${untallied.length === 1 ? "has" : "have"} no tally.`);
+  const fewest = Math.min(...winners.map((w) => votes.get(w) ?? Infinity));
+  const ahead = tallies.filter((x) => !winners.includes(String(x["person"])) && Number(x["votes"]) > fewest).map((x) => String(x["person"]));
+  if (ahead.length) add(rel, "/result/winners", "RESULT_WINNERS", `${ahead.join(", ")} received more votes than a listed winner.`);
+}
+
 function checkDossier(ds: Dataset, rel: string, rec: Rec, add: Add): void {
   for (const section of DOSSIER_SECTIONS) {
     const sec = rec[section] as Rec | undefined;
     if (!sec) continue;
     const asOf = String(sec["as_of"]);
+    const items = (sec["items"] as Rec[] | undefined) ?? [];
     for (const [ptr, list] of citationLists(sec)) {
+      // A tracked promise's updates come after the campaign: they are held to the tracking's own as_of.
+      const t = /^\/items\/(\d+)\/tracking\//.exec(ptr);
+      const limit = t ? String((items[Number(t[1])]?.["tracking"] as Rec | undefined)?.["as_of"]) : asOf;
       list.forEach((c, j) => {
         const src = resolve(ds, String(c["source"]));
-        if (src && typeof src["published"] === "string" && src["published"] > asOf) {
-          add(rel, `/${section}${ptr}/${j}`, "CITATION_AFTER_ASOF", `Source published ${String(src["published"])} after section as_of ${asOf}.`);
+        if (src && typeof src["published"] === "string" && src["published"] > limit) {
+          add(rel, `/${section}${ptr}/${j}`, "CITATION_AFTER_ASOF", `Source published ${String(src["published"])} after ${t ? "tracking" : "section"} as_of ${limit}.`);
         }
       });
     }
   }
+  const actor = String(rec["actor"]);
+  const won = [...ds.contests.values()].some((c) => (((c["result"] as Rec | undefined)?.["winners"] as string[] | undefined) ?? []).includes(actor));
+  (((rec["promises"] as Rec | undefined)?.["items"] as Rec[] | undefined) ?? []).forEach((it, i) => {
+    if (it["tracking"] && !won) add(rel, `/promises/items/${i}/tracking`, "TRACKING_NOT_WINNER", `${actor} is not a recorded winner of any contest; only winners' promises are tracked.`);
+  });
   const items = ((rec["controversies"] as Rec | undefined)?.["items"] as Rec[] | undefined) ?? [];
   items.forEach((item, i) => {
     const sources = ((item["citations"] as Rec[]) ?? []).map((c) => resolve(ds, String(c["source"]))).filter((s): s is Rec => !!s);

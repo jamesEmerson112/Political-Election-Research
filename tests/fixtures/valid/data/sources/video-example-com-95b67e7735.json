@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "video-example-com-95b67e7735",
   "kind": "video",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301004120000/https://video.example.com/watch?v=debate2030",
   "published": "2030-10-08",
   "publisher": "Example Public Media",

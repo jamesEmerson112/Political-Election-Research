@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "legislature-example-gov-6c8a101bbd",
+  "kind": "legislative_record",
+  "accessed": "2031-03-01",
+  "archive_url": "https://web.archive.org/web/20310216120000/https://legislature.example.gov/2031/ab-2031/status",
+  "published": "2031-02-15",
+  "publisher": "Example State Legislature",
+  "title": "AB 2031 (Widget Apprenticeships): Bill Status",
+  "url": "https://legislature.example.gov/2031/ab-2031/status"
+}

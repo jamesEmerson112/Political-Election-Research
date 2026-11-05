@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "legislature-example-gov-14695b5e7b",
   "kind": "legislative_record",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301008120000/https://legislature.example.gov/bills/2029/ab-123",
   "published": "2029-10-02",
   "publisher": "Example State Legislature",

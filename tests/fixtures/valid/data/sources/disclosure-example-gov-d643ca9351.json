@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "disclosure-example-gov-d643ca9351",
   "kind": "lobbying_filing",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301005120000/https://disclosure.example.gov/filing/E00001/9006",
   "filing": {
     "filer_id": "E00001",

@@ -436,11 +436,12 @@
       }
     },
     "OfficeResult": {
-      "description": "Filled from the certified Statement of Vote after the election.",
+      "description": "The official count, from the election official's own results (government_record sources). While `certified` is false it is the semi-official count: `as_of` is the date of the count and `winners` are the candidates leading it. The certified Statement of Vote replaces it (`certified_date`). Ranked-choice contests record the final round of the official ranked-choice report.",
       "type": "object",
       "additionalProperties": false,
       "required": [
         "certified",
+        "winners",
         "tallies",
         "citations"
       ],
@@ -451,8 +452,18 @@
         "certified_date": {
           "$ref": "defs.schema.json#/$defs/Date"
         },
-        "winner": {
-          "$ref": "defs.schema.json#/$defs/PersonRef"
+        "as_of": {
+          "description": "Date of the count the tallies come from (required while the result is not certified).",
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
+        "winners": {
+          "description": "The candidates elected, or, while the result is not certified, the candidates leading the count: at most as many as the contest's seats (`vote_for`), and the top vote-getters in `tallies` [RESULT_WINNERS].",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "defs.schema.json#/$defs/PersonRef"
+          }
         },
         "tallies": {
           "type": "array",
@@ -477,14 +488,31 @@
         "citations": {
           "$ref": "defs.schema.json#/$defs/Citations"
         }
+      },
+      "if": {
+        "properties": {
+          "certified": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "as_of"
+        ]
+      },
+      "else": {
+        "required": [
+          "certified_date"
+        ]
       }
     },
     "MeasureResult": {
+      "description": "The official count of yes and no votes, from the election official's own results (government_record sources). While `certified` is false it is the semi-official count (`as_of`); `passed` is recorded once the result is certified.",
       "type": "object",
       "additionalProperties": false,
       "required": [
         "certified",
-        "passed",
         "yes_votes",
         "no_votes",
         "citations"
@@ -496,7 +524,12 @@
         "certified_date": {
           "$ref": "defs.schema.json#/$defs/Date"
         },
+        "as_of": {
+          "description": "Date of the count the votes come from (required while the result is not certified).",
+          "$ref": "defs.schema.json#/$defs/Date"
+        },
         "passed": {
+          "description": "Whether the measure passed, as certified; it must agree with the votes and any recorded `vote_threshold` [RESULT_PASSED_MISMATCH].",
           "type": "boolean"
         },
         "yes_votes": {
@@ -510,6 +543,24 @@
         "citations": {
           "$ref": "defs.schema.json#/$defs/Citations"
         }
+      },
+      "if": {
+        "properties": {
+          "certified": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "as_of"
+        ]
+      },
+      "else": {
+        "required": [
+          "certified_date",
+          "passed"
+        ]
       }
     },
     "Fiscal": {

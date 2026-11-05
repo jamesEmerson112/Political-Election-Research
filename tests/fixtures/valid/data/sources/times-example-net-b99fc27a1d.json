@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "times-example-net-b99fc27a1d",
   "kind": "news_report",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301006120000/https://times.example.net/2030/08/candidate-profiles",
   "published": "2030-08-20",
   "publisher": "Example Times",

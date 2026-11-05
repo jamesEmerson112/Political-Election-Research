@@ -226,6 +226,19 @@
       }
     ]
   },
+  "result": {
+    "certified": true,
+    "certified_date": "2030-12-01",
+    "no_votes": 39118,
+    "passed": false,
+    "yes_votes": 61204,
+    "citations": [
+      {
+        "source": "src:exampleville-example-gov-9ea1ab3575",
+        "quote": "Proposition A: Yes 61,204; No 39,118 (two-thirds required): Failed"
+      }
+    ]
+  },
   "summary": {
     "value": "Authorizes $300 million in bonds to build affordable housing.",
     "citations": [
@@ -244,5 +257,5 @@
       }
     ]
   },
-  "last_verified": "2030-11-01"
+  "last_verified": "2031-03-01"
 }

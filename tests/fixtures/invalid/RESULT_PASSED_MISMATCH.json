@@ -1,0 +1,1 @@
+{"description":"A certified two-thirds measure marked passed with 61% yes.","expect":["RESULT_PASSED_MISMATCH"],"patches":[{"file":"contests/2030-zz-general/exampleville-prop-a.json","set":{"/result/passed":true}}]}

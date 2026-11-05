@@ -15,6 +15,19 @@
     ]
   },
   "origin": "initiative",
+  "result": {
+    "certified": true,
+    "certified_date": "2030-12-05",
+    "no_votes": 1020775,
+    "passed": true,
+    "yes_votes": 1150002,
+    "citations": [
+      {
+        "source": "src:sos-example-gov-91cde2610d",
+        "quote": "Proposition 1: Yes 1,150,002; No 1,020,775"
+      }
+    ]
+  },
   "summary": {
     "value": "Creates a state fund for widget manufacturing grants.",
     "citations": [
@@ -24,5 +37,5 @@
       }
     ]
   },
-  "last_verified": "2030-11-01"
+  "last_verified": "2031-03-01"
 }

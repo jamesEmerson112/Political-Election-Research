@@ -1,0 +1,1 @@
+{"description":"A single-seat contest's result lists two winners.","expect":["RESULT_WINNERS"],"patches":[{"file":"contests/2030-zz-general/governor.json","set":{"/result/winners":["person:avery-sample","person:jordan-example"]}}]}

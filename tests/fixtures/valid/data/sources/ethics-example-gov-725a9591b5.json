@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "ethics-example-gov-725a9591b5",
   "kind": "government_record",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301007120000/https://ethics.example.gov/decisions/2028-117",
   "published": "2028-12-10",
   "publisher": "Example Ethics Commission",

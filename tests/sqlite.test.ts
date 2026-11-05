@@ -40,6 +40,22 @@ describe("SQLite export", () => {
     ]);
   });
 
+  it("lists contest results and promise tracking updates", () => {
+    expect(all("SELECT contest, person, votes, won, certified, certified_date FROM contest_results ORDER BY contest, votes DESC")).toEqual([
+      { contest: "contest:2030-zz-general/governor", person: "person:avery-sample", votes: 1204331, won: 1, certified: 1, certified_date: "2030-12-05" },
+      { contest: "contest:2030-zz-general/governor", person: "person:jordan-example", votes: 987120, won: 0, certified: 1, certified_date: "2030-12-05" },
+    ]);
+    expect(all("SELECT contest, yes_votes, no_votes, passed FROM measure_results ORDER BY contest")).toEqual([
+      { contest: "contest:2030-zz-general/exampleville-prop-a", yes_votes: 61204, no_votes: 39118, passed: 0 },
+      { contest: "contest:2030-zz-general/exampleville-prop-b", yes_votes: 55870, no_votes: 44032, passed: 1 },
+      { contest: "contest:2030-zz-general/prop-1", yes_votes: 1150002, no_votes: 1020775, passed: 1 },
+    ]);
+    expect(all("SELECT person, promise, id, date, status FROM promise_updates ORDER BY promise, date")).toEqual([
+      { person: "person:avery-sample", promise: "state-widget-grant-fund", id: "proposed-budget-2031-32", date: "2031-01-10", status: "in_progress" },
+      { person: "person:avery-sample", promise: "widget-apprenticeships", id: "ab-2031-signed", date: "2031-02-14", status: "done" },
+    ]);
+  });
+
   it("lists office connections, links and legal basis", () => {
     expect(all("SELECT office, type, count, bodies, text, targets FROM office_connections ORDER BY office, type")).toEqual([
       { office: "office:exampleville-council-member", type: "appoints", count: 12, bodies: 3, text: "Appoints 12 seats on 3 boards and commissions", targets: null },

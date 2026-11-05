@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "elections-exampleville-example-gov-10650ea718",
   "kind": "voter_guide",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301015120000/https://elections.exampleville.example.gov/2030-voter-guide.pdf",
   "published": "2030-09-15",
   "publisher": "Exampleville Department of Elections",

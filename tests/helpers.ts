@@ -9,7 +9,7 @@ import { validateFiles } from "../src/validate.js";
 export const HERE = path.dirname(fileURLToPath(import.meta.url));
 export const VALID_DIR = path.join(HERE, "fixtures", "valid", "data");
 export const INVALID_DIR = path.join(HERE, "fixtures", "invalid");
-export const FIXTURE_TODAY = "2030-11-01";
+export const FIXTURE_TODAY = "2031-03-01";
 
 export function validFiles(): FileMap {
   return readDataDir(VALID_DIR);

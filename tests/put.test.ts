@@ -121,6 +121,33 @@ describe("put", () => {
     ]);
   });
 
+  it("adds a promise tracking update by id without resending the promise", () => {
+    const files = validFiles();
+    const update = (id: string, date: string, status: string, summary: string) => ({
+      actor: "person:avery-sample",
+      promises: {
+        items: [
+          {
+            id: "state-widget-grant-fund",
+            tracking: { as_of: "2031-02-28", updates: [{ id, date, status, summary, citations: [{ source: "src:budget-example-gov-76f2a25b5e", quote: "Widget Manufacturing Grant Fund" }] }] },
+          },
+        ],
+      },
+    });
+    const first = put(files, "dossier", update("budget-adopted", "2031-02-20", "done", "The adopted budget funds it."), opts("merge"));
+    expect(first.action).toBe("updated");
+    const second = put(apply(files, first), "dossier", update("budget-adopted", "2031-02-20", "partly_done", "The adopted budget funds half of it."), opts("merge"));
+    const items = JSON.parse(second.content!).promises.items as Array<{ id: string; title: string; tracking?: { updates: Array<{ id: string; status: string }> } }>;
+    const grant = items.find((i) => i.id === "state-widget-grant-fund")!;
+    // The promise keeps its campaign text; the update was added once, then replaced by id, after the earlier update (date order).
+    expect(grant.title).toBe("State widget grant fund");
+    expect(grant.tracking!.updates.map((u) => [u.id, u.status])).toEqual([
+      ["proposed-budget-2031-32", "in_progress"],
+      ["budget-adopted", "partly_done"],
+    ]);
+    expect(items).toHaveLength(4);
+  });
+
   it("appends position history, rejects silent overwrites, keeps the dataset valid", () => {
     const files = validFiles();
     const later = {

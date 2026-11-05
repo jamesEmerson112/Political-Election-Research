@@ -133,6 +133,19 @@
       }
     ]
   },
+  "result": {
+    "certified": true,
+    "certified_date": "2030-12-01",
+    "no_votes": 44032,
+    "passed": true,
+    "yes_votes": 55870,
+    "citations": [
+      {
+        "source": "src:exampleville-example-gov-9ea1ab3575",
+        "quote": "Proposition B: Yes 55,870; No 44,032: Passed"
+      }
+    ]
+  },
   "summary": {
     "value": "Raises the business tax rate for the largest businesses.",
     "citations": [
@@ -151,5 +164,5 @@
       }
     ]
   },
-  "last_verified": "2030-11-01"
+  "last_verified": "2031-03-01"
 }

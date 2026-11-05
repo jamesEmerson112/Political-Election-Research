@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "sos-example-gov-dfeadf2ddd",
   "kind": "government_record",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301001120000/https://sos.example.gov/2030-general/certified-list",
   "published": "2030-08-27",
   "publisher": "Example Secretary of State",

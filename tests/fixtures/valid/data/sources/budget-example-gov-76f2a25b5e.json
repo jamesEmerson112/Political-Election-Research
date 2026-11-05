@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "budget-example-gov-76f2a25b5e",
+  "kind": "government_record",
+  "accessed": "2031-03-01",
+  "archive_url": "https://web.archive.org/web/20310111120000/https://budget.example.gov/2031-32/governors-budget",
+  "published": "2031-01-10",
+  "publisher": "Example Department of Finance",
+  "title": "Governor's Proposed Budget, 2031-32",
+  "url": "https://budget.example.gov/2031-32/governors-budget"
+}

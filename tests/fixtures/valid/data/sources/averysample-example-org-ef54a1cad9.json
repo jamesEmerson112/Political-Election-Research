@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "averysample-example-org-ef54a1cad9",
   "kind": "candidate_website",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301002120000/https://averysample.example.org/about",
   "published": "2030-02-01",
   "publisher": "Avery Sample for Governor 2030",

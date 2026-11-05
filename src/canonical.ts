@@ -97,6 +97,26 @@ export function canonicalize(kind: FileKind, rec: Record<string, unknown>, schem
     const rank = (c: Record<string, unknown>) => CONNECTION_ORDER.indexOf(String(c["type"]));
     copy["connections"] = [...(copy["connections"] as Record<string, unknown>[])].sort((a, b) => rank(a) - rank(b));
   }
+  if (kind === "contest" && copy["result"] && typeof copy["result"] === "object") {
+    // Tallies by votes (most first), then person; winners by ref.
+    const r = { ...(copy["result"] as Record<string, unknown>) };
+    if (Array.isArray(r["tallies"]))
+      r["tallies"] = [...(r["tallies"] as Record<string, unknown>[])].sort((a, b) => Number(b["votes"]) - Number(a["votes"]) || cmp(String(a["person"]), String(b["person"])));
+    if (Array.isArray(r["winners"])) r["winners"] = [...(r["winners"] as string[])].sort(cmp);
+    copy["result"] = r;
+  }
+  if (kind === "dossier" && copy["promises"] && Array.isArray((copy["promises"] as Record<string, unknown>)["items"])) {
+    // A tracked promise's updates in date order, then id.
+    const promises = copy["promises"] as Record<string, unknown>;
+    const byDate = (a: Record<string, unknown>, b: Record<string, unknown>) => cmp(String(a["date"]), String(b["date"])) || cmp(String(a["id"]), String(b["id"]));
+    copy["promises"] = {
+      ...promises,
+      items: (promises["items"] as Record<string, unknown>[]).map((it) => {
+        const t = it["tracking"] as Record<string, unknown> | undefined;
+        return t && Array.isArray(t["updates"]) ? { ...it, tracking: { ...t, updates: [...(t["updates"] as Record<string, unknown>[])].sort(byDate) } } : it;
+      }),
+    };
+  }
   return sortKeysDeep(copy);
 }
 

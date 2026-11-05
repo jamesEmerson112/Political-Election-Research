@@ -2,7 +2,7 @@
   "$schema": "../../../../../schemas/source.schema.json",
   "id": "disclosure-example-gov-fb9e8be60d",
   "kind": "campaign_finance_filing",
-  "accessed": "2030-11-01",
+  "accessed": "2031-03-01",
   "archive_url": "https://web.archive.org/web/20301005120000/https://disclosure.example.gov/filing/1400001/9001",
   "filing": {
     "filer_id": "1400001",

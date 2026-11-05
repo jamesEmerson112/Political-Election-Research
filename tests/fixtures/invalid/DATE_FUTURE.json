@@ -1,1 +1,1 @@
-{"description":"A source accessed after today.","expect":["DATE_FUTURE"],"patches":[{"file":"sources/averysample-example-org-ef54a1cad9.json","set":{"/accessed":"2031-01-01"}}]}
+{"description":"A source accessed after today.","expect":["DATE_FUTURE"],"patches":[{"file":"sources/averysample-example-org-ef54a1cad9.json","set":{"/accessed":"2031-06-01"}}]}

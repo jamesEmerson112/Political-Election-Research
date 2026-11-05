@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/source.schema.json",
+  "id": "sos-example-gov-91cde2610d",
+  "kind": "government_record",
+  "accessed": "2031-03-01",
+  "archive_url": "https://web.archive.org/web/20301206120000/https://sos.example.gov/2030-general/statement-of-vote",
+  "published": "2030-12-05",
+  "publisher": "Example Secretary of State",
+  "title": "Statement of Vote, 2030 General Election",
+  "url": "https://sos.example.gov/2030-general/statement-of-vote"
+}

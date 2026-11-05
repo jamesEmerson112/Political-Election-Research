@@ -32,6 +32,29 @@
     }
   ],
   "level": "state",
+  "result": {
+    "certified": true,
+    "certified_date": "2030-12-05",
+    "tallies": [
+      {
+        "person": "person:avery-sample",
+        "votes": 1204331
+      },
+      {
+        "person": "person:jordan-example",
+        "votes": 987120
+      }
+    ],
+    "winners": [
+      "person:avery-sample"
+    ],
+    "citations": [
+      {
+        "source": "src:sos-example-gov-91cde2610d",
+        "quote": "Governor: Avery Sample 1,204,331; Jordan Example 987,120"
+      }
+    ]
+  },
   "vote_for": 1,
-  "last_verified": "2030-11-01"
+  "last_verified": "2031-03-01"
 }

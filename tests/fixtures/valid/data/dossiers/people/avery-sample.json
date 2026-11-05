@@ -21,10 +21,93 @@
         "issue": "widgets",
         "summary": "Proposes a state fund for widget manufacturing grants.",
         "title": "State widget grant fund",
+        "tracking": {
+          "as_of": "2031-02-28",
+          "updates": [
+            {
+              "id": "proposed-budget-2031-32",
+              "status": "in_progress",
+              "date": "2031-01-10",
+              "summary": "The Governor's proposed 2031-32 budget includes $50 million for a widget manufacturing grant fund; the Legislature has not adopted it.",
+              "citations": [
+                {
+                  "source": "src:budget-example-gov-76f2a25b5e",
+                  "quote": "Widget Manufacturing Grant Fund: $50,000,000 (new)"
+                }
+              ]
+            }
+          ]
+        },
         "citations": [
           {
             "source": "src:news-example-com-e70a5fe80d",
             "quote": "\"The state should invest in widgets,\" Sample said."
+          }
+        ]
+      },
+      {
+        "id": "widget-apprenticeships",
+        "as_of": "2030-09-20",
+        "issue": "widgets",
+        "summary": "Proposes a state widget apprenticeship program.",
+        "title": "Widget apprenticeships",
+        "tracking": {
+          "as_of": "2031-02-28",
+          "updates": [
+            {
+              "id": "ab-2031-signed",
+              "status": "done",
+              "date": "2031-02-14",
+              "summary": "Signed AB 2031, which creates a state widget apprenticeship program, according to the Legislature's bill status.",
+              "citations": [
+                {
+                  "source": "src:legislature-example-gov-6c8a101bbd",
+                  "quote": "02/14/31 Approved by the Governor. Chaptered by Secretary of State."
+                }
+              ]
+            }
+          ]
+        },
+        "citations": [
+          {
+            "source": "src:news-example-com-e70a5fe80d",
+            "quote": "Sample also promised a widget apprenticeship program."
+          }
+        ]
+      },
+      {
+        "id": "widget-permits-90-days",
+        "as_of": "2030-09-20",
+        "issue": "widgets",
+        "summary": "Proposes deciding widget plant permits within 90 days.",
+        "title": "Widget permits in 90 days",
+        "tracking": {
+          "as_of": "2031-02-28",
+          "search_log": [
+            {
+              "date": "2031-02-28",
+              "query": "widget permit 90 days",
+              "where": "Governor's executive orders; Legislature bill search; Example Department of Commerce announcements"
+            }
+          ]
+        },
+        "citations": [
+          {
+            "source": "src:times-example-net-b99fc27a1d",
+            "quote": "Sample said permits for widget plants should take no more than 90 days."
+          }
+        ]
+      },
+      {
+        "id": "regional-widget-hubs",
+        "as_of": "2030-09-20",
+        "issue": "widgets",
+        "summary": "Proposes three regional widget training hubs.",
+        "title": "Regional widget hubs",
+        "citations": [
+          {
+            "source": "src:times-example-net-b99fc27a1d",
+            "quote": "Sample's plan calls for three regional widget hubs."
           }
         ]
       }
