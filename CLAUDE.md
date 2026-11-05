@@ -14,6 +14,10 @@ The maintainer approved the beta prototype and froze its format at `format-v1` (
 - **Before pushing research:** `git diff bce387a -- schemas src cli tools web geo` (the `format-v2` commit) shows only changes the maintainer approved. Use the commit, not the tag: cloud sessions can push branches but GitHub refuses their tag pushes, so the `format-v1` and `format-v2` tags may exist only as labels on some clones.
 - The next format version names its commit here (`format-v3`).
 
+## Local clones
+
+A clone that shows an old commit and hundreds of changed files nobody remembers making (GitHub Desktop: "Pull origin" with many commits, a long "Changes" list): follow [docs/LOCAL_CLONE_RECOVERY.md](docs/LOCAL_CLONE_RECOVERY.md) before anything else. Back up first, prove what is already on GitHub, then fast-forward `main`.
+
 ## Research scope: contested races only
 
 The maintainer, 2026-11-04: **skip races with only one candidate.** For an uncontested race, do only the `contest` task (the contest record, the candidate's person record and the agenda's candidate list), so the site lists it correctly. Skip all further research: profile, positions, money, endorsements, record. Ballot measures are not affected.
