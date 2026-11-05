@@ -196,6 +196,24 @@
       }
     ]
   },
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "no_votes": 4684867,
+    "yes_votes": 3280015,
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Name\": \"Prohibits Citizens From Voting Unless They Present Government-Issued Identification. Initiative Constitutional Amendment.\", \"Number\": \"39\", \"yesVotes\": \"3280015\", \"yesPercent\": \"41.2\", \"noVotes\": \"4684867\", \"noPercent\": \"58.8\"",
+        "locator": "ballot-measures, Number 39"
+      }
+    ]
+  },
   "summary": {
     "value": "Invalidates mail ballots that do not have last four digits of designated government-issued identification number written on envelope. Prohibits in-person voting without presenting government-issued identification.",
     "citations": [
@@ -206,5 +224,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-05"
 }
