@@ -45,5 +45,39 @@
   ],
   "level": "state",
   "office_ref": "office:california-superintendent-of-public-instruction",
-  "last_verified": "2026-11-03"
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "tallies": [
+      {
+        "person": "person:richard-barrera",
+        "votes": 3951026
+      },
+      {
+        "person": "person:sonja-shaw",
+        "votes": 2931656
+      }
+    ],
+    "winners": [
+      "person:richard-barrera"
+    ],
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-30ceae3381",
+        "quote": "\"Reporting\": \"100% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-30ceae3381",
+        "quote": "\"Name\": \"Richard Barrera\", \"Party\": \"Non\", \"Votes\": \"3,951,026\", \"Percent\": \"57.4\"",
+        "locator": "candidates[0]"
+      },
+      {
+        "source": "src:api-sos-ca-gov-30ceae3381",
+        "quote": "\"Name\": \"Sonja Shaw\", \"Party\": \"Non\", \"Votes\": \"2,931,656\", \"Percent\": \"42.6\"",
+        "locator": "candidates[1]"
+      }
+    ]
+  },
+  "last_verified": "2026-11-05"
 }
