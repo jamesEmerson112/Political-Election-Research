@@ -49,5 +49,39 @@
   ],
   "level": "state",
   "office_ref": "office:california-controller",
-  "last_verified": "2026-11-03"
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "tallies": [
+      {
+        "person": "person:malia-m-cohen",
+        "votes": 5080494
+      },
+      {
+        "person": "person:herb-w-morgan",
+        "votes": 2855650
+      }
+    ],
+    "winners": [
+      "person:malia-m-cohen"
+    ],
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-0400dbf5cc",
+        "quote": "\"Reporting\": \"100% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-0400dbf5cc",
+        "quote": "\"Name\": \"Malia M. Cohen\", \"Party\": \"Dem\", \"Votes\": \"5,080,494\", \"Percent\": \"64.0\"",
+        "locator": "candidates[0]"
+      },
+      {
+        "source": "src:api-sos-ca-gov-0400dbf5cc",
+        "quote": "\"Name\": \"Herb W Morgan\", \"Party\": \"Rep\", \"Votes\": \"2,855,650\", \"Percent\": \"36.0\"",
+        "locator": "candidates[1]"
+      }
+    ]
+  },
+  "last_verified": "2026-11-05"
 }
