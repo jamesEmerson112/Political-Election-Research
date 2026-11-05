@@ -1,8 +1,8 @@
-# TODO / backlog (snapshot 2026-11-04; format frozen at `format-v1`)
+# TODO / backlog (snapshot 2026-11-05; format frozen at `format-v2`)
 
-## Format requests (after v1)
-The format is frozen at the tag `format-v1` (2026-11-04; see CLAUDE.md "Format: frozen"). These format changes were left out of v1 on purpose. Each needs the maintainer's OK before work starts. Research that finds a fact the format can't hold adds it here, with the contest and the source.
-- **Election results:** a `result` on contests (votes, winner, measure passed or failed), shown on the site; a "measures that passed" mode in Try your ballot. The winners the promise tracker needs are planned in "Promise tracker" below.
+## Format requests (after v2)
+The format is frozen at the tag `format-v2` (2026-11-05; `format-v1` was 2026-11-04; see CLAUDE.md "Format: frozen"). These format changes were left out on purpose. Each needs the maintainer's OK before work starts. Research that finds a fact the format can't hold adds it here, with the contest and the source.
+- **Election results:** done in v2 (contest `result`, shown on contest pages, the Overview and measure bars; see "Results and promise tracker" below). Still open: a "measures that passed" mode in Try your ballot.
 - **Judicial retention votes:** 13 yes/no retention votes on SF ballots (2 California Supreme Court, 11 First District Court of Appeal) don't fit the contest model.
 - **Impact of past policies:** a record type for measured outcomes of candidates' past bills and programs. It needs the 12 design answers first (see "Impact of past policies and actions" below).
 - **Supervisor races:** a `voting_method` field (ranked choice), and showing `vote_for` (seats).
@@ -16,86 +16,28 @@ The format is frozen at the tag `format-v1` (2026-11-04; see CLAUDE.md "Format: 
 - **Nevada initiative constitutional amendments (second vote):** `2026-nv-general/question-6` and `question-7` are the second of the two votes Article 19, Section 2 requires ("must be approved by the voters at two successive general elections", Fiscal Analysis Division notes in Clark County's All Ballot Questions PDF, src:clarkcountynv-gov-384ac2c752, pp. 9 and 14). The measure schema has no field for the first vote (2024 Question 6 / Question 7) or the two-vote requirement; today it is only in `fiscal.summary` (Q6) and `digest.proposal` (Q7).
 - **Ballot-argument footnotes:** the Nevada arguments for `2026-nv-general/question-6` and `question-7` print numbered endnotes (the authors' sources) after each argument (same PDF, pp. 5-8, 12-14). `BallotArgument` has no field for them, so `text` keeps the inline note markers and the endnotes are left out.
 
-## Promise tracker (decided 2026-11-04; build later)
-After the election, follow what each winner does on the campaign promises recorded in their dossier, using official records only. The maintainer made these choices on 2026-11-04 and asked to build the tracker later.
+## Results and promise tracker (built 2026-11-05, `format-v2`)
+After the election: who won each contest, and what each winner does on the campaign promises recorded in their dossier, from official records only. Guide: `docs/RESEARCH_GUIDE.md` "Contest results" and "Promise tracking"; visual rules: the versus-ui skill.
 
-**Decisions**
-- **Status:** one label per promise, set only by cited official records (bill status, vote record, adopted budget, executive order, meeting minutes).
-  - News stories are leads, never the citation.
-  - Labels are words with gray shapes; never green or red, never "kept" or "broken".
-  - The label shown is the latest update's.
-  - The labels:
-    - *Not checked yet:* nothing recorded (the placeholder).
-    - *No action found:* searched, with a search log and its date.
-    - *In progress:* an official step is documented (introduced, heard, funding requested, staff directed).
-    - *Partly done:* part of what the promise names was adopted or carried out; the summary says which part.
-    - *Done:* what the promise names was adopted or carried out.
-    - *Stalled:* a documented step failed or stopped (vote failed, vetoed, withdrawn, tabled).
-    - *Changed by the official:* the office-holder revised or dropped it, in their own quoted words.
-- **Whose:** winners only, from the official count.
-  - Semi-official results are recorded as soon as an official site can be read, then marked certified.
-  - A contest without a recorded winner says "Waiting for results".
-- **Where:** a "Promise tracker" section on each contest page, under the comparison table. No new tab.
-- **Results:** only the tracker names the winner, cited. Contest pages and the Overview don't show results yet ("Election results" above stays open).
+**The maintainer's decisions (2026-11-04)**
+- **Results on the site:** "highlight the winner and dim the loser"; for props "a bar of green vs red" (the site's teal-green ▲ Yes and orange-red ▼ No).
+- **Wording:** "Leading" / "Yes ahead" / "No ahead" until certified, then "Elected" / "Passed" / "Failed".
+- **Promise status:** one label per promise, set only by cited official records; gray shapes; never green/red or "kept/broken". Labels: Not checked yet · No action found · In progress · Partly done · Done · Stalled · Changed by the official. The label shown is the latest update's.
+- **Whose:** winners only. **Where:** a "Promise tracker" section on each contest page, under the comparison table.
+- **SF results:** wait (sfelections.org refuses cloud sessions).
 
-**1. Format (becomes `format-v2`; approved with the decisions above)**
-- [ ] **`OfficeResult`** (`schemas/contest.schema.json`):
-  - Replace the unused `winner` with `winners`: 1 to `vote_for` people (the SF Board of Education and City College each elect 3).
-  - Add `as_of` (the date of the count), required while `certified` is false.
-- [ ] **Promise items** (`schemas/dossier.schema.json`): an optional `tracking` with:
-  - `as_of`;
-  - `updates` (`id`, `date`, `status`, `summary`, optional `bill`, `citations`);
-  - `search_log`, required when there are no updates.
-- [ ] **One update at a time:** `put dossier --merge` adds an update without resending the promise. Add `updates: "id"` to `MERGE_KEYS` (`src/put.ts`).
-- [ ] **Canonical order:** updates by date, then id (`src/canonical.ts`).
-- [ ] **Validate** (`src/validate.ts`):
-  - winners and tallies must be the contest's candidates;
-  - at most `vote_for` winners;
-  - `tracking` only on a winner's promises;
-  - a warning while a result isn't certified.
-- [ ] **SQLite** (`src/sqlite.ts`): a results table and a promise-updates table.
-- [ ] **Fixture** (`tests/fixtures/make-valid-fixture.ts`): a certified result and tracked promises, so the fictional demo shows the tracker.
-- [ ] **Tests:** the merge, the validate rules, the status logic and SQLite; a browser check on the demo contest page.
-- [ ] **Docs:**
-  - "Results" and "Promise tracking" sections in `docs/RESEARCH_GUIDE.md`;
-  - the status shapes in the versus-ui skill;
-  - CLAUDE.md's freeze section moves to `format-v2`;
-  - the tag `format-v2`. The cloud session's push of `format-v1` was refused, so the maintainer pushes the tag.
+**Done**
+- [x] Format v2: `OfficeResult.winners` and `as_of`; `MeasureResult.passed` once certified; promise `tracking`; `updates` merge by id; canonical sorts; validate rules (RESULT_NOT_CANDIDATE, RESULT_WINNERS, RESULT_PASSED_MISMATCH, TRACKING_NOT_WINNER; warnings RESULT_UNCERTIFIED, RESULT_SOURCE); SQLite tables; fixture (certified results and tracked promises in the demo); tests (964f0ea).
+- [x] Site: count line, winner highlighted and losers dimmed (spine, table, Overview), `ResultBar` on measure pages, cards and Overview rows, `PromiseTracker`; browser checks 5n–5q (5173d44).
+- [x] California semi-official results, count of November 4, 2026, 7:20 p.m. (`api.sos.ca.gov/returns/...`, fetched with plain curl by `tools/research/ca-sos-results.mjs`): 16 office contests (8 statewide, BOE 1–4, CA-11, CA-15, Assembly 17 and 19) and the 14 propositions, one commit per contest.
 
-**2. Site**
-- [ ] **`web/src/lib/tracker.ts`:** the status labels and icons, a promise's current status, and a contest's winners.
-- [ ] **`PromiseTracker.svelte`** in `ContestView.svelte`, under the comparison:
-  - "Waiting for results" until a winner is recorded;
-  - then for each winner:
-    - "Leading in the semi-official count, as of <date>" or "Elected, certified <date>", cited;
-    - the status counts first;
-    - then each promise with its label;
-  - a click opens the drawer: the promise as made (cited), then its updates (`Detail.history`), its search log, or "Not checked yet";
-  - "No campaign promises recorded for this contest yet" where there are none.
-- [ ] **Icons** (Lucide, ink and gray):
-
-  | label | icon |
-  |---|---|
-  | Not checked yet | dashed circle |
-  | No action found | empty circle |
-  | In progress | dot |
-  | Partly done | half circle |
-  | Done | check |
-  | Stalled | pause |
-  | Changed by the official | pen |
-
-**3. Research (data only, after 1 and 2)**
-- [ ] **Semi-official results** from the Secretary of State's results site.
-  - **Contests:** the 13 state and federal contests with promises:
-    - Governor, Lieutenant Governor, Attorney General, Secretary of State, Controller, Insurance Commissioner, Superintendent;
-    - BOE 1–4;
-    - CA-11 and Assembly 17.
-  - **The site:** electionresults.sos.ca.gov answered on 2026-11-04. It's a script page, so read it with `fetch-text`.
-  - **Also there:** the same site covers Treasurer, CA-15 and Assembly 19.
-- [ ] **SF results wait** (Board of Education, City College, Supervisors 2, 4 and 6): sfelections.org refuses this environment (403). The maintainer can supply the official page, or they wait.
-- [ ] **Ranked-choice contests** (SF Supervisors): record the final round of the official ranked-choice report, with a locator naming the round, until `voting_method` exists.
-- [ ] **Certified results** replace the semi-official ones when published.
-- [ ] **Tracking** starts once the winners take office: each promise gets one update per official action, or "No action found" with a search log.
+**Open**
+- [ ] **Tag `format-v2`:** created locally on the docs commit that closes v2; the cloud session can't push tags (refused for `format-v1` too), so the maintainer pushes it: `git push origin format-v2` (and `format-v1` if it is still missing).
+- [ ] **Refresh the California semi-official counts** when asked: `node tools/research/ca-sos-results.mjs --commit --trailers <file>` (each run replaces the semi-official result, one commit per contest; `--dry` checks first). Close contests to watch: Prop 5 (50.6% Yes), Insurance Commissioner (52.2%).
+- [ ] **Certified results** replace the semi-official ones when the Secretary of State certifies (`certified: true`, `certified_date`, `passed` for measures, quoting the Statement of Vote).
+- [ ] **SF results wait** (Board of Education, City College, Supervisors 2/4/6/8/10, Props A–J, Assessor, Public Defender, BART 8): sfelections.org refuses this environment (CloudFront 403). The maintainer can supply the official results, or they wait for a reachable official copy. Ranked-choice contests record the final round of the official ranked-choice report.
+- [ ] **Nevada results wait:** the Secretary of State's results site (silverstateelection.nv.gov) answers with a bot check; Clark County's page (elections.clarkcountynv.gov/electionresultsTV/) is readable but covers only Clark County's part of statewide and NV-4 results.
+- [ ] **Tracking** starts once the winners take office: each promise gets one update per official action, or "No action found" with a search log (guide: "Promise tracking").
 - [ ] **Promises still missing** in these contested races: Treasurer, CA-15, Assembly 19, Supervisors 8 and 10, and every Nevada race.
 
 ## Where things are (resume here)
@@ -152,7 +94,7 @@ After the election, follow what each winner does on the campaign promises record
   - Remove or cite the 7 orphan sources.
 
 **After the beta**
-- **Results:** see "Format requests (after v1)".
+- **Results:** see "Results and promise tracker".
 - **Site size:** load contests on demand. The single file is 4.4 MB (about 660 KB compressed).
 - **Accessibility:** the dark-mode shortfall red sits close to the dark orange ▼ (accepted for now: separate charts, with a legend).
 - **"My ballot":** places California and Nevada (Las Vegas) contests. Nevada ZIPs and locations use `geo/nv-2026-districts.json`. Nevada's contests are still placeholders (no candidates).
@@ -216,8 +158,8 @@ After the election, follow what each winner does on the campaign promises record
   - SF supervisor districts by ZIP or location (DataSF is now reachable);
   - a county layer;
   - BOE location lookup stays pick-only until wedrawthelines.ca.gov is allowed.
-- **Supervisor races:** see "Format requests (after v1)".
-- **Election results:** see "Format requests (after v1)".
+- **Supervisor races:** see "Format requests (after v2)".
+- **Election results:** see "Results and promise tracker".
 
 ### Housekeeping
 - **Site size:** the single-file site is over 3.1 MB, and the arguments will add more. Load contests on demand.
@@ -362,7 +304,7 @@ After the election, follow what each winner does on the campaign promises record
 - **Importers:** CARS (CAL-ACCESS replacement, live mid-Nov 2026), OpenFEC, Senate LDA lobbying, FPPC Form 803 behested payments. Mark records `provenance: import` for human review.
 - **check-quotes script:** fuzzy-match each quote against its Wayback snapshot.
 - **Public hosting:** GitHub Pages, auto-deploy on push.
-- **Post-election:** results and tracking the winners' promises are planned in "Promise tracker" near the top. Keep tracking winners for the 2028 reuse.
+- **Post-election:** results and tracking the winners' promises: see "Results and promise tracker" near the top. Keep tracking winners for the 2028 reuse.
 - **Lazy-load per-contest data:** the single-file build is now ~2.2 MB.
 - **InfluenceMap:** restyle with the category badges.
 - **Optional:** NAICS sector tagging for donors (no editorial labels); a research-request issue template.

@@ -39,7 +39,7 @@ Then repeat. When `next` reports `0 open task(s)`, the contest is done. Run `npm
 6. **Don't change the agenda's questions or candidates mid-research.** They were fixed beforehand so every candidate is asked the same things. The only agenda edits allowed during research are `targets.finance_cutoff` (the finance-cutoff task) and `exhausted` entries (closing a count task that can't reach its target, with a search log).
 7. **Money must come from filings.** Contributions, independent expenditures, lobbying and behested payments cite a `*_filing` source with a `locator` (schedule/line). News stories about money are leads, not citations.
 8. **Archive what you cite** when you can: `https://web.archive.org/save/<url>`, then record the `https://web.archive.org/web/<14 digits>/...` snapshot as `archive_url`. If archiving is unavailable, leave it out. `validate` shows a warning, and `validate --strict` (the release gate) blocks until someone adds it.
-9. **The format is frozen (`format-v1`).** Write only `data/`. Don't change schemas, tools or the site; a fact that doesn't fit goes to TODO.md "Format requests (after v1)". See CLAUDE.md "Format: frozen".
+9. **The format is frozen (`format-v2`).** Write only `data/`. Don't change schemas, tools or the site; a fact that doesn't fit goes to TODO.md "Format requests". See CLAUDE.md "Format: frozen".
 
 ## Writing records with `put`
 

@@ -50,6 +50,19 @@ Sources: only the measure's official digest and fiscal statement in the voter pa
 5. Quote the sentence(s) verbatim with a page locator. One entry per group and effect (AFFECT_DUPLICATE). Don't record the City's own General Fund revenue or cost as a group; that is the fiscal statement's job.
 6. Double-check: a second researcher derives the list independently from the same text; keep what both found and resolve the rest against the quote.
 
+<a id="task-contest-result"></a>
+### Contest results (after the election)
+
+`put contest --merge` with a `result`. Not a queue task: results never change research coverage. Record them when the maintainer asks.
+
+- **Sources:** only the election official's own results, registered as `government_record` (RESULT_SOURCE warns otherwise). California statewide, BOE, U.S. House and Legislature: the Secretary of State's results data (`api.sos.ca.gov/returns/<contest>`, `.../ballot-measures`). San Francisco: the Department of Elections (sfelections.org, unreachable from cloud sessions). Nevada: the Secretary of State (silverstateelection.nv.gov) or Clark County. News reports and race calls are leads.
+- **California:** `node tools/research/ca-sos-results.mjs [--dry] [--commit --trailers <file>]` records every California office contest and proposition the Secretary of State reports, one commit per contest. It stops when a name or a proposition title doesn't match.
+- **Semi-official count:** `certified: false` with `as_of` (the date of the count). Offices: `tallies` for every candidate and `winners`, the candidates leading the count, as many as the contest's seats (`vote_for`). Measures: `yes_votes`, `no_votes`, and no `passed` yet. Quote the reporting line (time and precincts) and each candidate's or measure's line. The site says "Leading" / "Yes ahead" until certified. RESULT_UNCERTIFIED stays a warning until then.
+- **Certified count:** when the official canvass is certified, replace the result: `certified: true`, `certified_date`, the final tallies and winners, and for measures `passed`, quoting the certified Statement of Vote. `passed` must agree with the votes and the recorded `vote_threshold` (RESULT_PASSED_MISMATCH).
+- **Checks:** winners and tallies are the contest's candidates (RESULT_NOT_CANDIDATE); at most `vote_for` winners, and they are the top vote-getters (RESULT_WINNERS).
+- **Ranked-choice contests** (SF Supervisors): record the final round of the official ranked-choice report, with a locator naming the round.
+- Uncontested races are out of research scope: no result needed.
+
 <a id="task-candidacy"></a>
 ## Task: candidacy
 
@@ -121,6 +134,7 @@ Comparison categories 9–11, one section at a time (`npm run -s put -- dossier 
 - **`track_record`** (category 9, performance record): documented *outcomes*, such as enacted legislation, programs implemented, or budgets delivered. Each item states what happened and when, cited to government records. No praise and no "successful": report the result and let the reader judge.
 - **`promises`** (category 11): specific proposals for the office sought, from the candidate's platform, website or debate statements. Record the proposal as stated, with the issue id it falls under. General values ("I'll fight for families") are not promises.
   - **Topics (optional, per contest):** to show which proposals several candidates share, the contest agenda can list `promise_topics` (`{id, label}`), and each promise names one with `topic`. A topic says what a proposal is about ("Downtown campus", "Transit for students"), never its stance or quality. Give every promise in the contest exactly one topic, and use the same topic for the same subject across candidates. The site then shows one row per topic, the topics with more candidates first.
+  - **Tracking (after the election, winners only):** see *Promise tracking* below.
 - **`controversies`** (category 10). Strict rules, enforced by `validate`:
   - Only **documented** matters: at least **two independent publishers** or **one official record** (court filing, ethics or audit finding, agency decision) [CONTROVERSY_SOURCING].
   - The `title` is neutral and descriptive ("Fine for a late campaign statement", not "Filing scandal").
@@ -128,6 +142,26 @@ Comparison categories 9–11, one section at a time (`npm run -s put -- dossier 
   - The candidate's **response** is required: cite it, or record `not_found` with a search log of where you looked (campaign statements, the same outlets, social accounts).
   - Add the **resolution** when there is one (dismissed, settled, fine paid, charges dropped).
   - Apply the same search to every candidate: the same outlets, the same official databases, the same date range.
+
+<a id="task-dossier-tracking"></a>
+### Promise tracking (after the election)
+
+What a contest's winner does on each recorded campaign promise, from official records. Only a recorded winner's promises are tracked (TRACKING_NOT_WINNER), and only after they take office. Not a queue task. `put dossier --merge` with the promise's `id` and a `tracking` object; `updates` merge by `id`, so one update can be added without resending the promise:
+
+```json
+{"actor": "person:<slug>", "promises": {"items": [{"id": "<promise id>", "tracking": {"as_of": "<date checked>", "updates": [{"id": "<slug>", "date": "<date of the action>", "status": "in_progress", "summary": "...", "citations": [...]}]}}]}}
+```
+
+- **Sources:** official records only: bill status and votes (legislature, board or council sites), adopted budgets, executive orders, agency announcements, meeting minutes. News stories are leads, never the citation.
+- **Status** of each update, describing the record, never grading the official:
+  - `in_progress`: an official step toward the promise is documented (introduced, heard, funding requested, staff directed).
+  - `partly_done`: part of what the promise names was adopted or carried out; the summary says which part.
+  - `done`: what the promise names was adopted or carried out.
+  - `stalled`: a documented step failed or stopped (vote failed, vetoed, withdrawn, tabled).
+  - `changed`: the office-holder revised or dropped it, in their own quoted words.
+- **One update per official action**, dated with the action's date; the site shows the latest update's status. `summary` is neutral and attributed ("the Legislature's bill status shows it was signed"), at most 400 characters.
+- **Nothing found:** `tracking` with `as_of` and a `search_log` of where you looked: the site says "No action found" as of that date. A promise with no `tracking` shows "Not checked yet".
+- Check every winner's promises against the same sources, on the same dates.
 
 <a id="task-endorsements"></a>
 ## Task: endorsements
