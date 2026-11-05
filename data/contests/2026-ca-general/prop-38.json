@@ -231,6 +231,24 @@
       }
     ]
   },
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "no_votes": 3488608,
+    "yes_votes": 4355869,
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Name\": \"Authorizes Bonds For Immunology Medical Research. Initiative Statute.\", \"Number\": \"38\", \"yesVotes\": \"4355869\", \"yesPercent\": \"55.5\", \"noVotes\": \"3488608\", \"noPercent\": \"44.5\"",
+        "locator": "ballot-measures, Number 38"
+      }
+    ]
+  },
   "summary": {
     "value": "Authorizes $8.4 billion in general obligation bonds for immunology and immunotherapy research, half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
     "citations": [
@@ -241,5 +259,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-05"
 }
