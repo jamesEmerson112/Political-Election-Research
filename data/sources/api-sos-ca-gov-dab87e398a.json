@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sos-ca-gov-dab87e398a",
+  "kind": "government_record",
+  "accessed": "2026-11-05",
+  "published": "2026-11-04",
+  "publisher": "California Secretary of State",
+  "title": "Board of Equalization District 3 - Districtwide Results",
+  "url": "https://api.sos.ca.gov/returns/board-of-equalization/district/3"
+}
