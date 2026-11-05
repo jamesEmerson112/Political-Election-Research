@@ -53,5 +53,39 @@
   ],
   "level": "state",
   "office_ref": "office:california-attorney-general",
-  "last_verified": "2026-11-03"
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "tallies": [
+      {
+        "person": "person:rob-bonta",
+        "votes": 5101300
+      },
+      {
+        "person": "person:michael-e-gates",
+        "votes": 2868424
+      }
+    ],
+    "winners": [
+      "person:rob-bonta"
+    ],
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-12df9d4d2e",
+        "quote": "\"Reporting\": \"100% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-12df9d4d2e",
+        "quote": "\"Name\": \"Rob Bonta\", \"Party\": \"Dem\", \"Votes\": \"5,101,300\", \"Percent\": \"64.0\"",
+        "locator": "candidates[0]"
+      },
+      {
+        "source": "src:api-sos-ca-gov-12df9d4d2e",
+        "quote": "\"Name\": \"Michael E. Gates\", \"Party\": \"Rep\", \"Votes\": \"2,868,424\", \"Percent\": \"36.0\"",
+        "locator": "candidates[1]"
+      }
+    ]
+  },
+  "last_verified": "2026-11-05"
 }

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sos-ca-gov-12df9d4d2e",
+  "kind": "government_record",
+  "accessed": "2026-11-05",
+  "published": "2026-11-04",
+  "publisher": "California Secretary of State",
+  "title": "Attorney General - Statewide Results",
+  "url": "https://api.sos.ca.gov/returns/attorney-general"
+}
