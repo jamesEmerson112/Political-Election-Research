@@ -45,5 +45,39 @@
   ],
   "level": "state",
   "office_ref": "office:california-insurance-commissioner",
-  "last_verified": "2026-11-03"
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "tallies": [
+      {
+        "person": "person:jane-kim",
+        "votes": 3601450
+      },
+      {
+        "person": "person:ben-allen",
+        "votes": 3303007
+      }
+    ],
+    "winners": [
+      "person:jane-kim"
+    ],
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-9936806c0d",
+        "quote": "\"Reporting\": \"100% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-9936806c0d",
+        "quote": "\"Name\": \"Ben Allen\", \"Party\": \"Dem\", \"Votes\": \"3,303,007\", \"Percent\": \"47.8\"",
+        "locator": "candidates[0]"
+      },
+      {
+        "source": "src:api-sos-ca-gov-9936806c0d",
+        "quote": "\"Name\": \"Jane Kim\", \"Party\": \"Dem\", \"Votes\": \"3,601,450\", \"Percent\": \"52.2\"",
+        "locator": "candidates[1]"
+      }
+    ]
+  },
+  "last_verified": "2026-11-05"
 }
