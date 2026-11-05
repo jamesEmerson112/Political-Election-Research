@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sos-ca-gov-63d8bea84b",
+  "kind": "government_record",
+  "accessed": "2026-11-05",
+  "published": "2026-11-04",
+  "publisher": "California Secretary of State",
+  "title": "Treasurer - Statewide Results",
+  "url": "https://api.sos.ca.gov/returns/treasurer"
+}
