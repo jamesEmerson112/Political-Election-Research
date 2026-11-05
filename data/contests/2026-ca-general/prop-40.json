@@ -247,6 +247,24 @@
       }
     ]
   },
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "no_votes": 4406663,
+    "yes_votes": 3566935,
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Name\": \"Imposes One-Time Tax On Certain Taxpayers. Initiative Constitutional Amendment And Statute.\", \"Number\": \"40\", \"yesVotes\": \"3566935\", \"yesPercent\": \"44.7\", \"noVotes\": \"4406663\", \"noPercent\": \"55.3\"",
+        "locator": "ballot-measures, Number 40"
+      }
+    ]
+  },
   "summary": {
     "value": "Imposes 5% tax on certain taxpayers with assets over $1 billion; revenue primarily for health care. Exempts revenues from constitutional requirements for school funding and spending limit.",
     "citations": [
@@ -257,5 +275,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-05"
 }
