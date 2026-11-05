@@ -51,5 +51,39 @@
   "district": 2,
   "level": "state",
   "office_ref": "office:california-board-of-equalization-member",
-  "last_verified": "2026-11-03"
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "tallies": [
+      {
+        "person": "person:sally-j-lieber",
+        "votes": 1001553
+      },
+      {
+        "person": "person:john-pimentel",
+        "votes": 676921
+      }
+    ],
+    "winners": [
+      "person:sally-j-lieber"
+    ],
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-8fdcfab0b6",
+        "quote": "\"Reporting\": \"100% (6,558 of 6,558) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-8fdcfab0b6",
+        "quote": "\"Name\": \"Sally J. Lieber\", \"Party\": \"Dem\", \"Votes\": \"1,001,553\", \"Percent\": \"59.7\"",
+        "locator": "candidates[0]"
+      },
+      {
+        "source": "src:api-sos-ca-gov-8fdcfab0b6",
+        "quote": "\"Name\": \"John Pimentel\", \"Party\": \"Dem\", \"Votes\": \"676,921\", \"Percent\": \"40.3\"",
+        "locator": "candidates[1]"
+      }
+    ]
+  },
+  "last_verified": "2026-11-05"
 }
