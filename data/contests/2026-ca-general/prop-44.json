@@ -193,6 +193,24 @@
       }
     ]
   },
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "no_votes": 6368063,
+    "yes_votes": 1410227,
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Name\": \"Requires Community Health Clinics Spend 90% Of Revenue On Program Services. Initiative Statute.\", \"Number\": \"44\", \"yesVotes\": \"1410227\", \"yesPercent\": \"18.1\", \"noVotes\": \"6368063\", \"noPercent\": \"81.9\"",
+        "locator": "ballot-measures, Number 44"
+      }
+    ]
+  },
   "summary": {
     "value": "Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on “program services” advancing their charitable purpose, including but not limited to patient services.",
     "citations": [
@@ -203,5 +221,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-05"
 }
