@@ -6,11 +6,14 @@
   import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
   import Badge from "./Badge.svelte";
   import OfficeChips from "./OfficeChips.svelte";
+  import ResultBar from "./ResultBar.svelte";
+  import { measureOutcome } from "../lib/results";
 
   /** One ballot measure: number, facts and fiscal chips first (or the official written estimate); the measure page on click. */
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
   const c = $derived(ix.contests.get(contestRef)!);
   const label = (ref: string) => measureLabel(ix, ref);
+  const outcome = $derived(measureOutcome(c));
 </script>
 
 <a class="mcard panel" href={`#${contestRoute(contestRef)}`}>
@@ -19,6 +22,7 @@
     <span class="letter">Prop {c["number"]}</span>
     <OfficeChips chips={measureFactChips(c)} />
   </span>
+  {#if outcome}<ResultBar o={outcome} title={ix.contestTitle(contestRef)} compact still />{/if}
   <span class="title">{c["official_title"]?.["value"] ?? ix.contestTitle(contestRef)}</span>
   <span class="sum">{c["summary"]?.["value"] ?? ""}</span>
   <OfficeChips chips={fiscalChips(c, label, budgetBase(ix.budgetFor(contestRef)))} />

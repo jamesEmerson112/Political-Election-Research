@@ -162,6 +162,58 @@ await page.waitForSelector(".about-m", { timeout: 5000 }).catch(() => null);
 const about = ((await page.locator(".about-m").first().textContent().catch(() => "")) ?? "").replace(/\s+/g, " ");
 check("5m. the Prop 3 stance row says what Prop 3 is (summary, Yes/No meaning, link)", about.includes("$371,000") && about.includes("Yes:") && about.includes("No:") && about.includes("Open Proposition 3"), about.slice(0, 120));
 
+// 5n. Results: the leader of the semi-official count is highlighted, the other side dimmed, and the count line says so.
+await go(page, "#c-2026-ca-general--governor");
+await page.waitForSelector(".vs-head .who");
+const wonHead = await text(page.locator(".vs-head .who.won"));
+const lostHeads = await page.locator(".vs-head .who.lost").count();
+const countText = await text(page.locator(".result-line"));
+check(
+  "5n. governor: the leader is highlighted (Leading or Elected), the other side dimmed, with the count line",
+  /Leading|Elected/.test(wonHead) && wonHead.includes("Becerra") && lostHeads === 1 && /Semi-official count|Certified/.test(countText),
+  `${wonHead} | ${countText}`,
+);
+
+// 5o. A proposition shows its yes/no bar and which side is ahead.
+await go(page, "#c-2026-ca-general--prop-44");
+await page.waitForSelector("header .rb");
+const bar44 = await text(page.locator("header .rb"));
+check("5o. Prop 44 shows its yes/no result bar, No ahead", /No ahead|Failed/.test(bar44) && /Yes \d+\.\d%/.test(bar44) && /No \d+\.\d%/.test(bar44), bar44.slice(0, 120));
+
+// 5p. The promise tracker waits for SF's results; the governor's leader lists promises, "Not checked yet".
+await go(page, "#c-2026-ca-general--sf-board-of-education");
+await page.waitForSelector("section.tracker");
+const waiting = await text(page.locator("section.tracker"));
+await go(page, "#c-2026-ca-general--governor");
+await page.waitForSelector("section.tracker .winner");
+const tracked = await text(page.locator("section.tracker .winner").first());
+check(
+  "5p. promise tracker: SF Board of Education waits for results; the governor's promises start \"Not checked yet\"",
+  waiting.includes("Waiting for results") && tracked.includes("Xavier Becerra") && tracked.includes("Not checked yet"),
+  tracked.slice(0, 100),
+);
+
+// 5q. Demo: a certified result says "Elected"; a tracked promise's update opens in the drawer.
+await page.evaluate(() => localStorage.setItem("per-dataset", "demo"));
+await page.goto(`${BASE}#c-2030-zz-general--governor`);
+await page.reload(); // a hash-only goto keeps the page (and its dataset)
+await page.waitForSelector("section.tracker .winner");
+const demoWon = await text(page.locator(".vs-head .who.won"));
+const demoCounts = await text(page.locator("section.tracker .counts"));
+await page.locator("section.tracker .p-btn", { hasText: "Widget apprenticeships" }).click();
+await page.waitForSelector("aside.drawer");
+const demoDrawer = await text(page.locator("aside.drawer"));
+check(
+  "5q. demo: \"Elected\" once certified, statuses counted, a promise's update in the drawer",
+  demoWon.includes("Elected") && demoCounts.includes("1 done") && demoCounts.includes("1 not checked yet") && demoDrawer.includes("AB 2031"),
+  `${demoWon} | ${demoCounts}`,
+);
+await page.keyboard.press("Escape");
+await page.evaluate(() => localStorage.setItem("per-dataset", "draft"));
+await page.goto(`${BASE}#overview`);
+await page.reload();
+await page.waitForSelector(".group");
+
 // 5f. On the Overview, proposition groups start folded; one click opens them.
 await go(page, "#overview");
 await page.waitForSelector(".group");

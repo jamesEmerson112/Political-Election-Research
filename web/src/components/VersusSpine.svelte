@@ -10,6 +10,8 @@
   import Equal from "@lucide/svelte/icons/equal";
   import OfficeChips from "./OfficeChips.svelte";
   import StanceMark from "./StanceMark.svelte";
+  import { RESULT_ICON } from "../lib/icons";
+  import { officeOutcome, pct1, standing, winnerWord } from "../lib/results";
 
   /**
    * Two candidates, mirrored around a center spine of category / issue badges.
@@ -29,6 +31,10 @@
     for (const r of rowsOf(cat)) open[r.key] = to;
   }
   const names = $derived(cmp.cands.map((c) => ix.name(c)));
+  /** After the election: the winner (or leader of a semi-official count) is highlighted, the other side dimmed. */
+  const outcome = $derived(officeOutcome(ix.contests.get(contestRef)));
+  const st = $derived(cmp.cands.map((c) => standing(outcome, c)));
+  const shareOf = (c: string) => outcome?.rows.find((r) => r.person === c)?.share;
   const initials = (name: string) =>
     name
       .split(/\s+/)
@@ -152,18 +158,23 @@
   </div>
 {/snippet}
 
-<div class="vs" aria-label={`${ix.contestTitle(contestRef)}: ${names[0]} and ${names[1]} compared`} role="region">
+<div class="vs" class:lost-a={st[0] === "lost"} class:lost-b={st[1] === "lost"} aria-label={`${ix.contestTitle(contestRef)}: ${names[0]} and ${names[1]} compared`} role="region">
   <div class="vs-head">
     {#each cmp.cands as c, i (c)}
       {@const entry = ix.ballotEntry(contestRef, c)}
       {#if i === 1}<span class="vs-mid" aria-hidden="true">vs</span>{/if}
-      <div class="who {i === 0 ? 'a' : 'b'}">
+      {@const share = shareOf(c)}
+      <div class="who {i === 0 ? 'a' : 'b'}" class:won={st[i] === "won"} class:lost={st[i] === "lost"}>
         <span class="ini" aria-hidden="true">{initials(names[i]!)}</span>
         <span class="who-txt">
           <span class="who-name">{names[i]}</span>
           <span class="who-sub">
             {#if entry}{[entry["party"], entry["ballot_designation"]].filter(Boolean).join(" · ")}{:else}Ballot not verified{/if}
           </span>
+          {#if st[i] && share !== undefined}
+            {@const RI = RESULT_ICON}
+            <span class="who-res num">{#if st[i] === "won"}<RI size={13} aria-hidden="true" /><strong>{winnerWord(outcome!)}</strong>{" · "}{/if}{pct1(share)}</span>
+          {/if}
         </span>
       </div>
     {/each}
@@ -284,6 +295,29 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  /* results: the winner's initials inverted and a "Leading/Elected" line; the other side dimmed */
+  .who-res {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: var(--step--1);
+    color: var(--ink);
+  }
+  .who.a .who-res {
+    justify-content: flex-end;
+  }
+  .who.won .ini {
+    background: var(--ink);
+    color: var(--surface);
+  }
+  .who.lost {
+    opacity: 0.6;
+  }
+  .vs.lost-a :global(.side.a),
+  .vs.lost-b :global(.side.b) {
+    filter: grayscale(1);
+    opacity: 0.8;
   }
   /* category header */
   .cat-h {

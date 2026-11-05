@@ -13,6 +13,10 @@
   import Legend from "./Legend.svelte";
   import VersusSpine from "./VersusSpine.svelte";
   import MyPick from "./MyPick.svelte";
+  import PromiseTracker from "./PromiseTracker.svelte";
+  import { RESULT_ICON } from "../lib/icons";
+  import { countLine, officeOutcome, pct1, winnerWord } from "../lib/results";
+  import { openOfficeCount } from "../lib/view";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
 
@@ -33,6 +37,9 @@
   const subjectText = (s: string) => ix.questions.get(s)?.q["text"] ?? `${ix.contestTitle(s)}: should it pass?`;
   /** The office this contest elects (agenda or contest office_ref). */
   const sought = $derived(scopeOf(ix, (contest?.["office_ref"] ?? agenda?.["office_ref"]) as string | undefined));
+  /** The recorded count (semi-official or certified), if any. */
+  const outcome = $derived(officeOutcome(contest));
+  const leaders = $derived(outcome ? outcome.rows.filter((r) => r.won) : []);
 </script>
 
 <header class="head">
@@ -53,6 +60,15 @@
     {#if leadCount}<span class="chip lead-chip num">{plural(leadCount, "unverified lead")}</span>{/if}
     {#if cutoff}<span class="chip num">$ through {date(cutoff)}</span>{/if}
   </div>
+  {#if outcome && leaders.length}
+    {@const RI = RESULT_ICON}
+    <p class="result-line">
+      <RI size={16} aria-hidden="true" />
+      <span><strong>{winnerWord(outcome)}:</strong> {leaders.map((r) => `${ix.name(r.person)} (${pct1(r.share)})`).join(", ")}</span>
+      <span class="muted">{countLine(outcome)}{outcome.certified ? "" : " · not certified"}</span>
+      <button class="link-btn" onclick={() => openOfficeCount(ix, contestRef, outcome)}>Votes and source</button>
+    </p>
+  {/if}
   {#if sought}
     <button class="sought" onclick={() => openOffice(ix, sought.ref, "Office on the ballot")}>
       <Badge icon={ROW_ICON["scope"]} group="record" size={20} />
@@ -88,6 +104,8 @@
     {/if}
     <p class="hint">Tap a row for the sentences; the numbered buttons open their sources.</p>
   </section>
+
+  <PromiseTracker {ix} {contestRef} />
 
   <section class="section">
     <div class="section-head">
@@ -250,6 +268,25 @@
     border-style: dashed;
     border-color: var(--warning);
     font-style: italic;
+  }
+  .result-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 10px;
+    margin: 0;
+    font-size: var(--step--1);
+    color: var(--ink);
+  }
+  .result-line .link-btn {
+    border: 0;
+    background: none;
+    padding: 0;
+    font: inherit;
+    color: var(--ink-2);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    cursor: pointer;
   }
   .about {
     font-size: var(--step--1);

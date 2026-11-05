@@ -18,7 +18,13 @@ import Briefcase from "@lucide/svelte/icons/briefcase";
 import Building2 from "@lucide/svelte/icons/building-2";
 import Calendar from "@lucide/svelte/icons/calendar";
 import CalendarClock from "@lucide/svelte/icons/calendar-clock";
+import Circle from "@lucide/svelte/icons/circle";
+import CircleCheck from "@lucide/svelte/icons/circle-check";
 import CircleDashed from "@lucide/svelte/icons/circle-dashed";
+import CircleDot from "@lucide/svelte/icons/circle-dot";
+import CirclePause from "@lucide/svelte/icons/circle-pause";
+import Contrast from "@lucide/svelte/icons/contrast";
+import ListChecks from "@lucide/svelte/icons/list-checks";
 import ClipboardList from "@lucide/svelte/icons/clipboard-list";
 import Cog from "@lucide/svelte/icons/cog";
 import Cpu from "@lucide/svelte/icons/cpu";
@@ -317,3 +323,22 @@ export const AFFECT_ICON: Record<string, IconComponent> = {
   other: I(Users),
 };
 export const FALLBACK_AFFECT_ICON: IconComponent = I(Users);
+
+/**
+ * Promise tracker statuses (web/src/lib/tracker.ts): one circle family in ink and gray, so a status reads by
+ * shape and its label, never by color: dashed (not checked yet), empty (no action found), dot (in progress),
+ * half (partly done), check (done), pause (stalled), pen (changed by the official).
+ */
+export const PROMISE_STATUS_ICON: Record<string, IconComponent> = {
+  not_checked: I(CircleDashed),
+  none_found: I(Circle),
+  in_progress: I(CircleDot),
+  partly_done: I(Contrast),
+  done: I(CircleCheck),
+  stalled: I(CirclePause),
+  changed: I(PenLine),
+};
+/** The promise tracker section's heading badge. */
+export const TRACKER_ICON: IconComponent = I(ListChecks);
+/** Election results: the count line and the winner's chip. */
+export const RESULT_ICON: IconComponent = I(Vote);

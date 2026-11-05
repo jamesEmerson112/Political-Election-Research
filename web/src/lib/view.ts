@@ -1,6 +1,7 @@
 import type { Citation, Index, Lead, Rec } from "./data";
 import { date, STANCE_LABEL } from "./format";
 import { openDetail, type Detail } from "./ui.svelte";
+import { countLine, pct1, votes, winnerWord, type OfficeOutcome } from "./results";
 
 export function isNotFound(v: unknown): boolean {
   return !!v && typeof v === "object" && (v as Rec)["status"] === "not_found";
@@ -90,4 +91,17 @@ export function openRel(ix: Index, r: Rec, title: string, facts: Array<[string, 
 
 export function openLeads(title: string, leads: Lead[]): void {
   openDetail({ kicker: "Unverified", title, leads });
+}
+
+/** An office contest's count in the drawer: each candidate's votes and share, the source, and whether it is certified. */
+export function openOfficeCount(ix: Index, contestRef: string, o: OfficeOutcome): void {
+  openDetail({
+    kicker: countLine(o),
+    title: `${ix.contestTitle(contestRef)}: results`,
+    facts: o.rows.map((r) => [`${ix.name(r.person)}${r.won ? ` · ${winnerWord(o)}` : ""}`, `${votes(r.votes)} votes · ${pct1(r.share)}`]),
+    citations: o.citations as Citation[],
+    note: o.certified
+      ? "Shares are computed here from the certified votes."
+      : "Semi-official: counting continues until the result is certified, so the leader can still change. Shares are computed here from the votes.",
+  });
 }

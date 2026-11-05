@@ -8,8 +8,14 @@
   import CellDetail from "./CellDetail.svelte";
   import OfficeChips from "./OfficeChips.svelte";
   import StanceMark from "./StanceMark.svelte";
+  import { RESULT_ICON } from "../lib/icons";
+  import { officeOutcome, pct1, standing, winnerWord } from "../lib/results";
 
   let { ix, contestRef, cmp }: { ix: Index; contestRef: string; cmp: Comparison } = $props();
+  /** After the election: winners (or leaders of a semi-official count) are highlighted, the others dimmed. */
+  const outcome = $derived(officeOutcome(ix.contests.get(contestRef)));
+  const st = $derived(cmp.cands.map((c) => standing(outcome, c)));
+  const shareOf = (c: string) => outcome?.rows.find((r) => r.person === c)?.share;
 
   /* Sticky name row. When the table fits the width, the wrapper stops being a scroll box and the
      row sticks under the site's sticky header; when it doesn't (phones), the wrapper scrolls both
@@ -135,7 +141,7 @@
       {/if}
     </th>
     {#each r.cells as cell, i (i)}
-      <td class="cell {cell.state}" class:has-items={!!cell.items}>
+      <td class="cell {cell.state}" class:has-items={!!cell.items} class:lost={st[i] === "lost"}>
         {#if cell.items}
           <!-- Promise topic: every proposal title in full; each opens its summary and sources. -->
           <ul class="items" aria-label={`${ix.name(cmp.cands[i])}, ${r.label}`}>
@@ -160,15 +166,20 @@
 {#snippet headRow(copy: boolean)}
       <tr>
         <td class="corner"></td>
-        {#each cmp.cands as c (c)}
+        {#each cmp.cands as c, i (c)}
           {@const entry = ix.ballotEntry(contestRef, c)}
-          <th class="cand" scope={copy ? undefined : "col"}>
+          {@const share = shareOf(c)}
+          <th class="cand" class:won={st[i] === "won"} class:lost={st[i] === "lost"} scope={copy ? undefined : "col"}>
             <span class="ini" aria-hidden="true">{initials(ix.name(c))}</span>
             <span class="cand-txt">
               <span class="cand-name">{ix.name(c)}</span>
               <span class="cand-sub">
                 {#if entry}{[entry["party"], entry["ballot_designation"]].filter(Boolean).join(" · ")}{:else}Ballot not verified{/if}
               </span>
+              {#if st[i] && share !== undefined}
+                {@const RI = RESULT_ICON}
+                <span class="cand-res num">{#if st[i] === "won"}<RI size={13} aria-hidden="true" /><strong>{winnerWord(outcome!)}</strong>{" · "}{/if}{pct1(share)}</span>
+              {/if}
             </span>
           </th>
         {/each}
@@ -385,6 +396,26 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  /* results: winners' initials inverted with a "Leading/Elected" line; the others dimmed */
+  .cand-res {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 400;
+    font-size: var(--step--1);
+    color: var(--ink);
+  }
+  th.cand.won .ini {
+    background: var(--ink);
+    color: var(--surface);
+  }
+  th.cand.lost {
+    opacity: 0.6;
+  }
+  td.cell.lost {
+    filter: grayscale(1);
+    opacity: 0.8;
   }
   /* category bar */
   tr.cat th {

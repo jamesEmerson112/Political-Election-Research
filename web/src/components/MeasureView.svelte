@@ -10,12 +10,16 @@
   import MeasureDigest from "./MeasureDigest.svelte";
   import MeasureComparison from "./MeasureComparison.svelte";
   import MyPick from "./MyPick.svelte";
+  import ResultBar from "./ResultBar.svelte";
+  import { measureOutcome } from "../lib/results";
   import { contestRoute } from "../lib/data";
   import { measureLabel } from "../lib/measureLabel";
   import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
   const c = $derived(ix.contests.get(contestRef));
+  /** The recorded count (semi-official or certified), if any. */
+  const outcome = $derived(measureOutcome(c));
   const committees = $derived(ix.committeeRoles(contestRef));
   const endorsements = $derived(ix.endorsementsOf(contestRef));
   const ies = $derived(ix.ofType("independent_expenditure").filter((r) => r["target"] === contestRef));
@@ -30,6 +34,9 @@
 <header class="head">
   <div class="eyebrow">{ix.electionOf(contestRef)} · Ballot measure</div>
   <h1>{ix.contestTitle(contestRef)}</h1>
+  {#if outcome}
+    <div class="result"><ResultBar o={outcome} title={ix.contestTitle(contestRef)} /></div>
+  {/if}
   {#if c}
     <p class="title">
       {c["official_title"]["value"]}
@@ -199,6 +206,10 @@
 {/if}
 
 <style>
+  .result {
+    max-width: 40rem;
+    margin: 4px 0 2px;
+  }
   .head {
     display: grid;
     gap: 10px;

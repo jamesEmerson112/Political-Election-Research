@@ -24,6 +24,8 @@
   import { plural } from "../lib/format";
   import { BALLOT_ICON, OFFICE_ORDER, OFFICE_TYPE, type OfficeType } from "../lib/icons";
   import Badge from "./Badge.svelte";
+  import ResultBar from "./ResultBar.svelte";
+  import { measureOutcome, officeOutcome, pct1, standing } from "../lib/results";
   import MyBallot from "./MyBallot.svelte";
   import { loadPicks, picksToText, type ExportContest, type Picks } from "../lib/myPicks";
   import { allTrialVotes } from "../lib/trialStorage";
@@ -78,7 +80,12 @@
       const hay = [title, slugOf(ref), STATES[st] ?? st, ...names, district ? `${st}-${district} ${st} ${district} district ${district}` : ""].join(" ").toLowerCase();
       const officeRef = (ix.contests.get(ref)?.["office_ref"] ?? ix.agendas.get(ref)?.["office_ref"]) as string | undefined;
       const place = placeContest(ref, officeRef, kind);
-      return { ref, st, kind, office, names, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
+      // After the election: the winner (or leader of a semi-official count) in bold, a measure's yes/no bar.
+      const contest = ix.contests.get(ref);
+      const outcome = officeOutcome(contest);
+      const who = cands.map((c) => ({ name: ix.name(c), st: standing(outcome, c), share: outcome?.rows.find((x) => x.person === c)?.share }));
+      const measure = kind === "measure" ? measureOutcome(contest) : null;
+      return { ref, st, kind, office, names, who, measure, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
     }),
   );
   /** Other states' contests (Nevada: Las Vegas placeholders) get their own section while the list isn't narrowed to one voter's ballot. */
@@ -347,7 +354,17 @@
       <Badge icon={OFFICE_TYPE[r.office.type].icon} group="record" size={26} />
       <span class="c-main">
         <span class="c-title">{r.title}</span>
-        <span class="c-who">{r.names.length ? r.names.join(" · ") : r.kind === "measure" ? "Ballot measure" : "Candidates not set"}</span>
+        {#if r.measure}
+          <span class="c-bar"><ResultBar o={r.measure} title={r.title} compact still /></span>
+        {:else if r.who.some((w) => w.st)}
+          <span class="c-who">
+            {#each r.who as w, i (i)}{#if i}<span aria-hidden="true">{" · "}</span>{/if}<span class:won={w.st === "won"} class:lost={w.st === "lost"}
+                >{w.name}{#if w.st === "won" && w.share !== undefined}&nbsp;{pct1(w.share)}{/if}</span
+              >{/each}
+          </span>
+        {:else}
+          <span class="c-who">{r.names.length ? r.names.join(" · ") : r.kind === "measure" ? "Ballot measure" : "Candidates not set"}</span>
+        {/if}
       </span>
       <span class="c-meta num">
         {#if r.hasAgenda}
@@ -526,6 +543,18 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .c-who .won {
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .c-who .lost {
+    color: var(--muted);
+  }
+  .c-bar {
+    display: block;
+    max-width: 22rem;
+    padding-top: 2px;
   }
   .c-meta {
     display: flex;
