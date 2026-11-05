@@ -181,6 +181,24 @@
       }
     ]
   },
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "no_votes": 4298231,
+    "yes_votes": 3491550,
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Name\": \"Limits Voters' Ability To Raise Revenues For Local Government Services. Legislative Constitutional Amendment.\", \"Number\": \"43\", \"yesVotes\": \"3491550\", \"yesPercent\": \"44.8\", \"noVotes\": \"4298231\", \"noPercent\": \"55.2\"",
+        "locator": "ballot-measures, Number 43"
+      }
+    ]
+  },
   "summary": {
     "value": "Limits voters’ ability to pass voter-proposed local special taxes by increasing percentage of votes needed to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.",
     "citations": [
@@ -191,5 +209,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-05"
 }
