@@ -45,5 +45,39 @@
   ],
   "level": "state",
   "office_ref": "office:california-lieutenant-governor",
-  "last_verified": "2026-11-03"
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "tallies": [
+      {
+        "person": "person:fiona-ma",
+        "votes": 5108478
+      },
+      {
+        "person": "person:gloria-romero",
+        "votes": 2871316
+      }
+    ],
+    "winners": [
+      "person:fiona-ma"
+    ],
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-8810af0dc6",
+        "quote": "\"Reporting\": \"100% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-8810af0dc6",
+        "quote": "\"Name\": \"Fiona Ma\", \"Party\": \"Dem\", \"Votes\": \"5,108,478\", \"Percent\": \"64.0\"",
+        "locator": "candidates[0]"
+      },
+      {
+        "source": "src:api-sos-ca-gov-8810af0dc6",
+        "quote": "\"Name\": \"Gloria Romero\", \"Party\": \"Rep\", \"Votes\": \"2,871,316\", \"Percent\": \"36.0\"",
+        "locator": "candidates[1]"
+      }
+    ]
+  },
+  "last_verified": "2026-11-05"
 }
