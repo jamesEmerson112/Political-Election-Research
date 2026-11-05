@@ -151,6 +151,24 @@
       }
     ]
   },
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "no_votes": 3036774,
+    "yes_votes": 4783474,
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-83752f26ab",
+        "quote": "\"Name\": \"Creates Loan Program For Middle-Income Buyers Of Qualified New Homes. Initiative Statute.\", \"Number\": \"37\", \"yesVotes\": \"4783474\", \"yesPercent\": \"61.2\", \"noVotes\": \"3036774\", \"noPercent\": \"38.8\"",
+        "locator": "ballot-measures, Number 37"
+      }
+    ]
+  },
   "summary": {
     "value": "Authorizes $25 billion in bonds to offer eligible buyers fixed-rate mortgages for up to 17% of purchase price of a newly constructed home priced below about $1.5 million. Borrowers must be California residents, occupy the home, meet income limits, and pay at least 3% down. Bonds repaid by mortgage payments, not State.",
     "citations": [
@@ -161,5 +179,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-05"
 }
