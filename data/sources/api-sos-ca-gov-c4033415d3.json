@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sos-ca-gov-c4033415d3",
+  "kind": "government_record",
+  "accessed": "2026-11-05",
+  "published": "2026-11-04",
+  "publisher": "California Secretary of State",
+  "title": "State Assembly District 19 - Districtwide Results",
+  "url": "https://api.sos.ca.gov/returns/state-assembly/district/19"
+}
