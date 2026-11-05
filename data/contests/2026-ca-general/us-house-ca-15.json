@@ -46,5 +46,39 @@
   "district": 15,
   "level": "federal",
   "office_ref": "office:us-representative-california",
-  "last_verified": "2026-11-03"
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "tallies": [
+      {
+        "person": "person:kevin-mullin",
+        "votes": 102633
+      },
+      {
+        "person": "person:charles-hoelter",
+        "votes": 29845
+      }
+    ],
+    "winners": [
+      "person:kevin-mullin"
+    ],
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-75fc3f7027",
+        "quote": "\"Reporting\": \"100% (299 of 299) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-75fc3f7027",
+        "quote": "\"Name\": \"Kevin Mullin\", \"Party\": \"Dem\", \"Votes\": \"102,633\", \"Percent\": \"77.5\"",
+        "locator": "candidates[0]"
+      },
+      {
+        "source": "src:api-sos-ca-gov-75fc3f7027",
+        "quote": "\"Name\": \"Charles Hoelter\", \"Party\": \"Rep\", \"Votes\": \"29,845\", \"Percent\": \"22.5\"",
+        "locator": "candidates[1]"
+      }
+    ]
+  },
+  "last_verified": "2026-11-05"
 }
