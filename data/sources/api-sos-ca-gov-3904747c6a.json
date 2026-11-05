@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "api-sos-ca-gov-3904747c6a",
+  "kind": "government_record",
+  "accessed": "2026-11-05",
+  "published": "2026-11-04",
+  "publisher": "California Secretary of State",
+  "title": "Secretary of State - Statewide Results",
+  "url": "https://api.sos.ca.gov/returns/secretary-of-state"
+}
