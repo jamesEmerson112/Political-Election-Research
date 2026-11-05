@@ -45,5 +45,39 @@
   ],
   "level": "state",
   "office_ref": "office:california-governor",
-  "last_verified": "2026-11-03"
+  "result": {
+    "as_of": "2026-11-04",
+    "certified": false,
+    "tallies": [
+      {
+        "person": "person:xavier-becerra",
+        "votes": 5186352
+      },
+      {
+        "person": "person:steve-hilton",
+        "votes": 2894119
+      }
+    ],
+    "winners": [
+      "person:xavier-becerra"
+    ],
+    "citations": [
+      {
+        "source": "src:api-sos-ca-gov-69f023c406",
+        "quote": "\"Reporting\": \"100% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "locator": "Reporting, ReportingTime"
+      },
+      {
+        "source": "src:api-sos-ca-gov-69f023c406",
+        "quote": "\"Name\": \"Xavier Becerra\", \"Party\": \"Dem\", \"Votes\": \"5,186,352\", \"Percent\": \"64.2\"",
+        "locator": "candidates[0]"
+      },
+      {
+        "source": "src:api-sos-ca-gov-69f023c406",
+        "quote": "\"Name\": \"Steve Hilton\", \"Party\": \"Rep\", \"Votes\": \"2,894,119\", \"Percent\": \"35.8\"",
+        "locator": "candidates[1]"
+      }
+    ]
+  },
+  "last_verified": "2026-11-05"
 }
