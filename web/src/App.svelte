@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { tick } from "svelte";
   import { build, demo, draft } from "virtual:datasets";
   import AboutView from "./components/AboutView.svelte";
   import ContestView from "./components/ContestView.svelte";
@@ -44,14 +45,45 @@
     ui.detail = null;
   }
 
+  /**
+   * Each page in the browser's history keeps the reader's scroll position: Back and Forward return there, and a newly
+   * opened page starts at the top. The position is saved into the current history entry just before a link is
+   * followed and shortly after scrolling stops.
+   */
   $effect(() => {
-    const onHash = () => {
+    history.scrollRestoration = "manual";
+    const save = () => {
+      try {
+        history.replaceState({ ...(history.state ?? {}), y: Math.round(window.scrollY) }, "");
+      } catch {
+        // History unavailable (sandboxed frame): Back then starts at the top.
+      }
+    };
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const onScroll = () => {
+      clearTimeout(timer);
+      timer = setTimeout(save, 150);
+    };
+    const onHash = async () => {
+      const y = (history.state as { y?: unknown } | null)?.y;
       route = readRoute();
       ui.detail = null;
-      window.scrollTo({ top: 0 });
+      if (typeof y !== "number") {
+        window.scrollTo({ top: 0 });
+        return;
+      }
+      await tick();
+      requestAnimationFrame(() => window.scrollTo({ top: y }));
     };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    document.addEventListener("click", save, true);
     window.addEventListener("hashchange", onHash);
-    return () => window.removeEventListener("hashchange", onHash);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("scroll", onScroll);
+      document.removeEventListener("click", save, true);
+      window.removeEventListener("hashchange", onHash);
+    };
   });
 
   const REPO = "https://github.com/jamesEmerson112/Political-Election-Research";
