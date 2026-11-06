@@ -9,12 +9,47 @@
   /** Longer target lists start collapsed. */
   const LIST_OPEN = 6;
 
+  /** The control that opened the drawer: focus goes back to it when the drawer closes. */
+  let opener: HTMLElement | null = null;
+  let wasOpen = false;
   $effect(() => {
-    if (d && panel) panel.focus();
+    const open = d !== null;
+    if (open && !wasOpen) {
+      const a = document.activeElement;
+      opener = a instanceof HTMLElement && a !== document.body && !panel?.contains(a) ? a : null;
+    }
+    if (open && panel && !panel.contains(document.activeElement)) panel.focus();
+    if (!open && wasOpen) {
+      if (opener?.isConnected) opener.focus({ preventScroll: true });
+      opener = null;
+    }
+    wasOpen = open;
   });
 
+  const FOCUSABLE = 'a[href], button:not([disabled]), input, select, textarea, summary, [tabindex]:not([tabindex="-1"])';
   function onKey(e: KeyboardEvent) {
-    if (e.key === "Escape" && ui.detail) ui.detail = null;
+    if (!ui.detail) return;
+    if (e.key === "Escape") ui.detail = null;
+    else if (e.key === "Tab" && panel) {
+      // Keep Tab inside the drawer while it covers the page.
+      const items = [...panel.querySelectorAll<HTMLElement>(FOCUSABLE)].filter((el) => el.getClientRects().length > 0);
+      const first = items[0];
+      const last = items[items.length - 1];
+      const at = document.activeElement;
+      if (!first || !last) {
+        e.preventDefault();
+        panel.focus();
+      } else if (!panel.contains(at)) {
+        e.preventDefault();
+        first.focus();
+      } else if (e.shiftKey && (at === first || at === panel)) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && at === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
   }
 </script>
 
@@ -66,11 +101,11 @@
 
 {#if d}
   <div class="scrim" role="presentation" onclick={() => (ui.detail = null)}></div>
-  <aside class="drawer" aria-label="Details and citations" tabindex="-1" bind:this={panel}>
+  <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" tabindex="-1" bind:this={panel}>
     <div class="head">
       <div>
         {#if d.kicker}<div class="eyebrow">{d.kicker}</div>{/if}
-        <h2>{d.title}</h2>
+        <h2 id="drawer-title">{d.title}</h2>
       </div>
       <button class="close" aria-label="Close" onclick={() => (ui.detail = null)}>✕</button>
     </div>
