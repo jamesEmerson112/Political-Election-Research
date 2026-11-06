@@ -533,6 +533,38 @@ async function openAll(p, route) {
   await c.close();
 }
 
+{
+  // 9c (U1). On a phone the sticky header is one brand line plus one row of section links that scrolls sideways;
+  // the current page's link is in view.
+  const { c, p } = await sweepPage(390);
+  const head = async () =>
+    p.evaluate(() => {
+      const nav = document.querySelector("nav.nav");
+      const links = [...nav.querySelectorAll("a")];
+      const cur = nav.querySelector("a.active")?.getBoundingClientRect();
+      const box = nav.getBoundingClientRect();
+      return {
+        h: Math.round(document.querySelector("header.top").getBoundingClientRect().height),
+        rows: new Set(links.map((a) => Math.round(a.getBoundingClientRect().top))).size,
+        curInView: !!cur && cur.left >= box.left - 1 && cur.right <= box.right + 1,
+        over: document.documentElement.scrollWidth - innerWidth,
+      };
+    });
+  const o = await head();
+  await p.evaluate(() => (location.hash = "about"));
+  await p.waitForTimeout(300);
+  const a = await head();
+  await p.evaluate(() => (location.hash = "c-2026-ca-general--sf-community-college-board"));
+  await p.waitForTimeout(300);
+  const k = await head();
+  check(
+    "9c. on a phone the header is at most 100px, the section links are one row, and the current one is in view",
+    [o, a, k].every((x) => x.h <= 100 && x.rows === 1 && x.curInView && x.over === 0),
+    `Overview ${o.h}px/${o.rows} row, About in view ${a.curInView}, contest in view ${k.curInView}`,
+  );
+  await c.close();
+}
+
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
 const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
 const vaScript = await page.evaluate(() => document.querySelector('script[data-sdkn^="@vercel/analytics"]')?.getAttribute("src") ?? "");

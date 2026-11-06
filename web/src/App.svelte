@@ -23,6 +23,19 @@
   const ix = $derived(new Index(bundle));
   /** Height of the sticky header, for things that stick below it (the trial ballot's meter). */
   let topH = $state(0);
+  /** On a phone the section links are one row that scrolls sideways: keep the current one in view. */
+  let navEl = $state<HTMLElement | null>(null);
+  $effect(() => {
+    void route;
+    const nav = navEl;
+    if (!nav || nav.scrollWidth <= nav.clientWidth) return;
+    requestAnimationFrame(() => {
+      const a = nav.querySelector<HTMLElement>("a.active");
+      if (!a) return;
+      const left = a.offsetLeft - nav.offsetLeft;
+      if (left < nav.scrollLeft || left + a.offsetWidth > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = Math.max(0, left - 24);
+    });
+  });
   $effect(() => {
     document.documentElement.style.setProperty("--top-h", `${topH}px`);
   });
@@ -100,7 +113,7 @@
       <a class="beta" href="#about" title="What this beta covers, its open checks, and privacy">Beta</a>
     </div>
   </div>
-  <nav class="wrap nav" aria-label="Sections">
+  <nav class="wrap nav" aria-label="Sections" bind:this={navEl}>
     <a href="#overview" class:active={view === "overview"}>Overview</a>
     {#if routeContest}
       <a class="cur" href={`#${contestRoute(routeContest)}`} class:active={true} aria-current="page">{ix.listTitle(routeContest)}</a>
@@ -281,6 +294,38 @@
     grid-template-columns: minmax(0, 1fr);
     gap: 36px;
     padding-block: 28px 48px;
+  }
+  /* Phones: the brand and the Beta badge on one line, the section links in one row that scrolls sideways (with a
+     fade at the edge), so the sticky header takes about 80px instead of 177px. */
+  @media (max-width: 600px) {
+    .top-row {
+      flex-wrap: nowrap;
+      padding-block: 8px 2px;
+    }
+    .brand-name {
+      font-size: var(--step-0);
+    }
+    .brand-sub {
+      display: none;
+    }
+    .nav {
+      flex-wrap: nowrap;
+      gap: 0 16px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      overscroll-behavior-x: contain;
+      mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent);
+    }
+    .nav::-webkit-scrollbar {
+      display: none;
+    }
+    .nav a {
+      flex: none;
+      white-space: nowrap;
+    }
+    .nav a:last-child {
+      padding-right: 24px;
+    }
   }
   .foot {
     display: grid;
