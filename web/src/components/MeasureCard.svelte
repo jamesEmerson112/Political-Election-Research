@@ -19,7 +19,7 @@
 <a class="mcard panel" href={`#${contestRoute(contestRef)}`}>
   <span class="top">
     <Badge icon={MEASURE_ICON} group="record" size={26} />
-    <span class="letter">Prop {c["number"]}</span>
+    <span class="letter">{label(contestRef)}</span>
     <OfficeChips chips={measureFactChips(c)} />
   </span>
   {#if outcome}<ResultBar o={outcome} title={ix.contestTitle(contestRef)} compact still />{/if}

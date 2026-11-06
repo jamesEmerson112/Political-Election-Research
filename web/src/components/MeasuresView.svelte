@@ -4,10 +4,11 @@
   import { balance, usd } from "../lib/measureChips";
   import MeasureCard from "./MeasureCard.svelte";
 
-  /** Ballot measures: California's statewide propositions, then local measures by jurisdiction (with the budget context and a way into the trial ballot). */
+  /** Ballot measures: California's statewide propositions, Nevada's statewide ballot questions, then local measures by jurisdiction (with the budget context and a way into the trial ballot). */
   let { ix, onDemo }: { ix: Index; onDemo?: () => void } = $props();
   const groups = $derived(ix.localMeasureGroups());
   const statewide = $derived(ix.stateMeasures("ca"));
+  const nevada = $derived(ix.stateMeasures("nv"));
 </script>
 
 <section class="section">
@@ -23,6 +24,17 @@
       </div>
       <div class="cards">
         {#each statewide as ref (ref)}<MeasureCard {ix} contestRef={ref} />{/each}
+      </div>
+    </div>
+  {/if}
+  {#if nevada.length}
+    <div class="group">
+      <div class="ghead">
+        <h3>Nevada · Statewide ballot questions</h3>
+        <span class="ctx num">{nevada.length} on every Nevada ballot · fiscal notes as published</span>
+      </div>
+      <div class="cards">
+        {#each nevada as ref (ref)}<MeasureCard {ix} contestRef={ref} />{/each}
       </div>
     </div>
   {/if}
