@@ -182,6 +182,13 @@
   const elsewhere = $derived(
     [...new Set(rows.map((r) => r.st).filter((st) => st !== "ca"))].sort().map((st) => ({ st, name: STATES[st] ?? st.toUpperCase(), count: rows.filter((r) => r.st === st).length })),
   );
+  /** California Assembly districts with a contest page here, so My ballot doesn't list them as missing. */
+  const coveredAssembly = $derived(
+    rows.flatMap((r) => {
+      const m = r.st === "ca" ? /\/state-assembly-(\d+)$/.exec(r.ref) : null;
+      return m ? [Number(m[1])] : [];
+    }),
+  );
   /** Propositions and measures start folded (the Overview is mostly read for candidates); a filter opens them. */
   const FOLDED_TYPES = new Set<OfficeType>(["measure", "local_measure"]);
   let unfolded = $state<Record<string, boolean>>({});
@@ -197,7 +204,13 @@
 
 <section class="intro">
   <div class="eyebrow">{ix.b.fictional ? "Fictional demo dataset" : "Research draft"}</div>
-  <h1>{ballotSt === "nv" ? "Nevada contests: your Las Vegas-area ballot" : "California contests"}</h1>
+  <h1>
+    {ballotSt === "nv"
+      ? "Nevada contests: your Las Vegas-area ballot"
+      : !ballotOn && elsewhere.length
+        ? `California and ${elsewhere.map((e) => e.name).join(" and ")} contests`
+        : "California contests"}
+  </h1>
   <p class="facts num">
     <span><strong>{rows.length}</strong> contests</span>
     <span><strong>{ix.people.size}</strong> people</span>
@@ -214,7 +227,7 @@
   {/each}
 </section>
 
-<MyBallot {choice} {showAll} onCount={onBallotCount} total={rows.length} onchange={setChoice} ontoggle={() => (showAll = !showAll)} onforget={forget} />
+<MyBallot {choice} {showAll} {coveredAssembly} onCount={onBallotCount} total={rows.length} onchange={setChoice} ontoggle={() => (showAll = !showAll)} onforget={forget} />
 
 <div class="export">
   <button type="button" class="exp" onclick={exportPicks} disabled={!exportRows.length}>

@@ -28,6 +28,7 @@
   let {
     choice,
     showAll,
+    coveredAssembly = [],
     onCount,
     total,
     onchange,
@@ -36,6 +37,8 @@
   }: {
     choice: Choice;
     showAll: boolean;
+    /** California Assembly districts that have a contest page on this site. */
+    coveredAssembly?: number[];
     onCount: number;
     total: number;
     onchange: (c: Choice) => void;
@@ -312,6 +315,16 @@
   const ad = $derived(choice.ad ?? []);
   const sdUp = $derived((choice.sd ?? []).filter(senateSeatUp2026));
   const senateOff = $derived((choice.sd ?? []).filter((n) => !senateSeatUp2026(n)));
+  /** The Assembly part of "not covered here yet": only districts without a contest page here. */
+  function assemblyNote(mine: number[], covered: number[]): string | null {
+    const has = new Set(covered);
+    if (mine.length) {
+      const missing = mine.filter((n) => !has.has(n));
+      return missing.length ? `State Assembly ${missing.map((n) => `District ${n}`).join(" or ")}` : null;
+    }
+    const list = [...has].sort((a, b) => a - b);
+    return list.length ? `State Assembly (except ${list.length === 1 ? "District" : "Districts"} ${list.join(" and ")})` : "State Assembly";
+  }
   const alsoOnBallot = $derived(
     st === "nv"
       ? [
@@ -321,7 +334,7 @@
           .filter(Boolean)
           .join("; ")
       : [
-      ad.length ? `State Assembly ${ad.map((n) => `District ${n}`).join(" or ")}` : "State Assembly",
+      assemblyNote(ad, coveredAssembly),
       sdUp.length
         ? `State Senate ${sdUp.map((n) => `District ${n}`).join(" or ")}`
         : senateOff.length
