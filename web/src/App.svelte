@@ -15,11 +15,14 @@
   import { contestRoute, Index } from "./lib/data";
   import { plural } from "./lib/format";
   import { loadDatasetChoice, saveDatasetChoice, ui } from "./lib/ui.svelte";
+  import { need, parts, withParts } from "./lib/parts.svelte";
+  import type { LazyPart } from "./lib/data";
 
   let datasetKey = $state<"draft" | "demo">(loadDatasetChoice());
   let route = $state(readRoute());
 
-  const bundle = $derived(datasetKey === "demo" ? demo : draft);
+  /** The draft's on-demand parts (tasks, leads) join it as they arrive; pages that need them ask (lib/parts.svelte.ts). */
+  const bundle = $derived(datasetKey === "demo" ? demo : withParts(draft, parts.loaded));
   const ix = $derived(new Index(bundle));
   /** Height of the sticky header, for things that stick below it (the trial ballot's meter). */
   let topH = $state(0);
@@ -47,6 +50,26 @@
   const view = $derived(
     routeContest ? "contest" : ["issues", "sources", "queue", "measures", "trial", "about"].includes(routePath) ? routePath : "overview",
   );
+
+  /**
+   * What each page needs beyond the page itself (lib/parts.svelte.ts): contest and measure pages the records and the
+   * leads; Issues, Sources and Try your ballot the records. The Overview, Measures and About need neither.
+   */
+  const wants = $derived<LazyPart[]>(
+    view === "contest" ? ["records", "leads"] : view === "queue" ? ["tasks"] : ["issues", "sources", "trial"].includes(view) ? ["records"] : [],
+  );
+  $effect(() => {
+    need(bundle.lazy, ...wants);
+  });
+  const waiting = $derived(wants.filter((p) => !ix.ready(p)));
+  const loadFailed = $derived(waiting.some((p) => parts.failed.includes(p)));
+  // Once the first page is up and the browser is idle, fetch the rest, so the next page opens at once.
+  $effect(() => {
+    const lazy = draft.lazy;
+    const later = () => need(lazy, "records", "leads", "tasks");
+    const t = setTimeout(() => ("requestIdleCallback" in window ? window.requestIdleCallback(later, { timeout: 4000 }) : later()), 2000);
+    return () => clearTimeout(t);
+  });
 
   function readRoute(): string {
     return decodeURIComponent(location.hash.slice(1)) || "overview";
@@ -146,7 +169,9 @@
 
 <main class="wrap main">
   {#key datasetKey}
-    {#if view === "contest" && routeContest}
+    {#if waiting.length}
+      <p class="loading" aria-busy={!loadFailed}>{loadFailed ? "This page's data couldn't load. Reload the page to try again." : "Loading…"}</p>
+    {:else if view === "contest" && routeContest}
       {#if ix.kindOf(routeContest) === "measure"}
         <MeasureView {ix} contestRef={routeContest} />
       {:else}
@@ -288,6 +313,11 @@
     text-underline-offset: 3px;
     cursor: pointer;
     font-weight: 600;
+  }
+  .loading {
+    min-height: 50vh;
+    color: var(--ink-2);
+    font-size: var(--step--1);
   }
   .main {
     display: grid;

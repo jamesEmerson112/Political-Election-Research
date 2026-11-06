@@ -1,9 +1,10 @@
 /**
  * Loads a state's district file only when a ZIP or location lookup is first
- * used. (In the single-file build the data is inlined, but it is parsed and
- * decoded on demand.) No network request carries the user's input: the files
- * are part of the site.
+ * used: a file next to the page (web/vite.config.ts), fetched whole and then
+ * searched here. No network request carries the user's input: the ZIP code or
+ * location never leaves this page.
  */
+import { geoFiles } from "virtual:datasets";
 import type { BallotState } from "./ballot";
 import { decode, type Decoded, type DistrictFile } from "./geo";
 
@@ -12,9 +13,14 @@ export interface Districts {
   decoded: Decoded;
 }
 
+const fetchJson = (url: string): Promise<{ default?: unknown }> => {
+  const inline = (globalThis as { __PARTS__?: Record<string, unknown> }).__PARTS__?.[url];
+  if (inline !== undefined) return Promise.resolve({ default: inline });
+  return fetch(url).then((r) => (r.ok ? r.json() : Promise.reject(new Error(`${url}: HTTP ${r.status}`)))).then((v) => ({ default: v }));
+};
 const FILES: Record<BallotState, () => Promise<{ default?: unknown }>> = {
-  ca: () => import("../../../geo/ca-2026-districts.json"),
-  nv: () => import("../../../geo/nv-2026-districts.json"),
+  ca: () => fetchJson(geoFiles.ca),
+  nv: () => fetchJson(geoFiles.nv),
 };
 const loading: Partial<Record<BallotState, Promise<Districts>>> = {};
 

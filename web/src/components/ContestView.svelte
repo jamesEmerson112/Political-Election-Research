@@ -17,8 +17,10 @@
   import { RESULT_ICON } from "../lib/icons";
   import { countLine, officeOutcome, pct1, winnerWord } from "../lib/results";
   import { openOfficeCount } from "../lib/view";
+  import { need, parts } from "../lib/parts.svelte";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
+  // App.svelte loads this page's parts (records, leads) before showing it. The task list loads when its box opens.
 
   const cmp = $derived(buildComparison(ix, contestRef));
   const cands = $derived(cmp.cands);
@@ -27,10 +29,11 @@
   const cutoff = $derived((agenda?.["targets"]?.["finance_cutoff"] as string | null) ?? null);
   const tasks = $derived(ix.tasksFor(contestRef));
   const openTasks = $derived(tasks.filter((t) => !t.blocked_by));
+  const openTaskN = $derived(ix.openTaskCount(contestRef));
   const progress = $derived(ix.progress(contestRef));
   const pct = $derived(progress.total ? Math.round((progress.done / progress.total) * 100) : 0);
   const cov = $derived(ix.b.coverage[contestRef]);
-  const leadCount = $derived(ix.leads.get(contestRef)?.length ?? 0);
+  const leadCount = $derived(ix.leadCount(contestRef));
   const endorsers = $derived(
     [...new Set(cands.flatMap((c) => ix.endorsementsOf(c).map((e) => String(e["endorser"]))))].filter((r) => r.startsWith("org:")),
   );
@@ -56,7 +59,7 @@
         <span class="meter" aria-hidden="true"><span style:width={`${pct}%`}></span></span>{pct}% researched
       </span>
     {/if}
-    <span class="chip num">{plural(openTasks.length, "open task")}</span>
+    <span class="chip num">{plural(openTaskN, "open task")}</span>
     {#if leadCount}<span class="chip lead-chip num">{plural(leadCount, "unverified lead")}</span>{/if}
     {#if cutoff}<span class="chip num">$ through {date(cutoff)}</span>{/if}
   </div>
@@ -96,13 +99,19 @@
       </p>
     </div>
     {/if}
-    <Legend />
-    {#if cands.length === 2}
-      <VersusSpine {ix} {contestRef} {cmp} />
+    {#if ix.ready("leads")}
+      <Legend />
+      {#if cands.length === 2}
+        <VersusSpine {ix} {contestRef} {cmp} />
+      {:else}
+        <CompareTable {ix} {contestRef} {cmp} />
+      {/if}
+      <p class="hint">Tap a row for the sentences; the numbered buttons open their sources.</p>
     {:else}
-      <CompareTable {ix} {contestRef} {cmp} />
+      <p class="loading" aria-busy={!parts.failed.includes("leads")}>
+        {parts.failed.includes("leads") ? "The comparison couldn't load. Reload the page to try again." : "Loading the comparison…"}
+      </p>
     {/if}
-    <p class="hint">Tap a row for the sentences; the numbered buttons open their sources.</p>
   </section>
 
   <PromiseTracker {ix} {contestRef} />
@@ -188,7 +197,7 @@
 <section class="section">
   <div class="section-head">
     <h2>Research progress</h2>
-    <span class="chip num"><span class="meter" aria-hidden="true"><span style:width={`${pct}%`}></span></span>{pct}% · {plural(openTasks.length, "open task")}</span>
+    <span class="chip num"><span class="meter" aria-hidden="true"><span style:width={`${pct}%`}></span></span>{pct}% · {plural(openTaskN, "open task")}</span>
   </div>
   {#if cov}
     {@const asym = cov.rows.filter((r) => r.asymmetric)}
@@ -200,9 +209,12 @@
       <p class="chip ok">✓ Every candidate researched to the same depth</p>
     {/if}
   {/if}
-  {#if openTasks.length}
-    <details class="tasks-box">
+  {#if openTaskN}
+    <details class="tasks-box" ontoggle={(e) => (e.currentTarget as HTMLDetailsElement).open && need(ix.b.lazy, "tasks")}>
       <summary>Next tasks from <span class="mono">npm run next</span></summary>
+      {#if !ix.ready("tasks")}
+        <p class="muted" aria-busy={!parts.failed.includes("tasks")}>{parts.failed.includes("tasks") ? "The task list couldn't load. Reload the page to try again." : "Loading the task list…"}</p>
+      {/if}
       <ol class="tasks">
         {#each openTasks.slice(0, 12) as t (t.id)}
           <li>
@@ -354,6 +366,11 @@
   .link-btn:hover {
     text-decoration: underline;
     text-underline-offset: 3px;
+  }
+  .loading {
+    min-height: 40vh;
+    color: var(--ink-2);
+    font-size: var(--step--1);
   }
   .tasks-box summary {
     cursor: pointer;

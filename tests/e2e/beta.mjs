@@ -338,11 +338,12 @@ async function sweepPage(width, scheme = "light") {
   await p.waitForSelector("main > *", { timeout: 15000 });
   return { c, p };
 }
-/** Go to a route and open everything folded on it (groups, rows, <details>). */
+/** Go to a route and open everything folded on it (groups, rows, <details>), once its data has loaded. */
 async function openAll(p, route) {
   await p.evaluate(async (h) => {
     location.hash = h;
     await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
+    for (let i = 0; i < 200 && document.querySelector('main [aria-busy="true"]'); i++) await new Promise((r) => setTimeout(r, 50));
     for (const b of document.querySelectorAll('main button[aria-expanded="false"]')) if (!b.closest("details")) b.click();
     for (const d of document.querySelectorAll("main details")) d.open = true;
     await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
@@ -685,6 +686,40 @@ async function openAll(p, route) {
     `94110: ${sf.county} | ${sf.heads.join(" / ").slice(0, 120)} | 90210: ${la.county}`,
   );
   await c.close();
+}
+
+{
+  // 9g (U5). The page carries what the Overview needs; contest pages fetch their parts once (started in the page head
+  // when you land on one); the research queue fetches its tasks; a failed fetch says so instead of breaking the page.
+  const pageBytes = (await (await fetch(BASE)).arrayBuffer()).byteLength;
+  const c1 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  await c1.addInitScript(() => localStorage.setItem("per-dataset", "draft"));
+  const p1 = await c1.newPage();
+  const parts = [];
+  p1.on("request", (r) => /\/data\/draft-\w+\./.test(r.url()) && parts.push(r.url().replace(/^.*\/data\/draft-(\w+)\..*$/, "$1")));
+  await p1.goto(`${BASE}#c-2026-ca-general--governor`);
+  await p1.waitForSelector(".vs", { timeout: 30000 });
+  const landed = [...parts];
+  await p1.evaluate(() => (location.hash = "queue"));
+  await p1.waitForSelector("table.grid tbody tr", { timeout: 30000 });
+  const queueRows = await p1.locator("table.grid tbody tr").count();
+  await c1.close();
+  const c2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  await c2.addInitScript(() => localStorage.setItem("per-dataset", "draft"));
+  await c2.route(/\/data\/draft-records\./, (r) => r.abort());
+  const p2 = await c2.newPage();
+  const crash = [];
+  p2.on("pageerror", (e) => crash.push(String(e)));
+  await p2.goto(`${BASE}#c-2026-ca-general--governor`);
+  await p2.waitForSelector("main .loading:not([aria-busy='true'])", { timeout: 30000 });
+  const failText = await text(p2.locator("main .loading"));
+  await c2.close();
+  const once = (k) => landed.filter((x) => x === k).length === 1;
+  check(
+    "9g. the page is under 3 MB; a contest page fetches its records and leads once each; the queue loads its tasks; a failed fetch says so",
+    pageBytes < 3e6 && once("records") && once("leads") && !landed.includes("tasks") && queueRows > 100 && failText.includes("couldn't load") && crash.length === 0,
+    `${(pageBytes / 1e6).toFixed(2)} MB; contest fetched ${landed.join(", ")}; queue ${queueRows} rows; failure: "${failText}"`,
+  );
 }
 
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.

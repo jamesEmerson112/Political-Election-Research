@@ -15,8 +15,11 @@
   import { contestRoute } from "../lib/data";
   import { measureLabel } from "../lib/measureLabel";
   import { budgetBase, fiscalChips, measureFactChips } from "../lib/measureChips";
+  import { need } from "../lib/parts.svelte";
 
   let { ix, contestRef }: { ix: Index; contestRef: string } = $props();
+  // The candidate-stance table shows unverified leads, fetched once (lib/parts.svelte.ts).
+  $effect(() => need(ix.b.lazy, "leads"));
   const c = $derived(ix.contests.get(contestRef));
   /** The recorded count (semi-official or certified), if any. */
   const outcome = $derived(measureOutcome(c));
@@ -177,7 +180,7 @@
   {/if}
 </section>
 
-{#if askedIn.length}
+{#if askedIn.length && ix.ready("leads")}
   <section class="section">
     <div class="section-head"><h2>Candidate stances on this measure</h2></div>
     <div class="scroll-x">

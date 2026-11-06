@@ -6,6 +6,23 @@ import { titleFromSlug } from "./labels";
 export { titleFromSlug };
 
 export type { Bundle, Coverage, Task, CandidateRollup };
+
+/**
+ * The draft's on-demand parts (web/vite.config.ts): each part's file path until it is loaded (then the key is gone),
+ * and the counts the page needs before that.
+ */
+export interface Lazy {
+  tasks?: string;
+  leads?: string;
+  /** People's full records, organizations, positions, relationships, sources, dossiers, bills, rollups. */
+  records?: string;
+  openTasks: Record<string, number>;
+  openTaskTotal: number;
+  leadCounts: Record<string, number>;
+  problemCounts: Record<string, number>;
+  counts: { people: number; sources: number; citations: number };
+}
+export type LazyPart = "tasks" | "leads" | "records";
 // Records are schema-validated JSON; the UI reads them loosely.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type Rec = Record<string, any>;
@@ -94,7 +111,7 @@ export function contestRoute(ref: string): string {
 }
 
 export class Index {
-  readonly b: Bundle;
+  readonly b: Bundle & { lazy?: Lazy };
   readonly people = new Map<string, Rec>();
   readonly orgs = new Map<string, Rec>();
   readonly offices = new Map<string, Rec>();
@@ -107,9 +124,9 @@ export class Index {
   readonly leads = new Map<string, Lead[]>();
   readonly leadsMeta = new Map<string, Rec>();
   readonly positions = new Map<string, Rec[]>();
-  readonly citedBy = new Map<string, number>();
+  private citedByCache: Map<string, number> | null = null;
 
-  constructor(b: Bundle) {
+  constructor(b: Bundle & { lazy?: Lazy }) {
     this.b = b;
     for (const r of b.people) this.people.set(`person:${r["id"]}`, r);
     for (const r of b.organizations) this.orgs.set(`org:${r["id"]}`, r);
@@ -127,16 +144,23 @@ export class Index {
       this.leadsMeta.set(String(l["contest"]), l["provided"] as Rec);
     }
     for (const p of b.positions) this.positions.set(String(p["actor"]), p["positions"] as Rec[]);
+  }
+
+  /** Citations per source (every "source" key in these records), counted on first use: only Sources and the counts need it. */
+  get citedBy(): Map<string, number> {
+    if (this.citedByCache) return this.citedByCache;
+    const m = new Map<string, number>();
     const count = (v: unknown): void => {
       if (Array.isArray(v)) v.forEach(count);
       else if (v && typeof v === "object") {
         for (const [k, c] of Object.entries(v as Rec)) {
-          if (k === "source" && typeof c === "string") this.citedBy.set(c, (this.citedBy.get(c) ?? 0) + 1);
+          if (k === "source" && typeof c === "string") m.set(c, (m.get(c) ?? 0) + 1);
           else count(c);
         }
       }
     };
-    count([b.people, b.organizations, b.contests, b.elections, b.positions, b.relationships]);
+    count([this.b.people, this.b.organizations, this.b.contests, this.b.elections, this.b.positions, this.b.relationships]);
+    return (this.citedByCache = m);
   }
 
   get rels(): Rec[] {
@@ -286,6 +310,31 @@ export class Index {
     return this.ofType("committee_role").filter((r) => r["subject"] === subject);
   }
 
+  /** Whether an on-demand part is here (always, for a dataset without on-demand parts). */
+  ready(part: LazyPart): boolean {
+    return !this.b.lazy?.[part];
+  }
+
+  /** Open (unblocked) research tasks for a contest; counted ahead of time while the task list isn't loaded. */
+  openTaskCount(contestRef: string): number {
+    return this.ready("tasks") ? this.tasksFor(contestRef).filter((t) => !t.blocked_by).length : (this.b.lazy!.openTasks[contestRef] ?? 0);
+  }
+
+  openTaskTotal(): number {
+    return this.ready("tasks") ? this.b.tasks.filter((t) => !t.blocked_by).length : this.b.lazy!.openTaskTotal;
+  }
+
+  /** Unverified leads for a contest; counted ahead of time while the leads aren't loaded. */
+  leadCount(contestRef: string): number {
+    return this.ready("leads") ? (this.leads.get(contestRef)?.length ?? 0) : (this.b.lazy!.leadCounts[contestRef] ?? 0);
+  }
+
+  /** Validation problems by rule code (the page carries only these counts for the draft). */
+  problemCounts(): Record<string, number> {
+    if (this.b.lazy) return this.b.lazy.problemCounts;
+    return this.b.validation.problems.reduce<Record<string, number>>((acc, p) => ((acc[p.code] = (acc[p.code] ?? 0) + 1), acc), {});
+  }
+
   tasksFor(contestRef: string): Task[] {
     return this.b.tasks.filter((t) => t.contest === contestRef);
   }
@@ -307,7 +356,17 @@ export class Index {
     return { done, total };
   }
 
+  /** People and sources in the dataset (counted ahead of time while the records aren't loaded). */
+  peopleCount(): number {
+    return this.ready("records") ? this.people.size : this.b.lazy!.counts.people;
+  }
+
+  sourceCount(): number {
+    return this.ready("records") ? this.sources.size : this.b.lazy!.counts.sources;
+  }
+
   claimCount(): number {
+    if (!this.ready("records")) return this.b.lazy!.counts.citations;
     let n = 0;
     for (const v of this.citedBy.values()) n += v;
     return n;

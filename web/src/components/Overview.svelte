@@ -74,8 +74,8 @@
       const names = cands.map((c) => ix.name(c));
       const p = ix.progress(ref);
       const pct = p.total ? Math.round((p.done / p.total) * 100) : 0;
-      const tasks = ix.tasksFor(ref).filter((t) => !t.blocked_by).length;
-      const leads = ix.leads.get(ref)?.length ?? 0;
+      const tasks = ix.openTaskCount(ref);
+      const leads = ix.leadCount(ref);
       const title = ix.listTitle(ref);
       const st = stateOf(ref);
       const district = /-(\d+)$/.exec(slugOf(ref))?.[1];
@@ -181,7 +181,7 @@
   const shown = $derived(
     filtered.length + toPick.reduce((n, g) => n + g.rows.length, 0) + unmatched.length + otherStates.reduce((n, s) => n + s.count, 0),
   );
-  const openTasks = $derived(ix.b.tasks.filter((t) => !t.blocked_by).length);
+  const openTasks = $derived(ix.openTaskTotal());
   /** Other states' contest counts (Nevada: Las Vegas), for the jump link under the title. */
   const elsewhere = $derived(
     [...new Set(rows.map((r) => r.st).filter((st) => st !== "ca"))].sort().map((st) => ({ st, name: STATES[st] ?? st.toUpperCase(), count: rows.filter((r) => r.st === st).length })),
@@ -252,8 +252,8 @@
   </h1>
   <p class="facts num">
     <span><strong>{rows.length}</strong> contests</span>
-    <span><strong>{ix.people.size}</strong> people</span>
-    <span><strong>{ix.sources.size}</strong> sources</span>
+    <span><strong>{ix.peopleCount()}</strong> people</span>
+    <span><strong>{ix.sourceCount()}</strong> sources</span>
     <span><strong>{ix.claimCount()}</strong> citations</span>
     <span><strong>{openTasks}</strong> open tasks</span>
   </p>

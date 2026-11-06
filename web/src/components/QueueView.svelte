@@ -1,8 +1,11 @@
 <script lang="ts">
   import type { Index } from "../lib/data";
   import { plural, TASK_LABEL } from "../lib/format";
+  import { need, parts } from "../lib/parts.svelte";
 
   let { ix }: { ix: Index } = $props();
+  // The full task list is fetched once, when this page opens (lib/parts.svelte.ts).
+  $effect(() => need(ix.b.lazy, "tasks"));
   let showBlocked = $state(false);
   let contest = $state("all");
   const refs = $derived([...new Set(ix.b.tasks.map((t) => t.contest))]);
@@ -34,7 +37,11 @@
   <span class="muted">{plural(tasks.length, "task")}</span>
 </div>
 
-{#if tasks.length}
+{#if !ix.ready("tasks")}
+  <p class="empty" aria-busy={!parts.failed.includes("tasks")}>
+    {parts.failed.includes("tasks") ? "The task list couldn't load. Reload the page to try again." : `Loading ${plural(ix.openTaskTotal(), "open task")}…`}
+  </p>
+{:else if tasks.length}
   <div class="scroll-x" tabindex="0" role="region" aria-label="Open research tasks (scrolls sideways)">
     <table class="grid">
       <thead><tr><th class="num">#</th><th>Task</th><th>Subject</th><th>Writes to</th><th>Leads</th></tr></thead>

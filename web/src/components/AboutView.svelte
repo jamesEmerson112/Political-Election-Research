@@ -12,12 +12,7 @@
 
   const REPO = "https://github.com/jamesEmerson112/Political-Election-Research";
   const v = $derived(ix.b.validation);
-  const byCode = $derived(
-    v.problems.reduce<Record<string, number>>((acc, p) => {
-      acc[p.code] = (acc[p.code] ?? 0) + 1;
-      return acc;
-    }, {}),
-  );
+  const byCode = $derived(ix.problemCounts());
   const OPEN_CHECKS: Array<[string, string]> = [
     ["UNVERIFIED_CITATION", "citations seen only indirectly (e.g. a search summary), not yet verified"],
     ["QUOTE_PENDING", "citations a maintainer checked that still need their exact quote"],
@@ -27,7 +22,7 @@
   const otherWarnings = $derived(v.warnings - OPEN_CHECKS.reduce((n, [code]) => n + (byCode[code] ?? 0), 0));
   const local = $derived(ix.localMeasureGroups());
   const state = $derived(ix.stateMeasures("ca"));
-  const openTasks = $derived(ix.b.tasks.filter((t) => !t.blocked_by).length);
+  const openTasks = $derived(ix.openTaskTotal());
   const agendas = $derived(ix.b.agendas.length);
 </script>
 
