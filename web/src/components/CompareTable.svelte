@@ -410,12 +410,20 @@
     background: var(--ink);
     color: var(--surface);
   }
-  th.cand.lost {
-    opacity: 0.6;
+  /* dimmed by color, never by opacity, so the text keeps 4.5:1 in both themes */
+  th.cand.lost .ini {
+    border-color: var(--line-strong);
+    color: var(--ink-2);
+  }
+  th.cand.lost .cand-name {
+    color: var(--ink-2);
+    font-weight: 600;
+  }
+  th.cand.lost .cand-res {
+    color: var(--ink-2);
   }
   td.cell.lost {
     filter: grayscale(1);
-    opacity: 0.8;
   }
   /* category bar */
   tr.cat th {
@@ -444,6 +452,7 @@
     font-size: 0.72rem;
     font-weight: 700;
     color: var(--muted);
+    white-space: nowrap; /* "5–6" stays on one line */
   }
   .cat-name {
     font-weight: 800;

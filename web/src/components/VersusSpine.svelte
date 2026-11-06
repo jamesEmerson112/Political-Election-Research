@@ -311,13 +311,21 @@
     background: var(--ink);
     color: var(--surface);
   }
-  .who.lost {
-    opacity: 0.6;
+  /* dimmed by color, never by opacity, so the text keeps 4.5:1 in both themes */
+  .who.lost .ini {
+    border-color: var(--line-strong);
+    color: var(--ink-2);
+  }
+  .who.lost .who-name {
+    color: var(--ink-2);
+    font-weight: 600;
+  }
+  .who.lost .who-res {
+    color: var(--ink-2);
   }
   .vs.lost-a :global(.side.a),
   .vs.lost-b :global(.side.b) {
     filter: grayscale(1);
-    opacity: 0.8;
   }
   /* category header */
   .cat-h {
@@ -345,6 +353,7 @@
     font-size: 0.7rem;
     font-weight: 700;
     color: var(--muted);
+    white-space: nowrap; /* "5–6" stays on one line */
   }
   .cat-name {
     font-weight: 800;
@@ -502,6 +511,13 @@
     line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+  /* Right-aligned clamped text: Chrome places the "…" past the right edge, where overflow hides it, so a cut line
+     looked complete ("Member of the California State"). The padding gives the "…" room; the margin keeps the text
+     where it was. */
+  .side.a .lbl.sub {
+    padding-right: 1.2em;
+    margin-right: -1.2em;
   }
   .v {
     font-weight: 800;
