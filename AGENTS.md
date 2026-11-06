@@ -92,5 +92,5 @@ Track-record items and past policies are written as one neutral STAR sentence (a
 | `npm run -s coverage -- <contest>` | parity matrix across candidates |
 | `npm run -s rollup -- person:<slug> contest:<id> [--through DATE]` | computed funding summary |
 | `npm run -s db` | rebuild `dist/research.sqlite` (queryable copy, per-candidate views) |
-| `npm run web` / `npm run web:build` | the site, live-reloading on data changes / single-file build |
+| `npm run web` / `npm run web:build` | the site, live-reloading on data changes / build (page + on-demand data files in `dist/web/`) |
 | `npm run check` | typecheck + fmt check + validate + tests (what CI runs) |

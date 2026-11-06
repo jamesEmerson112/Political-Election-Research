@@ -25,15 +25,15 @@ See **[AGENTS.md](AGENTS.md)** for the research loop.
 
 ## The site
 
-`npm run web` starts the Svelte site, which reloads live as data changes. `npm run web:build` writes a single self-contained page to `dist/web/index.html`. Each contest is a side-by-side comparison in eleven categories (identity, occupation, qualifications, past policies, shared policies, policy differences, endorsements, campaign financing, performance record, controversies, promises). Every entry opens to its sources. "Try your ballot" adds up the official fiscal estimates of the measures a visitor votes for, against San Francisco's or California's budget forecast. The About page switches between the real data and a fictional demo of a fully researched contest.
+`npm run web` starts the Svelte site, which reloads live as data changes. `npm run web:build` writes the page to `dist/web/index.html` and the data it loads on demand to `dist/web/data/` (candidate records, leads, the research queue, My ballot's district files), so the Overview opens without them. Serve the folder from any static host; a browser won't fetch the data files from a page opened as a local file. Each contest is a side-by-side comparison in eleven categories (identity, occupation, qualifications, past policies, shared policies, policy differences, endorsements, campaign financing, performance record, controversies, promises). Every entry opens to its sources. "Try your ballot" adds up the official fiscal estimates of the measures a visitor votes for, against San Francisco's or California's budget forecast. The About page switches between the real data and a fictional demo of a fully researched contest.
 
 **A contest.** The count line names the leader, and the other side is dimmed. Each row opens to the candidates' own words, and each number opens the source with its verbatim quote.
 
 ![Governor: the result line, the side-by-side comparison, a row's sentences and a citation's quote](docs/media/contest.gif)
 
-**My ballot.** A ZIP code, the device's location or a district pick narrows the Overview to one voter's contests. The lookup runs in the page, and nothing is sent anywhere.
+**Results and My ballot.** The Overview opens with the results so far. A ZIP code, the device's location or a district pick then narrows it to one voter's contests, county included. The lookup runs in the page, and nothing is sent anywhere.
 
-![My ballot: ZIP code 94110 narrows the Overview to 24 contests](docs/media/my-ballot.gif)
+![The Overview's results, then My ballot: ZIP code 94110 finds CA-11 and San Francisco County and narrows the list to that voter's 39 contests](docs/media/my-ballot.gif)
 
 **Measures.** Yes/no bars from the semi-official count, with a tick at the share needed to pass. Each measure page has its digest, fiscal statement and arguments.
 
