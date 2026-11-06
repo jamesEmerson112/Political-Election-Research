@@ -27,6 +27,24 @@ See **[AGENTS.md](AGENTS.md)** for the research loop.
 
 `npm run web` starts the Svelte site, which reloads live as data changes. `npm run web:build` writes a single self-contained page to `dist/web/index.html`. Each contest is a side-by-side comparison in eleven categories (identity, occupation, qualifications, past policies, shared policies, policy differences, endorsements, campaign financing, performance record, controversies, promises). Every entry opens to its sources. "Try your ballot" adds up the official fiscal estimates of the measures a visitor votes for, against San Francisco's or California's budget forecast. The About page switches between the real data and a fictional demo of a fully researched contest.
 
+**A contest.** The count line names the leader, and the other side is dimmed. Each row opens to the candidates' own words, and each number opens the source with its verbatim quote.
+
+![Governor: the result line, the side-by-side comparison, a row's sentences and a citation's quote](docs/media/contest.gif)
+
+**My ballot.** A ZIP code, the device's location or a district pick narrows the Overview to one voter's contests. The lookup runs in the page, and nothing is sent anywhere.
+
+![My ballot: ZIP code 94110 narrows the Overview to 24 contests](docs/media/my-ballot.gif)
+
+**Measures.** Yes/no bars from the semi-official count, with a tick at the share needed to pass. Each measure page has its digest, fiscal statement and arguments.
+
+![Measures: yes/no bars, then Proposition 5 and its vote counts](docs/media/measures.gif)
+
+**Try your ballot.** Each vote adds the official fiscal estimates to the budget forecast. It adds up; it doesn't recommend.
+
+![Try your ballot: votes on San Francisco's measures move the General Fund forecast](docs/media/try-your-ballot.gif)
+
+The GIFs are recorded from the built site by `node docs/media/record.mjs`. Re-record them after visible changes to these pages.
+
 ## Deploy (Vercel)
 
 The site is one static file, so any static host works. [`vercel.json`](vercel.json) sets up Vercel: install with `npm ci`, build with `npm run web:build`, serve `dist/web`, and send the response headers. The security policy lets the page send data only to its own site (`connect-src 'self'`, for page views) and not to any other server, allows its fonts from Google Fonts, allows location for this site only, and sends no referrer. Routes live in the URL hash, so no rewrites are needed, and nothing a visitor enters reaches the server.
