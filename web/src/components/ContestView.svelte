@@ -239,6 +239,7 @@
   }
   .head {
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     gap: 10px;
   }
   h1 {
@@ -307,6 +308,7 @@
   }
   .about p {
     margin-top: 6px;
+    overflow-wrap: anywhere; /* notes can hold long URLs */
   }
   .compare {
     gap: 12px;

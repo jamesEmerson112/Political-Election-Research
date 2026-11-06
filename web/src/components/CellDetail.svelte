@@ -187,5 +187,6 @@
   }
   .lead-text {
     font-style: italic;
+    overflow-wrap: anywhere; /* leads cite long URLs; they wrap instead of widening the page */
   }
 </style>
