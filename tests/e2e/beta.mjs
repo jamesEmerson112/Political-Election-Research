@@ -565,6 +565,32 @@ async function openAll(p, route) {
   await c.close();
 }
 
+{
+  // 9d (U2). The Overview lists contests with research; each group folds the rest behind one "Show N more" row.
+  // The filter still finds every contest.
+  const { c, p } = await sweepPage(1280);
+  const h = await p.evaluate(() => document.documentElement.scrollHeight);
+  const hrefs = () => p.locator("a.crow").evaluateAll((as) => as.map((a) => a.getAttribute("href")));
+  const before = await hrefs();
+  const house = p.locator(".group", { has: p.locator("h2.g-head", { hasText: "U.S. House" }) }).locator("button.more");
+  const houseLabel = await text(house);
+  await house.click();
+  const after = await hrefs();
+  await p.locator("#contest-filter").fill("CA-27");
+  await p.waitForTimeout(200);
+  const filtered = await hrefs();
+  check(
+    "9d. the Overview folds contests not researched yet (under 5,000px); Show reveals them; the filter finds them",
+    h < 5000 &&
+      before.includes("#c-2026-ca-general--us-house-ca-11") &&
+      !before.includes("#c-2026-ca-general--us-house-ca-1") &&
+      after.includes("#c-2026-ca-general--us-house-ca-1") &&
+      filtered.includes("#c-2026-ca-general--us-house-ca-27"),
+    `${h}px; "${houseLabel}"`,
+  );
+  await c.close();
+}
+
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
 const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
 const vaScript = await page.evaluate(() => document.querySelector('script[data-sdkn^="@vercel/analytics"]')?.getAttribute("src") ?? "");

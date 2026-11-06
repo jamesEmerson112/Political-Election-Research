@@ -189,6 +189,14 @@
       return m ? [Number(m[1])] : [];
     }),
   );
+  /**
+   * Contests with research to show (any progress, or an official contest record, which every result has) are listed;
+   * the rest of a group folds behind one "Show N more, not researched yet" row. The filter and My ballot show
+   * everything, since both already narrow the list.
+   */
+  const researched = (r: Row) => r.pct > 0 || r.verified || r.kind === "measure";
+  const foldUnresearched = $derived(!ballotOn && q.trim() === "");
+  let moreOpen = $state<Record<string, boolean>>({});
   /** Propositions and measures start folded (the Overview is mostly read for candidates); a filter opens them. */
   const FOLDED_TYPES = new Set<OfficeType>(["measure", "local_measure"]);
   let unfolded = $state<Record<string, boolean>>({});
@@ -270,11 +278,7 @@
         {/if}
       </h2>
       {#if open}
-        <ul class="list">
-          {#each g.rows as r (r.ref)}
-            {@render contestRow(r)}
-          {/each}
-        </ul>
+        {@render groupRows(g.rows, g.type)}
       {/if}
     </div>
   {:else}
@@ -349,17 +353,38 @@
             {/if}
           </h3>
           {#if open}
-            <ul class="list">
-              {#each g.rows as r (r.ref)}
-                {@render contestRow(r)}
-              {/each}
-            </ul>
+            {@render groupRows(g.rows, key)}
           {/if}
         </div>
       {/each}
     </div>
   {/each}
 </section>
+
+{#snippet groupRows(rs: Row[], key: string)}
+  {@const ready = foldUnresearched ? rs.filter(researched) : rs}
+  {@const later = foldUnresearched ? rs.filter((r) => !researched(r)) : []}
+  {@const showLater = moreOpen[key] === true}
+  <ul class="list">
+    {#each ready as r (r.ref)}
+      {@render contestRow(r)}
+    {/each}
+    {#if later.length}
+      <li>
+        <button type="button" class="more" aria-expanded={showLater} onclick={() => (moreOpen[key] = !showLater)}>
+          <ChevronDown size={16} aria-hidden="true" class={showLater ? "chev" : "chev shut"} />
+          {showLater ? "Hide" : "Show"} <span class="num">{later.length}</span>
+          {ready.length ? (later.length === 1 ? "more contest" : "more contests") : later.length === 1 ? "contest" : "contests"} not researched yet
+        </button>
+      </li>
+      {#if showLater}
+        {#each later as r (r.ref)}
+          {@render contestRow(r)}
+        {/each}
+      {/if}
+    {/if}
+  </ul>
+{/snippet}
 
 {#snippet contestRow(r: Row)}
   <li>
@@ -542,6 +567,33 @@
   }
   .crow:hover {
     background: color-mix(in srgb, var(--wash) 60%, transparent);
+  }
+  /* The fold row for a group's contests without research yet: a full-width row in muted ink. */
+  .more {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    min-height: 44px;
+    padding: 8px 12px;
+    border: 0;
+    background: none;
+    color: var(--ink-2);
+    font: inherit;
+    font-size: var(--step--1);
+    font-weight: 600;
+    text-align: left;
+    cursor: pointer;
+  }
+  .more:hover {
+    background: color-mix(in srgb, var(--wash) 60%, transparent);
+    color: var(--ink);
+  }
+  .more :global(.chev) {
+    transition: transform 0.15s;
+  }
+  .more :global(.chev.shut) {
+    transform: rotate(-90deg);
   }
   .c-main {
     display: grid;
