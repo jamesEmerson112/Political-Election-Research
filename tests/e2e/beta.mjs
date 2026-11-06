@@ -490,6 +490,31 @@ async function openAll(p, route) {
   await c.close();
 }
 
+// 9. UI improvements the maintainer picked from the sweep (2026-11-06).
+{
+  // 9a (U6). A nonpartisan race (the certified list prints no party) says so in the Party row instead of "Not found";
+  // a partisan race still shows the party.
+  const { c, p } = await sweepPage(1280);
+  await p.evaluate(() => (location.hash = "c-2026-ca-general--sf-community-college-board"));
+  await p.waitForSelector("table");
+  const partyCells = await p.evaluate(() => {
+    const tr = [...document.querySelectorAll("tr")].find((r) => (r.querySelector("th")?.textContent ?? "").trim().startsWith("Party"));
+    return tr ? [...tr.querySelectorAll("td")].map((td) => (td.textContent ?? "").replace(/\s+/g, " ").trim()) : [];
+  });
+  await p.evaluate(() => (location.hash = "c-2026-ca-general--governor"));
+  await p.waitForSelector(".vs");
+  const govParty = await p.evaluate(() => {
+    const row = [...document.querySelectorAll("button.row-btn")].find((b) => (b.textContent ?? "").includes("Party"));
+    return (row?.textContent ?? "").replace(/\s+/g, " ").trim();
+  });
+  check(
+    "9a. a nonpartisan race says \"Nonpartisan office\" in the Party row; the governor's race still shows parties",
+    partyCells.length === 8 && partyCells.every((t) => t.includes("Nonpartisan office") && !t.includes("Not found")) && govParty.includes("Democratic") && govParty.includes("Republican"),
+    `${partyCells[0] ?? "no Party row"} (${partyCells.length}) | ${govParty.slice(0, 60)}`,
+  );
+  await c.close();
+}
+
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
 const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
 const vaScript = await page.evaluate(() => document.querySelector('script[data-sdkn^="@vercel/analytics"]')?.getAttribute("src") ?? "");

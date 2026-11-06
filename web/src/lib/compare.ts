@@ -326,6 +326,29 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
     return missing(c, `profile.${key}`, `${title}: ${who(c)}`);
   }
 
+  /**
+   * Party for a nonpartisan office: the certified list prints no party for any candidate (the contest schema leaves
+   * `party` out then). A researched party registration still shows; otherwise the row says so instead of "Not found",
+   * cited to the candidate's entry on the certified list.
+   */
+  const listed = (ix.contests.get(contestRef)?.["candidates"] as Rec[] | undefined) ?? [];
+  const nonpartisan = ix.kindOf(contestRef) === "office" && listed.length > 0 && listed.every((e) => !e["party"]);
+  function party(c: string): Cell {
+    const v = profile(c)["party_registration"] as Rec | undefined;
+    if (!nonpartisan || (v && !isNotFound(v))) return field(c, "party_registration", "Party");
+    const entry = listed.find((e) => e["person"] === c);
+    const text = "Nonpartisan office: the certified candidate list prints no party.";
+    const cite = citeOf("Party", who(c), cites(entry));
+    return {
+      state: "value",
+      marks: [],
+      label: "Nonpartisan office",
+      lines: [{ text, cite }],
+      summary: "Nonpartisan office",
+      open: () => openDetail({ kicker: who(c), title: "Party", text, citations: cites(entry) }),
+    };
+  }
+
   /** A cited list field (education, career, past offices). */
   function list(
     c: string,
@@ -978,7 +1001,7 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
       source: "Official biography, certified candidate list",
       rows: [
         row("identity", "age", "value", "Age", "Age", ageCell),
-        row("identity", "party", "value", "Party", "Party", (c) => field(c, "party_registration", "Party")),
+        row("identity", "party", "value", "Party", "Party", (c) => party(c)),
         row("identity", "origin", "value", "From", "From", (c) => field(c, "birthplace", "Place of origin")),
         row("identity", "residence", "value", "Lives in", "Lives in", (c) => field(c, "residence_city", "Residence")),
       ],
