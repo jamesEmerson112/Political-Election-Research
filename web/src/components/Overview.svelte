@@ -25,7 +25,9 @@
   import { BALLOT_ICON, OFFICE_ORDER, OFFICE_TYPE, type OfficeType } from "../lib/icons";
   import Badge from "./Badge.svelte";
   import ResultBar from "./ResultBar.svelte";
-  import { measureOutcome, officeOutcome, pct1, standing } from "../lib/results";
+  import { countLine, measureOutcome, officeOutcome, pct1, standing, winnerWord } from "../lib/results";
+  import { measureLabel } from "../lib/measureLabel";
+  import ResultsStrip from "./ResultsStrip.svelte";
   import MyBallot from "./MyBallot.svelte";
   import { loadPicks, picksToText, type ExportContest, type Picks } from "../lib/myPicks";
   import { allTrialVotes } from "../lib/trialStorage";
@@ -85,7 +87,9 @@
       const outcome = officeOutcome(contest);
       const who = cands.map((c) => ({ name: ix.name(c), st: standing(outcome, c), share: outcome?.rows.find((x) => x.person === c)?.share }));
       const measure = kind === "measure" ? measureOutcome(contest) : null;
-      return { ref, st, kind, office, names, who, measure, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
+      const word = outcome?.winners.size ? winnerWord(outcome) : "";
+      const count = outcome?.winners.size ? countLine(outcome) : measure ? countLine(measure) : "";
+      return { ref, st, kind, office, names, who, measure, word, count, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
     }),
   );
   /** Other states' contests (Nevada: Las Vegas placeholders) get their own section while the list isn't narrowed to one voter's ballot. */
@@ -189,6 +193,33 @@
       return m ? [Number(m[1])] : [];
     }),
   );
+  /** Results first: the listed state's contests with a result (only this voter's when My ballot is set), in Overview order. */
+  const resultItems = $derived(
+    OFFICE_ORDER.flatMap((type) =>
+      sortRows(rows.filter((r) => r.st === ballotSt && r.office.type === type && (r.measure || r.word) && status(r) === "on")),
+    ).map((r) => ({
+      ref: r.ref,
+      title: r.title,
+      label: r.measure ? measureLabel(ix, r.ref) : undefined,
+      leaders: r.who.filter((w) => w.st === "won").map((w) => ({ name: w.name, share: w.share })),
+      word: r.word,
+      measure: r.measure,
+      count: r.count,
+      district: ["boe", "house", "legislature"].includes(r.office.type),
+    })),
+  );
+  /** Places on the list whose results aren't recorded yet. */
+  const resultsMissing = $derived.by(() => {
+    const listed = rows.filter((r) => r.st === ballotSt && status(r) === "on" && r.verified && !r.measure && !r.word);
+    const measures = rows.filter((r) => r.st === ballotSt && status(r) === "on" && r.kind === "measure" && !r.measure);
+    const all = [...listed, ...measures];
+    const sf = all.some((r) => /\/sf-/.test(r.ref));
+    const other = all.filter((r) => !/\/sf-/.test(r.ref)).map((r) => r.title);
+    const named = other.length > 3 ? `${other.length} other contests` : other.join(", ");
+    const parts = [sf ? "San Francisco's contests and measures" : "", named].filter(Boolean);
+    return parts.length ? `No results recorded here yet for ${parts.join(", or for ")}.` : "";
+  });
+
   /**
    * Contests with research to show (any progress, or an official contest record, which every result has) are listed;
    * the rest of a group folds behind one "Show N more, not researched yet" row. The filter and My ballot show
@@ -234,6 +265,8 @@
     </p>
   {/each}
 </section>
+
+{#if ballotSt === "ca"}<ResultsStrip items={resultItems} missing={resultsMissing} narrowed={ballotOn} />{/if}
 
 <MyBallot {choice} {showAll} {coveredAssembly} onCount={onBallotCount} total={rows.length} onchange={setChoice} ontoggle={() => (showAll = !showAll)} onforget={forget} />
 

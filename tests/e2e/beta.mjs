@@ -591,6 +591,57 @@ async function openAll(p, route) {
   await c.close();
 }
 
+{
+  // 9e (U8). Results first: statewide leaders and the props, with district results folded until asked for; with
+  // My ballot set, only that voter's contests; a Nevada ballot shows no California results.
+  const { c, p } = await sweepPage(1280);
+  const strip = async () =>
+    p.evaluate(() => {
+      const s = document.querySelector("section.results");
+      if (!s) return null;
+      return {
+        head: s.querySelector(".r-count")?.textContent?.replace(/\s+/g, " ").trim() ?? "",
+        tiles: [...s.querySelectorAll(".tile")].map((t) => t.textContent?.replace(/\s+/g, " ").trim() ?? ""),
+        props: [...s.querySelectorAll(".prop")].map((t) => t.textContent?.replace(/\s+/g, " ").trim() ?? ""),
+        before: !!(s.compareDocumentPosition(document.querySelector("section.mb")) & Node.DOCUMENT_POSITION_FOLLOWING),
+      };
+    });
+  const all = await strip();
+  await p.locator("section.results button.more").click();
+  const open = await strip();
+  await p.locator('button.method[aria-label="ZIP code"]').click();
+  await p.locator(".pane input").fill("94110");
+  await p.locator(".pane button.apply").click();
+  await p.waitForSelector(".found .frow", { timeout: 15000 });
+  await p.waitForTimeout(200);
+  const sf = await strip();
+  await p.locator(".pane input").fill("89101");
+  await p.locator(".pane button.apply").click();
+  await p.waitForTimeout(800);
+  const nv = await strip();
+  await p.evaluate(() => localStorage.removeItem("per-my-ballot"));
+  const has = (list, t) => list.some((x) => x.includes(t));
+  check(
+    "9e. results come first: statewide leaders and props, district results on request; My ballot narrows them; none on a Nevada ballot",
+    !!all &&
+      all.before &&
+      all.head.startsWith("Leading · Semi-official count") &&
+      has(all.tiles, "Governor Xavier Becerra 64.2%") &&
+      !has(all.tiles, "CA-11") &&
+      has(all.props, "Prop 1") &&
+      all.props.length === 14 &&
+      has(open.tiles, "U.S. House, CA-11 Scott Wiener 55.5%") &&
+      !!sf &&
+      has(sf.tiles, "State Assembly, District 17") &&
+      has(sf.tiles, "CA-11") &&
+      !has(sf.tiles, "District 19") &&
+      !has(sf.tiles, "CA-15") &&
+      nv === null,
+    `${all?.tiles.length} tiles, ${all?.props.length} props; opened ${open?.tiles.length}; 94110 ${sf?.tiles.length}; Nevada ${nv === null ? "none" : nv.tiles.length}`,
+  );
+  await c.close();
+}
+
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
 const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
 const vaScript = await page.evaluate(() => document.querySelector('script[data-sdkn^="@vercel/analytics"]')?.getAttribute("src") ?? "");
