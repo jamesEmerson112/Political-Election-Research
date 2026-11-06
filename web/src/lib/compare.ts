@@ -15,6 +15,8 @@ import { openDetail, type Detail } from "./ui.svelte";
 import { age, isNotFound, openField, openLeads, openPosition, openRel } from "./view";
 import { officeChips, type Chip } from "./officeChips";
 import { connectionLines, officeLinks, openOffice, scopeLines, scopeOf } from "./offices";
+import { humanizeId, shortQuestionLabel } from "./labels";
+export { humanizeId, shortQuestionLabel };
 
 export type CellState = "value" | "zero" | "not_found" | "lead" | "unresearched";
 
@@ -165,15 +167,6 @@ export function billLabel(id: string): string {
   return /-file-/.test(id)
     ? `${id.split("-file-")[0]!.toUpperCase()} File ${id.split("-file-")[1]}`
     : id.replace(/^(ca|us)-\d+-/, "").replace("-", " ").toUpperCase();
-}
-
-/** "frontier-ai-safety-disclosure" -> "Frontier AI safety disclosure". */
-export function humanizeId(id: string): string {
-  const small = new Set(["ai", "us", "ca", "h1b", "ice", "lgbtq", "sb", "ab", "fec", "irs"]);
-  return id
-    .split("-")
-    .map((w, i) => (small.has(w) ? w.toUpperCase() : i === 0 ? w.charAt(0).toUpperCase() + w.slice(1) : w))
-    .join(" ");
 }
 
 export function buildComparison(ix: Index, contestRef: string): Comparison {
@@ -879,12 +872,10 @@ export function buildComparison(ix: Index, contestRef: string): Comparison {
   const subjectText = (s: string) => ix.questions.get(s)?.q["text"] ?? `${ix.contestTitle(s)}: should it pass?`;
   const subjectRowLabel = (s: string) => (ix.questions.has(s) ? humanizeId(s.split("/").pop()!) : ix.contestTitle(s));
   const subjectIcon = (s: string) => (ix.questions.has(s) ? issueIcon(ix.questions.get(s)!.issue["id"]) : MEASURE_ICON);
-  /** 1–3 words: the tail of the question id ("expand-skilled-work-visas" -> "Skilled work visas"); measures -> "Prop 40". */
+  /** The tail of the question id, whole phrases only (shortQuestionLabel); measures -> "Prop 40". */
   const subjectShort = (s: string) => {
     if (!ix.questions.has(s)) return ix.contestTitle(s).replace(/^(.*?)\s*Proposition /, (_, place: string) => (place ? `${place} Prop ` : "Prop "));
-    const words = humanizeId(s.split("/").pop()!).split(" ");
-    const tail = words.slice(-3).join(" ");
-    return tail.charAt(0).toUpperCase() + tail.slice(1);
+    return shortQuestionLabel(s.split("/").pop()!);
   };
   /** For a ballot measure: its official summary and what a Yes or No vote means, from the contest record. */
   const measureAbout = (s: string): Row["about"] => {
