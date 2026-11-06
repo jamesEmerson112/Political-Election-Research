@@ -1,8 +1,8 @@
 {
   "output": {
     "file": "geo/ca-2026-districts.json",
-    "bytes": 183185,
-    "sha256": "25374619c818e49e5b05a62cbfb2647b462f4bd9bb3337d745a08ddc9d378942",
+    "bytes": 205043,
+    "sha256": "6d435e75a7285ae903f00a6a8beda1d7620fdfd1a4ab63471ba0bf324c51a3ec",
     "generated_by": "npm run import:districts",
     "tolerance_m": 120,
     "margin_m": 137,
@@ -10,14 +10,16 @@
     "layers": {
       "cd": 52,
       "sd": 40,
-      "ad": 80
+      "ad": 80,
+      "county": 58
     },
     "zip_codes": 1808,
     "zip_codes_crossing_state_line": 6,
     "zip_codes_split": {
       "cd": 653,
       "sd": 489,
-      "ad": 646
+      "ad": 646,
+      "county": 169
     }
   },
   "inputs": [
@@ -118,10 +120,22 @@
       "origin": "2020 Census housing-unit counts and internal points per block.",
       "bytes": 385696957,
       "sha256": "b2c80c85b039484f526dbd8133e1e83557d2cc944bdfcf08222b94bab4d417a5"
+    },
+    {
+      "id": "county-shapes",
+      "url": "https://www2.census.gov/geo/tiger/TIGER2026/COUNTY/tl_2026_us_county.zip",
+      "title": "TIGER/Line Shapefile, 2026, United States, Counties (California records: STATEFP 06)",
+      "publisher": "U.S. Census Bureau",
+      "published": "2026-10-07",
+      "fetched": "2026-11-06",
+      "license": "Public domain: work of the U.S. federal government (17 U.S.C. § 105).",
+      "origin": "County boundaries as of January 1, 2026 (Boundary and Annexation Survey).",
+      "bytes": 83378454,
+      "sha256": "b527c9ba7aeb8f17ef118f026eae5e5a938aa1d00b873bc32342d0dce59321c0"
     }
   ],
   "verification": {
-    "method": "Internal point (INTPTLAT20/INTPTLON20) of every 10th 2020 census block, looked up in the generated file with no device error; checked that the block's district in the equivalency file is among the possible districts.",
+    "method": "Internal point (INTPTLAT20/INTPTLON20) of every 10th 2020 census block, looked up in the generated file with no device error; checked that the block's district in the equivalency file is among the possible districts. County: the block GEOID's county code.",
     "results": {
       "cd": {
         "checked": 51973,
@@ -137,6 +151,11 @@
         "checked": 51973,
         "outside_margin": 0,
         "ambiguous_share_of_homes": 0.028
+      },
+      "county": {
+        "checked": 51973,
+        "outside_margin": 0,
+        "ambiguous_share_of_homes": 0.002
       }
     }
   }

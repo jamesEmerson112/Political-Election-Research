@@ -320,6 +320,15 @@ describe("the committed California file (geo/)", () => {
     expect(rows.map((r) => r.slice(0, 5))).toEqual([...rows.map((r) => r.slice(0, 5))].sort());
     for (const r of rows) expect(lookupZip(f, r.slice(0, 5))?.layers.cd?.length).toBeGreaterThan(0);
   });
+  it("has California's 58 counties, verified with no misses, and a county for every ZIP", async () => {
+    expect(Object.keys(f.layers.county!.districts)).toHaveLength(58);
+    const m = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "geo", "manifest.json"), "utf8"));
+    expect(m.verification.results.county.outside_margin).toBe(0);
+    for (const r of f.zips.split(" ")) expect(lookupZip(f, r.slice(0, 5))?.layers.county?.length).toBeGreaterThan(0);
+    // A Mission District ZIP is in San Francisco (FIPS 075) only; Beverly Hills is in Los Angeles County (037).
+    expect(lookupZip(f, "94110")?.layers.county?.map((d) => d.n)).toEqual([75]);
+    expect(lookupZip(f, "90210")?.layers.county?.map((d) => d.n)).toEqual([37]);
+  });
 });
 
 describe("the committed Nevada file (geo/)", () => {

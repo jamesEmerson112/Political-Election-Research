@@ -2,9 +2,9 @@
  * npm run -s import:districts [-- --state ca|nv] [--cache <dir>] [--verify] [--stride <n>]
  *                                 [--boe <zip> --boe-field <name>] [--boe-bef <file>]
  *
- * Builds geo/ca-2026-districts.json (district outlines + ZIP table for the
- * site's "My ballot" lookup) and geo/manifest.json (provenance) from pinned
- * U.S. Census Bureau files. Same inputs -> same bytes.
+ * Builds geo/ca-2026-districts.json (district and county outlines + ZIP table
+ * for the site's "My ballot" lookup) and geo/manifest.json (provenance) from
+ * pinned U.S. Census Bureau files. Same inputs -> same bytes.
  *
  * --state nv builds geo/nv-2026-districts.json and geo/manifest.nv.json
  * instead: Nevada's U.S. House, State Senate and Assembly districts, its
@@ -166,6 +166,18 @@ export const INPUTS: Input[] = [
     bytes: 385696957,
     sha256: "b2c80c85b039484f526dbd8133e1e83557d2cc944bdfcf08222b94bab4d417a5",
   },
+  {
+    id: "county-shapes",
+    url: "https://www2.census.gov/geo/tiger/TIGER2026/COUNTY/tl_2026_us_county.zip",
+    title: "TIGER/Line Shapefile, 2026, United States, Counties (California records: STATEFP 06)",
+    publisher: CENSUS,
+    published: "2026-10-07",
+    fetched: "2026-11-06",
+    license: PUBLIC_DOMAIN,
+    origin: "County boundaries as of January 1, 2026 (Boundary and Annexation Survey).",
+    bytes: 83378454,
+    sha256: "b527c9ba7aeb8f17ef118f026eae5e5a938aa1d00b873bc32342d0dce59321c0",
+  },
 ];
 
 const SHARED = (id: string) => INPUTS.find((i) => i.id === id)!;
@@ -211,18 +223,7 @@ export const NV_INPUTS: Input[] = [
   },
   { ...SHARED("sldu-bef"), title: "2026 State Legislative District Block Equivalency Files, Upper Chamber (NationalSLDU26.txt, Nevada rows)", origin: "Block-to-district assignments specified to the Census Bureau by the State of Nevada." },
   { ...SHARED("sldl-bef"), title: "2026 State Legislative District Block Equivalency Files, Lower Chamber (NationalSLDL26.txt, Nevada rows)", origin: "Block-to-district assignments specified to the Census Bureau by the State of Nevada." },
-  {
-    id: "county-shapes",
-    url: "https://www2.census.gov/geo/tiger/TIGER2026/COUNTY/tl_2026_us_county.zip",
-    title: "TIGER/Line Shapefile, 2026, United States, Counties (Nevada records: STATEFP 32)",
-    publisher: CENSUS,
-    published: "2026-10-07",
-    fetched: "2026-11-03",
-    license: PUBLIC_DOMAIN,
-    origin: "County boundaries as of January 1, 2026 (Boundary and Annexation Survey).",
-    bytes: 83378454,
-    sha256: "b527c9ba7aeb8f17ef118f026eae5e5a938aa1d00b873bc32342d0dce59321c0",
-  },
+  { ...SHARED("county-shapes"), title: "TIGER/Line Shapefile, 2026, United States, Counties (Nevada records: STATEFP 32)", fetched: "2026-11-03" },
   {
     id: "nv-place-shapes",
     url: "https://www2.census.gov/geo/tiger/TIGER2026/PLACE/tl_2026_32_place.zip",
@@ -320,6 +321,7 @@ const layers: LayerInput[] = NV
       { kind: "cd", label: "U.S. House (120th Congress)", districts: shapesFromZip(read(files["cd120-shapes"]!), "CD120FP", 52) },
       { kind: "sd", label: "State Senate (2021 Commission map)", districts: shapesFromZip(read(files["sldu-shapes"]!), "SLDUST", 40) },
       { kind: "ad", label: "State Assembly (2021 Commission map)", districts: shapesFromZip(read(files["sldl-shapes"]!), "SLDLST", 80) },
+      { kind: "county", label: "County (FIPS code)", districts: shapesFromZip(read(files["county-shapes"]!), "COUNTYFP", 115, { where: { STATEFP: STATE_FIPS } }) },
     ];
 const boeZip = flagStr(args, "boe");
 const boeInput: Partial<Input> | null = boeZip ? { id: "boe-shapes", url: path.basename(boeZip), sha256: await sha256File(boeZip) } : null;
@@ -352,17 +354,20 @@ const blockCols = readDbf(zipFind(read(files[NV ? "nv-blocks" : "blocks"]!), /\.
 const homes = new Map<string, number>();
 blockCols["GEOID20"]!.forEach((g, i) => homes.set(g, Number(blockCols["HOUSING20"]![i])));
 
-if (NV) {
-  // County: the block GEOID's county code. City: whether the block's internal point is inside the
-  // city's (unsimplified) outline; 0 = outside. Neither has a Census equivalency file.
-  const cityRings = layers.find((l) => l.kind === "city")!.districts.flatMap((d) => d.rings.map((r) => Float64Array.from(r.flat())));
+// County: the block GEOID's county code (no equivalency file needed).
+{
   const county = new Map<string, number>();
+  for (const g of blockCols["GEOID20"]!) county.set(g, Number(g.slice(2, 5)));
+  bef.county = county;
+}
+if (NV) {
+  // City: whether the block's internal point is inside the city's (unsimplified) outline; 0 = outside. There is no
+  // Census equivalency file for it.
+  const cityRings = layers.find((l) => l.kind === "city")!.districts.flatMap((d) => d.rings.map((r) => Float64Array.from(r.flat())));
   const city = new Map<string, number>();
   blockCols["GEOID20"]!.forEach((g, i) => {
-    county.set(g, Number(g.slice(2, 5)));
     city.set(g, insideRings(cityRings, Number(blockCols["INTPTLON20"]![i]), Number(blockCols["INTPTLAT20"]![i])) ? 1 : 0);
   });
-  bef.county = county;
   bef.city = city;
 }
 
@@ -403,7 +408,7 @@ const out: DistrictFile = {
     ? "U.S. House: 120th Congress districts. State Senate and Assembly: the districts the Census Bureau's 2026 files carry for Nevada. Counties and the City of Las Vegas: 2026 TIGER/Line boundaries. Outlines simplified; see geo/README.md."
     : "U.S. House: 120th Congress districts (Proposition 50 / AB 604 map). State Senate and Assembly" +
       (boeZip ? " and Board of Equalization" : "") +
-      ": 2021 Citizens Redistricting Commission maps. Outlines simplified; see geo/README.md.",
+      ": 2021 Citizens Redistricting Commission maps. Counties: 2026 TIGER/Line boundaries. Outlines simplified; see geo/README.md.",
   tolerance_m: encoded.tolerance_m,
   margin_m: encoded.margin_m,
   transform: encoded.transform,
@@ -449,7 +454,8 @@ if (args.flags.has("verify")) {
   verification = {
     method:
       `Internal point (INTPTLAT20/INTPTLON20) of every ${stride}th 2020 census block, looked up in the generated file with no device error; checked that the block's district in the equivalency file is among the possible districts.` +
-      (NV ? " County: the block GEOID's county code. City: the block point tested against the unsimplified 2026 city outline (no equivalency file exists)." : ""),
+      " County: the block GEOID's county code." +
+      (NV ? " City: the block point tested against the unsimplified 2026 city outline (no equivalency file exists)." : ""),
     results: stats,
   };
   console.error(JSON.stringify(stats));

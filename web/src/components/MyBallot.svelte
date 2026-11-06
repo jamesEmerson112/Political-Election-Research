@@ -54,7 +54,7 @@
   const showMethods = $derived(!set || changing);
   /** The state of the saved choice (California unless it says Nevada). */
   const st = $derived(stateOfChoice(choice));
-  const RESULT_KINDS: Record<BallotState, DistrictKind[]> = { ca: ["cd", "boe"], nv: ["cd", "sd", "ad", "county", "city"] };
+  const RESULT_KINDS: Record<BallotState, DistrictKind[]> = { ca: ["cd", "boe", "county"], nv: ["cd", "sd", "ad", "county", "city"] };
   /** Nevada kinds not in the boundary data: picked by hand from the sample ballot. */
   const NV_HAND_KINDS: DistrictKind[] = ["ward", "comm", "ccsd", "regent"];
   const CLARK = NV_COUNTY_FIPS["clark"]!;
@@ -158,6 +158,9 @@
       const note: string[] = [];
       if ((layers.cd?.length ?? 0) > 1) {
         note.push(`ZIP ${z} is split between ${layers.cd!.length} House districts. Your home address decides which one is yours, so all are shown until you choose.`);
+      }
+      if (zst === "ca" && (layers.county?.length ?? 0) > 1) {
+        note.push(`ZIP ${z} is split between ${layers.county!.length} counties. Your home address decides which county's local contests are yours.`);
       }
       if (zst === "nv" && (layers.city?.length ?? 0) > 1) {
         note.push(`ZIP ${z} is partly inside the City of Las Vegas. City contests (Municipal Court, City Council) are on your ballot only if your home is inside the city.`);
@@ -263,9 +266,11 @@
       const l = f.layers[k as Kind];
       next[k] = l?.length ? l.map((d) => d.n) : k === "boe" && same ? (choice.boe ?? []) : [];
     }
-    // County and supervisor district aren't in the boundary data yet: keep what was picked.
-    next.county = same ? (choice.county ?? []) : [];
-    next.sfsup = same ? (choice.sfsup ?? []) : [];
+    // County from the lookup (or what was picked); supervisor districts aren't in the boundary data yet: keep the pick
+    // while San Francisco is still a possible county.
+    const counties = f.layers.county?.map((d) => d.n);
+    next.county = counties?.length ? counties : same ? (choice.county ?? []) : [];
+    next.sfsup = same && next.county.includes(SF) ? (choice.sfsup ?? []) : [];
     onchange(normalizeChoice(next));
   }
 
@@ -579,7 +584,20 @@
           Ward, commission, school trustee and regent districts aren't in our boundary data yet: pick them from your sample ballot or the
           <a href={NV_OFFICIAL_LINKS.voterLookup.url} target="_blank" rel="noopener noreferrer">{NV_OFFICIAL_LINKS.voterLookup.label}</a>.
         </p>
-      {:else if !found.layers.boe}
+      {:else}
+        {#if choice.county?.includes(SF)}
+          <div class="frow">
+            <span class="flabel">{DISTRICT_NAME.sfsup}</span>
+            <span class="seg" role="group" aria-label={DISTRICT_NAME.sfsup}>
+              {#each range(11) as n (n)}
+                {@const on = choice.sfsup?.includes(n) ?? false}
+                <button class:on aria-pressed={on} onclick={() => setKind("sfsup", on ? 0 : n)}>{n}</button>
+              {/each}
+            </span>
+            <span class="hint">Supervisor districts aren't in our boundary data yet: pick yours from your sample ballot.</span>
+          </div>
+        {/if}
+        {#if !found.layers.boe}
         <div class="frow">
           <span class="flabel">Board of Equalization</span>
           <span class="seg" role="group" aria-label="Board of Equalization district">
@@ -589,6 +607,7 @@
           </span>
           <span class="hint">BOE boundaries aren't loaded yet: pick it from your sample ballot.</span>
         </div>
+        {/if}
       {/if}
     </div>
   {/if}

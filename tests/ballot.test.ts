@@ -85,7 +85,10 @@ describe("placeContest elsewhere", () => {
     expect(ballotStatus({ scope: "district", st: "ca", kind: "county", n: 75 }, sfVoter)).toBe("on");
     expect(ballotStatus({ scope: "district", st: "ca", kind: "sfsup", n: 8 }, sfVoter)).toBe("off");
     expect(ballotStatus({ scope: "district", st: "ca", kind: "county", n: 75 }, { cd: [11] })).toBe("pick");
-    expect(districtLabel("county", 75)).toBe("San Francisco");
+    // A voter whose county is known and isn't San Francisco has no supervisor race; an unknown county still asks.
+    expect(ballotStatus({ scope: "district", st: "ca", kind: "sfsup", n: 8 }, { cd: [30], county: [37] })).toBe("off");
+    expect(ballotStatus({ scope: "district", st: "ca", kind: "sfsup", n: 8 }, { cd: [11] })).toBe("pick");
+    expect(districtLabel("county", 75)).toBe("San Francisco County");
     expect(districtLabel("sfsup", 6)).toBe("SF D6");
   });
 

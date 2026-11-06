@@ -74,10 +74,15 @@ check(
 await page.locator('button.method[aria-label="Use my location"]').click();
 await page.waitForSelector(".found .frow", { timeout: 15000 });
 const rows = await page.locator(".found .frow").allTextContents();
-check("5a. My ballot finds districts from the device's location", rows.length > 0, rows.map((r) => r.replace(/\s+/g, " ").trim()).join(" | ").slice(0, 120));
+check(
+  "5a. My ballot finds districts and the county from the device's location",
+  rows.length > 0 && rows.some((r) => r.replace(/\s+/g, " ").trim().startsWith("County San Francisco County")),
+  rows.map((r) => r.replace(/\s+/g, " ").trim()).join(" | ").slice(0, 160),
+);
 
-// 5c. The county group (San Francisco's local measures and school boards) says every ballot in the county has them.
-await go(page, "#overview");
+// 5c. With the county unknown (a ballot set by link with only CA-11), the county group (San Francisco's local measures
+// and school boards) says every ballot in the county has them.
+await go(page, "#overview?cd=11");
 await page.waitForSelector(".group");
 const countyNote = await text(page.locator(".group", { has: page.locator("h2", { hasText: "County: pick your district" }) }).locator(".g-note"));
 check("5c. county contests are on every ballot in the county (not one of them)", countyNote.startsWith("Every ballot in a county") , countyNote);
@@ -638,6 +643,46 @@ async function openAll(p, route) {
       !has(sf.tiles, "CA-15") &&
       nv === null,
     `${all?.tiles.length} tiles, ${all?.props.length} props; opened ${open?.tiles.length}; 94110 ${sf?.tiles.length}; Nevada ${nv === null ? "none" : nv.tiles.length}`,
+  );
+  await c.close();
+}
+
+{
+  // 9f (U9). A California ZIP finds its county: a San Francisco ZIP puts the city's local contests on the voter's list
+  // (and asks for the Supervisor district); a Los Angeles ZIP gets none of them.
+  const { c, p } = await sweepPage(1280);
+  async function zip(z) {
+    await p.evaluate(() => localStorage.removeItem("per-my-ballot"));
+    await p.goto(`${BASE}#overview`);
+    await p.reload();
+    await p.locator('button.method[aria-label="ZIP code"]').click();
+    await p.locator(".pane input").fill(z);
+    await p.locator(".pane button.apply").click();
+    await p.waitForSelector(".found .frow", { timeout: 15000 });
+    await p.waitForTimeout(250);
+    return p.evaluate(() => ({
+      county: [...document.querySelectorAll(".found .frow")].find((r) => r.querySelector(".flabel")?.textContent?.trim() === "County")?.querySelector(".chips")?.textContent?.replace(/\s+/g, " ").trim() ?? "",
+      sup: !!document.querySelector('.found [aria-label="SF Supervisor district"]'),
+      hrefs: [...document.querySelectorAll("a.crow")].map((a) => a.getAttribute("href")),
+      heads: [...document.querySelectorAll("h2.g-head")].map((h) => h.textContent?.replace(/\s+/g, " ").trim() ?? ""),
+      note: [...document.querySelectorAll(".mb p")].map((x) => x.textContent ?? "").find((t) => t.startsWith("Also on your ballot")) ?? "",
+    }));
+  }
+  const sf = await zip("94110");
+  const la = await zip("90210");
+  await p.evaluate(() => localStorage.removeItem("per-my-ballot"));
+  check(
+    "9f. ZIP 94110 finds San Francisco County and lists the city's local contests; ZIP 90210 finds Los Angeles County and none of them",
+    sf.county.startsWith("San Francisco County") &&
+      sf.sup &&
+      sf.hrefs.includes("#c-2026-ca-general--sf-board-of-education") &&
+      sf.heads.some((h) => /measures/i.test(h)) &&
+      !sf.heads.some((h) => h.startsWith("County: pick")) &&
+      !sf.note.includes("local measures") &&
+      la.county.startsWith("Los Angeles County") &&
+      !la.hrefs.some((h) => h.includes("--sf-")) &&
+      la.note.includes("local measures"),
+    `94110: ${sf.county} | ${sf.heads.join(" / ").slice(0, 120)} | 90210: ${la.county}`,
   );
   await c.close();
 }

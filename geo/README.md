@@ -24,6 +24,7 @@ The two inputs that carry the map choice for U.S. House are also registered as s
   - It comes from the Census Bureau's files for the **120th Congress**, the one elected on November 3, 2026.
   - It is *not* the 2021 Citizens Redistricting Commission map. That map is the Census "CD118"/"CD119" files, the Census geocoder, and most copies on GitHub and npm. Those are wrong for 2026 House races.
 - **State Senate and Assembly: the 2021 Commission maps.** Proposition 50 changed only congressional lines. They come from the Census "2026 state legislative" files.
+- **Counties: the Census Bureau's 2026 county boundaries** (added 2026-11-06), so a ZIP code or a location also finds the county, and with it San Francisco's local contests.
 - **Board of Equalization: not included yet.** See [Adding the Board of Equalization](#adding-the-board-of-equalization).
 
 ## Inputs
@@ -38,6 +39,7 @@ All are U.S. Census Bureau files. They are public domain as works of the U.S. fe
 | `sldu-bef`, `sldl-bef` | 2026 state legislative block equivalency files `sldu26.zip`, `sldl26.zip` | ZIP table, verification |
 | `zcta-blocks` | 2020 ZCTA-to-block relationship file `tab20_zcta520_tabblock20_natl.txt` | which blocks make up each ZIP area |
 | `blocks` | TIGER/Line 2026 `tl_2026_06_tabblock20.zip` (only its `.dbf`: `HOUSING20`, `INTPTLAT20`, `INTPTLON20`) | ZIP shares by housing units, verification points |
+| `county-shapes` | TIGER/Line 2026 `tl_2026_us_county.zip` (STATEFP 06), numbered by county FIPS (San Francisco = 75) | county outlines; a block's county is the county code in its GEOID |
 
 ### Checking that "CD120" really is the Proposition 50 map
 
@@ -50,13 +52,13 @@ This one-off check was run on 2026-11-03 and is not part of the importer. It com
 
 ## Output format (`ca-districts/1`)
 
-- **`layers.<cd|sd|ad>.districts.<n>`**: the rings of district *n*, as lists of shared arcs.
+- **`layers.<cd|sd|ad|county>.districts.<n>`**: the rings of district (or county) *n*, as lists of shared arcs.
   - The outlines are built as one topology across all layers, so a boundary two districts share is stored, and simplified, once. Adjacent districts have no gaps or overlaps.
 - **`arcs`**: each arc is simplified with Douglas–Peucker at **`tolerance_m` = 120 m**, then snapped to a 0.00005° grid and delta-encoded as text (Google polyline integer encoding).
 - **`margin_m` = 137 m** bounds the distance between a stored outline and the official one: the tolerance plus half a grid cell, plus 10%.
   - The site treats any point within `margin_m` of a boundary, plus the device's reported accuracy, as possibly in either district and shows both.
 - **`zips`**: one row per 2020 ZIP Code Tabulation Area (ZCTA), e.g. `94025:c16/71,15/29;s13;a23/79,21/21`.
-  - Letters: `c` House, `s` Senate, `a` Assembly, `b` BOE.
+  - Letters: `c` House, `s` Senate, `a` Assembly, `k` county, `b` BOE.
   - `/p` is the share of the ZCTA's 2020 housing units in that district, in whole percent (kept between 1 and 99 when several districts hold homes). `0` means the district holds part of the ZCTA's land but no housing units were counted there.
   - `;x` marks a ZCTA that also covers land outside California.
   - ZCTAs approximate ZIP Code delivery areas. PO-box-only and newer ZIP codes have none, and the site says so.
@@ -71,8 +73,9 @@ This one-off check was run on 2026-11-03 and is not part of the importer. It com
 | House | 51,973 | 0 | 2.6% |
 | Senate | 51,973 | 0 | 2.0% |
 | Assembly | 51,973 | 0 | 2.8% |
+| County | 51,973 | 0 | 0.2% |
 
-The ZIP table has 1,808 ZCTAs. Of these, 653 span more than one House district; the site lists every one with its share of homes. Six ZCTAs cross the state line.
+The ZIP table has 1,808 ZCTAs. Of these, 653 span more than one House district and 169 more than one county; the site lists every one with its share of homes. Six ZCTAs cross the state line.
 
 ## Adding the Board of Equalization
 

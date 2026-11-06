@@ -31,7 +31,67 @@ export const BALLOT_STATES: BallotState[] = ["ca", "nv"];
 
 /** County FIPS codes (state 06) of the counties whose local contests this site covers. */
 export const COUNTY_FIPS: Record<string, number> = { "san-francisco": 75 };
-export const COUNTY_NAME: Record<number, string> = { 75: "San Francisco" };
+/** California's counties by FIPS code (NAMELSAD of the Census Bureau's 2026 county file, STATEFP 06; see geo/manifest.json). */
+export const COUNTY_NAME: Record<number, string> = {
+  1: "Alameda County",
+  3: "Alpine County",
+  5: "Amador County",
+  7: "Butte County",
+  9: "Calaveras County",
+  11: "Colusa County",
+  13: "Contra Costa County",
+  15: "Del Norte County",
+  17: "El Dorado County",
+  19: "Fresno County",
+  21: "Glenn County",
+  23: "Humboldt County",
+  25: "Imperial County",
+  27: "Inyo County",
+  29: "Kern County",
+  31: "Kings County",
+  33: "Lake County",
+  35: "Lassen County",
+  37: "Los Angeles County",
+  39: "Madera County",
+  41: "Marin County",
+  43: "Mariposa County",
+  45: "Mendocino County",
+  47: "Merced County",
+  49: "Modoc County",
+  51: "Mono County",
+  53: "Monterey County",
+  55: "Napa County",
+  57: "Nevada County",
+  59: "Orange County",
+  61: "Placer County",
+  63: "Plumas County",
+  65: "Riverside County",
+  67: "Sacramento County",
+  69: "San Benito County",
+  71: "San Bernardino County",
+  73: "San Diego County",
+  75: "San Francisco County",
+  77: "San Joaquin County",
+  79: "San Luis Obispo County",
+  81: "San Mateo County",
+  83: "Santa Barbara County",
+  85: "Santa Clara County",
+  87: "Santa Cruz County",
+  89: "Shasta County",
+  91: "Sierra County",
+  93: "Siskiyou County",
+  95: "Solano County",
+  97: "Sonoma County",
+  99: "Stanislaus County",
+  101: "Sutter County",
+  103: "Tehama County",
+  105: "Trinity County",
+  107: "Tulare County",
+  109: "Tuolumne County",
+  111: "Ventura County",
+  113: "Yolo County",
+  115: "Yuba County",
+};
 /** Nevada county FIPS codes (state 32) used here, and their names. */
 export const NV_COUNTY_FIPS: Record<string, number> = { clark: 3 };
 export const NV_COUNTY_NAME: Record<number, string> = {
@@ -334,8 +394,9 @@ export function ballotStatus(p: Placement, c: Choice): BallotStatus {
   // Another state's contests are never on this voter's ballot.
   if (p.st !== stateOfChoice(c)) return "off";
   if (p.scope === "statewide") return "on";
-  // City Council wards only exist inside the City of Las Vegas.
+  // City Council wards only exist inside the City of Las Vegas; supervisor districts only inside San Francisco.
   if (p.kind === "ward" && c.city?.length && !c.city.includes(1)) return "off";
+  if (p.kind === "sfsup" && c.county?.length && !c.county.includes(COUNTY_FIPS["san-francisco"]!)) return "off";
   const set = c[p.kind];
   if (!set?.length) return "pick";
   return set.includes(p.n) ? "on" : "off";
