@@ -19,7 +19,7 @@
   {#if statewide.length}
     <div class="group">
       <div class="ghead">
-        <h3>California · Statewide propositions</h3>
+        <h2>California · Statewide propositions</h2>
         <span class="ctx num">{statewide.length} on every California ballot · fiscal estimates by the Legislative Analyst</span>
       </div>
       <div class="cards">
@@ -30,7 +30,7 @@
   {#if nevada.length}
     <div class="group">
       <div class="ghead">
-        <h3>Nevada · Statewide ballot questions</h3>
+        <h2>Nevada · Statewide ballot questions</h2>
         <span class="ctx num">{nevada.length} on every Nevada ballot · fiscal notes as published</span>
       </div>
       <div class="cards">
@@ -48,7 +48,7 @@
     {@const b = g.budget ? budgetInput(g.budget) : null}
     <div class="group">
       <div class="ghead">
-        <h3>{g.jurisdiction}</h3>
+        <h2>{g.jurisdiction}</h2>
         {#if b}
           <span class="ctx num">
             {#if b.adoptedGeneralFund}General Fund FY{b.adoptedGeneralFund.fy}: {usd(b.adoptedGeneralFund.usd)}{/if}
@@ -75,7 +75,7 @@
     align-items: baseline;
     gap: 4px 14px;
   }
-  .ghead h3 {
+  .ghead h2 {
     font-size: var(--step-1);
   }
   .ctx {

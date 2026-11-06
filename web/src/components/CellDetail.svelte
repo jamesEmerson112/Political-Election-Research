@@ -164,9 +164,12 @@
   .links {
     display: flex;
     flex-wrap: wrap;
-    gap: 2px 12px;
+    gap: 0 12px;
     font-size: 0.75rem;
     font-weight: 600;
+  }
+  .links a {
+    padding-block: 4px; /* 24px tall tap targets */
   }
   .leadbox {
     display: grid;

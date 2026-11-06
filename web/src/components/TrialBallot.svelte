@@ -163,7 +163,7 @@
         {/snippet}
         <!-- Vote right at the title too, without scrolling to the bar at the bottom. -->
         <div class="titlerow">
-          <h3 bind:this={headEl} tabindex="-1">{titles[current.ref]}</h3>
+          <h2 bind:this={headEl} tabindex="-1">{titles[current.ref]}</h2>
           <div class="answers quick">{@render voteButtons(" (top)")}</div>
         </div>
         <p class="sum">{rec["summary"]?.["value"] ?? ""}</p>
@@ -265,7 +265,7 @@
     justify-content: space-between;
     gap: 6px 14px;
   }
-  .titlerow h3 {
+  .titlerow h2 {
     flex: 1 1 22rem;
     min-width: 0;
   }
@@ -346,7 +346,7 @@
   .letter {
     font-size: var(--step-1);
   }
-  h3 {
+  h2 {
     font-size: var(--step-1);
     overflow-wrap: anywhere;
   }
