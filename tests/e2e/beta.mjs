@@ -22,6 +22,11 @@
  * 5h. A race with many candidates uses the full page width on desktop, keeps its name row pinned while scrolling, and no page scrolls sideways on a phone.
  * 7. About: the Beta badge opens it; data status and the demo switch work; a bridge row shows its
  *    tooltip on keyboard focus and Escape hides it.
+ * 8. Site sweep (2026-11-06), so its bugs stay fixed: every in-site link leads to a page (8a); no sideways
+ *    scroll on a phone with everything opened (8b); no "undefined"/"NaN" text (8c); dimmed losers keep 4.5:1
+ *    in dark mode (8d); the drawer keeps Tab inside and returns focus (8e); Back returns to the reader's place
+ *    (8f); Nevada's questions are on the Measures tab (8g); the Overview title and My ballot's "not covered"
+ *    note are right (8h).
  */
 import { createRequire } from "node:module";
 import path from "node:path";
@@ -316,6 +321,174 @@ const tip = (await page.locator(".tip").count()) ? await text(page.locator(".tip
 await page.keyboard.press("Escape");
 await page.waitForTimeout(50);
 check("7b. a bridge row shows its tooltip on keyboard focus; Escape hides it", tip.startsWith("Official forecast") && (await page.locator(".tip").count()) === 0, tip.slice(0, 60));
+
+// 8. Site sweep (2026-11-06): checks over every page, so the bugs it found stay fixed.
+async function sweepPage(width, scheme = "light") {
+  const c = await browser.newContext({ viewport: { width, height: width < 600 ? 844 : 900 }, colorScheme: scheme });
+  await c.addInitScript(() => localStorage.setItem("per-dataset", "draft"));
+  const p = await c.newPage();
+  p.on("pageerror", (e) => errors.push(String(e)));
+  p.on("console", (m) => m.type() === "error" && errors.push(m.text()));
+  await p.goto(`${BASE}#overview`);
+  await p.waitForSelector("main > *", { timeout: 15000 });
+  return { c, p };
+}
+/** Go to a route and open everything folded on it (groups, rows, <details>). */
+async function openAll(p, route) {
+  await p.evaluate(async (h) => {
+    location.hash = h;
+    await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
+    for (const b of document.querySelectorAll('main button[aria-expanded="false"]')) if (!b.closest("details")) b.click();
+    for (const d of document.querySelectorAll("main details")) d.open = true;
+    await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
+  }, route);
+}
+{
+  // 8a, 8c. Every in-site link leads to a page (the site silently shows the Overview for an unknown #route), and no page,
+  // with everything opened, shows "undefined", "NaN", "[object Object]" or "Invalid Date".
+  const { c, p } = await sweepPage(1280);
+  const seen = new Set();
+  const queue = ["overview", "measures", "trial", "issues", "sources", "queue", "about"];
+  const dead = [];
+  const broken = [];
+  while (queue.length) {
+    const route = queue.shift();
+    if (seen.has(route)) continue;
+    seen.add(route);
+    await openAll(p, route);
+    const r = await p.evaluate(() => ({
+      active: document.querySelector("nav.nav a.active:not(.cur)")?.getAttribute("href") ?? document.querySelector("nav.nav a.active")?.getAttribute("href"),
+      links: [...document.querySelectorAll('a[href^="#"]')].map((a) => decodeURIComponent(a.getAttribute("href").slice(1))),
+      bad: ((document.querySelector("main")?.innerText ?? "").match(/.{0,30}(\bundefined\b|\bNaN\b|\[object Object\]|Invalid Date).{0,30}/) ?? [""])[0],
+    }));
+    if (route.split("?")[0] !== "overview" && r.active === "#overview") dead.push(route);
+    if (r.bad) broken.push(`${route}: ${r.bad}`);
+    for (const l of r.links) if (!seen.has(l)) queue.push(l);
+  }
+  check("8a. every in-site link leads to a page", dead.length === 0 && seen.size > 200, dead.join(" ") || `${seen.size} pages`);
+  check("8c. no page shows undefined, NaN or [object Object]", broken.length === 0, broken.slice(0, 3).join(" | "));
+  await c.close();
+}
+{
+  // 8b. On a phone, opening every folded section never makes the page scroll sideways (long URLs in leads and notes wrap).
+  const { c, p } = await sweepPage(390);
+  const wide = [];
+  for (const route of [
+    "overview",
+    "measures",
+    "trial",
+    "about",
+    "c-2026-ca-general--governor",
+    "c-2026-ca-general--us-house-ca-19",
+    "c-2026-ca-general--sf-assessor-recorder",
+    "c-2026-ca-general--sf-community-college-board",
+    "c-2026-ca-general--sf-supervisor-district-2",
+    "c-2026-nv-general--governor",
+    "c-2026-nv-general--district-court-dept-1",
+    "c-2026-ca-general--prop-5",
+    "c-2026-nv-general--question-7",
+  ]) {
+    await openAll(p, route);
+    const over = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth);
+    if (over > 0) wide.push(`${route} +${over}px`);
+  }
+  check("8b. no sideways page scroll at 390px with every section opened", wide.length === 0, wide.join(", "));
+  await c.close();
+}
+{
+  // 8d. Losers are dimmed by color, not opacity: their text keeps 4.5:1 in dark mode.
+  const { c, p } = await sweepPage(1280, "dark");
+  await p.evaluate(() => (location.hash = "c-2026-ca-general--governor"));
+  await p.waitForSelector(".who.lost");
+  const low = await p.evaluate(() => {
+    const rgb = (s) => (s.match(/[\d.]+/g) ?? []).map(Number);
+    const lum = ([r, g, b]) => {
+      const f = (v) => ((v /= 255) <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4);
+      return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
+    };
+    const out = [];
+    for (const el of document.querySelectorAll(".who.lost .who-name, .who.lost .who-sub, .who.lost .who-res")) {
+      let op = 1;
+      for (let n = el; n; n = n.parentElement) op *= Number(getComputedStyle(n).opacity);
+      let bg = [255, 255, 255];
+      for (let n = el; n; n = n.parentElement) {
+        const c = rgb(getComputedStyle(n).backgroundColor);
+        if (c.length === 3 || c[3] > 0) {
+          bg = c.slice(0, 3);
+          break;
+        }
+      }
+      const fg = rgb(getComputedStyle(el).color);
+      const a = (fg[3] ?? 1) * op;
+      const mixed = fg.slice(0, 3).map((v, i) => v * a + bg[i] * (1 - a));
+      const [x, y] = [lum(mixed), lum(bg)];
+      const ratio = (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05);
+      if (ratio < 4.5) out.push(`${el.className.split(" ")[0]} ${ratio.toFixed(2)}`);
+    }
+    return out;
+  });
+  check("8d. the dimmed loser's name and details keep 4.5:1 contrast in dark mode", low.length === 0, low.join(", "));
+  await c.close();
+}
+{
+  // 8e. The drawer: focus moves in, Tab stays inside, Escape returns focus to the button that opened it.
+  const { c, p } = await sweepPage(1280);
+  await p.evaluate(() => (location.hash = "c-2026-ca-general--prop-5"));
+  const cite = p.locator("main button.cite").first();
+  await cite.focus();
+  await p.keyboard.press("Enter");
+  await p.waitForSelector("aside.drawer");
+  const dialog = (await p.locator("aside.drawer").getAttribute("role")) === "dialog";
+  let inside = true;
+  for (let k = 0; k < 12; k++) {
+    await p.keyboard.press("Tab");
+    inside &&= await p.evaluate(() => !!document.querySelector("aside.drawer")?.contains(document.activeElement));
+  }
+  await p.keyboard.press("Escape");
+  await p.waitForTimeout(100);
+  const back = await cite.evaluate((b) => b === document.activeElement);
+  check("8e. the drawer is a dialog that keeps Tab inside and gives focus back on Escape", dialog && inside && back, `dialog ${dialog}, Tab stayed inside ${inside}, focus returned ${back}`);
+  await c.close();
+}
+{
+  // 8f. Back from a contest returns to where the reader was on the Overview.
+  const { c, p } = await sweepPage(1280);
+  await p.evaluate(() => window.scrollTo(0, 2500));
+  await p.waitForTimeout(300);
+  const before = await p.evaluate(() => Math.round(window.scrollY));
+  const idx = await p.evaluate(() => [...document.querySelectorAll("a.crow")].findIndex((a) => a.getBoundingClientRect().top > 160 && a.getBoundingClientRect().bottom < innerHeight - 20));
+  await p.locator("a.crow").nth(idx).click();
+  await p.waitForSelector("header.head");
+  const opened = await p.evaluate(() => Math.round(window.scrollY));
+  await p.goBack();
+  await p.waitForTimeout(500);
+  const after = await p.evaluate(() => Math.round(window.scrollY));
+  check("8f. Back returns to the reader's place on the Overview; a new page starts at the top", opened === 0 && Math.abs(after - before) < 5 && before > 2000, `before ${before}, opened ${opened}, after Back ${after}`);
+  await c.close();
+}
+{
+  // 8g. Nevada's statewide ballot questions are on the Measures tab, labeled "Question".
+  const { c, p } = await sweepPage(1280);
+  await p.evaluate(() => (location.hash = "measures"));
+  await p.waitForSelector(".mcard");
+  const q7 = await p.locator('a.mcard[href="#c-2026-nv-general--question-7"]').count();
+  const q7label = q7 ? await text(p.locator('a.mcard[href="#c-2026-nv-general--question-7"] .letter')) : "";
+  check("8g. the Measures tab lists Nevada's Question 7", q7 === 1 && q7label === "Question 7", q7label || "missing");
+  // 8h. My ballot for a San Francisco ZIP in Assembly District 17 doesn't call that race missing; the title counts both states.
+  const title = await p.evaluate(() => ((location.hash = "overview"), new Promise((r) => setTimeout(() => r(document.querySelector(".intro h1")?.textContent?.trim() ?? ""), 300))));
+  await p.locator('button.method[aria-label="ZIP code"]').click();
+  await p.locator(".pane input").fill("94110");
+  await p.locator(".pane button.apply").click();
+  await p.waitForSelector(".found .frow", { timeout: 15000 });
+  const note = await p.evaluate(() => [...document.querySelectorAll(".mb p")].map((x) => x.textContent ?? "").find((t) => t.startsWith("Also on your ballot")) ?? "");
+  check(
+    "8h. the Overview title names both states; My ballot doesn't list Assembly District 17 as missing for 94110",
+    title === "California and Nevada contests" && note !== "" && !note.includes("Assembly District 17"),
+    `${title} | ${note.replace(/\s+/g, " ").slice(0, 120)}`,
+  );
+  await p.evaluate(() => localStorage.removeItem("per-my-ballot"));
+  await c.close();
+}
 
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
 const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
