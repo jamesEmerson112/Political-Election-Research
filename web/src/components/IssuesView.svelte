@@ -33,7 +33,7 @@
           {#if q["notes"]}<p class="muted">{q["notes"]}</p>{/if}
           <p class="meta">
             <span class="mono">{ref}</span> · added {date(q["added"])}
-            {#each usedIn(ref) as c (c)} · <a href={`#${contestRoute(c)}`}>{ix.contestTitle(c)}</a>{/each}
+            {#each usedIn(ref) as c (c)} · <a href={`#${contestRoute(c)}`}>{ix.listTitle(c)}</a>{/each}
           </p>
         </article>
       {/each}

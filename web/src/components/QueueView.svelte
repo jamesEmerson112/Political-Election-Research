@@ -11,7 +11,7 @@
   function item(i: string | undefined): string {
     if (!i) return "";
     if (i.startsWith("q:")) return ix.questions.get(i)?.q["text"] ?? i;
-    if (i.startsWith("contest:")) return ix.contestTitle(i);
+    if (i.startsWith("contest:")) return ix.listTitle(i);
     return i.replace(/_/g, " ");
   }
 </script>
@@ -28,7 +28,7 @@
   <label for="q-contest">Contest</label>
   <select id="q-contest" bind:value={contest}>
     <option value="all">All contests</option>
-    {#each refs as r (r)}<option value={r}>{ix.contestTitle(r)}</option>{/each}
+    {#each refs as r (r)}<option value={r}>{ix.listTitle(r)}</option>{/each}
   </select>
   <label class="check"><input id="q-blocked" type="checkbox" bind:checked={showBlocked} /> Show blocked tasks</label>
   <span class="muted">{plural(tasks.length, "task")}</span>
@@ -42,7 +42,7 @@
         {#each tasks as t, i (t.id)}
           <tr class:blocked={!!t.blocked_by}>
             <td class="num">{i + 1}</td>
-            <td><strong>{TASK_LABEL[t.kind] ?? t.kind}</strong><br /><span class="muted">{ix.contestTitle(t.contest)}</span></td>
+            <td><strong>{TASK_LABEL[t.kind] ?? t.kind}</strong><br /><span class="muted">{ix.listTitle(t.contest)}</span></td>
             <td>
               {t.subject ? ix.name(t.subject) : ""}{t.item ? ` · ${item(t.item)}` : ""}
               {#if t.blocked_by}<br /><span class="chip">Waits for: {t.blocked_by.split("|").slice(1).join(" ")}</span>{/if}

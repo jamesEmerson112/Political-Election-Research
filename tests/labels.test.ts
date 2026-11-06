@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
 import { DEFAULT_DATA_DIR } from "../src/paths.js";
-import { humanizeId, shortQuestionLabel } from "../web/src/lib/labels.js";
+import { humanizeId, shortQuestionLabel, titleFromSlug } from "../web/src/lib/labels.js";
 
 /** Every question id in the dataset, for the label checks below. */
 function questionIds(): string[] {
@@ -42,5 +42,17 @@ describe("shortQuestionLabel", () => {
       expect(["high", "drug"], `${id} -> ${label}`).not.toContain(before);
       expect(label.split(" ").length, `${id} -> ${label}`).toBeLessThanOrEqual(5);
     }
+  });
+});
+
+describe("titleFromSlug (the short names lists use)", () => {
+  it.each([
+    ["2026-ca-general/us-house-ca-11", "U.S. House, CA-11"],
+    ["2026-nv-general/us-house-nv-1", "U.S. House, NV-1"],
+    ["2026-ca-general/state-assembly-17", "State Assembly, District 17"],
+    ["2026-ca-general/board-of-equalization-2", "Board of Equalization, District 2"],
+    ["2026-nv-general/assembly-6", "Assembly, District 6"],
+  ])("%s -> %s", (slug, title) => {
+    expect(titleFromSlug(slug)).toBe(title);
   });
 });

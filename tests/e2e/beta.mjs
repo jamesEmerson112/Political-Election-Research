@@ -515,6 +515,24 @@ async function openAll(p, route) {
   await c.close();
 }
 
+{
+  // 9b (U4). Lists use one naming style for numbered districts; the contest page keeps the official name.
+  const { c, p } = await sweepPage(1280);
+  const titles = await p.evaluate(() => [...document.querySelectorAll("a.crow")].map((a) => a.querySelector(".c-title, strong, .title")?.textContent?.trim() ?? a.textContent?.trim().split("\n")[0] ?? ""));
+  const official = titles.filter((t) => /^(United States Representative|Representative in Congress|State Assembly Member|Board of Equalization Member)/.test(t));
+  const ca11 = titles.find((t) => t.startsWith("U.S. House, CA-11")) ?? "";
+  await p.evaluate(() => (location.hash = "c-2026-ca-general--us-house-ca-11"));
+  await p.waitForSelector("header.head h1");
+  const h1 = await text(p.locator("header.head h1"));
+  const nav = await text(p.locator("nav.nav a.cur"));
+  check(
+    "9b. lists name numbered districts one way (U.S. House, CA-11); the contest page keeps the official name",
+    official.length === 0 && ca11 !== "" && nav === "U.S. House, CA-11" && h1 === "United States Representative, District 11",
+    `${official.length} official-style list names; nav "${nav}"; h1 "${h1}"`,
+  );
+  await c.close();
+}
+
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
 const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
 const vaScript = await page.evaluate(() => document.querySelector('script[data-sdkn^="@vercel/analytics"]')?.getAttribute("src") ?? "");

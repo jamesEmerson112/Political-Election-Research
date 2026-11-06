@@ -2,6 +2,8 @@ import type { Bundle } from "../../../src/bundle";
 import type { Coverage, Task } from "../../../src/research";
 import type { CandidateRollup } from "../../../src/rollup";
 import type { OfficeType } from "./icons";
+import { titleFromSlug } from "./labels";
+export { titleFromSlug };
 
 export type { Bundle, Coverage, Task, CandidateRollup };
 // Records are schema-validated JSON; the UI reads them loosely.
@@ -43,52 +45,8 @@ export function slugOf(ref: string): string {
   return ref.slice(ref.indexOf(":") + 1);
 }
 
-/** Short place names for local contest slug prefixes. */
-const LOCAL_PLACE: Record<string, string> = { sf: "SF" };
-
-/** Readable title for a contest slug that has no verified record yet. */
-export function titleFromSlug(contestSlug: string): string {
-  const s = contestSlug.split("/").pop() ?? contestSlug;
-  const house = /^us-house-([a-z]{2})-(\d+)$/.exec(s);
-  if (house) return `U.S. House, ${house[1]!.toUpperCase()}-${house[2]}`;
-  const boe = /^board-of-equalization-(\d+)$/.exec(s);
-  if (boe) return `Board of Equalization, District ${boe[1]}`;
-  const prop = /^prop-(\d+)$/.exec(s);
-  if (prop) return `Proposition ${prop[1]}`;
-  const local = /^([a-z]+)-prop-([a-z0-9]+)$/.exec(s);
-  if (local) return `${LOCAL_PLACE[local[1]!] ?? local[1]!.charAt(0).toUpperCase() + local[1]!.slice(1)} Prop ${local[2]!.toUpperCase()}`;
-  const sup = /^sf-supervisor-district-(\d+)$/.exec(s);
-  if (sup) return `SF Supervisor, District ${sup[1]}`;
-  if (s.startsWith("sf-")) return `SF ${titleFromSlug(s.slice(3))}`;
-  // Nevada placeholders (Las Vegas ballots): fixed slug patterns, see docs/RESEARCH_GUIDE.md.
-  if (s === "us-senate") return "U.S. Senate";
-  const districted: Array<[RegExp, string]> = [
-    [/^state-senate-(\d+)$/, "State Senate, District $1"],
-    [/^assembly-(\d+)$/, "Assembly, District $1"],
-    [/^board-of-regents-(\d+)$/, "Board of Regents, District $1"],
-    [/^state-board-of-education-(\d+)$/, "State Board of Education, District $1"],
-    [/^supreme-court-seat-([a-z])$/, "Supreme Court, Seat $1"],
-    [/^court-of-appeals-dept-(\d+)$/, "Court of Appeals, Department $1"],
-    [/^district-court-dept-(\d+)$/, "District Court, Department $1"],
-    [/^district-court-family-dept-([a-z])$/, "District Court Family Division, Department $1"],
-    [/^las-vegas-municipal-court-dept-(\d+)$/, "Las Vegas Municipal Court, Department $1"],
-    [/^question-(\d+)$/, "Question $1"],
-    [/^clark-county-commission-([a-z])$/, "Clark County Commission, District $1"],
-    [/^clark-county-question-(\d+)$/, "Clark County Question $1"],
-    [/^ccsd-trustee-([a-z])$/, "CCSD Trustee, District $1"],
-    [/^las-vegas-council-ward-(\d+)$/, "Las Vegas City Council, Ward $1"],
-    [/^las-vegas-question-(\d+)$/, "Las Vegas Question $1"],
-  ];
-  for (const [re, title] of districted) {
-    const m = re.exec(s);
-    if (m) return title.replace("$1", /^[a-z]$/.test(m[1]!) ? m[1]!.toUpperCase() : m[1]!);
-  }
-  const small = new Set(["of", "and", "for", "the", "on"]);
-  return s
-    .split("-")
-    .map((w, i) => (i > 0 && small.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1)))
-    .join(" ");
-}
+/** Offices named by their numbered district in lists (see Index.listTitle). */
+const DISTRICT_SHORT = /^(us-house-[a-z]{2}-\d+|board-of-equalization-\d+|state-assembly-\d+|assembly-\d+|state-senate-\d+)$/;
 
 /** Statewide offices in California ballot order; others sort after them alphabetically. */
 const STATEWIDE_ORDER = [
@@ -204,6 +162,17 @@ export class Index {
 
   contestTitle(ref: string): string {
     return this.contests.get(ref)?.["name"] ?? titleFromSlug(slugOf(ref));
+  }
+
+  /**
+   * The name in lists (the Overview, the header, Issues, the research queue). Numbered-district offices use their short
+   * district form ("U.S. House, CA-11"), so a list reads in one style whether or not the contest's official record
+   * exists yet ("United States Representative, District 11"). Other contests keep their official name. The contest
+   * page shows the official name.
+   */
+  listTitle(ref: string): string {
+    const slug = slugOf(ref);
+    return DISTRICT_SHORT.test(slug.split("/").pop() ?? "") ? titleFromSlug(slug) : this.contestTitle(ref);
   }
 
   electionOf(ref: string): string {

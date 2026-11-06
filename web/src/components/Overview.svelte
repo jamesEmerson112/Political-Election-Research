@@ -74,10 +74,10 @@
       const pct = p.total ? Math.round((p.done / p.total) * 100) : 0;
       const tasks = ix.tasksFor(ref).filter((t) => !t.blocked_by).length;
       const leads = ix.leads.get(ref)?.length ?? 0;
-      const title = ix.contestTitle(ref);
+      const title = ix.listTitle(ref);
       const st = stateOf(ref);
       const district = /-(\d+)$/.exec(slugOf(ref))?.[1];
-      const hay = [title, slugOf(ref), STATES[st] ?? st, ...names, district ? `${st}-${district} ${st} ${district} district ${district}` : ""].join(" ").toLowerCase();
+      const hay = [title, ix.contestTitle(ref), slugOf(ref), STATES[st] ?? st, ...names, district ? `${st}-${district} ${st} ${district} district ${district}` : ""].join(" ").toLowerCase();
       const officeRef = (ix.contests.get(ref)?.["office_ref"] ?? ix.agendas.get(ref)?.["office_ref"]) as string | undefined;
       const place = placeContest(ref, officeRef, kind);
       // After the election: the winner (or leader of a semi-official count) in bold, a measure's yes/no bar.

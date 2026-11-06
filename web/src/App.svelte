@@ -103,7 +103,7 @@
   <nav class="wrap nav" aria-label="Sections">
     <a href="#overview" class:active={view === "overview"}>Overview</a>
     {#if routeContest}
-      <a class="cur" href={`#${contestRoute(routeContest)}`} class:active={true} aria-current="page">{ix.contestTitle(routeContest)}</a>
+      <a class="cur" href={`#${contestRoute(routeContest)}`} class:active={true} aria-current="page">{ix.listTitle(routeContest)}</a>
     {/if}
     <a href="#measures" class:active={view === "measures"}>Measures</a>
     <a href="#trial" class:active={view === "trial"}>Try your ballot</a>
