@@ -13,7 +13,7 @@
 
 <section class="section">
   <div class="section-head">
-    <h2>Ballot measures</h2>
+    <h1>Ballot measures</h1>
     <p>Each measure's legal form, the vote it needs, and its official fiscal statement, before the words. Open a measure for the digest, arguments and sources.</p>
   </div>
   {#if statewide.length}

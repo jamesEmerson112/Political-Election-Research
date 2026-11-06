@@ -115,20 +115,20 @@
 </header>
 
 {#if bundle.fictional}
-  <div class="banner demo">
+  <aside class="banner demo" aria-label="About this dataset">
     <div class="wrap">
       <strong>Fictional demo.</strong> Every person, organization, number and quote on this view is made up (jurisdiction “ZZ”, example.org
       sources). It shows what a fully researched contest looks like. <button class="link" onclick={() => choose("draft")}>Back to the real data</button>
     </div>
-  </div>
+  </aside>
 {:else if ix.claimCount() === 0}
-  <div class="banner draft">
+  <aside class="banner draft" aria-label="About this dataset">
     <div class="wrap">
       <strong>Draft.</strong> No cited research has been recorded yet. You’re seeing the research agendas, the questions every candidate
       will be asked, and <em>unverified leads</em>. Switch to <button class="link" onclick={() => choose("demo")}>Fictional demo</button> to
       see a finished contest.
     </div>
-  </div>
+  </aside>
 {/if}
 
 <main class="wrap main">

@@ -246,6 +246,9 @@
     gap: 4px;
     font-size: var(--step--1);
   }
+  .box ul {
+    gap: 8px; /* the citation buttons line up at the right: 8px keeps 24px tap circles apart */
+  }
   .box li {
     display: flex;
     justify-content: space-between;

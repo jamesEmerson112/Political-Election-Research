@@ -212,6 +212,7 @@ button {
   border-top: 1px solid var(--line-strong);
   padding-top: 12px;
 }
+.section-head h1,
 .section-head h2 {
   font-size: var(--step-1);
   font-weight: 700;

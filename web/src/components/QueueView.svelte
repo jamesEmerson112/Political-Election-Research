@@ -35,7 +35,7 @@
 </div>
 
 {#if tasks.length}
-  <div class="scroll-x">
+  <div class="scroll-x" tabindex="0" role="region" aria-label="Open research tasks (scrolls sideways)">
     <table class="grid">
       <thead><tr><th class="num">#</th><th>Task</th><th>Subject</th><th>Writes to</th><th>Leads</th></tr></thead>
       <tbody>

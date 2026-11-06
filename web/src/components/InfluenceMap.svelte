@@ -149,7 +149,7 @@
     <span><i class="ln uncounted"></i>Committee not counted</span>
   </div>
   <div class="scroll-x panel">
-    <svg viewBox={`0 0 ${W} ${graph.H}`} width={W} height={graph.H} role="img" aria-label={`Money and influence around ${ix.name(cand)}`}>
+    <svg viewBox={`0 0 ${W} ${graph.H}`} width={W} height={graph.H} role="group" aria-label={`Money and influence around ${ix.name(cand)}`}>
       <text class="col" x={XL} y="18" text-anchor="end">Donors · endorsers · outside spenders</text>
       <text class="col" x={XM} y="18" text-anchor="middle">Committees</text>
       <text class="col" x={XC} y="18" text-anchor="middle">Candidate</text>
@@ -173,7 +173,12 @@
             onfocus={(ev) => showTip(ev, e.tip)}
             onblur={hideTip}
             onclick={() => openRel(ix, e.rel, e.title, e.facts)}
-            onkeydown={(ev) => ev.key === "Enter" && openRel(ix, e.rel, e.title, e.facts)}
+            onkeydown={(ev) => {
+              if (ev.key === "Enter" || ev.key === " ") {
+                ev.preventDefault();
+                openRel(ix, e.rel, e.title, e.facts);
+              }
+            }}
           />
         </g>
       {/each}

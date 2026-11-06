@@ -33,7 +33,7 @@
 
 <section class="section about">
   <div class="section-head">
-    <h2>About this beta</h2>
+    <h1>About this beta</h1>
     <p>
       An open, cited archive of the November 3, 2026 ballot, starting with San Francisco and California. Every claim links to the source it came from, with
       the exact words quoted. It describes; it doesn't recommend how to vote.

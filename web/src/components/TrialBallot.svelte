@@ -107,7 +107,7 @@
 
 <section class="section trial">
   <div class="section-head">
-    <h2>Try your ballot</h2>
+    <h1>Try your ballot</h1>
     <p>
       Vote on each measure and watch the official estimates add up against that government's budget forecast. This adds up the official fiscal statements for the
       choices you try; it doesn't recommend how to vote. Your answers stay in this browser.
