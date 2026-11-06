@@ -1,4 +1,4 @@
-# TODO / backlog (snapshot 2026-11-05; format frozen at `format-v2`)
+# TODO / backlog (snapshot 2026-11-06; format frozen at `format-v2`)
 
 ## Format requests (after v2)
 The format is frozen at the tag `format-v2` (2026-11-05; `format-v1` was 2026-11-04; see CLAUDE.md "Format: frozen"). These format changes were left out on purpose. Each needs the maintainer's OK before work starts. Research that finds a fact the format can't hold adds it here, with the contest and the source.
@@ -15,6 +15,35 @@ The format is frozen at the tag `format-v2` (2026-11-05; `format-v1` was 2026-11
 - **Promise topics** for other contests are data, not format: they can be added during research.
 - **Nevada initiative constitutional amendments (second vote):** `2026-nv-general/question-6` and `question-7` are the second of the two votes Article 19, Section 2 requires ("must be approved by the voters at two successive general elections", Fiscal Analysis Division notes in Clark County's All Ballot Questions PDF, src:clarkcountynv-gov-384ac2c752, pp. 9 and 14). The measure schema has no field for the first vote (2024 Question 6 / Question 7) or the two-vote requirement; today it is only in `fiscal.summary` (Q6) and `digest.proposal` (Q7).
 - **Ballot-argument footnotes:** the Nevada arguments for `2026-nv-general/question-6` and `question-7` print numbered endnotes (the authors' sources) after each argument (same PDF, pp. 5-8, 12-14). `BallotArgument` has no field for them, so `text` keeps the inline note markers and the endnotes are left out.
+
+## Site sweep (2026-11-06)
+Every page was crawled: 215 in the real data and 16 in the demo, at 1440 and 390 px, light and dark. Each visit opened every folded section and ran axe-core. Then each page type got a keyboard and click pass, and screenshots were reviewed by eye. The maintainer chose "Bugs now, UI after you pick": the bugs are fixed, and browser checks 8a–8h in `tests/e2e/beta.mjs` keep them fixed. The UI improvements below wait for the maintainer to pick.
+- [x] **Fixed:**
+  - light-mode gray text contrast (`tests/contrast.test.ts`);
+  - dimmed losers unreadable in dark mode;
+  - clamped lines cut without an ellipsis;
+  - the drawer's focus (return, Tab trap, dialog);
+  - Back/Forward losing the reader's place;
+  - Nevada's questions missing from Measures;
+  - long URLs pushing pages sideways (110 phone pages);
+  - stance labels cut mid-phrase ("Speed rail funding");
+  - the Overview title and My ballot's "not covered" note;
+  - axe findings (map links hidden from screen readers, missing h1s, the queue's scroll region, banner landmarks, tap spacing).
+- **UI improvements, waiting for the maintainer's pick:**
+  - [ ] **Phone header:** the sticky header is 177 px, 21% of an 844 px screen. Make it one scrolling nav row with a smaller brand.
+  - [ ] **Overview length:** about 12,000 px on desktop, mostly the 52 House races at 0% with "unverified" badges. Fold groups with no research yet, or add a "researched only" filter.
+  - [ ] **Money map on phones:** a 900 px drawing in a sideways scroller, so a phone shows the donors but not the candidates they connect to. Use a list layout under 600 px.
+  - [ ] **Contest names:** "U.S. House, CA-12" sits next to "United States Representative, District 11" (the official name, from contest records). Use one short form in lists and the official name on the page.
+  - [ ] **Speed:**
+    - about 5 s to download on a slow phone connection (950 KB) before anything shows;
+    - opening the San Francisco contest tables takes 1.0–1.7 s on a fast desktop.
+
+    Load contests on demand (see "Site size"), or render long tables in parts.
+  - [ ] **Nonpartisan races:** "Party: Not found" in the City College, school board and Assessor rows reads as a gap. Show "Nonpartisan office".
+  - [ ] **Long pages:** Research queue is about 169,000 px and Sources about 51,000 px. Fold them by contest, or page them.
+  - [ ] **After the election:** the Overview still leads with "Research draft", My ballot and Export my picks. Results could lead.
+  - [ ] **My ballot for a San Francisco ZIP** lists "local measures" as not covered, though San Francisco's Props A–J are here. California ZIPs carry no county yet (see "My ballot": a county layer).
+- **Data wording (research, not the site):** unverified-lead notes in 6 contests say a designation is "left null" in text readers see (Treasurer, Superintendent, BOE 2 and 4, CA-6, CA-34).
 
 ## Results and promise tracker (built 2026-11-05, `format-v2`)
 After the election: who won each contest, and what each winner does on the campaign promises recorded in their dossier, from official records only. Guide: `docs/RESEARCH_GUIDE.md` "Contest results" and "Promise tracking"; visual rules: the versus-ui skill.
@@ -62,7 +91,7 @@ After the election: who won each contest, and what each winner does on the campa
   - **Agendas:** 71 California and 107 Nevada (placeholders: Las Vegas ballots, including 60 judge seats).
   - **Records:** 24 measures (SF Props A–J with digest, fiscal effects, who it affects and all 161 arguments; California Props 1–5 and 37–45 from the official guide, with the Legislative Analyst's fiscal effects), the SF and California budgets and forecasts, 15 offices, 151 sources, 71 lead files.
   - **Validate:** 0 errors; 424 warnings: 167 unverified citations, 151 not archived, 99 quote pending, 7 orphan sources.
-  - **Site:** a 4.4 MB single file.
+  - **Site:** a 6.4 MB single file (950 KB as served, Brotli; 2026-11-06).
 
 ## Beta (2026-11-03)
 **Shipped in the beta**
@@ -95,7 +124,7 @@ After the election: who won each contest, and what each winner does on the campa
 
 **After the beta**
 - **Results:** see "Results and promise tracker".
-- **Site size:** load contests on demand. The single file is 4.4 MB (about 660 KB compressed).
+- **Site size:** load contests on demand. The single file is 6.4 MB (950 KB as served with Brotli, 2026-11-06).
 - **Accessibility:** the dark-mode shortfall red sits close to the dark orange ▼ (accepted for now: separate charts, with a legend).
 - **"My ballot":** places California and Nevada (Las Vegas) contests. Nevada ZIPs and locations use `geo/nv-2026-districts.json`. Nevada's contests are still placeholders (no candidates).
 - **CI:** run `npm run e2e` in CI if Chromium can be installed there.
@@ -162,7 +191,7 @@ After the election: who won each contest, and what each winner does on the campa
 - **Election results:** see "Results and promise tracker".
 
 ### Housekeeping
-- **Site size:** the single-file site is over 3.1 MB, and the arguments will add more. Load contests on demand.
+- **Site size:** the single-file site is 6.4 MB (2026-11-06). Load contests on demand.
 - **Hosting:** move to GitHub Pages so "Use my location" works (the private preview can't grant location) and the site has a shareable URL.
 - **Disk:** delete the 10 old agent worktrees in `.claude/worktrees` (3.1 GB, including the 1.5 GB geo cache).
 - **Docs:** update the README status table.
@@ -305,7 +334,7 @@ After the election: who won each contest, and what each winner does on the campa
 - **check-quotes script:** fuzzy-match each quote against its Wayback snapshot.
 - **Public hosting:** GitHub Pages, auto-deploy on push.
 - **Post-election:** results and tracking the winners' promises: see "Results and promise tracker" near the top. Keep tracking winners for the 2028 reuse.
-- **Lazy-load per-contest data:** the single-file build is now ~2.2 MB.
+- **Lazy-load per-contest data:** the single-file build is now 6.4 MB (2026-11-06).
 - **InfluenceMap:** restyle with the category badges.
 - **Optional:** NAICS sector tagging for donors (no editorial labels); a research-request issue template.
 
