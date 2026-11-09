@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "unlv-edu-34a1e57bc1",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "University of Nevada, Las Vegas",
+  "title": "Becky Harris | People | UNLV",
+  "url": "https://www.unlv.edu/people/becky-harris",
+  "notes": "UNLV staff directory biography. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

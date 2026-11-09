@@ -24,6 +24,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Distinguished Fellow in Gaming and Leadership, UNLV; attorney",
+      "citations": [
+        {
+          "source": "src:unlv-edu-34a1e57bc1",
+          "quote": "Becky Harris is the distinguished fellow in gaming and leadership at Lifelong Learning where she oversees The Leaderverse Initiatives (Leaderverse)."
+        },
+        {
+          "source": "src:thenevadaindependent-com-183c41e069",
+          "quote": "Harris, 58, is a gaming law expert and attorney who serves as a distinguished fellow at UNLV."
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [
