@@ -66,6 +66,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Retired police detective; business owner",
+      "citations": [
+        {
+          "source": "src:billyoung4clarkcountynvrecorder-com-709010e56c",
+          "quote": "Honorably Retired Police Detective",
+          "locator": "home page, list under the mission statement"
+        },
+        {
+          "source": "src:billyoung4clarkcountynvrecorder-com-709010e56c",
+          "quote": "Business owner",
+          "locator": "home page, list under the mission statement"
+        },
+        {
+          "source": "src:thenevadaindependent-com-1f258aa16e",
+          "quote": "Young, a retired police detective, says his priorities if elected are preventing deed fraud, discouraging squatters and offering immediate access to the office's services, including records access and filings.",
+          "locator": "County Recorder section"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
