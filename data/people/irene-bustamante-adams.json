@@ -24,6 +24,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Kerman High School",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-e046420c20",
+              "quote": "Educated: Kerman High School, Kerman, California;",
+              "locator": "Legislative Biography, page 1"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor of Science, business management",
+          "institution": "California State University, Fresno",
+          "citations": [
+            {
+              "source": "src:ccsd-net-0db55fd378",
+              "quote": "earning a Bachelor of Science degree in business management from California State University, Fresno.",
+              "locator": "trustee biography, paragraph 1"
+            }
+          ]
+        },
+        {
+          "degree": "Executive Master of Business Administration (EMBA)",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 2007,
+          "citations": [
+            {
+              "source": "src:ccsd-net-0db55fd378",
+              "quote": "In 2007, Bustamante Adams became the first Latina in Nevada history to earn an Executive Master of Business Administration (EMBA) degree from University of Nevada, Las Vegas.",
+              "locator": "trustee biography, paragraph 1"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Deputy Director & Chief Strategy Officer, Workforce Connections",
       "citations": [
