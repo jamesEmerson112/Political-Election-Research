@@ -4,6 +4,47 @@
   "name": "Martina Bauhaus",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date, born, age",
+          "where": "Campaign website https://martinaforjudge.com/ (Meet Martina section; /about returns 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age, birth year",
+          "where": "The Nevada Independent 2026 voter guide, Department 23 candidate deep dive (https://thenevadaindependent.com/elections/2026/general/judicial/174)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age",
+          "where": "Our Nevada Judges candidate page (https://ournevadajudges.com/candidates/martina-bauhaus/overview)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "BallotReady candidate profile (https://www.ballotready.org/people/martina-bauhaus)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Nevada Commission on Judicial Selection 2024 application (nvcourts.gov): host blocked from this environment (Cloudflare challenge)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Martina Bauhaus\" Germany born attorney Nevada (no birth date found)",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Bauhaus\" \"Lilly-Spells\" age district court Department 23 2026 Review-Journal (no birth date found)",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
