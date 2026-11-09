@@ -4,6 +4,16 @@
   "name": "Cameron \"C.H.\" Miller",
   "aliases": [],
   "candidate_profile": {
+    "birthplace": {
+      "value": "Las Vegas (where he grew up; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-28b258e444",
+          "quote": "Cameron \"C.H.\" Miller grew up in Las Vegas and graduated from the Southeast Career Technical Academy, the valley's first vocational high school.",
+          "locator": "FAMILY AND EDUCATION"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-09",
       "items": [
