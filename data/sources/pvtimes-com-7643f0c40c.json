@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "pvtimes-com-7643f0c40c",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2019-08-16",
+  "publisher": "Pahrump Valley Times",
+  "title": "Nevada Assemblyman Greg Hafen II to seek two more years in seat",
+  "url": "https://pvtimes.com/news/nevada-assemblyman-greg-hafen-ii-to-seek-two-more-years-in-seat-73930/",
+  "notes": "No archive: web.archive.org was unreachable from the research environment. Opened with tools/research/fetch-text.mjs on 2026-11-09."
+}
