@@ -71,6 +71,57 @@
           "where": "No campaign website found in the voter pamphlet, GrowSF guide or earlier profile research (person record search logs); web search not available (session search budget used up)"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-2|endorsements|person:monthanus-ratanapakdee",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "Campaign site ratanapakdeesf.org home page: no endorsements list; says \"No big money. No party machine\""
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "Campaign site ratanapakdeesf.org/endorsements and /get-involved: HTTP 404"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "Campaign site ratanapakdeesf.org Meet Monthanus, Priorities and Contact pages: no endorsements"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "San Francisco Department of Elections November 3, 2026 Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), her candidate statement, printed p. 40: no endorser named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "San Francisco Democratic Party, Nov. 3, 2026 General Election endorsements (sfdems.org/endorsements/nov-3-2026-general-election): District 2 endorsement is Stephen Sherrill"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "San Francisco Republican Party site (sfrepublicans.org): home page opened, November 2026 voter guide page not found at the URLs tried (HTTP 404); sfgop.org returned 404/502"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "GrowSF November 2026 District 2 guide (growsf.org): lists her as No Response; GrowSF June 2026 questionnaire page: no contact information"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "San Francisco Chronicle editorial board District 2 endorsement (Oct. 16, 2026) and Chronicle voter guide: endorses Stephen Sherrill; says she did not respond to requests to meet"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Monthanus Ratanapakdee endorsements; endorsed by; supports",
+          "where": "Mission Local WordPress API search for \"Ratanapakdee\" (missionlocal.org/wp-json/wp/v2/posts?search=Ratanapakdee): 7 posts, none names an endorsement of her"
+        }
+      ]
     }
   ],
   "measures": [],
