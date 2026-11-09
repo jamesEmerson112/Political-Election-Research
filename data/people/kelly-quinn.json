@@ -66,6 +66,81 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Small business owner",
+          "citations": [
+            {
+              "source": "src:quinnfornv-com-2c0dc91b6e",
+              "quote": "I am a small business owner and a Correctional Lieutenant.",
+              "locator": "About page, first paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Correctional lieutenant",
+          "citations": [
+            {
+              "source": "src:quinnfornv-com-2c0dc91b6e",
+              "quote": "I am a small business owner and a Correctional Lieutenant.",
+              "locator": "About page, first paragraph"
+            },
+            {
+              "source": "src:quinnfornv-com-2c0dc91b6e",
+              "quote": "I have served our community as a First Responder in Emergency Medical Services, a Firefighter, and in Corrections for over three decades.",
+              "locator": "About page, first paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "High Desert State Prison",
+          "role": "Correctional sergeant",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-ff7814031c",
+              "quote": "Hedrick’s challenger, Kelly Quinn, is a correctional sergeant at High Desert State Prison."
+            }
+          ]
+        },
+        {
+          "organization": "State of Nevada",
+          "role": "Regulator for fire and emergency medical services",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-ff7814031c",
+              "quote": "He previously worked as a regulator for the state of Nevada in the area of fire and emergency medical services."
+            },
+            {
+              "source": "src:quinnfornv-com-2c0dc91b6e",
+              "quote": "Over the years, I have worked on many legislative issues with state legislators as a First Responder and Emergency Services Regulator.",
+              "locator": "About page, 'Why run for Nevada State Assembly District 5?'"
+            }
+          ]
+        },
+        {
+          "role": "First responder, emergency medical services",
+          "citations": [
+            {
+              "source": "src:quinnfornv-com-2c0dc91b6e",
+              "quote": "I have served our community as a First Responder in Emergency Medical Services, a Firefighter, and in Corrections for over three decades.",
+              "locator": "About page, first paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Firefighter",
+          "citations": [
+            {
+              "source": "src:quinnfornv-com-2c0dc91b6e",
+              "quote": "I have served our community as a First Responder in Emergency Medical Services, a Firefighter, and in Corrections for over three decades.",
+              "locator": "About page, first paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],

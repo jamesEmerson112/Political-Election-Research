@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-ff7814031c",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-05-15",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Assembly District 5: Hedrick, Quinn battle for Republican nod",
+  "url": "https://www.reviewjournal.com/?p=2577023",
+  "notes": "Byline David Wilson; page headline also reads 'Assembly District 5 primary candidates talk education improvements'. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
