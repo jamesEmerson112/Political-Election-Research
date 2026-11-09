@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-93800b44b9",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-05-15",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Crowded field seeks to replace Roberts in AD-13",
+  "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/crowded-field-seeks-to-replace-roberts-in-ad-13-2576996/",
+  "notes": "By McKenna Ross. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
