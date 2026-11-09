@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-ed17037fea",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-15",
+  "publisher": "Nevada Current",
+  "title": "Backed by pro-film subsidy groups, carpenter challenges progressive Assembly Democratic incumbent",
+  "url": "https://nevadacurrent.com/2026/05/15/backed-by-pro-film-subsidy-groups-carpenter-challenges-progressive-assembly-democratic-incumbent/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

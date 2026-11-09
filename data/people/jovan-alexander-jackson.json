@@ -42,6 +42,33 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member of the Nevada Assembly, District 6",
+          "current": true,
+          "first_elected": "2024",
+          "jurisdiction": "Nevada",
+          "start": "2024-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Jovan A. Jackson LEGISLATIVE SERVICE Served in 1 Regular Session Years in Assembly: November 2024 to Current",
+              "locator": "PDF page 66 (Legislative Biography—2025 Session, Page 66)"
+            },
+            {
+              "source": "src:leg-state-nv-us-b14363d687",
+              "quote": "Assemblymember Jovan A. Jackson Party: Democratic District 6"
+            },
+            {
+              "source": "src:nevadacurrent-com-ed17037fea",
+              "quote": "First elected in 2024, Jackson is the first formerly incarcerated person elected to the Nevada State Legislature"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
