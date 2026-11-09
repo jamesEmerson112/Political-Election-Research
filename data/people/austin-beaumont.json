@@ -16,6 +16,42 @@
           "quote": "As a Chief Deputy District Attorney in the Major Fraud Unit, he prosecutes complex cases involving fraud, elder exploitation, and criminal intelligence, while maintaining a firm commitment to fairness and due process."
         }
       ]
+    },
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party preference for District Court Judge Department 8 candidates (both listed NP, nonpartisan office; no party shown)",
+          "where": "Clark County Notice of General Election, Nov 3, 2026 (https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:dde8b423-5fd3-4635-a9e5-653e57b5491d/original/as/Notice-Gen-Election-26G.pdf, PDF p. 8) and All Contests and Candidates list (Contests-Candidates-All-26.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party designation for district court candidates (guide: 'Nonpartisan office, no party designation required. (NRS 293.195)')",
+          "where": "Clark County 2026 Judicial Candidate Guide (JCG26.pdf), District Court Judge office notes, PDF p. 25"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party affiliation",
+          "where": "campaign site austin4judge.com, Home and About pages (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "Las Vegas Review-Journal, 'Incumbent judge, prosecutor clash in Department 8 race' (2026-10-01, opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Austin Beaumont party",
+          "where": "Review-Journal WordPress search (reviewjournal.com/wp-json/wp/v2/posts?search=Austin Beaumont) and Nevada Independent WordPress search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not reachable: host blocked (Cloudflare) from the research environment",
+          "where": "nvsos.gov voter/candidate records"
+        }
+      ]
     }
   },
   "ids": [],
