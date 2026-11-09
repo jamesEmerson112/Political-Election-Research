@@ -96,6 +96,22 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Nevada National Security Site",
+          "role": "Employee (position not stated)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-b73a363833",
+              "quote": "According to his LinkedIn, the libertarian candidate George Stamper works at the Nevada National Security Site and has a background in defense analytics.",
+              "locator": "Clerk section"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
