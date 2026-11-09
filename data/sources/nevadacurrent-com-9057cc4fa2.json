@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-9057cc4fa2",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-09",
+  "publisher": "Nevada Current",
+  "title": "Public defender challenging incumbent in Clark County Dept. 21",
+  "url": "https://nevadacurrent.com/2026/09/09/public-defender-challenging-incumbent-in-clark-county-dept-21/"
+}

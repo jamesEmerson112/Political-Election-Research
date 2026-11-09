@@ -45,6 +45,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Grew up in Los Angeles (place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-9057cc4fa2",
+          "quote": "Hubert grew up in Los Angeles, where his father served as medical director of the day treatment program at the West Los Angeles Veterans Administration Medical Center."
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
