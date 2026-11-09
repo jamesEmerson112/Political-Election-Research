@@ -65,6 +65,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed public office (lists law-firm positions, an adjunct teaching post and appointments as arbitrator and short trial judge in court-annexed programs; no public office)",
+          "where": "Campaign website votemcleod.com (home, Biography, Resume 2026 PDF)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "public office held (title and prior job titles are law-firm and court-annexed program roles)",
+          "where": "The Nevada Independent 2026 voter guide, Department 31 candidate deep dive"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "offices held (lists only her 2020, 2024 and 2026 judicial candidacies, none won)",
+          "where": "Our Nevada Judges candidate page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "McLeod (not listed as a judge)",
+          "where": "Eighth Judicial District Court judicial departments roster (clarkcountycourts.us/departments/judicial/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Alexandra McLeod\" Las Vegas attorney elected OR appointed office",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
