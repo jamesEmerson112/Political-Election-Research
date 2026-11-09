@@ -60,6 +60,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor's degree, Psychology",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:marr4judge-com-f2119df519",
+              "quote": "As a single parent, I worked full-time in the hospitality industry while pursuing my Bachelor’s degree in Psychology at the University of Nevada, Las Vegas.",
+              "locator": "PERSONAL STATEMENT, first paragraph"
+            },
+            {
+              "source": "src:reviewjournal-com-2e7aa0a32e",
+              "quote": "to complete her undergraduate degree in psychology from UNLV.",
+              "locator": "section 'Patricia Marr', first paragraph"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+          "year": 2003,
+          "citations": [
+            {
+              "source": "src:marr4judge-com-f2119df519",
+              "quote": "I went on to earn my Juris Doctorate from the William S. Boyd School of Law in 2003",
+              "locator": "PERSONAL STATEMENT, second paragraph"
+            },
+            {
+              "source": "src:reviewjournal-com-2e7aa0a32e",
+              "quote": "earned her law degree from UNLV’s Boyd School of Law in 2003",
+              "locator": "section 'Patricia Marr', first paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Family law attorney (solo practitioner)",
       "citations": [
