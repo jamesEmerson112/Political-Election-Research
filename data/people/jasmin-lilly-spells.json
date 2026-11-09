@@ -55,6 +55,52 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birthplace, grew up",
+          "where": "Eighth Judicial District Court, Department XXIII biography (https://www.clarkcountycourts.us/departments/judicial/civil-criminal-divison/department-xxiii/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, hometown, grew up",
+          "where": "Campaign website https://judgelilly-spells.com/ and /judicial-record/ (/about/ returns 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, came from, hometown",
+          "where": "UNLV Boyd School of Law alumni spotlight (https://law.unlv.edu/news/publications/boyd-briefs/alumni-spotlight-jasmin-lilly-spells-09): says she came to Las Vegas for law school, no place of birth or origin"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, grew up",
+          "where": "The Nevada Independent 2026 voter guide, Department 23 (https://thenevadaindependent.com/elections/2026/general/judicial/174)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, grew up",
+          "where": "Nevada Current, District Court Department 23 (Oct 5, 2020) (https://nevadacurrent.com/2020/10/05/district-court-department-23/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, hometown",
+          "where": "Our Nevada Judges judge and candidate pages (ournevadajudges.com)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lilly-Spells\" judge born grew up hometown (no birthplace found)",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jasmin Lilly-Spells judge reelection campaign website (no birthplace found)",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
