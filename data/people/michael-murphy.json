@@ -4,6 +4,52 @@
   "name": "Michael Murphy",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Murphy, Michael",
+          "where": "Clark County Election Department, Notice of General Election and general election candidate list PDFs (clarkcountynv.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Murphy",
+          "where": "Clark County Candidates Filed lookup (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx): form needs a postback, no list readable here; nvsos.gov candidate list blocked from this environment"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Michael Murphy public administrator campaign website",
+          "where": "candidate campaign website: none found by web search (murphyforpa.com belongs to a different Mike Murphy in Pennsylvania)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Murphy",
+          "where": "Nevada Current, 2026-05-12 and 2026-10-16 articles on the public administrator race"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Murphy",
+          "where": "The Nevada Independent, 2026-05-16 and 2026-09-19 articles on Clark County down-ballot races"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Murphy",
+          "where": "Las Vegas Review-Journal, 2026-01-24 article on his candidacy"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Age",
+          "where": "Las Vegas Review-Journal, 'Nevadan at Work' profile, 2012-09-09 (gives only 'Age: 58', no birth date)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Michael Murphy\" Clark County coroner biography born",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
