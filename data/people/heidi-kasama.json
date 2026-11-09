@@ -54,6 +54,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Realtor; business owner",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Realtor",
+          "locator": "PDF page 70, Legislative Biography 2025 Session, Heidi Kasama (occupation line under Assembly District 2, Clark County (part))"
+        },
+        {
+          "source": "src:heidikasama-com-2407dcb8c7",
+          "quote": "A business owner, former CPA, and Nevada Assemblywoman — and a legislative ethics reform champion."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

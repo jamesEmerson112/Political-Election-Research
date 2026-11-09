@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "heidikasama-com-2407dcb8c7",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Elect Heidi Kasama",
+  "title": "Heidi Kasama for County Commission District F",
+  "url": "https://www.heidikasama.com/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
