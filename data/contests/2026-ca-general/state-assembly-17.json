@@ -57,16 +57,16 @@
   "level": "state",
   "office_ref": "office:california-assembly-member",
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
     "tallies": [
       {
         "person": "person:matt-haney",
-        "votes": 95204
+        "votes": 156304
       },
       {
         "person": "person:manuel-noris-barrera",
-        "votes": 11398
+        "votes": 17031
       }
     ],
     "winners": [
@@ -75,20 +75,20 @@
     "citations": [
       {
         "source": "src:api-sos-ca-gov-d17764534f",
-        "quote": "\"Reporting\": \"100% (298 of 298) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100% (298 of 298) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-d17764534f",
-        "quote": "\"Name\": \"Matt Haney\", \"Party\": \"Dem\", \"Votes\": \"95,204\", \"Percent\": \"89.3\"",
+        "quote": "\"Name\": \"Matt Haney\", \"Party\": \"Dem\", \"Votes\": \"156,304\", \"Percent\": \"90.2\"",
         "locator": "candidates[0]"
       },
       {
         "source": "src:api-sos-ca-gov-d17764534f",
-        "quote": "\"Name\": \"Manuel Noris-Barrera\", \"Party\": \"Rep\", \"Votes\": \"11,398\", \"Percent\": \"10.7\"",
+        "quote": "\"Name\": \"Manuel Noris-Barrera\", \"Party\": \"Rep\", \"Votes\": \"17,031\", \"Percent\": \"9.8\"",
         "locator": "candidates[1]"
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
