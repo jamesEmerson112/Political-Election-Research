@@ -4,6 +4,37 @@
   "name": "Kelly Quinn",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date, age, born",
+          "where": "Campaign site quinnfornv.com (home, About, Issues, Endorsements pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn age or birth year",
+          "where": "The Nevada Independent 2026 general election voter guide, Clark State Assembly page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn age, born",
+          "where": "Las Vegas Review-Journal, 'Assembly District 5: Hedrick, Quinn battle for Republican nod' (May 15, 2022) and 'Miller facing Republican, Libertarian in Assembly District 5 re-election' (Oct 5, 2022)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Kelly Quinn\" Las Vegas Assembly candidate questionnaire education age",
+          "where": "Web search (news and voter guides)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Declaration of candidacy, Kelly Quinn, Assembly District 5 (host blocked from the research environment)",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
