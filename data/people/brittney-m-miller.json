@@ -27,6 +27,56 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A., Criminal Justice",
+          "institution": "Saginaw Valley State University",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Saginaw Valley State University, B.A., Criminal Justice; Oakland University, M.P.A.; Sierra Nevada College, M.A.T.",
+              "locator": "PDF page 74, Legislative Biography—2025 Session, Brittney M. Miller"
+            },
+            {
+              "source": "src:thenevadaindependent-com-3cd576843e",
+              "quote": "Miller graduated from Saginaw Valley State University in Michigan with a bachelor's degree in Criminal Justice."
+            }
+          ]
+        },
+        {
+          "degree": "M.P.A.",
+          "institution": "Oakland University",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Saginaw Valley State University, B.A., Criminal Justice; Oakland University, M.P.A.; Sierra Nevada College, M.A.T.",
+              "locator": "PDF page 74, Legislative Biography—2025 Session, Brittney M. Miller"
+            },
+            {
+              "source": "src:thenevadaindependent-com-3cd576843e",
+              "quote": "She holds two master's degrees — one in public administration from Oakland University and another in education from Sierra Nevada College."
+            }
+          ]
+        },
+        {
+          "degree": "M.A.T.",
+          "institution": "Sierra Nevada College",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Saginaw Valley State University, B.A., Criminal Justice; Oakland University, M.P.A.; Sierra Nevada College, M.A.T.",
+              "locator": "PDF page 74, Legislative Biography—2025 Session, Brittney M. Miller"
+            },
+            {
+              "source": "src:thenevadaindependent-com-3cd576843e",
+              "quote": "She holds two master's degrees — one in public administration from Oakland University and another in education from Sierra Nevada College."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Educator, Clark County School District",
       "citations": [
