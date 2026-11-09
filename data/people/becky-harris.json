@@ -55,6 +55,47 @@
           "quote": "In an interview Monday, Harris said she changed her voter registration to non-partisan on Oct. 3"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Becky Harris residence city; none stated",
+          "where": "UNLV and Boyd School of Law biographies (unlv.edu/people/becky-harris, law.unlv.edu/faculty/becky-harris)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Harris, Becky address; lists only a 2017 P.O. Box mailing address, not a residence",
+          "where": "Nevada Legislature, Legislative Manual 2017, Chapter I, Senate roster"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Harris lives; says only that she has lived in Southern Nevada since 1999",
+          "where": "Nevada Current, Former state senator discards Republican mantle (2025-11-04)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Becky Harris lives in; no city stated",
+          "where": "KTNV and The Nevada Independent 2026 District F coverage"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 County Commission District F filings; the lookup is a form postback that the research fetcher cannot read",
+          "where": "Clark County Election Department candidate filing page and Candidates Filed lookup (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "connection reset / certificate error; no campaign site found",
+          "where": "Campaign website (beckyharrisfornevada.com, beckyharris.com tried)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Becky Harris Las Vegas resident Summerlin lives former state senator",
+          "where": "Web search"
+        }
+      ]
     }
   },
   "ids": [],
