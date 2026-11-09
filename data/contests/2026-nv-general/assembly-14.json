@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-14",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 14",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:erica-mosca",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "State Assembly District 14 Mosca Erica DEM 2",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 14 row (contest, last name, first name, party, term)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "14 Erica Mosca* Democrat",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 14 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 2, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Mosca, Erica Assistant Majority Floor Leader Democratic No. 14 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Erica Mosca represented District 14 in the 2025 session"
+        }
+      ]
+    }
+  ],
+  "district": 14,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
