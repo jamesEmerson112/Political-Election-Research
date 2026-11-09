@@ -110,6 +110,57 @@
           "locator": "PDF page 3, Nevada State Assembly Candidates, District 34 (compiled from the Secretary of State's certified list of candidates)"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "electbrandondavis.com (campaign site; on 2026-11-09 every path tried, including /about/, /meet-brandon/ and news posts, showed only the post-election letter)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "ivoterguide.com candidate 71807 (candidate-supplied biography: education, work, affiliations only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Brandon Davis",
+          "where": "thenevadaindependent.com 2026 Clark State Assembly guide (one-line candidate summary)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Brandon Davis",
+          "where": "reviewjournal.com, April 18, 2025 article on DOGE NEVADA"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Davis Brandon",
+          "where": "clarkcountynv.gov 2026 general election candidate lists (officesup-26g.pdf, Contests-Candidates-All-26.pdf, notice of general election: names and party only, no addresses)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Brandon Davis",
+          "where": "leg.state.nv.us 2026 General Election Nevada Legislative Candidates roster (names and party only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "declaration of candidacy address",
+          "where": "nvsos.gov candidate filings (host blocked from the research environment)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Brandon Davis\" DOGE Nevada president Las Vegas news",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Brandon Davis\" Assembly District 34 Nevada Independent OR Review-Journal 2024 Summerlin Republican",
+          "where": "web search"
+        }
+      ]
     }
   },
   "ids": [],
