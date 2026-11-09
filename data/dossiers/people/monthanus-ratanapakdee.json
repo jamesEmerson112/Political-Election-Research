@@ -1,6 +1,52 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:monthanus-ratanapakdee",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Monthanus Ratanapakdee",
+        "where": "web search (result summaries used only to find pages)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Monthanus Ratanapakdee lawsuit OR controversy OR criticized",
+        "where": "web search (result summaries used only to find pages)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ratanapakdee District 2 supervisor race Sherrill 2026",
+        "where": "web search (result summaries used only to find pages)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Ratanapakdee\" ethics OR fined OR lawsuit San Francisco candidate 2026",
+        "where": "web search (result summaries used only to find pages)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "fppc.ca.gov \"Ratanapakdee\" OR \"Guy McCoy\" OR \"Nicholas Berg\" OR \"Stephen Sherrill\" (one combined search; no FPPC enforcement record for any of the four)",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Sherrill; Berg; McCoy; Ratanapakdee",
+        "where": "San Francisco Ethics Commission Penalties Issued dataset (DataSF yre9-mzkb, all 164 rows read via data.sfgov.org); no respondent matches any District 2 candidate"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Same official databases searched for every candidate in this contest; documented matters need two independent publishers or one official record. sfelections.org and web.archive.org were blocked from this session",
+        "where": "note"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Web results concerned the Vicha Ratanapakdee case and unrelated people or officials; none met the documentation rule",
+        "where": "note"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-04",
     "items": [
