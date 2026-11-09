@@ -68,6 +68,52 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Senate, District 21",
+          "current": true,
+          "jurisdiction": "Nevada Senate District 21",
+          "start": "2018-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Years in Senate: November 2018 to Current",
+              "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Democrat Senate District 21 Clark County (part)",
+              "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall"
+            },
+            {
+              "source": "src:leg-state-nv-us-318e9ea062",
+              "quote": "Ohrenschall, James Democratic No. 21 Clark (Part) Currently Serving",
+              "locator": "83rd (2025) Session Senate roster"
+            }
+          ]
+        },
+        {
+          "office": "Member, Nevada Assembly",
+          "end": "2018-11",
+          "jurisdiction": "Nevada",
+          "start": "2006-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Years in Assembly: November 2006 to November 2018",
+              "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall"
+            },
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "A deputy public defender for the Clark County Juvenile Court, Ohrenschall previously served six terms in the Assembly and has held his Senate seat since 2018.",
+              "locator": "State Senate, District 21"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
