@@ -4,6 +4,52 @@
   "name": "Jill M. Douglass",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth year, age",
+          "where": "campaign site jilldouglass.com (home page incl. Meet Jill section; /meet-jill and /about returned HTTP 500)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jill M. Douglass experience/biography",
+          "where": "Las Vegas Review-Journal 2026 voter guide, Assembly District 37 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jill M. Douglass",
+          "where": "iVoterGuide candidate profile (Biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Douglass background",
+          "where": "The Nevada Independent, AD37 election preview (2026-08-28) and 2026 Clark State Assembly voter guide"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Douglass age/born",
+          "where": "Las Vegas Review-Journal, 'Clark County GOP chair faces challenger' (2023-06-19)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Douglass age/born",
+          "where": "Nevada Current (2024-05-20), Las Vegas Sun (2025-07-11), 8 News Now (KLAS) on her 2025 party-chair election"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Jill Douglass\" Las Vegas Republican age born",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not reachable: host blocked from the research environment",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
