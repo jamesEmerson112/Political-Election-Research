@@ -86,6 +86,22 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor of Arts in Business Management (minors in Administration of Justice and Psychology)",
+          "institution": "Not named in the source",
+          "citations": [
+            {
+              "source": "src:mitchelltracy-com-438a23d511",
+              "quote": "He holds a Bachelor of Arts in Business Management, with minors in Administration of Justice and Psychology,",
+              "locator": "ABOUT"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Accountant",
       "citations": [
