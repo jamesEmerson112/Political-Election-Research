@@ -194,19 +194,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 4014020,
-    "yes_votes": 3744295,
+    "no_votes": 5059705,
+    "yes_votes": 4972284,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Repeals Prohibition Against Public Funding Of Election Campaigns. Legislative Statute.\", \"Number\": \"04\", \"yesVotes\": \"3744295\", \"yesPercent\": \"48.3\", \"noVotes\": \"4014020\", \"noPercent\": \"51.7\"",
+        "quote": "\"Name\": \"Repeals Prohibition Against Public Funding Of Election Campaigns. Legislative Statute.\", \"Number\": \"04\", \"yesVotes\": \"4972284\", \"yesPercent\": \"49.6\", \"noVotes\": \"5059705\", \"noPercent\": \"50.4\"",
         "locator": "ballot-measures, Number 04"
       }
     ]
@@ -221,5 +221,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
