@@ -50,6 +50,137 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Wilson Elser Moskowitz Edelman & Dicker LLP",
+          "role": "Of Counsel",
+          "start": "2022-11",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Of Counsel, WILSON ELSER MOSKOWITZ EDELMAN & DICKER LLP Nov 2022—Present",
+              "locator": "PDF page 1, PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "end": "2022-08",
+          "organization": "Nettles Morris",
+          "role": "Trial Attorney",
+          "start": "2021-08",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Trial Attorney, NETTLES | MORRIS Aug 2021—Aug 2022",
+              "locator": "PDF page 1, PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "end": "2021-08",
+          "organization": "AIG Staff Counsel (formerly Grant & Associates)",
+          "role": "Trial Attorney",
+          "start": "2017-09",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Trial Attorney, AIG STAFF COUNSEL (fka GRANT & ASSOCIATES) Sept 2017—Aug 2021",
+              "locator": "PDF page 1, PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "end": "2017-09",
+          "organization": "Thorndal Armstrong, PC",
+          "role": "Senior Associate Attorney",
+          "start": "2014-02",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Senior Associate Attorney, THORNDAL ARMSTRONG, PC Feb 2014—Sept 2017",
+              "locator": "PDF page 1, PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "end": "2014-01",
+          "organization": "Brady, Vorwerck, Ryder & Caspino",
+          "role": "Supervising Attorney",
+          "start": "2008-10",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Supervising Attorney, BRADY, VORWERCK, RYDER & CASPINO Oct 2008—Jan 2014",
+              "locator": "PDF page 1, PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "end": "2008-09",
+          "organization": "Lewis & Associates, LLC",
+          "role": "Associate Attorney",
+          "start": "2007-03",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Associate Attorney Positions:\nLEWIS & ASSOCIATES, LLC Mar 2007—Sept 2008",
+              "locator": "PDF page 1, PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "end": "2007-02",
+          "organization": "Seegmiller & Associates",
+          "role": "Associate Attorney",
+          "start": "2006-08",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "SEEGMILLER & ASSOCIATES Aug 2006—Feb 2007",
+              "locator": "PDF page 1, PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "end": "2006-08",
+          "organization": "Lewis & Shreve, LLP",
+          "role": "Associate Attorney",
+          "start": "2003-01",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "LEWIS & SHREVE, LLP Jan 2003—Aug 2006",
+              "locator": "PDF page 1, PROFESSIONAL EXPERIENCE"
+            }
+          ]
+        },
+        {
+          "end": "2013",
+          "organization": "University of Phoenix, Las Vegas Campus",
+          "role": "Adjunct Professor",
+          "start": "2008",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Adjunct Professor | University of Phoenix, Las Vegas Campus | 2008-2013",
+              "locator": "PDF page 2, OTHER"
+            }
+          ]
+        },
+        {
+          "role": "Arbitrator and short trial judge (court-annexed programs)",
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Appointed arbitrator & short trial judge in court-annexed programs",
+              "locator": "PDF page 1, summary bullets"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
