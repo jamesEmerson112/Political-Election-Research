@@ -81,6 +81,39 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Family Court hearing master (Domestic Violence Commissioner)",
+          "current": true,
+          "jurisdiction": "Clark County",
+          "start": "2021",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-41cdd36a63",
+              "quote": "Forman previously clerked at the Legal Aid Center of Southern Nevada and then at Family Court before becoming a staff attorney there. He became a hearing master in 2021.",
+              "locator": "Article body, 'The right time' section"
+            },
+            {
+              "source": "src:reviewjournal-com-41cdd36a63",
+              "quote": "This is Forman’s second bid for the bench. Appointed as a judicial officer five years ago, he helps ease judges’ heavy caseloads by making recommendations for their review.",
+              "locator": "Article body, 'The right time' section, first paragraph"
+            },
+            {
+              "source": "src:randallforman-com-f95e669940",
+              "quote": "Randall Forman is not the incumbent. He is a judicial officer currently serving as a Domestic Violence Commissioner in Family Court.",
+              "locator": "Home page, top banner"
+            },
+            {
+              "source": "src:randallforman-com-f95e669940",
+              "quote": "Family Court Commissioner, Clark County — 5 years",
+              "locator": "About Randall section, list of roles"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
