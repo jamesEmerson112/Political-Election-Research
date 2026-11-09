@@ -4,6 +4,16 @@
   "name": "Eileen Eady",
   "aliases": [],
   "candidate_profile": {
+    "birthplace": {
+      "value": "South Bend, Indiana",
+      "citations": [
+        {
+          "source": "src:eadyfornevada-com-dfc55091d9",
+          "quote": "Born in South Bend, Indiana, Eileen still remembers the wall of snow outside the house in the winter.",
+          "locator": "Meet Eileen section"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
