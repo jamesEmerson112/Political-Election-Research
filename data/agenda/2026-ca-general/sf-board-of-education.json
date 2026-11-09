@@ -36,6 +36,44 @@
       "name": "Tim Tung"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-board-of-education|legislation|person:autumn-brown-garibay",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office / legislation authored or voted on",
+          "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, Board of Education candidate statement (https://media.api.sf.gov/documents/N26_EN_VIP.pdf): occupation PTA Vice President; no public office listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bill / resolution / voted / office",
+          "where": "Campaign website https://www.autumnforschoolboard.com/, /about and /priorities: no legislative or elected office, no bills or votes"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "commissions and policy bodies served on",
+          "where": "SF League of Pissed Off Voters 2026 questionnaire (https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911365/School_Board_Autumn_Brown_Garibay.pdf, p. 5): states she has not served on a government commission or state policy body"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office / legislation",
+          "where": "GrowSF November 2026 questionnaire (https://growsf.org/voter-guide/questionnaires/november-2026/autumn-brown-garibay/): no office held, no bills or votes named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "current Board of Education members",
+          "where": "SFUSD Board of Education page (https://www.sfusd.edu/about-sfusd/board-education): not among the seven current commissioners"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "offices_held research",
+          "where": "Profile research of 2026-11-04 (offices_held is an empty list with its own search log); Mission Local candidate pages not reachable (HTTP 403 / rate-limited)"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:sfusd-board-of-education-member",
   "promise_topics": [
