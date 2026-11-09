@@ -54,6 +54,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed offices; it names a 2024 run for the Board of School Trustees, not a term served",
+          "where": "kamilah4nevadans.com/about (campaign biography, opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "prior office; it reports she lost the 2024 Clark County schools trustee general election and that neither candidate has represented the district",
+          "where": "The Nevada Independent, 2026-09-03 AD2 election preview (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "current and past members",
+          "where": "Nevada Legislature Assembly member list, 83rd (2025) Session (leg.state.nv.us, opened earlier for the contest record)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kamilah Bywaters",
+          "where": "The Nevada Independent 2026 voter guide, Clark State Assembly page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kamilah Bywaters Nevada Assembly District 2",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Kamilah Bywaters\" campaign website about",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
