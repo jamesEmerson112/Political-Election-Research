@@ -1,6 +1,161 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:pearci-pj-bastiany-iii",
+  "promises": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "martial-artists-community-protection-initiative-pilot",
+        "as_of": "2026-11-09",
+        "issue": "public-safety",
+        "summary": "In his GrowSF questionnaire, Bastiany proposes launching MACPI, with licensed, unarmed martial artists and U.S. veterans as de-escalators in high-need areas, schools and transit corridors, piloted in Bayview with $2M from Prop A safety funds; his 100-day target is 25 MACPI patrols operating across District 10.",
+        "title": "Martial Artists Community Protection Initiative (MACPI) pilot",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Launch the Martial Artists Community Protection Initiative (MACPI), deploying licensed, unarmed Taekwondo/Karate black belts, martial artists, and US Veterans as de-escalators in high-need areas, schools, and transit corridors.",
+            "locator": "Your Policy Goals: Public Safety"
+          },
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Pilot in Bayview hotspots with $2M from Prop A safety funds, measuring success via crime incident reductions.",
+            "locator": "Your Policy Goals: Public Safety"
+          },
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Day 100 Metric: 25 MACPI patrols operational across D10; contracts signed with 10 businesses/schools; zero incidents on patrol routes.",
+            "locator": "District-specific questions: 100 day plan"
+          }
+        ]
+      },
+      {
+        "id": "maritime-prosperity-zone-for-hunters-point-naval-shipyard",
+        "as_of": "2026-11-09",
+        "summary": "Bastiany's GrowSF questionnaire says he seeks federal Maritime Prosperity Zone designation to reactivate the shipyard with phytoremediation and clean manufacturing, and advocates that the Secretary of the Navy cancel the 26-year-old Lennar/5Point housing plan there; his 100-day target is a Board of Supervisors resolution introduced and a letter sent to the Secretary of the Navy.",
+        "title": "Maritime Prosperity Zone designation for Hunters Point Naval Shipyard",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Secure federal Maritime Prosperity Zone designation to reactivate shipyard with phytoremediation and clean manufacturing.",
+            "locator": "District-specific questions: 100 day plan"
+          },
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Day 100 Metric: BOS resolution introduced + letter to Secretary of Navy sent; MPZ pre-application filed with MARAD; first phytoremediation test plot active at shipyard.",
+            "locator": "District-specific questions: 100 day plan"
+          },
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "I am now advocating that the Secretary of the Navy cancel the 26-year-old Lennar/5Point housing plan at Hunters Point",
+            "locator": "Your Policy Goals: Why those policies?"
+          }
+        ]
+      },
+      {
+        "id": "maritime-atlantis-for-housing-villages",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "Bastiany's GrowSF questionnaire proposes 10 barge-mounted prefab housing clusters (840 units, about 1,460 residents) in India Basin and Islais Creek at $1,000 to $2,500 a month, with rent-to-own options.",
+        "title": "Maritime Atlantis for Housing barge villages",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Roll out Maritime Atlantis for Housing Villages: 10 barge-mounted prefab clusters (840 units, ~1,460 residents) in India Basin/Islais Creek using Homes4Homeless space capsules at $1,000-$2,500/month (rent-to-own options building $42M resident equity).",
+            "locator": "Your Policy Goals: Housing"
+          }
+        ]
+      },
+      {
+        "id": "d10-connectivity-plan",
+        "as_of": "2026-11-09",
+        "issue": "transportation",
+        "summary": "Bastiany's GrowSF questionnaire proposes a three-part transit plan: historic trolley shuttles from Evans to Sunnydale during the Islais Creek Bridge closure, a T-line extension along Geneva Avenue to Balboa Park BART, and a shoreline light rail line from Evans via India Basin, Candlestick and Bayshore.",
+        "title": "D10 Connectivity Plan: trolley shuttles, T-line extension, shoreline rail",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Implement the \"D10 Connectivity Plan\": (1) Historic trolley shuttles from Evans to Sunnydale during Islais Creek Bridge closure (2026-2028); (2) T-line extension along Geneva Avenue to Balboa Park BART for seamless SamTrans/Caltrain access; (3) Shoreline light rail from Evans via India Basin, Candlestick, and Bayshore with off-peak light freight to divert Prologis warehouse trucks",
+            "locator": "Your Policy Goals: Transit"
+          }
+        ]
+      },
+      {
+        "id": "moratorium-on-luxury-and-market-rate-housing",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "Bastiany's GrowSF questionnaire says he will sponsor a moratorium on luxury and market-rate housing developments.",
+        "title": "Moratorium on luxury and market-rate housing developments",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "I will sponsor a Moratorium on Luxury and Market Rate housing developments.",
+            "locator": "Housing: explanation of positions"
+          }
+        ]
+      },
+      {
+        "id": "rent-cap-at-3000",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "Bastiany's GrowSF questionnaire says he supports enforcing a rent cap at $3,000.",
+        "title": "Rent cap at $3,000 a month",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "I support enforcing a rent cap at $3,000.",
+            "locator": "Housing: Do you believe that housing prices are set by supply and demand constraints?"
+          }
+        ]
+      },
+      {
+        "id": "100-affordable-fast-track-ordinance",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "Bastiany's GrowSF questionnaire proposes a \"100% Affordable Fast-Track\" ordinance with a 21-day review for modular and pontoon housing projects that meet prefab standards.",
+        "title": "\"100% Affordable Fast-Track\" ordinance",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Streamline Permitting: Create \"100% Affordable Fast-Track\" ordinance—21-day review for modular/pontoon projects meeting prefab standards",
+            "locator": "District-specific questions: D10 housing production 2026-2030"
+          }
+        ]
+      },
+      {
+        "id": "senior-homeowner-relief-ordinance",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "Bastiany's GrowSF questionnaire proposes doubling Homeowner Assistance Program funding for District 10 seniors (65 and over or disabled) with a $1M annual District 10 allocation, and names introducing a senior relief ordinance as a 100-day goal.",
+        "title": "Senior homeowner relief ordinance",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Policy: Double Homeowner Assistance Program funding for D10 seniors (65+ or disabled) covering mortgage/HOA/property taxes; add $1M annual D10 allocation.",
+            "locator": "District-specific questions: helping existing homeowners"
+          },
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "Day 100: Senior relief ordinance introduced; $2M MOHCD D10 allocation secured.",
+            "locator": "District-specific questions: helping existing homeowners"
+          }
+        ]
+      },
+      {
+        "id": "paid-internship-for-every-staff-position",
+        "as_of": "2026-11-09",
+        "issue": "government",
+        "summary": "Bastiany's GrowSF questionnaire says he plans to pair every staff position in his supervisor's office with a paid internship for undergraduate and graduate students from the district.",
+        "title": "Paid student internship paired with every office staff position",
+        "citations": [
+          {
+            "source": "src:growsf-org-91f7f4d5a8",
+            "quote": "I plan to pair every staff position in my office with a paid internship for undergraduate and graduate students from across the district.",
+            "locator": "Your Leadership: balancing the electorate and special interests"
+          }
+        ]
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
