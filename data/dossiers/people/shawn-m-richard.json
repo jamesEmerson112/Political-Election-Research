@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:shawn-m-richard",
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes: offices, programs, legislation, budgets",
+        "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement, Board of Supervisors District 10, printed p. 51: founder and leader of Brothers Against Guns; outcomes described in general terms, no government record"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "commissions and policy bodies",
+        "where": "SF League of Pissed Off Voters 2026 questionnaire (D10_Supervisor_Shawn_Richard.pdf), p. 4: lists service on the Juvenile Probation Commission, the Police Accountability Board, a Blue Ribbon Committee and a DOJ committee, without dates or documented outcomes; not confirmed in an official record here"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Commissioners",
+        "where": "sf.gov Juvenile Probation Commission page: current roster does not include him; no minutes or actions attributed to him found there"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Brothers Against Guns history and results",
+        "where": "Campaign site shawnmrichard4d10.com (/meet-shawn, /issues) and GrowSF November 2026 questionnaire: founded Brothers Against Guns in 1995; campaign claims, not government records of outcomes"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "MatterTitle/MatterName contains 'Shawn Richard', 'Shawn M. Richard', 'Brothers Against Guns'",
+        "where": "San Francisco Board of Supervisors legislative files via the Legistar web API (webapi.legistar.com/v1/sfgov/matters): no matter naming him or the organization"
+      }
+    ]
+  }
+}
