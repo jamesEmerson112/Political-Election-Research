@@ -248,19 +248,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 4406663,
-    "yes_votes": 3566935,
+    "no_votes": 5490490,
+    "yes_votes": 4830348,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Imposes One-Time Tax On Certain Taxpayers. Initiative Constitutional Amendment And Statute.\", \"Number\": \"40\", \"yesVotes\": \"3566935\", \"yesPercent\": \"44.7\", \"noVotes\": \"4406663\", \"noPercent\": \"55.3\"",
+        "quote": "\"Name\": \"Imposes One-Time Tax On Certain Taxpayers. Initiative Constitutional Amendment And Statute.\", \"Number\": \"40\", \"yesVotes\": \"4830348\", \"yesPercent\": \"46.8\", \"noVotes\": \"5490490\", \"noPercent\": \"53.2\"",
         "locator": "ballot-measures, Number 40"
       }
     ]
@@ -275,5 +275,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
