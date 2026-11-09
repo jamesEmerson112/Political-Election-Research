@@ -116,6 +116,57 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "blocked host, not reachable",
+          "where": "NSHE regent biography (nshe.nevada.edu)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "HTTP 503 usage exceeded, not readable",
+          "where": "jenniferforregent.com (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "McGrath education law school",
+          "where": "McGrath Kavinoky LLP home page (mklawllp.com) partner entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "McGrath law school",
+          "where": "State Bar of California licensee record #211388 (shows admission 12/7/2000, no school)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "McGrath education",
+          "where": "Governor's press release of 2025-02-28 on the appointment (gov.nv.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "McGrath education degree",
+          "where": "Nevada Current, 2026-04-16 and 2026-09-22 race previews"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "McGrath education",
+          "where": "Las Vegas Review-Journal 2026 voter guide, Board of Regents District 2"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "McGrath education",
+          "where": "iVoterGuide candidate profile (Education: 'Candidate did not provide')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Jennifer McGrath\" regent UCLA law degree (Ballotpedia's UCLA entries are a lead only; no primary source reached)",
+          "where": "web search"
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney (civil litigator)",
       "citations": [
