@@ -101,6 +101,26 @@
         }
       ]
     },
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Loop Marilyn Dondero DEM",
+          "locator": "PDF page 2 (Page 2 of 10), STATE PARTISAN, State Senate District 8"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "8 Marilyn Dondero Loop* George E. Harris Democrat Republican",
+          "locator": "PDF page 1, Nevada State Senate Candidates, District 8 (names and parties listed in the same order)"
+        }
+      ]
+    },
     "residence_city": {
       "value": "Las Vegas",
       "citations": [
