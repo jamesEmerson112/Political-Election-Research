@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-4",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 4",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:nadia-krall",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Krall, Nadia NP",
+          "locator": "PDF page 7, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 4 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 4 Krall Nadia NP 6",
+          "locator": "PDF page 3 (3 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "IV RJC 11A Nadia Krall",
+          "locator": "Civil/criminal judicial departments table, DEPT# IV row (dept, location, courtroom, judge): the sitting judge of Department 4"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
