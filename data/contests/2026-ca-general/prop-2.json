@@ -218,19 +218,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 3156737,
-    "yes_votes": 4698203,
+    "no_votes": 3940622,
+    "yes_votes": 6217976,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Increases State's Rainy Day Fund. Legislative Constitutional Amendment.\", \"Number\": \"02\", \"yesVotes\": \"4698203\", \"yesPercent\": \"59.8\", \"noVotes\": \"3156737\", \"noPercent\": \"40.2\"",
+        "quote": "\"Name\": \"Increases State's Rainy Day Fund. Legislative Constitutional Amendment.\", \"Number\": \"02\", \"yesVotes\": \"6217976\", \"yesPercent\": \"61.2\", \"noVotes\": \"3940622\", \"noPercent\": \"38.8\"",
         "locator": "ballot-measures, Number 02"
       }
     ]
@@ -245,5 +245,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
