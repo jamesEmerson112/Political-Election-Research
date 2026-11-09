@@ -136,6 +136,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney; pro tempore judge, Las Vegas Justice Court",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-203a8b55bb",
+          "quote": "Attorney and judge Shannon Nordstrom is up against Luke McCarthy, a veteran firefighter.",
+          "locator": "introduction, paragraph 4"
+        },
+        {
+          "source": "src:nevadacurrent-com-7488efdd7f",
+          "quote": "Nordstrom is currently a pro tempore judge with the Las Vegas Justice Court.",
+          "locator": "Meet the candidates"
+        },
+        {
+          "source": "src:shannonnordstrom-com-be494f5f1c",
+          "quote": "I offer a proven commitment to service as a mother, wife, attorney, caregiver, educator, Scout leader and dedicated community volunteer.",
+          "locator": "home page, Why I'm running"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

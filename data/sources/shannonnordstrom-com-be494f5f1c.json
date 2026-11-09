@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "shannonnordstrom-com-be494f5f1c",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Friends to Elect Shannon Nordstrom",
+  "title": "Home | Shannon Nordstrom for Las Vegas City Council",
+  "url": "https://www.shannonnordstrom.com/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
