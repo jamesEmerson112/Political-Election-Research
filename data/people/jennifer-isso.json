@@ -3,6 +3,53 @@
   "id": "jennifer-isso",
   "name": "Jennifer Isso",
   "aliases": [],
+  "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Lowest Price Lawyers",
+          "role": "Owner and founder; lawyer",
+          "start": "2016",
+          "citations": [
+            {
+              "source": "src:jennifer-isso-com-bad7d1b8ac",
+              "quote": "Jennifer Isso is a Las Vegas, Nevada-based lawyer who has owned and driven operations at Lowest Price Lawyers since establishing the practice in 2016."
+            },
+            {
+              "source": "src:cake-me-31b8ffa98d",
+              "quote": "Owner/ Founder/ Lawyer • Lowest Price Lawyers November 2016 ~ Now"
+            }
+          ]
+        },
+        {
+          "organization": "Best Family Lawyers",
+          "role": "Founder and owner",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "As the founder and owner of Best Family Lawyers and Lowest Price Lawyers, I have worked to expand access to quality legal representation while providing practical, results-driven legal services to clients throughout Las Vegas and Clark County.",
+              "locator": "DISTRICT COURT FAMILY COURT DEPT. P, Jennifer Isso, Experience (candidate's own answer)"
+            },
+            {
+              "source": "src:cake-me-31b8ffa98d",
+              "quote": "She expanded her professional activities by opening Best Family Lawyers Las Vegas, and she is currently running for Judge in the Family Court Department."
+            }
+          ]
+        },
+        {
+          "role": "Litigation attorney (firm not named), three years before starting her own firm",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-cda1f2fcc1",
+              "quote": "Prior job titles: Owner/litigator at Lowest Price Lawyers; litigation attorney at unknown firm for three years before starting her own firm",
+              "locator": "Jennifer Isso, CANDIDATE DEEP DIVE, TITLE"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
