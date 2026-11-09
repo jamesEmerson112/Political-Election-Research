@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/las-vegas-municipal-court-dept-1",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "City of Las Vegas Municipal Court Judge Department 1",
+  "office": "City of Las Vegas Municipal Court Judge",
+  "candidates": [
+    {
+      "person": "person:amanda-pellizzari",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Pellizzari, Amanda NP",
+          "locator": "PDF page 14, CITY OF LAS VEGAS MUNICIPAL COURT JUDGE, 2-YEAR UNEXPIRED TERM, DEPARTMENT 1"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Walker (appointed in Feb.",
+          "locator": "PDF page 11 (11 of 12), INCUMBENT (Current Office Holder) column, City of Las Vegas Municipal Court Judge Department 1: the office holder is Matthew Walker, so this candidate is not the incumbent"
+        },
+        {
+          "source": "src:lasvegasnevada-gov-47ee9baf47",
+          "quote": "*Denotes incumbent who is not required to file an SB418 form.",
+          "locator": "Candidate Lists & Information, Municipal Court Judge Dept. 1: Pellizzari, Amanda is listed without the asterisk"
+        }
+      ]
+    },
+    {
+      "person": "person:matt-walker",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Walker, Matt NP",
+          "locator": "PDF page 14, CITY OF LAS VEGAS MUNICIPAL COURT JUDGE, 2-YEAR UNEXPIRED TERM, DEPARTMENT 1"
+        },
+        {
+          "source": "src:lasvegasnevada-gov-47ee9baf47",
+          "quote": "*Walker, Matthew - Click for Contact Information Sheet",
+          "locator": "Candidate Lists & Information, Municipal Court Judge Dept. 1, To fill unexpired term ending 2028"
+        },
+        {
+          "source": "src:lasvegasnevada-gov-47ee9baf47",
+          "quote": "*Denotes incumbent who is not required to file an SB418 form.",
+          "locator": "Candidate Lists & Information, Municipal Court Judge Dept. 1"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Walker (appointed in Feb.",
+          "locator": "PDF page 11 (11 of 12), INCUMBENT (Current Office Holder) column, City of Las Vegas Municipal Court Judge Department 1 (Walker, Matthew, NP, 2-Year Unexpired Term)"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegasnevada-gov-47ee9baf47",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "City of Las Vegas",
+  "title": "Elections: Candidate Lists & Information",
+  "url": "https://www.lasvegasnevada.gov/Government/Elections?tab=2"
+}
