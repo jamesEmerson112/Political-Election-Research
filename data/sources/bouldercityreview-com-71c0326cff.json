@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "bouldercityreview-com-71c0326cff",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2019-08-14",
+  "publisher": "Boulder City Review",
+  "title": "Goya's innovation recognized",
+  "url": "https://bouldercityreview.com/news/goyas-innovation-recognized-53987/"
+}

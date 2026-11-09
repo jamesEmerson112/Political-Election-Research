@@ -138,6 +138,15 @@
           "locator": "PDF page 6, COUNTY CLERK 4-YEAR TERM"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Boulder City",
+      "citations": [
+        {
+          "source": "src:bouldercityreview-com-71c0326cff",
+          "quote": "Clark County Clerk and Boulder City resident Lynn Goya has been recognized nationally for improving the process of licensing marriage officiants."
+        }
+      ]
     }
   },
   "ids": [],
