@@ -14,6 +14,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Boulder City, Nevada",
+      "citations": [
+        {
+          "source": "src:archive-leg-state-nv-us-3cce472fcf",
+          "quote": "Born: 1948 – Boulder City, Nevada",
+          "locator": "page 1"
+        },
+        {
+          "source": "src:clarkcountynv-gov-b70c3ce02f",
+          "quote": "A third-generation Nevadan born in Boulder City, he brings a legacy of service to the residents of Nevada, serving in the state Assembly from 2006 to 2012 and as a state senator from 2012 to 2018."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

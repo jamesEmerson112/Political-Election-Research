@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-b70c3ce02f",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Clark County, Nevada",
+  "title": "About Commissioner Segerblom",
+  "url": "https://www.clarkcountynv.gov/government/board_of_county_commissioners/district_e/biography"
+}
