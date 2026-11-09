@@ -3,6 +3,23 @@
   "id": "tick-segerblom",
   "name": "\"Tick\" Segerblom",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Segerblom, \"Tick\" DEM",
+          "locator": "PDF page 6, COUNTY COMMISSION 4-YEAR TERM, DISTRICT E"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1, Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "official_site": "https://www.clarkcountynv.gov/government/board_of_county_commissioners/district_e/"
