@@ -111,6 +111,29 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Clark County Treasurer",
+          "current": true,
+          "first_elected": "2022-11-08",
+          "jurisdiction": "Clark County, Nevada",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "Ken Diaz was elected Clark County Treasurer on November 8, 2022.",
+              "locator": "J. Ken Diaz, CPA biography"
+            },
+            {
+              "source": "src:thenevadaindependent-com-b73a363833",
+              "quote": "Tracy is running against incumbent Treasurer J. Ken Diaz, a Democrat who was elected in 2022.",
+              "locator": "Treasurer section"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
