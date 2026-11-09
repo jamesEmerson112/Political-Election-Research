@@ -86,6 +86,61 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Law Office of Amanda Pellizzari LLC",
+          "role": "Attorney; Managing Member",
+          "start": "2020-12",
+          "citations": [
+            {
+              "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+              "quote": "Organization: Law Office ofAmanda Pellizzari LLC Position: Attorney; Managing Member Dates: December 2020 - Present",
+              "locator": "PDF page 4, Education and Employment"
+            }
+          ]
+        },
+        {
+          "organization": "Las Vegas Municipal Court",
+          "role": "Public Attorney",
+          "start": "2024-06",
+          "citations": [
+            {
+              "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+              "quote": "Organization: Las Vegas Municipal Court Position: Public Attorney Dates: June 2024- Present; and January 2011-December 2013",
+              "locator": "PDF page 4, Education and Employment"
+            }
+          ]
+        },
+        {
+          "end": "2019-01",
+          "organization": "Gregory & Waldo, LLC",
+          "role": "Attorney, Managing Member",
+          "start": "2014-01",
+          "citations": [
+            {
+              "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+              "quote": "Organization: Gregory & Waldo, LLC Position: Attorney, Managing Member Dates: January 2014 - January 2019",
+              "locator": "PDF page 5, Education and Employment"
+            }
+          ]
+        },
+        {
+          "end": "2013-12",
+          "organization": "Las Vegas Municipal Court",
+          "role": "Public Attorney",
+          "start": "2011-01",
+          "citations": [
+            {
+              "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+              "quote": "Organization: Las Vegas Municipal Court Position: Public Attorney Dates: June 2024- Present; and January 2011-December 2013",
+              "locator": "PDF page 4, Education and Employment"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
