@@ -50,6 +50,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Southeast North Carolina (where she grew up)",
+      "citations": [
+        {
+          "source": "src:special-delta-library-unlv-edu-23df610fa7",
+          "quote": "Murphy discusses growing up in southeast North Carolina, being enrolled with her mother's family as Lumbee Tribal Citizens, and learning to code switch.",
+          "locator": "Abstract"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
