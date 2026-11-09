@@ -66,6 +66,23 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Certified Mediator",
+          "institution": "University of Houston Law School (mediator certification)",
+          "year": 2014,
+          "citations": [
+            {
+              "source": "src:billyoung4clarkcountynvrecorder-com-709010e56c",
+              "quote": "Certified Mediator, University of Houston Law School, 2014",
+              "locator": "home page, list under the mission statement"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Retired police detective; business owner",
       "citations": [
