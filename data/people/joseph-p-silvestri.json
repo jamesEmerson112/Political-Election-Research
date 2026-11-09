@@ -90,6 +90,52 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "offices held, elected, appointed",
+          "where": "silvestri4silverstate.com (campaign site: home and issues pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri prior office",
+          "where": "The Nevada Independent 2026 voter guide, Clark State Assembly page (candidate blurb)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri",
+          "where": "Nevada Legislature, Assembly member list, 83rd (2025) Session (leg.state.nv.us/App/Legislator/A/Assembly/83rd2025)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri",
+          "where": "Nevada Legislature, Legislative Manual Chapter I, 2025 member biographies (2025LegManual_Ch1.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri office",
+          "where": "Las Vegas Review-Journal 2012 voter guide, Nevada 4th Congressional District article (describes him only as the 2012 Libertarian candidate)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Joseph Silvestri Nevada Assembly District 3 Republican candidate 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Joe Silvestri\" Las Vegas Assembly",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri",
+          "where": "nvsos.gov (Secretary of State election results and filings): blocked from the research environment"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
