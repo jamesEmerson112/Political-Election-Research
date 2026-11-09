@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.frontline-victory-fund--person.adriana-guzman-fralick--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-02-03",
+  "endorsee": "person:adriana-guzman-fralick",
+  "endorser": "org:frontline-victory-fund",
+  "citations": [
+    {
+      "source": "src:frontlinevictory-com-cb1069cc72",
+      "quote": "CARSON CITY – Today, Frontline Victory Fund announced an endorsement of Adriana Guzmán Fralick (R) in the Nevada Attorney General election."
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "The endorser's own press release on frontlinevictory.com."
+}

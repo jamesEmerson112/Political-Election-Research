@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.donald-trump--person.adriana-guzman-fralick--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:adriana-guzman-fralick",
+  "endorser": "person:donald-trump",
+  "citations": [
+    {
+      "source": "src:rollcall-com-600e2d13a1",
+      "quote": "Adriana Guzmán Fralick has my Complete and Total Endorsement to be the next Attorney General of Nevada – SHE WILL NEVER LET YOU DOWN!",
+      "locator": "Truth Social post, June 2, 2026 @ 8:43 PM ET"
+    },
+    {
+      "source": "src:rollcall-com-600e2d13a1",
+      "quote": "These Great Patriots have my Complete and Total Endorsement — They will never let you down! President DONALD J. TRUMP",
+      "locator": "Truth Social post, November 3, 2026 @ 8:35 AM ET (list includes \"Adriana Guzmán Fralick for Attorney General\")"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "President Donald Trump's own Truth Social posts, read in the Roll Call Factba.se archive because truthsocial.com returned a Cloudflare 403 here. The June 2, 2026 post endorsed her in the primary; the November 3, 2026 post repeats the endorsement for the general election."
+}

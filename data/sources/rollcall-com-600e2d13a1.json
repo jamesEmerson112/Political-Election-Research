@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "rollcall-com-600e2d13a1",
+  "kind": "social_media",
+  "accessed": "2026-11-09",
+  "publisher": "Roll Call Factba.se",
+  "title": "Donald Trump: Social Media Archive (search: Fralick)",
+  "url": "https://rollcall.com/factbase/trump/topic/social/?q=Fralick",
+  "notes": "Archive of President Donald Trump's Truth Social posts (truthsocial.com itself returned a Cloudflare 403 here). Posts dated June 2, 2026, June 8, 2026 and November 3, 2026 reproduce the endorsement of Adriana Guzmán Fralick."
+}

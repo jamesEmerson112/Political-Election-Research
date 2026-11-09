@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "frontline-victory-fund",
+  "name": "Frontline Victory Fund",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://frontlinevictory.com/"
+  },
+  "org_type": "ie_committee",
+  "last_verified": "2026-11-09"
+}
