@@ -60,6 +60,52 @@
           "locator": "PDF page 1, Abbreviations"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "clarkcountynv.gov District E 'About Commissioner Segerblom' (official biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "tick4nevada.com home and 'About Tick' pages (campaign biography; the address shown is the campaign committee's)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "Nevada Legislature 2009 legislative biography (archive.leg.state.nv.us; lists only 'Clark County Assembly District No. 9')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence; page shows only district and county",
+          "where": "leg.state.nv.us Senate District 3 legislator pages (29th 2015 Special, 28th 2014 Special)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026, County Commission District E",
+          "where": "Clark County Election Department, Candidates who Filed with the Clark County Registrar of Voters (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx; form-driven, results not readable by the fetch tool)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tick Segerblom home lives Las Vegas neighborhood commissioner",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"About Commissioner Segerblom\" Clark County",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not reachable (host blocked)",
+          "where": "nvsos.gov candidate filing information"
+        }
+      ]
     }
   },
   "ids": [],
