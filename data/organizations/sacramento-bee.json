@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "sacramento-bee",
+  "name": "Sacramento Bee",
+  "aliases": [
+    "The Sacramento Bee"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "corporation",
+  "last_verified": "2026-11-09"
+}

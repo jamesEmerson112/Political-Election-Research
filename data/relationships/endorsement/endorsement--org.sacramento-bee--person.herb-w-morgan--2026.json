@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.sacramento-bee--person.herb-w-morgan--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:herb-w-morgan",
+  "endorser": "org:sacramento-bee",
+  "citations": [
+    {
+      "source": "src:herbmorgan-com-a0f1a0fea5",
+      "quote": "Sacramento Bee",
+      "locator": "Endorsements page, Publications"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Listed on the campaign's endorsements page under Publications. The Bee's own editorial could not be read here (sacbee.com did not answer), so its date and whether it covered the June primary or the November general election are unconfirmed."
+}
