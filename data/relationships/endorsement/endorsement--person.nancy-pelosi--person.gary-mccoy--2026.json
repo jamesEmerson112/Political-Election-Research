@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.nancy-pelosi--person.gary-mccoy--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:gary-mccoy",
+  "endorser": "person:nancy-pelosi",
+  "citations": [
+    {
+      "source": "src:garymccoysf-com-a46b63ed79",
+      "quote": "Nancy Pelosi Speaker Emerita, United States House of Representatives",
+      "locator": "Elected Officials"
+    },
+    {
+      "source": "src:garymccoysf-com-a46b63ed79",
+      "quote": "“He’s trusted, tested, and ready to deliver for our City and District. When Gary speaks, I listen.” NANCY PELOSI",
+      "locator": "Endorsed by"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

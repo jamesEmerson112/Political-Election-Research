@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.malia-m-cohen--person.gary-mccoy--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:gary-mccoy",
+  "endorser": "person:malia-m-cohen",
+  "citations": [
+    {
+      "source": "src:garymccoysf-com-a46b63ed79",
+      "quote": "Malia Cohen California State Controller",
+      "locator": "Elected Officials"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
