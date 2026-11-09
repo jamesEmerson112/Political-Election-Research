@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-0a3de84021",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-10-06",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Longtime No. 2 county treasurer facing challenge from claims adjuster",
+  "url": "https://www.reviewjournal.com/?p=2652559"
+}

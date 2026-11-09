@@ -86,6 +86,56 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Auto insurance claims adjuster",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-0a3de84021",
+              "quote": "Tracy said his more than two decades of experience as an auto insurance claims adjuster have prepared him to be county treasurer."
+            },
+            {
+              "source": "src:mitchelltracy-com-438a23d511",
+              "quote": "Mr. Tracy has over 22 years of accounting and financial experience, managing and overseeing billions of dollars across commercial, automotive, residential, property, fatality, and injury claims.",
+              "locator": "ABOUT"
+            }
+          ]
+        },
+        {
+          "role": "Junior high and high school boys’ basketball coach",
+          "citations": [
+            {
+              "source": "src:mitchelltracy-com-438a23d511",
+              "quote": "Mr. Tracy has dedicated more than a decade to mentoring youth as a junior high and high school boys’ basketball coach,",
+              "locator": "ABOUT"
+            }
+          ]
+        },
+        {
+          "organization": "U.S. Army Reserves, U.S. Air Force Reserves and Army National Guard",
+          "role": "Military service member",
+          "citations": [
+            {
+              "source": "src:mitchelltracy-com-438a23d511",
+              "quote": "Mr. Tracy proudly served his country for over a decade in the U.S. Army Reserves, U.S. Air Force Reserves, and the Army National Guard.",
+              "locator": "ABOUT"
+            }
+          ]
+        },
+        {
+          "role": "Business owner",
+          "citations": [
+            {
+              "source": "src:mitchelltracy-com-438a23d511",
+              "quote": "As a business owner for five years, Mr. Tracy understands firsthand the challenges facing taxpayers, families, and small businesses.",
+              "locator": "ABOUT"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
