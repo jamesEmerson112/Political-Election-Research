@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.growsf--person.emanuel-manny-yekutiel--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:emanuel-manny-yekutiel",
+  "endorser": "org:growsf",
+  "rescinded": {
+    "date": "2026-10-01",
+    "citations": [
+      {
+        "source": "src:missionlocal-org-74bb63c52d",
+        "quote": "State Assemblymember Catherine Stefani, Sheriff Paul Miyamoto, the advocacy groups GrowSF and AbundantSF, the firefighters union, and more all withdrew their endorsements."
+      },
+      {
+        "source": "src:growsf-org-80ed0cb27f",
+        "quote": "We endorsed Manny Yekutiel earlier this year, but we withdrew our endorsement after three credible sexual assault allegations, which he denies."
+      }
+    ]
+  },
+  "citations": [
+    {
+      "source": "src:growsf-org-80ed0cb27f",
+      "quote": "We endorsed Manny Yekutiel earlier this year, but we withdrew our endorsement after three credible sexual assault allegations, which he denies."
+    },
+    {
+      "source": "src:missionlocal-org-fb7842f141",
+      "quote": "Endorsed by: District 8 Supervisor Rafael Mandelman, Assemblymember Catherine Stefani, former Mayor Willie L. Brown Jr, Supervisor Bilal Mahmood, Jane Fonda, Senator Cory Booker, Grow SF, Abundant SF, San Francisco Apartment Association",
+      "locator": "Emanuel “Manny” Yekutiel profile, “Endorsed by” line"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

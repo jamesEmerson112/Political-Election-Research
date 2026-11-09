@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-74bb63c52d",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-01",
+  "publisher": "Mission Local",
+  "title": "Mayor Lurie, S.F. supervisors drop Manny Yekutiel after new sexual assault claim",
+  "url": "https://missionlocal.org/2026/10/san-francisco-manny-yekutiel-sexual-assault-district-8-supervisor/"
+}

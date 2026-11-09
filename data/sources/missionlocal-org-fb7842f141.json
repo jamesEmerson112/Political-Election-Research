@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-fb7842f141",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-08-05",
+  "publisher": "Mission Local",
+  "title": "Meet the District 8 candidates: What is your No. 1 issue?",
+  "url": "https://missionlocal.org/2026/08/sf-district-8-candidates-top-priority/"
+}
