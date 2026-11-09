@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "fec-gov-ac6665a05f",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2022-01-28",
+  "publisher": "Federal Election Commission",
+  "title": "MUR 7954 Response and Designation of Counsel from Kevin Mullin, Kevin Mullin for Assembly 2022, Kevin Mullin for Congress and Stacy Owens",
+  "url": "https://www.fec.gov/files/legal/murs/7954/7954_05.pdf"
+}

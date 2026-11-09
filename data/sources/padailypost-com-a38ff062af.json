@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "padailypost-com-a38ff062af",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-01-22",
+  "publisher": "Palo Alto Daily Post",
+  "title": "Complaint says candidate’s Christmas card violated finance rules",
+  "url": "https://padailypost.com/2022/01/22/candidates-christmas-card-called-illegal-by-opponent/"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "fec-gov-1dabd5959c",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Federal Election Commission",
+  "title": "MUR #7954: Kevin Mullin for Congress",
+  "url": "https://www.fec.gov/data/legal/matter-under-review/7954/"
+}

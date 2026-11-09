@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:kevin-mullin",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "fec-complaint-over-2021-assembly-committee-mailers",
+        "date": "2022-01",
+        "resolution": {
+          "summary": "On November 16, 2022 the Commission voted 6-0 to find no reason to believe that Mullin or his committees violated the cited provisions, and closed the file.",
+          "citations": [
+            {
+              "source": "src:fec-gov-83f9fb387a",
+              "quote": "on November 16, 2022, the Commission decided by a vote of 6-0 to take the following actions in MUR 7954:",
+              "locator": "p. 1"
+            },
+            {
+              "source": "src:fec-gov-83f9fb387a",
+              "quote": "Find no reason to believe that Kevin Mullin, Kevin Mullin for Congress and Stacy Owens in her official capacity as treasurer, and Kevin Mullin for Assembly 2022 violated 52 U.S.C. § 30125(e), (f)(1) and 11 C.F.R. §§ 110.3(d), 300.61, and 300.71 by spending or transferring non-federal funds in connection with an election.",
+              "locator": "p. 1"
+            },
+            {
+              "source": "src:fec-gov-83f9fb387a",
+              "quote": "Close the file.",
+              "locator": "p. 1"
+            }
+          ]
+        },
+        "response": {
+          "summary": "Mullin's counsel told the FEC that the complaint lacked any basis in law or fact; the Palo Alto Daily Post reported that Mullin's campaign called it \"dirty politics\".",
+          "citations": [
+            {
+              "source": "src:fec-gov-ac6665a05f",
+              "quote": "The Complaint lacks any basis in law or fact.",
+              "locator": "p. 1"
+            },
+            {
+              "source": "src:padailypost-com-a38ff062af",
+              "quote": "Mullin’s team called the complaint “dirty politics,” and said this is a distraction technique from Canepa’s camp."
+            }
+          ]
+        },
+        "summary": "In January 2022 Michael Harris filed a complaint with the Federal Election Commission (MUR 7954). According to the response from Mullin's counsel, the complaint alleged that Mullin, then a state Assemblymember running for Congress, used funds outside the source and amount restrictions of the Federal Election Campaign Act to pay for two mailers sent to his Assembly constituents, and that the mailers were a transfer from his state committee to his federal committee. The Palo Alto Daily Post reported that his opponent, Supervisor David Canepa, announced the complaint and that the mailers were a holiday card and a flyer.",
+        "title": "FEC complaint over two Assembly-committee mailers sent during the 2022 House campaign",
+        "citations": [
+          {
+            "source": "src:fec-gov-1dabd5959c",
+            "quote": "COMPLAINANT: Harris, Michael"
+          },
+          {
+            "source": "src:fec-gov-ac6665a05f",
+            "quote": "The Complaint alleges that Assemblymember Mullin used funds outside the source and amount restrictions of the Federal Election Campaign Act (the “Act”) to fund two mailers that were sent to his existing State Assembly constituents. The Complaint also alleges that the mailers qualify as a transfer of funds from his state campaign committee to his newly formed federal campaign committee.",
+            "locator": "p. 1"
+          },
+          {
+            "source": "src:padailypost-com-a38ff062af",
+            "quote": "San Mateo County Supervisor David Canepa announced yesterday that South San Francisco resident Michael Harris filed a complaint with the Federal Elections Commission, or FEC, complaining that his opponent, state Assemblyman Kevin Mullin, had used money from his assembly campaign account to send two mailers — a card and a flyer — that bolstered his congressional campaign."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "\"Kevin Mullin for Congress\"",
+        "where": "FEC enforcement search (closed Matters Under Review)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Kevin Mullin congressman controversy OR ethics OR fine OR complaint",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "fppc.ca.gov enforcement \"Mullin\" Assembly stipulation",
+        "where": "web search (FPPC enforcement decisions)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Kevin Mullin\" Assemblymember OR Rep. FPPC fine OR \"ethics complaint\" OR \"stock trade\" OR lawsuit",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Mullin",
+        "where": "The Almanac, candidate overview of May 18, 2026"
+      }
+    ]
+  }
+}

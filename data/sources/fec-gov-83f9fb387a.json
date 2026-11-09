@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "fec-gov-83f9fb387a",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2022-11-17",
+  "publisher": "Federal Election Commission",
+  "title": "MUR 7954 Certification (Commission vote of November 16, 2022)",
+  "url": "https://www.fec.gov/files/legal/murs/7954/7954_07.pdf"
+}
