@@ -40,6 +40,42 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Steven Borella birthplace; where born or raised",
+          "where": "Campaign site stevenborellaforclarkcountyrecorder.com (Home and Contact pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Steven Borella birthplace; where born or raised",
+          "where": "Libertarian Party candidate page lp.org/candidate/steven-borella (Candidate Bio)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Steven Borella birthplace; where born or raised",
+          "where": "Clark County Election Department: Notice of General Election 2026, general-election contests and candidates list, 2026 Candidate Guide"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Steven Borella birthplace; where born or raised",
+          "where": "The Nevada Independent: 'Assessor, recorder, public administrator' (May 16, 2026), primary results article (June 10, 2026) and 2026 Clark County general voter guide"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Steven Borella birthplace; where born or raised",
+          "where": "Web searches: \"Steven Borella Libertarian Clark County Recorder\"; \"Steven Borella\" OR \"Steve Borella\" Las Vegas"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Steven Borella birthplace; where born or raised",
+          "where": "Clark County Registrar candidate filing list (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx): search form needs a POST, no list readable; Nevada Secretary of State candidate filings (nvsos.gov): host blocked"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Libertarian Party of Nevada",
       "citations": [
