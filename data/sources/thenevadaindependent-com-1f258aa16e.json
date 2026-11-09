@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-1f258aa16e",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "The Nevada Independent",
+  "title": "Clark County - Nevada Voter Guide | 2026",
+  "url": "https://thenevadaindependent.com/elections/2026/general/clark-county"
+}
