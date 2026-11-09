@@ -24,6 +24,31 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County Public Defender",
+          "role": "Deputy Public Defender, Juvenile Division",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "Clark County Deputy Public Defender, Juvenile Division",
+              "locator": "Legislative Biography, 2019 Session, PDF page 25: James Ohrenschall, occupation line"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Clark County Public Defender, Juvenile Division",
+              "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall, occupation line"
+            },
+            {
+              "source": "src:jamesohrenschall-com-dfc7cf8c9c",
+              "quote": "Inspired by her example, James became a juvenile public defender to ensure that children receive fair treatment in the legal system."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Public defender, Clark County Public Defender, Juvenile Division",
       "citations": [
