@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "us-119-hr-7945",
+  "status": {
+    "value": "in_committee",
+    "as_of": "2026-09-16",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-23adda6845",
+        "quote": "<latestAction> <actionDate>2026-09-16</actionDate> <text>Ordered to be Reported by the Yeas and Nays: 36 - 0.</text>",
+        "locator": "latestAction"
+      }
+    ]
+  },
+  "area": "health",
+  "summary": {
+    "value": "To ban the sale of nitrous oxide consumer products, and for other purposes.",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-23adda6845",
+        "quote": "<title>To ban the sale of nitrous oxide consumer products, and for other purposes.</title>",
+        "locator": "titles (official title as introduced)"
+      }
+    ]
+  },
+  "title": {
+    "value": "Nitrous Oxide Safety Act of 2026",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-23adda6845",
+        "quote": "<title>Nitrous Oxide Safety Act of 2026</title>",
+        "locator": "titles"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

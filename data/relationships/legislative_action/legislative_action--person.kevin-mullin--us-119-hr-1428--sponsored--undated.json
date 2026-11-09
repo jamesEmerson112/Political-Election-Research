@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.kevin-mullin--us-119-hr-1428--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:kevin-mullin",
+  "action": "sponsored",
+  "bill": "us-119-hr-1428",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:govinfo-gov-8ff7b0ec81",
+      "quote": "<sponsors> <item> <bioguideId>M001225</bioguideId> <fullName>Rep. Mullin, Kevin [D-CA-15]</fullName>",
+      "locator": "sponsors"
+    },
+    {
+      "source": "src:kevinmullin-house-gov-18503a14bc",
+      "quote": "I have led the following bills during the 119th Congress:",
+      "locator": "Votes and Legislation, list of bills led in the 119th Congress"
+    },
+    {
+      "source": "src:kevinmullin-house-gov-18503a14bc",
+      "quote": "Poverty Line Act",
+      "locator": "Votes and Legislation, list of bills led in the 119th Congress"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

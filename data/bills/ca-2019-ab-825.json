@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-ab-825",
+  "status": {
+    "value": "enacted",
+    "as_of": "2019-09-12",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-25725ac932",
+        "quote": "SACRAMENTO – Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-25725ac932",
+        "quote": "AB 825 by Assemblymember Kevin Mullin (D-South San Francisco) – San Mateo County Flood and Sea Level Rise Resiliency District."
+      }
+    ]
+  },
+  "area": "energy_environment",
+  "title": {
+    "value": "San Mateo County Flood and Sea Level Rise Resiliency District",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-25725ac932",
+        "quote": "AB 825 by Assemblymember Kevin Mullin (D-South San Francisco) – San Mateo County Flood and Sea Level Rise Resiliency District."
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

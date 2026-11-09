@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-249",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-10-07",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1a771fbb95",
+        "quote": "Oct. 7—Approved by the Governor. Oct. 7—Chaptered by Secretary of State − Chapter 546, Statutes of 2017.",
+        "locator": "PDF page 210, A.B. No. 249"
+      }
+    ]
+  },
+  "area": "government",
+  "title": {
+    "value": "Political Reform Act of 1974 (amends Government Code Sections 82025, 84305, 84310 and others; urgency statute)",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1a771fbb95",
+        "quote": "An act to amend Sections 82025, 84305, 84310, 84501, 84505, 84506.5, 84510, 84511, and 85704 of, to add Sections 84504.1, 84504.2, 84504.3, 84504.4, and 84504.5 to, to repeal Sections 84506, 84507, and 84508 of, and to repeal and add Sections 84502, 84503, 84504, and 84509 of, the Government Code, relating to the Political Reform Act of 1974, and declaring the urgency thereof, to take effect immediately.",
+        "locator": "PDF page 210, A.B. No. 249"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

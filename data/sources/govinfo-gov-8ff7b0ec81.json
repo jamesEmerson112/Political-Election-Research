@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "govinfo-gov-8ff7b0ec81",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "U.S. Government Publishing Office (govinfo bulk data; bill status from the Library of Congress)",
+  "title": "Bill status XML, H.R. 1428, 119th Congress (Poverty Line Act of 2025)",
+  "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1428.xml",
+  "notes": "Official bill status data (sponsor, actions, titles) as served on 2026-11-09 through tools/research/fetch-text.mjs; quotes are verbatim element text. Not archived: web.archive.org was unreachable from the research environment."
+}

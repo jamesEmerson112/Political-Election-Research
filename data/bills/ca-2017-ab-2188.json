@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-2188",
+  "status": {
+    "value": "enacted",
+    "as_of": "2018-09-26",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-49f3509220",
+        "quote": "Sep. 26—Approved by the Governor. Sep. 26—Chaptered by Secretary of State − Chapter 754, Statutes of 2018.",
+        "locator": "PDF page 220, A.B. No. 2188"
+      }
+    ]
+  },
+  "area": "government",
+  "title": {
+    "value": "Political Reform Act of 1974 (amends Government Code Sections 84504.3, 84504.4 and 84510; adds Sections 84503.5 and 84504.6)",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-49f3509220",
+        "quote": "An act to amend Sections 84504.3, 84504.4, and 84510 of, and to add Sections 84503.5 and 84504.6 to, the Government Code, relating to the Political Reform Act of 1974.",
+        "locator": "PDF page 220, A.B. No. 2188"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.kevin-mullin--us-119-hr-10131--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:kevin-mullin",
+  "action": "sponsored",
+  "bill": "us-119-hr-10131",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:govinfo-gov-bfc56ae34d",
+      "quote": "<sponsors> <item> <bioguideId>M001225</bioguideId> <fullName>Rep. Mullin, Kevin [D-CA-15]</fullName>",
+      "locator": "sponsors"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

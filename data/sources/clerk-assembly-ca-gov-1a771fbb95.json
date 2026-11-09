@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-assembly-ca-gov-1a771fbb95",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "Office of the Chief Clerk, California State Assembly",
+  "title": "Assembly Final History, 2017-18 Regular Session, Volume 1",
+  "url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/2025-04/assembly_final_history_2017-18_vol_1.pdf",
+  "notes": "Official final history of every Assembly bill of the session (authors, actions, votes, chapter). Read on 2026-11-09 through tools/research/fetch-text.mjs (pdftotext); locators are PDF pages. Not archived: web.archive.org was unreachable from the research environment."
+}

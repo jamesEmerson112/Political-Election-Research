@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gov-ca-gov-25725ac932",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2019-09-12",
+  "publisher": "Office of Governor Gavin Newsom",
+  "title": "Governor Newsom Signs Legislation 9.12.19",
+  "url": "https://www.gov.ca.gov/2019/09/12/governor-newsom-signs-legislation-9-12-19/",
+  "notes": "Not archived: web.archive.org was unreachable from the research environment."
+}

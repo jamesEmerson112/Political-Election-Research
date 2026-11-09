@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "us-119-hr-10131",
+  "status": {
+    "value": "in_committee",
+    "as_of": "2026-08-20",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-bfc56ae34d",
+        "quote": "<latestAction> <actionDate>2026-08-20</actionDate> <text>Referred to the House Committee on Oversight and Government Reform.</text>",
+        "locator": "latestAction"
+      }
+    ]
+  },
+  "area": "government",
+  "summary": {
+    "value": "To amend title 44, United States Code, to prohibit the closure of Federal records centers, and for other purposes.",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-bfc56ae34d",
+        "quote": "<title>To amend title 44, United States Code, to prohibit the closure of Federal records centers, and for other purposes.</title>",
+        "locator": "titles (official title as introduced)"
+      }
+    ]
+  },
+  "title": {
+    "value": "National Archives Protection Act",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-bfc56ae34d",
+        "quote": "<title>National Archives Protection Act</title>",
+        "locator": "titles"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

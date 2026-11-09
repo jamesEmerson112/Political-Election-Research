@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "us-119-hr-1428",
+  "status": {
+    "value": "in_committee",
+    "as_of": "2025-02-18",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-8ff7b0ec81",
+        "quote": "<latestAction> <actionDate>2025-02-18</actionDate> <text>Referred to the Committee on Education and Workforce, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>",
+        "locator": "latestAction"
+      }
+    ]
+  },
+  "area": "economy",
+  "summary": {
+    "value": "To amend the Community Services Block Grant Act to update the Federal poverty line, and for other purposes.",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-8ff7b0ec81",
+        "quote": "<title>To amend the Community Services Block Grant Act to update the Federal poverty line, and for other purposes.</title>",
+        "locator": "titles (official title as introduced)"
+      }
+    ]
+  },
+  "title": {
+    "value": "Poverty Line Act of 2025",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-8ff7b0ec81",
+        "quote": "<title>Poverty Line Act of 2025</title>",
+        "locator": "titles"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

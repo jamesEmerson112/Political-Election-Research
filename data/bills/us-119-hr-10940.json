@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "us-119-hr-10940",
+  "status": {
+    "value": "in_committee",
+    "as_of": "2026-10-29",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-c18ab09c4b",
+        "quote": "<latestAction> <actionDate>2026-10-29</actionDate> <text>Referred to the House Committee on Energy and Commerce.</text>",
+        "locator": "latestAction"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "summary": {
+    "value": "To direct the Federal Communications Commission to promulgate regulations establishing metrics, goals, and minimum requirements with respect to the delivery of wireless emergency alerts, and for other purposes.",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-c18ab09c4b",
+        "quote": "<title>To direct the Federal Communications Commission to promulgate regulations establishing metrics, goals, and minimum requirements with respect to the delivery of wireless emergency alerts, and for other purposes.</title>",
+        "locator": "titles (official title as introduced)"
+      }
+    ]
+  },
+  "title": {
+    "value": "READI Act of 2026",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-c18ab09c4b",
+        "quote": "<title>READI Act of 2026</title>",
+        "locator": "titles"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

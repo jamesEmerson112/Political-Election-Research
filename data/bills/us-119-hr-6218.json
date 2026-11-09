@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "us-119-hr-6218",
+  "status": {
+    "value": "in_committee",
+    "as_of": "2025-11-20",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-3286a4c60f",
+        "quote": "<latestAction> <actionDate>2025-11-20</actionDate> <text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text>",
+        "locator": "latestAction"
+      }
+    ]
+  },
+  "area": "health",
+  "summary": {
+    "value": "To amend title XVIII of the Social Security Act to provide for coverage under the Medicare program of hearing aids and related hearing services.",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-3286a4c60f",
+        "quote": "<title>To amend title XVIII of the Social Security Act to provide for coverage under the Medicare program of hearing aids and related hearing services.</title>",
+        "locator": "titles (official title as introduced)"
+      }
+    ]
+  },
+  "title": {
+    "value": "HEAR Act of 2025",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-3286a4c60f",
+        "quote": "<title>HEAR Act of 2025</title>",
+        "locator": "titles"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "us-119-hr-3360",
+  "status": {
+    "value": "in_committee",
+    "as_of": "2026-02-10",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-3039d8845d",
+        "quote": "<latestAction> <actionDate>2026-02-10</actionDate> <text>Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote.</text>",
+        "locator": "latestAction"
+      }
+    ]
+  },
+  "area": "transportation",
+  "summary": {
+    "value": "To direct the Secretary of Transportation to conduct a study on the effect of driver-controlled technology in motor vehicles with respect to severe traffic injuries and traffic fatalities, and for other purposes.",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-3039d8845d",
+        "quote": "<title>To direct the Secretary of Transportation to conduct a study on the effect of driver-controlled technology in motor vehicles with respect to severe traffic injuries and traffic fatalities, and for other purposes.</title>",
+        "locator": "titles (official title as introduced)"
+      }
+    ]
+  },
+  "title": {
+    "value": "Driver Technology and Pedestrian Safety Act of 2025",
+    "citations": [
+      {
+        "source": "src:govinfo-gov-3039d8845d",
+        "quote": "<title>Driver Technology and Pedestrian Safety Act of 2025</title>",
+        "locator": "titles"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kevinmullin-house-gov-18503a14bc",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Office of Rep. Kevin Mullin, U.S. House of Representatives",
+  "title": "Votes and Legislation - Congressman Kevin Mullin",
+  "url": "https://kevinmullin.house.gov/about/votes-and-legislation/",
+  "notes": "Official House office site; lists the bills the office says he led in the 119th Congress. No publication date on the page. Not archived: web.archive.org was unreachable from the research environment."
+}
