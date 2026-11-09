@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "vegas-chamber",
+  "name": "Vegas Chamber",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "trade_association",
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.keystone-corporation--person.andy-matthews--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:andy-matthews",
+  "endorser": "org:keystone-corporation",
+  "citations": [
+    {
+      "source": "src:keystonenevada-com-4eec6b4d94",
+      "quote": "Keystone Corporation, a pro-business organization committed to advancing free enterprise and responsible government in Nevada, proudly endorses the following candidates in the 2026 election.",
+      "locator": "2026 Slate, Keystone-Endorsed Candidates"
+    },
+    {
+      "source": "src:keystonenevada-com-4eec6b4d94",
+      "quote": "ANDY MATTHEWS\n\nSTATE CONTROLLER",
+      "locator": "2026 Slate, Statewide"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

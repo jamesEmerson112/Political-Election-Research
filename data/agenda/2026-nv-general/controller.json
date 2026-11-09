@@ -12,6 +12,59 @@
       "name": "Andy Matthews"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-09",
+      "task": "2026-nv-general/controller|endorsements|person:andy-matthews",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "endorsements",
+          "where": "andyfornevada.com (campaign site: home, about-andy, priorities, media pages; WordPress post list): no endorsements page and no 2026 endorsement posts; /endorsements returns 404"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Andy Matthews controller endorsement",
+          "where": "ccrpnv.com (Clark County Republican Party press release, already recorded)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 endorsements",
+          "where": "nevadagop.org (Nevada Republican Party site: home page has no 2026 endorsement post; /endorsements, /voter-info, /news and /category/press-releases return 404); nvgop.org is a parked domain"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Andy Matthews",
+          "where": "endorse.joelombardofornv.com and joelombardofornv.com (Lombardo for Governor): lists Andy Matthews among officials endorsing Lombardo, no Lombardo endorsement of Matthews; /endorsements returns 404"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 slate",
+          "where": "nevadayoungrepublicans.com (home page has a blanket statement about Republican nominees, no named endorsement of Matthews; the 2026 voter guide PDF is an image with no readable text)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "endorsed slate",
+          "where": "westernwayaction.org (Western Way Action site: home page only, /endorsements and /news return 404); its slate announcement was found only on a third candidate's site (lisacolefornevada.com), not the endorser's or Matthews's own page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 endorsements",
+          "where": "keystonenevada.com/elections (recorded), vegaschamber.com 2026 general election endorsements (recorded), reviewjournal.com RJ endorsements list (recorded)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Andy Matthews controller endorsed by 2026",
+          "where": "web search (Ballotpedia lists no endorsements for Matthews in 2026; no other endorser announcements found)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "blocked hosts",
+          "where": "nvsos.gov, silverstateelection.nv.gov and web.archive.org were blocked from this session"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {

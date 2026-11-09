@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "keystonenevada-com-4eec6b4d94",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Keystone Corporation",
+  "title": "2026 Keystone Endorsements",
+  "url": "https://keystonenevada.com/elections/"
+}

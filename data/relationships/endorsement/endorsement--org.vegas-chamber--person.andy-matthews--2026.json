@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.vegas-chamber--person.andy-matthews--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-21",
+  "endorsee": "person:andy-matthews",
+  "endorser": "org:vegas-chamber",
+  "citations": [
+    {
+      "source": "src:vegaschamber-com-be1c274fea",
+      "quote": "Below is the complete list of candidates endorsed by the Vegas Chamber for the 2026 General Election.",
+      "locator": "Endorsement list introduction"
+    },
+    {
+      "source": "src:vegaschamber-com-be1c274fea",
+      "quote": "Controller: Andy Matthews (R)",
+      "locator": "Constitutional Officers"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
