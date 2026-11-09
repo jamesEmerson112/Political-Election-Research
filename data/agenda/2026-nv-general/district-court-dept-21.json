@@ -2,7 +2,16 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/district-court-dept-21",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:tara-clark-newberry",
+      "name": "Tara Clark Newberry"
+    },
+    {
+      "person": "person:alex-hubert",
+      "name": "Alex Hubert"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {

@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-21",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 21",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:tara-clark-newberry",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Clark Newberry, Tara NP",
+          "locator": "PDF page 9, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 21 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 21",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 21 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 21 Clark Newberry Tara NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXI RJC 14A Tara Clark Newberry",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXI row (dept, location, courtroom, judge): the sitting judge of Department 21"
+        }
+      ]
+    },
+    {
+      "person": "person:alex-hubert",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Hubert, Alex NP",
+          "locator": "PDF page 9, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 21 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 21",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 21 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 21 Clark Newberry Tara NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXI RJC 14A Tara Clark Newberry",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXI row (dept, location, courtroom, judge): the sitting judge of Department 21"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
