@@ -50,6 +50,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas, Nevada",
+      "citations": [
+        {
+          "source": "src:danielletarmu-com-7d7d37b52a",
+          "quote": "A born-and-raised Las Vegas resident who worked in the Las Vegas service industry for 5 years before law school, Danielle is deeply connected to the community she seeks to serve.",
+          "locator": "Biography"
+        },
+        {
+          "source": "src:mgalaw-com-cc884891e2",
+          "quote": "Born and raised in Las Vegas, Danielle has authored multiple legal publications",
+          "locator": "Legal Team bio"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
