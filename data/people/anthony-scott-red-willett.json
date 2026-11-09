@@ -116,6 +116,62 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Willett",
+          "where": "Clark County Election Department, All Contests and Candidates, November 3, 2026 General Election (PDF; name and party only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Willett",
+          "where": "Nevada Legislative Counsel Bureau, 2026 General Election: Nevada Legislative Candidates (PDF; name and party only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Anthony Scott \"Red\" Willett",
+          "where": "The Nevada Independent 2026 Clark County voter guide, State Assembly District 7 (says his candidate website could not be found)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Anthony Scott \"Red\" Willett",
+          "where": "iVoterGuide candidate profile (biography, education, work, offices held all 'Candidate did not provide')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Anthony \"Red\" Scott Willett",
+          "where": "BallotReady candidate page (lists the candidacy only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidates",
+          "where": "Libertarian Party of Nevada site lpnevada.org (HTTP 403, not readable)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Red\" Willett Libertarian Nevada Assembly District 7",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Anthony Willett\" OR \"Red Willett\" Las Vegas Libertarian",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Anthony Scott Willett\" Nevada",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Willett",
+          "where": "Nevada Secretary of State candidate filing list (nvsos.gov blocked from this environment)"
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],
