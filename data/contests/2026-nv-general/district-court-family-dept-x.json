@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-x",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department X",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:heidi-almase",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Almase, Heidi NP",
+          "locator": "PDF page 11, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT X (last name, first name, NP = nonpartisan): the only candidate listed"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department X Almase Heidi NP 6",
+          "locator": "PDF page 6 (6 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department X: this candidate is the current office holder"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "X FAMILY 11 Heidi Almase",
+          "locator": "Judicial departments table, DEPT# X row (dept, location, courtroom, judge): this candidate is the sitting judge"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
