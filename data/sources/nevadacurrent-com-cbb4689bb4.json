@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-cbb4689bb4",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-16",
+  "publisher": "Nevada Current",
+  "title": "Former coroner and deputy attorney general vie for public administrator job",
+  "url": "https://nevadacurrent.com/2026/10/16/former-coroner-and-deputy-attorney-general-vie-for-public-administrator-job/"
+}
