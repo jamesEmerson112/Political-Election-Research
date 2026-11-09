@@ -89,6 +89,33 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member of the Nevada Assembly, District 34",
+          "current": true,
+          "jurisdiction": "Nevada",
+          "start": "2024-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Years in Assembly: November 2024 to Current",
+              "locator": "PDF page 80, Legislative Biography—2025 Session, Hanadi Nadeem (LEGISLATIVE SERVICE)"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Democrat Assembly District 34 Clark County (part)",
+              "locator": "PDF page 80, Legislative Biography—2025 Session, Hanadi Nadeem"
+            },
+            {
+              "source": "src:leg-state-nv-us-c5b3daa0ca",
+              "quote": "Assemblymember Hanadi Nadeem Party: Democratic District 34"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
