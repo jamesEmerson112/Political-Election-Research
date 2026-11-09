@@ -165,6 +165,82 @@
           "locator": "paragraph 5; the two candidates are Luke McCarthy and Shannon Nordstrom (paragraph 2)"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "biography, birth, education, career",
+          "where": "shannonnordstrom.com home, About (Qualifications) and Fresh Start pages (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "name and office designation only",
+          "where": "Clark County Election Department, Notice of General Election 2026 (candidate list)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "mailing address, email, website and phone only",
+          "where": "City of Las Vegas City Clerk, 2026 Elections page and candidate contact information sheets (files.lasvegasnevada.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "blocked from the research environment (Cloudflare challenge), not read",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate background",
+          "where": "Nevada Current, 'Three candidates vie for Summerlin area Las Vegas City Council seat' (2026-04-15) and '2 Republicans face off in nonpartisan Las Vegas City Council race' (2026-09-29)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate background",
+          "where": "The Nevada Independent, Ward 2 election preview (2026-09-29) and 2026 general voter guide, Clark County"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Shannon Nordstrom background",
+          "where": "Nevada Current, 'Allegations of special treatment surface in race for LV Municipal Court' (2024-04-03)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Shannon Nordstrom background",
+          "where": "Las Vegas Review-Journal, Municipal Court Department 5 fundraising article (2024-05-23)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "description and election history",
+          "where": "Our Nevada Judges candidate page, Shannon Nordstrom"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not readable: TLS certificate error",
+          "where": "nordstromforjudge.com (2024 campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Shannon Nordstrom\" Las Vegas judge attorney born OR grew up OR native OR moved to Las Vegas",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Shannon Nordstrom Las Vegas City Council Ward 2",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "gives a mailing address (a box on W. Sahara Ave., Las Vegas), not stated as residence",
+          "where": "City of Las Vegas candidate contact information sheet, Shannon Nordstrom"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Nordstrom\" Ward 2 Las Vegas council candidate \"Summerlin resident\" OR \"lives in\" 2026",
+          "where": "web search"
+        }
+      ]
     }
   },
   "ids": [],
