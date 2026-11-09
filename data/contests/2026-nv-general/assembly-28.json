@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-28",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 28",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:reuben-dsilva",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "State Assembly District 28 D'Silva Reuben DEM 2",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 28 row (contest, last name, first name, party, term)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "28 Reuben D’Silva* Democrat",
+          "locator": "PDF page 3, Nevada State Assembly Candidates, District 28 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 3, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "D'Silva, Reuben Democratic No. 28 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Reuben D'Silva represented District 28 in the 2025 session"
+        }
+      ]
+    }
+  ],
+  "district": 28,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
