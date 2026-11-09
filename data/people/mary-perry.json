@@ -40,6 +40,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Raised in Hardy, Arkansas",
+      "citations": [
+        {
+          "source": "src:vegaslegalmagazine-com-272bf8e75c",
+          "quote": "Mary Perry was raised in the small town of Hardy, Arkansas."
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
