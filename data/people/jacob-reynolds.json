@@ -86,6 +86,86 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "U.S. District Court, District of Nevada",
+          "role": "Law clerk to Chief Judge Roger L. Hunt",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a2040fa111",
+              "quote": "Upon graduation, he clerked for Chief Judge Roger L. Hunt in the U.S. District Court in Las Vegas.",
+              "locator": "Biography, second paragraph"
+            },
+            {
+              "source": "src:thenevadaindependent-com-ce0610a812",
+              "quote": "Law clerk to Chief Judge Roger L. Hunt, U.S. District Court (D. Nev.) (2 years)",
+              "locator": "Jacob Reynolds, Candidate Deep Dive, Prior Job Titles"
+            }
+          ]
+        },
+        {
+          "organization": "Hutchison & Steffen, PLLC",
+          "role": "Partner and Senior Counsel",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a2040fa111",
+              "quote": "After completing his clerkship, he worked for Hutchison & Steffen, PLLC where he became a partner and worked primarily in complex commercial litigation, Constitution, election law, and practice before the Nevada Ethics Commission.",
+              "locator": "Biography, second paragraph"
+            },
+            {
+              "source": "src:gov-nv-gov-c31c614224",
+              "quote": "Prior to his work there, Reynolds worked at Hutchison & Steffen, PLLC for nearly 15 years, ultimately serving as Partner and Senior Counsel.",
+              "locator": "Press release dated February 28, 2023, paragraph on Jacob Reynolds"
+            }
+          ]
+        },
+        {
+          "organization": "Switch, Ltd.",
+          "role": "Special Litigation Counsel and Trial Manager",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a2040fa111",
+              "quote": "Prior to becoming a judge, Reynolds worked in-house at Switch Ltd. as special litigation counsel and successfully took to jury trial what was understood to be the largest antitrust case in Nevada history valued at $400 million.",
+              "locator": "Biography, second paragraph"
+            },
+            {
+              "source": "src:thenevadaindependent-com-ce0610a812",
+              "quote": "Special Litigation Counsel and Trial Manager, Switch, Ltd.",
+              "locator": "Jacob Reynolds, Candidate Deep Dive, Prior Job Titles"
+            }
+          ]
+        },
+        {
+          "organization": "Scholer & Sons, LLC",
+          "role": "Chief Legal Officer",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a2040fa111",
+              "quote": "Judge Reynolds also served as the chief legal officer of Scholer & Sons, LLC, which took him to Brazil and Uruguay.",
+              "locator": "Biography, second paragraph"
+            },
+            {
+              "source": "src:gov-nv-gov-c31c614224",
+              "quote": "Jacob Reynolds has an extensive background in civil litigation, most recently serving as the Chief Legal Officer at Scholer & Sons, LLC.",
+              "locator": "Press release dated February 28, 2023, paragraph on Jacob Reynolds"
+            }
+          ]
+        },
+        {
+          "organization": "UNLV William S. Boyd School of Law",
+          "role": "Adjunct professor",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ce0610a812",
+              "quote": "Adjunct professor, UNLV Boyd School of Law",
+              "locator": "Jacob Reynolds, Candidate Deep Dive, Prior Job Titles"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
