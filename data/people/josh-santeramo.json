@@ -45,6 +45,42 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birthplace, grew up: the page says he was born into a family of immigrants on his mother's side and attended De La Salle High School, but names no place of birth or hometown",
+          "where": "santeramo4judge.com About page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registration, born, birth, age, residence",
+          "where": "The Nevada Independent 2026 voter guide, District Court Judge, Eighth Judicial District, Department 30"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered, born, age, birthplace",
+          "where": "Our Nevada Judges candidate profile (ournevadajudges.com/candidates/joshua-m-santeramo)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Santeramo Wiese Dept. 30: both hosts blocked (Cloudflare), not readable here",
+          "where": "Nevada Current, 'Long-time judge draws challenger in Clark County Dept. 30' (nevadacurrent.com search API and newsfromthestates.com republication)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Josh Santeramo\" born OR grew up OR hometown",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Josh Santeramo District Court Department 30 Las Vegas candidate",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
