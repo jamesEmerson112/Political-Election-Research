@@ -89,6 +89,52 @@
           "where": "Nevada Secretary of State (nvsos.gov) candidate filings and voter records"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "residence city (states only 'a native to Southern Nevada'; the court address is the Regional Justice Center, not a residence)",
+          "where": "Eighth Judicial District Court, Department XXXI biography"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence city (states 'Born and raised in Southern Nevada' and that she 'returned to the region')",
+          "where": "Campaign website judgekishner.com (home and About)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "current residence (the 2017 oral history description says she returned to 'her childhood roots in Las Vegas'; no current city of residence stated)",
+          "where": "UNLV Special Collections oral history catalog record (special-delta.library.unlv.edu/node/546744)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence or city for Joanna Kishner (lists print name and NP only)",
+          "where": "Clark County Election Department candidate lists (Notice of General Election 26G, Contests-Candidates-All-26.pdf, officesup-26g.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives in, resident, city",
+          "where": "The Nevada Independent 2026 voter guide, Department 31 candidate deep dive"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives in, resident",
+          "where": "Las Vegas Review-Journal voter guide 2026 and RJ endorsement editorials"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Joanna Kishner\" lives in Las Vegas OR Henderson resident",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not reachable from this session (host blocked)",
+          "where": "Nevada Secretary of State (nvsos.gov) declaration of candidacy filings"
+        }
+      ]
     }
   },
   "ids": [],
