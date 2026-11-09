@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-e046420c20",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislature",
+  "title": "Legislative Biography: Irene Bustamante Adams",
+  "url": "https://www.leg.state.nv.us/Session/Legislator/Bustamante%20Adams170.pdf",
+  "notes": "Revised November 2018."
+}

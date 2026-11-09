@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-b4d20f797d",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-08-26",
+  "publisher": "The Nevada Independent",
+  "title": "How would school board candidates ease budget woes and enrollment challenges?",
+  "url": "https://thenevadaindependent.com/article/how-would-school-board-candidates-ease-budget-woes-and-enrollment-challenges"
+}

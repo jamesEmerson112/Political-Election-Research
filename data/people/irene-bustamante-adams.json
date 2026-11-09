@@ -3,6 +3,27 @@
   "id": "irene-bustamante-adams",
   "name": "Irene Bustamante Adams",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-87999e1986",
+          "quote": "Bustamante Adams, a Democrat, served four terms in the Nevada State Assembly before she was elected to represent District F on the Clark County School Board in 2022.",
+          "locator": "section \"Irene Bustamante Adams\""
+        },
+        {
+          "source": "src:thenevadaindependent-com-b4d20f797d",
+          "quote": "The District F race features incumbent Irene Bustamante Adams, a former Democratic state lawmaker who currently works in workforce development."
+        },
+        {
+          "source": "src:leg-state-nv-us-e046420c20",
+          "quote": "Democrat",
+          "locator": "Legislative Biography, page 1 (revised November 2018), party line under the name"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
