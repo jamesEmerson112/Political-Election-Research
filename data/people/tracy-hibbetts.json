@@ -80,6 +80,62 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Tracy Hibbetts elected office appointed office held",
+          "where": "Campaign website tracy4judge.com: HTTP 503, could not be read"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hibbetts elected office appointed office held",
+          "where": "Our Nevada Judges candidate page (ournevadajudges.com/candidates/tracy-ip-hibbetts)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hibbetts",
+          "where": "Clark County Election Department 2026 candidate lists and Notice of General Election (clarkcountynv.gov): 'NP' marks nonpartisan offices only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hibbetts elected office appointed office held",
+          "where": "The Nevada Independent 2026 judicial guide, Department 5 (thenevadaindependent.com/elections/2026/general/judicial/1219)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hibbetts elected office appointed office held",
+          "where": "Las Vegas Review-Journal 2026 voter guide (reviewjournal.com/voter-guide-2026) and Oct. 6, 2026 Department 5 article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hibbetts elected office appointed office held",
+          "where": "Nevada Current, Oct. 7, 2026 Department 5 article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hibbetts elected office appointed office held",
+          "where": "KLAS 8 News Now, Oct. 29, 2026 profile (via Yahoo News; 8newsnow.com returned HTTP 403)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hibbetts",
+          "where": "Nevada Secretary of State (nvsos.gov): blocked, could not be read"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Tracy Hibbetts\" elected office appointed office held",
+          "where": "Web search (news)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hibbetts 2022 Justice Court",
+          "where": "Nevada Current Oct. 7, 2026 and Our Nevada Judges: her only earlier race, Las Vegas Justice Court Department 6 (2022), was lost in the primary"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Nonpartisan",
       "citations": [
