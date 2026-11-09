@@ -106,6 +106,30 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "City Council Member",
+          "current": false,
+          "end": "1995",
+          "jurisdiction": "City of College Park, Maryland",
+          "start": "1991",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-93800b44b9",
+              "quote": "Andrews has previously held public office as a city councilman in College Park, Maryland, from 1991-1995, where he lived while working as an aerospace professional for NASA.",
+              "locator": "Daniel Andrews section"
+            },
+            {
+              "source": "src:andrews4nevada-com-8b3dd22917",
+              "quote": "I have experience in small city management where I was elected city council member in College Park, Maryland, a city of approximately 25 thousand people.",
+              "locator": "About page, My involvement"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
