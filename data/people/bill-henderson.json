@@ -3,6 +3,54 @@
   "id": "bill-henderson",
   "name": "Bill Henderson",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (office is nonpartisan; county lists mark judicial candidates NP = Nonpartisan, which the lists define as indicated for nonpartisan offices only, not a party registration)",
+          "where": "Eighth Judicial District Court, Department R judge page (clarkcountycourts.us/departments/judicial/family-division/department-r/): Biography tab states only service since 2008"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (office is nonpartisan; county lists mark judicial candidates NP = Nonpartisan, which the lists define as indicated for nonpartisan offices only, not a party registration)",
+          "where": "The Nevada Independent 2026 Clark County voter guide, Family Division Dept. R entry (states Henderson does not have a campaign website)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (office is nonpartisan; county lists mark judicial candidates NP = Nonpartisan, which the lists define as indicated for nonpartisan offices only, not a party registration)",
+          "where": "Las Vegas Review-Journal 2026 voter guide (reviewjournal.com/voter-guide-2026/), Family Court Dept. R entry (experience answer only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (office is nonpartisan; county lists mark judicial candidates NP = Nonpartisan, which the lists define as indicated for nonpartisan offices only, not a party registration)",
+          "where": "Las Vegas Review-Journal news: 2026-10-06 'Family Court challenger Marilyn Caston calls for new blood...', 2026-05-04 'Fatal shooting looms over Family Court race...', 2026-06-09 primary results, 2026-01-16 filing story, 2026-11-04 results; RJ editorial endorsements 2026-10-06"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (office is nonpartisan; county lists mark judicial candidates NP = Nonpartisan, which the lists define as indicated for nonpartisan offices only, not a party registration)",
+          "where": "The Nevada Independent 2026-11 results article 'Election 2026: two incumbent Clark County judges are defeated'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (office is nonpartisan; county lists mark judicial candidates NP = Nonpartisan, which the lists define as indicated for nonpartisan offices only, not a party registration)",
+          "where": "Clark County Election Department: Contests and Candidates in the 2026 Elections (Contests-Candidates-All-26.pdf) and Notice of General Election (Notice-Gen-Election-26G.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (office is nonpartisan; county lists mark judicial candidates NP = Nonpartisan, which the lists define as indicated for nonpartisan offices only, not a party registration)",
+          "where": "nvsos.gov (Nevada Secretary of State candidate filings and voter records), nvcourts.gov (Nevada Supreme Court) and web.archive.org: blocked from this environment (not readable)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (office is nonpartisan; county lists mark judicial candidates NP = Nonpartisan, which the lists define as indicated for nonpartisan offices only, not a party registration)",
+          "where": "WebSearch (search engine) unavailable in this session: the shared search budget was used up, so no further web searches could be run"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
