@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "preview-prod-w-sfchronicle-com-67faad1167",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2019-11-26",
+  "publisher": "San Francisco Chronicle",
+  "title": "SF supervisor calls homeless crisis a ‘zombie invasion’ in 2015 email",
+  "url": "https://preview-prod.w.sfchronicle.com/politics/article/SF-supervisor-calls-homeless-crisis-a-zombie-14864897.php"
+}

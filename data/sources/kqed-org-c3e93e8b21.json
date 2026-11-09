@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-c3e93e8b21",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2020-11-16",
+  "publisher": "KQED",
+  "title": "SFAC Awards the Maya Angelou Monument to Lava Thomas, Finally",
+  "url": "https://www.kqed.org/arts/13889089/sfac-awards-the-maya-angelou-monument-to-lava-thomas-finally"
+}

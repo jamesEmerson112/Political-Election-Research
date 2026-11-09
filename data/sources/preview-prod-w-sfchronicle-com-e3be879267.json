@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "preview-prod-w-sfchronicle-com-e3be879267",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2020-11-05",
+  "publisher": "San Francisco Chronicle",
+  "title": "S.F. City Hall wrong made right: Eye-catching monument to Maya Angelou to be installed after all",
+  "url": "https://preview-prod.w.sfchronicle.com/local/heatherknight/article/S-F-City-Hall-wrong-made-right-Eye-catching-15706070.php"
+}

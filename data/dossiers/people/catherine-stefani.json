@@ -1,0 +1,169 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:catherine-stefani",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "tenant-lawsuits-and-a-2015-email-filed-in-court",
+        "date": "2019-11",
+        "response": {
+          "date": "2019-11-26",
+          "summary": "Stefani's office called the email \"sarcasm\" and said she would never leave San Francisco, citing break-ins at her home. In a statement Stefani said Thomas was welcome to keep living in the remodeled unit, that she could not say more while litigation was ongoing, and that he \"already filed one lawsuit and failed to win even a dime from me.\"",
+          "citations": [
+            {
+              "source": "src:missionlocal-org-1267092b41",
+              "quote": "Regarding the language in the email, Stefani’s office claimed it was “sarcasm” — and that the move to Orinda is not forthcoming."
+            },
+            {
+              "source": "src:missionlocal-org-1267092b41",
+              "quote": "I cannot make a more detailed statement at this time, because litigation is still ongoing, but I will say that Mr. Thomas already filed one lawsuit and failed to win even a dime from me."
+            },
+            {
+              "source": "src:preview-prod-w-sfchronicle-com-67faad1167",
+              "quote": "In a statement to The Chronicle, Stefani’s legislative aide, Daniel Herzstein, said that “any San Francisco parent who has been a crime victim will instantly understand her sarcasm.”"
+            }
+          ]
+        },
+        "summary": "Mission Local and the San Francisco Chronicle reported in November 2019 that Clifton Thomas, a longtime tenant in a Cow Hollow building owned by Stefani's family, had sued Stefani and her family as landlords, and that a complaint filed for him included a 2015 email, written before she took office, in which she called San Francisco an \"insane asylum\" and wrote of a \"zombie invasion\" of mentally ill homeless people. On the first suit, Mission Local reported that Thomas lost; the Chronicle reported that a jury in August 2019 rejected his wrongful eviction claim, awarded him $9,500 for neglect of the property, and found Stefani not personally liable.",
+        "title": "Tenant lawsuits and a 2015 email filed in court",
+        "citations": [
+          {
+            "source": "src:missionlocal-org-1267092b41",
+            "quote": "In an email to an architect fortifying her house — “please think Fort Knox” — Supervisor Catherine Stefani referred to San Francisco as an “insane asylum” overrun by a “zombie invasion yet they are mentally ill homeless. Orinda anyone?”"
+          },
+          {
+            "source": "src:missionlocal-org-1267092b41",
+            "quote": "Thomas, who moved into the unit in 1986 and originally rented from the grandmother of Stefani’s husband, filed suit against his landlords in 2017. He lost that case; a hearing Wednesday will address his motion for a new trial."
+          },
+          {
+            "source": "src:preview-prod-w-sfchronicle-com-67faad1167",
+            "quote": "District Two Supervisor Catherine Stefani likened San Francisco’s homelessness crisis to a “zombie invasion” and compared the city to an “insane asylum,” in a 2015 email unearthed in a recent court filing against her."
+          },
+          {
+            "source": "src:preview-prod-w-sfchronicle-com-67faad1167",
+            "quote": "The jury decided in August 2019 that Stefani and her family neglected the property, and awarded Thomas $9,500 in damages. Stefani was not personally liable for any of the damages, and paid nothing out of her own pocket."
+          },
+          {
+            "source": "src:preview-prod-w-sfchronicle-com-67faad1167",
+            "quote": "The jury shot down Thomas’ claim that he was wrongfully evicted."
+          }
+        ]
+      },
+      {
+        "id": "rejection-of-the-selected-maya-angelou-monument-design",
+        "date": "2019-10",
+        "resolution": {
+          "date": "2020-11-02",
+          "summary": "KQED reported that on November 2, 2020 the Arts Commission voted unanimously to end its second artist search and award the $250,000 monument project to Thomas, and that Thomas accepted Stefani's apology.",
+          "citations": [
+            {
+              "source": "src:kqed-org-c3e93e8b21",
+              "quote": "On Nov. 2, the commissioners voted unanimously to terminate the second request for qualifications (RFQ) launched by the SFAC in January and paused in August, and award the $250,000 project to Thomas, the 2019 review panel’s original selection."
+            },
+            {
+              "source": "src:kqed-org-c3e93e8b21",
+              "quote": "“I’m certain that Dr. Angelou’s spirit can rest knowing that justice has been served here today,” Thomas said to the visual arts committee on Oct. 21, accepting Stefani’s apology."
+            }
+          ]
+        },
+        "response": {
+          "date": "2020-10-21",
+          "summary": "KQED and the Chronicle reported that Stefani apologized to Thomas privately in September 2020 and publicly at the Arts Commission's Visual Arts Committee meeting on October 21, 2020, saying \"I am truly sorry.\"",
+          "citations": [
+            {
+              "source": "src:kqed-org-c3e93e8b21",
+              "quote": "And in the Oct. 21 meeting of the SFAC’s visual arts committee, Stefani made a public apology, saying, “For the pain I caused you, Ms. Thomas, and the process you have had to endure, I am truly sorry. And to the others who have felt they were not seen or heard over the past year, I am also truly sorry.”"
+            },
+            {
+              "source": "src:preview-prod-w-sfchronicle-com-e3be879267",
+              "quote": "Stefani reiterated her apology to Thomas at a recent Visual Arts Committee meeting, saying, “My actions hurt and angered people, and I understand why. Although I was unintentional in causing that kind of pain, the bottom line is that I did ... I am truly sorry.”"
+            }
+          ]
+        },
+        "summary": "KQED reported that in October 2019 San Francisco officials rejected artist Lava Thomas' book-shaped design for a city monument to Maya Angelou, and that Stefani, the monument's legislative sponsor, favored a figurative representation; the San Francisco Chronicle reported that Stefani said the panel's choice \"was a no-go.\" KQED reported that at an August 2020 Arts Commission meeting, after the commission apologized to Thomas, members of the public backed demands that included a public apology from Stefani and her resignation.",
+        "title": "Rejection of the selected Maya Angelou monument design",
+        "citations": [
+          {
+            "source": "src:kqed-org-62d37aebbf",
+            "quote": "But in October 2019, city officials rejected Thomas’ design, saying the artist’s book-shaped sculpture etched with an image of Angelou’s face wasn’t what they had in mind: a traditional, figurative statue of the poet."
+          },
+          {
+            "source": "src:kqed-org-62d37aebbf",
+            "quote": "Among the collective’s demands are a public apology from Supervisor Catherine Stefani, the monument’s legislative sponsor; that the SFAC change the language in the RFQ back from “statue” to “artwork”; that Keehn and Stefani resign; and that the SFAC arrange a meeting between See Black Womxn and Mayor London Breed."
+          },
+          {
+            "source": "src:kqed-org-c3e93e8b21",
+            "quote": "In September, Mayor Breed and Supervisor Catherine Stefani, who authored the original legislation to increase the representation of women in city monuments, and who favored “a significant figurative representation of Maya Angelou” as opposed to Thomas’ book-like design, met with Thomas privately and apologized to her."
+          },
+          {
+            "source": "src:preview-prod-w-sfchronicle-com-e3be879267",
+            "quote": "But Supervisor Catherine Stefani, who took Farrell’s seat when he briefly became mayor and took over the statue project, said the choice was a no-go."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Catherine Stefani controversy",
+        "where": "Web search (results only named other people)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Catherine Stefani ethics complaint FPPC",
+        "where": "Web search; no FPPC enforcement matter naming Stefani found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Stefani San Francisco Ethics Commission campaign fine violation",
+        "where": "Web search; no Ethics Commission enforcement matter naming Stefani found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Stefani",
+        "where": "sfethics.org site search: one result, the Commission's routine 2020 audit report of Catherine Stefani for Supervisor 2018 (FPPC #1402502), required for publicly financed candidates; no enforcement action found, not recorded as a controversy"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Assemblymember Catherine Stefani lawsuit OR investigation OR complaint 2025",
+        "where": "Web search; found the 2019 tenant lawsuit coverage (Mission Local, San Francisco Chronicle) and the 2018 Josefowitz suit"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Josefowitz lawsuit District 2 election date Stefani",
+        "where": "Web search and San Francisco Chronicle (Feb 8 and Feb 15, 2018): a 2018 opponent's suit to move the District 2 election date, dismissed by the Superior Court; only one publisher found and the court record was not reachable, so not recorded"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Catherine Stefani tenant Clifton Thomas lawsuit verdict new trial; Stefani tenant lawsuit settled OR dismissed",
+        "where": "Web search; no report of the outcome of the 2019 new-trial motion or the second suit found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Stefani David Lee Assembly 2024 race mailer complaint",
+        "where": "Web search; nothing found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Assemblymember Stefani criticized OR backlash OR apologizes 2025 2026",
+        "where": "Web search; led to the 2019-2020 Maya Angelou monument coverage (KQED, San Francisco Chronicle); nothing from 2025-2026 found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Stefani Maya Angelou monument Lava Thomas rejected apology",
+        "where": "Web search, KQED and San Francisco Chronicle articles; the Arts Commission's Oct 21, 2020 Visual Arts Committee minutes on sfgov.org did not load (HTTP 502)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Stefani resigns Behavioral Health Commission fiscal agent PPP loan",
+        "where": "Web search; a 2020 matter in which Stefani raised questions about the commission's fiscal agent, not about her own conduct; not recorded"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "votecatherinestefani.com",
+        "where": "Campaign site not reachable from this environment (Cloudflare challenge); San Mateo Daily Journal (smdailyjournal.com) returned 403"
+      }
+    ]
+  }
+}

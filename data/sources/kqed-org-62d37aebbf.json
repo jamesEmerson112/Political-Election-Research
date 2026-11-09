@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-62d37aebbf",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2020-08-03",
+  "publisher": "KQED",
+  "title": "SFAC Apologizes to Lava Thomas for Mishandling Maya Angelou Monument",
+  "url": "https://www.kqed.org/arts/13884238/sfac-apologizes-to-lava-thomas-for-mishandling-maya-angelou-monument"
+}
