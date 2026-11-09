@@ -1,6 +1,42 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:jeremy-julian-greco",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Greco San Francisco District 4 supervisor candidate",
+        "where": "Web search (summaries), leads only; results were candidate profiles, questionnaires and podcasts, none reporting a controversy"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Greco",
+        "where": "Mission Local, 'District 4 forum: S.F. candidates confronted with most controversial positions' (2026-03-05); Greco's question concerned his support for Sunset Dunes, a policy position"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Greco",
+        "where": "Mission Local, 'Meet the District 4 candidates: What criticism have you received that is unfair?' (2026-05-28)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Greco",
+        "where": "Bay City News (Local News Matters) District 4 forum report (2026-03-20); Greco did not take part in that forum"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Greco; Jeremy Julian Greco",
+        "where": "Richmond Review/Sunset Beacon 'jeremy greco' tag page and District 4 coverage (2026-03-12, 2026-07-12)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Greco",
+        "where": "San Francisco Ethics Commission enforcement and Penalties Issued pages (sfethics.org); the penalties table did not render as text and the DataSF enforcement dataset (djbd-zes9) returned 404"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-04",
     "items": [
