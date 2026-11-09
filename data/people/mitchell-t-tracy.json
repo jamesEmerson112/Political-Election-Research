@@ -96,6 +96,47 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office held",
+          "where": "campaign website mitchelltracy.com, home/About section (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office held",
+          "where": "The Nevada Independent, 2026-09-19 article on Clark County downballot offices (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office held",
+          "where": "The Nevada Independent 2026 Nevada Voter Guide, Clark County page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office held",
+          "where": "Las Vegas Review-Journal, 2022-10-06 treasurer race article (opened; gives age only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mitchell Tracy Clark County Treasurer 2026 Republican candidate",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mitchell Tracy Nevada candidate campaign website Las Vegas",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office held",
+          "where": "goodparty.org profile (HTTP 429, not reached); nvsos.gov candidate filings (blocked)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
