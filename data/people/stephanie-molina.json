@@ -3,6 +3,44 @@
   "id": "stephanie-molina",
   "name": "Stephanie Molina",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party on the candidate list (the office is nonpartisan; the list prints \"Molina, Stephanie NP\", the nonpartisan-office marker, not a party registration)",
+          "where": "Clark County Election Department, Notice of General Election 2026 (https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:dde8b423-5fd3-4635-a9e5-653e57b5491d/original/as/Notice-Gen-Election-26G.pdf), PDF page 12"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, Democrat, Republican, nonpartisan, registered",
+          "where": "Campaign site https://www.molinafornevada.com/ (home and /about)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina party affiliation",
+          "where": "The Nevada Independent 2026 voter guide, Board of Regents (general and primary pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Stephanie Molina party / Democrat / Republican",
+          "where": "Nevada Current, 2026-04-10, NSHE regent District 5 primary preview; The Nevada Independent, 2026-06-11 and 2026-09-22 regent articles"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Stephanie Molina Nevada Board of Regents District 5 candidate",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina candidate filing / voter registration party",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov, silverstateelection.nv.gov): blocked from this session"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
