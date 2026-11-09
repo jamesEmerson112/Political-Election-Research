@@ -71,6 +71,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Retired training supervisor (ballot designation); retired UPS supervisor (local news)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Charles Hoelter Republican\nRetired Training Supervisor",
+          "locator": "PDF page 7 (list page 6 of 41), United States Representative District 15 (ballot designation, the candidate's self-description)"
+        },
+        {
+          "source": "src:rwcpulse-com-5e3badcc53",
+          "quote": "Hoelter, the sole Republican candidate, is a retired UPS supervisor who has lived in San Mateo County for over three decades."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

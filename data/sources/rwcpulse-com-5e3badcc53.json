@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "rwcpulse-com-5e3badcc53",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-13",
+  "publisher": "Redwood City Pulse",
+  "title": "Five candidates up to bat for Congressional D-15",
+  "url": "https://www.rwcpulse.com/redwood-city/2026/05/13/five-candidates-up-to-bat-for-congressional-d-15/"
+}
