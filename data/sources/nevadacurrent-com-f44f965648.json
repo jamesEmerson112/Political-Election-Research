@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-f44f965648",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-28",
+  "publisher": "Nevada Current",
+  "title": "Appointed member seeks election to Board of Regents District 8",
+  "url": "https://nevadacurrent.com/2026/09/28/appointed-member-seeks-election-to-board-of-regents-district-8/"
+}

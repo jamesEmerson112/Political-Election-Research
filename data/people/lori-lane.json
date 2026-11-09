@@ -76,6 +76,24 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Entertainment industry professional",
+      "citations": [
+        {
+          "source": "src:sierranevadaally-org-879c105033",
+          "quote": "My name is Lori Lane, and I’ve been an entertainment professional for more than 25 years.",
+          "locator": "Who are you and why are you running for this office?"
+        },
+        {
+          "source": "src:lorilovesnevada-com-ef526f8690",
+          "quote": "I have worked in the entertainment industry for more than 25 years."
+        },
+        {
+          "source": "src:nevadacurrent-com-f44f965648",
+          "quote": "Standing in his way is Lori Lane, an entertainment industry professional who wants the state to revamp its film tax credit program and boost the “experiential entertainment economy.”"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
