@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-2afc03dc8f",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-06",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Family Court challenger Marilyn Caston calls for ‘new blood’ in race against Judge Bill Henderson",
+  "url": "https://www.reviewjournal.com/news/civil-courts/family-court-challenger-marilyn-caston-calls-for-new-blood-in-race-against-judge-bill-henderson-3896471/"
+}

@@ -106,6 +106,33 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Family Division, Department R",
+          "first_elected": "2008",
+          "jurisdiction": "Eighth Judicial District Court",
+          "start": "2008",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-daaf00c227",
+              "quote": "Judge Henderson has been serving the community as the District Court Judge in Department R since 2008.",
+              "locator": "Department R page, Biography tab"
+            },
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "Henderson, who does not have a campaign website, was first elected to the seat in 2008.",
+              "locator": "District Court Judge, Eighth Judicial District, Family Division, Dept. R: Bill Henderson (incumbent)"
+            },
+            {
+              "source": "src:reviewjournal-com-2afc03dc8f",
+              "quote": "Now, she said she is focusing on unseating Henderson, who has been on the bench since he was elected in 2008."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
