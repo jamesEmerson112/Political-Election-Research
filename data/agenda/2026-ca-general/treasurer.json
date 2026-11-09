@@ -34,6 +34,42 @@
           "where": "CAL-ACCESS raw data export (2026-11-03): Form 496 late independent expenditure reports, 2023-01-01 through 2026-10-17"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/treasurer|legislation|person:jennifer-hawks",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "offices held / legislation",
+          "where": "https://hawksforus.com/about (campaign biography: retired business executive, Republican nominee; no legislative or elected office listed)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bill / authored / voted",
+          "where": "https://hawksforus.com/100-days and https://hawksforus.com/housing (campaign platform pages; no bills or votes)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jennifer Hawks",
+          "where": "Official Voter Information Guide, Nov. 3, 2026, Treasurer candidate statement p. 87 (\"I’m not a career politician\"; no office held)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "political office",
+          "where": "San Francisco Examiner, June 23, 2026 interview (states \"Hawks has never held political office before\")"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jennifer Hawks elected office",
+          "where": "KPBS/CalMatters treasurer candidate guide, May 4, 2026 (states Hawks does not have experience in elected office)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jennifer Hawks legislation",
+          "where": "Public Advocates treasurer candidate questionnaire and GrowSF November 2026 questionnaire (declined to answer); no bills named"
+        }
+      ]
     }
   ],
   "measures": [],
