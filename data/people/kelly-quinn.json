@@ -35,6 +35,37 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, grew up, hometown",
+          "where": "Campaign site quinnfornv.com (home, About, Issues, Endorsements pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn birthplace",
+          "where": "The Nevada Independent 2026 general election voter guide, Clark State Assembly page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn born, native",
+          "where": "Las Vegas Review-Journal articles on Assembly District 5 (May 15, 2022; Oct 5, 2022)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn biography",
+          "where": "Ballotpedia, Kelly Quinn page (reference work; gives a birthplace as a lead only, not confirmed in a primary source)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Kelly Quinn\" Nevada Assembly District 5 Republican 2026",
+          "where": "Web search (news and voter guides)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
