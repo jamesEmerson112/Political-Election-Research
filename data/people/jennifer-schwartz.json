@@ -3,6 +3,18 @@
   "id": "jennifer-schwartz",
   "name": "Jennifer Schwartz",
   "aliases": [],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "Las Vegas, Nevada",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-fb3fef2e68",
+          "quote": "She was born in Las Vegas to Dr. Robert and Nancy Goldman, and is a Valley High School graduate.",
+          "locator": "Paragraph on Judge Schwartz"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
