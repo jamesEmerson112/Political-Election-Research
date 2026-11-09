@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-10",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 10",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:venise-l-karris",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "State Assembly District 10 Karris Venise L. DEM 2",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 10: the only candidate listed"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "10 Venise L. Karris* Democrat",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 10 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 2, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Karris, Venise Democratic No. 10 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Venise Karris represented District 10 in the 2025 session"
+        }
+      ]
+    }
+  ],
+  "district": 10,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
