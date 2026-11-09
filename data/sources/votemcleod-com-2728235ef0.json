@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "votemcleod-com-2728235ef0",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Elect Alexandra McLeod",
+  "title": "Alexandra Beth McLeod | for District Court Judge, Department 31",
+  "url": "https://votemcleod.com/"
+}

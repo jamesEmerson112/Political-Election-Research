@@ -40,6 +40,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Fairfield, California",
+      "citations": [
+        {
+          "source": "src:votemcleod-com-2728235ef0",
+          "quote": "Alexandra’s journey began in Fairfield, California, where she was raised on Jelly Bellies, Nation’s Burgers, and 49ers football.",
+          "locator": "Home page, second paragraph (place of origin as the campaign states it)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
