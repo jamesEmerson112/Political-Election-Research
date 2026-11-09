@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-c",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department C",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:gregory-g-gordon",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Gordon, Gregory G. NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT C (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department C Gordon (elected to a 2-year unexpired term) Gregory G. NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department C"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "C FAMILY 8 Gregory G. Gordon",
+          "locator": "Judicial departments table, DEPT# C row (dept, location, courtroom, judge): the sitting judge of Family Division Department C"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}

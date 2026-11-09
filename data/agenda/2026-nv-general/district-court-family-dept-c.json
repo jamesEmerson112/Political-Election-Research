@@ -2,7 +2,12 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/district-court-family-dept-c",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:gregory-g-gordon",
+      "name": "Gregory G. Gordon"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
