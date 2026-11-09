@@ -96,6 +96,33 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Master's, Mathematics",
+          "institution": "California State University, Fresno",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-0a02a38506",
+              "quote": "California State University, Fresno, Masters - Mathematics, 1997-2000",
+              "locator": "Biography, Education (candidate-provided)"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor's, Mathematics",
+          "institution": "California State University, Fresno",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-0a02a38506",
+              "quote": "California State University, Fresno, Bachelors - Mathematics, 1993-1997",
+              "locator": "Biography, Education (candidate-provided)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Professor of Mathematics, College of Southern Nevada",
       "citations": [
