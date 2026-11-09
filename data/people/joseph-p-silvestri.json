@@ -4,6 +4,62 @@
   "name": "Joseph P. Silvestri",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date, age, born",
+          "where": "silvestri4silverstate.com (campaign site: home and issues pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri",
+          "where": "Clark County Election Department candidate lists (officesup-26g.pdf, Contests-Candidates-All-26.pdf, Notice of General Election)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri",
+          "where": "Nevada Legislative Counsel Bureau 2026 General Election legislative candidates list (CandidatesList_2026General.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri birth date / age",
+          "where": "The Nevada Independent 2026 voter guide, Clark State Assembly page (candidate blurb)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri age / born",
+          "where": "Las Vegas Review-Journal 2012 voter guide, Nevada 4th Congressional District article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Joseph P. Silvestri",
+          "where": "iVoterGuide race page, Nevada State Assembly Dist. 3 (2026 General Election)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Joseph Silvestri Nevada Assembly District 3 Republican candidate 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Joe Silvestri\" Las Vegas Assembly",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "votesmart Joseph Silvestri Nevada biography",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Silvestri declaration of candidacy",
+          "where": "nvsos.gov (Secretary of State candidate filings): blocked from the research environment"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
