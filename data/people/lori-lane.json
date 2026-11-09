@@ -3,6 +3,49 @@
   "id": "lori-lane",
   "name": "Lori Lane",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Lane, Lori party",
+          "where": "Clark County Election Department, Notice of General Election 2026 (clarkcountynv.gov Notice-Gen-Election-26G.pdf), Board of Regents District 8: prints only NP, which its key defines as Nonpartisan, indicated for nonpartisan offices only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lane Lori party",
+          "where": "Clark County Election Department, Current Listing of All Offices up for Election in 2026 (officesup-all-2026.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration Democrat Republican nonpartisan",
+          "where": "Candidate website lorilovesnevada.com (home, About-Me-Lori-Lane, About-Lori-Lane-Work, Lori-Lane-FAQ, The-TLDR, Lori-Lane-Endorsements-Donations, PressRoom)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party",
+          "where": "Sierra Nevada Ally candidate questionnaire (sierranevadaally.org/profile/lori-lane/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lori Lane party",
+          "where": "The Nevada Independent 2026 general and primary Board of Regents voter guides"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lori Lane\" Board of Regents District 8 Nevada candidate",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lori Lane",
+          "where": "Nevada Secretary of State certified candidate list (nvsos.gov, silverstateelection.nv.gov): blocked from this environment"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
