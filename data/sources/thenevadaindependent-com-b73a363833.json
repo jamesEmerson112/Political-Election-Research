@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-b73a363833",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-19",
+  "publisher": "The Nevada Independent",
+  "title": "These 'small' Clark County offices do important things. Here's who's running for them.",
+  "url": "https://thenevadaindependent.com/article/these-small-clark-county-offices-do-important-things-heres-whos-running-for-them/"
+}
