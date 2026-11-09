@@ -76,6 +76,40 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Product Design",
+          "institution": "Stanford University",
+          "year": 1985,
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "1985 Stanford University",
+              "locator": "Biography page, The Journey timeline"
+            },
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "A Stanford University graduate (Product Design), Shaw ranked at the top of his major and served as mellophone section leader in the legendary LSJUMB marching band.",
+              "locator": "Biography page, The Journey timeline, 1985"
+            }
+          ]
+        },
+        {
+          "degree": "Honorary Doctor of Philosophy in Humanities",
+          "institution": "United Graduate College and Seminary International",
+          "year": 2024,
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "In recognition of his service, he received an Honorary Doctor of Philosophy in Humanities from United Graduate College and Seminary International on February 24, 2024.",
+              "locator": "Biography page, The Journey timeline, Feb 2024"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Product designer, educator, entrepreneur and pastor",
       "citations": [
