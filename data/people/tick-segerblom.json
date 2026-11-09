@@ -28,6 +28,24 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Clark County Commissioner (District E); lawyer specializing in employee-employer relations",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-b70c3ce02f",
+          "quote": "Clark County Commissioner Tick Segerblom was sworn in to his first term to represent District E on Jan. 7, 2019."
+        },
+        {
+          "source": "src:clarkcountynv-gov-b70c3ce02f",
+          "quote": "A graduate of Pomona College in California and the University of Denver Law School, Commissioner Segerblom practices law, specializing in employee-employer relations."
+        },
+        {
+          "source": "src:archive-leg-state-nv-us-3cce472fcf",
+          "quote": "Lawyer",
+          "locator": "page 1"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
