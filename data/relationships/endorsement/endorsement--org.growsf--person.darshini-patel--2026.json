@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.growsf--person.darshini-patel--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:darshini-patel",
+  "endorser": "org:growsf",
+  "citations": [
+    {
+      "source": "src:growsf-org-80ed0cb27f",
+      "quote": "We recommend voting for Darshini Patel as your #1 choice for Supervisor, District 8."
+    },
+    {
+      "source": "src:growsf-org-80ed0cb27f",
+      "quote": "On October 12, we judged that Patel edged out McCoy and we endorsed her."
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Ranked-choice race: GrowSF recommends her as the #1 choice."
+}

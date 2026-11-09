@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.indivisible-sf--person.darshini-patel--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:darshini-patel",
+  "endorser": "org:indivisible-sf",
+  "citations": [
+    {
+      "source": "src:indivisiblesf-org-bcb7d0d7cd",
+      "quote": "Gary McCoy, Michael Nguyen, and Darshini Patel for Supervisor District 8: Any of these candidates would be a good Supervisor, and none of these have been accused of sexual assault like Manny Yekutiel—who has dropped out, but is still on the ballot."
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Ranked-choice race: Indivisible SF endorses Gary McCoy, Michael Nguyen and Darshini Patel; the candidate's page lists it as co-endorsed."
+}

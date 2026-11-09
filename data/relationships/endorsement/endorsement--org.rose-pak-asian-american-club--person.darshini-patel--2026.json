@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.rose-pak-asian-american-club--person.darshini-patel--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:darshini-patel",
+  "endorser": "org:rose-pak-asian-american-club",
+  "citations": [
+    {
+      "source": "src:votedarshini-com-d88f21996f",
+      "quote": "Rose Pak Asian American Club",
+      "locator": "Organizations and elected officials"
+    },
+    {
+      "source": "src:votedarshini-com-d88f21996f",
+      "quote": "RANKED 3RD Supervisor Jackie Fielder, District 9 Rose Pak Asian American Club",
+      "locator": "How each endorser ranked me"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Ranked-choice race: the candidate's page says this endorser ranked her third."
+}

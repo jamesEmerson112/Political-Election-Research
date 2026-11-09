@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.aroc-action--person.darshini-patel--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:darshini-patel",
+  "endorser": "org:aroc-action",
+  "citations": [
+    {
+      "source": "src:arocaction-org-349fddbe39",
+      "quote": "Below are AROC Action's endorsements for the election on November 3, 2026."
+    },
+    {
+      "source": "src:arocaction-org-349fddbe39",
+      "quote": "Darshini Patel San Francisco Board of Supervisors District 8"
+    },
+    {
+      "source": "src:votedarshini-com-d88f21996f",
+      "quote": "CO-ENDORSED United Educators of San Francisco Indivisible SF AROC Action",
+      "locator": "How each endorser ranked me"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Ranked-choice race: AROC Action lists Gary McCoy, Darshini Patel and Michael Nguyen for District 8; the candidate's page lists it as co-endorsed."
+}

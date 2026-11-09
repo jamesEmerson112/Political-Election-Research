@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "indivisiblesf-org-bcb7d0d7cd",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Indivisible SF",
+  "title": "2026 Endorsements | Indivisible SF | Progressive San Francisco",
+  "url": "https://indivisiblesf.org/endorsements"
+}

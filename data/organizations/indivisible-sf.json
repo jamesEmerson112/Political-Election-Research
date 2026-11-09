@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "indivisible-sf",
+  "name": "Indivisible SF",
+  "aliases": [
+    "Indivisible San Francisco"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}

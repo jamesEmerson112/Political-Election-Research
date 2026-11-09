@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "growsf-org-80ed0cb27f",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "published": "2026-10-22",
+  "publisher": "GrowSF",
+  "title": "San Francisco District 8 Supervisor — November 2026 Election",
+  "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/"
+}
