@@ -84,6 +84,47 @@
           "where": "Web search"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence on the declaration of candidacy",
+          "where": "Nevada Secretary of State 2026 candidate list and candidate contact information (nvsos.gov, linked from the Clark County Election Department candidate-filing page): host blocked from the research environment (Cloudflare)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence (lists give name, office and NP only)",
+          "where": "Clark County Election Department candidate lists (Contests-Candidates-All-26.pdf, officesup-26g.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives, resides (only a campaign PO box in Las Vegas is given, not a residence)",
+          "where": "Campaign site https://www.judgemaryperry.com"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives, resides",
+          "where": "Eighth Judicial District Court, Department P biography"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives, resides (says she moved to Las Vegas after the Air Force, with no current residence)",
+          "where": "Vegas Legal Magazine profile 'Mary Perry, Family Court Department P'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives, resident, resides",
+          "where": "The Nevada Independent, Nevada Current and Las Vegas Review-Journal Dept. P coverage"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Judge Mary Perry resides lives Las Vegas Henderson",
+          "where": "Web search"
+        }
+      ]
     }
   },
   "ids": [],
