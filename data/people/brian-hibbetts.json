@@ -29,6 +29,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Police Sergeant, Retired",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Police Sergeant, Retired",
+          "locator": "PDF page 64, Legislative Biography—2025 Session, Brian Hibbetts (occupation line)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
