@@ -57,6 +57,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Minja Yan elected or appointed office; none listed (record lists advocacy and an RTC committee role, not a public office)",
+          "where": "voteminja.com campaign site"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Yan prior office; says she hasn't sought office before",
+          "where": "KTNV, Yan riding light rail to commission seat (2026-09-10)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Yan office held; describes her as a political newcomer",
+          "where": "The Nevada Independent, Who is Minja Yan (2026-07-29)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Minja Yan public office; lists board roles in private and alumni organizations only",
+          "where": "UNLV alumni profile (unlv.edu/people/minja-yan-16)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Minja Yan Clark County elected office appointed",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
