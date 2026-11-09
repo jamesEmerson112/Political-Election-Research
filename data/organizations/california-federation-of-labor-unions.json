@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "california-federation-of-labor-unions",
+  "name": "California Federation of Labor Unions",
+  "aliases": [
+    "California Federation of Labor Unions, AFL-CIO",
+    "California Labor Federation"
+  ],
+  "ids": [],
+  "links": {
+    "official_site": "https://calaborfed.org/"
+  },
+  "org_type": "labor_union",
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.american-independent-party--person.catherine-stefani--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:catherine-stefani",
+  "endorser": "org:american-independent-party",
+  "citations": [
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "State Assembly District 17: Manuel Noris-Barrera State Assembly District 19: Catherine Stefani",
+      "locator": "p. 23 (PDF page 25), Party Endorsements of Candidates, American Independent Party"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

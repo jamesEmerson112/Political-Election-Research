@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-examiner--person.catherine-stefani--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-25",
+  "endorsee": "person:catherine-stefani",
+  "endorser": "org:san-francisco-examiner",
+  "citations": [
+    {
+      "source": "src:sfexaminer-com-c509ee1356",
+      "quote": "The Examiner endorses Catherine Stefani for Assembly District 19",
+      "locator": "headline"
+    },
+    {
+      "source": "src:sfexaminer-com-c509ee1356",
+      "quote": "By The Examiner Editorial Board May 25, 2026",
+      "locator": "byline"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Editorial board endorsement published before the June 2, 2026 primary."
+}

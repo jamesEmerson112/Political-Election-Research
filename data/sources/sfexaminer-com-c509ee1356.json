@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfexaminer-com-c509ee1356",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-25",
+  "publisher": "San Francisco Examiner",
+  "title": "The Examiner endorses Catherine Stefani for Assembly District 19",
+  "url": "https://www.sfexaminer.com/forum/the-examiner-endorses-catherine-stefani-for-assembly-district-19/article_c14e640c-1aa7-4d77-a46f-918dad1abb00.html",
+  "notes": "Editorial by The Examiner Editorial Board, published before the June 2, 2026 primary."
+}

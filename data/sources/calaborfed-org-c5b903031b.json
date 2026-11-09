@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calaborfed-org-c5b903031b",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "California Federation of Labor Unions, AFL-CIO",
+  "title": "2026 COPE Endorsements of the Pre-General Election COPE Convention",
+  "url": "https://calaborfed.org/wp-content/uploads/2026/09/V2_Biennial-2026-general-election-endorsements.pdf",
+  "notes": "Linked from the federation's page Labor 2026 General Election Endorsements (https://calaborfed.org/labor-2026-primary-election-endorsements/). The PDF states the convention met in Oakland on August 4, 2026."
+}

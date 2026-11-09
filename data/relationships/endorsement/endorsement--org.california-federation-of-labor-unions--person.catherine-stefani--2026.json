@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-federation-of-labor-unions--person.catherine-stefani--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-04",
+  "endorsee": "person:catherine-stefani",
+  "endorser": "org:california-federation-of-labor-unions",
+  "citations": [
+    {
+      "source": "src:calaborfed-org-c5b903031b",
+      "quote": "Oakland, August 4, 2026",
+      "locator": "p. 1, heading"
+    },
+    {
+      "source": "src:calaborfed-org-c5b903031b",
+      "quote": "19 Catherine Stefani (D)",
+      "locator": "p. 3, California State Assembly (District, Candidate)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

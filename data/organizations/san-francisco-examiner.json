@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "san-francisco-examiner",
+  "name": "San Francisco Examiner",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "corporation",
+  "last_verified": "2026-11-09"
+}
