@@ -4,6 +4,42 @@
   "name": "Manny Kess",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date, age, born",
+          "where": "votekess.com/about (campaign biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date, age, born",
+          "where": "votekess.com home page (campaign biography and timeline)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "age, born",
+          "where": "Las Vegas Review-Journal, 'Fiore versus Kess for Republican nod for treasurer' (2022-05-15)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Manny Kess\" Las Vegas",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Kess\" Clark County Commission District E Republican nominee 2026 Review-Journal",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "about page; not readable (fetch blocked)",
+          "where": "mk-nirvani.pages.dev and votekess-nirvani.pages.dev (pages listed by search as campaign pages)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
