@@ -95,5 +95,36 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "enacted legislation; programs implemented; budgets; offices held",
+        "where": "https://www.sf.gov/profile--monthanus-ratanapakdee (City commissioner profile): appointed Immigrant Rights Commissioner (August 2024); lists community advocacy efforts (Justice for Vicha mural, Vicha Ratanapakdee Way street renaming, rallies), not outcomes of an office she held"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "commission actions; statements and resolutions",
+        "where": "https://www.sf.gov/departments--immigrant-rights-commission (advisory commission of 15 members; its statements and resolutions pages tried at sf.gov returned HTTP 404)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ratanapakdee; Vicha; Monthanus",
+        "where": "Legistar web API for sfgov (webapi.legistar.com/v1/sfgov/matters): no matters returned; no Board of Supervisors file found with her as sponsor"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "track record; results; programs",
+        "where": "https://www.ratanapakdeesf.org/priorities (Community Work & Public Service section) and https://www.ratanapakdeesf.org/meet-monthanus (campaign site)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "track record; results",
+        "where": "San Francisco Voter Information Pamphlet, November 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 2, printed p. 40"
+      }
+    ]
   }
 }
