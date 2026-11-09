@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.j-r-eppler--sf-file-250851--publicly_supported--undated",
+  "type": "legislative_action",
+  "person": "person:j-r-eppler",
+  "action": "publicly_supported",
+  "bill": "sf-file-250851",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:growsf-org-2bfee09a33",
+      "quote": "That's why I support the Street Safety Act the Board adopted in 2025.",
+      "locator": "Transit Infrastructure section, answer on whether Vision Zero is the right goal"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "His questionnaire names the Street Safety Act the Board adopted in 2025; the Board's record is Resolution No. 437-25 (File 250851), adopted September 16, 2025. It is a resolution, not an ordinance. In the same questionnaire he says he supports the regional transit ballot measures being developed for November 2026 that SB 63 enables; that is support for a ballot measure, not for SB 63 itself, so it is not recorded here."
+}

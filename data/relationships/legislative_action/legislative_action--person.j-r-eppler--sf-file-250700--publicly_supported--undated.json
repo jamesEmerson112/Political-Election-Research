@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.j-r-eppler--sf-file-250700--publicly_supported--undated",
+  "type": "legislative_action",
+  "person": "person:j-r-eppler",
+  "action": "publicly_supported",
+  "bill": "sf-file-250700",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:growsf-org-2bfee09a33",
+      "quote": "The plan is important because it modernizes outdated zoning and opens up more neighborhoods, particularly in the north and west sides of the city, to housing production, which is long overdue.",
+      "locator": "Housing section, answer on Mayor Lurie's Family Zoning plan (questionnaire due March 12, 2026)"
+    },
+    {
+      "source": "src:growsf-org-2bfee09a33",
+      "quote": "So my view is this: the Family Zoning Plan is necessary, but not sufficient.",
+      "locator": "Housing section, answer on Mayor Lurie's Family Zoning plan"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "His questionnaire answer names the Family Zoning Plan, not a file number; Ordinance No. 244-25 (File 250700, the Zoning Map ordinance) states it implements the Family Zoning Plan, which also includes General Plan and Planning Code amendments in separate files. He held no Board of Supervisors or state legislative office (his offices_held lists the Building Inspection Commission and the Board of Appeals). A Board of Supervisors title search also returns File 171047, a 2017 hearing on an appeal he filed for the Potrero Boosters Neighborhood Association against the Pier 70 Mixed-Use District final EIR certification (status: Filed); an EIR appeal hearing is not legislation, so it is not recorded here."
+}

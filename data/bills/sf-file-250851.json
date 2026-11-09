@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-250851",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-09-26",
+    "citations": [
+      {
+        "source": "src:sfbos-org-fb69b6fde7",
+        "quote": "September 16, 2025 Board of Supervisors -ADOPTED Ayes: 10 - Chan, Chen, Engardio, Fielder, Mahmood, Mandelman, Melgar, Sauter, Sherrill and Walton Excused: 1 - Dorsey",
+        "locator": "Legislative history, p. 8"
+      },
+      {
+        "source": "src:sfbos-org-fb69b6fde7",
+        "quote": "I hereby certify that the foregoing resolution, not being signed by the Mayor within the time limit as set forth in Section 3.103 of the Charter, or time waived pursuant to Board Rule 2.14.2, became effective without his approval",
+        "locator": "p. 9"
+      }
+    ]
+  },
+  "area": "transportation",
+  "summary": {
+    "value": "Resolution urging a preventative, interagency, and data-driven approach to ending severe and fatal traffic crashes, with a focus on protecting children, seniors and other vulnerable populations.",
+    "citations": [
+      {
+        "source": "src:sfbos-org-fb69b6fde7",
+        "quote": "Resolution urging a preventative, interagency, and data-driven approach to ending severe and fatal traffic crashes by designing and enforcing safer streets for all San Franciscans, with a particular focus on protecting children, seniors, and other vulnerable populations.",
+        "locator": "Resolution No. 437-25, p. 1"
+      }
+    ]
+  },
+  "title": {
+    "value": "San Francisco Street Safety Act",
+    "citations": [
+      {
+        "source": "src:sfbos-org-fb69b6fde7",
+        "quote": "FILE NO. 250851 AMENDED IN COMMITTEE 9/8/2025 RESOLUTION NO. 437-25 [San Francisco Street Safety Act]",
+        "locator": "Resolution No. 437-25, p. 1"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
