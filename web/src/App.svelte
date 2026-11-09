@@ -12,7 +12,8 @@
   import QueueView from "./components/QueueView.svelte";
   import SourcesView from "./components/SourcesView.svelte";
   import Tooltip from "./components/Tooltip.svelte";
-  import { contestRoute, Index } from "./lib/data";
+  import { contestRoute, Index, stateOf } from "./lib/data";
+  import { statesOf } from "./lib/stateView";
   import { plural } from "./lib/format";
   import { loadDatasetChoice, saveDatasetChoice, ui } from "./lib/ui.svelte";
   import { need, parts, withParts } from "./lib/parts.svelte";
@@ -49,6 +50,10 @@
   const routeContest = $derived(contestRefs.find((r) => contestRoute(r) === routePath));
   const view = $derived(
     routeContest ? "contest" : ["issues", "sources", "queue", "measures", "trial", "about"].includes(routePath) ? routePath : "overview",
+  );
+  /** The Overview shows one state at a time: from a contest page its link opens that contest's state (lib/stateView.ts). */
+  const overviewHref = $derived(
+    routeContest && statesOf(contestRefs.map(stateOf)).length > 1 ? `#overview?view=${stateOf(routeContest)}` : "#overview",
   );
 
   /**
@@ -137,7 +142,7 @@
     </div>
   </div>
   <nav class="wrap nav" aria-label="Sections" bind:this={navEl}>
-    <a href="#overview" class:active={view === "overview"}>Overview</a>
+    <a href={overviewHref} class:active={view === "overview"}>Overview</a>
     {#if routeContest}
       <a class="cur" href={`#${contestRoute(routeContest)}`} class:active={true} aria-current="page">{ix.listTitle(routeContest)}</a>
     {/if}

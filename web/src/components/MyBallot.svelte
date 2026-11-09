@@ -28,6 +28,8 @@
   let {
     choice,
     showAll,
+    where = "",
+    shownSt = "ca",
     coveredAssembly = [],
     onCount,
     total,
@@ -37,6 +39,10 @@
   }: {
     choice: Choice;
     showAll: boolean;
+    /** The state the list shows when it isn't this ballot's ("Nevada": every Nevada contest is listed). */
+    where?: string;
+    /** The state the Overview shows: with no ballot set, the notes and Pick start there. */
+    shownSt?: BallotState;
     /** California Assembly districts that have a contest page on this site. */
     coveredAssembly?: number[];
     onCount: number;
@@ -52,8 +58,8 @@
   let changing = $state(false);
   const set = $derived(!isEmptyChoice(choice));
   const showMethods = $derived(!set || changing);
-  /** The state of the saved choice (California unless it says Nevada). */
-  const st = $derived(stateOfChoice(choice));
+  /** The ballot's state (California unless it says Nevada); with no ballot set, the state the Overview shows. */
+  const st = $derived(set ? stateOfChoice(choice) : shownSt);
   const RESULT_KINDS: Record<BallotState, DistrictKind[]> = { ca: ["cd", "boe", "county"], nv: ["cd", "sd", "ad", "county", "city"] };
   /** Nevada kinds not in the boundary data: picked by hand from the sample ballot. */
   const NV_HAND_KINDS: DistrictKind[] = ["ward", "comm", "ccsd", "regent"];
@@ -370,7 +376,7 @@
           <strong>{st === "nv" ? choiceSummary({ st, cd: choice.cd, sd: choice.sd, ad: choice.ad, city: choice.city }) : choiceSummary({ cd: choice.cd, boe: choice.boe })}</strong>
           {#if !choice.cd?.length}<span class="muted">House district not set</span>{/if}
           <span>· {plural(onCount, "contest")}</span>
-          {#if showAll}<span class="muted">(showing all {total})</span>{/if}
+          {#if showAll}<span class="muted">(showing all {total}{where ? ` ${where}` : ""} contests)</span>{/if}
         </p>
       {:else}
         <p class="muted">Narrow the list to the contests on your ballot.</p>

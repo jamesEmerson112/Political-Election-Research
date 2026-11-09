@@ -13,7 +13,8 @@
  * 5c. The Overview's county group says every ballot in a county has that county's contests.
  * 5l. A pick and note on a contest page come out in "Export my picks" (.txt).
  * 5j. A Nevada ZIP (89101) narrows the Overview to Nevada contests, with the City of Las Vegas's; a Henderson ZIP (89052) has none of the city's.
- * 5d. The Overview links to the Las Vegas (Nevada) contests.
+ * 5d. The Overview shows one state at a time: California first, the switch's "Nevada · Las Vegas" link lists Nevada's
+ *    contests only, and Back returns to California.
  * 5e. Vercel Web Analytics loads only on the public site (political-election-research.vercel.app):
  *    on the local server and on preview deployments the page loads no analytics script.
  * 5f. Proposition groups start folded on the Overview.
@@ -27,6 +28,8 @@
  *    in dark mode (8d); the drawer keeps Tab inside and returns focus (8e); Back returns to the reader's place
  *    (8f); Nevada's questions are on the Measures tab (8g); the Overview title and My ballot's "not covered"
  *    note are right (8h).
+ * 11. The state switch: a contest page's Overview link keeps its state; a ballot in the other state; the filter's link
+ *    to the other state (11a). The demo has one place and no switch (11b).
  */
 import { createRequire } from "node:module";
 import path from "node:path";
@@ -87,16 +90,37 @@ await page.waitForSelector(".group");
 const countyNote = await text(page.locator(".group", { has: page.locator("h2", { hasText: "County: pick your district" }) }).locator(".g-note"));
 check("5c. county contests are on every ballot in the county (not one of them)", countyNote.startsWith("Every ballot in a county") , countyNote);
 
-// 5d. Las Vegas is one click from the top of the Overview, and a Nevada ZIP code points there.
-await page.locator(".intro .jump button", { hasText: "Nevada · Las Vegas" }).click();
-await page.waitForTimeout(800);
-const nvInView = await page.evaluate(() => {
-  const el = document.getElementById("state-nv");
-  if (!el) return false;
-  const r = el.getBoundingClientRect();
-  return r.top < window.innerHeight && r.bottom > 0;
-});
-check("5d. the Overview's Nevada · Las Vegas link scrolls to the Las Vegas contests", nvInView, "");
+// 5d. One state at a time: the Overview opens on California (here with a California ballot from the link, CA-11), the
+// switch's "Nevada · Las Vegas" link lists only Nevada's contests (all of them: the ballot is California's), Back returns.
+const crowHrefs = () => page.locator("a.crow").evaluateAll((as) => as.map((a) => a.getAttribute("href") ?? ""));
+const current = () => text(page.locator('.states a[aria-current="page"]'));
+const caFirst = await crowHrefs();
+const caTab = await current();
+await page.locator(".states a", { hasText: "Nevada · Las Vegas" }).click();
+await page.waitForFunction(() => location.hash.startsWith("#overview?view=nv"));
+await page.waitForTimeout(300);
+const nvList = await crowHrefs();
+const nvTab = await current();
+const nvHash = await page.evaluate(() => location.hash);
+const nvShowing = await text(page.locator(".mb-sum"));
+await page.goBack();
+await page.waitForFunction(() => location.hash === "#overview?cd=11");
+await page.waitForTimeout(300);
+const caAgain = await crowHrefs();
+check(
+  "5d. one state at a time: California first; the switch lists only Nevada's contests (a California ballot doesn't narrow them); Back returns",
+  caTab.startsWith("California") &&
+    caFirst.length > 0 &&
+    caFirst.every((h) => h.includes("2026-ca-general")) &&
+    nvTab.startsWith("Nevada · Las Vegas") &&
+    nvHash === "#overview?view=nv&cd=11" &&
+    nvList.length > 20 &&
+    nvList.every((h) => h.includes("2026-nv-general")) &&
+    /showing all \d+ Nevada contests/.test(nvShowing) &&
+    caAgain.length === caFirst.length &&
+    caAgain.every((h) => h.includes("2026-ca-general")),
+  `${caTab}: ${caFirst.length} rows | ${nvTab}: ${nvList.length} rows at ${nvHash}, "${nvShowing.slice(-40)}" | Back: ${caAgain.length} rows`,
+);
 
 // 5j. A Nevada ZIP narrows the Overview to that voter's Nevada contests: city contests only inside the City of Las Vegas.
 async function zipBallot(zip) {
@@ -110,7 +134,7 @@ async function zipBallot(zip) {
   await page.waitForTimeout(200);
   const hrefs = await page.locator("a.crow").evaluateAll((as) => as.map((a) => a.getAttribute("href") ?? ""));
   return {
-    title: await text(page.locator(".intro h1")),
+    view: await text(page.locator('.states a[aria-current="page"]')),
     found: (await page.locator(".found").innerText()).replace(/\s+/g, " "),
     nv: hrefs.filter((h) => h.includes("2026-nv-general")).length,
     ca: hrefs.filter((h) => h.includes("2026-ca-general")).length,
@@ -120,9 +144,9 @@ async function zipBallot(zip) {
 const lv = await zipBallot("89101");
 const hd = await zipBallot("89052");
 check(
-  "5j. a Nevada ZIP narrows the Overview to Nevada contests; city contests only inside the City of Las Vegas",
-  lv.title.startsWith("Nevada") && lv.ca === 0 && lv.nv > 10 && lv.muni && lv.found.includes("City of Las Vegas") && hd.ca === 0 && hd.nv > 10 && !hd.muni,
-  `89101: ${lv.nv} NV / ${lv.ca} CA, municipal court ${lv.muni}; 89052: ${hd.nv} NV, municipal court ${hd.muni}`,
+  "5j. a Nevada ZIP switches the Overview to Nevada and narrows it to that ballot; city contests only inside the City of Las Vegas",
+  lv.view.startsWith("Nevada") && hd.view.startsWith("Nevada") && lv.ca === 0 && lv.nv > 10 && lv.muni && lv.found.includes("City of Las Vegas") && hd.ca === 0 && hd.nv > 10 && !hd.muni,
+  `89101: ${lv.view}, ${lv.nv} NV / ${lv.ca} CA, municipal court ${lv.muni}; 89052: ${hd.nv} NV, municipal court ${hd.muni}`,
 );
 await page.evaluate(() => localStorage.removeItem("per-my-ballot"));
 await page.goto(`${BASE}#overview`);
@@ -381,6 +405,7 @@ async function openAll(p, route) {
   const wide = [];
   for (const route of [
     "overview",
+    "overview?view=nv",
     "measures",
     "trial",
     "about",
@@ -730,15 +755,16 @@ async function openAll(p, route) {
 }
 
 {
-  // 9h. The Nevada section's note matches its data: once its contests list candidates, it no longer says they have none.
+  // 9h. The Nevada list's note matches its data: once its contests list candidates, it no longer says they have none.
   // Contests whose only record is the official candidate list fold with the unresearched ones.
   const { c, p } = await sweepPage(1280);
-  const nv = p.locator("#state-nv");
-  const note = await text(nv.locator(".g-note").first());
-  const folds = await nv.locator("button.more").count();
+  await p.evaluate(() => (location.hash = "overview?view=nv"));
+  await p.waitForSelector(".state-note");
+  const note = await text(p.locator(".state-note"));
+  const folds = await p.locator("main button.more").count();
   await p.locator("#contest-filter").fill("Las Vegas Municipal Court");
   await p.waitForTimeout(200);
-  const who = await nv.locator("a.crow .c-who").allTextContents();
+  const who = await p.locator("main a.crow .c-who").allTextContents();
   await c.close();
   const listed = who.length > 0 && who.every((w) => w.trim() && !/Candidates not set/.test(w));
   check(
@@ -757,10 +783,20 @@ async function openAll(p, route) {
   const head = await text(block.locator("h3"));
   const rows = await block.locator("svg text").allTextContents();
   const href = await block.locator("a").getAttribute("href");
+  const nvLineOnCa = await p.locator(".count-line").count();
+  await p.evaluate(() => (location.hash = "overview?view=nv"));
+  await p.waitForSelector(".count-line");
   const nvLine = await text(p.locator(".count-line").first());
+  const nvMeters = await p.locator(".count-budget").count();
   check(
-    "10a. Overview: under the results, the State's General Fund if the semi-official count holds (Props 1 and 38 in the bridge), linking to Count so far; Nevada says its count isn't recorded",
-    /If the semi-official count holds: State of California/.test(head) && rows.includes("Prop 1") && rows.includes("Prop 38") && href === "#trial?count&j=california" && /statewide count not recorded yet/.test(nvLine),
+    "10a. Overview: under the results, the State's General Fund if the semi-official count holds (Props 1 and 38 in the bridge), linking to Count so far; Nevada's list says its count isn't recorded",
+    /If the semi-official count holds: State of California/.test(head) &&
+      rows.includes("Prop 1") &&
+      rows.includes("Prop 38") &&
+      href === "#trial?count&j=california" &&
+      nvLineOnCa === 0 &&
+      /statewide count not recorded yet/.test(nvLine) &&
+      nvMeters === 0,
     `${head} | ${rows.filter((r) => /^Prop/.test(r)).join(", ")} | ${href} | ${nvLine.slice(0, 90)}`,
   );
 
@@ -816,6 +852,87 @@ async function openAll(p, route) {
     "10d. demo: Count so far says Passed / Failed once certified; Prop A (two-thirds needed) failed and adds nothing",
     /^Certified/.test(line) && /Failed/.test(propA) && /no change/.test(propA) && /Passed/.test(propB),
     `${line} | ${propA.replace(/\s+/g, " ").slice(0, 80)} | ${propB.replace(/\s+/g, " ").slice(0, 60)}`,
+  );
+}
+
+{
+  // 11a. The state switch (maintainer, 2026-11-09): a Nevada contest page's "Overview" link returns to the Nevada list;
+  // with a California ballot, Nevada lists every contest and "Show my ballot" returns to California's narrowed list;
+  // a filter with no match in the state shown links to its matches in the other state, keeping the text.
+  const { c, p } = await sweepPage(1280);
+  const current = () => text(p.locator('.states a[aria-current="page"]'));
+  await p.evaluate(() => (location.hash = "c-2026-nv-general--governor"));
+  await p.waitForSelector("header.head h1");
+  const navHref = await p.locator("nav.nav a", { hasText: "Overview" }).getAttribute("href");
+  await p.locator("nav.nav a", { hasText: "Overview" }).click();
+  await p.waitForSelector(".states");
+  const fromContest = await current();
+  // With no ballot set, My ballot's notes are Nevada's (Clark County), not California's.
+  const nvNotes = await text(p.locator(".mb .notes"));
+
+  await p.evaluate(() => (location.hash = "overview?cd=11"));
+  await p.waitForSelector(".mb-sum");
+  await p.waitForTimeout(200);
+  const caRows = await p.locator("a.crow").count();
+  await p.locator(".states a", { hasText: "Nevada" }).click();
+  await p.waitForFunction(() => location.hash.startsWith("#overview?view=nv"));
+  await p.waitForTimeout(200);
+  const nvRows = await p.locator("a.crow").evaluateAll((as) => as.map((a) => a.getAttribute("href") ?? ""));
+  await p.locator(".mb-actions button", { hasText: "Show my ballot" }).click();
+  await p.waitForFunction(() => location.hash === "#overview?cd=11");
+  await p.waitForTimeout(200);
+  const backRows = await p.locator("a.crow").count();
+  const backTab = await current();
+
+  await p.locator("#contest-filter").fill("Titus");
+  await p.waitForTimeout(200);
+  const empty = await text(p.locator("main .empty"));
+  const hint = await text(p.locator("p.other a"));
+  await p.locator("p.other a").click();
+  await p.waitForFunction(() => location.hash.startsWith("#overview?view=nv"));
+  await p.waitForTimeout(200);
+  const found = await p.locator("a.crow").evaluateAll((as) => as.map((a) => a.getAttribute("href") ?? ""));
+  const kept = await p.locator("#contest-filter").inputValue();
+  await c.close();
+  check(
+    "11a. a Nevada contest's Overview link opens the Nevada list (with Nevada's My ballot notes); Show my ballot returns from Nevada to a California ballot; the filter links to matches in the other state",
+    navHref === "#overview?view=nv" &&
+      fromContest.startsWith("Nevada") &&
+      nvNotes.includes("Clark County voter lookup") &&
+      !nvNotes.includes("My Voter Status") &&
+      nvRows.length > 20 &&
+      nvRows.every((h) => h.includes("2026-nv-general")) &&
+      backTab.startsWith("California") &&
+      backRows === caRows &&
+      empty === "No California contest matches “Titus”." &&
+      /^1 match for “Titus” in Nevada · Las Vegas/.test(hint) &&
+      found.includes("#c-2026-nv-general--us-house-nv-1") &&
+      kept === "Titus",
+    `${navHref} → ${fromContest} | CA-11 ballot ${caRows} rows, Nevada ${nvRows.length}, back ${backRows} (${backTab}) | ${empty} ${hint} → ${found.join(" ")}`,
+  );
+}
+
+{
+  // 11b. The demo has one place of its own: no switch, and its contests are the list (not "No contest on this ballot yet").
+  const c = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  await c.addInitScript(() => localStorage.setItem("per-dataset", "demo"));
+  const p = await c.newPage();
+  p.on("pageerror", (e) => errors.push(String(e)));
+  await p.goto(`${BASE}#overview`);
+  await p.waitForSelector("main h1");
+  await p.waitForTimeout(300);
+  const d = await p.evaluate(() => ({
+    h1: document.querySelector(".intro h1")?.textContent?.trim() ?? "",
+    tabs: document.querySelectorAll(".states a").length,
+    rows: document.querySelectorAll("a.crow").length,
+    empty: document.querySelector("main .empty")?.textContent?.trim() ?? "",
+    results: !!document.querySelector("section.results"),
+  }));
+  await c.close();
+  check(
+    "11b. demo: one place, so no state switch; its contests are listed under its own name, with its certified results",
+    d.h1 === "ZZ contests" && d.tabs === 0 && d.rows > 0 && !d.empty && d.results,
+    `${d.h1} | ${d.tabs} switch links | ${d.rows} rows | ${d.empty || "no empty note"} | results ${d.results}`,
   );
 }
 

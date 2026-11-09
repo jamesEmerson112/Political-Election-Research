@@ -3,6 +3,7 @@ import type { Coverage, Task } from "../../../src/research";
 import type { CandidateRollup } from "../../../src/rollup";
 import type { OfficeType } from "./icons";
 import { titleFromSlug } from "./labels";
+import { STATE_NAMES } from "./stateView";
 export { titleFromSlug };
 
 export type { Bundle, Coverage, Task, CandidateRollup };
@@ -47,7 +48,7 @@ export interface Lead {
   hint?: "support" | "oppose" | "mixed";
 }
 
-export const STATES: Record<string, string> = { ca: "California", nv: "Nevada" };
+export const STATES: Record<string, string> = STATE_NAMES;
 
 /** Two-letter state code of a contest ref or slug (from its election id, e.g. 2026-nv-general -> "nv"). */
 export function stateOf(ref: string): string {

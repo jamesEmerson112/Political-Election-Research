@@ -1,9 +1,8 @@
 <script lang="ts">
-  import ArrowDown from "@lucide/svelte/icons/arrow-down";
+  import ArrowRight from "@lucide/svelte/icons/arrow-right";
   import ChevronDown from "@lucide/svelte/icons/chevron-down";
   import Download from "@lucide/svelte/icons/download";
   import Search from "@lucide/svelte/icons/search";
-  import { tick } from "svelte";
   import {
     ballotStatus,
     DISTRICT_NAME,
@@ -14,12 +13,12 @@
     parseChoice,
     placeContest,
     saveChoice,
-    serializeChoice,
     choiceSummary,
     stateOfChoice,
     type Choice,
     type DistrictKind,
   } from "../lib/ballot";
+  import { defaultView, overviewHash, stateLabel, stateName, statesOf, viewOf, viewParam } from "../lib/stateView";
   import { contestRoute, officeOf, slugOf, stateOf, STATES, type Index } from "../lib/data";
   import { plural } from "../lib/format";
   import { BALLOT_ICON, OFFICE_ORDER, OFFICE_TYPE, type OfficeType } from "../lib/icons";
@@ -36,35 +35,42 @@
   let { ix, query = "" }: { ix: Index; query?: string } = $props();
   let q = $state("");
 
-  // "My ballot": districts from the URL hash (a shared link) win over the ones saved on this device.
+  // "My ballot": districts from the URL hash (a shared link) win over the ones saved on this device. The page shows one
+  // state at a time: the link's `view=`, else My ballot's state, else California (lib/stateView.ts).
   let choice = $state<Choice>({});
+  let viewWanted = $state<string | null>(null);
   let showAll = $state(false);
   $effect(() => {
+    // Reads the query only: anything derived from `ix` would re-run this when the on-demand data arrives, with a query
+    // that My ballot's replaceState (below) has already made out of date.
     const fromHash = parseChoice(query);
     choice = isEmptyChoice(fromHash) ? loadChoice() : fromHash;
+    viewWanted = viewParam(query);
   });
-  function setHash(qs: string) {
+  function setHash(hash: string) {
     try {
-      history.replaceState(null, "", qs ? `#overview?${qs}` : "#overview");
+      history.replaceState(null, "", hash);
     } catch {
       /* sandboxed page: the hash just isn't updated */
     }
   }
   function setChoice(c: Choice) {
     choice = normalizeChoice(c);
+    // A ballot set by ZIP, location or pick shows its own state.
+    viewWanted = null;
     showAll = false;
     saveChoice(choice);
-    setHash(serializeChoice(choice));
+    setHash(overviewHash(defaultView(choice, states), choice, states));
   }
   function forget() {
+    const shownSt = viewSt;
     forgetChoice();
     choice = {};
     showAll = false;
-    setHash("");
+    // Stay on the state shown.
+    viewWanted = shownSt;
+    setHash(overviewHash(shownSt, {}, states));
   }
-  const ballotOn = $derived(!isEmptyChoice(choice) && !showAll);
-  /** The state listed first, in the normal office groups: the voter's (when My ballot narrows the list) or California. */
-  const ballotSt = $derived(ballotOn ? stateOfChoice(choice) : "ca");
 
   /** Every contest, once, with what the index needs; grouped by office type, districts in numeric order. */
   const rows = $derived(
@@ -93,20 +99,26 @@
       return { ref, st, kind, office, names, who, measure, word, count, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
     }),
   );
-  /** Other states' contests (Nevada: Las Vegas ballots) get their own section while the list isn't narrowed to one voter's ballot. */
-  const otherStates = $derived.by(() => {
-    if (ballotOn) return [];
-    const by = new Map<string, Row[]>();
-    for (const r of textFiltered) if (r.st !== ballotSt) by.set(r.st, [...(by.get(r.st) ?? []), r]);
-    return [...by.entries()]
-      .sort(([a], [b]) => a.localeCompare(b))
-      .map(([st, rs]) => ({
-        st,
-        name: STATES[st] ?? st.toUpperCase(),
-        count: rs.length,
-        groups: OFFICE_ORDER.map((type) => ({ type, rows: sortRows(rs.filter((r) => r.office.type === type)) })).filter((g) => g.rows.length),
-      }));
-  });
+  /** The states with contests, California first, and the one shown (the demo has one place of its own). */
+  const states = $derived(statesOf(rows.map((r) => r.st)));
+  const viewSt = $derived(viewOf(viewWanted, choice, states));
+  const ballotSet = $derived(!isEmptyChoice(choice));
+  /** My ballot narrows the list only in its own state; in the other state the list shows every contest. */
+  const ballotHere = $derived(ballotSet && stateOfChoice(choice) === viewSt);
+  const ballotElsewhere = $derived(ballotSet && !ballotHere && states.includes(stateOfChoice(choice)));
+  const ballotOn = $derived(ballotHere && !showAll);
+  /** My ballot's "Show all" / "Show my ballot"; from the other state it goes back to the ballot's own (a new page, so Back returns). */
+  function toggleAll() {
+    if (ballotElsewhere) {
+      showAll = false;
+      location.hash = overviewHash(stateOfChoice(choice), choice, states);
+      return;
+    }
+    showAll = !showAll;
+  }
+  /** The switch: each state's contests (Nevada: the ones on Las Vegas ballots). */
+  const tabs = $derived(states.map((st) => ({ st, label: stateLabel(st), count: rows.filter((r) => r.st === st).length })));
+  const viewCount = $derived(tabs.find((t) => t.st === viewSt)?.count ?? 0);
   /** Group labels where another state's words differ (Nevada calls its measures "ballot questions"). */
   const groupLabel = (st: string, type: OfficeType) =>
     st === "nv" && type === "measure" ? "State ballot questions" : st === "nv" && type === "local_measure" ? "Local ballot questions" : OFFICE_TYPE[type].label;
@@ -159,8 +171,10 @@
     return terms.length ? rows.filter((r) => terms.every((t) => r.hay.includes(t))) : rows;
   });
   const status = (r: Row) => (ballotOn ? ballotStatus(r.place, choice) : "on");
-  /** Rows in the normal office groups: every California contest, or only this voter's. */
-  const filtered = $derived(textFiltered.filter((r) => r.st === ballotSt && status(r) === "on"));
+  /** Rows in the office groups: every contest of the state shown, or only this voter's. */
+  const filtered = $derived(textFiltered.filter((r) => r.st === viewSt && status(r) === "on"));
+  /** Under the list: the other states, with the filter's matches there. */
+  const others = $derived(tabs.filter((t) => t.st !== viewSt).map((t) => ({ ...t, matches: textFiltered.filter((r) => r.st === t.st).length })));
   const sortRows = (rs: Row[]) =>
     rs.sort((a, b) => a.office.sort[0] - b.office.sort[0] || a.office.sort[1].localeCompare(b.office.sort[1]));
   const groups = $derived(
@@ -173,20 +187,14 @@
   const toPick = $derived.by(() => {
     const by = new Map<DistrictKind, Row[]>();
     for (const r of textFiltered) {
-      if (status(r) !== "pick" || r.place.scope !== "district") continue;
+      if (r.st !== viewSt || status(r) !== "pick" || r.place.scope !== "district") continue;
       by.set(r.place.kind, [...(by.get(r.place.kind) ?? []), r]);
     }
     return [...by.entries()].map(([kind, rs]) => ({ kind, rows: sortRows(rs) }));
   });
-  const unmatched = $derived(sortRows(textFiltered.filter((r) => r.st === ballotSt && status(r) === "unmatched")));
-  const shown = $derived(
-    filtered.length + toPick.reduce((n, g) => n + g.rows.length, 0) + unmatched.length + otherStates.reduce((n, s) => n + s.count, 0),
-  );
+  const unmatched = $derived(sortRows(textFiltered.filter((r) => r.st === viewSt && status(r) === "unmatched")));
+  const shown = $derived(filtered.length + toPick.reduce((n, g) => n + g.rows.length, 0) + unmatched.length);
   const openTasks = $derived(ix.openTaskTotal());
-  /** Other states' contest counts (Nevada: Las Vegas), for the jump link under the title. */
-  const elsewhere = $derived(
-    [...new Set(rows.map((r) => r.st).filter((st) => st !== "ca"))].sort().map((st) => ({ st, name: STATES[st] ?? st.toUpperCase(), count: rows.filter((r) => r.st === st).length })),
-  );
   /** California Assembly districts with a contest page here, so My ballot doesn't list them as missing. */
   const coveredAssembly = $derived(
     rows.flatMap((r) => {
@@ -194,10 +202,10 @@
       return m ? [Number(m[1])] : [];
     }),
   );
-  /** Results first: the listed state's contests with a result (only this voter's when My ballot is set), in Overview order. */
+  /** Results first: the state shown's contests with a result (only this voter's when My ballot is set), in Overview order. */
   const resultItems = $derived(
     OFFICE_ORDER.flatMap((type) =>
-      sortRows(rows.filter((r) => r.st === ballotSt && r.office.type === type && (r.measure || r.word) && status(r) === "on")),
+      sortRows(rows.filter((r) => r.st === viewSt && r.office.type === type && (r.measure || r.word) && status(r) === "on")),
     ).map((r) => ({
       ref: r.ref,
       title: r.title,
@@ -211,8 +219,8 @@
   );
   /** Places on the list whose results aren't recorded yet. */
   const resultsMissing = $derived.by(() => {
-    const listed = rows.filter((r) => r.st === ballotSt && status(r) === "on" && r.verified && !r.measure && !r.word);
-    const measures = rows.filter((r) => r.st === ballotSt && status(r) === "on" && r.kind === "measure" && !r.measure);
+    const listed = rows.filter((r) => r.st === viewSt && status(r) === "on" && r.verified && !r.measure && !r.word);
+    const measures = rows.filter((r) => r.st === viewSt && status(r) === "on" && r.kind === "measure" && !r.measure);
     const all = [...listed, ...measures];
     const sf = all.some((r) => /\/sf-/.test(r.ref));
     const other = all.filter((r) => !/\/sf-/.test(r.ref)).map((r) => r.title);
@@ -233,24 +241,11 @@
   const FOLDED_TYPES = new Set<OfficeType>(["measure", "local_measure"]);
   let unfolded = $state<Record<string, boolean>>({});
   const isOpen = (key: string, type: OfficeType) => !FOLDED_TYPES.has(type) || q.trim() !== "" || unfolded[key] === true;
-  async function jumpTo(st: string) {
-    // My ballot narrows the list to one state; show everything so the other state's section exists.
-    if (ballotOn) showAll = true;
-    q = "";
-    await tick();
-    document.getElementById(`state-${st}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
 </script>
 
 <section class="intro">
   <div class="eyebrow">{ix.b.fictional ? "Fictional demo dataset" : "Research draft"}</div>
-  <h1>
-    {ballotSt === "nv"
-      ? "Nevada contests: your Las Vegas-area ballot"
-      : !ballotOn && elsewhere.length
-        ? `California and ${elsewhere.map((e) => e.name).join(" and ")} contests`
-        : "California contests"}
-  </h1>
+  <h1>{states.map(stateName).join(" and ") || "California"} contests</h1>
   <p class="facts num">
     <span><strong>{rows.length}</strong> contests</span>
     <span><strong>{ix.peopleCount()}</strong> people</span>
@@ -258,18 +253,37 @@
     <span><strong>{ix.claimCount()}</strong> citations</span>
     <span><strong>{openTasks}</strong> open tasks</span>
   </p>
-  {#each ballotSt === "ca" ? elsewhere : [] as e (e.st)}
-    <p class="jump">
-      <button type="button" class="link" onclick={() => jumpTo(e.st)}>
-        <ArrowDown size={14} aria-hidden="true" />{e.st === "nv" ? `${e.name} · Las Vegas` : e.name}: <span class="num">{e.count}</span> contests, after California's
-      </button>
-    </p>
-  {/each}
+  {#if tabs.length > 1}
+    <!-- One state at a time: links (#overview?view=nv), so Back, Forward and shared links keep the state. -->
+    <nav class="states" aria-label="Contests by state">
+      {#each tabs as t (t.st)}
+        <a href={overviewHash(t.st, choice, states)} class:on={t.st === viewSt} aria-current={t.st === viewSt ? "page" : undefined}
+          >{t.label}<span class="n num">{` ${t.count}`}<span class="sr">{" contests"}</span></span></a
+        >
+      {/each}
+    </nav>
+  {/if}
 </section>
 
-{#if ballotSt === "ca"}<ResultsStrip items={resultItems} missing={resultsMissing} narrowed={ballotOn} /><CountBudget {ix} region="ca" />{/if}
+{#if resultItems.length}
+  <ResultsStrip items={resultItems} missing={resultsMissing} narrowed={ballotOn} />
+{:else if tabs.length > 1}
+  <p class="no-results">No results recorded here yet for {stateName(viewSt)}'s contests.</p>
+{/if}
+<CountBudget {ix} region={viewSt} />
 
-<MyBallot {choice} {showAll} {coveredAssembly} onCount={onBallotCount} total={rows.length} onchange={setChoice} ontoggle={() => (showAll = !showAll)} onforget={forget} />
+<MyBallot
+  {choice}
+  showAll={showAll || (ballotSet && !ballotHere)}
+  where={ballotElsewhere ? stateName(viewSt) : ""}
+  shownSt={viewSt === "nv" ? "nv" : "ca"}
+  {coveredAssembly}
+  onCount={onBallotCount}
+  total={viewCount}
+  onchange={setChoice}
+  ontoggle={toggleAll}
+  onforget={forget}
+/>
 
 <div class="export">
   <button type="button" class="exp" onclick={exportPicks} disabled={!exportRows.length}>
@@ -285,39 +299,41 @@
     <label for="contest-filter" class="sr">Filter contests</label>
     <Search size={16} aria-hidden="true" />
     <input id="contest-filter" type="search" placeholder="Filter by candidate, office or district (e.g. CA-27)" bind:value={q} autocomplete="off" />
-    <span class="muted num" aria-live="polite">{shown} of {rows.length}</span>
+    <span class="muted num" aria-live="polite">{shown} of {viewCount}</span>
   </div>
 
-  {#if ballotSt === "nv"}
-    <p class="g-note">
+  {#if viewSt === "nv"}
+    <p class="g-note state-note">
       The contests on City of Las Vegas ballots for November 3, 2026, with the candidates on the Clark County Election Department's official lists.
-      Most are not researched yet.
+      Most are not researched yet; each one is in the research queue.
     </p>
   {/if}
   {#each groups as g (g.type)}
-    {@const open = isOpen(g.type, g.type)}
+    {@const key = `${viewSt}:${g.type}`}
+    {@const open = isOpen(key, g.type)}
     <div class="group">
       <h2 class="g-head">
         {#if FOLDED_TYPES.has(g.type)}
-          <button type="button" class="fold" aria-expanded={open} onclick={() => (unfolded[g.type] = !open)}>
+          <button type="button" class="fold" aria-expanded={open} onclick={() => (unfolded[key] = !open)}>
             <ChevronDown size={16} aria-hidden="true" class={open ? "chev" : "chev shut"} />
             <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
-            {groupLabel(ballotSt, g.type)}
+            {groupLabel(viewSt, g.type)}
             <span class="g-count num">{g.rows.length}</span>
           </button>
         {:else}
           <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
-          {groupLabel(ballotSt, g.type)}
+          {groupLabel(viewSt, g.type)}
           <span class="g-count num">{g.rows.length}</span>
         {/if}
       </h2>
       {#if open}
-        {@render groupRows(g.rows, g.type)}
+        {@render groupRows(g.rows, key)}
       {/if}
     </div>
+    {#if viewSt === "nv" && g.type === "measure"}<CountBudget {ix} region="nv" line />{/if}
   {:else}
     {#if !toPick.length && !unmatched.length}
-      <p class="empty">{q ? `No contest matches “${q}”.` : "No contest on this ballot yet."}</p>
+      <p class="empty">{q ? `No ${tabs.length > 1 ? `${stateName(viewSt)} ` : ""}contest matches “${q.trim()}”.` : "No contest on this ballot yet."}</p>
     {/if}
   {/each}
 
@@ -359,40 +375,18 @@
     </div>
   {/if}
 
-  {#each otherStates as s (s.st)}
-    <div class="state" id={`state-${s.st}`}>
-      <h2 class="s-head">{s.st === "nv" ? `${s.name} · Las Vegas` : s.name} <span class="g-count num">{s.count}</span></h2>
-      {#if s.st === "nv"}
-        <p class="g-note">
-          The contests on City of Las Vegas ballots for November 3, 2026, with the candidates on the Clark County Election Department's official lists.
-          Most are not researched yet; each one is in the research queue.
-        </p>
-      {/if}
-      {#each s.groups as g (g.type)}
-        {@const key = `${s.st}:${g.type}`}
-        {@const open = isOpen(key, g.type)}
-        <div class="group">
-          <h3 class="g-head">
-            {#if FOLDED_TYPES.has(g.type)}
-              <button type="button" class="fold" aria-expanded={open} onclick={() => (unfolded[key] = !open)}>
-                <ChevronDown size={16} aria-hidden="true" class={open ? "chev" : "chev shut"} />
-                <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
-                {groupLabel(s.st, g.type)}
-                <span class="g-count num">{g.rows.length}</span>
-              </button>
-            {:else}
-              <Badge icon={OFFICE_TYPE[g.type].icon} group="record" size={22} />
-              {groupLabel(s.st, g.type)}
-              <span class="g-count num">{g.rows.length}</span>
-            {/if}
-          </h3>
-          {#if open}
-            {@render groupRows(g.rows, key)}
-          {/if}
-        </div>
-        {#if s.st === "nv" && g.type === "measure"}<CountBudget {ix} region="nv" line />{/if}
-      {/each}
-    </div>
+  <!-- The other state, after the list: with a filter, its matches there (the filter text stays). -->
+  {#each others as t (t.st)}
+    {#if !q.trim() || t.matches}
+      <p class="other">
+        <a href={overviewHash(t.st, choice, states)}>
+          <span
+            >{#if q.trim()}{plural(t.matches, "match", "matches")} for “{q.trim()}” in {t.label}{:else}{t.label}: <span class="num">{t.count}</span> contests{/if}</span
+          >
+          <ArrowRight size={14} aria-hidden="true" />
+        </a>
+      </p>
+    {/if}
   {/each}
 </section>
 
@@ -463,21 +457,77 @@
     font-weight: 800;
     letter-spacing: -0.02em;
   }
-  .jump {
+  /* The state switch: two links in one pill, the state shown filled with ink (like About's dataset switch). */
+  .states {
+    justify-self: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    max-width: 100%;
+    margin-top: 4px;
+    padding: 3px;
+    border: 1px solid var(--line-strong);
+    border-radius: 22px;
+    background: var(--surface);
+  }
+  .states a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 40px;
+    padding: 6px 16px;
+    border-radius: 999px;
+    color: var(--ink-2);
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .states a:hover {
+    background: var(--wash);
+    color: var(--ink);
+  }
+  .states a.on {
+    background: var(--ink);
+    color: var(--surface);
+  }
+  .states .n {
+    font-size: var(--step--1);
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .states a.on .n {
+    color: color-mix(in srgb, var(--surface) 78%, var(--ink));
+  }
+  .states a:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+  @media (max-width: 420px) {
+    .states a {
+      gap: 6px;
+      padding: 6px 12px;
+      font-size: var(--step--1);
+    }
+  }
+  .no-results {
+    font-size: var(--step--1);
+    color: var(--ink-2);
+  }
+  /* After the list: the other state (with a filter, its matches there). */
+  .other {
     margin: 0;
     font-size: var(--step--1);
   }
-  .jump .link {
+  .other a {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: none;
-    border: 0;
-    padding: 0;
+    min-height: 32px;
     color: var(--ink-2);
-    text-decoration: underline;
-    cursor: pointer;
-    font: inherit;
+    font-weight: 600;
+  }
+  .other a:hover {
+    color: var(--ink);
   }
   .facts {
     display: flex;
@@ -555,21 +605,6 @@
   .g-note {
     font-size: var(--step--1);
     color: var(--ink-2);
-  }
-  /* Another state's contests (Nevada: Las Vegas ballots), below California's. */
-  .state {
-    display: grid;
-    gap: 8px;
-    margin-top: 18px;
-    padding-top: 12px;
-    border-top: 2px solid var(--line-strong);
-  }
-  .s-head {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-    font-size: var(--step-1);
-    font-weight: 800;
   }
   .group.small .g-head {
     font-size: var(--step--1);
