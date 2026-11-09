@@ -6,6 +6,42 @@
     "Michael Gates"
   ],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Michael Gates biography",
+          "where": "Campaign site biography (gates4ag.com/about): no birth date"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Michael E. Gates candidate statement",
+          "where": "2026 General Election Official Voter Information Guide, Attorney General candidate statement (vig.cdn.sos.ca.gov, p. 88): no birth date"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Michael Gates City Attorney / Deputy Assistant Attorney General biography",
+          "where": "Official government bios: huntingtonbeachca.gov City Attorney page (HTTP 404) and justice.gov Civil Rights Division staff profile (HTTP 404); no official biography reachable"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Michael Gates alumnus",
+          "where": "Chapman University Fowler School of Law blog posts (2014-11-26, 2016-11-21): no birth date"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Michael Gates attorney general candidate age born",
+          "where": "News: KESQ 2026 voter guide profile, SJV Sun campaign launch story, PublicCEO (2025-02), Stateside AG profile PDF: no birth date; Daily Pilot (2022-08-22) states only an age (\"Gates, 47,\"), not a date"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Michael Gates\" Huntington Beach \"was born\"; \"Michael Gates\" attorney general born 1975",
+          "where": "Web searches (news and profiles): only reference sites (JoinCalifornia, Ballotpedia) list a date; reference sites are leads, not citations, and no primary source confirming it was found"
+        }
+      ]
+    },
     "birthplace": {
       "value": "California (described as a \"lifelong Californian\"; place of birth not stated)",
       "citations": [
