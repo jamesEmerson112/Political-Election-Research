@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-962e2dbb2e",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-07-29",
+  "publisher": "The Nevada Independent",
+  "title": "Who is Minja Yan, the 'progressive' underdog who won a Clark County Commission race primary?",
+  "url": "https://thenevadaindependent.com/article/who-is-minja-yan-the-progressive-underdog-who-won-a-clark-county-commission-race-primary",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

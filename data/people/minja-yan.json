@@ -35,6 +35,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Guangzhou, China",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-962e2dbb2e",
+          "quote": "Originally from Guangzhou, China, Yan's family moved to the United States when she was around 10."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
