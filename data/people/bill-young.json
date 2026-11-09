@@ -66,6 +66,46 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Police detective (retired; agency not named)",
+          "citations": [
+            {
+              "source": "src:billyoung4clarkcountynvrecorder-com-709010e56c",
+              "quote": "Honorably Retired Police Detective",
+              "locator": "home page, list under the mission statement"
+            },
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "Young, a retired police detective",
+              "locator": "County Recorder section"
+            }
+          ]
+        },
+        {
+          "role": "Business owner (business not named)",
+          "citations": [
+            {
+              "source": "src:billyoung4clarkcountynvrecorder-com-709010e56c",
+              "quote": "Business owner",
+              "locator": "home page, list under the mission statement"
+            }
+          ]
+        },
+        {
+          "role": "Life and health agent (former)",
+          "citations": [
+            {
+              "source": "src:billyoung4clarkcountynvrecorder-com-709010e56c",
+              "quote": "Former Life and Health Agent",
+              "locator": "home page, list under the mission statement"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
