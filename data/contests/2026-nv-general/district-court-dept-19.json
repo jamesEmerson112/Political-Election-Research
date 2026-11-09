@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-19",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 19",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:crystal-eller",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Eller, Crystal NP",
+          "locator": "PDF page 8, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 19 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 19",
+          "locator": "PDF page 8, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 19 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 19 Eller Crystal NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XIX RJC 11B Crystal Eller",
+          "locator": "Civil/criminal judicial departments table, DEPT# XIX row (dept, location, courtroom, judge): the sitting judge of Department 19"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
