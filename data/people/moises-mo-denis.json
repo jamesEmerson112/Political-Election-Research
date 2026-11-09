@@ -19,6 +19,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Brooklyn, New York",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-41b3e93c5b",
+          "quote": "Born: 1961 – Brooklyn, New York",
+          "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis"
+        },
+        {
+          "source": "src:archive-leg-state-nv-us-db3ebb2664",
+          "quote": "Born: 1961 – Brooklyn, New York.",
+          "locator": "Legislative Biography, 73rd (2005) Session"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
