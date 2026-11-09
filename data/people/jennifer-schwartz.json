@@ -55,6 +55,42 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "University of Arizona",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-fb3fef2e68",
+              "quote": "She graduated from the University of Arizona, returning to Las Vegas to attend and graduate from UNLV’s Boyd School of Law.",
+              "locator": "Paragraph on Judge Schwartz"
+            },
+            {
+              "source": "src:judgeschwartz-com-d613b0330d",
+              "quote": "Judge Schwartz attended the University of Arizona, where she was actively involved in campus leadership and service as a member of Chi Omega Sorority and the Phi Alpha Delta law fraternity.",
+              "locator": "About, Education and Early Foundation"
+            }
+          ]
+        },
+        {
+          "degree": "Law degree",
+          "institution": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:ournevadajudges-com-337b061851",
+              "quote": "She earned her law degree from the William S. Boyd School of Law at UNLV as part of its second graduating class.",
+              "locator": "Candidate tab, Description"
+            },
+            {
+              "source": "src:judgeschwartz-com-d613b0330d",
+              "quote": "She is a proud alumna of the William S. Boyd School of Law at UNLV, graduating as part of the school’s second graduating class",
+              "locator": "About, Education and Early Foundation"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
