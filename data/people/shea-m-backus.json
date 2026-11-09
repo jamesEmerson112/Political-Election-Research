@@ -63,6 +63,21 @@
           "locator": "Legislator page header"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Las Vegas",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-fe8491ae3f",
+          "quote": "Assm. Shea Backus (D-Las Vegas), an attorney and third-generation Nevadan, first won the district that covers Summerlin in the northwest Las Vegas Valley in 2018",
+          "locator": "article body, 3rd paragraph"
+        },
+        {
+          "source": "src:backusfornevada-com-40c68c7042",
+          "quote": "After graduating from law school, Shea returned home to Las Vegas and started practicing law with her father.",
+          "locator": "Meet Shea page"
+        }
+      ]
     }
   },
   "ids": [],

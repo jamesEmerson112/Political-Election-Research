@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "backusfornevada-com-40c68c7042",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Elect Shea Backus",
+  "title": "Meet Shea Backus",
+  "url": "https://www.backusfornevada.com/meet-shea-backus",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
