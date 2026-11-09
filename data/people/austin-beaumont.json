@@ -66,6 +66,82 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County District Attorney's Office",
+          "role": "Chief Deputy District Attorney, Major Fraud Unit",
+          "citations": [
+            {
+              "source": "src:austin4judge-com-8086f62b00",
+              "quote": "Austin currently serves as a Chief Deputy District Attorney in Clark County’s Major Fraud Unit, where he handles complex, high-stakes litigation involving fraud, financial crimes, and major investigations."
+            }
+          ]
+        },
+        {
+          "organization": "Clark County District Attorney's Office",
+          "role": "Attorney, Appeals Unit",
+          "citations": [
+            {
+              "source": "src:austin4judge-com-8086f62b00",
+              "quote": "He previously served in the District Attorney’s Appeals Unit, where he worked on cases before the Nevada Supreme Court and developed the legal discipline required to ensure decisions withstand appellate scrutiny."
+            },
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "He has worked in the district attorney’s appellate unit"
+            }
+          ]
+        },
+        {
+          "organization": "Eighth Judicial District Court",
+          "role": "Judicial Law Clerk (for two judges, four years)",
+          "citations": [
+            {
+              "source": "src:austin4judge-com-8086f62b00",
+              "quote": "For four years, Austin served as a Judicial Law Clerk for two judges in the Eighth Judicial District Court—the exact court he is now seeking to serve."
+            },
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "He clerked under two different District Court judges for four years"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Division of Insurance",
+          "role": "Administrative law work",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "He clerked under two different District Court judges for four years and also worked for the Nevada Division of Insurance in administrative law."
+            }
+          ]
+        },
+        {
+          "role": "Lawyer",
+          "start": "2016",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "Beaumont has been a lawyer since 2016"
+            }
+          ]
+        },
+        {
+          "role": "Hospitality (hotel) management",
+          "citations": [
+            {
+              "source": "src:austin4judge-com-8086f62b00",
+              "quote": "Before law school, he built a successful career in hospitality leadership, helping struggling hotel properties recover during the Great Recession and protecting jobs for working families."
+            },
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "Beaumont came to the law from a background in hotel management."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
