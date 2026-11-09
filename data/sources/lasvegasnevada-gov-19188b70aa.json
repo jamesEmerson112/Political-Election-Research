@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegasnevada-gov-19188b70aa",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "City of Las Vegas",
+  "title": "Municipal Court Judges",
+  "url": "https://www.lasvegasnevada.gov/Government/Municipal-Court/Judges"
+}

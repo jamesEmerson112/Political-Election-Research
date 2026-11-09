@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/las-vegas-municipal-court-dept-2",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "City of Las Vegas Municipal Court Judge Department 2",
+  "office": "City of Las Vegas Municipal Court Judge",
+  "candidates": [
+    {
+      "person": "person:jessica-a-green",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Green, Jessica A. NP",
+          "locator": "PDF page 14, CITY OF LAS VEGAS MUNICIPAL COURT JUDGE, 4-YEAR UNEXPIRED TERM, DEPARTMENT 2"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Bellon (appointed in Dec.",
+          "locator": "PDF page 11 (11 of 12), INCUMBENT (Current Office Holder) column, City of Las Vegas Municipal Court Judge Department 2: the office holder is Peter Bellon, so this candidate is not the incumbent"
+        },
+        {
+          "source": "src:lasvegasnevada-gov-19188b70aa",
+          "quote": "Peter Bellon",
+          "locator": "Municipal Court Judges roster: Peter Bellon, Judge, Dept. 2"
+        }
+      ]
+    },
+    {
+      "person": "person:allycia-murphy",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Murphy, Allycia NP",
+          "locator": "PDF page 14, CITY OF LAS VEGAS MUNICIPAL COURT JUDGE, 4-YEAR UNEXPIRED TERM, DEPARTMENT 2"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Bellon (appointed in Dec.",
+          "locator": "PDF page 11 (11 of 12), INCUMBENT (Current Office Holder) column, City of Las Vegas Municipal Court Judge Department 2: the office holder is Peter Bellon, so this candidate is not the incumbent"
+        },
+        {
+          "source": "src:lasvegasnevada-gov-19188b70aa",
+          "quote": "Peter Bellon",
+          "locator": "Municipal Court Judges roster: Peter Bellon, Judge, Dept. 2"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}
