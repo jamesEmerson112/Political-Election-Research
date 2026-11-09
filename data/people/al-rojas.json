@@ -4,6 +4,33 @@
   "name": "Al Rojas",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Electronics engineer (retired)",
+          "citations": [
+            {
+              "source": "src:alrojasfornevada-com-2989c28947",
+              "quote": "I’m 66 yrs old, a retired Electronics Engineer with two co-patents.",
+              "locator": "About myself and my Platform"
+            },
+            {
+              "source": "src:alrojasfornevada-com-34f1a0d76a",
+              "quote": "I learned this while being an Electronics Engineer in Irvine, Ca (Hi Tech center) area for 38 yrs.",
+              "locator": "My Goals: Diversifying our Economy"
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "employer or company name for the engineering career (none named)",
+          "where": "alrojasfornevada.com home and About pages"
+        }
+      ]
+    },
     "occupation": {
       "value": "Retired electronics engineer",
       "citations": [
