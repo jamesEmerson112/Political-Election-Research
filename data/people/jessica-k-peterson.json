@@ -4,6 +4,42 @@
   "name": "Jessica K. Peterson",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "Eighth Judicial District Court, Department VIII page biography (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "Las Vegas Review-Journal, 'Incumbent judge, prosecutor clash in Department 8 race' (2026-10-01, opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Peterson birth date / age",
+          "where": "Review-Journal WordPress search (reviewjournal.com/wp-json/wp/v2/posts?search=Jessica Peterson judge and search=Department 8 judge): articles scanned"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Peterson",
+          "where": "Nevada Independent WordPress search (thenevadaindependent.com/wp-json/wp/v2/posts?search=Jessica Peterson): no results"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Peterson campaign site",
+          "where": "campaign site: none found (petersonforjudge.com and judgepeterson.com are parked domains; Clark County Bar candidate pages for her 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not reachable: host blocked (Cloudflare challenge) from the research environment",
+          "where": "nvcourts.gov (Nevada judiciary biographies)"
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Department 8",
       "citations": [
