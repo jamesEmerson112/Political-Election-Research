@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "vigarchive-sos-ca-gov-c38b9971de",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "California Secretary of State (analysis by the Legislative Analyst)",
+  "title": "Prop 25 Analysis, Official Voter Information Guide, November 3, 2020 General Election",
+  "url": "https://vigarchive.sos.ca.gov/2020/general/propositions/25/analysis.htm"
+}

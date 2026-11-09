@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-2792",
+  "status": {
+    "value": "enacted",
+    "as_of": "2016-09-28",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "Sep. 28—Approved by the Governor. Sep. 28—Chaptered by Secretary of State − Chapter 768, Statutes of 2016.",
+        "locator": "PDF page 1118, history of A.B. No. 2792"
+      }
+    ]
+  },
+  "area": "civil_rights",
+  "title": {
+    "value": "Local law enforcement agencies: federal immigration policy enforcement: ICE access",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "2792 768 Bonta . . . . . . . . . . . . . . Local law enforcement agencies: federal immigration policy enforcement: ICE access.",
+        "locator": "PDF page 1333, table of Assembly bills chaptered"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

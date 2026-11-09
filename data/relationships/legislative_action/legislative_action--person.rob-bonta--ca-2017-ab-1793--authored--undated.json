@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.rob-bonta--ca-2017-ab-1793--authored--undated",
+  "type": "legislative_action",
+  "person": "person:rob-bonta",
+  "action": "authored",
+  "bill": "ca-2017-ab-1793",
+  "cycle": 2018,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "A.B. No. 1793—Bonta (Principal coauthors: Senators Skinner and Wiener) (Coauthors: Gonzalez Fletcher and Quirk).",
+      "locator": "PDF page 439, history of A.B. No. 1793"
+    },
+    {
+      "source": "src:archive-gov-ca-gov-58b142f860",
+      "quote": "AB 1793 by Assemblymember Rob Bonta (D-Alameda) – Cannabis convictions: resentencing."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-sb-10",
+  "status": {
+    "value": "other",
+    "as_of": "2020-11-03",
+    "citations": [
+      {
+        "source": "src:vigarchive-sos-ca-gov-c38b9971de",
+        "quote": "However, this did not happen because a referendum on SB 10 qualified for this ballot in January 2019."
+      },
+      {
+        "source": "src:elections-cdn-sos-ca-gov-4288ecb7f4",
+        "quote": "25 Referendum on Law That Replaced Money Bail With System Based on Public Safety and Flight Risk. 7,232,380 43.6% 9,358,226 56.4%",
+        "locator": "PDF page 71, state ballot measures (columns: yes votes, yes percent, no votes, no percent)"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "summary": {
+    "value": "Signed by the Governor on August 28, 2018. A referendum on SB 10 qualified for the ballot in January 2019, which put the law on hold; as Proposition 25 on November 3, 2020, it received 7,232,380 yes votes (43.6%) and 9,358,226 no votes (56.4%), so the law did not take effect.",
+    "citations": [
+      {
+        "source": "src:archive-gov-ca-gov-58fb526cdd",
+        "quote": "SACRAMENTO – Taking action to revamp California’s bail system, Governor Edmund G. Brown Jr. today signed Senate Bill 10, the California Money Bail Reform Act, which preserves the rights of the accused, while prioritizing public safety."
+      },
+      {
+        "source": "src:vigarchive-sos-ca-gov-c38b9971de",
+        "quote": "In 2018, the Legislature passed and the Governor signed a law—Senate Bill (SB) 10—to eliminate bail and change the processes for getting released from jail before trial. This law would have gone into effect on October 1, 2019. However, this did not happen because a referendum on SB 10 qualified for this ballot in January 2019. Under the State Constitution, when a referendum on a new state law qualifies for the ballot, the law goes on hold until voters determine whether to put it in effect."
+      },
+      {
+        "source": "src:elections-cdn-sos-ca-gov-4288ecb7f4",
+        "quote": "25 Referendum on Law That Replaced Money Bail With System Based on Public Safety and Flight Risk. 7,232,380 43.6% 9,358,226 56.4%",
+        "locator": "PDF page 71, state ballot measures (columns: yes votes, yes percent, no votes, no percent)"
+      }
+    ]
+  },
+  "title": {
+    "value": "California Money Bail Reform Act",
+    "citations": [
+      {
+        "source": "src:archive-gov-ca-gov-58fb526cdd",
+        "quote": "SACRAMENTO – Taking action to revamp California’s bail system, Governor Edmund G. Brown Jr. today signed Senate Bill 10, the California Money Bail Reform Act, which preserves the rights of the accused, while prioritizing public safety."
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

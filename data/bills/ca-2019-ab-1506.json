@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-ab-1506",
+  "status": {
+    "value": "enacted",
+    "as_of": "2020-09-30",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "Sep. 30—Approved by the Governor. Sep. 30—Chaptered by Secretary of State − Chapter 326, Statutes of 2020.",
+        "locator": "PDF page 376, history of A.B. No. 1506"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Police use of force",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "1506 326 McCarty . . . . . . . . . . . . Police use of force.",
+        "locator": "PDF page 1022, table of Assembly bills chaptered"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

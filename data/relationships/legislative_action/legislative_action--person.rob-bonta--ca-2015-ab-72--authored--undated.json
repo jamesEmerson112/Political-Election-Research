@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.rob-bonta--ca-2015-ab-72--authored--undated",
+  "type": "legislative_action",
+  "person": "person:rob-bonta",
+  "action": "authored",
+  "bill": "ca-2015-ab-72",
+  "cycle": 2016,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "A.B. No. 72—Bonta, Bonilla, Dahle, Gonzalez, Maienschein, Santiago, and Wood.",
+      "locator": "PDF page 53, history of A.B. No. 72 (author listed first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "72 492 Bonta . . . . . . . . . . . . . . Health care coverage: out−of−network coverage.",
+      "locator": "PDF page 1321, table of Assembly bills chaptered (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

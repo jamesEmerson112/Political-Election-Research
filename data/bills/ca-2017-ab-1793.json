@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-1793",
+  "status": {
+    "value": "enacted",
+    "as_of": "2018-09-30",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "Sep. 30—Approved by the Governor. Sep. 30—Chaptered by Secretary of State − Chapter 993, Statutes of 2018.",
+        "locator": "PDF page 439, history of A.B. No. 1793"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Cannabis convictions: resentencing",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1793 993 Bonta . . . . . . . . . . . . . . Cannabis convictions: resentencing.",
+        "locator": "PDF page 1462, table of Assembly bills chaptered"
+      },
+      {
+        "source": "src:archive-gov-ca-gov-58b142f860",
+        "quote": "AB 1793 by Assemblymember Rob Bonta (D-Alameda) – Cannabis convictions: resentencing."
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

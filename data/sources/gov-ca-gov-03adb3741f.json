@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gov-ca-gov-03adb3741f",
+  "kind": "press_release",
+  "accessed": "2026-11-09",
+  "published": "2019-10-11",
+  "publisher": "Governor of California",
+  "title": "Governor Newsom Signs AB 32 to Halt Private, For-Profit Prisons and Immigration Detention Facilities in California",
+  "url": "https://www.gov.ca.gov/2019/10/11/governor-newsom-signs-ab-32-to-halt-private-for-profit-prisons-and-immigration-detention-facilities-in-california/"
+}

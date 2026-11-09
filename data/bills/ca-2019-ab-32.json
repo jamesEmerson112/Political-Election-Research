@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-ab-32",
+  "status": {
+    "value": "enacted",
+    "as_of": "2019-10-11",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "32 739 Bonta . . . . . . . . . . . . . . Detention facilities: private, for−profit administration services. . . . Oct. 11, 2019",
+        "locator": "PDF page 1006, table of Assembly bills chaptered (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:gov-ca-gov-03adb3741f",
+        "quote": "SACRAMENTO – Governor Gavin Newsom today announced that he has signed AB 32 by Assemblymember Rob Bonta (D-Oakland), which will phase out the use of all private, for-profit prisons, including both prisons and immigration detention facilities, in California."
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Detention facilities: private, for-profit administration services",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "A.B. No. 32—Bonta—Detention facilities: private, for−profit administration services. (Chaptered − Chapter 739, Statutes of 2019.)",
+        "locator": "PDF page 39, Assembly Weekly History entry for A.B. No. 32"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

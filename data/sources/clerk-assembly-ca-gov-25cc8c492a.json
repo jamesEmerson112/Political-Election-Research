@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-assembly-ca-gov-25cc8c492a",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2020-11-30",
+  "publisher": "California State Assembly, Chief Clerk",
+  "title": "Assembly Weekly History, 2019–20 Regular Session, No. 35, Monday, November 30, 2020 (AB 1 to AB 3374)",
+  "url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/awh%2011302020_0.pdf"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.rob-bonta--ca-2017-sb-10--coauthored--undated",
+  "type": "legislative_action",
+  "person": "person:rob-bonta",
+  "action": "coauthored",
+  "bill": "ca-2017-sb-10",
+  "cycle": 2018,
+  "citations": [
+    {
+      "source": "src:archive-gov-ca-gov-58fb526cdd",
+      "quote": "This action delivers on the commitment made last August by Governor Brown, California Chief Justice Tani Cantil-Sakauye and the bill’s authors – Senator Robert Hertzberg (D-Los Angeles) and Assemblymember Rob Bonta (D-Alameda) – to work together on long-needed reforms in the second year of the two-year legislative session."
+    },
+    {
+      "source": "src:gov-ca-gov-f9769bbdca",
+      "quote": "Sought to End Predatory Bail Laws: Bonta co-wrote the law that sought to end the racist and predatory for-profit bail system."
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Senate bill; the Governor's release names Senator Robert Hertzberg and Assemblymember Bonta as the bill's authors. The Senate's own bill history was not read (leginfo web pages and the bulk download could not be read here)."
+}

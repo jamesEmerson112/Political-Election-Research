@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-assembly-ca-gov-1d54eb9105",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2018-11-30",
+  "publisher": "California State Assembly, Chief Clerk",
+  "title": "Assembly Weekly History, 2017–18 Regular Session, No. 54, Friday, November 30, 2018 (AB 1 to AB 3264)",
+  "url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/AWH%20113018_0.pdf"
+}

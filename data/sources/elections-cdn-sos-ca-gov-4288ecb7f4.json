@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "elections-cdn-sos-ca-gov-4288ecb7f4",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "California Secretary of State",
+  "title": "Statement of Vote, General Election, November 3, 2020",
+  "url": "https://elections.cdn.sos.ca.gov/sov/2020-general/sov/complete-sov.pdf"
+}

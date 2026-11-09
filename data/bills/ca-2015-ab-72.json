@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-72",
+  "status": {
+    "value": "enacted",
+    "as_of": "2016-09-23",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "Sep. 23—Approved by the Governor. Sep. 23—Chaptered by Secretary of State − Chapter 492, Statutes of 2016.",
+        "locator": "PDF page 54, history of A.B. No. 72"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Health care coverage: out-of-network coverage",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "72 492 Bonta . . . . . . . . . . . . . . Health care coverage: out−of−network coverage.",
+        "locator": "PDF page 1321, table of Assembly bills chaptered (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

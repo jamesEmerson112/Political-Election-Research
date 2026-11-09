@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-assembly-ca-gov-f46700bd86",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2016-11-30",
+  "publisher": "California State Assembly, Chief Clerk",
+  "title": "Assembly Weekly History, 2015–16 Regular Session, No. 8, Wednesday, November 30, 2016 (AB 1 to AB 2915)",
+  "url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/awh113016_0.pdf"
+}
