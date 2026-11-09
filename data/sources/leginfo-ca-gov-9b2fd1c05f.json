@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-9b2fd1c05f",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2001-10-01",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "SB 1219 Bill Text, Chaptered (Chapter 380, Statutes of 2001)",
+  "url": "https://www.leginfo.ca.gov/pub/01-02/bill/sen/sb_1201-1250/sb_1219_bill_20011001_chaptered.html"
+}

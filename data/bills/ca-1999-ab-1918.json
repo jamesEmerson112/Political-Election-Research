@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-1999-ab-1918",
+  "status": {
+    "value": "enacted",
+    "as_of": "2000-07-21",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-d9ea33051a",
+        "quote": "APPROVED BY GOVERNOR   JULY 21, 2000",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-d9ea33051a",
+        "quote": "CHAPTER   187",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Public postsecondary education: Access to Transfer Information for Community College Students Act",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-d9ea33051a",
+        "quote": "AB 1918, Romero.  Public postsecondary education:  Access to Transfer Information for Community College Students Act.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

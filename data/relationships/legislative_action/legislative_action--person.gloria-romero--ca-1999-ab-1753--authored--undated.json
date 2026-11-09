@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.gloria-romero--ca-1999-ab-1753--authored--undated",
+  "type": "legislative_action",
+  "person": "person:gloria-romero",
+  "action": "authored",
+  "bill": "ca-1999-ab-1753",
+  "cycle": 2000,
+  "citations": [
+    {
+      "source": "src:leginfo-ca-gov-804deff200",
+      "quote": "INTRODUCED BY   Assembly Member Romero and Senator Hughes"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

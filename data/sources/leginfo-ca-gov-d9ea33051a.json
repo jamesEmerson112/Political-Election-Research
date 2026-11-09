@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-d9ea33051a",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2000-07-24",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 1918 Bill Text, Chaptered (Chapter 187, Statutes of 2000)",
+  "url": "https://www.leginfo.ca.gov/pub/99-00/bill/asm/ab_1901-1950/ab_1918_bill_20000724_chaptered.html"
+}

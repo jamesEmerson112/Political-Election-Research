@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.gloria-romero--ca-1999-ab-1918--authored--undated",
+  "type": "legislative_action",
+  "person": "person:gloria-romero",
+  "action": "authored",
+  "bill": "ca-1999-ab-1918",
+  "cycle": 2000,
+  "citations": [
+    {
+      "source": "src:leginfo-ca-gov-d9ea33051a",
+      "quote": "INTRODUCED BY   Assembly Member Romero"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

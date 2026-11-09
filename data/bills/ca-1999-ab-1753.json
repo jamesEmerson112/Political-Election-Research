@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-1999-ab-1753",
+  "status": {
+    "value": "enacted",
+    "as_of": "2000-09-12",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-804deff200",
+        "quote": "APPROVED BY GOVERNOR   SEPTEMBER 12, 2000",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-804deff200",
+        "quote": "CHAPTER   434",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Alzheimer's disease and related disorders",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-804deff200",
+        "quote": "AB 1753, Romero.  Alzheimer's disease and related disorders.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-804deff200",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2000-09-14",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 1753 Bill Text, Chaptered (Chapter 434, Statutes of 2000)",
+  "url": "https://www.leginfo.ca.gov/pub/99-00/bill/asm/ab_1751-1800/ab_1753_bill_20000914_chaptered.html"
+}

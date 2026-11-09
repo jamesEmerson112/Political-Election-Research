@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-adb39937d3",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2001-09-12",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "SB 1221 Bill Text, Chaptered (Chapter 293, Statutes of 2001)",
+  "url": "https://www.leginfo.ca.gov/pub/01-02/bill/sen/sb_1201-1250/sb_1221_bill_20010912_chaptered.html"
+}

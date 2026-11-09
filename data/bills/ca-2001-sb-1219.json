@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2001-sb-1219",
+  "status": {
+    "value": "enacted",
+    "as_of": "2001-09-28",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-9b2fd1c05f",
+        "quote": "APPROVED BY GOVERNOR  SEPTEMBER 28, 2001",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-9b2fd1c05f",
+        "quote": "CHAPTER  380",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Health coverage: cervical cancer screening test",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-9b2fd1c05f",
+        "quote": "SB 1219, Romero.  Health coverage:  cervical cancer screening test.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

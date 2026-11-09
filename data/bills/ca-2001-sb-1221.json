@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2001-sb-1221",
+  "status": {
+    "value": "enacted",
+    "as_of": "2001-09-10",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-adb39937d3",
+        "quote": "APPROVED BY GOVERNOR  SEPTEMBER 10, 2001",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-adb39937d3",
+        "quote": "CHAPTER  293",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Spousal support: domestic violence",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-adb39937d3",
+        "quote": "SB 1221, Romero.  Spousal support:  domestic violence.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
