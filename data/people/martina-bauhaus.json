@@ -60,6 +60,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Assistant General Counsel, Las Vegas Metropolitan Police Department",
+      "citations": [
+        {
+          "source": "src:martinaforjudge-com-c261014bef",
+          "quote": "She currently serves as Assistant General Counsel for the Las Vegas Metropolitan Police Department (LVMPD), where she advises on complex legal matters, supports law enforcement operations, and ensures compliance with constitutional standards.",
+          "locator": "Home page, Meet Martina (the candidate's self-description)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-ca510e21e5",
+          "quote": "Bauhaus has 20 years of legal experience in civil and criminal law and is currently assistant general counsel for the Las Vegas Metropolitan Police Department.",
+          "locator": "The candidates: Martina Bauhaus summary"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
