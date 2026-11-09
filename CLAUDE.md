@@ -1,8 +1,8 @@
 @AGENTS.md
 
-## Format: frozen (format-v2, 2026-11-05)
+## Format: frozen (format-v3, 2026-11-09)
 
-The maintainer approved the beta prototype and froze its format at `format-v1` (commit 38939a6, 2026-11-04). After the election the maintainer approved one format change, `format-v2` (commit bce387a, 2026-11-05): contest results (`winners`, `as_of` for a semi-official count, `passed` once certified), shown on the site (winner highlighted, losers dimmed, yes/no bars), and promise tracking (`tracking` on a winner's promise items, the Promise tracker section). From now on the work is **research only**, in the sections the maintainer names.
+The maintainer approved the beta prototype and froze its format at `format-v1` (commit 38939a6, 2026-11-04). After the election the maintainer approved one format change, `format-v2` (commit bce387a, 2026-11-05): contest results (`winners`, `as_of` for a semi-official count, `passed` once certified), shown on the site (winner highlighted, losers dimmed, yes/no bars), and promise tracking (`tracking` on a winner's promise items, the Promise tracker section). On 2026-11-09 the maintainer approved `format-v3` (commit 7dd67b8): Nevada's "None of These Candidates" count on office results (`none_of_these_votes`), counted in the shares but never a winner. From now on the work is **research only**, in the sections the maintainer names.
 
 - **Frozen:**
   - the record format: `schemas/`;
@@ -10,9 +10,9 @@ The maintainer approved the beta prototype and froze its format at `format-v1` (
   - the site: `web/`;
   - the boundary data: `geo/`.
 - **Changing them** needs the maintainer's explicit OK in the conversation. A bug fix is allowed when the maintainer reports it or a check fails; ship it with a test or browser check.
-- **Research** writes only `data/`, through `put`, following the guide and the rules below. When a fact doesn't fit a schema, don't force it in and don't change the schema: add it to TODO.md under "Format requests (after v2)", with the contest and the source.
-- **Before pushing research:** `git diff bce387a -- schemas src cli tools web geo` (the `format-v2` commit) shows only changes the maintainer approved. Use the commit, not the tag: cloud sessions can push branches but GitHub refuses their tag pushes, so the `format-v1` and `format-v2` tags may exist only as labels on some clones.
-- The next format version names its commit here (`format-v3`).
+- **Research** writes only `data/`, through `put`, following the guide and the rules below. When a fact doesn't fit a schema, don't force it in and don't change the schema: add it to TODO.md under "Format requests (after v3)", with the contest and the source.
+- **Before pushing research:** `git diff 7dd67b8 -- schemas src cli tools web geo` (the `format-v3` commit) shows only changes the maintainer approved. Use the commit, not the tag: cloud sessions can push branches but GitHub refuses their tag pushes, so the `format-v1` and `format-v2` tags may exist only as labels on some clones.
+- The next format version names its commit here (`format-v4`).
 
 ## Local clones
 
