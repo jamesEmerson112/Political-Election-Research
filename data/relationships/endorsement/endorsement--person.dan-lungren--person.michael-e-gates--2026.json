@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.dan-lungren--person.michael-e-gates--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:michael-e-gates",
+  "endorser": "person:dan-lungren",
+  "citations": [
+    {
+      "source": "src:gates4ag-com-a58076438b",
+      "quote": "Dan Lungren Former California Attorney General",
+      "locator": "Endorsements page, Dignitaries"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

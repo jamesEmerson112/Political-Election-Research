@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.john-duarte--person.michael-e-gates--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:michael-e-gates",
+  "endorser": "person:john-duarte",
+  "citations": [
+    {
+      "source": "src:gates4ag-com-a58076438b",
+      "quote": "Former Congressman John Duarte Congressional District 13",
+      "locator": "Endorsements page, Candidates and Elected Officials"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "dan-lungren",
+  "name": "Dan Lungren",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-09"
+}
