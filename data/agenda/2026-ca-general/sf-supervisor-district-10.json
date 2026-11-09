@@ -454,6 +454,77 @@
           "where": "web search: no results about this candidate"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-10|endorsements|person:jessica-pessecow",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Pessecow endorsements",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), Jessica Pessecow candidate statement, Board of Supervisors District 10, printed p. 50: no endorsements listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "endorsements, campaign",
+          "where": "Candidate's site named in her statement (gov-central-jpessecow.replit.app, home page and /district-10): civic-resource portal that says it is not affiliated with any campaign; no endorsements listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco Democratic Party November 3, 2026 General Election Voter Guide (sfdems.org/endorsements/nov-3-2026-general-election): endorses Theo Ellington for District 10"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco Green Party November 2026 endorsements (sfgreenparty.org/endorsements/123-november-2026-endorsements): sole District 10 endorsement is PJ Bastiany"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "endorsements",
+          "where": "San Francisco Republican Party (sfrepublicans.org home page; voter-guide page 404) and sfgop.org endorsements pages (404/502): no endorsement list could be read"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco Chronicle editorial endorsement, Oct. 2026 (sfchronicle.com/opinion/editorials/article/district-10-supervisor-san-francisco-22487638.php): endorses Theo Ellington; says Pessecow did not respond to interview requests or had no discoverable email"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "GrowSF November 2026 voter guide, District 10 supervisor (growsf.org): recommends Theo Ellington; Pessecow listed with 'Contact information unavailable'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "endorsements",
+          "where": "YIMBY Action endorsements page (sfyimby.org/endorsements): no District 10 supervisor endorsement found"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Pessecow",
+          "where": "Mission Local: Aug. 6, 2026 'Meet the Candidates' District 10 article (only three candidates with a major endorsement or reported contributions included: Ellington, Brookter, Eppler); site search for 'Pessecow' (nothing found); district-10 tag page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Pessecow",
+          "where": "KQED voter guide, San Francisco Board of Supervisors District 10 (kqed.org/voterguide/sanfrancisco/supervisor-10th-district): not among the nine candidates listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Pessecow",
+          "where": "SF Examiner District 10 race articles (June 24, 2026; Oct. 1, 2026) and SF Chronicle Oct. 24, 2026 basketball article: occupation only, no endorsements"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Pessecow",
+          "where": "Ballotpedia (lead only): no endorsements; did not complete Candidate Connection survey"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "endorsements",
+          "where": "SF League of Pissed Off Voters (theleaguesf.org, HTTP 403) and San Francisco Labor Council (sflaborcouncil.org/endorsements, 404): could not be read"
+        }
+      ]
     }
   ],
   "measures": [],
