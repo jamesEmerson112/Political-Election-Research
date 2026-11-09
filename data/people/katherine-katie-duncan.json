@@ -45,6 +45,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Arkansas",
+      "citations": [
+        {
+          "source": "src:lasvegasblackimage-com-9403fac8fd",
+          "quote": "An Arkansas native, Duncan arrived in Las Vegas in 1977 after being persuaded to move here by her sisters, Fay and Eva, who were already living and working in the Silver State."
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [

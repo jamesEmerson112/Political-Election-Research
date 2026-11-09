@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegasblackimage-com-9403fac8fd",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2011-04-11",
+  "publisher": "Las Vegas Black Image Magazine",
+  "title": "Katherine Duncan: Mayoral candidate considered a fresh voice for the people",
+  "url": "https://lasvegasblackimage.com/2011/04/katherine-duncan-mayoral-candidate-considered-a-fresh-voice-for-the-people/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
