@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "focus-on-the-family",
+  "name": "Focus on the Family",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.focusonthefamily.com/"
+  },
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}

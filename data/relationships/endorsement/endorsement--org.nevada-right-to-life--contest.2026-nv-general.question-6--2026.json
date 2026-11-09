@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-right-to-life--contest.2026-nv-general.question-6--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2025-10-16",
+  "endorsee": "contest:2026-nv-general/question-6",
+  "endorser": "org:nevada-right-to-life",
+  "side": "oppose",
+  "citations": [
+    {
+      "source": "src:nevadarighttolife-org-ac3d20e346",
+      "quote": "Sadly, Question 6, Nevada’s Radical Abortion Amendment, gained 65% of the vote on November 5, 2024. However, it must pass again in November 2026 to amend the Constitution."
+    },
+    {
+      "source": "src:thenevadaindependent-com-d28edb4a7f",
+      "quote": "Nevada Right to Life is focused on defeating Question 6 this election cycle, communications director Krystal Minera-Alvis told The Nevada Independent."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

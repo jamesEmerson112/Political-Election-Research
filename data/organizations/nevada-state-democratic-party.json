@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "nevada-state-democratic-party",
+  "name": "Nevada State Democratic Party",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://nvdems.com/"
+  },
+  "org_type": "political_party",
+  "last_verified": "2026-11-09"
+}

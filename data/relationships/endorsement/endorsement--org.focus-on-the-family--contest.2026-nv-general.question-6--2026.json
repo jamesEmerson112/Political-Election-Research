@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.focus-on-the-family--contest.2026-nv-general.question-6--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-09-30",
+  "endorsee": "contest:2026-nv-general/question-6",
+  "endorser": "org:focus-on-the-family",
+  "side": "oppose",
+  "citations": [
+    {
+      "source": "src:dailycitizen-focusonthefamily-com-b425815962",
+      "quote": "A “Yes” vote creates a constitutional “right” to abortion in the state. A “No” vote would help save babies’ lives."
+    },
+    {
+      "source": "src:dailycitizen-focusonthefamily-com-b425815962",
+      "quote": "Bible-believing, pro-life Christians in Nevada cannot sit this one out. We encourage Nevadans to please vote, pray and talk to family, friends and neighbors about this important measure."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

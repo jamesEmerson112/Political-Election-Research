@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegassun-com-00bb42c83a",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-06-25",
+  "publisher": "Las Vegas Sun",
+  "title": "Nevada abortion rights advocates say Question 6 is urgent 4 years after the Dobbs decision",
+  "url": "https://lasvegassun.com/news/2026/jun/25/nevada-abortion-rights-advocates-say-question-6-is/"
+}

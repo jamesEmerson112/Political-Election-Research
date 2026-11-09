@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-state-democratic-party--contest.2026-nv-general.question-6--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-06-24",
+  "endorsee": "contest:2026-nv-general/question-6",
+  "endorser": "org:nevada-state-democratic-party",
+  "side": "support",
+  "citations": [
+    {
+      "source": "src:nvdems-com-a1b737bc09",
+      "quote": "Four years after Dobbs, Nevada Democrats remain committed to protecting reproductive freedom and ensuring every woman has the right to make her own health care decisions – and we will codify those rights in the Nevada constitution this November."
+    },
+    {
+      "source": "src:lasvegassun-com-00bb42c83a",
+      "quote": "Nevada Democrats and reproductive rights advocates on Wednesday renewed their push for voters to approve Ballot Question 6 this November, casting the measure as a critical step to permanently protect abortion access in the state Constitution."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

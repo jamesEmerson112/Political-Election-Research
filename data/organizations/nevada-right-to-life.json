@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "nevada-right-to-life",
+  "name": "Nevada Right to Life",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://nevadarighttolife.org/"
+  },
+  "org_type": "nonprofit_501c4",
+  "last_verified": "2026-11-09"
+}

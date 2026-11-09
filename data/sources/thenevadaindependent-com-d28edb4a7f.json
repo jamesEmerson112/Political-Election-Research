@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-d28edb4a7f",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-09-22",
+  "publisher": "The Nevada Independent",
+  "title": "Nevada Democrats want to run on abortion in 2026. Will voters care?",
+  "url": "https://thenevadaindependent.com/article/nevada-democrats-want-to-run-on-abortion-in-2026-will-voters-care"
+}
