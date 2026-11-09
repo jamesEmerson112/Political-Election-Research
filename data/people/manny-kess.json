@@ -53,6 +53,35 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "The Kess Group",
+          "role": "Founder",
+          "start": "2012",
+          "citations": [
+            {
+              "source": "src:votekess-com-9bdca13d7f",
+              "quote": "He survived the 2008 Recession, moved to Las Vegas in 2011, and built The Kess Group from scratch in 2012: restaurants, real estate, travel services, and responsibly farmed food, working with athletes, entertainers, business leaders, and local families."
+            },
+            {
+              "source": "src:reviewjournal-com-159824f416",
+              "quote": "Kess, founder of hospitality company The Kess Group, said those “missteps” taught him “valuable lessons” he would bring to the office."
+            }
+          ]
+        },
+        {
+          "role": "Restaurant owner in New York",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-159824f416",
+              "quote": "The pandemic gave Kess flashbacks of the 2008 economic crisis, which he blames for the shuttering of his restaurant in New York two years later and an eventual bankruptcy."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
