@@ -4,6 +4,57 @@
   "name": "Michel Gaudet",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "1989",
+          "organization": "Hertz Penske Trucking",
+          "role": "Accountant/auditor",
+          "start": "1987",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "Prior job titles: District Court judge, Family Division, Department N, Eighth Judicial District Court (March 2023-January 2025); sole practitioner, Paul M. Gaudet, Attorney at Law (October 1992-March 2023); accountant/auditor, Hertz Penske Trucking (1987-1989, prior to law school).",
+              "locator": "Michel Gaudet, Candidate deep dive, TITLE, Prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2023-03",
+          "organization": "Paul M. Gaudet, Attorney at Law",
+          "role": "Attorney, sole practitioner (family and domestic law, personal injury, juvenile and criminal law)",
+          "start": "1992-10",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "Prior job titles: District Court judge, Family Division, Department N, Eighth Judicial District Court (March 2023-January 2025); sole practitioner, Paul M. Gaudet, Attorney at Law (October 1992-March 2023); accountant/auditor, Hertz Penske Trucking (1987-1989, prior to law school).",
+              "locator": "Michel Gaudet, Candidate deep dive, TITLE, Prior job titles"
+            },
+            {
+              "source": "src:gov-nv-gov-a2453f5036",
+              "quote": "Since 1992, Paul Gaudet has owned a general trial practice in Las Vegas, focused on family and domestic law, along with personal injury, juvenile, and criminal law."
+            }
+          ]
+        },
+        {
+          "organization": "Kainen Law Group, PLLC",
+          "role": "Attorney",
+          "start": "2025-03",
+          "citations": [
+            {
+              "source": "src:kainenlawgroup-com-44f4967f4c",
+              "quote": "Paul joined Kainen Law Group in March 2025."
+            },
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "Attorney, Kainen Law Group, PLLC; former District Court Judge, Family Division, Department N",
+              "locator": "Michel Gaudet, Candidate deep dive, TITLE"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Family law attorney, Kainen Law Group, PLLC (former District Court Judge, Family Division, Department N)",
       "citations": [
