@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-q",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department Q",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:bryce-c-duckworth",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Duckworth, Bryce C. NP",
+          "locator": "PDF page 11, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT Q (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department Q Duckworth Bryce C. NP 6",
+          "locator": "PDF page 6 (6 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department Q: this candidate is the current office holder"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "Q RJC 10B Bryce C. Duckworth",
+          "locator": "Judicial departments table, DEPT# Q row (dept, location, courtroom, judge): this candidate is the sitting judge"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
