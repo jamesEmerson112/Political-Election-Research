@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:ellsworth-ell-m-jennison-jr",
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Ellsworth Jennison programs, budgets or legislation carried out",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 10 candidate statements"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ellsworth Jennison legislative record",
+        "where": "San Francisco Board of Supervisors Legistar API (webapi.legistar.com/v1/sfgov/persons, filtered by last name): no person records"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ellsworth Jennison",
+        "where": "KQED voter guide and results page, Board of Supervisors District 10 (kqed.org): Positions on Key Issues and Key Supporters (N/A); no documented outcomes"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ellsworth Jennison",
+        "where": "Local News Matters / Bay City News, Aug. 2, 2026 District 10 forum report (localnewsmatters.org)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ellsworth Jennison",
+        "where": "Mission Local 'Meet the District 10 candidates' series, Aug. 27, 2026 installment (missionlocal.org): includes only three candidates, not this one"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ellsworth Jennison",
+        "where": "GrowSF November 2026 District 10 questionnaires (growsf.org): no questionnaire published for him"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Jennison\" District 10 supervisor candidate",
+        "where": "Web search (news)"
+      }
+    ]
+  }
+}
