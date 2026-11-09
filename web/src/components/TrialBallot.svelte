@@ -8,6 +8,8 @@
   import { MARK } from "../lib/marks";
   import { budgetBase, fiscalChips, gapLine, measureFactChips, signedRange } from "../lib/measureChips";
   import { forgetVotes, loadVotes, saveVotes } from "../lib/trialStorage";
+  import { countLine, countVotes } from "../lib/results";
+  import { ANSWER_WORDS, countWords } from "../lib/trialWords";
   import { openDetail } from "../lib/ui.svelte";
   import AffectedGroups from "./AffectedGroups.svelte";
   import Badge from "./Badge.svelte";
@@ -24,8 +26,14 @@
    * General Fund meter, then a summary. San Francisco's measures and California's
    * propositions are separate ballots, each against its own government's budget.
    * Answers stay in this browser.
+   *
+   * "Count so far" adds up the recorded results instead (the measures ahead in the
+   * semi-official count, or the ones that passed once certified): the same meter,
+   * bridge and summary, nothing stored. `#trial?count&j=<budget id>` opens it.
+   * A ballot without a recorded budget (Nevada) lists each measure's official
+   * fiscal note instead of a meter.
    */
-  let { ix, onDemo }: { ix: Index; onDemo?: () => void } = $props();
+  let { ix, onDemo, query = "" }: { ix: Index; onDemo?: () => void; query?: string } = $props();
 
   const groups = $derived(ix.trialGroups());
   let pick = $state<string | null>(null);
@@ -36,6 +44,26 @@
   const gov = $derived<"city" | "state">(group?.level === "state" ? "state" : "city");
   const ballotKey = $derived(group ? String(group.budget?.["id"] ?? group.jurisdiction) : "");
   const titles = $derived(Object.fromEntries((group?.refs ?? []).map((r) => [r, String(ix.contests.get(r)?.["official_title"]?.["value"] ?? "")])));
+
+  /** A ballot's key in links (`j=`): its budget id, or its name as a slug. */
+  const keyOf = (g: { jurisdiction: string; budget: Record<string, unknown> | null }) =>
+    String(g.budget?.["id"] ?? g.jurisdiction.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""));
+  let mode = $state<"answers" | "count">("answers");
+  $effect(() => {
+    // A link (#trial?count&j=california) opens the count for that ballot.
+    const p = new URLSearchParams(query);
+    untrack(() => {
+      if (p.has("count")) mode = "count";
+      const j = p.get("j");
+      const g = j ? groups.find((x) => keyOf(x) === j) : undefined;
+      if (g) pick = g.jurisdiction;
+    });
+  });
+  /** The recorded results as a ballot (never stored, never mixed with the visitor's answers). */
+  const counted = $derived(group ? countVotes(group.refs.map((r) => [r, ix.contests.get(r)])) : null);
+  const hasCount = $derived(!!counted && !!group && counted.missing.length < group.refs.length);
+  const words = $derived(mode === "count" ? countWords(counted?.count?.certified === true) : ANSWER_WORDS);
+  const ahead = $derived(counted ? Object.values(counted.votes).filter((v) => v === "yes").length : 0);
 
   let votes = $state<Record<string, Vote>>({});
   let step = $state(0);
@@ -54,7 +82,7 @@
     });
   });
 
-  const result = $derived(runTrial(measures, budget, votes));
+  const result = $derived(runTrial(measures, budget, mode === "count" ? (counted?.votes ?? {}) : votes));
   const shownFy = $derived(fy && result.years.includes(fy) ? fy : (result.years[0] ?? null));
   const bridge = $derived(shownFy ? bridgeSteps(result, measures, shownFy) : null);
   /** A fixed axis per fiscal year (from the all-yes and single-yes bridges) so the bridge doesn't jump around while answering. */
@@ -87,17 +115,33 @@
     step = Math.max(step - 1, 0);
     void toMeter();
   }
+  function countSource() {
+    const c = counted?.count;
+    if (!c) return;
+    openDetail({
+      kicker: "Results",
+      title: `${group?.jurisdiction ?? ""}: ${countLine(c)}`,
+      text: c.certified
+        ? "The certified count. A measure passes when its yes votes reach the recorded threshold."
+        : "The semi-official count, not certified yet. Shown here: each measure ahead in it (by its recorded threshold, a majority where none is recorded) as if it became law, and the rest as if they didn't.",
+      citations: c.citations,
+    });
+  }
+  /** Does any measure on this ballot have a General Fund amount in its fiscal note? */
+  const gfAmounts = $derived(
+    (group?.refs ?? []).some((r) => (ix.contests.get(r)?.["fiscal"]?.["effects"] ?? []).some((e: { lane: string; estimate: string }) => e.lane === "general_fund" && e.estimate === "estimated")),
+  );
   function forget() {
     forgetVotes(ballotKey);
     votes = {};
     step = 0;
   }
-  function statement() {
-    const f = rec?.["fiscal"];
-    if (!f) return;
+  function statement(ref = current?.ref) {
+    const f = ref ? ix.contests.get(ref)?.["fiscal"] : undefined;
+    if (!f || !ref) return;
     openDetail({
       kicker: `${f["statement_by"]} · fiscal statement`,
-      title: `${label(current!.ref)}: ${titles[current!.ref] ?? ""}`,
+      title: `${label(ref)}: ${titles[ref] ?? ""}`,
       text: f["summary"]?.["summary"] ?? "",
       facts: (f["effects"] ?? []).map((e: { text: string; id: string }) => [e.id, e.text] as [string, string]),
       citations: [...(f["summary"]?.["citations"] ?? []), ...(f["effects"] ?? []).flatMap((e: { citations: unknown[] }) => e.citations)],
@@ -108,10 +152,17 @@
 <section class="section trial">
   <div class="section-head">
     <h1>Try your ballot</h1>
-    <p>
-      Vote on each measure and watch the official estimates add up against that government's budget forecast. This adds up the official fiscal statements for the
-      choices you try; it doesn't recommend how to vote. Your answers stay in this browser.
-    </p>
+    {#if mode === "count"}
+      <p>
+        The recorded results, added up against that government's budget forecast: each measure ahead in the count as if it became law, the others as if they didn't. This
+        adds up the official fiscal statements; nothing here says how anyone should have voted.
+      </p>
+    {:else}
+      <p>
+        Vote on each measure and watch the official estimates add up against that government's budget forecast. This adds up the official fiscal statements for the
+        choices you try; it doesn't recommend how to vote. Your answers stay in this browser.
+      </p>
+    {/if}
   </div>
 
   {#if !group}
@@ -127,7 +178,46 @@
         {/each}
       </div>
     {/if}
+    <div class="seg mode" role="group" aria-label="Whose ballot">
+      <button class:on={mode === "answers"} aria-pressed={mode === "answers"} onclick={() => (mode = "answers")}>My answers</button>
+      <button class:on={mode === "count"} aria-pressed={mode === "count"} onclick={() => (mode = "count")}>Count so far</button>
+    </div>
 
+    {#if mode === "count"}
+      {#if hasCount && counted?.count}
+        <p class="countline num">
+          {countLine(counted.count)} · {counted.count.certified ? "Passed" : "Yes ahead"} on {ahead} of {group.refs.length}{#if counted.missing.length}{" "}· {counted.missing.length} without a result{/if}
+          <button class="cite" onclick={countSource} aria-label="Results source">i</button>
+        </p>
+      {:else}
+        <div class="empty count-wait">
+          Waiting for the {group.level === "state" ? "statewide" : "official"} count: {group.jurisdiction}'s results aren't recorded yet. This view fills in once they are.
+        </div>
+      {/if}
+      {#if !group.budget}
+        {@render fiscalNotes()}
+      {:else if hasCount}
+        <div class="meter-wrap">
+          <BudgetMeter {result} {bridge} {domain} budgetRec={group.budget} fy={shownFy} onfy={(f) => (fy = f)} headline {gov} {words} />
+        </div>
+        <TrialSummary
+          {result}
+          {measures}
+          votes={counted?.votes ?? {}}
+          {titles}
+          {bridge}
+          {domain}
+          base={budgetBase(group.budget)}
+          cumulative={group.budget?.["forecast"]?.["cumulative"] === true}
+          onfy={(f) => (fy = f)}
+          {gov}
+          {words}
+          status={counted?.status ?? null}
+        />
+      {/if}
+    {:else if !group.budget}
+      {@render fiscalNotes()}
+    {:else}
     <!-- While voting, the meter draws the bridge; in the summary it keeps its year buttons and headline, and the summary draws the bridge, once. -->
     <div class="meter-wrap" bind:this={meterEl}>
       <BudgetMeter {result} {bridge} {domain} budgetRec={group.budget} fy={shownFy} onfy={(f) => (fy = f)} headline={!(current && rec)} {gov} />
@@ -169,7 +259,7 @@
         <p class="sum">{rec["summary"]?.["value"] ?? ""}</p>
         <div class="fiscal">
           <OfficeChips chips={fiscalChips(rec, label, budgetBase(group.budget))} />
-          {#if rec["fiscal"]}<button class="link" onclick={statement}>{rec["fiscal"]["statement_by"]}'s statement ›</button>{/if}
+          {#if rec["fiscal"]}<button class="link" onclick={() => statement()}>{rec["fiscal"]["statement_by"]}'s statement ›</button>{/if}
           <a class="link" href={`#${contestRoute(current.ref)}`}>Measure page ›</a>
         </div>
         {#if rec["digest"]}
@@ -221,8 +311,35 @@
         <button class="ans" onclick={forget}>Forget my answers</button>
       </div>
     {/if}
+    {/if}
   {/if}
 </section>
+
+{#snippet fiscalNotes()}
+  <!-- No budget forecast recorded for this ballot (Nevada): each measure's official fiscal note, and its count where there is one. -->
+  <div class="panel notes">
+    <p class="muted">
+      No {group?.jurisdiction} budget forecast is recorded{gfAmounts ? "" : ", and none of these fiscal notes gives a General Fund amount"}, so there is no budget chart. Each measure's
+      official fiscal note:
+    </p>
+    {#each group?.refs ?? [] as r (r)}
+      {@const c = ix.contests.get(r)!}
+      {@const st = counted?.status[r]}
+      <div class="nrow">
+        <span class="vote">
+          {#if st}{#if st.outcome.ahead === "yes"}<StanceMark mark={MARK["support"]!} />{:else if st.outcome.ahead === "no"}<StanceMark mark={MARK["oppose"]!} />{/if}
+            {st.word}{:else}<StanceMark mark={MARK["unresearched"]!} /> No result yet{/if}
+        </span>
+        <span class="what"><strong>{label(r)}</strong> {titles[r] ?? ""}</span>
+        <span class="fx">
+          <OfficeChips chips={fiscalChips(c, label, null)} />
+          {#if c["fiscal"]}<button class="link" onclick={() => statement(r)}>{c["fiscal"]["statement_by"]}'s statement ›</button>{/if}
+          <a class="link" href={`#${contestRoute(r)}`}>Measure page ›</a>
+        </span>
+      </div>
+    {/each}
+  </div>
+{/snippet}
 
 <style>
   /* The meter scrolls with the page (a tall sticky meter left little room to read the card); after each vote the page returns to it. */
@@ -377,5 +494,61 @@
   }
   .back {
     margin-left: auto;
+  }
+  .countline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 8px;
+    font-size: var(--step--1);
+    color: var(--ink-2);
+  }
+  .cite {
+    border: 1px solid var(--line-strong);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: 0.65rem;
+    line-height: 1;
+    background: var(--surface);
+    cursor: pointer;
+  }
+  .notes {
+    display: grid;
+    gap: 10px;
+    padding: 12px 14px;
+  }
+  .notes > p {
+    margin: 0;
+    font-size: var(--step--1);
+  }
+  .nrow {
+    display: grid;
+    grid-template-columns: minmax(0, 10rem) minmax(0, 1fr);
+    gap: 4px 12px;
+    border-top: 1px solid var(--line);
+    padding-top: 8px;
+  }
+  .nrow .vote {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: var(--step--1);
+    font-weight: 600;
+  }
+  .nrow .fx {
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 12px;
+  }
+  @media (max-width: 560px) {
+    .nrow {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .nrow .fx {
+      grid-column: 1;
+    }
   }
 </style>

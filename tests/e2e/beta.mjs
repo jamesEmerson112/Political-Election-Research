@@ -748,6 +748,77 @@ async function openAll(p, route) {
   );
 }
 
+{
+  // 10a-10d. The budget forecast if the recorded count holds: the Overview's meter under the results, and Try your
+  // ballot's "Count so far" (California now; San Francisco and Nevada wait for their counts). Nothing is stored.
+  const { c, p } = await sweepPage(1280);
+  await p.waitForSelector(".count-budget");
+  const block = p.locator(".count-budget").first();
+  const head = await text(block.locator("h3"));
+  const rows = await block.locator("svg text").allTextContents();
+  const href = await block.locator("a").getAttribute("href");
+  const nvLine = await text(p.locator(".count-line").first());
+  check(
+    "10a. Overview: under the results, the State's General Fund if the semi-official count holds (Props 1 and 38 in the bridge), linking to Count so far; Nevada says its count isn't recorded",
+    /If the semi-official count holds: State of California/.test(head) && rows.includes("Prop 1") && rows.includes("Prop 38") && href === "#trial?count&j=california" && /statewide count not recorded yet/.test(nvLine),
+    `${head} | ${rows.filter((r) => /^Prop/.test(r)).join(", ")} | ${href} | ${nvLine.slice(0, 90)}`,
+  );
+
+  const stored = () => p.evaluate(() => localStorage.getItem("per-trial-ballot"));
+  const before = await stored();
+  await p.goto(`${BASE}#trial?count&j=california`);
+  await p.waitForSelector(".countline");
+  const line = await text(p.locator(".countline"));
+  const marks = await p.locator(".panel.list .mrow .vote").allTextContents();
+  const yes = marks.filter((m) => /Yes ahead/.test(m)).length;
+  const no = marks.filter((m) => /No ahead/.test(m)).length;
+  const heading = await text(p.locator("section.trial h2").first());
+  const after = await stored();
+  check(
+    "10b. Count so far (California): the count line, every proposition marked Yes ahead or No ahead, the summary worded for the count; no answers stored",
+    /Semi-official count · Nov 8, 2026 · Yes ahead on 7 of 14/.test(line) && yes === 7 && no === 7 && /semi-official count holds/.test(heading) && before === after,
+    `${line} | ${yes} yes, ${no} no | ${heading} | stored ${before === after ? "unchanged" : "changed"}`,
+  );
+
+  await p.locator(".seg button", { hasText: "City and County of San Francisco" }).click();
+  const sfWait = await text(p.locator(".count-wait"));
+  const sfMeter = await p.locator(".meter-wrap").count();
+  await p.locator(".seg button", { hasText: "State of Nevada" }).click();
+  const nvWait = await text(p.locator(".count-wait"));
+  const nvRows = await p.locator(".notes .nrow").allTextContents();
+  check(
+    "10c. Count so far: San Francisco waits for its count (no meter); Nevada lists both questions' fiscal notes and waits for the statewide count",
+    /Waiting for the official count/.test(sfWait) &&
+      sfMeter === 0 &&
+      /Waiting for the statewide count/.test(nvWait) &&
+      nvRows.length === 2 &&
+      nvRows.every((r) => /No result yet/.test(r)) &&
+      nvRows.some((r) => /Question 7[\s\S]*\$6,750/.test(r)),
+    `${sfWait.slice(0, 60)} | ${nvWait.slice(0, 50)} | ${nvRows.map((r) => r.replace(/\s+/g, " ").slice(0, 60)).join(" / ")}`,
+  );
+  await c.close();
+}
+
+{
+  // 10d. Demo: a certified count says "Passed" / "Failed", and Prop A (two-thirds needed, more yes votes, failed) adds nothing.
+  const c = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  await c.addInitScript(() => localStorage.setItem("per-dataset", "demo"));
+  const p = await c.newPage();
+  p.on("pageerror", (e) => errors.push(String(e)));
+  await p.goto(`${BASE}#trial?count`);
+  await p.waitForSelector(".countline");
+  const line = await text(p.locator(".countline"));
+  const marks = await p.locator(".panel.list .mrow").allTextContents();
+  const propA = marks.find((m) => /Prop A/.test(m)) ?? "";
+  const propB = marks.find((m) => /Prop B/.test(m)) ?? "";
+  await c.close();
+  check(
+    "10d. demo: Count so far says Passed / Failed once certified; Prop A (two-thirds needed) failed and adds nothing",
+    /^Certified/.test(line) && /Failed/.test(propA) && /no change/.test(propA) && /Passed/.test(propB),
+    `${line} | ${propA.replace(/\s+/g, " ").slice(0, 80)} | ${propB.replace(/\s+/g, " ").slice(0, 60)}`,
+  );
+}
+
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
 const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
 const vaScript = await page.evaluate(() => document.querySelector('script[data-sdkn^="@vercel/analytics"]')?.getAttribute("src") ?? "");

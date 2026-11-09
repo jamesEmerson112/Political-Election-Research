@@ -171,7 +171,7 @@ export interface YearRow {
  * budget record's forecast flag) adds that the years don't add up. Describes,
  * never grades; null when no year has a forecast.
  */
-export function yearsNote(rows: YearRow[], cumulative = false): string | null {
+export function yearsNote(rows: YearRow[], cumulative = false, words: { subject: string; withIt: string } = { subject: "Your choices", withIt: "With your choices" }): string | null {
   const ys = rows.filter((y): y is YearRow & { baseline: number; result: Range } => y.baseline !== null && y.result !== null);
   const first = ys[0];
   const last = ys.at(-1);
@@ -183,14 +183,14 @@ export function yearsNote(rows: YearRow[], cumulative = false): string | null {
   const each = many ? "each year's" : "the";
   const out: string[] = [];
 
-  if (low === 0 && high === 0) out.push(`Your choices don't change the General Fund in ${many ? "these years" : `FY${first.fy}`}.`);
+  if (low === 0 && high === 0) out.push(`${words.subject} don't change the General Fund in ${many ? "these years" : `FY${first.fy}`}.`);
   else if (low >= 0) {
     const smaller = ys.every((y) => y.baseline < 0 && y.result.high < 0 && y.delta.low > 0);
-    out.push(`Your choices add ${low === 0 ? `up to ${usd(high)}` : usdRange(low, high)} a year to the General Fund${smaller ? `, which makes ${each} shortfall smaller` : ""}.`);
+    out.push(`${words.subject} add ${low === 0 ? `up to ${usd(high)}` : usdRange(low, high)} a year to the General Fund${smaller ? `, which makes ${each} shortfall smaller` : ""}.`);
   } else if (high <= 0) {
     const larger = ys.every((y) => y.baseline < 0 && y.delta.high < 0);
-    out.push(`Your choices cost the General Fund ${high === 0 ? `up to ${usd(low)}` : usdRange(-high, -low)} a year${larger ? `, which makes ${each} shortfall larger` : ""}.`);
-  } else out.push(`Your choices change the General Fund by ${signedRange({ low, high })} a year, depending on the outcome.`);
+    out.push(`${words.subject} cost the General Fund ${high === 0 ? `up to ${usd(low)}` : usdRange(-high, -low)} a year${larger ? `, which makes ${each} shortfall larger` : ""}.`);
+  } else out.push(`${words.subject} change the General Fund by ${signedRange({ low, high })} a year, depending on the outcome.`);
 
   const adds = cumulative && many ? "; each year includes the earlier years' gaps, so the years don't add up" : "";
   if (many && ys.every((y) => y.baseline < 0)) {
@@ -206,8 +206,8 @@ export function yearsNote(rows: YearRow[], cumulative = false): string | null {
   if (low !== 0 || high !== 0) {
     const left = (r: Range) => usdRange(-r.high, -r.low);
     if (ys.every((y) => y.result.high < 0))
-      out.push(`With your choices, a shortfall remains in ${many ? `every year: ${left(first.result)} in FY${first.fy} and ${left(last.result)} in FY${last.fy}` : `FY${first.fy}: ${left(first.result)}`}.`);
-    else out.push(`With your choices: ${balance(first.result)} in FY${first.fy}${many ? ` and ${balance(last.result)} in FY${last.fy}` : ""}.`);
+      out.push(`${words.withIt}, a shortfall remains in ${many ? `every year: ${left(first.result)} in FY${first.fy} and ${left(last.result)} in FY${last.fy}` : `FY${first.fy}: ${left(first.result)}`}.`);
+    else out.push(`${words.withIt}: ${balance(first.result)} in FY${first.fy}${many ? ` and ${balance(last.result)} in FY${last.fy}` : ""}.`);
   }
   return out.join(" ");
 }

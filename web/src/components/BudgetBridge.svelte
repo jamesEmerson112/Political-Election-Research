@@ -3,6 +3,7 @@
   import { nearFar } from "../lib/budgetTrial";
   import { balance, gapShare, signedRange, usd, usdRange } from "../lib/measureChips";
   import { hideTip, showTip } from "../lib/ui.svelte";
+  import { ANSWER_WORDS, type TrialWords } from "../lib/trialWords";
 
   /**
    * The General Fund bridge (waterfall) for one fiscal year: the official
@@ -18,7 +19,7 @@
    * shorter bar, not half of it). Direction is position and words, never
    * arrows. The domain is fixed by the caller (bridgeDomain) so it doesn't jump.
    */
-  let { bridge, domain, compact = false }: { bridge: Bridge; domain: BridgeDomain; compact?: boolean } = $props();
+  let { bridge, domain, compact = false, words = ANSWER_WORDS }: { bridge: Bridge; domain: BridgeDomain; compact?: boolean; words?: TrialWords } = $props();
 
   let w = $state(0);
   let hover = $state<number | null>(null);
@@ -116,7 +117,7 @@
       const d = { low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline };
       const g = gapShare(bridge.baseline, d, "money");
       const toZero = bridge.result.high < 0 ? [`Still to close for a balanced General Fund ($0): ${usdRange(-bridge.result.high, -bridge.result.low)}`] : [];
-      return [`With your choices, FY${bridge.fy}`, balance(bridge.result), `Change from the forecast: ${signedRange(d)} a year`, ...(g ? [`Gap ${g} (share computed here)`] : []), ...toZero];
+      return [`${words.withIt}, FY${bridge.fy}`, balance(bridge.result), `Change from the forecast: ${signedRange(d)} a year`, ...(g ? [`Gap ${g} (share computed here)`] : []), ...toZero];
     }
     const g = gapShare(bridge.baseline, s.delta, "money");
     return [

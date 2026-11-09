@@ -102,6 +102,75 @@ export function measureWord(o: MeasureOutcome): string {
   return o.ahead === "tie" ? "Tied" : o.ahead === "yes" ? "Yes ahead" : "No ahead";
 }
 
+/**
+ * Whether the yes votes reach the threshold (majority: more than half; 55% and two-thirds: at least that share).
+ * The same rule as `measurePasses` in src/validate.ts, which checks a certified `passed` against the votes.
+ */
+export function passesThreshold(threshold: string | undefined, yes: number, no: number): boolean {
+  const total = yes + no;
+  if (threshold === "two_thirds") return 3 * yes >= 2 * total;
+  if (threshold === "fifty_five_percent") return 100 * yes >= 55 * total;
+  return 2 * yes > total;
+}
+
+export type CountVote = "yes" | "no" | "skip";
+export interface CountStatus {
+  outcome: MeasureOutcome;
+  /** "Yes ahead" / "No ahead" / "Tied", or "Passed" / "Failed" once certified. */
+  word: string;
+  /** Yes is ahead but under the recorded threshold (e.g. two-thirds): not counted as passing. */
+  short: boolean;
+}
+export interface CountBallot {
+  /** One vote per measure: "yes" if it passes on the recorded count, "no" if not, "skip" without a result. */
+  votes: Record<string, CountVote>;
+  status: Record<string, CountStatus>;
+  /** Measures with no recorded result. */
+  missing: string[];
+  /** The latest count among the measures (certified only when every recorded result is). */
+  count: Count | null;
+}
+
+/**
+ * The recorded results as a ballot, for the budget forecast "if the count holds". A certified count
+ * uses `passed`; otherwise the votes are compared with the recorded threshold (majority without one).
+ * Nothing here is stored: the visitor's own answers stay separate.
+ */
+export function countVotes(measures: Array<[string, Rec | undefined]>): CountBallot {
+  const votes: Record<string, CountVote> = {};
+  const status: Record<string, CountStatus> = {};
+  const missing: string[] = [];
+  const counts: MeasureOutcome[] = [];
+  for (const [ref, contest] of measures) {
+    const o = measureOutcome(contest);
+    if (!o) {
+      votes[ref] = "skip";
+      missing.push(ref);
+      continue;
+    }
+    const passes = o.certified && o.passed !== undefined ? o.passed : passesThreshold(o.threshold?.value, o.yes, o.no);
+    votes[ref] = passes ? "yes" : "no";
+    status[ref] = { outcome: o, word: measureWord(o), short: !o.certified && o.ahead === "yes" && !passes };
+    counts.push(o);
+  }
+  return { votes, status, missing, count: summarize(counts) };
+}
+
+/** One count line for several measures: the latest date, certified only when every count is; citations once each. */
+function summarize(counts: MeasureOutcome[]): Count | null {
+  if (!counts.length) return null;
+  const when = (c: Count) => c.certifiedDate ?? c.asOf ?? "";
+  const latest = counts.reduce((a, b) => (when(b) > when(a) ? b : a));
+  const citations: Cite[] = [];
+  for (const c of counts.flatMap((o) => o.citations)) if (!citations.some((d) => d.source === c.source && d.quote === c.quote)) citations.push(c);
+  return {
+    certified: counts.every((o) => o.certified),
+    ...(latest.asOf ? { asOf: latest.asOf } : {}),
+    ...(latest.certifiedDate ? { certifiedDate: latest.certifiedDate } : {}),
+    citations,
+  };
+}
+
 /** "Semi-official count · Nov 4, 2026" or "Certified Dec 11, 2026". */
 export function countLine(o: Count): string {
   return o.certified ? `Certified ${date(o.certifiedDate)}`.trim() : `Semi-official count · ${date(o.asOf)}`;

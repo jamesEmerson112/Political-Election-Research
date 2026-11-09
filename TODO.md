@@ -2,7 +2,7 @@
 
 ## Format requests (after v2)
 The format is frozen at the tag `format-v2` (2026-11-05; `format-v1` was 2026-11-04; see CLAUDE.md "Format: frozen"). These format changes were left out on purpose. Each needs the maintainer's OK before work starts. Research that finds a fact the format can't hold adds it here, with the contest and the source.
-- **Election results:** done in v2 (contest `result`, shown on contest pages, the Overview and measure bars; see "Results and promise tracker" below). Still open: a "measures that passed" mode in Try your ballot.
+- **Election results:** done in v2 (contest `result`, shown on contest pages, the Overview and measure bars; see "Results and promise tracker" below). The "measures that passed" mode is done (2026-11-09): **Count so far** in Try your ballot and the meter under the Overview's results. California uses the semi-official count; San Francisco and Nevada show a waiting note until their results are recorded (Nevada has no budget forecast either, so it lists the fiscal notes).
 - **Judicial retention votes:** 13 yes/no retention votes on SF ballots (2 California Supreme Court, 11 First District Court of Appeal) don't fit the contest model.
 - **Impact of past policies:** a record type for measured outcomes of candidates' past bills and programs. It needs the 12 design answers first (see "Impact of past policies and actions" below).
 - **Supervisor races:** a `voting_method` field (ranked choice), and showing `vote_for` (seats).
@@ -61,7 +61,7 @@ After the election: who won each contest, and what each winner does on the campa
 **Done**
 - [x] Format v2: `OfficeResult.winners` and `as_of`; `MeasureResult.passed` once certified; promise `tracking`; `updates` merge by id; canonical sorts; validate rules (RESULT_NOT_CANDIDATE, RESULT_WINNERS, RESULT_PASSED_MISMATCH, TRACKING_NOT_WINNER; warnings RESULT_UNCERTIFIED, RESULT_SOURCE); SQLite tables; fixture (certified results and tracked promises in the demo); tests (964f0ea).
 - [x] Site: count line, winner highlighted and losers dimmed (spine, table, Overview), `ResultBar` on measure pages, cards and Overview rows, `PromiseTracker`; browser checks 5n–5q (5173d44).
-- [x] California semi-official results, count of November 4, 2026, 7:20 p.m. (`api.sos.ca.gov/returns/...`, fetched with plain curl by `tools/research/ca-sos-results.mjs`): 16 office contests (8 statewide, BOE 1–4, CA-11, CA-15, Assembly 17 and 19) and the 14 propositions, one commit per contest.
+- [x] California semi-official results, count of November 4, 2026, 7:20 p.m. (refreshed 2026-11-09 to the count of November 8, 4:21 p.m.) (`api.sos.ca.gov/returns/...`, fetched with plain curl by `tools/research/ca-sos-results.mjs`): 16 office contests (8 statewide, BOE 1–4, CA-11, CA-15, Assembly 17 and 19) and the 14 propositions, one commit per contest.
 
 **Open**
 - [ ] **Optional: tags on GitHub.** CLAUDE.md names the frozen commits (`format-v1` = 38939a6, `format-v2` = bce387a), so the freeze check needs no tag. Cloud sessions can't push tags (GitHub answers 403), so if the maintainer wants them on GitHub: on github.com, Releases, then Draft a new release, then Choose a tag `format-v2`, Target `main`, then Publish. `format-v1` (38939a6 is not the tip of a branch) is easiest from any fresh clone: `git tag -a format-v1 38939a6 -m "Beta format frozen 2026-11-04"`, then `git push origin format-v1`.

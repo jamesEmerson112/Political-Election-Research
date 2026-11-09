@@ -180,7 +180,7 @@
     {:else if view === "measures"}
       <MeasuresView {ix} onDemo={() => choose("demo")} />
     {:else if view === "trial"}
-      <TrialBallot {ix} onDemo={() => choose("demo")} />
+      <TrialBallot {ix} query={routeQuery} onDemo={() => choose("demo")} />
     {:else if view === "issues"}
       <IssuesView {ix} />
     {:else if view === "sources"}

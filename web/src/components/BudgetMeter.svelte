@@ -4,6 +4,7 @@
   import { date } from "../lib/format";
   import { budgetBase, gapLine, LANE_LABEL, pct, pctRange, signedRange, totalLong, usd } from "../lib/measureChips";
   import { openDetail } from "../lib/ui.svelte";
+  import { ANSWER_WORDS, type TrialWords } from "../lib/trialWords";
   import BudgetBridge from "./BudgetBridge.svelte";
 
   /**
@@ -26,6 +27,7 @@
     onfy,
     headline = false,
     gov = "city",
+    words = ANSWER_WORDS,
   }: {
     result: TrialResult;
     bridge: Bridge | null;
@@ -38,6 +40,8 @@
     headline?: boolean;
     /** Whose budget it is, for the wording: "city" (San Francisco) or "state" (California). */
     gov?: "city" | "state";
+    /** Whose ballot: the visitor's answers (default) or the recorded count. */
+    words?: TrialWords;
   } = $props();
 
   const row = $derived(result.generalFund.find((y) => y.fy === fy) ?? result.generalFund[0] ?? null);
@@ -131,12 +135,12 @@
         {/if}
       </p>
     {/if}
-    {#if bridge && domain && !headline}<BudgetBridge {bridge} {domain} compact />{/if}
+    {#if bridge && domain && !headline}<BudgetBridge {bridge} {domain} {words} compact />{/if}
     <p class="fine">The forecast doesn't include ballot measures; the {gov} must adopt a balanced budget each year. The % is the change ÷ the forecast, computed here.</p>
   {:else}
     <p class="muted">No official budget forecast is recorded for this jurisdiction yet, so only the yearly amounts are added up below.</p>
     <dl class="lines">
-      <dt>Your choices so far (General Fund)</dt>
+      <dt>{words.soFar}</dt>
       <dd class="num">{signedRange(result.perYearOnceInEffect.general_fund)} a year</dd>
     </dl>
   {/if}

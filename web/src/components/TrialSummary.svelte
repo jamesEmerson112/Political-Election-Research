@@ -4,6 +4,8 @@
   import { MARK } from "../lib/marks";
   import { balance, gapShare, LANE_LABEL, pct, pctRange, signedRange, usd, usdRange, yearsNote, type BudgetBase, type YearRow } from "../lib/measureChips";
   import { hideTip, showTip } from "../lib/ui.svelte";
+  import type { CountStatus } from "../lib/results";
+  import { ANSWER_WORDS, type TrialWords } from "../lib/trialWords";
   import BudgetBridge from "./BudgetBridge.svelte";
   import StanceMark from "./StanceMark.svelte";
 
@@ -27,6 +29,8 @@
     cumulative = false,
     onfy,
     gov = "city",
+    words = ANSWER_WORDS,
+    status = null,
   }: {
     result: TrialResult;
     measures: MeasureInput[];
@@ -42,6 +46,10 @@
     onfy?: (fy: string) => void;
     /** Whose budget it is, for the wording: "city" (San Francisco) or "state" (California). */
     gov?: "city" | "state";
+    /** Whose ballot: the visitor's answers (default) or the recorded count. */
+    words?: TrialWords;
+    /** The count: each measure's result word ("Yes ahead", "Passed" …), shown instead of the visitor's vote. */
+    status?: Record<string, CountStatus> | null;
   } = $props();
   const stepWord = (r: Range) => (r.low >= 0 ? "revenue or savings" : r.high <= 0 ? "cost" : "cost or revenue");
 
@@ -50,7 +58,7 @@
   const years = $derived(result.generalFund);
   const n = $derived(years.length);
   const selFy = $derived(bridge?.fy ?? null);
-  const note = $derived(yearsNote(years, cumulative));
+  const note = $derived(yearsNote(years, cumulative, words));
   const uid = $props.id();
   let cw = $state(0);
   const narrow = $derived(cw < 560);
@@ -100,13 +108,13 @@
   const tipLines = (y: YearRow) => [
     `FY${y.fy}${y.fy === selFy ? " · in the bridge above" : ""}`,
     `Official forecast: ${y.baseline === null ? "—" : balance({ low: y.baseline, high: y.baseline })}${y.baseline && base?.generalFund ? ` (${gfPct(Math.abs(y.baseline))} of the General Fund)` : ""}`,
-    `Your choices: ${signedRange(y.delta)} a year`,
-    `With your choices: ${y.result ? balance(y.result) : "—"}`,
+    `${words.column}: ${signedRange(y.delta)} a year`,
+    `${words.withIt}: ${y.result ? balance(y.result) : "—"}`,
     ...(changeText(y) && y.baseline ? [`${side(y.baseline)} ${changeText(y)} (share computed here)`] : []),
     ...(y.result && y.result.high < 0 ? [`Still to close for a balanced General Fund ($0): ${usdRange(-y.result.high, -y.result.low)}`] : []),
   ];
   const yearLabel = (y: YearRow) =>
-    `FY${y.fy}: official forecast ${y.baseline === null ? "not given" : balance({ low: y.baseline, high: y.baseline })}; with your choices ${y.result ? balance(y.result) : "not given"}`;
+    `FY${y.fy}: official forecast ${y.baseline === null ? "not given" : balance({ low: y.baseline, high: y.baseline })}; ${words.withLower} ${y.result ? balance(y.result) : "not given"}`;
   const pickKey = (e: KeyboardEvent, fy: string) => {
     if (e.key !== "Enter" && e.key !== " ") return;
     e.preventDefault();
@@ -125,8 +133,8 @@
 
 <section class="section">
   <div class="section-head">
-    <h2>Your trial ballot: budget effects</h2>
-    <p>If every choice you made became law, using the official estimates. Ranges stay ranges; nothing here says how to vote.</p>
+    <h2>{words.heading}</h2>
+    <p>{words.intro}</p>
   </div>
 
   <p class="gf">
@@ -140,7 +148,7 @@
   {#if bridge && domain}
     <figure class="panel chart">
       <figcaption class="eyebrow">General Fund bridge, FY{bridge.fy}: forecast, each Yes in ballot order, result</figcaption>
-      <BudgetBridge {bridge} {domain} />
+      <BudgetBridge {bridge} {domain} {words} />
       <p class="link-note">
         One year, step by step: its Forecast and Result are FY{bridge.fy}'s dashed-line point and band in the chart below{#if onfy && n > 1}; select another year there to show
           it here{/if}.
@@ -152,7 +160,7 @@
       <tbody>
         {#each bridge.steps as s, k (k)}
           <tr>
-            <td>{s.kind === "start" ? "Official forecast" : s.kind === "end" ? "With your choices" : s.label}{#if s.exclusive}<span class="muted">{" "}(only one can take effect)</span>{/if}</td>
+            <td>{s.kind === "start" ? "Official forecast" : s.kind === "end" ? words.withIt : s.label}{#if s.exclusive}<span class="muted">{" "}(only one can take effect)</span>{/if}</td>
             <td
               >{#if s.kind === "measure"}<strong>{gapShare(bridge.baseline, s.delta, "money") ?? ""}</strong> {signedRange(s.delta)}
                 <span class="muted">{stepWord(s.delta)}</span>{:else if s.kind === "end"}{@const d = { low: bridge.result.low - bridge.baseline, high: bridge.result.high - bridge.baseline }}<strong
@@ -182,7 +190,7 @@
             height={H}
             viewBox={`0 0 ${cw} ${H}`}
             role="img"
-            aria-label="Projected General Fund by fiscal year: the official forecast and the range with your choices, below $0 where there is a shortfall. The same numbers are in the table below."
+            aria-label={`Projected General Fund by fiscal year: the official forecast and the range ${words.withLower}, below $0 where there is a shortfall. The same numbers are in the table below.`}
           >
             <defs>
               <clipPath id={`${uid}-below`}><rect x="0" y={yAt(0)} width={cw} height={Math.max(0, H - yAt(0))} /></clipPath>
@@ -245,20 +253,20 @@
       </div>
       <div class="legend">
         <span><span class="sw base"></span>Official forecast, before these measures</span>
-        <span><span class="sw short"></span>With your choices (range){surplus ? ", below $0" : ""}</span>
-        {#if surplus}<span><span class="sw surp"></span>With your choices, above $0 (a surplus)</span>{/if}
+        <span><span class="sw short"></span>{words.withIt} (range){surplus ? ", below $0" : ""}</span>
+        {#if surplus}<span><span class="sw surp"></span>{words.withIt}, above $0 (a surplus)</span>{/if}
       </div>
       <p class="fine">
-        Red marks a shortfall: below $0, General Fund costs would exceed its revenue. It shows the sign of the balance, not a judgment of your choices. The line at $0 is
-        balanced: a year whose band reached it would have no shortfall. The slope comes from the official forecast; what your choices change is the distance between the
-        dashed line and the band.{#if labels}{" "}Above each year's name: how much your choices change that year's shortfall.{/if}{#if base?.generalFund}{" "}The right axis is
+        Red marks a shortfall: below $0, General Fund costs would exceed its revenue. It shows the sign of the balance, not a judgment of {words.judgment}. The line at $0 is
+        balanced: a year whose band reached it would have no shortfall. The slope comes from the official forecast; what {words.changes} is the distance between the
+        dashed line and the band.{#if labels}{" "}Above each year's name: how much {words.changes} that year's shortfall.{/if}{#if base?.generalFund}{" "}The right axis is
           the left one as a share of the adopted FY{base.fy} General Fund, computed here.{/if}{#if onfy && selFy && n > 1}{" "}Shaded: FY{selFy}, the year in the bridge
           above; select a year to show it there.{/if}
       </p>
     </figure>
 
     <div class="scroll-x"><table class="grid num">
-      <thead><tr><th>FY</th><th>Gap</th><th>Forecast</th><th>Your choices</th><th>Result</th></tr></thead>
+      <thead><tr><th>FY</th><th>Gap</th><th>Forecast</th><th>{words.column}</th><th>Result</th></tr></thead>
       <tbody>
         {#each result.generalFund as y (y.fy)}
           <tr
@@ -276,8 +284,15 @@
       {@const v = votes[m.ref]}
       <div class="mrow">
         <span class="vote">
-          {#if v === "yes"}<StanceMark mark={MARK["support"]!} />{:else if v === "no"}<StanceMark mark={MARK["oppose"]!} />{:else}<StanceMark mark={MARK["unresearched"]!} />{/if}
-          {v ? voteLabel[v] : "Not answered"}
+          {#if status}
+            <!-- The count: literal yes and no votes, so ▲/▼ (the side ahead); a measure without a result has none. -->
+            {@const st = status[m.ref]}
+            {#if st?.outcome.ahead === "yes"}<StanceMark mark={MARK["support"]!} />{:else if st?.outcome.ahead === "no"}<StanceMark mark={MARK["oppose"]!} />{:else}<StanceMark mark={MARK["unresearched"]!} />{/if}
+            {st ? `${st.word}${st.short && st.outcome.threshold ? `, under the ${Math.round(st.outcome.threshold.share * 1000) / 10}% needed` : ""}` : "No result yet"}
+          {:else}
+            {#if v === "yes"}<StanceMark mark={MARK["support"]!} />{:else if v === "no"}<StanceMark mark={MARK["oppose"]!} />{:else}<StanceMark mark={MARK["unresearched"]!} />{/if}
+            {v ? voteLabel[v] : "Not answered"}
+          {/if}
         </span>
         <span class="what"><strong>{m.label}</strong> {titles[m.ref] ?? ""}</span>
         <span class="eff num">

@@ -28,6 +28,7 @@
   import { countLine, measureOutcome, officeOutcome, pct1, standing, winnerWord } from "../lib/results";
   import { measureLabel } from "../lib/measureLabel";
   import ResultsStrip from "./ResultsStrip.svelte";
+  import CountBudget from "./CountBudget.svelte";
   import MyBallot from "./MyBallot.svelte";
   import { loadPicks, picksToText, type ExportContest, type Picks } from "../lib/myPicks";
   import { allTrialVotes } from "../lib/trialStorage";
@@ -266,7 +267,7 @@
   {/each}
 </section>
 
-{#if ballotSt === "ca"}<ResultsStrip items={resultItems} missing={resultsMissing} narrowed={ballotOn} />{/if}
+{#if ballotSt === "ca"}<ResultsStrip items={resultItems} missing={resultsMissing} narrowed={ballotOn} /><CountBudget {ix} region="ca" />{/if}
 
 <MyBallot {choice} {showAll} {coveredAssembly} onCount={onBallotCount} total={rows.length} onchange={setChoice} ontoggle={() => (showAll = !showAll)} onforget={forget} />
 
@@ -389,6 +390,7 @@
             {@render groupRows(g.rows, key)}
           {/if}
         </div>
+        {#if s.st === "nv" && g.type === "measure"}<CountBudget {ix} region="nv" line />{/if}
       {/each}
     </div>
   {/each}

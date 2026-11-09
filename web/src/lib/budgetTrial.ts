@@ -299,12 +299,13 @@ export function runTrial(measures: MeasureInput[], budget: BudgetInput | null, v
 
 // ---- adapters from records -------------------------------------------------
 
-/** A measure contest record -> engine input. Label: "Prop <number>". */
+/** A measure contest record -> engine input. Label: "Prop <number>", or "Question <number>" in Nevada (its ballot questions). */
 export function measureInput(contest: Rec): MeasureInput {
   const fiscal = (contest["fiscal"] as Rec | undefined) ?? {};
+  const st = /^\d{4}-([a-z]{2})-/.exec(String(contest["id"]))?.[1];
   return {
     ref: `contest:${String(contest["id"])}`,
-    label: `Prop ${String(contest["number"])}`,
+    label: `${st === "nv" ? "Question" : "Prop"} ${String(contest["number"])}`,
     effects: (fiscal["effects"] as Rec[] | undefined) ?? [],
     ...(fiscal["bond"] ? { bond: fiscal["bond"] as Rec } : {}),
     conflicts: ((contest["conflicts"] as Rec[] | undefined) ?? []).filter((c) => c["exclusive"] === true).map((c) => String(c["contest"])),
