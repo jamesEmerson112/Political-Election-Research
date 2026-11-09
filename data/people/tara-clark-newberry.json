@@ -4,6 +4,52 @@
   "name": "Tara Clark Newberry",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Tara Clark Newberry biography",
+          "where": "Eighth Judicial District Court, Department XXI page (clarkcountycourts.us/departments/judicial/civil-criminal-divison/department-xxi/) and the court's 2021 investiture press release"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tara Clark Newberry biography",
+          "where": "Campaign site clarknewberryforjudge.com: home, Before the Bench, Family and As Your Judge pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Clark Newberry candidate deep dive",
+          "where": "The Nevada Independent 2026 voter guide, Department 21 race page (general and primary)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tara Clark Newberry profile",
+          "where": "Nevada Current, 'Public defender challenging incumbent in Clark County Dept. 21' (2026-09-09)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Tara Clark Newberry\" judge Las Vegas; \"Clark Newberry\" Review-Journal 2026 Department 21",
+          "where": "Web search (news)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date (the story gives only her age, 47, at the time; no date or year of birth stated)",
+          "where": "Associated Press wire report via Watermark Out News, 'LGBTQ judge in Las Vegas reflects on career of firsts' (2022-04-04)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / born",
+          "where": "Vegas Legal Magazine, 'Meet the Incumbent: Judge Clark Newberry'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate declaration of candidacy / judicial biography: hosts blocked from this session (Cloudflare challenge), not readable",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov) and Nevada courts site (nvcourts.gov)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
