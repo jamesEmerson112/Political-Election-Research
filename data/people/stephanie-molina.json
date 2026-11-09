@@ -116,6 +116,42 @@
           "where": "Nevada Secretary of State candidate filings (nvsos.gov, silverstateelection.nv.gov): blocked from this session"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence (the site says only that she has been a member of the District 5 community for more than 30 years; District 5 spans parts of Las Vegas and North Las Vegas, so no city is stated)",
+          "where": "Campaign site https://www.molinafornevada.com/ (home and /about)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate address or city",
+          "where": "Clark County Election Department, Notice of General Election 2026, PDF page 12, and Current Listing of All Offices up for Election in 2026"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina residence, lives in, city",
+          "where": "The Nevada Independent 2026 voter guide (general and primary Board of Regents pages); The Nevada Independent 2026-06-11 and 2026-09-22 regent articles"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina residence, lives in, city",
+          "where": "Nevada Current, 2026-04-10, District 5 primary preview (Stephanie Molina section)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "clarkcountynv.gov 2026 candidate filing list Board of Regents Molina Denis address",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina declaration of candidacy address",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov, silverstateelection.nv.gov): blocked from this session"
+        }
+      ]
     }
   },
   "ids": [],
