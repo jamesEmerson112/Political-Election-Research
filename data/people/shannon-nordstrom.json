@@ -136,6 +136,27 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "J.D.",
+          "institution": "University of the Pacific, McGeorge School of Law",
+          "citations": [
+            {
+              "source": "src:shannonnordstrom-com-af5b48dbcc",
+              "quote": "Nordstrom graduated with distinction from the University of the Pacific, McGeorge School of Law, where she earned a J.D. and concentrated in Intellectual Property and International Law.",
+              "locator": "Qualifications page, A Lifetime of Service"
+            },
+            {
+              "source": "src:nevadacurrent-com-7488efdd7f",
+              "quote": "She earned her Juris Doctor degree in international law and intellectual property from the University of the Pacific McGeorge School of Law.",
+              "locator": "Meet the candidates"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney; pro tempore judge, Las Vegas Justice Court",
       "citations": [
