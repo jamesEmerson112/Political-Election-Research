@@ -42,6 +42,34 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly, District 5",
+          "current": true,
+          "first_elected": "2016",
+          "jurisdiction": "Nevada",
+          "start": "2016-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Brittney M. Miller LEGISLATIVE SERVICE Served in 5 Regular Sessions and 5 Special Sessions Years in Assembly: November 2016 to Current",
+              "locator": "PDF page 74, Legislative Biography—2025 Session, Brittney M. Miller"
+            },
+            {
+              "source": "src:leg-state-nv-us-082d3e6c0c",
+              "quote": "Assemblymember Brittney M. Miller Party: Democratic District 5",
+              "locator": "Member page header, Assembly 83rd (2025) Session"
+            },
+            {
+              "source": "src:reviewjournal-com-a40b73c890",
+              "quote": "Miller, first elected in 2016, is a teacher."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

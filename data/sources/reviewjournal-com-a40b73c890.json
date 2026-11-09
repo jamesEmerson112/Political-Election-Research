@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-a40b73c890",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-10-05",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Miller facing Republican, Libertarian in Assembly District 5 re-election",
+  "url": "https://www.reviewjournal.com/?p=2652291",
+  "notes": "Byline David Wilson. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
