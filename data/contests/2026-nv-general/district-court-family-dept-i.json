@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-i",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department I",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:soonhee-sunny-bailey",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Bailey, Soonhee \"Sunny\" NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT I (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Bailey Soonhee \"Sunny\" NP 6",
+          "locator": "PDF page 7 (Page 7 of 10), District Court Judge Family Division Department I row (last name, first name, party NP, term in years)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department I Bailey Soonhee \"Sunny\" NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department I: the current office holder"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "I FAMILY 7 Sunny Bailey",
+          "locator": "Judicial departments table (family/juvenile), DEPT# I row (dept, location, courtroom, judge): the sitting judge of Family Division Department I"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
