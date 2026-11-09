@@ -3,8 +3,20 @@
   "id": "philip-louis-wing",
   "name": "Philip Louis Wing",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Philip Louis Wing Republican",
+          "locator": "PDF page 22 (list page 21 of 41), State Assembly Member District 19"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-09"
 }
