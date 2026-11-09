@@ -4,6 +4,57 @@
   "name": "Cameron \"C.H.\" Miller",
   "aliases": [],
   "candidate_profile": {
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly, District 7",
+          "current": false,
+          "end": "2023",
+          "first_elected": "2020",
+          "jurisdiction": "Nevada",
+          "start": "2020",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-567f7b6c24",
+              "quote": "The North Las Vegas Democrat, who first took office in 2020, resigned his position because his family is moving outside of Assembly District 7, according to a release."
+            },
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "Miller previously represented Assembly District 7 from 2020 to 2023 before he resigned to run unsuccessfully for a seat on the Las Vegas City Council.",
+              "locator": "State Assembly, District 7"
+            },
+            {
+              "source": "src:thenevadaindependent-com-28b258e444",
+              "quote": "Miller defeated John Stephens III in the district's Democratic primary with 74.4 percent of the vote and then was victorious over Republican Anthony Palmer in the general election, carrying 68.7 percent of the vote."
+            },
+            {
+              "source": "src:archive-leg-state-nv-us-c3b026c69e",
+              "quote": "Miller, C. H. (D) .............................. No. 7, Clark (Part)",
+              "locator": "PDF page 6, Members of the Assembly—Names, Districts, Addresses"
+            }
+          ]
+        },
+        {
+          "office": "Assistant Majority Floor Leader, Nevada Assembly",
+          "current": false,
+          "end": "2023",
+          "jurisdiction": "Nevada",
+          "start": "2023",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-c5ab401cc5",
+              "quote": "Assistant Majority Floor Leader Party: Democratic District 7",
+              "locator": "82nd (2023) Session legislator page, header"
+            },
+            {
+              "source": "src:reviewjournal-com-567f7b6c24",
+              "quote": "who served as assistant majority leader during the 2023 legislative session"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

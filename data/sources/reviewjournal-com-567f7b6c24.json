@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-567f7b6c24",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2023-10-20",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Democratic Assemblyman C.H. Miller resigning from Legislature",
+  "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/democratic-assemblyman-c-h-miller-resigning-from-legislature-2925535/"
+}

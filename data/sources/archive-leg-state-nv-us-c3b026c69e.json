@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "archive-leg-state-nv-us-c3b026c69e",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislature, Chief Clerk of the Assembly",
+  "title": "Assembly History, Eighty-Second Session 2023 (Final Volume)",
+  "url": "https://archive.leg.state.nv.us/Session/82nd2023/History/Assembly/Final/HistoryFinal0_20230731.pdf"
+}

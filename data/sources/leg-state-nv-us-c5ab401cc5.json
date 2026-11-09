@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-c5ab401cc5",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislature",
+  "title": "Assemblymember Cameron (Cameron (C.H.)) Miller",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/82nd2023/7"
+}

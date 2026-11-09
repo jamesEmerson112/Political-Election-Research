@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-28b258e444",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2021-03-05",
+  "publisher": "The Nevada Independent",
+  "title": "Freshman Orientation: Assemblyman Cameron \"C.H.\" Miller",
+  "url": "https://thenevadaindependent.com/article/freshman-orientation-assemblyman-cameron-c-h-miller"
+}
