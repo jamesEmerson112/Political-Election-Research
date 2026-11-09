@@ -14,6 +14,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Riyadh, Kingdom of Saudi Arabia",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: Riyadh, Kingdom of Saudi Arabia",
+          "locator": "PDF page 80, Legislative Biography—2025 Session, Hanadi Nadeem"
+        },
+        {
+          "source": "src:geo-tv-d056fcc316",
+          "quote": "Hanadi was born in Saudi Arabia in 1972 after her parents moved to Riyadh from Islamabad.",
+          "locator": "Hanadi’s journey"
+        }
+      ]
+    },
     "career": {
       "as_of": "2026-11-09",
       "items": [
