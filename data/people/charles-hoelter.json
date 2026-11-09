@@ -85,6 +85,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "offices held, elected, council, board",
+          "where": "hoelterforuscongress.com home and About Me page (campaign site; About Me page has no biographical text)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "ballot designation (Retired Training Supervisor; no office named)",
+          "where": "elections.cdn.sos.ca.gov certified list of candidates, November 3, 2026"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "prior office, elected (no office mentioned)",
+          "where": "rwcpulse.com 'Five candidates up to bat for Congressional D-15' (2026-05-13)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "prior office (describes him as a first-time Republican candidate)",
+          "where": "almanacnews.com 'Mullin, Hoelter lead D-15 polls' (2026-06-03)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Charles Hoelter congress California 15th district Republican",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Charles Hoelter\" Republican San Mateo born OR graduated OR \"Lincoln High\"",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
