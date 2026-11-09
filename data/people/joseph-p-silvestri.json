@@ -70,6 +70,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Teacher (educator with the Clark County School District)",
+      "citations": [
+        {
+          "source": "src:silvestri4silverstate-com-1cbb152a6e",
+          "quote": "Dad, teacher, ocean lifeguard (retired), libertarian, Cultural Christian, MAGA, athlete, surfer, Ultimate Frisbee, motorcyclist, plenty more but won't bore you!",
+          "locator": "Home page, candidate's self-description"
+        },
+        {
+          "source": "src:silvestri4silverstate-com-1cbb152a6e",
+          "quote": "He has worked for the Clark County School District as an educator for almost 30 years.",
+          "locator": "Home page, biography paragraph"
+        },
+        {
+          "source": "src:thenevadaindependent-com-241dc78c98",
+          "quote": "He has worked for almost 30 years in the Clark County School District and has also worked as a real estate agent and ocean lifeguard.",
+          "locator": "State Assembly, District 3, Joseph P. Silvestri"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-241dc78c98",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "The Nevada Independent",
+  "title": "Clark State Assembly - Nevada Voter Guide | 2026",
+  "url": "https://thenevadaindependent.com/elections/2026/general/clark-state-assembly",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
