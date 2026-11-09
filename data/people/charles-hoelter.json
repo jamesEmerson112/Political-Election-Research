@@ -71,6 +71,52 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, university, school",
+          "where": "hoelterforuscongress.com home and About Me page (campaign site; About Me page has no biographical text)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree (none mentioned)",
+          "where": "rwcpulse.com 'Five candidates up to bat for Congressional D-15' (2026-05-13)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree (none mentioned)",
+          "where": "almanacnews.com 'Mullin, Hoelter lead D-15 polls' (2026-06-03)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education",
+          "where": "ballotpedia.org/Charles_Hoelter (reference work: lead only, says Lincoln High School and a bachelor's from San Francisco State University in 1989, from his Candidate Connection survey; not a primary source)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "degrees",
+          "where": "ballotready.org/people/charles-hoelter (aggregator: lead only, same degrees; not a primary source)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education",
+          "where": "ivoterguide.com candidate 92381 (education: 'Candidate did not provide')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Charles Hoelter \"San Francisco State\" UPS congress",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Charles Hoelter\" Republican San Mateo born OR graduated OR \"Lincoln High\"",
+          "where": "web search"
+        }
+      ]
+    },
     "occupation": {
       "value": "Retired training supervisor (ballot designation); retired UPS supervisor (local news)",
       "citations": [
