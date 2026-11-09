@@ -3,6 +3,54 @@
   "id": "patricia-a-marr",
   "name": "Patricia A. Marr",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Marr party / party preference",
+          "where": "Clark County Election Department, Notice of General Election (Notice-Gen-Election-26G.pdf), PDF page 10: lists the candidate only with 'NP', which the county's candidate lists define as 'Nonpartisan (indicated for nonpartisan offices only)', an office label, not a party registration"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Marr party / party preference",
+          "where": "Clark County Election Department, All Contests and Candidates in the November 3 2026 General Election (officesup-26g.pdf), abbreviations key and Family Division Department D row: NP only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Marr party / party preference",
+          "where": "Clark County Election Department, Candidates Filed with Clark County lookup (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx): search form only, results not readable here"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, Democrat, Republican, nonpartisan, registered",
+          "where": "Campaign website https://www.marr4judge.com/ and https://www.marr4judge.com/about"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "Las Vegas Review-Journal, 'Women with backgrounds in law, psychology eye Family Court Dept. D' (2026-10-06) and RJ 2026 voter guide candidate statement"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "The Nevada Independent 2026 Clark County voter guide (thenevadaindependent.com/elections/2026/general/clark-county) and Nov 4 results article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "Our Nevada Judges candidate page (ournevadajudges.com/candidates/patricia-a-marr)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Patricia A. Marr candidate filing",
+          "where": "Nevada Secretary of State (nvsos.gov) candidate filings: host blocked (not reachable from this session)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
