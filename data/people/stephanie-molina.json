@@ -81,6 +81,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed public office, served as, commission, board",
+          "where": "Campaign site https://www.molinafornevada.com/ (home and /about)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina as an incumbent office holder",
+          "where": "Clark County Election Department, Current Listing of All Offices up for Election in 2026 (incumbents) and Notice of General Election 2026"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina prior office (the guide says she served in UNLV's student government, a campus body, not a public office)",
+          "where": "The Nevada Independent 2026 voter guide (general and primary Board of Regents pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina elected, appointed, office",
+          "where": "The Nevada Independent 2026-06-11 and 2026-09-22 regent articles; Nevada Current 2026-04-10 District 5 primary preview"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Stephanie Molina Nevada Board of Regents District 5 candidate",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
