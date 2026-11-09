@@ -96,6 +96,52 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, college, university",
+          "where": "The Nevada Independent, 2026-09-19 article on Clark County downballot offices (opened; Ferreira did not respond to interview request)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, college, university",
+          "where": "The Nevada Independent 2026 Nevada Voter Guide, Clark County page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, college, university",
+          "where": "FEC candidate page H4NV04157, FERREIRA, TIM \"TJ\" (opened; no biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "TJ Ferreira Libertarian Clark County Treasurer 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tim Ferreira Libertarian Nevada candidate 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ferreira power trader NV Energy Libertarian candidate Clark County",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, college, university",
+          "where": "campaign website (address not found in sources; guessed domains tjferreira.com, tjfornevada.com unreachable)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, college, university",
+          "where": "lpnevada.org (Cloudflare challenge, not reached); goodparty.org profile (HTTP 429, not reached); nvsos.gov (blocked)"
+        }
+      ]
+    },
     "occupation": {
       "value": "Power trader, NV Energy",
       "citations": [
