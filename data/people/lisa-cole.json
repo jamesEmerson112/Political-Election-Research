@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "lisa-cole",
+  "name": "Lisa Cole",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/4"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-09"
+}
