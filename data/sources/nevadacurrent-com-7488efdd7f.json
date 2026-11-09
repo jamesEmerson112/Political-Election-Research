@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-7488efdd7f",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-29",
+  "publisher": "Nevada Current",
+  "title": "2 Republicans face off in nonpartisan Las Vegas City Council race",
+  "url": "https://nevadacurrent.com/2026/09/29/2-republicans-face-off-in-nonpartisan-las-vegas-city-council-race/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

@@ -3,6 +3,18 @@
   "id": "luke-mccarthy",
   "name": "Luke McCarthy",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-7488efdd7f",
+          "quote": "Both candidates are registered as Republicans and spoke to the Nevada Current about economic development, housing, homeless services, education, and data centers.",
+          "locator": "paragraph 5; the two candidates are Luke McCarthy and Shannon Nordstrom (paragraph 2)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
