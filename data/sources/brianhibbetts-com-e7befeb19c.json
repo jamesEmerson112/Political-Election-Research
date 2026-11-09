@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "brianhibbetts-com-e7befeb19c",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Friends of Brian Hibbetts",
+  "title": "About — Brian Hibbetts for Assembly District 13",
+  "url": "https://www.brianhibbetts.com/about",
+  "notes": "Campaign site About page. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

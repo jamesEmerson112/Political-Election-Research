@@ -14,6 +14,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas, Nevada",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: 1974 – Las Vegas, Nevada",
+          "locator": "PDF page 64, Legislative Biography—2025 Session, Brian Hibbetts"
+        },
+        {
+          "source": "src:brianhibbetts-com-e7befeb19c",
+          "quote": "Brian Hibbetts was born and raised in Las Vegas.",
+          "locator": "About page, Meet Brian Hibbetts"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
