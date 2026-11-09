@@ -75,6 +75,22 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor's degree, Ministry Leadership",
+          "institution": "Northwest University (Kirkland, Washington)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-28b258e444",
+              "quote": "he earned his bachelor's degree in Ministry Leadership from Northwest University in Kirkland, Washington.",
+              "locator": "FAMILY AND EDUCATION"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "status": "not_found",
       "as_of": "2026-11-09",
