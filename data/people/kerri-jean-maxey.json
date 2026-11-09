@@ -3,6 +3,69 @@
   "id": "kerri-jean-maxey",
   "name": "Kerri Jean Maxey",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party registration: the office is nonpartisan; Maxey is listed as 'NP', which the list's key defines as 'NP = Nonpartisan (indicated for nonpartisan offices only)', not a party registration",
+          "where": "Clark County, All Contests and Candidates in the November 3, 2026 General Election (officesup-26g.pdf), page 7, Family Division Department N; and Notice of General Election (Notice-Gen-Election-26G.pdf), page 11"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Eighth Judicial District Court, Family Division Department N page (https://www.clarkcountycourts.us/departments/judicial/family-division/department-n/), Biography tab (opened; the tab is empty)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Eighth Judicial District Court news release, 2025-05-19, investiture of Judges Kerri Maxey and Adriana Rincon White (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Campaign site judgemaxey.com home and About pages (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "The Nevada Independent 2024 judicial race page, Kerri Maxey (https://thenevadaindependent.com/elections/2024/races/judicial/8th-dc-dept-n/kerri-maxey) (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "The Nevada Independent 2026 Nevada Voter Guide, Family Division Dept. N race page (https://thenevadaindependent.com/elections/2026/general/judicial/137), both candidate deep dives (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Las Vegas Review-Journal 2024 race article 'Kerri Maxey challenges Paul Gaudet for Family Court Department N' (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Nevada Current 2026-09-14 'Family Court race features rematch between Maxey and Gaudet' and 2024-09-19 'Public defender challenges Family Court judge appointed by Lombardo' (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Michel Gaudet family court judge candidate Las Vegas 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Judge Kerri Maxey Family Court Department N Las Vegas 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "blocked from this environment (Cloudflare challenge); not read",
+          "where": "nvsos.gov candidate filings and certified list; nvcourts.gov (Judicial Selection Commission applications)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
