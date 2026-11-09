@@ -55,6 +55,79 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor of Science, Economics",
+          "institution": "University of Utah",
+          "year": 2016,
+          "citations": [
+            {
+              "source": "src:pvtimes-com-6fe34e2b4a",
+              "quote": "Junejo went on to earn a bachelor’s degree in economics from the University of Utah, a master’s degree in management studies from Duke University, a master’s degree in clinical nurse leadership from St. Louis University, and a doctorate in psychiatry from Columbia University.",
+              "locator": "section \"The American dream\""
+            },
+            {
+              "source": "src:ivoterguide-com-09a294367d",
+              "quote": "University of Utah, Salt Lake City, UT, Bachelor of Science, Economics, -2016",
+              "locator": "Biography, Education"
+            }
+          ]
+        },
+        {
+          "degree": "Master's, Management Studies",
+          "institution": "Duke University, Fuqua School of Business",
+          "year": 2017,
+          "citations": [
+            {
+              "source": "src:pvtimes-com-6fe34e2b4a",
+              "quote": "Junejo went on to earn a bachelor’s degree in economics from the University of Utah, a master’s degree in management studies from Duke University, a master’s degree in clinical nurse leadership from St. Louis University, and a doctorate in psychiatry from Columbia University.",
+              "locator": "section \"The American dream\""
+            },
+            {
+              "source": "src:ivoterguide-com-09a294367d",
+              "quote": "Duke University, Fuqua School of Business, Durham, NC, Master's, Management, -2017",
+              "locator": "Biography, Education"
+            }
+          ]
+        },
+        {
+          "degree": "Master's, Clinical Nurse Leadership",
+          "institution": "Saint Louis University",
+          "year": 2022,
+          "citations": [
+            {
+              "source": "src:pvtimes-com-6fe34e2b4a",
+              "quote": "Junejo went on to earn a bachelor’s degree in economics from the University of Utah, a master’s degree in management studies from Duke University, a master’s degree in clinical nurse leadership from St. Louis University, and a doctorate in psychiatry from Columbia University.",
+              "locator": "section \"The American dream\""
+            },
+            {
+              "source": "src:ivoterguide-com-09a294367d",
+              "quote": "Saint Louis University, Saint Louis, MO, Master's, Clinical Leadership, -2022",
+              "locator": "Biography, Education"
+            }
+          ]
+        },
+        {
+          "degree": "Doctorate (DNP), Psychiatry",
+          "institution": "Columbia University",
+          "year": 2024,
+          "citations": [
+            {
+              "source": "src:pvtimes-com-6fe34e2b4a",
+              "quote": "Junejo went on to earn a bachelor’s degree in economics from the University of Utah, a master’s degree in management studies from Duke University, a master’s degree in clinical nurse leadership from St. Louis University, and a doctorate in psychiatry from Columbia University.",
+              "locator": "section \"The American dream\""
+            },
+            {
+              "source": "src:ivoterguide-com-09a294367d",
+              "quote": "Columbia University in the City of New York, New York, NY, Doctorate, DNP, Psychiatry, -2024",
+              "locator": "Biography, Education"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Psychiatry provider",
       "citations": [
