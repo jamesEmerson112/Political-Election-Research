@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/state-senate-10",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Senate District 10",
+  "office": "State Senate",
+  "candidates": [
+    {
+      "person": "person:fabian-donate",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 10 Donate, Fabian DEM",
+          "locator": "PDF page 3, List of Candidates, Partisan Offices, State Senate, 4-Year Term, District 10"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "State Senate District 10 Donate Fabian DEM 4",
+          "locator": "PDF page 2 (Page 2 of 10), STATE PARTISAN, State Senate District 10"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-318e9ea062",
+          "quote": "Doñate, Fabian Deputy Majority Whip Democratic No. 10 Clark (Part) Currently Serving",
+          "locator": "83rd (2025) Session Senate roster: holds Senate District 10"
+        }
+      ]
+    }
+  ],
+  "district": 10,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
