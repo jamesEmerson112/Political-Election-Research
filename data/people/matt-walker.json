@@ -47,6 +47,47 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin (the city bio says only that he spent summers in the Las Vegas valley from elementary school and later made Las Vegas his permanent home)",
+          "where": "City of Las Vegas Municipal Court Department 1 judge biography: https://www.lasvegasnevada.gov/Government/Municipal-Court/Judges/Department-1"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin (the city bio says only that he spent summers in the Las Vegas valley from elementary school and later made Las Vegas his permanent home)",
+          "where": "Campaign website https://www.judgemattwalker.com/ (home page; /meet-matt and /about return 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin (the city bio says only that he spent summers in the Las Vegas valley from elementary school and later made Las Vegas his permanent home)",
+          "where": "City of Las Vegas Candidate Lists & Information page (https://www.lasvegasnevada.gov/Government/Elections?tab=2) and contact information sheet (https://files.lasvegasnevada.gov/city-clerk/2026/Elections/Walker-Matthew-Contact-Information-Sheet.pdf; handwritten scan, text unreadable); as an incumbent he filed no SB418 questionnaire"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin (the city bio says only that he spent summers in the Las Vegas valley from elementary school and later made Las Vegas his permanent home)",
+          "where": "The Nevada Independent 2026 voter guide, general and primary race pages: https://thenevadaindependent.com/elections/2026/general/judicial/18, https://thenevadaindependent.com/elections/2026/primary/judicial/18"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin (the city bio says only that he spent summers in the Las Vegas valley from elementary school and later made Las Vegas his permanent home)",
+          "where": "Our Nevada Judges profile https://ournevadajudges.com/judges/matthew-walker and Ballotpedia https://ballotpedia.org/Matt_Walker_(Nevada) (read for leads only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin (the city bio says only that he spent summers in the Las Vegas valley from elementary school and later made Las Vegas his permanent home)",
+          "where": "nvcourts.gov and nvsos.gov are blocked from this environment"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin (the city bio says only that he spent summers in the Las Vegas valley from elementary school and later made Las Vegas his permanent home)",
+          "where": "Web search (2 queries)"
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
