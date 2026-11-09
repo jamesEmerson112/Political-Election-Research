@@ -66,6 +66,49 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Associate degree, Business Administration",
+          "institution": "North Idaho College",
+          "citations": [
+            {
+              "source": "src:austin4judge-com-8086f62b00",
+              "quote": "He earned an Associate degree in Business Administration from North Idaho College, dual bachelor’s degrees from Eastern Washington University, and his law degree from the University of Idaho College of Law."
+            }
+          ]
+        },
+        {
+          "degree": "Dual bachelor’s degrees",
+          "institution": "Eastern Washington University",
+          "citations": [
+            {
+              "source": "src:austin4judge-com-8086f62b00",
+              "quote": "He earned an Associate degree in Business Administration from North Idaho College, dual bachelor’s degrees from Eastern Washington University, and his law degree from the University of Idaho College of Law."
+            },
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "He has a bachelor’s degree from Eastern Washington University and a law degree from the University of Idaho."
+            }
+          ]
+        },
+        {
+          "degree": "Law degree",
+          "institution": "University of Idaho College of Law",
+          "citations": [
+            {
+              "source": "src:austin4judge-com-8086f62b00",
+              "quote": "He earned an Associate degree in Business Administration from North Idaho College, dual bachelor’s degrees from Eastern Washington University, and his law degree from the University of Idaho College of Law."
+            },
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "He has a bachelor’s degree from Eastern Washington University and a law degree from the University of Idaho."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Chief Deputy District Attorney, Clark County District Attorney's Office (Major Fraud Unit)",
       "citations": [
