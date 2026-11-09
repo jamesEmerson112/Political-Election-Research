@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-4d11cf62fb",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2010-12-21",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Businesswoman joins growing field of Las Vegas mayoral candidates",
+  "url": "https://www.reviewjournal.com/news/businesswoman-joins-growing-field-of-las-vegas-mayoral-candidates/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

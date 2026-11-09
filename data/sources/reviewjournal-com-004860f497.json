@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-004860f497",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2011-12-03",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Businesswoman joining Senate District 4 race",
+  "url": "https://www.reviewjournal.com/news/businesswoman-joining-senate-district-4-race/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

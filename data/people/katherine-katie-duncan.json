@@ -54,6 +54,54 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Historic Harrison Guest House",
+          "role": "Executive Director",
+          "start": "2013",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-a799b33033",
+              "quote": "Historic Harrison Guest House Las Vegas, Executive Director, 2013-2026",
+              "locator": "Biography, Work & Military (as reported in the candidate's profile)"
+            },
+            {
+              "source": "src:duncanfornevada-com-bf87524f5f",
+              "quote": "Katie led the restoration of the historic Harrison House."
+            }
+          ]
+        },
+        {
+          "organization": "Las Vegas Ward 5 Chamber of Commerce",
+          "role": "Founder and president",
+          "citations": [
+            {
+              "source": "src:duncanfornevada-com-bf87524f5f",
+              "quote": "She founded the Las Vegas Ward 5 Chamber of Commerce to help local businesses grow."
+            },
+            {
+              "source": "src:lasvegasblackimage-com-9403fac8fd",
+              "quote": "Maybe this was such a big request because I assisted in starting the Ward 5 Chamber of Commerce, and the people of our community know me as the president for the chamber."
+            },
+            {
+              "source": "src:reviewjournal-com-4d11cf62fb",
+              "quote": "Duncan established the Ward 5 Chamber of Commerce that morphed into the Las Vegas Green Chamber of Commerce, which focuses on making buildings more energy efficient to attract new businesses."
+            }
+          ]
+        },
+        {
+          "role": "Business owner (internet company that helps people reduce energy consumption)",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-004860f497",
+              "quote": "\"I look forward to raising the bar on the discussion relative to jobs and justice,\" said Duncan, who owns an Internet company that helps people reduce energy consumption."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
