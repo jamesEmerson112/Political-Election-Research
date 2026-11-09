@@ -18,6 +18,26 @@
           "locator": "State Senate, District 21"
         }
       ]
+    },
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Rojas Al REP",
+          "locator": "PDF page 2 (Page 2 of 10), STATE PARTISAN, State Senate District 21"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "James Ohrenschall* Al Rojas Democrat Republican",
+          "locator": "p. 1, Nevada State Senate Candidates, District 21 (names and parties listed in matching order)"
+        }
+      ]
     }
   },
   "ids": [],
