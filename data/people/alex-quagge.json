@@ -81,6 +81,45 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A., Philosophy",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 2009,
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ce0610a812",
+              "quote": "Earned a B.A. in Philosophy from UNLV in 2009.",
+              "locator": "Alex Quagge, Candidate Deep Dive, CAREER HIGHLIGHTS"
+            },
+            {
+              "source": "src:electalexquagge-com-aa2893113c",
+              "quote": "After graduating from Eldorado High School, the Pell Grant and the Millennium Scholarship allowed me to pursue a bachelor’s degree from UNLV.",
+              "locator": "About Alex Quagge page, fourth paragraph"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+          "year": 2015,
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ce0610a812",
+              "quote": "Earned his J.D. from the William S. Boyd School of Law at UNLV in 2015.",
+              "locator": "Alex Quagge, Candidate Deep Dive, CAREER HIGHLIGHTS"
+            },
+            {
+              "source": "src:electalexquagge-com-aa2893113c",
+              "quote": "I then commissioned as an Army Officer, which provided me a pathway to attend the UNLV Boyd School of Law, where I met my wife.",
+              "locator": "About Alex Quagge page, fourth paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Prosecutor (Deputy District Attorney), Clark County District Attorney's Office; Major, Nevada Army National Guard",
       "citations": [
