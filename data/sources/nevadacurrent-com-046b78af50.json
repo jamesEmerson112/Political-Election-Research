@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-046b78af50",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2024-09-11",
+  "publisher": "Nevada Current",
+  "title": "Former teacher with Democratic ties faces Trump-backing Fox News guest in CCSD school board race",
+  "url": "https://nevadacurrent.com/2024/09/11/former-teacher-with-democratic-ties-faces-trump-backing-fox-news-guest-in-ccsd-school-board-race/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

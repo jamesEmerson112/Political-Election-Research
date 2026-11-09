@@ -14,6 +14,57 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2013",
+          "role": "Public school teacher (special education)",
+          "citations": [
+            {
+              "source": "src:eadyfornevada-com-dfc55091d9",
+              "quote": "Throughout her 15 year career in public education, Eileen taught in Indiana, Maryland, Virginia, Mississippi, and Arkansas.",
+              "locator": "Meet Eileen section"
+            },
+            {
+              "source": "src:nevadacurrent-com-046b78af50",
+              "quote": "Eileen Eady was a special education teacher for 15 years across five different states before leaving the classroom in 2013 to start a daycare and run a consulting business.",
+              "locator": "Paragraph on Eady's background"
+            }
+          ]
+        },
+        {
+          "role": "Daycare founder",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-046b78af50",
+              "quote": "Eileen Eady was a special education teacher for 15 years across five different states before leaving the classroom in 2013 to start a daycare and run a consulting business.",
+              "locator": "Paragraph on Eady's background"
+            }
+          ]
+        },
+        {
+          "role": "Small business owner and outreach consultant",
+          "citations": [
+            {
+              "source": "src:eadyfornevada-com-dfc55091d9",
+              "quote": "Eileen is a small business owner and outreach consultant.",
+              "locator": "Meet Eileen section"
+            }
+          ]
+        },
+        {
+          "role": "Campaign and legislative work in state politics",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-046b78af50",
+              "quote": "More recently, she’s worked in state politics, including on campaigns and legislative efforts with Democrats.",
+              "locator": "Paragraph on Eady's background"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
