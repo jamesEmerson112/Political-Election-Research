@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountycourts-us-c54a9261fe",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Eighth Judicial District Court",
+  "title": "Department XXXI – Eighth Judicial District Court",
+  "url": "https://www.clarkcountycourts.us/departments/judicial/civil-criminal-divison/department-xxxi/"
+}
