@@ -96,6 +96,43 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Ed W. Clark High School",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "Ken moved to Las Vegas in the 1970’s graduating from Ed W. Clark High School,",
+              "locator": "J. Ken Diaz, CPA biography"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor of Science",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "attained both his Bachelor of Science Degree and Master of Business Administration (MBA) from the University of Nevada, Las Vegas.",
+              "locator": "J. Ken Diaz, CPA biography"
+            }
+          ]
+        },
+        {
+          "degree": "Master of Business Administration (MBA)",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "attained both his Bachelor of Science Degree and Master of Business Administration (MBA) from the University of Nevada, Las Vegas.",
+              "locator": "J. Ken Diaz, CPA biography"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Clark County Treasurer; certified public accountant",
       "citations": [
