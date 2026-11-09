@@ -1,6 +1,62 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:pearci-pj-bastiany-iii",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany",
+        "where": "San Francisco Ethics Commission site search (sfethics.org/?s=Bastiany): enforcement actions and audits"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany",
+        "where": "Mission Local 2026 coverage via its WordPress search (missionlocal.org/wp-json/wp/v2/posts?search=...), including District 10 debate and forum reports of Sept. 2, Sept. 14, Sept. 24, Oct. 1 and Oct. 27, 2026"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany",
+        "where": "Gazetteer SF, 'D10 Supervisor debate gets personal' (Sept. 2, 2026)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany",
+        "where": "San Francisco Standard, Oct. 15, 2026 District 10 report; San Francisco Chronicle editorial board District 10 endorsement (Oct. 22, 2026); San Francisco Examiner District 10 reports"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany",
+        "where": "GrowSF November 2026 District 10 voter guide"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany controversy OR lawsuit OR complaint OR criticism District 10",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany",
+        "where": "Candidate campaign site (bastiany-campaign-site.replit.app), About and Issues pages"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany",
+        "where": "Potrero View District 10 candidate roundup (potreroview.net/?p=9871)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bastiany",
+        "where": "Davis Vanguard candidate profile (davisvanguard.org/2025/12/district-10-supervisor-candidate-pj-bastiany): HTTP 403, unreadable"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"PJ Bastiany\" OR \"Pearci Bastiany\" San Francisco",
+        "where": "web search"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-09",
     "items": [
