@@ -105,6 +105,16 @@
           "locator": "PDF page 6, COUNTY CLERK 4-YEAR TERM"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Henderson",
+      "citations": [
+        {
+          "source": "src:howellshaw-pages-dev-2d782ae101",
+          "quote": "A longtime Henderson, Nevada resident, he brings that rare blend of innovation, discipline, and values to the one office whose entire job is serving people well.",
+          "locator": "Biography page"
+        }
+      ]
     }
   },
   "ids": [],
