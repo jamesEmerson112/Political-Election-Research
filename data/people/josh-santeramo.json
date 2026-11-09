@@ -81,6 +81,32 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "University of California, Davis",
+          "citations": [
+            {
+              "source": "src:santeramo4judge-com-768069790c",
+              "quote": "he attended the famed De La Salle High School before completing undergraduate studies at the University of California, Davis.",
+              "locator": "About Josh, Background and public service, first paragraph"
+            }
+          ]
+        },
+        {
+          "institution": "University of Nevada, William S. Boyd School of Law",
+          "year": 2010,
+          "citations": [
+            {
+              "source": "src:santeramo4judge-com-768069790c",
+              "quote": "He also attended law school here at the University of Nevada, William S. Boyd School of Law, graduating with the Class of 2010.",
+              "locator": "About Josh, third paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney; Senior Deputy Attorney, Nevada Attorneys for Injured Workers (state agency)",
       "citations": [
