@@ -29,6 +29,45 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A.",
+          "institution": "University of San Francisco",
+          "year": 1992,
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "education: B.A., University of San Francisco, San Francisco, CA, 1992",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "Kevin graduated from Junipero Serra High School in San Mateo and the University of San Francisco and has a master’s degree from San Francisco State University.",
+              "locator": "About page, member biography"
+            }
+          ]
+        },
+        {
+          "degree": "M.P.A.",
+          "institution": "San Francisco State University",
+          "year": 1998,
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "M.P.A.,\nSan Francisco State University, San Francisco, CA, 1998",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "has a master’s degree from San Francisco State University",
+              "locator": "About page, member biography"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "U.S. Representative",
       "citations": [
