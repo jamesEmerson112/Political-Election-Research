@@ -121,6 +121,65 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2019",
+          "organization": "Clark County Public Defender's Office",
+          "role": "Deputy Public Defender, juvenile division",
+          "start": "2005",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-768f0b21e5",
+              "quote": "From 2005 to 2019, Kerri served as a Deputy Public Defender in the juvenile division, where she represented minors aged 8 to 21 who were charged with a variety of offenses, including serious felonies and cases involving the transfer of minors from juvenile court to the adult criminal system."
+            },
+            {
+              "source": "src:judgemaxey-com-9e8a44b5a2",
+              "quote": "In 2005, I joined the Clark County Public Defender's Office, where I was assigned to the juvenile division."
+            }
+          ]
+        },
+        {
+          "end": "2023",
+          "organization": "Legal Aid Center of Southern Nevada",
+          "role": "Staff attorney, Minor Guardianship Advocacy Program",
+          "start": "2020",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-768f0b21e5",
+              "quote": "In 2020, she was hired as one of the foundational staff attorneys for the Minor Guardianship Advocacy Program at the Legal Aid Center of Southern Nevada."
+            },
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "Following her time at the CCPD’s, Judge Maxey became a staff attorney at Legal Aid Center of Southern Nevada, working in the Minor Guardianship Advocacy Program until 2023.",
+              "locator": "Kerri Jean Maxey, Candidate deep dive, CAREER HIGHLIGHTS"
+            }
+          ]
+        },
+        {
+          "end": "2025-01",
+          "organization": "Clark County Public Defender's Office",
+          "role": "Chief Deputy Public Defender (adult clients)",
+          "start": "2023-10",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "Judge Maxey returned to the CCPD’s office in October 2023 and held this position until she was sworn onto the bench in January 2025.",
+              "locator": "Kerri Jean Maxey, Candidate deep dive, CAREER HIGHLIGHTS"
+            },
+            {
+              "source": "src:reviewjournal-com-0ae2cb5a76",
+              "quote": "before returning back to work at the public defender’s office in October 2023, now representing adult clients."
+            },
+            {
+              "source": "src:reviewjournal-com-0ae2cb5a76",
+              "quote": "Chief Deputy Public Defender Kerri Maxey and Family Court Judge Paul Gaudet both appear on November’s ballot for the Family Court seat."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
