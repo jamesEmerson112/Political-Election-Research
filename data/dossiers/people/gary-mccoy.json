@@ -1,6 +1,123 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:gary-mccoy",
+  "promises": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "streamline-housing-approvals",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "McCoy's ballot statement lists streamlining housing approvals to build more homes faster; his campaign site adds cutting red tape and streamlining approvals for homes of all types, particularly dense multi-family and affordable housing.",
+        "title": "Streamline housing approvals",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Streamline housing approvals to build more homes faster",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+          },
+          {
+            "source": "src:garymccoysf-com-cdc1df6a99",
+            "quote": "Cut red tape and streamline approvals to get homes of all types – particularly dense, multi-family housing and affordable housing – built faster"
+          }
+        ]
+      },
+      {
+        "id": "small-business-permitting-and-first-year-free",
+        "as_of": "2026-11-09",
+        "summary": "McCoy's ballot statement lists cutting red tape for small businesses; his campaign site names streamlining the city's permitting process, continuing the \"first year free\" program for new businesses, and growing the neighborhood anchoring business and legacy business programs.",
+        "title": "Small business permitting and the \"first year free\" program",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Cut red tape for small businesses",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+          },
+          {
+            "source": "src:garymccoysf-com-cdc1df6a99",
+            "quote": "Ensure our small businesses can thrive and grow in San Francisco through streamlining the city’s permitting process, continuing the “first year free” program for new businesses, growing our neighborhood anchoring business and legacy business programs"
+          }
+        ]
+      },
+      {
+        "id": "bridge-funding-for-lgbtq-organizations",
+        "as_of": "2026-11-09",
+        "issue": "civil-rights",
+        "summary": "McCoy's ballot statement lists protecting LGBTQ+ organizations from funding cuts; his campaign site says he would work with the Mayor and Board of Supervisors to secure bridge funding and local appropriations for organizations facing federal funding cuts.",
+        "title": "Bridge funding for LGBTQ+ organizations facing federal cuts",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Protect LGBTQ+ organizations from funding cuts",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+          },
+          {
+            "source": "src:garymccoysf-com-cdc1df6a99",
+            "quote": "Protect LGBTQ+ organizations from federal funding cuts by working with the Mayor and Board of Supervisors to secure bridge funding and local appropriations"
+          }
+        ]
+      },
+      {
+        "id": "mental-health-crisis-teams-and-treatment",
+        "as_of": "2026-11-09",
+        "issue": "public-health",
+        "summary": "McCoy's ballot statement lists expanding mental health crisis response teams and funding substance use treatment and recovery.",
+        "title": "Mental health crisis response teams and substance use treatment",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Expand mental health crisis response teams and fund substance use treatment and recovery",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+          }
+        ]
+      },
+      {
+        "id": "tenant-protections-and-legal-aid",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "McCoy's ballot statement lists strengthening tenant protections and affordable housing; his campaign site adds protecting legal aid funding for tenants.",
+        "title": "Tenant protections and tenant legal aid funding",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Strengthen tenant protections and champion affordable housing",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+          },
+          {
+            "source": "src:garymccoysf-com-cdc1df6a99",
+            "quote": "Strengthen and expand tenant protections, including protecting legal aid funding for tenants"
+          }
+        ]
+      },
+      {
+        "id": "protected-bike-lanes-and-slow-streets",
+        "as_of": "2026-11-09",
+        "issue": "transportation",
+        "summary": "McCoy's ballot statement lists safety improvements, expanded protected bike lanes and expanded slow streets.",
+        "title": "Street safety improvements, protected bike lanes and slow streets",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "Build better streets through safety improvements, expanded protected bike lanes, and expanded slow streets",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+          }
+        ]
+      },
+      {
+        "id": "speed-cameras-on-district-8-corridors",
+        "as_of": "2026-11-09",
+        "issue": "transportation",
+        "summary": "McCoy's campaign site lists implementing speed cameras on District 8 corridors with chronic speeding, including San Jose Avenue.",
+        "title": "Speed cameras on District 8 corridors",
+        "citations": [
+          {
+            "source": "src:garymccoysf-com-cdc1df6a99",
+            "quote": "Implement speed cameras on District 8 corridors with chronic speeding, including San Jose Avenue"
+          }
+        ]
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
