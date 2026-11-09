@@ -134,6 +134,35 @@
       ]
     },
     {
+      "subject": "q:public-health/end-drug-use-supply-distribution",
+      "stance": "oppose",
+      "as_of": "2026-09-30",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Asked by Mission Local whether she supports the mayor's efforts to restrict access to drug paraphernalia, Patel answered no and said she would continue naloxone, sterile syringe access and safer-smoking supplies, paired with counseling and treatment referrals.",
+      "citations": [
+        {
+          "source": "src:missionlocal-org-cf9b3d9003",
+          "quote": "This week’s question: Do you support Mayor Daniel Lurie’s efforts to restrict access to drug paraphernalia? What harm-reduction services do you support continuing versus cutting?"
+        },
+        {
+          "source": "src:missionlocal-org-cf9b3d9003",
+          "quote": "No. I support Mayor Lurie’s goal to connect more people to treatment, but I would not restrict evidence-backed harm reduction services.",
+          "locator": "Darshini Patel answer"
+        },
+        {
+          "source": "src:missionlocal-org-cf9b3d9003",
+          "quote": "I would continue naloxone, sterile syringe access, and safer-smoking supplies.",
+          "locator": "Darshini Patel answer"
+        },
+        {
+          "source": "src:missionlocal-org-cf9b3d9003",
+          "quote": "I would pair those services with proactive counseling, immediate treatment referrals, treatment on demand, and expanded LEAD-style diversion.",
+          "locator": "Darshini Patel answer"
+        }
+      ]
+    },
+    {
       "subject": "q:public-safety/police-license-plate-cameras",
       "stance": "oppose",
       "as_of": "2026-11-04",
