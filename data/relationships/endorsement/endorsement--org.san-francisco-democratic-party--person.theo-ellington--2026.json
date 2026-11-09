@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-democratic-party--person.theo-ellington--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:theo-ellington",
+  "endorser": "org:san-francisco-democratic-party",
+  "citations": [
+    {
+      "source": "src:sfdems-org-9766e438e5",
+      "quote": "District 10 Theo Ellington",
+      "locator": "City and County, Board of Supervisors"
+    },
+    {
+      "source": "src:missionlocal-org-1b285d26cc",
+      "quote": "Endorsed by: Mayor Daniel Lurie, State Controller Malia Cohen, San Francisco Democratic Party, Lieutenant Governor Eleni Kounalakis, State Treasurer Fiona Ma, Congressman Kevin Mullin",
+      "locator": "Theo Ellington, Endorsed by"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

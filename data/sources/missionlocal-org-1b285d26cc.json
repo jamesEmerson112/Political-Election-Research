@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-1b285d26cc",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-01",
+  "publisher": "Mission Local",
+  "title": "Meet the District 10 candidates: Where do you part from Mayor Lurie?",
+  "url": "https://missionlocal.org/2026/10/meet-the-district-10-candidates-mayor-lurie/"
+}
