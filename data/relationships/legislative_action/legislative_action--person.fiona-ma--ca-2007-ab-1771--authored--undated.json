@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.fiona-ma--ca-2007-ab-1771--authored--undated",
+  "type": "legislative_action",
+  "person": "person:fiona-ma",
+  "action": "authored",
+  "bill": "ca-2007-ab-1771",
+  "cycle": 2008,
+  "citations": [
+    {
+      "source": "src:leginfo-ca-gov-604eb1122e",
+      "quote": "INTRODUCED BY   Assembly Member Ma"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

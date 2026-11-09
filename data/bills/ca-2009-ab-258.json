@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2009-ab-258",
+  "status": {
+    "value": "enacted",
+    "as_of": "2009-08-05",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-597a45305b",
+        "quote": "APPROVED BY GOVERNOR  AUGUST 5, 2009",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-597a45305b",
+        "quote": "CHAPTER  92",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Domestic violence: restraining or protective order: aggressor",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-597a45305b",
+        "quote": "AB 258, Ma. Domestic violence: restraining or protective order: aggressor.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

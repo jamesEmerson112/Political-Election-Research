@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2007-ab-1771",
+  "status": {
+    "value": "enacted",
+    "as_of": "2008-07-10",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-604eb1122e",
+        "quote": "APPROVED BY GOVERNOR  JULY 10, 2008",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-604eb1122e",
+        "quote": "CHAPTER  86",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Domestic violence: restraining orders",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-604eb1122e",
+        "quote": "AB 1771, Ma. Domestic violence: restraining orders.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

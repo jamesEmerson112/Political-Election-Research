@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2011-ab-593",
+  "status": {
+    "value": "enacted",
+    "as_of": "2012-09-30",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-f7f4f9350f",
+        "quote": "APPROVED BY GOVERNOR  SEPTEMBER 30, 2012",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-f7f4f9350f",
+        "quote": "CHAPTER  803",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Domestic violence: battering: recall and resentencing",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-f7f4f9350f",
+        "quote": "AB 593, Ma. Domestic violence: battering: recall and resentencing.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

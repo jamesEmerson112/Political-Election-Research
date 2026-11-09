@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-597a45305b",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2009-08-06",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 258 Bill Text, Chaptered (Chapter 92, Statutes of 2009)",
+  "url": "https://www.leginfo.ca.gov/pub/09-10/bill/asm/ab_0251-0300/ab_258_bill_20090806_chaptered.html"
+}

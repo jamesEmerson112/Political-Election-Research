@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-f7f4f9350f",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2012-09-30",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 593 Bill Text, Chaptered (Chapter 803, Statutes of 2012)",
+  "url": "https://www.leginfo.ca.gov/pub/11-12/bill/asm/ab_0551-0600/ab_593_bill_20120930_chaptered.html"
+}

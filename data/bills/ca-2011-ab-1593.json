@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2011-ab-1593",
+  "status": {
+    "value": "enacted",
+    "as_of": "2012-09-30",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-3c94e4c3e4",
+        "quote": "APPROVED BY GOVERNOR  SEPTEMBER 30, 2012",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-3c94e4c3e4",
+        "quote": "CHAPTER  809",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Parole: intimate partner battering",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-3c94e4c3e4",
+        "quote": "AB 1593, Ma. Parole: intimate partner battering.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

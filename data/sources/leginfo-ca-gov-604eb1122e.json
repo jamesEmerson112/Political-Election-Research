@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-604eb1122e",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2008-07-10",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 1771 Bill Text, Chaptered (Chapter 86, Statutes of 2008)",
+  "url": "https://www.leginfo.ca.gov/pub/07-08/bill/asm/ab_1751-1800/ab_1771_bill_20080710_chaptered.html"
+}

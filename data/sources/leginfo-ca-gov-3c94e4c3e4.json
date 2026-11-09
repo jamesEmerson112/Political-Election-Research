@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-3c94e4c3e4",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2012-09-30",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 1593 Bill Text, Chaptered (Chapter 809, Statutes of 2012)",
+  "url": "https://www.leginfo.ca.gov/pub/11-12/bill/asm/ab_1551-1600/ab_1593_bill_20120930_chaptered.html"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leginfo-ca-gov-114c7a8bc7",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2007-10-14",
+  "publisher": "California Legislature (Legislative Counsel)",
+  "title": "AB 1108 Bill Text, Chaptered (Chapter 672, Statutes of 2007)",
+  "url": "https://www.leginfo.ca.gov/pub/07-08/bill/asm/ab_1101-1150/ab_1108_bill_20071014_chaptered.html"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2007-ab-1108",
+  "status": {
+    "value": "enacted",
+    "as_of": "2007-10-14",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-114c7a8bc7",
+        "quote": "APPROVED BY GOVERNOR  OCTOBER 14, 2007",
+        "locator": "Chaptered bill header"
+      },
+      {
+        "source": "src:leginfo-ca-gov-114c7a8bc7",
+        "quote": "CHAPTER  672",
+        "locator": "Chaptered bill header"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Children's products: phthalates",
+    "citations": [
+      {
+        "source": "src:leginfo-ca-gov-114c7a8bc7",
+        "quote": "AB 1108, Ma. Children's products: phthalates.",
+        "locator": "Legislative Counsel's Digest"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
