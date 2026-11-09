@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-s",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department S",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:kristine-brewer",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Brewer, Kristine NP",
+          "locator": "PDF page 11, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT S (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department S Ochoa Vincent NP 6",
+          "locator": "PDF page 6 (6 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department S: the current office holder is another person"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "S FAMILY 21 Vincent Ochoa",
+          "locator": "Judicial departments table, DEPT# S row (dept, location, courtroom, judge): the sitting judge of Family Division Department S is another person, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:randall-forman",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Forman, Randall NP",
+          "locator": "PDF page 11, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT S (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department S Ochoa Vincent NP 6",
+          "locator": "PDF page 6 (6 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department S: the current office holder is another person"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "S FAMILY 21 Vincent Ochoa",
+          "locator": "Judicial departments table, DEPT# S row (dept, location, courtroom, judge): the sitting judge of Family Division Department S is another person, so this candidate is not the incumbent"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
