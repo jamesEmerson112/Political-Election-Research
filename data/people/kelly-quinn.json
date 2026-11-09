@@ -66,6 +66,37 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, school, university, college",
+          "where": "Campaign site quinnfornv.com (home, About, Issues, Endorsements pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn education",
+          "where": "The Nevada Independent 2026 general election voter guide, Clark State Assembly page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn degree, graduated",
+          "where": "Las Vegas Review-Journal articles on Assembly District 5 (May 15, 2022; Oct 5, 2022)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn education",
+          "where": "Ballotpedia, Kelly Quinn page (reference work; biography lists no degree)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Kelly Quinn\" Las Vegas Assembly candidate questionnaire education age",
+          "where": "Web search (news and voter guides)"
+        }
+      ]
+    },
     "occupation": {
       "value": "Small business owner and correctional lieutenant",
       "citations": [
