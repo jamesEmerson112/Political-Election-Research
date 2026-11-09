@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-j",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department J",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:dedree-dee-butler",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Butler, Dedree \"DEE\" NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT J (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Butler Dedree \"DEE\" NP 6",
+          "locator": "PDF page 7 (Page 7 of 10), District Court Judge Family Division Department J row (last name, first name, party NP, term in years)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department J Butler Dedree \"Dee\" NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department J: the current office holder"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "J FAMILY 18 Dee Butler",
+          "locator": "Judicial departments table (family/juvenile), DEPT# J row (dept, location, courtroom, judge): the sitting judge of Family Division Department J"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
