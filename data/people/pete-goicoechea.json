@@ -34,6 +34,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Goicoechea Ranches",
+          "role": "Rancher (owner)",
+          "start": "1970",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-af7e630f0d",
+              "quote": "He is the owner of Goicoechea Ranches and spent 16 years as a Eureka County commissioner.",
+              "locator": "Board of Regent, District 8"
+            },
+            {
+              "source": "src:thenevadaindependent-com-4854e4c64a",
+              "quote": "I started ranching in 1970 and I still own it, so I'm just around the edges watching my granddaughters grow up and helping whatever I can."
+            },
+            {
+              "source": "src:pvtimes-com-8af4c98fa4",
+              "quote": "According to his bio, Goicoechea owned a ranch since 1970 and also worked many years for the Eureka County road department."
+            }
+          ]
+        },
+        {
+          "organization": "Eureka County road department",
+          "role": "Road department employee",
+          "citations": [
+            {
+              "source": "src:pvtimes-com-8af4c98fa4",
+              "quote": "According to his bio, Goicoechea owned a ranch since 1970 and also worked many years for the Eureka County road department."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [

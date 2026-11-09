@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-4854e4c64a",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2023-06-29",
+  "publisher": "The Nevada Independent",
+  "title": "Indy Q&A: Pete Goicoechea hanging up his hat after decades in county, state government",
+  "url": "https://thenevadaindependent.com/article/indy-qa-pete-goicoechea-hanging-up-his-hat-after-decades-in-county-state-government"
+}

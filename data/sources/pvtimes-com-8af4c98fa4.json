@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "pvtimes-com-8af4c98fa4",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2024-12-11",
+  "publisher": "Pahrump Valley Times",
+  "title": "Lombardo appoints Goicoechea to the NV System of Higher Education Board of Regents",
+  "url": "https://pvtimes.com/news/lombardo-appoints-goicoechea-to-the-nv-system-of-higher-education-board-of-regents-138302/"
+}
