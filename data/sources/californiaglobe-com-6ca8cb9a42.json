@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "californiaglobe-com-6ca8cb9a42",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "publisher": "California Globe",
+  "title": "Selena Torres-Fossett – California Globe (tag page)",
+  "url": "https://californiaglobe.com/tag/selena-torres-fossett/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

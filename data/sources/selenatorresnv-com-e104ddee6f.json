@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "selenatorresnv-com-e104ddee6f",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Elect Selena Torres",
+  "title": "Home | Selena Torres for Nevada Assembly District 3",
+  "url": "https://www.selenatorresnv.com/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
