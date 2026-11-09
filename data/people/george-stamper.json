@@ -106,6 +106,47 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Stamper",
+          "where": "Clark County Election Department, Countywide Offices list of elected officials and 2026 candidate lists"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George Stamper",
+          "where": "Las Vegas Review-Journal 2026 Voter Guide, County Clerk entry (no experience text for Stamper)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George Stamper",
+          "where": "The Nevada Independent, 2026-09-19, down-ballot Clark County offices preview (no public office mentioned)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George Stamper",
+          "where": "Libertarian Party national site, Meet Our Candidates (lp.org/meet-our-candidates/): name and office only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidates",
+          "where": "Libertarian Party of Nevada site lpnevada.org (blocked: HTTP 403 challenge)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George Stamper Libertarian Clark County Clerk Nevada",
+          "where": "Web search (no campaign site found)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"George Stamper\" Clark County Clerk 2026 campaign",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Libertarian Party of Nevada",
       "citations": [
