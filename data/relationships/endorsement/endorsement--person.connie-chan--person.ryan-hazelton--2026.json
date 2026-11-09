@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.connie-chan--person.ryan-hazelton--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:ryan-hazelton",
+  "endorser": "person:connie-chan",
+  "citations": [
+    {
+      "source": "src:ryanforsfschools-com-c2e9602853",
+      "quote": "Connie Chan  -  SF Supervisor, District 1",
+      "locator": "Endorsements, Local Leaders"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-labor-council--person.ryan-hazelton--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:ryan-hazelton",
+  "endorser": "org:san-francisco-labor-council",
+  "citations": [
+    {
+      "source": "src:sflaborcouncil-org-444c17ce88",
+      "quote": "Endorsements for San Francisco's November 3, 2026 General Election"
+    },
+    {
+      "source": "src:sflaborcouncil-org-444c17ce88",
+      "quote": "Board of Education: Virginia Cheung, Ryan Hazelton, and Reina Tello",
+      "locator": "Candidates"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
