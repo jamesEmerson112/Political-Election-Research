@@ -19,6 +19,45 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A., Economics",
+          "institution": "University of Utah",
+          "year": 1988,
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-6e1e4352a1",
+              "quote": "He graduated from University of Utah with a B.A. in Economics in 1988.",
+              "locator": "Biography tab"
+            },
+            {
+              "source": "src:law-unlv-edu-799ad977ff",
+              "quote": "He graduated from University of Utah with a B.A. in Economics in 1988.",
+              "locator": "BIO"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "Northwestern School of Law, Lewis & Clark College",
+          "year": 1991,
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-6e1e4352a1",
+              "quote": "He received his J.D. from Northwestern School of Law, Lewis & Clark College in 1991.",
+              "locator": "Biography tab"
+            },
+            {
+              "source": "src:law-unlv-edu-799ad977ff",
+              "quote": "He received his J.D. from Northwestern School of Law, Lewis & Clark College in 1991.",
+              "locator": "BIO"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Family Division, Department E",
       "citations": [
