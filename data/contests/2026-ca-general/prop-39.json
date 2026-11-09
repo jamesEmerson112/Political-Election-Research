@@ -197,19 +197,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 4684867,
-    "yes_votes": 3280015,
+    "no_votes": 6224161,
+    "yes_votes": 4082858,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Prohibits Citizens From Voting Unless They Present Government-Issued Identification. Initiative Constitutional Amendment.\", \"Number\": \"39\", \"yesVotes\": \"3280015\", \"yesPercent\": \"41.2\", \"noVotes\": \"4684867\", \"noPercent\": \"58.8\"",
+        "quote": "\"Name\": \"Prohibits Citizens From Voting Unless They Present Government-Issued Identification. Initiative Constitutional Amendment.\", \"Number\": \"39\", \"yesVotes\": \"4082858\", \"yesPercent\": \"39.6\", \"noVotes\": \"6224161\", \"noPercent\": \"60.4\"",
         "locator": "ballot-measures, Number 39"
       }
     ]
@@ -224,5 +224,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
