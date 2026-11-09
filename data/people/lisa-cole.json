@@ -24,6 +24,77 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Warehouse manager",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-813dff6139",
+              "quote": "Her career in Las Vegas began running a warehouse",
+              "locator": "Profile section"
+            }
+          ]
+        },
+        {
+          "role": "Small business owner (land and utility development)",
+          "start": "2010",
+          "citations": [
+            {
+              "source": "src:lisacolefornevada-com-91ec71e3e8",
+              "quote": "Lisa started her first small business in 2010, focusing on land and utility development.",
+              "locator": "Meet Lisa page"
+            }
+          ]
+        },
+        {
+          "organization": "Land Development Associates",
+          "role": "Vice president",
+          "start": "2010",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-813dff6139",
+              "quote": "She would go on to be involved in Apex for more than 20 years, including serving as the vice president since 2010 of Land Development Associates, which coordinates almost all of the business center's infrastructure initiatives.",
+              "locator": "Profile section"
+            }
+          ]
+        },
+        {
+          "organization": "LDA Law, Prof. LLC",
+          "role": "Founder",
+          "citations": [
+            {
+              "source": "src:lisacolefornevada-com-91ec71e3e8",
+              "quote": "Lisa passed the Nevada Bar Exam in 2023. She formed LDA Law, Prof. LLC, and has taken on the role of in-house counsel for LDA Development Services, and LDA Realty.",
+              "locator": "Meet Lisa page"
+            }
+          ]
+        },
+        {
+          "organization": "LDA Development Services",
+          "role": "In-house counsel",
+          "citations": [
+            {
+              "source": "src:lisacolefornevada-com-91ec71e3e8",
+              "quote": "She formed LDA Law, Prof. LLC, and has taken on the role of in-house counsel for LDA Development Services, and LDA Realty.",
+              "locator": "Meet Lisa page"
+            }
+          ]
+        },
+        {
+          "organization": "LDA Realty",
+          "role": "In-house counsel",
+          "citations": [
+            {
+              "source": "src:lisacolefornevada-com-91ec71e3e8",
+              "quote": "She formed LDA Law, Prof. LLC, and has taken on the role of in-house counsel for LDA Development Services, and LDA Realty.",
+              "locator": "Meet Lisa page"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
