@@ -66,6 +66,26 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "University of Nevada, Las Vegas (UNLV)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-af7e630f0d",
+              "quote": "Molina is a graduate of UNLV and served in the university’s student government.",
+              "locator": "Board of Regent, District 5, Stephanie Molina (degree and year not stated)"
+            },
+            {
+              "source": "src:nevadacurrent-com-4d04b79ccd",
+              "quote": "highlighted her past role as President of the Graduate Student Government at UNLV",
+              "locator": "Stephanie Molina section"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Program coordinator, Nevada State University",
       "citations": [
