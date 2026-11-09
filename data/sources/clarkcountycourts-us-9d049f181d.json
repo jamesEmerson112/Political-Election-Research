@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountycourts-us-9d049f181d",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Eighth Judicial District Court",
+  "title": "Department P – Eighth Judicial District Court",
+  "url": "https://www.clarkcountycourts.us/departments/judicial/family-division/department-p/",
+  "notes": "Department P page with the judge's biography. Opened 2026-11-09 with tools/research/fetch-text.mjs. Not archived: web.archive.org unreachable from the research environment."
+}

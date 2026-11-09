@@ -49,6 +49,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.S. in Business Management",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 1996,
+          "citations": [
+            {
+              "source": "src:vegaslegalmagazine-com-272bf8e75c",
+              "quote": "Having moved to Las Vegas after serving in the Air Force, she worked while attending college at UNLV, graduating in 1996, with a B.S. in Business Management."
+            },
+            {
+              "source": "src:clarkcountycourts-us-9d049f181d",
+              "quote": "She attended the University of Nevada Las Vegas and received her juris doctor from the William S. Boyd School of Law."
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "University of Nevada, Las Vegas, William S. Boyd School of Law",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-9d049f181d",
+              "quote": "She attended the University of Nevada Las Vegas and received her juris doctor from the William S. Boyd School of Law."
+            },
+            {
+              "source": "src:judgemaryperry-com-d5eafaeaa4",
+              "quote": "After her military service, Mary earned her law degree from the William S. Boyd School of Law at the University of Nevada, Las Vegas, and was admitted to the Nevada Bar in 2001."
+            },
+            {
+              "source": "src:vegaslegalmagazine-com-272bf8e75c",
+              "quote": "Accepted as a member of the Charter Class of UNLV, William S. Boyd School of Law, she passed the Nevada Bar in October 2001."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
