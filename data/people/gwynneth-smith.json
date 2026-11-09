@@ -81,6 +81,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Chief Deputy District Attorney, Juvenile Division, Clark County District Attorney's Office",
+      "citations": [
+        {
+          "source": "src:gwynneth4judge-com-206cac4996",
+          "quote": "Chief Deputy District Attorney, Juvenile Division",
+          "locator": "About page, 'Experience and Expertise'"
+        },
+        {
+          "source": "src:reviewjournal-com-2e7aa0a32e",
+          "quote": "has been a chief deputy district attorney in the Clark County’s juvenile division for 12 years.",
+          "locator": "section 'Gwynneth Smith', first paragraph"
+        },
+        {
+          "source": "src:thenevadaindependent-com-da1b2d2e5e",
+          "quote": "Gwynneth Smith, a chief deputy in the district attorney's office juvenile division",
+          "locator": "paragraph on Department D"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
