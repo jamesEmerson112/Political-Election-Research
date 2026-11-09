@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegasnevada-gov-b12baf85bb",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "City of Las Vegas",
+  "title": "Ward 2",
+  "url": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council/Ward-2"
+}

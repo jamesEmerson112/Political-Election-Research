@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/las-vegas-council-ward-2",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "City of Las Vegas Councilman Ward 2",
+  "office": "City of Las Vegas Councilman",
+  "candidates": [
+    {
+      "person": "person:luke-mccarthy",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "McCarthy, Luke NP",
+          "locator": "PDF page 14, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, NONPARTISAN, CITY OF LAS VEGAS COUNCILMAN, WARD 2"
+        },
+        {
+          "source": "src:lasvegasnevada-gov-b12baf85bb",
+          "quote": "The Las Vegas City Council voted Sept. 17, 2025, to select Kara Kelley as interim Ward 2 representative.",
+          "locator": "Ward 2 page: the sitting Ward 2 representative is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:shannon-nordstrom",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Nordstrom, Shannon NP",
+          "locator": "PDF page 14, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, NONPARTISAN, CITY OF LAS VEGAS COUNCILMAN, WARD 2"
+        },
+        {
+          "source": "src:lasvegasnevada-gov-b12baf85bb",
+          "quote": "The Las Vegas City Council voted Sept. 17, 2025, to select Kara Kelley as interim Ward 2 representative.",
+          "locator": "Ward 2 page: the sitting Ward 2 representative is another person"
+        }
+      ]
+    }
+  ],
+  "district": 2,
+  "level": "local",
+  "last_verified": "2026-11-09"
+}
