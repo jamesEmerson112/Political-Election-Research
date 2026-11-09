@@ -34,6 +34,41 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Eureka County High School",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-cd2d6338e9",
+              "quote": "Educated: White Pine County schools; Eureka County High School; Utah State University",
+              "locator": "PDF page 1"
+            },
+            {
+              "source": "src:archive-leg-state-nv-us-288f8246cc",
+              "quote": "Educated: White Pine County schools; graduated Eureka County High School; attended Utah State University.",
+              "locator": "Legislative Biography, 72nd (2003) Session"
+            }
+          ]
+        },
+        {
+          "institution": "Utah State University",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-cd2d6338e9",
+              "quote": "Educated: White Pine County schools; Eureka County High School; Utah State University",
+              "locator": "PDF page 1"
+            },
+            {
+              "source": "src:archive-leg-state-nv-us-288f8246cc",
+              "quote": "Educated: White Pine County schools; graduated Eureka County High School; attended Utah State University.",
+              "locator": "Legislative Biography, 72nd (2003) Session (attended; no degree stated)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Rancher",
       "citations": [
