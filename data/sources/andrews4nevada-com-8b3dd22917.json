@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "andrews4nevada-com-8b3dd22917",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Dan Andrews for Nevada",
+  "title": "ABOUT (Dan Andrews for Nevada)",
+  "url": "https://andrews4nevada.com/about",
+  "notes": "Campaign site About page. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

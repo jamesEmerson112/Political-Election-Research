@@ -96,6 +96,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Retired teacher (Clark County School System)",
+      "citations": [
+        {
+          "source": "src:andrews4nevada-com-8b3dd22917",
+          "quote": "I recently retired from teaching with Clark County School System assigned to educate young felons in the prison system.",
+          "locator": "About page, My background"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
