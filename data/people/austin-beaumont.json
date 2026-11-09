@@ -3,6 +3,21 @@
   "id": "austin-beaumont",
   "name": "Austin Beaumont",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Chief Deputy District Attorney, Clark County District Attorney's Office (Major Fraud Unit)",
+      "citations": [
+        {
+          "source": "src:austin4judge-com-8086f62b00",
+          "quote": "Austin currently serves as a Chief Deputy District Attorney in Clark County’s Major Fraud Unit, where he handles complex, high-stakes litigation involving fraud, financial crimes, and major investigations."
+        },
+        {
+          "source": "src:austin4judge-com-4a7ab14662",
+          "quote": "As a Chief Deputy District Attorney in the Major Fraud Unit, he prosecutes complex cases involving fraud, elder exploitation, and criminal intelligence, while maintaining a firm commitment to fairness and due process."
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,

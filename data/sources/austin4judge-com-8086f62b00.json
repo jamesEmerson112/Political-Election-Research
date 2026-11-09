@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "austin4judge-com-8086f62b00",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Elect Austin Beaumont",
+  "title": "About | Austin Beaumont for District Court Judge, Dept. 8",
+  "url": "https://www.austin4judge.com/about",
+  "notes": "Campaign site About page. Opened 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
