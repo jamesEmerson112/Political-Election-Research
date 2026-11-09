@@ -53,6 +53,24 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "U.S. Naval Academy",
+          "citations": [
+            {
+              "source": "src:votekess-com-9bdca13d7f",
+              "quote": "Manny Kess grew up in New York, attended the U.S. Naval Academy, and lost his father while he was there, an experience that shaped how he approaches leadership, responsibility, and resilience."
+            },
+            {
+              "source": "src:votekess-com-2ad77066e4",
+              "quote": "1997 - The Naval Academy."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Entrepreneur and investor; founder of The Kess Group (hospitality company)",
       "citations": [
