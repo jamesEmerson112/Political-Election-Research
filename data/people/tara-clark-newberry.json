@@ -3,6 +3,49 @@
   "id": "tara-clark-newberry",
   "name": "Tara Clark Newberry",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party registration of Tara Clark Newberry (office is nonpartisan; no party shown)",
+          "where": "Clark County Election Department, Notice of General Election (src:clarkcountynv-gov-ffb05d7e53) and Contests and Candidates in the 2026 Elections in Clark County (Contests-Candidates-All-26.pdf, p. 14), which print 'NP' for Department 21; that list's key reads 'NP = Nonpartisan (indicated for nonpartisan offices only)', so it is the office's ballot label, not a voter registration"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tara Clark Newberry biography",
+          "where": "Eighth Judicial District Court, Department XXI page (clarkcountycourts.us/departments/judicial/civil-criminal-divison/department-xxi/) and the court's 2021 investiture press release"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tara Clark Newberry biography",
+          "where": "Campaign site clarknewberryforjudge.com: home, Before the Bench, Family and As Your Judge pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Clark Newberry candidate deep dive",
+          "where": "The Nevada Independent 2026 voter guide, Department 21 race page (general and primary)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tara Clark Newberry profile",
+          "where": "Nevada Current, 'Public defender challenging incumbent in Clark County Dept. 21' (2026-09-09)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Tara Clark Newberry\" judge Las Vegas; \"Clark Newberry\" Review-Journal 2026 Department 21",
+          "where": "Web search (news)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate declaration of candidacy / judicial biography: hosts blocked from this session (Cloudflare challenge), not readable",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov) and Nevada courts site (nvcourts.gov)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
