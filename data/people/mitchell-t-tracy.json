@@ -86,6 +86,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Accountant",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-b73a363833",
+          "quote": "Tracy describes himself as an accountant with more than two decades of experience.",
+          "locator": "Treasurer section"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
