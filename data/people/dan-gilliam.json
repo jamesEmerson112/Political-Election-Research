@@ -4,6 +4,37 @@
   "name": "Dan Gilliam",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birth, age, year (the page says only 'born and raised in a small town in Ohio', no date)",
+          "where": "Campaign website https://www.electgilliam4judge.com/ (home, /about)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Dan Gilliam age, born",
+          "where": "The Nevada Independent 2026 voter guide, Department 12 race page (https://thenevadaindependent.com/elections/2026/general/judicial/89 and /primary/judicial/89)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Dan Gilliam age, born",
+          "where": "Nevada Current, 'District Court Department 24' (2020-10-05, https://nevadacurrent.com/2020/10/05/district-court-department-24/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate birth date / age (not printed)",
+          "where": "Clark County Election Department 2026 Judicial Candidate Guide (JCG26.pdf) and candidate lists"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Dan Gilliam\" public defender Las Vegas born age",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
