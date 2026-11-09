@@ -96,6 +96,52 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth, birthplace, education, degree, background",
+          "where": "andrews4nevada.com (campaign site: home and About pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Daniel Andrews biography",
+          "where": "The Nevada Independent 2026 voter guide, Clark State Assembly, District 13 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Daniel Andrews background",
+          "where": "Las Vegas Review-Journal, 'Crowded field seeks to replace Roberts in AD-13' (May 15, 2022)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Daniel Andrews experience",
+          "where": "Las Vegas Review-Journal 2026 voter guide, State Assembly District 13"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography, education",
+          "where": "BallotReady profile, Daniel J. Andrews; iVoterGuide profile, Daniel Andrews (education: 'Candidate did not provide')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Dan Andrews\" OR \"Daniel Andrews\" Nevada Assembly 13 Democrat teacher NASA College Park council",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Dan Andrews\" Nevada Assembly candidate 2024 math teacher prison degree university born",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 Assembly District 13 candidate filing: blocked from the research environment (Cloudflare challenge), not read",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov)"
+        }
+      ]
+    },
     "occupation": {
       "value": "Retired teacher (Clark County School System)",
       "citations": [
