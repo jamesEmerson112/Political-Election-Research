@@ -29,6 +29,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "A.A.",
+          "institution": "College of Southern Nevada",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: College of Southern Nevada, A.A.; University of Nevada, Reno, B.A., English Literature; University of Nevada, Las Vegas, M.Ed. Candidate",
+              "locator": "PDF page 86, Legislative Biography—2025 Session, Selena Torres-Fossett"
+            }
+          ]
+        },
+        {
+          "degree": "B.A., English Literature",
+          "institution": "University of Nevada, Reno",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: College of Southern Nevada, A.A.; University of Nevada, Reno, B.A., English Literature; University of Nevada, Las Vegas, M.Ed. Candidate",
+              "locator": "PDF page 86, Legislative Biography—2025 Session, Selena Torres-Fossett"
+            }
+          ]
+        },
+        {
+          "degree": "M.Ed. (listed as \"M.Ed. Candidate\" in the 2025 biography)",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: College of Southern Nevada, A.A.; University of Nevada, Reno, B.A., English Literature; University of Nevada, Las Vegas, M.Ed. Candidate",
+              "locator": "PDF page 86, Legislative Biography—2025 Session, Selena Torres-Fossett"
+            }
+          ]
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-09",
       "items": [
