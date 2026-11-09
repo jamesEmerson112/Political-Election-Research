@@ -66,6 +66,38 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Nevada State University",
+          "role": "Program coordinator",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-af7e630f0d",
+              "quote": "Molina is a program coordinator at Nevada State University where she has worked for four years.",
+              "locator": "Board of Regent, District 5, Stephanie Molina"
+            },
+            {
+              "source": "src:molinafornevada-com-19413a85a7",
+              "quote": "As a workforce education professional, she has partnered with state, regional, city, and community organizations to turn ideas into action, deliver measurable results, and create lasting impact for students, institutions, and communities.",
+              "locator": "About page, Meet the Candidate"
+            }
+          ]
+        },
+        {
+          "organization": "University of Nevada, Las Vegas (UNLV)",
+          "role": "Psychology teaching",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-4d04b79ccd",
+              "quote": "A higher education worker in workforce and economic development with past background teaching psychology at UNLV",
+              "locator": "Stephanie Molina section"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
