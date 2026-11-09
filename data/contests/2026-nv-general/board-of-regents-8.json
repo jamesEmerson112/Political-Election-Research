@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/board-of-regents-8",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Board of Regents District 8",
+  "office": "Board of Regents",
+  "candidates": [
+    {
+      "person": "person:pete-goicoechea",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Goicoechea, Pete NP",
+          "locator": "PDF page 12, BOARD OF REGENTS 2-YEAR UNEXPIRED TERM, DISTRICT 8 (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Goicoechea (apppointed to a 2-year unexpired term) Pete NP",
+          "locator": "PDF page 6 (6 of 12), Board of Regents District 8, INCUMBENT (Current Office Holder)"
+        }
+      ]
+    },
+    {
+      "person": "person:lori-lane",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Lane, Lori NP",
+          "locator": "PDF page 12, BOARD OF REGENTS 2-YEAR UNEXPIRED TERM, DISTRICT 8 (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Goicoechea (apppointed to a 2-year unexpired term) Pete NP",
+          "locator": "PDF page 6 (6 of 12), Board of Regents District 8, INCUMBENT (Current Office Holder)"
+        }
+      ]
+    }
+  ],
+  "district": 8,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
