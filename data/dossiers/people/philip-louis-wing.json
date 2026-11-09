@@ -46,5 +46,41 @@
         "where": "GrowSF June 2026 questionnaire page: GrowSF reports it could not reach the candidate; no statements to review"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "offices held: ballot designation \"Retired Financial Advisor\", no incumbent mark",
+        "where": "California Secretary of State, Certified List of Candidates for the November 3, 2026 General Election, State Assembly Member District 19"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Wing candidate statement or record: no statement printed for Wing",
+        "where": "San Francisco Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Candidates for State Assembly, District 19"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "bills or appointments naming Wing: none of the 50 returned posts contains \"Wing\"",
+        "where": "Office of the Governor news releases (www.gov.ca.gov WordPress search API, search \"Philip Wing\")"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "biography, record, programs or offices held: the site has only donation and contact sections",
+        "where": "Campaign site philiplouiswing.com (Wing for State Assembly 2026)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "background and record: GrowSF states it could not reach the candidate; no answers",
+        "where": "GrowSF June 2026 candidate questionnaire page for Philip Louis Wing (growsf.org)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "prior offices or public roles: only the 2026 Assembly District 19 candidacies listed",
+        "where": "BallotReady candidate profile (ballotready.org/people/philip-l-wing) and Ballotpedia (Philip_Wing), reference leads only"
+      }
+    ]
   }
 }
