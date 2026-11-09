@@ -94,6 +94,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected appointed office public service commission board",
+          "where": "Candidate website lorilovesnevada.com (home, About-Me-Lori-Lane, About-Lori-Lane-Work, Lori-Lane-FAQ, The-TLDR)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office held",
+          "where": "Sierra Nevada Ally candidate questionnaire (sierranevadaally.org/profile/lori-lane/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lori Lane office experience",
+          "where": "Nevada Current District 8 race preview (2026-09-28); The Nevada Independent 2026 general and primary Board of Regents voter guides"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lori Lane\" Board of Regents District 8 Nevada candidate",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lane",
+          "where": "Nevada Legislature legislator rosters (leg.state.nv.us)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
