@@ -81,6 +81,74 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Procter & Gamble",
+          "role": "Employee (in Belgium, for two years after graduating from Harvard)",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-2e7aa0a32e",
+              "quote": "Smith earned a degree in psychology from Harvard University in 2001 before she worked for Procter & Gamble in Belgium for two years after graduating.",
+              "locator": "section 'Gwynneth Smith', second paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Postdoctoral work in clinical psychology (mental health field)",
+          "citations": [
+            {
+              "source": "src:gwynneth4judge-com-206cac4996",
+              "quote": "From her postdoctoral work in clinical psychology to leading child welfare initiatives in Clark County, Gwynneth has devoted her career to advocating for children and families.",
+              "locator": "About page, 'A Career of Service'"
+            },
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "I have spent my career - first in the mental health field, now as a District Attorney - working to protect children and support the families who come before our courts.",
+              "locator": "DISTRICT COURT FAMILY COURT DEPT. D, Gwynneth Smith, candidate statement ('Experience')"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County District Attorney's Office",
+          "role": "Chief Deputy District Attorney, Juvenile Division",
+          "citations": [
+            {
+              "source": "src:gwynneth4judge-com-206cac4996",
+              "quote": "Chief Deputy District Attorney, Juvenile Division",
+              "locator": "About page, 'Experience and Expertise'"
+            },
+            {
+              "source": "src:gwynneth4judge-com-206cac4996",
+              "quote": "Over 12 years protecting vulnerable children in Nevada’s court system",
+              "locator": "About page, 'Experience and Expertise'"
+            },
+            {
+              "source": "src:reviewjournal-com-2e7aa0a32e",
+              "quote": "has been a chief deputy district attorney in the Clark County’s juvenile division for 12 years.",
+              "locator": "section 'Gwynneth Smith', first paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "NAMI Southern Nevada",
+          "role": "Board member",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "Outside the courtroom, I serve on the board of NAMI Southern Nevada and have chaired a statewide subcommittee on children's behavioral health.",
+              "locator": "DISTRICT COURT FAMILY COURT DEPT. D, Gwynneth Smith, candidate statement ('Experience')"
+            },
+            {
+              "source": "src:gwynneth4judge-com-206cac4996",
+              "quote": "Gwynneth serves as an active board member of NAMI Southern Nevada",
+              "locator": "About page, 'Beyond the Courtroom'"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
