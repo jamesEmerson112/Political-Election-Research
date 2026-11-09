@@ -34,6 +34,25 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Rancher",
+      "citations": [
+        {
+          "source": "src:gov-nv-gov-1c408aab67",
+          "quote": "A rancher by profession, Goicoechea also served as a Eureka County Commissioner for 16 years."
+        },
+        {
+          "source": "src:leg-state-nv-us-cd2d6338e9",
+          "quote": "Senate District 19 Clark (part), Elko, Eureka, Lincoln, Nye (part), and White Pine Counties Rancher",
+          "locator": "PDF page 2, biography header"
+        },
+        {
+          "source": "src:thenevadaindependent-com-af7e630f0d",
+          "quote": "He is the owner of Goicoechea Ranches and spent 16 years as a Eureka County commissioner.",
+          "locator": "Board of Regent, District 8"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
