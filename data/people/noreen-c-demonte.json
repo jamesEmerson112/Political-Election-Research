@@ -106,6 +106,20 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Indiana University School of Law",
+          "citations": [
+            {
+              "source": "src:veteransinpolitics-org-15f54780fc",
+              "quote": "A graduate of the Indiana University School of Law, Judge DeMonte began her legal career with the Las Vegas Municipal Court before joining the Clark County District Attorney’s Office in 2004."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Justice of the Peace (judge), Las Vegas Township Justice Court, Department 10",
       "citations": [
