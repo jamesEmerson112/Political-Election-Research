@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "marilyn-dondero-loop",
+  "name": "Marilyn Dondero Loop",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.leg.state.nv.us/App/Legislator/A/Senate/83rd2025/8"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-09"
+}
