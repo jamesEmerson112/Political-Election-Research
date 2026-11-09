@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:theo-ellington",
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Theo Ellington record of enacted legislation, programs or budgets",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 10, printed p. 48: self-reported results (over 1,000 affordable homes and $50M restored as City Commissioner; Salvation Army and Golden State Warriors work), not government records"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ellington results, programs, OCII",
+        "where": "GrowSF November 2026 questionnaire, his answers (growsf.org): self-reported Salvation Army programs and a Hunters Point Shipyard class-action settlement, no government record cited"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ellington record",
+        "where": "Campaign website theoellington.com: bot challenge (HTTP 403), unreadable"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Board of Supervisors files with \"Ellington\" in the title",
+        "where": "San Francisco Board of Supervisors Legistar web API (webapi.legistar.com/v1/sfgov/matters, title search): File 121141, a 2012 motion confirming his appointment to the Commission on Community Investment and Infrastructure (seat 1, term ending Nov. 3, 2016); no ordinance, resolution or budget he authored"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "OCII commission votes and budget adoption during his term (2012-2014)",
+        "where": "Commission on Community Investment and Infrastructure (OCII) records on sfocii.org: Resolution No. 32-2014 (FY 2014-15 OCII budget, adopted May 6, 2014) records no individual votes and the May 6, 2014 minutes were not found; the May 20, 2014 minutes record his votes as one of five commissioners on approval of minutes, a lawsuit settlement (Resolution 42-2014) and Resolution 41-2014 (schematic design for artist replacement studios at Hunters Point Shipyard, adopted 3-2, which he moved); other OCII minutes on ex.sfocii.org are unreachable here"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Rule applied to all three District 10 candidates in this package: a track-record item needs a government record documenting an outcome of the candidate's own official action (legislation, budget, program); self-reported results on campaign pages and questionnaires are not government records, and votes as one member of an appointed commission on minutes, reports or single project approvals are not recorded as performance outcomes",
+        "where": "note"
+      }
+    ]
+  }
+}
