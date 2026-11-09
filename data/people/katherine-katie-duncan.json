@@ -3,6 +3,28 @@
   "id": "katherine-katie-duncan",
   "name": "Katherine \"Katie\" Duncan",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "No Political Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Duncan Katherine \"Katie\" NPP",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 6 rows (last name, first name, party on the general election candidate list)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only)",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "6 Katherine “Katie” Duncan Jovan Alexander Jackson* No Political Party Democrat",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 6"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
