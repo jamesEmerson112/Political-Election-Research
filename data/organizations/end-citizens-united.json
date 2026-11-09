@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "end-citizens-united",
+  "name": "End Citizens United",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.culinary-workers-union-local-226--person.francisco-cisco-aguilar--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-18",
+  "endorsee": "person:francisco-cisco-aguilar",
+  "endorser": "org:culinary-workers-union-local-226",
+  "citations": [
+    {
+      "source": "src:culinaryunion226-org-d2ebe16859",
+      "quote": "Secretary of State: Cisco Aguilar."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

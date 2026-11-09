@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-state-afl-cio--person.francisco-cisco-aguilar--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-01",
+  "endorsee": "person:francisco-cisco-aguilar",
+  "endorser": "org:nevada-state-afl-cio",
+  "citations": [
+    {
+      "source": "src:media-linkedunion-com-de46d00e37",
+      "quote": "Secretary of State: Francisco \"Cisco” Aguilar",
+      "locator": "PDF page 1, 2026 Primary Election Endorsements, Statewide"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.afscme-local-4041--person.francisco-cisco-aguilar--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-15",
+  "endorsee": "person:francisco-cisco-aguilar",
+  "endorser": "org:afscme-local-4041",
+  "citations": [
+    {
+      "source": "src:nvafscme-org-482aad4cd6",
+      "quote": "Secretary of State: Francisco Aguilar",
+      "locator": "Candidates endorsed by AFSCME Local 4041"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

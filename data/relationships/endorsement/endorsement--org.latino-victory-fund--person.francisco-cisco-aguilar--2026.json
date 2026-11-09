@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.latino-victory-fund--person.francisco-cisco-aguilar--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-09-29",
+  "endorsee": "person:francisco-cisco-aguilar",
+  "endorser": "org:latino-victory-fund",
+  "citations": [
+    {
+      "source": "src:latinovictory-org-41ab3524fa",
+      "quote": "Today, Latino Victory Fund announced its endorsement of Cisco Aguilar for Nevada Secretary of State"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
