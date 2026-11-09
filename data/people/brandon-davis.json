@@ -91,6 +91,57 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "MNGR",
+          "role": "CEO",
+          "start": "2015",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-319c1c1078",
+              "quote": "MNGR, CEO, 2015-",
+              "locator": "Biography, Work & Military (candidate-supplied)"
+            },
+            {
+              "source": "src:thenevadaindependent-com-241dc78c98",
+              "quote": "Davis is CEO of a Las Vegas-based marketing and advertising agency and president of DOGE Nevada.",
+              "locator": "State Assembly, District 34, Brandon Davis"
+            }
+          ]
+        },
+        {
+          "organization": "DOGE NEVADA",
+          "role": "President",
+          "start": "2025",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-319c1c1078",
+              "quote": "DOGE NEVADA, President, 2025-2026",
+              "locator": "Biography, Affiliations (candidate-supplied)"
+            },
+            {
+              "source": "src:reviewjournal-com-f9fcf2a32a",
+              "quote": "DOGE NEVADA, a third-party watchdog group made up of tech professionals and economists, is scouring Nevada’s public government portals for wasteful spending and abuse, according to its president, Brandon Davis."
+            }
+          ]
+        },
+        {
+          "end": "2025",
+          "organization": "Assisting Lives in Las Vegas",
+          "role": "VP Fund Development",
+          "start": "2024",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-319c1c1078",
+              "quote": "Assisting Lives in Las Vegas, VP Fund Development, 2024-2025",
+              "locator": "Biography, Affiliations (candidate-supplied)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [

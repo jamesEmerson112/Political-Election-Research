@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-f9fcf2a32a",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-04-18",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Nevada-based DOGE group seeks to find waste, fraud in state spending",
+  "url": "https://www.reviewjournal.com/?p=3353562",
+  "notes": "By Jessica Hill; updated April 19, 2025. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
