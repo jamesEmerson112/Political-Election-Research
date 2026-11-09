@@ -3,6 +3,23 @@
   "id": "anthony-scott-red-willett",
   "name": "Anthony Scott \"Red\" Willett",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Libertarian Party of Nevada",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Willett Anthony Scott \"Red\" LPN",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 7 rows (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "LPN = Libertarian Party of Nevada",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
