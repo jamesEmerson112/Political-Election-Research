@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-e",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department E",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:charles-chuck-hoskin",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Hoskin, Charles \"Chuck\" NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT E (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department E Hoskin Charles J. \"Chuck\" NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department E"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "E RJC 3B Charles Hoskin",
+          "locator": "Judicial departments table, DEPT# E row (dept, location, courtroom, judge): the sitting judge of Family Division Department E"
+        }
+      ]
+    },
+    {
+      "person": "person:timothy-treffinger",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Treffinger, Timothy NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT E (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department E Hoskin Charles J. \"Chuck\" NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department E: the current office holder is another person"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "E RJC 3B Charles Hoskin",
+          "locator": "Judicial departments table, DEPT# E row (dept, location, courtroom, judge): the sitting judge of Family Division Department E is another person, so this candidate is not the incumbent"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
