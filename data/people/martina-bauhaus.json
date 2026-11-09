@@ -3,6 +3,59 @@
   "id": "martina-bauhaus",
   "name": "Martina Bauhaus",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference for District Court Judge Department 23 candidate",
+          "where": "Clark County Election Department, Current Listing of All Offices up for Election in 2026 (https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:3ed65e70-a9c1-4933-8e51-ffd768802ea2/original/as/officesup-all-2026.pdf): candidates are marked only 'NP = Nonpartisan (indicated for nonpartisan offices only)', which describes the office, not a voter registration"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference",
+          "where": "Clark County Notice of General Election 26G and Contests-Candidates-All-26 list (clarkcountynv.gov): candidate shown with 'NP' only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "The Nevada Independent 2026 voter guide, District Court Judge Department 23 (https://thenevadaindependent.com/elections/2026/general/judicial/174): race and candidates labeled 'Nonpartisan', no party registration"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "Our Nevada Judges candidate/judge profile pages (ournevadajudges.com): candidates shown with '(NP)' only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party",
+          "where": "BallotReady candidate profiles (ballotready.org/people/martina-bauhaus, /jasmin-lilly-spells)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "declaration of candidacy / party",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov): host blocked from this environment (not reachable)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, Republican, Democrat, registered",
+          "where": "Campaign website https://martinaforjudge.com/ (home page; /about returns 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Martina Bauhaus\" for judge Las Vegas Metropolitan Police assistant general counsel (no party registration reported)",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Bauhaus\" \"Lilly-Spells\" age district court Department 23 2026 Review-Journal (no party registration reported)",
+          "where": "Web search"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
