@@ -4,6 +4,52 @@
   "name": "George E. Harris",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "George E. Harris birth date (he is not listed as a member of the 2025 Legislature)",
+          "where": "Nevada Legislature, 2025 Legislative Manual Chapter I (legislative biographies), leg.state.nv.us"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Harris, George E. birth date: lists give only name, office and party",
+          "where": "Clark County Election Department candidate lists (officesup-26g.pdf, Contests-Candidates-All-26.pdf, Notice of General Election)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George E. Harris birth date: list gives only name and party",
+          "where": "Nevada Legislative Counsel Bureau, 2026 General Election: Nevada Legislative Candidates (CandidatesList_2026General.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George Harris birth date",
+          "where": "The Nevada Independent 2026 voter guide, Clark State Senate page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George E. Harris birth date",
+          "where": "Las Vegas Review-Journal 2026 voter guide (guide page; candidate profile pages /voter-guide-2026/candidate/george-e-harris/ and /george-harris/ redirected to the home page)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"George Harris Senate\"; \"Harris Dondero Loop Senate District 8\"; \"Liberty Watch Harris\"; \"George Harris Republican chairman\": birth date",
+          "where": "Las Vegas Review-Journal news search (wp-json posts search)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George Harris birth date",
+          "where": "Las Vegas Review-Journal articles: primary results (2026-06-09), film studio lobbying (2025-11-11), Victor Joecks column (2026-05-21), state Senate endorsements (2026-10-08)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "George E. Harris campaign site birth date",
+          "where": "Campaign website: none found. Guessed domains (georgeharrisfornevada.com, harrisfornevada.com, georgeharrisforsenate.com, votegeorgeharris.com and others) did not resolve; nvsos.gov candidate filings are blocked from the research environment; web search was unavailable (search budget used up)"
+        }
+      ]
+    },
     "career": {
       "as_of": "2026-11-09",
       "items": [
