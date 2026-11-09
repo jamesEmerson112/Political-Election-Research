@@ -254,6 +254,72 @@
           "locator": "page 94, Candidate Statements, Board of Equalization District 4"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "lives / resides / home / city of residence; page gives only the district office address in Santa Ana, no residence",
+          "where": "https://sd34.senate.ca.gov/biography (official Senate biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives / resides; states only that he lives in Orange County (no city); 'Santa Ana' appears as a heading label and party/city designation, not as a residence statement",
+          "where": "https://democrats.senate.ca.gov/senator/umberg (Senate Democratic Caucus member page)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives / resides / home",
+          "where": "https://www.courts.ca.gov/bio/senator-thomas-j-umberg (Judicial Council member profile)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives / resides / home / hometown",
+          "where": "https://www.tomumberg.com/ , /issues/ , /accomplishments/ , /media-2/ , /?page_id=10 (Why I'm Running) , /?p=585 (press release datelined La Habra, a campaign dateline, not a residence)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Umberg statement and contact block; gives only a P.O. Box mailing address in Sunset Beach, not a residence",
+          "where": "https://vig.cdn.sos.ca.gov/2026/general/pdf/complete-vig.pdf (Official Voter Information Guide, BOE candidate statement)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Umberg entry; lists a P.O. Box mailing address in Sunset Beach, not a stated residence",
+          "where": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/contact-list.pdf (SOS Official Candidate Contact List)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Umberg entry; no address or residence shown",
+          "where": "https://ocvote.gov/fileadmin/user_upload/data/candlog/GEN2026/candlog.pdf (Orange County Registrar candidate proof list)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate filing address; detail page returned 403 or empty text and PDFGen filings were blocked, so no Form 501 could be read",
+          "where": "https://cal-access.sos.ca.gov/Campaign/Committees/Detail.aspx?id=1485168 and PDFGen filings (Form 501/460 for committee 1485168)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "news and voter guides: residence / lives in",
+          "where": "https://www.kpbs.org/news/politics/2026/05/04/2026-primary-election-candidates-running-for-the-board-of-equalization-district-4 , https://calmatters.org/california-voter-guide-2026/board-of-equalization/ , https://dailytitan.com/news/bilodeau-umberg-lead-board-of-equalization-district-4-primary/article_9ac05d9c-1347-4c80-891e-58f789d5ec97.html , https://laist.com/news/politics/voter-guides/2026-election-california-general-board-of-equalization-district-4"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tom Umberg \"lives in\" Santa Ana Board of Equalization 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Umberg\" \"Santa Ana resident\" OR \"of Santa Ana\" senator Board of Equalization candidate",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence; page blocked (HTTP 403)",
+          "where": "https://gvwire.com/2026/05/26/lawmakers-stripped-the-board-of-equalization-of-power-now-theyre-fighting-to-join-it/"
+        }
+      ]
     }
   },
   "ids": [
@@ -269,5 +335,5 @@
     "x": "https://x.com/TomUmbergCA"
   },
   "public_figure": true,
-  "last_verified": "2026-11-04"
+  "last_verified": "2026-11-09"
 }
