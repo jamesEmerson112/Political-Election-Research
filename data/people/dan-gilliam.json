@@ -60,6 +60,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed public office (the page lists staff attorney jobs: Clark County Public Defender's Office, Assistant City Attorney for the City of Henderson, private practice; no elected or appointed office)",
+          "where": "Campaign website https://www.electgilliam4judge.com/ (home, /about)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Gilliam (not a sitting judge)",
+          "where": "Eighth Judicial District Court judicial departments roster (https://www.clarkcountycourts.us/departments/judicial/civil-criminal-divison/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Gilliam incumbent (not marked as incumbent; Leavitt is the Department 12 incumbent)",
+          "where": "Clark County Election Department, Contests and Candidates in the 2026 Elections (https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:fe5dbe41-e2b2-402e-a651-cbe5e6ea53bc/original/as/Contests-Candidates-All-26.pdf, PDF page 5) and All Contests and Candidates, November 3, 2026 General Election (officesup-26g.pdf, PDF page 5)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Dan Gilliam prior office (court docket N/A)",
+          "where": "The Nevada Independent 2026 voter guide, Department 12 race page (https://thenevadaindependent.com/elections/2026/general/judicial/89 and /primary/judicial/89)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Dan Gilliam office held",
+          "where": "Nevada Current, 'District Court Department 24' (2020-10-05, https://nevadacurrent.com/2020/10/05/district-court-department-24/)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
