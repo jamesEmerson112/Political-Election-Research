@@ -29,6 +29,99 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Warner Bros.",
+          "role": "Senior counsel",
+          "citations": [
+            {
+              "source": "src:judgekishner-com-151b556e92",
+              "quote": "Prior to joining the bench, she practiced for over two decades—serving as senior counsel at Warner Bros., an associate with Paul Hastings Janofsky & Walker, and as an attorney with DLA Piper in Las Vegas.",
+              "locator": "About page, Educational & Professional Foundations"
+            },
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "Prior to taking the bench, Judge Kishner’s legal career spanned over twenty years amassing an extensive amount of knowledge and experience in a variety of practice areas including her work for Paul Hastings, Janofsky & Walker, Warner Bros., and DLA Piper.",
+              "locator": "Biography tab, third paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "Paul Hastings Janofsky & Walker",
+          "role": "Associate",
+          "citations": [
+            {
+              "source": "src:judgekishner-com-151b556e92",
+              "quote": "Prior to joining the bench, she practiced for over two decades—serving as senior counsel at Warner Bros., an associate with Paul Hastings Janofsky & Walker, and as an attorney with DLA Piper in Las Vegas.",
+              "locator": "About page, Educational & Professional Foundations"
+            },
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "Prior to taking the bench, Judge Kishner’s legal career spanned over twenty years amassing an extensive amount of knowledge and experience in a variety of practice areas including her work for Paul Hastings, Janofsky & Walker, Warner Bros., and DLA Piper.",
+              "locator": "Biography tab, third paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "DLA Piper (Las Vegas)",
+          "role": "Attorney",
+          "citations": [
+            {
+              "source": "src:judgekishner-com-151b556e92",
+              "quote": "Prior to joining the bench, she practiced for over two decades—serving as senior counsel at Warner Bros., an associate with Paul Hastings Janofsky & Walker, and as an attorney with DLA Piper in Las Vegas.",
+              "locator": "About page, Educational & Professional Foundations"
+            },
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "Prior to taking the bench, Judge Kishner’s legal career spanned over twenty years amassing an extensive amount of knowledge and experience in a variety of practice areas including her work for Paul Hastings, Janofsky & Walker, Warner Bros., and DLA Piper.",
+              "locator": "Biography tab, third paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Arbitrator",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "She has also served as an Arbitrator, Justice of the Peace Pro Tem, Pro Tem Small Claims Referee, and a Pro Tem Traffic Court Referee.",
+              "locator": "Biography tab, third paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Justice of the Peace Pro Tem",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "She has also served as an Arbitrator, Justice of the Peace Pro Tem, Pro Tem Small Claims Referee, and a Pro Tem Traffic Court Referee.",
+              "locator": "Biography tab, third paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Pro Tem Small Claims Referee",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "She has also served as an Arbitrator, Justice of the Peace Pro Tem, Pro Tem Small Claims Referee, and a Pro Tem Traffic Court Referee.",
+              "locator": "Biography tab, third paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Pro Tem Traffic Court Referee",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "She has also served as an Arbitrator, Justice of the Peace Pro Tem, Pro Tem Small Claims Referee, and a Pro Tem Traffic Court Referee.",
+              "locator": "Biography tab, third paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
