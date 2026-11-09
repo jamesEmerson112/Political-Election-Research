@@ -4,6 +4,67 @@
   "name": "Cameron \"C.H.\" Miller",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Cameron (C.H.) Miller biography",
+          "where": "Nevada Legislature legislator pages leg.state.nv.us/App/Legislator/A/Assembly/81st2021/7 and 82nd2023/7 (the 'Career & Personal' tab text is not part of the page text the research reader captures, so nothing there could be quoted)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "campaign site cameronchmiller.com (home page only: why running, priorities; no biography; /about returns 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Cameron \"C.H.\" Miller",
+          "where": "The Nevada Independent 2026 Clark County voter guide, State Assembly District 7 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth, residence, occupation",
+          "where": "The Nevada Independent, Freshman Orientation profile (2021-03-05)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Miller biography",
+          "where": "The Nevada Independent (2022-12-30, Urban Chamber; 2023-10-20, resignation) and Las Vegas Review-Journal (2023-10-20, resignation)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Cameron \"C.H.\" Miller",
+          "where": "iVoterGuide candidate profile (biography fields 'Candidate did not provide')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Cameron \"C.H.\" Miller Nevada Assembly District 7",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"C.H. Miller\" Las Vegas City Council 2024 candidate age occupation",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"C.H. Miller\" 2026 Assembly run Nevada Independent OR Review-Journal",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Miller",
+          "where": "Nevada Secretary of State candidate filing list (nvsos.gov blocked from this environment)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "age",
+          "where": "The Nevada Independent 2022-12-30 and 2023-10-20 articles give only his age (42 and 43), not a birth date or year"
+        }
+      ]
+    },
     "birthplace": {
       "value": "Las Vegas (where he grew up; place of birth not stated)",
       "citations": [
