@@ -134,6 +134,32 @@
           "where": "Web search of sf.gov DCYF Oversight and Advisory Committee records: no legislative votes found (the committee is advisory)"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-board-of-education|legislation|person:laurance-lee",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or legislative office; bills or resolutions authored, voted on or publicly supported/opposed",
+          "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, Board of Education candidate statement (media.api.sf.gov/documents/N26_EN_VIP.pdf, p. 30): occupation General Contractor; says he helped restore eighth-grade Algebra 1 and is Vice Chair of the Citizens' Bond Oversight Committee, but names no bill or resolution"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bill numbers (AB/SB/Prop/Measure), votes, resolutions",
+          "where": "Campaign website lauranceleesf.com (home and Coming Back pages): Civil Grand Jury service and CBOC Vice Chair; no legislative office and no bill named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bill numbers (AB/SB/Prop/Measure), votes, resolutions",
+          "where": "GrowSF November 2026 Board of Education questionnaire (growsf.org/voter-guide/questionnaires/november-2026/laurance-lee/): no bill named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Laurance Lee appointment and role",
+          "where": "SFUSD Citizens' Bond Oversight Committee page (sfusd.edu/advisory-councils-committees/sfusd-bond-program-citizens-bond-oversight-committee-cboc): Vice-Chair, appointed October 11, 2022, reappointed November 12, 2024; an oversight committee, not a legislative body"
+        }
+      ]
     }
   ],
   "measures": [],
