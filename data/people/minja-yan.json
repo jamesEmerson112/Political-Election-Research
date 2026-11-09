@@ -71,6 +71,19 @@
           "locator": "PDF page 1, Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Las Vegas",
+      "citations": [
+        {
+          "source": "src:voteminja-com-b461cf4828",
+          "quote": "Raised in Southwest Las Vegas, Minja is deeply committed to fighting for the community she calls home."
+        },
+        {
+          "source": "src:voteminja-com-b461cf4828",
+          "quote": "Minja Yan is a longtime resident of Clark County District F"
+        }
+      ]
     }
   },
   "ids": [],
