@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-0e3b8b68df",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Clark County, Nevada",
+  "title": "Board of County Commissioners",
+  "url": "https://www.clarkcountynv.gov/government/board_of_county_commissioners/"
+}
