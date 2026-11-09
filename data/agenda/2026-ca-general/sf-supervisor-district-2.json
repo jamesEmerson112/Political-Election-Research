@@ -122,6 +122,37 @@
           "where": "Mission Local WordPress API search for \"Ratanapakdee\" (missionlocal.org/wp-json/wp/v2/posts?search=Ratanapakdee): 7 posts, none names an endorsement of her"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-2|legislation|person:nicholas-berg",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected office; legislation; ordinance; bill",
+          "where": "GrowSF November 2026 questionnaire, Nicholas Berg (growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg/): answers describe goals for the office; no legislative office held or bill authored"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Nicholas Berg",
+          "where": "San Francisco Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 2 candidate statements, printed pp. 40-41: no statement printed for Nicholas Berg"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Board of Supervisors member",
+          "where": "sfgov.legistar.com Members list (People.aspx, current Board of Supervisors members: 11 records; name not listed)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Nicholas Berg ballot designation: Property Management Executive (not an office)",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Campaign site nicholasberg.com / www.nicholasberg.com: not reachable (DNS and tunnel errors)"
+        }
+      ]
     }
   ],
   "measures": [],
