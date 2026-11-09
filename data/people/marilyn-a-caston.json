@@ -70,6 +70,35 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor of Arts, Political Science",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 2005,
+          "citations": [
+            {
+              "source": "src:caston4judge-com-c854d23cf4",
+              "quote": "She went on to earn her Bachelor of Arts in Political Science from the University of Nevada, Las Vegas in 2005, followed by her Juris Doctor from the William S. Boyd School of Law in 2008.",
+              "locator": "About page, Meet Marilyn Caston"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "William S. Boyd School of Law",
+          "year": 2008,
+          "citations": [
+            {
+              "source": "src:caston4judge-com-c854d23cf4",
+              "quote": "She went on to earn her Bachelor of Arts in Political Science from the University of Nevada, Las Vegas in 2005, followed by her Juris Doctor from the William S. Boyd School of Law in 2008.",
+              "locator": "About page, Meet Marilyn Caston"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Family law attorney; junior partner at Nevada Family Law Group",
       "citations": [
