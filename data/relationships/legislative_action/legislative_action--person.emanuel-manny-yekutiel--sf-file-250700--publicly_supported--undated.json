@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.emanuel-manny-yekutiel--sf-file-250700--publicly_supported--undated",
+  "type": "legislative_action",
+  "person": "person:emanuel-manny-yekutiel",
+  "action": "publicly_supported",
+  "bill": "sf-file-250700",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:growsf-org-e9f57d3c82",
+      "quote": "Mayor Lurie’s Family Zoning plan is a great first step. It moves San Francisco in the right direction, but zoning alone will not solve our housing crisis.",
+      "locator": "Housing section, answer on Mayor Lurie's Family Zoning plan (questionnaire due March 12, 2026)"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "His questionnaire answer names Mayor Lurie's Family Zoning plan, not a file number. Ordinance No. 244-25 (File 250700, the Zoning Map ordinance) states it implements the Family Zoning Plan, which also includes General Plan and Planning Code amendments in separate files. He held no Board of Supervisors or state legislative office; his SFMTA Board of Directors votes (2020-2023) are recorded in his dossier's track record, because SFMTA Board resolutions have no bill-reference format."
+}
