@@ -4,6 +4,57 @@
   "name": "Jasmin Lilly-Spells",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birth date",
+          "where": "Eighth Judicial District Court, Department XXIII biography (https://www.clarkcountycourts.us/departments/judicial/civil-criminal-divison/department-xxiii/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, birth date, age",
+          "where": "Campaign website https://judgelilly-spells.com/ and /judicial-record/ (/about/ returns 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age",
+          "where": "The Nevada Independent 2026 voter guide, Department 23 candidate deep dive (https://thenevadaindependent.com/elections/2026/general/judicial/174)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age",
+          "where": "UNLV Boyd School of Law alumni spotlight (https://law.unlv.edu/news/publications/boyd-briefs/alumni-spotlight-jasmin-lilly-spells-09)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age",
+          "where": "Nevada Current, District Court Department 23 (Oct 5, 2020) (https://nevadacurrent.com/2020/10/05/district-court-department-23/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age",
+          "where": "Our Nevada Judges judge and candidate pages (https://ournevadajudges.com/judges/jasmin-d-lilly-spells/overview, /candidate)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "BallotReady profile (https://www.ballotready.org/people/jasmin-lilly-spells)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lilly-Spells\" judge born grew up hometown (no birth date found)",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Bauhaus\" \"Lilly-Spells\" age district court Department 23 2026 Review-Journal (no birth date found)",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
