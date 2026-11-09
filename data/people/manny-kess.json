@@ -40,6 +40,19 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "New York (where he grew up; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:votekess-com-2ad77066e4",
+          "quote": "Manny grew up in New York and spent his early years at the U.S. Naval Academy, where he built a strong work ethic and a deep respect for service and accountability."
+        },
+        {
+          "source": "src:votekess-com-9bdca13d7f",
+          "quote": "Manny Kess grew up in New York, attended the U.S. Naval Academy, and lost his father while he was there, an experience that shaped how he approaches leadership, responsibility, and resilience."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

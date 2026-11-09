@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "votekess-com-2ad77066e4",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Manny for Nevada",
+  "title": "About | Manny Kess for Clark County Commission",
+  "url": "https://www.votekess.com/about"
+}
