@@ -45,6 +45,101 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Residential treatment facility for underprivileged youth (not named)",
+          "role": "Line staff, then Program Director",
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "I took four years between my graduate program and law school to devote my time to working with underprivileged youth at a residential treatment facility.  I started out as line staff and worked my way up to Program Director before I decided to further my education.",
+              "locator": "Meet Dan Gilliam, paragraph 3"
+            }
+          ]
+        },
+        {
+          "end": "2007",
+          "organization": "Clark County Public Defender's Office",
+          "role": "Attorney",
+          "start": "2005",
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "I started by working for the Clark County Public Defender’s Office in 2005, where I represented thousands of individuals charged with crimes ranging from minor misdemeanors to major felonies.",
+              "locator": "Meet Dan Gilliam, paragraph 4"
+            },
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "After leaving that office in 2007, I practiced law for nearly eight years as an Assistant City Attorney at the City of Henderson.",
+              "locator": "Meet Dan Gilliam, paragraph 5"
+            }
+          ]
+        },
+        {
+          "end": "2015-01",
+          "organization": "City of Henderson",
+          "role": "Assistant City Attorney (prosecutor)",
+          "start": "2007",
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "After leaving that office in 2007, I practiced law for nearly eight years as an Assistant City Attorney at the City of Henderson.  In that role, I prosecuted thousands of DUI and Domestic Violence cases, as well as other misdemeanors.",
+              "locator": "Meet Dan Gilliam, paragraph 5"
+            },
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "In January of 2015, I left the City of Henderson and opened my own practice, The Gilliam Law Group.",
+              "locator": "Meet Dan Gilliam, paragraph 6"
+            }
+          ]
+        },
+        {
+          "end": "2018",
+          "organization": "The Gilliam Law Group",
+          "role": "Founder (own practice)",
+          "start": "2015-01",
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "In January of 2015, I left the City of Henderson and opened my own practice, The Gilliam Law Group.  In 2018, my firm blended with Bighorn Law – a multi-jurisdictional law firm based in Nevada, Utah and Arizona.",
+              "locator": "Meet Dan Gilliam, paragraph 6"
+            }
+          ]
+        },
+        {
+          "end": "2021",
+          "organization": "Bighorn Law",
+          "role": "Criminal defense attorney (handled the firm's entire criminal defense caseload)",
+          "start": "2018",
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "In 2018, my firm blended with Bighorn Law – a multi-jurisdictional law firm based in Nevada, Utah and Arizona.  I handled the firm’s entire criminal defense caseload.",
+              "locator": "Meet Dan Gilliam, paragraph 6"
+            },
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "In 2021, I accepted an offer from the County to come back to the Public Defender’s Office, where I’ve been ever since.",
+              "locator": "Meet Dan Gilliam, paragraph 7"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County Public Defender's Office",
+          "role": "Attorney",
+          "start": "2021",
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "In 2021, I accepted an offer from the County to come back to the Public Defender’s Office, where I’ve been ever since.",
+              "locator": "Meet Dan Gilliam, paragraph 7"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
