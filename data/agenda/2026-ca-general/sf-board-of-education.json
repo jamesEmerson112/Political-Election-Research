@@ -72,6 +72,42 @@
           "where": "Profile research of 2026-11-04 (offices_held is an empty list with its own search log); Mission Local candidate pages not reachable (HTTP 403 / rate-limited)"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-board-of-education|legislation|person:virginia-cheung",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office / legislation authored or voted on",
+          "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, Board of Education candidate statement (https://media.api.sf.gov/documents/N26_EN_VIP.pdf): occupation Nonprofit Executive / Mother; no public office listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bill / resolution / voted / office",
+          "where": "Campaign website https://www.virginiacheung.com and https://www.virginiacheung.com/learn: no legislative or elected public office, no bills or votes"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "commissions and policy bodies served on",
+          "where": "SF League of Pissed Off Voters 2026 questionnaire (https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911366/School_Board_Virginia_Cheung.pdf, p. 7): describes nonprofit and community roles 'rather than formal government commissions'; no legislative office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office / legislation",
+          "where": "GrowSF June 2026 questionnaire (https://growsf.org/voter-guide/questionnaires/june-2026/virginia-cheung/): lists Parents for Public Schools board, elected ADEM delegate for Assembly District 17 (a party post), nonprofit roles; no public legislative office, no bills or votes"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "current Board of Education members",
+          "where": "SFUSD Board of Education page (https://www.sfusd.edu/about-sfusd/board-education): not among the seven current commissioners"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "offices_held research",
+          "where": "Profile research of 2026-11-04 (offices_held is an empty list with its own search log); Mission Local candidate pages not reachable (HTTP 403 / rate-limited)"
+        }
+      ]
     }
   ],
   "measures": [],
