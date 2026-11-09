@@ -4,6 +4,52 @@
   "name": "Jerry A. Wiese, II",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party, born, birth, age, birthplace, resides",
+          "where": "Eighth Judicial District Court, Department XXX biography (clarkcountycourts.us)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registration, born, birth, age, residence",
+          "where": "The Nevada Independent 2026 voter guide, District Court Judge, Eighth Judicial District, Department 30"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered, born, age, birthplace, resides",
+          "where": "Our Nevada Judges judge and candidate profile (ournevadajudges.com/judges/jerry-a-wiese)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "site does not resolve (DNS: ERR_NAME_NOT_RESOLVED)",
+          "where": "judgejerrywiese.com (campaign site listed by Our Nevada Judges)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 judicial candidates, Department 30: host blocked (Cloudflare challenge), not readable here",
+          "where": "Nevada Secretary of State certified candidate list and candidate information (nvsos.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Santeramo Wiese Dept. 30: both hosts blocked (Cloudflare), not readable here",
+          "where": "Nevada Current, 'Long-time judge draws challenger in Clark County Dept. 30' (nevadacurrent.com search API and newsfromthestates.com republication)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Jerry Wiese\" judge born OR age Las Vegas",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "reviewjournal.com Wiese Santeramo Department 30 judge November election",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
