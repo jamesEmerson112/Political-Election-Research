@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-2ddddc27e6",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2012-09-09",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Nevadan at Work: In handling death, coroner sees life’s precious value",
+  "url": "https://www.reviewjournal.com/?p=542893"
+}

@@ -50,6 +50,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Kansas City, Kansas (hometown)",
+      "citations": [
+        {
+          "source": "src:reviewjournal-com-2ddddc27e6",
+          "quote": "Hometown: Kansas City, Kan.",
+          "locator": "profile box at the end of the article"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
