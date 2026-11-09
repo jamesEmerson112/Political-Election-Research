@@ -106,6 +106,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Clark County Clerk",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-79144c9b4d",
+          "quote": "Lynn Marie Goya, the County Clerk, and her office provide marriage and business services to the citizens of Clark County, Nevada"
+        },
+        {
+          "source": "src:clarkcountynv-gov-79144c9b4d",
+          "quote": "Serving as County Clerk since 2015"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

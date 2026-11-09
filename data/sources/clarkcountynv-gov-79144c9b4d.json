@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-79144c9b4d",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Clark County, Nevada",
+  "title": "County Clerk",
+  "url": "https://www.clarkcountynv.gov/government/elected_officials/county_clerk/"
+}
