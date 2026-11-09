@@ -4,6 +4,47 @@
   "name": "Jennifer Schwartz",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birth, age, year",
+          "where": "Campaign website https://www.judgeschwartz.com/ (home, /about)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, birth date, age",
+          "where": "Eighth Judicial District Court: Department XVII page (https://www.clarkcountycourts.us/departments/judicial/civil-criminal-divison/department-xvii/, Biography tab empty) and investiture release of 2023-02-21"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "age, born",
+          "where": "The Nevada Independent 2026 voter guide, Department 17 race page (https://thenevadaindependent.com/elections/2026/general/judicial/164)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age",
+          "where": "Our Nevada Judges profile (https://ournevadajudges.com/judges/jennifer-lea-schwartz overview and /candidate)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "age, born",
+          "where": "Nevada Current, 2026-10-02 'Prosecutor seeks to oust judge from Clark County District Court' and 2022-10-06 special-election article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Judge Jennifer Schwartz Las Vegas born age birth date",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Judge Jennifer Schwartz\" campaign Department 17 Valley High School Las Vegas",
+          "where": "Web search"
+        }
+      ]
+    },
     "birthplace": {
       "value": "Las Vegas, Nevada",
       "citations": [
