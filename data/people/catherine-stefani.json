@@ -55,6 +55,75 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "California State Assembly Member, District 19",
+          "current": true,
+          "jurisdiction": "California",
+          "office_ref": "office:california-assembly-member",
+          "start": "2024-12-02",
+          "citations": [
+            {
+              "source": "src:stefani-asmdc-org-1b907737cf",
+              "quote": "Catherine Stefani was sworn in today as the Assemblymember for District 19 in the State Capitol.",
+              "locator": "Press release dated Monday, December 2, 2024, first paragraph"
+            },
+            {
+              "source": "src:assembly-ca-gov-ef274eac9b",
+              "quote": "District: 19",
+              "locator": "Member page header, under the name Catherine Stefani"
+            }
+          ]
+        },
+        {
+          "office": "Member, San Francisco Board of Supervisors, District 2",
+          "current": false,
+          "end": "2024-12-02",
+          "first_elected": "2018-11-06",
+          "jurisdiction": "City and County of San Francisco",
+          "office_ref": "office:san-francisco-supervisor",
+          "start": "2018-01-30",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "Appointed January 30, 2018",
+              "locator": "Term"
+            },
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "Elected November 06, 2018 for term January 08, 2019 to January 08, 2023",
+              "locator": "Term"
+            },
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "Elected november 08, 2022 for term January 08, 2023 to December 02, 2024",
+              "locator": "Term"
+            }
+          ]
+        },
+        {
+          "office": "San Francisco County Clerk",
+          "current": false,
+          "end": "2018",
+          "jurisdiction": "City and County of San Francisco",
+          "start": "2016-02-29",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "the San Francisco County Clerk from 2016-2018",
+              "locator": "Biography, paragraph beginning \"Before being elected to the Board of Supervisors in 2018\""
+            },
+            {
+              "source": "src:stmarys-ca-edu-ab65705dc5",
+              "quote": "she was appointed as County Clerk in the City and County of San Francisco on February 29, 2016",
+              "locator": "News release, first paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "stmarys-ca-edu-ab65705dc5",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2018-02-15",
+  "publisher": "Saint Mary's College of California",
+  "title": "SMC alumna Catherine Stefani elected to San Francisco Board of Supervisors",
+  "url": "https://www.stmarys-ca.edu/news/smc-alumna-catherine-stefani-elected-san-francisco-board-supervisors"
+}
