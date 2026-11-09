@@ -259,19 +259,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 4129704,
-    "yes_votes": 3704941,
+    "no_votes": 5529690,
+    "yes_votes": 4607308,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Prohibits New State Taxes That Exclude Revenues From State Spending Limit. Requires Audits For New State Special Taxes. Initiative Constitutional Amendment.\", \"Number\": \"41\", \"yesVotes\": \"3704941\", \"yesPercent\": \"47.3\", \"noVotes\": \"4129704\", \"noPercent\": \"52.7\"",
+        "quote": "\"Name\": \"Prohibits New State Taxes That Exclude Revenues From State Spending Limit. Requires Audits For New State Special Taxes. Initiative Constitutional Amendment.\", \"Number\": \"41\", \"yesVotes\": \"4607308\", \"yesPercent\": \"45.5\", \"noVotes\": \"5529690\", \"noPercent\": \"54.5\"",
         "locator": "ballot-measures, Number 41"
       }
     ]
@@ -286,5 +286,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
