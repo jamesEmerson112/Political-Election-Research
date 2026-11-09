@@ -96,6 +96,156 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Nevada Peace Alliance",
+          "role": "President",
+          "start": "2007",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "President of the Nevada Peace Alliance, leading statewide initiatives focused on safety, justice, and community well‑being."
+            },
+            {
+              "source": "src:ivoterguide-com-afed4aec07",
+              "quote": "Nevada Peace Alliance, President, 2007-2026",
+              "locator": "Biography, Affiliations"
+            }
+          ]
+        },
+        {
+          "end": "2018",
+          "organization": "WAAK UP",
+          "role": "President",
+          "start": "2014",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "Former President of WAAK UP, Appointed by Marzette Lewis as the community organization President dedicated to fighting for, and uplifting the Black community in West Las Vegas."
+            },
+            {
+              "source": "src:ivoterguide-com-afed4aec07",
+              "quote": "WAAK UP, President, 2014-2018",
+              "locator": "Biography, Affiliations"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County School District",
+          "role": "Zoning Commissioner, CCSD District D",
+          "start": "2012",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "12 School‑Year Zoning Commissioner for CCSD District D, ensuring responsible school planning and community impact oversight."
+            },
+            {
+              "source": "src:ivoterguide-com-afed4aec07",
+              "quote": "CCSD Zoning Commission, Commissioner, 2012-2026",
+              "locator": "Biography, Affiliations"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County School District",
+          "role": "Bridge Commissioner",
+          "start": "2021",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "Current CCSD Bridge Commissioner, supporting student transitions, family engagement, and district accountability."
+            },
+            {
+              "source": "src:ivoterguide-com-afed4aec07",
+              "quote": "CCSD Bridge Commission, Commissioner, 2021-2026",
+              "locator": "Biography, Affiliations"
+            }
+          ]
+        },
+        {
+          "organization": "City of Las Vegas",
+          "role": "Advisory Team Member, Ward 3",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "Advisory Team Member for the City of Las Vegas – Ward 3, contributing to neighborhood revitalization and community policy guidance."
+            }
+          ]
+        },
+        {
+          "organization": "City of Las Vegas",
+          "role": "Appointee, Vision Zero Team",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "Appointee to the City of Las Vegas Vision Zero Team, working to reduce traffic fatalities and improve public safety."
+            }
+          ]
+        },
+        {
+          "organization": "Clark County School District",
+          "role": "Member, Facility Master Plan SAG (former)",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "Former CCSD Facility Master Plan SAG Member, shaping long‑term infrastructure and school facility planning."
+            }
+          ]
+        },
+        {
+          "organization": "Clark County School District",
+          "role": "Policy Writer (former)",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "Former Policy Writer for the Clark County School District, contributing to district‑wide governance and operational standards."
+            }
+          ]
+        },
+        {
+          "organization": "Nishokado Martial Arts Academy",
+          "role": "Founder and martial arts instructor",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "7th‑Degree Black Belt Martial Arts Instructor and Founder of Nishokado Martial Arts Academy, mentoring youth and promoting discipline, safety, and personal growth."
+            }
+          ]
+        },
+        {
+          "role": "Community activist and local business owner",
+          "citations": [
+            {
+              "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+              "quote": "Community Activist and Local Business Owner, providing direct support, advocacy, and services to underserved families."
+            }
+          ]
+        },
+        {
+          "organization": "Sober Homiez LLC",
+          "role": "Board Member",
+          "start": "2026",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-afed4aec07",
+              "quote": "Sober Homiez LLC, Board Member, 2026-2026",
+              "locator": "Biography, Affiliations"
+            }
+          ]
+        },
+        {
+          "role": "Consultant and advisor",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-bc20fd52bf",
+              "quote": "Gomez has a law degree, and works as a consultant and advisor."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
