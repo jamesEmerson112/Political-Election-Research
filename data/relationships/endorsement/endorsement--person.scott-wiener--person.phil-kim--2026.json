@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.scott-wiener--person.phil-kim--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:phil-kim",
+  "endorser": "person:scott-wiener",
+  "citations": [
+    {
+      "source": "src:philkim-org-a725412e9d",
+      "quote": "Senator Scott Wiener",
+      "locator": "Proudly Endorsed By"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
