@@ -3,6 +3,69 @@
   "id": "veronica-barisich",
   "name": "Veronica Barisich",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Veronica Barisich party registration registered Republican Democrat nonpartisan",
+          "where": "Campaign website judgebarisich.com (home, About and Endorsements pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich",
+          "where": "Eighth Judicial District Court judicial departments page (clarkcountycourts.us/departments/judicial/): name and department only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich",
+          "where": "Clark County Election Department 2026 candidate lists and Notice of General Election (clarkcountynv.gov): 'NP' marks nonpartisan offices only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich party registration registered Republican Democrat nonpartisan",
+          "where": "The Nevada Independent 2026 judicial guide, Department 5 (thenevadaindependent.com/elections/2026/general/judicial/1219)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich party registration registered Republican Democrat nonpartisan",
+          "where": "Las Vegas Review-Journal 2026 voter guide (reviewjournal.com/voter-guide-2026) and Oct. 6, 2026 Department 5 article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich party registration registered Republican Democrat nonpartisan",
+          "where": "Nevada Current, Oct. 7, 2026 and Oct. 5, 2020 Department 5 articles"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich party registration registered Republican Democrat nonpartisan",
+          "where": "KLAS 8 News Now, Oct. 22, 2026 profile (via Yahoo News; 8newsnow.com returned HTTP 403)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich party registration registered Republican Democrat nonpartisan",
+          "where": "Review-Journal Sept. 24, 2020 Department 5 article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich party registration registered Republican Democrat nonpartisan",
+          "where": "Our Nevada Judges judge page (ournevadajudges.com/judges/veronica-sisinger-barisich)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Barisich",
+          "where": "Nevada judicial financial disclosure (disclosures.nvcourts.nv.gov) and Nevada Secretary of State (nvsos.gov): blocked (Cloudflare challenge), could not be read"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Veronica Barisich\" party registration registered Republican Democrat nonpartisan",
+          "where": "Web search (news)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
