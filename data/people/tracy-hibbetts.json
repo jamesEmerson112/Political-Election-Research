@@ -65,6 +65,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Chief Deputy District Attorney, Clark County District Attorney's Office",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-201cc127cc",
+          "quote": "Hibbetts is currently a chief deputy district attorney in Clark County and is assigned to the Special Victims Unit/Vehicular Crimes Unit.",
+          "locator": "The candidates, Tracy Hibbetts"
+        },
+        {
+          "source": "src:reviewjournal-com-c402fb9754",
+          "quote": "In 2023, transferred to Clark County District Attorney's Office as a Chief Deputy District Attorney.",
+          "locator": "Clark County District Court Dept. 5, Tracy Hibbetts, Experience (candidate's answer)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Nonpartisan",
       "citations": [
