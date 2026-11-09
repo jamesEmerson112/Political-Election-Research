@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "unlv-edu-d2d21f3bfe",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "University of Nevada, Las Vegas",
+  "title": "Minja Yan '16 | People | UNLV",
+  "url": "https://www.unlv.edu/people/minja-yan-16",
+  "notes": "UNLV alumni profile. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

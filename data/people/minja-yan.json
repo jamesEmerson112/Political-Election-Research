@@ -44,6 +44,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Commercial real estate agent",
+      "citations": [
+        {
+          "source": "src:unlv-edu-d2d21f3bfe",
+          "quote": "Today, she works in the commercial real estate industry and is passionate about placemaking."
+        },
+        {
+          "source": "src:thenevadaindependent-com-962e2dbb2e",
+          "quote": "At 31, the real estate agent is not only one of the youngest candidates in the open race for District F"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
