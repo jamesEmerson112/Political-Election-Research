@@ -66,6 +66,35 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor of Science in Political Science",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 1996,
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "She earned her Bachelor of Science in Political Science from the University of Nevada, Las Vegas in 1996 and her Juris Doctorate from Thomas Jefferson School of Law in San Diego in 2000.",
+              "locator": "About page, first paragraph"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctorate",
+          "institution": "Thomas Jefferson School of Law",
+          "year": 2000,
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "She earned her Bachelor of Science in Political Science from the University of Nevada, Las Vegas in 1996 and her Juris Doctorate from Thomas Jefferson School of Law in San Diego in 2000.",
+              "locator": "About page, first paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Family law attorney",
       "citations": [
