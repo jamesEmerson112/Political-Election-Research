@@ -4,6 +4,32 @@
   "name": "Catherine Stefani",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date, born, age",
+          "where": "Official Assembly biography (stefani.asmdc.org/biography); Assembly member page (assembly.ca.gov/assemblymembers/19); swearing-in press release of 2024-12-02 (stefani.asmdc.org)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date, born, age",
+          "where": "San Francisco Board of Supervisors former-supervisor biography, District 2 (sfbos.archive.sf.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography, born",
+          "where": "Campaign site votecatherinestefani.com (403 Cloudflare challenge, could not be read)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Catherine Stefani born; Catherine Stefani age; Catherine Stefani 1969",
+          "where": "Web search, then San Francisco Chronicle 2018 District 2 profile, Bay Area Reporter 'Siblings' struggles drive SF Supe Stefani' (gives an age, 48, but no date), Saint Mary's College 2018 news release"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
