@@ -39,6 +39,61 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly",
+          "current": false,
+          "end": "2018-11",
+          "jurisdiction": "Nevada Assembly District 42",
+          "start": "2010-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-e046420c20",
+              "quote": "November 2010 to November 2018",
+              "locator": "Legislative Biography, page 1, \"Years in Assembly\""
+            },
+            {
+              "source": "src:ccsd-net-0db55fd378",
+              "quote": "From 2010 to 2018, she also represented District 42 in the Nevada Assembly, serving as Speaker Pro Tempore in her last leadership role.",
+              "locator": "trustee biography, paragraph 3"
+            }
+          ]
+        },
+        {
+          "office": "Speaker Pro Tempore, Nevada Assembly",
+          "current": false,
+          "jurisdiction": "Nevada Assembly",
+          "start": "2017",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-e046420c20",
+              "quote": "Speaker Pro Tempore, 2017",
+              "locator": "Legislative Biography, page 1, \"Leadership\""
+            }
+          ]
+        },
+        {
+          "office": "Trustee, Clark County School District Board of School Trustees",
+          "current": true,
+          "first_elected": "2022-11-08",
+          "jurisdiction": "Clark County School District, District F",
+          "citations": [
+            {
+              "source": "src:ccsd-net-0db55fd378",
+              "quote": "Irene Bustamante Adams was elected to the CCSD Board of Trustees on November 8, 2022.",
+              "locator": "trustee biography, paragraph 1"
+            },
+            {
+              "source": "src:ccsd-net-0db55fd378",
+              "quote": "She represents District F, which includes Spring Valley, Mountains Edge, Southern Highlands, and Sandy Valley.",
+              "locator": "trustee biography, paragraph 1"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
