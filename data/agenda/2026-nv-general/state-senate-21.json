@@ -2,7 +2,16 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/state-senate-21",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:james-ohrenschall",
+      "name": "James Ohrenschall"
+    },
+    {
+      "person": "person:al-rojas",
+      "name": "Al Rojas"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
