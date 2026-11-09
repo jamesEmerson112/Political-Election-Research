@@ -96,6 +96,27 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "NV Energy",
+          "role": "Power trader",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "He is a power trader for NV Energy, and has worked in energy markets since the late 1990s, according to his LinkedIn profile.",
+              "locator": "County Treasurer, Tim J. \"TJ\" Ferreira"
+            },
+            {
+              "source": "src:thenevadaindependent-com-b73a363833",
+              "quote": "According to his LinkedIn profile, libertarian candidate Tim Ferreira works for NV Energy as a power trader and has experience in software development, power markets and public utilities.",
+              "locator": "Treasurer section"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],
