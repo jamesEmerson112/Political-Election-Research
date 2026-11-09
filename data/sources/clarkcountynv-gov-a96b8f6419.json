@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-a96b8f6419",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2026-04-06",
+  "publisher": "Clark County Election Department",
+  "title": "Current Listing of All Offices up for Election in 2026 in Clark County, Nevada",
+  "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:3ed65e70-a9c1-4933-8e51-ffd768802ea2/original/as/officesup-all-2026.pdf"
+}
