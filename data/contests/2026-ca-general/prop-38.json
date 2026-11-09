@@ -232,19 +232,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 3488608,
-    "yes_votes": 4355869,
+    "no_votes": 4627341,
+    "yes_votes": 5512106,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Authorizes Bonds For Immunology Medical Research. Initiative Statute.\", \"Number\": \"38\", \"yesVotes\": \"4355869\", \"yesPercent\": \"55.5\", \"noVotes\": \"3488608\", \"noPercent\": \"44.5\"",
+        "quote": "\"Name\": \"Authorizes Bonds For Immunology Medical Research. Initiative Statute.\", \"Number\": \"38\", \"yesVotes\": \"5512106\", \"yesPercent\": \"54.4\", \"noVotes\": \"4627341\", \"noPercent\": \"45.6\"",
         "locator": "ballot-measures, Number 38"
       }
     ]
@@ -259,5 +259,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
