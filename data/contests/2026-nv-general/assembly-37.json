@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-37",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 37",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:shea-m-backus",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 37 Backus, Shea M. DEM Douglass, Jill M. REP",
+          "locator": "PDF page 5, List of Candidates, Partisan Offices, State Assembly, 2-Year Term, District 37"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Backus Shea M. DEM",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 37"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Backus, Shea M. Democratic No. 37 Clark (Part) Currently Serving",
+          "locator": "83rd (2025) Session Assembly roster: she holds Assembly District 37"
+        }
+      ]
+    },
+    {
+      "person": "person:jill-m-douglass",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 37 Backus, Shea M. DEM Douglass, Jill M. REP",
+          "locator": "PDF page 5, List of Candidates, Partisan Offices, State Assembly, 2-Year Term, District 37"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Douglass Jill M. REP",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 37"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Backus, Shea M. Democratic No. 37 Clark (Part) Currently Serving",
+          "locator": "83rd (2025) Session Assembly roster: the District 37 seat is held by another person"
+        }
+      ]
+    }
+  ],
+  "district": 37,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
