@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfplanning-org-5ab16156b6",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Planning Department",
+  "title": "Planning Director Bulletin No. 11: Housing Choice-SF Program",
+  "url": "https://sfplanning.org/resource/planning-director-bulletin-no-11-housing-choice-sf-program"
+}

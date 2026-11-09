@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.theo-ellington--sf-file-250700--publicly_supported--undated",
+  "type": "legislative_action",
+  "person": "person:theo-ellington",
+  "action": "publicly_supported",
+  "bill": "sf-file-250700",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:growsf-org-89815455e3",
+      "quote": "Mayor Lurie’s Family Zoning plan is directionally right, but is just the first step in addressing the scale of the housing crisis we’re facing.",
+      "locator": "Housing section, answer on Mayor Lurie's Family Zoning plan (questionnaire due March 12, 2026)"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "His questionnaire answer names Mayor Lurie's Family Zoning plan, not a file number; Ordinance No. 244-25 (File 250700, the Zoning Map ordinance) states it implements the Family Zoning Plan, which also includes General Plan and Planning Code amendments in separate files. He held no Board of Supervisors or state legislative office: his offices_held lists the Commission on Community Investment and Infrastructure (Board of Supervisors File 121141, a 2012 motion confirming his appointment). He also writes that District 10 was not included in the plan's changes."
+}
