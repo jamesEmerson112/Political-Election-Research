@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-29",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 29",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:alex-quagge",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Quagge, Alex NP",
+          "locator": "PDF page 9, LIST OF CANDIDATES, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 29 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 29",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 29 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 29 Reynolds (elected to a 2- year unexpired term) Jacob NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) listing as of 4/6/2026"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXIX PHOENIX 11th FL Jacob A. Reynolds",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXIX row (dept, location, courtroom, judge): the sitting judge of Department 29"
+        }
+      ]
+    },
+    {
+      "person": "person:jacob-reynolds",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Reynolds, Jacob NP",
+          "locator": "PDF page 9, LIST OF CANDIDATES, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 29 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 29",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 29 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 29 Reynolds (elected to a 2- year unexpired term) Jacob NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) listing as of 4/6/2026"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXIX PHOENIX 11th FL Jacob A. Reynolds",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXIX row (dept, location, courtroom, judge): the sitting judge of Department 29"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
