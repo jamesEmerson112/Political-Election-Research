@@ -49,6 +49,58 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "United States Air Force",
+          "role": "Service member (rank of E-5 staff sergeant), eight and a half years",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-9d049f181d",
+              "quote": "Judge Mary Perry is a veteran who served eight and a half years in the United States Air Force."
+            },
+            {
+              "source": "src:vegaslegalmagazine-com-272bf8e75c",
+              "quote": "Growing up with the values of discipline and hard work, she joined the United States Air Force and served her country for eight and a half years, achieving the rank of E-5 staff sergeant during the Desert Storm era, and is a disabled veteran."
+            }
+          ]
+        },
+        {
+          "organization": "Her own law firm",
+          "role": "Sole practitioner, domestic and family law",
+          "start": "2004",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-9d049f181d",
+              "quote": "She was a sole practioner in her own law firm from 2004 until joining the District Court bench department P in the Family Division."
+            },
+            {
+              "source": "src:thenevadaindependent-com-cda1f2fcc1",
+              "quote": "Perry was a domestic and family law attorney in her own law firm until she was elected to the Department P seat in 2020."
+            }
+          ]
+        },
+        {
+          "role": "Law clerk",
+          "citations": [
+            {
+              "source": "src:judgemaryperry-com-d5eafaeaa4",
+              "quote": "Before her election to the District Court, she worked in private practice with a focus on domestic and family law, and also gained experience as a law clerk and truancy judge."
+            }
+          ]
+        },
+        {
+          "role": "Truancy judge",
+          "citations": [
+            {
+              "source": "src:judgemaryperry-com-d5eafaeaa4",
+              "quote": "Before her election to the District Court, she worked in private practice with a focus on domestic and family law, and also gained experience as a law clerk and truancy judge."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
