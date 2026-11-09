@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "pvtimes-com-6fe34e2b4a",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-03-25",
+  "publisher": "Pahrump Valley Times",
+  "title": "Jon Penn Junejo: A Democrat running in Assembly District 36",
+  "url": "https://pvtimes.com/news/jon-penn-junejo-a-democrat-running-in-assembly-district-36-183899/",
+  "notes": "No archive: web.archive.org was unreachable from the research environment. Opened with tools/research/fetch-text.mjs on 2026-11-09."
+}

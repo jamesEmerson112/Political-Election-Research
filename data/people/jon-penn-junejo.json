@@ -40,6 +40,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Sindh, Pakistan",
+      "citations": [
+        {
+          "source": "src:pvtimes-com-6fe34e2b4a",
+          "quote": "Junejo was born in Sindh, Pakistan, and immigrated to America in 1993, when he was about six months old.",
+          "locator": "section \"The American dream\""
+        },
+        {
+          "source": "src:thenevadaindependent-com-241dc78c98",
+          "quote": "He was born in Pakistan and moved to the U.S. as an infant.",
+          "locator": "State Assembly, District 36, Jon Penn Junejo"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
