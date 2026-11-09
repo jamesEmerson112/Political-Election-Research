@@ -14,6 +14,22 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "BA in Elementary Education (minor in Special Education)",
+          "institution": "Marian University",
+          "citations": [
+            {
+              "source": "src:eadyfornevada-com-dfc55091d9",
+              "quote": "Eileen attended Marian University in Indianapolis, where she earned a BA in Elementary Education with a minor in Special Education.",
+              "locator": "Meet Eileen section"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Small business owner and outreach consultant",
       "citations": [
