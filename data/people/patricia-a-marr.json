@@ -125,6 +125,47 @@
           "where": "Nevada Secretary of State (nvsos.gov) candidate filings: host blocked (not reachable from this session)"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "lives in, resident of, city, home",
+          "where": "Campaign website https://www.marr4judge.com/ and /about (says she relocated to Nevada in 1985; no current city)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives in / resident",
+          "where": "Las Vegas Review-Journal, 'Women with backgrounds in law, psychology eye Family Court Dept. D' (2026-10-06): says she moved to Las Vegas in 1985, not where she lives now"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives in / resident",
+          "where": "Las Vegas Review-Journal 2026 voter guide candidate statement; RJ editorial 'Voters will decide half-dozen Family Court races'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives in / resident",
+          "where": "The Nevada Independent 2026 Clark County voter guide and Nov 4 results article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "Our Nevada Judges candidate page (ournevadajudges.com/candidates/patricia-a-marr)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Patricia A. Marr",
+          "where": "Clark County Election Department candidate lists (Notice-Gen-Election-26G.pdf, officesup-26g.pdf, Contests-Candidates-All-26.pdf): name and NP only, no address or city"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Patricia A. Marr filing address city",
+          "where": "Clark County 'Candidates Filed with Clark County' lookup (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx): search form only, results not readable here; nvsos.gov candidate filings: host blocked"
+        }
+      ]
     }
   },
   "ids": [],
