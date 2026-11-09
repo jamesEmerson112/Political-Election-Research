@@ -57,16 +57,16 @@
   "level": "state",
   "office_ref": "office:california-board-of-equalization-member",
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
     "tallies": [
       {
         "person": "person:mike-gipson",
-        "votes": 1096293
+        "votes": 1439284
       },
       {
         "person": "person:samuel-p-sukaton",
-        "votes": 758418
+        "votes": 1092337
       }
     ],
     "winners": [
@@ -75,21 +75,21 @@
     "citations": [
       {
         "source": "src:api-sos-ca-gov-dab87e398a",
-        "quote": "\"Reporting\": \"100% (2,853 of 2,853) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100% (2,853 of 2,853) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-dab87e398a",
-        "quote": "\"Name\": \"Mike Gipson\", \"Party\": \"Dem\", \"Votes\": \"1,096,293\", \"Percent\": \"59.1\"",
+        "quote": "\"Name\": \"Mike Gipson\", \"Party\": \"Dem\", \"Votes\": \"1,439,284\", \"Percent\": \"56.9\"",
         "locator": "candidates[0]"
       },
       {
         "source": "src:api-sos-ca-gov-dab87e398a",
-        "quote": "\"Name\": \"Samuel P. Sukaton\", \"Party\": \"Dem\", \"Votes\": \"758,418\", \"Percent\": \"40.9\"",
+        "quote": "\"Name\": \"Samuel P. Sukaton\", \"Party\": \"Dem\", \"Votes\": \"1,092,337\", \"Percent\": \"43.1\"",
         "locator": "candidates[1]"
       }
     ]
   },
   "vote_for": 1,
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
