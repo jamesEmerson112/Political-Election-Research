@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "votetanyaflanagan-com-5b927e89ed",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Elect Tanya Flanagan",
+  "title": "Tanya Flanagan Clark County Recorder | 23+ Years Serving Clark County",
+  "url": "https://votetanyaflanagan.com/"
+}

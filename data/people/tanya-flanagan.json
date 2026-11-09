@@ -18,6 +18,84 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County Recorder's Office",
+          "role": "Senior Training Coordinator",
+          "citations": [
+            {
+              "source": "src:votetanyaflanagan-com-0e06ca1429",
+              "quote": "I currently serve as Senior Training Coordinator in the Clark County Recorder’s Office and am a principal member of the administrative leadership team."
+            }
+          ]
+        },
+        {
+          "organization": "Clark County",
+          "role": "Community liaison to commission districts D and B",
+          "citations": [
+            {
+              "source": "src:votetanyaflanagan-com-5b927e89ed",
+              "quote": "I began my time at Clark County as the community liaison to commission districts D and B.",
+              "locator": "Other things that might interest you"
+            }
+          ]
+        },
+        {
+          "organization": "MGM Resorts International",
+          "role": "Public relations manager",
+          "citations": [
+            {
+              "source": "src:votetanyaflanagan-com-5b927e89ed",
+              "quote": "Prior to Clark County, I was a public relations manager with MGM Resorts International for two years following 10 years as a print news reporter covering suburban government, police and fire, and community boards for various publications including the Las Vegas Review-Journal, Long Beach Press Telegram, and Seattle Times.",
+              "locator": "Other things that might interest you"
+            }
+          ]
+        },
+        {
+          "role": "Print news reporter (Las Vegas Review-Journal, Long Beach Press Telegram, Seattle Times and other publications)",
+          "citations": [
+            {
+              "source": "src:votetanyaflanagan-com-5b927e89ed",
+              "quote": "Prior to Clark County, I was a public relations manager with MGM Resorts International for two years following 10 years as a print news reporter covering suburban government, police and fire, and community boards for various publications including the Las Vegas Review-Journal, Long Beach Press Telegram, and Seattle Times.",
+              "locator": "Other things that might interest you"
+            },
+            {
+              "source": "src:thenevadaindependent-com-e58a386375",
+              "quote": "also worked as a reporter for the Las Vegas Review-Journal for five years before pursuing public relations"
+            }
+          ]
+        },
+        {
+          "organization": "91.5 KUNV",
+          "role": "Radio show host, The Scoop with Tanya Flanagan",
+          "citations": [
+            {
+              "source": "src:votetanyaflanagan-com-5b927e89ed",
+              "quote": "When I am not working or hosting my radio show, The Scoop with Tanya Flanagan on 91.5 KUNV",
+              "locator": "Other things that might interest you"
+            }
+          ]
+        },
+        {
+          "organization": "Susan G. Komen Nevada",
+          "role": "President, Board of Directors",
+          "citations": [
+            {
+              "source": "src:votetanyaflanagan-com-0e06ca1429",
+              "quote": "President, Susan G. Komen Nevada Board of Directors",
+              "locator": "Civic & Professional Organizations"
+            },
+            {
+              "source": "src:thenevadaindependent-com-8102f7e6b3",
+              "quote": "she is the board president of the Nevada chapter of Susan G. Komen Breast Cancer Foundation",
+              "locator": "section 'Recorder'"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Senior Training Coordinator, Clark County Recorder's Office",
       "citations": [
