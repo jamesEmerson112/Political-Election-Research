@@ -60,6 +60,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elective or appointive public office held (she answers: 'I have never held any elective or appointive public office.')",
+          "where": "City of Las Vegas, Murphy's SB418 judicial questionnaire, PDF page 7, Prior Elected or Appointed Government Experience"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office",
+          "where": "The Nevada Independent 2026 voter guide, Municipal Court Judge Dept. 2 race page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "public office",
+          "where": "UNLV Special Collections, Allycia B. Murphy oral history interview (OH-03901) catalog record"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "site returned 'SITE NOT FOUND' (HTTP 404) on 2026-11-09",
+          "where": "murphy4judge.com"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Las Vegas City Council municipal court judge appointment applicants \"Allycia Murphy\"",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
