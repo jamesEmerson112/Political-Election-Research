@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.matt-dorsey--sf-file-240799--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:matt-dorsey",
+  "action": "sponsored",
+  "bill": "sf-file-240799",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfbos-org-1ff3fe004f",
+      "quote": "Supervisors Dorsey; Mandelman, Safai, Preston, Engardio, Melgar",
+      "locator": "Ordinance No. 257-24, footer of each page of the ordinance (sponsors; the first name listed is the lead sponsor)"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Lead sponsor; Supervisors Mandelman, Safai, Preston, Engardio and Melgar are listed as co-sponsors."
+}

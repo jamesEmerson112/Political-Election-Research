@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-240332",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-08-12",
+    "citations": [
+      {
+        "source": "src:sfbos-org-28005f43ed",
+        "quote": "July 02, 2024 Board of Supervisors - FlNALLY PASSED Ayes: 9 - Chan, Dorsey, Engardio, Mandelman, Melgar, Peskin, Preston, Ronen and Walton",
+        "locator": "Legislative history, File Number 240332"
+      },
+      {
+        "source": "src:sfbos-org-5ce7e8d984",
+        "quote": "240332 0168-24 8/12/2024 Administrative Code - Library Read to Recovery Program",
+        "locator": "Ordinances 2024 table (file number, enactment number, effective date, title)"
+      }
+    ]
+  },
+  "area": "health",
+  "summary": {
+    "value": "Ordinance establishing the Library Read to Recovery Program, providing free written materials and books from mutual-help programs at the Main Library and all Library branches for people seeking recovery from substance-use and other addictive disorders.",
+    "citations": [
+      {
+        "source": "src:sfbos-org-28005f43ed",
+        "quote": "Ordinance amending the Administrative Code to establish the Library Read to Recovery Program to provide at the Main Library and all Library branches free written materials and books from mutual-help programs, for individuals who seek recovery from substance-use disorders and non-substance-related addictive disorders.",
+        "locator": "Legislative history, File Number 240332"
+      }
+    ]
+  },
+  "title": {
+    "value": "Administrative Code - Library Read to Recovery Program",
+    "citations": [
+      {
+        "source": "src:sfbos-org-28005f43ed",
+        "quote": "FILE NO. 240332 ORDINANCE NO. 168-24 [Administrative Code - Library Read to Recovery Program]",
+        "locator": "Ordinance No. 168-24, p. 1"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

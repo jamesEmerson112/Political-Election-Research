@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbos-org-5ce7e8d984",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Ordinances 2024",
+  "url": "https://www.sfbos.org/ordinances-2024"
+}

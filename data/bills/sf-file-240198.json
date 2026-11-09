@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-240198",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-06-10",
+    "citations": [
+      {
+        "source": "src:sfbos-org-fd0522aae6",
+        "quote": "April 30, 2024 Board of Supervisors - FlNALLY PASSED Ayes: 11 - Chan, Dorsey, Engardio, Mandelman, Melgar, Peskin, Preston, Ronen, Safai, Stefani and Walton",
+        "locator": "Legislative history, File Number 240198"
+      },
+      {
+        "source": "src:sfbos-org-5ce7e8d984",
+        "quote": "240198 0093-24 6/10/2024 Development Agreement Amendment - Treasure Island Community Development, LLC - Treasure Island",
+        "locator": "Ordinances 2024 table (file number, enactment number, effective date, title)"
+      }
+    ]
+  },
+  "area": "housing",
+  "summary": {
+    "value": "Ordinance amending the City's Development Agreement with Treasure Island Community Development, LLC for the Treasure Island project, including its Financing Plan.",
+    "citations": [
+      {
+        "source": "src:sfbos-org-fd0522aae6",
+        "quote": "Ordinance amending a Development Agreement between the City and County of San Francisco and Treasure Island Community Development, LLC, a California limited liability company, for the Treasure Island project and to amend the Financing Plan;",
+        "locator": "Legislative history, File Number 240198"
+      }
+    ]
+  },
+  "title": {
+    "value": "Development Agreement Amendment - Treasure Island Community Development, LLC - Treasure Island",
+    "citations": [
+      {
+        "source": "src:sfbos-org-5ce7e8d984",
+        "quote": "240198 0093-24 6/10/2024 Development Agreement Amendment - Treasure Island Community Development, LLC - Treasure Island",
+        "locator": "Ordinances 2024 table (file number, enactment number, effective date, title)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

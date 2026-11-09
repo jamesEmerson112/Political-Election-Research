@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbos-org-f9091a5929",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Ordinances 2025",
+  "url": "https://www.sfbos.org/ordinances-2025"
+}

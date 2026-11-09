@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.matt-dorsey--sf-file-240332--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:matt-dorsey",
+  "action": "sponsored",
+  "bill": "sf-file-240332",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfbos-org-28005f43ed",
+      "quote": "Supervisors Dorsey; Mandelman, Stefani, Engardio, Ronen, Safai, Preston",
+      "locator": "Ordinance No. 168-24, footer of each page of the ordinance (sponsors; the first name listed is the lead sponsor)"
+    },
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "I legislated Read to Recovery",
+      "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 6, Matt Dorsey"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Lead sponsor; Supervisors Mandelman, Stefani, Engardio, Ronen, Safai and Preston are listed as co-sponsors."
+}

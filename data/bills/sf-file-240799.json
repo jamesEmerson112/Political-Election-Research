@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-240799",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-12-15",
+    "citations": [
+      {
+        "source": "src:sfbos-org-1ff3fe004f",
+        "quote": "November 05, 2024 Board of Supervisors - FlNALLY PASSED Ayes: 11 - Chan, Dorsey, Engardio, Mandelman, Melgar, Peskin, Preston, Ronen, Safai, Stefani and Walton",
+        "locator": "Legislative history, File Number 240799"
+      },
+      {
+        "source": "src:sfbos-org-5ce7e8d984",
+        "quote": "240799 0257-24 12/15/2024 Administrative Code - “Cash Not Drugs” Sobriety and Recovery Pilot Program",
+        "locator": "Ordinances 2024 table (file number, enactment number, effective date, title)"
+      }
+    ]
+  },
+  "area": "health",
+  "summary": {
+    "value": "Ordinance authorizing the Human Services Agency, with the Department of Public Health, to set up a voluntary three-year \"Cash Not Drugs\" program paying up to $100 a week to eligible County Adult Assistance Programs beneficiaries who were referred to substance use disorder treatment and test negative for illicit drugs once a week.",
+    "citations": [
+      {
+        "source": "src:sfbos-org-1ff3fe004f",
+        "quote": "Ordinance amending the Administrative Code to authorize the Human Services Agency, in coordination with the Department of Public Health, to establish a voluntary three-year sobriety and recovery incentive treatment program, known as \"Cash Not Drugs,\" to provide a weekly payment of up to $100 to eligible beneficiaries of the County Adult Assistance Programs (\"CAAP\") who have been screened for a substance use disorder and referred to substance use disorder treatment as a condition of further receipt of CAAP benefits, and who test negative for illicit drugs once per week;",
+        "locator": "Legislative history, File Number 240799"
+      }
+    ]
+  },
+  "title": {
+    "value": "Administrative Code - \"Cash Not Drugs\" Sobriety and Recovery Pilot Program",
+    "citations": [
+      {
+        "source": "src:sfbos-org-1ff3fe004f",
+        "quote": "FILE NO. 240799 ORDINANCE NO. 257-24 [Administrative Code - \"Cash Not Drugs\" Sobriety and Recovery Pilot Program]",
+        "locator": "Ordinance No. 257-24, p. 1"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

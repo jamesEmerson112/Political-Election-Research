@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-250190",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-06-23",
+    "citations": [
+      {
+        "source": "src:sfbos-org-f4a8313bde",
+        "quote": "May 13, 2025 Board of Supervisors - FlNALLY PASSED Ayes: 10 - Chan, Chen, Dorsey, Engardio, Fielder, Mahmood, Melgar, Sauter, Sherrill and Walton",
+        "locator": "Legislative history, File Number 250190"
+      },
+      {
+        "source": "src:sfbos-org-f9091a5929",
+        "quote": "250190 0076-25 6/23/2025 Administrative Code - Recovery First Substance Use Disorder Treatment Policy",
+        "locator": "Ordinances 2025 table (file number, enactment number, effective date, title)"
+      }
+    ]
+  },
+  "area": "health",
+  "summary": {
+    "value": "Ordinance making the long-term remission of substance use disorders the primary goal of the City's substance use disorder treatment policy.",
+    "citations": [
+      {
+        "source": "src:sfbos-org-f4a8313bde",
+        "quote": "Ordinance amending the Administrative Code to establish the long-term remission of substance use disorders for individuals as the primary goal of the City's substance use disorder treatment policy.",
+        "locator": "Legislative history, File Number 250190"
+      }
+    ]
+  },
+  "title": {
+    "value": "Administrative Code - Recovery First Substance Use Disorder Treatment Policy",
+    "citations": [
+      {
+        "source": "src:sfbos-org-f9091a5929",
+        "quote": "250190 0076-25 6/23/2025 Administrative Code - Recovery First Substance Use Disorder Treatment Policy",
+        "locator": "Ordinances 2025 table (file number, enactment number, effective date, title)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

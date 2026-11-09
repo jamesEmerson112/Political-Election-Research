@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.matt-dorsey--sf-file-250190--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:matt-dorsey",
+  "action": "sponsored",
+  "bill": "sf-file-250190",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfbos-org-f4a8313bde",
+      "quote": "Supervisors Dorsey; Mandelman, Mahmood, Sherrill, Melgar, Engardio, Sauter",
+      "locator": "Ordinance No. 76-25, footer of each page of the ordinance (sponsors; the first name listed is the lead sponsor)"
+    },
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "As your Supervisor, I authored the Recovery First Ordinance",
+      "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 6, Matt Dorsey"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Lead sponsor; Supervisors Mandelman, Mahmood, Sherrill, Melgar, Engardio and Sauter are listed as co-sponsors."
+}
