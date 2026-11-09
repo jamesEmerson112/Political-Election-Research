@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-y",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department Y",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:adriana-rincon-white",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Rincon White, Adriana NP",
+          "locator": "PDF page 11, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT Y (last name, first name, NP = nonpartisan): the only candidate listed"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department Y Rincon White (appointed to a 2-year unexpired term) Adriana NP 6",
+          "locator": "PDF page 6 (6 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department Y: this candidate is the current office holder (the listing notes she was appointed to a 2-year unexpired term)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "Y FAMILY 14 Adriana Rincon White",
+          "locator": "Judicial departments table, DEPT# Y row (dept, location, courtroom, judge): this candidate is the sitting judge"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
