@@ -3,6 +3,23 @@
   "id": "kamilah-bywaters",
   "name": "Kamilah Bywaters",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Bywaters Kamilah DEM",
+          "locator": "PDF page 2 (Page 2 of 10), STATE PARTISAN, State Assembly District 2"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
