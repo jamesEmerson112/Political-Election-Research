@@ -44,6 +44,26 @@
           ]
         }
       ]
+    },
+    "occupation": {
+      "value": "Attorney and managing member, Law Office of Amanda Pellizzari LLC; public attorney, Las Vegas Municipal Court",
+      "citations": [
+        {
+          "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+          "quote": "Organization: Law Office ofAmanda Pellizzari LLC Position: Attorney; Managing Member Dates: December 2020 - Present",
+          "locator": "PDF page 4, Education and Employment (candidate's own answers; the form text is OCR)"
+        },
+        {
+          "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+          "quote": "Organization: Las Vegas Municipal Court Position: Public Attorney Dates: June 2024- Present",
+          "locator": "PDF page 4, Education and Employment"
+        },
+        {
+          "source": "src:thenevadaindependent-com-725eba250b",
+          "quote": "Pellizzari serves as the public attorney for the municipal court, representing indigent defendants. She also has her own private law practice.",
+          "locator": "The Candidates, Amanda Pellizzari"
+        }
+      ]
     }
   },
   "ids": [],
