@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfplanning-org-f1d7074b1b",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Planning Department",
+  "title": "Family Zoning Plan",
+  "url": "https://sfplanning.org/family-zoning-plan"
+}

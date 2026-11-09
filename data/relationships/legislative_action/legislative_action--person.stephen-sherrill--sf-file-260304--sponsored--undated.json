@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.stephen-sherrill--sf-file-260304--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:stephen-sherrill",
+  "action": "sponsored",
+  "bill": "sf-file-260304",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-325fb8355a",
+      "quote": "Sponsors: Stephen Sherrill, Bilal Mahmood",
+      "locator": "Legislation Details, Sponsors (first-listed sponsor)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

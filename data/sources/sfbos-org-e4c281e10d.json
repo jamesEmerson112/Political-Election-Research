@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbos-org-e4c281e10d",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Ordinance No. 97-25, File No. 250140, with legislative history",
+  "url": "https://www.sfbos.org/sites/default/files/o0097-25.pdf"
+}

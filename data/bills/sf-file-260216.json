@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260216",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-04-30",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-62a665aa21",
+        "quote": "Enactment date: 4/30/2026 Enactment #: 074-26",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfgov-legistar-com-2aeaa8331d",
+        "quote": "Action: FINALLY PASSED Action text: FINALLY PASSED by the following vote: Votes (8:1)",
+        "locator": "Board of Supervisors, April 21, 2026, action details"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Administrative Code - Fire Code Technical Advisory Council",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-62a665aa21",
+        "quote": "Name: Administrative Code - Fire Code Technical Advisory Council",
+        "locator": "Legislation Details"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

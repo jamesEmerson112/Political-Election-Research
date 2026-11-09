@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.stephen-sherrill--sf-file-250101--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:stephen-sherrill",
+  "action": "sponsored",
+  "bill": "sf-file-250101",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-ad030c50fe",
+      "quote": "Sponsors: Stephen Sherrill, Danny Sauter, Bilal Mahmood, Myrna Melgar, Matt Dorsey, Rafael Mandelman",
+      "locator": "Legislation Details, Sponsors (first-listed sponsor)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

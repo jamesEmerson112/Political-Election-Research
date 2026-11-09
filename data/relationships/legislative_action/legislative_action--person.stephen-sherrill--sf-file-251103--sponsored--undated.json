@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.stephen-sherrill--sf-file-251103--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:stephen-sherrill",
+  "action": "sponsored",
+  "bill": "sf-file-251103",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-e4aee1a413",
+      "quote": "Sponsors: Stephen Sherrill, Connie Chan",
+      "locator": "Legislation Details, Sponsors (first-listed sponsor)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

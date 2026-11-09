@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260686",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-07-23",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-4d6729fdda",
+        "quote": "Enactment date: 7/23/2026 Enactment #: 133-26",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfgov-legistar-com-0927296f64",
+        "quote": "Action: FINALLY PASSED Action text: FINALLY PASSED Consent Votes (11:0)",
+        "locator": "Board of Supervisors, July 14, 2026, action details"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Administrative Code - Chestnut Street Entertainment Zone",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-4d6729fdda",
+        "quote": "Name: Administrative Code - Chestnut Street Entertainment Zone",
+        "locator": "Legislation Details"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

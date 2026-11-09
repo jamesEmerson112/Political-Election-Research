@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-250212",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-11-04",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e9a9c56075",
+        "quote": "Enactment date: 11/4/2025 Enactment #: 213-25",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfbos-org-caee65b2cd",
+        "quote": "Ayes: 10 - Chan, Chen, Dorsey, Fielder, Mahmood, Mandelman, Melgar, Sauter, Sherrill and Walton",
+        "locator": "Legislative history, October 28, 2025 Board of Supervisors - Finally Passed"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Administrative Code - Union Street Entertainment Zone",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e9a9c56075",
+        "quote": "Name: Administrative Code - Union Street Entertainment Zone",
+        "locator": "Legislation Details"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

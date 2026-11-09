@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbos-org-d70c521713",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Ordinance No. 62-25, File No. 250101, with legislative history",
+  "url": "https://www.sfbos.org/sites/default/files/o0062-25.pdf"
+}

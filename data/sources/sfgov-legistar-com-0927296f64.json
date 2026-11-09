@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-0927296f64",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors (Legistar)",
+  "title": "File No. 260686: Administrative Code - Chestnut Street Entertainment Zone, Board of Supervisors final passage action details and votes",
+  "url": "https://sfgov.legistar.com/HistoryDetail.aspx?ID=37185613&GUID=CC742D34-041D-4183-93FE-D53805E87259"
+}

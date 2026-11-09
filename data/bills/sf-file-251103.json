@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-251103",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-02-27",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e4aee1a413",
+        "quote": "Enactment date: 2/27/2026 Enactment #: 029-26",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfbos-org-8dba7d45b9",
+        "quote": "Ayes: 11 - Chan, Chen, Dorsey, Fielder, Mahmood, Mandelman, Melgar, Sauter, Sherrill, Walton and Wong",
+        "locator": "Legislative history, February 24, 2026 Board of Supervisors - Finally Passed"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Planning Code - Alcohol Sales in Movie Theaters",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e4aee1a413",
+        "quote": "Name: Planning Code - Alcohol Sales in Movie Theaters",
+        "locator": "Legislation Details"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

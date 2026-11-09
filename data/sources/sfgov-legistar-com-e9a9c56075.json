@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-e9a9c56075",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors (Legistar)",
+  "title": "File No. 250212: Administrative Code - Union Street Entertainment Zone (legislation details)",
+  "url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7253048&GUID=5AD50032-9BA4-4471-ABFC-C7B2CCD215F2&Options=&Search="
+}

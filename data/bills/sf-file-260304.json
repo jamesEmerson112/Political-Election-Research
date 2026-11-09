@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260304",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-05-08",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-325fb8355a",
+        "quote": "Enactment date: 5/8/2026 Enactment #: 080-26",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfgov-legistar-com-7680af2168",
+        "quote": "Action: FINALLY PASSED Action text: FINALLY PASSED by the following vote: Votes (10:0)",
+        "locator": "Board of Supervisors, April 28, 2026, action details"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Administrative Code - Upper Fillmore Entertainment Zone",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-325fb8355a",
+        "quote": "Name: Administrative Code - Upper Fillmore Entertainment Zone",
+        "locator": "Legislation Details"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

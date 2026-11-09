@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260118",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-07-23",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-cb14e8a386",
+        "quote": "Enactment date: 7/23/2026 Enactment #: 134-26",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfgov-legistar-com-ae4f7233c2",
+        "quote": "Action: FINALLY PASSED Action text: FINALLY PASSED Consent Votes (11:0)",
+        "locator": "Board of Supervisors, July 21, 2026, action details"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Business and Tax Regulations Code - Extending Waiver of Permit, License, and Business Registration Fees for Certain Small Businesses",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-cb14e8a386",
+        "quote": "Name: Business and Tax Regulations Code - Extending Waiver of Permit, License, and Business Registration Fees for Certain Small Businesses",
+        "locator": "Legislation Details"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

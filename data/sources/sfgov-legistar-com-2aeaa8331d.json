@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-2aeaa8331d",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors (Legistar)",
+  "title": "File No. 260216: Administrative Code - Fire Code Technical Advisory Council, Board of Supervisors final passage action details and votes",
+  "url": "https://sfgov.legistar.com/HistoryDetail.aspx?ID=36560183&GUID=9E6BC449-A7F4-4659-86B7-1857C1389662"
+}

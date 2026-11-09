@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.stephen-sherrill--sf-file-250700--voted_yes--2025-12-09",
+  "type": "legislative_action",
+  "person": "person:stephen-sherrill",
+  "action": "voted_yes",
+  "bill": "sf-file-250700",
+  "cycle": 2026,
+  "date": "2025-12-09",
+  "citations": [
+    {
+      "source": "src:sfbos-org-4da3f946d7",
+      "quote": "December 09, 2025 Board of Supervisors - FlNALLY PASSED Ayes: 6 - Dorsey, Mahmood, Mandelman, Melgar, Sauter and Sherrill",
+      "locator": "Legislative history (PDF p. 72)"
+    },
+    {
+      "source": "src:sfbos-org-4da3f946d7",
+      "quote": "December 02, 2025 Board of Supervisors - PASSED ON FIRST READING Ayes: 7 - Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill and Wong",
+      "locator": "Legislative history (PDF p. 72)"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Agenda question q:housing/citywide-rezoning. File No. 250700 is the Zoning Map ordinance of the Mayor's Family Zoning Plan (sponsors: Mayor Lurie; Supervisors Sauter, Mahmood, Dorsey)."
+}
