@@ -116,6 +116,24 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney (civil litigator)",
+      "citations": [
+        {
+          "source": "src:reviewjournal-com-c402fb9754",
+          "quote": "I have spent over twenty-five years as a civil litigator, including representing plaintiffs who are survivors of sexual abuse.",
+          "locator": "Board of Regents District 2, Jennifer McGrath, Experience (candidate's own statement)"
+        },
+        {
+          "source": "src:gov-nv-gov-97ed78aaa0",
+          "quote": "McGrath has been a litigator for over two decades, representing victims in many high-profile cases."
+        },
+        {
+          "source": "src:nevadacurrent-com-046ec96ff0",
+          "quote": "After Tarkanian died in 2024, McGrath, an attorney, was appointed to fill the seat in 2025 by Republican Gov. Joe Lombardo."
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",

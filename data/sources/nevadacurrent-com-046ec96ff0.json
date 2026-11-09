@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-046ec96ff0",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-22",
+  "publisher": "Nevada Current",
+  "title": "In first election since being appointed, higher ed regent draws challenge from math professor",
+  "url": "https://nevadacurrent.com/2026/09/22/in-first-election-since-being-appointed-higher-ed-regent-draws-challenge-from-math-professor/"
+}
