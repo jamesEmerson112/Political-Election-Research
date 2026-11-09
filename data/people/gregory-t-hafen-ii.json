@@ -4,6 +4,16 @@
   "name": "Gregory T. Hafen II",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1982",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: 1982 – Las Vegas, Nevada",
+          "locator": "Legislative Biography, 2025 Session, page 61: Gregory T. Hafen II"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
