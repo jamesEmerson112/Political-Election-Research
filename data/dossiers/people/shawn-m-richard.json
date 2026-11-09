@@ -1,6 +1,67 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:shawn-m-richard",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "\"Shawn Richard\" controversy lawsuit arrested ethics investigation",
+        "where": "Web search (general)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Shawn Richard\" \"Brothers Against Guns\" controversy OR lawsuit OR audit OR investigation",
+        "where": "Web search (general)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Shawn Richard\" San Francisco sued OR arrested OR charged OR fined OR conflict of interest",
+        "where": "Web search (general)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Brothers Against Guns\" San Francisco grant OR contract OR investigation OR lawsuit OR terminated",
+        "where": "Web search (general)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Shawn Richard\" Bayview nonprofit Brothers Against Guns Examiner OR Chronicle OR Standard",
+        "where": "Web search (general)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Shawn Richard; Brothers Against Guns",
+        "where": "Mission Local article search (missionlocal.org WordPress API), all years"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Richard; Shawn Richard; Brothers Against Guns",
+        "where": "San Francisco Ethics Commission site search (sfethics.org), including enforcement updates, stipulations and audit reports"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Shawn Richard",
+        "where": "San Francisco Ethics Commission news listing (sfethics.org/ethics/category/news), 2026 posts"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Shawn Richard",
+        "where": "The Voice of San Francisco, July 2, 2026 report on the first District 10 community forum (thevoicesf.org)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Shawn Richard",
+        "where": "The Sun Reporter, guide to San Francisco's 2026 Board of Supervisors races (thesunreporter.com)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Shawn Richard; Brothers Against Guns",
+        "where": "SF Examiner, July 27, 2014 report on the Bayview-Hunters Point Community Response Network (sfexaminer.com): text partly behind a paywall, no mention of Richard in the readable text"
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
