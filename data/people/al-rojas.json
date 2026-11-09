@@ -3,6 +3,23 @@
   "id": "al-rojas",
   "name": "Al Rojas",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Retired electronics engineer",
+      "citations": [
+        {
+          "source": "src:alrojasfornevada-com-2989c28947",
+          "quote": "I’m 66 yrs old, a retired Electronics Engineer with two co-patents.",
+          "locator": "About myself and my Platform"
+        },
+        {
+          "source": "src:thenevadaindependent-com-1f258aa16e",
+          "quote": "Rojas is a retired electronic engineer who ran for Assembly in the past two election cycles.",
+          "locator": "State Senate, District 21"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
