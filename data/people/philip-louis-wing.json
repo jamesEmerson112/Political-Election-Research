@@ -218,6 +218,77 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "growsf.org/voter-guide/questionnaires/november-2026/louis-wing/ (GrowSF November 2026 questionnaire with the candidate's own answers: policy goals, transit, length of residence in San Francisco, party-organization roles; no birth date, birthplace, schooling or public office stated)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "philiplouiswing.com (campaign website 'Wing for State Assembly 2026' listed by Ballotpedia: one page with donate and contact form only, no biography; /about and /about-us did not load (connection reset), /about-me is 'Page Not Found')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "elections.cdn.sos.ca.gov 2026-general and 2026-primary contact-list.pdf (SOS candidate contact lists: address, phone, e-mail wing4assembly@sonic.net and ballot designation; no website, no biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "elections.cdn.sos.ca.gov 2026-general cert-list-candidates.pdf (party and ballot designation 'Retired Financial Advisor' only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "media.api.sf.gov N26_EN_VIP.pdf and J26_EN_VIP.pdf (SF Voter Information Pamphlets, Nov 3 and June 2, 2026; candidate listed, no candidate statement printed)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "growsf.org/voter-guide/questionnaires/june-2026/philip-louis-wing/ (June 2026: no questionnaire sent, contact information unavailable)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "ijaction.org/ad-19-2026/ (Initiate Justice Action voter guide; Wing entry has no biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "sfragop.org/endorsements/ (San Francisco Republican Assembly recommendation list; name only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "sfchronicle.com 2026 California and S.F. Bay Area voter guide (party and 'Retired financial adviser' only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "sfstandard.com/2026-election-voter-guide/contest/ca-assembly-19-2026/ (paywalled; candidate entries not in page text)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "ballotpedia.org/Philip_Wing (reference lead only; no biography; candidate did not complete its survey; its personal Facebook, X, Instagram and LinkedIn links could not be resolved: the page text omits the URLs and ballotpedia.org's API answered 403)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education, degree, graduated, university, college, high school",
+          "where": "sfgop.org/endorsements (blocked host, not read)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Philip Louis Wing\"; \"Phil Wing\" San Francisco Republican Assembly candidate; \"Philip Wing\" \"San Francisco Republican Assembly\" secretary; Philip Wing San Francisco financial advisor LinkedIn; \"Wing for Assembly\" San Francisco 2026",
+          "where": "web search"
+        }
+      ]
+    },
     "occupation": {
       "value": "Retired Financial Advisor (ballot designation)",
       "citations": [
