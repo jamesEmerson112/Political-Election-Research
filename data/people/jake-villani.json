@@ -110,6 +110,52 @@
           "where": "Web search"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "residence, city, lives",
+          "where": "Campaign website https://www.villaniforjudge.com/ ('Coming Soon', under construction)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence; states only that he was born and raised in Las Vegas",
+          "where": "The Nevada Independent 2026 voter guide, Department 17 race page (https://thenevadaindependent.com/elections/2026/general/judicial/164)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence; states only 'Vegas native, born and raised'",
+          "where": "Our Nevada Judges candidate profile (https://ournevadajudges.com/candidates/jacob-james-villani/overview)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence, lives",
+          "where": "Nevada Current, 2026-10-02 'Prosecutor seeks to oust judge from Clark County District Court' (Villani did not respond to interview requests)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence, lives",
+          "where": "Las Vegas Review-Journal, 2020-09-25 'District Court Dept. 1: Villani, Yeager seeking seat' (https://develop.reviewjournal.com/?p=1954550)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate address or city (lists print name and party code only)",
+          "where": "Clark County Election Department candidate lists: Contests-Candidates-All-26.pdf, officesup-26g.pdf and Notice-Gen-Election-26G.pdf (clarkcountynv.gov), District Court Judge Department 17"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate filing / party; both hosts blocked from this session (Cloudflare challenge)",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov) and Silver State Election results (silverstateelection.nv.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jacob Villani Clark County prosecutor born age Las Vegas native",
+          "where": "Web search"
+        }
+      ]
     }
   },
   "ids": [],
