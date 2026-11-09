@@ -4,6 +4,47 @@
   "name": "Gwynneth Smith",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birthday, birth year, age",
+          "where": "Campaign website https://www.gwynneth4judge.com/, /about and /endorsements"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born / age",
+          "where": "Las Vegas Review-Journal, 'Women with backgrounds in law, psychology eye Family Court Dept. D' (2026-10-06): states only the candidate's age (no birth date or year); age is not stored"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born / birth date",
+          "where": "Las Vegas Review-Journal 2026 voter guide, Family Court Dept. D candidate statements; RJ editorial 'Voters will decide half-dozen Family Court races'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born / birth date",
+          "where": "The Nevada Independent 2026 Clark County voter guide and 'Election 2026: Two incumbent Clark County judges are defeated' (2026-11-04)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born / birth date",
+          "where": "Our Nevada Judges candidate page (ournevadajudges.com/candidates/gwynneth-f-smith)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Gwynneth Smith biography",
+          "where": "Eighth Judicial District Court judicial departments page (clarkcountycourts.us/departments/judicial/): candidate is not a sitting judge, no bio"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Gwynneth Smith born",
+          "where": "Web search: unavailable in this session (search budget exhausted)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
