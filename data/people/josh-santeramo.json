@@ -3,6 +3,54 @@
   "id": "josh-santeramo",
   "name": "Josh Santeramo",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "District Court Judge Department 30: the list prints only NP, which its key defines as 'Nonpartisan (indicated for nonpartisan offices only)', an office designation, not a voter registration",
+          "where": "Clark County Election Department, All Contests / Candidates in the November 3, 2026, General Election (Contests-Candidates-All-26.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 judicial candidates, Department 30: host blocked (Cloudflare challenge), not readable here",
+          "where": "Nevada Secretary of State certified candidate list and candidate information (nvsos.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered, born, birth, age, hometown",
+          "where": "santeramo4judge.com home and About pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registration, born, birth, age, residence",
+          "where": "The Nevada Independent 2026 voter guide, District Court Judge, Eighth Judicial District, Department 30"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered, born, age, birthplace",
+          "where": "Our Nevada Judges candidate profile (ournevadajudges.com/candidates/joshua-m-santeramo)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Santeramo Wiese Dept. 30: both hosts blocked (Cloudflare), not readable here",
+          "where": "Nevada Current, 'Long-time judge draws challenger in Clark County Dept. 30' (nevadacurrent.com search API and newsfromthestates.com republication)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Josh Santeramo\" Department 30 Democrat OR Republican OR registered",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Santeramo\" judge Las Vegas party registration",
+          "where": "web search"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
