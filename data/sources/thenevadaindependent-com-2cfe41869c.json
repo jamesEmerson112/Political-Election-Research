@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-2cfe41869c",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-11-06",
+  "publisher": "The Nevada Independent",
+  "title": "Voters reject Southern Nevada school board candidates backed by Moms for Liberty",
+  "url": "https://thenevadaindependent.com/article/voters-reject-school-board-candidates-backed-by-moms-for-liberty-in-a-reversal-from-2024/"
+}
