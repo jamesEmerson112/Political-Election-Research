@@ -50,6 +50,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Rural northern Louisiana",
+      "citations": [
+        {
+          "source": "src:vegaslegalmagazine-com-0d6c071776",
+          "quote": "Born in rural northern Louisiana, she moved to various places with her family, gaining a strong work ethic from her upbringing in a family of creative entrepreneurs and small business owners.",
+          "locator": "Profile introduction"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",

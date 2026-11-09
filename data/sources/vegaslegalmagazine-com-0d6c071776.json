@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "vegaslegalmagazine-com-0d6c071776",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "publisher": "Vegas Legal Magazine",
+  "title": "Meet the Incumbent: Judge Clark Newberry",
+  "url": "https://www.vegaslegalmagazine.com/meet-the-incumbent-judge-clark-newberry/"
+}
