@@ -24,6 +24,25 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Public defender, Clark County Public Defender, Juvenile Division",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Clark County Public Defender, Juvenile Division",
+          "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall, occupation line"
+        },
+        {
+          "source": "src:jamesohrenschall-com-dfc7cf8c9c",
+          "quote": "Inspired by her example, James became a juvenile public defender to ensure that children receive fair treatment in the legal system."
+        },
+        {
+          "source": "src:thenevadaindependent-com-1f258aa16e",
+          "quote": "A deputy public defender for the Clark County Juvenile Court, Ohrenschall previously served six terms in the Assembly and has held his Senate seat since 2018.",
+          "locator": "State Senate, District 21"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
