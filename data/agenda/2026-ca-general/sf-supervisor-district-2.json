@@ -179,6 +179,42 @@
           "where": "Web search \"Guy McCoy\" San Francisco District 2 supervisor 2026 (profile research, 2026-11-04): no campaign site found"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-2|legislation|person:monthanus-ratanapakdee",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "offices held; Supervisor / legislature / city council",
+          "where": "https://www.sf.gov/profile--monthanus-ratanapakdee (City commissioner profile): appointed to the Immigrant Rights Commission by the Mayor in August 2024; no elected or legislative office listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Immigrant Rights Commission role and powers",
+          "where": "https://www.sf.gov/departments--immigrant-rights-commission and its About page: an advisory body that guides the Mayor and Board of Supervisors; it does not enact legislation"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ratanapakdee; Vicha; Monthanus (matter titles and names)",
+          "where": "Legistar web API for sfgov (webapi.legistar.com/v1/sfgov/matters, substringof filters): no matters returned; the API returned no matters introduced after 2024-01-01 for any query tested"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ratanapakdee sfgov.legistar.com (web search)",
+          "where": "web search: no Board of Supervisors file sponsored by her; the Vicha Ratanapakdee Way street renaming resolution was introduced by Supervisor Catherine Stefani (lead only, not opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "authored / bill / ordinance / legislation",
+          "where": "https://www.ratanapakdeesf.org/meet-monthanus and https://www.ratanapakdeesf.org/priorities (campaign site): community advocacy and an appointed commission seat; no legislative office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "offices held; legislation",
+          "where": "San Francisco Voter Information Pamphlet, November 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 2, printed p. 40"
+        }
+      ]
     }
   ],
   "measures": [],
