@@ -57,16 +57,16 @@
   "level": "state",
   "office_ref": "office:california-board-of-equalization-member",
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
     "tallies": [
       {
         "person": "person:tom-umberg",
-        "votes": 1156093
+        "votes": 1419777
       },
       {
         "person": "person:denis-bilodeau",
-        "votes": 890734
+        "votes": 1064922
       }
     ],
     "winners": [
@@ -75,21 +75,21 @@
     "citations": [
       {
         "source": "src:api-sos-ca-gov-0c55789d70",
-        "quote": "\"Reporting\": \"100% (7,198 of 7,198) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100% (7,198 of 7,198) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-0c55789d70",
-        "quote": "\"Name\": \"Tom Umberg\", \"Party\": \"Dem\", \"Votes\": \"1,156,093\", \"Percent\": \"56.5\"",
+        "quote": "\"Name\": \"Tom Umberg\", \"Party\": \"Dem\", \"Votes\": \"1,419,777\", \"Percent\": \"57.1\"",
         "locator": "candidates[0]"
       },
       {
         "source": "src:api-sos-ca-gov-0c55789d70",
-        "quote": "\"Name\": \"Denis Bilodeau\", \"Party\": \"Rep\", \"Votes\": \"890,734\", \"Percent\": \"43.5\"",
+        "quote": "\"Name\": \"Denis Bilodeau\", \"Party\": \"Rep\", \"Votes\": \"1,064,922\", \"Percent\": \"42.9\"",
         "locator": "candidates[1]"
       }
     ]
   },
   "vote_for": 1,
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
