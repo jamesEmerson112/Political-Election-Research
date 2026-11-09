@@ -91,6 +91,38 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Southern Illinois University, Carbondale",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-319c1c1078",
+              "quote": "Southern Illinois University, Carbondale, IL, 2002",
+              "locator": "Biography, Education (candidate-supplied; no degree named)"
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "education",
+          "where": "ivoterguide.com candidate 71807, Education (names the university and a year, no degree)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education",
+          "where": "electbrandondavis.com (only the post-election letter is served)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "electbrandondavis.com about Brandon Davis Southern Illinois University",
+          "where": "web search"
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-09",
       "items": [
