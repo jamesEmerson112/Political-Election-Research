@@ -125,6 +125,52 @@
           "where": "Web search"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "residence, lives in, city",
+          "where": "Campaign website https://martinaforjudge.com/ (home page; /about returns 404): only a campaign mailing address (a numbered suite/box on W. Charleston Blvd., Las Vegas) is given, which is not a residence"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives in, resident of",
+          "where": "The Nevada Independent 2026 voter guide, Department 23 (https://thenevadaindependent.com/elections/2026/general/judicial/174): says she 'has lived in Nevada since that year' (state only, no city)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "Our Nevada Judges candidate page (https://ournevadajudges.com/candidates/martina-bauhaus/overview)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "BallotReady candidate profile (https://www.ballotready.org/people/martina-bauhaus)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate address / city",
+          "where": "Clark County Election Department candidate lists (officesup-all-2026, Contests-Candidates-All-26, Notice of General Election 26G): no addresses"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate residence",
+          "where": "Nevada Secretary of State declaration of candidacy (nvsos.gov) and 2024 Commission on Judicial Selection application (nvcourts.gov): hosts blocked from this environment"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Martina Bauhaus\" for judge Las Vegas Metropolitan Police assistant general counsel (no residence city found)",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Martina Bauhaus\" Germany born attorney Nevada (no residence city found)",
+          "where": "Web search"
+        }
+      ]
     }
   },
   "ids": [],
