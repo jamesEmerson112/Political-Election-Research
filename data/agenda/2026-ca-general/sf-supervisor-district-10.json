@@ -654,6 +654,32 @@
           "where": "San Francisco Board of Supervisors legislative files via the Legistar web API (webapi.legistar.com/v1/sfgov/matters): no matter naming him"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-10|legislation|person:ellsworth-ell-m-jennison-jr",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth Jennison authored, sponsored or voted on legislation",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 10 candidate statements (VIP statement printed p. 49; no questionnaire published by GrowSF): no legislative office named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Legistar person records with last name Jennison",
+          "where": "San Francisco Board of Supervisors Legistar API (webapi.legistar.com/v1/sfgov/persons, filtered by last name Jennison, Muhammad or Lin): no records returned"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth Jennison elected or appointed office",
+          "where": "Profile research for offices_held (person record, as of 2026-11-03/04: VIP, ballot designations list, KQED, GrowSF, SF Examiner, SF Chronicle): no city, state or federal legislative office found"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth Jennison legislation, votes, bills",
+          "where": "KQED voter guide and results page for Board of Supervisors District 10 (kqed.org), Local News Matters / Bay City News Aug. 2, 2026 forum report: candidate described only as a challenger, no office held"
+        }
+      ]
     }
   ],
   "measures": [],
