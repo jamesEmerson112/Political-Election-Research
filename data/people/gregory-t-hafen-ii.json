@@ -29,6 +29,25 @@
         }
       ]
     },
+    "occupation": {
+      "value": "General manager, Pahrump Utility Company",
+      "citations": [
+        {
+          "source": "src:hafen4nevada-com-86a0e25eb7",
+          "quote": "After graduation, Gregory went to work for his family business, Pahrump Utility Company Inc., and climbed his way to general manager."
+        },
+        {
+          "source": "src:thenevadaindependent-com-241dc78c98",
+          "quote": "A general manager at Pahrump Utility Company, Hafen has held his Assembly seat since 2018.",
+          "locator": "State Assembly, District 36, Gregory T. Hafen II"
+        },
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Utility Manager",
+          "locator": "Legislative Biography, 2025 Session, page 61: Gregory T. Hafen II (occupation line)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

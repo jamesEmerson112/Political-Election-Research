@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "hafen4nevada-com-86a0e25eb7",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Friends of Gregory T. Hafen",
+  "title": "About — Hafen for Assembly District 36",
+  "url": "https://www.hafen4nevada.com/about",
+  "notes": "No archive: web.archive.org was unreachable from the research environment. Opened with tools/research/fetch-text.mjs on 2026-11-09."
+}
