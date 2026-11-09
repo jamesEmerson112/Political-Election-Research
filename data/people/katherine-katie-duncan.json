@@ -73,6 +73,47 @@
           "locator": "PDF page 2, Nevada State Assembly Candidates, District 6"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "residence, lives in",
+          "where": "duncanfornevada.com home, about, issues and vote pages (campaign site; says 'Rooted in District 6', names no city of residence)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "ivoterguide.com candidate profile 94958"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "Las Vegas Review-Journal, Dec. 3, 2011 ('Las Vegas businesswoman'; says she had lived in Senate District 4 for 34 years, no city of residence) and Sept. 29, 2020 and May 13, 2020 articles"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Katherine \"Katie\" Duncan",
+          "where": "The Nevada Independent 2026 voter guide, Clark State Assembly"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Katie Duncan Las Vegas City Council Ward 5 2024 candidate Harrison House",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Katie Duncan\" Assembly District 6 Nevada",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate address",
+          "where": "nvsos.gov (declarations of candidacy; blocked from the research environment)"
+        }
+      ]
     }
   },
   "ids": [],
