@@ -70,6 +70,52 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County School District",
+          "role": "Educator",
+          "citations": [
+            {
+              "source": "src:silvestri4silverstate-com-1cbb152a6e",
+              "quote": "He has worked for the Clark County School District as an educator for almost 30 years.",
+              "locator": "Home page, biography paragraph"
+            },
+            {
+              "source": "src:thenevadaindependent-com-241dc78c98",
+              "quote": "He has worked for almost 30 years in the Clark County School District and has also worked as a real estate agent and ocean lifeguard.",
+              "locator": "State Assembly, District 3, Joseph P. Silvestri"
+            }
+          ]
+        },
+        {
+          "role": "Real estate agent (Las Vegas)",
+          "citations": [
+            {
+              "source": "src:silvestri4silverstate-com-1cbb152a6e",
+              "quote": "Joe has had experience working many different and interesting jobs throughout his life, including working as a Real Estate agent in Las Vegas.",
+              "locator": "Home page, biography paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Ocean lifeguard (several beaches on Long Island, 32 years; retired)",
+          "citations": [
+            {
+              "source": "src:silvestri4silverstate-com-1cbb152a6e",
+              "quote": "His favorite job has been the 32 years he worked as an Ocean Lifeguard at several beaches on Long Island.",
+              "locator": "Home page, biography paragraph"
+            },
+            {
+              "source": "src:silvestri4silverstate-com-1cbb152a6e",
+              "quote": "Dad, teacher, ocean lifeguard (retired)",
+              "locator": "Home page, candidate's self-description"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
