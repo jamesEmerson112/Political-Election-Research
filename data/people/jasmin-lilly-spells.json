@@ -116,6 +116,40 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Eighth Judicial District Court, Department 23",
+          "current": true,
+          "first_elected": "2020",
+          "jurisdiction": "Eighth Judicial District (Clark County), Nevada",
+          "start": "2021-01-04",
+          "citations": [
+            {
+              "source": "src:judgelilly-spells-com-bbf72793ad",
+              "quote": "Judge Jasmin Lilly-Spells has served the people of Clark County District Court, Department 23, since taking the bench in January 2021.",
+              "locator": "Home page, first paragraph"
+            },
+            {
+              "source": "src:judgelilly-spells-com-bbf72793ad",
+              "quote": "Nevada voters first elected Judge Lilly-Spells in November 2020, following more than a decade of courtroom experience representing everyday families across the Eighth Judicial District.",
+              "locator": "Home page, first paragraph"
+            },
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Incumbent District Court Judge, Dept. 23. Took the bench Jan. 4, 2021.",
+              "locator": "Jasmin Lilly-Spells candidate deep dive, Title"
+            },
+            {
+              "source": "src:clarkcountycourts-us-5fdf1479e4",
+              "quote": "Prior to taking the bench in department 23, Judge Jasmin Lilly-Spells served Clark County Public Defender’s office for over a decade and was named chief deputy public defender.",
+              "locator": "Department XXIII page, Biography"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
