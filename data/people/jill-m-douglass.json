@@ -60,6 +60,160 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Douglass Financial Services (Douglass Insurance and Financial Services)",
+          "role": "Owner",
+          "start": "1994",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-e6e7123f45",
+              "quote": "Douglass Financial Services, Owner, 1994-",
+              "locator": "Biography, Work & Military"
+            },
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "Self-employed owner of Douglass Insurance and Financial Services.",
+              "locator": "State Assembly District 37, Jill M. Douglass, Experience (candidate's statement)"
+            }
+          ]
+        },
+        {
+          "end": "2022",
+          "organization": "COUNTRY Financial",
+          "role": "Financial Rep; Manager, Director; Agency Vice President (Nevada, Arizona and Colorado operations)",
+          "start": "1998",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-e6e7123f45",
+              "quote": "COUNTRY Financial, Financial Rep; Manager, Director; Agency Vice President, 1998-2022",
+              "locator": "Biography, Work & Military"
+            },
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "Manager, Director and Agency Vice President for NV, AZ & CO operations directing the development and implementation of sales plans, programs, policies and profitability.",
+              "locator": "State Assembly District 37, Jill M. Douglass, Experience (candidate's statement)"
+            },
+            {
+              "source": "src:jilldouglass-com-34bd3c2576",
+              "quote": "Jill moved to Nevada over 32 years ago and built a career in financial services, rising to Agency Vice President of a multi-state agency.",
+              "locator": "home page, Meet Jill section"
+            }
+          ]
+        },
+        {
+          "end": "1994",
+          "organization": "Douglass Insurance (Farmers Insurance)",
+          "role": "Insurance Agent",
+          "start": "1993",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-e6e7123f45",
+              "quote": "Douglass Insurance- Farmers Insurance, Insurance Agent, 1993-1994",
+              "locator": "Biography, Work & Military"
+            }
+          ]
+        },
+        {
+          "end": "1993",
+          "organization": "Rick Schnieder (Farmers Insurance)",
+          "role": "Customer Service Rep",
+          "start": "1990",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-e6e7123f45",
+              "quote": "Rick Schnieder- Farmers Insurance, Customer Service Rep, 1990-1993",
+              "locator": "Biography, Work & Military"
+            }
+          ]
+        },
+        {
+          "end": "1990",
+          "organization": "Bob Congdon (Farmers Insurance), Tacoma, Washington",
+          "role": "Licensed Producer",
+          "start": "1986",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-e6e7123f45",
+              "quote": "Bob Congdon- Farmers Insurance, Tacoma, WA, Licensed Producer, 1986-1990",
+              "locator": "Biography, Work & Military"
+            }
+          ]
+        },
+        {
+          "end": "1990",
+          "organization": "Paul Davoud School, North Bay, Ontario, Canada",
+          "role": "Teacher",
+          "start": "1988",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-e6e7123f45",
+              "quote": "Paul Davoud School, North Bay , Ontario, CA, Teachetr, 1988-1990",
+              "locator": "Biography, Work & Military"
+            },
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "Previously worked as a teacher of Protestant Religion, Canadian Forces Base, North Bay, Ontario Canada, and as a Legal Assistant to Okaloosa Walton County, FL Bar Association.",
+              "locator": "State Assembly District 37, Jill M. Douglass, Experience (candidate's statement)"
+            }
+          ]
+        },
+        {
+          "organization": "Okaloosa Walton County, FL Bar Association",
+          "role": "Legal Assistant",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "Previously worked as a teacher of Protestant Religion, Canadian Forces Base, North Bay, Ontario Canada, and as a Legal Assistant to Okaloosa Walton County, FL Bar Association.",
+              "locator": "State Assembly District 37, Jill M. Douglass, Experience (candidate's statement)"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada National Association of Insurance and Financial Advisors (NAIFA)",
+          "role": "Past State President",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "Past State President of Nevada National Association of Insurance and Financial Advisors and So Nevada NAIFA.",
+              "locator": "State Assembly District 37, Jill M. Douglass, Experience (candidate's statement)"
+            }
+          ]
+        },
+        {
+          "end": "2025",
+          "organization": "Battle Born Republican Women",
+          "role": "President",
+          "start": "2021",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-e6e7123f45",
+              "quote": "Battle Born Republican Woman, President, 2021-2025",
+              "locator": "Biography, Affiliations"
+            },
+            {
+              "source": "src:reviewjournal-com-65a2773e7c",
+              "quote": "Jill Douglass, president of the Battle Born Republican Women of Southern Nevada, is running against Law in the election slated for July 18.",
+              "locator": "article body, 2nd paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County Republican Party",
+          "role": "Chair",
+          "start": "2025-07",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-fe8491ae3f",
+              "quote": "She has never held public office, though she now chairs the Clark County Republican Party, elected in July 2025 after defeating incumbent Jesse Law.",
+              "locator": "section \"Meet the candidates\""
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Owner, Douglass Insurance and Financial Services (businesswoman)",
       "citations": [

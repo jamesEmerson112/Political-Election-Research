@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ivoterguide-com-e6e7123f45",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "iVoterGuide (AFA Action)",
+  "title": "Voter Guide Profile for NV State Assembly, Dist. 37 candidate - Jill M. Douglass",
+  "url": "https://ivoterguide.com/candidate/80243/race/32653/election/1472",
+  "notes": "Third-party voter guide profile (Biography: Education, Work & Military, Affiliations). iVoterGuide is a division of AFA Action. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
