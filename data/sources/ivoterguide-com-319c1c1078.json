@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ivoterguide-com-319c1c1078",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "iVoterGuide (AFA Action)",
+  "title": "Voter Guide Profile for NV State Assembly, Dist. 34 candidate - Brandon Davis",
+  "url": "https://ivoterguide.com/candidate/71807/race/32650/election/1472",
+  "notes": "Biography section (education, work, affiliations) of the candidate profile for the November 3, 2026 general election. iVoterGuide is a division of AFA Action. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "electbrandondavis-com-6ce2b91a47",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Elect Brandon Davis",
+  "title": "Elect Brandon Davis | Assembly District 34",
+  "url": "https://electbrandondavis.com/",
+  "notes": "On 2026-11-09 the home page (and every other path tried) showed a post-election letter from the candidate. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

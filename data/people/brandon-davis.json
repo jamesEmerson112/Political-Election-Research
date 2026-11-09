@@ -91,6 +91,51 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member (District E representative), Attendance Zone Advisory Commission",
+          "current": true,
+          "jurisdiction": "Clark County School District",
+          "start": "2025",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-319c1c1078",
+              "quote": "Clark County School District Attendance Zone Advisory Commission, Representative District E, 2025-",
+              "locator": "Biography, Affiliations (candidate-supplied)"
+            },
+            {
+              "source": "src:electbrandondavis-com-6ce2b91a47",
+              "quote": "Looking forward, my work serving on the CCSD Attendance Zone Advisory Commission for District E continues as well as the various other ways I serve my community.",
+              "locator": "Post-election letter on the home page"
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "political offices held",
+          "where": "ivoterguide.com candidate 71807, Political Offices Held (\"Candidate did not provide\")"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Davis",
+          "where": "leg.state.nv.us 2025 Legislative Manual, Chapter I (members of the 2025 Legislature; Davis not listed)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Brandon Davis",
+          "where": "thenevadaindependent.com 2026 Clark State Assembly guide (not an incumbent; lost 2024 bid for this seat, ran for governor)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "CCSD Attendance Zone Advisory Commission members District E",
+          "where": "web search for a CCSD roster of the Attendance Zone Advisory Commission (none found)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
