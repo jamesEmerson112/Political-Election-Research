@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:michael-t-nguyen",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Michael Nguyen drag District 8 San Francisco supervisor candidate controversy",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Michael Nguyen\" \"Juicy Liu\" San Francisco criticized OR complaint OR ethics OR controversy",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Michael Nguyen District 8 candidate DCCC member patent attorney criticism lawsuit",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Manny Yekutiel controversy District 8 supervisor (results also covered the other three candidates)",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "San Francisco Ethics Commission enforcement District 8 candidate 2026 McCoy OR Yekutiel OR Patel OR Nguyen",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "McCoy / Nguyen / Patel / Yekutiel",
+        "where": "https://sfethics.org/ethics/category/news (SF Ethics Commission news and enforcement notices, latest page)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Results named Nguyen only as a candidate (and as a co-signer, with McCoy and Patel, of a joint statement calling on Yekutiel to withdraw); results about other people named Nguyen (San Jose officials) were not about this candidate. No documented matter met the two-publisher or official-record rule",
+        "where": "note"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Date range applied to every candidate in this contest: 2020-01-01 to 2026-11-09. Documented matters need two independent publishers or one official record; the same web searches, outlets (Mission Local, The San Francisco Standard, KQED, Bay Area Reporter) and the San Francisco Ethics Commission news page were checked for each candidate",
+        "where": "note"
+      }
+    ]
+  }
+}
