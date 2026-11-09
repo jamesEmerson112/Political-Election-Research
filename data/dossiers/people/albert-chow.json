@@ -31,5 +31,36 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Albert Chow elected or appointed office; legislation",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 4 candidate statements, PDF p. 44 (printed p. 42): occupation Hardware Store Owner; qualifications list POPS co-founder and small business owner, no legislative office"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Albert Chow biography; offices held",
+        "where": "Campaign site albertchowsf.com (Meet Albert and Issues pages): store owner and People of Parkside Sunset leader, no legislative office"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Albert Chow",
+        "where": "Legistar Members page (sfgov.legistar.com/People.aspx), current Board of Supervisors members: not listed"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Albert Chow (sponsor, speaker or vote)",
+        "where": "San Francisco Board of Supervisors meeting minutes (sfgov.legistar.com), all 37 Board meetings with posted minutes, December 2, 2025 to November 3, 2026: no match"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Albert Chow documented outcomes (enacted legislation, programs, budgets) in government records",
+        "where": "Same sources as above; the campaign site and candidate statement describe People of Parkside Sunset events and rebuilding Great Wall Hardware, which are not outcomes in a government record"
+      }
+    ]
   }
 }
