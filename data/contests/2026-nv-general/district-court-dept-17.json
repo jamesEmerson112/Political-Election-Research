@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-17",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 17",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:jennifer-schwartz",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Schwartz, Jennifer NP",
+          "locator": "PDF page 8, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 17 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 17",
+          "locator": "PDF page 8, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 17 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 17 Schwartz (elected to a 4- year unexpired term) Jennifer NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XVII RJC 3E Jennifer Schwartz",
+          "locator": "Civil/criminal judicial departments table, DEPT# XVII row (dept, location, courtroom, judge): the sitting judge of Department 17"
+        }
+      ]
+    },
+    {
+      "person": "person:jake-villani",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Villani, Jake NP",
+          "locator": "PDF page 8, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 17 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 17",
+          "locator": "PDF page 8, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 17 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 17 Schwartz (elected to a 4- year unexpired term) Jennifer NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XVII RJC 3E Jennifer Schwartz",
+          "locator": "Civil/criminal judicial departments table, DEPT# XVII row (dept, location, courtroom, judge): the sitting judge of Department 17"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
