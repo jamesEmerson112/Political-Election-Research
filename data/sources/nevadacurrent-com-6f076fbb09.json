@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-6f076fbb09",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-07",
+  "publisher": "Nevada Current",
+  "title": "Attorney seeks to oust incumbent in Clark County District Court race",
+  "url": "https://nevadacurrent.com/2026/10/07/attorney-seeks-to-oust-incumbent-in-clark-county-district-court-race/"
+}

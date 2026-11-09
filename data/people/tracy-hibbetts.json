@@ -3,6 +3,18 @@
   "id": "tracy-hibbetts",
   "name": "Tracy Hibbetts",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Nonpartisan",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-6f076fbb09",
+          "quote": "Hibbetts says, adding she’s registered as nonpartisan.",
+          "locator": "paragraph on her husband's party affiliation"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
