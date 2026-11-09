@@ -160,6 +160,32 @@
           "where": "SFUSD Citizens' Bond Oversight Committee page (sfusd.edu/advisory-councils-committees/sfusd-bond-program-citizens-bond-oversight-committee-cboc): Vice-Chair, appointed October 11, 2022, reappointed November 12, 2024; an oversight committee, not a legislative body"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-board-of-education|legislation|person:reina-tello",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or legislative office held",
+          "where": "Person record offices_held (profile research, 2026-11-04): no elected or appointed public office found in the Nov 3, 2026 Voter Information Pamphlet statement, reinaforschoolboard.org or the GrowSF questionnaire"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bills, legislation, Board votes",
+          "where": "Campaign site reinaforschoolboard.org (home and About pages): no bill named; career as Safeway employee and PODER community organizer"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bills, legislation, ballot measures",
+          "where": "GrowSF November 2026 Board of Education questionnaire, Reina Tello: names only a ballot-measure campaign (\"Prop M\") she worked on at PODER, which is a voter initiative, not a bill; no bill authored, voted on or publicly supported"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Reina Tello\" San Francisco PODER commission advisory committee Prop M",
+          "where": "Web search (PODER staff pages, city sites): no public office, legislative vote or bill position found"
+        }
+      ]
     }
   ],
   "measures": [],
