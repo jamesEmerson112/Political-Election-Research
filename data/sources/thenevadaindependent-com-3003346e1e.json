@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-3003346e1e",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2023-10-20",
+  "publisher": "The Nevada Independent",
+  "title": "Democrat C.H. Miller resigning from Assembly, will run for Las Vegas City Council",
+  "url": "https://thenevadaindependent.com/article/democrat-c-h-miller-resigning-from-assembly-will-run-for-las-vegas-city-council"
+}

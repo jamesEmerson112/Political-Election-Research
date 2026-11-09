@@ -75,6 +75,63 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Licensed stylist (cosmetologist), Las Vegas",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-28b258e444",
+              "quote": "After Miller graduated high school, he received a cosmetology license and worked as a licensed stylist in Las Vegas for about 12 years.",
+              "locator": "CAREER"
+            }
+          ]
+        },
+        {
+          "role": "Independent entertainment consultant and executive producer",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-28b258e444",
+              "quote": "He now works as an independent entertainment consultant and executive producer in Las Vegas.",
+              "locator": "CAREER (as of March 2021)"
+            }
+          ]
+        },
+        {
+          "organization": "Sen. Amy Klobuchar presidential campaign",
+          "role": "Nevada Director, 2020 presidential campaign",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "He served as the 2020 Nevada Director of Sen. Amy Klobuchar’s (D-MN) presidential campaign.",
+              "locator": "State Assembly, District 7"
+            }
+          ]
+        },
+        {
+          "organization": "Urban Chamber of Commerce",
+          "role": "President and CEO",
+          "start": "2022-12",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-e1385d0c01",
+              "quote": "Chamber members celebrated the appointment of Democratic Assemblyman Cameron \"C.H.\" Miller, 42, at the Classic Jewel downtown lounge and bar earlier this month.",
+              "locator": "article dated December 30, 2022"
+            },
+            {
+              "source": "src:thenevadaindependent-com-e1385d0c01",
+              "quote": "Miller said he will start his service as president and CEO with an audit to decide what needs to change, what needs to stay and what can end at the Urban Chamber of Commerce."
+            },
+            {
+              "source": "src:thenevadaindependent-com-3003346e1e",
+              "quote": "He was appointed CEO of the Urban Chamber last December.",
+              "locator": "article dated October 20, 2023"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
