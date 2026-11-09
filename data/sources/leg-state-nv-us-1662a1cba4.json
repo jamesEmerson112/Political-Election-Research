@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-1662a1cba4",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislative Counsel Bureau",
+  "title": "Senator Marilyn Dondero Loop",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Senate/83rd2025/8",
+  "notes": "Legislator page, 83rd (2025) Session, Senate District 8. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable."
+}

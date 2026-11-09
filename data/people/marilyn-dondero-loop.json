@@ -19,6 +19,63 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly",
+          "end": "2014-11",
+          "jurisdiction": "Nevada Assembly",
+          "start": "2008-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Years in Assembly: November 2008 to November 2014",
+              "locator": "Legislative Biography, 2025 Session, page 13: Marilyn Dondero Loop"
+            },
+            {
+              "source": "src:leg-state-nv-us-43913c6d74",
+              "quote": "Dondero Loop, Marilyn Democratic No. 5 Clark (Part)",
+              "locator": "77th (2013) Session Assembly roster: District 5 in the 2013 session"
+            }
+          ]
+        },
+        {
+          "office": "Member, Nevada State Senate, District 8",
+          "jurisdiction": "Nevada Senate District 8",
+          "start": "2018-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Years in Senate: November 2018 to Current",
+              "locator": "Legislative Biography, 2025 Session, page 13: Marilyn Dondero Loop"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Democrat Senate District 8 Clark County (part)",
+              "locator": "Legislative Biography, 2025 Session, page 13: Marilyn Dondero Loop"
+            }
+          ]
+        },
+        {
+          "office": "President pro Tempore, Nevada State Senate",
+          "jurisdiction": "Nevada Senate",
+          "start": "2025",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Senate President Pro Tempore, 2025",
+              "locator": "Legislative Biography, 2025 Session, page 13: Marilyn Dondero Loop, Leadership"
+            },
+            {
+              "source": "src:leg-state-nv-us-1662a1cba4",
+              "quote": "Senator Marilyn Dondero Loop President pro Tempore Party: Democratic District 8",
+              "locator": "Legislator page, 83rd (2025) Session"
+            }
+          ]
+        }
+      ]
+    },
     "residence_city": {
       "value": "Las Vegas",
       "citations": [

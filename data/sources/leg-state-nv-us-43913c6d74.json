@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-43913c6d74",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislative Counsel Bureau",
+  "title": "Assembly Legislators, 77th (2013) Session",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/77th2013",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. The 75th (2009) and 76th (2011) session rosters returned HTTP 500. Not archived: web.archive.org was unreachable."
+}
