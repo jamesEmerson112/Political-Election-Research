@@ -86,6 +86,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Howell Shaw offices held",
+          "where": "Campaign site howellshaw.pages.dev: home page and Biography page (lists career, ministry and civic roles; no elected or appointed public office)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Howell Shaw",
+          "where": "Las Vegas Review-Journal 2026 Voter Guide, County Clerk entry (candidate-supplied experience; no public office)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Howell Shaw",
+          "where": "The Nevada Independent, 2026-09-19, down-ballot Clark County offices preview"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Shaw",
+          "where": "Clark County Election Department, Countywide Offices list of elected officials"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Howell Shaw Clark County Clerk candidate 2026",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
