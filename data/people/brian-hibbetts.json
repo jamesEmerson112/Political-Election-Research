@@ -29,6 +29,45 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2021-12",
+          "organization": "Las Vegas Metropolitan Police Department",
+          "role": "Police officer (patrol officer, detective for the Robbery and Homicide Bureau, police sergeant); retired as a detective sergeant",
+          "start": "1994",
+          "citations": [
+            {
+              "source": "src:brianhibbetts-com-e7befeb19c",
+              "quote": "Brian joined LVMPD full time in 1994 and quickly rose through the ranks and committed himself to protecting our communities and enforcing and implementing our laws.",
+              "locator": "About page, Meet Brian Hibbetts"
+            },
+            {
+              "source": "src:thenevadaindependent-com-36e4d133b8",
+              "quote": "He later joined the agency in 1994 and held various positions, including patrol officer, a detective for the Robbery and Homicide Bureau and police sergeant in the intelligence collection department of the Southern Nevada Counter Terrorism Center.",
+              "locator": "Career"
+            },
+            {
+              "source": "src:reviewjournal-com-93800b44b9",
+              "quote": "was a detective sergeant with the Las Vegas Metropolitan Police Department, retiring in December 2021 after 27 years.",
+              "locator": "Brian Hibbetts section (May 15, 2022)"
+            }
+          ]
+        },
+        {
+          "organization": "Ex-Con Inc. of Nevada",
+          "role": "Co-founder and Director",
+          "citations": [
+            {
+              "source": "src:brianhibbetts-com-e7befeb19c",
+              "quote": "Co-founder and Director of Ex-Con Inc. of Nevada, a 501(c)(3) dedicated to developing the next generation of law enforcement professionals through the Explorer Program.",
+              "locator": "About page, Nonprofit Leadership"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
