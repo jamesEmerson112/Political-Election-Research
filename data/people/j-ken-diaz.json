@@ -125,6 +125,52 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "Clark County Treasurer official biography page, clarkcountynv.gov (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "Clark County Election Department, Countywide Offices page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "The Nevada Independent, 2026-09-19 article on Clark County downballot offices (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "The Nevada Independent 2026 Nevada Voter Guide, Clark County page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "Las Vegas Review-Journal, 2022-10-06 treasurer race article (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Clark County Treasurer Ken Diaz biography",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ken Diaz for Treasurer Clark County Nevada 2026 campaign website",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "nvsos.gov candidate filings (host blocked from this session; not reached)"
+        }
+      ]
     }
   },
   "ids": [],
