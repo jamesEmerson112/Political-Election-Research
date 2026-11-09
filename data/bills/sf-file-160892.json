@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-160892",
+  "status": {
+    "value": "enacted",
+    "as_of": "2016-10-07",
+    "citations": [
+      {
+        "source": "src:sfbos-org-efd701a733",
+        "quote": "ORDINANCE NO. 186-16",
+        "locator": "page 1"
+      },
+      {
+        "source": "src:sfbos-org-efd701a733",
+        "quote": "Ordinance was FINALLY PASSED on 9/27/2016 by the Board of Supervisors of the City and County of San Francisco.",
+        "locator": "page 6"
+      },
+      {
+        "source": "src:sfbos-org-efd701a733",
+        "quote": "September 27, 2016 Board of Supervisors - FlNALLY PASSED Ayes: 10 - Breed, Campos, Cohen, Farrell, Kim, Mar, Peskin, Tang, Wiener and Yee",
+        "locator": "page 6"
+      },
+      {
+        "source": "src:sfbos-org-efd701a733",
+        "quote": "Unsigned 10/7/2016",
+        "locator": "page 6"
+      },
+      {
+        "source": "src:sfbos-org-efd701a733",
+        "quote": "became effective without his approval",
+        "locator": "page 7"
+      }
+    ]
+  },
+  "area": "other",
+  "summary": {
+    "value": "Ordinance amending the Administrative Code to establish the San Francisco City College Enrollment Fee Assistance Fund.",
+    "citations": [
+      {
+        "source": "src:sfbos-org-efd701a733",
+        "quote": "Ordinance amending the Administrative Code to establish the San Francisco City College Enrollment Fee Assistance Fund.",
+        "locator": "page 6, legislative history"
+      }
+    ]
+  },
+  "title": {
+    "value": "Administrative Code - San Francisco City College Enrollment Fee Assistance Fund",
+    "citations": [
+      {
+        "source": "src:sfbos-org-efd701a733",
+        "quote": "Administrative Code - San Francisco City College Enrollment Fee Assistance Fund",
+        "locator": "page 1, title"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

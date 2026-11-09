@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.jane-kim--sf-file-160892--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:jane-kim",
+  "action": "sponsored",
+  "bill": "sf-file-160892",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfbos-org-efd701a733",
+      "quote": "Supervisors Kim; Yee, Mar, Campos",
+      "locator": "page 1, sponsor line"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Lead sponsor; co-sponsors Supervisors Yee, Mar and Campos."
+}

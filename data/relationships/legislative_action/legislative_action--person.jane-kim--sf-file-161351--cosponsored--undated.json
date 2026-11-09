@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.jane-kim--sf-file-161351--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:jane-kim",
+  "action": "cosponsored",
+  "bill": "sf-file-161351",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfbos-org-61a7c4cacd",
+      "quote": "Supervisors Breed; Kim, Peskin, Safai, Tang",
+      "locator": "page 1, sponsor line"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Co-sponsor in the final version (lead sponsor Supervisor Breed)."
+}

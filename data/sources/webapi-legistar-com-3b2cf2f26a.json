@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "webapi-legistar-com-3b2cf2f26a",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2014-07-29",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF Board of Supervisors Legistar record, File No. 140687: Initiative Ordinance - Administrative Code - Minimum Wage (Motion M14-134)",
+  "url": "https://webapi.legistar.com/v1/sfgov/matters/28274"
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-161351",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-07-18",
+    "citations": [
+      {
+        "source": "src:sfbos-org-61a7c4cacd",
+        "quote": "ORDINANCE NO. 158-17",
+        "locator": "page 1"
+      },
+      {
+        "source": "src:sfbos-org-61a7c4cacd",
+        "quote": "July 18, 2017 Board of Supervisors - FlNALLY PASSED Ayes: 11 - Breed, Cohen, Farrell, Fewer, Kim, Peskin, Ronen, Safai, Sheehy, Tang and Yee",
+        "locator": "page 48"
+      },
+      {
+        "source": "src:sfbos-org-61a7c4cacd",
+        "quote": "Ordinance was FlNALLY PASSED on 7/18/2017 by the Board of Supervisors of the City and County of San Francisco.",
+        "locator": "page 48"
+      }
+    ]
+  },
+  "area": "housing",
+  "summary": {
+    "value": "Ordinance revising the Inclusionary Affordable Housing Fee, the on-site and off-site affordable housing alternatives and other inclusionary housing requirements, adopted following voter approval of Proposition C at the June 7, 2016 election.",
+    "citations": [
+      {
+        "source": "src:sfbos-org-61a7c4cacd",
+        "quote": "Ordinance amending the Planning Code to revise the amount of the lnclusionary Affordable Housing Fee and the On-Site and Off-Site Affordable Housing Alternatives and other lnclusionary Housing requirements",
+        "locator": "page 47, legislative history"
+      },
+      {
+        "source": "src:sfbos-org-61a7c4cacd",
+        "quote": "obligations following voter approval of Proposition Cat the June 7, 2016 election to revise the",
+        "locator": "page 2, Section 2(a)"
+      }
+    ]
+  },
+  "title": {
+    "value": "Planning Code - Inclusionary Affordable Housing Fee and Dwelling Unit Mix Requirements",
+    "citations": [
+      {
+        "source": "src:sfbos-org-61a7c4cacd",
+        "quote": "[Planning Code - lnclusionary Affordable Housing Fee and Dwelling Unit Mix Requirements]",
+        "locator": "page 1, title (printed with a lowercase-l OCR artifact in \"Inclusionary\")"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "webapi-legistar-com-1593fb778f",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2014-07-29",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF Board of Supervisors Legistar sponsors, File No. 140687: Initiative Ordinance - Administrative Code - Minimum Wage",
+  "url": "https://webapi.legistar.com/v1/sfgov/matters/28274/sponsors"
+}

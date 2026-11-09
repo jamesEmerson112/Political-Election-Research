@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-151274",
+  "status": {
+    "value": "passed_legislature",
+    "as_of": "2016-03-01",
+    "citations": [
+      {
+        "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+        "quote": "March 01, 2016 Board of Supervisors - ORDERED SUBMITTED Ayes: 11 - Avalos, Breed, Campos, Cohen, Farrell, Kim, Mar, Peskin, Tang, Wiener and Yee",
+        "locator": "page 12, legislative history"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+        "quote": "Amendment was ORDERED SUBMITTED on 3/1/2016 by the Board of Supervisors of the City and County of San Francisco.",
+        "locator": "page 12"
+      }
+    ]
+  },
+  "area": "housing",
+  "summary": {
+    "value": "Proposal to the voters at the June 7, 2016 election to amend the Charter to authorize the Board of Supervisors to update inclusionary or affordable housing obligations and to set increased interim requirements, including 25% of units as affordable for projects of 25 or more units that build the affordable units on site.",
+    "citations": [
+      {
+        "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+        "quote": "Charter Amendment (First Draft) to amend the Charter of the City and County of San Francisco to authorize the Board of Supervisors to update the inclusionary or affordable housing obligations for housing development projects, and setting forth increased interim requirements",
+        "locator": "page 12, legislative history"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+        "quote": "at an election to be held on June 7, 2016.",
+        "locator": "page 12, legislative history"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+        "quote": "(B) For housing development projects consisting oftwenty-five dwelling",
+        "locator": "page 10"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+        "quote": "the project sponsor shall construct 25% ofall units",
+        "locator": "page 10"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+        "quote": "constructed on the project site as affordable housing units. with 15% ofthe units atfprdable to",
+        "locator": "page 10"
+      }
+    ]
+  },
+  "title": {
+    "value": "Charter Amendment - Authorizing Board of Supervisors to Update Inclusionary or Affordable Housing Requirements and Providing Increased Interim Requirements",
+    "citations": [
+      {
+        "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+        "quote": "[Charter Amendment - Authorizing Board of Supervisors to Update Inclusionary or Affordable Housing Requirements and Providing Increased Interim Requirements]",
+        "locator": "page 1, title"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

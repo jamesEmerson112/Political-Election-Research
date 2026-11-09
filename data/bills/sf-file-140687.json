@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-140687",
+  "status": {
+    "value": "passed_legislature",
+    "as_of": "2014-07-29",
+    "citations": [
+      {
+        "source": "src:webapi-legistar-com-3b2cf2f26a",
+        "quote": "\"MatterStatusName\":\"Passed\"",
+        "locator": "MatterStatusName"
+      },
+      {
+        "source": "src:webapi-legistar-com-3b2cf2f26a",
+        "quote": "\"MatterPassedDate\":\"2014-07-29T00:00:00\"",
+        "locator": "MatterPassedDate"
+      },
+      {
+        "source": "src:webapi-legistar-com-3b2cf2f26a",
+        "quote": "\"MatterEnactmentNumber\":\"M14-134\"",
+        "locator": "MatterEnactmentNumber"
+      }
+    ]
+  },
+  "area": "economy",
+  "summary": {
+    "value": "Motion ordering submitted to the voters at the November 4, 2014 election an ordinance raising the San Francisco minimum wage to $12.25 per hour on May 1, 2015, with annual increases reaching $15.00 per hour in 2018, followed by annual cost-of-living increases.",
+    "citations": [
+      {
+        "source": "src:webapi-legistar-com-3b2cf2f26a",
+        "quote": "Motion ordering submitted to the voters an ordinance amending the Administrative Code to increase the minimum wage for employees in San Francisco to $12.25 per hour on May 1, 2015, with annual increases, reaching $15.00 per hour in 2018, followed thereafter by annual cost-of-living increases",
+        "locator": "MatterTitle"
+      },
+      {
+        "source": "src:webapi-legistar-com-3b2cf2f26a",
+        "quote": "at an election to be held on November 4, 2014.",
+        "locator": "MatterTitle"
+      }
+    ]
+  },
+  "title": {
+    "value": "Initiative Ordinance - Administrative Code - Minimum Wage",
+    "citations": [
+      {
+        "source": "src:webapi-legistar-com-3b2cf2f26a",
+        "quote": "\"MatterName\":\"Initiative Ordinance - Administrative Code - Minimum Wage\"",
+        "locator": "MatterName"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-170555",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-06-13",
+    "citations": [
+      {
+        "source": "src:sfbos-org-e071d0147b",
+        "quote": "ORDINANCE N0.125-17",
+        "locator": "page 1"
+      },
+      {
+        "source": "src:sfbos-org-e071d0147b",
+        "quote": "Ordinance was FINALLY PASSED on 6/13/2017 by the Board of Supervisors of the City and County of San Francisco.",
+        "locator": "legislative history page"
+      },
+      {
+        "source": "src:sfbos-org-e071d0147b",
+        "quote": "June 13, 2017 Board of Supervisors - FlNALLY PASSED Ayes: 11 - Breed, Cohen, Farrell, Fewer, Kim, Peskin, Ronen, Safai, Sheehy, Tang and Yee",
+        "locator": "legislative history page"
+      }
+    ]
+  },
+  "area": "other",
+  "summary": {
+    "value": "Ordinance amending the Administrative Code to rename the San Francisco City College Enrollment Fee Assistance Fund as the San Francisco City College Financial Assistance Fund, clarify the permissible uses of monies appropriated to this fund, add two members to this fund's Oversight Committee, and increase the number of required meetings for the Oversight Committee.",
+    "citations": [
+      {
+        "source": "src:sfbos-org-e071d0147b",
+        "quote": "Ordinance amending the Administrative Code to rename the San Francisco City College Enrollment Fee Assistance Fund as the San Francisco City College Financial Assistance Fund, clarify the permissible uses of monies appropriated to this fund, add two members to this fund's Oversight Committee, and increase the number of required meetings for the Oversight Committee.",
+        "locator": "legislative history page"
+      }
+    ]
+  },
+  "title": {
+    "value": "Administrative Code - Amending the San Francisco City College Enrollment Fee Financial Assistance Fund",
+    "citations": [
+      {
+        "source": "src:sfbos-org-e071d0147b",
+        "quote": "[Administrative Code - Amending the San Francisco City College Enrollment Fee Financial Assistance Fund]",
+        "locator": "page 1, title"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

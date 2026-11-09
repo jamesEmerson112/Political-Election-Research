@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.jane-kim--sf-file-151274--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:jane-kim",
+  "action": "sponsored",
+  "bill": "sf-file-151274",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sanfrancisco-legistar1-com-ab5c814491",
+      "quote": "Supervisors Kim; Peskin, Mar, Avalos, Campos",
+      "locator": "page 1, sponsor line"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Lead sponsor; co-sponsors Supervisors Peskin, Mar, Avalos and Campos. The Board ordered the charter amendment submitted to the voters for the June 7, 2016 election."
+}

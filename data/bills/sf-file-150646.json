@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-150646",
+  "status": {
+    "value": "enacted",
+    "as_of": "2015-10-09",
+    "citations": [
+      {
+        "source": "src:sanfrancisco-legistar1-com-5f0300c415",
+        "quote": "FILE NO. 150646 ORDINANCE NO. 171-15",
+        "locator": "page 1"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-5f0300c415",
+        "quote": "September 29, 2015 Board of Supervisors - FlNALLY PASSED Ayes: 7 - Avalos, Breed, Campos, Christensen, Cohen, Kim and Mar Noes: 4 - Farrell, Tang, Wiener and Yee",
+        "locator": "page 15"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-5f0300c415",
+        "quote": "10/9/2015 Date Approved",
+        "locator": "page 15"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-5f0300c415",
+        "quote": "not being signed by the Mayor within the time limit as set forth in Section 3.103 of the Charter, or time waived pursuant to Board Rule 2.14.2, became effective without his approval",
+        "locator": "page 16"
+      }
+    ]
+  },
+  "area": "housing",
+  "summary": {
+    "value": "Amended the Rent Ordinance to, among other things, prohibit (with exceptions) rent increases based on the addition of occupants, prevent evictions based on the addition of occupants if the landlord unreasonably refused the tenant's written request, and require a Rent Board form in six languages to be attached to each notice to vacate.",
+    "citations": [
+      {
+        "source": "src:sanfrancisco-legistar1-com-5f0300c415",
+        "quote": "1) prohibit, with certain exceptions, rent increases based on the addition of occupants even where a pre-existing rental agreement or lease permits such an increase; 2) prevent evictions based on the addition of occupants if the landlord has unreasonably refused the tenant's written request",
+        "locator": "page 15, legislative history"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-5f0300c415",
+        "quote": "9) require the Rent Board to prepare a form in English, Chinese, Spanish, Vietnamese, Tagalog, and Russian stating that a notice to vacate may lead to a lawsuit to evict",
+        "locator": "page 15, legislative history"
+      },
+      {
+        "source": "src:sanfrancisco-legistar1-com-5f0300c415",
+        "quote": "10) require landlords to attach a copy of the Rent Board form in the primary language of the tenant to each notice to vacate",
+        "locator": "page 15, legislative history"
+      }
+    ]
+  },
+  "title": {
+    "value": "Administrative Code - Amendments to Residential Rent Stabilization and Arbitration Ordinance",
+    "citations": [
+      {
+        "source": "src:sanfrancisco-legistar1-com-5f0300c415",
+        "quote": "[Administrative Code - Amendments to Residential Rent Stabilization and Arbitration Ordinance]",
+        "locator": "page 1, title"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
