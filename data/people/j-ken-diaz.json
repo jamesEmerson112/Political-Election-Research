@@ -96,6 +96,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Clark County Treasurer; certified public accountant",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-5264ca1704",
+          "quote": "Ken Diaz was elected Clark County Treasurer on November 8, 2022.",
+          "locator": "J. Ken Diaz, CPA biography"
+        },
+        {
+          "source": "src:clarkcountynv-gov-5264ca1704",
+          "quote": "Ken is a CPA and has many years of high-level experience in the areas of accounting and auditing.",
+          "locator": "J. Ken Diaz, CPA biography"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

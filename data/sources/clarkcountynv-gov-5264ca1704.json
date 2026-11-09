@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-5264ca1704",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Clark County Treasurer's Office",
+  "title": "Biographies (Clark County Treasurer)",
+  "url": "https://www.clarkcountynv.gov/government/elected_officials/county_treasurer/biography"
+}
