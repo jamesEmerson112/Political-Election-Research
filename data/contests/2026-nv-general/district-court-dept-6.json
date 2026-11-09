@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-6",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 6",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:jacqueline-m-bluth",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Bluth, Jacqueline M. NP",
+          "locator": "PDF page 8, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 6 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 6",
+          "locator": "PDF page 7, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 6 heading, whose candidate is printed at the top of page 8"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 6 Bluth Jacqueline NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "VI RJC 10C Jacqueline Bluth",
+          "locator": "Civil/criminal judicial departments table, DEPT# VI row (dept, location, courtroom, judge): the sitting judge of Department 6"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
