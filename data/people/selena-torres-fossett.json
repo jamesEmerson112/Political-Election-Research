@@ -4,6 +4,16 @@
   "name": "Selena Torres-Fossett",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1995",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: 1995 – Las Vegas, Nevada",
+          "locator": "PDF page 86, Legislative Biography—2025 Session, Selena Torres-Fossett"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
