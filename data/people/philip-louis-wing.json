@@ -4,6 +4,21 @@
   "name": "Philip Louis Wing",
   "aliases": [],
   "candidate_profile": {
+    "occupation": {
+      "value": "Retired Financial Advisor (ballot designation)",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Philip Louis Wing Republican\nRetired Financial Advisor",
+          "locator": "PDF page 22 (list page 21 of 41), State Assembly Member District 19; ballot designation printed under the candidate's name"
+        },
+        {
+          "source": "src:sfchronicle-com-1f49c3255d",
+          "quote": "Philip Louis Wing\nRetired financial adviser",
+          "locator": "State Assembly District 19"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
