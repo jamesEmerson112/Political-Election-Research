@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-93b3a138e6",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislature (Legislative Counsel Bureau)",
+  "title": "Assemblymember Tanya P. Flanagan",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/7"
+}

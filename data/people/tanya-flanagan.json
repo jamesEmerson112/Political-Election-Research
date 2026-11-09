@@ -32,6 +32,40 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly, District 7",
+          "current": false,
+          "end": "2026",
+          "first_elected": "2024",
+          "jurisdiction": "Nevada",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-93b3a138e6",
+              "quote": "Assemblymember Tanya P. Flanagan\nParty: Democratic\nDistrict 7",
+              "locator": "83rd (2025) session member page, header"
+            },
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "Flanagan was first elected to the Assembly in 2024 and is running for Clark County Recorder.",
+              "locator": "County Recorder section"
+            },
+            {
+              "source": "src:clarkcountynv-gov-0fea7de355",
+              "quote": "7 Tanya Flanagan (D) 2026",
+              "locator": "PDF page 36, State Assembly table, columns DISTRICT / INCUMBENT / YEAR TERM EXPIRES"
+            },
+            {
+              "source": "src:clarkcountynv-gov-0fea7de355",
+              "quote": "Members of the State Assembly take office the next day after the Federal/State\nGeneral Election, i.e., November 4, 2026.",
+              "locator": "PDF page 36, Special Instructions"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

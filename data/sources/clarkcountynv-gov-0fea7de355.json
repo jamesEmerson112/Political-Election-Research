@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-0fea7de355",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Clark County Election Department",
+  "title": "2026 Candidate Guide",
+  "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:87081077-a781-4f1b-a628-0865c869eaea/original/as/cg26.pdf"
+}
