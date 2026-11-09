@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountycourts-us-b0ed60f34b",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Eighth Judicial District Court",
+  "title": "Department VIII – Eighth Judicial District Court",
+  "url": "https://www.clarkcountycourts.us/departments/judicial/civil-criminal-divison/department-viii/",
+  "notes": "Department 8 page with the judge's biography. Opened 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

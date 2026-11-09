@@ -3,6 +3,18 @@
   "id": "jessica-k-peterson",
   "name": "Jessica K. Peterson",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Department 8",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-b0ed60f34b",
+          "quote": "Jessica K. Peterson is the judge for Department 8.",
+          "locator": "Biography"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
