@@ -33,6 +33,42 @@
           "locator": "First paragraph"
         }
       ]
+    },
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party for this candidate: the lists print only 'NP' (NP = Nonpartisan, indicated for nonpartisan offices only), no party registration",
+          "where": "Clark County Election Department candidate lists: Contests-Candidates-All-26.pdf, officesup-26g.pdf and Notice-Gen-Election-26G.pdf (clarkcountynv.gov), District Court Judge Department 17"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party",
+          "where": "Campaign website https://www.villaniforjudge.com/ ('Coming Soon', under construction)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party (race shown as Nonpartisan)",
+          "where": "The Nevada Independent 2026 voter guide, Department 17 race page (https://thenevadaindependent.com/elections/2026/general/judicial/164)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party (lists Villani, Jacob James (NP))",
+          "where": "Our Nevada Judges candidate profile (https://ournevadajudges.com/candidates/jacob-james-villani/overview)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate filing / party; both hosts blocked from this session (Cloudflare challenge)",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov) and Silver State Election results (silverstateelection.nv.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jacob Villani Department 17 party registration Democrat Republican",
+          "where": "Web search"
+        }
+      ]
     }
   },
   "ids": [],
