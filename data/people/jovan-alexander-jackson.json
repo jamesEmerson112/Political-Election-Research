@@ -28,6 +28,51 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Business owner",
+          "citations": [
+            {
+              "source": "src:jovanjackson-com-8a84362d60",
+              "quote": "At 19, he launched his first business… and for over a decade, he has worked in mental health and social services, supporting individuals and families across Southern Nevada."
+            }
+          ]
+        },
+        {
+          "role": "Mental health and social services worker",
+          "citations": [
+            {
+              "source": "src:jovanjackson-com-8a84362d60",
+              "quote": "At 19, he launched his first business… and for over a decade, he has worked in mental health and social services, supporting individuals and families across Southern Nevada."
+            },
+            {
+              "source": "src:jovanjackson-com-8a84362d60",
+              "quote": "With my 11 years of experience in social services and mental healthcare, advocating for others is my passion and lifestyle."
+            }
+          ]
+        },
+        {
+          "role": "Co-founder of a nonprofit housing people with mental illness",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-241dc78c98",
+              "quote": "He co-founded a nonprofit to house people suffering from mental illness."
+            }
+          ]
+        },
+        {
+          "role": "Criminal justice reform organizer",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-ed17037fea",
+              "quote": "Before being elected, Jackson was an organizer who pushed for reforms to the local and state criminal legal system."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
