@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-a23c7e08ac",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-04-15",
+  "publisher": "Nevada Current",
+  "title": "Three candidates vie for Summerlin area Las Vegas City Council seat",
+  "url": "https://nevadacurrent.com/2026/04/15/three-candidates-vie-for-summerlin-area-las-vegas-city-council-seat/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
