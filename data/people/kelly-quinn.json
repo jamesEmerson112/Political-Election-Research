@@ -66,6 +66,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Small business owner and correctional lieutenant",
+      "citations": [
+        {
+          "source": "src:quinnfornv-com-2c0dc91b6e",
+          "quote": "I am a small business owner and a Correctional Lieutenant.",
+          "locator": "About page, first paragraph"
+        },
+        {
+          "source": "src:thenevadaindependent-com-241dc78c98",
+          "quote": "A small business owner and correctional lieutenant with more than three decades of combined service in EMS, firefighting and corrections",
+          "locator": "State Assembly, District 5, Kelly Quinn entry"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

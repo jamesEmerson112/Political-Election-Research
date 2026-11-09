@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "quinnfornv-com-2c0dc91b6e",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Kelly Quinn campaign (quinnfornv)",
+  "title": "Kelly Quinn for Assembly District 5 - About Us",
+  "url": "https://quinnfornv.com/about",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
