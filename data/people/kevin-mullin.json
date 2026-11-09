@@ -4,6 +4,16 @@
   "name": "Kevin Mullin",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1970-06-15",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "KEVIN MULLIN, Democrat, of South San Francisco, CA; born in San Mateo County, CA,\nJune 15, 1970",
+          "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
