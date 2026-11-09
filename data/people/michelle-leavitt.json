@@ -4,6 +4,21 @@
   "name": "Michelle Leavitt",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1965",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-a1cc34eaa1",
+          "quote": "Judge Michelle Leavitt was born in 1965 in Las Vegas, Nevada.",
+          "locator": "Biography, paragraph 1"
+        },
+        {
+          "source": "src:judgeleavitt-com-f6d4b650f2",
+          "quote": "Born in Las Vegas in 1965, Judge Leavitt is deeply rooted in the community she serves",
+          "locator": "About, paragraph 1"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
