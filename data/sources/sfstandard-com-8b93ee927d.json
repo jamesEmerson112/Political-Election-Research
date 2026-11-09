@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-8b93ee927d",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-18",
+  "publisher": "The San Francisco Standard",
+  "title": "FBI probe scrambles District 2 race",
+  "url": "https://sfstandard.com/2026/05/18/fbi-stephen-sherrill-london-breed-district-2/"
+}

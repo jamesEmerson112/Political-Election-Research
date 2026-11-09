@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-d6868908fa",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-19",
+  "publisher": "Mission Local",
+  "title": "Stephen Sherrill’s appointment has drawn corruption allegations. But District 2 voters are shrugging it off.",
+  "url": "https://missionlocal.org/2026/05/san-francisco-stephen-sherrill-london-breed-district-2/"
+}

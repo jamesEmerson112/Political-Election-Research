@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-330845d2f1",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-11",
+  "publisher": "The San Francisco Standard",
+  "title": "Breed appointed supervisor to help her get Bloomberg job, close aides say",
+  "url": "https://sfstandard.com/2026/05/11/london-breed-michael-bloomberg-job-offer/"
+}
