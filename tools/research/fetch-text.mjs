@@ -12,8 +12,11 @@
  *
  * - PDF: `pdftotext -raw`, with a "[[page N]]" line where each page starts (for locators;
  *   never part of a quote).
- * - HTML: rendered in Chromium (Playwright) and read as document.body.innerText, which also
- *   gets past "checking your browser" pages; if Chromium fails, the served HTML's text.
+ * - HTML: rendered in Chromium (Playwright) and read as document.body.innerText; if Chromium
+ *   fails, the served HTML's text. A bot-check or challenge page ("checking your browser",
+ *   Incapsula, ...) is recorded as blocked at once: it is never waited out or worked around.
+ * - Every request names this project in its User-Agent (curl and Chromium alike); it never
+ *   poses as a person's browser. A site that refuses it is blocked for this research.
  * - WordPress REST API replies (e.g. https://missionlocal.org/wp-json/wp/v2/posts?search=...): each post's
  *   title and article text; each post is also cached under its public article URL, so cite the article.
  * - Anything else textual (JSON, XML, CSV, plain text): as served.
@@ -31,7 +34,8 @@ import { fileURLToPath } from "node:url";
 
 const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 export const CACHE = process.env.RESEARCH_CACHE ?? path.join(REPO, ".cache/research");
-const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
+/** An honest User-Agent: the project's research tool, with where to read about it (maintainer: no spoofed user agents). */
+export const UA = "PoliticalElectionResearch/1.0 (+https://github.com/jamesEmerson112/Political-Election-Research)";
 const CHALLENGE = /just a moment|attention required|checking your browser|request unsuccessful|incapsula|access denied/i;
 
 export const keyOf = (url) => crypto.createHash("sha256").update(url).digest("hex");
@@ -96,10 +100,11 @@ async function render(url, waitMs) {
     });
     const resp = await page.goto(url, { timeout: 60000, waitUntil: "domcontentloaded" });
     await page.waitForLoadState("networkidle", { timeout: waitMs }).catch(() => {});
-    for (let i = 0; i < 6; i++) {
+    // A page that is still rendering gets a few seconds more; a bot-check page is not waited out (it counts as blocked).
+    for (let i = 0; i < 3; i++) {
       const t = `${await page.title()} ${((await page.evaluate(() => document.body?.innerText ?? "")) || "").slice(0, 300)}`;
-      if (!CHALLENGE.test(t) && t.trim().length > 40) break;
-      await page.waitForTimeout(5000);
+      if (CHALLENGE.test(t) || t.trim().length > 40) break;
+      await page.waitForTimeout(3000);
     }
     const text = await page.evaluate(() => document.body?.innerText ?? "");
     // The last main-frame document decides: a challenge page that reloads into the real page is not blocked.
