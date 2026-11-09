@@ -72,6 +72,43 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "M.A., English Literature",
+          "institution": "NUML University",
+          "citations": [
+            {
+              "source": "src:geo-tv-d056fcc316",
+              "quote": "She earned her master’s in English literature and an advanced diploma in linguistics from NUML University.",
+              "locator": "Hanadi’s journey"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: M.A., English Literature; Advanced Diploma, Linguistics",
+              "locator": "PDF page 80, Legislative Biography—2025 Session, Hanadi Nadeem (no institution named)"
+            }
+          ]
+        },
+        {
+          "degree": "Advanced Diploma, Linguistics",
+          "institution": "NUML University",
+          "citations": [
+            {
+              "source": "src:geo-tv-d056fcc316",
+              "quote": "She earned her master’s in English literature and an advanced diploma in linguistics from NUML University.",
+              "locator": "Hanadi’s journey"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: M.A., English Literature; Advanced Diploma, Linguistics",
+              "locator": "PDF page 80, Legislative Biography—2025 Session, Hanadi Nadeem (no institution named)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Member of the Nevada Assembly; runs Shifa Medical Center, a primary care clinic in Las Vegas",
       "citations": [
