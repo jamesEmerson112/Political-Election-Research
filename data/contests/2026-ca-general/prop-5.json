@@ -206,19 +206,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 3769047,
-    "yes_votes": 3858401,
+    "no_votes": 4741774,
+    "yes_votes": 5119403,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Changes Recall Election Process For Statewide Officers. Legislative Constitutional Amendment.\", \"Number\": \"05\", \"yesVotes\": \"3858401\", \"yesPercent\": \"50.6\", \"noVotes\": \"3769047\", \"noPercent\": \"49.4\"",
+        "quote": "\"Name\": \"Changes Recall Election Process For Statewide Officers. Legislative Constitutional Amendment.\", \"Number\": \"05\", \"yesVotes\": \"5119403\", \"yesPercent\": \"51.9\", \"noVotes\": \"4741774\", \"noPercent\": \"48.1\"",
         "locator": "ballot-measures, Number 05"
       }
     ]
@@ -233,5 +233,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
