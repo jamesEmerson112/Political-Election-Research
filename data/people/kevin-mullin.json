@@ -141,6 +141,119 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "U.S. Representative",
+          "current": true,
+          "first_elected": "2022-11-08",
+          "jurisdiction": "California's 15th Congressional District",
+          "office_ref": "office:us-representative-california",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "election history: elected to the 118th Congress on November\n8, 2022; reelected to the 119th Congress on November 5, 2024.",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:clerk-house-gov-2d67759ca4",
+              "quote": "California (CA) – 15th, Democrat",
+              "locator": "Member profile header for Kevin Mullin"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "Kevin Mullin is proud to be representing CA-15 in the U.S. House of Representatives",
+              "locator": "About page, member biography"
+            }
+          ]
+        },
+        {
+          "office": "Speaker pro Tempore, California State Assembly",
+          "end": "2022",
+          "start": "2014",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "member, California State Assembly, 2012–22\n(speaker pro tempore, 2014–22)",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "serving as the Speaker pro Tem from 2014 until his departure",
+              "locator": "About page, member biography"
+            }
+          ]
+        },
+        {
+          "office": "Member, California State Assembly",
+          "end": "2022",
+          "jurisdiction": "San Mateo County",
+          "office_ref": "office:california-assembly-member",
+          "start": "2012",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "member, California State Assembly, 2012–22",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "He then represented San Mateo County in the California State Assembly from 2012-2022",
+              "locator": "About page, member biography"
+            }
+          ]
+        },
+        {
+          "office": "Commissioner, California Metropolitan Transportation Commission",
+          "end": "2012",
+          "start": "2011",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "commissioner, California Metro-\npolitan Transportation Commission, 2011–12",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            }
+          ]
+        },
+        {
+          "office": "Mayor",
+          "end": "2011",
+          "jurisdiction": "South San Francisco",
+          "start": "2010",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "mayor, South San Francisco, 2010–11",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "serving as Mayor in 2011",
+              "locator": "About page, member biography"
+            }
+          ]
+        },
+        {
+          "office": "Member, South San Francisco City Council",
+          "end": "2012",
+          "jurisdiction": "South San Francisco",
+          "start": "2007",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "member, South San Francisco\nCity Council, 2007–12",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "His elected experience began as a member of the City of South San Francisco City Council from 2007-2012",
+              "locator": "About page, member biography"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
