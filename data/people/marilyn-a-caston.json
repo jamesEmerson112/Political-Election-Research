@@ -70,6 +70,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Family law attorney; junior partner at Nevada Family Law Group",
+      "citations": [
+        {
+          "source": "src:caston4judge-com-c854d23cf4",
+          "quote": "For the past eight years, she has practiced at Nevada Family Law Group, where she is currently a junior partner.",
+          "locator": "About page, Meet Marilyn Caston"
+        },
+        {
+          "source": "src:thenevadaindependent-com-1f258aa16e",
+          "quote": "Caston has practiced family law for more than 16 years. She is a junior partner at Nevada Family Law Group.",
+          "locator": "District Court Judge, Eighth Judicial District, Family Division, Dept. R: Marilyn A. Caston"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
