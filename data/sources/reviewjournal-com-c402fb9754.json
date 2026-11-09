@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-c402fb9754",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "2026 Voter Guide",
+  "url": "https://www.reviewjournal.com/voter-guide-2026/"
+}

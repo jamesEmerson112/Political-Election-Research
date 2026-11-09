@@ -106,6 +106,64 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Freelance journalist",
+          "citations": [
+            {
+              "source": "src:weddings-vegas-749411f81d",
+              "quote": "Prior to being elected, Goya was a freelance journalist who wrote for local, regional, and national publications including USA Today, Audubon, Family Life and the Boston Globe, and co-authored two Falcon Press hiking guides with her son.",
+              "locator": "About Lynn Marie Goya"
+            },
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "My career includes 30 years as a freelance writer covering a wide variety of fields including Las Vegas businesses, hospitality, architecture and design, the environment, families and kids, and travel.",
+              "locator": "County Clerk, Lynn Marie Goya, Experience"
+            }
+          ]
+        },
+        {
+          "organization": "Las Vegas Wedding Chamber of Commerce",
+          "role": "Advisory Board Member",
+          "start": "2015",
+          "citations": [
+            {
+              "source": "src:lynnmariegoya-com-66b0f2daf1",
+              "quote": "2015 - present -- Advisory Board Member for the Las Vegas Wedding Chamber of Commerce",
+              "locator": "Biography, Current Leadership"
+            }
+          ]
+        },
+        {
+          "end": "2021",
+          "organization": "International Association of Government Officials (IGO)",
+          "role": "Board member",
+          "start": "2019",
+          "citations": [
+            {
+              "source": "src:weddings-vegas-749411f81d",
+              "quote": "2019-2021 Board of the International Association of Government Officials (IGO)",
+              "locator": "Offices Served"
+            }
+          ]
+        },
+        {
+          "end": "2022",
+          "organization": "Nevada County Fiscal Officers Association (CFOA)",
+          "role": "President",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:weddings-vegas-749411f81d",
+              "quote": "2022 President for Nevada’s County Fiscal Officers Association (CFOA)",
+              "locator": "Offices Served"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],
