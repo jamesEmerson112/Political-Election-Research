@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "jovanjackson-com-8a84362d60",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Elect Jovan Jackson",
+  "title": "ABOUT | Jovan Jackson 4 The People",
+  "url": "https://www.jovanjackson.com/about-jovan-jackson",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
