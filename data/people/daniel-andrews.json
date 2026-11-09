@@ -96,6 +96,47 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County School System",
+          "role": "Teacher, assigned to educate young felons in the prison system",
+          "citations": [
+            {
+              "source": "src:andrews4nevada-com-8b3dd22917",
+              "quote": "I recently retired from teaching with Clark County School System assigned to educate young felons in the prison system.",
+              "locator": "About page, My background"
+            },
+            {
+              "source": "src:reviewjournal-com-93800b44b9",
+              "quote": "Andrews is a math teacher at the High Desert State Prison",
+              "locator": "Daniel Andrews section (May 15, 2022)"
+            }
+          ]
+        },
+        {
+          "role": "Mathematics teacher (high school and community college), about 25 years",
+          "citations": [
+            {
+              "source": "src:andrews4nevada-com-8b3dd22917",
+              "quote": "I was a teacher for approximately 25 years, primarily teaching all different levels of mathematics at the high school and community college level.",
+              "locator": "About page, My background"
+            }
+          ]
+        },
+        {
+          "role": "Orbital analyst contracted with NASA (Space Shuttle and Hubble Space Telescope), 15 years",
+          "citations": [
+            {
+              "source": "src:andrews4nevada-com-8b3dd22917",
+              "quote": "For 15 years previously I was an orbital analyst contracted with NASA to work on the Space Shuttle spacecraft as well as the Hubble Space Telescope.",
+              "locator": "About page, My background"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],
