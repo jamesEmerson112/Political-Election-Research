@@ -4,6 +4,16 @@
   "name": "\"Tick\" Segerblom",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1948",
+      "citations": [
+        {
+          "source": "src:archive-leg-state-nv-us-3cce472fcf",
+          "quote": "Born: 1948 – Boulder City, Nevada",
+          "locator": "page 1"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
