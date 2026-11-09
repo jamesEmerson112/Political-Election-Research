@@ -3,6 +3,54 @@
   "id": "joanna-s-kishner",
   "name": "Joanna S. Kishner",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party for Joanna Kishner: the lists print only 'NP' for this nonpartisan office (the Contests-Candidates key reads 'NP = Nonpartisan (indicated for nonpartisan offices only)'), which labels the office, not a voter registration",
+          "where": "Clark County Election Department candidate lists for District Court Judge Department 31: Notice of General Election 26G (Notice-Gen-Election-26G.pdf, PDF page 9), Contests-Candidates-All-26.pdf and officesup-26g.pdf (clarkcountynv.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered",
+          "where": "Eighth Judicial District Court, Department XXXI biography (clarkcountycourts.us)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, Democrat, Republican",
+          "where": "Campaign website judgekishner.com (home and About pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration (the page states none)",
+          "where": "Emerge Nevada alumna page (https://nv.emergeamerica.org/alumna/joanna-kishner/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party / registration (race shown as Nonpartisan; no party stated)",
+          "where": "The Nevada Independent 2026 voter guide, Department 31 (https://thenevadaindependent.com/elections/2026/general/judicial/11)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party (both listed as NONPARTISAN)",
+          "where": "Las Vegas Review-Journal voter guide 2026 (https://www.reviewjournal.com/voter-guide-2026/), Department 31 entries"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Joanna Kishner\" Democrat OR Republican registered party",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not reachable from this session (host blocked)",
+          "where": "Nevada Secretary of State (nvsos.gov) candidate filings and voter records"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
