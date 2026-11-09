@@ -3,6 +3,23 @@
   "id": "randall-forman",
   "name": "Randall Forman",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Family Court hearing master (Domestic Violence Commissioner)",
+      "citations": [
+        {
+          "source": "src:randallforman-com-f95e669940",
+          "quote": "Randall Forman is not the incumbent. He is a judicial officer currently serving as a Domestic Violence Commissioner in Family Court.",
+          "locator": "Home page, top banner"
+        },
+        {
+          "source": "src:reviewjournal-com-41cdd36a63",
+          "quote": "In the race for the Department S seat, Brewer faces Randall Forman, a Family Court hearing master who oversees domestic violence protection and juvenile delinquency cases, and criminal defense attorney Tanner Harris.",
+          "locator": "Article body, fifth paragraph"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-41cdd36a63",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-04",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Three candidates vie for open Family Court seat in Department S",
+  "url": "https://www.reviewjournal.com/news/politics-and-government/clark-county/three-candidates-vie-for-open-family-court-seat-in-department-s-3796582/"
+}
