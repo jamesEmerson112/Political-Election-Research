@@ -626,17 +626,18 @@ async function openAll(p, route) {
   await p.waitForTimeout(800);
   const nv = await strip();
   await p.evaluate(() => localStorage.removeItem("per-my-ballot"));
-  const has = (list, t) => list.some((x) => x.includes(t));
+  const has = (list, t) => list.some((x) => (t instanceof RegExp ? t.test(x) : x.includes(t)));
+  // Shares change with every count; the check holds the leader and a one-decimal share, not the number.
   check(
     "9e. results come first: statewide leaders and props, district results on request; My ballot narrows them; none on a Nevada ballot",
     !!all &&
       all.before &&
       all.head.startsWith("Leading · Semi-official count") &&
-      has(all.tiles, "Governor Xavier Becerra 64.2%") &&
+      has(all.tiles, /^Governor Xavier Becerra \d{1,2}\.\d%$/) &&
       !has(all.tiles, "CA-11") &&
       has(all.props, "Prop 1") &&
       all.props.length === 14 &&
-      has(open.tiles, "U.S. House, CA-11 Scott Wiener 55.5%") &&
+      has(open.tiles, /^U\.S\. House, CA-11 Scott Wiener \d{1,2}\.\d%$/) &&
       !!sf &&
       has(sf.tiles, "State Assembly, District 17") &&
       has(sf.tiles, "CA-11") &&
