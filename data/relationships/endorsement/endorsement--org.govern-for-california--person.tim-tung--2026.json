@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.govern-for-california--person.tim-tung--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:tim-tung",
+  "endorser": "org:govern-for-california",
+  "citations": [
+    {
+      "source": "src:governforcalifornia-org-a0e3d4f18e",
+      "quote": "GFC’s SF Public Schools Chapter, which is chaired by Sachi Takahashi-Rial and Michael Joseph, is supporting Phil Kim, Autumn Brown Garibay and Tim Tung and recommends others do the same."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

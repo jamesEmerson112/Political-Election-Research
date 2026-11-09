@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.kevin-mullin--person.tim-tung--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:tim-tung",
+  "endorser": "person:kevin-mullin",
+  "citations": [
+    {
+      "source": "src:timtung-com-5ed848b073",
+      "quote": "Kevin Mullin UNITED STATES REPRESENTATIVE, CALIFORNIA",
+      "locator": "State & Local Leaders"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

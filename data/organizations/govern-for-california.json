@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "govern-for-california",
+  "name": "Govern For California",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.governforcalifornia.org/"
+  },
+  "org_type": "nonprofit_501c4",
+  "last_verified": "2026-11-09"
+}
