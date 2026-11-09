@@ -55,6 +55,46 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Penn Psychiatric Group",
+          "role": "Medical Director, Psychiatry Provider",
+          "start": "2026",
+          "citations": [
+            {
+              "source": "src:ivoterguide-com-09a294367d",
+              "quote": "Penn Psychiatric Group, Medical Director, Psychiatry Provider, 2026-",
+              "locator": "Biography, Work & Military"
+            }
+          ]
+        },
+        {
+          "role": "Inpatient consult psychiatry provider at a telehealth company serving Nevada",
+          "citations": [
+            {
+              "source": "src:pvtimes-com-6fe34e2b4a",
+              "quote": "Junejo works as an inpatient consult psychiatry provider at a telehealth company that serves Nevada, but is also in the process of starting his own practice, which would serve both Clark and Nye counties."
+            }
+          ]
+        },
+        {
+          "role": "Psychiatry provider in Washington, Arizona and Nevada",
+          "citations": [
+            {
+              "source": "src:directory-runforsomething-net-669b2cf354",
+              "quote": "A Columbia-trained clinician, he has practiced psychiatry across rural, urban, and underserved communities throughout Washington, Arizona, and Nevada."
+            },
+            {
+              "source": "src:thenevadaindependent-com-241dc78c98",
+              "quote": "Junejo is a psychiatrist who has provided care in rural Washington and Arizona.",
+              "locator": "State Assembly, District 36, Jon Penn Junejo"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [

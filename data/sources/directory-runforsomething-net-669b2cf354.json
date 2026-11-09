@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "directory-runforsomething-net-669b2cf354",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Run for Something",
+  "title": "Jon Penn Junejo - Run For Something",
+  "url": "https://directory.runforsomething.net/candidate/cbb13a66af96c74b73e8ab0c592711c9/junejo-jon-penn/",
+  "notes": "Endorser's candidate directory profile (2026 endorsement). No archive: web.archive.org was unreachable from the research environment. Opened with tools/research/fetch-text.mjs on 2026-11-09."
+}
