@@ -47,6 +47,42 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "platform, issues or proposals: the single page says the campaign's aim is to replace Catherine Stefani and has only donation and contact sections; no proposals",
+        "where": "Campaign site philiplouiswing.com (Wing for State Assembly 2026)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Wing candidate statement: none printed",
+        "where": "San Francisco Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Candidates for State Assembly, District 19"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Wing candidate statement: none printed (only Catherine Stefani's)",
+        "where": "San Francisco Voter Information Pamphlet, June 2, 2026 (media.api.sf.gov/documents/J26_EN_VIP.pdf)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "policy goals: June page says GrowSF could not reach the candidate; November page not found (404)",
+        "where": "GrowSF questionnaires (growsf.org/voter-guide/questionnaires/june-2026/philip-louis-wing/ and november-2026/philip-louis-wing/)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "candidate statements for Assembly District 19: none posted on the election page",
+        "where": "San Mateo County Elections, November 3, 2026 Statewide General Election page (smcacre.gov)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Candidate Connection survey or campaign themes: Ballotpedia says he did not complete its 2026 survey",
+        "where": "Ballotpedia (Philip_Wing), reference lead only"
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
