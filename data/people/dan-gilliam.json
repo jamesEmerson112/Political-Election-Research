@@ -35,6 +35,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "A small town in Ohio",
+      "citations": [
+        {
+          "source": "src:electgilliam4judge-com-3273733ddc",
+          "quote": "My name is Dan Gilliam and I was born and raised in a small town in Ohio.",
+          "locator": "Meet Dan Gilliam, paragraph 2"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
