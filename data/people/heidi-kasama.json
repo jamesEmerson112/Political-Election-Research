@@ -4,6 +4,42 @@
   "name": "Heidi Kasama",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Heidi Kasama born; the biography gives birthplace only (Born: New York, New York), no date",
+          "where": "Nevada Legislature, Legislative Manual 2025, Chapter I (leg.state.nv.us), page 70 biography"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Heidi Kasama career and personal; no birth date",
+          "where": "Nevada Legislature legislator page (leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/2)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / born; none stated",
+          "where": "heidikasama.com campaign site, About Heidi"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kasama born; gives age 67 only, not a birth date",
+          "where": "The Nevada Independent, District F candidates article (2026-09-25)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Heidi Kasama born year birth date Nevada Assemblywoman",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kasama age born; none stated",
+          "where": "KTNV, Kasama's tough path to county commission (2026-09-09)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
