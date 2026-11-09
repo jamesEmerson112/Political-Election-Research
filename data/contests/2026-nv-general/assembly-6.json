@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-6",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 6",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:katherine-katie-duncan",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "No Political Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Duncan Katherine \"Katie\" NPP",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 6 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only)",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "6 Katherine “Katie” Duncan Jovan Alexander Jackson* No Political Party Democrat",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 6 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 2, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Jackson, Jovan A. Democratic No. 6 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Jovan A. Jackson represented District 6 in the 2025 session"
+        }
+      ]
+    },
+    {
+      "person": "person:jovan-alexander-jackson",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Jackson Jovan Alexander DEM",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 6 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "6 Katherine “Katie” Duncan Jovan Alexander Jackson* No Political Party Democrat",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 6 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 2, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Jackson, Jovan A. Democratic No. 6 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Jovan A. Jackson represented District 6 in the 2025 session"
+        }
+      ]
+    }
+  ],
+  "district": 6,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-a913e532bc",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislative Counsel Bureau, Research Division",
+  "title": "2026 General Election: Nevada Legislative Candidates",
+  "url": "https://www.leg.state.nv.us/Division/Research/Documents/CandidatesList_2026General.pdf"
+}
