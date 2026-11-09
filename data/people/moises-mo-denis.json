@@ -34,6 +34,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Computer network technician (IT professional)",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-41b3e93c5b",
+          "quote": "Computer Network Technician",
+          "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis (occupation line under the name)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-af7e630f0d",
+          "quote": "He’s worked as an IT professional, including for the Nevada Public Utilities Commission.",
+          "locator": "Board of Regent, District 5, Moises \"Mo\" Denis"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

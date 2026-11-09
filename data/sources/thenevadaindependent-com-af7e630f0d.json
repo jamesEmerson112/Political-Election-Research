@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-af7e630f0d",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "publisher": "The Nevada Independent",
+  "title": "Board of Regents - Nevada Voter Guide | 2026 (General)",
+  "url": "https://thenevadaindependent.com/elections/2026/general/board-of-regents"
+}
