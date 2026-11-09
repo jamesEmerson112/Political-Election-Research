@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-36",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 36",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:gregory-t-hafen-ii",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Hafen, II Gregory T. REP",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 36 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "36 Gregory T. Hafen II* Jon Penn Junejo Republican Democrat",
+          "locator": "PDF page 4, Nevada State Assembly Candidates, District 36 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 4, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Hafen, Gregory T., II Minority Floor Leader Republican No. 36 Clark (Part), Lincoln (Part), Nye (Part)",
+          "locator": "83rd (2025) Session roster: Gregory T. Hafen II represented District 36 in the 2025 session"
+        }
+      ]
+    },
+    {
+      "person": "person:jon-penn-junejo",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Junejo Jon Penn DEM",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 36 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "36 Gregory T. Hafen II* Jon Penn Junejo Republican Democrat",
+          "locator": "PDF page 4, Nevada State Assembly Candidates, District 36 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 4, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Hafen, Gregory T., II Minority Floor Leader Republican No. 36 Clark (Part), Lincoln (Part), Nye (Part)",
+          "locator": "83rd (2025) Session roster: Gregory T. Hafen II represented District 36 in the 2025 session"
+        }
+      ]
+    }
+  ],
+  "district": 36,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
