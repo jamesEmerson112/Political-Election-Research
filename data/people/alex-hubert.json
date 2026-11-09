@@ -54,6 +54,109 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County Public Defender's Office",
+          "role": "Attorney (Chief Deputy; Team Chief of a general litigation track)",
+          "start": "2007",
+          "citations": [
+            {
+              "source": "src:electalexhubert-com-51e8ddd379",
+              "quote": "Chief Deputy Attorney, Clark County Public Defender's Office (2007-Present)",
+              "locator": "About page, Key Qualifications"
+            },
+            {
+              "source": "src:electalexhubert-com-51e8ddd379",
+              "quote": "As Team Chief of a general litigation track, I mentor and train attorneys while handling some of the most complex and sensitive cases in our system.",
+              "locator": "About page, Professional Background"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County Public Defender's Office",
+          "role": "Training Deputy, New Attorney Training Program",
+          "citations": [
+            {
+              "source": "src:electalexhubert-com-51e8ddd379",
+              "quote": "Training Deputy for New Attorney Training Program",
+              "locator": "About page, Key Qualifications"
+            }
+          ]
+        },
+        {
+          "end": "2016",
+          "organization": "Arizona Summit Law School",
+          "role": "Adjunct law professor",
+          "start": "2015",
+          "citations": [
+            {
+              "source": "src:electalexhubert-com-51e8ddd379",
+              "quote": "Former Adjunct Law Professor, Arizona Summit Law School",
+              "locator": "About page, Key Qualifications"
+            },
+            {
+              "source": "src:thenevadaindependent-com-e22cfe0e5c",
+              "quote": "Adjunct law professor (jurisprudence and criminal law), Arizona Summit Law School, Phoenix: 2015 to 2016.",
+              "locator": "Candidate deep dive: Hubert, Alex; Prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2007",
+          "organization": "Murchison & Cumming LLP",
+          "role": "Associate attorney",
+          "start": "2006",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-e22cfe0e5c",
+              "quote": "Associate attorney, Murchison & Cumming LLP, Las Vegas: 2006 to 2007",
+              "locator": "Candidate deep dive: Hubert, Alex; Prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2005",
+          "organization": "Maricopa County Regional School District",
+          "role": "Substitute teacher",
+          "start": "2004",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-e22cfe0e5c",
+              "quote": "Substitute teacher, Maricopa County Regional School District, Phoenix: 2004 to 2005",
+              "locator": "Candidate deep dive: Hubert, Alex; Prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2004",
+          "organization": "Durango Juvenile Detention Center",
+          "role": "Substitute teacher",
+          "start": "2004",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-e22cfe0e5c",
+              "quote": "Substitute teacher, Durango Juvenile Detention Center, Phoenix: 2004",
+              "locator": "Candidate deep dive: Hubert, Alex; Prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2004",
+          "organization": "Mesa City Prosecutor's Office",
+          "role": "Student prosecutor (supervised student practice)",
+          "start": "2003",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-e22cfe0e5c",
+              "quote": "Prosecutor (supervised student practice under Arizona Supreme Court Rule 38), Mesa City Prosecutor's Office, Mesa, Arizona: 2003 to 2004",
+              "locator": "Candidate deep dive: Hubert, Alex; Prior job titles"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
