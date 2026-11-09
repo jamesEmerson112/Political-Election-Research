@@ -60,6 +60,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Master's degree in business administration",
+          "institution": "California Pacific University",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-2ddddc27e6",
+              "quote": "Education: Master's and doctorate degrees in business administration from California Pacific University; degree in criminal justice from the College of Southern Nevada; graduate of the FBI National Academy",
+              "locator": "profile box at the end of the article"
+            }
+          ]
+        },
+        {
+          "degree": "Doctorate in business administration",
+          "institution": "California Pacific University",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-2ddddc27e6",
+              "quote": "Education: Master's and doctorate degrees in business administration from California Pacific University; degree in criminal justice from the College of Southern Nevada; graduate of the FBI National Academy",
+              "locator": "profile box at the end of the article"
+            }
+          ]
+        },
+        {
+          "degree": "Degree in criminal justice",
+          "institution": "College of Southern Nevada",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-2ddddc27e6",
+              "quote": "Education: Master's and doctorate degrees in business administration from California Pacific University; degree in criminal justice from the College of Southern Nevada; graduate of the FBI National Academy",
+              "locator": "profile box at the end of the article"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Consultant (runs the consulting firm Mpower USA)",
       "citations": [
