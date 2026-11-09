@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calmatters-org-b6ff1a2db1",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-06",
+  "publisher": "CalMatters",
+  "title": "Republican Hilton’s ‘Just try it’ ad courts liberals — and angers his own base",
+  "url": "https://calmatters.org/politics/2026/10/california-governor-race-hilton-ad/"
+}

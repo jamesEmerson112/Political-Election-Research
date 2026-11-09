@@ -1,6 +1,81 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:steve-hilton",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "criticism-of-the-just-try-it-campaign-ad",
+        "date": "2026-10",
+        "response": {
+          "date": "2026-10",
+          "summary": "CalMatters reported that Hilton said the ads are part of a strategy to reach Californians who may never have considered voting for a Republican, and that he understood the criticism but stood by his tactics. Newsweek reported he told the Los Angeles Times it was \"a provocative and humorous way of making a point.\"",
+          "citations": [
+            {
+              "source": "src:calmatters-org-b6ff1a2db1",
+              "quote": "In a video he posted this weekend, Hilton explained the ads are part of a strategy to reach Californians who may have never considered voting for a Republican, and said he understood the criticism but stood by his tactics."
+            },
+            {
+              "source": "src:newsweek-com-c67c866357",
+              "quote": "It’s a provocative and humorous way of making a point, right? Which often the best communication does."
+            }
+          ]
+        },
+        "summary": "CalMatters and Newsweek reported in October 2026 that a Hilton campaign ad showing two young women filling out a mail-in ballot for Hilton drew criticism, including from members of his own party. CalMatters reported that Republican attorney general candidate Michael Gates condemned its \"sexualized portrayal of young women\" and that superintendent candidate Sonja Shaw called it \"creepy, weird, disturbing garbage\"; Newsweek reported Gates said he did not condone the video.",
+        "title": "Criticism of the \"Just Try It\" campaign ad",
+        "citations": [
+          {
+            "source": "src:newsweek-com-c67c866357",
+            "quote": "Republican California gubernatorial candidate Steve Hilton is facing criticism from members of his own party over a provocative campaign advertisement, as he tries to close a substantial polling gap with Democrat Xavier Becerra in the final month of the race."
+          },
+          {
+            "source": "src:newsweek-com-c67c866357",
+            "quote": "I want to be clear: I do not condone Steve Hilton's \"Just Try It\" video."
+          },
+          {
+            "source": "src:calmatters-org-b6ff1a2db1",
+            "quote": "Michael Gates, the Republican candidate for attorney general, also piled on, condemning the ad for its “sexualized portrayal of young women.”"
+          },
+          {
+            "source": "src:calmatters-org-b6ff1a2db1",
+            "quote": "Sonja Shaw, a conservative Southern California school board president who is running for state superintendent of public instruction, called the ad “creepy, weird, disturbing garbage” on social media."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Steve Hilton controversy 2026 governor campaign",
+        "where": "Web search (result titles used only to find articles; articles opened with fetch-text)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Steve Hilton lawsuit OR complaint OR FPPC OR \"fact check\"",
+        "where": "Web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Steve Hilton",
+        "where": "CalMatters, AP (via ABC7/WTOP), CapRadio (via KALW), Newsweek, Fox News, San Joaquin Valley Sun articles opened with fetch-text"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Steve Hilton \"Just Try It\" ad lick ballot envelope criticism",
+        "where": "Web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Steve Hilton concede election results November 2026 fraud claims (no controversy about Hilton's own conduct meeting the documentation rule found)",
+        "where": "Web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Steve Hilton lawsuit, FPPC complaint or enforcement (none found naming Hilton)",
+        "where": "Web search"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-03",
     "items": [

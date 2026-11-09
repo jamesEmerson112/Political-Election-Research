@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "newsweek-com-c67c866357",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-04",
+  "publisher": "Newsweek",
+  "title": "Steve Hilton’s Chances As He Faces Republican Backlash Over New Ad",
+  "url": "https://www.newsweek.com/steve-hiltons-chances-as-he-faces-republican-backlash-over-new-ad-12522090"
+}
