@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "law-unlv-edu-381d8b844e",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+  "title": "Becky Harris | William S. Boyd School of Law",
+  "url": "https://law.unlv.edu/faculty/becky-harris",
+  "notes": "Faculty page. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

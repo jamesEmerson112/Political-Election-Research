@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "unlv-edu-cd1d2a22f3",
+  "kind": "press_release",
+  "accessed": "2026-11-09",
+  "published": "2019-02-20",
+  "publisher": "University of Nevada, Las Vegas",
+  "title": "Becky Harris Joins UNLV International Center for Gaming Regulation as Academic Fellow",
+  "url": "https://www.unlv.edu/news/release/becky-harris-joins-unlv-international-center-gaming-regulation-academic-fellow",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

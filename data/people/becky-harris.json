@@ -24,6 +24,56 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A., Political Science and French",
+          "institution": "Brigham Young University",
+          "citations": [
+            {
+              "source": "src:law-unlv-edu-381d8b844e",
+              "quote": "B.A., Political Science and French, Brigham Young University"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "BYU J. Reuben Clark Law School",
+          "citations": [
+            {
+              "source": "src:law-unlv-edu-381d8b844e",
+              "quote": "J.D., BYU J. Reuben Clark Law School"
+            }
+          ]
+        },
+        {
+          "degree": "M.A., Political Science",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:law-unlv-edu-381d8b844e",
+              "quote": "M.A., Political Science, UNLV"
+            }
+          ]
+        },
+        {
+          "degree": "LL.M., Gaming Law and Regulation",
+          "institution": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+          "year": 2016,
+          "citations": [
+            {
+              "source": "src:law-unlv-edu-381d8b844e",
+              "quote": "LL.M., William S. Boyd School of Law at UNLV"
+            },
+            {
+              "source": "src:unlv-edu-cd1d2a22f3",
+              "quote": "Harris received her LL.M. in Gaming Law and Regulation from the UNLV William S. Boyd School of Law in 2016."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Distinguished Fellow in Gaming and Leadership, UNLV; attorney",
       "citations": [
