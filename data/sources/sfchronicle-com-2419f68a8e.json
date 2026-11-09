@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfchronicle-com-2419f68a8e",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-16",
+  "publisher": "San Francisco Chronicle",
+  "title": "Endorsement: S.F.’s District 6 race is a snoozer. Here’s our pick",
+  "url": "https://www.sfchronicle.com/opinion/editorials/article/matt-dorsey-alex-behrend-san-francisco-22477293.php",
+  "notes": "Editorial by the Chronicle Editorial Board. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

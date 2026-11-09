@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "mattdorsey-org-1ccab02f4f",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Matt Dorsey for Supervisor 2026",
+  "title": "Endorsements",
+  "url": "https://www.mattdorsey.org/endorsements",
+  "notes": "Campaign endorsements page, marked \"(Partial List)\" and \"*Titles are for identification purposes only.\" Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

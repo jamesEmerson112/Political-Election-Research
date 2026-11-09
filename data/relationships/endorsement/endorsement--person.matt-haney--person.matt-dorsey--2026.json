@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.matt-haney--person.matt-dorsey--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:matt-dorsey",
+  "endorser": "person:matt-haney",
+  "citations": [
+    {
+      "source": "src:mattdorsey-org-1ccab02f4f",
+      "quote": "Assemblymember Matt Haney",
+      "locator": "ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

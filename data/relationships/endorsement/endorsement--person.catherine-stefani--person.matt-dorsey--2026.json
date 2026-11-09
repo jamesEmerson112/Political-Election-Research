@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.catherine-stefani--person.matt-dorsey--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:matt-dorsey",
+  "endorser": "person:catherine-stefani",
+  "citations": [
+    {
+      "source": "src:mattdorsey-org-1ccab02f4f",
+      "quote": "Assemblymember Catherine Stefani",
+      "locator": "ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

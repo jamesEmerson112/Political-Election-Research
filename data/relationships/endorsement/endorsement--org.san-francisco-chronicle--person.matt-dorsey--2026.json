@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-chronicle--person.matt-dorsey--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-10-16",
+  "endorsee": "person:matt-dorsey",
+  "endorser": "org:san-francisco-chronicle",
+  "citations": [
+    {
+      "source": "src:sfchronicle-com-2419f68a8e",
+      "quote": "Supervisor Matt Dorsey, speaking at a news conference at San Francisco Police Department headquarters in 2025, earns the editorial board’s endorsement for a second term."
+    },
+    {
+      "source": "src:sfchronicle-com-2419f68a8e",
+      "quote": "Voters should select him for another term."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

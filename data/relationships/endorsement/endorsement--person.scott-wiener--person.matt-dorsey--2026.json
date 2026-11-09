@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.scott-wiener--person.matt-dorsey--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:matt-dorsey",
+  "endorser": "person:scott-wiener",
+  "citations": [
+    {
+      "source": "src:mattdorsey-org-1ccab02f4f",
+      "quote": "Senator Scott Wiener",
+      "locator": "ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
