@@ -106,6 +106,66 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2004",
+          "organization": "Las Vegas Municipal Court",
+          "role": "Appointed defense counsel",
+          "start": "2002",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-aecdc3f497",
+              "quote": "Appointed defense counsel, Las Vegas Municipal Court (2002–2004)",
+              "locator": "Candidate deep dive, DeMonte, Prior Job Titles"
+            },
+            {
+              "source": "src:noreen4judge-com-ff99a71fb5",
+              "quote": "first as a defense attorney, then as a law clerk, next as a Chief Deputy District Attorney",
+              "locator": "About (Meet Noreen)"
+            }
+          ]
+        },
+        {
+          "role": "Law clerk",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-aecdc3f497",
+              "quote": "Law clerk",
+              "locator": "Candidate deep dive, DeMonte, Prior Job Titles"
+            },
+            {
+              "source": "src:noreen4judge-com-ff99a71fb5",
+              "quote": "first as a defense attorney, then as a law clerk, next as a Chief Deputy District Attorney",
+              "locator": "About (Meet Noreen)"
+            }
+          ]
+        },
+        {
+          "end": "2022",
+          "organization": "Clark County District Attorney's Office",
+          "role": "Chief Deputy District Attorney",
+          "start": "2004",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-aecdc3f497",
+              "quote": "Chief Deputy District Attorney, Clark County (2004–2022, 18 years). 12 years in the Repeat Offender Program.",
+              "locator": "Candidate deep dive, DeMonte, Prior Job Titles"
+            },
+            {
+              "source": "src:veteransinpolitics-org-15f54780fc",
+              "quote": "A graduate of the Indiana University School of Law, Judge DeMonte began her legal career with the Las Vegas Municipal Court before joining the Clark County District Attorney’s Office in 2004."
+            },
+            {
+              "source": "src:noreen4judge-com-ff99a71fb5",
+              "quote": "For twelve of those years as a prosecutor, Noreen worked with the Repeat Offender Program to identify violent career criminals and bring them to justice.",
+              "locator": "About (Meet Noreen)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
