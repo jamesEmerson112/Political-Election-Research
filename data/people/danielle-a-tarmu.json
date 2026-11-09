@@ -130,6 +130,16 @@
           "where": "nvsos.gov and nvcourts.gov (candidate filings, judicial disclosures): blocked from this session (Cloudflare challenge), not read"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Las Vegas",
+      "citations": [
+        {
+          "source": "src:danielletarmu-com-7d7d37b52a",
+          "quote": "A born-and-raised Las Vegas resident who worked in the Las Vegas service industry for 5 years before law school, Danielle is deeply connected to the community she seeks to serve.",
+          "locator": "Biography"
+        }
+      ]
     }
   },
   "ids": [],
