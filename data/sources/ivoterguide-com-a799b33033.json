@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ivoterguide-com-a799b33033",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "iVoterGuide",
+  "title": "Voter Guide Profile for NV State Assembly, Dist. 6 candidate Katherine \"Katie\" Duncan",
+  "url": "https://ivoterguide.com/candidate/94958/race/32622/election/1472",
+  "notes": "Candidate profile (biography and questionnaire) for the November 3, 2026 Nevada general election. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "duncanfornevada-com-bf87524f5f",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Friends of Katie Duncan",
+  "title": "Meet Katie Duncan · Nevada Assembly District 6",
+  "url": "https://www.duncanfornevada.com/about.html",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

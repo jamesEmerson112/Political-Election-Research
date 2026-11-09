@@ -54,6 +54,57 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor of Science in Business Administration",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:duncanfornevada-com-bf87524f5f",
+              "quote": "Katie studied business and earned a Bachelor of Science in Business Administration from the University of Nevada, Las Vegas."
+            },
+            {
+              "source": "src:ivoterguide-com-a799b33033",
+              "quote": "University of Nevada, Las Vegas, Bachelors of Science in Business Administration, 1986-1989",
+              "locator": "Biography, Education (as reported in the candidate's profile)"
+            }
+          ]
+        },
+        {
+          "degree": "Doctorate in Divinity",
+          "institution": "Kingdom Builders Bible Seminary",
+          "citations": [
+            {
+              "source": "src:duncanfornevada-com-bf87524f5f",
+              "quote": "She also holds a Doctorate in Divinity from Kingdom Builders Bible Seminary and a certificate from the Universidad de Salamanca in Spain."
+            },
+            {
+              "source": "src:ivoterguide-com-a799b33033",
+              "quote": "Kingdom Builders Bible Seminary, Las Vegas, Doctorate of Divinity, 2023-2026",
+              "locator": "Biography, Education (as reported in the candidate's profile)"
+            }
+          ]
+        },
+        {
+          "degree": "Certificate",
+          "institution": "Universidad de Salamanca",
+          "year": 1972,
+          "citations": [
+            {
+              "source": "src:duncanfornevada-com-bf87524f5f",
+              "quote": "She also holds a Doctorate in Divinity from Kingdom Builders Bible Seminary and a certificate from the Universidad de Salamanca in Spain."
+            },
+            {
+              "source": "src:ivoterguide-com-a799b33033",
+              "quote": "Universidad de Salamanca, Salamanca, Spain, Certificate, 1972-1972",
+              "locator": "Biography, Education (as reported in the candidate's profile)"
+            }
+          ]
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-09",
       "items": [],
