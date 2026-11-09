@@ -3,6 +3,54 @@
   "id": "allycia-murphy",
   "name": "Allycia Murphy",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party for City of Las Vegas Municipal Court Judge Department 2 candidates: list prints only NP, which the list defines as 'Nonpartisan (indicated for nonpartisan offices only)', an office designation, not a voter registration",
+          "where": "Clark County Election Department, Notice of General Election 2026 (certified candidate list)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party abbreviation next to candidate name (NP only)",
+          "where": "Clark County Election Department, All Contests and Candidates in the November 3 2026 General Election (officesup-26g.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party (lists Nonpartisan, the ballot designation of the office)",
+          "where": "Ballotpedia candidate page (reference work, lead only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party affiliation",
+          "where": "City of Las Vegas 2026 election page: candidate contact information sheet and SB418 judicial questionnaire (no party field)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "site returned 'SITE NOT FOUND' (HTTP 404) on 2026-11-09",
+          "where": "murphy4judge.com (campaign site named in her questionnaire)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "The Nevada Independent 2026 voter guide, Municipal Court Judge Dept. 2 race page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Allycia Murphy party",
+          "where": "bluevoterguide.org candidate page (advocacy guide; its comment 'Registered as a Democrat' cites no filing or official record, so treated as a lead, not a citation)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Allycia Murphy\" Las Vegas Municipal Court judge candidate; \"Allycia Murphy\" deputy city attorney Las Vegas",
+          "where": "web search"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
