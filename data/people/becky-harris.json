@@ -4,6 +4,16 @@
   "name": "Becky Harris",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1968",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-a0d7d9550f",
+          "quote": "Born: 1968 – Provo, Utah",
+          "locator": "PDF page 25, Legislative Biography 2017 Session, Becky Harris"
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [

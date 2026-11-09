@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-a0d7d9550f",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislature, Legislative Counsel Bureau, Research Division",
+  "title": "Legislative Manual, Chapter I: Members of the 2017 Nevada Legislature",
+  "url": "https://www.leg.state.nv.us/Division/Research/Publications/LegManual/2017/ch1.pdf",
+  "notes": "Legislative biographies, 2017 session. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
