@@ -100,6 +100,16 @@
           "locator": "PDF page 22 (list page 21 of 41), State Assembly Member District 19"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:growsf-org-a212b22635",
+          "quote": "Except for the fall of 1974 until June 1975 when my mother went to Canada hoping they would have a better chance of getting her a visa to visit China, San Francisco in different neighborhoods. Over 32 years at my current Sunset address.",
+          "locator": "Personal section, the candidate's answer to \"How long have you lived in California? What brought you here and what keeps you here?\" (the Sunset is a San Francisco neighborhood)"
+        }
+      ]
     }
   },
   "ids": [],
