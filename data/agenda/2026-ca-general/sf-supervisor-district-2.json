@@ -20,6 +20,59 @@
       "name": "Monthanus Ratanapakdee"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-2|endorsements|person:guy-mccoy",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Guy McCoy endorsements",
+          "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Guy McCoy candidate statement, printed p. 40: no endorsements listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 2 endorsement",
+          "where": "San Francisco Democratic Party November 3, 2026 voter guide (sfdems.org): endorses Stephen Sherrill"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 2 endorsement",
+          "where": "GrowSF November 2026 District 2 guide (growsf.org): recommends Stephen Sherrill; Guy McCoy listed as contact information unavailable"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 2 endorsement",
+          "where": "San Francisco Chronicle editorial board endorsement, Oct. 16, 2026 (sfchronicle.com): endorses Stephen Sherrill; says Guy McCoy did not respond to requests to meet"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 2 endorsement",
+          "where": "California College Republicans San Francisco County voter guide (cacollegegop.org): endorses Nicholas Berg"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 2 recommendation",
+          "where": "San Francisco Briones Society November 2026 voter guide (brionessociety.org/voterguide-nov-2026): lists Nicholas Berg and Stephen Sherrill only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 2 endorsement",
+          "where": "California Republican Party endorsements page (cagop.org/endorsements): no District 2 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Guy McCoy",
+          "where": "Mission Local WordPress search (missionlocal.org/wp-json/wp/v2/posts?search=Guy McCoy): results concern District 8 candidate Gary McCoy; nothing on Guy McCoy"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Guy McCoy campaign site",
+          "where": "No campaign website found in the voter pamphlet, GrowSF guide or earlier profile research (person record search logs); web search not available (session search budget used up)"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:san-francisco-supervisor",
   "questions": [
