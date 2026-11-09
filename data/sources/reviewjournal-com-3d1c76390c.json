@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-3d1c76390c",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-06",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Department 5: Barisich, Hibbetts make their cases for District Court seat",
+  "url": "https://www.reviewjournal.com/news/civil-courts/department-5-barisich-hibbetts-make-their-cases-for-district-court-seat-3896503/"
+}

@@ -80,6 +80,35 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Department 5",
+          "current": true,
+          "first_elected": "2020",
+          "jurisdiction": "Eighth Judicial District Court (Clark County, Nevada)",
+          "start": "2021-01",
+          "citations": [
+            {
+              "source": "src:judgebarisich-com-cc6e5f6965",
+              "quote": "Elected in November 2020, she took the bench in January 2021.",
+              "locator": "home page, first paragraph"
+            },
+            {
+              "source": "src:reviewjournal-com-3d1c76390c",
+              "quote": "Barisich was elected in 2020 after a 16-year legal career saw her practice in a wide variety of areas in civil litigation, as well as probate, guardianship and family law cases.",
+              "locator": "paragraph 2"
+            },
+            {
+              "source": "src:thenevadaindependent-com-201cc127cc",
+              "quote": "Presiding Judge, Eighth Judicial District, Dept. 5",
+              "locator": "Candidate deep dive, Barisich, TITLE"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
