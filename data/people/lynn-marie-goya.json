@@ -119,6 +119,29 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Clark County Clerk",
+          "current": true,
+          "first_elected": "2014",
+          "jurisdiction": "Clark County, Nevada",
+          "start": "2015-01",
+          "citations": [
+            {
+              "source": "src:weddings-vegas-749411f81d",
+              "quote": "Lynn Marie Goya has been serving as the elected Clark County Clerk since January 2015.",
+              "locator": "About Lynn Marie Goya"
+            },
+            {
+              "source": "src:reviewjournal-com-62684b8d75",
+              "quote": "Goya was first elected in 2014 and re-elected in 2018."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

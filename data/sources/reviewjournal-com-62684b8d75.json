@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-62684b8d75",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-10-06",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Veteran county clerk facing challenge for another term",
+  "url": "https://www.reviewjournal.com/?p=2652555"
+}
