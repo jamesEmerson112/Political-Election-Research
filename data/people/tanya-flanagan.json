@@ -4,6 +4,20 @@
   "name": "Tanya Flanagan",
   "aliases": [],
   "candidate_profile": {
+    "birthplace": {
+      "value": "Arizona",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-e58a386375",
+          "quote": "The Arizona native said her three breast cancer diagnoses and advocacy work will help guide her legislative efforts to improve health care access.",
+          "locator": "subheading"
+        },
+        {
+          "source": "src:thenevadaindependent-com-e58a386375",
+          "quote": "She participated in National Urban League events while growing up in Arizona"
+        }
+      ]
+    },
     "occupation": {
       "value": "Senior Training Coordinator, Clark County Recorder's Office",
       "citations": [

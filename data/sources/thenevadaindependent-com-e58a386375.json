@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-e58a386375",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-02-21",
+  "publisher": "The Nevada Independent",
+  "title": "Freshman Orientation: Cancer shaped Assemblymember Tanya Flanagan's journey",
+  "url": "https://thenevadaindependent.com/article/freshman-orientation-cancer-shaped-assemblymember-tanya-flanagans-journey"
+}
