@@ -60,6 +60,93 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2010",
+          "role": "Trial attorney in Nevada and Arizona",
+          "start": "1994",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "He practiced law in both Nevada and Arizona from 1994 through 2010, when he was elected to the District Court bench.",
+              "locator": "Biography, first paragraph"
+            },
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "During his career as a trial attorney, he represented Plaintiffs and Defendants and practiced in the areas of personal injury, medical malpractice, construction defect, workers compensation, contract litigation, collections, insurance defense, wrongful death, and insurance bad faith.",
+              "locator": "Biography, second paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "Vannah & Costello",
+          "role": "Trial attorney",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-4582b64e21",
+              "quote": "trial attorney (1994–2010), including at Williams & Wiese and Vannah & Costello",
+              "locator": "Wiese, II, Jerry A., Candidate Deep Dive, Prior job titles"
+            }
+          ]
+        },
+        {
+          "organization": "Williams & Wiese",
+          "role": "Trial attorney",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-4582b64e21",
+              "quote": "trial attorney (1994–2010), including at Williams & Wiese and Vannah & Costello",
+              "locator": "Wiese, II, Jerry A., Candidate Deep Dive, Prior job titles"
+            }
+          ]
+        },
+        {
+          "role": "Court Appointed Arbitrator",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "He served as a Court Appointed Arbitrator for many years",
+              "locator": "Biography, third paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "Public Defender’s Office",
+          "role": "Contract attorney representing High Desert State Prison inmates in parole violation hearings",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "He had a contract with the Public Defender’s Office for many years, and represented inmates at the High Desert State Prison in Parole Violation Hearings.",
+              "locator": "Biography, third paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County Bar Association",
+          "role": "Board member",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "Judge Wiese served four years as a board member of the Clark County Bar Association",
+              "locator": "Biography, fifth paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County Law Library Board",
+          "role": "Board member",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "currently sits on the Clark County Law Library Board.",
+              "locator": "Biography, fifth paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
