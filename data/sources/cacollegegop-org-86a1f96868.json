@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cacollegegop-org-86a1f96868",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "California College Republicans",
+  "title": "CA Statewide Voter Guide",
+  "url": "https://cacollegegop.org/voter-guides/california"
+}

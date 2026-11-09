@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-congress-of-republicans--person.gloria-romero--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-03-19",
+  "endorsee": "person:gloria-romero",
+  "endorser": "org:california-congress-of-republicans",
+  "citations": [
+    {
+      "source": "src:ccr-gop-com-19005a18fc",
+      "quote": "Gloria Romero  ,   Lieutenant Governor",
+      "locator": "CCR Endorsements 2026, statewide list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

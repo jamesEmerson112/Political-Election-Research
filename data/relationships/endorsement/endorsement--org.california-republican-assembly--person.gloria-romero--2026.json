@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-republican-assembly--person.gloria-romero--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:gloria-romero",
+  "endorser": "org:california-republican-assembly",
+  "citations": [
+    {
+      "source": "src:cragop-org-f542a8ddd9",
+      "quote": "Gloria Romero\nLt. Governor Candidate",
+      "locator": "November 2026 General Election Endorsements, Statewide Office Candidates"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

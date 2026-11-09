@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cragop-org-f542a8ddd9",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "California Republican Assembly",
+  "title": "STATEWIDE OFFICES - CRA",
+  "url": "https://cragop.org/statewide-offices/"
+}

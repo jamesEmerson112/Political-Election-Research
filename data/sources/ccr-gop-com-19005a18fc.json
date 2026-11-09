@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ccr-gop-com-19005a18fc",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "published": "2026-03-19",
+  "publisher": "California Congress of Republicans",
+  "title": "CCR Endorsements 2026",
+  "url": "https://www.ccr-gop.com/ccr-endorsements-2026/"
+}

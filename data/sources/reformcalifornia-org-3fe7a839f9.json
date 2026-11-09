@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reformcalifornia-org-3fe7a839f9",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Reform California",
+  "title": "CA Statewide Voter Guide",
+  "url": "https://www.reformcalifornia.org/smo-guides/california"
+}

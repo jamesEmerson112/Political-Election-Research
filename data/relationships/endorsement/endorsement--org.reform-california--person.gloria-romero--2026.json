@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.reform-california--person.gloria-romero--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:gloria-romero",
+  "endorser": "org:reform-california",
+  "citations": [
+    {
+      "source": "src:reformcalifornia-org-3fe7a839f9",
+      "quote": "Lt. Governor: Gloria Romero",
+      "locator": "CA Statewide Voter Guide, Statewide Candidate Races, Statewide Offices"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
