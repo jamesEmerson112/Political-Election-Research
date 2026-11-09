@@ -96,6 +96,21 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Family law attorney",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "He spent nearly two decades as a family law attorney prior to becoming a judge.",
+              "locator": "District Court Judge, Eighth Judicial District, Family Division, Dept. R: Bill Henderson (incumbent)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],
