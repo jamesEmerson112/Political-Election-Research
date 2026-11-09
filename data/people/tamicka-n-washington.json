@@ -70,6 +70,72 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Clark County Election Department, All Contests and Candidates in the November 3, 2026 General Election (officesup-26g.pdf): lists name and party only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Clark County Election Department, Notice of General Election (Notice-Gen-Election-26G.pdf), County Assessor: lists name and party only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "The Nevada Independent, 2026-05-16, 'Assessor, recorder, public administrator: Who's running in Clark County down-ballot races?'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "The Nevada Independent, 2026-09-19, 'These small Clark County offices do important things. Here's who's running for them.'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Clark County Registrar of Voters candidate filing search (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx): an ASP.NET form that needs a postback; results could not be read here"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Nevada Secretary of State certified candidate list and 2026 candidate media information (nvsos.gov): host blocked from this environment"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "candidate's campaign website (mentioned by The Nevada Independent): no URL found by web search; tamickawashington.com, tamickaforassessor.com, votetamicka.com and tamicka4assessor.com unreachable"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "bluevoterguide.org Clark County Assessor page: endorsement list only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "goodparty.org candidate page for Tamicka Washington, Clark County Assessor: HTTP 429 Vercel security checkpoint, not readable"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tamicka Washington Clark County Assessor 2026 candidate",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Tamicka Washington\" assessor campaign website appraisal technician",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Tamicka Washington\" Las Vegas",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
