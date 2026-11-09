@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "anthony-scott-red-willett",
+  "name": "Anthony Scott \"Red\" Willett",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-09"
+}

@@ -2,7 +2,16 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/assembly-7",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:cameron-c-h-miller",
+      "name": "Cameron \"C.H.\" Miller"
+    },
+    {
+      "person": "person:anthony-scott-red-willett",
+      "name": "Anthony Scott \"Red\" Willett"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
