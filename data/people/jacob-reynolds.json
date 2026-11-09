@@ -50,6 +50,42 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "place of birth: says he grew up in Utah, Scotland, Israel and Argentina, but does not state where he was born",
+          "where": "clarkcountycourts.us Department XXIX page (official judicial biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth: lists countries where he lived as a child, no birthplace",
+          "where": "judgejacob.com/about (campaign biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "gov.nv.gov press release, Governor Lombardo Announces Two Judicial Appointments (2023-02-28)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "The Nevada Independent 2026 general election guide, District Court Department 29 (thenevadaindependent.com/elections/2026/general/judicial/10)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Las Vegas Review-Journal Nevada Voter Guide 2026, Clark County District Court Dept. 29 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "ournevadajudges.com candidate and judge profiles (reference work)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
