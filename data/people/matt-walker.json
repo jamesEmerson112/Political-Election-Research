@@ -21,6 +21,52 @@
           ]
         }
       ]
+    },
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (the office is nonpartisan; Nevada lists judicial candidates without party)",
+          "where": "Clark County Election Department, All Contests and Candidates in the November 3 2026 General Election (https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:1db09a57-4c1b-47e1-94d9-e7782c442571/original/as/officesup-26g.pdf): the candidate is listed 'NP', which the legend defines as 'NP = Nonpartisan (indicated for nonpartisan offices only)', a mark of the office, not a party registration"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (the office is nonpartisan; Nevada lists judicial candidates without party)",
+          "where": "City of Las Vegas Municipal Court Department 1 judge biography: https://www.lasvegasnevada.gov/Government/Municipal-Court/Judges/Department-1"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (the office is nonpartisan; Nevada lists judicial candidates without party)",
+          "where": "Campaign website https://www.judgemattwalker.com/ (home page; /meet-matt and /about return 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (the office is nonpartisan; Nevada lists judicial candidates without party)",
+          "where": "City of Las Vegas Candidate Lists & Information page (https://www.lasvegasnevada.gov/Government/Elections?tab=2) and contact information sheet (https://files.lasvegasnevada.gov/city-clerk/2026/Elections/Walker-Matthew-Contact-Information-Sheet.pdf; handwritten scan, text unreadable); as an incumbent he filed no SB418 questionnaire"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (the office is nonpartisan; Nevada lists judicial candidates without party)",
+          "where": "The Nevada Independent 2026 voter guide, general and primary race pages: https://thenevadaindependent.com/elections/2026/general/judicial/18, https://thenevadaindependent.com/elections/2026/primary/judicial/18"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (the office is nonpartisan; Nevada lists judicial candidates without party)",
+          "where": "Our Nevada Judges profile https://ournevadajudges.com/judges/matthew-walker and Ballotpedia https://ballotpedia.org/Matt_Walker_(Nevada) (read for leads only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (the office is nonpartisan; Nevada lists judicial candidates without party)",
+          "where": "nvcourts.gov and nvsos.gov are blocked from this environment"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration / party preference (the office is nonpartisan; Nevada lists judicial candidates without party)",
+          "where": "Web search (2 queries)"
+        }
+      ]
     }
   },
   "ids": [],
