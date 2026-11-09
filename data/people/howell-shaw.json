@@ -3,6 +3,28 @@
   "id": "howell-shaw",
   "name": "Howell Shaw",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Shaw Howell REP",
+          "locator": "PDF page 4 (Page 4 of 10), COUNTY PARTISAN, County Clerk (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Shaw, Howell REP",
+          "locator": "PDF page 6, COUNTY CLERK 4-YEAR TERM"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
