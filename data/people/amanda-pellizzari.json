@@ -45,6 +45,47 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin",
+          "where": "SB418 judicial questionnaire filed by the candidate, posted by the Las Vegas City Clerk: https://files.lasvegasnevada.gov/city-clerk/2026/Elections/Pellizzari-Amanda-SB418_Questionnaire.pdf"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin",
+          "where": "City of Las Vegas Candidate Lists & Information page (https://www.lasvegasnevada.gov/Government/Elections?tab=2) and the candidate's contact information sheet (https://files.lasvegasnevada.gov/city-clerk/2026/Elections/Pellizzari-Amanda-Contact-Information-Sheet.pdf; handwritten scan, text unreadable)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin",
+          "where": "The Nevada Independent 2026 voter guide, general and primary race pages: https://thenevadaindependent.com/elections/2026/general/judicial/18, https://thenevadaindependent.com/elections/2026/primary/judicial/18"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin",
+          "where": "Nevada Current, Feb. 4, 2025: https://nevadacurrent.com/2025/02/04/prosecutor-drops-moms-name-seeks-judicial-appointment/"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin",
+          "where": "Ballotpedia (reference work, read for leads only): https://ballotpedia.org/Amanda_Pellizzari"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin",
+          "where": "No campaign website found (web searches; the contact sheet's website entry is unreadable). nvcourts.gov (Commission on Judicial Selection application) and nvsos.gov are blocked from this environment; goodparty.org returned HTTP 429"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth / origin",
+          "where": "Web search (2 queries)"
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
