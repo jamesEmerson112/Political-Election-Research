@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-n",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department N",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:michel-gaudet",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Gaudet, Michel NP",
+          "locator": "PDF page 11, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT N (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department N Maxey (elected to a 2-year unexpired term) Kerri NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department N: the current office holder is another person"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "N FAMILY 3 Kerri Maxey",
+          "locator": "Judicial departments table (family/juvenile), DEPT# N row (dept, location, courtroom, judge): the sitting judge of Family Division Department N is another person, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:kerri-jean-maxey",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Maxey, Kerri Jean NP",
+          "locator": "PDF page 11, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT N (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department N Maxey (elected to a 2-year unexpired term) Kerri NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department N: the current office holder"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "N FAMILY 3 Kerri Maxey",
+          "locator": "Judicial departments table (family/juvenile), DEPT# N row (dept, location, courtroom, judge): the sitting judge of Family Division Department N"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}

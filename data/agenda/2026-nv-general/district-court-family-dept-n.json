@@ -2,7 +2,16 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/district-court-family-dept-n",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:michel-gaudet",
+      "name": "Michel Gaudet"
+    },
+    {
+      "person": "person:kerri-jean-maxey",
+      "name": "Kerri Jean Maxey"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
