@@ -66,6 +66,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office",
+          "where": "votekess.com/about and home page (campaign biography; 'He is not a career politician.')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office held",
+          "where": "Las Vegas Review-Journal, 'Fiore versus Kess for Republican nod for treasurer' (2022-05-15; describes him as running for the first time)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kess",
+          "where": "Clark County Board of County Commissioners page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Manny Kess\" Las Vegas",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Manny Kess Republican Clark County Commission 2026 campaign website treasurer 2022",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
