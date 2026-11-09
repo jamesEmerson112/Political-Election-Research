@@ -101,6 +101,49 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A., Criminology, Law, and Society",
+          "institution": "University of California, Irvine",
+          "citations": [
+            {
+              "source": "src:judgelilly-spells-com-bbf72793ad",
+              "quote": "Judge Lilly-Spells earned her Bachelor of Arts in Criminology, Law, and Society from the University of California, Irvine, and her Juris Doctor from the William S. Boyd School of Law at the University of Nevada, Las Vegas.",
+              "locator": "Home page, A Judge Shaped by Years in the Courtroom"
+            },
+            {
+              "source": "src:clarkcountycourts-us-5fdf1479e4",
+              "quote": "She received her Bachelor of Arts degree from the University of California, Irvine.",
+              "locator": "Department XXIII page, Biography"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+          "year": 2009,
+          "citations": [
+            {
+              "source": "src:judgelilly-spells-com-bbf72793ad",
+              "quote": "Judge Lilly-Spells earned her Bachelor of Arts in Criminology, Law, and Society from the University of California, Irvine, and her Juris Doctor from the William S. Boyd School of Law at the University of Nevada, Las Vegas.",
+              "locator": "Home page, A Judge Shaped by Years in the Courtroom"
+            },
+            {
+              "source": "src:clarkcountycourts-us-5fdf1479e4",
+              "quote": "Judge Lilly-Spells received her juris doctor from the University of Nevada Las Vegas William S. Boyd School of Law.",
+              "locator": "Department XXIII page, Biography"
+            },
+            {
+              "source": "src:law-unlv-edu-df03d56919",
+              "quote": "Jasmin Lilly-Spells '09",
+              "locator": "Boyd School of Law Alumni Spotlight headline, Nov. 5, 2021 (class year 2009)"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Department 23",
       "citations": [
