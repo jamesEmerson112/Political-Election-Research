@@ -55,6 +55,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Hong Kong",
+      "citations": [
+        {
+          "source": "src:ournevadajudges-com-75c37dc794",
+          "quote": "Originally an immigrant from Hong Kong, she learned to speak English as her second language at 11 years old.",
+          "locator": "Statement, Description"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Nonpartisan",
       "citations": [
