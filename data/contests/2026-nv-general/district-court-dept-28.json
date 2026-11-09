@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-28",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 28",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:noreen-c-demonte",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DeMonte, Noreen C. NP",
+          "locator": "PDF page 9, LIST OF CANDIDATES, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 28 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 28",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 28 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 28 Israel Ron NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) listing as of 4/6/2026"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXVIII RJC 15C Ronald J. Israel",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXVIII row (dept, location, courtroom, judge): the sitting judge of Department 28"
+        }
+      ]
+    },
+    {
+      "person": "person:danielle-a-tarmu",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Tarmu, Danielle A. NP",
+          "locator": "PDF page 9, LIST OF CANDIDATES, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 28 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 28",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 28 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 28 Israel Ron NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) listing as of 4/6/2026"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXVIII RJC 15C Ronald J. Israel",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXVIII row (dept, location, courtroom, judge): the sitting judge of Department 28"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
