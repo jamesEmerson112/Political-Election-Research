@@ -44,6 +44,32 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor's degree, accounting",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 2016,
+          "citations": [
+            {
+              "source": "src:unlv-edu-d2d21f3bfe",
+              "quote": "Minja graduated from UNLV in 2016 with a bachelor’s degree in accounting."
+            }
+          ]
+        },
+        {
+          "degree": "Master's degree in real estate (concentration in finance and investment)",
+          "institution": "New York University",
+          "citations": [
+            {
+              "source": "src:unlv-edu-d2d21f3bfe",
+              "quote": "She earned a master’s degree in real estate with a concentration in finance and investment from New York University."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Commercial real estate agent",
       "citations": [
