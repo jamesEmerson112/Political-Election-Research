@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "jilldouglass-com-34bd3c2576",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Friends of Jill Douglass",
+  "title": "Jill Douglass",
+  "url": "https://jilldouglass.com/",
+  "notes": "Campaign home page (Meet Jill section). Opened with tools/research/fetch-text.mjs on 2026-11-09; the /meet-jill and /about paths returned HTTP 500. Not archived: web.archive.org was unreachable from the research environment."
+}

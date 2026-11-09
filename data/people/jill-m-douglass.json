@@ -60,6 +60,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Owner, Douglass Insurance and Financial Services (businesswoman)",
+      "citations": [
+        {
+          "source": "src:reviewjournal-com-c402fb9754",
+          "quote": "Self-employed owner of Douglass Insurance and Financial Services.",
+          "locator": "State Assembly District 37, Jill M. Douglass, Experience (candidate's statement)"
+        },
+        {
+          "source": "src:jilldouglass-com-34bd3c2576",
+          "quote": "Meet Jill Douglass, a conservative leader, businesswoman, and proud Nevadan running for Nevada State Assembly District 37.",
+          "locator": "home page, Meet Jill section"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
