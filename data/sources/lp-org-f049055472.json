@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lp-org-f049055472",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Libertarian National Committee",
+  "title": "Steven Borella - Libertarian Party",
+  "url": "https://lp.org/candidate/steven-borella/",
+  "notes": "Party candidate page (Candidate Bio); footer: paid for by the Libertarian National Committee, not authorized by any candidate or candidate's committee."
+}

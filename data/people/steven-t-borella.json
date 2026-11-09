@@ -76,6 +76,31 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Sales, management, customer service, solar and telecommunications work (employers and dates not stated)",
+          "citations": [
+            {
+              "source": "src:lp-org-f049055472",
+              "quote": "Steven’s background includes years of experience in sales, management, customer service, solar, telecommunications, and professional poker, where he developed discipline, strategic thinking, and decision-making under pressure.",
+              "locator": "Candidate Bio"
+            }
+          ]
+        },
+        {
+          "role": "Professional poker player",
+          "citations": [
+            {
+              "source": "src:lp-org-f049055472",
+              "quote": "Steven’s background includes years of experience in sales, management, customer service, solar, telecommunications, and professional poker, where he developed discipline, strategic thinking, and decision-making under pressure.",
+              "locator": "Candidate Bio"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],
