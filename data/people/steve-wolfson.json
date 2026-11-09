@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "steve-wolfson",
+  "name": "Steve Wolfson",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.clarkcountynv.gov/government/departments/district_attorney/steven-wolfson-biography"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-09"
+}

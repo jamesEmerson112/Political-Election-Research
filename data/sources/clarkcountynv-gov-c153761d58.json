@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-c153761d58",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Clark County Election Department",
+  "title": "Countywide Offices",
+  "url": "https://www.clarkcountynv.gov/government/departments/elections/all_elected_officials/countywide"
+}

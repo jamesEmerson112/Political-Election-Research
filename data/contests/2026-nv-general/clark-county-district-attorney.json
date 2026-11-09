@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/clark-county-district-attorney",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Attorney",
+  "office": "District Attorney",
+  "candidates": [
+    {
+      "person": "person:steve-wolfson",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT ATTORNEY 4-YEAR TERM Wolfson, Steve DEM",
+          "locator": "PDF page 6, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, DISTRICT ATTORNEY"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "Steve Wolfson (Democratic) 4-year term expires in 2026",
+          "locator": "District Attorney (page headed 'Last Updated November 19, 2024')"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}
