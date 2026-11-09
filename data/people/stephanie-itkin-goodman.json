@@ -4,6 +4,49 @@
   "name": "Stephanie Itkin-Goodman",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Nevada Attorney General's Office",
+          "role": "Deputy attorney general",
+          "start": "2025-05",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-8102f7e6b3",
+              "quote": "She is a deputy attorney general at the Nevada Attorney General's Office where she's been since May of 2025."
+            },
+            {
+              "source": "src:nevadacurrent-com-5fc88be47c",
+              "quote": "Goodman, in her role as a deputy attorney general for roughly the last year, serves as counsel to state licensing boards, including the Cannabis Compliance Board, Real Estate Commission, Funeral and Cemetery Services Board, Private Investigators Licensing Board, and State Environmental Commission, according to her website."
+            }
+          ]
+        },
+        {
+          "organization": "New York City district attorney's office",
+          "role": "Assistant district attorney",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-cbb4689bb4",
+              "quote": "Itkin-Goodman, a newcomer to Nevada, previously served for just under two years in a New York City district attorney’s office and also worked in private practice."
+            },
+            {
+              "source": "src:nevadacurrent-com-5fc88be47c",
+              "quote": "“As an assistant district attorney, I saw how important it is to protect vulnerable people, and to make sure they’re not overlooked by the system.”"
+            }
+          ]
+        },
+        {
+          "role": "Attorney in private practice",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-5fc88be47c",
+              "quote": "She also worked in private practice, where she “litigated against some of the nation’s largest pharmaceutical companies,” pursuing death cases through probate “to ensure families received just compensation for wrongful deaths.”"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Deputy attorney general, Nevada Attorney General's Office",
       "citations": [

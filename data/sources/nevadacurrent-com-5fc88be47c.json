@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-5fc88be47c",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-08",
+  "publisher": "Nevada Current",
+  "title": "Telles associate, real estate agent removed from probate case, among Dems for public administrator",
+  "url": "https://nevadacurrent.com/2026/05/08/telles-associate-real-estate-agent-removed-from-probate-case-among-dems-for-public-administrator/"
+}
