@@ -28,6 +28,41 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A.",
+          "institution": "Pomona College",
+          "citations": [
+            {
+              "source": "src:archive-leg-state-nv-us-3cce472fcf",
+              "quote": "Educated: Boulder City High School; Pomona College, B.A.; University of Denver,\nJ.D.",
+              "locator": "page 1"
+            },
+            {
+              "source": "src:clarkcountynv-gov-b70c3ce02f",
+              "quote": "A graduate of Pomona College in California and the University of Denver Law School, Commissioner Segerblom practices law, specializing in employee-employer relations."
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "University of Denver",
+          "citations": [
+            {
+              "source": "src:archive-leg-state-nv-us-3cce472fcf",
+              "quote": "Educated: Boulder City High School; Pomona College, B.A.; University of Denver,\nJ.D.",
+              "locator": "page 1"
+            },
+            {
+              "source": "src:clarkcountynv-gov-b70c3ce02f",
+              "quote": "A graduate of Pomona College in California and the University of Denver Law School, Commissioner Segerblom practices law, specializing in employee-employer relations."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Clark County Commissioner (District E); lawyer specializing in employee-employer relations",
       "citations": [
