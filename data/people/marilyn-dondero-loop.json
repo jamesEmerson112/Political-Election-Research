@@ -39,6 +39,33 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.S., Elementary Education",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: University of Nevada, Las Vegas (UNLV), B.S., Elementary Education;",
+              "locator": "Legislative Biography, 2025 Session, page 13: Marilyn Dondero Loop"
+            }
+          ]
+        },
+        {
+          "degree": "M.Ed.",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "UNLV, M.Ed.",
+              "locator": "Legislative Biography, 2025 Session, page 13: Marilyn Dondero Loop"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Educator (retired Clark County School District teacher)",
       "citations": [
