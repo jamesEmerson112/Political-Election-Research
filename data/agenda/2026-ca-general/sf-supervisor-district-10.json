@@ -623,6 +623,37 @@
           "where": "San Francisco Board of Supervisors legislative files via the Legistar web API (webapi.legistar.com/v1/sfgov/matters): one unrelated 2004 match (Philip DeAndrade); no matter naming her"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-10|legislation|person:shawn-m-richard",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Shawn M. Richard offices held, legislative service",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement p. 51: CEO / Executive Director, founder of Brothers Against Guns; no elected or legislative office named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "What local and state commissions or policy bodies have you served on?",
+          "where": "SF League of Pissed Off Voters 2026 questionnaire (assets.nationbuilder.com, D10_Supervisor_Shawn_Richard.pdf), p. 4: he lists the Juvenile Probation Commission, the Police Accountability Board, a Blue Ribbon Committee and a DOJ committee (appointed or advisory bodies, not a legislature; no dates given; not confirmed in an official record here)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Commissioners",
+          "where": "sf.gov Juvenile Probation Commission page (www.sf.gov/departments--juvenile-probation-commission): current commissioners listed; he is not among them; no past-member roster on the page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Shawn Richard",
+          "where": "Campaign site shawnmrichard4d10.com (home, /meet-shawn, /issues): business owner and Brothers Against Guns executive director; no elected or legislative office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "MatterTitle/MatterName contains 'Shawn Richard', 'Shawn M. Richard', 'Shawn Richards', 'Brothers Against Guns'; 'Shawn' + 'Juvenile'",
+          "where": "San Francisco Board of Supervisors legislative files via the Legistar web API (webapi.legistar.com/v1/sfgov/matters): no matter naming him"
+        }
+      ]
     }
   ],
   "measures": [],
