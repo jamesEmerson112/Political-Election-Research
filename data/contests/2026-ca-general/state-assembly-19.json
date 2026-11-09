@@ -47,16 +47,16 @@
   "level": "state",
   "office_ref": "office:california-assembly-member",
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
     "tallies": [
       {
         "person": "person:catherine-stefani",
-        "votes": 86498
+        "votes": 139669
       },
       {
         "person": "person:philip-louis-wing",
-        "votes": 19523
+        "votes": 27227
       }
     ],
     "winners": [
@@ -65,20 +65,20 @@
     "citations": [
       {
         "source": "src:api-sos-ca-gov-c4033415d3",
-        "quote": "\"Reporting\": \"100% (261 of 261) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100% (261 of 261) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-c4033415d3",
-        "quote": "\"Name\": \"Catherine Stefani\", \"Party\": \"Dem\", \"Votes\": \"86,498\", \"Percent\": \"81.6\"",
+        "quote": "\"Name\": \"Catherine Stefani\", \"Party\": \"Dem\", \"Votes\": \"139,669\", \"Percent\": \"83.7\"",
         "locator": "candidates[0]"
       },
       {
         "source": "src:api-sos-ca-gov-c4033415d3",
-        "quote": "\"Name\": \"Philip Louis Wing\", \"Party\": \"Rep\", \"Votes\": \"19,523\", \"Percent\": \"18.4\"",
+        "quote": "\"Name\": \"Philip Louis Wing\", \"Party\": \"Rep\", \"Votes\": \"27,227\", \"Percent\": \"16.3\"",
         "locator": "candidates[1]"
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
