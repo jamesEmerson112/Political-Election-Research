@@ -121,6 +121,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Family Division, Department N",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "N FAMILY 3 Kerri Maxey",
+          "locator": "Judicial departments table (family/juvenile), DEPT# N row (dept, location, courtroom, judge)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-c261e20c63",
+          "quote": "Presiding Judge, Eighth Judicial District, Dept. N",
+          "locator": "Kerri Jean Maxey, Candidate deep dive, TITLE"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
