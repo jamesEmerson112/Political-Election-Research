@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.alan-wong--sf-file-250700--voted_yes--2025-12-02",
+  "type": "legislative_action",
+  "person": "person:alan-wong",
+  "action": "voted_yes",
+  "bill": "sf-file-250700",
+  "cycle": 2026,
+  "date": "2025-12-02",
+  "citations": [
+    {
+      "source": "src:sfbos-org-4da3f946d7",
+      "quote": "December 02, 2025 Board of Supervisors - PASSED ON FIRST READING Ayes: 7 - Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill and Wong Noes: 4 - Chan, Chen, Fielder and Walton",
+      "locator": "p. 72, legislative history"
+    },
+    {
+      "source": "src:sfbos-org-4da3f946d7",
+      "quote": "Ayes: 6 - Dorsey, Mahmood, Mandelman, Melgar, Sauter and Sherrill Noes: 4 - Chan, Chen, Fielder and Walton Excused: 1 - Wong",
+      "locator": "p. 72, legislative history, December 9, 2025 final passage"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Voted yes when the Board passed the ordinance on first reading on December 2, 2025 (7-4); recorded as excused at final passage on December 9, 2025 (6-4)."
+}

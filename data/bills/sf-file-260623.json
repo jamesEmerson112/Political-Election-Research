@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260623",
+  "status": {
+    "value": "passed_legislature",
+    "as_of": "2026-10-27",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-43d16827de",
+        "quote": "FINALLY PASSED by the following vote: Ayes: 11 - Chan, Chen, Dorsey, Fielder, Mahmood, Mandelman, Melgar, Sauter, Sherrill, Walton, Wong [Administrative Code - Disclosure of Costs to Residential Tenants]",
+        "locator": "p. 9, File No. 260623 (final passage; no ordinance number or Mayor's action is shown in these minutes)"
+      }
+    ]
+  },
+  "area": "housing",
+  "summary": {
+    "value": "Lowers the Housing Code's minimum ceiling height in existing buildings to seven feet for habitable rooms and six feet eight inches for other rooms.",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-43d16827de",
+        "quote": "Ordinance amending the Housing Code to reduce the minimum ceiling height for habitable rooms in existing buildings to seven feet and other rooms to six feet eight inches; and affirming the Planning Department’s determination under the California Environmental Quality Act.",
+        "locator": "p. 9, File No. 260623"
+      }
+    ]
+  },
+  "title": {
+    "value": "Housing Code - Ceiling Heights",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-43d16827de",
+        "quote": "[Housing Code - Ceiling Heights] 260623 Sponsors: Wong; Dorsey, Sherrill, Sauter, Melgar, Mahmood, Chen and Mandelman",
+        "locator": "p. 9, Recommendations of the Land Use and Transportation Committee"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

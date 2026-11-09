@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260545",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-07-28",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "Ordinance No. 154-26 FINALLY PASSED The foregoing items were acted upon by the following vote: Ayes: 11 - Chan, Chen, Dorsey, Fielder, Mahmood, Mandelman, Melgar, Sauter, Sherrill, Walton, Wong",
+        "locator": "p. 8, File No. 260545"
+      }
+    ]
+  },
+  "area": "health",
+  "summary": {
+    "value": "Repeals Health Code prohibitions on transporting bread in open baskets or containers on City streets and on selling unsterilized cleaning rags for industrial workplaces, and the permit requirement for laundries that sterilize such rags.",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "Ordinance amending the Health Code to repeal the prohibition on transporting bread in open baskets or containers on City streets, the prohibition on selling unsterilized rags and other types of cloth to be used for cleaning in industrial places of employment and related regulations, and the prohibition on operating a laundry for sterilizing such rags without a permit.",
+        "locator": "p. 8, File No. 260545"
+      }
+    ]
+  },
+  "title": {
+    "value": "Health Code - Code Cleanup",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "[Health Code - Code Cleanup] 260545 Sponsors: Wong; Sherrill and Mandelman",
+        "locator": "p. 8, consent agenda"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

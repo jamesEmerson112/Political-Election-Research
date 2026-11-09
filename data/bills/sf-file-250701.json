@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-250701",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-12-09",
+    "citations": [
+      {
+        "source": "src:sfbos-org-5e484935f3",
+        "quote": "ORDINANCE NO. 245-25",
+        "locator": "p. 1, ordinance heading"
+      },
+      {
+        "source": "src:sfbos-org-5e484935f3",
+        "quote": "File Number: 250701 Date Passed: December 09, 2025",
+        "locator": "p. 469, legislative history"
+      }
+    ]
+  },
+  "area": "housing",
+  "title": {
+    "value": "Planning, Business and Tax Regulations Codes - Family Zoning Plan",
+    "citations": [
+      {
+        "source": "src:sfbos-org-5e484935f3",
+        "quote": "ORDINANCE NO. 245-25 [Planning, Business and Tax Regulations Codes - Family Zoning Plan]",
+        "locator": "p. 1, ordinance heading"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.alan-wong--sf-file-260536--voted_yes--2026-07-14",
+  "type": "legislative_action",
+  "person": "person:alan-wong",
+  "action": "voted_yes",
+  "bill": "sf-file-260536",
+  "cycle": 2026,
+  "date": "2026-07-14",
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-8df08c28d6",
+      "quote": "ORDERED SUBMITTED by the following vote: Ayes: 9 - Chen, Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill, Walton, Wong Noes: 2 - Chan, Fielder",
+      "locator": "p. 12, File No. 260536"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

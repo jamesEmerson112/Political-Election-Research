@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260536",
+  "status": {
+    "value": "other",
+    "as_of": "2026-07-14",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-8df08c28d6",
+        "quote": "at an election to be held on November 3, 2026. ORDERED SUBMITTED by the following vote: Ayes: 9 - Chen, Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill, Walton, Wong Noes: 2 - Chan, Fielder",
+        "locator": "p. 12, File No. 260536"
+      }
+    ]
+  },
+  "area": "government",
+  "summary": {
+    "value": "Charter amendment ordered submitted by the Board of Supervisors to the voters at the November 3, 2026 election.",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-8df08c28d6",
+        "quote": "making clarifying edits, deleting obsolete language, and updating out-of-date references in various sections; at an election to be held on November 3, 2026. ORDERED SUBMITTED by the following vote: Ayes: 9 - Chen, Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill, Walton, Wong Noes: 2 - Chan, Fielder",
+        "locator": "p. 12, File No. 260536"
+      }
+    ]
+  },
+  "title": {
+    "value": "Charter Amendment - Department, Board, Commission, and Advisory Body Updates",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-8df08c28d6",
+        "quote": "[Charter Amendment - Department, Board, Commission, and Advisory Body Updates] 260536 Sponsors: Mandelman; Mahmood, Melgar, Sherrill and Dorsey",
+        "locator": "p. 12, Recommendations of the Rules Committee"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

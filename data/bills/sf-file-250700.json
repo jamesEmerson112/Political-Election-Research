@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-250700",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-12-09",
+    "citations": [
+      {
+        "source": "src:sfbos-org-4da3f946d7",
+        "quote": "FILE NO. 250700 ORDINANCE NO. 244-25",
+        "locator": "p. 1, ordinance heading"
+      },
+      {
+        "source": "src:sfbos-org-4da3f946d7",
+        "quote": "File Number: 250700 Date Passed: December 09, 2025",
+        "locator": "p. 71, legislative history"
+      }
+    ]
+  },
+  "area": "housing",
+  "title": {
+    "value": "Zoning Map - Family Zoning Plan",
+    "citations": [
+      {
+        "source": "src:sfbos-org-4da3f946d7",
+        "quote": "FILE NO. 250700 ORDINANCE NO. 244-25 [Zoning Map - Family Zoning Plan]",
+        "locator": "p. 1, ordinance heading"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

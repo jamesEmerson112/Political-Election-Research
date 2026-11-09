@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260543",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-07-28",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "Ordinance No. 161-26 FINALLY PASSED by the following vote: Ayes: 9 - Chan, Chen, Dorsey, Mahmood, Mandelman, Melgar, Sauter, Sherrill, Wong Noes: 2 - Fielder, Walton",
+        "locator": "p. 11, File No. 260543"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "summary": {
+    "value": "Sets penalties for the prohibited discharge of fireworks: a first offense is an infraction with a $125 to $250 fine; second and later offenses within five years are misdemeanors with a $250 to $750 fine, up to six months in County Jail, or both.",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "Ordinance amending the Police Code to provide penalties for the prohibited discharge of fireworks, including that a first offense is punishable as an infraction with a fine not less than $125 or more than $250, and a second and any subsequent offenses within five years of a prior offense are punishable as misdemeanors with a fine not less than $250 or more than $750, or imprisonment in the County Jail of not more than six months, or by both such fine and imprisonment.",
+        "locator": "p. 11, File No. 260543"
+      }
+    ]
+  },
+  "title": {
+    "value": "Police Code - Penalties for Prohibited Discharge of Fireworks",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "[Police Code - Penalties for Prohibited Discharge of Fireworks] 260543 Sponsors: Wong; Sherrill, Melgar, Sauter, Dorsey and Mandelman",
+        "locator": "p. 11, Recommendation of the Public Safety and Neighborhood Services Committee"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

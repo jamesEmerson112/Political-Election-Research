@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-8df08c28d6",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2026-07-14",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Board of Supervisors Meeting Minutes, Regular Meeting, July 14, 2026",
+  "url": "https://sfgov.legistar.com/View.ashx?M=M&ID=1428153&GUID=AE320981-01FE-4A2A-AC5E-F8091FBC9A5E"
+}

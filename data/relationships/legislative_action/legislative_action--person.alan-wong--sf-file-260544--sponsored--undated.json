@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.alan-wong--sf-file-260544--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:alan-wong",
+  "action": "sponsored",
+  "bill": "sf-file-260544",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-e52f3feb18",
+      "quote": "260544 Sponsors: Wong; Sauter, Sherrill and Mandelman",
+      "locator": "p. 7, File No. 260544"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

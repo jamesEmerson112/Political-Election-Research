@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-260544",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-07-28",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "Ordinance No. 153-26 FINALLY PASSED",
+        "locator": "p. 7, File No. 260544"
+      },
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "The foregoing items were acted upon by the following vote: Ayes: 11 - Chan, Chen, Dorsey, Fielder, Mahmood, Mandelman, Melgar, Sauter, Sherrill, Walton, Wong",
+        "locator": "p. 8, consent agenda vote"
+      }
+    ]
+  },
+  "area": "other",
+  "summary": {
+    "value": "Repeals the Police Code prohibition on certain types of libraries lending or renting printed matter to anyone under 21 without a membership card obtained with a parent's or legal guardian's consent.",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "Ordinance amending the Police Code to repeal the prohibition on certain types of libraries lending or renting any book, magazine, pamphlet, or other printed matter to any person under the age of 21, unless the person has obtained a membership card with the consent of a parent or legal guardian.",
+        "locator": "p. 7, File No. 260544"
+      }
+    ]
+  },
+  "title": {
+    "value": "Police Code - Lending Books to Individuals Under 21 Years Old",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-e52f3feb18",
+        "quote": "[Police Code - Lending Books to Individuals Under 21 Years Old] 260544 Sponsors: Wong; Sauter, Sherrill and Mandelman",
+        "locator": "p. 7, consent agenda"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
