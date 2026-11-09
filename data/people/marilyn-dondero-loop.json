@@ -4,6 +4,31 @@
   "name": "Marilyn Dondero Loop",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County School District",
+          "role": "Teacher (retired)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-1cb110fa72",
+              "quote": "A retired educator in the Clark County School District who spent more than 30 years teaching in the district, Dondero Loop served three terms in the Assembly from 2008 to 2014.",
+              "locator": "State Senate, District 8: Marilyn Dondero Loop"
+            },
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "I am a retired CCSD teacher.",
+              "locator": "State Senate District 8: Marilyn Dondero Loop, Experience (candidate's answer)"
+            },
+            {
+              "source": "src:reviewjournal-com-ddf1d6d69f",
+              "quote": "State Sen. Marilyn Dondero Loop, D-Las Vegas, said that, as a former Clark County School District teacher of 30 years, she knows firsthand how hard Wheatley has worked to serve her students."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Educator (retired Clark County School District teacher)",
       "citations": [
