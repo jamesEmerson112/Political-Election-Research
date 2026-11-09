@@ -70,6 +70,48 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Nevada Family Law Group",
+          "role": "Junior partner (family law attorney)",
+          "citations": [
+            {
+              "source": "src:caston4judge-com-c854d23cf4",
+              "quote": "For the past eight years, she has practiced at Nevada Family Law Group, where she is currently a junior partner.",
+              "locator": "About page, Meet Marilyn Caston"
+            },
+            {
+              "source": "src:thenevadaindependent-com-1f258aa16e",
+              "quote": "Caston has practiced family law for more than 16 years. She is a junior partner at Nevada Family Law Group.",
+              "locator": "District Court Judge, Eighth Judicial District, Family Division, Dept. R: Marilyn A. Caston"
+            }
+          ]
+        },
+        {
+          "role": "Attorney",
+          "citations": [
+            {
+              "source": "src:caston4judge-com-c854d23cf4",
+              "quote": "After being admitted to practice law in Nevada, Marilyn began her legal career serving families in this community and has now dedicated more than sixteen years to the practice of law.",
+              "locator": "About page, Meet Marilyn Caston"
+            }
+          ]
+        },
+        {
+          "organization": "Legal Aid Center of Southern Nevada",
+          "role": "Pro bono volunteer attorney",
+          "citations": [
+            {
+              "source": "src:caston4judge-com-c854d23cf4",
+              "quote": "Committed to access to justice, Marilyn regularly volunteers her time with the Legal Aid Center of Southern Nevada, providing pro bono representation to families who would otherwise go without legal help.",
+              "locator": "About page, Meet Marilyn Caston"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
