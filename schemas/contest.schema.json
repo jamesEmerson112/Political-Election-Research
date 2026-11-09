@@ -485,6 +485,11 @@
             }
           }
         },
+        "none_of_these_votes": {
+          "description": "Nevada's \"None of These Candidates\" line (NRS 293.269, statewide offices): its votes, as the official results print them. They count in the total that shares are computed from, so shares match the official ones, but the line is never a winner: the candidate with the most votes is elected. Leave it out where the ballot has no such line. (format-v3)",
+          "type": "integer",
+          "minimum": 0
+        },
         "citations": {
           "$ref": "defs.schema.json#/$defs/Citations"
         }

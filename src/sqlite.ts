@@ -40,6 +40,7 @@ CREATE TABLE contest_results (contest TEXT, person TEXT, votes INTEGER, won INTE
   PRIMARY KEY (contest, person));
 CREATE TABLE measure_results (contest TEXT PRIMARY KEY, yes_votes INTEGER, no_votes INTEGER, passed INTEGER, certified INTEGER,
   certified_date TEXT, as_of TEXT);
+CREATE TABLE contest_none_of_these (contest TEXT PRIMARY KEY, votes INTEGER, certified INTEGER, certified_date TEXT, as_of TEXT);
 CREATE TABLE agendas (contest TEXT PRIMARY KEY, kind TEXT, endorsements_target INTEGER, top_contributors INTEGER, finance_cutoff TEXT,
   seeded_date TEXT, seeded_note TEXT);
 CREATE TABLE agenda_candidates (contest TEXT, person TEXT, name TEXT, ord INTEGER, PRIMARY KEY (contest, person));
@@ -295,6 +296,13 @@ export function bundleRows(b: Bundle): Record<string, Row[]> {
       for (const t of (result["tallies"] as Rec[] | undefined) ?? []) {
         push("contest_results", {
           contest: ref, person: s(t["person"]), votes: n(t["votes"]), won: won.has(String(t["person"])) ? 1 : 0, certified: n(result["certified"]),
+          certified_date: s(result["certified_date"]), as_of: s(result["as_of"]),
+        });
+      }
+      // Nevada's "None of These Candidates" line: counted in the total, never a winner (format-v3).
+      if (typeof result["none_of_these_votes"] === "number") {
+        push("contest_none_of_these", {
+          contest: ref, votes: n(result["none_of_these_votes"]), certified: n(result["certified"]),
           certified_date: s(result["certified_date"]), as_of: s(result["as_of"]),
         });
       }

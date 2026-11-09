@@ -45,6 +45,10 @@ describe("SQLite export", () => {
       { contest: "contest:2030-zz-general/governor", person: "person:avery-sample", votes: 1204331, won: 1, certified: 1, certified_date: "2030-12-05" },
       { contest: "contest:2030-zz-general/governor", person: "person:jordan-example", votes: 987120, won: 0, certified: 1, certified_date: "2030-12-05" },
     ]);
+    // The "None of These Candidates" line (format-v3): one row per contest that has it.
+    expect(all("SELECT contest, votes, certified, certified_date FROM contest_none_of_these ORDER BY contest")).toEqual([
+      { contest: "contest:2030-zz-general/governor", votes: 41205, certified: 1, certified_date: "2030-12-05" },
+    ]);
     expect(all("SELECT contest, yes_votes, no_votes, passed FROM measure_results ORDER BY contest")).toEqual([
       { contest: "contest:2030-zz-general/exampleville-prop-a", yes_votes: 61204, no_votes: 39118, passed: 0 },
       { contest: "contest:2030-zz-general/exampleville-prop-b", yes_votes: 55870, no_votes: 44032, passed: 1 },

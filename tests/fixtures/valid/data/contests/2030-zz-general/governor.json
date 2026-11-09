@@ -35,6 +35,7 @@
   "result": {
     "certified": true,
     "certified_date": "2030-12-05",
+    "none_of_these_votes": 41205,
     "tallies": [
       {
         "person": "person:avery-sample",
@@ -51,7 +52,7 @@
     "citations": [
       {
         "source": "src:sos-example-gov-91cde2610d",
-        "quote": "Governor: Avery Sample 1,204,331; Jordan Example 987,120"
+        "quote": "Governor: Avery Sample 1,204,331; Jordan Example 987,120; None of These Candidates 41,205"
       }
     ]
   },

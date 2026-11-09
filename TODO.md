@@ -1,8 +1,10 @@
-# TODO / backlog (snapshot 2026-11-06; format frozen at `format-v2`)
+# TODO / backlog (snapshot 2026-11-06; format frozen at `format-v3`)
 
-## Format requests (after v2)
-The format is frozen at the tag `format-v2` (2026-11-05; `format-v1` was 2026-11-04; see CLAUDE.md "Format: frozen"). These format changes were left out on purpose. Each needs the maintainer's OK before work starts. Research that finds a fact the format can't hold adds it here, with the contest and the source.
+## Format requests (after v3)
+The format is frozen at `format-v3` (2026-11-09; `format-v2` was 2026-11-05, `format-v1` 2026-11-04; see CLAUDE.md "Format: frozen"). These format changes were left out on purpose. Each needs the maintainer's OK before work starts. Research that finds a fact the format can't hold adds it here, with the contest and the source.
 - **Election results:** done in v2 (contest `result`, shown on contest pages, the Overview and measure bars; see "Results and promise tracker" below). The "measures that passed" mode is done (2026-11-09): **Count so far** in Try your ballot and the meter under the Overview's results. California uses the semi-official count; San Francisco and Nevada show a waiting note until their results are recorded (Nevada has no budget forecast either, so it lists the fiscal notes).
+- **Nevada's "None of These Candidates":** done in v3 (2026-11-09): `none_of_these_votes` on office results, counted in the shares, never a winner (NRS 293.269).
+- **Nevada results (waiting on the maintainer):** the Secretary of State's results site refuses automated requests, so the maintainer saves the count in a browser. Screenshots of the U.S. Congress and Statewide pages (unofficial, last updated Nov 8, 5:56 PM PST) arrived 2026-11-09; still needed before recording: the page's address, the Ballot Questions page (Questions 6 and 7), and every choice for Governor, Lieutenant Governor, Secretary of State, NV-1 and NV-4 (their cards hide one or two).
 - **Judicial retention votes:** 13 yes/no retention votes on SF ballots (2 California Supreme Court, 11 First District Court of Appeal) don't fit the contest model.
 - **Impact of past policies:** a record type for measured outcomes of candidates' past bills and programs. It needs the 12 design answers first (see "Impact of past policies and actions" below).
 - **Supervisor races:** a `voting_method` field (ranked choice), and showing `vote_for` (seats).

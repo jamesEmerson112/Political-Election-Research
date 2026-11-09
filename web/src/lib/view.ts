@@ -98,10 +98,20 @@ export function openOfficeCount(ix: Index, contestRef: string, o: OfficeOutcome)
   openDetail({
     kicker: countLine(o),
     title: `${ix.contestTitle(contestRef)}: results`,
-    facts: o.rows.map((r) => [`${ix.name(r.person)}${r.won ? ` · ${winnerWord(o)}` : ""}`, `${votes(r.votes)} votes · ${pct1(r.share)}`]),
+    facts: [
+      ...o.rows.map((r): [string, string] => [`${ix.name(r.person)}${r.won ? ` · ${winnerWord(o)}` : ""}`, `${votes(r.votes)} votes · ${pct1(r.share)}`]),
+      ...(o.noneOfThese ? [["None of These Candidates", `${votes(o.noneOfThese.votes)} votes · ${pct1(o.noneOfThese.share)}`] as [string, string]] : []),
+    ],
     citations: o.citations as Citation[],
-    note: o.certified
-      ? "Shares are computed here from the certified votes."
-      : "Semi-official: counting continues until the result is certified, so the leader can still change. Shares are computed here from the votes.",
+    note: [
+      o.certified
+        ? "Shares are computed here from the certified votes."
+        : "Semi-official: counting continues until the result is certified, so the leader can still change. Shares are computed here from the votes.",
+      o.noneOfThese
+        ? "The ballot lists “None of These Candidates” (Nevada's statewide offices): its votes count in the shares, as in the official results, but only a named candidate can be elected."
+        : "",
+    ]
+      .filter(Boolean)
+      .join(" "),
   });
 }

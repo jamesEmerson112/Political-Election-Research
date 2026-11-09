@@ -614,7 +614,9 @@ p(
         { person: avery, votes: 1204331 },
         { person: jordan, votes: 987120 },
       ],
-      citations: cite(srcSov, "Governor: Avery Sample 1,204,331; Jordan Example 987,120"),
+      // The ballot's "None of These Candidates" line (format-v3): counted in the shares, never a winner.
+      none_of_these_votes: 41205,
+      citations: cite(srcSov, "Governor: Avery Sample 1,204,331; Jordan Example 987,120; None of These Candidates 41,205"),
     },
   },
   "merge",

@@ -29,7 +29,8 @@
  *    (8f); Nevada's questions are on the Measures tab (8g); the Overview title and My ballot's "not covered"
  *    note are right (8h).
  * 11. The state switch: a contest page's Overview link keeps its state; a ballot in the other state; the filter's link
- *    to the other state (11a). The demo has one place and no switch (11b).
+ *    to the other state (11a). The demo has one place and no switch (11b). "None of These Candidates" counts in the
+ *    shares and has its own line in the drawer (11c, format-v3).
  */
 import { createRequire } from "node:module";
 import path from "node:path";
@@ -933,6 +934,34 @@ async function openAll(p, route) {
     "11b. demo: one place, so no state switch; its contests are listed under its own name, with its certified results",
     d.h1 === "ZZ contests" && d.tabs === 0 && d.rows > 0 && !d.empty && d.results,
     `${d.h1} | ${d.tabs} switch links | ${d.rows} rows | ${d.empty || "no empty note"} | results ${d.results}`,
+  );
+}
+
+{
+  // 11c. "None of These Candidates" (format-v3; Nevada's statewide offices): its votes count in the shares, as in the
+  // official results, and the drawer lists it as its own line, never as elected. The demo governor carries one.
+  const c = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  await c.addInitScript(() => localStorage.setItem("per-dataset", "demo"));
+  const p = await c.newPage();
+  p.on("pageerror", (e) => errors.push(String(e)));
+  await p.goto(`${BASE}#c-2030-zz-general--governor`);
+  await p.waitForSelector(".result-line");
+  const line = await text(p.locator(".result-line"));
+  await p.locator(".result-line button", { hasText: "Votes and source" }).click();
+  await p.waitForSelector("aside.drawer dl.facts");
+  const facts = await text(p.locator("aside.drawer dl.facts"));
+  const note = await text(p.locator("aside.drawer"));
+  await c.close();
+  // 1,204,331 + 987,120 + 41,205 None of these = 2,232,656: Avery Sample 53.9%, Jordan Example 44.2%, None of these 1.8%.
+  check(
+    "11c. None of These Candidates counts in the shares and is listed on its own line, never elected",
+    line.includes("Avery Sample (53.9%)") &&
+      facts.includes("None of These Candidates") &&
+      facts.includes("41,205 votes · 1.8%") &&
+      facts.includes("44.2%") &&
+      !/None of These Candidates · Elected/.test(facts) &&
+      note.includes("only a named candidate can be elected"),
+    `${line.slice(0, 70)} | ${facts.slice(0, 160)}`,
   );
 }
 

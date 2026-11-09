@@ -29,8 +29,11 @@ export interface OfficeRow {
 export interface OfficeOutcome extends Count {
   /** Candidates by votes, most first. */
   rows: OfficeRow[];
+  /** Every vote shares are computed from: the candidates' and, in Nevada, "None of These Candidates". */
   total: number;
   winners: Set<string>;
+  /** Nevada's "None of These Candidates" line (statewide offices): counted in the total, never a winner. */
+  noneOfThese?: { votes: number; share: number };
 }
 export interface MeasureOutcome extends Count {
   yes: number;
@@ -59,11 +62,14 @@ export function officeOutcome(contest: Rec | undefined): OfficeOutcome | null {
   if (!r || contest?.["kind"] !== "office") return null;
   const winners = new Set(((r["winners"] as string[] | undefined) ?? []).map(String));
   const tallies = ((r["tallies"] as Rec[] | undefined) ?? []).map((t) => ({ person: String(t["person"]), votes: Number(t["votes"]) || 0 }));
-  const total = tallies.reduce((a, t) => a + t.votes, 0);
+  // Nevada prints a "None of These Candidates" line for statewide offices; its votes count in the total, as in the
+  // official shares, but only the named candidates can be elected (NRS 293.269).
+  const none = typeof r["none_of_these_votes"] === "number" ? (r["none_of_these_votes"] as number) : null;
+  const total = tallies.reduce((a, t) => a + t.votes, 0) + (none ?? 0);
   const rows = tallies
     .map((t) => ({ ...t, share: total ? t.votes / total : 0, won: winners.has(t.person) }))
     .sort((a, b) => b.votes - a.votes || (a.person < b.person ? -1 : a.person > b.person ? 1 : 0));
-  return { ...countOf(r), rows, total, winners };
+  return { ...countOf(r), rows, total, winners, ...(none === null ? {} : { noneOfThese: { votes: none, share: total ? none / total : 0 } }) };
 }
 
 export function measureOutcome(contest: Rec | undefined): MeasureOutcome | null {
