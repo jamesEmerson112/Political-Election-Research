@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-2ea4dcff31",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-03-15",
+  "publisher": "The Nevada Independent",
+  "title": "Freshman Orientation: Hanadi Nadeem's path from Pakistan to Carson City",
+  "url": "https://thenevadaindependent.com/article/freshman-orientation-hanadi-nadeems-path-from-pakistan-to-carson-city",
+  "notes": "By Isabella Aldrete. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

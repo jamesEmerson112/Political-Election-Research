@@ -3,6 +3,51 @@
   "id": "hanadi-nadeem",
   "name": "Hanadi Nadeem",
   "aliases": [],
+  "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Shifa Medical Center",
+          "role": "Runs the clinic (head of a health care business)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-2ea4dcff31",
+              "quote": "Today, Nadeem's family tree is still dotted with physicians and Nadeem herself runs Shifa Medical Center, a primary care clinic, in Las Vegas."
+            },
+            {
+              "source": "src:hanadinadeem-com-e13523002e",
+              "quote": "As the head of a health care business, Hanadi leads with compassion and dedication to assisting all those who come through her business’s doors."
+            }
+          ]
+        },
+        {
+          "organization": "APPNA Alliance",
+          "role": "Past president",
+          "citations": [
+            {
+              "source": "src:hanadinadeem-com-e13523002e",
+              "quote": "She is the past president of APPNA Alliance."
+            }
+          ]
+        },
+        {
+          "organization": "Save God's Special Children",
+          "role": "Founder",
+          "citations": [
+            {
+              "source": "src:hanadinadeem-com-e13523002e",
+              "quote": "Hanadi is also the founder of the non-profit Save Gods Special Children, devoted to providing education to children of special needs with intellectual disabilities."
+            },
+            {
+              "source": "src:thenevadaindependent-com-2ea4dcff31",
+              "quote": "Her mother's benevolence informed her own perspective, motivating her to volunteer and establish her own nonprofit organization, Save God's Special Children, while still in school."
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
