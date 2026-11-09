@@ -45,6 +45,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Youngstown, Ohio (origin: moved to Las Vegas from there in 1985; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:reviewjournal-com-2e7aa0a32e",
+          "quote": "she moved to Las Vegas from Youngstown, Ohio, in 1985",
+          "locator": "section 'Patricia Marr', first paragraph"
+        },
+        {
+          "source": "src:marr4judge-com-f2119df519",
+          "quote": "I relocated to Nevada from Ohio in 1985 with determination and a belief in opportunity.",
+          "locator": "PERSONAL STATEMENT, first paragraph"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
