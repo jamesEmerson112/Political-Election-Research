@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.working-families-party--person.j-r-eppler--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:j-r-eppler",
+  "endorser": "org:working-families-party",
+  "citations": [
+    {
+      "source": "src:jreppler-com-593c970e54",
+      "quote": "CA Working Families Party*",
+      "locator": "Endorsements: Your Labor Unions & Community Organizations Support J.R."
+    },
+    {
+      "source": "src:jreppler-com-593c970e54",
+      "quote": "* Indicates second ranked endorsement",
+      "locator": "Endorsements, footnote"
+    },
+    {
+      "source": "src:missionlocal-org-1b285d26cc",
+      "quote": "Endorsed by: Harvey Milk Democratic Club, SF League of Pissed Off Voters, United Educators of San Francisco, California Working Families Party",
+      "locator": "J.R. Eppler, Endorsed by"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "The candidate's endorsements page marks this endorsement with an asterisk, which the page explains as \"Indicates second ranked endorsement\"."
+}

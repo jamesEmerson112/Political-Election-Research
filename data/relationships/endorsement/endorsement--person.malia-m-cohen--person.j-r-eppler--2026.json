@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.malia-m-cohen--person.j-r-eppler--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:j-r-eppler",
+  "endorser": "person:malia-m-cohen",
+  "citations": [
+    {
+      "source": "src:jreppler-com-593c970e54",
+      "quote": "MALIA COHEN* CA CONTROLLER FORMER D10 SUPERVISOR",
+      "locator": "Endorsements: Your Elected Officials Do"
+    },
+    {
+      "source": "src:jreppler-com-593c970e54",
+      "quote": "* Indicates second ranked endorsement",
+      "locator": "Endorsements, footnote"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "The candidate's endorsements page marks this endorsement with an asterisk, which the page explains as \"Indicates second ranked endorsement\"."
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-bay-guardian--person.j-r-eppler--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:j-r-eppler",
+  "endorser": "org:san-francisco-bay-guardian",
+  "citations": [
+    {
+      "source": "src:sfbg-com-cd8bb5cc04",
+      "quote": "District 10 Supervisor JR Eppler DJ Brookter",
+      "locator": "San francisco races"
+    },
+    {
+      "source": "src:jreppler-com-593c970e54",
+      "quote": "Bay Guardian",
+      "locator": "Endorsements: Your Labor Unions & Community Organizations Support J.R."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
