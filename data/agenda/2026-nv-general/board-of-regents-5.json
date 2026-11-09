@@ -2,7 +2,16 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/board-of-regents-5",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:moises-mo-denis",
+      "name": "Moises \"Mo\" Denis"
+    },
+    {
+      "person": "person:stephanie-molina",
+      "name": "Stephanie Molina"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
