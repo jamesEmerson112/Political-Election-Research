@@ -45,6 +45,42 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, grew up, hometown, native",
+          "where": "Campaign website https://www.gwynneth4judge.com/, /about and /endorsements"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born / grew up / moved",
+          "where": "Las Vegas Review-Journal, 'Women with backgrounds in law, psychology eye Family Court Dept. D' (2026-10-06), section 'Gwynneth Smith'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born / grew up",
+          "where": "Las Vegas Review-Journal 2026 voter guide, Family Court Dept. D candidate statement"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born / grew up",
+          "where": "The Nevada Independent 2026 Clark County voter guide and 'Election 2026: Two incumbent Clark County judges are defeated' (2026-11-04)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born / grew up",
+          "where": "Our Nevada Judges candidate page (ournevadajudges.com/candidates/gwynneth-f-smith)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Gwynneth Smith born hometown",
+          "where": "Web search: unavailable in this session (search budget exhausted)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
