@@ -65,6 +65,125 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Service industry worker (before law school)",
+          "citations": [
+            {
+              "source": "src:danielletarmu-com-7d7d37b52a",
+              "quote": "A born-and-raised Las Vegas resident who worked in the Las Vegas service industry for 5 years before law school,",
+              "locator": "Biography"
+            }
+          ]
+        },
+        {
+          "organization": "Lewis Brisbois Bisgaard & Smith",
+          "role": "Attorney (insurance defense and general liability litigation)",
+          "citations": [
+            {
+              "source": "src:danielletarmu-com-7d7d37b52a",
+              "quote": "She began her practice at Lewis Brisbois Bisgaard & Smith, where she honed her skills in insurance defense and general liability litigation.",
+              "locator": "Biography"
+            }
+          ]
+        },
+        {
+          "organization": "Eglet Wall (also known as Eglet Prince and Eglet Law)",
+          "role": "Attorney",
+          "citations": [
+            {
+              "source": "src:danielletarmu-com-7d7d37b52a",
+              "quote": "Danielle’s subsequent work at prominent plaintiff firms, including Eglet Wall (also known as Eglet Prince and Eglet Law) and Maier Gutierrez & Associates,",
+              "locator": "Biography"
+            }
+          ]
+        },
+        {
+          "end": "2015",
+          "organization": "Children's Attorney Project at Legal Aid",
+          "role": "Pro bono attorney",
+          "start": "2009",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-aecdc3f497",
+              "quote": "Children’s Attorney Project at Legal Aid (2009 to 2015)",
+              "locator": "Candidate deep dive, Tarmu, Community Service"
+            },
+            {
+              "source": "src:danielletarmu-com-7d7d37b52a",
+              "quote": "She previously dedicated significant time to pro bono work with the Children’s Attorney Project at Legal Aid,",
+              "locator": "Biography"
+            }
+          ]
+        },
+        {
+          "organization": "Brock Ohlson Injury Lawyers",
+          "role": "Of counsel",
+          "citations": [
+            {
+              "source": "src:danielletarmu-com-7d7d37b52a",
+              "quote": "As a partner at Mainor Wirth Injury Lawyers and of-counsel at Brock Ohlson Injury Lawyers and Maier Gutierrez & Associates,",
+              "locator": "Biography"
+            },
+            {
+              "source": "src:mgalaw-com-cc884891e2",
+              "quote": "Prior to that, Danielle was a partner at Mainor Wirth Injury Lawyers and of-counsel at Brock Ohlson Injury Lawyers,",
+              "locator": "Legal Team bio"
+            }
+          ]
+        },
+        {
+          "organization": "Mainor Wirth Injury Lawyers",
+          "role": "Partner",
+          "citations": [
+            {
+              "source": "src:danielletarmu-com-7d7d37b52a",
+              "quote": "As a partner at Mainor Wirth Injury Lawyers and of-counsel at Brock Ohlson Injury Lawyers and Maier Gutierrez & Associates,",
+              "locator": "Biography"
+            },
+            {
+              "source": "src:mgalaw-com-cc884891e2",
+              "quote": "Prior to that, Danielle was a partner at Mainor Wirth Injury Lawyers and of-counsel at Brock Ohlson Injury Lawyers,",
+              "locator": "Legal Team bio"
+            }
+          ]
+        },
+        {
+          "organization": "Tarmu Law, LLC",
+          "role": "Founder and owner (legal consulting and writing)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-aecdc3f497",
+              "quote": "Founded her own law firm, Tarmu Law, LLC",
+              "locator": "Candidate deep dive, Tarmu, Prior Job Titles"
+            },
+            {
+              "source": "src:mgalaw-com-cc884891e2",
+              "quote": "Before joining Maier Gutierrez & Associates, she launched her own firm to leverage years of personal injury legal experience in the areas of legal consulting and writing services.",
+              "locator": "Legal Team bio"
+            }
+          ]
+        },
+        {
+          "organization": "Maier Gutierrez & Associates",
+          "role": "Of counsel",
+          "citations": [
+            {
+              "source": "src:mgalaw-com-cc884891e2",
+              "quote": "Danielle Tarmu is an of counsel contract attorney with Maier Gutierrez & Associates, responsible for special projects.",
+              "locator": "Legal Team bio"
+            },
+            {
+              "source": "src:danielletarmu-com-7d7d37b52a",
+              "quote": "Danielle currently oversees the law and motion practice at Maier Gutierrez & Associates on all high-value, complex cases requiring sophisticated legal analysis, research, and writing, and assists with most trials.",
+              "locator": "Biography"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney (civil trial lawyer); of counsel at Maier Gutierrez & Associates",
       "citations": [
