@@ -4,6 +4,52 @@
   "name": "Brenda Zamora",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date or age",
+          "where": "CCSD trustee page https://www.ccsd.net/about/school-board/trustees/brenda-zamora/"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date or age",
+          "where": "Campaign website https://www.votebrendazamora.com/ (home and Meet Brenda section)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date or age",
+          "where": "Nevada Current, 2022-10-11 and 2026-09-23 District D articles"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date or age",
+          "where": "The Nevada Independent results article (2026-11-06), 2026 Clark County voter guide, and trustee pay article (republished by carsonnow.org 2026-04-10)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date or age",
+          "where": "Clark County Election Department candidate lists (Contests-Candidates-All-26.pdf, elected-cands-2022.pdf); nvsos.gov candidate media list blocked from this session"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Brenda Zamora\" trustee \"North Las Vegas\" OR \"Las Vegas\" lives age born",
+          "where": "Web searches (news)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Brenda Zamora CCSD trustee 2026 reelection",
+          "where": "Web searches (news)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date or age",
+          "where": "Ballotpedia Brenda Zamora and its Candidate Connection survey, reference work used only as a lead"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic (self-identified, as reported by news; the office is nonpartisan and the county candidate list shows NP)",
       "citations": [
