@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegassun-com-9d284c3a09",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-14",
+  "publisher": "Las Vegas Sun",
+  "title": "Nevada treasurer endorsement: Mathis-Coleman offers experience and continuity",
+  "url": "https://lasvegassun.com/news/2026/oct/14/nevada-treasurer-mathis-coleman-offers-experience/"
+}

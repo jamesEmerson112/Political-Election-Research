@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-state-education-association--person.tya-mathis-coleman--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:tya-mathis-coleman",
+  "endorser": "org:nevada-state-education-association",
+  "citations": [
+    {
+      "source": "src:nsea-nv-org-c1ea3b1301",
+      "quote": "TYA MATHIS-COLEMAN TREASURER",
+      "locator": "PDF page 1"
+    },
+    {
+      "source": "src:nsea-nv-org-fde8d9e38f",
+      "quote": "Treasurer Tya Mathis-Coleman",
+      "locator": "Educator Votes 2026, Meet the Candidates list"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "General election endorsement list."
+}

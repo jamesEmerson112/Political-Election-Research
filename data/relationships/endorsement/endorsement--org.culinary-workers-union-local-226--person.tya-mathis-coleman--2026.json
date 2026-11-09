@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.culinary-workers-union-local-226--person.tya-mathis-coleman--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-18",
+  "endorsee": "person:tya-mathis-coleman",
+  "endorser": "org:culinary-workers-union-local-226",
+  "citations": [
+    {
+      "source": "src:m-culinaryunion226-org-333376e68b",
+      "quote": "Culinary Union has released statewide endorsements ahead of the 2026 Nevada Primary.",
+      "locator": "statement, first paragraph"
+    },
+    {
+      "source": "src:m-culinaryunion226-org-333376e68b",
+      "quote": "State Treasurer: Tya Mathis-Coleman.",
+      "locator": "endorsement list"
+    },
+    {
+      "source": "src:thenevadaindependent-com-42dac61fbc",
+      "quote": "Culinary",
+      "locator": "Treasurer section, Tya Mathis-Coleman entry, ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Primary election endorsement (May 18, 2026)."
+}
