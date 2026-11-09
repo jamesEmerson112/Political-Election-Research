@@ -34,6 +34,45 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Undergraduate degree",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 1987,
+          "citations": [
+            {
+              "source": "src:judgeleavitt-com-f6d4b650f2",
+              "quote": "earned her undergraduate degree from the University of Nevada, Las Vegas in 1987",
+              "locator": "About, paragraph 2"
+            },
+            {
+              "source": "src:clarkcountycourts-us-a1cc34eaa1",
+              "quote": "She graduated from Las Vegas High School in 1983 and the University of Nevada, Las Vegas in 1987.",
+              "locator": "Biography, paragraph 1"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor (cum laude)",
+          "institution": "California Western School of Law",
+          "year": 1994,
+          "citations": [
+            {
+              "source": "src:judgeleavitt-com-f6d4b650f2",
+              "quote": "She went on to receive her Juris Doctor from California Western School of Law, graduating cum laude in 1994.",
+              "locator": "About, paragraph 2"
+            },
+            {
+              "source": "src:clarkcountycourts-us-a1cc34eaa1",
+              "quote": "Judge Leavitt graduated from California Western School of Law cum laude in 1994.",
+              "locator": "Biography, paragraph 1"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Judge, Eighth Judicial District Court, Department 12",
       "citations": [
