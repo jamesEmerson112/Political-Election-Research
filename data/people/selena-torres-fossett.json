@@ -29,6 +29,40 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly (District 3)",
+          "current": true,
+          "first_elected": "2018",
+          "jurisdiction": "Nevada",
+          "start": "2018-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Selena Torres-Fossett LEGISLATIVE SERVICE Served in 4 Regular Sessions and 5 Special Sessions Years in Assembly: November 2018 to Current",
+              "locator": "PDF page 86, Legislative Biography—2025 Session"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Democrat Assembly District 3 Clark County (part)",
+              "locator": "PDF page 86, Legislative Biography—2025 Session"
+            },
+            {
+              "source": "src:leg-state-nv-us-7bae331e8f",
+              "quote": "Torres-Fossett, Selena Democratic No. 3 Clark (Part) Currently Serving",
+              "locator": "Assembly member list, 83rd (2025) Session"
+            },
+            {
+              "source": "src:thenevadaindependent-com-241dc78c98",
+              "quote": "Torres-Fossett was elected to represent Assembly District 3 in 2018.",
+              "locator": "State Assembly, District 3, Selena Torres-Fossett"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
