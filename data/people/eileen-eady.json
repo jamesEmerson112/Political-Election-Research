@@ -14,6 +14,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Small business owner and outreach consultant",
+      "citations": [
+        {
+          "source": "src:eadyfornevada-com-dfc55091d9",
+          "quote": "Eileen is a small business owner and outreach consultant.",
+          "locator": "Meet Eileen section"
+        },
+        {
+          "source": "src:thenevadaindependent-com-241dc78c98",
+          "quote": "Eady is a small business owner and outreach consultant who moved to Las Vegas in 2013.",
+          "locator": "State Assembly, District 4: Eileen Eady"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
