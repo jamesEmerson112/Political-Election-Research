@@ -3,6 +3,23 @@
   "id": "brittney-m-miller",
   "name": "Brittney M. Miller",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Miller Brittney M. DEM",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 5 (party on the general election candidate list)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "official_site": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/5"
