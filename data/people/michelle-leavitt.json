@@ -34,6 +34,33 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Alverson, Taylor, Mortensen, Nelson & Sanders",
+          "role": "Attorney (medical malpractice and civil litigation)",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a1cc34eaa1",
+              "quote": "Upon graduation from law school, she began work with the law firm of Alverson, Taylor, Mortensen, Nelson & Sanders, where she gained considerable experience in medical malpractice and other forms of civil litigation.",
+              "locator": "Biography, paragraph 1"
+            }
+          ]
+        },
+        {
+          "role": "Sole practitioner (criminal defense and civil litigation)",
+          "start": "1998-07",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a1cc34eaa1",
+              "quote": "In July 1998, Judge Leavitt became a sole practitioner, specializing in a broad range of criminal defense and civil litigation matters.",
+              "locator": "Biography, paragraph 2"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
