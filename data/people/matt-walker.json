@@ -88,6 +88,44 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Las Vegas City Attorney’s Office",
+          "role": "Criminal prosecutor",
+          "start": "2008",
+          "citations": [
+            {
+              "source": "src:lasvegasnevada-gov-18d24bf438",
+              "quote": "He began his own career serving the citizens of Las Vegas when he joined the Las Vegas City Attorney’s Office in 2008 as a criminal prosecutor.",
+              "locator": "Department 1 judge page, second paragraph"
+            },
+            {
+              "source": "src:thenevadaindependent-com-725eba250b",
+              "quote": "The incumbent judge in Department 1, Walker was a prosecutor in the city attorney’s office for 16 years.",
+              "locator": "The Candidates, Matt Walker"
+            }
+          ]
+        },
+        {
+          "organization": "Las Vegas City Attorney’s Office",
+          "role": "Senior Deputy City Attorney",
+          "citations": [
+            {
+              "source": "src:lasvegasnevada-gov-18d24bf438",
+              "quote": "Over the course of nearly 17 years, he prosecuted thousands of cases and conducted countless trials, eventually being promoted to Senior Deputy City Attorney.",
+              "locator": "Department 1 judge page, second paragraph"
+            },
+            {
+              "source": "src:thenevadaindependent-com-725eba250b",
+              "quote": "Prior job titles: Senior deputy city attorney",
+              "locator": "Candidate Deep Dive, Walker, Matt, Title"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
