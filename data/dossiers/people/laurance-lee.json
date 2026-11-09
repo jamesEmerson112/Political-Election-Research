@@ -138,5 +138,31 @@
         "where": "lauranceleesf.com home page and Platform page (Three promises to SFUSD families)"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (legislation, programs, budgets) cited to government records",
+        "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, Board of Education candidate statement (media.api.sf.gov/documents/N26_EN_VIP.pdf, p. 30): no elected office; says he helped restore eighth-grade Algebra 1 (no official record of his role found)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Citizens' Bond Oversight Committee role and actions",
+        "where": "SFUSD CBOC page (sfusd.edu/advisory-councils-committees/sfusd-bond-program-citizens-bond-oversight-committee-cboc): lists him as Vice-Chair (appointed 2022-10-11, reappointed 2024-11-12); no outcome attributed to him"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Laurance Lee\" CBOC annual report",
+        "where": "Web search for SFUSD CBOC annual reports naming him: none found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "oversight record, Civil Grand Jury service",
+        "where": "Campaign website lauranceleesf.com (home and Coming Back pages) and GrowSF November 2026 questionnaire: his own descriptions of CBOC and Civil Grand Jury work; no government record of an outcome"
+      }
+    ]
   }
 }
