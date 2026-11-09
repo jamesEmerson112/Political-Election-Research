@@ -3,6 +3,28 @@
   "id": "brandon-davis",
   "name": "Brandon Davis",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Davis Brandon REP",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 34 rows (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "34 Brandon Davis Hanadi Nadeem* Republican Democrat",
+          "locator": "PDF page 3, Nevada State Assembly Candidates, District 34 (compiled from the Secretary of State's certified list of candidates)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
