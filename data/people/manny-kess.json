@@ -53,6 +53,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Entrepreneur and investor; founder of The Kess Group (hospitality company)",
+      "citations": [
+        {
+          "source": "src:votekess-com-2ad77066e4",
+          "quote": "Manny Kess is an entrepreneur, investor, and community leader with more than two decades of experience building and leading businesses in highly regulated, competitive environments."
+        },
+        {
+          "source": "src:reviewjournal-com-159824f416",
+          "quote": "Kess, founder of hospitality company The Kess Group, said those “missteps” taught him “valuable lessons” he would bring to the office."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
