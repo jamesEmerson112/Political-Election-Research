@@ -2,7 +2,16 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/ccsd-trustee-f",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:irene-bustamante-adams",
+      "name": "Irene Bustamante Adams"
+    },
+    {
+      "person": "person:robert-e-hutchinson",
+      "name": "Robert E. Hutchinson"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {

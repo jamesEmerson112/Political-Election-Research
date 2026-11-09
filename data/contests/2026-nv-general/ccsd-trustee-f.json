@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/ccsd-trustee-f",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Trustee Clark County School District F",
+  "office": "Trustee, Clark County School District",
+  "candidates": [
+    {
+      "person": "person:irene-bustamante-adams",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Bustamante Adams, Irene NP",
+          "locator": "PDF page 12, TRUSTEE CLARK COUNTY SCHOOL 4-YEAR TERM, DISTRICT F (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Trustee Clark County School District F Bustamante Adams Irene NP 4",
+          "locator": "PDF page 7 (7 of 12), INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:ccsd-net-2331cb29c9",
+          "quote": "Irene Bustamante Adams Vice President District F",
+          "locator": "Board Of School Trustees roster"
+        }
+      ]
+    },
+    {
+      "person": "person:robert-e-hutchinson",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Hutchinson, Robert E. NP",
+          "locator": "PDF page 12, TRUSTEE CLARK COUNTY SCHOOL 4-YEAR TERM, DISTRICT F (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Trustee Clark County School District F Bustamante Adams Irene NP 4",
+          "locator": "PDF page 7 (7 of 12), INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:ccsd-net-2331cb29c9",
+          "quote": "Irene Bustamante Adams Vice President District F",
+          "locator": "Board Of School Trustees roster"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}
