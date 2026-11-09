@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-college-republicans--person.charles-hoelter--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:charles-hoelter",
+  "endorser": "org:california-college-republicans",
+  "citations": [
+    {
+      "source": "src:cacollegegop-org-496cb9098e",
+      "quote": "U.S. House of Representatives\n\nDistrict 15: Charles Hoelter",
+      "locator": "San Mateo County Voter Guide, U.S. Congress Races"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

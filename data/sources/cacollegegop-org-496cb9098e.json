@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cacollegegop-org-496cb9098e",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "California College Republicans",
+  "title": "San Mateo County Voter Guide",
+  "url": "https://www.cacollegegop.org/voter-guides/san-mateo"
+}

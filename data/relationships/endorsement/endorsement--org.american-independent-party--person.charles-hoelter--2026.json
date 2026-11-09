@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.american-independent-party--person.charles-hoelter--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:charles-hoelter",
+  "endorser": "org:american-independent-party",
+  "citations": [
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "U.S. Representative District 15: Charles Hoelter\nState Assembly District 17: Manuel Noris-Barrera",
+      "locator": "p. 23 (PDF page 25), Party Endorsements of Candidates, American Independent Party"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

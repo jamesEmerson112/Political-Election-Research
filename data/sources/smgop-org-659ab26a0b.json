@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "smgop-org-659ab26a0b",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "San Mateo County Republican Party",
+  "title": "SMGOP Voter Guide",
+  "url": "https://smgop.org/voter-guide"
+}
