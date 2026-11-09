@@ -40,6 +40,108 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2016",
+          "organization": "San Francisco Board of Supervisors",
+          "role": "Senior legislative aide to Supervisors Michela Alioto-Pier and Mark Farrell",
+          "start": "2007",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "Stefani served as a senior legislative aide from 2007-2016 for Supervisors Michela Alioto-Pier and Mark Farrell",
+              "locator": "Biography, paragraph beginning \"Before being elected to the Board of Supervisors in 2018\""
+            }
+          ]
+        },
+        {
+          "organization": "Contra Costa County District Attorney's Office",
+          "role": "Deputy district attorney",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "served as deputy district attorney in Contra Costa County, where she argued 25 jury trials.",
+              "locator": "Biography, paragraph beginning \"Before being elected to the Board of Supervisors in 2018\""
+            },
+            {
+              "source": "src:stefani-asmdc-org-2bed2c95bc",
+              "quote": "As a former prosecutor with the Contra Costa County District Attorney’s Office, she fought to protect vulnerable victims.",
+              "locator": "Biography, second paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "City of San Jose",
+          "role": "Policy analyst for Vice Mayor Cindy Chavez",
+          "citations": [
+            {
+              "source": "src:stmarys-ca-edu-ab65705dc5",
+              "quote": "a policy analyst for Vice Mayor Cindy Chavez of San Jose",
+              "locator": "News release, second paragraph"
+            },
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "She also worked for San Jose Vice Mayor Cindy Chavez, the California Department of Justice, Speaker Herb Wesson of the California State Assembly",
+              "locator": "Biography, paragraph beginning \"Before being elected to the Board of Supervisors in 2018\""
+            }
+          ]
+        },
+        {
+          "organization": "California State Assembly",
+          "role": "Legislative analyst for Assemblyman Herb Wesson",
+          "citations": [
+            {
+              "source": "src:stmarys-ca-edu-ab65705dc5",
+              "quote": "Catherine also served as a legislative analyst for Assemblyman Herb Wesson",
+              "locator": "News release, second paragraph"
+            },
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "She also worked for San Jose Vice Mayor Cindy Chavez, the California Department of Justice, Speaker Herb Wesson of the California State Assembly",
+              "locator": "Biography, paragraph beginning \"Before being elected to the Board of Supervisors in 2018\""
+            }
+          ]
+        },
+        {
+          "organization": "California Department of Justice",
+          "role": "Staff (role not stated in the source)",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "She also worked for San Jose Vice Mayor Cindy Chavez, the California Department of Justice, Speaker Herb Wesson of the California State Assembly",
+              "locator": "Biography, paragraph beginning \"Before being elected to the Board of Supervisors in 2018\""
+            }
+          ]
+        },
+        {
+          "role": "Developer, host and producer of the television show \"For The Record\"",
+          "citations": [
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "Stefani developed, hosted, and produced “For The Record,” a television show about legal issues.",
+              "locator": "Biography, paragraph beginning \"An active volunteer\""
+            },
+            {
+              "source": "src:stmarys-ca-edu-ab65705dc5",
+              "quote": "She later developed, hosted and produced FOR THE RECORD, a live call-in television show that focused on educating viewers about various legal issues.",
+              "locator": "News release, first paragraph"
+            }
+          ]
+        },
+        {
+          "role": "English teacher in Japan (one year)",
+          "citations": [
+            {
+              "source": "src:stmarys-ca-edu-ab65705dc5",
+              "quote": "She then spent a year in Japan teaching English",
+              "locator": "News release, second paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
