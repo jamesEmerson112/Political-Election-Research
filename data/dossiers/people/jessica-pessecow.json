@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:jessica-pessecow",
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes: offices, programs, legislation, budgets",
+        "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement, Board of Supervisors District 10, printed p. 50: describes attending City Hall meetings, creating a civic-resource website and joining the Adopt-A-Street program; no government record of an outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jessica Pessecow record",
+        "where": "Potrero View, 'Crowded Starting Line in Race for District 10 Supervisor' (Feb. 2026); Local News Matters (Bay City News), Aug. 2, 2026 forum article: no dated, documented outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jessica Pessecow",
+        "where": "SF Examiner District 10 articles; SF Chronicle Oct. 22, 2026 editorial (she did not respond to interview requests) and Oct. 2026 basketball article; KQED and GrowSF District 10 guides (GrowSF: contact information unavailable): no documented outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Pessecow",
+        "where": "Candidate's site named in her VIP statement (gov-central-jpessecow.replit.app and /district-10): civic-resource portal, no government outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "MatterTitle contains 'Pessecow'; PersonLastName contains 'Pessecow'",
+        "where": "San Francisco Board of Supervisors legislative files and persons via the Legistar web API (webapi.legistar.com/v1/sfgov): no results"
+      }
+    ]
+  }
+}
