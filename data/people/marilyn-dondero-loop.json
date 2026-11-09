@@ -18,6 +18,15 @@
           "locator": "State Senate District 8: Marilyn Dondero Loop, Experience (candidate's answer)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Las Vegas",
+      "citations": [
+        {
+          "source": "src:reviewjournal-com-ddf1d6d69f",
+          "quote": "State Sen. Marilyn Dondero Loop, D-Las Vegas, said that, as a former Clark County School District teacher of 30 years, she knows firsthand how hard Wheatley has worked to serve her students."
+        }
+      ]
     }
   },
   "ids": [],

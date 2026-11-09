@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-ddf1d6d69f",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-23",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "‘Exemplary educator’: CCSD social studies teacher named Nevada Teacher of the Year",
+  "url": "https://www.reviewjournal.com/local/education/exemplary-educator-ccsd-social-studies-teacher-named-nevada-teacher-of-the-year-3890022/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable."
+}
