@@ -4,6 +4,42 @@
   "name": "Jon Penn Junejo",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date (states only that he immigrated in 1993 at about six months old; no birth date given)",
+          "where": "Pahrump Valley Times profile of Junejo (2026-03-25), pvtimes.com"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "iVoterGuide 2026 candidate profile, biography section"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Run for Something candidate directory profile"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Junejo born",
+          "where": "The Nevada Independent 2026 Clark County State Assembly voter guide"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "About page (blocked: penn36.org does not resolve and pennfor36.org returns a Cloudflare challenge)",
+          "where": "campaign site penn36.org / pennfor36.org"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Junejo\" Assembly District 36 Nevada psychiatry",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
