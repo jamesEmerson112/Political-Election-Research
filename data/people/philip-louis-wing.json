@@ -4,6 +4,78 @@
   "name": "Philip Louis Wing",
   "aliases": [],
   "candidate_profile": {
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Financial Advisor (retired, per ballot designation)",
+          "citations": [
+            {
+              "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+              "quote": "Philip Louis Wing Republican\nRetired Financial Advisor",
+              "locator": "PDF page 22 (list page 21 of 41), State Assembly Member District 19; ballot designation (the candidate's self-description); no employer or dates found"
+            }
+          ]
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "career, employer, firm, financial advisor, worked at",
+          "where": "elections.cdn.sos.ca.gov 2026-general cert-list-candidates.pdf and contact-list.pdf (SOS certified list and candidate contact list; give only party, ballot designation and contact details)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "career, employer, firm, financial advisor, worked at",
+          "where": "media.api.sf.gov N26_EN_VIP.pdf (SF Nov 3, 2026 Voter Information Pamphlet; lists the candidate, no candidate statement printed)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "career, employer, firm, financial advisor, worked at",
+          "where": "media.api.sf.gov J26_EN_VIP.pdf (SF June 2, 2026 Voter Information Pamphlet; lists the candidate, no candidate statement printed)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "career, employer, firm, financial advisor, worked at",
+          "where": "growsf.org/voter-guide/questionnaires/june-2026/philip-louis-wing/ (page says contact information was unavailable and no questionnaire was sent)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "career, employer, firm, financial advisor, worked at",
+          "where": "sfchronicle.com 2026 California and S.F. Bay Area voter guide (gives only party and 'Retired financial adviser')"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "career, employer, firm, financial advisor, worked at",
+          "where": "ballotpedia.org/Philip_Wing (reference lead only; election results and endorsements, no biography; candidate did not complete its survey)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "career, employer, firm, financial advisor, worked at",
+          "where": "smcacre.gov/november-3-2026 (San Mateo County elections page; no candidate statement reachable from the page text)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Philip Louis Wing\"",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Philip Wing\" \"financial advisor\" San Francisco Assembly",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Phil Wing for Assembly 2026 campaign website San Francisco Republican (no campaign website found)",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "career, employer, firm, financial advisor, worked at",
+          "where": "sfexaminer.com June 2, 2026 primary results article (article body not in page text)"
+        }
+      ]
+    },
     "occupation": {
       "value": "Retired Financial Advisor (ballot designation)",
       "citations": [
