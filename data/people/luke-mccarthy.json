@@ -70,6 +70,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Firefighter, Clark County Fire Department",
+      "citations": [
+        {
+          "source": "src:luke4vegas-com-6d26e17344",
+          "quote": "Currently in his 20th year with the Clark County Fire Department, McCarthy has served in various critical roles, including assignments on the Las Vegas Strip, the Haz-Mat Team, and McCarran International Airport.",
+          "locator": "About page, Professional Experience"
+        },
+        {
+          "source": "src:thenevadaindependent-com-203a8b55bb",
+          "quote": "Attorney and judge Shannon Nordstrom is up against Luke McCarthy, a veteran firefighter.",
+          "locator": "introduction, paragraph 4"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

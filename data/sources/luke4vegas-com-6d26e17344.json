@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "luke4vegas-com-6d26e17344",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Elect Luke McCarthy",
+  "title": "About | Luke McCarthy for Las Vegas City Council, Ward 2",
+  "url": "https://www.luke4vegas.com/about",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

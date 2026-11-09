@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-203a8b55bb",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-29",
+  "publisher": "The Nevada Independent",
+  "title": "Two candidates want to represent Las Vegas' Ward 2. Here's where they stand",
+  "url": "https://thenevadaindependent.com/article/e-bikes-homelessness-and-budgets-las-vegas-ward-2-city-council-candidates-on-the-issues",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
