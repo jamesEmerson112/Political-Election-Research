@@ -96,6 +96,85 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "U.S. Air Force",
+          "role": "U.S. Air Force service, stationed at Nellis Air Force Base",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "He began his 20+ years in public service stationed locally at Nellis Air Force Base.",
+              "locator": "J. Ken Diaz, CPA biography"
+            },
+            {
+              "source": "src:thenevadaindependent-com-b73a363833",
+              "quote": "A U.S. Air Force veteran, Diaz is a certified public accountant and has worked in government for more than 20 years and in the treasurer's office since 2016.",
+              "locator": "Treasurer section"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County",
+          "role": "Staff, Budget Department and then Internal Audit",
+          "start": "2004",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "In 2004, he joined Clark County first working in the Budget Department and then Internal Audit.",
+              "locator": "J. Ken Diaz, CPA biography"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County Treasurer’s Office",
+          "role": "Manager of Treasury Services",
+          "start": "2016",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "In 2016, he accepted the Manager of Treasury Services position in the Treasurer’s Office",
+              "locator": "J. Ken Diaz, CPA biography"
+            }
+          ]
+        },
+        {
+          "organization": "Clark County Treasurer’s Office",
+          "role": "Assistant County Treasurer (appointed by then Treasurer Laura B. Fitzpatrick)",
+          "start": "2018-09",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "was appointed Assistant County Treasurer in September 2018 by then Clark County Treasurer Laura B. Fitzpatrick.",
+              "locator": "J. Ken Diaz, CPA biography"
+            }
+          ]
+        },
+        {
+          "organization": "Deloitte & Touche",
+          "role": "Worked in the Las Vegas office (role not stated)",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "Before joining Clark County, he worked in the Las Vegas office of Deloitte & Touche and was an Accounting Manager with Nevada Power Company.",
+              "locator": "J. Ken Diaz, CPA biography"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Power Company",
+          "role": "Accounting Manager",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-5264ca1704",
+              "quote": "Before joining Clark County, he worked in the Las Vegas office of Deloitte & Touche and was an Accounting Manager with Nevada Power Company.",
+              "locator": "J. Ken Diaz, CPA biography"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
