@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-7bae331e8f",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislature",
+  "title": "Assembly 83rd2025 (Legislator Information, 83rd (2025) Session)",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/83rd2025",
+  "notes": "Assembly member list with party, district and 'Currently Serving' status. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

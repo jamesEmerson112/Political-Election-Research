@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-1",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 1",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:alexis-elizabeth-esparza",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 1 Esparza, Alexis Elizabeth DEM",
+          "locator": "PDF page 3, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, STATE ASSEMBLY 2-YEAR TERM, DISTRICT 1"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Esparza Alexis Elizabeth DEM",
+          "locator": "PDF page 2 (Page 2 of 10)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Monroe-Moreno, Daniele Speaker Pro Tempore Democratic No. 1 Clark (Part) Currently Serving",
+          "locator": "Assembly member list, 83rd (2025) Session: the District 1 seat is held by another person"
+        }
+      ]
+    }
+  ],
+  "district": 1,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
