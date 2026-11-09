@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.andy-matthews--person.cody-k-whipple--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-10-15",
+  "endorsee": "person:cody-k-whipple",
+  "endorser": "person:andy-matthews",
+  "citations": [
+    {
+      "source": "src:codyk4congress-com-b1434a35ed",
+      "quote": "Andy Matthews, Nevada’s State Controller and Republican candidate for reelection, has endorsed Cody K Whipple for Congress in Nevada’s 4th Congressional District"
+    },
+    {
+      "source": "src:codyk4congress-com-b1434a35ed",
+      "quote": "I’m proud to endorse Cody because I believe he will bring a strong Nevada voice to Congress"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Campaign press release quoting the State Controller; not listed on the campaign endorsements page. No announcement by the endorser was found on the hosts reachable from the research environment."
+}

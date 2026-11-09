@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "codyk4congress-com-4d58966eb3",
+  "kind": "press_release",
+  "accessed": "2026-11-09",
+  "published": "2025-08-25",
+  "publisher": "Cody K 4 Congress",
+  "title": "GOP Rep. Celeste Maloy Endorses Cody K. Whipple, Businessman/Rancher for Congress in Nevada’s 4th District",
+  "url": "https://codyk4congress.com/2025/08/25/gop-rep-celeste-maloy-endorses-cody-k-whipple-businessman-rancher-for-congress-in-nevadas-4th-district/",
+  "notes": "Campaign press release. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

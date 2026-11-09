@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "codyk4congress-com-23d51cd2ba",
+  "kind": "press_release",
+  "accessed": "2026-11-09",
+  "published": "2026-09-15",
+  "publisher": "Cody K 4 Congress",
+  "title": "Congressman Burgess Owens Endorses Cody K Whipple for Congress in Nevada’s 4th Congressional District",
+  "url": "https://codyk4congress.com/2026/09/15/congressman-burgess-owens-endorses-cody-k-whipple-for-congress-in-nevadas-4th-congressional-district/",
+  "notes": "Campaign press release. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

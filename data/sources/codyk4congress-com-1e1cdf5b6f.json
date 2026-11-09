@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "codyk4congress-com-1e1cdf5b6f",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Cody K 4 Congress",
+  "title": "Endorsements - Cody K Whipple For Congress",
+  "url": "https://codyk4congress.com/endorsements/",
+  "notes": "Campaign endorsements page, undated. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

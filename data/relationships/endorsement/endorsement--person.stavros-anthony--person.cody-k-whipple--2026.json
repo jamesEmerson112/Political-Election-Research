@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.stavros-anthony--person.cody-k-whipple--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-03-30",
+  "endorsee": "person:cody-k-whipple",
+  "endorser": "person:stavros-anthony",
+  "citations": [
+    {
+      "source": "src:codyk4congress-com-7b28b61043",
+      "quote": "That’s why I’m proud to support Cody K Whipple for Congress."
+    },
+    {
+      "source": "src:codyk4congress-com-1e1cdf5b6f",
+      "quote": "Stavros Anthony, Nevada Lieutenant Governor",
+      "locator": "State and National Elected Officials"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Campaign press release quoting the Lieutenant Governor; no announcement by the endorser was found on the hosts reachable from the research environment."
+}

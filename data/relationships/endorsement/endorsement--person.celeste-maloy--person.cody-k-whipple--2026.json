@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.celeste-maloy--person.cody-k-whipple--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2025-08-25",
+  "endorsee": "person:cody-k-whipple",
+  "endorser": "person:celeste-maloy",
+  "citations": [
+    {
+      "source": "src:codyk4congress-com-4d58966eb3",
+      "quote": "Republican Congresswoman Celeste Maloy (UT-2) has endorsed Cody K. Whipple for Congress in Nevada’s 4th Congressional District."
+    },
+    {
+      "source": "src:codyk4congress-com-1e1cdf5b6f",
+      "quote": "Celeste Maloy, Congresswoman",
+      "locator": "State and National Elected Officials"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Campaign press release; no announcement by the endorser was found on the hosts reachable from the research environment."
+}

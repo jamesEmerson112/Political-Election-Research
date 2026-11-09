@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "codyk4congress-com-7b28b61043",
+  "kind": "press_release",
+  "accessed": "2026-11-09",
+  "published": "2026-03-30",
+  "publisher": "Cody K 4 Congress",
+  "title": "Nevada Lieutenant Governor Stavros Anthony Endorses Cody K Whipple For Congress",
+  "url": "https://codyk4congress.com/2026/03/30/nevada-lieutenant-governor-stavros-anthony-endorses-cody-k-whipple-for-congress/",
+  "notes": "Campaign press release. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

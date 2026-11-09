@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.burgess-owens--person.cody-k-whipple--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-09-15",
+  "endorsee": "person:cody-k-whipple",
+  "endorser": "person:burgess-owens",
+  "citations": [
+    {
+      "source": "src:codyk4congress-com-23d51cd2ba",
+      "quote": "I am proud to endorse Cody Whipple for Congress because he has the backbone to deliver real wins for Nevada families."
+    },
+    {
+      "source": "src:codyk4congress-com-1e1cdf5b6f",
+      "quote": "Burgess Owens, Congressman",
+      "locator": "State and National Elected Officials"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Campaign press release quoting the Congressman (Utah 4th District); no announcement by the endorser was found on the hosts reachable from the research environment."
+}
