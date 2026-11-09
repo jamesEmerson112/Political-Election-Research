@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kesq-com-eb0929de19",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-09",
+  "publisher": "KESQ News Channel 3",
+  "title": "Michael Gates",
+  "url": "https://kesq.com/voter-guide-2026/2026/10/09/michael-gates/"
+}

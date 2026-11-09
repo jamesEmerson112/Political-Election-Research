@@ -30,6 +30,40 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor's degree",
+          "institution": "Pepperdine University",
+          "citations": [
+            {
+              "source": "src:kesq-com-eb0929de19",
+              "quote": "Earned a bachelor's degree from Pepperdine University and a law degree from Chapman University School of Law"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "Chapman University Dale E. Fowler School of Law",
+          "year": 2008,
+          "citations": [
+            {
+              "source": "src:blogs-chapman-edu-cd46077cc2",
+              "quote": "Michael E. Gates (JD ’08) was elected as Huntington Beach City Attorney."
+            },
+            {
+              "source": "src:blogs-chapman-edu-94ec4d1d6e",
+              "quote": "Since Michael Gates (’08) was elected as Huntington Beach City Attorney in 2014, the nearly lifetime Huntington Beach resident has focused on improving the office’s quality of work, shortening its turn-around time, and improving services provided to the community. That’s why the Chapman University Dale E. Fowler School of Law alumnus recently spearheaded the addition of a new and somewhat unique position for the city: a Community Prosecutor."
+            },
+            {
+              "source": "src:kesq-com-eb0929de19",
+              "quote": "Earned a bachelor's degree from Pepperdine University and a law degree from Chapman University School of Law"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Deputy United States Attorney (ballot designation)",
       "citations": [
@@ -105,5 +139,5 @@
     "campaign_site": "https://www.gates4ag.com/"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-09"
 }
