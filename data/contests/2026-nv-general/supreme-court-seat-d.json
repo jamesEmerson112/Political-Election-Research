@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/supreme-court-seat-d",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Justice of the Supreme Court Seat D",
+  "office": "Justice of the Supreme Court",
+  "candidates": [
+    {
+      "person": "person:douglas-herndon",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Herndon, Douglas NP",
+          "locator": "PDF page 7, NONPARTISAN OFFICES, JUSTICE OF THE SUPREME COURT, 6-YEAR TERM, SEAT D (the only candidate, followed by 'None of these candidates')"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Justice of the Supreme Court Seat D Herndon Douglas NP 6",
+          "locator": "PDF page 3 (3 of 12), INCUMBENT (Current Office Holder) column, list dated 4/6/2026"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
