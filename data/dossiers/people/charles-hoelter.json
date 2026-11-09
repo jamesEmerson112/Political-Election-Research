@@ -36,5 +36,36 @@
         "where": "The Almanac, candidate overview of May 18, 2026 (almanacnews.com)"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Charles Hoelter record, prior office",
+        "where": "https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ (The Almanac, June 3, 2026: \"first-time Republican candidate\", retired UPS supervisor; no office, program or budget record)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Charles Hoelter record, prior office",
+        "where": "https://www.rwcpulse.com/redwood-city/2026/05/13/five-candidates-up-to-bat-for-congressional-d-15/ (Redwood City Pulse candidate profile; no office held)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Charles Hoelter",
+        "where": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/house-of-representatives-district-15/ (GrowSF guide: retired UPS supervisor; questionnaire not returned)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Charles Hoelter political offices held",
+        "where": "https://ivoterguide.com/candidate/92381/race/30366/election/1454 (political offices held: \"Candidate did not provide\")"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Hoelter",
+        "where": "govinfo.gov BILLSTATUS bulk data (118th and 119th Congress House bills) and Assembly Final History 2017-18 (clerk.assembly.ca.gov)"
+      }
+    ]
   }
 }
