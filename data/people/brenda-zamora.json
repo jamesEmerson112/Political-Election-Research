@@ -114,6 +114,28 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Trustee, Clark County School District Board of School Trustees, District D",
+          "current": true,
+          "first_elected": "2022-11",
+          "jurisdiction": "Clark County School District",
+          "citations": [
+            {
+              "source": "src:ccsd-net-1e79130503",
+              "quote": "Brenda Zamora is a passionate advocate for education and equity elected to the CCSD Board of Trustees in November 2022. She represents District D"
+            },
+            {
+              "source": "src:clarkcountynv-gov-e225747010",
+              "quote": "Trustee, Clark County School District D Zamora Brenda N/A* 4",
+              "locator": "PDF page 5"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic (self-identified, as reported by news; the office is nonpartisan and the county candidate list shows NP)",
       "citations": [

@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-e225747010",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Clark County Election Department",
+  "title": "Candidates Elected to Office in 2022 in Clark County, NV",
+  "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:5dc44cec-8e59-479d-9237-1e2e39d15320/original/as/elected-cands-2022.pdf"
+}
