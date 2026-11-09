@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-15",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 15",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:miguel-davila",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "State Assembly District 15 Davila Miguel DEM 2",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 15 row (contest, last name, first name, party, term)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "15 Miguel Davila Democrat",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 15 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 2, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Watts, Howard Majority Whip Democratic No. 15 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Howard Watts represented District 15 in the 2025 session, so this candidate is not the incumbent"
+        }
+      ]
+    }
+  ],
+  "district": 15,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
