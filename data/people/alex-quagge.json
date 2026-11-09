@@ -101,6 +101,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed public office: lists employment as a prosecutor, military attorney and in the Attorney General's and Governor's offices, no elected or appointed office",
+          "where": "electalexquagge.com/aboutalexquagge (campaign biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "prior office: 'Quagge is not currently a judicial officer'; 'Quagge has not previously served as a judicial officer'",
+          "where": "The Nevada Independent 2026 general election guide, District Court Department 29"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office",
+          "where": "Las Vegas Review-Journal Nevada Voter Guide 2026, Clark County District Court Dept. 29 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Quagge as incumbent office holder",
+          "where": "Clark County Election Department, Current Listing of All Offices up for Election in 2026 (incumbents list)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office",
+          "where": "Run for Something candidate directory, Alex Quagge"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "prior offices",
+          "where": "ournevadajudges.com candidate profile (reference work)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
