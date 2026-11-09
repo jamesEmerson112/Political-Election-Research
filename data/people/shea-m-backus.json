@@ -29,6 +29,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Democrat Assembly District 37 Clark County (part) Attorney",
+          "locator": "PDF page 44, Legislative Biography—2025 Session, Shea M. Backus (occupation line)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-fe8491ae3f",
+          "quote": "Assm. Shea Backus (D-Las Vegas), an attorney and third-generation Nevadan",
+          "locator": "article body, 3rd paragraph"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
