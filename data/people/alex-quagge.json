@@ -4,6 +4,47 @@
   "name": "Alex Quagge",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "electalexquagge.com home page (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "electalexquagge.com/aboutalexquagge (campaign biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "The Nevada Independent 2026 general election guide, District Court Department 29 (thenevadaindependent.com/elections/2026/general/judicial/10)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "Las Vegas Review-Journal Nevada Voter Guide 2026, Clark County District Court Dept. 29 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "Run for Something candidate directory, Alex Quagge (directory.runforsomething.net)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "ournevadajudges.com candidate and judge profiles (reference work)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Alex Quagge candidate filing",
+          "where": "nvsos.gov / silverstateelection.nv.gov (Nevada Secretary of State candidate filings; host blocked from this session)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
