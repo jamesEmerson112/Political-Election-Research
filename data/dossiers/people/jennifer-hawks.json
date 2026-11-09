@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:jennifer-hawks",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Date range applied to both candidates in this contest: 2018-01-01 to 2026-11-09; documented matters need two independent publishers or one official record",
+        "where": "note"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jennifer Hawks treasurer candidate controversy OR lawsuit OR complaint",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Jennifer Hawks\" Republican California treasurer 2026",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Hawks\" treasurer 2026 (no FPPC enforcement page returned)",
+        "where": "web search restricted to fppc.ca.gov"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Jennifer Hawks\" \"Palo Alto Republican Women\" OR \"Sacred Heart\" criticism OR controversy OR fined OR lawsuit",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Hawks background, criticism",
+        "where": "San Francisco Examiner interview with Jennifer Hawks (June 23, 2026)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Hawks",
+        "where": "CalMatters, \"Who will be California's next state treasurer?\" (May 2026); KPBS republication (May 5, 2026)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "controversy, response, complaint",
+        "where": "Campaign site hawksforus.com/press-releases/"
+      }
+    ]
+  }
+}
