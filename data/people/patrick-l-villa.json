@@ -4,6 +4,52 @@
   "name": "Patrick L. Villa",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Villa born birth date age",
+          "where": "Clark County Election Department, Notice of General Election 2026"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "blocked host, not reachable",
+          "where": "Nevada Secretary of State certified candidate list (nvsos.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa born birth date age",
+          "where": "villafornevada.com home and About Patrick pages (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa born birth date age",
+          "where": "Nevada Current, 2026-04-16 and 2026-09-22 race previews"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa born birth date age",
+          "where": "The Nevada Independent 2026 general voter guide, Board of Regents"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa born birth date age",
+          "where": "Las Vegas Review-Journal 2026 voter guide, Board of Regents District 2"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa born birth date age",
+          "where": "iVoterGuide candidate profile, Board of Regents Dist. 2"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Patrick Villa\" regent Nevada born birth date age",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
