@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-7",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 7",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:danielle-k-pieper",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Pieper, Danielle K. NP",
+          "locator": "PDF page 8, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 7 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 7 Pieper (elected to a 2-year unexpired term) Danielle K. NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "VII RJC 5B Danielle K. Pieper",
+          "locator": "Civil/criminal judicial departments table, DEPT# VII row (dept, location, courtroom, judge): the sitting judge of Department 7"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
