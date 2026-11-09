@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/board-of-regents-2",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Board of Regents District 2",
+  "office": "Board of Regents",
+  "candidates": [
+    {
+      "person": "person:jennifer-mcgrath",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "McGrath, Jennifer NP",
+          "locator": "PDF page 12, BOARD OF REGENTS 2-YEAR TERM, DISTRICT 2 (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Board of Regents District 2 McGrath (appointed to a 2- year unexpired term) Jennifer J. NP",
+          "locator": "PDF page 6 (6 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        }
+      ]
+    },
+    {
+      "person": "person:patrick-l-villa",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Villa, Patrick L. NP",
+          "locator": "PDF page 12, BOARD OF REGENTS 2-YEAR TERM, DISTRICT 2 (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Board of Regents District 2 McGrath (appointed to a 2- year unexpired term) Jennifer J. NP",
+          "locator": "PDF page 6 (6 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        }
+      ]
+    }
+  ],
+  "district": 2,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
