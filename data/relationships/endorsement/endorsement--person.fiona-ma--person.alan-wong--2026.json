@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.fiona-ma--person.alan-wong--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:alan-wong",
+  "endorser": "person:fiona-ma",
+  "citations": [
+    {
+      "source": "src:alanwong-com-3df58db24a",
+      "quote": "Fiona Ma State Treasurer",
+      "locator": "Endorsements page"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
