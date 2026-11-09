@@ -45,6 +45,47 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor's Degree in Education",
+          "institution": "The Ohio State University",
+          "year": 1996,
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "I attended The Ohio State University where I got my Bachelor’s Degree in Education (1996), my Master’s Degree in Education (1997) and my Juris Doctorate Degree (2004).",
+              "locator": "Meet Dan Gilliam, paragraph 2"
+            }
+          ]
+        },
+        {
+          "degree": "Master's Degree in Education",
+          "institution": "The Ohio State University",
+          "year": 1997,
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "I attended The Ohio State University where I got my Bachelor’s Degree in Education (1996), my Master’s Degree in Education (1997) and my Juris Doctorate Degree (2004).",
+              "locator": "Meet Dan Gilliam, paragraph 2"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctorate",
+          "institution": "The Ohio State University",
+          "year": 2004,
+          "citations": [
+            {
+              "source": "src:electgilliam4judge-com-3273733ddc",
+              "quote": "I attended The Ohio State University where I got my Bachelor’s Degree in Education (1996), my Master’s Degree in Education (1997) and my Juris Doctorate Degree (2004).",
+              "locator": "Meet Dan Gilliam, paragraph 2"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney, Clark County Public Defender's Office",
       "citations": [
