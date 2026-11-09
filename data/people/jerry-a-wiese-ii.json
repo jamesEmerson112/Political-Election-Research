@@ -60,6 +60,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Department 30",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-ce2006d4de",
+          "quote": "Judge Wiese loves serving the public as a District Court Judge",
+          "locator": "Biography, last paragraph (page heading: Department XXX, Jerry A. Wiese II)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-4582b64e21",
+          "quote": "Eighth Judicial District Court, Department 30 (civil and criminal matters)",
+          "locator": "Wiese, II, Jerry A., Candidate Deep Dive, COURT DOCKET"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
