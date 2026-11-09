@@ -24,6 +24,50 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Workforce Connections",
+          "role": "Deputy Director & Chief Strategy Officer",
+          "citations": [
+            {
+              "source": "src:ccsd-net-0db55fd378",
+              "quote": "Irene serves as the Deputy Director & Chief Strategy Officer for Workforce Connections, Southern Nevada’s Local Workforce Development Board.",
+              "locator": "trustee biography, paragraph 2"
+            },
+            {
+              "source": "src:ccsd-net-0db55fd378",
+              "quote": "Prior to joining Workforce Connections in 2017, Bustamante Adams spent 18 years at MGM Resorts International, working her way up from clerk to a corporate position.",
+              "locator": "trustee biography, paragraph 3"
+            }
+          ]
+        },
+        {
+          "organization": "MGM Resorts International",
+          "role": "Clerk, rising to a corporate position (18 years)",
+          "citations": [
+            {
+              "source": "src:ccsd-net-0db55fd378",
+              "quote": "Prior to joining Workforce Connections in 2017, Bustamante Adams spent 18 years at MGM Resorts International, working her way up from clerk to a corporate position.",
+              "locator": "trustee biography, paragraph 3"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Association of School Boards",
+          "role": "President",
+          "start": "2026",
+          "citations": [
+            {
+              "source": "src:lasvegasweekly-com-331a2e58c0",
+              "quote": "This year, she was also named president of the Nevada Association of School Boards.",
+              "locator": "section \"Irene Bustamante Adams\" (article dated July 30, 2026)"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
