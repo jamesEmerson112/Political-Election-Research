@@ -14,6 +14,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "San Mateo County, CA",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "KEVIN MULLIN, Democrat, of South San Francisco, CA; born in San Mateo County, CA,\nJune 15, 1970",
+          "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+        },
+        {
+          "source": "src:kevinmullin-house-gov-07b40332f0",
+          "quote": "A 4th Generation Californian & San Mateo County Native",
+          "locator": "About page, member biography"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

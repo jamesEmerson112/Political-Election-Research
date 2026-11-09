@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kevinmullin-house-gov-07b40332f0",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Office of Congressman Kevin Mullin, U.S. House of Representatives",
+  "title": "About - Congressman Kevin Mullin",
+  "url": "https://kevinmullin.house.gov/about",
+  "notes": "Official House office biography page, opened via tools/research/fetch-text.mjs on 2026-11-09. No publication date on the page. Not archived: web.archive.org was unreachable from the research environment."
+}
