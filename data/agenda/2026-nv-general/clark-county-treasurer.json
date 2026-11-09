@@ -2,7 +2,20 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/clark-county-treasurer",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:j-ken-diaz",
+      "name": "J. \"Ken\" Diaz"
+    },
+    {
+      "person": "person:tim-j-tj-ferreira",
+      "name": "Tim J. \"TJ\" Ferreira"
+    },
+    {
+      "person": "person:mitchell-t-tracy",
+      "name": "Mitchell T. Tracy"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {

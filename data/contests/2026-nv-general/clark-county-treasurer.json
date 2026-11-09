@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/clark-county-treasurer",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "County Treasurer",
+  "office": "County Treasurer",
+  "candidates": [
+    {
+      "person": "person:j-ken-diaz",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Diaz, J. \"Ken\" DEM",
+          "locator": "PDF page 7, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY TREASURER"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "J. \"Ken\" Diaz (Democratic) 4-year term expires in 2026",
+          "locator": "County Treasurer (page headed 'Last Updated November 19, 2024')"
+        }
+      ]
+    },
+    {
+      "person": "person:tim-j-tj-ferreira",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Libertarian Party of Nevada",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Ferreira, Tim J. \"TJ\" LPN",
+          "locator": "PDF page 7, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY TREASURER"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "LPN = Libertarian Party of Nevada",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "J. \"Ken\" Diaz (Democratic) 4-year term expires in 2026",
+          "locator": "County Treasurer (page headed 'Last Updated November 19, 2024')"
+        }
+      ]
+    },
+    {
+      "person": "person:mitchell-t-tracy",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Tracy, Mitchell T. REP",
+          "locator": "PDF page 7, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY TREASURER"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "J. \"Ken\" Diaz (Democratic) 4-year term expires in 2026",
+          "locator": "County Treasurer (page headed 'Last Updated November 19, 2024')"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}
