@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-8",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 8",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:austin-beaumont",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Beaumont, Austin NP",
+          "locator": "PDF page 8, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 8 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 8 Peterson Jessica K. NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "VIII RJC 15A Jessica Peterson",
+          "locator": "Civil/criminal judicial departments table, DEPT# VIII row (dept, location, courtroom, judge): the sitting judge of Department 8"
+        }
+      ]
+    },
+    {
+      "person": "person:jessica-k-peterson",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Peterson, Jessica K. NP",
+          "locator": "PDF page 8, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 8 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 8 Peterson Jessica K. NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "VIII RJC 15A Jessica Peterson",
+          "locator": "Civil/criminal judicial departments table, DEPT# VIII row (dept, location, courtroom, judge): the sitting judge of Department 8"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
