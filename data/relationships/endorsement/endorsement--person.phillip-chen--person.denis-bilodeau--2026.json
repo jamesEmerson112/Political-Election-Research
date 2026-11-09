@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.phillip-chen--person.denis-bilodeau--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:denis-bilodeau",
+  "endorser": "person:phillip-chen",
+  "citations": [
+    {
+      "source": "src:bilodeauforboe-com-e8bc2a4152",
+      "quote": "Phillip Chen\nAssemblyman",
+      "locator": "Endorsements section, Elected Officials"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
