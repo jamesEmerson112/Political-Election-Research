@@ -3,6 +3,23 @@
   "id": "kristine-brewer",
   "name": "Kristine Brewer",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Family law attorney",
+      "citations": [
+        {
+          "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+          "quote": "A licensed attorney in Nevada since 2003, Brewer has practiced family law for over 20 years, driven by a desire to advocate for children and families.",
+          "locator": "About page, second paragraph"
+        },
+        {
+          "source": "src:thenevadaindependent-com-da1b2d2e5e",
+          "quote": "In Department S, family law attorney Kristine Brewer beat Family Court Commissioner Randall Forman with nearly 56 percent of the vote.",
+          "locator": "Article body, Family Court paragraph"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
