@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-c751bc1ed1",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-03-08",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Veteran firefighter launches campaign for Victoria Seaman’s LV council seat",
+  "url": "https://www.reviewjournal.com/?p=3317190",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

@@ -60,6 +60,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Chicago",
+      "citations": [
+        {
+          "source": "src:reviewjournal-com-c751bc1ed1",
+          "quote": "McCarthy, a son of a nurse and a businessman, was born and Chicago and grew up in Connecticut.",
+          "locator": "About the candidate section (the source prints \"born and Chicago\")"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
