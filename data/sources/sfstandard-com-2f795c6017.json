@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-2f795c6017",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-01",
+  "publisher": "The San Francisco Standard",
+  "title": "Manny Yekutiel ‘crossed so many boundaries’: New allegation against SF candidate",
+  "url": "https://sfstandard.com/2026/10/01/manny-yekutiel-sexual-assault-allegation-sf-supervisor-candidate/",
+  "notes": "Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

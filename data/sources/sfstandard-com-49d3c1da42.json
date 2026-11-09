@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfstandard-com-49d3c1da42",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-06-30",
+  "publisher": "The San Francisco Standard",
+  "title": "SF political activist accuses supervisor candidate Manny Yekutiel of 2020 sexual assault",
+  "url": "https://sfstandard.com/2026/06/30/sf-political-activist-accuses-supervisor-candidate-manny-yekutiel-2020-sexual-assault/",
+  "notes": "Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

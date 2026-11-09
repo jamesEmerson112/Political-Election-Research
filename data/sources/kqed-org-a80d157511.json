@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kqed-org-a80d157511",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-01",
+  "publisher": "KQED",
+  "title": "San Francisco Supervisor Candidate Manny Yekutiel Drops Out After New Allegations Surface",
+  "url": "https://www.kqed.org/news/12102333/new-allegations-surface-against-san-francisco-supervisor-candidate-manny-yekutiel",
+  "notes": "Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-ba32a72dac",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-01",
+  "publisher": "Mission Local",
+  "title": "Manny Yekutiel drops out of S.F. supervisor race after sexual assault claim",
+  "url": "https://missionlocal.org/2026/10/san-francisco-manny-yekutiel-drops-out-district-8-race/",
+  "notes": "Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

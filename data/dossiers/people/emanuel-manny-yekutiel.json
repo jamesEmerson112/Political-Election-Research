@@ -1,0 +1,127 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:emanuel-manny-yekutiel",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "2026-police-report-alleging-a-2020-sexual-assault",
+        "date": "2026-06-30",
+        "response": {
+          "summary": "Yekutiel denied the allegation in a statement to The Standard, said what was described did not happen, and called the allegation politically motivated.",
+          "citations": [
+            {
+              "source": "src:sfstandard-com-49d3c1da42",
+              "quote": "“These allegations are false. What is being described did not happen,” Yekutiel said in a statement to The Standard."
+            },
+            {
+              "source": "src:sfstandard-com-49d3c1da42",
+              "quote": "He said the allegations, reported publicly here for the first time, are politically motivated."
+            },
+            {
+              "source": "src:kqed-org-a80d157511",
+              "quote": "Yekutiel denied the allegations and said that Chapin’s story was “politically motivated.”"
+            }
+          ]
+        },
+        "summary": "The San Francisco Standard reported on June 30, 2026 that political activist Brad Joseph Chapin had filed a police report in April alleging that Yekutiel sexually assaulted him at a 2020 gathering, that the San Francisco Police Department opened an investigation, and that no criminal charges had been filed. The Standard reported in August 2026 that a judicial commission enlisted by the San Francisco Democratic Party said it could not reach a finding on the claim and that this was not a determination on the merits. KQED also reported the allegation.",
+        "title": "2026 police report alleging a 2020 sexual assault",
+        "citations": [
+          {
+            "source": "src:sfstandard-com-49d3c1da42",
+            "quote": "In April, Brad Joseph Chapin, a political activist and former Harvey Milk LGBTQ Democratic Club board member, filed a police report alleging a 2020 incident involving Yekutiel. The San Francisco Police Department launched an investigation."
+          },
+          {
+            "source": "src:sfstandard-com-49d3c1da42",
+            "quote": "No criminal charges have been filed. An SFPD spokesperson said he could not comment on the status of an open investigation."
+          },
+          {
+            "source": "src:sfstandard-com-57e66a9398",
+            "quote": "The judicial commission enlisted by the party to conduct the reviews said it could not reach a finding on claims that District 8 supervisor candidate Manny Yekutiel sexually assaulted political organizer Brad Chapin, according to a letter obtained by The Standard."
+          },
+          {
+            "source": "src:sfstandard-com-57e66a9398",
+            "quote": "“This is not a determination on the merits of whether a sexual assault occurred,” commission Chair Gina Roccanova wrote."
+          },
+          {
+            "source": "src:kqed-org-a80d157511",
+            "quote": "The news comes months after another man publicly accused Yekutiel of groping him at a party in 2020."
+          }
+        ]
+      },
+      {
+        "id": "2026-allegations-of-a-2023-sexual-assault-and-suspension-of-his-campaign",
+        "date": "2026-10-01",
+        "response": {
+          "summary": "Yekutiel told The Standard he had no memory of the encounter described; when he withdrew, he said he was not admitting to assaulting anyone and that some of what was said about him was untrue, and apologized for any boundaries he crossed.",
+          "citations": [
+            {
+              "source": "src:sfstandard-com-2f795c6017",
+              "quote": "I remember running into Ryan at parties and being physically affectionate with each other, though I have no memory of the specific encounter he describes."
+            },
+            {
+              "source": "src:missionlocal-org-ba32a72dac",
+              "quote": "“I am not admitting to having assaulted anyone, and some of the things that are being said about me are fundamentally untrue. But I am deeply sorry for any boundaries that I crossed. I’m going to take this time to work on myself,” Yekutiel said."
+            }
+          ]
+        },
+        "summary": "The San Francisco Standard reported on Oct. 1, 2026 that Ryan Clark and his partner said Yekutiel sexually assaulted them at a 2023 Pride event at The Midway; KQED reported the account as an allegation that he groped two men on June 23, 2023. Mission Local and KQED reported that Yekutiel withdrew from the District 8 race the same day, after most of his endorsers, including Mayor Daniel Lurie, withdrew their support; Mission Local reported his name stayed on the ballot because the withdrawal deadline had passed in June.",
+        "title": "2026 allegations of a 2023 sexual assault, and suspension of his campaign",
+        "citations": [
+          {
+            "source": "src:sfstandard-com-2f795c6017",
+            "quote": "Both men said Yekutiel sexually assaulted them that night."
+          },
+          {
+            "source": "src:kqed-org-a80d157511",
+            "quote": "The San Francisco Standard on Thursday reported that Yekutiel, who has strong political ties to the Democratic Party and was considered one of the frontrunners in the race, allegedly groped two men on June 23, 2023, at The Midway, an event space near Pier 80."
+          },
+          {
+            "source": "src:missionlocal-org-ba32a72dac",
+            "quote": "Manny Yekutiel dropped out of the District 8 supervisor race on Thursday, hours after new sexual assault allegations were published by the San Francisco Standard."
+          },
+          {
+            "source": "src:missionlocal-org-ba32a72dac",
+            "quote": "Within hours of the allegations, which Yekutiel said he had “no memory” of, most of his endorsers pulled their support, including Mayor Daniel Lurie and six city supervisors."
+          },
+          {
+            "source": "src:missionlocal-org-ba32a72dac",
+            "quote": "Though Yekutiel is suspending his campaign, his name will still appear on the ballot; the deadline to withdraw passed in June."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Manny Yekutiel controversy District 8 supervisor (results also covered the other three candidates)",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Manny Yekutiel police investigation closed OR charges District Attorney 2026",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "San Francisco Ethics Commission enforcement District 8 candidate 2026 McCoy OR Yekutiel OR Patel OR Nguyen",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "McCoy / Nguyen / Patel / Yekutiel",
+        "where": "https://sfethics.org/ethics/category/news (SF Ethics Commission news and enforcement notices, latest page)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "No report that the SFPD investigation was closed or that charges were filed was found in the searches above; the Ethics Commission news page lists an Oct. 15, 2026 note on the status of Yekutiel's candidacy after withdrawal (campaign-fund rules), not an enforcement matter",
+        "where": "note"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Date range applied to every candidate in this contest: 2020-01-01 to 2026-11-09. Documented matters need two independent publishers or one official record; the same web searches, outlets (Mission Local, The San Francisco Standard, KQED, Bay Area Reporter) and the San Francisco Ethics Commission news page were checked for each candidate",
+        "where": "note"
+      }
+    ]
+  }
+}
