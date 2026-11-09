@@ -143,6 +143,67 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "Clark County Election Department, All Contests and Candidates in the November 3, 2026 General Election (officesup-26g.pdf): lists name and party only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "Clark County Election Department, Notice of General Election (Notice-Gen-Election-26G.pdf), County Assessor: lists name and party only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "The Nevada Independent, 2026-05-16, 'Assessor, recorder, public administrator: Who's running in Clark County down-ballot races?'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "The Nevada Independent, 2026-09-19, 'These small Clark County offices do important things. Here's who's running for them.'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "Clark County Registrar of Voters candidate filing search (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx): an ASP.NET form that needs a postback; results could not be read here"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "Nevada Secretary of State certified candidate list and 2026 candidate media information (nvsos.gov): host blocked from this environment"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "votejudyjoe.com footer: gives only the campaign committee's mailing address (Henderson suite address), not the candidate's residence"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "votejudyjoe.com (campaign site; home, /about and /about-judy all show only a post-election thank-you note, no biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "goodparty.org candidate page for Judy Joe, Clark County Assessor: HTTP 429 Vercel security checkpoint, not readable"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Judy Joe\" Clark County Assessor Republican candidate 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Judy Joe\" Nevada assessor campaign",
+          "where": "web search"
+        }
+      ]
     }
   },
   "ids": [],
