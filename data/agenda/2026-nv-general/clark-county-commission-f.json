@@ -2,7 +2,20 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/clark-county-commission-f",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:becky-harris",
+      "name": "Becky Harris"
+    },
+    {
+      "person": "person:heidi-kasama",
+      "name": "Heidi Kasama"
+    },
+    {
+      "person": "person:minja-yan",
+      "name": "Minja Yan"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {

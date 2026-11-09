@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/clark-county-commission-f",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "County Commission District F",
+  "office": "County Commissioner",
+  "candidates": [
+    {
+      "person": "person:becky-harris",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "No Political Party",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Harris, Becky NPP",
+          "locator": "PDF page 6, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY COMMISSION, DISTRICT F"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-0e3b8b68df",
+          "quote": "Justin Jones District F County Commissioner",
+          "locator": "County Commissioners list: the sitting District F commissioner is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:heidi-kasama",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Kasama, Heidi REP",
+          "locator": "PDF page 6, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY COMMISSION, DISTRICT F"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-0e3b8b68df",
+          "quote": "Justin Jones District F County Commissioner",
+          "locator": "County Commissioners list: the sitting District F commissioner is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:minja-yan",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Yan, Minja DEM",
+          "locator": "PDF page 6, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY COMMISSION, DISTRICT F"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-0e3b8b68df",
+          "quote": "Justin Jones District F County Commissioner",
+          "locator": "County Commissioners list: the sitting District F commissioner is another person"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}
