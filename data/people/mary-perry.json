@@ -4,6 +4,42 @@
   "name": "Mary Perry",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birth, age",
+          "where": "Eighth Judicial District Court, Department P page (https://www.clarkcountycourts.us/departments/judicial/family-division/department-p/) and judicial departments list"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age",
+          "where": "Campaign site https://www.judgemaryperry.com (home page)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age (says she was raised in Hardy, Arkansas; no date)",
+          "where": "Vegas Legal Magazine profile 'Mary Perry, Family Court Department P'; maryperry4judge.com (no longer resolves)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "age, born",
+          "where": "The Nevada Independent 2026 voter guide, Family Division Dept. P race page (https://thenevadaindependent.com/elections/2026/general/judicial/180 and /primary/judicial/180); Our Nevada Judges candidate and judge pages (https://ournevadajudges.com/candidates/mary-d-perry, /judges/mary-d-perry)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "age, born",
+          "where": "Nevada Current, 'Drama rules in Family Court race for Dept. P' (2026-04-21) and 'Disciplined judge defends family court seat against challenge from disciplined attorney' (2026-10-16); Las Vegas Review-Journal 2026 voter guide (https://www.reviewjournal.com/voter-guide-2026/) and Review-Journal articles found via its search API (2026-01-16, 2026-05-04, 2026-06-09, 2026-10-06, 2026-11-04)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Judge Mary Perry Family Court Department P age born",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
