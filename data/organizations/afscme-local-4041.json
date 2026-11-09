@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "afscme-local-4041",
+  "name": "AFSCME Local 4041",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "labor_union",
+  "last_verified": "2026-11-09"
+}

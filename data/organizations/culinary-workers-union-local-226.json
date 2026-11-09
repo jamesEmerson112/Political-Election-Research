@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "culinary-workers-union-local-226",
+  "name": "Culinary Workers Union Local 226",
+  "aliases": [
+    "Culinary Union"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "labor_union",
+  "last_verified": "2026-11-09"
+}

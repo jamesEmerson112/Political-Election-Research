@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "nevada-state-education-association",
+  "name": "Nevada State Education Association",
+  "aliases": [
+    "NSEA"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "labor_union",
+  "last_verified": "2026-11-09"
+}

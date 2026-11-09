@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nsea-nv-org-c1ea3b1301",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada State Education Association",
+  "title": "2026 NSEA General Election Endorsements",
+  "url": "https://www.nsea-nv.org/sites/nsea/files/2026-10/2026-nsea-general-election-endorsements.pdf"
+}

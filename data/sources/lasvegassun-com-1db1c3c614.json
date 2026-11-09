@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegassun-com-1db1c3c614",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-14",
+  "publisher": "Las Vegas Sun",
+  "title": "Sun endorsement: For Nevada attorney general, Nicole Cannizzaro’s record speaks for itself",
+  "url": "https://lasvegassun.com/news/2026/oct/14/for-nevada-attorney-general-nicole-cannizzaros-rec/"
+}

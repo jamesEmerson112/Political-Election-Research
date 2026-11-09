@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-state-afl-cio--person.nicole-jeanette-cannizzaro--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-01",
+  "endorsee": "person:nicole-jeanette-cannizzaro",
+  "endorser": "org:nevada-state-afl-cio",
+  "citations": [
+    {
+      "source": "src:media-linkedunion-com-de46d00e37",
+      "quote": "The following recommendations were approved by the delegates at the 2026 Committee on Political Education (COPE) Conference on Friday, May 1, 2026.",
+      "locator": "PDF page 1, 2026 Primary Election Endorsements"
+    },
+    {
+      "source": "src:media-linkedunion-com-de46d00e37",
+      "quote": "Attorney General: Nicole Cannizzaro Zach Conine",
+      "locator": "PDF page 1, Statewide"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Primary election endorsement; the federation listed both Democratic candidates, Nicole Cannizzaro and Zach Conine, for Attorney General."
+}

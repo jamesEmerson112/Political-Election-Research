@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.las-vegas-sun--person.nicole-jeanette-cannizzaro--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-10-14",
+  "endorsee": "person:nicole-jeanette-cannizzaro",
+  "endorser": "org:las-vegas-sun",
+  "citations": [
+    {
+      "source": "src:lasvegassun-com-1db1c3c614",
+      "quote": "We offer Nicole Cannizzaro our unreserved endorsement."
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Editorial board endorsement for the general election."
+}

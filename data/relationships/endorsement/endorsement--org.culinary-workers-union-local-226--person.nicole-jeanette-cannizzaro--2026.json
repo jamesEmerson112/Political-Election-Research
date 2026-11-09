@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.culinary-workers-union-local-226--person.nicole-jeanette-cannizzaro--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-18",
+  "endorsee": "person:nicole-jeanette-cannizzaro",
+  "endorser": "org:culinary-workers-union-local-226",
+  "citations": [
+    {
+      "source": "src:m-culinaryunion226-org-333376e68b",
+      "quote": "Culinary Union has released statewide endorsements ahead of the 2026 Nevada Primary."
+    },
+    {
+      "source": "src:m-culinaryunion226-org-333376e68b",
+      "quote": "Attorney General: Nicole Cannizzaro and Zach Conine."
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Primary election endorsement of both Democratic candidates, Nicole Cannizzaro and Zach Conine."
+}

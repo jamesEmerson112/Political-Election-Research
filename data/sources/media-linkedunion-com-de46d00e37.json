@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "media-linkedunion-com-de46d00e37",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada State AFL-CIO",
+  "title": "2026 Primary Election Endorsements",
+  "url": "https://media.linkedunion.com/nevadasac/file-manager/FinalNVAFLCIOCOPEEndorsements.pdf"
+}

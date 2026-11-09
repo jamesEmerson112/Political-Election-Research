@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.afscme-local-4041--person.nicole-jeanette-cannizzaro--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-15",
+  "endorsee": "person:nicole-jeanette-cannizzaro",
+  "endorser": "org:afscme-local-4041",
+  "citations": [
+    {
+      "source": "src:nvafscme-org-482aad4cd6",
+      "quote": "Members of AFSCME Local 4041, which include employees for the state of Nevada, City of West Wendover, and Storey County, announce endorsements ahead of the 2026 primary election."
+    },
+    {
+      "source": "src:nvafscme-org-482aad4cd6",
+      "quote": "Attorney General: Nicole Cannizzaro"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Primary election endorsement."
+}
