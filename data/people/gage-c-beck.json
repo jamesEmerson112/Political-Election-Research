@@ -126,6 +126,67 @@
         }
       ]
     },
+    "occupation": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Gage C. Beck: name and party only",
+          "where": "Clark County Election Department candidate lists (officesup-26g.pdf, Contests-Candidates-All-26.pdf, notice-general-election-26g.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Gage C. Beck: name and party only",
+          "where": "Nevada Legislative Counsel Bureau, 2026 General Election: Nevada Legislative Candidates (CandidatesList_2026General.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "profile bio: states only the candidacy",
+          "where": "Instagram @gage4nv (the campaign link in The Nevada Independent's guide)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Gage C. Beck: party and campaign link only, no biography",
+          "where": "The Nevada Independent 2026 voter guide, Clark State Assembly, District 13 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Gage C. Beck: name and party only",
+          "where": "Las Vegas Review-Journal 2026 voter guide, State Assembly District 13"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidacy only, no biography",
+          "where": "BallotReady profile, Gage Beck"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Gage Beck\" Libertarian Nevada Assembly District 13",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Gage Beck\" Las Vegas",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Libertarian Party of Nevada 2026 candidates Gage Beck Assembly",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidates page: blocked from the research environment (Cloudflare challenge), not read",
+          "where": "lpnevada.org (Libertarian Party of Nevada)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 Assembly District 13 candidate filing: blocked from the research environment (Cloudflare challenge), not read",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Libertarian Party of Nevada",
       "citations": [
