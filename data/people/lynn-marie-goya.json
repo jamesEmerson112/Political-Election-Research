@@ -106,6 +106,47 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Lynn Marie Goya education",
+          "where": "Clark County County Clerk page and About Us page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education degree university",
+          "where": "Office of the Clark County Clerk official site, About Lynn Marie Goya (weddings.vegas/about/): no education stated"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education degree university",
+          "where": "Campaign site lynnmariegoya.com: home page and Biography (vote-for-lynn): no education stated"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Goya education",
+          "where": "Las Vegas Review-Journal 2026 Voter Guide, County Clerk entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Goya education",
+          "where": "The Nevada Independent 2026-09-19; Las Vegas Review-Journal 2022-10-06; Boulder City Review 2019-08-14"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "San Diego State University",
+          "where": "Ballotpedia, Lynn Goya (reference work; lead only): states a bachelor's degree from San Diego State University, not confirmed in a primary source"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Goya\" Clark County Clerk \"San Diego State\"",
+          "where": "Web search"
+        }
+      ]
+    },
     "occupation": {
       "value": "Clark County Clerk",
       "citations": [
