@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-da1b2d2e5e",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-11-04",
+  "publisher": "The Nevada Independent",
+  "title": "Election 2026: Two incumbent Clark County judges are defeated",
+  "url": "https://thenevadaindependent.com/article/election-2026-two-incumbent-clark-county-judges-are-defeated/"
+}

@@ -131,6 +131,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Justice of the Peace, Las Vegas Township Justice Court, Department 10",
+          "current": true,
+          "first_elected": "2022",
+          "jurisdiction": "Las Vegas Township, Clark County, Nevada",
+          "start": "2023-01",
+          "citations": [
+            {
+              "source": "src:lasvegasjusticecourt-us-6c02fce55e",
+              "quote": "Las Vegas Township Justice Court",
+              "locator": "Judge Noreen DeMonte page, under 'Department Ten'"
+            },
+            {
+              "source": "src:lasvegasjusticecourt-us-6c02fce55e",
+              "quote": "Term of Office 2023 - Present",
+              "locator": "Judge Noreen DeMonte page"
+            },
+            {
+              "source": "src:veteransinpolitics-org-15f54780fc",
+              "quote": "Judge Noreen DeMonte serves as the Justice of the Peace for Department 10 of the Las Vegas Justice Court. Elected to the bench in 2022,"
+            },
+            {
+              "source": "src:veteransinpolitics-org-15f54780fc",
+              "quote": "Since taking the bench in January 2023, Judge DeMonte has presided over a wide range of cases within the jurisdiction of the Las Vegas Justice Court,"
+            },
+            {
+              "source": "src:thenevadaindependent-com-da1b2d2e5e",
+              "quote": "DeMonte was elected to the Clark County Justice Court, Department 10, in 2022. Her seat will be filled through an appointment by the Clark County Commission."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
