@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ktnv-com-c0fc6a05a1",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-11",
+  "publisher": "KTNV Channel 13 Las Vegas",
+  "title": "Former-Republican-turned-independent hopes to be first nonpartisan on Clark County Commission",
+  "url": "https://www.ktnv.com/news/harris-mounts-independent-bid-for-district-f",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

@@ -24,6 +24,66 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "University of Nevada, Las Vegas, Lifelong Learning",
+          "role": "Distinguished Fellow in Gaming and Leadership",
+          "citations": [
+            {
+              "source": "src:unlv-edu-34a1e57bc1",
+              "quote": "Becky Harris is the distinguished fellow in gaming and leadership at Lifelong Learning where she oversees The Leaderverse Initiatives (Leaderverse)."
+            }
+          ]
+        },
+        {
+          "organization": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+          "role": "Visiting professor",
+          "citations": [
+            {
+              "source": "src:unlv-edu-34a1e57bc1",
+              "quote": "Harris is also a visiting professor at the William S. Boyd School of Law where she teaches Gaming Law and Policy, Casino Resort Hotel Law, and AML for Gaming Lawyers."
+            }
+          ]
+        },
+        {
+          "organization": "UNLV International Center for Gaming Regulation",
+          "role": "Academic fellow (sports betting)",
+          "start": "2019",
+          "citations": [
+            {
+              "source": "src:unlv-edu-cd1d2a22f3",
+              "quote": "Former Nevada Gaming Control Board chairwoman Becky Harris has joined the UNLV International Center for Gaming Regulation (ICGR) as an academic fellow with an emphasis in the study of sports betting."
+            }
+          ]
+        },
+        {
+          "organization": "Jerimy Kirschner & Associates",
+          "role": "Lawyer",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-acef20ff87",
+              "quote": "Harris, a lawyer at Jerimy Kirschner & Associates, holds a Master of Laws (LL.M.) in Gaming Law and Regulation from UNLV's Boyd School of Law"
+            }
+          ]
+        },
+        {
+          "role": "Attorney/Mediator",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-a0d7d9550f",
+              "quote": "Attorney/Mediator",
+              "locator": "PDF page 25, Legislative Biography 2017 Session, Becky Harris (occupation line)"
+            },
+            {
+              "source": "src:ktnv-com-c0fc6a05a1",
+              "quote": "Harris is an attorney by training and did work in foreclosure mediation."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
