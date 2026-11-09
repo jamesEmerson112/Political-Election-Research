@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-4bc48d075f",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-02",
+  "publisher": "Nevada Current",
+  "title": "Prosecutor seeks to oust judge from Clark County District Court",
+  "url": "https://nevadacurrent.com/2026/10/02/prosecutor-seeks-to-oust-judge-from-clark-county-district-court/"
+}

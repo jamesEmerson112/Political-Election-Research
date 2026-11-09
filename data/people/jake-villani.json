@@ -18,6 +18,21 @@
           "locator": "Description"
         }
       ]
+    },
+    "occupation": {
+      "value": "Chief Deputy District Attorney, Clark County District Attorney's Office",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-8a24763372",
+          "quote": "Villani states that he’s been part of the Clark County DA’s office as a Chief Deputy District Attorney since Aug. 3, 2009.",
+          "locator": "Jake Villani, Candidate deep dive, Career highlights"
+        },
+        {
+          "source": "src:nevadacurrent-com-4bc48d075f",
+          "quote": "Judge Jennifer Schwartz, who is wrapping up her first term on the bench, faces a reelection challenge from prosecutor Jacob Villani in Clark County District Court Department 17.",
+          "locator": "First paragraph"
+        }
+      ]
     }
   },
   "ids": [],
