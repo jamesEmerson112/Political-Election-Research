@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-407e3a52b1",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-24",
+  "publisher": "Mission Local",
+  "title": "Meet the District 10 candidates: What criticism have you received that you believe is unfair?",
+  "url": "https://missionlocal.org/2026/09/meet-the-district-10-candidates-criticism/"
+}

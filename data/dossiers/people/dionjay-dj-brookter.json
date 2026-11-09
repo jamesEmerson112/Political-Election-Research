@@ -1,6 +1,113 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:dionjay-dj-brookter",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "city-tier-2-corrective-action-designation-for-young-community-developers",
+        "date": "2025",
+        "response": {
+          "summary": "The Chronicle editorial board wrote that Brookter told it the city's contracting rules played a role in the issues.",
+          "citations": [
+            {
+              "source": "src:sfchronicle-com-951d96853c",
+              "quote": "Brookter told us the city’s garbled contracting rules played a role in the issues."
+            }
+          ]
+        },
+        "summary": "The San Francisco Controller's Office annual report on nonprofit monitoring for fiscal year 2024-25 lists Young Community Developers among 14 nonprofits it designated to Tier 2 under the Citywide Nonprofit Corrective Action Policy, marked \"Newly designated,\" and lists six fiscal findings for the organization with a final status of findings not in conformance. The report says a Tier 2 designation gives notice of increased risk to public funds and client services due to serious fiscal or programmatic concerns. The San Francisco Chronicle editorial board wrote that the organization was placed on Tier 2 status under Brookter, its former CEO.",
+        "title": "City Tier 2 corrective-action designation for Young Community Developers",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e36182bf19",
+            "quote": "Based on FY25 monitoring findings and contract management issues identified by funding departments, the Controller’s Office designated the 14 nonprofits below to Tier 2.",
+            "locator": "p. 29"
+          },
+          {
+            "source": "src:media-api-sf-gov-e36182bf19",
+            "quote": "A Tier 2 designation provides notice of increased risk to public funds and client services due to serious fiscal or programmatic concerns",
+            "locator": "p. 29"
+          },
+          {
+            "source": "src:media-api-sf-gov-e36182bf19",
+            "quote": "Young Community Developers Newly designated",
+            "locator": "p. 30, Figure 24 (Tier 2 Designations in FY25)"
+          },
+          {
+            "source": "src:media-api-sf-gov-e36182bf19",
+            "quote": "Young Community Developers Expanded Findings Not in Conformance 6 0 Findings Not in Conformance",
+            "locator": "p. 43, appendix table (columns: type of monitoring, FY25 final status, FY25 fiscal findings, FY25 compliance findings, prior year final status FY24)"
+          },
+          {
+            "source": "src:sfchronicle-com-951d96853c",
+            "quote": "under Brookter, it was placed on “tier 2” status by the city — something that occurs when an organization demonstrates a persistent pattern of serious fiscal or programmatic concerns that have not been fixed despite city intervention."
+          }
+        ]
+      },
+      {
+        "id": "debate-dispute-over-young-community-developers-funding-from-lennar",
+        "date": "2026-09-01",
+        "response": {
+          "summary": "Gazetteer SF reported that in the same exchange Brookter said he had worked \"with those same developers\" to extract development fees that created new jobs and community resources such as a math academy.",
+          "citations": [
+            {
+              "source": "src:sf-gazetteer-co-71e6f61cfd",
+              "quote": "Brookter also boasted that he had worked “with those same developers,” extracting development fees to create new jobs and community resources such as a math academy."
+            }
+          ]
+        },
+        "summary": "Gazetteer SF and Mission Local reported that at a Sept. 1, 2026 debate Ellington questioned Brookter's relationship with Lennar, the developer behind new homes near the Hunters Point Shipyard, from his time as CEO of Young Community Developers, and said the organization had taken over $10 million from Lennar over the past decade.",
+        "title": "Debate dispute over Young Community Developers' funding from Lennar",
+        "citations": [
+          {
+            "source": "src:sf-gazetteer-co-71e6f61cfd",
+            "quote": "“You cannot hold someone accountable when your former organization has taken over $10 million from Lennar over the past decade,” Ellington added, referring to Brookter’s work with the nonprofit Young Community Developers."
+          },
+          {
+            "source": "src:missionlocal-org-f43ff4a459",
+            "quote": "“You cannot hold someone accountable when your former corporate organization has taken over $10 million from Lennar over the past decade,” Ellington said."
+          },
+          {
+            "source": "src:missionlocal-org-407e3a52b1",
+            "quote": "Ellington questioned candidate D.J. Brookter’s relationship with the Lennar Corporation when he was the CEO of Young Community Developers, an affordable-housing-development nonprofit."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "DJ Brookter",
+        "where": "San Francisco Ethics Commission site search (sfethics.org/?s=Brookter): enforcement actions and audits"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "DJ Brookter",
+        "where": "Mission Local 2026 coverage via its WordPress search (missionlocal.org/wp-json/wp/v2/posts?search=...), including District 10 debate and forum reports of Sept. 2, Sept. 14, Sept. 24, Oct. 1 and Oct. 27, 2026"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "DJ Brookter",
+        "where": "Gazetteer SF, 'D10 Supervisor debate gets personal' (Sept. 2, 2026)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "DJ Brookter",
+        "where": "San Francisco Standard, Oct. 15, 2026 District 10 report; San Francisco Chronicle editorial board District 10 endorsement (Oct. 22, 2026); San Francisco Examiner District 10 reports"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "DJ Brookter",
+        "where": "GrowSF November 2026 District 10 voter guide"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "DJ Brookter controversy OR lawsuit OR complaint OR criticism District 10",
+        "where": "web search"
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],

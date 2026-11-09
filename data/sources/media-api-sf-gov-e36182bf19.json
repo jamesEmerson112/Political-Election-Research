@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "media-api-sf-gov-e36182bf19",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "City and County of San Francisco, Office of the Controller",
+  "title": "Citywide Nonprofit Monitoring and Capacity Building Program, Fiscal Year 2024-2025 Annual Report",
+  "url": "https://media.api.sf.gov/documents/FY25_Nonprofit_Monitoring_Program_Annual_Report_-_Final.pdf"
+}

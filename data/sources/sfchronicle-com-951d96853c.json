@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfchronicle-com-951d96853c",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-22",
+  "publisher": "San Francisco Chronicle (Editorial Board)",
+  "title": "Endorsement: Three highly qualified candidates are running in S.F.’s District 10. Here’s our pick",
+  "url": "https://www.sfchronicle.com/opinion/editorials/article/district-10-supervisor-san-francisco-22487638.php",
+  "notes": "Editorial-board endorsement (opinion section), not a news article."
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-f43ff4a459",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-02",
+  "publisher": "Mission Local",
+  "title": "San Francisco District 10 Candidates trade some barbs in forum",
+  "url": "https://missionlocal.org/2026/09/san-francisco-district-10-candidate-forum/"
+}
