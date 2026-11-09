@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-4d04b79ccd",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-04-10",
+  "publisher": "Nevada Current",
+  "title": "NSHE regent known for anti-trans comments faces five primary challengers",
+  "url": "https://nevadacurrent.com/2026/04/10/nshe-regent-known-for-anti-trans-comments-faces-four-primary-challengers/"
+}
