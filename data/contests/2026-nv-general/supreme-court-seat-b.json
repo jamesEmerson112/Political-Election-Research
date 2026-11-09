@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/supreme-court-seat-b",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Justice of the Supreme Court Seat B",
+  "office": "Justice of the Supreme Court",
+  "candidates": [
+    {
+      "person": "person:kristina-pickering",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Pickering, Kristina NP",
+          "locator": "PDF page 7, NONPARTISAN OFFICES, JUSTICE OF THE SUPREME COURT, 6-YEAR TERM, SEAT B (the only candidate, followed by 'None of these candidates')"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Justice of the Supreme Court Seat B Pickering Kristina NP 6",
+          "locator": "PDF page 3 (3 of 12), INCUMBENT (Current Office Holder) column, list dated 4/6/2026"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
