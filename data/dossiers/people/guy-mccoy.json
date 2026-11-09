@@ -107,5 +107,31 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (enacted legislation, programs, budgets)",
+        "where": "San Francisco Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Guy McCoy candidate statement, printed p. 40: retired military, former federal law enforcement, business manager; no public office"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (enacted legislation, programs, budgets)",
+        "where": "sfgov.legistar.com Members list (People.aspx, current Board of Supervisors members): name not listed, so no sponsored legislation or votes"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Guy McCoy",
+        "where": "GrowSF District 2 guide (growsf.org): no questionnaire for Guy McCoy"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Guy McCoy elected or appointed public office",
+        "where": "Profile research for offices_held (Voter Information Pamphlet, ballot designations list, web search for a campaign site): no office held, no campaign site found"
+      }
+    ]
   }
 }
