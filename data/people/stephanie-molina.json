@@ -66,6 +66,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Program coordinator, Nevada State University",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-af7e630f0d",
+          "quote": "Molina is a program coordinator at Nevada State University where she has worked for four years.",
+          "locator": "Board of Regent, District 5, Stephanie Molina"
+        },
+        {
+          "source": "src:thenevadaindependent-com-d452a8bb05",
+          "quote": "Stephanie Molina, a program coordinator at Nevada State University, where she works on economic and workforce development.",
+          "locator": "Candidate overview paragraph, District 5 race (Sept. 22, 2026)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",

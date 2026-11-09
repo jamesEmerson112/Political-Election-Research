@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-d452a8bb05",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-22",
+  "publisher": "The Nevada Independent",
+  "title": "Here's where Board of Regents candidates stand on issues facing Nevada's higher education",
+  "url": "https://thenevadaindependent.com/article/heres-where-board-of-regents-candidates-stand-on-issues-facing-nevadas-higher-education"
+}
