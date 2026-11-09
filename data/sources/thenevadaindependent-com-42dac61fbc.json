@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-42dac61fbc",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "publisher": "The Nevada Independent",
+  "title": "Key Races - Nevada Voter Guide | 2026",
+  "url": "https://thenevadaindependent.com/elections/2026/general/key"
+}

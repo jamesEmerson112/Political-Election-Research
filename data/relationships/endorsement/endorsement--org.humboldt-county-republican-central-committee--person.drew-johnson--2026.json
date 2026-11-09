@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.humboldt-county-republican-central-committee--person.drew-johnson--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-26",
+  "endorsee": "person:drew-johnson",
+  "endorser": "org:humboldt-county-republican-central-committee",
+  "citations": [
+    {
+      "source": "src:drewfornevada-com-57bff8a9c1",
+      "quote": "LAS VEGAS – Drew Johnson, Republican candidate for Nevada State Treasurer, announced today that he has earned the endorsements of the Humboldt County Republican Central Committee and the Douglas County Republican Central Committee.",
+      "locator": "press release dated August 26, 2026, first paragraph"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

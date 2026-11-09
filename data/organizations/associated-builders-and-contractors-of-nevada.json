@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "associated-builders-and-contractors-of-nevada",
+  "name": "Associated Builders and Contractors of Nevada",
+  "aliases": [
+    "ABC Nevada"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "trade_association",
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.associated-builders-and-contractors-of-nevada--person.drew-johnson--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-23",
+  "endorsee": "person:drew-johnson",
+  "endorser": "org:associated-builders-and-contractors-of-nevada",
+  "citations": [
+    {
+      "source": "src:drewfornevada-com-45ddf34f6a",
+      "quote": "LAS VEGAS – Drew Johnson, Republican candidate for Nevada State Treasurer, has earned the endorsements of both the Associated General Contractors of Nevada and the Associated Builders and Contractors of Nevada.",
+      "locator": "press release dated August 23, 2026, first paragraph"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

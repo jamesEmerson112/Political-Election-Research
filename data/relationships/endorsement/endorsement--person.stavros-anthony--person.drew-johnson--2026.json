@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.stavros-anthony--person.drew-johnson--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-07-23",
+  "endorsee": "person:drew-johnson",
+  "endorser": "person:stavros-anthony",
+  "citations": [
+    {
+      "source": "src:drewfornevada-com-785c78b5a4",
+      "quote": "Las Vegas – Nevada Lieutenant Governor Stavros Anthony has endorsed fiscal watchdog and conservative policy expert Drew Johnson for Nevada State Treasurer.",
+      "locator": "press release dated July 23, 2026, first paragraph"
+    },
+    {
+      "source": "src:thenevadaindependent-com-42dac61fbc",
+      "quote": "Lt. Gov. Stavros Anthony",
+      "locator": "Treasurer section, Drew Johnson entry, ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

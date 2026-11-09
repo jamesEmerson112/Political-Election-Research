@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.joseph-lombardo--person.drew-johnson--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-07-07",
+  "endorsee": "person:drew-johnson",
+  "endorser": "person:joseph-lombardo",
+  "citations": [
+    {
+      "source": "src:drewfornevada-com-b4d9a74ca0",
+      "quote": "Las Vegas – Nevada Governor Joe Lombardo endorsed fiscal watchdog and conservative policy expert Drew Johnson for Nevada State Treasurer.",
+      "locator": "press release dated July 7, 2026, first paragraph"
+    },
+    {
+      "source": "src:drewfornevada-com-b4d9a74ca0",
+      "quote": "I support Drew Johnson and encourage Nevadans to join me in electing another conservative leader for Nevada.",
+      "locator": "Governor Lombardo's quoted statement"
+    },
+    {
+      "source": "src:thenevadaindependent-com-42dac61fbc",
+      "quote": "Gov. Joe Lombardo",
+      "locator": "Treasurer section, Drew Johnson entry, ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
