@@ -3,6 +3,59 @@
   "id": "noreen-c-demonte",
   "name": "Noreen C. DeMonte",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "DeMonte",
+          "where": "Clark County Election Department candidate lists for the 2026 general election (Notice of General Election PDF, page 9; officesup-26g.pdf, page 6): Department 28 lists only 'DeMonte Noreen C. NP', where NP = Nonpartisan, indicated for nonpartisan offices only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Noreen DeMonte biography",
+          "where": "Las Vegas Justice Court judge page (lasvegasjusticecourt.us/judges/judge_noreen_demonte.php)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Campaign site noreen4judge.com: home and About (Meet Noreen) pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "DeMonte",
+          "where": "The Nevada Independent 2026 general election guide, District Court Dept. 28 (candidate deep dive)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "DeMonte biography",
+          "where": "Veterans In Politics International profile post, 2026-06-11"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "DeMonte",
+          "where": "The Nevada Independent, 2026-11-04 results article on Clark County judicial races"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Noreen DeMonte district court judge department 28 Las Vegas 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Judge Noreen DeMonte\" campaign website about",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Noreen DeMonte",
+          "where": "nvsos.gov and nvcourts.gov (candidate filings, judicial disclosures): blocked from this session (Cloudflare challenge), not read"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
