@@ -4,6 +4,16 @@
   "name": "James Ohrenschall",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1972",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: 1972 – Las Vegas, Nevada",
+          "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
