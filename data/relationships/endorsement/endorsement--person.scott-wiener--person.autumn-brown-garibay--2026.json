@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.scott-wiener--person.autumn-brown-garibay--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:autumn-brown-garibay",
+  "endorser": "person:scott-wiener",
+  "citations": [
+    {
+      "source": "src:autumnforschoolboard-com-e68d8a68c4",
+      "quote": "Scott Wiener, State Senator",
+      "locator": "PROUDLY ENDORSED BY"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

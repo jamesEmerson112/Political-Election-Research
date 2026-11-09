@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.edwin-m-lee-asian-pacific-democratic-club--person.autumn-brown-garibay--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-09-08",
+  "endorsee": "person:autumn-brown-garibay",
+  "endorser": "org:edwin-m-lee-asian-pacific-democratic-club",
+  "citations": [
+    {
+      "source": "src:edleedems-org-84727984a2",
+      "quote": "Updated Sept 8, 2026: Members of the Edwin M. Lee Asian Pacific Democratic Club voted to approve the Board’s recommendations for the November 3, 2026 General Election.",
+      "locator": "page header"
+    },
+    {
+      "source": "src:edleedems-org-84727984a2",
+      "quote": "Board of Education 教育委員會 (3 seats — vote for all 3 · 3席，請選全部3人): Phil Kim 菲爾金 — Reelected Tim Tung 湯泰利 — Leading in second place; not yet called. Autumn Brown Garibay 奧頓・布朗・加里貝",
+      "locator": "San Francisco Candidates"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

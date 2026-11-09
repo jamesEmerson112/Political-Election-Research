@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfdems-org-9766e438e5",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Democratic Party",
+  "title": "November 3rd, 2026 General Election Voter Guide",
+  "url": "https://www.sfdems.org/endorsements/nov-3-2026-general-election"
+}

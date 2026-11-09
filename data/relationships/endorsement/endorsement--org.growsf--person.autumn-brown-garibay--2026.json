@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.growsf--person.autumn-brown-garibay--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:autumn-brown-garibay",
+  "endorser": "org:growsf",
+  "citations": [
+    {
+      "source": "src:growsf-org-33b4051208",
+      "quote": "We recommend voting for Phil Kim, Autumn Brown Garibay, and Tim Tung for Board of Education."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

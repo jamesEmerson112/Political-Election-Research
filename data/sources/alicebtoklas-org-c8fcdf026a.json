@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "alicebtoklas-org-c8fcdf026a",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Alice B. Toklas LGBTQ Democratic Club",
+  "title": "November 3, 2026 Endorsements",
+  "url": "https://alicebtoklas.org/2026endorsements"
+}

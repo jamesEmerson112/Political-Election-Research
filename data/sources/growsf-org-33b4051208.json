@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "growsf-org-33b4051208",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "published": "2026-08-12",
+  "publisher": "GrowSF",
+  "title": "San Francisco Board of Education — November 2026 Election",
+  "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/board-of-education/"
+}

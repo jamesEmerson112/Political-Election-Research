@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "alice-b-toklas-lgbtq-democratic-club",
+  "name": "Alice B. Toklas LGBTQ Democratic Club",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}
