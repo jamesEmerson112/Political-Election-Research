@@ -35,6 +35,37 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birthplace / hometown / where born or raised",
+          "where": "campaign site austin4judge.com, Home and About pages (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birthplace / hometown / where born or raised",
+          "where": "Las Vegas Review-Journal, 'Incumbent judge, prosecutor clash in Department 8 race' (2026-10-01, opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Austin Beaumont birthplace / hometown / where born or raised",
+          "where": "Review-Journal WordPress search (reviewjournal.com/wp-json/wp/v2/posts?search=Austin Beaumont): 10 articles scanned"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Austin Beaumont",
+          "where": "Nevada Independent WordPress search (thenevadaindependent.com/wp-json/wp/v2/posts?search=Austin Beaumont): no results"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Austin Beaumont candidate profile",
+          "where": "Clark County Bar Association 2026 judicial candidate pages (clarkcountybar.org/2026-judicial-candidate-austin-beaumont/): 404"
+        }
+      ]
+    },
     "occupation": {
       "value": "Chief Deputy District Attorney, Clark County District Attorney's Office (Major Fraud Unit)",
       "citations": [
