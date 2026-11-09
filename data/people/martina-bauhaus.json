@@ -60,6 +60,87 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Las Vegas Metropolitan Police Department",
+          "role": "Assistant General Counsel",
+          "start": "2015",
+          "citations": [
+            {
+              "source": "src:martinaforjudge-com-c261014bef",
+              "quote": "She currently serves as Assistant General Counsel for the Las Vegas Metropolitan Police Department (LVMPD), where she advises on complex legal matters, supports law enforcement operations, and ensures compliance with constitutional standards.",
+              "locator": "Home page, Meet Martina"
+            },
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Has worked for the Metropolitan Police Department since 2007 and has served as assistant general counsel since 2015",
+              "locator": "Martina Bauhaus candidate deep dive, Career highlights"
+            }
+          ]
+        },
+        {
+          "end": "2015",
+          "organization": "Las Vegas Metropolitan Police Department",
+          "role": "Litigation manager and assistant general counsel",
+          "start": "2007",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Litigation manager and assistant general counsel, Las Vegas Metropolitan Police Department (2007-2015)",
+              "locator": "Martina Bauhaus candidate deep dive, Title: Prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2007",
+          "organization": "Nevada Attorney General's Office",
+          "role": "Deputy attorney general and senior deputy attorney general, Litigation Division",
+          "start": "2005",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Deputy attorney general and senior deputy attorney general, Nevada Attorney General’s Office, Litigation Division (2005-2007)",
+              "locator": "Martina Bauhaus candidate deep dive, Title: Prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2005",
+          "organization": "Alverson Taylor & Sanders",
+          "role": "Law clerk and associate attorney",
+          "start": "2004",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Law clerk and associate attorney, Alverson Taylor & Sanders (2004-2005)",
+              "locator": "Martina Bauhaus candidate deep dive, Title: Prior job titles"
+            }
+          ]
+        },
+        {
+          "role": "Paralegal (insurance defense)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Before becoming an attorney, worked as a paralegal in insurance defense and as a law clerk at a plaintiffs’ personal injury firm while attending law school",
+              "locator": "Martina Bauhaus candidate deep dive, Title: Prior job titles"
+            }
+          ]
+        },
+        {
+          "role": "Law clerk at a plaintiffs' personal injury firm (while attending law school)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Before becoming an attorney, worked as a paralegal in insurance defense and as a law clerk at a plaintiffs’ personal injury firm while attending law school",
+              "locator": "Martina Bauhaus candidate deep dive, Title: Prior job titles"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
