@@ -65,6 +65,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney (civil trial lawyer); of counsel at Maier Gutierrez & Associates",
+      "citations": [
+        {
+          "source": "src:danielletarmu-com-158c158035",
+          "quote": "I have been a trial lawyer for nearly 17 years, dedicating my career to civil litigation and protecting the rights of my clients through countless cases and trials.",
+          "locator": "Home, Judicial Candidate Statement"
+        },
+        {
+          "source": "src:mgalaw-com-cc884891e2",
+          "quote": "Danielle Tarmu is an of counsel contract attorney with Maier Gutierrez & Associates, responsible for special projects.",
+          "locator": "Legal Team bio"
+        },
+        {
+          "source": "src:danielletarmu-com-7d7d37b52a",
+          "quote": "Danielle currently oversees the law and motion practice at Maier Gutierrez & Associates on all high-value, complex cases requiring sophisticated legal analysis, research, and writing, and assists with most trials.",
+          "locator": "Biography"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
