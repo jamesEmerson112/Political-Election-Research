@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:j-r-eppler",
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "J.R. Eppler record of enacted legislation, programs or budgets",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 10, printed p. 49: self-reported results (affordable housing along the Bayfront, the 55 and 15 Muni routes, funding for safe streets, transit and parks), not government records"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Eppler results",
+        "where": "Campaign website jreppler.com, About ('Delivering Results for District 10': Pier 70 housing, Bayview-Hunters Point Express working group, 17th Street bike lane, Power Station development agreement, 55 Dogpatch) and Issues pages: self-reported advocacy as a volunteer and community advocate; the Results page returns 404"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Eppler results, programs",
+        "where": "GrowSF November 2026 questionnaire, his answers (growsf.org): no government record of an outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Board of Supervisors files with \"Eppler\" in the title",
+        "where": "San Francisco Board of Supervisors Legistar web API (webapi.legistar.com/v1/sfgov/matters, title search): File 171047, a 2017 hearing on his appeal, for the Potrero Boosters Neighborhood Association, of the Pier 70 Mixed-Use District final EIR certification (status: Filed); no ordinance, resolution or budget he authored"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Building Inspection Commission and Board of Appeals votes",
+        "where": "Building Inspection Commission (2021) and Board of Appeals (2022 until his candidacy) records: not searched further after the rule below; appointed quasi-judicial and oversight bodies"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Rule applied to all three District 10 candidates in this package: a track-record item needs a government record documenting an outcome of the candidate's own official action (legislation, budget, program); self-reported results on campaign pages and questionnaires are not government records, and votes as one member of an appointed commission on minutes, reports or single project approvals are not recorded as performance outcomes",
+        "where": "note"
+      }
+    ]
+  }
+}
