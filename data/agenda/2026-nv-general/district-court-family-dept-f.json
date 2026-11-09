@@ -2,7 +2,12 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/district-court-family-dept-f",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:denise-l-gentile",
+      "name": "Denise L. Gentile"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
