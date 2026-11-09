@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:pearci-pj-bastiany-iii",
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes: offices, programs, legislation, budgets",
+        "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement, Board of Supervisors District 10, printed p. 47: describes his business, studies and the Martial Arts Community Protection Initiative he created; no government record of an outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "What local and state commissions or policy bodies have you served on?",
+        "where": "SF League of Pissed Off Voters 2026 questionnaire (D10_Supervisor_Pearci_PJ_Bastiany.pdf), p. 4: \"None\""
+      },
+      {
+        "date": "2026-11-09",
+        "query": "record / track record of service",
+        "where": "Campaign site bastiany-campaign-site.replit.app (/about, /advocacy): student-government, nonprofit and business roles and proposals (SIMHS, MACPI) described as proposals; campaign claims, not government records"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "MACPI introduced to the Board of Supervisors in 2024",
+        "where": "GrowSF November 2026 questionnaire (growsf.org): his own account; no Board action found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "MatterTitle contains 'Bastiany'; 'Martial Arts'",
+        "where": "San Francisco Board of Supervisors legislative files via the Legistar web API (webapi.legistar.com/v1/sfgov/matters): no matter naming him or MACPI"
+      }
+    ]
+  }
+}
