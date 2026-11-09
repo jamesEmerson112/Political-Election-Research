@@ -3,6 +3,23 @@
   "id": "jon-penn-junejo",
   "name": "Jon Penn Junejo",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Junejo Jon Penn DEM",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 36 rows (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
