@@ -27,6 +27,67 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County School District",
+          "role": "Educator",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educator, Clark County School District",
+              "locator": "PDF page 74, Legislative Biography—2025 Session, Brittney M. Miller"
+            },
+            {
+              "source": "src:thenevadaindependent-com-241dc78c98",
+              "quote": "A teacher in the Clark County School District, Miller has served in the Assembly since 2016.",
+              "locator": "State Assembly, District 5, Brittney M. Miller entry"
+            }
+          ]
+        },
+        {
+          "organization": "Canarelli Middle School, Clark County School District",
+          "role": "English Language Arts teacher",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-3cd576843e",
+              "quote": "Miller, an English Language Arts teacher at Canarelli Middle School, has taught in the Clark County School District for five and a half years."
+            }
+          ]
+        },
+        {
+          "organization": "Colonial Bank",
+          "role": "Training specialist",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-3cd576843e",
+              "quote": "Before that, she was a training specialist at Colonial Bank, an associate director of a prisoner reentry program at Oakland Livingston Human Service Agency and a trainer and assistant branch manager at Charter One Bank."
+            }
+          ]
+        },
+        {
+          "organization": "Oakland Livingston Human Service Agency",
+          "role": "Associate director of a prisoner reentry program",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-3cd576843e",
+              "quote": "Before that, she was a training specialist at Colonial Bank, an associate director of a prisoner reentry program at Oakland Livingston Human Service Agency and a trainer and assistant branch manager at Charter One Bank."
+            }
+          ]
+        },
+        {
+          "organization": "Charter One Bank",
+          "role": "Trainer and assistant branch manager",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-3cd576843e",
+              "quote": "Before that, she was a training specialist at Colonial Bank, an associate director of a prisoner reentry program at Oakland Livingston Human Service Agency and a trainer and assistant branch manager at Charter One Bank."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
