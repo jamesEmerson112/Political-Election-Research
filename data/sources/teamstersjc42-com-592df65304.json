@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "teamstersjc42-com-592df65304",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Teamsters Joint Council 42",
+  "title": "Endorsements",
+  "url": "https://www.teamstersjc42.com/endorsements/"
+}

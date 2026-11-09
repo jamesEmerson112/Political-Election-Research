@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.teamsters-joint-council-42--person.michael-macdougall--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:michael-macdougall",
+  "endorser": "org:teamsters-joint-council-42",
+  "citations": [
+    {
+      "source": "src:teamstersjc42-com-592df65304",
+      "quote": "CONTROLLER\nMichael MacDougall",
+      "locator": "Nevada Teamsters Endorsements, General Election, Tuesday, November 3, 2026; Statewide Offices"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

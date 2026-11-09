@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.uaw-region-6--person.michael-macdougall--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:michael-macdougall",
+  "endorser": "org:uaw-region-6",
+  "citations": [
+    {
+      "source": "src:uawregion6-org-1591a1427b",
+      "quote": "State Controller - Michael MacDougall",
+      "locator": "Nevada Endorsements, Statewide Offices"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

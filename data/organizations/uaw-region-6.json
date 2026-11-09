@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "uaw-region-6",
+  "name": "UAW Region 6",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.uawregion6.org/"
+  },
+  "org_type": "labor_union",
+  "last_verified": "2026-11-09"
+}

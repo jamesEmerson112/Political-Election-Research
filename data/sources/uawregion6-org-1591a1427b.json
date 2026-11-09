@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "uawregion6-org-1591a1427b",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "UAW Region 6",
+  "title": "Nevada Endorsements",
+  "url": "https://www.uawregion6.org/nevada"
+}
