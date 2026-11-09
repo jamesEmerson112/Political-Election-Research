@@ -96,6 +96,40 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Make It Work Nevada",
+          "role": "Deputy Director",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-bc20fd52bf",
+              "quote": "Outside her role as a trustee, Zamora serves as a deputy director at Make It Work Nevada, a nonprofit focused on paid leave and childcare."
+            },
+            {
+              "source": "src:votebrendazamora-com-1aed4ac5fe",
+              "quote": "Currently serving as a manager at a nonprofit organization",
+              "locator": "Meet Brenda"
+            }
+          ]
+        },
+        {
+          "organization": "Silver State Voices",
+          "role": "Communications (as of October 2022)",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-6c9f2d94ee",
+              "quote": "She is currently doing communications for Silver State Voices, a group focused on voter empowerment and engagement, and she has previously worked for other advocacy groups working on issues like mandatory paid sick days."
+            },
+            {
+              "source": "src:ccsd-net-1e79130503",
+              "quote": "As a Communications Coordinator in the non-profit sector, Brenda advocates for equal and fair access to elections and works to bring resources to families in low-income households."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [

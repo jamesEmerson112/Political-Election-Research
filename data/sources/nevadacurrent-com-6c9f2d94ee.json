@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-6c9f2d94ee",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-10-11",
+  "publisher": "Nevada Current",
+  "title": "School Board president faces challenge from community organizer in District D",
+  "url": "https://nevadacurrent.com/2022/10/11/school-board-president-faces-challenge-from-community-organizer-in-district-d/"
+}
