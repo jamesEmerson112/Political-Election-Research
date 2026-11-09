@@ -723,6 +723,25 @@ async function openAll(p, route) {
   );
 }
 
+{
+  // 9h. The Nevada section's note matches its data: once its contests list candidates, it no longer says they have none.
+  // Contests whose only record is the official candidate list fold with the unresearched ones.
+  const { c, p } = await sweepPage(1280);
+  const nv = p.locator("#state-nv");
+  const note = await text(nv.locator(".g-note").first());
+  const folds = await nv.locator("button.more").count();
+  await p.locator("#contest-filter").fill("Las Vegas Municipal Court");
+  await p.waitForTimeout(200);
+  const who = await nv.locator("a.crow .c-who").allTextContents();
+  await c.close();
+  const listed = who.length > 0 && who.every((w) => w.trim() && !/Candidates not set/.test(w));
+  check(
+    "9h. the Nevada note doesn't say its contests have no candidates once they list them; official-list-only contests fold",
+    listed && !/no candidates|Placeholders/i.test(note) && folds > 0,
+    `note: "${note}"; ${folds} fold rows; municipal court rows: ${who.map((w) => w.trim()).join(" | ")}`,
+  );
+}
+
 // 5e. Vercel Web Analytics runs on the public site only; anywhere else the page loads none of it.
 const onPublicSite = new URL(BASE).hostname === "political-election-research.vercel.app";
 const vaScript = await page.evaluate(() => document.querySelector('script[data-sdkn^="@vercel/analytics"]')?.getAttribute("src") ?? "");

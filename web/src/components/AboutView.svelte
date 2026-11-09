@@ -59,7 +59,7 @@
           <strong>Candidates:</strong> research agendas for {plural(agendas, "contest")}, with {openTasks.toLocaleString("en-US")} research
           {openTasks === 1 ? "task" : "tasks"} still open (<a href="#queue"
             >Research queue</a
-          >). Nevada (Las Vegas) contests are placeholders for now.
+          >). Nevada (Las Vegas) contests list the candidates on the official ballot; most are not researched yet.
         </li>
       </ul>
     </div>

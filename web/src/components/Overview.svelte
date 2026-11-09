@@ -92,7 +92,7 @@
       return { ref, st, kind, office, names, who, measure, word, count, pct, hasAgenda: p.total > 0, tasks, leads, title, verified: ix.contests.has(ref), hay, place };
     }),
   );
-  /** Other states' contests (Nevada: Las Vegas placeholders) get their own section while the list isn't narrowed to one voter's ballot. */
+  /** Other states' contests (Nevada: Las Vegas ballots) get their own section while the list isn't narrowed to one voter's ballot. */
   const otherStates = $derived.by(() => {
     if (ballotOn) return [];
     const by = new Map<string, Row[]>();
@@ -221,11 +221,11 @@
   });
 
   /**
-   * Contests with research to show (any progress, or an official contest record, which every result has) are listed;
-   * the rest of a group folds behind one "Show N more, not researched yet" row. The filter and My ballot show
-   * everything, since both already narrow the list.
+   * Contests with research to show (any progress, or a recorded result) are listed; the rest of a group, including
+   * contests whose only record is the official candidate list, folds behind one "Show N more, not researched yet" row.
+   * The filter and My ballot show everything, since both already narrow the list.
    */
-  const researched = (r: Row) => r.pct > 0 || r.verified || r.kind === "measure";
+  const researched = (r: Row) => r.pct > 0 || r.word !== "" || r.kind === "measure";
   const foldUnresearched = $derived(!ballotOn && q.trim() === "");
   let moreOpen = $state<Record<string, boolean>>({});
   /** Propositions and measures start folded (the Overview is mostly read for candidates); a filter opens them. */
@@ -289,8 +289,8 @@
 
   {#if ballotSt === "nv"}
     <p class="g-note">
-      Placeholders: the contests on City of Las Vegas ballots for November 3, 2026, from the Clark County Election Department's official lists. Not
-      researched yet: no candidates, questions or positions.
+      The contests on City of Las Vegas ballots for November 3, 2026, with the candidates on the Clark County Election Department's official lists.
+      Most are not researched yet.
     </p>
   {/if}
   {#each groups as g (g.type)}
@@ -363,8 +363,8 @@
       <h2 class="s-head">{s.st === "nv" ? `${s.name} · Las Vegas` : s.name} <span class="g-count num">{s.count}</span></h2>
       {#if s.st === "nv"}
         <p class="g-note">
-          Placeholders: the contests on City of Las Vegas ballots for November 3, 2026, from the Clark County Election Department's official lists. Not researched yet: no
-          candidates, questions or positions. Each one is in the research queue.
+          The contests on City of Las Vegas ballots for November 3, 2026, with the candidates on the Clark County Election Department's official lists.
+          Most are not researched yet; each one is in the research queue.
         </p>
       {/if}
       {#each s.groups as g (g.type)}
@@ -554,7 +554,7 @@
     font-size: var(--step--1);
     color: var(--ink-2);
   }
-  /* Another state's contests (Nevada: Las Vegas placeholders), below California's. */
+  /* Another state's contests (Nevada: Las Vegas ballots), below California's. */
   .state {
     display: grid;
     gap: 8px;
