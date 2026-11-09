@@ -146,6 +146,16 @@
           "where": "web search"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Las Vegas and Henderson (the campaign names both as his home)",
+      "citations": [
+        {
+          "source": "src:santeramo4judge-com-768069790c",
+          "quote": "Josh Santeramo has called Las Vegas and Henderson his home for 19 years.",
+          "locator": "About Josh, Background and public service, first paragraph"
+        }
+      ]
     }
   },
   "ids": [],
