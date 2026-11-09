@@ -44,6 +44,30 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Department 31",
+          "current": true,
+          "first_elected": "2010",
+          "jurisdiction": "Eighth Judicial District Court (Clark County, Nevada)",
+          "start": "2011-01-03",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "The Honorable Joanna S. Kishner is the Judge in Department XXXI of the Eighth Judicial District. Judge Kishner was first elected to the bench in 2010 based on the community- wide support she received.",
+              "locator": "Biography tab, first paragraph"
+            },
+            {
+              "source": "src:judgekishner-com-151b556e92",
+              "quote": "She first assumed office on January 3, 2011, following her election, and is committed to upholding access to justice, integrity in the courtroom, and public confidence in the legal system.",
+              "locator": "About page, A Profile in Service"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
