@@ -60,6 +60,64 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "City of Las Vegas, Office of the City Attorney",
+          "role": "Deputy City Attorney (Criminal Division)",
+          "start": "2019-07",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "Title: Deputy city attorney for Las Vegas City Attorney Office, criminal division",
+              "locator": "Candidate deep dive: Murphy, Allycia, Title"
+            },
+            {
+              "source": "src:files-lasvegasnevada-gov-ae70cdcea8",
+              "quote": "7/2019-Present",
+              "locator": "PDF page 5, employment table: Office of the City Attorney-Criminal Division, Deputy City Attorney, dates"
+            }
+          ]
+        },
+        {
+          "end": "2018-12-27",
+          "organization": "Mueller and Associates",
+          "role": "Contract Attorney",
+          "start": "2018-12-01",
+          "citations": [
+            {
+              "source": "src:files-lasvegasnevada-gov-ae70cdcea8",
+              "quote": "Dates: 12/1/2018-12/27/2018",
+              "locator": "PDF page 5, employment table: Mueller and Associates, Contract Attorney"
+            },
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "Prior job titles: Contract attorney with Mueller and Associates and assistant district attorney in North Carolina’s 1st Judicial District",
+              "locator": "Candidate deep dive: Murphy, Allycia, Title"
+            }
+          ]
+        },
+        {
+          "end": "2017-03",
+          "organization": "State of North Carolina, First Judicial District",
+          "role": "Assistant District Attorney",
+          "start": "2013-07",
+          "citations": [
+            {
+              "source": "src:files-lasvegasnevada-gov-ae70cdcea8",
+              "quote": "My career as a public servant began when I had the privilege of representing the citizens of North Carolina as an Assistant District Attorney in the First Judicial District.",
+              "locator": "PDF page 8, Candidate Statement"
+            },
+            {
+              "source": "src:files-lasvegasnevada-gov-ae70cdcea8",
+              "quote": "7/2013-3/2017",
+              "locator": "PDF page 6, employment table: State of North Carolina, Assistant District Attorney, dates"
+            }
+          ]
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-09",
       "items": [],
