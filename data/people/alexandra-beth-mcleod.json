@@ -4,6 +4,42 @@
   "name": "Alexandra Beth McLeod",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birth date",
+          "where": "Campaign website votemcleod.com (home, Biography and Resume 2026 PDF)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Our Nevada Judges candidate page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, birth date, age",
+          "where": "The Nevada Independent 2026 voter guide, Department 31 candidate deep dive"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, age",
+          "where": "Las Vegas Review-Journal voter guide 2026 and RJ endorsement editorial (judicial elections pose challenges for voters)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Alexandra McLeod\" born birth date age judge Las Vegas",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date (quotes her giving her age in 2024, no birth date; age is not converted to a date)",
+          "where": "Nevada Current, 'Three candidates vie for seat on District Court' (https://nevadacurrent.com/2024/10/02/three-candidates-vie-for-seat-on-district-court/)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
