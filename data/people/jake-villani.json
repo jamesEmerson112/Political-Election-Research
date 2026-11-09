@@ -3,6 +3,23 @@
   "id": "jake-villani",
   "name": "Jake Villani",
   "aliases": [],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "Las Vegas, Nevada",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-8a24763372",
+          "quote": "Villani emphasizes he was born and raised in Las Vegas.",
+          "locator": "Jake Villani, Candidate deep dive, Judicial philosophy"
+        },
+        {
+          "source": "src:ournevadajudges-com-e349b70b0b",
+          "quote": "Jacob Villani is a Vegas native, born and raised.",
+          "locator": "Description"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
