@@ -104,6 +104,59 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Eighth Judicial District Court, Department 30",
+          "current": true,
+          "first_elected": "2010",
+          "start": "2011-01",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "He practiced law in both Nevada and Arizona from 1994 through 2010, when he was elected to the District Court bench.",
+              "locator": "Biography, first paragraph"
+            },
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "Since taking the bench in January of 2011, Judge Wiese has presided over numerous trials, both civil and criminal, and has presided over many settlement conferences.",
+              "locator": "Biography, fourth paragraph"
+            },
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "Jerry A. Wiese II",
+              "locator": "Page heading, under Department XXX"
+            }
+          ]
+        },
+        {
+          "office": "Chief Judge, Eighth Judicial District Court",
+          "current": false,
+          "end": "2026-06",
+          "start": "2022-07",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "most recently he served two terms as the Chief Judge of the Eighth Judicial District Court from July 2022 through June 2026.",
+              "locator": "Biography, fourth paragraph"
+            }
+          ]
+        },
+        {
+          "office": "Pro Tem Justice of the Peace",
+          "current": false,
+          "jurisdiction": "North Las Vegas",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "sat as a Pro Tem Justice of the Peace for several years, in North Las Vegas, where he presided over both civil and criminal cases.",
+              "locator": "Biography, third paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
