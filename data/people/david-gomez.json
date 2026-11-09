@@ -96,6 +96,25 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Consultant and advisor; president of the Nevada Peace Alliance (nonprofit)",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-bc20fd52bf",
+          "quote": "Gomez has a law degree, and works as a consultant and advisor."
+        },
+        {
+          "source": "src:thenevadaindependent-com-1f258aa16e",
+          "quote": "He’s the president of the Nevada Peace Alliance, a local nonprofit leading statewide initiatives focused on safety, justice and community well‑being.",
+          "locator": "School Board Trustee, District D"
+        },
+        {
+          "source": "src:d-gomezfortrustee-com-4e70e7c6db",
+          "quote": "President of the Nevada Peace Alliance, leading statewide initiatives focused on safety, justice, and community well‑being.",
+          "locator": "Key Accomplishment & Roles"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican (registration as reported by Nevada Current; the office is nonpartisan and the county candidate list shows NP)",
       "citations": [
