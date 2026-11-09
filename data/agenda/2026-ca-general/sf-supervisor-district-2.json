@@ -153,6 +153,32 @@
           "where": "Campaign site nicholasberg.com / www.nicholasberg.com: not reachable (DNS and tunnel errors)"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-2|legislation|person:guy-mccoy",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "occupation; qualifications; office held",
+          "where": "San Francisco Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Guy McCoy candidate statement, printed p. 40: qualifications list retired military, former federal law enforcement and business manager, and state he is not a politician; no legislative office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Board of Supervisors member",
+          "where": "sfgov.legistar.com Members list (People.aspx, current Board of Supervisors members: 11 records; name not listed)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Guy McCoy ballot designation: none",
+          "where": "San Francisco Department of Elections names and ballot designations list (api.sf.gov/documents/63094)"
+        },
+        {
+          "date": "2026-11-04",
+          "query": "Guy McCoy campaign site",
+          "where": "Web search \"Guy McCoy\" San Francisco District 2 supervisor 2026 (profile research, 2026-11-04): no campaign site found"
+        }
+      ]
     }
   ],
   "measures": [],
