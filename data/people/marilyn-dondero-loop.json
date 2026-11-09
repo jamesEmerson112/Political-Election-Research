@@ -4,6 +4,16 @@
   "name": "Marilyn Dondero Loop",
   "aliases": [],
   "candidate_profile": {
+    "birthplace": {
+      "value": "Las Vegas, Nevada",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: Las Vegas, Nevada",
+          "locator": "Legislative Biography, 2025 Session, page 13: Marilyn Dondero Loop"
+        }
+      ]
+    },
     "career": {
       "as_of": "2026-11-09",
       "items": [
