@@ -106,6 +106,70 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County School District",
+          "role": "Temporary custodian",
+          "start": "1998",
+          "citations": [
+            {
+              "source": "src:robforccsd-com-10c761d719",
+              "quote": "I began my career in CCSD in 1998 as a temporary custodian.",
+              "locator": "section \"From Custodian to Director: A Career Built on Commitment\""
+            }
+          ]
+        },
+        {
+          "organization": "Clark County School District",
+          "role": "Director of Facilities",
+          "citations": [
+            {
+              "source": "src:robforccsd-com-10c761d719",
+              "quote": "My journey continued as I moved into leadership positions, eventually becoming the Director of Facilities.",
+              "locator": "section \"From Custodian to Director: A Career Built on Commitment\""
+            },
+            {
+              "source": "src:nevadacurrent-com-87999e1986",
+              "quote": "Hutchinson is a first-time candidate and currently serves as director of facilities for the Clark County School District, a position he has held for more than three years.",
+              "locator": "section \"Robert Hutchinson\" (April 30, 2026)"
+            },
+            {
+              "source": "src:lasvegasweekly-com-331a2e58c0",
+              "quote": "Hutchinson is set to retire from the district this fall regardless of the election outcome",
+              "locator": "section \"Rob Hutchinson\" (July 30, 2026)"
+            }
+          ]
+        },
+        {
+          "organization": "Southern Nevada Bicycle Coalition (SNVBC)",
+          "role": "President",
+          "citations": [
+            {
+              "source": "src:lvsportsbiz-com-f4137cc735",
+              "quote": "We need a comprehensive safety program similar to what I helped develop during my presidency with SNVBC",
+              "locator": "answer to the third question"
+            },
+            {
+              "source": "src:lvsportsbiz-com-f4137cc735",
+              "quote": "partnerships with groups like RTC and the Southern Nevada Bicycle Coalition",
+              "locator": "answer to the third question"
+            }
+          ]
+        },
+        {
+          "role": "Small business owner",
+          "citations": [
+            {
+              "source": "src:robforccsd-com-10c761d719",
+              "quote": "I run a small business and contribute to local pedestrian and bicycle safety initiatives.",
+              "locator": "section \"Community Engagement Beyond the Classroom\""
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
