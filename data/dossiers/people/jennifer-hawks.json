@@ -46,5 +46,46 @@
         "where": "Campaign site hawksforus.com/press-releases/"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "record / results / experience",
+        "where": "https://hawksforus.com/about (campaign biography: retired business executive; no public office, program or budget outcome named)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "track record / accomplishments",
+        "where": "https://hawksforus.com/ (home), /100-days, /housing, /board-policies, /issues, /press-releases (campaign site)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jennifer Hawks",
+        "where": "Official Voter Information Guide, Nov. 3, 2026, Treasurer candidate statement p. 87"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jennifer Hawks background",
+        "where": "San Francisco Examiner, June 23, 2026 interview (\"Hawks has never held political office before\"; career as office manager and executive assistant at Sacred Heart Schools, Atherton, until 2021)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jennifer Hawks",
+        "where": "KPBS/CalMatters treasurer candidate guide, May 4, 2026 (no experience in elected office)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jennifer Hawks record",
+        "where": "Public Advocates treasurer candidate questionnaire (2026); GrowSF November 2026 questionnaire (candidate declined)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "government records",
+        "where": "Note: no government record of an enacted law, implemented public program or adopted budget attributable to her was found; private-sector roles are in her profile, not here"
+      }
+    ]
   }
 }
