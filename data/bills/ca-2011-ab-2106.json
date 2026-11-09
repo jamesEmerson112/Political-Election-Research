@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2011-ab-2106",
+  "status": {
+    "value": "enacted",
+    "as_of": "2012-07-10",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "2106 83 Wagner . . . . . . . . . . . . . Civil procedure: motion to set aside and vacate a judgment and motion for a new trial. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 10, 2012",
+        "locator": "PDF page 1781, table of Assembly bills approved by Governor and chaptered—2012 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "Jul. 10—Chaptered by Secretary of State − Chapter 83, Statutes of 2012",
+        "locator": "PDF page 1299, history of A.B. No. 2106"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Civil procedure: motion to set aside and vacate a judgment and motion for a new trial",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "2106 83 Wagner . . . . . . . . . . . . . Civil procedure: motion to set aside and vacate a judgment and motion for a new trial. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 10, 2012",
+        "locator": "PDF page 1781, table of Assembly bills approved by Governor and chaptered—2012 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

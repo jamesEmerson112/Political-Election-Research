@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-1722",
+  "status": {
+    "value": "enacted",
+    "as_of": "2016-07-22",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "1722 66 Wagner . . . . . . . . . . . . . Limited liability companies: dissolution: cancellation of articles of organization. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 22, 2016",
+        "locator": "PDF page 1324, table of Assembly bills approved by Governor and chaptered—2016 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "Jul. 22—Chaptered by Secretary of State − Chapter 66, Statutes of 2016",
+        "locator": "PDF page 504, history of A.B. No. 1722"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Limited liability companies: dissolution: cancellation of articles of organization",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "1722 66 Wagner . . . . . . . . . . . . . Limited liability companies: dissolution: cancellation of articles of organization. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 22, 2016",
+        "locator": "PDF page 1324, table of Assembly bills approved by Governor and chaptered—2016 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

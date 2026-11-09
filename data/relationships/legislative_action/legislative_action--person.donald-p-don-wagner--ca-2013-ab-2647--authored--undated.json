@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.donald-p-don-wagner--ca-2013-ab-2647--authored--undated",
+  "type": "legislative_action",
+  "person": "person:donald-p-don-wagner",
+  "action": "authored",
+  "bill": "ca-2013-ab-2647",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "A.B. No. 2647—Wagner.",
+      "locator": "PDF page 1025, history of A.B. No. 2647 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "2647 826 Wagner . . . . . . . . . . . . . Redevelopment: El Toro Project Area: former City of Lake Forest Redevelopment Agency. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 29, 2014",
+      "locator": "PDF page 1247, table of Assembly bills approved by Governor and chaptered—2014 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

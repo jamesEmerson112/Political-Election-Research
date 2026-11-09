@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-1698",
+  "status": {
+    "value": "enacted",
+    "as_of": "2014-09-19",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "1698 455 Wagner . . . . . . . . . . . . . Falsified public records. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 19, 2014",
+        "locator": "PDF page 1238, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "Sep. 19—Chaptered by Secretary of State − Chapter 455, Statutes of 2014",
+        "locator": "PDF page 513, history of A.B. No. 1698"
+      }
+    ]
+  },
+  "area": "government",
+  "title": {
+    "value": "Falsified public records",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "1698 455 Wagner . . . . . . . . . . . . . Falsified public records. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 19, 2014",
+        "locator": "PDF page 1238, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

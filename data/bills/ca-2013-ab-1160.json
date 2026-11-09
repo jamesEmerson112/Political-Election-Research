@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-1160",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-08-12",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "1160 84 Wagner . . . . . . . . . . . . . Decedents’ estates: personal representative. . . . . . . . . . . . . . . . . . . Aug. 12, 2013",
+        "locator": "PDF page 1231, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 1160—Wagner—Decedents’ estates: personal representative. (Chaptered − Chapter 84, Statutes of 2013.)",
+        "locator": "PDF page 285, history entry for A.B. No. 1160"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Decedents’ estates: personal representative",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "1160 84 Wagner . . . . . . . . . . . . . Decedents’ estates: personal representative. . . . . . . . . . . . . . . . . . . Aug. 12, 2013",
+        "locator": "PDF page 1231, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

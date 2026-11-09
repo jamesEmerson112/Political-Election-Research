@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-502",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-10-04",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "502 531 Wagner . . . . . . . . . . . . . Commercial law: secured transactions. . . . . . . . . . . . . . . . . . . . . . . Oct. 4, 2013",
+        "locator": "PDF page 1226, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 502—Wagner—Commercial law: secured transactions. (Chaptered − Chapter 531, Statutes of 2013.)",
+        "locator": "PDF page 143, history entry for A.B. No. 502"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Commercial law: secured transactions",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "502 531 Wagner . . . . . . . . . . . . . Commercial law: secured transactions. . . . . . . . . . . . . . . . . . . . . . . Oct. 4, 2013",
+        "locator": "PDF page 1226, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

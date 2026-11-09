@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.donald-p-don-wagner--ca-2015-ab-667--authored--undated",
+  "type": "legislative_action",
+  "person": "person:donald-p-don-wagner",
+  "action": "authored",
+  "bill": "ca-2015-ab-667",
+  "cycle": 2016,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "A.B. No. 667—Wagner—Broker−dealers: exemptions: finders. (Chaptered − Chapter 743, Statutes of 2015.)",
+      "locator": "PDF page 186, history of A.B. No. 667 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "667 743 Wagner . . . . . . . . . . . . . Broker−dealers: exemptions: finders. . . . . . . . . . . . . . . . . . . . . . . . Oct. 10, 2015",
+      "locator": "PDF page 1313, table of Assembly bills approved by Governor and chaptered—2015 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

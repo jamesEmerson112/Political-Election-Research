@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-383",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-08-12",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "383 76 Wagner . . . . . . . . . . . . . Maintenance of the codes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Aug. 12, 2013",
+        "locator": "PDF page 1225, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 383—Wagner—Maintenance of the codes. (Chaptered − Chapter 76, Statutes of 2013.)",
+        "locator": "PDF page 119, history entry for A.B. No. 383"
+      }
+    ]
+  },
+  "area": "government",
+  "title": {
+    "value": "Maintenance of the codes",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "383 76 Wagner . . . . . . . . . . . . . Maintenance of the codes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Aug. 12, 2013",
+        "locator": "PDF page 1225, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

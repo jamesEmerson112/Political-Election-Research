@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.donald-p-don-wagner--ca-2013-ab-1730--authored--undated",
+  "type": "legislative_action",
+  "person": "person:donald-p-don-wagner",
+  "action": "authored",
+  "bill": "ca-2013-ab-1730",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "A.B. No. 1730—Wagner.",
+      "locator": "PDF page 531, history of A.B. No. 1730 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "1730 457 Wagner . . . . . . . . . . . . . Mortgage loan modification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 19, 2014",
+      "locator": "PDF page 1239, table of Assembly bills approved by Governor and chaptered—2014 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-1730",
+  "status": {
+    "value": "enacted",
+    "as_of": "2014-09-19",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "1730 457 Wagner . . . . . . . . . . . . . Mortgage loan modification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 19, 2014",
+        "locator": "PDF page 1239, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "Sep. 19—Chaptered by Secretary of State − Chapter 457, Statutes of 2014",
+        "locator": "PDF page 531, history of A.B. No. 1730"
+      }
+    ]
+  },
+  "area": "housing",
+  "title": {
+    "value": "Mortgage loan modification",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "1730 457 Wagner . . . . . . . . . . . . . Mortgage loan modification. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 19, 2014",
+        "locator": "PDF page 1239, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

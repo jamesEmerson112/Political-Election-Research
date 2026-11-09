@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2011-ab-2272",
+  "status": {
+    "value": "enacted",
+    "as_of": "2012-07-13",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "2272 99 Wagner . . . . . . . . . . . . . Mobilehomes: injunctions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 13, 2012",
+        "locator": "PDF page 1782, table of Assembly bills approved by Governor and chaptered—2012 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "Jul. 13—Chaptered by Secretary of State − Chapter 99, Statutes of 2012",
+        "locator": "PDF page 1388, history of A.B. No. 2272"
+      }
+    ]
+  },
+  "area": "housing",
+  "title": {
+    "value": "Mobilehomes: injunctions",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "2272 99 Wagner . . . . . . . . . . . . . Mobilehomes: injunctions. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 13, 2012",
+        "locator": "PDF page 1782, table of Assembly bills approved by Governor and chaptered—2012 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-957",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-07-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "957 53 Wagner . . . . . . . . . . . . . Postmortem photographs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 3, 2013",
+        "locator": "PDF page 1229, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 957—Wagner—Postmortem photographs. (Chaptered − Chapter 53, Statutes of 2013.)",
+        "locator": "PDF page 242, history entry for A.B. No. 957"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Postmortem photographs",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "957 53 Wagner . . . . . . . . . . . . . Postmortem photographs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 3, 2013",
+        "locator": "PDF page 1229, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

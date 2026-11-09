@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.donald-p-don-wagner--ca-2013-ab-502--authored--undated",
+  "type": "legislative_action",
+  "person": "person:donald-p-don-wagner",
+  "action": "authored",
+  "bill": "ca-2013-ab-502",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "A.B. No. 502—Wagner—Commercial law: secured transactions. (Chaptered − Chapter 531, Statutes of 2013.)",
+      "locator": "PDF page 143, history of A.B. No. 502 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "502 531 Wagner . . . . . . . . . . . . . Commercial law: secured transactions. . . . . . . . . . . . . . . . . . . . . . . Oct. 4, 2013",
+      "locator": "PDF page 1226, table of Assembly bills approved by Governor and chaptered—2013 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

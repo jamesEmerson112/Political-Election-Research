@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.donald-p-don-wagner--ca-2011-ab-2106--authored--undated",
+  "type": "legislative_action",
+  "person": "person:donald-p-don-wagner",
+  "action": "authored",
+  "bill": "ca-2011-ab-2106",
+  "cycle": 2012,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+      "quote": "A.B. No. 2106—Wagner.",
+      "locator": "PDF page 1299, history of A.B. No. 2106 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+      "quote": "2106 83 Wagner . . . . . . . . . . . . . Civil procedure: motion to set aside and vacate a judgment and motion for a new trial. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 10, 2012",
+      "locator": "PDF page 1781, table of Assembly bills approved by Governor and chaptered—2012 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

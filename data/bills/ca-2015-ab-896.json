@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-896",
+  "status": {
+    "value": "enacted",
+    "as_of": "2015-10-02",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "896 436 Wagner . . . . . . . . . . . . . Counties: search or rescue: costs. . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 2, 2015",
+        "locator": "PDF page 1315, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "A.B. No. 896—Wagner—Counties: search or rescue: costs. (Chaptered − Chapter 436, Statutes of 2015.)",
+        "locator": "PDF page 239, history entry for A.B. No. 896"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Counties: search or rescue: costs",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "896 436 Wagner . . . . . . . . . . . . . Counties: search or rescue: costs. . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 2, 2015",
+        "locator": "PDF page 1315, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

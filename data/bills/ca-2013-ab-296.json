@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-296",
+  "status": {
+    "value": "enacted",
+    "as_of": "2014-09-30",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "296 867 Wagner . . . . . . . . . . . . . Trusts. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2014",
+        "locator": "PDF page 1234, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "Sep. 30—Chaptered by Secretary of State − Chapter 867, Statutes of 2014",
+        "locator": "PDF page 99, history of A.B. No. 296"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Trusts",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "296 867 Wagner . . . . . . . . . . . . . Trusts. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2014",
+        "locator": "PDF page 1234, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

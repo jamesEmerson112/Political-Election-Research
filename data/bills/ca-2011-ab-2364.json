@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2011-ab-2364",
+  "status": {
+    "value": "enacted",
+    "as_of": "2012-09-23",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "2364 484 Wagner . . . . . . . . . . . . . Civil procedure: attachment. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 23, 2012",
+        "locator": "PDF page 1783, table of Assembly bills approved by Governor and chaptered—2012 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "Sep. 23—Chaptered by Secretary of State − Chapter 484, Statutes of 2012",
+        "locator": "PDF page 1437, history of A.B. No. 2364"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Civil procedure: attachment",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "2364 484 Wagner . . . . . . . . . . . . . Civil procedure: attachment. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 23, 2012",
+        "locator": "PDF page 1783, table of Assembly bills approved by Governor and chaptered—2012 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

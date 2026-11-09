@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-998",
+  "status": {
+    "value": "enacted",
+    "as_of": "2015-09-28",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "998 343 Wagner . . . . . . . . . . . . . Civil law: libel: damages. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 28, 2015",
+        "locator": "PDF page 1316, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "A.B. No. 998—Wagner—Civil law: libel: damages. (Chaptered − Chapter 343, Statutes of 2015.)",
+        "locator": "PDF page 264, history entry for A.B. No. 998"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Civil law: libel: damages",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "998 343 Wagner . . . . . . . . . . . . . Civil law: libel: damages. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 28, 2015",
+        "locator": "PDF page 1316, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

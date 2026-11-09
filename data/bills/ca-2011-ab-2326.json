@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2011-ab-2326",
+  "status": {
+    "value": "enacted",
+    "as_of": "2012-08-27",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "2326 202 Wagner . . . . . . . . . . . . . Execution of documents. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Aug. 27, 2012",
+        "locator": "PDF page 1783, table of Assembly bills approved by Governor and chaptered—2012 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "Aug. 27—Chaptered by Secretary of State − Chapter 202, Statutes of 2012",
+        "locator": "PDF page 1416, history of A.B. No. 2326"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Execution of documents",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "2326 202 Wagner . . . . . . . . . . . . . Execution of documents. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Aug. 27, 2012",
+        "locator": "PDF page 1783, table of Assembly bills approved by Governor and chaptered—2012 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

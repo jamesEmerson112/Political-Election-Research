@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2011-ab-1023",
+  "status": {
+    "value": "enacted",
+    "as_of": "2011-09-20",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "1023 296 Wagner . . . . . . . . . . . . . Maintenance of the codes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 20, 2011",
+        "locator": "PDF page 1769, table of Assembly bills approved by Governor and chaptered—2011 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "Sep. 21—Chaptered by Secretary of State − Chapter 296, Statutes of 2011",
+        "locator": "PDF page 679, history of A.B. No. 1023"
+      }
+    ]
+  },
+  "area": "government",
+  "title": {
+    "value": "Maintenance of the codes",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-7ad50a7005",
+        "quote": "1023 296 Wagner . . . . . . . . . . . . . Maintenance of the codes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 20, 2011",
+        "locator": "PDF page 1769, table of Assembly bills approved by Governor and chaptered—2011 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
