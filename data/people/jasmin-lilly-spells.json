@@ -101,6 +101,74 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County Public Defender's Office",
+          "role": "Chief Deputy Public Defender",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-5fdf1479e4",
+              "quote": "Prior to taking the bench in department 23, Judge Jasmin Lilly-Spells served Clark County Public Defender’s office for over a decade and was named chief deputy public defender.",
+              "locator": "Department XXIII page, Biography"
+            },
+            {
+              "source": "src:judgelilly-spells-com-bbf72793ad",
+              "quote": "Before joining the bench, Jasmin Lilly-Spells spent more than ten years with the Clark County Public Defender’s Office, where she was named chief deputy public defender and handled thousands of cases from arraignment through trial.",
+              "locator": "Home page, A Judge Shaped by Years in the Courtroom"
+            }
+          ]
+        },
+        {
+          "organization": "Neighborhood Justice Center",
+          "role": "Mediator",
+          "citations": [
+            {
+              "source": "src:judgelilly-spells-com-bbf72793ad",
+              "quote": "Her legal background also includes service as a mediator at the Neighborhood Justice Center, a parking arbitrator, and pro bono work through Nevada Legal Services.",
+              "locator": "Home page, A Judge Shaped by Years in the Courtroom"
+            },
+            {
+              "source": "src:clarkcountycourts-us-5fdf1479e4",
+              "quote": "Judge Lilly-Spells volunteered as a court appointed special advocate (CASA) and as a mediator at the Neighborhood Justice Center.",
+              "locator": "Department XXIII page, Biography"
+            }
+          ]
+        },
+        {
+          "role": "Parking arbitrator",
+          "citations": [
+            {
+              "source": "src:judgelilly-spells-com-bbf72793ad",
+              "quote": "Her legal background also includes service as a mediator at the Neighborhood Justice Center, a parking arbitrator, and pro bono work through Nevada Legal Services.",
+              "locator": "Home page, A Judge Shaped by Years in the Courtroom"
+            },
+            {
+              "source": "src:clarkcountycourts-us-5fdf1479e4",
+              "quote": "She also worked as a parking arbitrator.",
+              "locator": "Department XXIII page, Biography"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Legal Services",
+          "role": "Pro bono attorney",
+          "citations": [
+            {
+              "source": "src:judgelilly-spells-com-bbf72793ad",
+              "quote": "Her legal background also includes service as a mediator at the Neighborhood Justice Center, a parking arbitrator, and pro bono work through Nevada Legal Services.",
+              "locator": "Home page, A Judge Shaped by Years in the Courtroom"
+            },
+            {
+              "source": "src:clarkcountycourts-us-5fdf1479e4",
+              "quote": "She volunteered with Nevada Legal Services handling pro bono cases.",
+              "locator": "Department XXIII page, Biography"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
