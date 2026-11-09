@@ -3,6 +3,23 @@
   "id": "robert-e-hutchinson",
   "name": "Robert E. Hutchinson",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Nonpartisan",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-87999e1986",
+          "quote": "Hutchinson is registered as nonpartisan, but said he aligns more with Democrats.",
+          "locator": "section \"Robert Hutchinson\""
+        },
+        {
+          "source": "src:ivoterguide-com-9ddce668f8",
+          "quote": "I previously registered as an Independent and later as Nonpartisan.",
+          "locator": "Questionnaire, \"About you\": candidate answer on past voting"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
