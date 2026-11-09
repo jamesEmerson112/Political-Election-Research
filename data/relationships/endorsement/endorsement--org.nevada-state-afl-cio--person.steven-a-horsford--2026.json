@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-state-afl-cio--person.steven-a-horsford--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-01",
+  "endorsee": "person:steven-a-horsford",
+  "endorser": "org:nevada-state-afl-cio",
+  "citations": [
+    {
+      "source": "src:media-linkedunion-com-de46d00e37",
+      "quote": "2026 Primary Election Endorsements The following recommendations were approved by the delegates at the 2026 Committee on Political Education (COPE) Conference on Friday, May 1, 2026.",
+      "locator": "page 1"
+    },
+    {
+      "source": "src:media-linkedunion-com-de46d00e37",
+      "quote": "U.S. House of Representatives District 1: Dina Titus District 2: Teresa Benitez-Thompson District 3: Susie Lee District 4: Steven Horsford",
+      "locator": "page 1, U.S. House of Representatives"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

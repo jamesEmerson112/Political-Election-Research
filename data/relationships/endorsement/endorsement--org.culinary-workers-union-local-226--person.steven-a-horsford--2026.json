@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.culinary-workers-union-local-226--person.steven-a-horsford--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-18",
+  "endorsee": "person:steven-a-horsford",
+  "endorser": "org:culinary-workers-union-local-226",
+  "citations": [
+    {
+      "source": "src:culinaryunion226-org-d2ebe16859",
+      "quote": "Culinary Union has released statewide endorsements ahead of the 2026 Nevada Primary."
+    },
+    {
+      "source": "src:culinaryunion226-org-d2ebe16859",
+      "quote": "U.S. House of Representatives: Dina Titus (CD1), Teresa Benitez-Thompson (CD2), Susie Lee (CD3), and Steven Horsford (CD4)."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
