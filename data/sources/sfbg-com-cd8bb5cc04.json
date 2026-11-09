@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbg-com-cd8bb5cc04",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "published": "2026-10-07",
+  "publisher": "San Francisco Bay Guardian",
+  "title": "Guardian Clean Slate Guide: Take this to the polls on Nov. 3, 2026",
+  "url": "https://www.sfbg.com/2026/10/07/guardian-clean-slate-guide-take-this-to-the-polls-on-nov-3-2026/"
+}

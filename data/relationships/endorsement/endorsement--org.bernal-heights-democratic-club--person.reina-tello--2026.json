@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.bernal-heights-democratic-club--person.reina-tello--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:reina-tello",
+  "endorser": "org:bernal-heights-democratic-club",
+  "citations": [
+    {
+      "source": "src:reinaforschoolboard-org-f8e80f79ea",
+      "quote": "Bernal Heights Democratic Club",
+      "locator": "Organizations"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

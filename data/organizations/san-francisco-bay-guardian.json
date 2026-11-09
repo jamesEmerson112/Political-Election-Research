@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "san-francisco-bay-guardian",
+  "name": "San Francisco Bay Guardian",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.sfbg.com/"
+  },
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}

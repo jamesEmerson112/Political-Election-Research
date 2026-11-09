@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.aroc-action--person.reina-tello--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:reina-tello",
+  "endorser": "org:aroc-action",
+  "citations": [
+    {
+      "source": "src:reinaforschoolboard-org-f8e80f79ea",
+      "quote": "AROC ACTION",
+      "locator": "Organizations"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

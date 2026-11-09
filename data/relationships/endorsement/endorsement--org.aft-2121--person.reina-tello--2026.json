@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.aft-2121--person.reina-tello--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:reina-tello",
+  "endorser": "org:aft-2121",
+  "citations": [
+    {
+      "source": "src:reinaforschoolboard-org-f8e80f79ea",
+      "quote": "AFT 2121",
+      "locator": "Organizations"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

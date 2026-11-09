@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-bay-guardian--person.reina-tello--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:reina-tello",
+  "endorser": "org:san-francisco-bay-guardian",
+  "citations": [
+    {
+      "source": "src:sfbg-com-610e1f9a9b",
+      "quote": "School Board Virginia Cheung Reina Tello Ryan Hazelton The teachers’ strike sent a message to the SF Unified School District:",
+      "locator": "San Francisco races, School Board"
+    },
+    {
+      "source": "src:sfbg-com-610e1f9a9b",
+      "quote": "Now the union has a slate of candidates who can expand that vision. We support them all.",
+      "locator": "San Francisco races, School Board"
+    },
+    {
+      "source": "src:sfbg-com-cd8bb5cc04",
+      "quote": "School Board Virginia Cheung Reina Tello Ryan Hazelton",
+      "locator": "Clean Slate Guide, San francisco races"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

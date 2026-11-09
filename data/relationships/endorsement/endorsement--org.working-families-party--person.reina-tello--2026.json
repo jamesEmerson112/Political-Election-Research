@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.working-families-party--person.reina-tello--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:reina-tello",
+  "endorser": "org:working-families-party",
+  "citations": [
+    {
+      "source": "src:reinaforschoolboard-org-f8e80f79ea",
+      "quote": "California Working Families Party",
+      "locator": "Organizations"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
