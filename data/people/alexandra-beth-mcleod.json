@@ -110,6 +110,52 @@
           "where": "Nevada Secretary of State (nvsos.gov) candidate filings and voter records"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "residence city (the Biography says her parents bought a home in Las Vegas in 2000; nothing states where she lives)",
+          "where": "Campaign website votemcleod.com (home, Biography, Resume 2026 PDF)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "Our Nevada Judges candidate page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence (says she has practiced in Southern Nevada for 22 years; no city of residence)",
+          "where": "Nevada Current, 'Three candidates vie for seat on District Court' (2024-10-02)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence or city for Alexandra McLeod (lists print name and NP only)",
+          "where": "Clark County Election Department candidate lists (Notice of General Election 26G, Contests-Candidates-All-26.pdf, officesup-26g.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives in, resident, city",
+          "where": "The Nevada Independent 2026 voter guide, Department 31 candidate deep dive"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lives in, resident",
+          "where": "Las Vegas Review-Journal voter guide 2026 and RJ endorsement editorials"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Alexandra McLeod\" lives in Las Vegas OR Henderson resident",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not reachable from this session (host blocked)",
+          "where": "Nevada Secretary of State (nvsos.gov) declaration of candidacy filings"
+        }
+      ]
     }
   },
   "ids": [],
