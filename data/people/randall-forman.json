@@ -66,6 +66,64 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Legal Aid Center of Southern Nevada",
+          "role": "Law clerk",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-41cdd36a63",
+              "quote": "Forman previously clerked at the Legal Aid Center of Southern Nevada and then at Family Court before becoming a staff attorney there. He became a hearing master in 2021.",
+              "locator": "Article body, 'The right time' section"
+            }
+          ]
+        },
+        {
+          "organization": "Family Court",
+          "role": "Law clerk",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-41cdd36a63",
+              "quote": "Forman previously clerked at the Legal Aid Center of Southern Nevada and then at Family Court before becoming a staff attorney there. He became a hearing master in 2021.",
+              "locator": "Article body, 'The right time' section"
+            }
+          ]
+        },
+        {
+          "organization": "Family Court",
+          "role": "Staff attorney",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-41cdd36a63",
+              "quote": "Forman previously clerked at the Legal Aid Center of Southern Nevada and then at Family Court before becoming a staff attorney there. He became a hearing master in 2021.",
+              "locator": "Article body, 'The right time' section"
+            },
+            {
+              "source": "src:randallforman-com-f95e669940",
+              "quote": "His background spans every role in the legal process: law clerk, staff attorney, private practice, and judicial officer.",
+              "locator": "About Randall section"
+            }
+          ]
+        },
+        {
+          "role": "Family law attorney (private practice)",
+          "citations": [
+            {
+              "source": "src:randallforman-com-f95e669940",
+              "quote": "His background spans every role in the legal process: law clerk, staff attorney, private practice, and judicial officer.",
+              "locator": "About Randall section"
+            },
+            {
+              "source": "src:randallforman-com-f95e669940",
+              "quote": "For more than 15 years, Randall has dedicated his legal career to family law.",
+              "locator": "About Randall section"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],
