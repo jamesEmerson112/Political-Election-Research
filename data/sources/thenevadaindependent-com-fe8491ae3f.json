@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-fe8491ae3f",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-08-28",
+  "publisher": "The Nevada Independent",
+  "title": "A Las Vegas Assembly seat has historically been a nail-biter. Are its swing days really over?",
+  "url": "https://thenevadaindependent.com/article/a-las-vegas-assembly-seat-has-historically-been-a-nail-biter-are-its-swing-days-really-over",
+  "notes": "By Piper Heath. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

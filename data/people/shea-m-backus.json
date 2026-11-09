@@ -14,6 +14,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas, Nevada",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: 1975 – Las Vegas, Nevada",
+          "locator": "PDF page 44, Legislative Biography—2025 Session, Shea M. Backus"
+        },
+        {
+          "source": "src:thenevadaindependent-com-fe8491ae3f",
+          "quote": "Backus was born and raised in Las Vegas",
+          "locator": "section \"Meet the candidates\""
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
