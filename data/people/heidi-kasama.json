@@ -54,6 +54,26 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.S., Accounting",
+          "institution": "Central Washington University",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Central Washington University, B.S., Accounting",
+              "locator": "PDF page 70, Legislative Biography 2025 Session, Heidi Kasama"
+            },
+            {
+              "source": "src:heidikasama-com-2407dcb8c7",
+              "quote": "She holds a Bachelor of Science in Accounting from Central Washington University"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Realtor; business owner",
       "citations": [
