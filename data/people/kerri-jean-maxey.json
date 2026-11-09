@@ -121,6 +121,36 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A., Economics (cum laude)",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-768f0b21e5",
+              "quote": "Kerri received her Juris Doctorate, graduating cum laude, from the William S. Boyd School of Law, and she earned her B.A. in Economics, also graduating cum laude, from the University of Nevada, Las Vegas."
+            }
+          ]
+        },
+        {
+          "degree": "J.D. (cum laude)",
+          "institution": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+          "year": 2003,
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-768f0b21e5",
+              "quote": "Kerri received her Juris Doctorate, graduating cum laude, from the William S. Boyd School of Law, and she earned her B.A. in Economics, also graduating cum laude, from the University of Nevada, Las Vegas."
+            },
+            {
+              "source": "src:reviewjournal-com-0ae2cb5a76",
+              "quote": "Maxey, 48, graduated from UNLV’s Boyd Law School in 2003 and joined the Clark County public defender’s office in 2005, where she worked representing juvenile clients for about 16 years."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Family Division, Department N",
       "citations": [
