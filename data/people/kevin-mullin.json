@@ -29,6 +29,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "U.S. Representative",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "Kevin Mullin Democratic\nU.S. Representative",
+          "locator": "PDF page 7 (Page 6 of 41), United States Representative District 15; ballot designation (the candidate's self-description)"
+        },
+        {
+          "source": "src:kevinmullin-house-gov-07b40332f0",
+          "quote": "Kevin Mullin is proud to be representing CA-15 in the U.S. House of Representatives",
+          "locator": "About page, member biography"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
