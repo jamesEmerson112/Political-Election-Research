@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:philip-louis-wing",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "\"Philip Louis Wing\"",
+        "where": "Web search; no result about this candidate met the documentation rule (two independent publishers or an official record)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Philip Wing\" San Francisco Republican candidate Assembly 2026",
+        "where": "Web search; only candidate listings, results and endorsement pages, no reported controversy"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Philip Wing\" OR \"Phil Wing\" San Francisco controversy OR criticized OR complaint",
+        "where": "Web search; nothing about this candidate found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "FPPC enforcement \"Wing\" Assembly 2026 committee OR \"Philip Wing\" lawsuit OR court",
+        "where": "Web search including fppc.ca.gov enforcement letters; no matter naming this candidate found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Philip Wing\" financial advisor BrokerCheck San Francisco",
+        "where": "Web search; FINRA BrokerCheck search API returned \"Search unavailable\", so no regulatory record could be checked"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Philip Wing",
+        "where": "Mission Local site search: nothing found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Wing",
+        "where": "sfethics.org site search: no result naming this candidate"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Philip Louis Wing",
+        "where": "GrowSF June 2026 questionnaire page: GrowSF reports it could not reach the candidate; no statements to review"
+      }
+    ]
+  }
+}
