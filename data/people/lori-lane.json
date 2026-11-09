@@ -76,6 +76,37 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "degree college university school graduated",
+          "where": "Candidate website lorilovesnevada.com (home, About-Me-Lori-Lane, About-Lori-Lane-Work, Lori-Lane-FAQ, The-TLDR, PressRoom)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education degree",
+          "where": "Sierra Nevada Ally candidate questionnaire (sierranevadaally.org/profile/lori-lane/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lori Lane education degree",
+          "where": "Nevada Current District 8 race preview (2026-09-28); The Nevada Independent 2026 general and primary Board of Regents voter guides"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lori Lane\" Cartoon Network special projects Nevada regent candidate born raised",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "education",
+          "where": "LinkedIn profile linked from the campaign site (linkedin.com/in/notlois): not opened, requires sign-in"
+        }
+      ]
+    },
     "occupation": {
       "value": "Entertainment industry professional",
       "citations": [
