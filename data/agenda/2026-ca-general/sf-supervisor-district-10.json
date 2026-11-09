@@ -680,6 +680,37 @@
           "where": "KQED voter guide and results page for Board of Supervisors District 10 (kqed.org), Local News Matters / Bay City News Aug. 2, 2026 forum report: candidate described only as a challenger, no office held"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-10|legislation|person:mike-trouble-lin",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Mike Trouble Lin authored, sponsored or voted on legislation",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 10 candidate statements (VIP statement printed p. 50; GrowSF questionnaire answered): no legislative office named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Legistar person records with last name Lin",
+          "where": "San Francisco Board of Supervisors Legistar API (webapi.legistar.com/v1/sfgov/persons, filtered by last name Jennison, Muhammad or Lin): no records returned"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mike Trouble Lin office, commission, board",
+          "where": "GrowSF November 2026 questionnaire (growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin): lists SFPD Community Policing Academy certificate, volunteering and Potrero View articles; no elected or legislative office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mike Trouble Lin elected or appointed office",
+          "where": "Profile research for offices_held (person record, as of 2026-11-03/04: VIP, ballot designations list, KQED, GrowSF, SF Examiner, SF Chronicle): no city, state or federal legislative office found"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mike Trouble Lin legislation, votes, bills",
+          "where": "KQED voter guide and results page for Board of Supervisors District 10 (kqed.org), Local News Matters / Bay City News Aug. 2, 2026 forum report: candidate described only as a challenger, no office held"
+        }
+      ]
     }
   ],
   "measures": [],
