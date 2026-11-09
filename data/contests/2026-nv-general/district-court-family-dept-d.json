@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-d",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department D",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:patricia-a-marr",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Marr, Patricia A. NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT D (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department D Teuton Bob NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department D: the current office holder is another person"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "D FAMILY 24 Robert W. Teuton",
+          "locator": "Judicial departments table, DEPT# D row (dept, location, courtroom, judge): the sitting judge of Family Division Department D is another person, so this candidate is not the incumbent"
+        }
+      ]
+    },
+    {
+      "person": "person:gwynneth-smith",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Smith, Gwynneth NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT D (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department D Teuton Bob NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department D: the current office holder is another person"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "D FAMILY 24 Robert W. Teuton",
+          "locator": "Judicial departments table, DEPT# D row (dept, location, courtroom, judge): the sitting judge of Family Division Department D is another person, so this candidate is not the incumbent"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
