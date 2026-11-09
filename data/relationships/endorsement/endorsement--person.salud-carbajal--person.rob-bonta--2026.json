@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.salud-carbajal--person.rob-bonta--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:rob-bonta",
+  "endorser": "person:salud-carbajal",
+  "citations": [
+    {
+      "source": "src:robbonta-com-7075d9ada1",
+      "quote": "Rep. Salud Carbajal",
+      "locator": "Endorsements page, Members of Congress"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

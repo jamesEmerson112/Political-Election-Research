@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.pete-aguilar--person.rob-bonta--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:rob-bonta",
+  "endorser": "person:pete-aguilar",
+  "citations": [
+    {
+      "source": "src:robbonta-com-7075d9ada1",
+      "quote": "Rep. Pete Aguilar",
+      "locator": "Endorsements page, Members of Congress"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

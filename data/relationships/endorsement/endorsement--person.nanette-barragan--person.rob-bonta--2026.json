@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.nanette-barragan--person.rob-bonta--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:rob-bonta",
+  "endorser": "person:nanette-barragan",
+  "citations": [
+    {
+      "source": "src:robbonta-com-7075d9ada1",
+      "quote": "Rep. Nanette Barragan",
+      "locator": "Endorsements page, Members of Congress"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.cory-booker--person.rob-bonta--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:rob-bonta",
+  "endorser": "person:cory-booker",
+  "citations": [
+    {
+      "source": "src:robbonta-com-7075d9ada1",
+      "quote": "Senator Cory Booker",
+      "locator": "Endorsements page, US Senators"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
