@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-a",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department A",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:maria-belleza-d-mari-parlade",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Parladé, Maria-Belleza D. “Mari” NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT A (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department A Parladé (elected to a 4-year unexpired term) Mari D. NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department A"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "A FAMILY 2 Mari D. Parlade",
+          "locator": "Judicial departments table, DEPT# A row (dept, location, courtroom, judge): the sitting judge of Family Division Department A"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}

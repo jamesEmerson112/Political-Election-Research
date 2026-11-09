@@ -2,7 +2,12 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/district-court-family-dept-a",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:maria-belleza-d-mari-parlade",
+      "name": "Maria-Belleza D. \"Mari\" Parladé"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
