@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-9885a2f870",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-12",
+  "publisher": "Nevada Current",
+  "title": "Three Republicans vie in primary race for Clark County Public Administrator",
+  "url": "https://nevadacurrent.com/2026/05/12/three-republicans-vie-in-primary-race-for-clark-county-public-administrator/"
+}

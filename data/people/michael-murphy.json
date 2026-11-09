@@ -60,6 +60,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Consultant (runs the consulting firm Mpower USA)",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-8102f7e6b3",
+          "quote": "Now, he runs a small consulting firm called Mpower USA."
+        },
+        {
+          "source": "src:nevadacurrent-com-9885a2f870",
+          "quote": "Today he serves as a consultant, providing resiliency training for first responders and traveling the U.S., teaching adult and juvenile death investigations."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
