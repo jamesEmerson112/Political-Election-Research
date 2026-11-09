@@ -165,5 +165,466 @@
         "where": "Campaign site not reachable from this environment (Cloudflare challenge); San Mateo Daily Journal (smdailyjournal.com) returned 403"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "ab-1297-automatic-temporary-restraining-orders",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1297",
+        "date": "2025-07-14",
+        "summary": "Authored AB 1297 (Automatic temporary restraining orders); signed by the Governor, per his office's release of July 14, 2025; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1297 (2025): Automatic temporary restraining orders",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-f10a27ebea",
+            "quote": "AB 1297 by Assemblymember Catherine Stefani (D-San Francisco) – Automatic temporary restraining orders.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-f10a27ebea",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1085-license-plates-obstruction-or-alteration",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1085",
+        "date": "2025-10-01",
+        "summary": "Authored AB 1085 (License plates: obstruction or alteration); signed by the Governor, per his office's release of October 1, 2025; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1085 (2025): License plates: obstruction or alteration",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-2d49098c82",
+            "quote": "AB 1085 by Assemblymember Catherine Stefani (D-San Francisco) – License plates: obstruction or alteration.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-2d49098c82",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1213-restitution-priority",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1213",
+        "date": "2025-10-01",
+        "summary": "Authored AB 1213 (Restitution: priority); signed by the Governor, per his office's release of October 1, 2025; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1213 (2025): Restitution: priority",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-2d49098c82",
+            "quote": "AB 1213 by Assemblymember Catherine Stefani (D-San Francisco) – Restitution: priority.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-2d49098c82",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-699-elections-local-tax-measures",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-699",
+        "date": "2025-10-01",
+        "summary": "Authored AB 699 (Elections: local tax measures); vetoed by the Governor, per his office's release of October 1, 2025.",
+        "title": "AB 699 (2025): Elections: local tax measures",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-2d49098c82",
+            "quote": "AB 699 by Assemblymember Catherine Stefani (D-San Francisco) – Elections: local tax measures.   A veto message can be found    here   .",
+            "locator": "List of bills vetoed"
+          },
+          {
+            "source": "src:gov-ca-gov-2d49098c82",
+            "quote": "The Governor also announced that he has vetoed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-627-california-health-facilities-financing-authority-act",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-627",
+        "date": "2025-10-06",
+        "summary": "Authored AB 627 (California Health Facilities Financing Authority Act); signed by the Governor, per his office's release of October 6, 2025; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 627 (2025): California Health Facilities Financing Authority Act",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-787e5249d3",
+            "quote": "AB 627    by Assemblymember Catherine Stefani (D-San Francisco) – California Health Facilities Financing Authority Act.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-787e5249d3",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1417-energy-voluntary-offshore-wind-and-coastal-resources-protection-program",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1417",
+        "date": "2025-10-06",
+        "summary": "Authored AB 1417 (Energy: Voluntary Offshore Wind and Coastal Resources Protection Program: community capacity funding activities and grants); signed by the Governor, per his office's release of October 6, 2025; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1417 (2025): Energy: Voluntary Offshore Wind and Coastal Resources Protection Program: community capacity funding activities and grants",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-787e5249d3",
+            "quote": "AB 1417 by Assemblymember Catherine Stefani (D-San Francisco) – Energy: Voluntary Offshore Wind and Coastal Resources Protection Program: community capacity funding activities and grants.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-787e5249d3",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1363-protective-orders-wylands-law",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1363",
+        "date": "2025-10-10",
+        "summary": "Authored AB 1363 (Protective orders: Wyland’s Law); signed by the Governor, per his office's release of October 10, 2025; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1363 (2025): Protective orders: Wyland’s Law",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-aaa75844f6",
+            "quote": "AB 1363 by Assemblymember Catherine Stefani (D-San Francisco) – Protective orders: Wyland’s Law.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-aaa75844f6",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-836-midwifery-workforce-training-act",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-836",
+        "date": "2025-10-11",
+        "summary": "Authored AB 836 (Midwifery Workforce Training Act); signed by the Governor, per his office's release of October 11, 2025; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 836 (2025): Midwifery Workforce Training Act",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-1040aa1b40",
+            "quote": "AB 836 by Assemblymember Catherine Stefani (D-San Francisco) – Midwifery Workforce Training Act.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-1040aa1b40",
+            "quote": "See below for the full list of bills the Governor signed:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1802-land-use-mitigation-lands-endowments",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1802",
+        "date": "2026-09-18",
+        "summary": "Authored AB 1802 (Land use: mitigation lands: endowments); signed by the Governor, per his office's release of September 18, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1802 (2026): Land use: mitigation lands: endowments",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-7c7b9015c7",
+            "quote": "AB 1802 by Assemblymember Catherine Stefani (D-San Francisco) — Land use: mitigation lands: endowments.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-7c7b9015c7",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1846-dependency-placement-of-child-with-relative",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1846",
+        "date": "2026-09-18",
+        "summary": "Authored AB 1846 (Dependency: placement of child with relative); signed by the Governor, per his office's release of September 18, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1846 (2026): Dependency: placement of child with relative",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-7c7b9015c7",
+            "quote": "AB 1846 by Assemblymember Catherine Stefani (D-San Francisco) — Dependency: placement of child with relative.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-7c7b9015c7",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-2081-medi-cal-home-and-community-based-alternatives-waiver",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-2081",
+        "date": "2026-09-18",
+        "summary": "Authored AB 2081 (Medi-Cal: Home and Community-Based Alternatives Waiver); vetoed by the Governor, per his office's release of September 18, 2026.",
+        "title": "AB 2081 (2026): Medi-Cal: Home and Community-Based Alternatives Waiver",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-7c7b9015c7",
+            "quote": "AB 2081 by Assemblymember Catherine Stefani (D-San Francisco) — Medi-Cal: Home and Community-Based Alternatives Waiver. A veto message can be found  here .",
+            "locator": "List of bills vetoed"
+          },
+          {
+            "source": "src:gov-ca-gov-7c7b9015c7",
+            "quote": "The Governor also announced that he has vetoed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-871-mandated-reporters-of-suspected-financial-abuse-of-an-elder-or-dependent",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-871",
+        "date": "2026-09-20",
+        "summary": "Authored AB 871 (Mandated reporters of suspected financial abuse of an elder or dependent adult); signed by the Governor, per his office's release of September 20, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 871 (2026): Mandated reporters of suspected financial abuse of an elder or dependent adult",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-850256ac91",
+            "quote": "AB 871 by Assemblymember Catherine Stefani (D-San Francisco) — Mandated reporters of suspected financial abuse of an elder or dependent adult.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-850256ac91",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1588-vehicles-sideshow-accountability-and-community-safety-act",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1588",
+        "date": "2026-09-20",
+        "summary": "Authored AB 1588 (Vehicles: Sideshow Accountability and Community Safety Act); signed by the Governor, per his office's release of September 20, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1588 (2026): Vehicles: Sideshow Accountability and Community Safety Act",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-850256ac91",
+            "quote": "AB 1588 by Assemblymember Catherine Stefani (D-San Francisco)  — Vehicles: Sideshow Accountability and Community Safety Act.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-850256ac91",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-2001-criminal-procedure-state-summary-criminal-history-information",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-2001",
+        "date": "2026-09-20",
+        "summary": "Authored AB 2001 (Criminal procedure: state summary criminal history information); signed by the Governor, per his office's release of September 20, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 2001 (2026): Criminal procedure: state summary criminal history information",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-850256ac91",
+            "quote": "AB 2001 by Assemblymember Catherine Stefani (D-San Francisco) — Criminal procedure: state summary criminal history information.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-850256ac91",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-2052-criminal-procedure-continuances",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-2052",
+        "date": "2026-09-20",
+        "summary": "Authored AB 2052 (Criminal procedure: continuances); signed by the Governor, per his office's release of September 20, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 2052 (2026): Criminal procedure: continuances",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-850256ac91",
+            "quote": "AB 2052 by Assemblymember Catherine Stefani (D-San Francisco) — Criminal procedure: continuances.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-850256ac91",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1753-protective-orders-firearms-and-ammunition-notice-and-procedures",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1753",
+        "date": "2026-09-26",
+        "summary": "Authored AB 1753 (Protective orders: firearms and ammunition: notice and procedures); signed by the Governor, per his office's release of September 26, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1753 (2026): Protective orders: firearms and ammunition: notice and procedures",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-eed9cd1b18",
+            "quote": "Assembly Bill 1753 by Assemblymember Catherine Stefani (D-San Francisco) — Protective orders: firearms and ammunition: notice and procedures",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-eed9cd1b18",
+            "quote": "The legislation signed today includes:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1974-firearms-voluntary-firearm-storage-program",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1974",
+        "date": "2026-09-26",
+        "summary": "Authored AB 1974 (Firearms: voluntary firearm storage program); signed by the Governor, per his office's release of September 26, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1974 (2026): Firearms: voluntary firearm storage program",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-eed9cd1b18",
+            "quote": "Assembly Bill 1974 by Assemblymember Catherine Stefani (D-San Francisco) — Firearms: voluntary firearm storage program",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-eed9cd1b18",
+            "quote": "The legislation signed today includes:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1696-emergency-services-and-care-nurse-midwives",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1696",
+        "date": "2026-09-27",
+        "summary": "Authored AB 1696 (Emergency services and care: nurse-midwives); signed by the Governor, per his office's release of September 27, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1696 (2026): Emergency services and care: nurse-midwives",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-73f5ea6753",
+            "quote": "AB 1696 by Assemblymember Catherine Stefani (D-San Francisco) — Emergency services and care: nurse-midwives.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-73f5ea6753",
+            "quote": "The legislation signed today includes:"
+          }
+        ]
+      },
+      {
+        "id": "ab-2540-public-health-public-postsecondary-education-student-health-centers",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-2540",
+        "date": "2026-09-27",
+        "summary": "Authored AB 2540 (Public health: public postsecondary education: student health centers); signed by the Governor, per his office's release of September 27, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 2540 (2026): Public health: public postsecondary education: student health centers",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-73f5ea6753",
+            "quote": "AB 2540 by Assemblymember Catherine Stefani (D-San Francisco) — Public health: public postsecondary education: student health centers",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-73f5ea6753",
+            "quote": "The legislation signed today includes:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1640-california-restaurant-reservation-antipiracy-act",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1640",
+        "date": "2026-09-27",
+        "summary": "Authored AB 1640 (California Restaurant Reservation AntiPiracy Act); signed by the Governor, per his office's release of September 27, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1640 (2026): California Restaurant Reservation AntiPiracy Act",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-8ecd978760",
+            "quote": "Assembly Bill 1640 by Assemblymember Catherine Stefani (D-San Francisco) — California Restaurant Reservation AntiPiracy Act.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-8ecd978760",
+            "quote": "Legislation signed today to increase accountability, and protect consumers:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1877-domestic-violence-protective-orders",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1877",
+        "date": "2026-09-30",
+        "summary": "Authored AB 1877 (Domestic violence: protective orders); signed by the Governor, per his office's release of September 30, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1877 (2026): Domestic violence: protective orders",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-a7026a608c",
+            "quote": "AB 1877 by Assemblymember Catherine Stefani (D-San Francisco) — Domestic violence: protective orders.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-a7026a608c",
+            "quote": "The Governor signed the following bills addressing public safety:"
+          }
+        ]
+      },
+      {
+        "id": "ab-2297-restitution-diversion",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-2297",
+        "date": "2026-09-30",
+        "summary": "Authored AB 2297 (Restitution: diversion); signed by the Governor, per his office's release of September 30, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 2297 (2026): Restitution: diversion",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-a7026a608c",
+            "quote": "AB 2297 by Assemblymember Catherine Stefani (D-San Francisco) — Restitution: diversion.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-a7026a608c",
+            "quote": "The Governor signed the following bills addressing public safety:"
+          }
+        ]
+      },
+      {
+        "id": "ab-1604-product-safety-proofs-of-purchase-intentionally-added-bisphenols",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-1604",
+        "date": "2026-09-30",
+        "summary": "Authored AB 1604 (Product safety: proofs of purchase: intentionally added bisphenols); signed by the Governor, per his office's release of September 30, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 1604 (2026): Product safety: proofs of purchase: intentionally added bisphenols",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-7db198ead8",
+            "quote": "AB 1604 by Assemblymember Catherine Stefani (D-San Francisco) — Product safety: proofs of purchase: intentionally added bisphenols.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-7db198ead8",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      },
+      {
+        "id": "ab-2146-coordinated-entry-system-study",
+        "kind": "legislation",
+        "bill": "ca-2025-ab-2146",
+        "date": "2026-09-30",
+        "summary": "Authored AB 2146 (Coordinated Entry System: study); signed by the Governor, per his office's release of September 30, 2026; no measured outcome recorded as of 2026-11-09.",
+        "title": "AB 2146 (2026): Coordinated Entry System: study",
+        "citations": [
+          {
+            "source": "src:gov-ca-gov-7db198ead8",
+            "quote": "AB 2146 by Assemblymember Catherine Stefani (D-San Francisco) — Coordinated Entry System: study.",
+            "locator": "List of bills signed"
+          },
+          {
+            "source": "src:gov-ca-gov-7db198ead8",
+            "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+          }
+        ]
+      }
+    ]
   }
 }
