@@ -60,6 +60,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Court Judge, Department 21, Eighth Judicial District Court",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-5eaf2d9480",
+          "quote": "Tara Clark Newberry is currently a District Court Judge in Department 21 of the Eighth Judicial District Court.",
+          "locator": "Biography"
+        },
+        {
+          "source": "src:clarknewberryforjudge-com-a6c40620f3",
+          "quote": "Judge Tara Clark Newberry,  irreplaceable in her diverse experience, is the Presiding Judge of the Civil Division for the Eighth Judicial District Court.",
+          "locator": "Home page"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
