@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "inglesidelight-com-8237a983ac",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2024-01-17",
+  "publisher": "The Ingleside Light",
+  "title": "City College of San Francisco Warned Accreditation At Risk Over Governance",
+  "url": "https://www.inglesidelight.com/city-college-of-san-francisco-warning-status/"
+}

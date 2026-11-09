@@ -1,6 +1,126 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:alan-wong",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "accreditor-warning-to-city-college-board-during-his-term-as-board-president",
+        "date": "2024-01-16",
+        "resolution": {
+          "date": "2025-06-27",
+          "summary": "In a June 27, 2025 action letter, the commission reaffirmed City College's accreditation and found that the college had addressed the compliance requirements and met the three standards cited in the January 2024 letter.",
+          "citations": [
+            {
+              "source": "src:accjc-org-5e1f265ab4",
+              "quote": "Upon consideration of the information noted above, the Commission acted to Reaffirm Accreditation for the remainder of the cycle. The Commission finds that City College of San Francisco has addressed the compliance requirements, corrected deficiencies, and meets Standards III.D.11, IV.C.7, and IV.C.12.",
+              "locator": "p. 1"
+            }
+          ]
+        },
+        "response": {
+          "summary": "In January 2024 Wong said, as board president, that the commission found the college met 116 of 119 standards, that it remained accredited, and that the board took the areas of concern seriously and would implement changes. At the March 2026 forum, Bay City News reported, he disputed that he brought fiscal instability to the college and said he passed policies requiring budget updates at every board meeting and five-year budget planning.",
+          "citations": [
+            {
+              "source": "src:inglesidelight-com-8237a983ac",
+              "quote": "“We appreciate the evaluation conducted by the accrediting commission stating that City College meets all eligibility requirements, commission policies, and 116 of the 119 standards,” said Alan Wong, president of the college’s Board of Trustees. “City College remains accredited and open to serve. We take the identified areas of concern seriously and are committed to promptly implementing necessary changes."
+            },
+            {
+              "source": "src:localnewsmatters-org-356b44b8e6",
+              "quote": "Wong dismissed the argument that he brought fiscal instability to the college, saying he helped pass policies that ultimately improved its fiscal health."
+            },
+            {
+              "source": "src:localnewsmatters-org-356b44b8e6",
+              "quote": "“Fiscal sustainability is one of the main things that I brought when I joined the City College Board,” he said. “I passed policies required mandatory budget updates at every single board meeting for City College trustees and passed a policy that requires us to have multiyear budget planning five years in advance.”"
+            }
+          ]
+        },
+        "summary": "In a January 16, 2024 action letter, the Accrediting Commission for Community and Junior Colleges placed City College of San Francisco on warning and required its Governing Board to consider long-range fiscal implications in financial decisions, act consistently with its own policies and bylaws, and let the chancellor administer board policies without board interference. The Ingleside Light identified Wong as president of the college's Board of Trustees when the warning was issued. Bay City News reported that a moderator raised the warning with Wong at a March 18, 2026 District 4 candidate forum.",
+        "title": "Accreditor warning to City College board during his term as board president",
+        "citations": [
+          {
+            "source": "src:accjc-org-91eb4457f2",
+            "quote": "the Commission acted to Issue Warning and require a Follow-Up Report",
+            "locator": "p. 1"
+          },
+          {
+            "source": "src:accjc-org-91eb4457f2",
+            "quote": "Standard III.D.11 (College Requirement 1): In order to meet the Standard, the Commission requires the Governing Board consider the College’s long-range fiscal implications when making financial decisions in order to assure financial stability.",
+            "locator": "p. 2"
+          },
+          {
+            "source": "src:accjc-org-91eb4457f2",
+            "quote": "Standard IV.C.7 (College Requirement 2): In order to meet the Standard, the Commission requires that the Governing Board act in a manner consistent with its policies and bylaws.",
+            "locator": "p. 2"
+          },
+          {
+            "source": "src:accjc-org-91eb4457f2",
+            "quote": "Standard IV.C.12 (College Requirement 3): In order to meet the Standard, the Commission requires that the Governing Board allow the Chancellor to implement and administer Board policies without Board interference.",
+            "locator": "p. 2"
+          },
+          {
+            "source": "src:inglesidelight-com-8237a983ac",
+            "quote": "said Alan Wong, president of the college’s Board of Trustees."
+          },
+          {
+            "source": "src:localnewsmatters-org-356b44b8e6",
+            "quote": "With Wong, Tu brought up how during his time on the Board of Trustees for City College of San Francisco, there were threats to the school’s accreditation due to budget issues."
+          },
+          {
+            "source": "src:localnewsmatters-org-356b44b8e6",
+            "quote": "In 2024, the Accrediting Commission for Community and Junior Colleges sent a letter to the Board saying that the actions of the trustees were neglecting the long-term fiscal health of the college."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Alan Wong supervisor District 4 controversy",
+        "where": "Web search (summaries), leads only"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Alan Wong\" City College trustee criticized OR complaint OR ethics OR apologized",
+        "where": "Web search (summaries), leads only"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Alan Wong\" San Francisco Ethics Commission OR FPPC complaint OR lawsuit OR investigation 2026",
+        "where": "Web search (summaries), leads only"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Alan Wong\" supervisor residency moved District 4",
+        "where": "Web search (summaries), leads only; no residency challenge or ruling found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alan Wong",
+        "where": "Mission Local, 'District 4 forum: S.F. candidates confronted with most controversial positions' (2026-03-05) and 'Meet the District 4 candidates: What criticism have you received that is unfair?' (2026-05-28)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alan Wong 2020 police budget questionnaire",
+        "where": "The San Francisco Standard, 2025-12-02 article on Wong's 2020 positions (a change in policy positions, not recorded as a controversy)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alan Wong Great Highway ballot measure",
+        "where": "SFist, 2026-01-13 and 2026-02-27 articles on Wong's Great Highway ballot measure missing the Board signature deadline (a legislative outcome, not recorded as a controversy)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alan Wong",
+        "where": "San Francisco Ethics Commission enforcement and Penalties Issued pages (sfethics.org); the penalties table did not render as text and the DataSF enforcement dataset (djbd-zes9) returned 404"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alan Wong",
+        "where": "Richmond Review/Sunset Beacon District 4 coverage (2026-03-12, 2026-07-12)"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-04",
     "items": [

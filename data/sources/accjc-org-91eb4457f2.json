@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "accjc-org-91eb4457f2",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2024-01-16",
+  "publisher": "Accrediting Commission for Community and Junior Colleges",
+  "title": "Action letter to City College of San Francisco: Issue Warning (January 16, 2024)",
+  "url": "https://accjc.org/wp-content/uploads/City-College-of-San-Francisco-2024_01_16-Warning.pdf",
+  "notes": "ACCJC is the accrediting agency for California community colleges; letter addressed to Chancellor David Martin."
+}

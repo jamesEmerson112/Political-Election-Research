@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "localnewsmatters-org-356b44b8e6",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-03-20",
+  "publisher": "Bay City News (Local News Matters)",
+  "title": "Candidates for SF's District 4 supervisor try for an edge on their opponents in forum",
+  "url": "https://localnewsmatters.org/2026/03/20/sf-district-4-supervisor-race-forum/"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "accjc-org-5e1f265ab4",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2025-06-27",
+  "publisher": "Accrediting Commission for Community and Junior Colleges",
+  "title": "City College of San Francisco action letters (June 27, 2025 reaffirmation; January 16, 2024 warning)",
+  "url": "https://accjc.org/wp-content/uploads/City-College-of-San-Francisco-Action-Letters.pdf"
+}
