@@ -141,6 +141,57 @@
           "where": "web search"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Villa resides lives city",
+          "where": "Clark County Election Department, Notice of General Election 2026"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "blocked host, not reachable",
+          "where": "Nevada Secretary of State certified candidate list (nvsos.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa resides lives city",
+          "where": "villafornevada.com home and About Patrick pages (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa resides lives city",
+          "where": "Nevada Current, 2026-04-16 and 2026-09-22 race previews"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa resides lives city",
+          "where": "The Nevada Independent 2026 general voter guide, Board of Regents"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa resides lives city",
+          "where": "Las Vegas Review-Journal 2026 voter guide, Board of Regents District 2"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa resides lives city",
+          "where": "iVoterGuide candidate profile, Board of Regents Dist. 2"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Villa address",
+          "where": "villafornevada.com contact block: a campaign mailing address in Las Vegas (a suite/box number on N. Rainbow Blvd), not stated as a residence"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Patrick Villa\" regent Nevada resides lives city",
+          "where": "web search"
+        }
+      ]
     }
   },
   "ids": [],
