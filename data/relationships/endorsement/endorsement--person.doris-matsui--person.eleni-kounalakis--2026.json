@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.doris-matsui--person.eleni-kounalakis--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:eleni-kounalakis",
+  "endorser": "person:doris-matsui",
+  "citations": [
+    {
+      "source": "src:eleniforca-com-978c214382",
+      "quote": "Doris Matsui\nCA-7",
+      "locator": "Endorsements page, Congress"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
