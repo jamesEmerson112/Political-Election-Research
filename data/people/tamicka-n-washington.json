@@ -136,6 +136,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Appraisal technician, Clark County Assessor's Office",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-b73a363833",
+          "quote": "Washington, an appraisal technician for the assessor's office and a member of SEIU Local 1107"
+        },
+        {
+          "source": "src:thenevadaindependent-com-8102f7e6b3",
+          "quote": "Her primary opponent, Democrat Tamicka Washington, is an appraisal technician in the assessor's office and has worked in the department for more than two decades."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
