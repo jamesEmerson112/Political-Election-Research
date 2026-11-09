@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/clark-county-recorder",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "County Recorder",
+  "office": "County Recorder",
+  "candidates": [
+    {
+      "person": "person:steven-t-borella",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Libertarian Party of Nevada",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Borella, Steven T. LPN",
+          "locator": "PDF page 6, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY RECORDER"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "LPN = Libertarian Party of Nevada",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "Debbie Conway (Democratic) 4-year term expires in 2026",
+          "locator": "County Recorder (page headed 'Last Updated November 19, 2024'): the sitting Recorder is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:tanya-flanagan",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Flanagan, Tanya DEM",
+          "locator": "PDF page 6, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY RECORDER"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "Debbie Conway (Democratic) 4-year term expires in 2026",
+          "locator": "County Recorder (page headed 'Last Updated November 19, 2024'): the sitting Recorder is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:bill-young",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Young, Bill REP",
+          "locator": "PDF page 7, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY RECORDER (first line of PDF page 7, continuing the COUNTY RECORDER list from page 6)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "Debbie Conway (Democratic) 4-year term expires in 2026",
+          "locator": "County Recorder (page headed 'Last Updated November 19, 2024'): the sitting Recorder is another person"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}

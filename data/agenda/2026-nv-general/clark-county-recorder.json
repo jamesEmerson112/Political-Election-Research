@@ -2,7 +2,20 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/clark-county-recorder",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:steven-t-borella",
+      "name": "Steven T. Borella"
+    },
+    {
+      "person": "person:tanya-flanagan",
+      "name": "Tanya Flanagan"
+    },
+    {
+      "person": "person:bill-young",
+      "name": "Bill Young"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
