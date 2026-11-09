@@ -53,6 +53,21 @@
           "locator": "PDF page 7 (Page 6 of 41), United States Representative District 15 (party preference)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "South San Francisco",
+      "citations": [
+        {
+          "source": "src:govinfo-gov-dac293b761",
+          "quote": "KEVIN MULLIN, Democrat, of South San Francisco, CA",
+          "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+        },
+        {
+          "source": "src:clerk-house-gov-2d67759ca4",
+          "quote": "Hometown: South San Francisco",
+          "locator": "Member profile header for Kevin Mullin"
+        }
+      ]
     }
   },
   "ids": [
