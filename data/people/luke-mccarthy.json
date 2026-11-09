@@ -70,6 +70,102 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County Fire Department",
+          "role": "Firefighter",
+          "start": "2006",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c751bc1ed1",
+              "quote": "McCarthy served in fire departments in Atlanta and Arlington County, Virginia, and has been with the Clark County Fire Department since 2006.",
+              "locator": "About the candidate"
+            },
+            {
+              "source": "src:nevadacurrent-com-7488efdd7f",
+              "quote": "McCarthy is a firefighter and has been with the Clark County Fire Department since 2006.",
+              "locator": "Meet the candidates"
+            }
+          ]
+        },
+        {
+          "role": "Firefighter (Atlanta)",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c751bc1ed1",
+              "quote": "McCarthy served in fire departments in Atlanta and Arlington County, Virginia, and has been with the Clark County Fire Department since 2006.",
+              "locator": "About the candidate"
+            },
+            {
+              "source": "src:luke4vegas-com-6d26e17344",
+              "quote": "His experience spans three major metropolitan areas, beginning in Atlanta and moving to Arlington County.",
+              "locator": "About page, Professional Experience"
+            }
+          ]
+        },
+        {
+          "role": "Firefighter (Arlington County, Virginia)",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c751bc1ed1",
+              "quote": "McCarthy served in fire departments in Atlanta and Arlington County, Virginia, and has been with the Clark County Fire Department since 2006.",
+              "locator": "About the candidate"
+            },
+            {
+              "source": "src:luke4vegas-com-6d26e17344",
+              "quote": "His experience spans three major metropolitan areas, beginning in Atlanta and moving to Arlington County.",
+              "locator": "About page, Professional Experience"
+            }
+          ]
+        },
+        {
+          "organization": "International Association of Firefighters, Local 1908",
+          "role": "Executive board member",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c751bc1ed1",
+              "quote": "Luke McCarthy told the Las Vegas Review-Journal that his decision to run for office arrived after a conversation with one of his daughters, who noted that for years he’s been conducting candidate endorsement interviews as an executive board member of the International Association of Firefighters, Local 1908 union.",
+              "locator": "paragraph 2"
+            }
+          ]
+        },
+        {
+          "organization": "Metropolitan Atlanta Fire Emerald Society",
+          "role": "Co-founder",
+          "citations": [
+            {
+              "source": "src:luke4vegas-com-6d26e17344",
+              "quote": "He co-founded the Metropolitan Atlanta Fire Emerald Society and the First Responder Franchise Initiative, promoting entrepreneurial opportunities for first responders.",
+              "locator": "About page, Professional Experience"
+            }
+          ]
+        },
+        {
+          "organization": "First Responder Franchise Initiative",
+          "role": "Co-founder",
+          "citations": [
+            {
+              "source": "src:luke4vegas-com-6d26e17344",
+              "quote": "He co-founded the Metropolitan Atlanta Fire Emerald Society and the First Responder Franchise Initiative, promoting entrepreneurial opportunities for first responders.",
+              "locator": "About page, Professional Experience"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Child Seekers",
+          "role": "Board member",
+          "citations": [
+            {
+              "source": "src:luke4vegas-com-6d26e17344",
+              "quote": "He has served as a board member for Nevada Child Seekers and holds memberships in several organizations, including the NRA and NAACP.",
+              "locator": "About page, Community Involvement"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
