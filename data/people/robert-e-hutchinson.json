@@ -106,6 +106,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Director of Facilities, Clark County School District (set to retire in fall 2026)",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-87999e1986",
+          "quote": "Hutchinson is a first-time candidate and currently serves as director of facilities for the Clark County School District, a position he has held for more than three years.",
+          "locator": "section \"Robert Hutchinson\" (April 30, 2026)"
+        },
+        {
+          "source": "src:lasvegasweekly-com-331a2e58c0",
+          "quote": "Hutchinson is set to retire from the district this fall regardless of the election outcome",
+          "locator": "section \"Rob Hutchinson\" (July 30, 2026)"
+        },
+        {
+          "source": "src:robforccsd-com-10c761d719",
+          "quote": "My journey continued as I moved into leadership positions, eventually becoming the Director of Facilities.",
+          "locator": "section \"From Custodian to Director: A Career Built on Commitment\""
+        }
+      ]
+    },
     "party_registration": {
       "value": "Nonpartisan",
       "citations": [
