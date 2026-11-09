@@ -737,6 +737,42 @@
           "where": "KQED voter guide and results page for Board of Supervisors District 10 (kqed.org), Local News Matters / Bay City News Aug. 2, 2026 forum report: candidate described only as a challenger, no office held"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-10|legislation|person:jessica-pessecow",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Pessecow offices held, legislative service",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, printed p. 50: Legal Representative / Nurse / Founder / Brand Ambassador / Volunteer; says she attends City Hall commission and Board of Supervisors meetings; no elected or legislative office named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Pessecow",
+          "where": "Potrero View, 'Crowded Starting Line in Race for District 10 Supervisor' (Feb. 2026): psychiatric nurse and health policy professional; no office held"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Pessecow",
+          "where": "Local News Matters (Bay City News), Aug. 2, 2026 District 10 forum article; SF Examiner District 10 articles; SF Chronicle Oct. 2026 editorial and basketball article: no office held named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Pessecow biography",
+          "where": "Candidate's site named in her VIP statement (gov-central-jpessecow.replit.app and /district-10): civic-resource portal, no record of office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "MatterTitle contains 'Pessecow'; PersonLastName contains 'Pessecow'",
+          "where": "San Francisco Board of Supervisors legislative files and persons via the Legistar web API (webapi.legistar.com/v1/sfgov/matters and /persons): no results"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Pessecow",
+          "where": "Ballotpedia (reference work, leads only): candidate page lists no prior office; did not complete its survey"
+        }
+      ]
     }
   ],
   "measures": [],
