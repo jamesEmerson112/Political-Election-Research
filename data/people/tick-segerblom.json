@@ -28,6 +28,102 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Lawyer (employee-employer relations)",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-b70c3ce02f",
+              "quote": "A graduate of Pomona College in California and the University of Denver Law School, Commissioner Segerblom practices law, specializing in employee-employer relations."
+            },
+            {
+              "source": "src:tick4nevada-com-9a1131b40d",
+              "quote": "As a lawyer, Segerblom specializes in employment law, representing workers in cases involving fair labor practices."
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Faculty Alliance",
+          "role": "Legal counsel",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-b70c3ce02f",
+              "quote": "Additionally, Commissioner Segerblom served on the Clark County Legal Aid Society board and as legal counsel to the Nevada Faculty Alliance."
+            }
+          ]
+        },
+        {
+          "end": "1994",
+          "organization": "Nevada Democratic Party",
+          "role": "State Chair",
+          "start": "1990",
+          "citations": [
+            {
+              "source": "src:archive-leg-state-nv-us-3cce472fcf",
+              "quote": "State Chair,\nNevada Democratic Party, 1990-1994",
+              "locator": "page 1"
+            },
+            {
+              "source": "src:clarkcountynv-gov-b70c3ce02f",
+              "quote": "He served on the River Commission from 1988 to 1990 and in 1990 was elected to a four-year stint as state chair of the Nevada Democratic Party."
+            }
+          ]
+        },
+        {
+          "end": "1982",
+          "organization": "California Democratic Party",
+          "role": "Southern executive director",
+          "start": "1980",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-b70c3ce02f",
+              "quote": "Southern executive director of California Democratic Party (1980- 1982)"
+            }
+          ]
+        },
+        {
+          "end": "1980",
+          "organization": "Democratic National Committee",
+          "role": "Western regional director",
+          "start": "1978",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-b70c3ce02f",
+              "quote": "Western regional director of the Democratic National Committee (1978 – 1980)"
+            }
+          ]
+        },
+        {
+          "organization": "White House Personnel Office",
+          "role": "Worked in the White House Personnel Office under President Jimmy Carter",
+          "start": "1977",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-b70c3ce02f",
+              "quote": "Prior to politics in Nevada, Commissioner Segerblom was in the White House Personnel Office for President Jimmy Carter and was later appointed by former Nevada Governor Richard Bryan to the Colorado River Commission."
+            },
+            {
+              "source": "src:archive-leg-state-nv-us-3cce472fcf",
+              "quote": "White House Personnel Office,\n1977",
+              "locator": "page 1"
+            }
+          ]
+        },
+        {
+          "role": "VISTA volunteer",
+          "start": "1968",
+          "citations": [
+            {
+              "source": "src:archive-leg-state-nv-us-3cce472fcf",
+              "quote": "Vista Volunteer, 1968",
+              "locator": "page 1"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
