@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-2f654a8734",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-06-09",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Preliminary results pour in for Nevada Legislature primaries",
+  "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/preliminary-results-pour-in-for-nevada-legislature-primaries-3835994/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable."
+}

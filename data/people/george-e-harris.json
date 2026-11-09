@@ -4,6 +4,20 @@
   "name": "George E. Harris",
   "aliases": [],
   "candidate_profile": {
+    "occupation": {
+      "value": "Retired business executive; publisher of the conservative magazine Liberty Watch",
+      "citations": [
+        {
+          "source": "src:reviewjournal-com-2f654a8734",
+          "quote": "Retired business executive George Harris is leading Metropolitan Police Department Assistant Sheriff Laz Chavez in the Republican primary for State Senate District 8 in Clark County, according to vote returns for the primary election late Tuesday."
+        },
+        {
+          "source": "src:thenevadaindependent-com-1cb110fa72",
+          "quote": "Harris is the former chair of the Clark County Republican Party and is the publisher of the conservative magazine Liberty Watch.",
+          "locator": "State Senate, District 8: George Harris"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
