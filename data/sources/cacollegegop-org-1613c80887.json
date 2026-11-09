@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "cacollegegop-org-1613c80887",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "California College Republicans",
+  "title": "San Francisco County Voter Guide",
+  "url": "https://www.cacollegegop.org/voter-guides/san-francisco"
+}

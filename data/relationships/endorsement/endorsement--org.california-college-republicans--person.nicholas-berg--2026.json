@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-college-republicans--person.nicholas-berg--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:nicholas-berg",
+  "endorser": "org:california-college-republicans",
+  "citations": [
+    {
+      "source": "src:cacollegegop-org-1613c80887",
+      "quote": "We have researched, vetted, and issued an endorsement on a large amount of statewide races to help make voting easy!"
+    },
+    {
+      "source": "src:cacollegegop-org-1613c80887",
+      "quote": "County Board of Supervisors District 2: Nicholas Berg",
+      "locator": "County Candidate Races"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
