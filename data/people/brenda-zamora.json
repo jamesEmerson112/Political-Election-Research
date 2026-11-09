@@ -96,6 +96,24 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Nonprofit deputy director (Make It Work Nevada)",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-bc20fd52bf",
+          "quote": "Outside her role as a trustee, Zamora serves as a deputy director at Make It Work Nevada, a nonprofit focused on paid leave and childcare."
+        },
+        {
+          "source": "src:thenevadaindependent-com-2cfe41869c",
+          "quote": "Brenda Zamora, a deputy director for a nonprofit focused on reproductive rights, is projected to win the District D race."
+        },
+        {
+          "source": "src:votebrendazamora-com-1aed4ac5fe",
+          "quote": "Currently serving as a manager at a nonprofit organization",
+          "locator": "Meet Brenda"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic (self-identified, as reported by news; the office is nonpartisan and the county candidate list shows NP)",
       "citations": [

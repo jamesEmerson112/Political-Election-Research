@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "votebrendazamora-com-1aed4ac5fe",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Brenda Zamora campaign",
+  "title": "Vote Brenda Zamora",
+  "url": "https://www.votebrendazamora.com/"
+}
