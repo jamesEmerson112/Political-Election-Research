@@ -55,6 +55,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas Valley, Nevada (where she was raised; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:caston4judge-com-c854d23cf4",
+          "quote": "Raised here in the Valley, Marilyn graduated at the top of her class from Cimarron–Memorial High School in 2000.",
+          "locator": "About page, Meet Marilyn Caston"
+        },
+        {
+          "source": "src:caston4judge-com-c854d23cf4",
+          "quote": "Marilyn is a lifelong member of the Las Vegas community who is committed to serving families with fairness, integrity, and compassion.",
+          "locator": "About page, Meet Marilyn Caston"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
