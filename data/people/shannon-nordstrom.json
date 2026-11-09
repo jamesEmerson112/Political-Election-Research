@@ -156,6 +156,30 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Interim Municipal Court Judge, Department 6",
+          "current": false,
+          "end": "2022",
+          "jurisdiction": "City of Las Vegas",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:shannonnordstrom-com-af5b48dbcc",
+              "quote": "From October 2018 until October 2023, Shannon Nordstrom served the community as an appointed Hearing Commissioner and Alternate Judge with the Las Vegas Municipal Court. During that time, in 2022, she also served a 5-month appointment as Interim Municipal Court Judge in Department 6.",
+              "locator": "Qualifications page, paragraph 2"
+            },
+            {
+              "source": "src:nevadacurrent-com-4f18d5ec66",
+              "quote": "Shannon Nordstrom, who is also seeking the seat, has served as an alternate judge in Municipal Court, a temporary judge in Las Vegas Justice Court, where she heard small claims, and was appointed by the City Council to serve as an interim Municipal Court judge.",
+              "locator": "Candidates tout their qualifications"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

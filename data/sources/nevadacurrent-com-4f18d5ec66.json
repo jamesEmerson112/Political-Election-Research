@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-4f18d5ec66",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2024-04-03",
+  "publisher": "Nevada Current",
+  "title": "Allegations of special treatment surface in race for LV Municipal Court",
+  "url": "https://nevadacurrent.com/2024/04/03/allegations-of-special-treatment-surface-in-race-for-lv-municipal-court/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
