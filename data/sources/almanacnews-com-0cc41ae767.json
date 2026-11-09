@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "almanacnews-com-0cc41ae767",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-06-03",
+  "publisher": "The Almanac",
+  "title": "Mullin, Hoelter lead D-15 polls",
+  "url": "https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/"
+}
