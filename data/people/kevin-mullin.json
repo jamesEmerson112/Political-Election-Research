@@ -29,6 +29,64 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2001",
+          "organization": "Office of California State Senator Jackie Speier",
+          "role": "Staffer",
+          "start": "1998",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "staffer, California State Senator Jackie Speier, 1998–2001",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "Kevin served as an aide to his political mentor, former Congresswoman Jackie Speier when she was a state legislator.",
+              "locator": "About page, member biography"
+            }
+          ]
+        },
+        {
+          "role": "Small communications business owner",
+          "citations": [
+            {
+              "source": "src:govinfo-gov-dac293b761",
+              "quote": "professional history: small business\nowner",
+              "locator": "PDF page 37 (directory page 26), California, Fifteenth District, Kevin Mullin biography"
+            },
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "He has also been a local small communications business owner and television host and commentator.",
+              "locator": "About page, member biography"
+            }
+          ]
+        },
+        {
+          "role": "Television host and commentator",
+          "citations": [
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "He has also been a local small communications business owner and television host and commentator.",
+              "locator": "About page, member biography"
+            }
+          ]
+        },
+        {
+          "role": "Mobile DJ",
+          "citations": [
+            {
+              "source": "src:kevinmullin-house-gov-07b40332f0",
+              "quote": "As a retired mobile DJ formerly known as “Cutmaster Kevvy Kev”, he still mixes music for fun.",
+              "locator": "About page, member biography"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
