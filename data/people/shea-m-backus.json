@@ -3,6 +3,28 @@
   "id": "shea-m-backus",
   "name": "Shea M. Backus",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Backus Shea M. DEM",
+          "locator": "PDF page 4, State Assembly District 37"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-d0e098f707",
+          "quote": "Assemblymember Shea M. Backus Party: Democratic District 37",
+          "locator": "Legislator page header"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "official_site": "https://www.leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/37"
