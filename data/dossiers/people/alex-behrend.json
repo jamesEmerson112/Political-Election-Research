@@ -1,6 +1,42 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:alex-behrend",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Behrend",
+        "where": "Mission Local WordPress search API (missionlocal.org/wp-json/wp/v2/posts?search=Behrend): 21 results, all candidate Q&A, race coverage and quizzes; read the District 6 race overview of 2026-09-09 and the Meet the Candidates page"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Behrend enforcement, stipulation, audit",
+        "where": "San Francisco Ethics Commission site search (sfethics.org/?s=Behrend and wp-json search): no results; Enforcement page"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Alex Behrend\"",
+        "where": "San Francisco Chronicle site search (sfchronicle.com/search): one result, the 2026-10-16 District 6 endorsement editorial, read in full"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Behrend committee",
+        "where": "SF Ethics campaign disclosure pages for the District 6 contest and committee Alex Behrend for All - Supervisor 2026 (campaign.sfethics.org)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Behrend",
+        "where": "Campaign site alexforalld6.com (home, Meet Alex, Policy for All)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Date range applied to both District 6 candidates: 2022-05-01 to 2026-11-09. Recorded: official findings (audits, enforcement, court) and matters with an official record plus news reporting of public opposition aimed at the candidate. General web search was unavailable this session (search budget used up); web.archive.org and sfelections.org were unreachable; court records were not searched.",
+        "where": "note"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-04",
     "items": [
