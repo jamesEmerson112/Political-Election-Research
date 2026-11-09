@@ -75,6 +75,47 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected, appointed, office held, commission, board",
+          "where": "Campaign website https://martinaforjudge.com/ (Meet Martina): describes legal employment only (LVMPD assistant general counsel), no elected or appointed public office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "judicial office, elected office, appointed office",
+          "where": "The Nevada Independent 2026 voter guide, Department 23 (https://thenevadaindependent.com/elections/2026/general/judicial/174): 'N/A as a sitting judge. Bauhaus is not currently a judicial officer.'; prior roles listed are staff positions (deputy attorney general, LVMPD counsel), recorded under career"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office held",
+          "where": "Our Nevada Judges candidate page (https://ournevadajudges.com/candidates/martina-bauhaus/overview): no prior office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office held",
+          "where": "BallotReady candidate profile (https://www.ballotready.org/people/martina-bauhaus): no office held listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Bauhaus",
+          "where": "Eighth Judicial District Court judicial roster (https://www.clarkcountycourts.us/departments/judicial/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Martina Bauhaus\" for judge Las Vegas Metropolitan Police assistant general counsel (no office found)",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Martina Bauhaus judge Department 23 campaign (no office found)",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
