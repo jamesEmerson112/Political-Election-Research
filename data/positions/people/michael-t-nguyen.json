@@ -129,6 +129,35 @@
       ]
     },
     {
+      "subject": "q:public-safety/police-license-plate-cameras",
+      "stance": "oppose",
+      "as_of": "2026-09-08",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Asked by Mission Local whether SFPD should use Flock cameras, Nguyen answered no, saying they create a mass-surveillance system. The Standard, which asked candidates whether the city should renew its Flock contract, reported that he opposes the city's continued use of the cameras.",
+      "citations": [
+        {
+          "source": "src:missionlocal-org-7cf306840a",
+          "quote": "No. I oppose expanding Flock safety cameras in San Francisco. They create a mass-surveillance system that tracks where people travel and can be shared with entities that are beyond local control.",
+          "locator": "Michael Nguyen answer"
+        },
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "The Standard asked candidates running for office if San Francisco should continue its contract with Flock when it’s up for renewal in February."
+        },
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "District 8 supervisor candidate Michael Nguyen, left, opposes San Francisco’s continued use of the cameras.",
+          "locator": "photo caption"
+        },
+        {
+          "source": "src:sfstandard-com-b1f97547d1",
+          "quote": "I don’t think it’s worth the trade-off of public safety to have this huge loss of civil liberties",
+          "locator": "Michael Nguyen section"
+        }
+      ]
+    },
+    {
       "subject": "q:transportation/bike-lanes-over-parking",
       "stance": "no_public_position",
       "as_of": "2026-11-04",

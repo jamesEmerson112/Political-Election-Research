@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-7cf306840a",
+  "kind": "candidate_questionnaire",
+  "accessed": "2026-11-09",
+  "published": "2026-08-19",
+  "publisher": "Mission Local",
+  "title": "Meet the District 8 candidates: Should SFPD use Flock surveillance cameras?",
+  "url": "https://missionlocal.org/2026/08/sf-district-8-candidates-flock-police-surveillance/"
+}
