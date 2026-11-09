@@ -4,6 +4,21 @@
   "name": "Pete Goicoechea",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1949",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-cd2d6338e9",
+          "quote": "Born: 1949 – Salt Lake City, Utah",
+          "locator": "PDF page 1"
+        },
+        {
+          "source": "src:archive-leg-state-nv-us-288f8246cc",
+          "quote": "Born: 1949; Salt Lake City, Utah.",
+          "locator": "Legislative Biography, 72nd (2003) Session"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

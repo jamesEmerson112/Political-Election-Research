@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-cd2d6338e9",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislative Counsel Bureau",
+  "title": "Legislative Biography: Pete Goicoechea, Senate District 19 (Revised November 2024)",
+  "url": "https://leg.state.nv.us/Session/Legislator/Goicoechea15.pdf"
+}
