@@ -60,6 +60,35 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor’s Degree in Political Science",
+          "institution": "Brigham Young University",
+          "year": 1991,
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "He attended Brigham Young University and graduated in 1991 with a Bachelor’s Degree in Political Science.",
+              "locator": "Biography, first paragraph"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctorate",
+          "institution": "University of the Pacific, McGeorge School of Law",
+          "year": 1994,
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-ce2006d4de",
+              "quote": "He attended law school at the University of the Pacific, McGeorge School of Law, and graduated with his Juris Doctorate in 1994.",
+              "locator": "Biography, first paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Department 30",
       "citations": [
