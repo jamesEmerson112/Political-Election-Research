@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-76d77dc3bd",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-11-04",
+  "publisher": "Nevada Current",
+  "title": "Former state senator discards Republican mantle in run for Clark County Commission",
+  "url": "https://nevadacurrent.com/2025/11/04/former-state-senator-discards-republican-mantle-in-run-for-clark-county-commission/",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
