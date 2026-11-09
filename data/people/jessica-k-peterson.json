@@ -76,6 +76,50 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Highline Community College",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "Peterson has degrees from Highline Community College and Evergreen State College, both in Washington."
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor’s degree",
+          "institution": "Evergreen State College",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-b0ed60f34b",
+              "quote": "Jessica graduated with her Bachelor’s Degree from Evergreen State College and received her Law Degree graduating cum laude from the Thomas M. Cooley Law School.",
+              "locator": "Biography"
+            },
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "Peterson has degrees from Highline Community College and Evergreen State College, both in Washington."
+            }
+          ]
+        },
+        {
+          "degree": "Law degree, cum laude",
+          "institution": "Thomas M. Cooley Law School",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-b0ed60f34b",
+              "quote": "Jessica graduated with her Bachelor’s Degree from Evergreen State College and received her Law Degree graduating cum laude from the Thomas M. Cooley Law School.",
+              "locator": "Biography"
+            },
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "She obtained her law degree from the Thomas M. Cooley Law School in Michigan"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Department 8",
       "citations": [
