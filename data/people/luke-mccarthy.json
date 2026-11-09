@@ -4,6 +4,62 @@
   "name": "Luke McCarthy",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "biography, birth, education, career",
+          "where": "luke4vegas.com home and About pages (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "name and office designation only",
+          "where": "Clark County Election Department, Notice of General Election 2026 (candidate list)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "mailing address, email, website and phone only",
+          "where": "City of Las Vegas City Clerk, 2026 Elections page and candidate contact information sheets (files.lasvegasnevada.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "blocked from the research environment (Cloudflare challenge), not read",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate background",
+          "where": "Nevada Current, 'Three candidates vie for Summerlin area Las Vegas City Council seat' (2026-04-15) and '2 Republicans face off in nonpartisan Las Vegas City Council race' (2026-09-29)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate background",
+          "where": "The Nevada Independent, Ward 2 election preview (2026-09-29) and 2026 general voter guide, Clark County"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "About the candidate: gives age (54) and birthplace, no birth date",
+          "where": "Las Vegas Review-Journal, 'Veteran firefighter launches campaign for Victoria Seaman’s LV council seat' (2025-03-08)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Luke McCarthy biography",
+          "where": "Armed Forces Chamber honorary board member page (sites.google.com/armedforceschamber.vet)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Luke McCarthy\" Las Vegas firefighter council born OR grew up OR native",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Luke McCarthy Las Vegas City Council Ward 2 candidate",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
