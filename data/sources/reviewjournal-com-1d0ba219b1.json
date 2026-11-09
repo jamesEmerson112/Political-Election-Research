@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-1d0ba219b1",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-10-06",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Wolfson facing challenge in bid for re-election",
+  "url": "https://www.reviewjournal.com/news/politics-and-government/clark-county/wolfson-facing-challenge-in-bid-for-re-election-2653072/"
+}

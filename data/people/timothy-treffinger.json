@@ -45,6 +45,106 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Law Office of Timothy Treffinger",
+          "role": "Owner/managing attorney",
+          "start": "2015",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-2289ef132d",
+              "quote": "Prior job titles: Owner/managing attorney, Law Office of Timothy Treffinger (2015-present)",
+              "locator": "Candidate deep dive, Treffinger, TITLE (summarized from his 2023 judicial application)"
+            }
+          ]
+        },
+        {
+          "end": "2015",
+          "organization": "Law Office of Elizabeth Mikesell",
+          "role": "Field counsel (insurance defense for Liberty Mutual)",
+          "start": "2015",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-2289ef132d",
+              "quote": "field counsel (insurance defense for Liberty Mutual), Law Office of Elizabeth Mikesell (2015)",
+              "locator": "Candidate deep dive, Treffinger, TITLE, prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2015",
+          "organization": "Nevada Attorney General's Office, Tri-County Prosecution Unit",
+          "role": "Deputy attorney general",
+          "start": "2013",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-2289ef132d",
+              "quote": "deputy attorney general, Nevada Attorney General's Office, Tri-County Prosecution Unit (2013-2015)",
+              "locator": "Candidate deep dive, Treffinger, TITLE, prior job titles"
+            },
+            {
+              "source": "src:reviewjournal-com-1d0ba219b1",
+              "quote": "Treffinger, 36, has worked for the Storey County district attorney’s office and the Nevada attorney general’s office before going into private practice in Las Vegas."
+            }
+          ]
+        },
+        {
+          "end": "2013",
+          "organization": "Brennan Legal Counsel Group",
+          "role": "Associate",
+          "start": "2013",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-2289ef132d",
+              "quote": "associate, Brennan Legal Counsel Group (2013)",
+              "locator": "Candidate deep dive, Treffinger, TITLE, prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2013",
+          "organization": "Storey County District Attorney's Office",
+          "role": "Deputy district attorney",
+          "start": "2012",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-2289ef132d",
+              "quote": "deputy district attorney, Storey County District Attorney's Office (2012-2013)",
+              "locator": "Candidate deep dive, Treffinger, TITLE, prior job titles"
+            },
+            {
+              "source": "src:nevadacurrent-com-e5d4429ff6",
+              "quote": "He has worked for the Storey County D.A., the Nevada Attorney General’s office, and in private practice."
+            }
+          ]
+        },
+        {
+          "organization": "American Freedom Group Law",
+          "role": "Attorney",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-8d6b736b58",
+              "quote": "Treffinger is listed by the State Bar of Nevada as working at American Freedom Group Law, which advertises itself online as a local firm specializing in personal injury, criminal, family and civil litigation.",
+              "locator": "Timothy Treffinger section (Oct. 6, 2026)"
+            }
+          ]
+        },
+        {
+          "end": "2021",
+          "role": "Owner and operator, classic car restoration and sales business",
+          "start": "2019",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-2289ef132d",
+              "quote": "briefly owned and operated a classic car restoration and sales business (2019–2021).",
+              "locator": "Candidate deep dive, Treffinger, career history/highlights"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney in private practice",
       "citations": [

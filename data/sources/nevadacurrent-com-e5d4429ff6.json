@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-e5d4429ff6",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-10-21",
+  "publisher": "Nevada Current",
+  "title": "Challenger hopes to unseat Wolfson",
+  "url": "https://nevadacurrent.com/2022/10/21/challenger-hopes-to-unseat-wolfson/"
+}
