@@ -61,6 +61,47 @@
           "locator": "PDF page 2, Nevada State Assembly Candidates, District 6"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "leg.state.nv.us/App/Legislator/A/Assembly/83rd2025/6 (official legislator page: Clark County (Part), office contacts only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "Legislative Manual 2025, Chapter I, page 66 (birth, education, occupation; no residence)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence, lives in",
+          "where": "jovanjackson.com home and about pages (campaign site; gives birthplace and the campaign committee's mailing address, not his residence)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "residence",
+          "where": "Nevada Current, Nov. 5, 2024 and May 15, 2026"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Jovan Jackson\" \"D-North Las Vegas\" OR \"D-Las Vegas\" Assemblyman",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Assemblyman Jovan Jackson lives in North Las Vegas Nevada Independent",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate address",
+          "where": "nvsos.gov (declarations of candidacy; blocked from the research environment)"
+        }
+      ]
     }
   },
   "ids": [],
