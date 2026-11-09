@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-0c376cc873",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2020-10-05",
+  "publisher": "Nevada Current",
+  "title": "District Court Department 5: Barisich v. Coffing",
+  "url": "https://nevadacurrent.com/2020/10/05/district-court-department-5/"
+}

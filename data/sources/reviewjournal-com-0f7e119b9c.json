@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-0f7e119b9c",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2020-09-24",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Barisich, Coffing bring experience to District Court Dept. 5 race",
+  "url": "https://www.reviewjournal.com/news/politics-and-government/clark-county/barisich-coffing-bring-experience-to-district-court-dept-5-race-2128866/"
+}

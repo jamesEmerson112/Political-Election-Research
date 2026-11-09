@@ -65,6 +65,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor of Arts in International Relations",
+          "institution": "James Madison College, Michigan State University",
+          "citations": [
+            {
+              "source": "src:judgebarisich-com-bb18ec2105",
+              "quote": "Judge Barisich earned her Bachelor of Arts in International Relations from James Madison College at Michigan State University.",
+              "locator": "About, Education & Early Experience"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "Thomas M. Cooley Law School",
+          "year": 2004,
+          "citations": [
+            {
+              "source": "src:judgebarisich-com-bb18ec2105",
+              "quote": "She later earned her Juris Doctor from Thomas M. Cooley Law School in Michigan.",
+              "locator": "About, Education & Early Experience"
+            },
+            {
+              "source": "src:nevadacurrent-com-0c376cc873",
+              "quote": "In 2004, Barisich earned a law degree from Western Michigan-Thomas Cooley Law School.",
+              "locator": "Barisich paragraphs"
+            },
+            {
+              "source": "src:reviewjournal-com-0f7e119b9c",
+              "quote": "Barisich earned her law degree in 2004, then went to work for the law firm of Dempsey, Roberts & Smith.",
+              "locator": "background paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Department 5",
       "citations": [
