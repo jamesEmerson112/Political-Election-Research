@@ -96,6 +96,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Professor of Mathematics, College of Southern Nevada",
+      "citations": [
+        {
+          "source": "src:villafornevada-com-b60d2602cc",
+          "quote": "He has been a Professor of Mathematics at the College of Southern Nevada since 2004.",
+          "locator": "About Patrick page"
+        },
+        {
+          "source": "src:nevadacurrent-com-046ec96ff0",
+          "quote": "Patrick Villa, a mathematics professor at the College of Southern Nevada, will face higher education Regent Jennifer McGrath, the incumbent who was appointed to the seat in 2025, during the upcoming general election."
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
