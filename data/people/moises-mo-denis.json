@@ -49,6 +49,117 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly",
+          "current": false,
+          "end": "2010-11",
+          "jurisdiction": "Nevada",
+          "start": "2004-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "Years in Assembly: November 2004 to November 2010",
+              "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis, Legislative Service"
+            },
+            {
+              "source": "src:archive-leg-state-nv-us-db3ebb2664",
+              "quote": "Clark County Assembly District No. 28",
+              "locator": "Legislative Biography, 73rd (2005) Session (district in 2005)"
+            }
+          ]
+        },
+        {
+          "office": "Member, Nevada Senate, District 2",
+          "current": false,
+          "end": "2022",
+          "jurisdiction": "Nevada",
+          "start": "2010-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "Years in Senate: November 2010 to Current",
+              "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis, Legislative Service (as of 2019)"
+            },
+            {
+              "source": "src:leg-state-nv-us-0daa27d2df",
+              "quote": "District: 2",
+              "locator": "Nevada Legislature legislator page, 81st (2021) Session"
+            },
+            {
+              "source": "src:thenevadaindependent-com-af7e630f0d",
+              "quote": "Denis served in the state Senate from 2011 to 2022 and served in the Assembly from 2004 to 2010.",
+              "locator": "Board of Regent, District 5, Moises \"Mo\" Denis (end year 2022)"
+            }
+          ]
+        },
+        {
+          "office": "Senate Assistant Majority Whip, Nevada Senate",
+          "current": false,
+          "end": "2011",
+          "jurisdiction": "Nevada",
+          "start": "2011",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "Senate Assistant Majority Whip, 2011",
+              "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis, Leadership"
+            }
+          ]
+        },
+        {
+          "office": "Senate Majority Floor Leader, Nevada Senate",
+          "current": false,
+          "end": "2014",
+          "jurisdiction": "Nevada",
+          "start": "2013",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "Senate Majority Floor Leader, 2013; 2013 Special Session; and 2014 Special Session",
+              "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis, Leadership"
+            }
+          ]
+        },
+        {
+          "office": "President Pro Tempore, Nevada Senate",
+          "current": false,
+          "jurisdiction": "Nevada",
+          "start": "2017",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "President Pro Tempore, 2017 President Pro Tempore, 2019",
+              "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis, Leadership"
+            },
+            {
+              "source": "src:leg-state-nv-us-0daa27d2df",
+              "quote": "Senator Moises (Mo) Denis President Pro Tempore",
+              "locator": "Nevada Legislature legislator page, 81st (2021) Session"
+            }
+          ]
+        },
+        {
+          "office": "Chair, Las Vegas/Clark County Library District (board)",
+          "current": false,
+          "jurisdiction": "Clark County, Nevada",
+          "citations": [
+            {
+              "source": "src:archive-leg-state-nv-us-db3ebb2664",
+              "quote": "Past Chair, Las Vegas/Clark County Library District",
+              "locator": "Legislative Biography, 73rd (2005) Session, Personal and Professional Achievements"
+            },
+            {
+              "source": "src:nevadacurrent-com-4d04b79ccd",
+              "quote": "during his time as chair of the Clark County Library Board",
+              "locator": "Moises 'Mo' Denis section"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
