@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.malia-m-cohen--sf-file-131205--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:malia-m-cohen",
+  "action": "cosponsored",
+  "bill": "sf-file-131205",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-206af00e75",
+      "quote": "Sponsors: Mayor, Malia Cohen, David Campos, David Chiu, Scott Wiener, Eric Mar",
+      "locator": "Legislation Details, Sponsors (listed after the Mayor)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

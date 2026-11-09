@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-206af00e75",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 131205 · Planning Code - Production, Distribution, and Repair Zoning",
+  "url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=1542243&GUID=ED1B8178-968E-431A-98CC-2F7134F091C8"
+}

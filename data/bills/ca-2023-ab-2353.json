@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-ab-2353",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-09-25",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-f6c15f4ccc",
+        "quote": "SACRAMENTO – Governor Gavin Newsom today announced that he has signed the following bills:",
+        "locator": "release dated 2024-09-25, opening sentence"
+      },
+      {
+        "source": "src:gov-ca-gov-f6c15f4ccc",
+        "quote": "AB 2353 by Assemblymember Christopher Ward (D-San Diego) – Property taxation: welfare exemption: delinquent payments: interest and penalties.",
+        "locator": "list of bills signed"
+      }
+    ]
+  },
+  "area": "housing",
+  "title": {
+    "value": "Property taxation: welfare exemption: delinquent payments: interest and penalties",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-f6c15f4ccc",
+        "quote": "AB 2353 by Assemblymember Christopher Ward (D-San Diego) – Property taxation: welfare exemption: delinquent payments: interest and penalties.",
+        "locator": "list of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

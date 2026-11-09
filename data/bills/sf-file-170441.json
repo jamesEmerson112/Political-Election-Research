@@ -1,0 +1,67 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-170441",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-07-07",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "Enactment date: 7/7/2017 Enactment #: 140-17",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "7/7/2017 3 Mayor APPROVED",
+        "locator": "History"
+      }
+    ]
+  },
+  "area": "health",
+  "summary": {
+    "value": "Ordinance amending the Health Code to prohibit tobacco retailers from selling flavored tobacco products, including menthol cigarettes. Finally passed by the Board of Supervisors on 6/27/2017 and approved by the Mayor on 7/7/2017 (Ordinance 140-17); a referendum petition was received, and on 9/5/2017 the Board's repeal action failed. Legistar lists the file's status as Failed.",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "Title: Ordinance amending the Health Code to prohibit tobacco retailers from selling flavored tobacco products, including menthol cigarettes.",
+        "locator": "Legislation Details, Title"
+      },
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "6/27/2017 3 Board of Supervisors FINALLY PASSED Pass",
+        "locator": "History"
+      },
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "7/7/2017 3 Mayor APPROVED",
+        "locator": "History"
+      },
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "20. Receipt of Referendum Petition",
+        "locator": "Attachments"
+      },
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "9/5/2017 3 Board of Supervisors REPEALED Fail",
+        "locator": "History"
+      },
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "Type: Ordinance Status: Failed",
+        "locator": "Legislation Details"
+      }
+    ]
+  },
+  "title": {
+    "value": "Health Code - Banning the Sale of Flavored Tobacco Products",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-85bcfc7557",
+        "quote": "Name: Health Code - Banning the Sale of Flavored Tobacco Products",
+        "locator": "Legislation Details, File # 170441"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

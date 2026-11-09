@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gov-ca-gov-f6c15f4ccc",
+  "kind": "press_release",
+  "accessed": "2026-11-09",
+  "published": "2024-09-25",
+  "publisher": "Governor of California",
+  "title": "Governor Newsom issues legislative update 9.25.24",
+  "url": "https://www.gov.ca.gov/2024/09/25/governor-newsom-issues-legislative-update-9-25-24/"
+}

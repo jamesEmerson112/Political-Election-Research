@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.malia-m-cohen--sf-file-170441--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:malia-m-cohen",
+  "action": "sponsored",
+  "bill": "sf-file-170441",
+  "cycle": 2018,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-85bcfc7557",
+      "quote": "Sponsors: Malia Cohen, Ahsha Safai, London N. Breed, Mark Farrell, Jeff Sheehy, Katy Tang, Norman Yee",
+      "locator": "Legislation Details, Sponsors (listed first)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

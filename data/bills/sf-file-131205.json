@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-131205",
+  "status": {
+    "value": "enacted",
+    "as_of": "2014-05-23",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-206af00e75",
+        "quote": "Enactment date: 5/23/2014 Enactment #: 071-14",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfgov-legistar-com-206af00e75",
+        "quote": "5/23/2014 3 Mayor APPROVED",
+        "locator": "History"
+      }
+    ]
+  },
+  "area": "economy",
+  "summary": {
+    "value": "Ordinance amending the Planning Code to address various revisions to Production, Distribution, and Repair Zoning (PDR), integrated PDR, and small enterprise workplace zoning controls to facilitate the establishment of such uses.",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-206af00e75",
+        "quote": "Title: Ordinance amending the Planning Code to address various revisions to Production, Distribution, and Repair Zoning (PDR), integrated PDR, and small enterprise workplace zoning controls to facilitate the establishment of such uses;",
+        "locator": "Legislation Details, Title"
+      }
+    ]
+  },
+  "title": {
+    "value": "Planning Code - Production, Distribution, and Repair Zoning",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-206af00e75",
+        "quote": "Name: Planning Code - Production, Distribution, and Repair Zoning",
+        "locator": "Legislation Details, File # 131205"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

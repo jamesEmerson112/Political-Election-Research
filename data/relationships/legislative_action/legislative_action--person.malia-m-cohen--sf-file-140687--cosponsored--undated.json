@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.malia-m-cohen--sf-file-140687--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:malia-m-cohen",
+  "action": "cosponsored",
+  "bill": "sf-file-140687",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-7ee9bf5dbc",
+      "quote": "Sponsors: Mayor, Jane Kim, David Chiu, Mark Farrell, London N. Breed, Norman Yee, Scott Wiener, David Campos, Malia Cohen, Katy Tang, Eric Mar, John Avalos",
+      "locator": "Legislation Details, Sponsors"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

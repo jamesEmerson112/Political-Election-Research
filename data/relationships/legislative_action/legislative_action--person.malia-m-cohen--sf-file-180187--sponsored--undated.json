@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.malia-m-cohen--sf-file-180187--sponsored--undated",
+  "type": "legislative_action",
+  "person": "person:malia-m-cohen",
+  "action": "sponsored",
+  "bill": "sf-file-180187",
+  "cycle": 2018,
+  "citations": [
+    {
+      "source": "src:sfgov-legistar-com-07b7bdeda8",
+      "quote": "Sponsors: Malia Cohen",
+      "locator": "Legislation Details, Sponsors (sole sponsor)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

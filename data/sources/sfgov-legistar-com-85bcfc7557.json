@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-85bcfc7557",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 170441 · Health Code - Banning the Sale of Flavored Tobacco Products",
+  "url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=3027568&GUID=254D4A3A-859F-4995-AF06-3B57291332E2"
+}

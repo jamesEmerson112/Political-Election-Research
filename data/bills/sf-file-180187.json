@@ -1,0 +1,42 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "sf-file-180187",
+  "status": {
+    "value": "enacted",
+    "as_of": "2018-06-27",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-07b7bdeda8",
+        "quote": "Enactment date: 6/27/2018 Enactment #: 145-18",
+        "locator": "Legislation Details"
+      },
+      {
+        "source": "src:sfgov-legistar-com-07b7bdeda8",
+        "quote": "6/27/2018 1 Mayor APPROVED",
+        "locator": "History"
+      }
+    ]
+  },
+  "area": "economy",
+  "summary": {
+    "value": "Ordinance amending the Planning Code to reauthorize provisions that support the development of new Production, Distribution, and Repair (PDR) space in specified PDR Zoning Districts.",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-07b7bdeda8",
+        "quote": "Title: Ordinance amending the Planning Code to reauthorize provisions that support the development of new Production, Distribution, and Repair (PDR) space in specified PDR Zoning Districts;",
+        "locator": "Legislation Details, Title"
+      }
+    ]
+  },
+  "title": {
+    "value": "Planning Code - Reauthorizing Section 210.3C Concerning New Production, Distribution, and Repair Space",
+    "citations": [
+      {
+        "source": "src:sfgov-legistar-com-07b7bdeda8",
+        "quote": "Name: Planning Code - Reauthorizing Section 210.3C Concerning New Production, Distribution, and Repair Space",
+        "locator": "Legislation Details, File # 180187"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

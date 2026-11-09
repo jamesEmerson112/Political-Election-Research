@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgov-legistar-com-7ee9bf5dbc",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "SF File 140687 · Initiative Ordinance - Administrative Code - Minimum Wage",
+  "url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=1812927&GUID=C0CDAB52-F37A-4782-A9D6-D203B1C1220A"
+}

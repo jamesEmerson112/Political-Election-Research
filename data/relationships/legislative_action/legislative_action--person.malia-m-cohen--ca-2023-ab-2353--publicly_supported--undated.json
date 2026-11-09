@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.malia-m-cohen--ca-2023-ab-2353--publicly_supported--undated",
+  "type": "legislative_action",
+  "person": "person:malia-m-cohen",
+  "action": "publicly_supported",
+  "bill": "ca-2023-ab-2353",
+  "cycle": 2024,
+  "citations": [
+    {
+      "source": "src:maliacohenforca-com-1eccf49cd6",
+      "quote": "She played a key role in advancing AB 2353, a law that removes costly delays in the welfare tax exemption process.",
+      "locator": "Cutting Red Tape to Build Housing Faster"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "The campaign site's own description of her role; the Governor's signing list names Assemblymember Christopher Ward as the author. The State Controller's press release on the bill (sco.ca.gov) is behind a bot challenge and was not read."
+}
