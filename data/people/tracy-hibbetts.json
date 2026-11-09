@@ -65,6 +65,39 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Dual degree in Criminal Justice and Psychology",
+          "institution": "University of Nevada, Las Vegas",
+          "year": 2002,
+          "citations": [
+            {
+              "source": "src:ournevadajudges-com-75c37dc794",
+              "quote": "She then attended University of Nevada, Las Vegas and graduated with a Dual Degree in Criminal Justice and Psychology in 2002, while working a full-time job",
+              "locator": "Statement, Description"
+            }
+          ]
+        },
+        {
+          "degree": "Law degree",
+          "institution": "California Western School of Law",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-6f076fbb09",
+              "quote": "Hibbetts earned her law degree at California Western School of Law.",
+              "locator": "paragraph on Hibbetts' background"
+            },
+            {
+              "source": "src:reviewjournal-com-3d1c76390c",
+              "quote": "before she finished law school at California Western School of Law.",
+              "locator": "section 'Challenger boasts extensive public service experience'"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Chief Deputy District Attorney, Clark County District Attorney's Office",
       "citations": [
