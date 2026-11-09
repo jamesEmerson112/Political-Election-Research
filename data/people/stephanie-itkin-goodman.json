@@ -3,6 +3,23 @@
   "id": "stephanie-itkin-goodman",
   "name": "Stephanie Itkin-Goodman",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Itkin-Goodman, Stephanie DEM",
+          "locator": "PDF page 7, PUBLIC ADMINISTRATOR, 4-YEAR TERM"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
