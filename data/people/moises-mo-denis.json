@@ -34,6 +34,27 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A., Music",
+          "institution": "Brigham Young University",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "Educated: Rancho High School, Las Vegas; Brigham Young University, Provo, Utah, B.A., Music",
+              "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis"
+            },
+            {
+              "source": "src:archive-leg-state-nv-us-db3ebb2664",
+              "quote": "Educated: Rancho High School, Las Vegas; B.A., Music, Brigham Young University.",
+              "locator": "Legislative Biography, 73rd (2005) Session"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Computer network technician (IT professional)",
       "citations": [
