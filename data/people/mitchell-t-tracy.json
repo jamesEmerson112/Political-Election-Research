@@ -4,6 +4,47 @@
   "name": "Mitchell T. Tracy",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born",
+          "where": "campaign website mitchelltracy.com, home/About section (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born",
+          "where": "The Nevada Independent, 2026-09-19 article on Clark County downballot offices (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born",
+          "where": "The Nevada Independent 2026 Nevada Voter Guide, Clark County page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born",
+          "where": "Las Vegas Review-Journal, 2022-10-06 treasurer race article (opened; gives age only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mitchell Tracy Clark County Treasurer 2026 Republican candidate",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mitchell Tracy Nevada candidate campaign website Las Vegas",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born",
+          "where": "goodparty.org profile (HTTP 429, not reached); nvsos.gov candidate filings (blocked)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
