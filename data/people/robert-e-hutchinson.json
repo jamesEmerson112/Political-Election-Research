@@ -106,6 +106,22 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Eldorado High School",
+          "year": 1997,
+          "citations": [
+            {
+              "source": "src:robforccsd-com-10c761d719",
+              "quote": "As a proud graduate of Eldorado High School in 1997, part of the Clark County School District (CCSD), I have dedicated nearly thirty years to giving back to the schools that gave me so much.",
+              "locator": "opening paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Director of Facilities, Clark County School District (set to retire in fall 2026)",
       "citations": [
