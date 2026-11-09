@@ -1,6 +1,57 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:deandra-bryant",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "\"Deandra Bryant\" controversy lawsuit arrested ethics investigation",
+        "where": "Web search (general)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Deandra Bryant\" San Francisco District 10 supervisor",
+        "where": "Web search (general)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Deandra Bryant\" Bayview controversy OR lawsuit OR arrested OR ethics",
+        "where": "Web search (general)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Deandra Bryant",
+        "where": "Mission Local article search (missionlocal.org WordPress API), all years"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Bryant; Deandra",
+        "where": "San Francisco Ethics Commission site search (sfethics.org), including enforcement updates, stipulations and audit reports"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Deandra Bryant",
+        "where": "San Francisco Ethics Commission news listing (sfethics.org/ethics/category/news), 2026 posts"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Deandra Bryant",
+        "where": "The Voice of San Francisco, July 2, 2026 report on the first District 10 community forum (thevoicesf.org)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Deandra Bryant",
+        "where": "The Sun Reporter, guide to San Francisco's 2026 Board of Supervisors races (thesunreporter.com)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Deandra Bryant",
+        "where": "Mission Local, Oct. 2026 District 10 forum report (missionlocal.org/2026/10/san-francisco-theo-ellington-district-10-forum-flock-billionaires/)"
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
