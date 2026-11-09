@@ -138,5 +138,31 @@
         "where": "ryanforsfschools.com home page and The Whole Child Agenda page"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (legislation, programs, budgets) cited to government records",
+        "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, Board of Education candidate statement (media.api.sf.gov/documents/N26_EN_VIP.pdf, p. 29): no elected office; appointed advisory roles only"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "record as DCYF Oversight and Advisory Committee Vice Chair and Childcare Planning and Advisory Council Chair",
+        "where": "Campaign website ryanforsfschools.com (home and About pages): roles listed, no government record of an outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "record and outcomes",
+        "where": "GrowSF November 2026 Board of Education questionnaire (growsf.org/voter-guide/questionnaires/november-2026/ryan-hazelton/): nonprofit (Mariposa Kids) and advisory-council work described in his own words; no government record of an outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Hazelton\" Oversight and Advisory Committee DCYF minutes",
+        "where": "Web search of sf.gov DCYF Oversight and Advisory Committee records (sf.gov committee page and minutes): no record naming him with an outcome found"
+      }
+    ]
   }
 }
