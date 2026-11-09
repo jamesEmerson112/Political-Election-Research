@@ -29,6 +29,41 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "High school English teacher",
+          "citations": [
+            {
+              "source": "src:selenatorresnv-com-e104ddee6f",
+              "quote": "Torres is the proud product of Nevada’s public education system, and she brings her passion for education to the classroom every single day as a high school English teacher.",
+              "locator": "Home page, MEET SELENA"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Democrat Assembly District 3 Clark County (part) High School Teacher",
+              "locator": "PDF page 86, Legislative Biography—2025 Session (occupation line)"
+            },
+            {
+              "source": "src:thenevadaindependent-com-7432fcf4c1",
+              "quote": "Among those new lawmakers is Democrat Selena Torres , a 23-year-old English teacher who represents Assembly District 3 in Las Vegas.",
+              "locator": "Introduction"
+            }
+          ]
+        },
+        {
+          "role": "Executive director of a charter school (Las Vegas)",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-241dc78c98",
+              "quote": "She currently is the executive director of a charter school in Las Vegas.",
+              "locator": "State Assembly, District 3, Selena Torres-Fossett"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
