@@ -96,6 +96,21 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "United States Air Force Academy",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-b73a363833",
+              "quote": "He is also a graduate of the United States Air Force Academy.",
+              "locator": "Clerk section"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Works at the Nevada National Security Site",
       "citations": [
