@@ -3,6 +3,39 @@
   "id": "michelle-leavitt",
   "name": "Michelle Leavitt",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party for Leavitt, Michelle: the lists print only 'NP = Nonpartisan (indicated for nonpartisan offices only)' for this office, no party registration",
+          "where": "Clark County Election Department, Contests and Candidates in the 2026 Elections (https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:fe5dbe41-e2b2-402e-a651-cbe5e6ea53bc/original/as/Contests-Candidates-All-26.pdf, PDF page 5) and All Contests and Candidates, November 3, 2026 General Election (officesup-26g.pdf, PDF page 5)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered",
+          "where": "Eighth Judicial District Court, Department XII biography (https://www.clarkcountycourts.us/departments/judicial/civil-criminal-divison/department-xii/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, Democrat, Republican, registered",
+          "where": "Campaign website https://www.judgeleavitt.com/ (home, /about)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party / partisan affiliation of Michelle Leavitt (race shown as Nonpartisan)",
+          "where": "The Nevada Independent 2026 voter guide, Department 12 race page (https://thenevadaindependent.com/elections/2026/general/judicial/89 and /primary/judicial/89)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Judge Michelle Leavitt Department 12 party registration Democrat Republican",
+          "where": "Web search"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
