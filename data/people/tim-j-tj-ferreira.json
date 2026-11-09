@@ -4,6 +4,52 @@
   "name": "Tim J. \"TJ\" Ferreira",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born, age",
+          "where": "The Nevada Independent, 2026-09-19 article on Clark County downballot offices (opened; Ferreira did not respond to interview request)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born, age",
+          "where": "The Nevada Independent 2026 Nevada Voter Guide, Clark County page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born, age",
+          "where": "FEC candidate page H4NV04157, FERREIRA, TIM \"TJ\" (opened; no biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "TJ Ferreira Libertarian Clark County Treasurer 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tim Ferreira Libertarian Nevada candidate 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ferreira power trader NV Energy Libertarian candidate Clark County",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born, age",
+          "where": "campaign website (address not found in sources; guessed domains tjferreira.com, tjfornevada.com unreachable)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date of birth, born, age",
+          "where": "lpnevada.org (Cloudflare challenge, not reached); goodparty.org profile (HTTP 429, not reached); nvsos.gov (blocked)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Libertarian Party of Nevada",
       "citations": [
