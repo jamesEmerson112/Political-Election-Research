@@ -86,6 +86,102 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Las Vegas Municipal Court",
+          "role": "Pro tem judge",
+          "start": "2019",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "She has served as a pro tempore judge for 7 years, first appointed in 2019 to Las Vegas Municipal Court.",
+              "locator": "Candidate deep dive: Green, Jessica A., Title"
+            },
+            {
+              "source": "src:green4judge-com-471fc99e3d",
+              "quote": "Since 2019, Jessica has been trusted by sitting Municipal Court Judges to step into their courtrooms and preside over cases in their absence",
+              "locator": "About page, Proven on the Bench"
+            }
+          ]
+        },
+        {
+          "organization": "Las Vegas Justice Court",
+          "role": "Pro tem judge",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "She is also a pro tempore judge on Las Vegas Justice Court.",
+              "locator": "Candidate deep dive: Green, Jessica A., Title"
+            }
+          ]
+        },
+        {
+          "end": "2026",
+          "organization": "ExpertPays, LLC",
+          "role": "Chief Legal Officer",
+          "start": "2024",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "Chief Legal Officer, ExpertPays, LLC (2024–2026)",
+              "locator": "Candidate deep dive: Green, Jessica A., Other/prior job titles"
+            }
+          ]
+        },
+        {
+          "organization": "J Green Legal",
+          "role": "Attorney / Legal Consultant",
+          "start": "2023",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "Attorney / Legal Consultant, J Green Legal (2023-present)",
+              "locator": "Candidate deep dive: Green, Jessica A., Other/prior job titles"
+            }
+          ]
+        },
+        {
+          "organization": "Silver State Liens",
+          "role": "Owner/Member",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "Owner/Member, Silver State Liens (2022-present)",
+              "locator": "Candidate deep dive: Green, Jessica A., Other/prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2022",
+          "organization": "Lipson, Neilson, Cole, Seltzer & Garin, P.C.",
+          "role": "Attorney and shareholder",
+          "start": "2013",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "Attorney & Shareholder at Lipson, Neilson, Cole, Seltzer & Garin, P.C. (2013-2022)",
+              "locator": "Candidate deep dive: Green, Jessica A., Other/prior job titles"
+            }
+          ]
+        },
+        {
+          "end": "2013",
+          "organization": "Gordon & Rees LLP",
+          "role": "Attorney",
+          "start": "2011",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "Attorney at Gordon & Rees LLP (2011-2013)",
+              "locator": "Candidate deep dive: Green, Jessica A., Other/prior job titles"
+            }
+          ]
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-09",
       "items": [
