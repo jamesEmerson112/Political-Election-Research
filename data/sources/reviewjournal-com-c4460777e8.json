@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-c4460777e8",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-19",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "2026 Nevada election: All Las Vegas Review-Journal endorsements",
+  "url": "https://www.reviewjournal.com/opinion/rj-endorses-2026/rj-endorses-our-choices-for-novembers-election-3897944/"
+}
