@@ -3,6 +3,49 @@
   "id": "timothy-treffinger",
   "name": "Timothy Treffinger",
   "aliases": [],
+  "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "The Nevada Independent 2026 voter guide, Family Division Dept. E race page (thenevadaindependent.com/elections/2026/general/judicial/64)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Las Vegas Review-Journal, Oct. 6, 2026, \"Charles Hoskin faces Timothy Treffinger in Family Court Department E race\""
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date (gives only his age, 36; age is not a birth date)",
+          "where": "Las Vegas Review-Journal, Oct. 6, 2022, \"Wolfson facing challenge in bid for re-election\""
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Nevada Current, Oct. 21, 2022, \"Challenger hopes to unseat Wolfson\""
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Timothy Treffinger attorney Las Vegas biography born",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "unreachable here (tunnel connection failed)",
+          "where": "campaign site treffinger4nevada.com (2022 DA campaign; the 2026 voter guide says he has no campaign website)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "public judicial application",
+          "where": "nvcourts.gov (Nevada Commission on Judicial Selection public application PDF for Treffinger, found by web search): blocked here by a Cloudflare challenge; nvsos.gov and silverstateelection.nv.gov also blocked"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
