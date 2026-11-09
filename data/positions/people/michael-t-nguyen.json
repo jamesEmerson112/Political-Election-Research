@@ -129,6 +129,30 @@
       ]
     },
     {
+      "subject": "q:public-health/end-drug-use-supply-distribution",
+      "stance": "oppose",
+      "as_of": "2026-09-30",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "Asked by Mission Local whether he supports the mayor's efforts to restrict access to drug paraphernalia, Nguyen said he does not support restricting access to harm-reduction supplies and that harm reduction and prevention deserve as much funding as treatment and enforcement.",
+      "citations": [
+        {
+          "source": "src:missionlocal-org-cf9b3d9003",
+          "quote": "This week’s question: Do you support Mayor Daniel Lurie’s efforts to restrict access to drug paraphernalia? What harm-reduction services do you support continuing versus cutting?"
+        },
+        {
+          "source": "src:missionlocal-org-cf9b3d9003",
+          "quote": "No, I don’t support restricting access to harm-reduction supplies.",
+          "locator": "Michael Nguyen answer"
+        },
+        {
+          "source": "src:missionlocal-org-cf9b3d9003",
+          "quote": "Harm reduction and prevention deserve just as much funding as treatment and enforcement, because that’s what the science backs.",
+          "locator": "Michael Nguyen answer"
+        }
+      ]
+    },
+    {
       "subject": "q:public-safety/police-license-plate-cameras",
       "stance": "oppose",
       "as_of": "2026-09-08",
