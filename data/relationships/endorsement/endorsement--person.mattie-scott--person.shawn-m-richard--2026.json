@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.mattie-scott--person.shawn-m-richard--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:shawn-m-richard",
+  "endorser": "person:mattie-scott",
+  "citations": [
+    {
+      "source": "src:shawnmrichard4d10-com-e41995fea0",
+      "quote": "I encourage you to learn more about Shawn and join me in supporting his campaign.",
+      "locator": "Featured Endorsements: Mattie Scott, San Francisco Police Commissioner, Founder of Healing 4 Our Families & Our Nation"
+    },
+    {
+      "source": "src:assets-nationbuilder-com-7525a59786",
+      "quote": "Police Commissioner Mattie Scott",
+      "locator": "p. 3, 'What three endorsements are you most proud of?'"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

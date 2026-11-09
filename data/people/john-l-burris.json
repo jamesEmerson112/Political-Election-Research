@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "john-l-burris",
+  "name": "John L. Burris",
+  "aliases": [
+    "John Burris"
+  ],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.fiona-ma--person.shawn-m-richard--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:shawn-m-richard",
+  "endorser": "person:fiona-ma",
+  "citations": [
+    {
+      "source": "src:shawnmrichard4d10-com-e41995fea0",
+      "quote": "I'm proud to endorse Shawn Richard as my second choice for District 10 Supervisor.",
+      "locator": "Featured Endorsements: Fiona Ma, California State Treasurer"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "The endorsement is a second choice under ranked-choice voting, in the endorser's quoted words on the candidate's endorsements page."
+}

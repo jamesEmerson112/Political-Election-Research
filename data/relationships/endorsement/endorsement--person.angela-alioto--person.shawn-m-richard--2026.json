@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.angela-alioto--person.shawn-m-richard--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-21",
+  "endorsee": "person:shawn-m-richard",
+  "endorser": "person:angela-alioto",
+  "citations": [
+    {
+      "source": "src:shawnmrichard4d10-com-e41995fea0",
+      "quote": "Angela Alioto, former President of the San Francisco Board of Supervisors and a longtime civil-rights and employment attorney, has endorsed Shawn M. Richard for District 10 Supervisor.",
+      "locator": "Featured Endorsements: Angela Alioto"
+    },
+    {
+      "source": "src:shawnmrichard4d10-com-e41995fea0",
+      "quote": "Endorsement announced Friday, August 21, 2026",
+      "locator": "Featured Endorsements: Angela Alioto"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "willie-l-brown-jr",
+  "name": "Willie L. Brown Jr.",
+  "aliases": [
+    "Willie Brown"
+  ],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-09"
+}

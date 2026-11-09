@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.john-l-burris--person.shawn-m-richard--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:shawn-m-richard",
+  "endorser": "person:john-l-burris",
+  "citations": [
+    {
+      "source": "src:shawnmrichard4d10-com-e41995fea0",
+      "quote": "I am proud to endorse Shawn M. Richard for District 10 Supervisor.",
+      "locator": "Featured Endorsements: John L. Burris, Civil Rights Attorney and Community Advocate"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

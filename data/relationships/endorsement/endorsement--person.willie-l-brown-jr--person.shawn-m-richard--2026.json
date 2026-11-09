@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.willie-l-brown-jr--person.shawn-m-richard--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:shawn-m-richard",
+  "endorser": "person:willie-l-brown-jr",
+  "citations": [
+    {
+      "source": "src:shawnmrichard4d10-com-e41995fea0",
+      "quote": "It is my honor to endorse Shawn M. Richard for District 10 Supervisor.",
+      "locator": "Featured Endorsements: Honorable Willie L. Brown Jr., Former Mayor of San Francisco (1996–2004)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
