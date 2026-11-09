@@ -2,7 +2,16 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/district-court-dept-30",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:josh-santeramo",
+      "name": "Josh Santeramo"
+    },
+    {
+      "person": "person:jerry-a-wiese-ii",
+      "name": "Jerry A. Wiese, II"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
