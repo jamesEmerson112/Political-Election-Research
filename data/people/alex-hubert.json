@@ -54,6 +54,40 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor's degree in philosophy",
+          "institution": "University of Arizona",
+          "year": 2000,
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-e22cfe0e5c",
+              "quote": "Bachelor's degree in philosophy, University of Arizona, Tucson: August 1995 to July 2000.",
+              "locator": "Candidate deep dive: Hubert, Alex; Career highlights, Education"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "Arizona State University College of Law",
+          "year": 2003,
+          "citations": [
+            {
+              "source": "src:electalexhubert-com-51e8ddd379",
+              "quote": "Juris Doctor, Arizona State University (2003)",
+              "locator": "About page, Key Qualifications"
+            },
+            {
+              "source": "src:thenevadaindependent-com-e22cfe0e5c",
+              "quote": "Law degree, Arizona State University College of Law, Tempe: August 2001 to December 2003.",
+              "locator": "Candidate deep dive: Hubert, Alex; Career highlights, Education"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Chief Deputy Attorney, Clark County Public Defender's Office",
       "citations": [
