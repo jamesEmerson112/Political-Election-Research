@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-state-education-association--person.dina-titus--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:dina-titus",
+  "endorser": "org:nevada-state-education-association",
+  "citations": [
+    {
+      "source": "src:dinatitus-com-8417e01044",
+      "quote": "Nevada State Education Association",
+      "locator": "ENDORSEMENTS list"
+    },
+    {
+      "source": "src:nsea-nv-org-fde8d9e38f",
+      "quote": "Congress\nDina Titus\nCD-1",
+      "locator": "Meet the Candidates, Congress"
+    },
+    {
+      "source": "src:nsea-nv-org-c1ea3b1301",
+      "quote": "DINA TITUS\nCD1",
+      "locator": "page 1, Congress"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

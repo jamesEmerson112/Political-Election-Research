@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-association-of-public-safety-officers--person.dina-titus--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:dina-titus",
+  "endorser": "org:nevada-association-of-public-safety-officers",
+  "citations": [
+    {
+      "source": "src:dinatitus-com-8417e01044",
+      "quote": "Nevada Association of Public Safety Officers",
+      "locator": "ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

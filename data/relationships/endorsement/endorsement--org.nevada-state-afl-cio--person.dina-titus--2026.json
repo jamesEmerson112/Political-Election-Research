@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-state-afl-cio--person.dina-titus--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:dina-titus",
+  "endorser": "org:nevada-state-afl-cio",
+  "citations": [
+    {
+      "source": "src:dinatitus-com-8417e01044",
+      "quote": "Nevada AFL-CIO",
+      "locator": "ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

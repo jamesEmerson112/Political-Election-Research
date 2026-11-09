@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-faculty-alliance--person.dina-titus--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:dina-titus",
+  "endorser": "org:nevada-faculty-alliance",
+  "citations": [
+    {
+      "source": "src:dinatitus-com-8417e01044",
+      "quote": "Nevada Faculty Alliance",
+      "locator": "ENDORSEMENTS list"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
