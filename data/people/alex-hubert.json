@@ -54,6 +54,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Chief Deputy Attorney, Clark County Public Defender's Office",
+      "citations": [
+        {
+          "source": "src:electalexhubert-com-51e8ddd379",
+          "quote": "Chief Deputy Attorney, Clark County Public Defender's Office (2007-Present)",
+          "locator": "About page, Key Qualifications"
+        },
+        {
+          "source": "src:electalexhubert-com-51e8ddd379",
+          "quote": "Since 2007, I have served as an Attorney at the Clark County Public Defender’s Office in Las Vegas, where I’ve dedicated my career to defending the rights of indigent clients.",
+          "locator": "About page, Professional Background"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
