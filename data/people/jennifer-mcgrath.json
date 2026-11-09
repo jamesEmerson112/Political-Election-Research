@@ -134,6 +134,32 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Regent, Nevada System of Higher Education Board of Regents, District 2",
+          "current": true,
+          "jurisdiction": "Nevada",
+          "start": "2025-03-01",
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-97ed78aaa0",
+              "quote": "Today, Governor Joe Lombardo announced the appointments of Annette Dawson Owens to the Nevada State Board of Education and Jennifer McGrath to the Nevada System of Higher Education (NSHE) Board of Regents."
+            },
+            {
+              "source": "src:gov-nv-gov-97ed78aaa0",
+              "quote": "Both Owens and McGrath begin their appointments on March 1, 2025."
+            },
+            {
+              "source": "src:clarkcountynv-gov-a96b8f6419",
+              "quote": "Board of Regents District 2 McGrath (appointed to a 2- year unexpired term) Jennifer J. NP",
+              "locator": "PDF page 6 (6 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
