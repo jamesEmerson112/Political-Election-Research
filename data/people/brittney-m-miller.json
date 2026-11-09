@@ -27,6 +27,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Educator, Clark County School District",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Educator, Clark County School District",
+          "locator": "PDF page 74, Legislative Biography—2025 Session, Brittney M. Miller"
+        },
+        {
+          "source": "src:thenevadaindependent-com-241dc78c98",
+          "quote": "A teacher in the Clark County School District, Miller has served in the Assembly since 2016.",
+          "locator": "State Assembly, District 5, Brittney M. Miller entry"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
