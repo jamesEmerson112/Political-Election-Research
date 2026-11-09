@@ -2,7 +2,16 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/district-court-dept-5",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:veronica-barisich",
+      "name": "Veronica Barisich"
+    },
+    {
+      "person": "person:tracy-hibbetts",
+      "name": "Tracy Hibbetts"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
