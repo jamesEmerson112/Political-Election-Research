@@ -14,6 +14,21 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas, Nevada",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: 1995 – Las Vegas, Nevada",
+          "locator": "PDF page 86, Legislative Biography—2025 Session, Selena Torres-Fossett"
+        },
+        {
+          "source": "src:thenevadaindependent-com-7432fcf4c1",
+          "quote": "I was born in Las Vegas, Nevada.",
+          "locator": "Interview, first answer"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

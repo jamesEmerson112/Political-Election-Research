@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-7432fcf4c1",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "publisher": "The Nevada Independent",
+  "title": "Freshman Orientation: Democratic Assemblywoman Selena Torres",
+  "url": "https://thenevadaindependent.com/article/freshman-orientation-democratic-assemblywoman-selena-torres",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
