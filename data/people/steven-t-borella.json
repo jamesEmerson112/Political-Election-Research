@@ -3,6 +3,23 @@
   "id": "steven-t-borella",
   "name": "Steven T. Borella",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Libertarian Party of Nevada",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Borella, Steven T. LPN",
+          "locator": "PDF page 6, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY RECORDER"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "LPN = Libertarian Party of Nevada",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
