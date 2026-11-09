@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.eleni-kounalakis--person.kevin-mullin--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:kevin-mullin",
+  "endorser": "person:eleni-kounalakis",
+  "citations": [
+    {
+      "source": "src:kevinmullinforcongress-com-86df497df3",
+      "quote": "California Lt. Governor\nEleni Kounalakis",
+      "locator": "Endorsements, Elected Officials, Federal and State"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

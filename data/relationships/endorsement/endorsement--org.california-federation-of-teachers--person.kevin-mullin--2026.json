@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-federation-of-teachers--person.kevin-mullin--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:kevin-mullin",
+  "endorser": "org:california-federation-of-teachers",
+  "citations": [
+    {
+      "source": "src:cft-org-a50c9ed002",
+      "quote": "CD 15 Kevin Mullin*",
+      "locator": "Page 2, U.S. HOUSE (\"* Incumbent\")"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

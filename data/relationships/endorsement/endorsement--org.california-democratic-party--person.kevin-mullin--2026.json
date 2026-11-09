@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-democratic-party--person.kevin-mullin--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:kevin-mullin",
+  "endorser": "org:california-democratic-party",
+  "citations": [
+    {
+      "source": "src:cadem-org-aeb4feb5a7",
+      "quote": "CA 15 - Kevin Mullin",
+      "locator": "U.S. Congress"
+    },
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "U.S. Representative District 15: Kevin Mullin",
+      "locator": "p. 23 (PDF page 25), Party Endorsements of Candidates, Democratic Party"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
