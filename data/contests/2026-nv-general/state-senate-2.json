@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/state-senate-2",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Senate District 2",
+  "office": "State Senate",
+  "candidates": [
+    {
+      "person": "person:edgar-flores",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 2 Flores, Edgar DEM",
+          "locator": "PDF page 2, List of Candidates, Partisan Offices, State Senate, 4-Year Term, District 2"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "State Senate District 2 Flores Edgar DEM 4",
+          "locator": "PDF page 2 (Page 2 of 10), STATE PARTISAN, State Senate District 2"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-318e9ea062",
+          "quote": "Flores, Edgar Democratic No. 2 Clark (Part) Currently Serving",
+          "locator": "83rd (2025) Session Senate roster: holds Senate District 2"
+        }
+      ]
+    }
+  ],
+  "district": 2,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}

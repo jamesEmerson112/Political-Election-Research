@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-318e9ea062",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislative Counsel Bureau",
+  "title": "Senate Legislators, 83rd (2025) Session",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Senate/83rd2025"
+}

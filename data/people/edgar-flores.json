@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "edgar-flores",
+  "name": "Edgar Flores",
+  "aliases": [],
+  "ids": [],
+  "links": {
+    "official_site": "https://www.leg.state.nv.us/App/Legislator/A/Senate/83rd2025/2"
+  },
+  "public_figure": true,
+  "last_verified": "2026-11-09"
+}
