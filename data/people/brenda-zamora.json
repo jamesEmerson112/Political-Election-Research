@@ -96,6 +96,22 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "High school diploma",
+          "institution": "Mojave High School",
+          "year": 2011,
+          "citations": [
+            {
+              "source": "src:ccsd-net-1e79130503",
+              "quote": "She graduated from Mojave High School in 2011 and attended Nevada State College with aspirations of becoming a teacher."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Nonprofit deputy director (Make It Work Nevada)",
       "citations": [
