@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.american-independent-party--person.sonja-shaw--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:sonja-shaw",
+  "endorser": "org:american-independent-party",
+  "citations": [
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "State Assembly District 19: Catherine Stefani Superintendent of Public Instruction: Sonja Shaw",
+      "locator": "p. 23 (PDF page 25), Party Endorsements of Candidates, American Independent Party"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Party endorsement as filed with election officials and printed in the San Francisco Department of Elections' official voter information pamphlet."
+}

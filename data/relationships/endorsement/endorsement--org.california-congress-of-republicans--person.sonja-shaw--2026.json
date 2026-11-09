@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-congress-of-republicans--person.sonja-shaw--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:sonja-shaw",
+  "endorser": "org:california-congress-of-republicans",
+  "citations": [
+    {
+      "source": "src:ccr-gop-com-19005a18fc",
+      "quote": "Sonja Shaw  , Superintendent of Public Instruction",
+      "locator": "CCR Endorsements 2026, statewide offices"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
