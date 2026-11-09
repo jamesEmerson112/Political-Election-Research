@@ -76,6 +76,60 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Warner Bros. Studios",
+          "role": "Labor relations",
+          "citations": [
+            {
+              "source": "src:lorilovesnevada-com-ef526f8690",
+              "quote": "I previously worked at Warner Bros. Studios in Labor Relations assisting with the WGA, DGA, SAG, AFTRA, and Local 839 - Animation claims and negotiations."
+            },
+            {
+              "source": "src:thenevadaindependent-com-af7e630f0d",
+              "quote": "Her experience ranges from working in labor relations at Warner Bros. Studios, assisting with claims and negotiations for various unions, to head of special projects at Cartoon Network Studios, where she recruited new artists, conducted portfolio reviews and produced several large scale projects.",
+              "locator": "Board of Regent, District 8"
+            }
+          ]
+        },
+        {
+          "organization": "Cartoon Network Studios",
+          "role": "Head of Special Projects",
+          "citations": [
+            {
+              "source": "src:lorilovesnevada-com-ef526f8690",
+              "quote": "I was also the head of Special Projects at Cartoon Network Studios"
+            },
+            {
+              "source": "src:thenevadaindependent-com-af7e630f0d",
+              "quote": "Her experience ranges from working in labor relations at Warner Bros. Studios, assisting with claims and negotiations for various unions, to head of special projects at Cartoon Network Studios, where she recruited new artists, conducted portfolio reviews and produced several large scale projects.",
+              "locator": "Board of Regent, District 8"
+            }
+          ]
+        },
+        {
+          "role": "Full-time contract work and creator of original IP",
+          "citations": [
+            {
+              "source": "src:lorilovesnevada-com-ef526f8690",
+              "quote": "I started creating IPs and did contract work full time when the industry down turn around 2010."
+            }
+          ]
+        },
+        {
+          "role": "Self-employed; founder of a fabrication company making puppets, props and costumes",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-af7e630f0d",
+              "quote": "She is currently shelf-employed and has started a fabrication company making puppets, props and costumes.",
+              "locator": "Board of Regent, District 8"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [],
