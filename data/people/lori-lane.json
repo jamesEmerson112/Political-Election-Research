@@ -4,6 +4,42 @@
   "name": "Lori Lane",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born birthplace age hometown",
+          "where": "Candidate website lorilovesnevada.com (home, About-Me-Lori-Lane, About-Lori-Lane-Work, Lori-Lane-FAQ, The-TLDR, Lori-Lane-Endorsements-Donations, PressRoom)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born age hometown",
+          "where": "Sierra Nevada Ally candidate questionnaire (sierranevadaally.org/profile/lori-lane/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lori Lane born age",
+          "where": "The Nevada Independent 2026 general and primary Board of Regents voter guides; Nevada Current District 8 race preview (2026-09-28)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lori Lane\" Board of Regents District 8 Nevada candidate",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lori Lane\" Cartoon Network special projects Nevada regent candidate born raised",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lori Lane",
+          "where": "NSHE Board of Regents pages (nshe.nevada.edu) and Nevada Secretary of State (nvsos.gov): blocked from this environment"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
