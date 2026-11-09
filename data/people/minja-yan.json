@@ -44,6 +44,55 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Millennium Commercial Properties",
+          "role": "Commercial real estate",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-962e2dbb2e",
+              "quote": "From there, Yan has worked in commercial real estate at the firm Millennium Commercial Properties for more than seven years, and has served as an adjunct professor at UNLV teaching real estate for almost a year."
+            }
+          ]
+        },
+        {
+          "organization": "University of Nevada, Las Vegas",
+          "role": "Adjunct professor, commercial real estate",
+          "citations": [
+            {
+              "source": "src:voteminja-com-b461cf4828",
+              "quote": "a former UNLV commercial real estate adjunct professor"
+            },
+            {
+              "source": "src:thenevadaindependent-com-962e2dbb2e",
+              "quote": "has served as an adjunct professor at UNLV teaching real estate for almost a year"
+            }
+          ]
+        },
+        {
+          "organization": "AAPI Chamber of Commerce",
+          "role": "Board member",
+          "citations": [
+            {
+              "source": "src:unlv-edu-d2d21f3bfe",
+              "quote": "She is also on the board of the AAPI Chamber of Commerce and the Urban Land Institute Nevada district council."
+            }
+          ]
+        },
+        {
+          "organization": "Urban Land Institute Nevada",
+          "role": "District council member",
+          "citations": [
+            {
+              "source": "src:unlv-edu-d2d21f3bfe",
+              "quote": "She is also on the board of the AAPI Chamber of Commerce and the Urban Land Institute Nevada district council."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
