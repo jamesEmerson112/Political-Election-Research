@@ -37,6 +37,101 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "term-limits-for-politicians",
+        "as_of": "2026-11-09",
+        "issue": "government",
+        "summary": "Redwood City Pulse and The Almanac reported that one of his top objectives is to impose term limits on politicians.",
+        "title": "Term limits for politicians",
+        "citations": [
+          {
+            "source": "src:rwcpulse-com-5e3badcc53",
+            "quote": "His top three objectives are to keep “men out of women[‘s] sports,” impose term limits on politicians, require voter ID at elections and “clean-up” voter rolls for all states.",
+            "locator": "Charles Hoelter (R) section"
+          },
+          {
+            "source": "src:almanacnews-com-0cc41ae767",
+            "quote": "His top three objectives are to keep “men out of women(‘s) sports,” impose term limits on politicians, require voter ID at elections and “clean-up” voter rolls for all states."
+          }
+        ]
+      },
+      {
+        "id": "voter-id-at-elections",
+        "as_of": "2026-11-09",
+        "issue": "government",
+        "summary": "Redwood City Pulse and The Almanac reported that one of his top objectives is to require voter ID at elections.",
+        "title": "Voter ID at elections",
+        "citations": [
+          {
+            "source": "src:rwcpulse-com-5e3badcc53",
+            "quote": "His top three objectives are to keep “men out of women[‘s] sports,” impose term limits on politicians, require voter ID at elections and “clean-up” voter rolls for all states.",
+            "locator": "Charles Hoelter (R) section"
+          },
+          {
+            "source": "src:almanacnews-com-0cc41ae767",
+            "quote": "His top three objectives are to keep “men out of women(‘s) sports,” impose term limits on politicians, require voter ID at elections and “clean-up” voter rolls for all states."
+          }
+        ]
+      },
+      {
+        "id": "clean-up-voter-rolls",
+        "as_of": "2026-11-09",
+        "issue": "government",
+        "summary": "Redwood City Pulse and The Almanac reported that one of his top objectives is to “clean-up” voter rolls for all states.",
+        "title": "Voter roll clean-up in all states",
+        "citations": [
+          {
+            "source": "src:rwcpulse-com-5e3badcc53",
+            "quote": "His top three objectives are to keep “men out of women[‘s] sports,” impose term limits on politicians, require voter ID at elections and “clean-up” voter rolls for all states.",
+            "locator": "Charles Hoelter (R) section"
+          },
+          {
+            "source": "src:almanacnews-com-0cc41ae767",
+            "quote": "His top three objectives are to keep “men out of women(‘s) sports,” impose term limits on politicians, require voter ID at elections and “clean-up” voter rolls for all states."
+          }
+        ]
+      },
+      {
+        "id": "womens-sports-eligibility",
+        "as_of": "2026-11-09",
+        "issue": "civil-rights",
+        "summary": "Redwood City Pulse and The Almanac reported that one of his top objectives is to keep “men out of women[‘s] sports” (Redwood City Pulse wording).",
+        "title": "Women's sports eligibility",
+        "citations": [
+          {
+            "source": "src:rwcpulse-com-5e3badcc53",
+            "quote": "His top three objectives are to keep “men out of women[‘s] sports,” impose term limits on politicians, require voter ID at elections and “clean-up” voter rolls for all states.",
+            "locator": "Charles Hoelter (R) section"
+          },
+          {
+            "source": "src:almanacnews-com-0cc41ae767",
+            "quote": "His top three objectives are to keep “men out of women(‘s) sports,” impose term limits on politicians, require voter ID at elections and “clean-up” voter rolls for all states."
+          }
+        ]
+      },
+      {
+        "id": "high-school-apprenticeship-programs",
+        "as_of": "2026-11-09",
+        "issue": "education",
+        "summary": "Redwood City Pulse and The Almanac reported that he would like to create apprenticeship programs in high schools in all states.",
+        "title": "Apprenticeship programs in high schools",
+        "citations": [
+          {
+            "source": "src:rwcpulse-com-5e3badcc53",
+            "quote": "Hoelter has been married 31 years, has three children and would like to create apprenticeship programs in high schools in all states.",
+            "locator": "Charles Hoelter (R) section"
+          },
+          {
+            "source": "src:almanacnews-com-0cc41ae767",
+            "quote": "He has been married 31 years, has three children and would like to create apprenticeship programs in high schools in all states."
+          }
+        ]
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
