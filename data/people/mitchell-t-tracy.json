@@ -110,6 +110,47 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "campaign website mitchelltracy.com, home/About section (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "The Nevada Independent, 2026-09-19 article on Clark County downballot offices (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "The Nevada Independent 2026 Nevada Voter Guide, Clark County page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "Las Vegas Review-Journal, 2022-10-06 treasurer race article (opened; gives age only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mitchell Tracy Clark County Treasurer 2026 Republican candidate",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Mitchell Tracy Nevada candidate campaign website Las Vegas",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in",
+          "where": "goodparty.org profile (HTTP 429, not reached); nvsos.gov candidate filings (blocked)"
+        }
+      ]
     }
   },
   "ids": [],
