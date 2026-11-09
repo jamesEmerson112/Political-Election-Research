@@ -2,7 +2,12 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/district-court-family-dept-b",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:linda-marquis",
+      "name": "Linda Marquis"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
