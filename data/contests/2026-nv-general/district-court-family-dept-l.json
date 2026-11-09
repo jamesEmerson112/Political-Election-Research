@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-l",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department L",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:david-s-gibson-jr",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Gibson, Jr., David S. NP",
+          "locator": "PDF page 10, NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT L (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Gibson, Jr. David S. NP 6",
+          "locator": "PDF page 7 (Page 7 of 10), District Court Judge Family Division Department L row (last name, first name, party NP, term in years)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department L Gibson, Jr. David NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department L: the current office holder"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "L FAMILY 9 David S. Gibson",
+          "locator": "Judicial departments table (family/juvenile), DEPT# L row (dept, location, courtroom, judge): the sitting judge of Family Division Department L"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
