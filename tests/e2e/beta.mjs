@@ -582,17 +582,23 @@ async function openAll(p, route) {
   const houseLabel = await text(house);
   await house.click();
   const after = await hrefs();
+  // The listed part grows as research lands, so compare with the same page fully unfolded rather than a fixed height.
+  const full = await p.evaluate(async () => {
+    for (const b of document.querySelectorAll('button.more[aria-expanded="false"]')) b.click();
+    await new Promise((r) => setTimeout(r, 300));
+    return document.documentElement.scrollHeight;
+  });
   await p.locator("#contest-filter").fill("CA-27");
   await p.waitForTimeout(200);
   const filtered = await hrefs();
   check(
-    "9d. the Overview folds contests not researched yet (under 5,000px); Show reveals them; the filter finds them",
-    h < 5000 &&
+    "9d. the Overview folds contests not researched yet (under 60% of its unfolded height); Show reveals them; the filter finds them",
+    h < full * 0.6 &&
       before.includes("#c-2026-ca-general--us-house-ca-11") &&
       !before.includes("#c-2026-ca-general--us-house-ca-1") &&
       after.includes("#c-2026-ca-general--us-house-ca-1") &&
       filtered.includes("#c-2026-ca-general--us-house-ca-27"),
-    `${h}px; "${houseLabel}"`,
+    `${h}px folded, ${full}px unfolded; "${houseLabel}"`,
   );
   await c.close();
 }
