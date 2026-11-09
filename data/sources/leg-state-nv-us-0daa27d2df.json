@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-0daa27d2df",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislative Counsel Bureau",
+  "title": "Senator Moises (Mo) Denis (81st (2021) Session legislator page)",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Senate/81st2021/2"
+}

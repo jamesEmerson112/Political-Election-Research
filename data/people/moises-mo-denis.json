@@ -3,6 +3,23 @@
   "id": "moises-mo-denis",
   "name": "Moises \"Mo\" Denis",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-0daa27d2df",
+          "quote": "Party: Democratic",
+          "locator": "Nevada Legislature legislator page, 81st (2021) Session, Senate District 2 (party while serving in the Senate)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-87dcecf259",
+          "quote": "former state lawmaker Mo Denis (D-Las Vegas)",
+          "locator": "\"Board of Regents\" section (June 11, 2026)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,

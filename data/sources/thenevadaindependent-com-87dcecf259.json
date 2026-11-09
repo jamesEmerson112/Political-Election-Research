@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-87dcecf259",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-06-11",
+  "publisher": "The Nevada Independent",
+  "title": "Former Nevada lawmakers nab most votes in school board, regent races",
+  "url": "https://thenevadaindependent.com/article/former-nevada-lawmakers-nab-most-votes-in-school-board-regent-races"
+}
