@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "law-unlv-edu-df03d56919",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2021-11-05",
+  "publisher": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+  "title": "Jasmin Lilly-Spells '09 (Alumni Spotlight)",
+  "url": "https://law.unlv.edu/news/publications/boyd-briefs/alumni-spotlight-jasmin-lilly-spells-09"
+}
