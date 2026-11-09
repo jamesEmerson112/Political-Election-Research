@@ -13,6 +13,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Detroit, Michigan",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: Detroit, Michigan",
+          "locator": "PDF page 74, Legislative Biography—2025 Session, Brittney M. Miller (Democrat, Assembly District 5)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-3cd576843e",
+          "quote": "Brittney Miller was born in 1974 in Detroit"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
