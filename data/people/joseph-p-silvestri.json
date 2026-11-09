@@ -70,6 +70,33 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A.",
+          "institution": "SUNY College at New Paltz",
+          "citations": [
+            {
+              "source": "src:silvestri4silverstate-com-1cbb152a6e",
+              "quote": "After obtaining his B.A. from SUNY College at New Paltz and his M.A. from SUNY at Stonybrook, Joe moved to Las Vegas in 1997.",
+              "locator": "Home page, biography paragraph"
+            }
+          ]
+        },
+        {
+          "degree": "M.A.",
+          "institution": "SUNY at Stonybrook",
+          "citations": [
+            {
+              "source": "src:silvestri4silverstate-com-1cbb152a6e",
+              "quote": "After obtaining his B.A. from SUNY College at New Paltz and his M.A. from SUNY at Stonybrook, Joe moved to Las Vegas in 1997.",
+              "locator": "Home page, biography paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Teacher (educator with the Clark County School District)",
       "citations": [
