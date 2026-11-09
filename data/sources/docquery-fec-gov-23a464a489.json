@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "docquery-fec-gov-23a464a489",
+  "kind": "campaign_finance_filing",
+  "accessed": "2026-11-09",
+  "filing": {
+    "filer_id": "H6CA15194",
+    "filing_id": "202602069825933989",
+    "form": "F2",
+    "system": "fec"
+  },
+  "published": "2026-02-06",
+  "publisher": "Federal Election Commission",
+  "title": "FEC Form 2, Statement of Candidacy, Charles Hoelter (H6CA15194), image 202602069825933989",
+  "url": "https://docquery.fec.gov/pdf/989/202602069825933989/202602069825933989.pdf"
+}

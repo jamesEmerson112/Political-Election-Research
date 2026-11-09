@@ -94,6 +94,16 @@
           "locator": "PDF page 7 (list page 6 of 41), United States Representative District 15"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Mateo",
+      "citations": [
+        {
+          "source": "src:docquery-fec-gov-23a464a489",
+          "quote": "San Mateo CA 94401",
+          "locator": "Line 1(c), candidate's city, state and ZIP code"
+        }
+      ]
     }
   },
   "ids": [],
