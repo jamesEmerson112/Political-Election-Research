@@ -65,6 +65,66 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2017",
+          "organization": "Dempsey, Roberts & Smith",
+          "role": "Attorney, later senior attorney (civil litigation and family law)",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-0f7e119b9c",
+              "quote": "Barisich earned her law degree in 2004, then went to work for the law firm of Dempsey, Roberts & Smith. She became a senior attorney at the firm. She practiced civil litigation and family law until 2017.",
+              "locator": "background paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "Mandarich Law Group",
+          "role": "Attorney (civil litigation and consumer debt law)",
+          "start": "2017",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-0f7e119b9c",
+              "quote": "She practiced civil litigation and family law until 2017. That year, Barisich joined Mandarich Law Group, focusing on civil litigation and consumer debt law.",
+              "locator": "background paragraph"
+            },
+            {
+              "source": "src:thenevadaindependent-com-201cc127cc",
+              "quote": "Her 2020 election profile with The Nevada Independent indicates she was an attorney with Mandarich Law Group at the time of her election.",
+              "locator": "Candidate deep dive, Barisich, CAREER HIGHLIGHTS"
+            }
+          ]
+        },
+        {
+          "role": "Small Claims Court Judge Pro Tem",
+          "citations": [
+            {
+              "source": "src:judgebarisich-com-bb18ec2105",
+              "quote": "Judge Barisich also served as a Small Claims Court Judge Pro Tem and as a member of the State Bar of Nevada Fee Dispute Committee.",
+              "locator": "About, An Experienced Nevada Attorney"
+            },
+            {
+              "source": "src:nevadacurrent-com-0c376cc873",
+              "quote": "Bariscih has volunteered as a mediator and arbitrator, and served as an appointed Justice of the Peace Pro Tem in Las Vegas Small Claim Court, according to her website.",
+              "locator": "Barisich paragraphs (the source misspells her name)"
+            }
+          ]
+        },
+        {
+          "organization": "State Bar of Nevada",
+          "role": "Member, Fee Dispute Committee",
+          "citations": [
+            {
+              "source": "src:judgebarisich-com-bb18ec2105",
+              "quote": "Former member of the State Bar of Nevada Fee Dispute Committee for a decade",
+              "locator": "About, Professional & Bar Service"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
