@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountynv-gov-5270d726d5",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2026-06-24",
+  "publisher": "Clark County Election Department",
+  "title": "Contests and Candidates in the 2026 Elections in Clark County, Nevada",
+  "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:fe5dbe41-e2b2-402e-a651-cbe5e6ea53bc/original/as/Contests-Candidates-All-26.pdf"
+}

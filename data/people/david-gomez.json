@@ -3,6 +3,27 @@
   "id": "david-gomez",
   "name": "David Gomez",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican (registration as reported by Nevada Current; the office is nonpartisan and the county candidate list shows NP)",
+      "citations": [
+        {
+          "source": "src:nevadacurrent-com-bc20fd52bf",
+          "quote": "Gomez is registered as a Republican."
+        },
+        {
+          "source": "src:clarkcountynv-gov-5270d726d5",
+          "quote": "Trustee Clark County School District D Gomez David NP 4 General",
+          "locator": "PDF page 17 (17 of 24), County Nonpartisan Offices"
+        },
+        {
+          "source": "src:clarkcountynv-gov-5270d726d5",
+          "quote": "NP = Nonpartisan (indicated for nonpartisan offices only)",
+          "locator": "PDF page 1, Abbreviations key"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
