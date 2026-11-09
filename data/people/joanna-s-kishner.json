@@ -29,6 +29,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Department 31",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-c54a9261fe",
+          "quote": "The Honorable Joanna S. Kishner is the Judge in Department XXXI of the Eighth Judicial District.",
+          "locator": "Biography tab, first paragraph"
+        },
+        {
+          "source": "src:judgekishner-com-151b556e92",
+          "quote": "Judge Joanna S. Kishner serves the people of Clark County as the presiding judge of Department XXXI of the Eighth Judicial District Court.",
+          "locator": "About page, A Profile in Service"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
