@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-police-union--person.joseph-lombardo--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:joseph-lombardo",
+  "endorser": "org:nevada-police-union",
+  "citations": [
+    {
+      "source": "src:joelombardofornv-com-c6e3240948",
+      "quote": "NAPSO's endorsement adds to the growing list of law enforcement and public safety groups that have endorsed Governor Lombardo for re-election."
+    },
+    {
+      "source": "src:joelombardofornv-com-c6e3240948",
+      "quote": "the Nevada Police Union (NPU)",
+      "locator": "list following \"You can find the full list here:\""
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

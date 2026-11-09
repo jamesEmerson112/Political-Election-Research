@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "nevada-association-of-public-safety-officers",
+  "name": "Nevada Association of Public Safety Officers",
+  "aliases": [
+    "NAPSO"
+  ],
+  "ids": [],
+  "jurisdiction": "other",
+  "links": {},
+  "org_type": "labor_union",
+  "last_verified": "2026-11-09"
+}

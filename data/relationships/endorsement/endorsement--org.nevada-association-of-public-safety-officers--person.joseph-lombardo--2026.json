@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.nevada-association-of-public-safety-officers--person.joseph-lombardo--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-08-13",
+  "endorsee": "person:joseph-lombardo",
+  "endorser": "org:nevada-association-of-public-safety-officers",
+  "citations": [
+    {
+      "source": "src:joelombardofornv-com-c6e3240948",
+      "quote": "LAS VEGAS, NV – Today, the Nevada Association of Public Safety Officers (NAPSO) proudly endorsed Governor Joe Lombardo for re-election."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

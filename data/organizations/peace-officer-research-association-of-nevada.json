@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "peace-officer-research-association-of-nevada",
+  "name": "Peace Officer Research Association of Nevada",
+  "aliases": [
+    "PORAN"
+  ],
+  "ids": [],
+  "jurisdiction": "other",
+  "links": {},
+  "org_type": "labor_union",
+  "last_verified": "2026-11-09"
+}

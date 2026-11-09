@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "digital-release-8newsnow-com-dc1d7c2b37",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-11-06",
+  "publisher": "KLAS",
+  "title": "President Trump endorses Nevada Governor Lombardo for re-election",
+  "url": "https://digital-release.8newsnow.com/news/politics/president-trump-endorses-nevada-governor-lombardo-for-re-election/"
+}
