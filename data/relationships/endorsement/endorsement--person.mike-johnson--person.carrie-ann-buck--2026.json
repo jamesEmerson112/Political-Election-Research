@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.mike-johnson--person.carrie-ann-buck--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:carrie-ann-buck",
+  "endorser": "person:mike-johnson",
+  "citations": [
+    {
+      "source": "src:carriebuckforcongress-com-7da71d4f51",
+      "quote": "Speaker of the House Mike Johnson",
+      "locator": "Federal Leaders"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.donald-trump--person.carrie-ann-buck--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:carrie-ann-buck",
+  "endorser": "person:donald-trump",
+  "citations": [
+    {
+      "source": "src:carriebuckforcongress-com-7da71d4f51",
+      "quote": "President of the United States Donald Trump",
+      "locator": "Federal Leaders"
+    },
+    {
+      "source": "src:thenevadaindependent-com-77b6fc7bd3",
+      "quote": "And Democrats argue that Buck, who has the president's endorsement, is more extreme than she lets on."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

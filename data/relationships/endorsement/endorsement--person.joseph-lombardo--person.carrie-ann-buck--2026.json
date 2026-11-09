@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.joseph-lombardo--person.carrie-ann-buck--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:carrie-ann-buck",
+  "endorser": "person:joseph-lombardo",
+  "citations": [
+    {
+      "source": "src:carriebuckforcongress-com-7da71d4f51",
+      "quote": "Governor Joe Lombardo",
+      "locator": "State Leaders"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

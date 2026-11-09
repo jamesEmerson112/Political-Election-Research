@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.stavros-anthony--person.carrie-ann-buck--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:carrie-ann-buck",
+  "endorser": "person:stavros-anthony",
+  "citations": [
+    {
+      "source": "src:carriebuckforcongress-com-7da71d4f51",
+      "quote": "Lieutenant Governor Stavros Anthony",
+      "locator": "State Leaders"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
