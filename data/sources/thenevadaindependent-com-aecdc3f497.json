@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-aecdc3f497",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "publisher": "The Nevada Independent",
+  "title": "District Court Judge, Eighth Judicial District, Department 28",
+  "url": "https://thenevadaindependent.com/elections/2026/general/judicial/94",
+  "notes": "2026 general election guide page for the race (Indy analysis and candidate deep dives)."
+}

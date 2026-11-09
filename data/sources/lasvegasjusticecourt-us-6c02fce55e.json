@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegasjusticecourt-us-6c02fce55e",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Las Vegas Justice Court",
+  "title": "Judge Noreen DeMonte",
+  "url": "https://lasvegasjusticecourt.us/judges/judge_noreen_demonte.php"
+}

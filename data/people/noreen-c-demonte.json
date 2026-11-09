@@ -106,6 +106,31 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Justice of the Peace (judge), Las Vegas Township Justice Court, Department 10",
+      "citations": [
+        {
+          "source": "src:lasvegasjusticecourt-us-6c02fce55e",
+          "quote": "Las Vegas Township Justice Court",
+          "locator": "Judge Noreen DeMonte page, under 'Department Ten'"
+        },
+        {
+          "source": "src:lasvegasjusticecourt-us-6c02fce55e",
+          "quote": "Term of Office 2023 - Present",
+          "locator": "Judge Noreen DeMonte page"
+        },
+        {
+          "source": "src:noreen4judge-com-ff99a71fb5",
+          "quote": "Noreen has represented our community in court, and now she presides over criminal and civil cases as a Las Vegas Justice Court Judge.",
+          "locator": "About (Meet Noreen)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-aecdc3f497",
+          "quote": "Justice of the Peace, Las Vegas Justice Court, Dept. 10",
+          "locator": "Candidate deep dive, DeMonte, Title"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
