@@ -14,6 +14,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Hanford, California",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-e046420c20",
+          "quote": "Born: 1968 – Hanford, California",
+          "locator": "Legislative Biography, page 1"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
