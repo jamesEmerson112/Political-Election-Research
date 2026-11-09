@@ -1,6 +1,47 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:alida-fisher",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "\"Alida Fisher\" controversy OR complaint OR lawsuit OR criticism",
+        "where": "Web search (news), results reviewed for any matter documented by two independent publishers or an official record"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alida Fisher",
+        "where": "Mission Local WordPress search (missionlocal.org/wp-json/wp/v2/posts?search=...), 20 most recent posts, including the 2026 school board candidate series, slate, forum and results articles"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alida Fisher",
+        "where": "San Francisco Ethics Commission site search (sfethics.org/?s=...): Nothing Found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "complaint, investigation, lawsuit, response to criticism",
+        "where": "Candidate questionnaire already in the dataset (GrowSF, November 2026), campaign site (issues, about), SFUSD commissioner page, SF Voter Information Pamphlet candidate statement"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alida Fisher",
+        "where": "Mission Local WordPress search, pages 2 and 3 (posts from 2012 to 2026, including her 2022 election and her 2023-2026 board term)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Alida Fisher\" school board 2023 2024 2025 vote backlash OR complaint OR apology",
+        "where": "Web search (news) on her board term, 2023-2026"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "scope",
+        "where": "Note: same outlets and databases, with no date restriction (matters through 2026-11-09), applied to every candidate in this package; FPPC enforcement page not searched; sfelections.org and web.archive.org blocked here"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-04",
     "items": [
