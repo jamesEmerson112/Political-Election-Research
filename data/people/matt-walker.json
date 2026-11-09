@@ -119,6 +119,29 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Judge, Las Vegas Municipal Court, Department 1",
+          "current": true,
+          "jurisdiction": "City of Las Vegas",
+          "start": "2025-02",
+          "citations": [
+            {
+              "source": "src:clarkcountynv-gov-a96b8f6419",
+              "quote": "City of Las Vegas Municipal Court Judge Department 1 Walker (appointed in Feb. 2025) Matthew NP",
+              "locator": "PDF page 11, INCUMBENT (Current Office Holder) column"
+            },
+            {
+              "source": "src:lasvegasnevada-gov-18d24bf438",
+              "quote": "Municipal Court Department 1 Matthew Walker The Honorable Judge Matthew Walker",
+              "locator": "Department 1 judge page"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
