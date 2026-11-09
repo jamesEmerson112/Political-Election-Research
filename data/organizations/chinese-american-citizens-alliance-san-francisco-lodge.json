@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "chinese-american-citizens-alliance-san-francisco-lodge",
+  "name": "Chinese American Citizens Alliance San Francisco Lodge",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}

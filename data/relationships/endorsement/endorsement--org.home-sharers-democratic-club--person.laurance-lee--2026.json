@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.home-sharers-democratic-club--person.laurance-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:laurance-lee",
+  "endorser": "org:home-sharers-democratic-club",
+  "citations": [
+    {
+      "source": "src:homesharersdemclub-org-9fbb2f5046",
+      "quote": "Board of Education Lee, Laurence",
+      "locator": "San Francisco Candidates (name spelled \"Laurence\"; the row links https://www.lauranceleesf.com/)"
+    },
+    {
+      "source": "src:lauranceleesf-com-83540a95e6",
+      "quote": "Home Sharers Democratic Club",
+      "locator": "Organizations"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

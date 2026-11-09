@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.chinese-american-democratic-club--person.laurance-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:laurance-lee",
+  "endorser": "org:chinese-american-democratic-club",
+  "citations": [
+    {
+      "source": "src:lauranceleesf-com-83540a95e6",
+      "quote": "ORGANIZATIONS Chinese American Democratic Club",
+      "locator": "Organizations"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

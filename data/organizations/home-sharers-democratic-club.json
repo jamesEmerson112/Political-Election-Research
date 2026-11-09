@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "home-sharers-democratic-club",
+  "name": "Home Sharers Democratic Club",
+  "aliases": [
+    "HSDC"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}
