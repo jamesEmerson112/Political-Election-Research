@@ -136,6 +136,40 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Family Division, Department N",
+          "current": true,
+          "first_elected": "2024",
+          "jurisdiction": "Eighth Judicial District Court (Clark County, Nevada)",
+          "start": "2025-01",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "Maxey was elected to the seat in 2024.",
+              "locator": "Kerri Jean Maxey, candidate summary"
+            },
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "Judge Maxey returned to the CCPD’s office in October 2023 and held this position until she was sworn onto the bench in January 2025.",
+              "locator": "Kerri Jean Maxey, Candidate deep dive, CAREER HIGHLIGHTS"
+            },
+            {
+              "source": "src:clarkcountynv-gov-a96b8f6419",
+              "quote": "District Court Judge Family Division Department N Maxey (elected to a 2-year unexpired term) Kerri NP 6",
+              "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column"
+            },
+            {
+              "source": "src:clarkcountycourts-us-583c1aca04",
+              "quote": "N FAMILY 3 Kerri Maxey",
+              "locator": "Judicial departments table (family/juvenile), DEPT# N row (dept, location, courtroom, judge)"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
