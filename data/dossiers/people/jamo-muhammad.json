@@ -1,6 +1,42 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:jamo-muhammad",
+  "promises": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Jamo Muhammad candidate statement",
+        "where": "SF Department of Elections, November 2026 Voter Information Pamphlet, Board of Supervisors District 10 candidate statements (printed pp. 47-51): no statement printed for him"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jamo Muhammad questionnaire",
+        "where": "GrowSF November 2026 District 10 questionnaires (growsf.org): none published for him"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jamo Muhammad priorities",
+        "where": "KQED voter guide and results page, Board of Supervisors District 10 (kqed.org): Positions on Key Issues has only a general statement about representing community needs as development pressures mount, no specific proposal"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jamo Muhammad forum",
+        "where": "Local News Matters / Bay City News, Aug. 2, 2026 report on the July 30 District 10 forum: reports only that he agreed the Navy should be held accountable for the shipyard, no specific proposal"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jamo Muhammad",
+        "where": "Mission Local 'Meet the District 10 candidates' (Aug. 27, 2026): not included; Local News Matters Nov. 1, 2026 race overview: covers three other candidates"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Jamo Muhammad\" San Francisco District 10 supervisor; campaign website",
+        "where": "Web search: no campaign website or platform found"
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
