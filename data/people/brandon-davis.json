@@ -4,6 +4,47 @@
   "name": "Brandon Davis",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "electbrandondavis.com (campaign site; on 2026-11-09 every path tried, including /about/, /meet-brandon/ and news posts, showed only the post-election letter)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "ivoterguide.com candidate 71807 (candidate-supplied biography: education, work, affiliations only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Brandon Davis",
+          "where": "thenevadaindependent.com 2026 Clark State Assembly guide (one-line candidate summary)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Brandon Davis",
+          "where": "reviewjournal.com, April 18, 2025 article on DOGE NEVADA"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Brandon Davis\" Nevada governor 2022 Libertarian interview born raised",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Brandon Davis\" Nevada candidate Rockford OR \"Auburn High School\"",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "ballotpedia.org/Brandon_Davis (reference site, a lead only: gives no birth date)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
