@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.malia-m-cohen--person.stephen-sherrill--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:stephen-sherrill",
+  "endorser": "person:malia-m-cohen",
+  "citations": [
+    {
+      "source": "src:votestephensherrill-com-2acecad131",
+      "quote": "malia cohen STATE CONTROLLER",
+      "locator": "Endorsements"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

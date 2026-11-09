@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-democratic-party--person.stephen-sherrill--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:stephen-sherrill",
+  "endorser": "org:san-francisco-democratic-party",
+  "citations": [
+    {
+      "source": "src:sfdems-org-9766e438e5",
+      "quote": "BOARD OF SUPERVISORS District 2 Stephen Sherrill",
+      "locator": "City and County, Board of Supervisors"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
