@@ -152,19 +152,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 3036774,
-    "yes_votes": 4783474,
+    "no_votes": 3826331,
+    "yes_votes": 6284733,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Creates Loan Program For Middle-Income Buyers Of Qualified New Homes. Initiative Statute.\", \"Number\": \"37\", \"yesVotes\": \"4783474\", \"yesPercent\": \"61.2\", \"noVotes\": \"3036774\", \"noPercent\": \"38.8\"",
+        "quote": "\"Name\": \"Creates Loan Program For Middle-Income Buyers Of Qualified New Homes. Initiative Statute.\", \"Number\": \"37\", \"yesVotes\": \"6284733\", \"yesPercent\": \"62.2\", \"noVotes\": \"3826331\", \"noPercent\": \"37.8\"",
         "locator": "ballot-measures, Number 37"
       }
     ]
@@ -179,5 +179,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
