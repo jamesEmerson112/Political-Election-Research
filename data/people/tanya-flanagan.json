@@ -3,6 +3,22 @@
   "id": "tanya-flanagan",
   "name": "Tanya Flanagan",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Senior Training Coordinator, Clark County Recorder's Office",
+      "citations": [
+        {
+          "source": "src:votetanyaflanagan-com-0e06ca1429",
+          "quote": "I currently serve as Senior Training Coordinator in the Clark County Recorder’s Office and am a principal member of the administrative leadership team."
+        },
+        {
+          "source": "src:thenevadaindependent-com-8102f7e6b3",
+          "quote": "Flanagan, senior training coordinator in the recorder's office, is finishing out a term as a Democrat in the Assembly and has 23 years of experience working in Clark County government.",
+          "locator": "section 'Recorder'"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
