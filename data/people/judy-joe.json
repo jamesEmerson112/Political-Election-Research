@@ -116,6 +116,19 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Former federal employee",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-b73a363833",
+          "quote": "Joe, a former federal employee"
+        },
+        {
+          "source": "src:thenevadaindependent-com-8102f7e6b3",
+          "quote": "Former Clark County School Board Trustee Kevin Child and former federal worker Judy Joe — both Republicans"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

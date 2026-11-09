@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-8102f7e6b3",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-05-16",
+  "publisher": "The Nevada Independent",
+  "title": "Assessor, recorder, public administrator: Who's running in Clark County down-ballot races?",
+  "url": "https://thenevadaindependent.com/article/assessor-recorder-public-administrator-whos-running-in-clark-county-down-ballot-races"
+}
