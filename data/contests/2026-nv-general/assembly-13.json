@@ -1,0 +1,112 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-13",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 13",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:daniel-andrews",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Andrews Daniel DEM",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 13 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "13 Daniel Andrews Gage C. Beck Brian Hibbetts* Democrat Libertarian Republican",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 13 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 2, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Hibbetts, Brian Republican No. 13 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Brian Hibbetts represented District 13 in the 2025 session"
+        }
+      ]
+    },
+    {
+      "person": "person:gage-c-beck",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Libertarian Party of Nevada",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Beck Gage C. LPN",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 13 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "LPN = Libertarian Party of Nevada",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "13 Daniel Andrews Gage C. Beck Brian Hibbetts* Democrat Libertarian Republican",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 13 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 2, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Hibbetts, Brian Republican No. 13 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Brian Hibbetts represented District 13 in the 2025 session"
+        }
+      ]
+    },
+    {
+      "person": "person:brian-hibbetts",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Hibbetts Brian REP",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 13 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "13 Daniel Andrews Gage C. Beck Brian Hibbetts* Democrat Libertarian Republican",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 13 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 2, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Hibbetts, Brian Republican No. 13 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Brian Hibbetts represented District 13 in the 2025 session"
+        }
+      ]
+    }
+  ],
+  "district": 13,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
