@@ -86,6 +86,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Department 29 (incumbent)",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXIX PHOENIX 11th FL Jacob A. Reynolds",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXIX row (dept, location, courtroom, judge)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-ce0610a812",
+          "quote": "Incumbent District Court Judge, Dept. 29",
+          "locator": "Jacob Reynolds, Candidate Deep Dive, TITLE"
+        },
+        {
+          "source": "src:reviewjournal-com-c402fb9754",
+          "quote": "I have worked as your Judge for the last three years.",
+          "locator": "Clark County District Court Dept. 29, Jacob Reynolds, Experience (candidate's answer)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
