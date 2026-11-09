@@ -54,6 +54,39 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Master of Divinity",
+          "institution": "Howard University",
+          "citations": [
+            {
+              "source": "src:kamilah4nevadans-com-f2581fb10c",
+              "quote": "After three years in the classroom, Kamilah felt a strong call to ministry and returned to Howard University to pursue a Master of Divinity."
+            },
+            {
+              "source": "src:thenevadaindependent-com-5313f6f6aa",
+              "quote": "She later co-founded the Las Vegas Alliance of Black School Educators and is currently pursuing a Ph.D. in special education at UNLV, on top of a master of divinity she already holds from Howard University."
+            }
+          ]
+        },
+        {
+          "degree": "Ph.D. in Special Education (in progress)",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:kamilah4nevadans-com-f2581fb10c",
+              "quote": "Upon returning to Nevada, Kamilah enrolled at UNLV to pursue her PhD in Special Education."
+            },
+            {
+              "source": "src:thenevadaindependent-com-5313f6f6aa",
+              "quote": "She later co-founded the Las Vegas Alliance of Black School Educators and is currently pursuing a Ph.D. in special education at UNLV, on top of a master of divinity she already holds from Howard University."
+            }
+          ]
+        }
+      ]
+    },
     "offices_held": {
       "as_of": "2026-11-09",
       "items": [],
