@@ -3,6 +3,27 @@
   "id": "michel-gaudet",
   "name": "Michel Gaudet",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Family law attorney, Kainen Law Group, PLLC (former District Court Judge, Family Division, Department N)",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-c261e20c63",
+          "quote": "Attorney, Kainen Law Group, PLLC; former District Court Judge, Family Division, Department N",
+          "locator": "Michel Gaudet, Candidate deep dive (Gaudet, Paul Michel), TITLE"
+        },
+        {
+          "source": "src:thenevadaindependent-com-c261e20c63",
+          "quote": "Gaudet, a family law attorney, was appointed to the seat in 2023 by Gov. Joe Lombardo.",
+          "locator": "Michel Gaudet, candidate summary"
+        },
+        {
+          "source": "src:kainenlawgroup-com-44f4967f4c",
+          "quote": "Paul joined Kainen Law Group in March 2025."
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kainenlawgroup-com-44f4967f4c",
+  "kind": "reference_work",
+  "accessed": "2026-11-09",
+  "publisher": "Kainen Law Group, PLLC",
+  "title": "Paul M. Gaudet, Attorney at Law",
+  "url": "https://www.kainenlawgroup.com/attorneys/paul-m-gaudet/",
+  "notes": "Attorney biography on the candidate's current law firm's website."
+}
