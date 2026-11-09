@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2019-ab-3070--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2019-ab-3070",
+  "cycle": 2020,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+      "quote": "A.B. No. 3070—Weber (Principal coauthor: Rendon)",
+      "locator": "PDF page 835, history of A.B. No. 3070 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+      "quote": "3070 318 Weber . . . . . . . . . . . . . . Juries: peremptory challenges. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2020",
+      "locator": "PDF page 1026, table of Assembly bills approved by Governor and chaptered—2020 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

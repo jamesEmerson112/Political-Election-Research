@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-2009",
+  "status": {
+    "value": "enacted",
+    "as_of": "2014-07-09",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "2009 105 Weber . . . . . . . . . . . . . . State Board of Equalization: administration: managed audit program. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 9, 2014",
+        "locator": "PDF page 1241, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "Jul. 9—Chaptered by Secretary of State − Chapter 105, Statutes of 2014",
+        "locator": "PDF page 685, history of A.B. No. 2009"
+      }
+    ]
+  },
+  "area": "government",
+  "title": {
+    "value": "State Board of Equalization: administration: managed audit program",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "2009 105 Weber . . . . . . . . . . . . . . State Board of Equalization: administration: managed audit program. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 9, 2014",
+        "locator": "PDF page 1241, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

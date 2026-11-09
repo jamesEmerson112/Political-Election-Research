@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-2298",
+  "status": {
+    "value": "enacted",
+    "as_of": "2016-09-28",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "2298 752 Weber . . . . . . . . . . . . . . Criminal gangs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 28, 2016",
+        "locator": "PDF page 1329, table of Assembly bills approved by Governor and chaptered—2016 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "Sep. 28—Chaptered by Secretary of State − Chapter 752, Statutes of 2016",
+        "locator": "PDF page 847, history of A.B. No. 2298"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Criminal gangs",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "2298 752 Weber . . . . . . . . . . . . . . Criminal gangs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 28, 2016",
+        "locator": "PDF page 1329, table of Assembly bills approved by Governor and chaptered—2016 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

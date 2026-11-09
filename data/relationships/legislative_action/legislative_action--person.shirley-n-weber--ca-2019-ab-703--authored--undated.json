@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2019-ab-703--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2019-ab-703",
+  "cycle": 2020,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+      "quote": "A.B. No. 703—Weber—Public postsecondary education: fee waivers for exonerated persons. (Chaptered − Chapter 436, Statutes of 2019.)",
+      "locator": "PDF page 202, history of A.B. No. 703 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+      "quote": "703 436 Weber . . . . . . . . . . . . . . Public postsecondary education: fee waivers for exonerated persons. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 2, 2019",
+      "locator": "PDF page 1011, table of Assembly bills approved by Governor and chaptered—2019 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

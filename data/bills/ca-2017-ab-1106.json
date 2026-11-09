@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-1106",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-10-12",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1106 716 Weber . . . . . . . . . . . . . . Child care and development services: alternative payment programs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 12, 2017",
+        "locator": "PDF page 1454, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "A.B. No. 1106—Weber—Child care and development services: alternative payment programs. (Chaptered − Chapter 716, Statutes of 2017.)",
+        "locator": "PDF page 269, history entry for A.B. No. 1106"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Child care and development services: alternative payment programs",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1106 716 Weber . . . . . . . . . . . . . . Child care and development services: alternative payment programs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 12, 2017",
+        "locator": "PDF page 1454, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

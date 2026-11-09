@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2015-ab-1381--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2015-ab-1381",
+  "cycle": 2016,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "A.B. No. 1381—Weber.",
+      "locator": "PDF page 354, history of A.B. No. 1381 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "1381 854 Weber . . . . . . . . . . . . . . Professions and vocations: real estate appraisers: real estate brokers. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2016",
+      "locator": "PDF page 1323, table of Assembly bills approved by Governor and chaptered—2016 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

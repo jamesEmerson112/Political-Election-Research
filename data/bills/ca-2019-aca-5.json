@@ -1,0 +1,67 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-aca-5",
+  "status": {
+    "value": "failed",
+    "as_of": "2020-11-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "Jun. 24—Read third time. Adopted. (Ayes 30. Noes 10. Page 3814.) Ordered to the Assembly.",
+        "locator": "PDF page 930, history of A.C.A. No. 5 (Senate vote)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "Jun. 25—Chaptered by Secretary of State − Res. Chapter 23, Statutes of 2020.",
+        "locator": "PDF page 930, history of A.C.A. No. 5"
+      },
+      {
+        "source": "src:vig-cdn-sos-ca-gov-b684b72b4f",
+        "quote": "This amendment proposed by Assembly Constitutional Amendment 5 of the 2019–2020 Regular Session (Resolution Chapter 23, Statutes of 2020) expressly amends the California Constitution by repealing a section thereof",
+        "locator": "page 1, Proposition 16"
+      },
+      {
+        "source": "src:elections-cdn-sos-ca-gov-4288ecb7f4",
+        "quote": "Proposition 16 Votes Percent Affirmative Action in Government Decisions Yes 7,217,064 42.8% No 9,655,595 57.2%",
+        "locator": "PDF page 16, statewide ballot measure results"
+      }
+    ]
+  },
+  "area": "civil_rights",
+  "summary": {
+    "value": "Constitutional amendment to repeal Section 31 of Article I of the California Constitution. The Legislature adopted it and filed it with the Secretary of State on June 25, 2020 (Resolution Chapter 23, Statutes of 2020); it appeared on the November 3, 2020 ballot as Proposition 16, which received 7,217,064 yes votes (42.8%) and 9,655,595 no votes (57.2%).",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "A resolution to propose to the people of the State of California an amendment to the Constitution of the State, by repealing Section 31 of Article I thereof, relating to government preferences.",
+        "locator": "PDF page 930, history of A.C.A. No. 5"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "Jun. 25—Chaptered by Secretary of State − Res. Chapter 23, Statutes of 2020.",
+        "locator": "PDF page 930, history of A.C.A. No. 5"
+      },
+      {
+        "source": "src:vig-cdn-sos-ca-gov-b684b72b4f",
+        "quote": "This amendment proposed by Assembly Constitutional Amendment 5 of the 2019–2020 Regular Session (Resolution Chapter 23, Statutes of 2020) expressly amends the California Constitution by repealing a section thereof",
+        "locator": "page 1, Proposition 16"
+      },
+      {
+        "source": "src:elections-cdn-sos-ca-gov-4288ecb7f4",
+        "quote": "Proposition 16 Votes Percent Affirmative Action in Government Decisions Yes 7,217,064 42.8% No 9,655,595 57.2%",
+        "locator": "PDF page 16, statewide ballot measure results"
+      }
+    ]
+  },
+  "title": {
+    "value": "Government preferences",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "5 23 Weber . . . . . . . . . . . . . . Government preferences. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jun. 25, 2020",
+        "locator": "PDF page 1036, table of Assembly constitutional amendments filed with the Secretary of State and chaptered, 2nd year—2020 (resolution, resolution chapter, author, subject, date filed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

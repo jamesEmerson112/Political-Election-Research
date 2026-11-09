@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2017-ab-1106--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2017-ab-1106",
+  "cycle": 2018,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "A.B. No. 1106—Weber—Child care and development services: alternative payment programs. (Chaptered − Chapter 716, Statutes of 2017.)",
+      "locator": "PDF page 269, history of A.B. No. 1106 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "1106 716 Weber . . . . . . . . . . . . . . Child care and development services: alternative payment programs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 12, 2017",
+      "locator": "PDF page 1454, table of Assembly bills approved by Governor and chaptered—2017 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

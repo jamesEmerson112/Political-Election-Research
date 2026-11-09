@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2013-ab-2243--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2013-ab-2243",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "A.B. No. 2243—Weber.",
+      "locator": "PDF page 816, history of A.B. No. 2243 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "2243 899 Weber . . . . . . . . . . . . . . Elections: voting rights guide: incarcerated persons. . . . . . . . . . . . . Sep. 30, 2014",
+      "locator": "PDF page 1243, table of Assembly bills approved by Governor and chaptered—2014 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

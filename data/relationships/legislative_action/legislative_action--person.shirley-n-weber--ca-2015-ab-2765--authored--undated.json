@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2015-ab-2765--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2015-ab-2765",
+  "cycle": 2016,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "A.B. No. 2765—Weber (Principal coauthor: Bonta)",
+      "locator": "PDF page 1105, history of A.B. No. 2765 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "2765 767 Weber . . . . . . . . . . . . . . Proposition 47: sentence reduction. . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 28, 2016",
+      "locator": "PDF page 1333, table of Assembly bills approved by Governor and chaptered—2016 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

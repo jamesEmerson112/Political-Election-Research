@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-953",
+  "status": {
+    "value": "enacted",
+    "as_of": "2015-10-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "953 466 Weber . . . . . . . . . . . . . . Law enforcement: racial profiling. . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 3, 2015",
+        "locator": "PDF page 1315, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "A.B. No. 953—Weber—Law enforcement: racial profiling. (Chaptered − Chapter 466, Statutes of 2015.)",
+        "locator": "PDF page 255, history entry for A.B. No. 953"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Law enforcement: racial profiling",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "953 466 Weber . . . . . . . . . . . . . . Law enforcement: racial profiling. . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 3, 2015",
+        "locator": "PDF page 1315, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

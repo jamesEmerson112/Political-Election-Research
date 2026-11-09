@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2013-ab-2009--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2013-ab-2009",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "A.B. No. 2009—Weber.",
+      "locator": "PDF page 685, history of A.B. No. 2009 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "2009 105 Weber . . . . . . . . . . . . . . State Board of Equalization: administration: managed audit program. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jul. 9, 2014",
+      "locator": "PDF page 1241, table of Assembly bills approved by Governor and chaptered—2014 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

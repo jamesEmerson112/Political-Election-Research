@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2017-ab-1057--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2017-ab-1057",
+  "cycle": 2018,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "A.B. No. 1057—Weber—Armories: sales: San Diego Armory. (Chaptered − Chapter 147, Statutes of 2017.)",
+      "locator": "PDF page 257, history of A.B. No. 1057 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "1057 147 Weber . . . . . . . . . . . . . . Armories: sales: San Diego Armory. . . . . . . . . . . . . . . . . . . . . . . . . Jul. 31, 2017",
+      "locator": "PDF page 1454, table of Assembly bills approved by Governor and chaptered—2017 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

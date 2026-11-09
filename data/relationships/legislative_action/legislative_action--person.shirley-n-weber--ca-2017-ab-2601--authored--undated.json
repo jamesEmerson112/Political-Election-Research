@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2017-ab-2601--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2017-ab-2601",
+  "cycle": 2018,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "A.B. No. 2601—Weber (Coauthor: Gonzalez Fletcher).",
+      "locator": "PDF page 939, history of A.B. No. 2601 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "2601 495 Weber . . . . . . . . . . . . . . Pupil instruction: sexual health education: charter schools. . . . . . . Sep. 18, 2018",
+      "locator": "PDF page 1470, table of Assembly bills approved by Governor and chaptered—2018 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-841",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-10-15",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "841 843 Weber . . . . . . . . . . . . . . Pupil nutrition: food and beverages: advertising: corporate incentive programs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 15, 2017",
+        "locator": "PDF page 1453, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "A.B. No. 841—Weber—Pupil nutrition: food and beverages: advertising: corporate incentive programs. (Chaptered − Chapter 843, Statutes of 2017.)",
+        "locator": "PDF page 211, history entry for A.B. No. 841"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Pupil nutrition: food and beverages: advertising: corporate incentive programs",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "841 843 Weber . . . . . . . . . . . . . . Pupil nutrition: food and beverages: advertising: corporate incentive programs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 15, 2017",
+        "locator": "PDF page 1453, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

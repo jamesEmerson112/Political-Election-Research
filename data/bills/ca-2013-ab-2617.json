@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-2617",
+  "status": {
+    "value": "enacted",
+    "as_of": "2014-09-30",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "2617 910 Weber . . . . . . . . . . . . . . Civil rights: waiver of rights. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2014",
+        "locator": "PDF page 1246, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "Sep. 30—Chaptered by Secretary of State − Chapter 910, Statutes of 2014",
+        "locator": "PDF page 1010, history of A.B. No. 2617"
+      }
+    ]
+  },
+  "area": "civil_rights",
+  "title": {
+    "value": "Civil rights: waiver of rights",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "2617 910 Weber . . . . . . . . . . . . . . Civil rights: waiver of rights. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2014",
+        "locator": "PDF page 1246, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

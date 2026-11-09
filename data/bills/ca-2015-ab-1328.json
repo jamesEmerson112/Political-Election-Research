@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-1328",
+  "status": {
+    "value": "enacted",
+    "as_of": "2015-10-03",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "1328 467 Weber . . . . . . . . . . . . . . Criminal procedure: withholding of evidence. . . . . . . . . . . . . . . . . Oct. 3, 2015",
+        "locator": "PDF page 1318, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "A.B. No. 1328—Weber—Criminal procedure: withholding of evidence. (Chaptered − Chapter 467, Statutes of 2015.)",
+        "locator": "PDF page 343, history entry for A.B. No. 1328"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Criminal procedure: withholding of evidence",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "1328 467 Weber . . . . . . . . . . . . . . Criminal procedure: withholding of evidence. . . . . . . . . . . . . . . . . Oct. 3, 2015",
+        "locator": "PDF page 1318, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-2601",
+  "status": {
+    "value": "enacted",
+    "as_of": "2018-09-18",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "2601 495 Weber . . . . . . . . . . . . . . Pupil instruction: sexual health education: charter schools. . . . . . . Sep. 18, 2018",
+        "locator": "PDF page 1470, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "Sep. 18—Chaptered by Secretary of State − Chapter 495, Statutes of 2018",
+        "locator": "PDF page 939, history of A.B. No. 2601"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Pupil instruction: sexual health education: charter schools",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "2601 495 Weber . . . . . . . . . . . . . . Pupil instruction: sexual health education: charter schools. . . . . . . Sep. 18, 2018",
+        "locator": "PDF page 1470, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

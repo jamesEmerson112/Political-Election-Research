@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-2515",
+  "status": {
+    "value": "enacted",
+    "as_of": "2016-09-24",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "2515 576 Weber . . . . . . . . . . . . . . Water Conservation in Landscaping Act: model water−efficient landscaping ordinance. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 24, 2016",
+        "locator": "PDF page 1331, table of Assembly bills approved by Governor and chaptered—2016 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "Sep. 24—Chaptered by Secretary of State − Chapter 576, Statutes of 2016",
+        "locator": "PDF page 964, history of A.B. No. 2515"
+      }
+    ]
+  },
+  "area": "energy_environment",
+  "title": {
+    "value": "Water Conservation in Landscaping Act: model water-efficient landscaping ordinance",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "2515 576 Weber . . . . . . . . . . . . . . Water Conservation in Landscaping Act: model water−efficient landscaping ordinance. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 24, 2016",
+        "locator": "PDF page 1331, table of Assembly bills approved by Governor and chaptered—2016 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

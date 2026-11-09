@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-1384",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-10-08",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1384 587 Weber . . . . . . . . . . . . . . Victims of violent crimes: trauma recovery centers. . . . . . . . . . . . . Oct. 8, 2017",
+        "locator": "PDF page 1457, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "A.B. No. 1384—Weber—Victims of violent crimes: trauma recovery centers. (Chaptered − Chapter 587, Statutes of 2017.)",
+        "locator": "PDF page 323, history entry for A.B. No. 1384"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Victims of violent crimes: trauma recovery centers",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1384 587 Weber . . . . . . . . . . . . . . Victims of violent crimes: trauma recovery centers. . . . . . . . . . . . . Oct. 8, 2017",
+        "locator": "PDF page 1457, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

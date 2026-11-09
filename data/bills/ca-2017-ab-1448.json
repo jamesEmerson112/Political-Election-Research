@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-1448",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-10-11",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1448 676 Weber . . . . . . . . . . . . . . Elderly Parole Program. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 11, 2017",
+        "locator": "PDF page 1457, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "A.B. No. 1448—Weber—Elderly Parole Program. (Chaptered − Chapter 676, Statutes of 2017.)",
+        "locator": "PDF page 341, history entry for A.B. No. 1448"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Elderly Parole Program",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1448 676 Weber . . . . . . . . . . . . . . Elderly Parole Program. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 11, 2017",
+        "locator": "PDF page 1457, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

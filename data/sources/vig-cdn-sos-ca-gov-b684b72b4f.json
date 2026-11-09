@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "vig-cdn-sos-ca-gov-b684b72b4f",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "California Secretary of State",
+  "title": "Text of Proposed Laws, Proposition 16, Official Voter Information Guide, November 3, 2020 General Election",
+  "url": "https://vig.cdn.sos.ca.gov/2020/general/pdf/topl-prop16.pdf",
+  "notes": "Read on 2026-11-09 through tools/research/fetch-text.mjs (pdftotext). Not archived: web.archive.org is unreachable from the research environment."
+}

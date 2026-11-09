@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2013-ab-173--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2013-ab-173",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "A.B. No. 173—Weber—Postsecondary education: Small Business Procurement and Contract Act. (Chaptered − Chapter 262, Statutes of 2013.)",
+      "locator": "PDF page 77, history of A.B. No. 173 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "173 262 Weber . . . . . . . . . . . . . . Postsecondary education: Small Business Procurement and Contract Act. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 9, 2013",
+      "locator": "PDF page 1223, table of Assembly bills approved by Governor and chaptered—2013 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

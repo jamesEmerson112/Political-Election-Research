@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-2550",
+  "status": {
+    "value": "enacted",
+    "as_of": "2018-08-20",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "2550 174 Weber . . . . . . . . . . . . . . Prisons: female inmates and male correctional officers. . . . . . . . . . Aug. 20, 2018",
+        "locator": "PDF page 1470, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "Aug. 20—Chaptered by Secretary of State − Chapter 174, Statutes of 2018",
+        "locator": "PDF page 910, history of A.B. No. 2550"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Prisons: female inmates and male correctional officers",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "2550 174 Weber . . . . . . . . . . . . . . Prisons: female inmates and male correctional officers. . . . . . . . . . Aug. 20, 2018",
+        "locator": "PDF page 1470, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clerk-assembly-ca-gov-25564fe981",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "published": "2014-11-30",
+  "publisher": "California State Assembly, Office of the Chief Clerk",
+  "title": "Assembly Weekly History, 2013–14 Regular Session, No. 275, Sunday, November 30, 2014 (AB 1 to AB 2766)",
+  "url": "https://clerk.assembly.ca.gov/sites/clerk.assembly.ca.gov/files/awh113014.pdf",
+  "notes": "Official record of every Assembly bill of the session (authors, actions, chapter numbers) and the table of Assembly bills approved by the Governor and chaptered. Read on 2026-11-09 through tools/research/fetch-text.mjs (pdftotext); locators are PDF pages. Not archived: web.archive.org is unreachable from the research environment."
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2019-aca-5--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2019-aca-5",
+  "cycle": 2020,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+      "quote": "A.C.A. No. 5—Weber, Gipson, Santiago, and Gonzalez (Coauthors: Burke,",
+      "locator": "PDF page 930, history of A.C.A. No. 5 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+      "quote": "5 23 Weber . . . . . . . . . . . . . . Government preferences. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Jun. 25, 2020",
+      "locator": "PDF page 1036, table of Assembly constitutional amendments filed with the Secretary of State and chaptered, 2nd year—2020 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Assembly constitutional amendment, not a statute: the Legislature adopted it and placed it on the November 3, 2020 ballot as Proposition 16, which voters rejected."
+}

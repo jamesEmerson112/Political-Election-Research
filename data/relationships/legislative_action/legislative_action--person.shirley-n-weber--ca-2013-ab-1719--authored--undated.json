@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2013-ab-1719--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2013-ab-1719",
+  "cycle": 2014,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "A.B. No. 1719—Weber and Buchanan (Coauthors: Bonilla and Campos)",
+      "locator": "PDF page 526, history of A.B. No. 1719 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25564fe981",
+      "quote": "1719 723 Weber . . . . . . . . . . . . . . Kindergarten: evaluation and annual reporting. . . . . . . . . . . . . . . . . Sep. 28, 2014",
+      "locator": "PDF page 1238, table of Assembly bills approved by Governor and chaptered—2014 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

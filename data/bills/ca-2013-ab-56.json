@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-56",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-10-02",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "56 475 Weber . . . . . . . . . . . . . . School facilities: carbon monoxide devices. . . . . . . . . . . . . . . . . . . Oct. 2, 2013",
+        "locator": "PDF page 1222, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 56—Weber—School facilities: carbon monoxide devices. (Chaptered − Chapter 475, Statutes of 2013.)",
+        "locator": "PDF page 47, history entry for A.B. No. 56"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "School facilities: carbon monoxide devices",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "56 475 Weber . . . . . . . . . . . . . . School facilities: carbon monoxide devices. . . . . . . . . . . . . . . . . . . Oct. 2, 2013",
+        "locator": "PDF page 1222, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

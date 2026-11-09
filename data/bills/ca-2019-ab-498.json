@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-ab-498",
+  "status": {
+    "value": "enacted",
+    "as_of": "2019-09-05",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "498 227 Weber . . . . . . . . . . . . . . Business licensing: fees: exemptions: veterans. . . . . . . . . . . . . . . . Sep. 5, 2019",
+        "locator": "PDF page 1009, table of Assembly bills approved by Governor and chaptered—2019 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "A.B. No. 498—Weber—Business licensing: fees: exemptions: veterans. (Chaptered − Chapter 227, Statutes of 2019.)",
+        "locator": "PDF page 162, history entry for A.B. No. 498"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Business licensing: fees: exemptions: veterans",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "498 227 Weber . . . . . . . . . . . . . . Business licensing: fees: exemptions: veterans. . . . . . . . . . . . . . . . Sep. 5, 2019",
+        "locator": "PDF page 1009, table of Assembly bills approved by Governor and chaptered—2019 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

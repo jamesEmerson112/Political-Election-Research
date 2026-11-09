@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-2458",
+  "status": {
+    "value": "enacted",
+    "as_of": "2018-09-14",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "2458 391 Weber . . . . . . . . . . . . . . Qualified special taxes: exemption: information. . . . . . . . . . . . . . . Sep. 14, 2018",
+        "locator": "PDF page 1469, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "Sep. 14—Chaptered by Secretary of State − Chapter 391, Statutes of 2018",
+        "locator": "PDF page 853, history of A.B. No. 2458"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Qualified special taxes: exemption: information",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "2458 391 Weber . . . . . . . . . . . . . . Qualified special taxes: exemption: information. . . . . . . . . . . . . . . Sep. 14, 2018",
+        "locator": "PDF page 1469, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

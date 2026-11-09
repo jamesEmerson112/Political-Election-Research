@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2017-ab-1448--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2017-ab-1448",
+  "cycle": 2018,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "A.B. No. 1448—Weber—Elderly Parole Program. (Chaptered − Chapter 676, Statutes of 2017.)",
+      "locator": "PDF page 341, history of A.B. No. 1448 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+      "quote": "1448 676 Weber . . . . . . . . . . . . . . Elderly Parole Program. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 11, 2017",
+      "locator": "PDF page 1457, table of Assembly bills approved by Governor and chaptered—2017 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

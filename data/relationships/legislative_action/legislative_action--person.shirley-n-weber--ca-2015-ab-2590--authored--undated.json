@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2015-ab-2590--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2015-ab-2590",
+  "cycle": 2016,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "A.B. No. 2590—Weber (Principal coauthor: Senator Hancock)",
+      "locator": "PDF page 1008, history of A.B. No. 2590 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "2590 696 Weber . . . . . . . . . . . . . . Sentencing: restorative justice. . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 27, 2016",
+      "locator": "PDF page 1332, table of Assembly bills approved by Governor and chaptered—2016 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

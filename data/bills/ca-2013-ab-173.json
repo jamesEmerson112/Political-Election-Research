@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-173",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-09-09",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "173 262 Weber . . . . . . . . . . . . . . Postsecondary education: Small Business Procurement and Contract Act. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 9, 2013",
+        "locator": "PDF page 1223, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 173—Weber—Postsecondary education: Small Business Procurement and Contract Act. (Chaptered − Chapter 262, Statutes of 2013.)",
+        "locator": "PDF page 77, history entry for A.B. No. 173"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Postsecondary education: Small Business Procurement and Contract Act",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "173 262 Weber . . . . . . . . . . . . . . Postsecondary education: Small Business Procurement and Contract Act. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 9, 2013",
+        "locator": "PDF page 1223, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

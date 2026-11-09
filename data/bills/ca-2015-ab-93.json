@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-93",
+  "status": {
+    "value": "enacted",
+    "as_of": "2015-06-24",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "93 *10 Weber . . . . . . . . . . . . . . Budget Act of 2015. (Item Veto) . . . . . . . . . . . . . . . . . . . . . . . . . . . Jun. 24, 2015",
+        "locator": "PDF page 1308, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "A.B. No. 93—Weber—Budget Act of 2015. (Chaptered − Chapter 10, Statutes of 2015, Item Vetoed.)",
+        "locator": "PDF page 58, history entry for A.B. No. 93"
+      }
+    ]
+  },
+  "area": "government",
+  "title": {
+    "value": "Budget Act of 2015",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "93 *10 Weber . . . . . . . . . . . . . . Budget Act of 2015. (Item Veto) . . . . . . . . . . . . . . . . . . . . . . . . . . . Jun. 24, 2015",
+        "locator": "PDF page 1308, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

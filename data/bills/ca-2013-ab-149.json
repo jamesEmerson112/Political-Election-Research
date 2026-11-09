@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-149",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-10-05",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "149 580 Weber . . . . . . . . . . . . . . Voting rights: county probation departments. . . . . . . . . . . . . . . . . . Oct. 5, 2013",
+        "locator": "PDF page 1223, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 149—Weber—Voting rights: county probation departments. (Chaptered − Chapter 580, Statutes of 2013.)",
+        "locator": "PDF page 74, history entry for A.B. No. 149"
+      }
+    ]
+  },
+  "area": "civil_rights",
+  "title": {
+    "value": "Voting rights: county probation departments",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "149 580 Weber . . . . . . . . . . . . . . Voting rights: county probation departments. . . . . . . . . . . . . . . . . . Oct. 5, 2013",
+        "locator": "PDF page 1223, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-90",
+  "status": {
+    "value": "enacted",
+    "as_of": "2017-10-12",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "90 695 Weber . . . . . . . . . . . . . . Criminal gangs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 12, 2017",
+        "locator": "PDF page 1446, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "A.B. No. 90—Weber—Criminal gangs. (Chaptered − Chapter 695, Statutes of 2017.)",
+        "locator": "PDF page 34, history entry for A.B. No. 90"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Criminal gangs",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "90 695 Weber . . . . . . . . . . . . . . Criminal gangs. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 12, 2017",
+        "locator": "PDF page 1446, table of Assembly bills approved by Governor and chaptered—2017 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

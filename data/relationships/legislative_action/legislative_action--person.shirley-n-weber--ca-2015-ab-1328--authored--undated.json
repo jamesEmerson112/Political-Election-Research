@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2015-ab-1328--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2015-ab-1328",
+  "cycle": 2016,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "A.B. No. 1328—Weber—Criminal procedure: withholding of evidence. (Chaptered − Chapter 467, Statutes of 2015.)",
+      "locator": "PDF page 343, history of A.B. No. 1328 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "1328 467 Weber . . . . . . . . . . . . . . Criminal procedure: withholding of evidence. . . . . . . . . . . . . . . . . Oct. 3, 2015",
+      "locator": "PDF page 1318, table of Assembly bills approved by Governor and chaptered—2015 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

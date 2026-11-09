@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-ab-3070",
+  "status": {
+    "value": "enacted",
+    "as_of": "2020-09-30",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "3070 318 Weber . . . . . . . . . . . . . . Juries: peremptory challenges. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2020",
+        "locator": "PDF page 1026, table of Assembly bills approved by Governor and chaptered—2020 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "Sep. 30—Chaptered by Secretary of State − Chapter 318, Statutes of 2020",
+        "locator": "PDF page 835, history of A.B. No. 3070"
+      }
+    ]
+  },
+  "area": "civil_rights",
+  "title": {
+    "value": "Juries: peremptory challenges",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "3070 318 Weber . . . . . . . . . . . . . . Juries: peremptory challenges. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2020",
+        "locator": "PDF page 1026, table of Assembly bills approved by Governor and chaptered—2020 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

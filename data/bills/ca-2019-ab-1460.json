@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-ab-1460",
+  "status": {
+    "value": "enacted",
+    "as_of": "2020-08-17",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "1460 32 Weber . . . . . . . . . . . . . . California State University: graduation requirement: ethnic studies. Aug. 17, 2020",
+        "locator": "PDF page 1022, table of Assembly bills approved by Governor and chaptered—2020 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "Aug. 17—Chaptered by Secretary of State − Chapter 32, Statutes of 2020",
+        "locator": "PDF page 366, history of A.B. No. 1460"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "California State University: graduation requirement: ethnic studies",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "1460 32 Weber . . . . . . . . . . . . . . California State University: graduation requirement: ethnic studies. Aug. 17, 2020",
+        "locator": "PDF page 1022, table of Assembly bills approved by Governor and chaptered—2020 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

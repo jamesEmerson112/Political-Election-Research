@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-899",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-10-10",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "899 709 Weber . . . . . . . . . . . . . . Academic content standards: English language development standards. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 10, 2013",
+        "locator": "PDF page 1229, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 899—Weber—Academic content standards: English language development standards. (Chaptered − Chapter 709, Statutes of 2013.)",
+        "locator": "PDF page 228, history entry for A.B. No. 899"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Academic content standards: English language development standards",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "899 709 Weber . . . . . . . . . . . . . . Academic content standards: English language development standards. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 10, 2013",
+        "locator": "PDF page 1229, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

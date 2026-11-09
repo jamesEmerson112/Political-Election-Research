@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-1000",
+  "status": {
+    "value": "enacted",
+    "as_of": "2015-10-08",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "1000 636 Weber . . . . . . . . . . . . . . California State University: student success fees. . . . . . . . . . . . . . . Oct. 8, 2015",
+        "locator": "PDF page 1316, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "A.B. No. 1000—Weber—California State University: student success fees. (Chaptered − Chapter 636, Statutes of 2015.)",
+        "locator": "PDF page 265, history entry for A.B. No. 1000"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "California State University: student success fees",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "1000 636 Weber . . . . . . . . . . . . . . California State University: student success fees. . . . . . . . . . . . . . . Oct. 8, 2015",
+        "locator": "PDF page 1316, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

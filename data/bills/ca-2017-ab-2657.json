@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-2657",
+  "status": {
+    "value": "enacted",
+    "as_of": "2018-09-30",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "2657 998 Weber . . . . . . . . . . . . . . Pupil discipline: restraint and seclusion. . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2018",
+        "locator": "PDF page 1471, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "Sep. 30—Chaptered by Secretary of State − Chapter 998, Statutes of 2018",
+        "locator": "PDF page 968, history of A.B. No. 2657"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Pupil discipline: restraint and seclusion",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "2657 998 Weber . . . . . . . . . . . . . . Pupil discipline: restraint and seclusion. . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2018",
+        "locator": "PDF page 1471, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

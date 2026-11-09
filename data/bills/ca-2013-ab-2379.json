@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-2379",
+  "status": {
+    "value": "enacted",
+    "as_of": "2014-06-25",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "2379 62 Weber . . . . . . . . . . . . . . Abuse of elders and dependent adults: multidisciplinary teams. . . . Jun. 25, 2014",
+        "locator": "PDF page 1244, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "Jun. 25—Chaptered by Secretary of State − Chapter 62, Statutes of 2014",
+        "locator": "PDF page 886, history of A.B. No. 2379"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Abuse of elders and dependent adults: multidisciplinary teams",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "2379 62 Weber . . . . . . . . . . . . . . Abuse of elders and dependent adults: multidisciplinary teams. . . . Jun. 25, 2014",
+        "locator": "PDF page 1244, table of Assembly bills approved by Governor and chaptered—2014 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

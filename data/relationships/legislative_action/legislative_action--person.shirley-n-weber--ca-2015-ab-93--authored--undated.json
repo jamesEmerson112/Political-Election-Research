@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2015-ab-93--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2015-ab-93",
+  "cycle": 2016,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "A.B. No. 93—Weber—Budget Act of 2015. (Chaptered − Chapter 10, Statutes of 2015, Item Vetoed.)",
+      "locator": "PDF page 58, history of A.B. No. 93 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "93 *10 Weber . . . . . . . . . . . . . . Budget Act of 2015. (Item Veto) . . . . . . . . . . . . . . . . . . . . . . . . . . . Jun. 24, 2015",
+      "locator": "PDF page 1308, table of Assembly bills approved by Governor and chaptered—2015 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Budget Act of 2015, which the Governor signed with item vetoes (marked \"Item Veto\" in the chaptered table)."
+}

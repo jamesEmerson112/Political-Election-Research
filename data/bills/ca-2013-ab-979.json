@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2013-ab-979",
+  "status": {
+    "value": "enacted",
+    "as_of": "2013-10-07",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "979 619 Weber . . . . . . . . . . . . . . Peace officers: Maritime Peace Officer Standards Training Act of 2013. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 7, 2013",
+        "locator": "PDF page 1229, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "A.B. No. 979—Weber—Peace officers: Maritime Peace Officer Standards Training Act of 2013. (Chaptered − Chapter 619, Statutes of 2013.)",
+        "locator": "PDF page 246, history entry for A.B. No. 979"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Peace officers: Maritime Peace Officer Standards Training Act of 2013",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25564fe981",
+        "quote": "979 619 Weber . . . . . . . . . . . . . . Peace officers: Maritime Peace Officer Standards Training Act of 2013. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Oct. 7, 2013",
+        "locator": "PDF page 1229, table of Assembly bills approved by Governor and chaptered—2013 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

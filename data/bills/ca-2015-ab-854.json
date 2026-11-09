@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-854",
+  "status": {
+    "value": "enacted",
+    "as_of": "2015-10-11",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "854 781 Weber . . . . . . . . . . . . . . Educational services: pupils in foster care. . . . . . . . . . . . . . . . . . . . Oct. 11, 2015",
+        "locator": "PDF page 1314, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "A.B. No. 854—Weber—Educational services: pupils in foster care. (Chaptered − Chapter 781, Statutes of 2015.)",
+        "locator": "PDF page 227, history entry for A.B. No. 854"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Educational services: pupils in foster care",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "854 781 Weber . . . . . . . . . . . . . . Educational services: pupils in foster care. . . . . . . . . . . . . . . . . . . . Oct. 11, 2015",
+        "locator": "PDF page 1314, table of Assembly bills approved by Governor and chaptered—2015 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2015-ab-1381",
+  "status": {
+    "value": "enacted",
+    "as_of": "2016-09-30",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "1381 854 Weber . . . . . . . . . . . . . . Professions and vocations: real estate appraisers: real estate brokers. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2016",
+        "locator": "PDF page 1323, table of Assembly bills approved by Governor and chaptered—2016 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "Sep. 30—Chaptered by Secretary of State − Chapter 854, Statutes of 2016",
+        "locator": "PDF page 354, history of A.B. No. 1381"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Professions and vocations: real estate appraisers: real estate brokers",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-f46700bd86",
+        "quote": "1381 854 Weber . . . . . . . . . . . . . . Professions and vocations: real estate appraisers: real estate brokers. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Sep. 30, 2016",
+        "locator": "PDF page 1323, table of Assembly bills approved by Governor and chaptered—2016 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

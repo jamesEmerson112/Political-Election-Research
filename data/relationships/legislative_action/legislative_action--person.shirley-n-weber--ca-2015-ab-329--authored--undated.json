@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2015-ab-329--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2015-ab-329",
+  "cycle": 2016,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "A.B. No. 329—Weber—Pupil instruction: sexual health education. (Chaptered − Chapter 398, Statutes of 2015.)",
+      "locator": "PDF page 116, history of A.B. No. 329 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-f46700bd86",
+      "quote": "329 398 Weber . . . . . . . . . . . . . . Pupil instruction: sexual health education. . . . . . . . . . . . . . . . . . . . Oct. 1, 2015",
+      "locator": "PDF page 1310, table of Assembly bills approved by Governor and chaptered—2015 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

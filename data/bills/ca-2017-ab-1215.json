@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2017-ab-1215",
+  "status": {
+    "value": "enacted",
+    "as_of": "2018-08-28",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1215 227 Weber . . . . . . . . . . . . . . Mental Health Services Act: innovative programs: research. . . . . . Aug. 28, 2018",
+        "locator": "PDF page 1461, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "Aug. 28—Chaptered by Secretary of State − Chapter 227, Statutes of 2018",
+        "locator": "PDF page 290, history of A.B. No. 1215"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Mental Health Services Act: innovative programs: research",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-1d54eb9105",
+        "quote": "1215 227 Weber . . . . . . . . . . . . . . Mental Health Services Act: innovative programs: research. . . . . . Aug. 28, 2018",
+        "locator": "PDF page 1461, table of Assembly bills approved by Governor and chaptered—2018 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

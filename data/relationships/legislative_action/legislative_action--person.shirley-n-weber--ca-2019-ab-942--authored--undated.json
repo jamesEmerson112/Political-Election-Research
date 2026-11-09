@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.shirley-n-weber--ca-2019-ab-942--authored--undated",
+  "type": "legislative_action",
+  "person": "person:shirley-n-weber",
+  "action": "authored",
+  "bill": "ca-2019-ab-942",
+  "cycle": 2020,
+  "citations": [
+    {
+      "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+      "quote": "A.B. No. 942—Weber—CalFresh: Restaurant Meals Program. (Chaptered − Chapter 814, Statutes of 2019.)",
+      "locator": "PDF page 252, history of A.B. No. 942 (author named first)"
+    },
+    {
+      "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+      "quote": "942 814 Weber . . . . . . . . . . . . . . CalFresh: Restaurant Meals Program. . . . . . . . . . . . . . . . . . . . . . . . Oct. 12, 2019",
+      "locator": "PDF page 1013, table of Assembly bills approved by Governor and chaptered—2019 (Author column)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-ab-701",
+  "status": {
+    "value": "enacted",
+    "as_of": "2019-10-02",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "701 435 Weber . . . . . . . . . . . . . . Prisoners: exoneration: housing costs. . . . . . . . . . . . . . . . . . . . . . . . Oct. 2, 2019",
+        "locator": "PDF page 1011, table of Assembly bills approved by Governor and chaptered—2019 (bill, chapter, author, subject, date signed)"
+      },
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "A.B. No. 701—Weber—Prisoners: exoneration: housing costs. (Chaptered − Chapter 435, Statutes of 2019.)",
+        "locator": "PDF page 202, history entry for A.B. No. 701"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Prisoners: exoneration: housing costs",
+    "citations": [
+      {
+        "source": "src:clerk-assembly-ca-gov-25cc8c492a",
+        "quote": "701 435 Weber . . . . . . . . . . . . . . Prisoners: exoneration: housing costs. . . . . . . . . . . . . . . . . . . . . . . . Oct. 2, 2019",
+        "locator": "PDF page 1011, table of Assembly bills approved by Governor and chaptered—2019 (bill, chapter, author, subject, date signed)"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
