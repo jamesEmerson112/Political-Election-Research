@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfbos-archive-sf-gov-d0c11d3e3d",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Board of Supervisors",
+  "title": "Former Supervisor Catherine Stefani | Board of Supervisors",
+  "url": "https://sfbos.archive.sf.gov/former-supervisor-stefani-district-2",
+  "notes": "Archived Board of Supervisors website; https://sfbos.org/supervisor-stefani-district-2 redirects here."
+}

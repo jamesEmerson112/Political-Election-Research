@@ -64,6 +64,21 @@
           "locator": "PDF page 22 (list page 21 of 41), State Assembly Member District 19 (party preference column)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "San Francisco",
+      "citations": [
+        {
+          "source": "src:stefani-asmdc-org-2bed2c95bc",
+          "quote": "Stefani now lives in San Francisco with her two children and her husband.",
+          "locator": "Biography, final paragraph"
+        },
+        {
+          "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+          "quote": "Stefani resides in Cow Hollow with her husband and two children.",
+          "locator": "Biography, closing paragraph"
+        }
+      ]
     }
   },
   "ids": [
