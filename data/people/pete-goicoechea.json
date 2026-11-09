@@ -3,6 +3,23 @@
   "id": "pete-goicoechea",
   "name": "Pete Goicoechea",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-30ee3418d1",
+          "quote": "Senator Pete Goicoechea Party: Republican District 19",
+          "locator": "Legislator page, 82nd (2023) Session, header"
+        },
+        {
+          "source": "src:thenevadaindependent-com-87dcecf259",
+          "quote": "Former state lawmaker Pete Goicoechea (R-Eureka) is leading in District 8, followed by Lori Lane, an entertainment professional.",
+          "locator": "Board of Regents section, June 2026 primary results"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,

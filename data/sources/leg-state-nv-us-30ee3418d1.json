@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-30ee3418d1",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislature",
+  "title": "Senator Pete Goicoechea (82nd (2023) Session)",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Senate/82nd2023/19"
+}
