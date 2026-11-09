@@ -561,6 +561,37 @@
           "where": "sfgov.org/policecommission minutes archive: request timed out (unreachable here)"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-10|legislation|person:pearci-pj-bastiany-iii",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Pearci PJ Bastiany III offices held, legislative service",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement p. 47: MPA graduate student, small business owner, Founder and CEO of MAFH; no elected or legislative office named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "What local and state commissions or policy bodies have you served on?",
+          "where": "SF League of Pissed Off Voters 2026 questionnaire (assets.nationbuilder.com, D10_Supervisor_Pearci_PJ_Bastiany.pdf), p. 4: answer \"None\""
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography, offices, record",
+          "where": "Campaign site bastiany-campaign-site.replit.app (home, /about, /issues redirecting to /advocacy): ASUSF student senate 2014-2017 and a 2022 District 6 Supervisor candidacy; no government legislative office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Pearci PJ Bastiany III",
+          "where": "GrowSF November 2026 questionnaire (growsf.org/voter-guide/questionnaires/november-2026/pearci-bastiany/): says he introduced MACPI to the Board of Supervisors in 2024 (as a member of the public); no office held"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "MatterTitle contains 'Bastiany'; 'Martial Arts'",
+          "where": "San Francisco Board of Supervisors legislative files via the Legistar web API (webapi.legistar.com/v1/sfgov/matters): no matter naming him"
+        }
+      ]
     }
   ],
   "measures": [],
