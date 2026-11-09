@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-3cd576843e",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2017-01-25",
+  "publisher": "The Nevada Independent",
+  "title": "Freshman Orientation: Democratic Assemblywoman Brittney Miller",
+  "url": "https://thenevadaindependent.com/article/freshman-orientation-democratic-assemblywoman-brittney-miller",
+  "notes": "Byline Megan Messerly. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
