@@ -24,6 +24,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Deputy Director & Chief Strategy Officer, Workforce Connections",
+      "citations": [
+        {
+          "source": "src:ccsd-net-0db55fd378",
+          "quote": "Irene serves as the Deputy Director & Chief Strategy Officer for Workforce Connections, Southern Nevada’s Local Workforce Development Board.",
+          "locator": "trustee biography, paragraph 2"
+        },
+        {
+          "source": "src:lasvegasweekly-com-331a2e58c0",
+          "quote": "she’s currently the deputy director and chief strategy officer at the Workforce Connections development board",
+          "locator": "section \"Irene Bustamante Adams\""
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [

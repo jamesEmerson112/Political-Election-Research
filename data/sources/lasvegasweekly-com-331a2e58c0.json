@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "lasvegasweekly-com-331a2e58c0",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-07-30",
+  "publisher": "Las Vegas Weekly",
+  "title": "CCSD Board of Trustees candidates share their visions for a brighter future",
+  "url": "https://lasvegasweekly.com/news/2026/jul/30/ccsd-board-of-trustees-candidates-share-visions/"
+}
