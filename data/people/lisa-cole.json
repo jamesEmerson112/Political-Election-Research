@@ -24,6 +24,35 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.S.",
+          "institution": "Allegheny College",
+          "year": 1996,
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Allegheny College, B.S., 1996; Mitchell Hamline School of Law, J.D., 2023",
+              "locator": "PDF page 47, Legislative Biography—2025 Session, Lisa K. Cole"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "Mitchell Hamline School of Law",
+          "year": 2023,
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Allegheny College, B.S., 1996; Mitchell Hamline School of Law, J.D., 2023",
+              "locator": "PDF page 47, Legislative Biography—2025 Session, Lisa K. Cole"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Small Business Owner; Attorney",
       "citations": [
