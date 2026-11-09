@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-26",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 26",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:jessica-goodey",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Goodey, Jessica NP",
+          "locator": "PDF page 9, LIST OF CANDIDATES, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 26 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 26",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 26 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 26 Thunell (appointed in March 2026) Peter NP 6",
+          "locator": "PDF page 4 (4 of 12), INCUMBENT (Current Office Holder) listing as of 4/6/2026"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXVI RJC 10D Peter Thunell",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXVI row (dept, location, courtroom, judge): the sitting judge of Department 26"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
