@@ -76,6 +76,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Product designer, educator, entrepreneur and pastor",
+      "citations": [
+        {
+          "source": "src:howellshaw-pages-dev-2d782ae101",
+          "quote": "Dr. Howell Shaw is a Stanford-trained product designer, educator, entrepreneur, pastor, and community leader running for Clark County Clerk in 2026.",
+          "locator": "Biography page, opening paragraph"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

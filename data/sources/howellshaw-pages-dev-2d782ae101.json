@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "howellshaw-pages-dev-2d782ae101",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Friends of Howell Shaw",
+  "title": "About Dr. Howell Shaw",
+  "url": "https://howellshaw.pages.dev/biography/"
+}
