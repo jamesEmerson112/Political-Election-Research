@@ -52,16 +52,16 @@
   "level": "state",
   "office_ref": "office:california-board-of-equalization-member",
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
     "tallies": [
       {
         "person": "person:sally-j-lieber",
-        "votes": 1001553
+        "votes": 1319406
       },
       {
         "person": "person:john-pimentel",
-        "votes": 676921
+        "votes": 883396
       }
     ],
     "winners": [
@@ -70,20 +70,20 @@
     "citations": [
       {
         "source": "src:api-sos-ca-gov-8fdcfab0b6",
-        "quote": "\"Reporting\": \"100% (6,558 of 6,558) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100% (6,558 of 6,558) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-8fdcfab0b6",
-        "quote": "\"Name\": \"Sally J. Lieber\", \"Party\": \"Dem\", \"Votes\": \"1,001,553\", \"Percent\": \"59.7\"",
+        "quote": "\"Name\": \"Sally J. Lieber\", \"Party\": \"Dem\", \"Votes\": \"1,319,406\", \"Percent\": \"59.9\"",
         "locator": "candidates[0]"
       },
       {
         "source": "src:api-sos-ca-gov-8fdcfab0b6",
-        "quote": "\"Name\": \"John Pimentel\", \"Party\": \"Dem\", \"Votes\": \"676,921\", \"Percent\": \"40.3\"",
+        "quote": "\"Name\": \"John Pimentel\", \"Party\": \"Dem\", \"Votes\": \"883,396\", \"Percent\": \"40.1\"",
         "locator": "candidates[1]"
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
