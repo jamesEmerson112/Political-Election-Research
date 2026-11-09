@@ -3,6 +3,23 @@
   "id": "marilyn-dondero-loop",
   "name": "Marilyn Dondero Loop",
   "aliases": [],
+  "candidate_profile": {
+    "occupation": {
+      "value": "Educator (retired Clark County School District teacher)",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Democrat Senate District 8 Clark County (part) Educator",
+          "locator": "Legislative Biography, 2025 Session, page 13: Marilyn Dondero Loop, occupation line"
+        },
+        {
+          "source": "src:reviewjournal-com-c402fb9754",
+          "quote": "I am a retired CCSD teacher.",
+          "locator": "State Senate District 8: Marilyn Dondero Loop, Experience (candidate's answer)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "official_site": "https://www.leg.state.nv.us/App/Legislator/A/Senate/83rd2025/8"
