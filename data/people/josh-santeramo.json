@@ -81,6 +81,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney; Senior Deputy Attorney, Nevada Attorneys for Injured Workers (state agency)",
+      "citations": [
+        {
+          "source": "src:santeramo4judge-com-768069790c",
+          "quote": "After ten years, he made the decision to return to his calling in public service for the State with Nevada Attorneys for Injured Workers, an agency dedicated to serving members of the public who have had their benefits denied. He currently serves as a Senior Deputy Attorney with the agency.",
+          "locator": "About Josh, Legal experience"
+        },
+        {
+          "source": "src:santeramo4judge-com-35edaf0ec6",
+          "quote": "A Las Vegas attorney with 15 years of courtroom litigation experience representing workers, first responders, and members of our community.",
+          "locator": "Home page, introduction"
+        },
+        {
+          "source": "src:thenevadaindependent-com-4582b64e21",
+          "quote": "Deputy Attorney, Nevada Attorneys for Injured Workers",
+          "locator": "Josh Santeramo, Candidate Deep Dive, TITLE"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
