@@ -166,6 +166,99 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "bill-to-strengthen-assisted-outpatient-treatment",
+        "as_of": "2026-11-09",
+        "issue": "public-health",
+        "summary": "In her June 2026 GrowSF questionnaire, asked about fentanyl policy, she wrote that one of her bills that year focused on strengthening Assisted Outpatient Treatment (AOT) for people with serious mental illness.",
+        "title": "Bill to strengthen Assisted Outpatient Treatment (AOT)",
+        "citations": [
+          {
+            "source": "src:growsf-org-2f621daa5a",
+            "quote": "One of my bills this year focuses on strengthening Assisted Outpatient Treatment (AOT) to ensure that individuals with serious mental illness receive the support they need to thrive and avoid returning to crisis.",
+            "locator": "The Issues: fentanyl question"
+          }
+        ]
+      },
+      {
+        "id": "annual-housing-production-benchmarks",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "In her June 2026 GrowSF questionnaire, asked for one measurable housing target, she wrote that California should set clear benchmarks for units produced each year and be held accountable to meeting them.",
+        "title": "Set clear benchmarks for housing units produced each year",
+        "citations": [
+          {
+            "source": "src:growsf-org-2f621daa5a",
+            "quote": "As a measurable target, California must significantly increase annual housing production to meet statewide demand and begin closing the housing gap. That means setting clear benchmarks for units produced each year and holding ourselves accountable to meeting them.",
+            "locator": "The Issues: housing production question"
+          }
+        ]
+      },
+      {
+        "id": "targeted-ceqa-reform-for-urban-housing-and-transit",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "In her June 2026 GrowSF questionnaire she wrote that she supports targeted CEQA reform that streamlines community-serving projects, including new housing and transit projects, especially in urban areas.",
+        "title": "Targeted CEQA reform streamlining housing and transit projects in urban areas",
+        "citations": [
+          {
+            "source": "src:growsf-org-2f621daa5a",
+            "quote": "I support targeted CEQA reform to reduce abuse while preserving strong environmental protections.",
+            "locator": "The Issues: CEQA question"
+          },
+          {
+            "source": "src:growsf-org-2f621daa5a",
+            "quote": "We can strike the right balance by streamlining environmentally beneficial and community-serving projects, including new housing and transit projects, especially in urban areas where development is most needed.",
+            "locator": "The Issues: CEQA question"
+          }
+        ]
+      },
+      {
+        "id": "expand-mental-health-treatment-capacity",
+        "as_of": "2026-11-09",
+        "issue": "public-health",
+        "summary": "In her June 2026 GrowSF questionnaire, asked about SB 43 and CARE Court, she wrote that she supports expanding treatment capacity by adding treatment beds, investing in stabilization units and growing the behavioral health workforce, with reduced wait times as a goal.",
+        "title": "Expand mental health treatment beds, stabilization units and behavioral health workforce",
+        "citations": [
+          {
+            "source": "src:growsf-org-2f621daa5a",
+            "quote": "This includes increasing the number of treatment beds, investing in stabilization units, and growing the behavioral health workforce.",
+            "locator": "The Issues: SB 43 and CARE Court question"
+          },
+          {
+            "source": "src:growsf-org-2f621daa5a",
+            "quote": "A key goal should be reducing wait times for treatment and ensuring that individuals who qualify for care are able to access services without delay.",
+            "locator": "The Issues: SB 43 and CARE Court question"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "issues or platform page: not readable here (Cloudflare challenge)",
+        "where": "Campaign site votecatherinestefani.com"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "specific proposals for the next term: the statement states general aims (drug crisis, housing access, homelessness prevention, reproductive rights), not specific proposals",
+        "where": "San Francisco Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, State Assembly District 19"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "November 2026 questionnaire: page not found (404); the June 2026 questionnaire was used",
+        "where": "GrowSF November 2026 questionnaire page (growsf.org/voter-guide/questionnaires/november-2026/catherine-stefani/)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "proposals: lists bills of the 2025-26 session, recorded under track_record, not campaign proposals",
+        "where": "Assembly office site stefani.asmdc.org (home page and press releases)"
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [
