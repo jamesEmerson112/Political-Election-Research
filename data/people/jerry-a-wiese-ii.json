@@ -50,6 +50,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas (where he grew up; place of birth not stated)",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-ce2006d4de",
+          "quote": "Jerry Wiese grew up in Las Vegas and graduated from Rancho High School.",
+          "locator": "Biography"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
