@@ -29,6 +29,22 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Bonanza High School",
+          "year": 1992,
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-36e4d133b8",
+              "quote": "He graduated from Bonanza High School in 1992.",
+              "locator": "Family and Education"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Police Sergeant, Retired",
       "citations": [
