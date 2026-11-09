@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "develop-reviewjournal-com-71c03bb309",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2020-09-25",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "District Court Dept. 1: Villani, Yeager seeking seat",
+  "url": "https://develop.reviewjournal.com/?p=1954550"
+}

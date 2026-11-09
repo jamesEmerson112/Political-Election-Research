@@ -60,6 +60,47 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Clark County District Attorney's Office",
+          "role": "Chief Deputy District Attorney",
+          "start": "2009-08-03",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-8a24763372",
+              "quote": "Villani states that he’s been part of the Clark County DA’s office as a Chief Deputy District Attorney since Aug. 3, 2009.",
+              "locator": "Jake Villani, Candidate deep dive, Career highlights"
+            },
+            {
+              "source": "src:thenevadaindependent-com-8a24763372",
+              "quote": "Villani has been a criminal prosecutor with the Clark County District’s office for more than 10 years, including three years on the Special Victims Unit.",
+              "locator": "Jake Villani, candidate summary"
+            }
+          ]
+        },
+        {
+          "role": "Member, State Bar Disciplinary Panel",
+          "citations": [
+            {
+              "source": "src:ournevadajudges-com-e349b70b0b",
+              "quote": "He is a member of the State Bar Disciplinary Panel.",
+              "locator": "Description"
+            }
+          ]
+        },
+        {
+          "role": "Worked in a family construction business (before law school)",
+          "citations": [
+            {
+              "source": "src:develop-reviewjournal-com-71c03bb309",
+              "quote": "Villani, who worked in a family construction business before attending law school"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Chief Deputy District Attorney, Clark County District Attorney's Office",
       "citations": [
