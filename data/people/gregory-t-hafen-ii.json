@@ -29,6 +29,30 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "Pahrump Utility Company",
+          "role": "General manager",
+          "citations": [
+            {
+              "source": "src:hafen4nevada-com-86a0e25eb7",
+              "quote": "After graduation, Gregory went to work for his family business, Pahrump Utility Company Inc., and climbed his way to general manager."
+            },
+            {
+              "source": "src:thenevadaindependent-com-a32f4da2dd",
+              "quote": "Hafen is the general manager of the Pahrump Utility Company, a water utility that was founded by his grandfather, father and aunt in 1995.",
+              "locator": "Career"
+            },
+            {
+              "source": "src:pvtimes-com-7643f0c40c",
+              "quote": "Following his time in college, Hafen II began his career in his family’s Pahrump Utility Company, working his way up to the position he currently holds with that company, general manager."
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
