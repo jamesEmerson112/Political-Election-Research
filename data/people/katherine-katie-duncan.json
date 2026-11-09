@@ -4,6 +4,47 @@
   "name": "Katherine \"Katie\" Duncan",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date, born",
+          "where": "duncanfornevada.com home page and about page (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "ivoterguide.com candidate profile 94958 (biography section)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Las Vegas Review-Journal, Dec. 21, 2010 (gives her age, 55, not a birth date)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born",
+          "where": "Las Vegas Black Image Magazine, Apr. 11, 2011"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Katie Duncan\" Assembly District 6 Nevada",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Katherine Duncan\" Las Vegas Ward 5 Chamber of Commerce Harrison House",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "declaration of candidacy",
+          "where": "nvsos.gov (candidate filings; blocked from the research environment)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [
