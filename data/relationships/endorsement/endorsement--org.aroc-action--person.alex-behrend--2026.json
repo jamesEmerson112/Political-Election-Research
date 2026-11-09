@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.aroc-action--person.alex-behrend--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:alex-behrend",
+  "endorser": "org:aroc-action",
+  "citations": [
+    {
+      "source": "src:arocaction-org-349fddbe39",
+      "quote": "Alex Behrend San Francisco Board of Supervisors District 6",
+      "locator": "Other Endorsements"
+    },
+    {
+      "source": "src:missionlocal-org-8580b116d6",
+      "quote": "He qualified for Meet the Candidates coverage after receiving endorsements from former District 5 Supervisor Dean Preston; Juanita More, an activist and drag queen; and Arab Resource and Organizing Center Action, an advocacy group for Arab communities."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

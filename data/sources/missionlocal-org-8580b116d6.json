@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-8580b116d6",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-08",
+  "publisher": "Mission Local",
+  "title": "Meet the Candidates: San Francisco’s District 6 supervisor race",
+  "url": "https://missionlocal.org/2026/10/meet-the-candidates-san-franciscos-district-6-supervisor-race/",
+  "notes": "By Sarah Hopkins. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

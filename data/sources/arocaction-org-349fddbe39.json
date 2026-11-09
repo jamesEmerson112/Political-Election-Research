@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "arocaction-org-349fddbe39",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "AROC Action",
+  "title": "Endorsements",
+  "url": "https://arocaction.org/endorsements/",
+  "notes": "AROC Action's own endorsements page (Featured Endorsements and Other Endorsements). Archive snapshot pending (web.archive.org unreachable from the research session)."
+}
