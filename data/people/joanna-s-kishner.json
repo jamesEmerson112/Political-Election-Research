@@ -29,6 +29,45 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor of Arts in Political Science and Psychology",
+          "institution": "Claremont McKenna College",
+          "year": 1986,
+          "citations": [
+            {
+              "source": "src:judgekishner-com-151b556e92",
+              "quote": "Undergraduate: Bachelor of Arts in Political Science and Psychology, Claremont McKenna College, 1986.",
+              "locator": "About page, Educational & Professional Foundations"
+            },
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "She graduated, magna cum laude, with a double major in Political Science and Psychology from Claremont McKenna College and obtained her Juris Doctorate at UCLA School of Law.",
+              "locator": "Biography tab, second paragraph"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "UCLA School of Law",
+          "year": 1989,
+          "citations": [
+            {
+              "source": "src:judgekishner-com-151b556e92",
+              "quote": "Law School: Juris Doctor, UCLA School of Law, 1989.",
+              "locator": "About page, Educational & Professional Foundations"
+            },
+            {
+              "source": "src:clarkcountycourts-us-c54a9261fe",
+              "quote": "She graduated, magna cum laude, with a double major in Political Science and Psychology from Claremont McKenna College and obtained her Juris Doctorate at UCLA School of Law.",
+              "locator": "Biography tab, second paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Department 31",
       "citations": [
