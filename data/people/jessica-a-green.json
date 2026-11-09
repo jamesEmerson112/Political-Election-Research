@@ -86,6 +86,23 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Interim Hearing Master, Fresh Start Specialty Court",
+          "current": false,
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-892151261c",
+              "quote": "Interim Hearing Master, Fresh Start Specialty Court (specialty court for homeless and indigent defendants) (2022)",
+              "locator": "Candidate deep dive: Green, Jessica A., Title, Other/prior job titles"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
