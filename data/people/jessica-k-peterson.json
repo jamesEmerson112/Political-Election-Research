@@ -121,6 +121,52 @@
           "where": "nvsos.gov voter/candidate records"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "Eighth Judicial District Court, Department VIII page biography (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "Las Vegas Review-Journal, 'Incumbent judge, prosecutor clash in Department 8 race' (2026-10-01, opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Peterson city of residence",
+          "where": "Review-Journal WordPress search (reviewjournal.com/wp-json/wp/v2/posts?search=Jessica Peterson judge and search=Department 8 judge): articles scanned"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Peterson",
+          "where": "Nevada Independent WordPress search (thenevadaindependent.com/wp-json/wp/v2/posts?search=Jessica Peterson): no results"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jessica Peterson campaign site",
+          "where": "campaign site: none found (petersonforjudge.com and judgepeterson.com are parked domains; Clark County Bar candidate pages for her 404)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "not reachable: host blocked (Cloudflare challenge) from the research environment",
+          "where": "nvcourts.gov (Nevada judiciary biographies)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "says she moved to Las Vegas in 2007; gives no current city of residence",
+          "where": "Department VIII biography"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "published candidate address: needs a form post the research fetcher cannot make",
+          "where": "Clark County candidate filing lookup (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx)"
+        }
+      ]
     }
   },
   "ids": [],
