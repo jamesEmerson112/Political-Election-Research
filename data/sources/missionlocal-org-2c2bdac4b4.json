@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-2c2bdac4b4",
+  "kind": "candidate_questionnaire",
+  "accessed": "2026-11-09",
+  "published": "2026-08-21",
+  "publisher": "Mission Local",
+  "title": "Meet the S.F. school board candidates: Do you support moving forward with area-based school assignments?",
+  "url": "https://missionlocal.org/2026/08/san-francisco-school-board-meet-the-candidates-area-assignments/",
+  "notes": "Mission Local's weekly 'Meet the Candidates' question; candidates answer in 100 words or fewer. Article text read on 2026-11-09 through the site's WordPress REST API. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}

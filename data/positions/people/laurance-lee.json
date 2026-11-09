@@ -109,6 +109,58 @@
       ]
     },
     {
+      "subject": "q:education/sfusd-proximity-assignment",
+      "stance": "support",
+      "as_of": "2026-10-16",
+      "cycle": 2026,
+      "evidence_type": "questionnaire",
+      "summary": "In August 2026 Lee told Mission Local he supports moving forward with area-based school assignments. In October he said he would have voted for Option B, citing its neighborhood guarantee for families applying on time and its broader school choice; Option B guarantees a neighborhood seat to on-time applicants and lets families apply to any school in the district.",
+      "citations": [
+        {
+          "source": "src:missionlocal-org-2c2bdac4b4",
+          "quote": "Yes. I support moving forward with area-based school assignments.",
+          "locator": "Laurance Lee's answer"
+        },
+        {
+          "source": "src:missionlocal-org-5f9184839f",
+          "quote": "I would have supported B for its neighborhood guarantee for families applying on time and broader school choice.",
+          "locator": "Laurance Lee's answer"
+        },
+        {
+          "source": "src:missionlocal-org-5f9184839f",
+          "quote": "“Option B” would have allowed families to apply to any school in the district, while still guaranteeing a neighborhood seat to families that applied for one in time.",
+          "locator": "Introduction"
+        },
+        {
+          "source": "src:kqed-org-b1e96f4088",
+          "quote": "While Lee leans toward a zone-based enrollment system, he says, “I don’t have any solutions, but it should address the major top concerns.”",
+          "locator": "Positions on Key Issues, student-assignment question"
+        }
+      ],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Laurance Lee (WordPress search)",
+          "where": "Mission Local WordPress REST API, https://missionlocal.org/wp-json/wp/v2/posts?search=Laurance%20Lee: 'Meet the Candidates' posts of 2026-08-21 (area-based assignments) and 2026-10-16 (enrollment options)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lottery / assignment / enrollment / neighborhood / zone",
+          "where": "Campaign website: https://www.lauranceleesf.com/, https://www.lauranceleesf.com/about-3, https://www.lauranceleesf.com/about-4 ('Make Enrollment Work for Families': simpler, more predictable assignment system; no stance on proximity assignment), https://www.lauranceleesf.com/deep-dives"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "lottery / assignment / enrollment / neighborhood / zone",
+          "where": "GrowSF candidate questionnaire: https://growsf.org/voter-guide/questionnaires/november-2026/laurance-lee/ (no answer on student assignment)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "student-assignment question",
+          "where": "KQED Voter Guide, San Francisco Board of Education (https://www.kqed.org/voterguide/sanfrancisco/school), Positions on Key Issues"
+        }
+      ]
+    },
+    {
       "subject": "q:education/sfusd-raise-educator-pay",
       "stance": "no_public_position",
       "as_of": "2026-11-04",

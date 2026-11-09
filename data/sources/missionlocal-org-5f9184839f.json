@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "missionlocal-org-5f9184839f",
+  "kind": "candidate_questionnaire",
+  "accessed": "2026-11-09",
+  "published": "2026-10-16",
+  "publisher": "Mission Local",
+  "title": "Meet the school board candidates: Which enrollment policy direction would you have voted for?",
+  "url": "https://missionlocal.org/2026/10/san-francisco-school-board-candidates-enrollment-policy-direction/",
+  "notes": "Mission Local's weekly 'Meet the Candidates' question; candidates answer in 100 words or fewer. Article text read on 2026-11-09 through the site's WordPress REST API. Archive snapshot pending (web.archive.org unreachable from the research session)."
+}
