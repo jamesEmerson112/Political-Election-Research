@@ -46,5 +46,41 @@
         "where": "note"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Michael T. Nguyen record of enacted legislation, programs or budgets",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 8"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Michael T. Nguyen record / results",
+        "where": "Campaign website (michaelnguyen4sf.com: Priorities, Meet Michael)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Board of Supervisors files with \"Michael T. Nguyen\" in the title",
+        "where": "San Francisco Board of Supervisors Legistar web API (webapi.legistar.com/v1/sfgov/matters, title search)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Michael T. Nguyen elected or appointed public office",
+        "where": "Profile research for offices_held in this dataset (voter pamphlet, campaign site, GrowSF questionnaire, Bay Area Reporter coverage)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Board of Supervisors title search result",
+        "where": "Legistar title searches for \"Michael Nguyen\" and \"Michael T. Nguyen\": only petitions-and-communications filings (files 100381, 130243); no legislation"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "He is an elected member of the San Francisco Democratic County Central Committee, a party committee; its resolutions are not government outcomes",
+        "where": "note"
+      }
+    ]
   }
 }
