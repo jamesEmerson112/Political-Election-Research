@@ -65,6 +65,67 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Clark County Election Department, All Contests and Candidates in the November 3, 2026 General Election (officesup-26g.pdf): lists name and party only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Clark County Election Department, Notice of General Election (Notice-Gen-Election-26G.pdf), County Assessor: lists name and party only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "The Nevada Independent, 2026-05-16, 'Assessor, recorder, public administrator: Who's running in Clark County down-ballot races?'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "The Nevada Independent, 2026-09-19, 'These small Clark County offices do important things. Here's who's running for them.'"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Clark County Registrar of Voters candidate filing search (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx): an ASP.NET form that needs a postback; results could not be read here"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Nevada Secretary of State certified candidate list and 2026 candidate media information (nvsos.gov): host blocked from this environment"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "lpnevada.org (Libertarian Party of Nevada site): HTTP 403 Cloudflare challenge, not readable"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "The Nevada Independent, 2026-09-19 article: reports Warren did not respond to an interview request"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lynette Warren Libertarian Clark County Assessor Nevada",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lynette Warren\" Libertarian Nevada",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Lynette Warren\" Las Vegas",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Libertarian Party of Nevada",
       "citations": [
