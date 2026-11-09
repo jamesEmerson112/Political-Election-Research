@@ -4,6 +4,47 @@
   "name": "Jessica A. Green",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "born, birth, age, native",
+          "where": "green4judge.com home and About pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "date and place of birth",
+          "where": "City of Las Vegas 2026 election page: Green's SB418 judicial questionnaire (answers 'Yes' to the age question only; no birth date or place asked)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "born, birth, age, grew up",
+          "where": "The Nevada Independent 2026 voter guide, Municipal Court Judge Dept. 2 race page (general and primary)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date, birthplace",
+          "where": "Ballotpedia candidate page (reference work, lead only)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "page returned HTTP 404 on 2026-11-09",
+          "where": "clarkcountybar.org 2026 judicial candidate profile"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Jessica Green\" Las Vegas pro tem judge born OR native OR \"grew up\" Silverado",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Jessica Green\" Las Vegas Municipal Court Department 2 candidate 2026",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
