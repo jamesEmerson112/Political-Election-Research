@@ -96,6 +96,20 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Washington and Lee University",
+          "citations": [
+            {
+              "source": "src:drewtfornv-com-c1b8d8201b",
+              "quote": "Drew is a proud alumnus of Washington and Lee University and is ready to bring his experience and principled leadership to Carson City to fight for the families of District 2."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Director of alliances and government affairs, Allegiant Airlines",
       "citations": [
