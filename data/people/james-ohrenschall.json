@@ -49,6 +49,43 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "College of Southern Nevada",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Chaparral High School, Las Vegas; Sunset High School, Las Vegas; College of Southern Nevada; University of Nevada, Las Vegas (UNLV), B.A., Economics; UNLV William S. Boyd School of Law, J.D.",
+              "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall"
+            }
+          ]
+        },
+        {
+          "degree": "B.A., Economics",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Chaparral High School, Las Vegas; Sunset High School, Las Vegas; College of Southern Nevada; University of Nevada, Las Vegas (UNLV), B.A., Economics; UNLV William S. Boyd School of Law, J.D.",
+              "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "UNLV William S. Boyd School of Law",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: Chaparral High School, Las Vegas; Sunset High School, Las Vegas; College of Southern Nevada; University of Nevada, Las Vegas (UNLV), B.A., Economics; UNLV William S. Boyd School of Law, J.D.",
+              "locator": "Legislative Biography, 2025 Session, page 29: James Ohrenschall"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Public defender, Clark County Public Defender, Juvenile Division",
       "citations": [
