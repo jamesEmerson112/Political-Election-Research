@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "blackcaucus-legislature-ca-gov-f8763f0b2b",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "California Legislative Black Caucus",
+  "title": "Mia Bonta | Legislative Black Caucus",
+  "url": "https://blackcaucus.legislature.ca.gov/mia-bonta",
+  "notes": "Member biography of Assemblymember Mia Bonta (18th District), Rob Bonta's spouse, on the caucus's California Legislature site."
+}
