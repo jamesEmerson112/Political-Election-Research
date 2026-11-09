@@ -60,6 +60,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Long Island, New York (where he grew up; the source gives no place of birth)",
+      "citations": [
+        {
+          "source": "src:silvestri4silverstate-com-1cbb152a6e",
+          "quote": "Joe grew up on Long Island, New York.",
+          "locator": "Home page, biography paragraph"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
