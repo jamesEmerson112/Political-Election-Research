@@ -75,6 +75,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office (lists only 2020 Dept. 1 loss and 2026 Dept. 17 race)",
+          "where": "Our Nevada Judges candidate profile (https://ournevadajudges.com/candidates/jacob-james-villani/overview)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office held; title listed as Clark County District Attorney's office employee (Chief Deputy District Attorney, recorded under career)",
+          "where": "The Nevada Independent 2026 voter guide, Department 17 race page (https://thenevadaindependent.com/elections/2026/general/judicial/164)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office held; 'This is his second bid for the bench'",
+          "where": "Nevada Current, 2026-10-02 'Prosecutor seeks to oust judge from Clark County District Court' (Villani did not respond to interview requests)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office held",
+          "where": "Las Vegas Review-Journal, 2020-09-25 'District Court Dept. 1: Villani, Yeager seeking seat' (https://develop.reviewjournal.com/?p=1954550)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "offices",
+          "where": "Campaign website https://www.villaniforjudge.com/ ('Coming Soon', under construction)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jake Villani district court judge department 17 Las Vegas",
+          "where": "Web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
