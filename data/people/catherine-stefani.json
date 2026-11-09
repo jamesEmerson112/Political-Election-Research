@@ -3,6 +3,18 @@
   "id": "catherine-stefani",
   "name": "Catherine Stefani",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:elections-cdn-sos-ca-gov-ca15f305b3",
+          "quote": "State Assembly Member District 19 Catherine Stefani* Democratic",
+          "locator": "PDF page 22 (list page 21 of 41), State Assembly Member District 19 (party preference column)"
+        }
+      ]
+    }
+  },
   "ids": [
     {
       "id": "Q47520786",
@@ -14,5 +26,5 @@
     "official_site": "https://www.assembly.ca.gov/assemblymembers/19"
   },
   "public_figure": true,
-  "last_verified": "2026-11-03"
+  "last_verified": "2026-11-09"
 }
