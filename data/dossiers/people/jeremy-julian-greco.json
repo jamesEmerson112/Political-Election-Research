@@ -68,5 +68,41 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Julian Greco elected or appointed office; legislation",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 4 candidate statements, PDF p. 44 (printed p. 42): occupation Campus Coordinator / Monologist; qualifications list Other Avenues cooperative board and Sunset Solos, no legislative office"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "local and state commissions or policy bodies served on",
+        "where": "SF League of Pissed Off Voters November 2026 questionnaire, Jeremy Greco (assets.nationbuilder.com PDF): answer \"I have not served on any local or state commissions or policy bodies.\""
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Julian Greco biography; offices held",
+        "where": "Campaign site jeremygreco2026.com (home page)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Greco",
+        "where": "Legistar Members page (sfgov.legistar.com/People.aspx), current Board of Supervisors members: not listed"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Greco (sponsor, speaker or vote)",
+        "where": "San Francisco Board of Supervisors meeting minutes (sfgov.legistar.com), all 37 Board meetings with posted minutes, December 2, 2025 to November 3, 2026: no match"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Jeremy Julian Greco documented outcomes (enacted legislation, programs, budgets) in government records",
+        "where": "Same sources as above; the candidate statement describes Other Avenues cooperative decisions (building purchase, solar panels), which are not outcomes in a government record"
+      }
+    ]
   }
 }
