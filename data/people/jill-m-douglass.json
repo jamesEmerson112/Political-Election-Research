@@ -75,6 +75,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed public office",
+          "where": "campaign site jilldouglass.com (home page incl. Meet Jill section)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Douglass offices held (article states she has never held public office; she chairs the Clark County Republican Party, a party post, not a public office)",
+          "where": "The Nevada Independent, AD37 election preview (2026-08-28)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Douglass previous office (article states she has not previously held elected office)",
+          "where": "Nevada Current (2024-05-20)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jill M. Douglass offices",
+          "where": "Las Vegas Review-Journal 2026 voter guide, Assembly District 37 entry; iVoterGuide profile (lists only the party chairmanship under political offices)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Douglass",
+          "where": "Nevada Legislature Assembly roster, 83rd (2025) Session"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jill Douglass Assembly District 37 Nevada 2026 candidate",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
