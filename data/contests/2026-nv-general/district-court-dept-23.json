@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-dept-23",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Department 23",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:martina-bauhaus",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Bauhaus, Martina NP",
+          "locator": "PDF page 9, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 23 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 23",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 23 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 23 Lilly-Spells Jasmin NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXIII RJC 12D Jasmin Lilly-Spells",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXIII row (dept, location, courtroom, judge): the sitting judge of Department 23"
+        }
+      ]
+    },
+    {
+      "person": "person:jasmin-lilly-spells",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Lilly-Spells, Jasmin NP",
+          "locator": "PDF page 9, NONPARTISAN OFFICES, DISTRICT COURT JUDGE 6-YEAR TERM, DEPARTMENT 23 (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DEPARTMENT 23",
+          "locator": "PDF page 9, DISTRICT COURT JUDGE 6-YEAR TERM: the Department 23 heading printed above this candidate"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Department 23 Lilly-Spells Jasmin NP 6",
+          "locator": "PDF page 4 (4 of 12), STATE DISTRICT NONPARTISAN OFFICES, INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "XXIII RJC 12D Jasmin Lilly-Spells",
+          "locator": "Civil/criminal judicial departments table, DEPT# XXIII row (dept, location, courtroom, judge): the sitting judge of Department 23"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
