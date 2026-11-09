@@ -50,6 +50,52 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date / birthplace / age",
+          "where": "drewtfornv.com/about (campaign biography, opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "drewtfornv.com (campaign home page, opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Teitelbaum background",
+          "where": "The Nevada Independent, 2026-09-03 AD2 election preview (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Drew Teitelbaum",
+          "where": "The Nevada Independent 2026 voter guide, Clark State Assembly page (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Drew Teitelbaum",
+          "where": "Las Vegas Review-Journal 2026 voter guide (opened; AD2 entry shows no biography text)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Drew Teitelbaum Nevada Assembly District 2 Republican",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Drew Teitelbaum\" born OR age Las Vegas Assembly",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "reviewjournal.com \"Drew Teitelbaum\"",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
