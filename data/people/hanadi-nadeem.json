@@ -72,6 +72,23 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Member of the Nevada Assembly; runs Shifa Medical Center, a primary care clinic in Las Vegas",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-c5b3daa0ca",
+          "quote": "Assemblymember Hanadi Nadeem Party: Democratic District 34"
+        },
+        {
+          "source": "src:thenevadaindependent-com-2ea4dcff31",
+          "quote": "Today, Nadeem's family tree is still dotted with physicians and Nadeem herself runs Shifa Medical Center, a primary care clinic, in Las Vegas."
+        },
+        {
+          "source": "src:hanadinadeem-com-e13523002e",
+          "quote": "As the head of a health care business, Hanadi leads with compassion and dedication to assisting all those who come through her business’s doors."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
