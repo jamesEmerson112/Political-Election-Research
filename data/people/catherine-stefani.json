@@ -30,6 +30,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Merced, California (where she grew up; the source gives no place of birth)",
+      "citations": [
+        {
+          "source": "src:stefani-asmdc-org-2bed2c95bc",
+          "quote": "Stefani grew up in Merced, California, where she developed a deep appreciation for the challenges facing working families.",
+          "locator": "Biography, final paragraph"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
