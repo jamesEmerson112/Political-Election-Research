@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-a32f4da2dd",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2019-02-04",
+  "publisher": "The Nevada Independent",
+  "title": "Freshman Orientation: Assemblyman Gregory Hafen",
+  "url": "https://thenevadaindependent.com/article/freshman-orientation-assemblyman-gregory-hafen",
+  "notes": "No archive: web.archive.org was unreachable from the research environment. Opened with tools/research/fetch-text.mjs on 2026-11-09."
+}
