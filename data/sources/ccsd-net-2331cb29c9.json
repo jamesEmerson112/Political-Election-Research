@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ccsd-net-2331cb29c9",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Clark County School District",
+  "title": "Board of School Trustees",
+  "url": "https://www.ccsd.net/about/school-board"
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/ccsd-trustee-d",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Trustee Clark County School District D",
+  "office": "Trustee, Clark County School District",
+  "candidates": [
+    {
+      "person": "person:david-gomez",
+      "ballot_designation": "",
+      "incumbent": false,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Gomez, David NP",
+          "locator": "PDF page 12, TRUSTEE CLARK COUNTY SCHOOL 4-YEAR TERM, DISTRICT D (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Trustee Clark County School District D Zamora Brenda NP 4",
+          "locator": "PDF page 7 (7 of 12), INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:ccsd-net-2331cb29c9",
+          "quote": "Brenda Zamora Member District D",
+          "locator": "Board Of School Trustees roster"
+        }
+      ]
+    },
+    {
+      "person": "person:brenda-zamora",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Zamora, Brenda NP",
+          "locator": "PDF page 12, TRUSTEE CLARK COUNTY SCHOOL 4-YEAR TERM, DISTRICT D (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "Trustee Clark County School District D Zamora Brenda NP 4",
+          "locator": "PDF page 7 (7 of 12), INCUMBENT (Current Office Holder)"
+        },
+        {
+          "source": "src:ccsd-net-2331cb29c9",
+          "quote": "Brenda Zamora Member District D",
+          "locator": "Board Of School Trustees roster"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}
