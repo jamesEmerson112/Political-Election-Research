@@ -3,6 +3,28 @@
   "id": "james-ohrenschall",
   "name": "James Ohrenschall",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Ohrenschall James DEM",
+          "locator": "PDF page 2 (Page 2 of 10), STATE PARTISAN, State Senate District 21"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-003fd372a2",
+          "quote": "Senator James Ohrenschall Party: Democratic District 21",
+          "locator": "Legislator information page, 83rd (2025) Session"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {
     "official_site": "https://www.leg.state.nv.us/App/Legislator/A/Senate/83rd2025/21"

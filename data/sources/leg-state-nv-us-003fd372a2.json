@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-003fd372a2",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislative Counsel Bureau",
+  "title": "Senator James Ohrenschall",
+  "url": "https://www.leg.state.nv.us/App/Legislator/A/Senate/83rd2025/21",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
