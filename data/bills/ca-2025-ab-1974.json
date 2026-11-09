@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1974",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-26",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-eed9cd1b18",
+        "quote": "The legislation signed today includes:"
+      },
+      {
+        "source": "src:gov-ca-gov-eed9cd1b18",
+        "quote": "Assembly Bill 1974 by Assemblymember Catherine Stefani (D-San Francisco) — Firearms: voluntary firearm storage program",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Firearms: voluntary firearm storage program",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-eed9cd1b18",
+        "quote": "Assembly Bill 1974 by Assemblymember Catherine Stefani (D-San Francisco) — Firearms: voluntary firearm storage program",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

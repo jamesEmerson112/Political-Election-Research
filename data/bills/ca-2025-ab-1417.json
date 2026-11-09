@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1417",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-10-06",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-787e5249d3",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-787e5249d3",
+        "quote": "AB 1417 by Assemblymember Catherine Stefani (D-San Francisco) – Energy: Voluntary Offshore Wind and Coastal Resources Protection Program: community capacity funding activities and grants.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "energy_environment",
+  "title": {
+    "value": "Energy: Voluntary Offshore Wind and Coastal Resources Protection Program: community capacity funding activities and grants",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-787e5249d3",
+        "quote": "AB 1417 by Assemblymember Catherine Stefani (D-San Francisco) – Energy: Voluntary Offshore Wind and Coastal Resources Protection Program: community capacity funding activities and grants.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

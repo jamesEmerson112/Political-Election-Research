@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1363",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-10-10",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-aaa75844f6",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-aaa75844f6",
+        "quote": "AB 1363 by Assemblymember Catherine Stefani (D-San Francisco) – Protective orders: Wyland’s Law.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Protective orders: Wyland’s Law",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-aaa75844f6",
+        "quote": "AB 1363 by Assemblymember Catherine Stefani (D-San Francisco) – Protective orders: Wyland’s Law.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

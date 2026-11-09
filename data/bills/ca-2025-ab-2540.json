@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2540",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-27",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-73f5ea6753",
+        "quote": "The legislation signed today includes:"
+      },
+      {
+        "source": "src:gov-ca-gov-73f5ea6753",
+        "quote": "AB 2540 by Assemblymember Catherine Stefani (D-San Francisco) — Public health: public postsecondary education: student health centers",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Public health: public postsecondary education: student health centers",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-73f5ea6753",
+        "quote": "AB 2540 by Assemblymember Catherine Stefani (D-San Francisco) — Public health: public postsecondary education: student health centers",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

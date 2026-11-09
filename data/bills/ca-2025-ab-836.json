@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-836",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-10-11",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-1040aa1b40",
+        "quote": "See below for the full list of bills the Governor signed:"
+      },
+      {
+        "source": "src:gov-ca-gov-1040aa1b40",
+        "quote": "AB 836 by Assemblymember Catherine Stefani (D-San Francisco) – Midwifery Workforce Training Act.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Midwifery Workforce Training Act",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-1040aa1b40",
+        "quote": "AB 836 by Assemblymember Catherine Stefani (D-San Francisco) – Midwifery Workforce Training Act.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.catherine-stefani--ca-2025-ab-1213--authored--undated",
+  "type": "legislative_action",
+  "person": "person:catherine-stefani",
+  "action": "authored",
+  "bill": "ca-2025-ab-1213",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:gov-ca-gov-2d49098c82",
+      "quote": "AB 1213 by Assemblymember Catherine Stefani (D-San Francisco) – Restitution: priority.",
+      "locator": "List of bills signed"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-871",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-20",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "AB 871 by Assemblymember Catherine Stefani (D-San Francisco) — Mandated reporters of suspected financial abuse of an elder or dependent adult.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Mandated reporters of suspected financial abuse of an elder or dependent adult",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "AB 871 by Assemblymember Catherine Stefani (D-San Francisco) — Mandated reporters of suspected financial abuse of an elder or dependent adult.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

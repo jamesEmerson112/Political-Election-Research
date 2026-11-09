@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1297",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-07-14",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-f10a27ebea",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-f10a27ebea",
+        "quote": "AB 1297 by Assemblymember Catherine Stefani (D-San Francisco) – Automatic temporary restraining orders.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Automatic temporary restraining orders",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-f10a27ebea",
+        "quote": "AB 1297 by Assemblymember Catherine Stefani (D-San Francisco) – Automatic temporary restraining orders.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1588",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-20",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "AB 1588 by Assemblymember Catherine Stefani (D-San Francisco)  — Vehicles: Sideshow Accountability and Community Safety Act.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Vehicles: Sideshow Accountability and Community Safety Act",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "AB 1588 by Assemblymember Catherine Stefani (D-San Francisco)  — Vehicles: Sideshow Accountability and Community Safety Act.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

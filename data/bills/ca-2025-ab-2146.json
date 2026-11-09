@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2146",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-30",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 2146 by Assemblymember Catherine Stefani (D-San Francisco) — Coordinated Entry System: study.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "housing",
+  "title": {
+    "value": "Coordinated Entry System: study",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 2146 by Assemblymember Catherine Stefani (D-San Francisco) — Coordinated Entry System: study.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

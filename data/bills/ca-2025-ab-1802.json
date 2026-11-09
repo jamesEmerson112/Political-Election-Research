@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1802",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-18",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7c7b9015c7",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-7c7b9015c7",
+        "quote": "AB 1802 by Assemblymember Catherine Stefani (D-San Francisco) — Land use: mitigation lands: endowments.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "energy_environment",
+  "title": {
+    "value": "Land use: mitigation lands: endowments",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7c7b9015c7",
+        "quote": "AB 1802 by Assemblymember Catherine Stefani (D-San Francisco) — Land use: mitigation lands: endowments.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2081",
+  "status": {
+    "value": "vetoed",
+    "as_of": "2026-09-18",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7c7b9015c7",
+        "quote": "The Governor also announced that he has vetoed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-7c7b9015c7",
+        "quote": "AB 2081 by Assemblymember Catherine Stefani (D-San Francisco) — Medi-Cal: Home and Community-Based Alternatives Waiver. A veto message can be found  here .",
+        "locator": "List of bills vetoed"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Medi-Cal: Home and Community-Based Alternatives Waiver",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7c7b9015c7",
+        "quote": "AB 2081 by Assemblymember Catherine Stefani (D-San Francisco) — Medi-Cal: Home and Community-Based Alternatives Waiver. A veto message can be found  here .",
+        "locator": "List of bills vetoed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

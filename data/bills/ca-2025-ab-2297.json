@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2297",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-30",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-a7026a608c",
+        "quote": "The Governor signed the following bills addressing public safety:"
+      },
+      {
+        "source": "src:gov-ca-gov-a7026a608c",
+        "quote": "AB 2297 by Assemblymember Catherine Stefani (D-San Francisco) — Restitution: diversion.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Restitution: diversion",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-a7026a608c",
+        "quote": "AB 2297 by Assemblymember Catherine Stefani (D-San Francisco) — Restitution: diversion.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

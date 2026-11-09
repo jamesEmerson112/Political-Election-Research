@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1213",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-10-01",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-2d49098c82",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-2d49098c82",
+        "quote": "AB 1213 by Assemblymember Catherine Stefani (D-San Francisco) – Restitution: priority.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Restitution: priority",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-2d49098c82",
+        "quote": "AB 1213 by Assemblymember Catherine Stefani (D-San Francisco) – Restitution: priority.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

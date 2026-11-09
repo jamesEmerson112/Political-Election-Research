@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gov-ca-gov-787e5249d3",
+  "kind": "press_release",
+  "accessed": "2026-11-09",
+  "published": "2025-10-06",
+  "publisher": "Office of Governor Gavin Newsom",
+  "title": "Governor Newsom issues legislative update 10.6.25",
+  "url": "https://www.gov.ca.gov/2025/10/06/governor-newsom-issues-legislative-update-10-6-25/"
+}

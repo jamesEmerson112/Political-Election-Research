@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1604",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-30",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 1604 by Assemblymember Catherine Stefani (D-San Francisco) — Product safety: proofs of purchase: intentionally added bisphenols.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Product safety: proofs of purchase: intentionally added bisphenols",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-7db198ead8",
+        "quote": "AB 1604 by Assemblymember Catherine Stefani (D-San Francisco) — Product safety: proofs of purchase: intentionally added bisphenols.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

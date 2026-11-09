@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1696",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-27",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-73f5ea6753",
+        "quote": "The legislation signed today includes:"
+      },
+      {
+        "source": "src:gov-ca-gov-73f5ea6753",
+        "quote": "AB 1696 by Assemblymember Catherine Stefani (D-San Francisco) — Emergency services and care: nurse-midwives.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Emergency services and care: nurse-midwives",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-73f5ea6753",
+        "quote": "AB 1696 by Assemblymember Catherine Stefani (D-San Francisco) — Emergency services and care: nurse-midwives.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

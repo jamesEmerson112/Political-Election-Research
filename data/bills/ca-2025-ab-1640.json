@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-1640",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-27",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-8ecd978760",
+        "quote": "Legislation signed today to increase accountability, and protect consumers:"
+      },
+      {
+        "source": "src:gov-ca-gov-8ecd978760",
+        "quote": "Assembly Bill 1640 by Assemblymember Catherine Stefani (D-San Francisco) — California Restaurant Reservation AntiPiracy Act.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "California Restaurant Reservation AntiPiracy Act",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-8ecd978760",
+        "quote": "Assembly Bill 1640 by Assemblymember Catherine Stefani (D-San Francisco) — California Restaurant Reservation AntiPiracy Act.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

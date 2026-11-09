@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-2001",
+  "status": {
+    "value": "enacted",
+    "as_of": "2026-09-20",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "AB 2001 by Assemblymember Catherine Stefani (D-San Francisco) — Criminal procedure: state summary criminal history information.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Criminal procedure: state summary criminal history information",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-850256ac91",
+        "quote": "AB 2001 by Assemblymember Catherine Stefani (D-San Francisco) — Criminal procedure: state summary criminal history information.",
+        "locator": "List of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
