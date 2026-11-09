@@ -3,6 +3,23 @@
   "id": "cameron-c-h-miller",
   "name": "Cameron \"C.H.\" Miller",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Miller Cameron \"C.H.\" DEM",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 7 rows (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
