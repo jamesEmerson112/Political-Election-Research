@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-e5868fc702",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-01",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Incumbent judge, prosecutor clash in Department 8 race",
+  "url": "https://www.reviewjournal.com/news/civil-courts/incumbent-judge-prosecutor-clash-in-department-8-race-3894107/",
+  "notes": "Byline Glenn Puit; updated October 7, 2026. Opened 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

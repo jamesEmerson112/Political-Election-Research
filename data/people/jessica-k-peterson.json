@@ -86,6 +86,33 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Department 8",
+          "current": true,
+          "first_elected": "2020",
+          "jurisdiction": "Nevada Eighth Judicial District Court",
+          "start": "2021-01",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-b0ed60f34b",
+              "quote": "Jessica K. Peterson is the judge for Department 8.",
+              "locator": "Biography"
+            },
+            {
+              "source": "src:reviewjournal-com-e5868fc702",
+              "quote": "Incumbent Jessica Peterson started her first term in January 2021."
+            },
+            {
+              "source": "src:reviewjournal-com-282173fd75",
+              "quote": "Justice Peterson has served on the bench for four years after narrowly winning election in 2020."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",

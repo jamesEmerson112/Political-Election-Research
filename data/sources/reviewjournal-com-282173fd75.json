@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-282173fd75",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-01-29",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "EDITORIAL: State high court stops judge’s assault on First Amendment",
+  "url": "https://www.reviewjournal.com/opinion/editorials/editorial-state-high-court-stops-judges-assault-on-first-amendment-3613706/",
+  "notes": "Review-Journal editorial (opinion). Opened 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
