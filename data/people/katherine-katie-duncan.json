@@ -54,6 +54,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "political offices held",
+          "where": "ivoterguide.com candidate profile 94958 (Political Offices Held: 'None'; offices sought: Nevada State Assembly District 6, 2026)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "offices held",
+          "where": "duncanfornevada.com about page (campaign site; lists no public office)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "elected, served",
+          "where": "Las Vegas Review-Journal, Dec. 21, 2010, Dec. 3, 2011, May 13, 2020 and Sept. 29, 2020 (unsuccessful runs for Las Vegas mayor, City Council, Senate District 4 and Assembly District 6; no office held)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Duncan",
+          "where": "leg.state.nv.us 2025 Legislative Manual, Chapter I and 83rd (2025) Assembly roster (she is not listed)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Katie Duncan\" Assembly District 6 Nevada",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [
