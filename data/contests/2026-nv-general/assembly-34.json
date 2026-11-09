@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-34",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 34",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:brandon-davis",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Davis Brandon REP",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 34 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "34 Brandon Davis Hanadi Nadeem* Republican Democrat",
+          "locator": "PDF page 3, Nevada State Assembly Candidates, District 34 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 3, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Nadeem, Hanadi Democratic No. 34 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Hanadi Nadeem represented District 34 in the 2025 session"
+        }
+      ]
+    },
+    {
+      "person": "person:hanadi-nadeem",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Nadeem Hanadi DEM",
+          "locator": "PDF page 4 (Page 4 of 10), State Assembly District 34 rows (last name, first name, party); the raw text prints the names apart from the contest label, and the Legislative Counsel Bureau roster confirms the district"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "34 Brandon Davis Hanadi Nadeem* Republican Democrat",
+          "locator": "PDF page 3, Nevada State Assembly Candidates, District 34 (an asterisk marks an incumbent)"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "*Incumbent",
+          "locator": "PDF page 3, legend"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Nadeem, Hanadi Democratic No. 34 Clark (Part)",
+          "locator": "83rd (2025) Session roster: Hanadi Nadeem represented District 34 in the 2025 session"
+        }
+      ]
+    }
+  ],
+  "district": 34,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
