@@ -3,6 +3,23 @@
   "id": "charles-chuck-hoskin",
   "name": "Charles \"Chuck\" Hoskin",
   "aliases": [],
+  "candidate_profile": {
+    "birthplace": {
+      "value": "Las Vegas, Nevada",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-6e1e4352a1",
+          "quote": "Charles J. Hoskin was born and raised in Las Vegas, Nevada.",
+          "locator": "Biography tab"
+        },
+        {
+          "source": "src:law-unlv-edu-799ad977ff",
+          "quote": "Charles J. Hoskin was born and raised in Las Vegas, Nevada.",
+          "locator": "BIO"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,

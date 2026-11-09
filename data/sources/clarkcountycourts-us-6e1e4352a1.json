@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountycourts-us-6e1e4352a1",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Eighth Judicial District Court",
+  "title": "Department E – Eighth Judicial District Court",
+  "url": "https://www.clarkcountycourts.us/departments/judicial/family-division/department-e/"
+}

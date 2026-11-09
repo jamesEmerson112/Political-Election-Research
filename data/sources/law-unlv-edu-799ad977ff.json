@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "law-unlv-edu-799ad977ff",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+  "title": "Charles Hoskin | William S. Boyd School of Law",
+  "url": "https://law.unlv.edu/faculty/charles-hoskin"
+}
