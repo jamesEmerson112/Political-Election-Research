@@ -60,6 +60,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Family law attorney (solo practitioner)",
+      "citations": [
+        {
+          "source": "src:marr4judge-com-e944e8c950",
+          "quote": "Help elect an experienced family law trail attorney for Clark County Family Court. Vote Patricia Marr.",
+          "locator": "home page, 'Connect with Us' section (verbatim, including the site's spelling 'trail')"
+        },
+        {
+          "source": "src:reviewjournal-com-2e7aa0a32e",
+          "quote": "including the last 13 years as a solo practitioner handling a variety of cases, including family and divorce law cases.",
+          "locator": "section 'Patricia Marr', second paragraph"
+        },
+        {
+          "source": "src:thenevadaindependent-com-da1b2d2e5e",
+          "quote": "defeated family law attorney Patricia Marr",
+          "locator": "paragraph on Department D"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
