@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ivoterguide-com-09a294367d",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "iVoterGuide",
+  "title": "Voter Guide Profile for NV State Assembly, Dist. 36 candidate - Jon Penn Junejo",
+  "url": "https://ivoterguide.com/candidate/95001/race/32652/election/1472",
+  "notes": "Biography section of the candidate's 2026 general election profile. No archive: web.archive.org was unreachable from the research environment. Opened with tools/research/fetch-text.mjs on 2026-11-09."
+}

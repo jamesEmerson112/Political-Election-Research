@@ -55,6 +55,20 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Psychiatry provider",
+      "citations": [
+        {
+          "source": "src:pvtimes-com-6fe34e2b4a",
+          "quote": "Junejo works as an inpatient consult psychiatry provider at a telehealth company that serves Nevada, but is also in the process of starting his own practice, which would serve both Clark and Nye counties."
+        },
+        {
+          "source": "src:ivoterguide-com-09a294367d",
+          "quote": "Penn Psychiatric Group, Medical Director, Psychiatry Provider, 2026-",
+          "locator": "Biography, Work & Military"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
