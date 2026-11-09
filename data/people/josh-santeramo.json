@@ -4,6 +4,47 @@
   "name": "Josh Santeramo",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party, registered, born, birth, age, hometown",
+          "where": "santeramo4judge.com home and About pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registration, born, birth, age, residence",
+          "where": "The Nevada Independent 2026 voter guide, District Court Judge, Eighth Judicial District, Department 30"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered, born, age, birthplace",
+          "where": "Our Nevada Judges candidate profile (ournevadajudges.com/candidates/joshua-m-santeramo)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 judicial candidates, Department 30: host blocked (Cloudflare challenge), not readable here",
+          "where": "Nevada Secretary of State certified candidate list and candidate information (nvsos.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Santeramo Wiese Dept. 30: both hosts blocked (Cloudflare), not readable here",
+          "where": "Nevada Current, 'Long-time judge draws challenger in Clark County Dept. 30' (nevadacurrent.com search API and newsfromthestates.com republication)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Josh Santeramo\" born OR age Las Vegas judge candidate",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Josh Santeramo District Court Department 30 Las Vegas candidate",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
