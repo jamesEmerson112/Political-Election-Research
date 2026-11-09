@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "media-api-sf-gov-b836c13f02",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "City and County of San Francisco, Office of the Controller",
+  "title": "Citizens' General Obligation Bond Oversight Committee Report, Fiscal Year 2024-2025 (December 2025)",
+  "url": "https://media.api.sf.gov/documents/FY25_CGOBOC_Report_Final.pdf"
+}

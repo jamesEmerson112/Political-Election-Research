@@ -112,5 +112,71 @@
         "where": "timtung.com home page and Issues page"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "cgoboc-fy2024-25-report",
+        "kind": "other",
+        "date": "2025-12",
+        "summary": "As chair of San Francisco's Citizens' General Obligation Bond Oversight Committee, signed the letter presenting its Fiscal Year 2024-25 report (December 2025) to the Mayor and Board of Supervisors and wrote its liaison report on the 2014 and 2020 Earthquake Safety and Emergency Response bonds, which states he believes the proceeds are being spent consistently with the original authorizations; no measured outcome recorded as of 2026-11-09.",
+        "title": "Chair's letter and ESER liaison report in the bond oversight committee's FY2024-25 report",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-b836c13f02",
+            "quote": "Tim Tung, Committee Chair",
+            "locator": "p. 2"
+          },
+          {
+            "source": "src:media-api-sf-gov-b836c13f02",
+            "quote": "Fiscal Year 2024-2025",
+            "locator": "p. 1"
+          },
+          {
+            "source": "src:media-api-sf-gov-b836c13f02",
+            "quote": "December 2025",
+            "locator": "p. 1"
+          },
+          {
+            "source": "src:media-api-sf-gov-b836c13f02",
+            "quote": "Dear Mayor Lurie and Members of the Board of Supervisors: On behalf of my fellow members, I am pleased to present to you the Report of the Citizens’ General Obligation Bond Oversight Committee (CGOBOC). This report covers Fiscal Year 2024-2025 (FY25).",
+            "locator": "p. 3, letter signed by Tim Tung, Chair"
+          },
+          {
+            "source": "src:media-api-sf-gov-b836c13f02",
+            "quote": "2020 AND 2014 EARTHQUAKE SAFETY & EMERGENCY RESPONSE BONDS Report by Tim Tung",
+            "locator": "p. 5, Liaison Reports"
+          },
+          {
+            "source": "src:media-api-sf-gov-b836c13f02",
+            "quote": "Based on my research, discussions with staff, and tours of the facilities, I believe that the bond proceeds are being spent in a manner consistent with the original authorizations.",
+            "locator": "p. 6, ESER liaison report"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Tim Tung documented outcomes track record",
+        "where": "Campaign site timtung.com (home, About, Issues) and GrowSF November 2026 questionnaire: roles listed (CGOBOC chair, De Avila School Site Council chair, LCAP Advisory Committee representative); no official outcome named"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Tim Tung Citizens' General Obligation Bond Oversight Committee chair",
+        "where": "sf.gov/profile--tim-tung and sf.gov CGOBOC department page (member list)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "CGOBOC annual report Tung chair",
+        "where": "Controller's Office FY2024-25 CGOBOC report (media.api.sf.gov/documents/FY25_CGOBOC_Report_Final.pdf)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Tim Tung\" sfgov.legistar.com Board of Supervisors",
+        "where": "Web search (sfbos.org, sf.gov): no Board of Supervisors file naming him found"
+      }
+    ]
   }
 }
