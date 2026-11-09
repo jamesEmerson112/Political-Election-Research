@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.las-vegas-review-journal--person.stavros-anthony--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:stavros-anthony",
+  "endorser": "org:las-vegas-review-journal",
+  "citations": [
+    {
+      "source": "src:reviewjournal-com-c4460777e8",
+      "quote": "-Lieutenant Governor: Stavros Anthony",
+      "locator": "Constitutional offices list (editorial board endorsements for the November 3, 2026 general election)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
