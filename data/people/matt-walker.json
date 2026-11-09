@@ -5,6 +5,24 @@
   "aliases": [
     "Matthew Walker"
   ],
+  "candidate_profile": {
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "Knudson School of Law (South Dakota)",
+          "year": 2007,
+          "citations": [
+            {
+              "source": "src:lasvegasnevada-gov-18d24bf438",
+              "quote": "He attended the Knudson School of Law in South Dakota, graduating in 2007.",
+              "locator": "Department 1 judge page, first paragraph"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
