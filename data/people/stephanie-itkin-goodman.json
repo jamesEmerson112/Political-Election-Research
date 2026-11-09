@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "stephanie-itkin-goodman",
+  "name": "Stephanie Itkin-Goodman",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-09"
+}

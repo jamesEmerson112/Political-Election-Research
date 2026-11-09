@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/clark-county-public-administrator",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "Public Administrator",
+  "office": "Public Administrator",
+  "candidates": [
+    {
+      "person": "person:stephanie-itkin-goodman",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Itkin-Goodman, Stephanie DEM",
+          "locator": "PDF page 7, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, PUBLIC ADMINISTRATOR"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "Rita Page Reid (Democratic) 4-year term expires in 2026",
+          "locator": "Public Administrator (page headed 'Last Updated November 19, 2024'): the sitting Public Administrator is another person"
+        }
+      ]
+    },
+    {
+      "person": "person:michael-murphy",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Murphy, Michael REP",
+          "locator": "PDF page 7, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, PUBLIC ADMINISTRATOR"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:clarkcountynv-gov-c153761d58",
+          "quote": "Rita Page Reid (Democratic) 4-year term expires in 2026",
+          "locator": "Public Administrator (page headed 'Last Updated November 19, 2024'): the sitting Public Administrator is another person"
+        }
+      ]
+    }
+  ],
+  "level": "local",
+  "last_verified": "2026-11-09"
+}
