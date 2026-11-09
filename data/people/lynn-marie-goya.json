@@ -4,6 +4,57 @@
   "name": "Lynn Marie Goya",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date of Lynn Marie Goya",
+          "where": "Clark County County Clerk page and About Us page (clarkcountynv.gov/government/elected_officials/county_clerk/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Office of the Clark County Clerk official site, About Lynn Marie Goya (weddings.vegas/about/)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Campaign site lynnmariegoya.com: home page and Biography (vote-for-lynn)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Las Vegas Review-Journal 2026 Voter Guide, County Clerk entry (candidate-supplied experience)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Goya birth date",
+          "where": "The Nevada Independent, 2026-09-19, down-ballot Clark County offices preview"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Goya birth date",
+          "where": "Las Vegas Review-Journal 2022-10-06 and Boulder City Review 2019-08-14 articles on Goya"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Lynn Marie Goya Clark County Clerk biography",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Goya\" Clark County Clerk \"San Diego State\"",
+          "where": "Web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date",
+          "where": "Ballotpedia, Lynn Goya (reference work; lead only)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
