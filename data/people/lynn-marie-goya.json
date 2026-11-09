@@ -3,6 +3,28 @@
   "id": "lynn-marie-goya",
   "name": "Lynn Marie Goya",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Goya Lynn Marie DEM",
+          "locator": "PDF page 4 (Page 4 of 10), COUNTY PARTISAN, County Clerk (last name, first name, party)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1, Abbreviations"
+        },
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Goya, Lynn Marie DEM",
+          "locator": "PDF page 6, COUNTY CLERK 4-YEAR TERM"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
