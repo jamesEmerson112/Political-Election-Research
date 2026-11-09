@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-5313f6f6aa",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-03",
+  "publisher": "The Nevada Independent",
+  "title": "In rare GOP-leaning Assembly seat, candidates split on the blue wave — and everything else",
+  "url": "https://thenevadaindependent.com/article/in-rare-gop-leaning-assembly-seat-candidates-split-on-the-blue-wave-and-everything-else"
+}
