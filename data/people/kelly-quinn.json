@@ -95,6 +95,37 @@
           "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "Campaign site quinnfornv.com, About page (says he has lived in Assembly District 5 but names no city)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn residence",
+          "where": "The Nevada Independent 2026 general election voter guide, Clark State Assembly page"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn lives in, resident of",
+          "where": "Las Vegas Review-Journal articles on Assembly District 5 (May 15, 2022; Oct 5, 2022)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Kelly Quinn\" Assembly District 5 reviewjournal candidate correctional lieutenant",
+          "where": "Web search (news and voter guides)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Declaration of candidacy, Kelly Quinn, Assembly District 5 (host blocked from the research environment)",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov)"
+        }
+      ]
     }
   },
   "ids": [],
