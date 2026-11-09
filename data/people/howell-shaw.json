@@ -76,6 +76,128 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "organization": "frogdesign",
+          "role": "Design Director and General Manager",
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "After rising to Design Director and General Manager at frogdesign (winning multiple design awards), Shaw founded and served as Principal of envision ID, a successful design and corporate identity firm recognized in Print, Graphis, and Graphic Design USA.",
+              "locator": "Biography page, Career"
+            }
+          ]
+        },
+        {
+          "organization": "envision ID",
+          "role": "Founder and Principal",
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "After rising to Design Director and General Manager at frogdesign (winning multiple design awards), Shaw founded and served as Principal of envision ID, a successful design and corporate identity firm recognized in Print, Graphis, and Graphic Design USA.",
+              "locator": "Biography page, Career"
+            }
+          ]
+        },
+        {
+          "organization": "City of San Mateo, California",
+          "role": "Director of Tennis",
+          "start": "2013-06",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "I served as Director of Tennis for the City of San Mateo, California (beginning June 2013), managing operations and community programs.",
+              "locator": "County Clerk, Howell Shaw, Experience"
+            }
+          ]
+        },
+        {
+          "organization": "Lake Mead Christian Academy",
+          "role": "Teacher and Dean of Elementary Students",
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "In Las Vegas he taught Bible, science, math, and SAT prep at Lake Mead Christian Academy, served as Dean of Elementary Students, coached FIRST Robotics and Lego League, and founded the school's tennis teams from the ground up.",
+              "locator": "Biography page, The Journey timeline"
+            }
+          ]
+        },
+        {
+          "organization": "Messages of Faith Ministry",
+          "role": "Wedding officiant and ordained Chaplain",
+          "start": "2019",
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "Since 2019 Ordained Chaplain & Officiant A Clark County wedding officiant and ordained Chaplain with Messages of Faith Ministry, performing ceremonies and providing spiritual support across the community.",
+              "locator": "Biography page, The Journey timeline"
+            }
+          ]
+        },
+        {
+          "organization": "CityServe Nevada",
+          "role": "Executive Director",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "As Executive Director of CityServe Nevada, I led large-scale operations, including a major 2022 Veterans Outreach that distributed over $1 million in goods to more than 300 veterans.",
+              "locator": "County Clerk, Howell Shaw, Experience"
+            }
+          ]
+        },
+        {
+          "organization": "Patriot Academy",
+          "role": "Lifetime Constitution Coach and Coach Mentor for Nevada",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "Since 2022 Constitution Coach A certified Lifetime Constitution Coach and Coach Mentor for Nevada with Patriot Academy",
+              "locator": "Biography page, The Journey timeline"
+            }
+          ]
+        },
+        {
+          "organization": "Dwell AJC",
+          "role": "Founding Pastor",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-c402fb9754",
+              "quote": "In 2022, I founded Dwell AJC, a Henderson micro-church where I serve as Founding Pastor.",
+              "locator": "County Clerk, Howell Shaw, Experience"
+            }
+          ]
+        },
+        {
+          "organization": "Henderson Conservatives",
+          "role": "Founder",
+          "start": "2025",
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "2025 Henderson Conservatives Founded Henderson Conservatives, a grassroots town hall",
+              "locator": "Biography page, The Journey timeline"
+            }
+          ]
+        },
+        {
+          "end": "2026-03",
+          "organization": "Turning Point Action Faith Coalition",
+          "role": "Chair",
+          "start": "2025",
+          "citations": [
+            {
+              "source": "src:howellshaw-pages-dev-2d782ae101",
+              "quote": "2025-26 Turning Point Action Chaired the Turning Point Action Faith Coalition and received the Coalition Leader of the Year award at AmericaFest 2025. He stepped down in March 2026 to focus on his campaign.",
+              "locator": "Biography page, The Journey timeline"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
