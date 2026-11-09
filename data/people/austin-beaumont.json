@@ -79,6 +79,32 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed public office held (pages describe employment as a Chief Deputy District Attorney and judicial law clerk, recorded under career; no elected or appointed office)",
+          "where": "campaign site austin4judge.com, Home and About pages (opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "public offices held",
+          "where": "Las Vegas Review-Journal, 'Incumbent judge, prosecutor clash in Department 8 race' (2026-10-01, opened)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Austin Beaumont elected appointed office",
+          "where": "Review-Journal WordPress search (search=Austin Beaumont) and Nevada Independent WordPress search (search=Austin Beaumont)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Beaumont as an incumbent (not listed; Department 8 incumbent is Jessica K. Peterson)",
+          "where": "Clark County 2026 Offices up for Election list (officesup-all-2026.pdf, opened)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
