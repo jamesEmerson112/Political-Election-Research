@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.denis-bilodeau--orange-file-25-0512--voted_yes--2025-09-09",
+  "type": "legislative_action",
+  "person": "person:denis-bilodeau",
+  "action": "voted_yes",
+  "bill": "orange-file-25-0512",
+  "cycle": 2025,
+  "date": "2025-09-09",
+  "citations": [
+    {
+      "source": "src:webapi-legistar-com-894922f307",
+      "quote": "\"VotePersonName\":\"Denis Bilodeau\",\"VoteValueId\":16,\"VoteValueName\":\"Ayes\"",
+      "locator": "EventItemId 81848 (adoption motion, 2025-09-09)"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Adoption vote recorded as 4 ayes (Bilodeau, Dumitru, Tavoularis, Gyllenhammer) and 3 noes (Barrios, Gutierrez, Slater)."
+}

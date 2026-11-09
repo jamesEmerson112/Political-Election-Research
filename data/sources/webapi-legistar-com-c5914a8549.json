@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "webapi-legistar-com-c5914a8549",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "City of Orange",
+  "title": "File 25-0512 legislative history (City of Orange Legistar data)",
+  "url": "https://webapi.legistar.com/v1/cityoforange/matters/5167/histories"
+}

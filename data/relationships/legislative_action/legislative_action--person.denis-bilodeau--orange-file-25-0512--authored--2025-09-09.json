@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.denis-bilodeau--orange-file-25-0512--authored--2025-09-09",
+  "type": "legislative_action",
+  "person": "person:denis-bilodeau",
+  "action": "authored",
+  "bill": "orange-file-25-0512",
+  "cycle": 2025,
+  "date": "2025-09-09",
+  "citations": [
+    {
+      "source": "src:cityoforange-legistar1-com-393b0343ce",
+      "quote": "FROM: Mayor pro tem Denis Bilodeau, District 4",
+      "locator": "page 1"
+    },
+    {
+      "source": "src:cityoforange-legistar1-com-393b0343ce",
+      "quote": "2025 Special Election ballot. (Bilodeau)",
+      "locator": "page 1, Subject"
+    },
+    {
+      "source": "src:webapi-legistar-com-c5914a8549",
+      "quote": "Motion made by Mayor pro tem Bilodeau, seconded by Councilmember Gyllenhammer, to adopt Resolution No. 11634.",
+      "locator": "MatterHistoryId 81848, action of 2025-09-09"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "City of Orange councilmember report item: the agenda report is from Mayor pro tem Bilodeau and he moved adoption; the city's Legistar does not use a sponsor field."
+}

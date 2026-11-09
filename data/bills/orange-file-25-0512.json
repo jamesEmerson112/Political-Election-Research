@@ -1,0 +1,37 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "orange-file-25-0512",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-09-09",
+    "citations": [
+      {
+        "source": "src:webapi-legistar-com-c5914a8549",
+        "quote": "\"MatterHistoryActionDate\":\"2025-09-09T00:00:00\",\"MatterHistoryActionId\":383,\"MatterHistoryActionName\":\"Approved\"",
+        "locator": "MatterHistoryId 81848"
+      },
+      {
+        "source": "src:webapi-legistar-com-c5914a8549",
+        "quote": "The motion carried by the following vote:",
+        "locator": "MatterHistoryId 81848"
+      }
+    ]
+  },
+  "area": "government",
+  "title": {
+    "value": "A Resolution of the City Council of the City of Orange adopting a position of opposition to Proposition 50 on the November 2025 ballot (Resolution No. 11634)",
+    "citations": [
+      {
+        "source": "src:webapi-legistar-com-c5914a8549",
+        "quote": "to adopt Resolution No. 11634. A Resolution of the City Council of the City of Orange adopting a position of opposition to Proposition 50 on the November 2025 ballot.",
+        "locator": "MatterHistoryId 81848, action of 2025-09-09"
+      },
+      {
+        "source": "src:cityoforange-legistar1-com-393b0343ce",
+        "quote": "Item #: 5.1. 9/9/2025 File #: 25-0512",
+        "locator": "page 1"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
