@@ -3,6 +3,59 @@
   "id": "jerry-a-wiese-ii",
   "name": "Jerry A. Wiese, II",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "District Court Judge Department 30: the list prints only NP, which its key defines as 'Nonpartisan (indicated for nonpartisan offices only)', an office designation, not a voter registration",
+          "where": "Clark County Election Department, All Contests / Candidates in the November 3, 2026, General Election (Contests-Candidates-All-26.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "2026 judicial candidates, Department 30: host blocked (Cloudflare challenge), not readable here",
+          "where": "Nevada Secretary of State certified candidate list and candidate information (nvsos.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, born, birth, age, birthplace, resides",
+          "where": "Eighth Judicial District Court, Department XXX biography (clarkcountycourts.us)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registration, born, birth, age, residence",
+          "where": "The Nevada Independent 2026 voter guide, District Court Judge, Eighth Judicial District, Department 30"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered, born, age, birthplace, resides",
+          "where": "Our Nevada Judges judge and candidate profile (ournevadajudges.com/judges/jerry-a-wiese)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "site does not resolve (DNS: ERR_NAME_NOT_RESOLVED)",
+          "where": "judgejerrywiese.com (campaign site listed by Our Nevada Judges)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Santeramo Wiese Dept. 30: both hosts blocked (Cloudflare), not readable here",
+          "where": "Nevada Current, 'Long-time judge draws challenger in Clark County Dept. 30' (nevadacurrent.com search API and newsfromthestates.com republication)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Jerry Wiese\" judge Department 30 Democrat OR Republican OR registered",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Judicial Guide\" Jerry Wiese Nevada Independent 2026",
+          "where": "web search"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
