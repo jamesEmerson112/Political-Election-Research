@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-2",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 2",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:kamilah-bywaters",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 2 Bywaters, Kamilah DEM Teitelbaum, Drew REP",
+          "locator": "PDF page 3, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, STATE ASSEMBLY 2-YEAR TERM, DISTRICT 2"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Bywaters Kamilah DEM",
+          "locator": "PDF page 2 (Page 2 of 10)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Kasama, Heidi Republican No. 2 Clark (Part) Currently Serving",
+          "locator": "Assembly member list, 83rd (2025) Session: the District 2 seat is held by another person"
+        }
+      ]
+    },
+    {
+      "person": "person:drew-teitelbaum",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 2 Bywaters, Kamilah DEM Teitelbaum, Drew REP",
+          "locator": "PDF page 3, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, STATE ASSEMBLY 2-YEAR TERM, DISTRICT 2"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Teitelbaum Drew REP",
+          "locator": "PDF page 2 (Page 2 of 10)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Kasama, Heidi Republican No. 2 Clark (Part) Currently Serving",
+          "locator": "Assembly member list, 83rd (2025) Session: the District 2 seat is held by another person"
+        }
+      ]
+    }
+  ],
+  "district": 2,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
