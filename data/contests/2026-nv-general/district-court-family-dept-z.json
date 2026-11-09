@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-z",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department Z",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:michele-shell-mercer",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Mercer, Michele \"Shell\" NP",
+          "locator": "PDF pages 11-12 (DEPARTMENT Z heading on page 11, candidate line on page 12), NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT Z (last name, first name, NP = nonpartisan): the only candidate listed"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department Z Mercer Michele \"Shell\" NP 6",
+          "locator": "PDF page 6 (6 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department Z: this candidate is the current office holder"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "Z FAMILY 6 Michele Mercer",
+          "locator": "Judicial departments table, DEPT# Z row (dept, location, courtroom, judge): this candidate is the sitting judge"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
