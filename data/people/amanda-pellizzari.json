@@ -3,6 +3,49 @@
   "id": "amanda-pellizzari",
   "name": "Amanda Pellizzari",
   "aliases": [],
+  "candidate_profile": {
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "BA in Psychology",
+          "institution": "UNLV",
+          "citations": [
+            {
+              "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+              "quote": "1.UNLV",
+              "locator": "PDF page 4, Colleges and Law Schools, row 1"
+            },
+            {
+              "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+              "quote": "1. BA in Psychology",
+              "locator": "PDF page 4, Degrees Awarded, row 1 (dates of attendance 2000-2005)"
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctorate",
+          "institution": "William S. Boyd School of Law",
+          "citations": [
+            {
+              "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+              "quote": "2. William S. Boyd School of Law",
+              "locator": "PDF page 4, Colleges and Law Schools, row 2"
+            },
+            {
+              "source": "src:files-lasvegasnevada-gov-e0fe6ace92",
+              "quote": "2. Juris Doctorate",
+              "locator": "PDF page 4, Degrees Awarded, row 2 (dates of attendance 2005-2008)"
+            },
+            {
+              "source": "src:nevadacurrent-com-024d6c09f1",
+              "quote": "Amanda Pellizzari, a private attorney and graduate of Boyd School of Law at UNLV who became a member of the Nevada Bar in 2008"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-024d6c09f1",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-02-04",
+  "publisher": "Nevada Current",
+  "title": "Prosecutor drops mom’s name, seeks judicial appointment",
+  "url": "https://nevadacurrent.com/2025/02/04/prosecutor-drops-moms-name-seeks-judicial-appointment/"
+}
