@@ -4,6 +4,37 @@
   "name": "Stephanie Molina",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "birth date, born, age",
+          "where": "Campaign site https://www.molinafornevada.com/ (home and /about)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina birth date, born, age",
+          "where": "The Nevada Independent 2026 voter guide, Board of Regents (general and primary pages)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date, born, age",
+          "where": "Nevada Current, 2026-04-10, District 5 primary preview (Stephanie Molina section)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Molina birth date, born, age",
+          "where": "The Nevada Independent, 2026-06-11 and 2026-09-22 regent articles"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Stephanie Molina Nevada Board of Regents District 5 candidate; \"Stephanie Molina\" regent campaign website Nevada State University program coordinator",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
