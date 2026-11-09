@@ -1,0 +1,74 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/assembly-3",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "State Assembly District 3",
+  "office": "State Assembly",
+  "candidates": [
+    {
+      "person": "person:joseph-p-silvestri",
+      "ballot_designation": "",
+      "incumbent": false,
+      "party": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 3 Silvestri, Joseph P. REP Torres-Fossett, Selena DEM",
+          "locator": "PDF page 3, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, STATE ASSEMBLY 2-YEAR TERM, DISTRICT 3"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Silvestri Joseph P. REP",
+          "locator": "PDF page 2 (Page 2 of 10)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "NPP = No Political Party (indicated for partisan offices only) REP = Republican",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Torres-Fossett, Selena Democratic No. 3 Clark (Part) Currently Serving",
+          "locator": "Assembly member list, 83rd (2025) Session: the District 3 seat is held by another person"
+        }
+      ]
+    },
+    {
+      "person": "person:selena-torres-fossett",
+      "ballot_designation": "",
+      "incumbent": true,
+      "party": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "DISTRICT 3 Silvestri, Joseph P. REP Torres-Fossett, Selena DEM",
+          "locator": "PDF page 3, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, STATE ASSEMBLY 2-YEAR TERM, DISTRICT 3"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Torres-Fossett Selena DEM",
+          "locator": "PDF page 2 (Page 2 of 10)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic IAP = Independent American Party",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        },
+        {
+          "source": "src:leg-state-nv-us-7bae331e8f",
+          "quote": "Torres-Fossett, Selena Democratic No. 3 Clark (Part) Currently Serving",
+          "locator": "Assembly member list, 83rd (2025) Session: this candidate holds the District 3 seat"
+        },
+        {
+          "source": "src:leg-state-nv-us-b2cead861f",
+          "quote": "Assemblymember Selena Torres-Fossett Party: Democratic District 3",
+          "locator": "Member page header"
+        }
+      ]
+    }
+  ],
+  "district": 3,
+  "level": "state",
+  "last_verified": "2026-11-09"
+}
