@@ -3,6 +3,28 @@
   "id": "jovan-alexander-jackson",
   "name": "Jovan Alexander Jackson",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Jackson Jovan Alexander DEM",
+          "locator": "PDF page 3 (Page 3 of 10), State Assembly District 6 rows (last name, first name, party on the general election candidate list)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations"
+        },
+        {
+          "source": "src:leg-state-nv-us-a913e532bc",
+          "quote": "6 Katherine “Katie” Duncan Jovan Alexander Jackson* No Political Party Democrat",
+          "locator": "PDF page 2, Nevada State Assembly Candidates, District 6"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
