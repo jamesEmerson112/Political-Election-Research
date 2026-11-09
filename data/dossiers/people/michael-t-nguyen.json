@@ -47,6 +47,89 @@
       }
     ]
   },
+  "promises": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "potholes-and-muni-service",
+        "as_of": "2026-11-09",
+        "issue": "transportation",
+        "summary": "Nguyen's ballot statement says he will fight to make sure potholes are filled and basic services such as Muni are not cut.",
+        "title": "Pothole repair and no Muni service cuts",
+        "citations": [
+          {
+            "source": "src:media-api-sf-gov-e4221ecde7",
+            "quote": "I’ll fight to make sure pot holes are filled and basic services, like MUNI, aren’t cut.",
+            "locator": "Voter Information Pamphlet, Candidate Statements, Board of Supervisors District 8, printed p. 45 (PDF p. 47)"
+          }
+        ]
+      },
+      {
+        "id": "social-housing-legislation",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "Nguyen's campaign site calls social housing (permanently affordable, mixed-income, city-owned housing) his signature policy and says he would introduce it as legislation on day one.",
+        "title": "Social housing legislation on day one",
+        "citations": [
+          {
+            "source": "src:michaelnguyen4sf-com-bf56c82bac",
+            "quote": "My signature policy is social housing: permanently affordable, mixed-income, city-owned housing that isn't subject to market swings, and I'd introduce it as legislation on day one."
+          }
+        ]
+      },
+      {
+        "id": "vacant-to-vibrant-two-years-and-commercial-rent-stabilization",
+        "as_of": "2026-11-09",
+        "summary": "Nguyen's campaign site says he has proposed extending Vacant to Vibrant city investment and support for new storefront businesses to two years instead of three months, paired with commercial rent stabilization.",
+        "title": "Two-year Vacant to Vibrant support and commercial rent stabilization",
+        "citations": [
+          {
+            "source": "src:michaelnguyen4sf-com-bf56c82bac",
+            "quote": "I've proposed a Vacant to Vibrant program that extends city investment and support to a full two years, instead of the current three months, so small businesses actually have a shot at getting established. I'd pair that with commercial rent stabilization, so existing businesses aren't priced out the moment their lease turns over."
+          }
+        ]
+      },
+      {
+        "id": "free-muni-through-age-25",
+        "as_of": "2026-11-09",
+        "issue": "transportation",
+        "summary": "Nguyen's campaign site proposes extending free Muni for youth through age 25, which it estimates would cost $12 to 16 million more, after an SFMTA public fiscal analysis and funding plan.",
+        "title": "Free Muni for young adults through age 25",
+        "citations": [
+          {
+            "source": "src:michaelnguyen4sf-com-bf56c82bac",
+            "quote": "I want to build on Supervisor Melgar's free Muni for youth, because that promise shouldn't end the day someone turns 19. We already spend about $5.8 million a year on it, and extending it through age 25 would likely cost $12 to 16 million more. I'd get SFMTA to do a public fiscal analysis and a real funding plan first, so we expand opportunity without cutting the reliable service riders depend on."
+          }
+        ]
+      },
+      {
+        "id": "town-halls-and-weekly-office-hours",
+        "as_of": "2026-11-09",
+        "issue": "government",
+        "summary": "Nguyen's campaign site says he would hold regular town halls and weekly office hours.",
+        "title": "Regular town halls and weekly office hours",
+        "citations": [
+          {
+            "source": "src:michaelnguyen4sf-com-bf56c82bac",
+            "quote": "That means regular town halls and weekly office hours."
+          }
+        ]
+      },
+      {
+        "id": "glen-canyon-fire-risk-plan",
+        "as_of": "2026-11-09",
+        "issue": "public-safety",
+        "summary": "Nguyen's campaign site proposes a Glen Canyon plan to clear brush, thin, maintain and remove trees, keep evacuation routes open, and coordinate Rec and Park, Public Works, the Fire Department and the PUC on one plan.",
+        "title": "Glen Canyon fire risk plan",
+        "citations": [
+          {
+            "source": "src:michaelnguyen4sf-com-bf56c82bac",
+            "quote": "It's a real plan: clear out dangerous brush, thin and maintain the trees, remove the sick ones, keep evacuation routes open, and get Rec and Park, Public Works, the Fire Department, and the PUC all working off the same plan instead of talking past each other."
+          }
+        ]
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
