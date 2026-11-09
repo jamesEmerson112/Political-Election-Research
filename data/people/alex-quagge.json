@@ -3,6 +3,44 @@
   "id": "alex-quagge",
   "name": "Alex Quagge",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Quagge party: list shows only 'NP' and its key says 'NP = Nonpartisan (indicated for nonpartisan offices only)', an office label, not the candidate's party registration",
+          "where": "Clark County Election Department, All Contests and Candidates in the November 3 2026 General Election (officesup-26g.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "electalexquagge.com home page (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration",
+          "where": "electalexquagge.com/aboutalexquagge (campaign biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party (page labels the race Nonpartisan)",
+          "where": "The Nevada Independent 2026 general election guide, District Court Department 29 (thenevadaindependent.com/elections/2026/general/judicial/10)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party (entry says NONPARTISAN, the office label)",
+          "where": "Las Vegas Review-Journal Nevada Voter Guide 2026, Clark County District Court Dept. 29 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Alex Quagge party",
+          "where": "nvsos.gov / silverstateelection.nv.gov (Nevada Secretary of State candidate filings; host blocked from this session)"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
