@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.la-defensa--person.samuel-p-sukaton--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:samuel-p-sukaton",
+  "endorser": "org:la-defensa",
+  "citations": [
+    {
+      "source": "src:ladefensa-org-81f1dd0f95",
+      "quote": "*Endorsed by La Defensa",
+      "locator": "Quick Guide, Statewide Offices; the asterisk marks La Defensa endorsements"
+    },
+    {
+      "source": "src:ladefensa-org-81f1dd0f95",
+      "quote": "Board of Equalization, District 3 |  Sam Sukaton*",
+      "locator": "Quick Guide, Statewide Offices"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

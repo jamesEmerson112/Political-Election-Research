@@ -1,0 +1,15 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.courage-california--person.samuel-p-sukaton--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:samuel-p-sukaton",
+  "endorser": "org:courage-california",
+  "citations": [
+    {
+      "source": "src:progressivevotersguide-com-e6f10b17f1",
+      "quote": "Elect Sam Sukaton to the Board of Equalization to keep California on the right track for progress."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
