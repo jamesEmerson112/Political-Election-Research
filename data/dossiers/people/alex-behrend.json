@@ -68,5 +68,36 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Alex Behrend enacted legislation, programs implemented or budgets delivered",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet (media.api.sf.gov/documents/N26_EN_VIP.pdf), candidate statement, Board of Supervisors District 6"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alex Behrend record, accomplishments",
+        "where": "Campaign website alexforalld6.com: Home, Meet Alex and Policy for All pages (describes past jobs and workplace disputes; no government outcome)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Board of Supervisors files with \"Behrend\" in the title",
+        "where": "San Francisco Board of Supervisors Legistar web API (webapi.legistar.com/v1/sfgov/matters, title search): no matters"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Alex Behrend elected or appointed public office",
+        "where": "Profile research for offices_held in this dataset (2026-11-04): no public office found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "No public office held and no government record of an outcome attributed to him",
+        "where": "note"
+      }
+    ]
   }
 }
