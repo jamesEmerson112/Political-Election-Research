@@ -86,6 +86,44 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A., philosophy and economics (double major)",
+          "institution": "Brigham Young University",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a2040fa111",
+              "quote": "He attended Brigham Young University where he double-majored in philosophy and economics.",
+              "locator": "Biography, first paragraph"
+            },
+            {
+              "source": "src:gov-nv-gov-c31c614224",
+              "quote": "Reynolds received his B.A. and J.D. from Brigham Young University.",
+              "locator": "Press release dated February 28, 2023, paragraph on Jacob Reynolds"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "J. Reuben Clark Law School, Brigham Young University",
+          "year": 2006,
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a2040fa111",
+              "quote": "Judge Reynolds graduated from the J. Reuben Clark Law School in 2006.",
+              "locator": "Biography, second paragraph"
+            },
+            {
+              "source": "src:gov-nv-gov-c31c614224",
+              "quote": "Reynolds received his B.A. and J.D. from Brigham Young University.",
+              "locator": "Press release dated February 28, 2023, paragraph on Jacob Reynolds"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Eighth Judicial District Court, Department 29 (incumbent)",
       "citations": [
