@@ -47,16 +47,16 @@
   "level": "state",
   "office_ref": "office:california-board-of-equalization-member",
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
     "tallies": [
       {
         "person": "person:nelson-esparza",
-        "votes": 923897
+        "votes": 1189384
       },
       {
         "person": "person:shannon-grove",
-        "votes": 788624
+        "votes": 983644
       }
     ],
     "winners": [
@@ -65,21 +65,21 @@
     "citations": [
       {
         "source": "src:api-sos-ca-gov-03c4c05ff1",
-        "quote": "\"Reporting\": \"100% (7,251 of 7,251) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100% (7,251 of 7,251) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-03c4c05ff1",
-        "quote": "\"Name\": \"Nelson Esparza\", \"Party\": \"Dem\", \"Votes\": \"923,897\", \"Percent\": \"53.9\"",
+        "quote": "\"Name\": \"Nelson Esparza\", \"Party\": \"Dem\", \"Votes\": \"1,189,384\", \"Percent\": \"54.7\"",
         "locator": "candidates[0]"
       },
       {
         "source": "src:api-sos-ca-gov-03c4c05ff1",
-        "quote": "\"Name\": \"Shannon Grove\", \"Party\": \"Rep\", \"Votes\": \"788,624\", \"Percent\": \"46.1\"",
+        "quote": "\"Name\": \"Shannon Grove\", \"Party\": \"Rep\", \"Votes\": \"983,644\", \"Percent\": \"45.3\"",
         "locator": "candidates[1]"
       }
     ]
   },
   "vote_for": 1,
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
