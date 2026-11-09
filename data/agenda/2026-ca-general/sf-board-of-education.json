@@ -186,6 +186,37 @@
           "where": "Web search (PODER staff pages, city sites): no public office, legislative vote or bill position found"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-board-of-education|legislation|person:tim-tung",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or legislative office held",
+          "where": "Person record offices_held (profile research, 2026-11-04): only office is Chair of the Citizens' General Obligation Bond Oversight Committee, an oversight body that reviews and reports on bond spending and does not adopt legislation"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tim Tung appointment and role",
+          "where": "sf.gov/profile--tim-tung (Chair, appointed by the Mayor's Office to Seat 7) and sf.gov CGOBOC department page: no legislative office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bills, legislation, ballot measures",
+          "where": "Campaign site timtung.com (home, About, Issues): no bill named; mentions the Prop G educator parcel tax only as a budget planning item, not a position on a bill"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bills, legislation",
+          "where": "GrowSF November 2026 Board of Education questionnaire, Tim Tung: no bill authored, voted on or publicly supported"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Tim Tung\" sfgov.legistar.com Board of Supervisors appointment bond oversight",
+          "where": "Web search (sfbos.org, sf.gov): no Board of Supervisors file sponsored by or naming a vote by Tim Tung found"
+        }
+      ]
     }
   ],
   "measures": [],
