@@ -111,6 +111,37 @@
           "where": "Nevada Secretary of State candidate filings (nvsos.gov) and Nevada courts site (nvcourts.gov)"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Randall Forman: the lists print only 'NP' (Nonpartisan, indicated for nonpartisan offices only) for District Court Judge Family Division Department S; no party, birth, address or biography",
+          "where": "Clark County Election Department, Contests and Candidates in the 2026 Elections (Contests-Candidates-All-26.pdf, PDF pages 15-16) and Notice of General Election (Notice-Gen-Election-26G.pdf, PDF page 11)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence, lives in (the site says only 'Clark County has been Randall's home for over 20 years.', a county, not a city)",
+          "where": "Campaign website https://www.randallforman.com/ (single page: About, Why Randall, Endorsements sections)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Randall Forman city of residence, lives in (the site says only 'Clark County has been Randall's home for over 20 years.', a county, not a city)",
+          "where": "The Nevada Independent 2026 voter guide, Clark County page (https://thenevadaindependent.com/elections/2026/general/clark-county), Family Division Dept. S entry, and 'Election 2026: Two incumbent Clark County judges are defeated' (2026-11-04)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Randall Forman city of residence, lives in (the site says only 'Clark County has been Randall's home for over 20 years.', a county, not a city)",
+          "where": "Las Vegas Review-Journal: site search (reviewjournal.com/wp-json/wp/v2/posts?search=Randall Forman) and articles 'Three candidates vie for open Family Court seat in Department S' (2026-05-04), 'Primary vote leader denied judicial appointment...' (2026-10-06), 'Candidates vie for Family Court judge seats' (2026-11-04), 'Female candidates in lead against men in contested judicial races' (2026-11-06)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Randall Forman city of residence, lives in (the site says only 'Clark County has been Randall's home for over 20 years.', a county, not a city): hosts blocked from this session (Cloudflare challenge), not readable",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov) and Nevada courts site (nvcourts.gov)"
+        }
+      ]
     }
   },
   "ids": [],
