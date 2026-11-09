@@ -45,6 +45,15 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Las Vegas",
+      "citations": [
+        {
+          "source": "src:kamilah4nevadans-com-f2581fb10c",
+          "quote": "Kamilah Bywaters was born and raised in Las Vegas in a working-class family grounded in education, service, and community responsibility."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
