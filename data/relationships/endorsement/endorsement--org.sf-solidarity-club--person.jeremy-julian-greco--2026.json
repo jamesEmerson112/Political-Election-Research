@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.sf-solidarity-club--person.jeremy-julian-greco--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:jeremy-julian-greco",
+  "endorser": "org:sf-solidarity-club",
+  "citations": [
+    {
+      "source": "src:jeremygreco2026-com-40a494bd20",
+      "quote": "SF Solidarity Club",
+      "locator": "Home page, PROUDLY ENDORSED BY"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

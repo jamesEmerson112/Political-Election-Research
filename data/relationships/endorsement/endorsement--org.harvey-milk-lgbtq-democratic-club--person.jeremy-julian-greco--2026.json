@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.harvey-milk-lgbtq-democratic-club--person.jeremy-julian-greco--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:jeremy-julian-greco",
+  "endorser": "org:harvey-milk-lgbtq-democratic-club",
+  "citations": [
+    {
+      "source": "src:jeremygreco2026-com-40a494bd20",
+      "quote": "Harvey Milk LGBTQ Democratic Club",
+      "locator": "Home page, PROUDLY ENDORSED BY"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Cited from the candidate's site: the club's endorsements page (milkclub.org) answered 403 here."
+}

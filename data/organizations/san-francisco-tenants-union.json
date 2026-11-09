@@ -1,0 +1,13 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "san-francisco-tenants-union",
+  "name": "San Francisco Tenants Union",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "local",
+  "links": {
+    "official_site": "https://sftu.org/"
+  },
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "san-franciscans-for-social-housing",
+  "name": "San Franciscans for Social Housing",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "local",
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}

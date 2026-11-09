@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-tenants-union--person.jeremy-julian-greco--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:jeremy-julian-greco",
+  "endorser": "org:san-francisco-tenants-union",
+  "citations": [
+    {
+      "source": "src:sftu-org-075ee14e5b",
+      "quote": "DISTRICT 4 SUPERVISOR Jeremy Greco*",
+      "locator": "Candidates, District 4 Supervisor"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

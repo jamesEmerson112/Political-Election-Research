@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sftu-org-075ee14e5b",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Tenants Union",
+  "title": "2026 Endorsements – San Francisco Tenants Union",
+  "url": "https://sftu.org/endorsements/"
+}
