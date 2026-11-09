@@ -140,6 +140,16 @@
           "where": "Web search (news)"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Henderson",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-201cc127cc",
+          "quote": "Veronica Barisich (herself) (Henderson, NV) ($10,000)",
+          "locator": "Candidate deep dive, Barisich, Endorsements & contributions, largest 2026 donors (from her Contributions and Expenses Report)"
+        }
+      ]
     }
   },
   "ids": [],
