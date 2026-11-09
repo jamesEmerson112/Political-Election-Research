@@ -81,6 +81,57 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Degree in psychology",
+          "institution": "Harvard University",
+          "year": 2001,
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-2e7aa0a32e",
+              "quote": "Smith earned a degree in psychology from Harvard University in 2001",
+              "locator": "section 'Gwynneth Smith', second paragraph"
+            }
+          ]
+        },
+        {
+          "degree": "J.D. (law degree)",
+          "institution": "Golden Gate University",
+          "year": 2007,
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-2e7aa0a32e",
+              "quote": "She earned her law degree from Golden Gate University in 2007",
+              "locator": "section 'Gwynneth Smith', second paragraph"
+            },
+            {
+              "source": "src:gwynneth4judge-com-206cac4996",
+              "quote": "J.D. and a Ph.D. in Clinical Psychology",
+              "locator": "About page, 'Experience and Expertise'"
+            }
+          ]
+        },
+        {
+          "degree": "Ph.D., Clinical Psychology",
+          "institution": "Palo Alto University",
+          "year": 2010,
+          "citations": [
+            {
+              "source": "src:reviewjournal-com-2e7aa0a32e",
+              "quote": "a Ph.D. in clinical psychology from Palo Alto University in 2010",
+              "locator": "section 'Gwynneth Smith', second paragraph"
+            },
+            {
+              "source": "src:gwynneth4judge-com-206cac4996",
+              "quote": "J.D. and a Ph.D. in Clinical Psychology",
+              "locator": "About page, 'Experience and Expertise'"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Chief Deputy District Attorney, Juvenile Division, Clark County District Attorney's Office",
       "citations": [
