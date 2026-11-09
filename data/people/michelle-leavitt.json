@@ -34,6 +34,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Judge, Eighth Judicial District Court, Department 12",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-a1cc34eaa1",
+          "quote": "Term of Office 2002 – present",
+          "locator": "Biography header (Michelle Leavitt, Department XII, Eighth Judicial District Court)"
+        },
+        {
+          "source": "src:clarkcountycourts-us-a1cc34eaa1",
+          "quote": "Governor Kenny Guinn appointed Judge Leavitt as a District Judge in Department 12 of the Eighth Judicial District Court.",
+          "locator": "Biography, paragraph 3"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
