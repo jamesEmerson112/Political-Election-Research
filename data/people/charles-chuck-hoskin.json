@@ -18,6 +18,26 @@
           "locator": "BIO"
         }
       ]
+    },
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Family Division, Department E",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-6e1e4352a1",
+          "quote": "Term of Office 2009 – present",
+          "locator": "Biography tab, header under \"Charles J. Hoskin, Department E, Eighth Judicial District Court\""
+        },
+        {
+          "source": "src:clarkcountycourts-us-6e1e4352a1",
+          "quote": "Judge Hoskin practiced primarily Family Law until March of 2009, when he was appointed to the District Court in Department E.",
+          "locator": "Biography tab"
+        },
+        {
+          "source": "src:thenevadaindependent-com-2289ef132d",
+          "quote": "District court judge, Eighth Judicial District Court, Family Division, Department E",
+          "locator": "Candidate deep dive, Hoskin, TITLE"
+        }
+      ]
     }
   },
   "ids": [],
