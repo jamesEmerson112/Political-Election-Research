@@ -24,6 +24,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Small Business Owner; Attorney",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Republican Assembly District 4 Clark County (part) Small Business Owner; Attorney",
+          "locator": "PDF page 47, Legislative Biography—2025 Session, Lisa K. Cole (occupation line under the district)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
