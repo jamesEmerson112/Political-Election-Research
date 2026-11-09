@@ -265,19 +265,19 @@
     ]
   },
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
-    "no_votes": 4210969,
-    "yes_votes": 3543070,
+    "no_votes": 5596088,
+    "yes_votes": 4426191,
     "citations": [
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100.0% (23,860 of 23,860) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-83752f26ab",
-        "quote": "\"Name\": \"Modifies Environmental Review For Certain Projects. Initiative Statute.\", \"Number\": \"45\", \"yesVotes\": \"3543070\", \"yesPercent\": \"45.7\", \"noVotes\": \"4210969\", \"noPercent\": \"54.3\"",
+        "quote": "\"Name\": \"Modifies Environmental Review For Certain Projects. Initiative Statute.\", \"Number\": \"45\", \"yesVotes\": \"4426191\", \"yesPercent\": \"44.2\", \"noVotes\": \"5596088\", \"noPercent\": \"55.8\"",
         "locator": "ballot-measures, Number 45"
       }
     ]
@@ -292,5 +292,5 @@
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
