@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:charles-hoelter",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Hoelter",
+        "where": "FEC enforcement search (closed Matters Under Review), www.fec.gov/data/legal/search/enforcement: one result, MUR 857, an archived case where the term appears only as garbled text, not as a person"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Charles Hoelter\" San Mateo",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Hoelter\" Republican congress Mullin controversy OR complaint OR lawsuit OR court",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Hoelter almanacnews OR rwcpulse OR padailypost congressional candidate",
+        "where": "web search (Almanac, RWC Pulse, Palo Alto Daily Post)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Charles Hoelter candidate CA-15 2026 congress",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Hoelter",
+        "where": "The Almanac, candidate overview of May 18, 2026 (almanacnews.com)"
+      }
+    ]
+  }
+}
