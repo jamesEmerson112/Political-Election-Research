@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-813dff6139",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-02-17",
+  "publisher": "The Nevada Independent",
+  "title": "Freshman Orientation: Lisa Cole brings environmental expertise to Nevada Assembly",
+  "url": "https://thenevadaindependent.com/article/freshman-orientation-lisa-cole-brings-environmental-expertise-to-nevada-assembly",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
