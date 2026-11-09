@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "geo-tv-d056fcc316",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-01-05",
+  "publisher": "Geo News",
+  "title": "Hanadi Nadeem: How a US-Pakistani woman made it to Nevada assembly",
+  "url": "https://www.geo.tv/latest/583586-hanadi-nadeem-how-a-us-pakistani-woman-made-it-to-nevada-assembly/",
+  "notes": "By Nasim Haider. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

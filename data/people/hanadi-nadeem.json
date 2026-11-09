@@ -4,6 +4,16 @@
   "name": "Hanadi Nadeem",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "value": "1972",
+      "citations": [
+        {
+          "source": "src:geo-tv-d056fcc316",
+          "quote": "Hanadi was born in Saudi Arabia in 1972 after her parents moved to Riyadh from Islamabad.",
+          "locator": "Hanadi’s journey"
+        }
+      ]
+    },
     "career": {
       "as_of": "2026-11-09",
       "items": [
