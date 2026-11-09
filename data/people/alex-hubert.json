@@ -4,6 +4,47 @@
   "name": "Alex Hubert",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Alex Hubert biography",
+          "where": "Campaign site electalexhubert.com: home, About, Experience and Why It Matters pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Alex Hubert candidate deep dive",
+          "where": "The Nevada Independent 2026 voter guide, Department 21 race page (general and primary)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Alex Hubert profile",
+          "where": "Nevada Current, 'Public defender challenging incumbent in Clark County Dept. 21' (2026-09-09)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Alexander Hubert",
+          "where": "Las Vegas Review-Journal, 'Clark County judicial elections: Erika Ballou won't retain seat, many races unopposed' (reviewjournal.com/?p=3608664)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Alex Hubert\" district court Department 21 public defender; \"Alex Hubert\" Review-Journal 2026",
+          "where": "Web search (news)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "birth date / age",
+          "where": "Our Nevada Judges candidate page (ournevadajudges.com/candidates/alexander-jacob-hubert), a reference site used as a lead"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate declaration of candidacy / judicial biography: hosts blocked from this session (Cloudflare challenge), not readable",
+          "where": "Nevada Secretary of State candidate filings (nvsos.gov) and Nevada courts site (nvcourts.gov)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
