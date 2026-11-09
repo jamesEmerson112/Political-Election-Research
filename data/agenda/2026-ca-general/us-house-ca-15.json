@@ -12,6 +12,39 @@
       "name": "Charles Hoelter"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/us-house-ca-15|legislation|person:charles-hoelter",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Charles Hoelter background, prior office",
+          "where": "https://www.almanacnews.com/election/2026/06/03/mullin-hoelter-lead-d-15-polls/ (The Almanac, June 3, 2026: describes him as a \"first-time Republican candidate\" and a retired UPS supervisor; no legislative office)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Charles Hoelter background, prior office",
+          "where": "https://www.rwcpulse.com/redwood-city/2026/05/13/five-candidates-up-to-bat-for-congressional-d-15/ (Redwood City Pulse candidate profile: retired UPS supervisor; no office held)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hoelter",
+          "where": "govinfo.gov BILLSTATUS bulk data, 118th and 119th Congress House bills (sponsor names)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Hoelter",
+          "where": "Assembly Final History, 2017-18 Regular Session, Volumes 1 and 2 (clerk.assembly.ca.gov)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Charles Hoelter political offices held",
+          "where": "https://ivoterguide.com/candidate/92381/race/30366/election/1454 (iVoterGuide profile: political offices held \"Candidate did not provide\")"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:us-representative-california",
   "questions": [],
