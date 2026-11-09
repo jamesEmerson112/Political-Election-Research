@@ -69,6 +69,47 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Political offices held (shows \"Candidate did not provide\")",
+          "where": "iVoterGuide 2026 candidate profile, biography section"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "prior elected or appointed office",
+          "where": "Pahrump Valley Times profile of Junejo (2026-03-25)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "prior office",
+          "where": "Run for Something candidate directory profile"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Junejo office held",
+          "where": "The Nevada Independent 2026 Clark County State Assembly voter guide"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Junejo",
+          "where": "Nevada Legislature 2025 Legislative Manual (members) and Assembly roster, leg.state.nv.us"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "About page (blocked: Cloudflare challenge)",
+          "where": "campaign site penn36.org / pennfor36.org"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Junejo\" Assembly District 36 Nevada psychiatry",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Democratic",
       "citations": [
