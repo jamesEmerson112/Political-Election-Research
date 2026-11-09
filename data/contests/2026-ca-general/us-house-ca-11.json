@@ -47,16 +47,16 @@
   "level": "federal",
   "office_ref": "office:us-representative-california",
   "result": {
-    "as_of": "2026-11-04",
+    "as_of": "2026-11-08",
     "certified": false,
     "tallies": [
       {
         "person": "person:scott-wiener",
-        "votes": 97876
+        "votes": 157394
       },
       {
         "person": "person:connie-chan",
-        "votes": 78594
+        "votes": 136435
       }
     ],
     "winners": [
@@ -65,20 +65,20 @@
     "citations": [
       {
         "source": "src:api-sos-ca-gov-85716807cf",
-        "quote": "\"Reporting\": \"100% (453 of 453) precincts reporting\", \"ReportingTime\": \"November 4, 2026, 7:20 p.m.\"",
+        "quote": "\"Reporting\": \"100% (453 of 453) precincts reporting\", \"ReportingTime\": \"November 8, 2026, 4:21 p.m.\"",
         "locator": "Reporting, ReportingTime"
       },
       {
         "source": "src:api-sos-ca-gov-85716807cf",
-        "quote": "\"Name\": \"Connie Chan\", \"Party\": \"Dem\", \"Votes\": \"78,594\", \"Percent\": \"44.5\"",
+        "quote": "\"Name\": \"Connie Chan\", \"Party\": \"Dem\", \"Votes\": \"136,435\", \"Percent\": \"46.4\"",
         "locator": "candidates[0]"
       },
       {
         "source": "src:api-sos-ca-gov-85716807cf",
-        "quote": "\"Name\": \"Scott Wiener\", \"Party\": \"Dem\", \"Votes\": \"97,876\", \"Percent\": \"55.5\"",
+        "quote": "\"Name\": \"Scott Wiener\", \"Party\": \"Dem\", \"Votes\": \"157,394\", \"Percent\": \"53.6\"",
         "locator": "candidates[1]"
       }
     ]
   },
-  "last_verified": "2026-11-05"
+  "last_verified": "2026-11-09"
 }
