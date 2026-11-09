@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-36e4d133b8",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2023-01-26",
+  "publisher": "The Nevada Independent",
+  "title": "Freshman Orientation: Assemblyman Brian Hibbetts brings policing background",
+  "url": "https://thenevadaindependent.com/article/freshmen-orientation-assemblyman-brian-hibbetts-brings-policing-background",
+  "notes": "By Naoka Foreman. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}

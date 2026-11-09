@@ -39,6 +39,39 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada State Assembly, District 13",
+          "first_elected": "2022",
+          "jurisdiction": "Nevada",
+          "start": "2022-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "November 2022 to Current",
+              "locator": "PDF page 64, Legislative Biography—2025 Session, Brian Hibbetts"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Assembly District 13",
+              "locator": "PDF page 64, Legislative Biography—2025 Session, Brian Hibbetts"
+            },
+            {
+              "source": "src:thenevadaindependent-com-36e4d133b8",
+              "quote": "He then defeated Democrat Will Rucker in the general election, carrying 56 percent of the vote.",
+              "locator": "article (January 26, 2023), opening summary"
+            },
+            {
+              "source": "src:leg-state-nv-us-7bae331e8f",
+              "quote": "Hibbetts, Brian Republican No. 13 Clark (Part)",
+              "locator": "83rd (2025) Session roster"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
