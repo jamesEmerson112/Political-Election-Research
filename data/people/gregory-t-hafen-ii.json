@@ -48,6 +48,71 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly, District 36 (Minority Floor Leader in 2025)",
+          "current": true,
+          "jurisdiction": "Nevada Assembly District 36",
+          "start": "2018-12-07",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "December 2018* to Current",
+              "locator": "Legislative Biography, 2025 Session, page 61: Gregory T. Hafen II, Years in Assembly"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "* Appointed to the Assembly on December 7, 2018, to fill a vacancy due to the death of",
+              "locator": "Legislative Biography, 2025 Session, page 61: Gregory T. Hafen II, footnote"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Assembly Minority Floor Leader, 2025",
+              "locator": "Legislative Biography, 2025 Session, page 61: Gregory T. Hafen II, Leadership"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Assembly District 36",
+              "locator": "Legislative Biography, 2025 Session, page 61: Gregory T. Hafen II, district line"
+            }
+          ]
+        },
+        {
+          "office": "Chairman, Pahrump Regional Planning Commission",
+          "current": false,
+          "jurisdiction": "Pahrump, Nye County, Nevada",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-a32f4da2dd",
+              "quote": "Prior to his appointment to the Assembly, he was chairman of the Pahrump Regional Planning Commission and the Pahrump Capital Improvement Advisory Committee.",
+              "locator": "Career"
+            },
+            {
+              "source": "src:hafen4nevada-com-86a0e25eb7",
+              "quote": "He previously chaired the Pahrump Regional Planning Commission, Pahrump Capital Improvement Advisory Committee, chaired the Pahrump Ground Water Management Plan Advisory Committee and has participated in developing numerous Nye County Ordinances and Nye County comprehensive plans."
+            }
+          ]
+        },
+        {
+          "office": "Chairman, Pahrump Capital Improvement Advisory Committee",
+          "current": false,
+          "jurisdiction": "Pahrump, Nye County, Nevada",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-a32f4da2dd",
+              "quote": "Prior to his appointment to the Assembly, he was chairman of the Pahrump Regional Planning Commission and the Pahrump Capital Improvement Advisory Committee.",
+              "locator": "Career"
+            },
+            {
+              "source": "src:hafen4nevada-com-86a0e25eb7",
+              "quote": "He previously chaired the Pahrump Regional Planning Commission, Pahrump Capital Improvement Advisory Committee, chaired the Pahrump Ground Water Management Plan Advisory Committee and has participated in developing numerous Nye County Ordinances and Nye County comprehensive plans."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
