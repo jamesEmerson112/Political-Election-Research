@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:mike-trouble-lin",
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Mike Trouble Lin programs, budgets or legislation carried out",
+        "where": "San Francisco Department of Elections Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 10 candidate statements"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Mike Trouble Lin legislative record",
+        "where": "San Francisco Board of Supervisors Legistar API (webapi.legistar.com/v1/sfgov/persons, filtered by last name): no person records"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Mike Trouble Lin",
+        "where": "KQED voter guide and results page, Board of Supervisors District 10 (kqed.org): Positions on Key Issues and Key Supporters (N/A); no documented outcomes"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Mike Trouble Lin",
+        "where": "Local News Matters / Bay City News, Aug. 2, 2026 District 10 forum report (localnewsmatters.org)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Mike Trouble Lin",
+        "where": "Mission Local 'Meet the District 10 candidates' series, Aug. 27, 2026 installment (missionlocal.org): includes only three candidates, not this one"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Mike Trouble Lin past work, community involvement",
+        "where": "GrowSF November 2026 questionnaire (growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin): Personal and Policy Goals sections list a Community Policing Academy certificate, volunteering and articles, no documented program or budget outcomes in a government record"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Mike Trouble Lin\" OR \"Mike Lin\" Potrero View District 10 candidate",
+        "where": "Web search (news)"
+      }
+    ]
+  }
+}
