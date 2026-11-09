@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.jacky-rosen--person.aaron-d-ford--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2025-07-28",
+  "endorsee": "person:aaron-d-ford",
+  "endorser": "person:jacky-rosen",
+  "citations": [
+    {
+      "source": "src:kolotv-com-cabc469929",
+      "quote": "RENO, Nev. (KOLO) - U.S. Senator Jacky Rosen has endorsed Nevada Attorney General Aaron Ford in his bid to be Nevada’s next governor."
+    },
+    {
+      "source": "src:fordfornevada-com-bc858b069e",
+      "quote": "Jacky Rosen",
+      "locator": "Endorsements page, list under \"WE ARE STRONGLY SUPPORTING AARON FORD FOR GOVERNOR\""
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

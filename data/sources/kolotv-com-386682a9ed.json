@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kolotv-com-386682a9ed",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-07-24",
+  "publisher": "KOLO",
+  "title": "Cortez Masto endorses Ford’s bid for Governor",
+  "url": "https://www.kolotv.com/2025/07/24/cortez-masto-endorses-fords-bid-governor/"
+}

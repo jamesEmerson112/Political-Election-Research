@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.catherine-cortez-masto--person.aaron-d-ford--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2025-07-24",
+  "endorsee": "person:aaron-d-ford",
+  "endorser": "person:catherine-cortez-masto",
+  "citations": [
+    {
+      "source": "src:kolotv-com-386682a9ed",
+      "quote": "RENO, Nev. (KOLO) - U.S. Senator Catherine Cortez Masto has endorsed Nevada Attorney General Aaron Ford in his bid for Governor."
+    },
+    {
+      "source": "src:fordfornevada-com-bc858b069e",
+      "quote": "Catherine Cortez Masto",
+      "locator": "Endorsements page, list under \"WE ARE STRONGLY SUPPORTING AARON FORD FOR GOVERNOR\""
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

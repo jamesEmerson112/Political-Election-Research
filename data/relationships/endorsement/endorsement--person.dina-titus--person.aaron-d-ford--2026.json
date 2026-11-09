@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.dina-titus--person.aaron-d-ford--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:aaron-d-ford",
+  "endorser": "person:dina-titus",
+  "citations": [
+    {
+      "source": "src:fordfornevada-com-bc858b069e",
+      "quote": "Dina Titus",
+      "locator": "Endorsements page, list under \"WE ARE STRONGLY SUPPORTING AARON FORD FOR GOVERNOR\""
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

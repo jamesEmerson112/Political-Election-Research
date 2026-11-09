@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "catherine-cortez-masto",
+  "name": "Catherine Cortez Masto",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-09"
+}

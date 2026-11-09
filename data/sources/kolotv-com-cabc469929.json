@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "kolotv-com-cabc469929",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-07-28",
+  "publisher": "KOLO",
+  "title": "Rosen endorses Ford for Governor",
+  "url": "https://www.kolotv.com/2025/07/28/rosen-endorses-ford-governor/"
+}

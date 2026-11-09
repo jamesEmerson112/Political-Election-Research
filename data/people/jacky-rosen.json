@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "jacky-rosen",
+  "name": "Jacky Rosen",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-09"
+}
