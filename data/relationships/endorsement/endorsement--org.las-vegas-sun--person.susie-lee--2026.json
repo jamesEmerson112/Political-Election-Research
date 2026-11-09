@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.las-vegas-sun--person.susie-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-10-14",
+  "endorsee": "person:susie-lee",
+  "endorser": "org:las-vegas-sun",
+  "citations": [
+    {
+      "source": "src:lasvegassun-com-c50e664e0f",
+      "quote": "For these reasons, we endorse Dina Titus in District 1, Susie Lee in District 3 and Steven Horsford in District 4."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "emilys-list",
+  "name": "EMILYs List",
+  "aliases": [],
+  "ids": [
+    {
+      "id": "C00193433",
+      "system": "fec_committee"
+    }
+  ],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-09"
+}

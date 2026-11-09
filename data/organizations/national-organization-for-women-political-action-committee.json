@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "national-organization-for-women-political-action-committee",
+  "name": "National Organization for Women Political Action Committee",
+  "aliases": [
+    "NOW PAC"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "general_purpose_pac",
+  "last_verified": "2026-11-09"
+}

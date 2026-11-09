@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "u-s-chamber-of-commerce",
+  "name": "U.S. Chamber of Commerce",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "org_type": "trade_association",
+  "last_verified": "2026-11-09"
+}

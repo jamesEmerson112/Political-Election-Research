@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.u-s-chamber-of-commerce--person.susie-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-05-27",
+  "endorsee": "person:susie-lee",
+  "endorser": "org:u-s-chamber-of-commerce",
+  "citations": [
+    {
+      "source": "src:susieleeforcongress-com-df23b5c610",
+      "quote": "Today, Congresswoman Susie Lee (NV-03) announced she has received the endorsement of the U.S. Chamber of Commerce"
+    },
+    {
+      "source": "src:susieleeforcongress-com-df23b5c610",
+      "quote": "that’s why we’re excited to announce the U.S. Chamber’s endorsement of Congresswoman Susie Lee for Nevada’s 3rd congressional district.",
+      "locator": "statement of Neil Bradley, U.S. Chamber of Commerce"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

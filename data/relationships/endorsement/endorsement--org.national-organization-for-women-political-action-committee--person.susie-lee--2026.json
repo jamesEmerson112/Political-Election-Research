@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.national-organization-for-women-political-action-committee--person.susie-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-06-24",
+  "endorsee": "person:susie-lee",
+  "endorser": "org:national-organization-for-women-political-action-committee",
+  "citations": [
+    {
+      "source": "src:susieleeforcongress-com-44d5f4f1c2",
+      "quote": "Congresswoman Susie Lee (NV-03) announced she has received the endorsements of EMILYs List, Planned Parenthood Action Fund, Reproductive Freedom for All, and National Organization for Women (NOW) PAC."
+    },
+    {
+      "source": "src:susieleeforcongress-com-44d5f4f1c2",
+      "quote": "NOW is proud to endorse Susie Lee for Congress.",
+      "locator": "statement of Sue Burtch, Executive Director, Nevada NOW"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

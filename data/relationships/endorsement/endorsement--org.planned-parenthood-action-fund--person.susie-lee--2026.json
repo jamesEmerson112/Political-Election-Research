@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.planned-parenthood-action-fund--person.susie-lee--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-06-24",
+  "endorsee": "person:susie-lee",
+  "endorser": "org:planned-parenthood-action-fund",
+  "citations": [
+    {
+      "source": "src:susieleeforcongress-com-44d5f4f1c2",
+      "quote": "Congresswoman Susie Lee (NV-03) announced she has received the endorsements of EMILYs List, Planned Parenthood Action Fund, Reproductive Freedom for All, and National Organization for Women (NOW) PAC."
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
