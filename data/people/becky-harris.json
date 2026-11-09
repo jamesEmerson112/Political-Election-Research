@@ -37,6 +37,52 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Nevada State Senator, District 9",
+          "current": false,
+          "end": "2018-01-16",
+          "jurisdiction": "Nevada",
+          "start": "2014-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-a0d7d9550f",
+              "quote": "Senate District No. 9",
+              "locator": "PDF page 25, Legislative Biography 2017 Session, Becky Harris"
+            },
+            {
+              "source": "src:leg-state-nv-us-a0d7d9550f",
+              "quote": "November 2014 to Current",
+              "locator": "PDF page 25, Legislative Biography 2017 Session, Years in Senate"
+            },
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "*Senator Becky Harris resigned from office on January 16, 2018.",
+              "locator": "PDF page 99, Interim Committees 2017–2018, footnote"
+            }
+          ]
+        },
+        {
+          "office": "Chair, Nevada Gaming Control Board",
+          "current": false,
+          "end": "2019",
+          "jurisdiction": "Nevada",
+          "start": "2018",
+          "citations": [
+            {
+              "source": "src:unlv-edu-34a1e57bc1",
+              "quote": "Harris served as the chair of the Nevada Gaming Control Board from 2018-2019 and was the first woman to hold the position."
+            },
+            {
+              "source": "src:thenevadaindependent-com-acef20ff87",
+              "quote": "State Sen. Becky Harris is stepping down from her legislative post to become the first female chair of the Gaming Control Board, the governor's office announced Friday morning."
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "No Political Party",
       "citations": [

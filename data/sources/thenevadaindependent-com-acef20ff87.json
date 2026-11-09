@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-acef20ff87",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2018-01-12",
+  "publisher": "The Nevada Independent",
+  "title": "State Sen. Becky Harris to become first female chair of Nevada Gaming Control Board",
+  "url": "https://thenevadaindependent.com/article/state-sen-becky-harris-to-become-first-female-chair-of-nevada-gaming-control-board",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
