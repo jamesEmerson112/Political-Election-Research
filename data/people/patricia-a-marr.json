@@ -80,6 +80,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected, appointed, office, served as, judge pro tem, commissioner",
+          "where": "Campaign website https://www.marr4judge.com/ and /about"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "public office held",
+          "where": "Las Vegas Review-Journal, 'Women with backgrounds in law, psychology eye Family Court Dept. D' (2026-10-06) and RJ 2026 voter guide candidate statement"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "public office held",
+          "where": "The Nevada Independent 2026 Clark County voter guide and Nov 4 results article"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "office held",
+          "where": "Our Nevada Judges candidate page (ournevadajudges.com/candidates/patricia-a-marr): headline list includes a Nevada Current item titled as one of '2 Political Newcomers Vying For Family Court Bench' (Sep 16, 2026)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Patricia A. Marr",
+          "where": "Eighth Judicial District Court judicial departments page (clarkcountycourts.us/departments/judicial/): not listed as a sitting judge"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Patricia A. Marr",
+          "where": "Clark County Election Department, Current Listing of All Offices up for Election in 2026 (officesup-all-2026.pdf), incumbent column: not an incumbent"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
