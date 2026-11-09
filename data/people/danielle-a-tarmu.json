@@ -85,6 +85,52 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Tarmu",
+          "where": "Clark County Election Department candidate lists for the 2026 general election (Notice of General Election PDF, page 9; officesup-26g.pdf, page 6): Department 28 lists only 'Tarmu Danielle A. NP', where NP = Nonpartisan, indicated for nonpartisan offices only"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Campaign site danielletarmu.com: home (Judicial Candidate Statement) and Biography pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "biography",
+          "where": "Maier Gutierrez & Associates legal team page for Danielle A. Tarmu (mgalaw.com)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tarmu",
+          "where": "The Nevada Independent 2026 general election guide, District Court Dept. 28 (candidate deep dive)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Tarmu",
+          "where": "The Nevada Independent, 2026-11-04 results article on Clark County judicial races"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Danielle Tarmu judge candidate Department 28 Clark County 2026",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Tarmu\" for judge campaign website Danielle Tarmu Nevada",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Danielle Tarmu",
+          "where": "nvsos.gov and nvcourts.gov (candidate filings, judicial disclosures): blocked from this session (Cloudflare challenge), not read"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
