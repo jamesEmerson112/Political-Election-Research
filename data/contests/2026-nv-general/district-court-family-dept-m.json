@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../schemas/contest.schema.json",
+  "id": "2026-nv-general/district-court-family-dept-m",
+  "kind": "office",
+  "election": "election:2026-nv-general",
+  "name": "District Court Judge Family Division Department M",
+  "office": "District Court Judge",
+  "candidates": [
+    {
+      "person": "person:amy-m-mastin",
+      "ballot_designation": "",
+      "incumbent": true,
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Mastin, Amy M. NP",
+          "locator": "PDF pages 10-11 (the DEPARTMENT M heading ends page 10, the name opens page 11), NONPARTISAN OFFICES, DISTRICT COURT JUDGE FAMILY DIVISION 6-YEAR TERM, DEPARTMENT M (last name, first name, NP = nonpartisan)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Mastin Amy M. NP 6",
+          "locator": "PDF page 7 (Page 7 of 10), District Court Judge Family Division Department M row (last name, first name, party NP, term in years)"
+        },
+        {
+          "source": "src:clarkcountynv-gov-a96b8f6419",
+          "quote": "District Court Judge Family Division Department M Mastin Amy M. NP 6",
+          "locator": "PDF page 5 (5 of 12), INCUMBENT (Current Office Holder) column, District Court Judge Family Division Department M: the current office holder"
+        },
+        {
+          "source": "src:clarkcountycourts-us-583c1aca04",
+          "quote": "M FAMILY 5 Amy Mastin",
+          "locator": "Judicial departments table (family/juvenile), DEPT# M row (dept, location, courtroom, judge): the sitting judge of Family Division Department M"
+        }
+      ]
+    }
+  ],
+  "level": "state",
+  "last_verified": "2026-11-09"
+}

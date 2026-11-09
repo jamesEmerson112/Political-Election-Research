@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "amy-m-mastin",
+  "name": "Amy M. Mastin",
+  "aliases": [],
+  "ids": [],
+  "links": {},
+  "public_figure": true,
+  "last_verified": "2026-11-09"
+}
