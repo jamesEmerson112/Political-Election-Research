@@ -1,6 +1,42 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:laurance-lee",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "\"Laurance Lee\" controversy OR complaint OR lawsuit OR criticism",
+        "where": "Web search (news), results reviewed for any matter documented by two independent publishers or an official record"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Laurance Lee",
+        "where": "Mission Local WordPress search (missionlocal.org/wp-json/wp/v2/posts?search=...), 20 most recent posts, including the 2026 school board candidate series, slate, forum and results articles"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Laurance Lee",
+        "where": "San Francisco Ethics Commission site search (sfethics.org/?s=...): Nothing Found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "complaint, investigation, lawsuit, response to criticism",
+        "where": "Candidate questionnaire (GrowSF, November 2026) and campaign site already in the dataset; SF Voter Information Pamphlet candidate statement"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "scope",
+        "where": "Note: same outlets and databases, with no date restriction (matters through 2026-11-09), applied to every candidate in this package; FPPC enforcement page returned 404, not searched; sfelections.org and web.archive.org blocked here"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Laurance Lee\" recall 2022 San Francisco school board",
+        "where": "Web search for his 2022 recall role and 2024 race (Mission Local, Ballotpedia lead, SF Green Party 2026 endorsement note); recall participation and endorsement decisions are not documented controversies"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-04",
     "items": [
