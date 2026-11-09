@@ -123,5 +123,119 @@
         "where": "note"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "sfmta-fy2023-fy2024-budget",
+        "kind": "budget",
+        "date": "2022-04-19",
+        "summary": "As one of seven SFMTA Board directors, voted for Resolution 220419-036, approving the SFMTA's FY 2023 and FY 2024 operating budgets ($1,357.1 million and $1,400.1 million) and extending free Muni fares for youth 19 and under; the Board adopted it with all seven directors voting aye on April 19, 2022; no measured outcome is recorded in this dataset.",
+        "title": "Voted for the SFMTA FY 2023 and FY 2024 budget (Resolution 220419-036)",
+        "citations": [
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "SFMTA BOARD OF DIRECTORS Gwyneth Borden, Chair Amanda Eaken, Vice Chair Stephanie Cajina Steve Heminger Fiona Hinze Sharon Lai Manny Yekutiel",
+            "locator": "p. 1, board roster"
+          },
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "Approving various actions related to the SFMTA two-year Fiscal Year (FY) 2023 and 2024 Budget including approving the SFMTA FY 2023 and FY 2024 Operating Budget, in the amounts of $1,357.1 million and $1,400.1 million, respectively",
+            "locator": "p. 7, Item 12b"
+          },
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "extension of free Municipal Railway fares for all youth 19 and under",
+            "locator": "p. 7, Item 12b"
+          },
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "RESOLUTION No. 220419-036",
+            "locator": "p. 8, Item 12b"
+          },
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "On motion to approve: ADOPTED: AYES – Cajina, Heminger, Hinze, Lai, Yekutiel, Eaken and Borden",
+            "locator": "p. 9, vote on Item 12b (Resolution 220419-036)"
+          }
+        ]
+      },
+      {
+        "id": "speed-limit-20-mph-12-segments",
+        "kind": "legislation",
+        "date": "2022-04-19",
+        "summary": "As one of seven SFMTA Board directors, voted for Resolution 220419-034, amending Transportation Code Section 702 to cut the speed limit from 25 to 20 mph on 12 street segments, including Castro Street (Market to 19th) and Market Street (Castro to Octavia); adopted with all seven directors voting aye on April 19, 2022; no measured outcome is recorded in this dataset.",
+        "title": "Voted to lower the speed limit to 20 mph on 12 street segments (Resolution 220419-034)",
+        "citations": [
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "Amending the Transportation Code, Division II, Section 702 to reduce the speed limit from 25 miles per hour to 20 miles per hour on the following 12 City street segments",
+            "locator": "p. 6, Item 11"
+          },
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "Castro Street, between Market Street and 19th Street",
+            "locator": "p. 6, Item 11"
+          },
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "Market Street, between Castro Street and Octavia Street",
+            "locator": "p. 6, Item 11"
+          },
+          {
+            "source": "src:sfmta-com-f13c85fbf4",
+            "quote": "RESOLUTION No. 220419-034 On motion to approve: ADOPTED: AYES – Cajina, Heminger, Hinze, Lai, Yekutiel, Eaken and Borden",
+            "locator": "p. 7, vote on Item 11"
+          }
+        ]
+      },
+      {
+        "id": "slow-streets-program",
+        "kind": "program",
+        "date": "2022-12-06",
+        "summary": "As an SFMTA Board director, voted for Resolution 221206-116, amending the Transportation Code to establish a citywide Slow Streets Program and adopting an initial set of streets that included Noe Street and Sanchez Street; adopted with six ayes on December 6, 2022; no measured outcome is recorded in this dataset.",
+        "title": "Voted to establish the citywide Slow Streets Program (Resolution 221206-116)",
+        "citations": [
+          {
+            "source": "src:sfmta-com-0df433ac05",
+            "quote": "Establishing a Slow Streets program (Program) by: amending Transportation Code, Division II, by adding Section 207, to establish a citywide Program of low-stress routes on residential streets in San Francisco that prioritize biking, walking, and other forms of active transportation while ensuring access to all San Franciscans",
+            "locator": "p. 9, Item 14"
+          },
+          {
+            "source": "src:sfmta-com-0df433ac05",
+            "quote": "Clay Street, Golden Gate Avenue, Hearst Avenue, Lyon Street, Minnesota Street, Noe Street, Sanchez Street, Shotwell Street, and Somerset Street",
+            "locator": "p. 9, Item 14"
+          },
+          {
+            "source": "src:sfmta-com-0df433ac05",
+            "quote": "adopting the Slow Streets Program and all the streets in the resolution except for Golden Gate Avenue, Lyon Street, 23rd Avenue, and Cabrillo Street: ADOPTED: AYES – Cajina, Heminger, Hinze, Yekutiel, Eaken, and Borden RESOLUTION No. 221206-116",
+            "locator": "p. 11, vote on Item 14"
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Yekutiel SFMTA Board resolution vote budget Slow Streets Valencia",
+        "where": "SFMTA Board of Directors meeting minutes (sfmta.com), April 19, 2022 and December 6, 2022; sfmta.com search results for minutes naming Director Yekutiel, 2022-2023"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Yekutiel; Manny",
+        "where": "San Francisco Board of Supervisors Legistar web API (webapi.legistar.com/v1/sfgov/matters), title search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Emanuel Manny Yekutiel record SFMTA Director Civic Joy Fund",
+        "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 8 candidate statement"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Manny Yekutiel accomplishments record",
+        "where": "GrowSF November 2026 questionnaire (growsf.org) and campaign site mannyforsf.com (home page only; /policy and /about redirect to the home page)"
+      }
+    ]
   }
 }

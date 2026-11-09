@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfmta-com-f13c85fbf4",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2022-05-03",
+  "publisher": "San Francisco Municipal Transportation Agency",
+  "title": "SFMTA Board of Directors meeting minutes, April 19, 2022 (regular meeting and closed session)",
+  "url": "https://www.sfmta.com/media/31395/download?inline",
+  "notes": "Published date as shown on the SFMTA Reports & Documents page for 4-19-22 MTAB Minutes (https://www.sfmta.com/reports/4-19-22-mtab-minutes)."
+}
