@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "community-tenants-association",
+  "name": "Community Tenants Association",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "local",
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.the-sun-reporter--person.dionjay-dj-brookter--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:dionjay-dj-brookter",
+  "endorser": "org:the-sun-reporter",
+  "citations": [
+    {
+      "source": "src:dj4d10-com-8cb0bf8855",
+      "quote": "The Sun-Reporter",
+      "locator": "Endorsements: Community Organizations Support DJ"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

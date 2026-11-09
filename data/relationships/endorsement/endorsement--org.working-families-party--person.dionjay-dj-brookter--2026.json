@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.working-families-party--person.dionjay-dj-brookter--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:dionjay-dj-brookter",
+  "endorser": "org:working-families-party",
+  "citations": [
+    {
+      "source": "src:dj4d10-com-8cb0bf8855",
+      "quote": "CA Working Families Party",
+      "locator": "Endorsements: Community Organizations Support DJ"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

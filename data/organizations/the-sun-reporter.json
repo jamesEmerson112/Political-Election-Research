@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "the-sun-reporter",
+  "name": "The Sun-Reporter",
+  "aliases": [],
+  "ids": [],
+  "jurisdiction": "local",
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}
