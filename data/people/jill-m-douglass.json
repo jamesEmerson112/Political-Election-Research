@@ -3,6 +3,23 @@
   "id": "jill-m-douglass",
   "name": "Jill M. Douglass",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "value": "Republican",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "Douglass Jill M. REP",
+          "locator": "PDF page 4, State Assembly District 37"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "REP = Republican",
+          "locator": "PDF page 1, Abbreviations"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
