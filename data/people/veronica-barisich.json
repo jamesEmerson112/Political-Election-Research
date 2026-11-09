@@ -65,6 +65,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Department 5",
+      "citations": [
+        {
+          "source": "src:judgebarisich-com-bb18ec2105",
+          "quote": "Veronica Barisich is the Presiding Judge of Department 5 of the Eighth Judicial District Court in Clark County, Nevada.",
+          "locator": "About, first paragraph"
+        },
+        {
+          "source": "src:thenevadaindependent-com-201cc127cc",
+          "quote": "Presiding Judge, Eighth Judicial District, Dept. 5",
+          "locator": "Candidate deep dive, Barisich, TITLE"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",

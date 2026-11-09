@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "judgebarisich-com-bb18ec2105",
+  "kind": "candidate_website",
+  "accessed": "2026-11-09",
+  "publisher": "Committee to Re-Elect Judge Veronica Barisich",
+  "title": "About Judge Veronica Barisich",
+  "url": "https://www.judgebarisich.com/about"
+}
