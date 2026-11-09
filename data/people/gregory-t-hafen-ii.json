@@ -29,6 +29,26 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.S., Business Management",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: University of Nevada, Las Vegas, B.S., Business Management",
+              "locator": "Legislative Biography, 2025 Session, page 61: Gregory T. Hafen II"
+            },
+            {
+              "source": "src:hafen4nevada-com-86a0e25eb7",
+              "quote": "Gregory graduated from the University of Nevada, Las Vegas with a degree in business management."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "General manager, Pahrump Utility Company",
       "citations": [
