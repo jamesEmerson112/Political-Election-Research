@@ -181,6 +181,21 @@
           "where": "nvsos.gov and nvcourts.gov (candidate filings, judicial disclosures): blocked from this session (Cloudflare challenge), not read"
         }
       ]
+    },
+    "residence_city": {
+      "value": "Las Vegas",
+      "citations": [
+        {
+          "source": "src:noreen4judge-com-19f89a6edf",
+          "quote": "A Nevadan by choice, Noreen made Las Vegas her home more than two decades ago and she has been a dedicated member of our community ever since.",
+          "locator": "Home, Community"
+        },
+        {
+          "source": "src:noreen4judge-com-ff99a71fb5",
+          "quote": "A Nevadan by choice, Noreen made Las Vegas her home more than two decades ago, treating Las Vegas as her forever home and community,",
+          "locator": "About (Meet Noreen)"
+        }
+      ]
     }
   },
   "ids": [],
