@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calmatters-org-a7326d9f7a",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2018-04-17",
+  "publisher": "CalMatters",
+  "title": "Lt. Gov. candidates spar over who’s cleaner in messy world of campaign finance",
+  "url": "https://calmatters.org/politics/2018/04/lt-gov-candidates-spar-over-whos-cleaner-in-messy-world-of-campaign-finance/"
+}

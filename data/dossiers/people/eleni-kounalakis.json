@@ -1,0 +1,149 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:eleni-kounalakis",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "income-from-office-buildings-with-state-agency-and-lobbying-tenants",
+        "date": "2025-04-11",
+        "response": {
+          "date": "2025-04-11",
+          "summary": "Campaign spokesperson David Beltran told CalMatters that, if elected governor, Kounalakis would place any assets that may present a conflict of interest into a blind trust; that she is a minority owner in all her business investments and not involved in the properties' day-to-day operations; and that she had taken measures to ensure her assets do not impede her work as lieutenant governor. The pledge was made during her campaign for governor, before she switched to the treasurer race.",
+          "citations": [
+            {
+              "source": "src:calmatters-org-90b9561aae",
+              "quote": "“If elected governor, the LG commits to placing any assets that may present a conflict of interest into a blind trust,” David Beltran, a spokesperson for Kounalakis’ campaign, said in a statement."
+            },
+            {
+              "source": "src:calmatters-org-90b9561aae",
+              "quote": "Beltran stressed that Kounalakis is a minority owner in all her business investments and is not involved in the day-to-day operations of the properties."
+            },
+            {
+              "source": "src:calmatters-org-90b9561aae",
+              "quote": "“The lieutenant governor has taken measures to ensure that any assets she owns do not impede her work as lt. governor,” Beltran said."
+            }
+          ]
+        },
+        "summary": "CalMatters reported in April 2025 that, according to her statements of economic interests, Kounalakis holds stakes in downtown Sacramento office buildings whose tenants include organizations with business before the state, at least three state agencies and the University of California's governing board, on which she sits as lieutenant governor; the California Globe reported the same holdings and that she had not placed them in a blind trust. A Santa Clara University ethics director told CalMatters it would have been prudent for her to distance herself from the assets. Her Republican opponent Jennifer Hawks told the San Francisco Examiner in June 2026 that she considered it a conflict of interest.",
+        "title": "Income from office buildings with state agency and lobbying tenants",
+        "citations": [
+          {
+            "source": "src:calmatters-org-90b9561aae",
+            "quote": "According to financial disclosures, her portfolio includes downtown Sacramento office buildings that rent to dozens of organizations with business before the state and at least three state agencies."
+          },
+          {
+            "source": "src:calmatters-org-90b9561aae",
+            "quote": "Through the Tsakopoulos Family Partnership, Kounalakis receives rental income from One Capitol Mall, another office building down the street from the state Capitol, including at least $10,000 last year from the University of California’s governing board. Kounalakis sits on that board in her capacity as lieutenant governor."
+          },
+          {
+            "source": "src:calmatters-org-90b9561aae",
+            "quote": "John Pelissero, the director of government ethics at Santa Clara University’s Markkula Center for Applied Ethics, said it would have been prudent for Kounalakis to take steps as lieutenant governor to distance herself from these assets, even though she generally does not vote on or sign legislation related to her clients."
+          },
+          {
+            "source": "src:californiaglobe-com-b8aaf329d0",
+            "quote": "Kounalakis has not entered a blind trust as Lt. Governor despite state agencies renting from her businesses"
+          },
+          {
+            "source": "src:sfexaminer-com-fe39f90c7b",
+            "quote": "she owns quite a bit of property around the state capitol, which houses state-employee offices. I think that’s a conflict of interest."
+          }
+        ]
+      },
+      {
+        "id": "fathers-funding-of-a-2018-independent-expenditure-committee",
+        "date": "2018",
+        "response": {
+          "date": "2018-05-13",
+          "summary": "Kounalakis told the Associated Press that her campaign was following the laws, which bar independent expenditure groups from coordinating with campaigns, and said the spending was \"all transparent\" and \"how campaigns are being funded\" in the current system. CalMatters reported that she did not respond directly to Bleich's comment at the April 2018 debate.",
+          "citations": [
+            {
+              "source": "src:ksl-com-3b5101dae4",
+              "quote": "Independent expenditure groups are barred from coordinating with campaigns on messaging. Kounalakis, whose father financed the independent expenditure effort to support her, said her campaign is following the laws."
+            },
+            {
+              "source": "src:ksl-com-3b5101dae4",
+              "quote": "\"This is all transparent and, in our current system, this is how campaigns are being funded,\" said Kounalakis"
+            },
+            {
+              "source": "src:calmatters-org-a7326d9f7a",
+              "quote": "She did not respond to Bleich’s comment about her father, Angelo Tsakopoulos, who has given more than $2 million to an independent expenditure committee to support her."
+            }
+          ]
+        },
+        "summary": "The Associated Press reported in May 2018 that nearly $5 million spent in the lieutenant governor primary came from an independent group funded primarily by Kounalakis's father, and CalMatters reported that his giving to the committee drew criticism from her Democratic opponents, including Jeff Bleich, who said at an April 2018 debate that the money would affect how she operates on the State Lands Commission. Loyola Law School professor Jessica Levinson questioned the arrangement to the AP, though she said it did not appear Kounalakis had violated ethics rules.",
+        "title": "Father's funding of a 2018 independent expenditure committee",
+        "citations": [
+          {
+            "source": "src:ksl-com-3b5101dae4",
+            "quote": "About $10 million has been spent on the race, including nearly $5 million from an independent group funded primarily by one of the candidates' fathers."
+          },
+          {
+            "source": "src:ksl-com-3b5101dae4",
+            "quote": "\"If it's her father, do we really believe that they didn't talk about messaging?\" said Jessica Levinson, a Loyola Law School professor, although she said it doesn't appear Kounalakis has violated ethics rules."
+          },
+          {
+            "source": "src:calmatters-org-8fdc96c411",
+            "quote": "Now he’s the largest donor to an independent committee working to elect her, giving almost $5 million as of May 30. His largesse has become a source of criticism from her Democratic opponents."
+          },
+          {
+            "source": "src:calmatters-org-a7326d9f7a",
+            "quote": "“If you take money from a Citizens United, Super PAC, dark money fund and you’re getting $3 million of your $4 million from…one commercial developer in your family, that’s going to affect how you operate on the (State Lands Commission) with respect to questions involving housing development,” said Bleich."
+          }
+        ]
+      }
+    ],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Date range applied to both candidates in this contest: 2018-01-01 to 2026-11-09; documented matters need two independent publishers or one official record",
+        "where": "note"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Eleni Kounalakis FPPC fine OR complaint OR investigation",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Kounalakis (no FPPC enforcement page returned)",
+        "where": "web search restricted to fppc.ca.gov"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Kounalakis FPPC enforcement record",
+        "where": "LAist/CalMatters, \"Investigating politicians\" (Oct. 14, 2024): reports FPPC enforcement records show no past violations for Kounalakis among the eight constitutional officers"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Eleni Kounalakis lawsuit OR sued OR \"ethics complaint\" OR \"State Lands Commission\" recusal",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Eleni Kounalakis controversy treasurer 2026",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Caballero Kounalakis buy treasurer",
+        "where": "San Joaquin Valley Sun, Aug. 10, 2025 (Caballero text message criticizing self-funding candidates; does not name Kounalakis and no second publisher found, so not recorded)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Kounalakis blind trust treasurer Meridian Plaza 2026 (no later reporting on whether the pledged blind trust was set up)",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Kounalakis wealth, conflicts, criticism",
+        "where": "CalMatters, \"Who will be California's next state treasurer?\" (May 2026); KPBS republication (May 5, 2026)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Kounalakis",
+        "where": "San Francisco Examiner interview with Jennifer Hawks (June 23, 2026)"
+      }
+    ]
+  }
+}

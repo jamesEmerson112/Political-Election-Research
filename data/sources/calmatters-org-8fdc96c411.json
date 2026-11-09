@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calmatters-org-8fdc96c411",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2018-06-01",
+  "publisher": "CalMatters",
+  "title": "High Rollers—A closer look at some of the sources underwriting California’s costly campaign season",
+  "url": "https://calmatters.org/politics/2018/06/high-rollers-a-closer-look-at-some-of-the-sources-underwriting-californias-costly-campaign-season/"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "calmatters-org-90b9561aae",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-04-11",
+  "publisher": "CalMatters",
+  "title": "California’s lieutenant governor leases offices to the state. What if she’s elected governor?",
+  "url": "https://calmatters.org/politics/2025/04/california-governor-eleni-kounalakis/"
+}

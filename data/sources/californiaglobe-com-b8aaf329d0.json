@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "californiaglobe-com-b8aaf329d0",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2025-04-11",
+  "publisher": "California Globe",
+  "title": "Lt. Governor Eleni Kounalakis Leases Office Buildings to the State",
+  "url": "https://californiaglobe.com/fr/lt-governor-eleni-kounalakis-leases-office-buildings-to-the-state/"
+}

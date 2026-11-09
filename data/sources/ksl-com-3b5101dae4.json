@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ksl-com-3b5101dae4",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2018-05-13",
+  "publisher": "Associated Press (published by KSL.com)",
+  "title": "Candidates spend big in California lieutenant governor race",
+  "url": "https://www.ksl.com/article/46319469/candidates-spend-big-in-california-lieutenant-governor-race"
+}
