@@ -60,6 +60,45 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Bachelor's degree, Political Science",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Bachelor’s degree in political science and master’s degree in public administration, UNLV",
+              "locator": "Martina Bauhaus candidate deep dive, Years licensed in NV"
+            }
+          ]
+        },
+        {
+          "degree": "Master's degree, Public Administration",
+          "institution": "University of Nevada, Las Vegas",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Bachelor’s degree in political science and master’s degree in public administration, UNLV",
+              "locator": "Martina Bauhaus candidate deep dive, Years licensed in NV"
+            }
+          ]
+        },
+        {
+          "degree": "Law degree",
+          "institution": "William S. Boyd School of Law, University of Nevada, Las Vegas",
+          "year": 2003,
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-ca510e21e5",
+              "quote": "Law degree, William S. Boyd School of Law, UNLV, 2003",
+              "locator": "Martina Bauhaus candidate deep dive, Years licensed in NV"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Assistant General Counsel, Las Vegas Metropolitan Police Department",
       "citations": [
