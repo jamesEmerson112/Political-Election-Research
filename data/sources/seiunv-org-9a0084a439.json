@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "seiunv-org-9a0084a439",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "SEIU Local 1107",
+  "title": "SEIU 1107 Primary Election Endorsements",
+  "url": "https://seiunv.org/endorsements/"
+}

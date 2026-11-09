@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nsea-nv-org-fde8d9e38f",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada State Education Association",
+  "title": "Educator Votes 2026",
+  "url": "https://www.nsea-nv.org/EducatorVotes2026"
+}
