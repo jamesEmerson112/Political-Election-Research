@@ -81,6 +81,77 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "end": "2018",
+          "organization": "Schuetze & McGaha",
+          "role": "Attorney (personal injury, employment and criminal defense matters)",
+          "start": "2010",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-4582b64e21",
+              "quote": "He began his career with Schuetze & McGaha and worked on personal injury, employment, and criminal defense matters from 2010-2018.",
+              "locator": "Josh Santeramo, Candidate Deep Dive, CAREER HIGHLIGHTS"
+            },
+            {
+              "source": "src:santeramo4judge-com-768069790c",
+              "quote": "He began his career in private practice, litigating personal injury, employment, and criminal defense matters.",
+              "locator": "About Josh, Legal experience"
+            }
+          ]
+        },
+        {
+          "end": "2021",
+          "organization": "Rivera Law Group",
+          "role": "Attorney representing plaintiffs in personal injury matters",
+          "start": "2019",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-4582b64e21",
+              "quote": "From 2019-2021, he represented plaintiffs in personal injury matters as an attorney with Rivera Law Group.",
+              "locator": "Josh Santeramo, Candidate Deep Dive, CAREER HIGHLIGHTS"
+            }
+          ]
+        },
+        {
+          "end": "2022",
+          "organization": "Bay Law Personal Injury",
+          "role": "Attorney",
+          "start": "2021",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-4582b64e21",
+              "quote": "He worked for Bay Law Personal Injury from 2021-2022.",
+              "locator": "Josh Santeramo, Candidate Deep Dive, CAREER HIGHLIGHTS"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Attorneys for Injured Workers",
+          "role": "Senior Deputy Attorney",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:santeramo4judge-com-768069790c",
+              "quote": "He currently serves as a Senior Deputy Attorney with the agency.",
+              "locator": "About Josh, Legal experience"
+            },
+            {
+              "source": "src:thenevadaindependent-com-4582b64e21",
+              "quote": "In 2022, he moved to Nevada Attorneys for Injured Workers, and he has worked for NAIW since.",
+              "locator": "Josh Santeramo, Candidate Deep Dive, CAREER HIGHLIGHTS"
+            },
+            {
+              "source": "src:thenevadaindependent-com-4582b64e21",
+              "quote": "He represents injured workers in the administrative court system and on appeals.",
+              "locator": "Josh Santeramo, Candidate Deep Dive, CAREER HIGHLIGHTS"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
