@@ -75,6 +75,51 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Department 21",
+          "current": true,
+          "first_elected": "2020",
+          "jurisdiction": "Eighth Judicial District Court (Clark County, Nevada)",
+          "start": "2021-01-04",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-5eaf2d9480",
+              "quote": "Judge Clark Newberry was elected in the general election and took the District Court Bench on January 4, 2021.",
+              "locator": "Biography"
+            },
+            {
+              "source": "src:clarkcountycourts-us-5eaf2d9480",
+              "quote": "Term of Office 2021- present",
+              "locator": "Biography"
+            },
+            {
+              "source": "src:nevadacurrent-com-9057cc4fa2",
+              "quote": "She also served as a civil attorney before her election to the bench in 2020, and represented plaintiffs and defendants before the Nevada Supreme Court and the Ninth Circuit Court of Appeals."
+            }
+          ]
+        },
+        {
+          "office": "Presiding Judge, Civil Division",
+          "current": true,
+          "jurisdiction": "Eighth Judicial District Court (Clark County, Nevada)",
+          "start": "2022",
+          "citations": [
+            {
+              "source": "src:nevadacurrent-com-9057cc4fa2",
+              "quote": "In 2022, she was named the presiding judge over civil cases, and the task of clearing the backlog of cases accumulating since the pandemic fell to her."
+            },
+            {
+              "source": "src:clarknewberryforjudge-com-2458c9a742",
+              "quote": "She currently serves as the Presiding Judge over the Civil Division, handling a split calendar of both criminal and civil cases, as well as the Case Reassignment Calendar.",
+              "locator": "As Your Judge page"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
