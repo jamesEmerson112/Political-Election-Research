@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "sfgreenparty-org-97cc99b5bc",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "San Francisco Green Party",
+  "title": "November 2026 endorsements",
+  "url": "https://www.sfgreenparty.org/endorsements/123-november-2026-endorsements"
+}

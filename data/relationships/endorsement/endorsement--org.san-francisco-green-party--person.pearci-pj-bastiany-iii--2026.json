@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-green-party--person.pearci-pj-bastiany-iii--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:pearci-pj-bastiany-iii",
+  "endorser": "org:san-francisco-green-party",
+  "citations": [
+    {
+      "source": "src:sfgreenparty-org-97cc99b5bc",
+      "quote": "Supervisor, D10: Pearci \"PJ\" Bastiany III",
+      "locator": "SF Candidates list"
+    },
+    {
+      "source": "src:sfgreenparty-org-97cc99b5bc",
+      "quote": "We award him our sole endorsement.",
+      "locator": "Supervisor, D10 - Pearci \"PJ\" Bastiany III"
+    },
+    {
+      "source": "src:bastiany-campaign-site-replit-app-9a0b141290",
+      "quote": "Proudly Endorsed by the San Francisco Green Party",
+      "locator": "Home page"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

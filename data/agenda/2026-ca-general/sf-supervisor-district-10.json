@@ -44,6 +44,94 @@
       "name": "Jessica Pessecow"
     }
   ],
+  "exhausted": [
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-10|endorsements|person:pearci-pj-bastiany-iii",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "endorsements",
+          "where": "Candidate website bastiany-campaign-site.replit.app home page (only endorsement shown: San Francisco Green Party, recorded); /endorsements returns 404"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Supervisor, D10",
+          "where": "San Francisco Green Party, November 2026 endorsements (sfgreenparty.org): endorses him for Supervisor, D10 (recorded)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco Democratic Party, Nov. 3, 2026 voter guide (sfdems.org): District 10 lists Theo Ellington"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10, Bastiany",
+          "where": "San Francisco League of Conservation Voters endorsements page (sflcv.org): District 10 endorsement is Theo Ellington; his questionnaire is posted with the note that questionnaires are not endorsements"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "Alice B. Toklas LGBTQ Democratic Club 2026 endorsements (alicebtoklas.org): District 10 lists Theo Ellington"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "Home Sharers Democratic Club Nov. 3, 2026 endorsements (homesharersdemclub.org): District 10 lists J.R. Eppler"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Supervisor, District 10",
+          "where": "San Francisco Bay Guardian endorsements, Oct. 6, 2026 (sfbg.com): District 10 lists DJ Brookter and JR Eppler"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10 Supervisor",
+          "where": "San Francisco Tenants Union endorsements (sftu.org): District 10 lists Dion-Jay \"DJ\" Brookter"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "SF Supervisor District 10",
+          "where": "San Francisco Labor Council endorsements (sflaborcouncil.org): no District 10 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "GrowSF District 10 Supervisor recommendation (growsf.org): recommends Theo Ellington"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Bastiany",
+          "where": "San Francisco Chronicle editorial board District 10 endorsement, Oct. 22, 2026 (sfchronicle.com): picks Theo Ellington"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "endorsements",
+          "where": "League of Pissed Off Voters candidate questionnaire, his answers (assets.nationbuilder.com, D10_Supervisor_Pearci_PJ_Bastiany.pdf), 'What three endorsements are you most proud of?': names Moms Demand Action 'Gun Sense Candidate' and the Everytown 'Demand a Seat' cohort, each stated as 'not an official endorsement', and a fraternity AlphaPAC candidate cohort; none recorded as an endorsement"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "endorse",
+          "where": "GrowSF November 2026 questionnaire, his answers (growsf.org): no endorsements listed; states he is not seeking the Democratic Party's endorsement"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "endorsed",
+          "where": "San Francisco Department of Elections Nov. 2026 Voter Information Pamphlet, his candidate statement (media.api.sf.gov/documents/N26_EN_VIP.pdf, printed p. 47): no endorsements listed"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Endorsed by",
+          "where": "Mission Local District 10 candidate series, Oct. 1, 2026 (missionlocal.org): covers only the three candidates with a major endorsement or reported contributions; he is not among them"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10 endorsements",
+          "where": "Blocked or unreadable here: theleaguesf.org voter guide (HTTP 403), milkclub.org endorsements (HTTP 403), sfgop.org (blocked), sfelections.org (blocked)"
+        }
+      ]
+    }
+  ],
   "measures": [],
   "office_ref": "office:san-francisco-supervisor",
   "questions": [
