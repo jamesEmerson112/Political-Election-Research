@@ -66,6 +66,86 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Attorney (family law)",
+          "start": "2003",
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "A licensed attorney in Nevada since 2003, Brewer has practiced family law for over 20 years, driven by a desire to advocate for children and families.",
+              "locator": "About page, second paragraph"
+            }
+          ]
+        },
+        {
+          "end": "2016",
+          "organization": "Brewer Blau Law Group",
+          "role": "Co-founder",
+          "start": "2009",
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "She co-founded the Brewer Blau Law Group (2009–2016) and has contributed to significant legal discussions, including co-authoring a 2013 amicus brief presented to the Nevada Supreme Court on custody outcomes.",
+              "locator": "About page, second paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Truancy Diversion Judge",
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "Her professional experience includes serving as a Truancy Diversion Judge, Parent Coordinator, Guardian ad Litem, and Pro Bono Settlement Master.",
+              "locator": "About page, second paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Parent Coordinator",
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "Her professional experience includes serving as a Truancy Diversion Judge, Parent Coordinator, Guardian ad Litem, and Pro Bono Settlement Master.",
+              "locator": "About page, second paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Guardian ad Litem",
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "Her professional experience includes serving as a Truancy Diversion Judge, Parent Coordinator, Guardian ad Litem, and Pro Bono Settlement Master.",
+              "locator": "About page, second paragraph"
+            }
+          ]
+        },
+        {
+          "role": "Pro Bono Settlement Master",
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "Her professional experience includes serving as a Truancy Diversion Judge, Parent Coordinator, Guardian ad Litem, and Pro Bono Settlement Master.",
+              "locator": "About page, second paragraph"
+            }
+          ]
+        },
+        {
+          "organization": "UNLV William S. Boyd School of Law",
+          "role": "Volunteer judge for moot court and mock trial competitions",
+          "citations": [
+            {
+              "source": "src:kristinebrewer4judge-com-a5bd5818d5",
+              "quote": "Ms. Brewer is actively involved with the UNLV William S. Boyd School of Law, where she volunteers as a judge for moot court and mock trial competitions and teaches public classes on divorce, custody, and guardianship.",
+              "locator": "About page, third paragraph"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
