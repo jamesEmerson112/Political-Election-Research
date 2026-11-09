@@ -17,6 +17,21 @@
           "locator": "section 'Recorder'"
         }
       ]
+    },
+    "party_registration": {
+      "value": "Democratic",
+      "citations": [
+        {
+          "source": "src:clarkcountynv-gov-ffb05d7e53",
+          "quote": "Flanagan, Tanya DEM",
+          "locator": "PDF page 6, LIST OF CANDIDATES TO BE VOTED UPON AT THE NOVEMBER 3, 2026, GENERAL ELECTION, COUNTY RECORDER"
+        },
+        {
+          "source": "src:clarkcountynv-gov-e0cab76ddd",
+          "quote": "DEM = Democratic",
+          "locator": "PDF page 1 (Page 1 of 10), Abbreviations key"
+        }
+      ]
     }
   },
   "ids": [],
