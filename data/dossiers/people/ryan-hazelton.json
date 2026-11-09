@@ -1,6 +1,42 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:ryan-hazelton",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "\"Ryan Hazelton\" controversy OR complaint OR lawsuit OR criticism",
+        "where": "Web search (news), results reviewed for any matter documented by two independent publishers or an official record"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ryan Hazelton",
+        "where": "Mission Local WordPress search (missionlocal.org/wp-json/wp/v2/posts?search=...), 20 most recent posts, including the 2026 school board candidate series, slate, forum and results articles"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Ryan Hazelton",
+        "where": "San Francisco Ethics Commission site search (sfethics.org/?s=...): Nothing Found"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "complaint, investigation, lawsuit, response to criticism",
+        "where": "Candidate questionnaire already in the dataset (GrowSF, November 2026), campaign site (about, Whole Child Agenda), SF Voter Information Pamphlet candidate statement"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Ryan Hazelton\" Mariposa Kids",
+        "where": "Web search (news) on his nonprofit role"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "scope",
+        "where": "Note: same outlets and databases, with no date restriction (matters through 2026-11-09), applied to every candidate in this package; FPPC enforcement page not searched; sfelections.org and web.archive.org blocked here"
+      }
+    ]
+  },
   "promises": {
     "as_of": "2026-11-04",
     "items": [
