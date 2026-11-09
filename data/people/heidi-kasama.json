@@ -68,6 +68,33 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "Member, Nevada Assembly, District 2",
+          "first_elected": "2020",
+          "jurisdiction": "Nevada",
+          "start": "2020-11",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Assembly District 2",
+              "locator": "PDF page 70, Legislative Biography 2025 Session, Heidi Kasama"
+            },
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "November 2020 to Current",
+              "locator": "PDF page 70, Legislative Biography 2025 Session, Heidi Kasama, Years in Assembly"
+            },
+            {
+              "source": "src:heidikasama-com-2407dcb8c7",
+              "quote": "Elected to the Nevada State Assembly District 2 in 2020"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
