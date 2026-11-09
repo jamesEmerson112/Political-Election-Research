@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountycourts-us-daaf00c227",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "publisher": "Eighth Judicial District Court",
+  "title": "Department R – Eighth Judicial District Court",
+  "url": "https://www.clarkcountycourts.us/departments/judicial/family-division/department-r/"
+}

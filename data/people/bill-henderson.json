@@ -96,6 +96,16 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Family Division, Department R",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-daaf00c227",
+          "quote": "Judge Henderson has been serving the community as the District Court Judge in Department R since 2008.",
+          "locator": "Department R page, Biography tab"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
