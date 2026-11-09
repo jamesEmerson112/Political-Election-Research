@@ -40,6 +40,20 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "New York, New York",
+      "citations": [
+        {
+          "source": "src:leg-state-nv-us-5f25eddfe6",
+          "quote": "Born: New York, New York",
+          "locator": "PDF page 70, Legislative Biography 2025 Session, Heidi Kasama"
+        },
+        {
+          "source": "src:thenevadaindependent-com-183c41e069",
+          "quote": "Born in New York, Kasama, 67, is a second-generation Norwegian immigrant who spent much of her early life in Seattle."
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

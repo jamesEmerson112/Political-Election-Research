@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "thenevadaindependent-com-183c41e069",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-25",
+  "publisher": "The Nevada Independent",
+  "title": "Here's where Clark County District F candidates stand on growth, crime and affordability",
+  "url": "https://thenevadaindependent.com/article/clark-county-commissions-district-f-district-is-up-for-grabs-whos-looking-to-take-it",
+  "notes": "Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
