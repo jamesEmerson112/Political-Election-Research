@@ -101,6 +101,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "District Court Judge, Eighth Judicial District Court, Department 23",
+      "citations": [
+        {
+          "source": "src:clarkcountycourts-us-5fdf1479e4",
+          "quote": "Prior to taking the bench in department 23, Judge Jasmin Lilly-Spells served Clark County Public Defender’s office for over a decade and was named chief deputy public defender.",
+          "locator": "Department XXIII page, Biography"
+        },
+        {
+          "source": "src:judgelilly-spells-com-bbf72793ad",
+          "quote": "Judge Jasmin Lilly-Spells has served the people of Clark County District Court, Department 23, since taking the bench in January 2021.",
+          "locator": "Home page, first paragraph (the candidate's self-description)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
