@@ -108,6 +108,32 @@
           "where": "Profile research of 2026-11-04 (offices_held is an empty list with its own search log); Mission Local candidate pages not reachable (HTTP 403 / rate-limited)"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-board-of-education|legislation|person:ryan-hazelton",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or legislative office; bills or resolutions authored, voted on or publicly supported/opposed",
+          "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, Board of Education candidate statement (media.api.sf.gov/documents/N26_EN_VIP.pdf, p. 29): occupation Children's Nonprofit Director; lists appointed advisory roles, no legislative office and no bill named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bill numbers (AB/SB/Prop/Measure), votes, resolutions",
+          "where": "Campaign website ryanforsfschools.com (home and About pages): Mayor-appointed Vice Chair of the DCYF Oversight and Advisory Committee (an advisory body); no legislative office and no bill named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "bill numbers (AB/SB/Prop/Measure), votes, resolutions",
+          "where": "GrowSF November 2026 Board of Education questionnaire (growsf.org/voter-guide/questionnaires/november-2026/ryan-hazelton/): Executive Director of Mariposa Kids, Chair of the SF Childcare Planning & Advisory Council; no bill named"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Hazelton\" Oversight and Advisory Committee DCYF minutes",
+          "where": "Web search of sf.gov DCYF Oversight and Advisory Committee records: no legislative votes found (the committee is advisory)"
+        }
+      ]
     }
   ],
   "measures": [],
