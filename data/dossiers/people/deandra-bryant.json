@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:deandra-bryant",
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes: offices, programs, legislation, budgets",
+        "where": "San Francisco Voter Information Pamphlet, Nov. 3, 2026, candidate statement, Board of Supervisors District 10, printed p. 48: housing-services and disability-advocacy work described in general terms; no government record of an outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "commissions, policy bodies, boards",
+        "where": "SF League of Pissed Off Voters 2026 questionnaire (D10_Supervisor_Deandra_Bryant.pdf), pp. 3-4: she states she has not served on a local or state commission or appointed policy body, nor on a governing board, and that this is her first political campaign"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Deandra Bryant record",
+        "where": "GrowSF November 2026 questionnaire (growsf.org/voter-guide/questionnaires/november-2026/deandra-bryant/): no dated, documented outcome"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "campaign website",
+        "where": "None found (VIP statement and League questionnaire list none)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "MatterTitle contains 'Deandra'",
+        "where": "San Francisco Board of Supervisors legislative files via the Legistar web API (webapi.legistar.com/v1/sfgov/matters): no matter naming her"
+      }
+    ]
+  }
+}
