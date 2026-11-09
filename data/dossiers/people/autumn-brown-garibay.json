@@ -138,5 +138,41 @@
         "where": "SF League of Pissed Off Voters 2026 questionnaire, Autumn Brown Garibay (assets.nationbuilder.com PDF); not used once five proposals were found in the earlier sources"
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (legislation, programs, budgets)",
+        "where": "San Francisco Voter Information Pamphlet, Nov 3, 2026, Board of Education candidate statement (https://media.api.sf.gov/documents/N26_EN_VIP.pdf)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "record / accomplishments / office",
+        "where": "Campaign website https://www.autumnforschoolboard.com/, /about and /priorities: PTA and parent-organizing roles; no government office or official program record"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "commissions and policy bodies; past work",
+        "where": "SF League of Pissed Off Voters 2026 questionnaire (https://assets.nationbuilder.com/theleaguesf/pages/557/attachments/original/1786911365/School_Board_Autumn_Brown_Garibay.pdf): no government commission or state policy body"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "record / accomplishments",
+        "where": "GrowSF November 2026 questionnaire (https://growsf.org/voter-guide/questionnaires/november-2026/autumn-brown-garibay/)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "current Board of Education members",
+        "where": "SFUSD Board of Education page (https://www.sfusd.edu/about-sfusd/board-education): not a current commissioner"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "official records",
+        "where": "No public office found (legislation task closed with an exhausted entry); no government record of a program or budget she carried out found"
+      }
+    ]
   }
 }
