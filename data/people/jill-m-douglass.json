@@ -50,6 +50,16 @@
         }
       ]
     },
+    "birthplace": {
+      "value": "Florida",
+      "citations": [
+        {
+          "source": "src:reviewjournal-com-65a2773e7c",
+          "quote": "Douglass, a Florida native who moved to Nevada in 1994, has more than 30 years of experience as a financial services advisor and manager.",
+          "locator": "article body, 4th paragraph"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [

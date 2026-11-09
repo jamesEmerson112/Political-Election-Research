@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-65a2773e7c",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2023-06-19",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Clark County GOP chair faces challenger",
+  "url": "https://www.reviewjournal.com/news/politics-and-government/clark-county-gop-chair-faces-challenger-2796897",
+  "notes": "By Jessica Hill. Opened with tools/research/fetch-text.mjs on 2026-11-09. Not archived: web.archive.org was unreachable from the research environment."
+}
