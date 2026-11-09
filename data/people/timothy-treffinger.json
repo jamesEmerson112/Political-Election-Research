@@ -44,6 +44,26 @@
           "where": "nvcourts.gov (Nevada Commission on Judicial Selection public application PDF for Treffinger, found by web search): blocked here by a Cloudflare challenge; nvsos.gov and silverstateelection.nv.gov also blocked"
         }
       ]
+    },
+    "occupation": {
+      "value": "Attorney in private practice",
+      "citations": [
+        {
+          "source": "src:thenevadaindependent-com-2289ef132d",
+          "quote": "Solo practitioner, Law Office of Timothy Treffinger",
+          "locator": "Candidate deep dive, Treffinger, TITLE"
+        },
+        {
+          "source": "src:thenevadaindependent-com-2289ef132d",
+          "quote": "He is listed on LinkedIn as having his own private practice.",
+          "locator": "Candidate summary, Timothy Treffinger"
+        },
+        {
+          "source": "src:reviewjournal-com-8d6b736b58",
+          "quote": "Treffinger is listed by the State Bar of Nevada as working at American Freedom Group Law, which advertises itself online as a local firm specializing in personal injury, criminal, family and civil litigation.",
+          "locator": "Timothy Treffinger section"
+        }
+      ]
     }
   },
   "ids": [],

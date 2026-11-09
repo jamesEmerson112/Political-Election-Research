@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "reviewjournal-com-8d6b736b58",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-10-06",
+  "publisher": "Las Vegas Review-Journal",
+  "title": "Charles Hoskin faces Timothy Treffinger in Family Court Department E race",
+  "url": "https://www.reviewjournal.com/news/civil-courts/incumbent-faces-former-clark-county-da-candidate-in-family-court-dept-e-3896428/"
+}
