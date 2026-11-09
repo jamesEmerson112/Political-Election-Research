@@ -146,6 +146,47 @@
           "where": "nvsos.gov / silverstateelection.nv.gov (Nevada Secretary of State candidate filings; host blocked from this session)"
         }
       ]
+    },
+    "residence_city": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "city of residence: none stated (only the courthouse address)",
+          "where": "clarkcountycourts.us Department XXIX page (official judicial biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence: only the campaign committee's mailing address (a PMB), not a residence",
+          "where": "judgejacob.com/about (campaign biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "candidate address / city: not printed",
+          "where": "Clark County Election Department, All Contests and Candidates in the November 3 2026 General Election (officesup-26g.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "gov.nv.gov press release, Governor Lombardo Announces Two Judicial Appointments (2023-02-28)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "The Nevada Independent 2026 general election guide, District Court Department 29 (thenevadaindependent.com/elections/2026/general/judicial/10)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "city of residence",
+          "where": "Las Vegas Review-Journal Nevada Voter Guide 2026, Clark County District Court Dept. 29 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Jacob Reynolds declaration of candidacy address",
+          "where": "nvsos.gov / silverstateelection.nv.gov (Nevada Secretary of State candidate filings; host blocked from this session)"
+        }
+      ]
     }
   },
   "ids": [],
