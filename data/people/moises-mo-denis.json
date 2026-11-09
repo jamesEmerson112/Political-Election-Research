@@ -34,6 +34,50 @@
         }
       ]
     },
+    "career": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "role": "Computer network technician",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-41b3e93c5b",
+              "quote": "Computer Network Technician",
+              "locator": "PDF page 11, Legislative Biography — 2019 Session, Moises (Mo) Denis (occupation line under the name)"
+            },
+            {
+              "source": "src:archive-leg-state-nv-us-4b2228aac4",
+              "quote": "Computer Network Technician",
+              "locator": "Legislative Biography — 2011 Session, page 1 (occupation line under the name)"
+            }
+          ]
+        },
+        {
+          "organization": "Nevada Public Utilities Commission",
+          "role": "IT professional",
+          "citations": [
+            {
+              "source": "src:thenevadaindependent-com-af7e630f0d",
+              "quote": "He’s worked as an IT professional, including for the Nevada Public Utilities Commission.",
+              "locator": "Board of Regent, District 5, Moises \"Mo\" Denis"
+            }
+          ]
+        },
+        {
+          "end": "2009",
+          "organization": "Nevada PTA",
+          "role": "President",
+          "start": "2009",
+          "citations": [
+            {
+              "source": "src:archive-leg-state-nv-us-4b2228aac4",
+              "quote": "President, Nevada PTA, 2009",
+              "locator": "Legislative Biography — 2011 Session, page 1, Personal and Professional Achievements"
+            }
+          ]
+        }
+      ]
+    },
     "education": {
       "as_of": "2026-11-09",
       "items": [
