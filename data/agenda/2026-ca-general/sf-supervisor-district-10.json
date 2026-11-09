@@ -216,6 +216,82 @@
           "where": "Blocked or unreadable here: theleaguesf.org voter guide (HTTP 403), milkclub.org endorsements (HTTP 403), sfgop.org (blocked), sfelections.org (blocked)"
         }
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "task": "2026-ca-general/sf-supervisor-district-10|endorsements|person:ellsworth-ell-m-jennison-jr",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth \"Ell\" M. Jennison endorsements",
+          "where": "San Francisco Department of Elections Voter Information Pamphlet, November 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), Board of Supervisors District 10 candidate statements"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ell Jennison campaign website",
+          "where": "Campaign website: none found (no website in the VIP statement, KQED or GrowSF)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco Democratic Party November 3, 2026 voter guide (sfdems.org/endorsements/nov-3-2026-general-election): District 10 endorsement is Theo Ellington"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco Republican Party (sfgop.org/endorsements): connection reset, could not be read"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco Labor Council (sflaborcouncil.org/endorsements): HTTP 404"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth Jennison",
+          "where": "KQED voter guide, Board of Supervisors District 10 (kqed.org/voterguide/sanfrancisco/supervisor-10th-district), Key Supporters section: lists N/A for this candidate"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth Jennison",
+          "where": "SF Chronicle editorial endorsement for District 10 (sfchronicle.com, article 22487638): endorses another candidate; no endorsement of this candidate"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth Jennison",
+          "where": "Mission Local, 'Meet the District 10 candidates: Where do you part from Mayor Lurie?' (missionlocal.org, Oct. 2026): covers only the three candidates with a major endorsement or reported contributions, not this candidate"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth Jennison",
+          "where": "SF Examiner, 'SF's big southeast at stake in District 10 supervisor race' (sfexaminer.com): endorsements listed only for other candidates"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "GrowSF November 2026 District 10 voter guide (growsf.org): recommends Theo Ellington"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco League of Conservation Voters endorsements (sflcv.org/endorsements): District 10 endorsement is Theo Ellington"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "District 10",
+          "where": "San Francisco Women's Political Committee November 2026 PAC recommendations (sfwpc.org): District 10 recommendation is Theo Ellington"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "November 2026",
+          "where": "San Francisco Young Democrats endorsements (sfyd.org/endorsements): no November 2026 District 10 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Ellsworth Jennison endorsement District 10 supervisor",
+          "where": "web search: no endorsement found"
+        }
+      ]
     }
   ],
   "measures": [],
