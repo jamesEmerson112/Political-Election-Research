@@ -101,6 +101,42 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected or appointed office, public office, served on: only employment as an attorney (private practice; Senior Deputy Attorney at Nevada Attorneys for Injured Workers) is described",
+          "where": "santeramo4judge.com home and About pages"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "prior office, elected, appointed: TITLE and CAREER HIGHLIGHTS list attorney jobs only",
+          "where": "The Nevada Independent 2026 voter guide, Department 30, Josh Santeramo deep dive"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, registered, born, age, birthplace",
+          "where": "Our Nevada Judges candidate profile (ournevadajudges.com/candidates/joshua-m-santeramo)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Santeramo Wiese Dept. 30: both hosts blocked (Cloudflare), not readable here",
+          "where": "Nevada Current, 'Long-time judge draws challenger in Clark County Dept. 30' (nevadacurrent.com search API and newsfromthestates.com republication)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Josh Santeramo\" elected OR appointed OR commission OR board Nevada",
+          "where": "web search"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Josh Santeramo District Court Department 30 Las Vegas candidate",
+          "where": "web search"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
