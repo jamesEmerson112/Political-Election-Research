@@ -40,6 +40,64 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "B.A. in Government",
+          "institution": "Saint Mary's College of California",
+          "citations": [
+            {
+              "source": "src:stmarys-ca-edu-ab65705dc5",
+              "quote": "Catherine received her B.A. in Government from St. Mary's College of California.",
+              "locator": "News release, second paragraph"
+            },
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "Catherine Stefani is an active member of the California State Bar, a graduate of St. Mary’s College, and earned a J.D. and an LL.M. from McGeorge School of Law.",
+              "locator": "Biography, closing paragraphs"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "University of the Pacific, McGeorge School of Law",
+          "citations": [
+            {
+              "source": "src:stmarys-ca-edu-ab65705dc5",
+              "quote": "continued on to receive her Juris Doctor Degree and LL.M in Government and Public Policy from the University of the Pacific, McGeorge School of Law",
+              "locator": "News release, second paragraph"
+            },
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "Catherine Stefani is an active member of the California State Bar, a graduate of St. Mary’s College, and earned a J.D. and an LL.M. from McGeorge School of Law.",
+              "locator": "Biography, closing paragraphs"
+            },
+            {
+              "source": "src:stefani-asmdc-org-2bed2c95bc",
+              "quote": "She earned her law degree from McGeorge School of Law",
+              "locator": "Biography, final paragraph"
+            }
+          ]
+        },
+        {
+          "degree": "LL.M. in Government and Public Policy",
+          "institution": "University of the Pacific, McGeorge School of Law",
+          "citations": [
+            {
+              "source": "src:stmarys-ca-edu-ab65705dc5",
+              "quote": "continued on to receive her Juris Doctor Degree and LL.M in Government and Public Policy from the University of the Pacific, McGeorge School of Law",
+              "locator": "News release, second paragraph"
+            },
+            {
+              "source": "src:sfbos-archive-sf-gov-d0c11d3e3d",
+              "quote": "Catherine Stefani is an active member of the California State Bar, a graduate of St. Mary’s College, and earned a J.D. and an LL.M. from McGeorge School of Law.",
+              "locator": "Biography, closing paragraphs"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Assemblymember",
       "citations": [
