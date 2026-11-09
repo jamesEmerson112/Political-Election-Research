@@ -4,6 +4,37 @@
   "name": "Bill Young",
   "aliases": [],
   "candidate_profile": {
+    "birth_date": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "Bill Young birth date; age",
+          "where": "Campaign site billyoung4clarkcountynvrecorder.com (home page; /about returned HTTP 502)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Bill Young birth date; age",
+          "where": "Clark County Election Department: Notice of General Election 2026, general-election contests and candidates list, 2026 Candidate Guide"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Bill Young birth date; age",
+          "where": "The Nevada Independent: 'Assessor, recorder, public administrator' (May 16, 2026), primary results article (June 10, 2026) and 2026 Clark County general voter guide"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Bill Young birth date; age",
+          "where": "Web searches: \"Bill Young Clark County Recorder Republican candidate 2026\"; \"Bill Young\" \"recorder\" Clark County Nevada 2026 Republican campaign; \"Bill Young\" retired police detective Las Vegas recorder candidate"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Bill Young birth date; age",
+          "where": "Clark County Registrar candidate filing list (elections.clarkcountynv.gov/webvoterlookuptv/CandFile_.aspx): search form needs a POST, no list readable; Nevada Secretary of State candidate filings (nvsos.gov): host blocked"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
