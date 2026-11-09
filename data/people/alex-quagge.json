@@ -81,6 +81,26 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Prosecutor (Deputy District Attorney), Clark County District Attorney's Office; Major, Nevada Army National Guard",
+      "citations": [
+        {
+          "source": "src:electalexquagge-com-aa2893113c",
+          "quote": "Today, I work as a prosecutor in the Clark County District Attorney’s Office and a Major in the Nevada Army National Guard.",
+          "locator": "About Alex Quagge page, fifth paragraph (candidate's own words)"
+        },
+        {
+          "source": "src:thenevadaindependent-com-ce0610a812",
+          "quote": "Deputy District Attorney, Clark County District Attorney’s Office",
+          "locator": "Alex Quagge, Candidate Deep Dive, TITLE"
+        },
+        {
+          "source": "src:thenevadaindependent-com-ce0610a812",
+          "quote": "Major, Nevada Army National Guard",
+          "locator": "Alex Quagge, Candidate Deep Dive, TITLE"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
