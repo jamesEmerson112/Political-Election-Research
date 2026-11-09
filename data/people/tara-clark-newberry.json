@@ -60,6 +60,36 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Undergraduate degree",
+          "institution": "University of Cincinnati",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-79a2cb2f25",
+              "quote": "Judge Tara Clark Newberry  received her undergraduate degree from University of Cincinnati and  her juris doctor from California Western School of Law."
+            }
+          ]
+        },
+        {
+          "degree": "Juris Doctor",
+          "institution": "California Western School of Law",
+          "year": 2006,
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-79a2cb2f25",
+              "quote": "Judge Tara Clark Newberry  received her undergraduate degree from University of Cincinnati and  her juris doctor from California Western School of Law."
+            },
+            {
+              "source": "src:watermarkoutnews-com-3538333bf5",
+              "quote": "She graduated from California Western School of Law in San Diego in 2006, and moved to Las Vegas when a law firm recruited her."
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "District Court Judge, Department 21, Eighth Judicial District Court",
       "citations": [

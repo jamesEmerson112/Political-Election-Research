@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "watermarkoutnews-com-3538333bf5",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2022-04-04",
+  "publisher": "Watermark Out News (Associated Press wire report)",
+  "title": "LGBTQ judge in Las Vegas reflects on career of firsts",
+  "url": "https://watermarkoutnews.com/2022/04/04/lgbtq-judge-in-las-vegas-reflects-on-career-of-firsts/"
+}
