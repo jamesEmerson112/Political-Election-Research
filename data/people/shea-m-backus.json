@@ -29,6 +29,50 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "institution": "E. W. Clark High School, Las Vegas",
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Educated: E. W. Clark High School, Las Vegas;",
+              "locator": "PDF page 44, Legislative Biography—2025 Session, Shea M. Backus"
+            },
+            {
+              "source": "src:backusfornevada-com-40c68c7042",
+              "quote": "Shea is a proud Clark High School graduate!",
+              "locator": "Meet Shea page"
+            }
+          ]
+        },
+        {
+          "degree": "B.S., Management Science",
+          "institution": "University of California, San Diego, Revelle College",
+          "year": 1998,
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "University of California, San Diego, Revelle College, B.S., Management Science, 1998",
+              "locator": "PDF page 44, Legislative Biography—2025 Session, Shea M. Backus"
+            }
+          ]
+        },
+        {
+          "degree": "J.D.",
+          "institution": "Arizona State University, Sandra Day O'Connor College of Law",
+          "year": 2003,
+          "citations": [
+            {
+              "source": "src:leg-state-nv-us-5f25eddfe6",
+              "quote": "Arizona State University, Sandra Day O'Connor College of Law, J.D., 2003",
+              "locator": "PDF page 44, Legislative Biography—2025 Session, Shea M. Backus"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Attorney",
       "citations": [
