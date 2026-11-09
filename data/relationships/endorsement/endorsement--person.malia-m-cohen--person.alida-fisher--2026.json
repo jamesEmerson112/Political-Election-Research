@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.malia-m-cohen--person.alida-fisher--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:alida-fisher",
+  "endorser": "person:malia-m-cohen",
+  "citations": [
+    {
+      "source": "src:alidafisher-com-e14323d690",
+      "quote": "Malia Cohen CA State Controller",
+      "locator": "Our Campaign is Proudly Endorsed By"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

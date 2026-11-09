@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.san-francisco-green-party--person.alida-fisher--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:alida-fisher",
+  "endorser": "org:san-francisco-green-party",
+  "citations": [
+    {
+      "source": "src:sfgreenparty-org-4187b9a835",
+      "quote": "These are the SF Green Party's final endorsements for the November 2026 election."
+    },
+    {
+      "source": "src:sfgreenparty-org-4187b9a835",
+      "quote": "School Board: Virginia Cheung and Alida Fisher",
+      "locator": "November 2026 endorsements, SF Candidates"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

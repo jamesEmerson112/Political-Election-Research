@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.bay-area-reporter--person.alida-fisher--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "date": "2026-09-09",
+  "endorsee": "person:alida-fisher",
+  "endorser": "org:bay-area-reporter",
+  "citations": [
+    {
+      "source": "src:ebar-com-f0f909a126",
+      "quote": "We recommend Fisher for a second term on the school board.",
+      "locator": "Alida Fisher"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

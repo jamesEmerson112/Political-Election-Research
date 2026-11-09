@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.kevin-mullin--person.alida-fisher--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:alida-fisher",
+  "endorser": "person:kevin-mullin",
+  "citations": [
+    {
+      "source": "src:alidafisher-com-e14323d690",
+      "quote": "Kevin Mullin US Representative, CA-15",
+      "locator": "Our Campaign is Proudly Endorsed By"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

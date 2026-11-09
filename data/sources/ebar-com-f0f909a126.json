@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "ebar-com-f0f909a126",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-09",
+  "publisher": "Bay Area Reporter",
+  "title": "Editorial: SF school board recommendations",
+  "url": "https://www.ebar.com/story/170125"
+}
