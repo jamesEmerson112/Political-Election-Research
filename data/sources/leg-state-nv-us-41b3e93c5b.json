@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "leg-state-nv-us-41b3e93c5b",
+  "kind": "legislative_record",
+  "accessed": "2026-11-09",
+  "publisher": "Nevada Legislative Counsel Bureau",
+  "title": "Nevada Legislative Manual 2019, Chapter 1 (Legislative Biography, 2019 Session)",
+  "url": "https://www.leg.state.nv.us/Division/Research/Publications/LegManual/2019/ch1.pdf"
+}
