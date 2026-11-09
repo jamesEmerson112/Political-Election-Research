@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.bay-area-reporter--person.michael-t-nguyen--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:michael-t-nguyen",
+  "endorser": "org:bay-area-reporter",
+  "citations": [
+    {
+      "source": "src:michaelnguyen4sf-com-c18c10fafd",
+      "quote": "*Harvey Milk Club, Working Families Party,  League of Pissed Off Voters, SEIU 1021, San Franciscans for Social Housing, & Bay Area Reporter are #2 endorsements.",
+      "locator": "Michael is Proudly Endorsed By, footnote"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Ranked-choice race: the candidate's page lists this as a #2 (second-choice) endorsement."
+}

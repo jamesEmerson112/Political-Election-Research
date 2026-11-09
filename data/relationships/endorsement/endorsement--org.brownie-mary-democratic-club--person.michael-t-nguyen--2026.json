@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.brownie-mary-democratic-club--person.michael-t-nguyen--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:michael-t-nguyen",
+  "endorser": "org:brownie-mary-democratic-club",
+  "citations": [
+    {
+      "source": "src:michaelnguyen4sf-com-c18c10fafd",
+      "quote": "Brownie Mary and UESF are triple.",
+      "locator": "Michael is Proudly Endorsed By, footnote"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "Ranked-choice race: the candidate's page lists this as a triple endorsement."
+}
