@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.matt-haney--person.virginia-cheung--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:virginia-cheung",
+  "endorser": "person:matt-haney",
+  "citations": [
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "Endorsed by United Educators of San Francisco; Assemblymember Matt Haney;",
+      "locator": "Voter Information Pamphlet, Candidate Statements, Board of Education, Virginia Cheung statement, printed p. 28 (PDF p. 30)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

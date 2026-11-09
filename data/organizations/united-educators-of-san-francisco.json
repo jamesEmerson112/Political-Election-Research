@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "united-educators-of-san-francisco",
+  "name": "United Educators of San Francisco",
+  "aliases": [
+    "UESF"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "labor_union",
+  "last_verified": "2026-11-09"
+}

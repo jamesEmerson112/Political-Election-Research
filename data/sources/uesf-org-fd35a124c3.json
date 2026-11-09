@@ -1,0 +1,9 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "uesf-org-fd35a124c3",
+  "kind": "voter_guide",
+  "accessed": "2026-11-09",
+  "publisher": "United Educators of San Francisco",
+  "title": "Political Action & Endorsements",
+  "url": "https://uesf.org/our-work/political-action/"
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../schemas/person.schema.json",
+  "id": "matt-alexander",
+  "name": "Matt Alexander",
+  "aliases": [
+    "Matthew Alexander"
+  ],
+  "ids": [],
+  "links": {},
+  "last_verified": "2026-11-09"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--person.connie-chan--person.virginia-cheung--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:virginia-cheung",
+  "endorser": "person:connie-chan",
+  "citations": [
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "Assemblymember Matt Haney; Supervisors Connie Chan, Chyanne Chen, Jackie Fielder, and Shamann Walton;",
+      "locator": "Voter Information Pamphlet, Candidate Statements, Board of Education, Virginia Cheung statement, printed p. 28 (PDF p. 30), endorsements"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

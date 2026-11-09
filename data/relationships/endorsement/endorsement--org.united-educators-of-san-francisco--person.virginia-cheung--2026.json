@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.united-educators-of-san-francisco--person.virginia-cheung--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:virginia-cheung",
+  "endorser": "org:united-educators-of-san-francisco",
+  "citations": [
+    {
+      "source": "src:uesf-org-fd35a124c3",
+      "quote": "United Educators of San Francisco supports a slate of three candidates: Reina Tello, Virginia Cheung, and Ryan Hazelton."
+    },
+    {
+      "source": "src:media-api-sf-gov-e4221ecde7",
+      "quote": "Endorsed by United Educators of San Francisco;",
+      "locator": "Voter Information Pamphlet, Candidate Statements, Board of Education, Virginia Cheung statement, printed p. 28 (PDF p. 30)"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}
