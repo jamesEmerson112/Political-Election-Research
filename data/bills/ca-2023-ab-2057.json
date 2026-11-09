@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-ab-2057",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-09-27",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-0915119b5b",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-0915119b5b",
+        "quote": "AB 2057 by Assemblymember Marc Berman (D-Menlo Park) – Associate Degree for Transfer."
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Associate Degree for Transfer",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-0915119b5b",
+        "quote": "AB 2057 by Assemblymember Marc Berman (D-Menlo Park) – Associate Degree for Transfer."
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

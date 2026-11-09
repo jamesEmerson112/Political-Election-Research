@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.eleni-kounalakis--ca-2023-ab-2057--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:eleni-kounalakis",
+  "action": "cosponsored",
+  "bill": "ca-2023-ab-2057",
+  "cycle": 2024,
+  "citations": [
+    {
+      "source": "src:ltg-ca-gov-91e58e1c12",
+      "quote": "the Lieutenant Governor co-sponsored AB 2057 (Berman), enacting high-impact recommendations produced by the Associate Degree for Transfer Intersegmental Implementation Committee"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "As Lieutenant Governor (not a legislator), named as a co-sponsor in her office's press release; the bill's author is a member of the Legislature."
+}

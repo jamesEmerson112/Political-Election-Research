@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.eleni-kounalakis--ca-2025-ab-260--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:eleni-kounalakis",
+  "action": "cosponsored",
+  "bill": "ca-2025-ab-260",
+  "cycle": 2026,
+  "citations": [
+    {
+      "source": "src:ltg-ca-gov-e977541ba9",
+      "quote": "Lieutenant Governor Kounalakis co-sponsored AB 260 (Aguiar-Curry) to ensure continued access to abortion medication in California and protect providers and patients from out-of-state interference."
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "As Lieutenant Governor (not a legislator), named as a co-sponsor in her office's press release; the bill's author is a member of the Legislature."
+}

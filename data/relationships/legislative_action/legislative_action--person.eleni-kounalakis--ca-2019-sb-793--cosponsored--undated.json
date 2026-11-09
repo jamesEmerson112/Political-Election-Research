@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.eleni-kounalakis--ca-2019-sb-793--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:eleni-kounalakis",
+  "action": "cosponsored",
+  "bill": "ca-2019-sb-793",
+  "cycle": 2020,
+  "citations": [
+    {
+      "source": "src:ltg-ca-gov-5ce617191d",
+      "quote": "Lieutenant Governor Kounalakis is a proud co-sponsor of SB 793"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "As Lieutenant Governor (not a legislator), named as a co-sponsor in her office's press release; the bill's author is a member of the Legislature."
+}

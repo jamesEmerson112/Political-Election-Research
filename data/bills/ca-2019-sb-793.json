@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2019-sb-793",
+  "status": {
+    "value": "enacted",
+    "as_of": "2020-08-28",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-490fb82d6f",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bill:"
+      },
+      {
+        "source": "src:gov-ca-gov-490fb82d6f",
+        "quote": "SB 793 by Senator Jerry Hill (D-San Mateo) – Flavored tobacco products."
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Flavored tobacco products",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-490fb82d6f",
+        "quote": "SB 793 by Senator Jerry Hill (D-San Mateo) – Flavored tobacco products."
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

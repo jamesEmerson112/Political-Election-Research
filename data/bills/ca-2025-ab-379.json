@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2025-ab-379",
+  "status": {
+    "value": "enacted",
+    "as_of": "2025-07-30",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-eec8510336",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-eec8510336",
+        "quote": "AB 379 by Assemblymember Nick Schultz (D-Burbank) – Crimes: prostitution."
+      }
+    ]
+  },
+  "area": "public_safety",
+  "title": {
+    "value": "Crimes: prostitution",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-eec8510336",
+        "quote": "AB 379 by Assemblymember Nick Schultz (D-Burbank) – Crimes: prostitution."
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

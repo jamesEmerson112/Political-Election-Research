@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-sb-233",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-05-23",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-e817833b29",
+        "quote": "Governor Gavin Newsom today signed SB 233 by Senator Nancy Skinner (D-Oakland) and Assembly Majority Leader Cecilia Aguiar-Curry (D-Winters) to allow Arizona abortion providers to temporarily provide abortion care to patients from Arizona who travel to California for that care."
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Practice of medicine: Arizona physicians: abortions and abortion-related care for Arizona patients",
+    "citations": [
+      {
+        "source": "src:ltg-ca-gov-91e58e1c12",
+        "quote": "SB 233 by Senator Nancy Skinner (D-Oakland) and Assembly Majority Leader Cecilia Aguiar-Curry (D-Winters) – Practice of medicine: Arizona physicians: abortions and abortion-related care for Arizona patients.",
+        "locator": "Co-Sponsor list, Reproductive Health"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

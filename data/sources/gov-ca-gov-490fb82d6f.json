@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "gov-ca-gov-490fb82d6f",
+  "kind": "press_release",
+  "accessed": "2026-11-09",
+  "published": "2020-08-28",
+  "publisher": "Governor of California",
+  "title": "Governor Newsom Signs Legislation 8.28.20",
+  "url": "https://www.gov.ca.gov/2020/08/28/governor-newsom-signs-legislation-8-28-20/"
+}

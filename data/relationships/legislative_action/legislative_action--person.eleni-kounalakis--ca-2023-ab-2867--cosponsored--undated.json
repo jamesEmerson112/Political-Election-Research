@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.eleni-kounalakis--ca-2023-ab-2867--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:eleni-kounalakis",
+  "action": "cosponsored",
+  "bill": "ca-2023-ab-2867",
+  "cycle": 2024,
+  "citations": [
+    {
+      "source": "src:ltg-ca-gov-91e58e1c12",
+      "quote": "Co-Sponsor:"
+    },
+    {
+      "source": "src:ltg-ca-gov-91e58e1c12",
+      "quote": "AB 2867 by Assemblymember Jesse Gabriel (D-Encino) – Recovery of artwork and personal property lost due to persecution",
+      "locator": "Co-Sponsor list, Other"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "As Lieutenant Governor (not a legislator), named as a co-sponsor in her office's press release; the bill's author is a member of the Legislature."
+}

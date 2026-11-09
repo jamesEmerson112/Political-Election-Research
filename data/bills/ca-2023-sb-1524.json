@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-sb-1524",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-06-29",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-af49db3767",
+        "quote": "The Governor today announced signing the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-af49db3767",
+        "quote": "SB 1524 by Senator Bill Dodd (D-Napa) – Consumers Legal Remedies Act: advertisements: restaurant, bar, and other food services."
+      }
+    ]
+  },
+  "area": "economy",
+  "title": {
+    "value": "Consumers Legal Remedies Act: advertisements: restaurant, bar, and other food services",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-af49db3767",
+        "quote": "SB 1524 by Senator Bill Dodd (D-Napa) – Consumers Legal Remedies Act: advertisements: restaurant, bar, and other food services."
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

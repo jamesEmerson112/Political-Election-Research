@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-ab-2129",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-09-29",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-950e59e4f5",
+        "quote": "Governor Gavin Newsom today announced that he has signed the following bills:"
+      },
+      {
+        "source": "src:gov-ca-gov-950e59e4f5",
+        "quote": "AB 2129 by Assemblymember Cottie Petrie-Norris (D-Irvine) – Immediate postpartum contraception."
+      }
+    ]
+  },
+  "area": "health",
+  "title": {
+    "value": "Immediate postpartum contraception",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-950e59e4f5",
+        "quote": "AB 2129 by Assemblymember Cottie Petrie-Norris (D-Irvine) – Immediate postpartum contraception."
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

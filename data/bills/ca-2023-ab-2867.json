@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2023-ab-2867",
+  "status": {
+    "value": "enacted",
+    "as_of": "2024-09-16",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-a20d1bd39a",
+        "quote": "Today at the Holocaust Museum LA, Governor Gavin Newsom signed Assembly Bill (AB) 2867, legislation from Assemblymember Jesse Gabriel (Encino) that will help California residents recover art and other personal property stolen during the Holocaust or as a result of other acts of political persecution."
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Recovery of artwork and personal property lost due to persecution",
+    "citations": [
+      {
+        "source": "src:ltg-ca-gov-91e58e1c12",
+        "quote": "AB 2867 by Assemblymember Jesse Gabriel (D-Encino) – Recovery of artwork and personal property lost due to persecution",
+        "locator": "Co-Sponsor list, Other"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}

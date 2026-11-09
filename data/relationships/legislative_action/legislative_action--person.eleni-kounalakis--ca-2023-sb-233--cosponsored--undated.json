@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "legislative_action--person.eleni-kounalakis--ca-2023-sb-233--cosponsored--undated",
+  "type": "legislative_action",
+  "person": "person:eleni-kounalakis",
+  "action": "cosponsored",
+  "bill": "ca-2023-sb-233",
+  "cycle": 2024,
+  "citations": [
+    {
+      "source": "src:ltg-ca-gov-91e58e1c12",
+      "quote": "Co-Sponsor:"
+    },
+    {
+      "source": "src:ltg-ca-gov-91e58e1c12",
+      "quote": "SB 233 by Senator Nancy Skinner (D-Oakland) and Assembly Majority Leader Cecilia Aguiar-Curry (D-Winters) – Practice of medicine: Arizona physicians: abortions and abortion-related care for Arizona patients.",
+      "locator": "Co-Sponsor list, Reproductive Health"
+    }
+  ],
+  "last_verified": "2026-11-09",
+  "notes": "As Lieutenant Governor (not a legislator), named as a co-sponsor in her office's press release; the bill's author is a member of the Legislature."
+}

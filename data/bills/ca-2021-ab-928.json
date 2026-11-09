@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/bill.schema.json",
+  "id": "ca-2021-ab-928",
+  "status": {
+    "value": "enacted",
+    "as_of": "2021-10-06",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-4802d80395",
+        "quote": "A full list of the bills signed by the Governor is below:"
+      },
+      {
+        "source": "src:gov-ca-gov-4802d80395",
+        "quote": "AB 928 by Assemblymember Marc Berman (D-Menlo Park) – Student Transfer Achievement Reform Act of 2021: Associate Degree for Transfer Intersegmental Implementation Committee.",
+        "locator": "Full list of bills signed"
+      }
+    ]
+  },
+  "area": "other",
+  "title": {
+    "value": "Student Transfer Achievement Reform Act of 2021: Associate Degree for Transfer Intersegmental Implementation Committee",
+    "citations": [
+      {
+        "source": "src:gov-ca-gov-4802d80395",
+        "quote": "AB 928 by Assemblymember Marc Berman (D-Menlo Park) – Student Transfer Achievement Reform Act of 2021: Associate Degree for Transfer Intersegmental Implementation Committee.",
+        "locator": "Full list of bills signed"
+      }
+    ]
+  },
+  "last_verified": "2026-11-09"
+}
