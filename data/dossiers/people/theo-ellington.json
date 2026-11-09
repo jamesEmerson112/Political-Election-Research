@@ -1,6 +1,105 @@
 {
   "$schema": "../../../schemas/dossier.schema.json",
   "actor": "person:theo-ellington",
+  "promises": {
+    "as_of": "2026-11-09",
+    "items": [
+      {
+        "id": "community-and-economic-development-plan",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "Ellington's GrowSF questionnaire says he will create a Community and Economic Development Plan that updates the 1995 Bayview Area Plan as a blueprint for housing and economic activity in the southeast, and that in his first 100 days he will convene departments, labor and business leaders to start it.",
+        "title": "Community and Economic Development Plan for the southeast neighborhoods",
+        "citations": [
+          {
+            "source": "src:growsf-org-89815455e3",
+            "quote": "I will lead the charge to create a Community & Economic Development Plan that builds on the Eastern Neighborhood Plan and updates the Bayview Area Plan from 1995, to provide a blueprint for housing development and new economic activity, specifically for the southeast neighborhoods.",
+            "locator": "Your Policy Goals: policies to change or preserve, in order of priority"
+          },
+          {
+            "source": "src:growsf-org-89815455e3",
+            "quote": "I will convene the necessary City departments, community stakeholders, labor, and business leaders to jump-start a Community and Economic Development Plan that aligns housing, jobs, transit, business growth, and corridor activation.",
+            "locator": "District-Specific Questions: 100 day plan answer"
+          }
+        ]
+      },
+      {
+        "id": "public-safety-violence-prevention-working-group",
+        "as_of": "2026-11-09",
+        "issue": "public-safety",
+        "summary": "Ellington's GrowSF questionnaire lists, among his first-100-day deliverables, a working group of SFPD, Public Health, homeless services, violence prevention organizations and community leaders.",
+        "title": "Public safety, violence prevention and well-being working group",
+        "citations": [
+          {
+            "source": "src:growsf-org-89815455e3",
+            "quote": "I will also stand up a Public Safety, Violence Prevention, and Well-Being working group that brings together SFPD, Public Health, homeless services, violence prevention organizations, and community leaders.",
+            "locator": "District-Specific Questions: 100 day plan answer"
+          }
+        ]
+      },
+      {
+        "id": "full-sfpd-staffing-and-foot-patrols",
+        "as_of": "2026-11-09",
+        "issue": "public-safety",
+        "summary": "Ellington's GrowSF questionnaire says he will advocate for full SFPD staffing of about 2,100 officers, bring consistent foot patrols back to the district and expand violence prevention and interruption programs.",
+        "title": "Full SFPD staffing and foot patrols in District 10",
+        "citations": [
+          {
+            "source": "src:growsf-org-89815455e3",
+            "quote": "I will advocate for full SFPD staffing (~2,100 officers), bring consistent foot patrols back to the district, expand proven violence prevention and interruption programs, and hold the Department accountable on outcomes, not just activity metrics.",
+            "locator": "Your Policy Goals: public safety, well-being, and violence prevention"
+          }
+        ]
+      },
+      {
+        "id": "neighborhood-office-hours",
+        "as_of": "2026-11-09",
+        "issue": "government",
+        "summary": "Ellington's GrowSF questionnaire lists holding regular constituent office hours in Bayview, Potrero Hill, Dogpatch and Visitacion Valley among his first-100-day deliverables.",
+        "title": "Regular office hours in four District 10 neighborhoods",
+        "citations": [
+          {
+            "source": "src:growsf-org-89815455e3",
+            "quote": "Finally, I will bring District 10 constituent services directly to the community by holding regular office hours in Bayview, Potrero Hill, Dogpatch, and Visitacion Valley.",
+            "locator": "District-Specific Questions: 100 day plan answer"
+          }
+        ]
+      },
+      {
+        "id": "public-timelines-for-master-developers",
+        "as_of": "2026-11-09",
+        "issue": "housing",
+        "summary": "Ellington's GrowSF questionnaire says he will demand a public timeline with milestones and consequences for delay from every master developer, and that if Candlestick Point does not move forward the City should explore penalties and reassigning land.",
+        "title": "Public timelines for master developers of entitled sites",
+        "citations": [
+          {
+            "source": "src:growsf-org-89815455e3",
+            "quote": "As Supervisor, I will demand a realistic, public timeline from every master developer, with clear milestones and consequences for delay.",
+            "locator": "District-Specific Questions: Hunters Point Shipyard and Candlestick Point"
+          },
+          {
+            "source": "src:growsf-org-89815455e3",
+            "quote": "If progress does not move forward, we should explore all available options, including enforcing penalties and pursuing strategies to recapture or reassign land to developers who are ready to build.",
+            "locator": "District-Specific Questions: Hunters Point Shipyard and Candlestick Point"
+          }
+        ]
+      },
+      {
+        "id": "hunters-point-shipyard-re-testing",
+        "as_of": "2026-11-09",
+        "issue": "public-health",
+        "summary": "Ellington's GrowSF questionnaire calls for full re-testing of the Shipyard areas whose remediation certification he describes as fraudulent, with independent oversight and a restored restoration advisory board, and no housing construction on inadequately remediated land.",
+        "title": "Re-testing of Hunters Point Shipyard remediation areas",
+        "citations": [
+          {
+            "source": "src:growsf-org-89815455e3",
+            "quote": "Hunters Point Shipyard cleanup: Demand full re-testing of all previously fraudulently certified remediation areas, with independent oversight, including bringing back the restoration advisory board. No housing construction on inadequately remediated land.",
+            "locator": "District-Specific Questions: environmental-justice policies"
+          }
+        ]
+      }
+    ]
+  },
   "track_record": {
     "as_of": "2026-11-09",
     "items": [],
