@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../schemas/relationship.schema.json",
+  "id": "endorsement--org.california-womens-leadership-association-pac--person.jennifer-hawks--2026",
+  "type": "endorsement",
+  "cycle": 2026,
+  "endorsee": "person:jennifer-hawks",
+  "endorser": "org:california-womens-leadership-association-pac",
+  "citations": [
+    {
+      "source": "src:hawksforus-com-96584c7217",
+      "quote": "California Women's Leadership Association PAC (CWLA PAC)",
+      "locator": "Home page, Official Endorsements, Endorsed for State Treasurer"
+    }
+  ],
+  "last_verified": "2026-11-09"
+}

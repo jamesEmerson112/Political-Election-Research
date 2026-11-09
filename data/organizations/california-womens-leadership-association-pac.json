@@ -1,0 +1,12 @@
+{
+  "$schema": "../../schemas/organization.schema.json",
+  "id": "california-womens-leadership-association-pac",
+  "name": "California Women's Leadership Association PAC",
+  "aliases": [
+    "CWLA PAC"
+  ],
+  "ids": [],
+  "links": {},
+  "org_type": "other",
+  "last_verified": "2026-11-09"
+}
