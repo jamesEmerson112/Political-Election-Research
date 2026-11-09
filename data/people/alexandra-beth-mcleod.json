@@ -50,6 +50,35 @@
         }
       ]
     },
+    "education": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "degree": "Juris Doctorate",
+          "institution": "University of the Pacific, McGeorge School of Law",
+          "year": 2002,
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Juris Doctorate University of the Pacific, McGeorge School of Law, 2002",
+              "locator": "PDF page 2, EDUCATION"
+            }
+          ]
+        },
+        {
+          "degree": "Bachelor of Arts in Political Science, cum laude, minor in Spanish Language",
+          "institution": "American University",
+          "year": 1999,
+          "citations": [
+            {
+              "source": "src:votemcleod-com-d8d3393a4c",
+              "quote": "Bachelor of Arts in Political Science Cum Laude, with Minor in Spanish Language American University, 1999",
+              "locator": "PDF page 2, EDUCATION"
+            }
+          ]
+        }
+      ]
+    },
     "occupation": {
       "value": "Trial attorney; of counsel, Wilson Elser Moskowitz Edelman & Dicker LLP",
       "citations": [
