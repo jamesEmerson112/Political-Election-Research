@@ -49,6 +49,47 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Judge, Eighth Judicial District Court, Department 12",
+          "current": true,
+          "jurisdiction": "Eighth Judicial District Court (Clark County, Nevada)",
+          "start": "2002-05-10",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a1cc34eaa1",
+              "quote": "Governor Kenny Guinn appointed Judge Leavitt as a District Judge in Department 12 of the Eighth Judicial District Court. Judge Leavitt was sworn into office on May 10, 2002.",
+              "locator": "Biography, paragraph 3"
+            },
+            {
+              "source": "src:clarkcountycourts-us-a1cc34eaa1",
+              "quote": "Term of Office 2002 – present",
+              "locator": "Biography header"
+            }
+          ]
+        },
+        {
+          "office": "Municipal Court Judge",
+          "current": false,
+          "jurisdiction": "City of Las Vegas",
+          "start": "1999-01",
+          "citations": [
+            {
+              "source": "src:clarkcountycourts-us-a1cc34eaa1",
+              "quote": "In January, 1999, she was appointed by a unanimous vote of the City Council to fill a vacancy on the Municipal Court. Judge Leavitt was re-elected twice to her seat in 1999 and 2001.",
+              "locator": "Biography, paragraph 2"
+            },
+            {
+              "source": "src:thenevadaindependent-com-aa0dc808df",
+              "quote": "She previously was in private practice and served as a City of Las Vegas Municipal Court judge.",
+              "locator": "The Candidates, Michelle Leavitt"
+            }
+          ]
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
