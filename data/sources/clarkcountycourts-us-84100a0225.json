@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "clarkcountycourts-us-84100a0225",
+  "kind": "government_record",
+  "accessed": "2026-11-09",
+  "published": "2023-03-09",
+  "publisher": "Eighth Judicial District Court",
+  "title": "Nevada Governor Joe Lombardo names two new judges to Eighth Judicial District Court",
+  "url": "https://www.clarkcountycourts.us/nevada-governor-joe-lombardo-names-two-new-judges-to-eighth-judicial-district-court/"
+}

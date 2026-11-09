@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/source.schema.json",
+  "id": "nevadacurrent-com-4f90b30acd",
+  "kind": "news_report",
+  "accessed": "2026-11-09",
+  "published": "2026-09-14",
+  "publisher": "Nevada Current",
+  "title": "Family Court race features rematch between Maxey and Gaudet",
+  "url": "https://nevadacurrent.com/2026/09/14/family-court-race-features-rematch-between-maxey-and-gaudet/"
+}

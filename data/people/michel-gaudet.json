@@ -22,6 +22,42 @@
           "quote": "Paul joined Kainen Law Group in March 2025."
         }
       ]
+    },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [
+        {
+          "office": "District Court Judge, Family Division, Department N",
+          "current": false,
+          "end": "2025-01",
+          "jurisdiction": "Eighth Judicial District Court (Clark County, Nevada)",
+          "start": "2023-03",
+          "citations": [
+            {
+              "source": "src:gov-nv-gov-a2453f5036",
+              "quote": "Governor Lombardo appointed Paul M. Gaudet to the Eighth Judicial District Court, Family Division, Department N"
+            },
+            {
+              "source": "src:clarkcountycourts-us-84100a0225",
+              "quote": "Paul M. Gaudet was appointed to Department N and Regina M. McConnell to Department O. McConnell replaces Judge Frank Sullivan, who retired recently, and Gaudet replaces Judge Matthew Harter, who passed away in November."
+            },
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "Eighth Judicial District Court, Family Division (Department N, 2023–2025)",
+              "locator": "Michel Gaudet, Candidate deep dive, COURT DOCKET"
+            },
+            {
+              "source": "src:thenevadaindependent-com-c261e20c63",
+              "quote": "District Court judge, Family Division, Department N, Eighth Judicial District Court (March 2023-January 2025)",
+              "locator": "Michel Gaudet, Candidate deep dive, TITLE, Prior job titles"
+            },
+            {
+              "source": "src:nevadacurrent-com-4f90b30acd",
+              "quote": "Former Family Court Judge Paul Gaudet is hoping to regain the Dept. N seat he lost in 2024 to now-Judge Kerri Maxey, who defeated Gaudet by more than seven percentage points."
+            }
+          ]
+        }
+      ]
     }
   },
   "ids": [],
