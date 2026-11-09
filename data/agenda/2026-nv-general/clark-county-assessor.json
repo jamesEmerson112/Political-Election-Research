@@ -2,7 +2,20 @@
   "$schema": "../../../schemas/agenda.schema.json",
   "kind": "office",
   "contest": "contest:2026-nv-general/clark-county-assessor",
-  "candidates": [],
+  "candidates": [
+    {
+      "person": "person:judy-joe",
+      "name": "Judy Joe"
+    },
+    {
+      "person": "person:lynette-warren",
+      "name": "Lynette Warren"
+    },
+    {
+      "person": "person:tamicka-n-washington",
+      "name": "Tamicka N. Washington"
+    }
+  ],
   "measures": [],
   "questions": [],
   "seeded": {
