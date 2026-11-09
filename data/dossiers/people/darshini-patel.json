@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../schemas/dossier.schema.json",
+  "actor": "person:darshini-patel",
+  "controversies": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "Darshini Patel District 8 San Francisco supervisor candidate",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "\"Darshini Patel\" San Francisco criticized OR complaint OR ethics OR controversy",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Manny Yekutiel controversy District 8 supervisor (results also covered the other three candidates)",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "San Francisco Ethics Commission enforcement District 8 candidate 2026 McCoy OR Yekutiel OR Patel OR Nguyen",
+        "where": "web search"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "McCoy / Nguyen / Patel / Yekutiel",
+        "where": "https://sfethics.org/ethics/category/news (SF Ethics Commission news and enforcement notices, latest page)"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "GrowSF endorsement, complaint, criticism",
+        "where": "https://missionlocal.org/2026/10/darshini-patel-wants-you-to-know-growsf-endorsement-came-without-my-consent/"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Mission Local reported that GrowSF endorsed Patel in October 2026 and that Patel said she had declined the endorsement; that is an action by an outside group, not a documented matter about the candidate's conduct, so it is not recorded as a controversy. No documented matter met the two-publisher or official-record rule",
+        "where": "note"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "Date range applied to every candidate in this contest: 2020-01-01 to 2026-11-09. Documented matters need two independent publishers or one official record; the same web searches, outlets (Mission Local, The San Francisco Standard, KQED, Bay Area Reporter) and the San Francisco Ethics Commission news page were checked for each candidate",
+        "where": "note"
+      }
+    ]
+  }
+}
