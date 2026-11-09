@@ -45,6 +45,42 @@
         }
       ]
     },
+    "birthplace": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "place of birth: page says his family lived on O'ahu when he was young and that Sunrise Mountain became the first place he called home, but does not state where he was born",
+          "where": "electalexquagge.com/aboutalexquagge (campaign biography)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "electalexquagge.com home page (campaign site)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth: says 'Raised on the east side of Las Vegas', not where he was born",
+          "where": "The Nevada Independent 2026 general election guide, District Court Department 29 (thenevadaindependent.com/elections/2026/general/judicial/10)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "Las Vegas Review-Journal Nevada Voter Guide 2026, Clark County District Court Dept. 29 entry"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth: says 'Raised in Southern Nevada'",
+          "where": "Run for Something candidate directory, Alex Quagge (directory.runforsomething.net)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "place of birth",
+          "where": "ournevadajudges.com candidate and judge profiles (reference work)"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
