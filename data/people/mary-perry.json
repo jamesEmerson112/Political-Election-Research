@@ -3,6 +3,44 @@
   "id": "mary-perry",
   "name": "Mary Perry",
   "aliases": [],
+  "candidate_profile": {
+    "party_registration": {
+      "status": "not_found",
+      "as_of": "2026-11-09",
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "party for Perry, Mary: the lists print only 'NP = Nonpartisan (indicated for nonpartisan offices only)' for this office, no party registration",
+          "where": "Clark County Election Department, Contests and Candidates in the 2026 Elections (Contests-Candidates-All-26.pdf, PDF page 5) and All Contests and Candidates, November 3, 2026 General Election (officesup-26g.pdf)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party registration of Mary Perry",
+          "where": "Nevada Secretary of State candidate list and candidate contact information (nvsos.gov, linked from the Clark County candidate-filing page): host blocked from the research environment (Cloudflare)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party, Democrat, Republican, registered",
+          "where": "Campaign site https://www.judgemaryperry.com (home page); Eighth Judicial District Court, Department P page (https://www.clarkcountycourts.us/departments/judicial/family-division/department-p/) and judicial departments list"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party affiliation (race shown as Nonpartisan)",
+          "where": "The Nevada Independent 2026 voter guide, Family Division Dept. P race page (https://thenevadaindependent.com/elections/2026/general/judicial/180 and /primary/judicial/180)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "party (the Oct. 16 article says only that judicial races are nonpartisan and names an endorsing PAC; no party registration stated)",
+          "where": "Nevada Current, 'Drama rules in Family Court race for Dept. P' (2026-04-21) and 'Disciplined judge defends family court seat against challenge from disciplined attorney' (2026-10-16)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Judge Mary Perry Department P party registration Democrat Republican",
+          "where": "Web search"
+        }
+      ]
+    }
+  },
   "ids": [],
   "links": {},
   "public_figure": true,
