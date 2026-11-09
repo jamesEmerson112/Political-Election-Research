@@ -81,6 +81,37 @@
         }
       ]
     },
+    "offices_held": {
+      "as_of": "2026-11-09",
+      "items": [],
+      "search_log": [
+        {
+          "date": "2026-11-09",
+          "query": "elected, appointed, office held",
+          "where": "Campaign site quinnfornv.com (About, Issues, Endorsements pages): describes jobs in corrections, EMS, firefighting and emergency services regulation, no elected or appointed public office"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn prior office",
+          "where": "Las Vegas Review-Journal, 'Assembly District 5: Hedrick, Quinn battle for Republican nod' (May 15, 2022), which calls both primary candidates political newcomers"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Kelly Quinn office held",
+          "where": "The Nevada Independent 2026 general election voter guide, Clark State Assembly page (third run for the seat after losing in 2022 and 2024)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "Quinn",
+          "where": "Nevada Legislative Manual 2025, Chapter I (members of the 2025 Legislature)"
+        },
+        {
+          "date": "2026-11-09",
+          "query": "\"Kelly Quinn\" Nevada Assembly 2024 Bigelow primary District 5 Las Vegas",
+          "where": "Web search (news)"
+        }
+      ]
+    },
     "party_registration": {
       "value": "Republican",
       "citations": [
