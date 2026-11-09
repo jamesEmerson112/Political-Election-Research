@@ -45,6 +45,21 @@
         }
       ]
     },
+    "occupation": {
+      "value": "Attorney, Clark County Public Defender's Office",
+      "citations": [
+        {
+          "source": "src:electgilliam4judge-com-3273733ddc",
+          "quote": "In 2021, I accepted an offer from the County to come back to the Public Defender’s Office, where I’ve been ever since.",
+          "locator": "Meet Dan Gilliam, paragraph 7 (campaign biography, the candidate's self-description; Nevada ballots print no ballot designation)"
+        },
+        {
+          "source": "src:electgilliam4judge-com-3273733ddc",
+          "quote": "Upon finishing my legal studies, I immediately moved to Las Vegas to begin my career as an attorney.  I started by working for the Clark County Public Defender’s Office in 2005",
+          "locator": "Meet Dan Gilliam, paragraph 4"
+        }
+      ]
+    },
     "party_registration": {
       "status": "not_found",
       "as_of": "2026-11-09",
