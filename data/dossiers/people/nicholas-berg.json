@@ -93,5 +93,36 @@
         ]
       }
     ]
+  },
+  "track_record": {
+    "as_of": "2026-11-09",
+    "items": [],
+    "search_log": [
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (enacted legislation, programs, budgets)",
+        "where": "GrowSF November 2026 questionnaire, Nicholas Berg (growsf.org/voter-guide/questionnaires/november-2026/nicholas-berg/): plans for the office; no record of an office held"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (enacted legislation, programs, budgets)",
+        "where": "San Francisco Voter Information Pamphlet, November 3, 2026 (media.api.sf.gov/documents/N26_EN_VIP.pdf), District 2 candidate statements: none printed for Nicholas Berg"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (enacted legislation, programs, budgets)",
+        "where": "sfgov.legistar.com Members list (People.aspx, current Board of Supervisors members): name not listed, so no sponsored legislation or votes"
+      },
+      {
+        "date": "2026-11-09",
+        "query": "documented outcomes in public office (enacted legislation, programs, budgets)",
+        "where": "Campaign site nicholasberg.com / www.nicholasberg.com: not reachable (DNS and tunnel errors)"
+      },
+      {
+        "date": "2026-11-04",
+        "query": "Nicholas Berg elected or appointed public office",
+        "where": "Profile research for offices_held (Voter Information Pamphlet, ballot designations list, GrowSF): no office held"
+      }
+    ]
   }
 }
